@@ -1,1 +1,696 @@
-{"title": "Plantago major", "herb_slug": "plantago-major", "herb_name_scientific": "Plantago major", "family_slug": "", "family_name": "", "url": "herbs/plantago-major", "lastmod": "2025-1-20", "herb_names_common": [{"name": "broad-leaved plantain", "mentions": 17, "confidence_score": 147, "total_score": 2499}, {"name": "waybread", "mentions": 20, "confidence_score": 139, "total_score": 2780}, {"name": "greater plantain", "mentions": 17, "confidence_score": 139, "total_score": 2363}, {"name": "great plantain", "mentions": 16, "confidence_score": 131, "total_score": 2096}, {"name": "big plantain", "mentions": 17, "confidence_score": 119, "total_score": 2023}, {"name": "rough plantain", "mentions": 16, "confidence_score": 112, "total_score": 1792}, {"name": "plantain", "mentions": 10, "confidence_score": 79, "total_score": 790}, {"name": "broadleaf plantain", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "common plantain", "mentions": 6, "confidence_score": 55, "total_score": 330}, {"name": "large plantain", "mentions": 10, "confidence_score": 55, "total_score": 550}, {"name": "buckthorn", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "buckhorn plantain", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "ragweed", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "white man's foot", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "rough-leaved plantain", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "wide-leaved plantain", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "waybroad", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "chanter", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "plantago", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "wild plantain", "mentions": 2, "confidence_score": 9, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 166, "total_score": 3320}], "what_description": "Plantago major is a perennial plant that belongs to the family Plantaginaceae. It has a rosette of leaves, 4-20 cm long, lance-shaped, and serrated, with a petiole of 1-10 cm. The leaves are glaucous and covered with fine hairs. The plant produces a tall spike of tiny, greenish or brownish flowers, 2-6 cm long, in summer, which are arranged in a dense raceme. The seeds are small, flat, and elliptical, 2-4 mm long, and are dispersed by wind and water.", "category_action": "demulcents", "ailments": [{"name": "diarrhea", "mentions": 17, "confidence_score": 138, "total_score": 2346}, {"name": "wound healing", "mentions": 14, "confidence_score": 126, "total_score": 1764}, {"name": "inflammation", "mentions": 13, "confidence_score": 113, "total_score": 1469}, {"name": "skin irritation", "mentions": 14, "confidence_score": 98, "total_score": 1372}, {"name": "digestive issues", "mentions": 11, "confidence_score": 81, "total_score": 891}, {"name": "bruises", "mentions": 9, "confidence_score": 68, "total_score": 612}, {"name": "insect bites", "mentions": 7, "confidence_score": 49, "total_score": 343}, {"name": "boils", "mentions": 8, "confidence_score": 48, "total_score": 384}, {"name": "wounds", "mentions": 5, "confidence_score": 44, "total_score": 220}, {"name": "varicose veins", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "constipation", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "urinary tract infections", "mentions": 7, "confidence_score": 38, "total_score": 266}, {"name": "respiratory infections", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "rheumatism", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "fever", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "eczema", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "fungal infections", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "burns", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "allergies", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "antibacterial properties", "mentions": 2, "confidence_score": 17, "total_score": 34}], "ailments_description": "The most common ailments you can heal with Plantago major are diarrhea, which is alleviated by its anthraquinone content, wound healing, facilitated by its high mucilage content, and inflammation, due to its anti-inflammatory flavonoids and phenolic acids. The plant also has properties that help with skin irritation, digestive issues, and constipation, by regulating bowel movements and preventing water loss from the gut. Its anti-inflammatory properties also aid in healing bruises, and the plant's antiseptic properties help with insect bites, boils, and wounds. Additionally, Plantago major has been shown to alleviate varicose veins by improving blood circulation, and its diuretic properties help with urinary tract infections. Furthermore, the plant's antibacterial properties help with respiratory infections, rheumatism, fever, eczema, fungal infections, and burns, while its antihistamine properties alleviate allergies.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 173, "total_score": 3460}, {"name": "antioxidant", "mentions": 20, "confidence_score": 161, "total_score": 3220}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 161, "total_score": 3220}, {"name": "hemostatic", "mentions": 15, "confidence_score": 118, "total_score": 1770}, {"name": "expectorant", "mentions": 12, "confidence_score": 83, "total_score": 996}, {"name": "antidiarrheal", "mentions": 11, "confidence_score": 75, "total_score": 825}, {"name": "wound healing", "mentions": 8, "confidence_score": 59, "total_score": 472}, {"name": "analgesic", "mentions": 10, "confidence_score": 51, "total_score": 510}, {"name": "antispasmodic", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "antiviral", "mentions": 9, "confidence_score": 42, "total_score": 378}, {"name": "antibacterial", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "wound-healing", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "diuretic", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "antifungal", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "anticancer", "mentions": 6, "confidence_score": 23, "total_score": 138}, {"name": "anti-diarrheal", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "cardioprotective", "mentions": 5, "confidence_score": 18, "total_score": 90}, {"name": "antiseptic", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "hepatoprotective", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "antihemorrhagic", "mentions": 2, "confidence_score": 13, "total_score": 26}], "properties_description": "The main therapeutic properties of Plantago major are its antimicrobial effects, which are attributed to the presence of phenolic acids and flavonoids that inhibit the growth of various microorganisms. Additionally, the plant's antioxidant properties, derived from the activity of ascorbic acid and other water-soluble vitamins, help protect cells from oxidative damage and maintain the body's redox balance. The anti-inflammatory properties of Plantago major are mediated by sesquiterpenes and other terpenoids, which reduce inflammation by inhibiting the production of pro-inflammatory cytokines. Furthermore, the plant's hemostatic properties are attributed to the presence of mucilages, which promote blood clotting and wound healing. The expectorant properties of Plantago major are due to the action of saponins, which help to loosen and clear mucus from the respiratory tract, making it easier to cough up.", "constituents": [{"name": "plantaginin", "mentions": 11, "confidence_score": 85, "total_score": 935}, {"name": "saponins", "mentions": 9, "confidence_score": 68, "total_score": 612}, {"name": "ursolic acid", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "aucubin", "mentions": 5, "confidence_score": 45, "total_score": 225}, {"name": "triterpenoids", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "apolypodins", "mentions": 5, "confidence_score": 44, "total_score": 220}, {"name": "apolenin", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "oleanolic acid", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "caffeic acid", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "quercetin", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "apolipoprotein a-i", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "plantamajoside", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "flavonoids", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "apolactone", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "inulin", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "beta-sitosterol", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "apolipoprotein", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "fatty acids", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "apolenin b", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "mucilage", "mentions": 2, "confidence_score": 18, "total_score": 36}], "constituents_description": "The most important healing constituents of Plantago major are plantaginin, saponins, ursolic acid, aucubin, and triterpenoids. Plantaginin, a triterpene ester, exhibits anti-inflammatory properties, while saponins, a group of compounds, display antimicrobial activities and can modulate the immune system. Ursolic acid, a pentacyclic triterpenoid, possesses anti-inflammatory and antioxidant properties, which contribute to its potential in treating various health conditions. Aucubin, a phenylethanoid glycoside, has been shown to have anti-inflammatory and antimicrobial effects, in addition to its ability to reduce oxidative stress. The triterpenoids present in Plantago major also demonstrate anti-inflammatory and antioxidant activities, which may contribute to the plant's potential in treating conditions such as arthritis and other inflammatory diseases.", "preparations": [{"name": "infusion", "mentions": 20, "confidence_score": 188, "total_score": 3760}, {"name": "tincture", "mentions": 20, "confidence_score": 149, "total_score": 2980}, {"name": "salve", "mentions": 20, "confidence_score": 126, "total_score": 2520}, {"name": "tea", "mentions": 16, "confidence_score": 112, "total_score": 1792}, {"name": "ointment", "mentions": 17, "confidence_score": 85, "total_score": 1445}, {"name": "poultice", "mentions": 17, "confidence_score": 83, "total_score": 1411}, {"name": "decoction", "mentions": 11, "confidence_score": 51, "total_score": 561}, {"name": "infused oil", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "suppository", "mentions": 4, "confidence_score": 9, "total_score": 36}, {"name": "lozenge", "mentions": 1, "confidence_score": 1, "total_score": 1}], "preparations_description": "The main herbal preparations of Plantago major are infusion, tincture, salve, tea, and ointment. Infusions and teas are prepared by steeping the leaves in hot water to extract mucilages and flavonoids, which are used to treat digestive issues, coughs, and respiratory problems. Tinctures are made by extracting the plant's bioactive compounds with a solvent like ethanol, and are used for their anti-inflammatory and antiseptic properties. Salves and ointments are topical preparations made by infusing the leaves in oils or fats to create a soothing and protective balm for skin irritations and wounds. These preparations are effective due to the plant's high mucilage content, which provides anti-inflammatory and protective properties.", "side_effects": [{"name": "induce nausea", "mentions": 7, "confidence_score": 52, "total_score": 364}, {"name": "exacerbate diarrhea", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "provoke abdominal pain", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "vomiting", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "develop allergic reaction", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "induce allergic reaction", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "cause diarrhea", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "exacerbate asthma", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "cause hypotension", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "trigger allergies", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "interact with medications", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "respiratory depression", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "suffer from nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "dizziness", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "show increased bleeding", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experience gastrointestinal upset", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "fatigue", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "trigger asthma attack", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "lead to hypoglycemia", "mentions": 2, "confidence_score": 14, "total_score": 28}], "side_effects_description": "The possible side effects of using Plantago major improperly include inducing nausea, exacerbating diarrhea, provoking abdominal pain, vomiting, and developing an allergic reaction. Plantago major contains sesquiterpene lactones, which can cause gastrointestinal irritation, leading to nausea and vomiting. The plant's high fiber content can exacerbate diarrhea, especially in individuals with pre-existing gastrointestinal issues. Allergic reactions to Plantago major are rare but may occur in individuals sensitive to the plant's allergenic compounds, such as sesquiterpene lactones and phenolic glycosides. Ingestion of the plant can also cause abdominal pain due to its emetic and purgative properties, which can lead to dehydration and electrolyte imbalance if not properly managed."}
+{
+    "title": "Plantago major",
+    "herb_slug": "plantago-major",
+    "herb_name_scientific": "Plantago major",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/plantago-major",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "broad-leaved plantain",
+            "mentions": 17,
+            "confidence_score": 147,
+            "total_score": 2499
+        },
+        {
+            "name": "waybread",
+            "mentions": 20,
+            "confidence_score": 139,
+            "total_score": 2780
+        },
+        {
+            "name": "greater plantain",
+            "mentions": 17,
+            "confidence_score": 139,
+            "total_score": 2363
+        },
+        {
+            "name": "great plantain",
+            "mentions": 16,
+            "confidence_score": 131,
+            "total_score": 2096
+        },
+        {
+            "name": "big plantain",
+            "mentions": 17,
+            "confidence_score": 119,
+            "total_score": 2023
+        },
+        {
+            "name": "rough plantain",
+            "mentions": 16,
+            "confidence_score": 112,
+            "total_score": 1792
+        },
+        {
+            "name": "plantain",
+            "mentions": 10,
+            "confidence_score": 79,
+            "total_score": 790
+        },
+        {
+            "name": "broadleaf plantain",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "common plantain",
+            "mentions": 6,
+            "confidence_score": 55,
+            "total_score": 330
+        },
+        {
+            "name": "large plantain",
+            "mentions": 10,
+            "confidence_score": 55,
+            "total_score": 550
+        },
+        {
+            "name": "buckthorn",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "buckhorn plantain",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "ragweed",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "white man's foot",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "rough-leaved plantain",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "wide-leaved plantain",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "waybroad",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "chanter",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "plantago",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "wild plantain",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 166,
+            "total_score": 3320
+        }
+    ],
+    "what_description": "Plantago major is a perennial plant that belongs to the family Plantaginaceae. It has a rosette of leaves, 4-20 cm long, lance-shaped, and serrated, with a petiole of 1-10 cm. The leaves are glaucous and covered with fine hairs. The plant produces a tall spike of tiny, greenish or brownish flowers, 2-6 cm long, in summer, which are arranged in a dense raceme. The seeds are small, flat, and elliptical, 2-4 mm long, and are dispersed by wind and water.",
+    "category_action": "demulcents",
+    "ailments": [
+        {
+            "name": "diarrhea",
+            "mentions": 17,
+            "confidence_score": 138,
+            "total_score": 2346
+        },
+        {
+            "name": "wound healing",
+            "mentions": 14,
+            "confidence_score": 126,
+            "total_score": 1764
+        },
+        {
+            "name": "inflammation",
+            "mentions": 13,
+            "confidence_score": 113,
+            "total_score": 1469
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 14,
+            "confidence_score": 98,
+            "total_score": 1372
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 11,
+            "confidence_score": 81,
+            "total_score": 891
+        },
+        {
+            "name": "bruises",
+            "mentions": 9,
+            "confidence_score": 68,
+            "total_score": 612
+        },
+        {
+            "name": "insect bites",
+            "mentions": 7,
+            "confidence_score": 49,
+            "total_score": 343
+        },
+        {
+            "name": "boils",
+            "mentions": 8,
+            "confidence_score": 48,
+            "total_score": 384
+        },
+        {
+            "name": "wounds",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        },
+        {
+            "name": "varicose veins",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "constipation",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "urinary tract infections",
+            "mentions": 7,
+            "confidence_score": 38,
+            "total_score": 266
+        },
+        {
+            "name": "respiratory infections",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "fever",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "eczema",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "burns",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "allergies",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "antibacterial properties",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Plantago major are diarrhea, which is alleviated by its anthraquinone content, wound healing, facilitated by its high mucilage content, and inflammation, due to its anti-inflammatory flavonoids and phenolic acids. The plant also has properties that help with skin irritation, digestive issues, and constipation, by regulating bowel movements and preventing water loss from the gut. Its anti-inflammatory properties also aid in healing bruises, and the plant's antiseptic properties help with insect bites, boils, and wounds. Additionally, Plantago major has been shown to alleviate varicose veins by improving blood circulation, and its diuretic properties help with urinary tract infections. Furthermore, the plant's antibacterial properties help with respiratory infections, rheumatism, fever, eczema, fungal infections, and burns, while its antihistamine properties alleviate allergies.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 173,
+            "total_score": 3460
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 15,
+            "confidence_score": 118,
+            "total_score": 1770
+        },
+        {
+            "name": "expectorant",
+            "mentions": 12,
+            "confidence_score": 83,
+            "total_score": 996
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 11,
+            "confidence_score": 75,
+            "total_score": 825
+        },
+        {
+            "name": "wound healing",
+            "mentions": 8,
+            "confidence_score": 59,
+            "total_score": 472
+        },
+        {
+            "name": "analgesic",
+            "mentions": 10,
+            "confidence_score": 51,
+            "total_score": 510
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "antiviral",
+            "mentions": 9,
+            "confidence_score": 42,
+            "total_score": 378
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "wound-healing",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "diuretic",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "antifungal",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 23,
+            "total_score": 138
+        },
+        {
+            "name": "anti-diarrheal",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 5,
+            "confidence_score": 18,
+            "total_score": 90
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "antihemorrhagic",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Plantago major are its antimicrobial effects, which are attributed to the presence of phenolic acids and flavonoids that inhibit the growth of various microorganisms. Additionally, the plant's antioxidant properties, derived from the activity of ascorbic acid and other water-soluble vitamins, help protect cells from oxidative damage and maintain the body's redox balance. The anti-inflammatory properties of Plantago major are mediated by sesquiterpenes and other terpenoids, which reduce inflammation by inhibiting the production of pro-inflammatory cytokines. Furthermore, the plant's hemostatic properties are attributed to the presence of mucilages, which promote blood clotting and wound healing. The expectorant properties of Plantago major are due to the action of saponins, which help to loosen and clear mucus from the respiratory tract, making it easier to cough up.",
+    "constituents": [
+        {
+            "name": "plantaginin",
+            "mentions": 11,
+            "confidence_score": 85,
+            "total_score": 935
+        },
+        {
+            "name": "saponins",
+            "mentions": 9,
+            "confidence_score": 68,
+            "total_score": 612
+        },
+        {
+            "name": "ursolic acid",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "aucubin",
+            "mentions": 5,
+            "confidence_score": 45,
+            "total_score": 225
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "apolypodins",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        },
+        {
+            "name": "apolenin",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "quercetin",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "apolipoprotein a-i",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "plantamajoside",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "apolactone",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "inulin",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "beta-sitosterol",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "apolipoprotein",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "apolenin b",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "mucilage",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Plantago major are plantaginin, saponins, ursolic acid, aucubin, and triterpenoids. Plantaginin, a triterpene ester, exhibits anti-inflammatory properties, while saponins, a group of compounds, display antimicrobial activities and can modulate the immune system. Ursolic acid, a pentacyclic triterpenoid, possesses anti-inflammatory and antioxidant properties, which contribute to its potential in treating various health conditions. Aucubin, a phenylethanoid glycoside, has been shown to have anti-inflammatory and antimicrobial effects, in addition to its ability to reduce oxidative stress. The triterpenoids present in Plantago major also demonstrate anti-inflammatory and antioxidant activities, which may contribute to the plant's potential in treating conditions such as arthritis and other inflammatory diseases.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 20,
+            "confidence_score": 188,
+            "total_score": 3760
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 149,
+            "total_score": 2980
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 126,
+            "total_score": 2520
+        },
+        {
+            "name": "tea",
+            "mentions": 16,
+            "confidence_score": 112,
+            "total_score": 1792
+        },
+        {
+            "name": "ointment",
+            "mentions": 17,
+            "confidence_score": 85,
+            "total_score": 1445
+        },
+        {
+            "name": "poultice",
+            "mentions": 17,
+            "confidence_score": 83,
+            "total_score": 1411
+        },
+        {
+            "name": "decoction",
+            "mentions": 11,
+            "confidence_score": 51,
+            "total_score": 561
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "suppository",
+            "mentions": 4,
+            "confidence_score": 9,
+            "total_score": 36
+        },
+        {
+            "name": "lozenge",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Plantago major are infusion, tincture, salve, tea, and ointment. Infusions and teas are prepared by steeping the leaves in hot water to extract mucilages and flavonoids, which are used to treat digestive issues, coughs, and respiratory problems. Tinctures are made by extracting the plant's bioactive compounds with a solvent like ethanol, and are used for their anti-inflammatory and antiseptic properties. Salves and ointments are topical preparations made by infusing the leaves in oils or fats to create a soothing and protective balm for skin irritations and wounds. These preparations are effective due to the plant's high mucilage content, which provides anti-inflammatory and protective properties.",
+    "side_effects": [
+        {
+            "name": "induce nausea",
+            "mentions": 7,
+            "confidence_score": 52,
+            "total_score": 364
+        },
+        {
+            "name": "exacerbate diarrhea",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "provoke abdominal pain",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "vomiting",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "induce allergic reaction",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "exacerbate asthma",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "cause hypotension",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "trigger allergies",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "respiratory depression",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "suffer from nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "dizziness",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "show increased bleeding",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experience gastrointestinal upset",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "fatigue",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "trigger asthma attack",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "lead to hypoglycemia",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Plantago major improperly include inducing nausea, exacerbating diarrhea, provoking abdominal pain, vomiting, and developing an allergic reaction. Plantago major contains sesquiterpene lactones, which can cause gastrointestinal irritation, leading to nausea and vomiting. The plant's high fiber content can exacerbate diarrhea, especially in individuals with pre-existing gastrointestinal issues. Allergic reactions to Plantago major are rare but may occur in individuals sensitive to the plant's allergenic compounds, such as sesquiterpene lactones and phenolic glycosides. Ingestion of the plant can also cause abdominal pain due to its emetic and purgative properties, which can lead to dehydration and electrolyte imbalance if not properly managed."
+}

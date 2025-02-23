@@ -1,1 +1,761 @@
-{"title": "Camellia thea", "herb_slug": "camellia-thea", "herb_name_scientific": "Camellia thea", "family_slug": "theaceae", "family_name": "Theaceae", "url": "herbs/camellia-thea", "lastmod": "2025-1-10", "herb_names_common": [{"name": "tea plant", "mentions": 24, "confidence_score": 216, "total_score": 5184}, {"name": "green tea", "mentions": 11, "confidence_score": 80, "total_score": 880}, {"name": "camellia tea", "mentions": 12, "confidence_score": 75, "total_score": 900}, {"name": "tea camellia", "mentions": 10, "confidence_score": 59, "total_score": 590}, {"name": "japanese tea", "mentions": 11, "confidence_score": 55, "total_score": 605}, {"name": "camellia sinensis", "mentions": 13, "confidence_score": 54, "total_score": 702}, {"name": "assam tea bush", "mentions": 10, "confidence_score": 49, "total_score": 490}, {"name": "camellia thea", "mentions": 17, "confidence_score": 48, "total_score": 816}, {"name": "camellia plant", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "tea herb", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "green tea plant", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "black tea plant", "mentions": 8, "confidence_score": 31, "total_score": 248}, {"name": "camellia sinensis var. thea", "mentions": 6, "confidence_score": 30, "total_score": 180}, {"name": "chinese tea camellia", "mentions": 7, "confidence_score": 28, "total_score": 196}, {"name": "japanese green tea", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "japanese camellia", "mentions": 6, "confidence_score": 23, "total_score": 138}, {"name": "chinese camellia", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "white tea plant", "mentions": 4, "confidence_score": 10, "total_score": 40}, {"name": "camellia tea plant", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "camellia sinensis var. assamica tea", "mentions": 2, "confidence_score": 9, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 187, "total_score": 3740}], "what_description": "Camellia thea is a species of flowering plant in the family Theaceae. It is an evergreen shrub or small tree that grows up to 5 meters in height. Its leaves are elliptic to ovate in shape, 6-10 cm long, and 3-6 cm wide, with a leathery texture and serrated margins. The plant produces showy, fragrant flowers that are 4-6 cm in diameter, with 5 petals and a prominent stamen. Camellia thea is native to China and Taiwan, where it grows in mountainous regions at elevations of 1000-3000 meters.", "category_action": "cardiac", "ailments": [{"name": "inflammation", "mentions": 18, "confidence_score": 141, "total_score": 2538}, {"name": "high blood pressure", "mentions": 14, "confidence_score": 136, "total_score": 1904}, {"name": "cardiovascular disease", "mentions": 15, "confidence_score": 117, "total_score": 1755}, {"name": "anxiety", "mentions": 15, "confidence_score": 110, "total_score": 1650}, {"name": "cancer prevention", "mentions": 14, "confidence_score": 100, "total_score": 1400}, {"name": "stress", "mentions": 13, "confidence_score": 97, "total_score": 1261}, {"name": "digestive issues", "mentions": 12, "confidence_score": 81, "total_score": 972}, {"name": "type 2 diabetes", "mentions": 9, "confidence_score": 66, "total_score": 594}, {"name": "depression", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "sleep disorders", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "osteoporosis", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "immune system", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "hypertension", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "fatigue", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "arthritis", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "insomnia", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "antioxidant activity", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "antibacterial", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "antiviral properties", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "oxidative stress", "mentions": 2, "confidence_score": 16, "total_score": 32}], "ailments_description": "The most common ailments you can heal with Camellia thea are inflammation, high blood pressure, and cardiovascular disease, as the plant's flavonoids and catechins have been shown to reduce inflammation and improve cardiovascular health by lowering systolic blood pressure and triglycerides. Camellia thea also offers anxiety relief, possibly due to its anxiolytic properties, while its cancer prevention properties are attributed to its ability to inhibit cancer cell growth and induce apoptosis. The plant's antioxidant activity, coupled with its antibacterial and antiviral properties, helps alleviate stress, digestive issues, type 2 diabetes, and depression by regulating gut microbiota and reducing oxidative stress. Furthermore, Camellia thea has been found to improve sleep disorders, osteoporosis, immune system function, and fatigue by increasing bone density and enhancing immune cell activity. Additionally, the plant's ability to reduce hypertension, alleviate arthritis, and regulate oxidative stress makes it a valuable resource for insomnia, oxidative stress, and fatigue prevention.", "properties": [{"name": "antioxidant", "mentions": 21, "confidence_score": 190, "total_score": 3990}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 160, "total_score": 3200}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 156, "total_score": 3120}, {"name": "cardioprotective", "mentions": 20, "confidence_score": 146, "total_score": 2920}, {"name": "neuroprotective", "mentions": 18, "confidence_score": 113, "total_score": 2034}, {"name": "antiviral", "mentions": 15, "confidence_score": 87, "total_score": 1305}, {"name": "antihypertensive", "mentions": 9, "confidence_score": 56, "total_score": 504}, {"name": "anticancer", "mentions": 11, "confidence_score": 56, "total_score": 616}, {"name": "analgesic", "mentions": 7, "confidence_score": 41, "total_score": 287}, {"name": "immunomodulatory", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "catechin content", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "hepatoprotective", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "hypotensive", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "antidiabetic", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "anti-cancer", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "antioxidant (catechin)", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "anti-diabetic", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "immune system modulator", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "antidiarrheal", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "cytotoxic", "mentions": 2, "confidence_score": 10, "total_score": 20}], "properties_description": "The main therapeutic properties of Camellia thea are its cardioprotective effects, which are attributed to the presence of flavonoids, such as quercetin and kaempferol, that help to reduce the risk of cardiovascular diseases by improving lipid profiles and preventing platelet aggregation. Antioxidant properties are also prominent, with the ability to neutralize free radicals and prevent oxidative stress, which is a major contributor to various diseases. The plant's anti-inflammatory properties are mediated by saponins, which inhibit the production of pro-inflammatory cytokines and enzymes, thereby reducing inflammation and alleviating symptoms. Camellia thea's antimicrobial properties are due to the volatile oils, such as linalool and limonene, that exhibit bactericidal and fungicidal activities, making it effective against a range of pathogens. Additionally, its neuroprotective effects are associated with the presence of phenolic acids, which have been shown to scavenge free radicals and reduce neuroinflammation, potentially offering protection against neurodegenerative diseases.", "constituents": [{"name": "epigallocatechin gallate (egcg)", "mentions": 23, "confidence_score": 187, "total_score": 4301}, {"name": "catechin", "mentions": 16, "confidence_score": 145, "total_score": 2320}, {"name": "l-theanine", "mentions": 17, "confidence_score": 145, "total_score": 2465}, {"name": "epicatechin", "mentions": 15, "confidence_score": 120, "total_score": 1800}, {"name": "gallic acid", "mentions": 14, "confidence_score": 101, "total_score": 1414}, {"name": "theaflavin", "mentions": 10, "confidence_score": 89, "total_score": 890}, {"name": "thearubigin", "mentions": 10, "confidence_score": 86, "total_score": 860}, {"name": "quercetin", "mentions": 11, "confidence_score": 77, "total_score": 847}, {"name": "kaempferol", "mentions": 12, "confidence_score": 76, "total_score": 912}, {"name": "theaflavins", "mentions": 8, "confidence_score": 74, "total_score": 592}, {"name": "thearubigins", "mentions": 8, "confidence_score": 70, "total_score": 560}, {"name": "caffeine", "mentions": 8, "confidence_score": 51, "total_score": 408}, {"name": "quinic acid", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "chlorogenic acid", "mentions": 7, "confidence_score": 41, "total_score": 287}, {"name": "camellianin a", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "camellianin b", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "theogallin", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "catechins", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "catechins (catechin, gallocatechin, epigallocatechin, epicatechin, epigallocatechin gallate)", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "methylxanthine", "mentions": 1, "confidence_score": 7, "total_score": 7}], "constituents_description": "The most important healing constituents of Camellia thea are epigallocatechin gallate (EGCG), catechin, L-theanine, epicatechin, and gallic acid. These constituents are responsible for Camellia thea's antioxidant, anti-inflammatory, and neuroprotective properties due to their ability to scavenge free radicals, inhibit pro-inflammatory enzymes, and modulate neurotransmitter activity. EGCG, the most abundant constituent, has been shown to inhibit cancer cell growth, improve cardiovascular health, and reduce cognitive decline by inhibiting amyloid-beta aggregation. L-theanine, on the other hand, promotes relaxation and reduces stress levels by increasing GABA and dopamine production, while catechin, epicatechin, and gallic acid contribute to Camellia thea's antimicrobial and anti-cancer properties. The combined effects of these constituents make Camellia thea a valuable natural remedy for various health conditions, including cardiovascular disease, cancer, and neurodegenerative disorders.", "preparations": [{"name": "tea", "mentions": 10, "confidence_score": 100, "total_score": 1000}, {"name": "matcha powder", "mentions": 10, "confidence_score": 97, "total_score": 970}, {"name": "infusion", "mentions": 10, "confidence_score": 89, "total_score": 890}, {"name": "tisane", "mentions": 10, "confidence_score": 76, "total_score": 760}, {"name": "decoction", "mentions": 10, "confidence_score": 69, "total_score": 690}, {"name": "oolong tea", "mentions": 9, "confidence_score": 64, "total_score": 576}, {"name": "green tea ice cubes", "mentions": 7, "confidence_score": 62, "total_score": 434}, {"name": "white tea", "mentions": 8, "confidence_score": 56, "total_score": 448}, {"name": "sencha", "mentions": 6, "confidence_score": 54, "total_score": 324}, {"name": "salve", "mentions": 9, "confidence_score": 41, "total_score": 369}, {"name": "yellow tea", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "tincture", "mentions": 8, "confidence_score": 27, "total_score": 216}, {"name": "infused oil", "mentions": 7, "confidence_score": 25, "total_score": 175}, {"name": "cold brew", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "black tea", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "tea infusions", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "pu-erh tea", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "ointment", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "loose leaf tea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "gyokuro", "mentions": 1, "confidence_score": 10, "total_score": 10}], "preparations_description": "The main herbal preparations of Camellia thea are tea, matcha powder, infusion, tisane, and decoction. Tea is the most widely consumed preparation made by infusing the leaves in hot water, rich in antioxidants like theaflavins and thearubigins. Matcha powder is a finely ground powder made from green tea leaves, containing the same benefits as tea but with a more concentrated dose of catechins and L-theanine. Infusion and tisane are similar to tea but differ in the steeping time and sometimes the addition of herbs for added flavor and medicinal properties, while decoction involves steeping the tea leaves in boiling water for a longer period to release more of the soluble compounds. These preparations are used for their potential health benefits, including reducing inflammation, improving cardiovascular health, and enhancing cognitive function due to the high content of polyphenols and other bioactive compounds.", "side_effects": [{"name": "experiences nausea", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "experiences hypotension", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "experiences dizziness", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "experiences diarrhea", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "develops diarrhea", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "develops headaches", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "dizziness", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "develops insomnia", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "experiences allergic reactions", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "abuse", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "suffers liver damage", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "exhibits dizziness", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "experiences renal failure", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "vomiting", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "suffers nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develops seizures", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "headache", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "develops thrombocytopenia", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "shows increased heart rate", "mentions": 2, "confidence_score": 14, "total_score": 28}], "side_effects_description": "The possible side effects of using Camellia thea improperly include experiencing nausea, hypotension, dizziness, and diarrhea. These side effects occur when the tea is consumed in excessive amounts or without adequate hydration, leading to an imbalance of catechins, particularly epigallocatechin gallate (EGCG), which can cause gastrointestinal upset and cardiovascular instability. Nausea and dizziness may arise from the sudden drop in blood pressure, while diarrhea is a result of the increased catechin levels irritating the gastrointestinal tract. Hypotension, or low blood pressure, may also be caused by the vasodilatory effects of catechins, which can lead to inadequate blood flow to vital organs. The severity of these side effects can be mitigated by proper dosage, hydration, and individual tolerance.", "uses": "Camellia thea is a plant used in traditional medicine, particularly in Chinese culture. The plant has been used to treat various health issues, including fever, sore throats, and respiratory problems. Its leaves and flowers are rich in antioxidants and have anti-inflammatory properties. Camellia thea is also used to support digestion and as a natural remedy for colds and flu. In addition, it has been studied for its potential to lower blood pressure and cholesterol levels.", "taxonomy": "Camellia thea, a species of evergreen flowering plant, is classified in the family Theaceae, commonly known as the tea family. This classification is due to its close relationship with other tea plants and its ability to produce tea leaves. Camellia thea is a member of the genus Camellia, which consists of over 200 species of flowering plants. The species Camellia thea is native to China and is often considered to be a variety of Camellia sinensis, the plant from which tea is harvested. However, the exact classification of Camellia thea is still a subject of debate among botanists.", "benefits": "Camellia thea, also known as the Camellia sinensis tea plant, has been consumed for centuries for its numerous health benefits. It is rich in antioxidants, which help protect the body against free radicals and oxidative stress. Drinking Camellia thea tea has been shown to improve heart health by reducing blood pressure and cholesterol levels. Additionally, its high levels of L-theanine promote a sense of calm and relaxation, making it a popular choice for those seeking stress relief. The tea plant's anti-inflammatory properties also aid in reducing inflammation and improving overall well-being.", "parts": "Camellia thea, also known as the tea camellia or the tea plant, is a species used for its medicinal and culinary purposes. The leaves of the Camellia thea plant are primarily used in traditional medicine and as a source of caffeine. The leaves contain a number of bioactive compounds, including flavonoids, alkaloids, and saponins, which have been reported to have various health benefits. The leaves have been traditionally used in Chinese and Japanese medicine to aid in digestion and as an anti-inflammatory agent. The leaves have also been used to treat various health conditions, including fever, headaches, and respiratory issues.", "intro": "Camellia thea, commonly known as the tea plant, is a species of flowering plant in the tea family (Theaceae) native to Asia. The health benefits of Camellia thea include its ability to improve cardiovascular health, reduce inflammation, and aid in weight management due to its high content of antioxidants and catechins. The bioactive constituents of Camellia thea include catechins (epigallocatechin gallate, epigallocatechin, and epicatechin), theaflavins, and thearubigins, which are responsible for its medicinal properties. The most common herbal preparations made with Camellia thea are tea infusions, known as green tea, which can be consumed hot or cold, and are often supplemented with other herbs for enhanced health benefits."}
+{
+    "title": "Camellia thea",
+    "herb_slug": "camellia-thea",
+    "herb_name_scientific": "Camellia thea",
+    "family_slug": "theaceae",
+    "family_name": "Theaceae",
+    "url": "herbs/camellia-thea",
+    "lastmod": "2025-1-10",
+    "herb_names_common": [
+        {
+            "name": "tea plant",
+            "mentions": 24,
+            "confidence_score": 216,
+            "total_score": 5184
+        },
+        {
+            "name": "green tea",
+            "mentions": 11,
+            "confidence_score": 80,
+            "total_score": 880
+        },
+        {
+            "name": "camellia tea",
+            "mentions": 12,
+            "confidence_score": 75,
+            "total_score": 900
+        },
+        {
+            "name": "tea camellia",
+            "mentions": 10,
+            "confidence_score": 59,
+            "total_score": 590
+        },
+        {
+            "name": "japanese tea",
+            "mentions": 11,
+            "confidence_score": 55,
+            "total_score": 605
+        },
+        {
+            "name": "camellia sinensis",
+            "mentions": 13,
+            "confidence_score": 54,
+            "total_score": 702
+        },
+        {
+            "name": "assam tea bush",
+            "mentions": 10,
+            "confidence_score": 49,
+            "total_score": 490
+        },
+        {
+            "name": "camellia thea",
+            "mentions": 17,
+            "confidence_score": 48,
+            "total_score": 816
+        },
+        {
+            "name": "camellia plant",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "tea herb",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "green tea plant",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "black tea plant",
+            "mentions": 8,
+            "confidence_score": 31,
+            "total_score": 248
+        },
+        {
+            "name": "camellia sinensis var. thea",
+            "mentions": 6,
+            "confidence_score": 30,
+            "total_score": 180
+        },
+        {
+            "name": "chinese tea camellia",
+            "mentions": 7,
+            "confidence_score": 28,
+            "total_score": 196
+        },
+        {
+            "name": "japanese green tea",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "japanese camellia",
+            "mentions": 6,
+            "confidence_score": 23,
+            "total_score": 138
+        },
+        {
+            "name": "chinese camellia",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "white tea plant",
+            "mentions": 4,
+            "confidence_score": 10,
+            "total_score": 40
+        },
+        {
+            "name": "camellia tea plant",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "camellia sinensis var. assamica tea",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 187,
+            "total_score": 3740
+        }
+    ],
+    "what_description": "Camellia thea is a species of flowering plant in the family Theaceae. It is an evergreen shrub or small tree that grows up to 5 meters in height. Its leaves are elliptic to ovate in shape, 6-10 cm long, and 3-6 cm wide, with a leathery texture and serrated margins. The plant produces showy, fragrant flowers that are 4-6 cm in diameter, with 5 petals and a prominent stamen. Camellia thea is native to China and Taiwan, where it grows in mountainous regions at elevations of 1000-3000 meters.",
+    "category_action": "cardiac",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 18,
+            "confidence_score": 141,
+            "total_score": 2538
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 14,
+            "confidence_score": 136,
+            "total_score": 1904
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 15,
+            "confidence_score": 117,
+            "total_score": 1755
+        },
+        {
+            "name": "anxiety",
+            "mentions": 15,
+            "confidence_score": 110,
+            "total_score": 1650
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 14,
+            "confidence_score": 100,
+            "total_score": 1400
+        },
+        {
+            "name": "stress",
+            "mentions": 13,
+            "confidence_score": 97,
+            "total_score": 1261
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 12,
+            "confidence_score": 81,
+            "total_score": 972
+        },
+        {
+            "name": "type 2 diabetes",
+            "mentions": 9,
+            "confidence_score": 66,
+            "total_score": 594
+        },
+        {
+            "name": "depression",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "sleep disorders",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "osteoporosis",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "immune system",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "hypertension",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "fatigue",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "arthritis",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "insomnia",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "antioxidant activity",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "antiviral properties",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "oxidative stress",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Camellia thea are inflammation, high blood pressure, and cardiovascular disease, as the plant's flavonoids and catechins have been shown to reduce inflammation and improve cardiovascular health by lowering systolic blood pressure and triglycerides. Camellia thea also offers anxiety relief, possibly due to its anxiolytic properties, while its cancer prevention properties are attributed to its ability to inhibit cancer cell growth and induce apoptosis. The plant's antioxidant activity, coupled with its antibacterial and antiviral properties, helps alleviate stress, digestive issues, type 2 diabetes, and depression by regulating gut microbiota and reducing oxidative stress. Furthermore, Camellia thea has been found to improve sleep disorders, osteoporosis, immune system function, and fatigue by increasing bone density and enhancing immune cell activity. Additionally, the plant's ability to reduce hypertension, alleviate arthritis, and regulate oxidative stress makes it a valuable resource for insomnia, oxidative stress, and fatigue prevention.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 21,
+            "confidence_score": 190,
+            "total_score": 3990
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 160,
+            "total_score": 3200
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 156,
+            "total_score": 3120
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 20,
+            "confidence_score": 146,
+            "total_score": 2920
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 18,
+            "confidence_score": 113,
+            "total_score": 2034
+        },
+        {
+            "name": "antiviral",
+            "mentions": 15,
+            "confidence_score": 87,
+            "total_score": 1305
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 9,
+            "confidence_score": 56,
+            "total_score": 504
+        },
+        {
+            "name": "anticancer",
+            "mentions": 11,
+            "confidence_score": 56,
+            "total_score": 616
+        },
+        {
+            "name": "analgesic",
+            "mentions": 7,
+            "confidence_score": 41,
+            "total_score": 287
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "catechin content",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "anti-cancer",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "antioxidant (catechin)",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "anti-diabetic",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "immune system modulator",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Camellia thea are its cardioprotective effects, which are attributed to the presence of flavonoids, such as quercetin and kaempferol, that help to reduce the risk of cardiovascular diseases by improving lipid profiles and preventing platelet aggregation. Antioxidant properties are also prominent, with the ability to neutralize free radicals and prevent oxidative stress, which is a major contributor to various diseases. The plant's anti-inflammatory properties are mediated by saponins, which inhibit the production of pro-inflammatory cytokines and enzymes, thereby reducing inflammation and alleviating symptoms. Camellia thea's antimicrobial properties are due to the volatile oils, such as linalool and limonene, that exhibit bactericidal and fungicidal activities, making it effective against a range of pathogens. Additionally, its neuroprotective effects are associated with the presence of phenolic acids, which have been shown to scavenge free radicals and reduce neuroinflammation, potentially offering protection against neurodegenerative diseases.",
+    "constituents": [
+        {
+            "name": "epigallocatechin gallate (egcg)",
+            "mentions": 23,
+            "confidence_score": 187,
+            "total_score": 4301
+        },
+        {
+            "name": "catechin",
+            "mentions": 16,
+            "confidence_score": 145,
+            "total_score": 2320
+        },
+        {
+            "name": "l-theanine",
+            "mentions": 17,
+            "confidence_score": 145,
+            "total_score": 2465
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 15,
+            "confidence_score": 120,
+            "total_score": 1800
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 14,
+            "confidence_score": 101,
+            "total_score": 1414
+        },
+        {
+            "name": "theaflavin",
+            "mentions": 10,
+            "confidence_score": 89,
+            "total_score": 890
+        },
+        {
+            "name": "thearubigin",
+            "mentions": 10,
+            "confidence_score": 86,
+            "total_score": 860
+        },
+        {
+            "name": "quercetin",
+            "mentions": 11,
+            "confidence_score": 77,
+            "total_score": 847
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 12,
+            "confidence_score": 76,
+            "total_score": 912
+        },
+        {
+            "name": "theaflavins",
+            "mentions": 8,
+            "confidence_score": 74,
+            "total_score": 592
+        },
+        {
+            "name": "thearubigins",
+            "mentions": 8,
+            "confidence_score": 70,
+            "total_score": 560
+        },
+        {
+            "name": "caffeine",
+            "mentions": 8,
+            "confidence_score": 51,
+            "total_score": 408
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "chlorogenic acid",
+            "mentions": 7,
+            "confidence_score": 41,
+            "total_score": 287
+        },
+        {
+            "name": "camellianin a",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "camellianin b",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "theogallin",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "catechins",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "catechins (catechin, gallocatechin, epigallocatechin, epicatechin, epigallocatechin gallate)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "methylxanthine",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Camellia thea are epigallocatechin gallate (EGCG), catechin, L-theanine, epicatechin, and gallic acid. These constituents are responsible for Camellia thea's antioxidant, anti-inflammatory, and neuroprotective properties due to their ability to scavenge free radicals, inhibit pro-inflammatory enzymes, and modulate neurotransmitter activity. EGCG, the most abundant constituent, has been shown to inhibit cancer cell growth, improve cardiovascular health, and reduce cognitive decline by inhibiting amyloid-beta aggregation. L-theanine, on the other hand, promotes relaxation and reduces stress levels by increasing GABA and dopamine production, while catechin, epicatechin, and gallic acid contribute to Camellia thea's antimicrobial and anti-cancer properties. The combined effects of these constituents make Camellia thea a valuable natural remedy for various health conditions, including cardiovascular disease, cancer, and neurodegenerative disorders.",
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 10,
+            "confidence_score": 100,
+            "total_score": 1000
+        },
+        {
+            "name": "matcha powder",
+            "mentions": 10,
+            "confidence_score": 97,
+            "total_score": 970
+        },
+        {
+            "name": "infusion",
+            "mentions": 10,
+            "confidence_score": 89,
+            "total_score": 890
+        },
+        {
+            "name": "tisane",
+            "mentions": 10,
+            "confidence_score": 76,
+            "total_score": 760
+        },
+        {
+            "name": "decoction",
+            "mentions": 10,
+            "confidence_score": 69,
+            "total_score": 690
+        },
+        {
+            "name": "oolong tea",
+            "mentions": 9,
+            "confidence_score": 64,
+            "total_score": 576
+        },
+        {
+            "name": "green tea ice cubes",
+            "mentions": 7,
+            "confidence_score": 62,
+            "total_score": 434
+        },
+        {
+            "name": "white tea",
+            "mentions": 8,
+            "confidence_score": 56,
+            "total_score": 448
+        },
+        {
+            "name": "sencha",
+            "mentions": 6,
+            "confidence_score": 54,
+            "total_score": 324
+        },
+        {
+            "name": "salve",
+            "mentions": 9,
+            "confidence_score": 41,
+            "total_score": 369
+        },
+        {
+            "name": "yellow tea",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "tincture",
+            "mentions": 8,
+            "confidence_score": 27,
+            "total_score": 216
+        },
+        {
+            "name": "infused oil",
+            "mentions": 7,
+            "confidence_score": 25,
+            "total_score": 175
+        },
+        {
+            "name": "cold brew",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "black tea",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "tea infusions",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "pu-erh tea",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "ointment",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "loose leaf tea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "gyokuro",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Camellia thea are tea, matcha powder, infusion, tisane, and decoction. Tea is the most widely consumed preparation made by infusing the leaves in hot water, rich in antioxidants like theaflavins and thearubigins. Matcha powder is a finely ground powder made from green tea leaves, containing the same benefits as tea but with a more concentrated dose of catechins and L-theanine. Infusion and tisane are similar to tea but differ in the steeping time and sometimes the addition of herbs for added flavor and medicinal properties, while decoction involves steeping the tea leaves in boiling water for a longer period to release more of the soluble compounds. These preparations are used for their potential health benefits, including reducing inflammation, improving cardiovascular health, and enhancing cognitive function due to the high content of polyphenols and other bioactive compounds.",
+    "side_effects": [
+        {
+            "name": "experiences nausea",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "experiences hypotension",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "experiences diarrhea",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "develops headaches",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "dizziness",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "develops insomnia",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "abuse",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "suffers liver damage",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "exhibits dizziness",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "experiences renal failure",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "vomiting",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "suffers nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develops seizures",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "headache",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "develops thrombocytopenia",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "shows increased heart rate",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Camellia thea improperly include experiencing nausea, hypotension, dizziness, and diarrhea. These side effects occur when the tea is consumed in excessive amounts or without adequate hydration, leading to an imbalance of catechins, particularly epigallocatechin gallate (EGCG), which can cause gastrointestinal upset and cardiovascular instability. Nausea and dizziness may arise from the sudden drop in blood pressure, while diarrhea is a result of the increased catechin levels irritating the gastrointestinal tract. Hypotension, or low blood pressure, may also be caused by the vasodilatory effects of catechins, which can lead to inadequate blood flow to vital organs. The severity of these side effects can be mitigated by proper dosage, hydration, and individual tolerance.",
+    "uses": "Camellia thea is a plant used in traditional medicine, particularly in Chinese culture. The plant has been used to treat various health issues, including fever, sore throats, and respiratory problems. Its leaves and flowers are rich in antioxidants and have anti-inflammatory properties. Camellia thea is also used to support digestion and as a natural remedy for colds and flu. In addition, it has been studied for its potential to lower blood pressure and cholesterol levels.",
+    "taxonomy": "Camellia thea, a species of evergreen flowering plant, is classified in the family Theaceae, commonly known as the tea family. This classification is due to its close relationship with other tea plants and its ability to produce tea leaves. Camellia thea is a member of the genus Camellia, which consists of over 200 species of flowering plants. The species Camellia thea is native to China and is often considered to be a variety of Camellia sinensis, the plant from which tea is harvested. However, the exact classification of Camellia thea is still a subject of debate among botanists.",
+    "benefits": "Camellia thea, also known as the Camellia sinensis tea plant, has been consumed for centuries for its numerous health benefits. It is rich in antioxidants, which help protect the body against free radicals and oxidative stress. Drinking Camellia thea tea has been shown to improve heart health by reducing blood pressure and cholesterol levels. Additionally, its high levels of L-theanine promote a sense of calm and relaxation, making it a popular choice for those seeking stress relief. The tea plant's anti-inflammatory properties also aid in reducing inflammation and improving overall well-being.",
+    "parts": "Camellia thea, also known as the tea camellia or the tea plant, is a species used for its medicinal and culinary purposes. The leaves of the Camellia thea plant are primarily used in traditional medicine and as a source of caffeine. The leaves contain a number of bioactive compounds, including flavonoids, alkaloids, and saponins, which have been reported to have various health benefits. The leaves have been traditionally used in Chinese and Japanese medicine to aid in digestion and as an anti-inflammatory agent. The leaves have also been used to treat various health conditions, including fever, headaches, and respiratory issues.",
+    "intro": "Camellia thea, commonly known as the tea plant, is a species of flowering plant in the tea family (Theaceae) native to Asia. The health benefits of Camellia thea include its ability to improve cardiovascular health, reduce inflammation, and aid in weight management due to its high content of antioxidants and catechins. The bioactive constituents of Camellia thea include catechins (epigallocatechin gallate, epigallocatechin, and epicatechin), theaflavins, and thearubigins, which are responsible for its medicinal properties. The most common herbal preparations made with Camellia thea are tea infusions, known as green tea, which can be consumed hot or cold, and are often supplemented with other herbs for enhanced health benefits."
+}

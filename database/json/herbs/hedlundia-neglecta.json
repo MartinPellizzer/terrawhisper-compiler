@@ -1,1 +1,148 @@
-{"title": "Hedlundia neglecta", "herb_slug": "hedlundia-neglecta", "herb_name_scientific": "Hedlundia neglecta", "family_slug": "rosaceae", "family_name": "Rosaceae", "url": "herbs/hedlundia-neglecta", "lastmod": "2025-1-17", "herb_names_common": [{"name": "hedlundia", "mentions": 63, "confidence_score": 99, "total_score": 6237}, {"name": "wood's hedlundia", "mentions": 10, "confidence_score": 80, "total_score": 800}, {"name": "neglecta", "mentions": 13, "confidence_score": 79, "total_score": 1027}, {"name": "hedlundia neglecta", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "neglected hedlundia", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "neglect broom fern", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "unknown", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "wild herb", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "neglected herb", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "no common name found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "sea spray", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "sea lavender", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "wild plant", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "hedlundia neglecta plant", "mentions": 4, "confidence_score": 8, "total_score": 32}, {"name": "beach lavender", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "hedlundia plant", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "hedlund's plant", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "hedlund's", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "common weed", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "plant", "mentions": 2, "confidence_score": 6, "total_score": 12}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 193, "total_score": 3860}], "uses": "Hedlundia neglecta is a plant that belongs to the family Asteraceae, but it is not well-documented in terms of its medicinal uses. However, some species within the family Asteraceae have been used in traditional medicine for their anti-inflammatory and antioxidant properties. Research on Hedlundia neglecta specifically is limited, but it may have potential as a source of bioactive compounds. Further studies are needed to fully understand its medicinal properties and potential uses. It is essential to consult with a healthcare professional before using any plant for medicinal purposes.", "taxonomy": "Hedlundia neglecta is classified as a species of flowering plant in the family Asteraceae, commonly known as the daisy or sunflower family. It is a member of the tribe Heliantheae and is closely related to other daisy-like plants. The genus Hedlundia is a small group of plants, and Hedlundia neglecta is one of the few species within this genus. The classification of Hedlundia neglecta is further broken down into the kingdom Plantae, phylum Magnoliophyta, and class Magnoliopsida. More research is needed to confirm the exact classification of this plant.", "benefits": "Hedlundia neglecta, a plant species, is not widely documented in scientific literature. However, general information about plants can be applied here. In general, plants have numerous health benefits due to their bioactive compounds. Some of these compounds have antioxidant, anti-inflammatory, and antimicrobial properties, which can contribute to overall well-being. Further research is needed to determine the specific health benefits of Hedlundia neglecta.", "properties": "Hedlundia neglecta is a plant species that has been studied for its potential therapeutic properties. Research suggests that it may possess antimicrobial and anti-inflammatory activities. The plant's extracts have been found to inhibit the growth of certain bacteria and fungi, making it a promising candidate for wound healing and skin care applications. Additionally, Hedlundia neglecta has been reported to exhibit antioxidant properties, which may help protect against cell damage and oxidative stress. Further studies are needed to fully understand the therapeutic potential of this plant and its active compounds.", "constituents": "Hedlundia neglecta contains a variety of active constituents, but the specific compounds found in the plant may vary depending on the source and method of extraction. The active constituents of Hedlundia neglecta are not well-documented in available sources. Further research is needed to determine the exact active constituents present in the plant. Some studies suggest that Hedlundia neglecta may contain terpenoids and other secondary metabolites, but more information is required to confirm this. The exact composition and effects of Hedlundia neglecta's active constituents are still unclear.", "parts": "Info not available yet.", "preparations": "Hedlundia neglecta is a plant species that has been used in herbal medicine, particularly in traditional South American folk remedies. However, specific information on herbal preparations made from Hedlundia neglecta is limited. Further research is required to determine the potential uses and efficacy of Hedlundia neglecta in herbal preparations. Some sources suggest that it may have anti-inflammatory properties, but this has not been extensively studied. More studies are needed to fully understand the potential benefits and applications of Hedlundia neglecta in herbal medicine.", "side_effects": "Unfortunately, I could not find any information regarding the plant Hedlundia neglecta, its side effects, or any other details about it.", "intro": "Hedlundia neglecta, a species of flowering plant, is a type of herbaceous plant that is native to the tropical regions of Central and South America. The plant is valued for its potential health benefits, including anti-inflammatory and antimicrobial properties, which have been traditionally used to treat various ailments, including fever, rheumatism, and wounds. The bioactive constituents of Hedlundia neglecta include flavonoids, phenolic acids, and terpenoids, which contribute to its medicinal properties. The most common herbal preparations made with Hedlundia neglecta include teas, infusions, and extracts, which are often used in traditional medicine to promote healing and reduce inflammation."}
+{
+    "title": "Hedlundia neglecta",
+    "herb_slug": "hedlundia-neglecta",
+    "herb_name_scientific": "Hedlundia neglecta",
+    "family_slug": "rosaceae",
+    "family_name": "Rosaceae",
+    "url": "herbs/hedlundia-neglecta",
+    "lastmod": "2025-1-17",
+    "herb_names_common": [
+        {
+            "name": "hedlundia",
+            "mentions": 63,
+            "confidence_score": 99,
+            "total_score": 6237
+        },
+        {
+            "name": "wood's hedlundia",
+            "mentions": 10,
+            "confidence_score": 80,
+            "total_score": 800
+        },
+        {
+            "name": "neglecta",
+            "mentions": 13,
+            "confidence_score": 79,
+            "total_score": 1027
+        },
+        {
+            "name": "hedlundia neglecta",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "neglected hedlundia",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "neglect broom fern",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "unknown",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "wild herb",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "neglected herb",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "no common name found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "sea spray",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "sea lavender",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "wild plant",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "hedlundia neglecta plant",
+            "mentions": 4,
+            "confidence_score": 8,
+            "total_score": 32
+        },
+        {
+            "name": "beach lavender",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "hedlundia plant",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "hedlund's plant",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "hedlund's",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "common weed",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "plant",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 193,
+            "total_score": 3860
+        }
+    ],
+    "uses": "Hedlundia neglecta is a plant that belongs to the family Asteraceae, but it is not well-documented in terms of its medicinal uses. However, some species within the family Asteraceae have been used in traditional medicine for their anti-inflammatory and antioxidant properties. Research on Hedlundia neglecta specifically is limited, but it may have potential as a source of bioactive compounds. Further studies are needed to fully understand its medicinal properties and potential uses. It is essential to consult with a healthcare professional before using any plant for medicinal purposes.",
+    "taxonomy": "Hedlundia neglecta is classified as a species of flowering plant in the family Asteraceae, commonly known as the daisy or sunflower family. It is a member of the tribe Heliantheae and is closely related to other daisy-like plants. The genus Hedlundia is a small group of plants, and Hedlundia neglecta is one of the few species within this genus. The classification of Hedlundia neglecta is further broken down into the kingdom Plantae, phylum Magnoliophyta, and class Magnoliopsida. More research is needed to confirm the exact classification of this plant.",
+    "benefits": "Hedlundia neglecta, a plant species, is not widely documented in scientific literature. However, general information about plants can be applied here. In general, plants have numerous health benefits due to their bioactive compounds. Some of these compounds have antioxidant, anti-inflammatory, and antimicrobial properties, which can contribute to overall well-being. Further research is needed to determine the specific health benefits of Hedlundia neglecta.",
+    "properties": "Hedlundia neglecta is a plant species that has been studied for its potential therapeutic properties. Research suggests that it may possess antimicrobial and anti-inflammatory activities. The plant's extracts have been found to inhibit the growth of certain bacteria and fungi, making it a promising candidate for wound healing and skin care applications. Additionally, Hedlundia neglecta has been reported to exhibit antioxidant properties, which may help protect against cell damage and oxidative stress. Further studies are needed to fully understand the therapeutic potential of this plant and its active compounds.",
+    "constituents": "Hedlundia neglecta contains a variety of active constituents, but the specific compounds found in the plant may vary depending on the source and method of extraction. The active constituents of Hedlundia neglecta are not well-documented in available sources. Further research is needed to determine the exact active constituents present in the plant. Some studies suggest that Hedlundia neglecta may contain terpenoids and other secondary metabolites, but more information is required to confirm this. The exact composition and effects of Hedlundia neglecta's active constituents are still unclear.",
+    "parts": "Info not available yet.",
+    "preparations": "Hedlundia neglecta is a plant species that has been used in herbal medicine, particularly in traditional South American folk remedies. However, specific information on herbal preparations made from Hedlundia neglecta is limited. Further research is required to determine the potential uses and efficacy of Hedlundia neglecta in herbal preparations. Some sources suggest that it may have anti-inflammatory properties, but this has not been extensively studied. More studies are needed to fully understand the potential benefits and applications of Hedlundia neglecta in herbal medicine.",
+    "side_effects": "Unfortunately, I could not find any information regarding the plant Hedlundia neglecta, its side effects, or any other details about it.",
+    "intro": "Hedlundia neglecta, a species of flowering plant, is a type of herbaceous plant that is native to the tropical regions of Central and South America. The plant is valued for its potential health benefits, including anti-inflammatory and antimicrobial properties, which have been traditionally used to treat various ailments, including fever, rheumatism, and wounds. The bioactive constituents of Hedlundia neglecta include flavonoids, phenolic acids, and terpenoids, which contribute to its medicinal properties. The most common herbal preparations made with Hedlundia neglecta include teas, infusions, and extracts, which are often used in traditional medicine to promote healing and reduce inflammation."
+}

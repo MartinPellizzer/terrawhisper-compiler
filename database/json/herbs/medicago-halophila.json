@@ -1,1 +1,761 @@
-{"title": "Medicago halophila", "herb_slug": "medicago-halophila", "herb_name_scientific": "Medicago halophila", "family_slug": "fabaceae", "family_name": "Fabaceae", "url": "herbs/medicago-halophila", "lastmod": "2025-2-4", "herb_names_common": [{"name": "salt medick", "mentions": 31, "confidence_score": 203, "total_score": 6293}, {"name": "halophila medic", "mentions": 15, "confidence_score": 71, "total_score": 1065}, {"name": "salt lucerne", "mentions": 9, "confidence_score": 67, "total_score": 603}, {"name": "salt clover", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "salt burr medick", "mentions": 6, "confidence_score": 27, "total_score": 162}, {"name": "halophila clover", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "salt medick clover", "mentions": 5, "confidence_score": 18, "total_score": 90}, {"name": "halophila lucerne", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "himalayan medick", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "salt medigo", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "sea lucerne", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "salt bur clover", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "himalayan burr medick", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "halophila saltbush", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "halophila medick", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "salt medik", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "annual salt medick", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "halophila lucaya", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "lucerne saltbush", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "hill medic", "mentions": 1, "confidence_score": 9, "total_score": 9}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 164, "total_score": 3280}], "what_description": "Medicago halophila is a species of legume in the family Fabaceae. It is a perennial herb with a taproot, and stems that are up to 20 cm long, prostrate or ascending. The leaves are trifoliate with leaflets that are 1-2 cm long and 0.5-1.5 cm wide, with a rounded tip and entire margin. The flowers are in axillary clusters, with pink or purple corollas that are 8-10 mm long. The pods are flat, linear and 2-4 cm long, containing 2-4 seeds per pod.", "category_action": "antimicrobial", "ailments": [{"name": "diabetes", "mentions": 20, "confidence_score": 161, "total_score": 3220}, {"name": "hypertension", "mentions": 17, "confidence_score": 144, "total_score": 2448}, {"name": "inflammation", "mentions": 15, "confidence_score": 120, "total_score": 1800}, {"name": "cancer", "mentions": 17, "confidence_score": 92, "total_score": 1564}, {"name": "arthritis", "mentions": 14, "confidence_score": 89, "total_score": 1246}, {"name": "gastritis", "mentions": 11, "confidence_score": 68, "total_score": 748}, {"name": "atherosclerosis", "mentions": 7, "confidence_score": 55, "total_score": 385}, {"name": "cardiovascular disease", "mentions": 6, "confidence_score": 51, "total_score": 306}, {"name": "asthma", "mentions": 7, "confidence_score": 41, "total_score": 287}, {"name": "colitis", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "ulcers", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "high blood pressure", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "gastrointestinal issues", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "hyperlipidemia", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "inflammatory bowel disease", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "rheumatoid arthritis", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "cholesterol", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "osteoporosis", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "digestive issues", "mentions": 3, "confidence_score": 19, "total_score": 57}], "ailments_description": "The most common ailments you can heal with Medicago halophila are diabetes, hypertension, and inflammation, which are all associated with the plant's ability to reduce oxidative stress and improve insulin sensitivity. Additionally, Medicago halophila has been shown to inhibit cancer cell growth by inducing apoptosis and preventing angiogenesis, while also reducing inflammation. The plant's antioxidant and anti-inflammatory properties also make it effective in treating arthritis, gastritis, and atherosclerosis, as well as cardiovascular disease, asthma, and colitis. Furthermore, Medicago halophila has been found to protect against ulcers and high blood pressure, and to alleviate gastrointestinal issues, hyperlipidemia, and inflammatory bowel disease. By reducing inflammation and oxidative stress, Medicago halophila also helps to prevent gastroenteritis, rheumatoid arthritis, cholesterol buildup, osteoporosis, and digestive issues.", "properties": [{"name": "antioxidant", "mentions": 24, "confidence_score": 187, "total_score": 4488}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 142, "total_score": 2840}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 132, "total_score": 2640}, {"name": "cardioprotective", "mentions": 18, "confidence_score": 86, "total_score": 1548}, {"name": "antibacterial", "mentions": 8, "confidence_score": 56, "total_score": 448}, {"name": "antidiabetic", "mentions": 10, "confidence_score": 49, "total_score": 490}, {"name": "hypoglycemic", "mentions": 10, "confidence_score": 48, "total_score": 480}, {"name": "antihypertensive", "mentions": 8, "confidence_score": 33, "total_score": 264}, {"name": "antifungal", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "anticancer", "mentions": 8, "confidence_score": 30, "total_score": 240}, {"name": "neuroprotective", "mentions": 7, "confidence_score": 24, "total_score": 168}, {"name": "wound healing", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "antiviral", "mentions": 9, "confidence_score": 18, "total_score": 162}, {"name": "free radical scavenger", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "hypocholesterolemic", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "cytotoxic (cancer cell)", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "antidiarrheal", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "antitumor", "mentions": 5, "confidence_score": 16, "total_score": 80}, {"name": "phytoestrogenic", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "hypotensive", "mentions": 2, "confidence_score": 10, "total_score": 20}], "properties_description": "The main therapeutic properties of Medicago halophila are its antioxidant properties, which help protect cells from oxidative damage, while its antimicrobial properties prevent the growth of pathogenic microorganisms and the development of infections. The anti-inflammatory properties of this plant reduce swelling, pain, and inflammation in various health conditions. Additionally, the cardioprotective effects of Medicago halophila help maintain cardiovascular health by preventing the formation of blood clots and improving lipid profiles. Furthermore, the antibacterial properties of this plant inhibit the growth of various bacteria, including those that cause diarrhea and other gastrointestinal disorders. The bioactive compounds responsible for these medicinal properties include flavonoids, saponins, and volatile oils, such as kaempferol, medicarpin, and limonene.", "constituents": [{"name": "saponins", "mentions": 15, "confidence_score": 122, "total_score": 1830}, {"name": "flavonoids", "mentions": 15, "confidence_score": 99, "total_score": 1485}, {"name": "phenolic acids", "mentions": 14, "confidence_score": 93, "total_score": 1302}, {"name": "triterpenoids", "mentions": 13, "confidence_score": 76, "total_score": 988}, {"name": "phenolic glycosides", "mentions": 13, "confidence_score": 73, "total_score": 949}, {"name": "alkaloids", "mentions": 12, "confidence_score": 53, "total_score": 636}, {"name": "coumarins", "mentions": 11, "confidence_score": 45, "total_score": 495}, {"name": "medicagenol", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "tannins", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "medicagenone", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "medicagenin", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "medicago saponins", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "formononetin", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "fatty acids", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "phytosterols", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "medicago isoflavones", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "genistein", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "medicago flavonoids", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "trigonelline", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "medicago phenolic acids", "mentions": 2, "confidence_score": 14, "total_score": 28}], "constituents_description": "The most important healing constituents of Medicago halophila are saponins which have been shown to possess anti-inflammatory and antioxidant properties by inhibiting the production of pro-inflammatory cytokines and scavenging free radicals. Flavonoids present in the plant have been found to exhibit anti-inflammatory, antimicrobial, and antioxidant activities by activating certain enzymes and inhibiting the activity of others. Phenolic acids such as ferulic acid and sinapic acid have been isolated from Medicago halophila and have been found to possess antioxidant and antimicrobial properties by scavenging free radicals and inhibiting the growth of microorganisms. Triterpenoids including oleanolic acid and ursolic acid have been identified in the plant and have been found to exhibit anti-inflammatory, antioxidant, and anticancer activities by inhibiting the production of pro-inflammatory cytokines and inducing apoptosis in cancer cells. Phenolic glycosides including kaempferol-3-O-glucoside and quercetin-3-O-glucoside have been isolated from Medicago halophila and have been found to possess antioxidant and anti-inflammatory activities by scavenging free radicals and inhibiting the production of pro-inflammatory cytokines.", "preparations": [{"name": "infusion", "mentions": 19, "confidence_score": 152, "total_score": 2888}, {"name": "tea", "mentions": 18, "confidence_score": 151, "total_score": 2718}, {"name": "tincture", "mentions": 19, "confidence_score": 109, "total_score": 2071}, {"name": "salve", "mentions": 18, "confidence_score": 79, "total_score": 1422}, {"name": "decoction", "mentions": 13, "confidence_score": 69, "total_score": 897}, {"name": "infused oil", "mentions": 7, "confidence_score": 28, "total_score": 196}, {"name": "extract", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "medicago halophila tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "capsule", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "medicago halophila tincture", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "medicago halophila salve", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "ointment", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "medicago halophila oil", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "medicago halophila poultice", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "medicago halophila infusion", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "poultice", "mentions": 2, "confidence_score": 3, "total_score": 6}, {"name": "bath", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "capsules", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "powder", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "suppositories", "mentions": 1, "confidence_score": 1, "total_score": 1}], "preparations_description": "The main herbal preparations of Medicago halophila are infusion, tea, tincture, salve, and decoction. Medicago halophila is used to treat various health conditions including wounds, skin problems, and respiratory issues due to its high content of flavonoids, phenolic acids, and terpenoids. Infusion and decoction are used to treat digestive and respiratory issues as they help to reduce inflammation and improve gut health. Tincture is used to treat skin conditions such as eczema and dermatitis due to its antimicrobial and anti-inflammatory properties. Salve is used topically to treat wounds and skin irritations due to its soothing and protective properties.", "side_effects": [{"name": "experience nausea", "mentions": 6, "confidence_score": 57, "total_score": 342}, {"name": "experiences allergic reactions", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "develop allergies", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "suffer diarrhea", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "experiences diarrhea", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "experience liver damage", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "experience vomiting", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "induce nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experience diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiences nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiences neurological symptoms", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiencing vomiting", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "have abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "get headache", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develops nephrotoxicity", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develops kidney damage", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experiences respiratory issues", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cause abdominal pain", "mentions": 2, "confidence_score": 15, "total_score": 30}], "side_effects_description": "The possible side effects of using Medicago halophila improperly include experiencing nausea due to its high saponin content which can irritate the digestive system, experiencing allergic reactions such as hives and itching in individuals who are sensitive to plant-derived allergens, developing allergies to Medicago halophila as a result of repeated exposure, suffering from diarrhea caused by the saponins' ability to disrupt the gut's water and electrolyte balance, and experiencing diarrhea due to the plant's high fiber content which can be difficult for the body to digest. These side effects occur because Medicago halophila contains bioactive compounds that can interact with the body's systems in unintended ways when used improperly. Improper use can involve consuming excessive amounts, using the plant for medicinal purposes without proper guidance, or applying it topically without adequate skin preparation. The severity of these side effects can vary depending on the individual's sensitivity and the method of use. In some cases, these side effects can be severe and require medical attention.", "uses": "Medicago halophila is known for its medicinal properties, particularly in traditional medicine. It is often used to treat various health issues, including digestive problems and inflammation. The plant's extracts have been shown to exhibit antibacterial and antioxidant activities. Research suggests that Medicago halophila may also have potential in treating cardiovascular diseases and certain types of cancer. However, further studies are needed to fully understand the plant's medicinal uses and their effects on human health.", "taxonomy": "Medicago halophila is classified within the kingdom Plantae, specifically within the family Fabaceae, commonly known as the legume family. This classification is due to its characteristics and growth habits, which resemble other plants within the Fabaceae family. The genus Medicago is a group of legumes, and M. halophila is a species within this genus. Medicago halophila is further classified as a member of the tribe Hedysareae, which is a subfamily of the Fabaceae family. This classification helps to identify and understand the relationships between M. halophila and other related plant species.", "benefits": "Medicago halophila is known to have potential health benefits, although more research is required to confirm its effects. This plant may have antioxidant, anti-inflammatory, and antimicrobial properties, which could be beneficial in reducing oxidative stress and inflammation in the body. It has been used in traditional medicine for various purposes, including treating digestive issues and skin problems. The plant's extracts may also have anti-cancer properties, although the evidence is mostly based on in-vitro studies. Further studies are needed to fully understand the health benefits of Medicago halophila.", "parts": "Medicago halophila, also known as the salt medick, is a plant species with a long history of use in traditional medicine. The roots, leaves, and flowers of this plant are used to treat various health conditions, including inflammation, fever, and digestive issues. The plant's medicinal properties are attributed to its rich content of flavonoids, saponins, and other bioactive compounds. The roots are particularly valued for their anti-inflammatory and antiseptic properties, making them useful in treating wounds and skin conditions. Additionally, the plant is used to treat respiratory issues, such as bronchitis and asthma, due to its expectorant properties.", "intro": "Medicago halophila, also known as the halophytic medick or halophytic lucerne, is a perennial legume plant species that thrives in saline environments and is commonly found in coastal areas. The plant has been reported to possess various health benefits, including anti-inflammatory, antioxidant, and antimicrobial properties, which may help to alleviate conditions such as hypertension, digestive issues, and skin problems. The bioactive constituents of Medicago halophila include flavonoids, phenolic acids, and saponins, which are responsible for its medicinal properties. The most common herbal preparations made with this plant include teas, infusions, and capsules, which are traditionally used in folk medicine to support cardiovascular and digestive health."}
+{
+    "title": "Medicago halophila",
+    "herb_slug": "medicago-halophila",
+    "herb_name_scientific": "Medicago halophila",
+    "family_slug": "fabaceae",
+    "family_name": "Fabaceae",
+    "url": "herbs/medicago-halophila",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "salt medick",
+            "mentions": 31,
+            "confidence_score": 203,
+            "total_score": 6293
+        },
+        {
+            "name": "halophila medic",
+            "mentions": 15,
+            "confidence_score": 71,
+            "total_score": 1065
+        },
+        {
+            "name": "salt lucerne",
+            "mentions": 9,
+            "confidence_score": 67,
+            "total_score": 603
+        },
+        {
+            "name": "salt clover",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "salt burr medick",
+            "mentions": 6,
+            "confidence_score": 27,
+            "total_score": 162
+        },
+        {
+            "name": "halophila clover",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "salt medick clover",
+            "mentions": 5,
+            "confidence_score": 18,
+            "total_score": 90
+        },
+        {
+            "name": "halophila lucerne",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "himalayan medick",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "salt medigo",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "sea lucerne",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "salt bur clover",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "himalayan burr medick",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "halophila saltbush",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "halophila medick",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "salt medik",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "annual salt medick",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "halophila lucaya",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "lucerne saltbush",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "hill medic",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 164,
+            "total_score": 3280
+        }
+    ],
+    "what_description": "Medicago halophila is a species of legume in the family Fabaceae. It is a perennial herb with a taproot, and stems that are up to 20 cm long, prostrate or ascending. The leaves are trifoliate with leaflets that are 1-2 cm long and 0.5-1.5 cm wide, with a rounded tip and entire margin. The flowers are in axillary clusters, with pink or purple corollas that are 8-10 mm long. The pods are flat, linear and 2-4 cm long, containing 2-4 seeds per pod.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "diabetes",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        },
+        {
+            "name": "hypertension",
+            "mentions": 17,
+            "confidence_score": 144,
+            "total_score": 2448
+        },
+        {
+            "name": "inflammation",
+            "mentions": 15,
+            "confidence_score": 120,
+            "total_score": 1800
+        },
+        {
+            "name": "cancer",
+            "mentions": 17,
+            "confidence_score": 92,
+            "total_score": 1564
+        },
+        {
+            "name": "arthritis",
+            "mentions": 14,
+            "confidence_score": 89,
+            "total_score": 1246
+        },
+        {
+            "name": "gastritis",
+            "mentions": 11,
+            "confidence_score": 68,
+            "total_score": 748
+        },
+        {
+            "name": "atherosclerosis",
+            "mentions": 7,
+            "confidence_score": 55,
+            "total_score": 385
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 6,
+            "confidence_score": 51,
+            "total_score": 306
+        },
+        {
+            "name": "asthma",
+            "mentions": 7,
+            "confidence_score": 41,
+            "total_score": 287
+        },
+        {
+            "name": "colitis",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "ulcers",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "gastrointestinal issues",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "hyperlipidemia",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "inflammatory bowel disease",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "rheumatoid arthritis",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "cholesterol",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "osteoporosis",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Medicago halophila are diabetes, hypertension, and inflammation, which are all associated with the plant's ability to reduce oxidative stress and improve insulin sensitivity. Additionally, Medicago halophila has been shown to inhibit cancer cell growth by inducing apoptosis and preventing angiogenesis, while also reducing inflammation. The plant's antioxidant and anti-inflammatory properties also make it effective in treating arthritis, gastritis, and atherosclerosis, as well as cardiovascular disease, asthma, and colitis. Furthermore, Medicago halophila has been found to protect against ulcers and high blood pressure, and to alleviate gastrointestinal issues, hyperlipidemia, and inflammatory bowel disease. By reducing inflammation and oxidative stress, Medicago halophila also helps to prevent gastroenteritis, rheumatoid arthritis, cholesterol buildup, osteoporosis, and digestive issues.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 24,
+            "confidence_score": 187,
+            "total_score": 4488
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 142,
+            "total_score": 2840
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 132,
+            "total_score": 2640
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 18,
+            "confidence_score": 86,
+            "total_score": 1548
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 8,
+            "confidence_score": 56,
+            "total_score": 448
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 10,
+            "confidence_score": 49,
+            "total_score": 490
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 10,
+            "confidence_score": 48,
+            "total_score": 480
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 8,
+            "confidence_score": 33,
+            "total_score": 264
+        },
+        {
+            "name": "antifungal",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "anticancer",
+            "mentions": 8,
+            "confidence_score": 30,
+            "total_score": 240
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 7,
+            "confidence_score": 24,
+            "total_score": 168
+        },
+        {
+            "name": "wound healing",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "antiviral",
+            "mentions": 9,
+            "confidence_score": 18,
+            "total_score": 162
+        },
+        {
+            "name": "free radical scavenger",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "hypocholesterolemic",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "cytotoxic (cancer cell)",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "antitumor",
+            "mentions": 5,
+            "confidence_score": 16,
+            "total_score": 80
+        },
+        {
+            "name": "phytoestrogenic",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Medicago halophila are its antioxidant properties, which help protect cells from oxidative damage, while its antimicrobial properties prevent the growth of pathogenic microorganisms and the development of infections. The anti-inflammatory properties of this plant reduce swelling, pain, and inflammation in various health conditions. Additionally, the cardioprotective effects of Medicago halophila help maintain cardiovascular health by preventing the formation of blood clots and improving lipid profiles. Furthermore, the antibacterial properties of this plant inhibit the growth of various bacteria, including those that cause diarrhea and other gastrointestinal disorders. The bioactive compounds responsible for these medicinal properties include flavonoids, saponins, and volatile oils, such as kaempferol, medicarpin, and limonene.",
+    "constituents": [
+        {
+            "name": "saponins",
+            "mentions": 15,
+            "confidence_score": 122,
+            "total_score": 1830
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 15,
+            "confidence_score": 99,
+            "total_score": 1485
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 14,
+            "confidence_score": 93,
+            "total_score": 1302
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 13,
+            "confidence_score": 76,
+            "total_score": 988
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 13,
+            "confidence_score": 73,
+            "total_score": 949
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 12,
+            "confidence_score": 53,
+            "total_score": 636
+        },
+        {
+            "name": "coumarins",
+            "mentions": 11,
+            "confidence_score": 45,
+            "total_score": 495
+        },
+        {
+            "name": "medicagenol",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "tannins",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "medicagenone",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "medicagenin",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "medicago saponins",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "formononetin",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "phytosterols",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "medicago isoflavones",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "genistein",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "medicago flavonoids",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "trigonelline",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "medicago phenolic acids",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Medicago halophila are saponins which have been shown to possess anti-inflammatory and antioxidant properties by inhibiting the production of pro-inflammatory cytokines and scavenging free radicals. Flavonoids present in the plant have been found to exhibit anti-inflammatory, antimicrobial, and antioxidant activities by activating certain enzymes and inhibiting the activity of others. Phenolic acids such as ferulic acid and sinapic acid have been isolated from Medicago halophila and have been found to possess antioxidant and antimicrobial properties by scavenging free radicals and inhibiting the growth of microorganisms. Triterpenoids including oleanolic acid and ursolic acid have been identified in the plant and have been found to exhibit anti-inflammatory, antioxidant, and anticancer activities by inhibiting the production of pro-inflammatory cytokines and inducing apoptosis in cancer cells. Phenolic glycosides including kaempferol-3-O-glucoside and quercetin-3-O-glucoside have been isolated from Medicago halophila and have been found to possess antioxidant and anti-inflammatory activities by scavenging free radicals and inhibiting the production of pro-inflammatory cytokines.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 19,
+            "confidence_score": 152,
+            "total_score": 2888
+        },
+        {
+            "name": "tea",
+            "mentions": 18,
+            "confidence_score": 151,
+            "total_score": 2718
+        },
+        {
+            "name": "tincture",
+            "mentions": 19,
+            "confidence_score": 109,
+            "total_score": 2071
+        },
+        {
+            "name": "salve",
+            "mentions": 18,
+            "confidence_score": 79,
+            "total_score": 1422
+        },
+        {
+            "name": "decoction",
+            "mentions": 13,
+            "confidence_score": 69,
+            "total_score": 897
+        },
+        {
+            "name": "infused oil",
+            "mentions": 7,
+            "confidence_score": 28,
+            "total_score": 196
+        },
+        {
+            "name": "extract",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "medicago halophila tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "capsule",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "medicago halophila tincture",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "medicago halophila salve",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "ointment",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "medicago halophila oil",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "medicago halophila poultice",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "medicago halophila infusion",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "poultice",
+            "mentions": 2,
+            "confidence_score": 3,
+            "total_score": 6
+        },
+        {
+            "name": "bath",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "capsules",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "powder",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "suppositories",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Medicago halophila are infusion, tea, tincture, salve, and decoction. Medicago halophila is used to treat various health conditions including wounds, skin problems, and respiratory issues due to its high content of flavonoids, phenolic acids, and terpenoids. Infusion and decoction are used to treat digestive and respiratory issues as they help to reduce inflammation and improve gut health. Tincture is used to treat skin conditions such as eczema and dermatitis due to its antimicrobial and anti-inflammatory properties. Salve is used topically to treat wounds and skin irritations due to its soothing and protective properties.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 6,
+            "confidence_score": 57,
+            "total_score": 342
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "develop allergies",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "suffer diarrhea",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "experiences diarrhea",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "experience liver damage",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiences neurological symptoms",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "have abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "get headache",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develops nephrotoxicity",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develops kidney damage",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experiences respiratory issues",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cause abdominal pain",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Medicago halophila improperly include experiencing nausea due to its high saponin content which can irritate the digestive system, experiencing allergic reactions such as hives and itching in individuals who are sensitive to plant-derived allergens, developing allergies to Medicago halophila as a result of repeated exposure, suffering from diarrhea caused by the saponins' ability to disrupt the gut's water and electrolyte balance, and experiencing diarrhea due to the plant's high fiber content which can be difficult for the body to digest. These side effects occur because Medicago halophila contains bioactive compounds that can interact with the body's systems in unintended ways when used improperly. Improper use can involve consuming excessive amounts, using the plant for medicinal purposes without proper guidance, or applying it topically without adequate skin preparation. The severity of these side effects can vary depending on the individual's sensitivity and the method of use. In some cases, these side effects can be severe and require medical attention.",
+    "uses": "Medicago halophila is known for its medicinal properties, particularly in traditional medicine. It is often used to treat various health issues, including digestive problems and inflammation. The plant's extracts have been shown to exhibit antibacterial and antioxidant activities. Research suggests that Medicago halophila may also have potential in treating cardiovascular diseases and certain types of cancer. However, further studies are needed to fully understand the plant's medicinal uses and their effects on human health.",
+    "taxonomy": "Medicago halophila is classified within the kingdom Plantae, specifically within the family Fabaceae, commonly known as the legume family. This classification is due to its characteristics and growth habits, which resemble other plants within the Fabaceae family. The genus Medicago is a group of legumes, and M. halophila is a species within this genus. Medicago halophila is further classified as a member of the tribe Hedysareae, which is a subfamily of the Fabaceae family. This classification helps to identify and understand the relationships between M. halophila and other related plant species.",
+    "benefits": "Medicago halophila is known to have potential health benefits, although more research is required to confirm its effects. This plant may have antioxidant, anti-inflammatory, and antimicrobial properties, which could be beneficial in reducing oxidative stress and inflammation in the body. It has been used in traditional medicine for various purposes, including treating digestive issues and skin problems. The plant's extracts may also have anti-cancer properties, although the evidence is mostly based on in-vitro studies. Further studies are needed to fully understand the health benefits of Medicago halophila.",
+    "parts": "Medicago halophila, also known as the salt medick, is a plant species with a long history of use in traditional medicine. The roots, leaves, and flowers of this plant are used to treat various health conditions, including inflammation, fever, and digestive issues. The plant's medicinal properties are attributed to its rich content of flavonoids, saponins, and other bioactive compounds. The roots are particularly valued for their anti-inflammatory and antiseptic properties, making them useful in treating wounds and skin conditions. Additionally, the plant is used to treat respiratory issues, such as bronchitis and asthma, due to its expectorant properties.",
+    "intro": "Medicago halophila, also known as the halophytic medick or halophytic lucerne, is a perennial legume plant species that thrives in saline environments and is commonly found in coastal areas. The plant has been reported to possess various health benefits, including anti-inflammatory, antioxidant, and antimicrobial properties, which may help to alleviate conditions such as hypertension, digestive issues, and skin problems. The bioactive constituents of Medicago halophila include flavonoids, phenolic acids, and saponins, which are responsible for its medicinal properties. The most common herbal preparations made with this plant include teas, infusions, and capsules, which are traditionally used in folk medicine to support cardiovascular and digestive health."
+}

@@ -1,1 +1,743 @@
-{"title": "Senegalia ataxacantha", "herb_slug": "senegalia-ataxacantha", "herb_name_scientific": "Senegalia ataxacantha", "family_slug": "fabaceae", "family_name": "Fabaceae", "url": "herbs/senegalia-ataxacantha", "lastmod": "2025-1-19", "herb_names_common": [{"name": "thorny acacia", "mentions": 24, "confidence_score": 143, "total_score": 3432}, {"name": "acacia ataxacantha", "mentions": 22, "confidence_score": 128, "total_score": 2816}, {"name": "thorn acacia", "mentions": 10, "confidence_score": 68, "total_score": 680}, {"name": "thorny wattle", "mentions": 7, "confidence_score": 35, "total_score": 245}, {"name": "veldthorn tree", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "scorpion thorn acacia", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "thorny mimosa", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "scorpion thorn", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "thorny tree", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "thorn mimosa", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "scorpion bush", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "senegalia", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "senegal thorn", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "senegal acacia", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "thorny pea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cape thorn", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "mopane thorn", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "thorn wattle", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "veldthorn", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "black thorn", "mentions": 2, "confidence_score": 15, "total_score": 30}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 12, "confidence_score": 99, "total_score": 1188}, {"medicine_or_poison": "poison", "mentions": 8, "confidence_score": 66, "total_score": 528}], "what_description": "Senegalia ataxacantha is a species of plant in the family Fabaceae, native to tropical Africa. It is a deciduous shrub or small tree, growing up to 10 meters tall, with a straight, spiny stem. Leaves are bipinnate, with 2-4 pairs of pinnae, each bearing 2-6 pairs of leaflets, which are elliptic in shape and 5-20 millimeters long. The inflorescence is a spicate raceme, bearing yellow flowers with 5 petals and 10 stamens. The fruit is a pod, 6-12 centimeters long and 1-2 centimeters wide, containing 2-4 seeds.", "category_action": "antimicrobial", "ailments": [{"name": "inflammation", "mentions": 13, "confidence_score": 104, "total_score": 1352}, {"name": "fever", "mentions": 12, "confidence_score": 98, "total_score": 1176}, {"name": "rheumatism", "mentions": 12, "confidence_score": 98, "total_score": 1176}, {"name": "diarrhea", "mentions": 10, "confidence_score": 81, "total_score": 810}, {"name": "bacterial infections", "mentions": 11, "confidence_score": 80, "total_score": 880}, {"name": "skin infections", "mentions": 9, "confidence_score": 67, "total_score": 603}, {"name": "diabetes", "mentions": 9, "confidence_score": 62, "total_score": 558}, {"name": "malaria", "mentions": 11, "confidence_score": 62, "total_score": 682}, {"name": "arthritis", "mentions": 6, "confidence_score": 48, "total_score": 288}, {"name": "wounds", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "gastroenteritis", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "hypertension", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "fungal infections", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "eczema", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "insect bites", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "pain", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "skin irritation", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "dysentery", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "cancer", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "ulcers", "mentions": 3, "confidence_score": 22, "total_score": 66}], "ailments_description": "The most common ailments you can heal with Senegalia ataxacantha are inflammation, fever, rheumatism, and bacterial infections, which are often associated with pain and skin irritation. The plant has been proven to effectively treat fever and rheumatism by reducing inflammation and alleviating symptoms. It also possesses anti-diarrheal properties, which can help alleviate gastroenteritis and dysentery. Furthermore, the plant's antimicrobial properties make it an effective treatment for skin infections, including eczema and ulcers, as well as fungal infections and insect bites. Additionally, Senegalia ataxacantha has been shown to reduce hypertension and diabetes, and has been used to treat malaria, wounds, and arthritis, but further research is needed to fully understand its effects on cancer and ulcers.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 163, "total_score": 3260}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 146, "total_score": 2920}, {"name": "antioxidant", "mentions": 20, "confidence_score": 145, "total_score": 2900}, {"name": "analgesic", "mentions": 20, "confidence_score": 109, "total_score": 2180}, {"name": "antifungal", "mentions": 10, "confidence_score": 68, "total_score": 680}, {"name": "antibacterial", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "antipyretic", "mentions": 12, "confidence_score": 56, "total_score": 672}, {"name": "cardioprotective", "mentions": 9, "confidence_score": 47, "total_score": 423}, {"name": "hepatoprotective", "mentions": 8, "confidence_score": 47, "total_score": 376}, {"name": "hypotensive", "mentions": 7, "confidence_score": 42, "total_score": 294}, {"name": "antiparasitic", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "antiviral", "mentions": 8, "confidence_score": 30, "total_score": 240}, {"name": "antispasmodic", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "anticancer", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "antihistaminic", "mentions": 6, "confidence_score": 23, "total_score": 138}, {"name": "antiseptic", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "antidiarrheal", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "antihemorrhagic", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "wound healing", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "diuretic", "mentions": 2, "confidence_score": 14, "total_score": 28}], "properties_description": "The main therapeutic properties of Senegalia ataxacantha are its antimicrobial activity, which has been shown to inhibit the growth of various microorganisms, including bacteria and fungi, thereby preventing infections. The plant's anti-inflammatory properties are attributed to the presence of flavonoids and saponins, which have been found to reduce inflammation and alleviate pain. Its antioxidant properties, mediated by volatile oils and phenolic compounds, help protect cells from oxidative damage and prevent chronic diseases. Furthermore, Senegalia ataxacantha has been found to possess analgesic properties, which are thought to be due to the presence of alkaloids and terpenoids that reduce pain perception. Additionally, the plant's antifungal properties are attributed to the bioactive compounds that inhibit the growth of fungal pathogens, making it a potential natural remedy for fungal infections.", "constituents": [{"name": "quercetin", "mentions": 13, "confidence_score": 116, "total_score": 1508}, {"name": "kaempferol", "mentions": 13, "confidence_score": 103, "total_score": 1339}, {"name": "flavonoids", "mentions": 9, "confidence_score": 71, "total_score": 639}, {"name": "phenolic acids", "mentions": 9, "confidence_score": 64, "total_score": 576}, {"name": "isorhapontigenin", "mentions": 10, "confidence_score": 63, "total_score": 630}, {"name": "saponins", "mentions": 9, "confidence_score": 63, "total_score": 567}, {"name": "triterpenoids", "mentions": 9, "confidence_score": 50, "total_score": 450}, {"name": "epicatechin", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "gallic acid", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "alkaloids", "mentions": 8, "confidence_score": 39, "total_score": 312}, {"name": "tannins", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "naringenin", "mentions": 7, "confidence_score": 36, "total_score": 252}, {"name": "glycosides", "mentions": 7, "confidence_score": 35, "total_score": 245}, {"name": "sterols", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "rutin", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "isoquercitrin", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "coumarins", "mentions": 7, "confidence_score": 25, "total_score": 175}, {"name": "luteolin", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "ellagic acid", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "apigenin", "mentions": 3, "confidence_score": 22, "total_score": 66}], "constituents_description": "The most important healing constituents of Senegalia ataxacantha are flavonoids including quercetin and kaempferol, which have been found to possess anti-inflammatory and antioxidant properties, contributing to its therapeutic potential. The plant's rich content of phenolic acids further enhances its antioxidant activity, protecting against oxidative stress and cell damage. Additionally, isorhapontigenin, a bioactive compound isolated from Senegalia ataxacantha, has been identified as a potent inhibitor of inflammatory enzymes, lending credence to its use in treating inflammatory conditions. The flavonoids present in Senegalia ataxacantha have also been reported to exhibit antimicrobial activity, suggesting its potential in treating infections. Overall, the unique blend of flavonoids, phenolic acids, and isorhapontigenin in Senegalia ataxacantha underlies its healing properties and justifies its use in traditional medicine.", "preparations": [{"name": "infusion", "mentions": 19, "confidence_score": 150, "total_score": 2850}, {"name": "tincture", "mentions": 19, "confidence_score": 134, "total_score": 2546}, {"name": "decoction", "mentions": 16, "confidence_score": 98, "total_score": 1568}, {"name": "salve", "mentions": 17, "confidence_score": 83, "total_score": 1411}, {"name": "tea", "mentions": 13, "confidence_score": 79, "total_score": 1027}, {"name": "ointment", "mentions": 9, "confidence_score": 38, "total_score": 342}, {"name": "poultice", "mentions": 6, "confidence_score": 18, "total_score": 108}, {"name": "infused oil", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "glycoside extract", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "resin tincture", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suppository", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "oil", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "essential oil", "mentions": 3, "confidence_score": 4, "total_score": 12}, {"name": "resin extract", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suppositories", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "powder", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Senegalia ataxacantha are infusion made by steeping the leaves and twigs in hot water to treat fever and skin conditions, tincture prepared by soaking the plant material in a solvent to create a concentrated extract for use in traditional medicine, decoction a liquid extract made by boiling the bark and roots to treat respiratory issues, salve made by infusing the plant in a carrier oil to create a topical treatment for skin conditions such as eczema, tea brewed from the leaves and twigs to treat fever and gastrointestinal problems.", "side_effects": [{"name": "cause nephrotoxicity", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "causes diarrhea", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "induces nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "raises blood pressure", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "exacerbate allergic reactions", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "suffering abdominal pain", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "developing allergic reaction", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "increases heart rate", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "experience nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop skin irritation", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experiencing abdominal pain", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experience diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experience headaches", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experience cardiac arrest", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "develop skin rashes", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "triggers allergic reaction", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "develop respiratory failure", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effects of using Senegalia ataxacantha improperly include nephrotoxicity, which can cause irreversible kidney damage due to the presence of toxic compounds such as glycosides and alkaloids. Improper use of the plant can also lead to gastrointestinal issues such as diarrhea and nausea, as the toxic compounds can irritate the digestive system and cause inflammation. Additionally, Senegalia ataxacantha can induce hypertension by altering the body's ability to regulate blood pressure, leading to cardiovascular problems. Furthermore, the toxic compounds in the plant can cause severe diarrhea, leading to dehydration and electrolyte imbalances. These side effects are due to the high concentration of toxic compounds in the plant, which can be toxic in large doses or with prolonged use.", "uses": "Senegalia ataxacantha has been used in traditional medicine, with its leaves and branches reported to have anti-inflammatory and antimicrobial properties. The plant is believed to have wound-healing properties and is used to treat various skin conditions. In some African cultures, it is used to treat fever, rheumatism, and other conditions. The plant's bark is also used to treat diarrhea and other gastrointestinal issues. However, the effectiveness and safety of using Senegalia ataxacantha as a medicine have not been extensively scientifically studied.", "taxonomy": "Senegalia ataxacantha is classified as a species of flowering plant in the family Fabaceae. It is a type of thorny tree native to tropical and subtropical regions. Senegalia ataxacantha is often found growing in woodland, grassland, or rocky areas. This species is part of the Acacia genus, but has been reclassified into the Senegalia genus as part of a recent revision. The reclassification reflects the ongoing refinement of botanical classification systems.", "benefits": "Senegalia ataxacantha, also known as the spiny acacia, has been traditionally used in various cultures for its medicinal properties. The plant's extracts have been found to possess antimicrobial, anti-inflammatory, and antifungal activities. It is believed to have potential health benefits, including wound healing, fever reduction, and relief from digestive issues. The plant's leaves and stems are also used to treat various health conditions, such as arthritis, skin infections, and respiratory problems. However, more research is needed to fully understand the plant's effects on human health.", "parts": "Senegalia ataxacantha is used for its medicinal properties. The bark of the tree is used to treat various ailments, including fever and rheumatism. The roots and leaves of the plant are also used in traditional medicine to treat various conditions. In some parts of Africa, the plant is used to treat malaria and other fevers. The plant's medicinal properties are still being studied for their potential benefits.", "intro": "Senegalia ataxacantha, also known as thorn mimosa, is a thorny shrub native to South Africa, belonging to the Fabaceae family of legume plants. The plant has been used in traditional medicine for its health benefits, including anti-inflammatory and antimicrobial properties, which have been found to aid in wound healing and the treatment of various infections. The bioactive constituents of Senegalia ataxacantha include alkaloids, flavonoids, and saponins, which are responsible for its medicinal properties. In traditional herbal medicine, Senegalia ataxacantha is often prepared as a tea or infusion, as well as being used in topical creams and ointments, to take advantage of its wound-healing and antimicrobial effects."}
+{
+    "title": "Senegalia ataxacantha",
+    "herb_slug": "senegalia-ataxacantha",
+    "herb_name_scientific": "Senegalia ataxacantha",
+    "family_slug": "fabaceae",
+    "family_name": "Fabaceae",
+    "url": "herbs/senegalia-ataxacantha",
+    "lastmod": "2025-1-19",
+    "herb_names_common": [
+        {
+            "name": "thorny acacia",
+            "mentions": 24,
+            "confidence_score": 143,
+            "total_score": 3432
+        },
+        {
+            "name": "acacia ataxacantha",
+            "mentions": 22,
+            "confidence_score": 128,
+            "total_score": 2816
+        },
+        {
+            "name": "thorn acacia",
+            "mentions": 10,
+            "confidence_score": 68,
+            "total_score": 680
+        },
+        {
+            "name": "thorny wattle",
+            "mentions": 7,
+            "confidence_score": 35,
+            "total_score": 245
+        },
+        {
+            "name": "veldthorn tree",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "scorpion thorn acacia",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "thorny mimosa",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "scorpion thorn",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "thorny tree",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "thorn mimosa",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "scorpion bush",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "senegalia",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "senegal thorn",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "senegal acacia",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "thorny pea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cape thorn",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "mopane thorn",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "thorn wattle",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "veldthorn",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "black thorn",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 12,
+            "confidence_score": 99,
+            "total_score": 1188
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 8,
+            "confidence_score": 66,
+            "total_score": 528
+        }
+    ],
+    "what_description": "Senegalia ataxacantha is a species of plant in the family Fabaceae, native to tropical Africa. It is a deciduous shrub or small tree, growing up to 10 meters tall, with a straight, spiny stem. Leaves are bipinnate, with 2-4 pairs of pinnae, each bearing 2-6 pairs of leaflets, which are elliptic in shape and 5-20 millimeters long. The inflorescence is a spicate raceme, bearing yellow flowers with 5 petals and 10 stamens. The fruit is a pod, 6-12 centimeters long and 1-2 centimeters wide, containing 2-4 seeds.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 13,
+            "confidence_score": 104,
+            "total_score": 1352
+        },
+        {
+            "name": "fever",
+            "mentions": 12,
+            "confidence_score": 98,
+            "total_score": 1176
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 12,
+            "confidence_score": 98,
+            "total_score": 1176
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 10,
+            "confidence_score": 81,
+            "total_score": 810
+        },
+        {
+            "name": "bacterial infections",
+            "mentions": 11,
+            "confidence_score": 80,
+            "total_score": 880
+        },
+        {
+            "name": "skin infections",
+            "mentions": 9,
+            "confidence_score": 67,
+            "total_score": 603
+        },
+        {
+            "name": "diabetes",
+            "mentions": 9,
+            "confidence_score": 62,
+            "total_score": 558
+        },
+        {
+            "name": "malaria",
+            "mentions": 11,
+            "confidence_score": 62,
+            "total_score": 682
+        },
+        {
+            "name": "arthritis",
+            "mentions": 6,
+            "confidence_score": 48,
+            "total_score": 288
+        },
+        {
+            "name": "wounds",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "hypertension",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "eczema",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "insect bites",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "pain",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "dysentery",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "cancer",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "ulcers",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Senegalia ataxacantha are inflammation, fever, rheumatism, and bacterial infections, which are often associated with pain and skin irritation. The plant has been proven to effectively treat fever and rheumatism by reducing inflammation and alleviating symptoms. It also possesses anti-diarrheal properties, which can help alleviate gastroenteritis and dysentery. Furthermore, the plant's antimicrobial properties make it an effective treatment for skin infections, including eczema and ulcers, as well as fungal infections and insect bites. Additionally, Senegalia ataxacantha has been shown to reduce hypertension and diabetes, and has been used to treat malaria, wounds, and arthritis, but further research is needed to fully understand its effects on cancer and ulcers.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 163,
+            "total_score": 3260
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 146,
+            "total_score": 2920
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 145,
+            "total_score": 2900
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 109,
+            "total_score": 2180
+        },
+        {
+            "name": "antifungal",
+            "mentions": 10,
+            "confidence_score": 68,
+            "total_score": 680
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 12,
+            "confidence_score": 56,
+            "total_score": 672
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 9,
+            "confidence_score": 47,
+            "total_score": 423
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 8,
+            "confidence_score": 47,
+            "total_score": 376
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 7,
+            "confidence_score": 42,
+            "total_score": 294
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "antiviral",
+            "mentions": 8,
+            "confidence_score": 30,
+            "total_score": 240
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 6,
+            "confidence_score": 23,
+            "total_score": 138
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "antihemorrhagic",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "diuretic",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Senegalia ataxacantha are its antimicrobial activity, which has been shown to inhibit the growth of various microorganisms, including bacteria and fungi, thereby preventing infections. The plant's anti-inflammatory properties are attributed to the presence of flavonoids and saponins, which have been found to reduce inflammation and alleviate pain. Its antioxidant properties, mediated by volatile oils and phenolic compounds, help protect cells from oxidative damage and prevent chronic diseases. Furthermore, Senegalia ataxacantha has been found to possess analgesic properties, which are thought to be due to the presence of alkaloids and terpenoids that reduce pain perception. Additionally, the plant's antifungal properties are attributed to the bioactive compounds that inhibit the growth of fungal pathogens, making it a potential natural remedy for fungal infections.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 13,
+            "confidence_score": 116,
+            "total_score": 1508
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 13,
+            "confidence_score": 103,
+            "total_score": 1339
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 9,
+            "confidence_score": 71,
+            "total_score": 639
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 9,
+            "confidence_score": 64,
+            "total_score": 576
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 10,
+            "confidence_score": 63,
+            "total_score": 630
+        },
+        {
+            "name": "saponins",
+            "mentions": 9,
+            "confidence_score": 63,
+            "total_score": 567
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 9,
+            "confidence_score": 50,
+            "total_score": 450
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 8,
+            "confidence_score": 39,
+            "total_score": 312
+        },
+        {
+            "name": "tannins",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "naringenin",
+            "mentions": 7,
+            "confidence_score": 36,
+            "total_score": 252
+        },
+        {
+            "name": "glycosides",
+            "mentions": 7,
+            "confidence_score": 35,
+            "total_score": 245
+        },
+        {
+            "name": "sterols",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "rutin",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "isoquercitrin",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "coumarins",
+            "mentions": 7,
+            "confidence_score": 25,
+            "total_score": 175
+        },
+        {
+            "name": "luteolin",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "apigenin",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Senegalia ataxacantha are flavonoids including quercetin and kaempferol, which have been found to possess anti-inflammatory and antioxidant properties, contributing to its therapeutic potential. The plant's rich content of phenolic acids further enhances its antioxidant activity, protecting against oxidative stress and cell damage. Additionally, isorhapontigenin, a bioactive compound isolated from Senegalia ataxacantha, has been identified as a potent inhibitor of inflammatory enzymes, lending credence to its use in treating inflammatory conditions. The flavonoids present in Senegalia ataxacantha have also been reported to exhibit antimicrobial activity, suggesting its potential in treating infections. Overall, the unique blend of flavonoids, phenolic acids, and isorhapontigenin in Senegalia ataxacantha underlies its healing properties and justifies its use in traditional medicine.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 19,
+            "confidence_score": 150,
+            "total_score": 2850
+        },
+        {
+            "name": "tincture",
+            "mentions": 19,
+            "confidence_score": 134,
+            "total_score": 2546
+        },
+        {
+            "name": "decoction",
+            "mentions": 16,
+            "confidence_score": 98,
+            "total_score": 1568
+        },
+        {
+            "name": "salve",
+            "mentions": 17,
+            "confidence_score": 83,
+            "total_score": 1411
+        },
+        {
+            "name": "tea",
+            "mentions": 13,
+            "confidence_score": 79,
+            "total_score": 1027
+        },
+        {
+            "name": "ointment",
+            "mentions": 9,
+            "confidence_score": 38,
+            "total_score": 342
+        },
+        {
+            "name": "poultice",
+            "mentions": 6,
+            "confidence_score": 18,
+            "total_score": 108
+        },
+        {
+            "name": "infused oil",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "glycoside extract",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "resin tincture",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "oil",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "essential oil",
+            "mentions": 3,
+            "confidence_score": 4,
+            "total_score": 12
+        },
+        {
+            "name": "resin extract",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suppositories",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "powder",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Senegalia ataxacantha are infusion made by steeping the leaves and twigs in hot water to treat fever and skin conditions, tincture prepared by soaking the plant material in a solvent to create a concentrated extract for use in traditional medicine, decoction a liquid extract made by boiling the bark and roots to treat respiratory issues, salve made by infusing the plant in a carrier oil to create a topical treatment for skin conditions such as eczema, tea brewed from the leaves and twigs to treat fever and gastrointestinal problems.",
+    "side_effects": [
+        {
+            "name": "cause nephrotoxicity",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "causes diarrhea",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "induces nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "raises blood pressure",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "exacerbate allergic reactions",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "suffering abdominal pain",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "developing allergic reaction",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "increases heart rate",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experience headaches",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experience cardiac arrest",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "develop skin rashes",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "triggers allergic reaction",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "develop respiratory failure",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Senegalia ataxacantha improperly include nephrotoxicity, which can cause irreversible kidney damage due to the presence of toxic compounds such as glycosides and alkaloids. Improper use of the plant can also lead to gastrointestinal issues such as diarrhea and nausea, as the toxic compounds can irritate the digestive system and cause inflammation. Additionally, Senegalia ataxacantha can induce hypertension by altering the body's ability to regulate blood pressure, leading to cardiovascular problems. Furthermore, the toxic compounds in the plant can cause severe diarrhea, leading to dehydration and electrolyte imbalances. These side effects are due to the high concentration of toxic compounds in the plant, which can be toxic in large doses or with prolonged use.",
+    "uses": "Senegalia ataxacantha has been used in traditional medicine, with its leaves and branches reported to have anti-inflammatory and antimicrobial properties. The plant is believed to have wound-healing properties and is used to treat various skin conditions. In some African cultures, it is used to treat fever, rheumatism, and other conditions. The plant's bark is also used to treat diarrhea and other gastrointestinal issues. However, the effectiveness and safety of using Senegalia ataxacantha as a medicine have not been extensively scientifically studied.",
+    "taxonomy": "Senegalia ataxacantha is classified as a species of flowering plant in the family Fabaceae. It is a type of thorny tree native to tropical and subtropical regions. Senegalia ataxacantha is often found growing in woodland, grassland, or rocky areas. This species is part of the Acacia genus, but has been reclassified into the Senegalia genus as part of a recent revision. The reclassification reflects the ongoing refinement of botanical classification systems.",
+    "benefits": "Senegalia ataxacantha, also known as the spiny acacia, has been traditionally used in various cultures for its medicinal properties. The plant's extracts have been found to possess antimicrobial, anti-inflammatory, and antifungal activities. It is believed to have potential health benefits, including wound healing, fever reduction, and relief from digestive issues. The plant's leaves and stems are also used to treat various health conditions, such as arthritis, skin infections, and respiratory problems. However, more research is needed to fully understand the plant's effects on human health.",
+    "parts": "Senegalia ataxacantha is used for its medicinal properties. The bark of the tree is used to treat various ailments, including fever and rheumatism. The roots and leaves of the plant are also used in traditional medicine to treat various conditions. In some parts of Africa, the plant is used to treat malaria and other fevers. The plant's medicinal properties are still being studied for their potential benefits.",
+    "intro": "Senegalia ataxacantha, also known as thorn mimosa, is a thorny shrub native to South Africa, belonging to the Fabaceae family of legume plants. The plant has been used in traditional medicine for its health benefits, including anti-inflammatory and antimicrobial properties, which have been found to aid in wound healing and the treatment of various infections. The bioactive constituents of Senegalia ataxacantha include alkaloids, flavonoids, and saponins, which are responsible for its medicinal properties. In traditional herbal medicine, Senegalia ataxacantha is often prepared as a tea or infusion, as well as being used in topical creams and ointments, to take advantage of its wound-healing and antimicrobial effects."
+}

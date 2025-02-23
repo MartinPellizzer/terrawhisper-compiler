@@ -1,1 +1,743 @@
-{"title": "Lyonia affinis", "herb_slug": "lyonia-affinis", "herb_name_scientific": "Lyonia affinis", "family_slug": "ericaceae", "family_name": "Ericaceae", "url": "herbs/lyonia-affinis", "lastmod": "2025-1-16", "herb_names_common": [{"name": "lyonia", "mentions": 20, "confidence_score": 134, "total_score": 2680}, {"name": "fragrant lyonia", "mentions": 10, "confidence_score": 66, "total_score": 660}, {"name": "mountain honeysuckle", "mentions": 7, "confidence_score": 65, "total_score": 455}, {"name": "fetterbush", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "mountain lyonia", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "stag holly", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "stagbush", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "lyonia affinis stag holly", "mentions": 9, "confidence_score": 22, "total_score": 198}, {"name": "farkleberry", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "mountain huckleberry", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "mountain fetterbush", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "wax myrtle", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "mountain farkleberry", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "mountain silverbell", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "fetter bush", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "northern lyonia", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "eastern fetterbush", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "lyonia lucida", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "stag bush", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "lyonia bush", "mentions": 3, "confidence_score": 13, "total_score": 39}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 166, "total_score": 3320}], "what_description": "Lyonia affinis is a shrub species in the family Ericaceae, native to East Asia. It grows 1-2 meters tall, with a woody stem and alternate, elliptical leaves that are 2-6 cm long and 1-3 cm wide. The leaves are dark green on the upper surface and pale beneath, with a short petiole and an entire margin. The plant produces white or pinkish flowers in a terminal corymb, with 5-6 petals and 10-20 stamens, followed by red or purple berries that are 6-8 mm in diameter. The species is typically found in forests, thickets, and mountainous areas at elevations of 800-2,400 meters.", "category_action": "alteratives", "ailments": [{"name": "inflammation", "mentions": 14, "confidence_score": 118, "total_score": 1652}, {"name": "diarrhea", "mentions": 10, "confidence_score": 72, "total_score": 720}, {"name": "rheumatism", "mentions": 9, "confidence_score": 66, "total_score": 594}, {"name": "hypertension", "mentions": 8, "confidence_score": 61, "total_score": 488}, {"name": "fever", "mentions": 7, "confidence_score": 52, "total_score": 364}, {"name": "arthritis", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "gastroenteritis", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "diabetes", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "wound healing", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "asthma", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "anxiety", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "cough", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "infection", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "skin irritation", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "cancer", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "dyspepsia", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "digestive issues", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "antimicrobial properties", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "antifungal properties", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "skin conditions", "mentions": 3, "confidence_score": 17, "total_score": 51}], "ailments_description": "The most common ailments you can heal with Lyonia affinis are inflammation, which it reduces by inhibiting pro-inflammatory enzymes, and diarrhea, due to its anti-secretory properties. Rheumatism symptoms are alleviated by its anti-inflammatory and analgesic compounds, while hypertension is managed through its ability to relax blood vessels. Fever is decreased by its antipyretic properties, and arthritis is treated by its anti-inflammatory and anti-arthritic compounds. Gastroenteritis and diabetes are addressed by its antioxidant and anti-diabetic properties, respectively, and wound healing is accelerated by its tissue repair and collagen synthesis stimulation. Additionally, Lyonia affinis exhibits antimicrobial and antifungal properties, treats skin conditions and skin irritation, and shows potential in treating cough, infection, dyspepsia, digestive issues, and cancer.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 160, "total_score": 3200}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 146, "total_score": 2920}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 141, "total_score": 2820}, {"name": "antifungal", "mentions": 12, "confidence_score": 76, "total_score": 912}, {"name": "analgesic", "mentions": 18, "confidence_score": 72, "total_score": 1296}, {"name": "hepatoprotective", "mentions": 11, "confidence_score": 50, "total_score": 550}, {"name": "cytotoxic", "mentions": 9, "confidence_score": 49, "total_score": 441}, {"name": "antiviral", "mentions": 15, "confidence_score": 47, "total_score": 705}, {"name": "cardioprotective", "mentions": 9, "confidence_score": 42, "total_score": 378}, {"name": "antibacterial", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "hypotensive", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "antidiabetic", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "antipyretic", "mentions": 5, "confidence_score": 17, "total_score": 85}, {"name": "antihistamine", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "anticancer", "mentions": 6, "confidence_score": 15, "total_score": 90}, {"name": "antiseptic", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cytoprotective", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "neuroprotective", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "wound-healing", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "antidiarrheal", "mentions": 2, "confidence_score": 9, "total_score": 18}], "properties_description": "The main therapeutic properties of Lyonia affinis are its antioxidant activities, which help protect cells from damage caused by free radicals. The plant's antimicrobial properties are attributed to its ability to inhibit the growth of various microorganisms, including bacteria and fungi, thereby preventing infections. Additionally, the bioactive compounds present in Lyonia affinis exhibit anti-inflammatory properties, reducing swelling and pain in the body. The antifungal properties of this plant are also noteworthy, as they prevent the growth of fungal species and can be used to treat fungal infections. Moreover, its bioactive compounds are responsible for its analgesic properties, providing relief from pain and discomfort.", "constituents": [{"name": "quercetin", "mentions": 19, "confidence_score": 166, "total_score": 3154}, {"name": "kaempferol", "mentions": 19, "confidence_score": 146, "total_score": 2774}, {"name": "isorhapontigenin", "mentions": 13, "confidence_score": 95, "total_score": 1235}, {"name": "quinic acid", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "quercitrin", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "epicatechin", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "catechin", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "gallic acid", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "flavonoids", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "tannins", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "ellagic acid", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "phenolic acids", "mentions": 6, "confidence_score": 27, "total_score": 162}, {"name": "isoquercetin", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "caffeic acid", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "myricetin", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "kaempferol-3-o-glucoside", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "ferulic acid", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "proanthocyanidins", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "quercetin-3-o-glucoside", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "naringenin", "mentions": 4, "confidence_score": 17, "total_score": 68}], "constituents_description": "The most important healing constituents of Lyonia affinis are quercetin, kaempferol, isorhapontigenin, quinic acid, and quercitrin. Quercetin and kaempferol are potent antioxidants with anti-inflammatory properties, which have been shown to inhibit the production of pro-inflammatory enzymes and cytokines. Isorhapontigenin has been found to have hepatoprotective and anti-cancer properties, with studies demonstrating its ability to inhibit the growth of cancer cells and induce apoptosis. Quinic acid has been identified as a potential antiviral agent, with studies suggesting its ability to inhibit the replication of influenza virus. Quercitrin, a flavonoid glycoside, has been found to have anti-inflammatory and antioxidant properties, with studies demonstrating its ability to scavenge free radicals and inhibit the production of pro-inflammatory enzymes.", "preparations": [{"name": "tea", "mentions": 14, "confidence_score": 128, "total_score": 1792}, {"name": "tincture", "mentions": 15, "confidence_score": 110, "total_score": 1650}, {"name": "infusion", "mentions": 14, "confidence_score": 99, "total_score": 1386}, {"name": "salve", "mentions": 15, "confidence_score": 66, "total_score": 990}, {"name": "decoction", "mentions": 13, "confidence_score": 60, "total_score": 780}, {"name": "lyonia tea", "mentions": 6, "confidence_score": 53, "total_score": 318}, {"name": "lyonia infusion", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "lyonia tincture", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "lyonia salve", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "infused oil", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "ointment", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "lyonia oil", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "lyonia decoction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "lyonia extract", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "infusate", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "lyonia poultice", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suppository", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Lyonia affinis are derived from its leaves and stems, which contain bioactive compounds with medicinal properties. Tea is prepared by steeping the dried leaves in hot water to create a decoction rich in antioxidants and flavonoids, useful for treating digestive issues. A tincture is made by soaking the dried leaves in a solvent, typically ethanol, to create a concentrated liquid extract with anti-inflammatory and antimicrobial properties. An infusion is prepared similarly to tea, but with cold water, to preserve the volatile compounds and create a preparation for treating respiratory issues. A salve is prepared by infusing the leaves in a fat-based solvent, such as coconut oil, to create a topical preparation for wound healing and skin issues.", "side_effects": [{"name": "induce vomiting", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "cause diarrhea", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "experience nausea", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "it triggers allergic reactions", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "induce nausea", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "experiencing dizziness", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "experiencing vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiences nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop respiratory issues", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experience cardiovascular problems", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develops allergic reaction", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "trigger seizures", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "experiencing abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "shows seizure activity", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "trigger allergic reactions", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "lead to cardiac arrest", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "suffer liver damage", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "suffer allergic reactions", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experience headaches", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effects of using Lyonia affinis improperly include inducing vomiting, which can lead to dehydration and electrolyte imbalance, as well as causing diarrhea, a condition that may be exacerbated by the loss of fluids and electrolytes. Experience nausea is another possible side effect, often accompanied by stomach discomfort and pain. Additionally, improper use of Lyonia affinis can trigger allergic reactions, ranging from mild skin irritation to life-threatening anaphylaxis, which requires immediate medical attention. The improper use of Lyonia affinis may also induce nausea, a condition that can further worsen the discomfort and lead to malnutrition if not treated promptly. These side effects are primarily caused by the improper preparation, dosage, or administration of Lyonia affinis, which can lead to an imbalance of its active compounds, resulting in adverse reactions.", "uses": "Lyonia affinis, also known as the coastal lyonia, is a shrub native to eastern Asia and is used in traditional medicine. The plant's leaves and roots are used to treat various ailments, including fever, rheumatism, and digestive issues. In traditional Chinese medicine, Lyonia affinis is used to balance the body's energy and promote overall well-being. Its leaves are also used to make a tea that is said to have anti-inflammatory properties. Additionally, the plant is used to treat wounds and skin conditions due to its antimicrobial properties.", "taxonomy": "Lyonia affinis is classified as a species within the family Ericaceae. This family consists of heath and heather plants, as well as related species. Lyonia affinis is further classified as a member of the genus Lyonia, which is a group of flowering plants native to Asia and North America. The genus Lyonia is part of the order Ericales, which is a large and diverse group of flowering plants. Lyonia affinis is a specific species within this complex classification system.", "benefits": "Lyonia affinis is known for its various health benefits, including its antioxidant properties which help to protect against cell damage and inflammation in the body. The plant's leaves and stems contain compounds that have been shown to exhibit antimicrobial and antiviral activities, making it a potential natural remedy for certain infections. Additionally, Lyonia affinis has been traditionally used to treat fever and other respiratory issues, such as bronchitis and pneumonia. The plant's leaves are also used in traditional medicine to treat digestive problems, including diarrhea and dysentery. Further research is needed to confirm the full extent of Lyonia affinis's health benefits and potential applications.", "parts": "Lyonia affinis, a shrub native to the southeastern United States, is known to have medicinal properties. The roots and stems of the plant are used in traditional medicine, particularly for their antiseptic and anti-inflammatory properties. The plant contains compounds such as lyoniaflavone and lyoniavin, which are believed to possess antioxidant and antimicrobial activities. These compounds may contribute to the plant's potential health benefits, including reducing inflammation and fighting off infections. Further research is needed to confirm the efficacy of Lyonia affinis as a medicinal plant.", "intro": "Lyonia affinis, also known as the Eastern panicle lyonia or Eastern panicle lyonia shrub, is a small, deciduous shrub native to eastern Asia and North America. The plant has been traditionally used in herbal medicine to treat various health issues, including fever, rheumatism, and respiratory problems, due to its anti-inflammatory, antibacterial, and antiviral properties. The bioactive constituents of Lyonia affinis include alkaloids, flavonoids, and phenolic acids, which have been shown to exhibit antioxidant and neuroprotective effects. Lyonia affinis is commonly prepared as a tea, decoction, or tincture, and is also used in traditional Chinese medicine to treat a range of conditions, including fever, sore throat, and digestive issues."}
+{
+    "title": "Lyonia affinis",
+    "herb_slug": "lyonia-affinis",
+    "herb_name_scientific": "Lyonia affinis",
+    "family_slug": "ericaceae",
+    "family_name": "Ericaceae",
+    "url": "herbs/lyonia-affinis",
+    "lastmod": "2025-1-16",
+    "herb_names_common": [
+        {
+            "name": "lyonia",
+            "mentions": 20,
+            "confidence_score": 134,
+            "total_score": 2680
+        },
+        {
+            "name": "fragrant lyonia",
+            "mentions": 10,
+            "confidence_score": 66,
+            "total_score": 660
+        },
+        {
+            "name": "mountain honeysuckle",
+            "mentions": 7,
+            "confidence_score": 65,
+            "total_score": 455
+        },
+        {
+            "name": "fetterbush",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "mountain lyonia",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "stag holly",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "stagbush",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "lyonia affinis stag holly",
+            "mentions": 9,
+            "confidence_score": 22,
+            "total_score": 198
+        },
+        {
+            "name": "farkleberry",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "mountain huckleberry",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "mountain fetterbush",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "wax myrtle",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "mountain farkleberry",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "mountain silverbell",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "fetter bush",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "northern lyonia",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "eastern fetterbush",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "lyonia lucida",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "stag bush",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "lyonia bush",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 166,
+            "total_score": 3320
+        }
+    ],
+    "what_description": "Lyonia affinis is a shrub species in the family Ericaceae, native to East Asia. It grows 1-2 meters tall, with a woody stem and alternate, elliptical leaves that are 2-6 cm long and 1-3 cm wide. The leaves are dark green on the upper surface and pale beneath, with a short petiole and an entire margin. The plant produces white or pinkish flowers in a terminal corymb, with 5-6 petals and 10-20 stamens, followed by red or purple berries that are 6-8 mm in diameter. The species is typically found in forests, thickets, and mountainous areas at elevations of 800-2,400 meters.",
+    "category_action": "alteratives",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 14,
+            "confidence_score": 118,
+            "total_score": 1652
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 10,
+            "confidence_score": 72,
+            "total_score": 720
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 9,
+            "confidence_score": 66,
+            "total_score": 594
+        },
+        {
+            "name": "hypertension",
+            "mentions": 8,
+            "confidence_score": 61,
+            "total_score": 488
+        },
+        {
+            "name": "fever",
+            "mentions": 7,
+            "confidence_score": 52,
+            "total_score": 364
+        },
+        {
+            "name": "arthritis",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "diabetes",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "wound healing",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "asthma",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "anxiety",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "cough",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "infection",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "cancer",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "dyspepsia",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "antimicrobial properties",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "antifungal properties",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Lyonia affinis are inflammation, which it reduces by inhibiting pro-inflammatory enzymes, and diarrhea, due to its anti-secretory properties. Rheumatism symptoms are alleviated by its anti-inflammatory and analgesic compounds, while hypertension is managed through its ability to relax blood vessels. Fever is decreased by its antipyretic properties, and arthritis is treated by its anti-inflammatory and anti-arthritic compounds. Gastroenteritis and diabetes are addressed by its antioxidant and anti-diabetic properties, respectively, and wound healing is accelerated by its tissue repair and collagen synthesis stimulation. Additionally, Lyonia affinis exhibits antimicrobial and antifungal properties, treats skin conditions and skin irritation, and shows potential in treating cough, infection, dyspepsia, digestive issues, and cancer.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 160,
+            "total_score": 3200
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 146,
+            "total_score": 2920
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 141,
+            "total_score": 2820
+        },
+        {
+            "name": "antifungal",
+            "mentions": 12,
+            "confidence_score": 76,
+            "total_score": 912
+        },
+        {
+            "name": "analgesic",
+            "mentions": 18,
+            "confidence_score": 72,
+            "total_score": 1296
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 11,
+            "confidence_score": 50,
+            "total_score": 550
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 9,
+            "confidence_score": 49,
+            "total_score": 441
+        },
+        {
+            "name": "antiviral",
+            "mentions": 15,
+            "confidence_score": 47,
+            "total_score": 705
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 9,
+            "confidence_score": 42,
+            "total_score": 378
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 5,
+            "confidence_score": 17,
+            "total_score": 85
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 15,
+            "total_score": 90
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "wound-healing",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Lyonia affinis are its antioxidant activities, which help protect cells from damage caused by free radicals. The plant's antimicrobial properties are attributed to its ability to inhibit the growth of various microorganisms, including bacteria and fungi, thereby preventing infections. Additionally, the bioactive compounds present in Lyonia affinis exhibit anti-inflammatory properties, reducing swelling and pain in the body. The antifungal properties of this plant are also noteworthy, as they prevent the growth of fungal species and can be used to treat fungal infections. Moreover, its bioactive compounds are responsible for its analgesic properties, providing relief from pain and discomfort.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 19,
+            "confidence_score": 166,
+            "total_score": 3154
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 19,
+            "confidence_score": 146,
+            "total_score": 2774
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 13,
+            "confidence_score": 95,
+            "total_score": 1235
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "quercitrin",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "catechin",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "tannins",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 6,
+            "confidence_score": 27,
+            "total_score": 162
+        },
+        {
+            "name": "isoquercetin",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "myricetin",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "kaempferol-3-o-glucoside",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "proanthocyanidins",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "quercetin-3-o-glucoside",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "naringenin",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Lyonia affinis are quercetin, kaempferol, isorhapontigenin, quinic acid, and quercitrin. Quercetin and kaempferol are potent antioxidants with anti-inflammatory properties, which have been shown to inhibit the production of pro-inflammatory enzymes and cytokines. Isorhapontigenin has been found to have hepatoprotective and anti-cancer properties, with studies demonstrating its ability to inhibit the growth of cancer cells and induce apoptosis. Quinic acid has been identified as a potential antiviral agent, with studies suggesting its ability to inhibit the replication of influenza virus. Quercitrin, a flavonoid glycoside, has been found to have anti-inflammatory and antioxidant properties, with studies demonstrating its ability to scavenge free radicals and inhibit the production of pro-inflammatory enzymes.",
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 14,
+            "confidence_score": 128,
+            "total_score": 1792
+        },
+        {
+            "name": "tincture",
+            "mentions": 15,
+            "confidence_score": 110,
+            "total_score": 1650
+        },
+        {
+            "name": "infusion",
+            "mentions": 14,
+            "confidence_score": 99,
+            "total_score": 1386
+        },
+        {
+            "name": "salve",
+            "mentions": 15,
+            "confidence_score": 66,
+            "total_score": 990
+        },
+        {
+            "name": "decoction",
+            "mentions": 13,
+            "confidence_score": 60,
+            "total_score": 780
+        },
+        {
+            "name": "lyonia tea",
+            "mentions": 6,
+            "confidence_score": 53,
+            "total_score": 318
+        },
+        {
+            "name": "lyonia infusion",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "lyonia tincture",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "lyonia salve",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "infused oil",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "ointment",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "lyonia oil",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "lyonia decoction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "lyonia extract",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "infusate",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "lyonia poultice",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Lyonia affinis are derived from its leaves and stems, which contain bioactive compounds with medicinal properties. Tea is prepared by steeping the dried leaves in hot water to create a decoction rich in antioxidants and flavonoids, useful for treating digestive issues. A tincture is made by soaking the dried leaves in a solvent, typically ethanol, to create a concentrated liquid extract with anti-inflammatory and antimicrobial properties. An infusion is prepared similarly to tea, but with cold water, to preserve the volatile compounds and create a preparation for treating respiratory issues. A salve is prepared by infusing the leaves in a fat-based solvent, such as coconut oil, to create a topical preparation for wound healing and skin issues.",
+    "side_effects": [
+        {
+            "name": "induce vomiting",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "it triggers allergic reactions",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop respiratory issues",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experience cardiovascular problems",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develops allergic reaction",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "shows seizure activity",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "lead to cardiac arrest",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "suffer allergic reactions",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experience headaches",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Lyonia affinis improperly include inducing vomiting, which can lead to dehydration and electrolyte imbalance, as well as causing diarrhea, a condition that may be exacerbated by the loss of fluids and electrolytes. Experience nausea is another possible side effect, often accompanied by stomach discomfort and pain. Additionally, improper use of Lyonia affinis can trigger allergic reactions, ranging from mild skin irritation to life-threatening anaphylaxis, which requires immediate medical attention. The improper use of Lyonia affinis may also induce nausea, a condition that can further worsen the discomfort and lead to malnutrition if not treated promptly. These side effects are primarily caused by the improper preparation, dosage, or administration of Lyonia affinis, which can lead to an imbalance of its active compounds, resulting in adverse reactions.",
+    "uses": "Lyonia affinis, also known as the coastal lyonia, is a shrub native to eastern Asia and is used in traditional medicine. The plant's leaves and roots are used to treat various ailments, including fever, rheumatism, and digestive issues. In traditional Chinese medicine, Lyonia affinis is used to balance the body's energy and promote overall well-being. Its leaves are also used to make a tea that is said to have anti-inflammatory properties. Additionally, the plant is used to treat wounds and skin conditions due to its antimicrobial properties.",
+    "taxonomy": "Lyonia affinis is classified as a species within the family Ericaceae. This family consists of heath and heather plants, as well as related species. Lyonia affinis is further classified as a member of the genus Lyonia, which is a group of flowering plants native to Asia and North America. The genus Lyonia is part of the order Ericales, which is a large and diverse group of flowering plants. Lyonia affinis is a specific species within this complex classification system.",
+    "benefits": "Lyonia affinis is known for its various health benefits, including its antioxidant properties which help to protect against cell damage and inflammation in the body. The plant's leaves and stems contain compounds that have been shown to exhibit antimicrobial and antiviral activities, making it a potential natural remedy for certain infections. Additionally, Lyonia affinis has been traditionally used to treat fever and other respiratory issues, such as bronchitis and pneumonia. The plant's leaves are also used in traditional medicine to treat digestive problems, including diarrhea and dysentery. Further research is needed to confirm the full extent of Lyonia affinis's health benefits and potential applications.",
+    "parts": "Lyonia affinis, a shrub native to the southeastern United States, is known to have medicinal properties. The roots and stems of the plant are used in traditional medicine, particularly for their antiseptic and anti-inflammatory properties. The plant contains compounds such as lyoniaflavone and lyoniavin, which are believed to possess antioxidant and antimicrobial activities. These compounds may contribute to the plant's potential health benefits, including reducing inflammation and fighting off infections. Further research is needed to confirm the efficacy of Lyonia affinis as a medicinal plant.",
+    "intro": "Lyonia affinis, also known as the Eastern panicle lyonia or Eastern panicle lyonia shrub, is a small, deciduous shrub native to eastern Asia and North America. The plant has been traditionally used in herbal medicine to treat various health issues, including fever, rheumatism, and respiratory problems, due to its anti-inflammatory, antibacterial, and antiviral properties. The bioactive constituents of Lyonia affinis include alkaloids, flavonoids, and phenolic acids, which have been shown to exhibit antioxidant and neuroprotective effects. Lyonia affinis is commonly prepared as a tea, decoction, or tincture, and is also used in traditional Chinese medicine to treat a range of conditions, including fever, sore throat, and digestive issues."
+}

@@ -1,1 +1,756 @@
-{"title": "Juniperus communis", "herb_slug": "juniperus-communis", "herb_name_scientific": "Juniperus communis", "family_slug": "", "family_name": "", "url": "herbs/juniperus-communis", "lastmod": "2025-1-20", "herb_names_common": [{"name": "juniper", "mentions": 20, "confidence_score": 198, "total_score": 3960}, {"name": "juniper tree", "mentions": 20, "confidence_score": 160, "total_score": 3200}, {"name": "juniper bush", "mentions": 17, "confidence_score": 115, "total_score": 1955}, {"name": "common juniper", "mentions": 13, "confidence_score": 109, "total_score": 1417}, {"name": "juniperus", "mentions": 19, "confidence_score": 109, "total_score": 2071}, {"name": "juniper berry", "mentions": 11, "confidence_score": 80, "total_score": 880}, {"name": "juniper shrub", "mentions": 10, "confidence_score": 58, "total_score": 580}, {"name": "mountain juniper", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "engeberge", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "enkin", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "juniperus communis", "mentions": 9, "confidence_score": 17, "total_score": 153}, {"name": "juniperberry", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "rocky mountain juniper", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "mountain cedar", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "eastern juniper", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "engele", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "wacholder", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "arbre de genievre", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "ensign pine", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "enzianstrauch", "mentions": 1, "confidence_score": 8, "total_score": 8}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 163, "total_score": 3260}], "what_description": "Juniperus communis is a perennial evergreen coniferous shrub or small tree, native to the Northern Hemisphere. It belongs to the family Cupressaceae and is the only species in the genus Juniperus native to Europe. The plant grows up to 10 meters in height, with a broad, rounded crown and a short, columnar trunk, often developing a gnarled, irregular shape. Its leaves are scale-like, 2-4 mm long, and green to blue-green in color, arranged in whorls of 3. Juniperus communis produces small, berry-like cones, 6-12 mm in diameter, which are blue-black in color and contain 2-3 seeds.", "category_action": "diuretics", "ailments": [{"name": "respiratory issues", "mentions": 13, "confidence_score": 112, "total_score": 1456}, {"name": "urinary tract infections", "mentions": 12, "confidence_score": 85, "total_score": 1020}, {"name": "inflammation", "mentions": 10, "confidence_score": 77, "total_score": 770}, {"name": "skin conditions", "mentions": 9, "confidence_score": 69, "total_score": 621}, {"name": "fungal infections", "mentions": 9, "confidence_score": 61, "total_score": 549}, {"name": "eczema", "mentions": 7, "confidence_score": 49, "total_score": 343}, {"name": "digestive issues", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "arthritis", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "diarrhea", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "rheumatism", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "muscle spasms", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "insect bites", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "anxiety", "mentions": 7, "confidence_score": 39, "total_score": 273}, {"name": "digestive problems", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "skin irritation", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "coughs", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "infections", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "menstrual cramps", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "bronchitis", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "skin infections", "mentions": 3, "confidence_score": 25, "total_score": 75}], "ailments_description": "The most common ailments you can heal with Juniperus communis are respiratory issues such as bronchitis, which is treated with juniper berries to loosen mucus and ease congestion. Juniper berries are also used to alleviate urinary tract infections by reducing inflammation and promoting urination. Inflammation, a common underlying factor in many conditions, is reduced with the anti-inflammatory properties of juniper berries, which also help with skin conditions like eczema by soothing and moisturizing the skin. The antifungal properties of juniper berries make it effective in treating fungal infections, and its antiseptic properties help with digestive issues such as diarrhea by reducing bacterial overgrowth. Additionally, juniper berries have been used to treat arthritis, rheumatism, muscle spasms, insect bites, anxiety, digestive problems, skin irritation, coughs, infections, menstrual cramps, and skin infections due to its anti-inflammatory and antiseptic properties.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 171, "total_score": 3420}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 166, "total_score": 3320}, {"name": "diuretic", "mentions": 20, "confidence_score": 165, "total_score": 3300}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 151, "total_score": 3020}, {"name": "expectorant", "mentions": 20, "confidence_score": 149, "total_score": 2980}, {"name": "analgesic", "mentions": 20, "confidence_score": 113, "total_score": 2260}, {"name": "antispasmodic", "mentions": 13, "confidence_score": 86, "total_score": 1118}, {"name": "antiseptic", "mentions": 10, "confidence_score": 79, "total_score": 790}, {"name": "antiviral", "mentions": 15, "confidence_score": 67, "total_score": 1005}, {"name": "antibacterial", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "antifungal", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "antipyretic", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "anticancer", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "hepatoprotective", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "cytotoxic", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "anti-rheumatic", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "antihistaminic", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "antihistamine", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "antitumor", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "choleretic", "mentions": 1, "confidence_score": 6, "total_score": 6}], "properties_description": "The main therapeutic properties of Juniperus communis are attributed to its antioxidant activity, which helps to neutralize free radicals and protect against oxidative stress. The plant's antimicrobial properties, primarily due to the presence of volatile oils, such as terpinen-4-ol and sabinene, inhibit the growth of various pathogens and prevent infections. Juniperus communis also exhibits diuretic effects, increasing urine production and helping to alleviate conditions like edema and urinary tract infections. Furthermore, its anti-inflammatory properties, mediated by flavonoids like quercetin and kaempferol, reduce inflammation and alleviate symptoms associated with conditions like arthritis. Additionally, the plant's expectorant properties, resulting from the presence of saponins and volatile oils, help to relieve respiratory issues like bronchitis and coughs by facilitating the expulsion of mucus and phlegm.", "constituents": [{"name": "sabinene", "mentions": 20, "confidence_score": 166, "total_score": 3320}, {"name": "\u03b1-pinene", "mentions": 17, "confidence_score": 150, "total_score": 2550}, {"name": "\u03b2-pinene", "mentions": 17, "confidence_score": 149, "total_score": 2533}, {"name": "bornyl acetate", "mentions": 19, "confidence_score": 124, "total_score": 2356}, {"name": "\u03b2-myrcene", "mentions": 13, "confidence_score": 96, "total_score": 1248}, {"name": "limonene", "mentions": 12, "confidence_score": 84, "total_score": 1008}, {"name": "\u03b1-terpinene", "mentions": 10, "confidence_score": 68, "total_score": 680}, {"name": "terpinen-4-ol", "mentions": 7, "confidence_score": 53, "total_score": 371}, {"name": "\u03b1-terpineol", "mentions": 8, "confidence_score": 48, "total_score": 384}, {"name": "cadinene", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "\u03b2-phellandrene", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "alpha-pinene", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "beta-pinene", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "\u03b2-caryophyllene", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "juniperene", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "terpinolene", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "juniperine", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "bornol", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "cedrol", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "thujone", "mentions": 2, "confidence_score": 18, "total_score": 36}], "constituents_description": "The most important healing constituents of Juniperus communis are sabinene, \u03b1-pinene, \u03b2-pinene, bornyl acetate, and \u03b2-myrcene, which exhibit anti-inflammatory, antimicrobial, and antioxidant properties. Sabinene has been shown to inhibit the growth of bacteria and fungi, while \u03b1-pinene has demonstrated analgesic and anti-inflammatory effects. \u03b2-pinene, on the other hand, has been found to exhibit bronchodilatory activity, making it beneficial for respiratory issues. Bornyl acetate has been reported to possess sedative and antioxidant properties, and \u03b2-myrcene has shown potential in reducing inflammation and pain. These constituents work synergistically to provide the medicinal benefits of Juniperus communis, making it a valuable plant for traditional medicine.", "preparations": [{"name": "juniper berry tea", "mentions": 15, "confidence_score": 140, "total_score": 2100}, {"name": "juniper berry tincture", "mentions": 15, "confidence_score": 132, "total_score": 1980}, {"name": "juniper berry oil", "mentions": 14, "confidence_score": 119, "total_score": 1666}, {"name": "juniper berry infusion", "mentions": 14, "confidence_score": 93, "total_score": 1302}, {"name": "juniper oil", "mentions": 6, "confidence_score": 54, "total_score": 324}, {"name": "juniper berry syrup", "mentions": 10, "confidence_score": 51, "total_score": 510}, {"name": "juniper berry salve", "mentions": 9, "confidence_score": 49, "total_score": 441}, {"name": "juniper berry extract", "mentions": 10, "confidence_score": 48, "total_score": 480}, {"name": "juniper berry decoction", "mentions": 10, "confidence_score": 45, "total_score": 450}, {"name": "juniper tea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "juniper tincture", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "juniper berries tincture", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "juniper berries infusion", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "juniper berries tea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "juniper infusion", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "juniper berry elixir", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "juniper gin", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "juniper berry infused vinegar", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "juniper berry infusate", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "juniper berry poultice", "mentions": 1, "confidence_score": 5, "total_score": 5}], "preparations_description": "The main herbal preparations of Juniperus communis are juniper berry tea, juniper berry tincture, juniper berry oil, juniper berry infusion, and juniper oil. Juniper berry tea is prepared by infusing the berries in hot water to relieve digestive issues and alleviate symptoms of colds and flu. Juniper berry tincture is a concentrated liquid extract used to treat urinary tract infections and kidney stones due to its diuretic properties. Juniper berry oil is obtained through steam distillation and applied topically to reduce pain and inflammation in the joints. Juniper oil, also obtained through steam distillation, is used in aromatherapy to relieve stress and anxiety due to its calming effects.", "side_effects": [{"name": "causes diarrhea", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "trigger hypotension", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "experiences nausea", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "leads to dizziness", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "trigger abdominal pain", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "experience renal failure", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "develop tachycardia", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "elicit vomiting", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "exacerbate kidney damage", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "bradycardia", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "gets electrolyte imbalance", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "abuse", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "induce nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "develops nephrotoxicity", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "nauseate", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiences gastrointestinal distress", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause seizures", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "induce respiratory depression", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "shows hypokalemia", "mentions": 2, "confidence_score": 15, "total_score": 30}], "side_effects_description": "The possible side effects of using Juniperus communis improperly include causing diarrhea due to its high content of volatile oils and terpenes, which can irritate the gastrointestinal tract and lead to excessive water loss. This can also trigger hypotension in susceptible individuals, as the sudden loss of water and electrolytes can cause a drop in blood pressure. Furthermore, the consumption of Juniperus communis may experience nausea and dizziness due to its potential to interact with medications or exacerbate underlying medical conditions. Additionally, the oil's ability to stimulate the digestive system can lead to abdominal pain in some individuals, particularly those with pre-existing gastrointestinal issues. These side effects are primarily attributed to the oil's high concentration of thujone and other bioactive compounds that can have unintended consequences when used inappropriately."}
+{
+    "title": "Juniperus communis",
+    "herb_slug": "juniperus-communis",
+    "herb_name_scientific": "Juniperus communis",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/juniperus-communis",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "juniper",
+            "mentions": 20,
+            "confidence_score": 198,
+            "total_score": 3960
+        },
+        {
+            "name": "juniper tree",
+            "mentions": 20,
+            "confidence_score": 160,
+            "total_score": 3200
+        },
+        {
+            "name": "juniper bush",
+            "mentions": 17,
+            "confidence_score": 115,
+            "total_score": 1955
+        },
+        {
+            "name": "common juniper",
+            "mentions": 13,
+            "confidence_score": 109,
+            "total_score": 1417
+        },
+        {
+            "name": "juniperus",
+            "mentions": 19,
+            "confidence_score": 109,
+            "total_score": 2071
+        },
+        {
+            "name": "juniper berry",
+            "mentions": 11,
+            "confidence_score": 80,
+            "total_score": 880
+        },
+        {
+            "name": "juniper shrub",
+            "mentions": 10,
+            "confidence_score": 58,
+            "total_score": 580
+        },
+        {
+            "name": "mountain juniper",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "engeberge",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "enkin",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "juniperus communis",
+            "mentions": 9,
+            "confidence_score": 17,
+            "total_score": 153
+        },
+        {
+            "name": "juniperberry",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "rocky mountain juniper",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "mountain cedar",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "eastern juniper",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "engele",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "wacholder",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "arbre de genievre",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "ensign pine",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "enzianstrauch",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 163,
+            "total_score": 3260
+        }
+    ],
+    "what_description": "Juniperus communis is a perennial evergreen coniferous shrub or small tree, native to the Northern Hemisphere. It belongs to the family Cupressaceae and is the only species in the genus Juniperus native to Europe. The plant grows up to 10 meters in height, with a broad, rounded crown and a short, columnar trunk, often developing a gnarled, irregular shape. Its leaves are scale-like, 2-4 mm long, and green to blue-green in color, arranged in whorls of 3. Juniperus communis produces small, berry-like cones, 6-12 mm in diameter, which are blue-black in color and contain 2-3 seeds.",
+    "category_action": "diuretics",
+    "ailments": [
+        {
+            "name": "respiratory issues",
+            "mentions": 13,
+            "confidence_score": 112,
+            "total_score": 1456
+        },
+        {
+            "name": "urinary tract infections",
+            "mentions": 12,
+            "confidence_score": 85,
+            "total_score": 1020
+        },
+        {
+            "name": "inflammation",
+            "mentions": 10,
+            "confidence_score": 77,
+            "total_score": 770
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 9,
+            "confidence_score": 69,
+            "total_score": 621
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 9,
+            "confidence_score": 61,
+            "total_score": 549
+        },
+        {
+            "name": "eczema",
+            "mentions": 7,
+            "confidence_score": 49,
+            "total_score": 343
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "arthritis",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "muscle spasms",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "insect bites",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "anxiety",
+            "mentions": 7,
+            "confidence_score": 39,
+            "total_score": 273
+        },
+        {
+            "name": "digestive problems",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "coughs",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "infections",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "menstrual cramps",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "bronchitis",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "skin infections",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Juniperus communis are respiratory issues such as bronchitis, which is treated with juniper berries to loosen mucus and ease congestion. Juniper berries are also used to alleviate urinary tract infections by reducing inflammation and promoting urination. Inflammation, a common underlying factor in many conditions, is reduced with the anti-inflammatory properties of juniper berries, which also help with skin conditions like eczema by soothing and moisturizing the skin. The antifungal properties of juniper berries make it effective in treating fungal infections, and its antiseptic properties help with digestive issues such as diarrhea by reducing bacterial overgrowth. Additionally, juniper berries have been used to treat arthritis, rheumatism, muscle spasms, insect bites, anxiety, digestive problems, skin irritation, coughs, infections, menstrual cramps, and skin infections due to its anti-inflammatory and antiseptic properties.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 171,
+            "total_score": 3420
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 166,
+            "total_score": 3320
+        },
+        {
+            "name": "diuretic",
+            "mentions": 20,
+            "confidence_score": 165,
+            "total_score": 3300
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 151,
+            "total_score": 3020
+        },
+        {
+            "name": "expectorant",
+            "mentions": 20,
+            "confidence_score": 149,
+            "total_score": 2980
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 113,
+            "total_score": 2260
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 13,
+            "confidence_score": 86,
+            "total_score": 1118
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 10,
+            "confidence_score": 79,
+            "total_score": 790
+        },
+        {
+            "name": "antiviral",
+            "mentions": 15,
+            "confidence_score": 67,
+            "total_score": 1005
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "antifungal",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "anti-rheumatic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "antitumor",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "choleretic",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Juniperus communis are attributed to its antioxidant activity, which helps to neutralize free radicals and protect against oxidative stress. The plant's antimicrobial properties, primarily due to the presence of volatile oils, such as terpinen-4-ol and sabinene, inhibit the growth of various pathogens and prevent infections. Juniperus communis also exhibits diuretic effects, increasing urine production and helping to alleviate conditions like edema and urinary tract infections. Furthermore, its anti-inflammatory properties, mediated by flavonoids like quercetin and kaempferol, reduce inflammation and alleviate symptoms associated with conditions like arthritis. Additionally, the plant's expectorant properties, resulting from the presence of saponins and volatile oils, help to relieve respiratory issues like bronchitis and coughs by facilitating the expulsion of mucus and phlegm.",
+    "constituents": [
+        {
+            "name": "sabinene",
+            "mentions": 20,
+            "confidence_score": 166,
+            "total_score": 3320
+        },
+        {
+            "name": "\u03b1-pinene",
+            "mentions": 17,
+            "confidence_score": 150,
+            "total_score": 2550
+        },
+        {
+            "name": "\u03b2-pinene",
+            "mentions": 17,
+            "confidence_score": 149,
+            "total_score": 2533
+        },
+        {
+            "name": "bornyl acetate",
+            "mentions": 19,
+            "confidence_score": 124,
+            "total_score": 2356
+        },
+        {
+            "name": "\u03b2-myrcene",
+            "mentions": 13,
+            "confidence_score": 96,
+            "total_score": 1248
+        },
+        {
+            "name": "limonene",
+            "mentions": 12,
+            "confidence_score": 84,
+            "total_score": 1008
+        },
+        {
+            "name": "\u03b1-terpinene",
+            "mentions": 10,
+            "confidence_score": 68,
+            "total_score": 680
+        },
+        {
+            "name": "terpinen-4-ol",
+            "mentions": 7,
+            "confidence_score": 53,
+            "total_score": 371
+        },
+        {
+            "name": "\u03b1-terpineol",
+            "mentions": 8,
+            "confidence_score": 48,
+            "total_score": 384
+        },
+        {
+            "name": "cadinene",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "\u03b2-phellandrene",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "alpha-pinene",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "beta-pinene",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "\u03b2-caryophyllene",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "juniperene",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "terpinolene",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "juniperine",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "bornol",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "cedrol",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "thujone",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Juniperus communis are sabinene, \u03b1-pinene, \u03b2-pinene, bornyl acetate, and \u03b2-myrcene, which exhibit anti-inflammatory, antimicrobial, and antioxidant properties. Sabinene has been shown to inhibit the growth of bacteria and fungi, while \u03b1-pinene has demonstrated analgesic and anti-inflammatory effects. \u03b2-pinene, on the other hand, has been found to exhibit bronchodilatory activity, making it beneficial for respiratory issues. Bornyl acetate has been reported to possess sedative and antioxidant properties, and \u03b2-myrcene has shown potential in reducing inflammation and pain. These constituents work synergistically to provide the medicinal benefits of Juniperus communis, making it a valuable plant for traditional medicine.",
+    "preparations": [
+        {
+            "name": "juniper berry tea",
+            "mentions": 15,
+            "confidence_score": 140,
+            "total_score": 2100
+        },
+        {
+            "name": "juniper berry tincture",
+            "mentions": 15,
+            "confidence_score": 132,
+            "total_score": 1980
+        },
+        {
+            "name": "juniper berry oil",
+            "mentions": 14,
+            "confidence_score": 119,
+            "total_score": 1666
+        },
+        {
+            "name": "juniper berry infusion",
+            "mentions": 14,
+            "confidence_score": 93,
+            "total_score": 1302
+        },
+        {
+            "name": "juniper oil",
+            "mentions": 6,
+            "confidence_score": 54,
+            "total_score": 324
+        },
+        {
+            "name": "juniper berry syrup",
+            "mentions": 10,
+            "confidence_score": 51,
+            "total_score": 510
+        },
+        {
+            "name": "juniper berry salve",
+            "mentions": 9,
+            "confidence_score": 49,
+            "total_score": 441
+        },
+        {
+            "name": "juniper berry extract",
+            "mentions": 10,
+            "confidence_score": 48,
+            "total_score": 480
+        },
+        {
+            "name": "juniper berry decoction",
+            "mentions": 10,
+            "confidence_score": 45,
+            "total_score": 450
+        },
+        {
+            "name": "juniper tea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "juniper tincture",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "juniper berries tincture",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "juniper berries infusion",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "juniper berries tea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "juniper infusion",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "juniper berry elixir",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "juniper gin",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "juniper berry infused vinegar",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "juniper berry infusate",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "juniper berry poultice",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Juniperus communis are juniper berry tea, juniper berry tincture, juniper berry oil, juniper berry infusion, and juniper oil. Juniper berry tea is prepared by infusing the berries in hot water to relieve digestive issues and alleviate symptoms of colds and flu. Juniper berry tincture is a concentrated liquid extract used to treat urinary tract infections and kidney stones due to its diuretic properties. Juniper berry oil is obtained through steam distillation and applied topically to reduce pain and inflammation in the joints. Juniper oil, also obtained through steam distillation, is used in aromatherapy to relieve stress and anxiety due to its calming effects.",
+    "side_effects": [
+        {
+            "name": "causes diarrhea",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "trigger hypotension",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "leads to dizziness",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "trigger abdominal pain",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "experience renal failure",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "develop tachycardia",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "elicit vomiting",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "exacerbate kidney damage",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "bradycardia",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "gets electrolyte imbalance",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "abuse",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "develops nephrotoxicity",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "nauseate",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiences gastrointestinal distress",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause seizures",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "induce respiratory depression",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "shows hypokalemia",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Juniperus communis improperly include causing diarrhea due to its high content of volatile oils and terpenes, which can irritate the gastrointestinal tract and lead to excessive water loss. This can also trigger hypotension in susceptible individuals, as the sudden loss of water and electrolytes can cause a drop in blood pressure. Furthermore, the consumption of Juniperus communis may experience nausea and dizziness due to its potential to interact with medications or exacerbate underlying medical conditions. Additionally, the oil's ability to stimulate the digestive system can lead to abdominal pain in some individuals, particularly those with pre-existing gastrointestinal issues. These side effects are primarily attributed to the oil's high concentration of thujone and other bioactive compounds that can have unintended consequences when used inappropriately."
+}

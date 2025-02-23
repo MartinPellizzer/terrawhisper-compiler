@@ -1,1 +1,148 @@
-{"title": "Carpoceras ceratocarpum", "herb_slug": "carpoceras-ceratocarpum", "herb_name_scientific": "Carpoceras ceratocarpum", "family_slug": "brassicaceae", "family_name": "Brassicaceae", "url": "herbs/carpoceras-ceratocarpum", "lastmod": "2025-1-2", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 192, "total_score": 3840}], "herb_names_common": [{"name": "carpoceras ceratocarpum", "mentions": 19, "confidence_score": 112, "total_score": 2128}, {"name": "ceratocarpum", "mentions": 17, "confidence_score": 98, "total_score": 1666}, {"name": "cockle burreed", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "wax plant", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "ceratocarpum carpoceras", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "cocklebur", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "wild pigeon grass", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "carpoceras (ceratocarpum)", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "ceratocarpum (carpoceras)", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "wild burreed", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "fossil fern", "mentions": 5, "confidence_score": 12, "total_score": 60}, {"name": "ceratotheca ceratocarpa", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "polka dot plant", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "cockle bur", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "carpopodium", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "caraway", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "carrot", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "no common name found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "carpoceras ceratocarpum (carpoceras)", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "tulip", "mentions": 1, "confidence_score": 10, "total_score": 10}], "uses": "Carpoceras ceratocarpum, a type of extinct bryophyte or non-vascular plant. Unfortunately, I don't have information on its specific medicinal uses. However, bryophytes like Carpoceras ceratocarpum are often studied for their potential bioactive compounds. These compounds can have various pharmacological effects, including anti-inflammatory and antimicrobial properties. Further research would be needed to confirm any potential medicinal uses of Carpoceras ceratocarpum.", "taxonomy": "Carpoceras ceratocarpum is an extinct species of ammonite. Ammonites are a group of extinct cephalopod mollusks that are classified within the subclass Ammonoidea. They are further classified within the class Cephalopoda. The class Cephalopoda is part of the phylum Mollusca. Mollusca is a large and diverse phylum within the animal kingdom.", "benefits": "Carpoceras ceratocarpum is a fossilized plant species. Unfortunately, I don't have specific information regarding the health benefits of Carpoceras ceratocarpum. However, it's worth noting that many fossilized plant species have been studied for their potential health benefits, particularly in the fields of traditional medicine and pharmacology. Further research would be needed to determine if Carpoceras ceratocarpum has any specific health benefits. Its fossilized remains can still provide valuable insights into ancient ecosystems and the evolution of plant life.", "properties": "Carpoceras ceratocarpum, a type of extinct plant species, has not been extensively studied for its potential therapeutic properties. However, research on ancient plants and their bioactive compounds suggests that they may possess unique properties that could be beneficial for human health. Some studies have explored the therapeutic potential of plant extracts from the Devonian period, which include Carpoceras ceratocarpum, but more research is needed to confirm its efficacy. The plant's fossilized remains have been found to contain chemical compounds that may have antimicrobial or antioxidant properties. Further studies are required to fully understand the therapeutic properties of Carpoceras ceratocarpum and to explore its potential applications.", "constituents": "Info not available yet.", "parts": "Carpoceras ceratocarpum, a species of extinct plant, does not have any documented information on its medicinal parts. However, its classification as an extinct plant means that any potential medicinal properties are no longer relevant or exploitable. In general, fossil records of ancient plants can provide valuable insights into their morphology and potential uses. Nevertheless, without further research, it's impossible to determine the medicinal parts of this plant. The study of ancient plants often focuses on their evolutionary significance rather than their potential medicinal applications.", "preparations": "Carpoceras ceratocarpum is an extinct genus of ammonites. However, the information regarding the herbal preparations of Carpoceras ceratocarpum is not available in my database. Therefore, I do not have any information about the herbal preparations of this plant. It is worth noting that Carpoceras ceratocarpum is not a plant but an extinct marine cephalopod. More research is required to find any information about the herbal preparations of this ammonite.", "side_effects": "Info not available yet.", "intro": "Carpoceras ceratocarpum, also known as Peganum harmala, is a plant species belonging to the Zygophyllaceae family. This plant has been traditionally used for its medicinal properties, providing relief from anxiety and insomnia due to its sedative and anxiolytic effects. The bioactive constituents of Carpoceras ceratocarpum include harmine, harmaline, and harmalol, which are responsible for its pharmacological activities. The most common herbal preparations made from this plant are supplements, tea, and extracts, often used in traditional medicine for their nootropic and antioxidant properties."}
+{
+    "title": "Carpoceras ceratocarpum",
+    "herb_slug": "carpoceras-ceratocarpum",
+    "herb_name_scientific": "Carpoceras ceratocarpum",
+    "family_slug": "brassicaceae",
+    "family_name": "Brassicaceae",
+    "url": "herbs/carpoceras-ceratocarpum",
+    "lastmod": "2025-1-2",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 192,
+            "total_score": 3840
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "carpoceras ceratocarpum",
+            "mentions": 19,
+            "confidence_score": 112,
+            "total_score": 2128
+        },
+        {
+            "name": "ceratocarpum",
+            "mentions": 17,
+            "confidence_score": 98,
+            "total_score": 1666
+        },
+        {
+            "name": "cockle burreed",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "wax plant",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "ceratocarpum carpoceras",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "cocklebur",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "wild pigeon grass",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "carpoceras (ceratocarpum)",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "ceratocarpum (carpoceras)",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "wild burreed",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "fossil fern",
+            "mentions": 5,
+            "confidence_score": 12,
+            "total_score": 60
+        },
+        {
+            "name": "ceratotheca ceratocarpa",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "polka dot plant",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "cockle bur",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "carpopodium",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "caraway",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "carrot",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "no common name found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "carpoceras ceratocarpum (carpoceras)",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "tulip",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "uses": "Carpoceras ceratocarpum, a type of extinct bryophyte or non-vascular plant. Unfortunately, I don't have information on its specific medicinal uses. However, bryophytes like Carpoceras ceratocarpum are often studied for their potential bioactive compounds. These compounds can have various pharmacological effects, including anti-inflammatory and antimicrobial properties. Further research would be needed to confirm any potential medicinal uses of Carpoceras ceratocarpum.",
+    "taxonomy": "Carpoceras ceratocarpum is an extinct species of ammonite. Ammonites are a group of extinct cephalopod mollusks that are classified within the subclass Ammonoidea. They are further classified within the class Cephalopoda. The class Cephalopoda is part of the phylum Mollusca. Mollusca is a large and diverse phylum within the animal kingdom.",
+    "benefits": "Carpoceras ceratocarpum is a fossilized plant species. Unfortunately, I don't have specific information regarding the health benefits of Carpoceras ceratocarpum. However, it's worth noting that many fossilized plant species have been studied for their potential health benefits, particularly in the fields of traditional medicine and pharmacology. Further research would be needed to determine if Carpoceras ceratocarpum has any specific health benefits. Its fossilized remains can still provide valuable insights into ancient ecosystems and the evolution of plant life.",
+    "properties": "Carpoceras ceratocarpum, a type of extinct plant species, has not been extensively studied for its potential therapeutic properties. However, research on ancient plants and their bioactive compounds suggests that they may possess unique properties that could be beneficial for human health. Some studies have explored the therapeutic potential of plant extracts from the Devonian period, which include Carpoceras ceratocarpum, but more research is needed to confirm its efficacy. The plant's fossilized remains have been found to contain chemical compounds that may have antimicrobial or antioxidant properties. Further studies are required to fully understand the therapeutic properties of Carpoceras ceratocarpum and to explore its potential applications.",
+    "constituents": "Info not available yet.",
+    "parts": "Carpoceras ceratocarpum, a species of extinct plant, does not have any documented information on its medicinal parts. However, its classification as an extinct plant means that any potential medicinal properties are no longer relevant or exploitable. In general, fossil records of ancient plants can provide valuable insights into their morphology and potential uses. Nevertheless, without further research, it's impossible to determine the medicinal parts of this plant. The study of ancient plants often focuses on their evolutionary significance rather than their potential medicinal applications.",
+    "preparations": "Carpoceras ceratocarpum is an extinct genus of ammonites. However, the information regarding the herbal preparations of Carpoceras ceratocarpum is not available in my database. Therefore, I do not have any information about the herbal preparations of this plant. It is worth noting that Carpoceras ceratocarpum is not a plant but an extinct marine cephalopod. More research is required to find any information about the herbal preparations of this ammonite.",
+    "side_effects": "Info not available yet.",
+    "intro": "Carpoceras ceratocarpum, also known as Peganum harmala, is a plant species belonging to the Zygophyllaceae family. This plant has been traditionally used for its medicinal properties, providing relief from anxiety and insomnia due to its sedative and anxiolytic effects. The bioactive constituents of Carpoceras ceratocarpum include harmine, harmaline, and harmalol, which are responsible for its pharmacological activities. The most common herbal preparations made from this plant are supplements, tea, and extracts, often used in traditional medicine for their nootropic and antioxidant properties."
+}

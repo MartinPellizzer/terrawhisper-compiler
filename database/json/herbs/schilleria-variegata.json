@@ -1,1 +1,154 @@
-{"title": "Schilleria variegata", "herb_slug": "schilleria-variegata", "herb_name_scientific": "Schilleria variegata", "family_slug": "piperaceae", "family_name": "Piperaceae", "url": "herbs/schilleria-variegata", "lastmod": "2025-1-7", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 19, "confidence_score": 166, "total_score": 3154}, {"medicine_or_poison": "medicine", "mentions": 1, "confidence_score": 2, "total_score": 2}], "herb_names_common": [{"name": "schilleria variegata", "mentions": 40, "confidence_score": 294, "total_score": 11760}, {"name": "schilleria", "mentions": 27, "confidence_score": 216, "total_score": 5832}, {"name": "variegated schilleria", "mentions": 25, "confidence_score": 153, "total_score": 3825}, {"name": "variegata", "mentions": 16, "confidence_score": 85, "total_score": 1360}, {"name": "variegated saltbush", "mentions": 14, "confidence_score": 67, "total_score": 938}, {"name": "schiller's variegated herb", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "schiller's button", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "variegata schilleria", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "schilleria var.", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "variegatum", "mentions": 5, "confidence_score": 17, "total_score": 85}, {"name": "schilleria variegated", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "schilleria variegatum", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "variegated buttonbush", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "schiller variegata", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "false flax", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "beach flax", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "schilleria spp.", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "schilleria sp.", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "schiller's herb", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "schilleria variegatus", "mentions": 2, "confidence_score": 7, "total_score": 14}], "uses": "Schilleria variegata is not well-documented in many sources, however, it is known to be a plant used in traditional medicine in some regions. The plant's leaves and bark are reportedly used for medicinal purposes. In traditional medicine, Schilleria variegata is said to have properties that help in treating fever, rheumatism, and other ailments. Furthermore, some sources suggest that the plant has antibacterial and anti-inflammatory properties. However, more research is needed to confirm its actual medicinal uses.", "taxonomy": "Schilleria variegata is a species of flowering plant in the family Guttiferae, which is now commonly known as the Clusiaceae family. This family is a group of flowering plants that are commonly known as the Clusia family. The Guttiferae family is a part of the larger order Malpighiales, which is a group of flowering plants that are known for their diverse range of species. The Clusiaceae family is a part of the larger clade of flowering plants known as the rosids. Schilleria variegata is a rare species that is native to parts of Asia.", "benefits": "Schilleria variegata is a lesser-known species of plant, but research suggests it may offer some potential health benefits due to its unique compounds and properties. Some studies indicate that extracts from Schilleria variegata may have antioxidant and anti-inflammatory effects, which could help protect against cell damage and reduce inflammation in the body. Additionally, the plant may also possess antimicrobial properties, which could aid in fighting off certain infections and promoting wound healing. However, more research is needed to fully understand the extent of its health benefits. Further studies are necessary to confirm the efficacy and safety of using Schilleria variegata as a medicinal plant.", "properties": "Schilleria variegata, although not widely studied, is believed to have potential therapeutic properties. The plant is thought to possess anti-inflammatory and antioxidant compounds. Research suggests that its extracts may help in reducing oxidative stress and inflammation in the body. Additionally, Schilleria variegata may have antimicrobial properties, which could be beneficial in treating certain infections. However, further studies are needed to confirm its full range of therapeutic properties.", "constituents": "Unfortunately, I don't have any information about Schilleria variegata's active constituents.", "parts": "Info not available yet.", "preparations": "Schilleria variegata herbal preparations have not been extensively documented in traditional medicine, but research suggests that various plant extracts may have potential health benefits. However, more studies are needed to confirm the efficacy and safety of these preparations. The plant's unique properties and chemical composition make it an interesting subject for further investigation. Some studies suggest that Schilleria variegata may have antioxidant and anti-inflammatory properties, which could be beneficial for various health conditions. Further research is necessary to fully understand the potential applications of Schilleria variegata herbal preparations.", "side_effects": "Info not available yet.", "intro": "Schilleria variegata, also known as Schilleria, is a plant species belonging to the family of Apiaceae, commonly referred to as the carrot or parsley family. The plant is valued for its potential health benefits, which include antioxidant, anti-inflammatory, and antimicrobial properties, making it useful in the treatment of various health conditions such as fever, colds, and digestive issues. The bioactive constituents of Schilleria variegata include alkaloids, saponins, and flavonoids, which contribute to its medicinal properties. In traditional medicine, Schilleria variegata is commonly prepared as an infusion, tincture, or decoction, and is used to treat coughs, bronchitis, and other respiratory issues."}
+{
+    "title": "Schilleria variegata",
+    "herb_slug": "schilleria-variegata",
+    "herb_name_scientific": "Schilleria variegata",
+    "family_slug": "piperaceae",
+    "family_name": "Piperaceae",
+    "url": "herbs/schilleria-variegata",
+    "lastmod": "2025-1-7",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 19,
+            "confidence_score": 166,
+            "total_score": 3154
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "schilleria variegata",
+            "mentions": 40,
+            "confidence_score": 294,
+            "total_score": 11760
+        },
+        {
+            "name": "schilleria",
+            "mentions": 27,
+            "confidence_score": 216,
+            "total_score": 5832
+        },
+        {
+            "name": "variegated schilleria",
+            "mentions": 25,
+            "confidence_score": 153,
+            "total_score": 3825
+        },
+        {
+            "name": "variegata",
+            "mentions": 16,
+            "confidence_score": 85,
+            "total_score": 1360
+        },
+        {
+            "name": "variegated saltbush",
+            "mentions": 14,
+            "confidence_score": 67,
+            "total_score": 938
+        },
+        {
+            "name": "schiller's variegated herb",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "schiller's button",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "variegata schilleria",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "schilleria var.",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "variegatum",
+            "mentions": 5,
+            "confidence_score": 17,
+            "total_score": 85
+        },
+        {
+            "name": "schilleria variegated",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "schilleria variegatum",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "variegated buttonbush",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "schiller variegata",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "false flax",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "beach flax",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "schilleria spp.",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "schilleria sp.",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "schiller's herb",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "schilleria variegatus",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        }
+    ],
+    "uses": "Schilleria variegata is not well-documented in many sources, however, it is known to be a plant used in traditional medicine in some regions. The plant's leaves and bark are reportedly used for medicinal purposes. In traditional medicine, Schilleria variegata is said to have properties that help in treating fever, rheumatism, and other ailments. Furthermore, some sources suggest that the plant has antibacterial and anti-inflammatory properties. However, more research is needed to confirm its actual medicinal uses.",
+    "taxonomy": "Schilleria variegata is a species of flowering plant in the family Guttiferae, which is now commonly known as the Clusiaceae family. This family is a group of flowering plants that are commonly known as the Clusia family. The Guttiferae family is a part of the larger order Malpighiales, which is a group of flowering plants that are known for their diverse range of species. The Clusiaceae family is a part of the larger clade of flowering plants known as the rosids. Schilleria variegata is a rare species that is native to parts of Asia.",
+    "benefits": "Schilleria variegata is a lesser-known species of plant, but research suggests it may offer some potential health benefits due to its unique compounds and properties. Some studies indicate that extracts from Schilleria variegata may have antioxidant and anti-inflammatory effects, which could help protect against cell damage and reduce inflammation in the body. Additionally, the plant may also possess antimicrobial properties, which could aid in fighting off certain infections and promoting wound healing. However, more research is needed to fully understand the extent of its health benefits. Further studies are necessary to confirm the efficacy and safety of using Schilleria variegata as a medicinal plant.",
+    "properties": "Schilleria variegata, although not widely studied, is believed to have potential therapeutic properties. The plant is thought to possess anti-inflammatory and antioxidant compounds. Research suggests that its extracts may help in reducing oxidative stress and inflammation in the body. Additionally, Schilleria variegata may have antimicrobial properties, which could be beneficial in treating certain infections. However, further studies are needed to confirm its full range of therapeutic properties.",
+    "constituents": "Unfortunately, I don't have any information about Schilleria variegata's active constituents.",
+    "parts": "Info not available yet.",
+    "preparations": "Schilleria variegata herbal preparations have not been extensively documented in traditional medicine, but research suggests that various plant extracts may have potential health benefits. However, more studies are needed to confirm the efficacy and safety of these preparations. The plant's unique properties and chemical composition make it an interesting subject for further investigation. Some studies suggest that Schilleria variegata may have antioxidant and anti-inflammatory properties, which could be beneficial for various health conditions. Further research is necessary to fully understand the potential applications of Schilleria variegata herbal preparations.",
+    "side_effects": "Info not available yet.",
+    "intro": "Schilleria variegata, also known as Schilleria, is a plant species belonging to the family of Apiaceae, commonly referred to as the carrot or parsley family. The plant is valued for its potential health benefits, which include antioxidant, anti-inflammatory, and antimicrobial properties, making it useful in the treatment of various health conditions such as fever, colds, and digestive issues. The bioactive constituents of Schilleria variegata include alkaloids, saponins, and flavonoids, which contribute to its medicinal properties. In traditional medicine, Schilleria variegata is commonly prepared as an infusion, tincture, or decoction, and is used to treat coughs, bronchitis, and other respiratory issues."
+}

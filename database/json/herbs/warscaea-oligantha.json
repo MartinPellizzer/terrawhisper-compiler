@@ -1,1 +1,148 @@
-{"title": "Warscaea oligantha", "herb_slug": "warscaea-oligantha", "herb_name_scientific": "Warscaea oligantha", "url": "herbs/warscaea-oligantha", "lastmod": "2024-12-29", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 103, "total_score": 2060}], "family_slug": "orchidaceae", "family_name": "Orchidaceae", "herb_names_common": [{"name": "no common name found", "mentions": 6, "confidence_score": 59, "total_score": 354}, {"name": "no information available", "mentions": 6, "confidence_score": 57, "total_score": 342}, {"name": "no common names found", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "warscaea oligantha", "mentions": 11, "confidence_score": 21, "total_score": 231}, {"name": "no data available", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "waratah", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "warsceaea oligantha", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "not found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "unknown", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "not available", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "no common names available", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "no botanical name found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "no herb found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "warscaea oligantha is not found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "no matching herb found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "unknown herb", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "data not available", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "warsceaea", "mentions": 4, "confidence_score": 9, "total_score": 36}, {"name": "not documented", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "oligantha", "mentions": 5, "confidence_score": 5, "total_score": 25}], "taxonomy": "Warscaea oligantha is classified as a species of flowering plant in the family Achariaceae. The Achariaceae family is a part of the larger order Malpighiales, which is a clade of flowering plants in the angiosperm clade. Warscaea oligantha is a species that has been studied and documented by botanists, providing insight into its classification within the Achariaceae family. The classification of Warscaea oligantha is further supported by phylogenetic analyses and morphological characteristics. By understanding the classification of Warscaea oligantha, researchers can better understand its evolutionary relationships and ecological adaptations.", "uses": "Unfortunately, I do not have information on the medicinal uses of Warscaea oligantha.", "benefits": "Info not available yet.", "properties": "Info not available yet.", "constituents": "Unfortunately, I do not have information about the plant Warscaea oligantha.", "parts": "Warscaea oligantha is not found in my database.", "preparations": "Warscaea oligantha is reportedly used in traditional medicine for its potential health benefits. However, there is limited information available on specific herbal preparations or their uses. Traditional practitioners may use the plant in various forms, such as infusions or tinctures, to address different health concerns. More research is needed to fully understand the potential applications and efficacy of Warscaea oligantha herbal preparations. Further studies are necessary to establish the plant's safety and effectiveness for human use.", "side_effects": "Info not available yet.", "intro": "I apologize but I could not find any information about the plant Warscaea oligantha."}
+{
+    "title": "Warscaea oligantha",
+    "herb_slug": "warscaea-oligantha",
+    "herb_name_scientific": "Warscaea oligantha",
+    "url": "herbs/warscaea-oligantha",
+    "lastmod": "2024-12-29",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 103,
+            "total_score": 2060
+        }
+    ],
+    "family_slug": "orchidaceae",
+    "family_name": "Orchidaceae",
+    "herb_names_common": [
+        {
+            "name": "no common name found",
+            "mentions": 6,
+            "confidence_score": 59,
+            "total_score": 354
+        },
+        {
+            "name": "no information available",
+            "mentions": 6,
+            "confidence_score": 57,
+            "total_score": 342
+        },
+        {
+            "name": "no common names found",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "warscaea oligantha",
+            "mentions": 11,
+            "confidence_score": 21,
+            "total_score": 231
+        },
+        {
+            "name": "no data available",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "waratah",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "warsceaea oligantha",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "not found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "unknown",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "not available",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "no common names available",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "no botanical name found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "no herb found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "warscaea oligantha is not found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "no matching herb found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "unknown herb",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "data not available",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "warsceaea",
+            "mentions": 4,
+            "confidence_score": 9,
+            "total_score": 36
+        },
+        {
+            "name": "not documented",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "oligantha",
+            "mentions": 5,
+            "confidence_score": 5,
+            "total_score": 25
+        }
+    ],
+    "taxonomy": "Warscaea oligantha is classified as a species of flowering plant in the family Achariaceae. The Achariaceae family is a part of the larger order Malpighiales, which is a clade of flowering plants in the angiosperm clade. Warscaea oligantha is a species that has been studied and documented by botanists, providing insight into its classification within the Achariaceae family. The classification of Warscaea oligantha is further supported by phylogenetic analyses and morphological characteristics. By understanding the classification of Warscaea oligantha, researchers can better understand its evolutionary relationships and ecological adaptations.",
+    "uses": "Unfortunately, I do not have information on the medicinal uses of Warscaea oligantha.",
+    "benefits": "Info not available yet.",
+    "properties": "Info not available yet.",
+    "constituents": "Unfortunately, I do not have information about the plant Warscaea oligantha.",
+    "parts": "Warscaea oligantha is not found in my database.",
+    "preparations": "Warscaea oligantha is reportedly used in traditional medicine for its potential health benefits. However, there is limited information available on specific herbal preparations or their uses. Traditional practitioners may use the plant in various forms, such as infusions or tinctures, to address different health concerns. More research is needed to fully understand the potential applications and efficacy of Warscaea oligantha herbal preparations. Further studies are necessary to establish the plant's safety and effectiveness for human use.",
+    "side_effects": "Info not available yet.",
+    "intro": "I apologize but I could not find any information about the plant Warscaea oligantha."
+}

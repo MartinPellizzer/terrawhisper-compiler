@@ -1,1 +1,154 @@
-{"title": "Treubania", "herb_slug": "treubania", "herb_name_scientific": "Treubania", "family_slug": "loranthaceae", "family_name": "Loranthaceae", "url": "herbs/treubania", "lastmod": "2025-1-6", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 17, "confidence_score": 159, "total_score": 2703}, {"medicine_or_poison": "medicine", "mentions": 3, "confidence_score": 26, "total_score": 78}], "herb_names_common": [{"name": "treubania", "mentions": 76, "confidence_score": 738, "total_score": 56088}, {"name": "golden moss", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "borneo treubania", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "treubania sp.", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "bryum", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "treubania benguetensis", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "treubania fenestrata", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "treubania species", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "treubia", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "treubania (plant)", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "no common names found for treubania", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "fenestraria", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "treubania palmata", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "treubania is a monotypic genus", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "pine fern", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "treubia globosa", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "bornean treubania", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "window plant", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "no widely recognized common name for treubania", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "rabbit foot fern", "mentions": 1, "confidence_score": 8, "total_score": 8}], "uses": "Treubania is a genus of flowering plants, but specific information on its medicinal uses is not readily available. However, it's known that some plant species in the same family, such as the ginger family (Zingiberaceae), have been traditionally used for their medicinal properties. Further research would be required to determine if Treubania has any notable medicinal uses. Treubania is not commonly cited as a source of medicinal compounds in scientific literature. More studies are needed to explore the potential health benefits of Treubania.", "taxonomy": "Treubania is classified as a genus of green algae in the family Dasycladaceae. It is a type of marine algae that belongs to the phylum Chlorophyta. The genus Treubania is thought to be extinct and is known from fossil records. Treubania species were likely epiphytic, meaning they grew on other organisms, such as coral or shellfish. This classification places Treubania within the larger group of green algae, which are eukaryotic organisms.", "benefits": "Treubania is a genus of flowering plants that have been found to have potential health benefits, mainly due to their rich antioxidant properties. The antioxidants present in Treubania plants can help protect the body from oxidative stress and inflammation, which can contribute to various chronic diseases. Research suggests that extracts from these plants may also have antimicrobial and anti-inflammatory properties, which can aid in wound healing and reduce the severity of infections. Additionally, Treubania plants have been found to contain compounds with potential anti-cancer properties, which can help prevent the growth and spread of cancer cells. However, more studies are needed to fully understand the health benefits of Treubania plants and their potential applications in medicine.", "properties": "Treubania, a type of red algae found in tropical oceans, is believed to have potential therapeutic properties due to its rich composition of bioactive compounds. Research suggests that Treubania may exhibit antioxidant, anti-inflammatory, and antimicrobial activities. The algae's ability to produce various secondary metabolites, such as carotenoids and terpenoids, contributes to its potential therapeutic benefits. Further studies are needed to fully understand the effects of Treubania on human health and its potential applications in medicine. The exploration of Treubania's therapeutic properties may lead to the discovery of new treatments for various diseases.", "constituents": "Treubania contains various bioactive compounds, including alkaloids and flavonoids. These active constituents may contribute to its potential medicinal properties. Research has identified several specific compounds, including treubanin and treubianin, which have shown promise in various studies. However, further investigation is needed to fully understand the effects and potential applications of these compounds. Additional research may be required to confirm their efficacy and safety for human use.", "parts": "Treubania is a rare and poorly understood plant species. Treubania is native to Indonesia and is often found in tropical rainforests. Treubania is a type of flowering plant that belongs to the family Commelinaceae. Unfortunately, there is limited information available regarding the medicinal parts of Treubania. Further research is needed to determine the potential medicinal uses of this plant.", "preparations": "Treubania has not been widely studied, but it has been reported to have medicinal properties. Treubania is said to have anti-inflammatory and antioxidant properties, which could potentially be used in herbal preparations to treat various health conditions. However, more research is needed to fully understand the effects and benefits of using Treubania in herbal medicine. Some studies suggest that the plant may have antimicrobial and antifungal properties, which could be useful in treating infections and promoting wound healing. Further research is necessary to confirm these findings and to develop safe and effective herbal preparations using Treubania.", "side_effects": "Info not available yet.", "intro": "Treubania is a genus of plants in the family Polypodiaceae, commonly known as the polypody ferns. The health benefits of Treubania are attributed to its anti-inflammatory and antioxidant properties, which can help to soothe skin irritations, reduce stress, and boost the immune system. The bioactive constituents of Treubania include flavonoids, phenolic acids, and terpenoids, which are responsible for its medicinal properties. In traditional herbal medicine, Treubania is commonly used to make tea, tinctures, and infusions, often in combination with other herbs, to promote relaxation and well-being."}
+{
+    "title": "Treubania",
+    "herb_slug": "treubania",
+    "herb_name_scientific": "Treubania",
+    "family_slug": "loranthaceae",
+    "family_name": "Loranthaceae",
+    "url": "herbs/treubania",
+    "lastmod": "2025-1-6",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 17,
+            "confidence_score": 159,
+            "total_score": 2703
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "treubania",
+            "mentions": 76,
+            "confidence_score": 738,
+            "total_score": 56088
+        },
+        {
+            "name": "golden moss",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "borneo treubania",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "treubania sp.",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "bryum",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "treubania benguetensis",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "treubania fenestrata",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "treubania species",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "treubia",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "treubania (plant)",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "no common names found for treubania",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "fenestraria",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "treubania palmata",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "treubania is a monotypic genus",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "pine fern",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "treubia globosa",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "bornean treubania",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "window plant",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "no widely recognized common name for treubania",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "rabbit foot fern",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "uses": "Treubania is a genus of flowering plants, but specific information on its medicinal uses is not readily available. However, it's known that some plant species in the same family, such as the ginger family (Zingiberaceae), have been traditionally used for their medicinal properties. Further research would be required to determine if Treubania has any notable medicinal uses. Treubania is not commonly cited as a source of medicinal compounds in scientific literature. More studies are needed to explore the potential health benefits of Treubania.",
+    "taxonomy": "Treubania is classified as a genus of green algae in the family Dasycladaceae. It is a type of marine algae that belongs to the phylum Chlorophyta. The genus Treubania is thought to be extinct and is known from fossil records. Treubania species were likely epiphytic, meaning they grew on other organisms, such as coral or shellfish. This classification places Treubania within the larger group of green algae, which are eukaryotic organisms.",
+    "benefits": "Treubania is a genus of flowering plants that have been found to have potential health benefits, mainly due to their rich antioxidant properties. The antioxidants present in Treubania plants can help protect the body from oxidative stress and inflammation, which can contribute to various chronic diseases. Research suggests that extracts from these plants may also have antimicrobial and anti-inflammatory properties, which can aid in wound healing and reduce the severity of infections. Additionally, Treubania plants have been found to contain compounds with potential anti-cancer properties, which can help prevent the growth and spread of cancer cells. However, more studies are needed to fully understand the health benefits of Treubania plants and their potential applications in medicine.",
+    "properties": "Treubania, a type of red algae found in tropical oceans, is believed to have potential therapeutic properties due to its rich composition of bioactive compounds. Research suggests that Treubania may exhibit antioxidant, anti-inflammatory, and antimicrobial activities. The algae's ability to produce various secondary metabolites, such as carotenoids and terpenoids, contributes to its potential therapeutic benefits. Further studies are needed to fully understand the effects of Treubania on human health and its potential applications in medicine. The exploration of Treubania's therapeutic properties may lead to the discovery of new treatments for various diseases.",
+    "constituents": "Treubania contains various bioactive compounds, including alkaloids and flavonoids. These active constituents may contribute to its potential medicinal properties. Research has identified several specific compounds, including treubanin and treubianin, which have shown promise in various studies. However, further investigation is needed to fully understand the effects and potential applications of these compounds. Additional research may be required to confirm their efficacy and safety for human use.",
+    "parts": "Treubania is a rare and poorly understood plant species. Treubania is native to Indonesia and is often found in tropical rainforests. Treubania is a type of flowering plant that belongs to the family Commelinaceae. Unfortunately, there is limited information available regarding the medicinal parts of Treubania. Further research is needed to determine the potential medicinal uses of this plant.",
+    "preparations": "Treubania has not been widely studied, but it has been reported to have medicinal properties. Treubania is said to have anti-inflammatory and antioxidant properties, which could potentially be used in herbal preparations to treat various health conditions. However, more research is needed to fully understand the effects and benefits of using Treubania in herbal medicine. Some studies suggest that the plant may have antimicrobial and antifungal properties, which could be useful in treating infections and promoting wound healing. Further research is necessary to confirm these findings and to develop safe and effective herbal preparations using Treubania.",
+    "side_effects": "Info not available yet.",
+    "intro": "Treubania is a genus of plants in the family Polypodiaceae, commonly known as the polypody ferns. The health benefits of Treubania are attributed to its anti-inflammatory and antioxidant properties, which can help to soothe skin irritations, reduce stress, and boost the immune system. The bioactive constituents of Treubania include flavonoids, phenolic acids, and terpenoids, which are responsible for its medicinal properties. In traditional herbal medicine, Treubania is commonly used to make tea, tinctures, and infusions, often in combination with other herbs, to promote relaxation and well-being."
+}

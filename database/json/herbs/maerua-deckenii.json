@@ -1,1 +1,761 @@
-{"title": "Maerua deckenii", "herb_slug": "maerua-deckenii", "herb_name_scientific": "Maerua deckenii", "family_slug": "capparaceae", "family_name": "Capparaceae", "url": "herbs/maerua-deckenii", "lastmod": "2025-1-10", "herb_names_common": [{"name": "maerua deckenii", "mentions": 95, "confidence_score": 583, "total_score": 55385}, {"name": "decken's maerua", "mentions": 18, "confidence_score": 145, "total_score": 2610}, {"name": "maerua deckeniana", "mentions": 17, "confidence_score": 101, "total_score": 1717}, {"name": "african maerua", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "maerua species", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "decken maerua", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "maerua deckenii (sudan apricot)", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "maerua sp.", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "maerua tree", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "bushman's tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "savanna box", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "maerua deckenii (maerua)", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "maerua deckenii (decken's maerua)", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "sudan thorn", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "decken's staff", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "climbing maerua", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "decken's box", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "boscia deckenii", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "maerua deckenii (african maerua)", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "maerua deckenii tree", "mentions": 2, "confidence_score": 8, "total_score": 16}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 160, "total_score": 3200}], "what_description": "Maerua deckenii is a shrub or small tree species that belongs to the family Capparaceae. It is native to tropical Africa, specifically in the regions of Ethiopia and Kenya. Botanically, it is characterized by its deciduous or evergreen leaves, which are alternate, simple, and have a serrated margin, measuring 2-10 cm in length. The leaves are also glabrous or pubescent, with a petiole that is up to 1.5 cm long. The plant produces small, greenish-yellow flowers in axillary corymbose inflorescences, which are followed by a capsule, containing numerous seeds.", "category_action": "antimicrobial", "ailments": [{"name": "inflammation", "mentions": 15, "confidence_score": 124, "total_score": 1860}, {"name": "fever", "mentions": 15, "confidence_score": 96, "total_score": 1440}, {"name": "diarrhea", "mentions": 12, "confidence_score": 93, "total_score": 1116}, {"name": "rheumatism", "mentions": 14, "confidence_score": 90, "total_score": 1260}, {"name": "hypertension", "mentions": 9, "confidence_score": 76, "total_score": 684}, {"name": "diabetes", "mentions": 9, "confidence_score": 74, "total_score": 666}, {"name": "asthma", "mentions": 11, "confidence_score": 73, "total_score": 803}, {"name": "malaria", "mentions": 9, "confidence_score": 54, "total_score": 486}, {"name": "dyspepsia", "mentions": 6, "confidence_score": 49, "total_score": 294}, {"name": "gastroenteritis", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "skin infections", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "urinary tract infection", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "cancer", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "cough", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "cholera", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "dysentery", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "arthritis", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "kidney stones", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "pain", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "bleeding", "mentions": 2, "confidence_score": 14, "total_score": 28}], "ailments_description": "The most common ailments you can heal with Maerua deckenii are inflammation, fever, diarrhea, rheumatism, and hypertension, with its anti-inflammatory properties reducing swelling and pain in joints. Its antipyretic properties help in reducing fever in patients, while its antidiarrheal properties alleviate diarrhea and dysentery. Additionally, Maerua deckenii is used to treat asthma, malaria, dyspepsia, gastroenteritis, skin infections, and urinary tract infections due to its immunomodulatory and antimicrobial activities. It has also been found to have anti-cancerous properties, inhibiting the growth of cancer cells and inducing apoptosis. Furthermore, Maerua deckenii is effective in treating cough, cholera, arthritis, kidney stones, pain, bleeding, and diabetes by regulating blood sugar levels and improving insulin sensitivity.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 155, "total_score": 3100}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 148, "total_score": 2960}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 140, "total_score": 2800}, {"name": "analgesic", "mentions": 20, "confidence_score": 103, "total_score": 2060}, {"name": "cardioprotective", "mentions": 11, "confidence_score": 50, "total_score": 550}, {"name": "antifungal", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "antipyretic", "mentions": 11, "confidence_score": 45, "total_score": 495}, {"name": "hepatoprotective", "mentions": 8, "confidence_score": 44, "total_score": 352}, {"name": "antiseptic", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "antibacterial", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "hypoglycemic", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "antispasmodic", "mentions": 7, "confidence_score": 34, "total_score": 238}, {"name": "antidiarrheal", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "antidiabetic", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "antiviral", "mentions": 9, "confidence_score": 28, "total_score": 252}, {"name": "anticancer", "mentions": 8, "confidence_score": 23, "total_score": 184}, {"name": "antihistaminic", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "hypotensive", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "diuretic", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "antihypertensive", "mentions": 3, "confidence_score": 13, "total_score": 39}], "properties_description": "The main therapeutic properties of Maerua deckenii are its antioxidant properties, which help protect the body from oxidative stress and damage. The bioactive compound saponins, found in the plant, are responsible for its antimicrobial properties, inhibiting the growth of microorganisms and preventing infections. Additionally, the anti-inflammatory properties of Maerua deckenii can reduce swelling and alleviate pain, attributed to the presence of flavonoids and volatile oils. The analgesic properties of the plant, mediated by its bioactive compounds, enable it to alleviate pain and discomfort. Moreover, the cardioprotective properties of Maerua deckenii, attributed to its flavonoid and phenolic content, help protect the heart from damage and promote cardiovascular health.", "constituents": [{"name": "flavonoids", "mentions": 17, "confidence_score": 116, "total_score": 1972}, {"name": "saponins", "mentions": 16, "confidence_score": 107, "total_score": 1712}, {"name": "phenolic acids", "mentions": 13, "confidence_score": 81, "total_score": 1053}, {"name": "tannins", "mentions": 11, "confidence_score": 75, "total_score": 825}, {"name": "triterpenoids", "mentions": 15, "confidence_score": 72, "total_score": 1080}, {"name": "alkaloids", "mentions": 14, "confidence_score": 70, "total_score": 980}, {"name": "cardiac glycosides", "mentions": 20, "confidence_score": 60, "total_score": 1200}, {"name": "quercetin", "mentions": 6, "confidence_score": 53, "total_score": 318}, {"name": "kaempferol", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "isorhapontigenin", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "sterols", "mentions": 9, "confidence_score": 35, "total_score": 315}, {"name": "coumarins", "mentions": 9, "confidence_score": 27, "total_score": 243}, {"name": "phenolic compounds", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "stigmasterol", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "beta-sitosterol", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "quinic acid", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "naringenin", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "furanocoumarins", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "steroids", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "phytoecdysteroids", "mentions": 3, "confidence_score": 14, "total_score": 42}], "constituents_description": "The most important healing constituents of Maerua deckenii are flavonoids, saponins, phenolic acids, tannins, and triterpenoids, which contribute to its medicinal properties. Flavonoids present in Maerua deckenii have been reported to possess antioxidant and anti-inflammatory activities, while saponins exhibit antimicrobial and anti-inflammatory effects. Phenolic acids, including ferulic acid, have been identified as radical scavengers, protecting cells from oxidative damage, whereas tannins demonstrate antimicrobial and anti-inflammatory properties. Triterpenoids, including oleanolic acid, have been shown to exhibit antioxidant, anti-inflammatory, and hepatoprotective activities. These diverse bioactive compounds contribute to the plant's potential therapeutic applications, including treating various infectious diseases, inflammation, and oxidative stress-related disorders.", "preparations": [{"name": "infusion", "mentions": 14, "confidence_score": 118, "total_score": 1652}, {"name": "tincture", "mentions": 14, "confidence_score": 85, "total_score": 1190}, {"name": "decoction", "mentions": 12, "confidence_score": 73, "total_score": 876}, {"name": "tea", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "maerua decoction", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "maerua infusion", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "salve", "mentions": 9, "confidence_score": 28, "total_score": 252}, {"name": "maerua tincture", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "maerua tea", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "suppository", "mentions": 6, "confidence_score": 18, "total_score": 108}, {"name": "ointment", "mentions": 6, "confidence_score": 16, "total_score": 96}, {"name": "poultice", "mentions": 4, "confidence_score": 11, "total_score": 44}, {"name": "maerua extract", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "decenne tincture", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "decennea tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "decoction tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "decennin syrup", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "decenne tea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "decennin infusion", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "decennin tincture", "mentions": 1, "confidence_score": 7, "total_score": 7}], "preparations_description": "The main herbal preparations of Maerua deckenii are infusion, tincture, decoction, tea, and Maerua decoction. Infusion is made by steeping Maerua deckenii leaves in hot water to release its bioactive compounds, primarily flavonoids and alkaloids. Decoction is a preparation method where Maerua deckenii roots and bark are boiled in water to extract its secondary metabolites, including phenolic acids and glycosides. Tincture is a concentrated liquid preparation made by soaking Maerua deckenii roots and leaves in a solvent, such as ethanol or glycerin, to obtain its bioactive compounds. Maerua decoction is a traditional preparation method used in African herbal medicine, where the plant's roots and leaves are boiled together to treat various health conditions, including fever, rheumatism, and skin diseases.", "side_effects": [{"name": "cause diarrhea", "mentions": 6, "confidence_score": 51, "total_score": 306}, {"name": "induce vomiting", "mentions": 5, "confidence_score": 48, "total_score": 240}, {"name": "experiencing diarrhea", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "experiencing nausea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "developing allergic reaction", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiences diarrhea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "suffering diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiencing dizziness", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "induce nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause vomiting", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiencing abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "suffering nausea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "developing vomiting", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "produce headache", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "showing abdominal pain", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "trigger seizures", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "developing skin irritation", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "produce abdominal pain", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effect of using Maerua deckenii are that it can cause diarrhea due to its anthraquinone glycosides content which irritates the intestinal mucosa and increases gut motility. This is because the anthraquinone glycosides are not fully absorbed in the small intestine and exert their laxative effect in the large intestine. Furthermore, Maerua deckenii can induce vomiting and trigger allergic reactions due to its bioactive compounds that can cause irritation to the mucous membranes and trigger an immune response. Additionally, it can also cause nausea due to the irritation of the stomach lining by its bioactive compounds. It can also lead to experiencing diarrhea and nausea in individuals who consume it in large quantities or for an extended period.", "uses": "Maerua deckenii is a plant species with reported medicinal uses, including its application in treating various health conditions. It is said to possess anti-inflammatory and antimicrobial properties, making it useful in reducing swelling and fighting off infections. The plant is also believed to have antiseptic and antioxidant properties, which can help protect against cell damage and promote overall well-being. Maerua deckenii has been used in traditional medicine to treat conditions such as fever, diarrhea, and skin infections. However, more research is needed to fully understand its medicinal properties and potential benefits.", "taxonomy": "Maerua deckenii is classified within the family Capparaceae, which is a family of flowering plants commonly known as the caper family. This family is native to tropical and subtropical regions around the world. Maerua deckenii is further classified within the genus Maerua, which is a group of flowering plants found mainly in tropical Africa. The genus Maerua belongs to the order Brassicales, a large and diverse order of flowering plants. The classification of Maerua deckenii reflects its evolutionary relationships with other flowering plants.", "benefits": "Maerua deckenii is reported to have various health benefits, including antioxidant and anti-inflammatory properties. The plant has been traditionally used to treat various health issues, such as fever, cough, and respiratory problems. Its leaves and roots are believed to have antimicrobial properties, which can help fight off infections. Additionally, Maerua deckenii is said to possess hepatoprotective properties, which can help protect the liver from damage. More research is needed to fully understand the health benefits of Maerua deckenii.", "parts": "Maerua deckenii is a plant species, but information on its medicinal parts is limited in my knowledge. However, I found that it is a plant used in traditional medicine in various parts of Africa. Its bark and roots are commonly used in traditional remedies. The leaves and bark are believed to have anti-inflammatory properties. Further research is needed to confirm its medicinal uses and potential benefits.", "intro": "Maerua deckenii, also known as the African cherry, is a plant species native to the tropical regions of Africa, belonging to the Capparaceae family. Traditionally, the plant has been used in folk medicine to treat various health conditions, including fever, rheumatism, and digestive issues, due to its anti-inflammatory, antibacterial, and antiviral properties. The bioactive constituents of Maerua deckenii include alkaloids, glycosides, and terpenoids, which are responsible for its medicinal effects. In traditional herbal medicine, Maerua deckenii is commonly prepared as a decoction or infusion, and its extracts are also used in the production of ointments and tinctures for topical application."}
+{
+    "title": "Maerua deckenii",
+    "herb_slug": "maerua-deckenii",
+    "herb_name_scientific": "Maerua deckenii",
+    "family_slug": "capparaceae",
+    "family_name": "Capparaceae",
+    "url": "herbs/maerua-deckenii",
+    "lastmod": "2025-1-10",
+    "herb_names_common": [
+        {
+            "name": "maerua deckenii",
+            "mentions": 95,
+            "confidence_score": 583,
+            "total_score": 55385
+        },
+        {
+            "name": "decken's maerua",
+            "mentions": 18,
+            "confidence_score": 145,
+            "total_score": 2610
+        },
+        {
+            "name": "maerua deckeniana",
+            "mentions": 17,
+            "confidence_score": 101,
+            "total_score": 1717
+        },
+        {
+            "name": "african maerua",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "maerua species",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "decken maerua",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "maerua deckenii (sudan apricot)",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "maerua sp.",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "maerua tree",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "bushman's tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "savanna box",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "maerua deckenii (maerua)",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "maerua deckenii (decken's maerua)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "sudan thorn",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "decken's staff",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "climbing maerua",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "decken's box",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "boscia deckenii",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "maerua deckenii (african maerua)",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "maerua deckenii tree",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 160,
+            "total_score": 3200
+        }
+    ],
+    "what_description": "Maerua deckenii is a shrub or small tree species that belongs to the family Capparaceae. It is native to tropical Africa, specifically in the regions of Ethiopia and Kenya. Botanically, it is characterized by its deciduous or evergreen leaves, which are alternate, simple, and have a serrated margin, measuring 2-10 cm in length. The leaves are also glabrous or pubescent, with a petiole that is up to 1.5 cm long. The plant produces small, greenish-yellow flowers in axillary corymbose inflorescences, which are followed by a capsule, containing numerous seeds.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 15,
+            "confidence_score": 124,
+            "total_score": 1860
+        },
+        {
+            "name": "fever",
+            "mentions": 15,
+            "confidence_score": 96,
+            "total_score": 1440
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 12,
+            "confidence_score": 93,
+            "total_score": 1116
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 14,
+            "confidence_score": 90,
+            "total_score": 1260
+        },
+        {
+            "name": "hypertension",
+            "mentions": 9,
+            "confidence_score": 76,
+            "total_score": 684
+        },
+        {
+            "name": "diabetes",
+            "mentions": 9,
+            "confidence_score": 74,
+            "total_score": 666
+        },
+        {
+            "name": "asthma",
+            "mentions": 11,
+            "confidence_score": 73,
+            "total_score": 803
+        },
+        {
+            "name": "malaria",
+            "mentions": 9,
+            "confidence_score": 54,
+            "total_score": 486
+        },
+        {
+            "name": "dyspepsia",
+            "mentions": 6,
+            "confidence_score": 49,
+            "total_score": 294
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "skin infections",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "urinary tract infection",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "cancer",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "cough",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "cholera",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "dysentery",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "arthritis",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "kidney stones",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "pain",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "bleeding",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Maerua deckenii are inflammation, fever, diarrhea, rheumatism, and hypertension, with its anti-inflammatory properties reducing swelling and pain in joints. Its antipyretic properties help in reducing fever in patients, while its antidiarrheal properties alleviate diarrhea and dysentery. Additionally, Maerua deckenii is used to treat asthma, malaria, dyspepsia, gastroenteritis, skin infections, and urinary tract infections due to its immunomodulatory and antimicrobial activities. It has also been found to have anti-cancerous properties, inhibiting the growth of cancer cells and inducing apoptosis. Furthermore, Maerua deckenii is effective in treating cough, cholera, arthritis, kidney stones, pain, bleeding, and diabetes by regulating blood sugar levels and improving insulin sensitivity.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 155,
+            "total_score": 3100
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 148,
+            "total_score": 2960
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 140,
+            "total_score": 2800
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 103,
+            "total_score": 2060
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 11,
+            "confidence_score": 50,
+            "total_score": 550
+        },
+        {
+            "name": "antifungal",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 11,
+            "confidence_score": 45,
+            "total_score": 495
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 8,
+            "confidence_score": 44,
+            "total_score": 352
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 7,
+            "confidence_score": 34,
+            "total_score": 238
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "antiviral",
+            "mentions": 9,
+            "confidence_score": 28,
+            "total_score": 252
+        },
+        {
+            "name": "anticancer",
+            "mentions": 8,
+            "confidence_score": 23,
+            "total_score": 184
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "diuretic",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Maerua deckenii are its antioxidant properties, which help protect the body from oxidative stress and damage. The bioactive compound saponins, found in the plant, are responsible for its antimicrobial properties, inhibiting the growth of microorganisms and preventing infections. Additionally, the anti-inflammatory properties of Maerua deckenii can reduce swelling and alleviate pain, attributed to the presence of flavonoids and volatile oils. The analgesic properties of the plant, mediated by its bioactive compounds, enable it to alleviate pain and discomfort. Moreover, the cardioprotective properties of Maerua deckenii, attributed to its flavonoid and phenolic content, help protect the heart from damage and promote cardiovascular health.",
+    "constituents": [
+        {
+            "name": "flavonoids",
+            "mentions": 17,
+            "confidence_score": 116,
+            "total_score": 1972
+        },
+        {
+            "name": "saponins",
+            "mentions": 16,
+            "confidence_score": 107,
+            "total_score": 1712
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 13,
+            "confidence_score": 81,
+            "total_score": 1053
+        },
+        {
+            "name": "tannins",
+            "mentions": 11,
+            "confidence_score": 75,
+            "total_score": 825
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 15,
+            "confidence_score": 72,
+            "total_score": 1080
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 14,
+            "confidence_score": 70,
+            "total_score": 980
+        },
+        {
+            "name": "cardiac glycosides",
+            "mentions": 20,
+            "confidence_score": 60,
+            "total_score": 1200
+        },
+        {
+            "name": "quercetin",
+            "mentions": 6,
+            "confidence_score": 53,
+            "total_score": 318
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "sterols",
+            "mentions": 9,
+            "confidence_score": 35,
+            "total_score": 315
+        },
+        {
+            "name": "coumarins",
+            "mentions": 9,
+            "confidence_score": 27,
+            "total_score": 243
+        },
+        {
+            "name": "phenolic compounds",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "stigmasterol",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "beta-sitosterol",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "naringenin",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "furanocoumarins",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "steroids",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "phytoecdysteroids",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Maerua deckenii are flavonoids, saponins, phenolic acids, tannins, and triterpenoids, which contribute to its medicinal properties. Flavonoids present in Maerua deckenii have been reported to possess antioxidant and anti-inflammatory activities, while saponins exhibit antimicrobial and anti-inflammatory effects. Phenolic acids, including ferulic acid, have been identified as radical scavengers, protecting cells from oxidative damage, whereas tannins demonstrate antimicrobial and anti-inflammatory properties. Triterpenoids, including oleanolic acid, have been shown to exhibit antioxidant, anti-inflammatory, and hepatoprotective activities. These diverse bioactive compounds contribute to the plant's potential therapeutic applications, including treating various infectious diseases, inflammation, and oxidative stress-related disorders.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 14,
+            "confidence_score": 118,
+            "total_score": 1652
+        },
+        {
+            "name": "tincture",
+            "mentions": 14,
+            "confidence_score": 85,
+            "total_score": 1190
+        },
+        {
+            "name": "decoction",
+            "mentions": 12,
+            "confidence_score": 73,
+            "total_score": 876
+        },
+        {
+            "name": "tea",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "maerua decoction",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "maerua infusion",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "salve",
+            "mentions": 9,
+            "confidence_score": 28,
+            "total_score": 252
+        },
+        {
+            "name": "maerua tincture",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "maerua tea",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "suppository",
+            "mentions": 6,
+            "confidence_score": 18,
+            "total_score": 108
+        },
+        {
+            "name": "ointment",
+            "mentions": 6,
+            "confidence_score": 16,
+            "total_score": 96
+        },
+        {
+            "name": "poultice",
+            "mentions": 4,
+            "confidence_score": 11,
+            "total_score": 44
+        },
+        {
+            "name": "maerua extract",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "decenne tincture",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "decennea tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "decoction tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "decennin syrup",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "decenne tea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "decennin infusion",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "decennin tincture",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Maerua deckenii are infusion, tincture, decoction, tea, and Maerua decoction. Infusion is made by steeping Maerua deckenii leaves in hot water to release its bioactive compounds, primarily flavonoids and alkaloids. Decoction is a preparation method where Maerua deckenii roots and bark are boiled in water to extract its secondary metabolites, including phenolic acids and glycosides. Tincture is a concentrated liquid preparation made by soaking Maerua deckenii roots and leaves in a solvent, such as ethanol or glycerin, to obtain its bioactive compounds. Maerua decoction is a traditional preparation method used in African herbal medicine, where the plant's roots and leaves are boiled together to treat various health conditions, including fever, rheumatism, and skin diseases.",
+    "side_effects": [
+        {
+            "name": "cause diarrhea",
+            "mentions": 6,
+            "confidence_score": 51,
+            "total_score": 306
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 5,
+            "confidence_score": 48,
+            "total_score": 240
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "developing allergic reaction",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiences diarrhea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "suffering diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "suffering nausea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "developing vomiting",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "produce headache",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "showing abdominal pain",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "developing skin irritation",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "produce abdominal pain",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effect of using Maerua deckenii are that it can cause diarrhea due to its anthraquinone glycosides content which irritates the intestinal mucosa and increases gut motility. This is because the anthraquinone glycosides are not fully absorbed in the small intestine and exert their laxative effect in the large intestine. Furthermore, Maerua deckenii can induce vomiting and trigger allergic reactions due to its bioactive compounds that can cause irritation to the mucous membranes and trigger an immune response. Additionally, it can also cause nausea due to the irritation of the stomach lining by its bioactive compounds. It can also lead to experiencing diarrhea and nausea in individuals who consume it in large quantities or for an extended period.",
+    "uses": "Maerua deckenii is a plant species with reported medicinal uses, including its application in treating various health conditions. It is said to possess anti-inflammatory and antimicrobial properties, making it useful in reducing swelling and fighting off infections. The plant is also believed to have antiseptic and antioxidant properties, which can help protect against cell damage and promote overall well-being. Maerua deckenii has been used in traditional medicine to treat conditions such as fever, diarrhea, and skin infections. However, more research is needed to fully understand its medicinal properties and potential benefits.",
+    "taxonomy": "Maerua deckenii is classified within the family Capparaceae, which is a family of flowering plants commonly known as the caper family. This family is native to tropical and subtropical regions around the world. Maerua deckenii is further classified within the genus Maerua, which is a group of flowering plants found mainly in tropical Africa. The genus Maerua belongs to the order Brassicales, a large and diverse order of flowering plants. The classification of Maerua deckenii reflects its evolutionary relationships with other flowering plants.",
+    "benefits": "Maerua deckenii is reported to have various health benefits, including antioxidant and anti-inflammatory properties. The plant has been traditionally used to treat various health issues, such as fever, cough, and respiratory problems. Its leaves and roots are believed to have antimicrobial properties, which can help fight off infections. Additionally, Maerua deckenii is said to possess hepatoprotective properties, which can help protect the liver from damage. More research is needed to fully understand the health benefits of Maerua deckenii.",
+    "parts": "Maerua deckenii is a plant species, but information on its medicinal parts is limited in my knowledge. However, I found that it is a plant used in traditional medicine in various parts of Africa. Its bark and roots are commonly used in traditional remedies. The leaves and bark are believed to have anti-inflammatory properties. Further research is needed to confirm its medicinal uses and potential benefits.",
+    "intro": "Maerua deckenii, also known as the African cherry, is a plant species native to the tropical regions of Africa, belonging to the Capparaceae family. Traditionally, the plant has been used in folk medicine to treat various health conditions, including fever, rheumatism, and digestive issues, due to its anti-inflammatory, antibacterial, and antiviral properties. The bioactive constituents of Maerua deckenii include alkaloids, glycosides, and terpenoids, which are responsible for its medicinal effects. In traditional herbal medicine, Maerua deckenii is commonly prepared as a decoction or infusion, and its extracts are also used in the production of ointments and tinctures for topical application."
+}

@@ -1,1 +1,737 @@
-{"title": "Lepidaploa fieldiana", "herb_slug": "lepidaploa-fieldiana", "herb_name_scientific": "Lepidaploa fieldiana", "family_slug": "asteraceae", "family_name": "Asteraceae", "url": "herbs/lepidaploa-fieldiana", "lastmod": "2025-2-1", "herb_names_common": [{"name": "field's lepidaploa", "mentions": 25, "confidence_score": 204, "total_score": 5100}, {"name": "field ragweed (lepidaploa fieldiana)", "mentions": 37, "confidence_score": 147, "total_score": 5439}, {"name": "lepidaploa", "mentions": 18, "confidence_score": 109, "total_score": 1962}, {"name": "field's plume cactus", "mentions": 8, "confidence_score": 47, "total_score": 376}, {"name": "field's feather plume", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "field's featherplume", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "field's flower", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "field's feather-plume grass", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "field's puffback", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "field's lepidium", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "fieldia", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "field feather grass", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "field's hairless ragweed", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "fieldiana lepidaploa", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "field's featherbush", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "field's lepidaploa fieldiana", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "field's fluffgrass", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "field's hair feathergrass", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "field's feathergrass", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "field's feather grass", "mentions": 1, "confidence_score": 9, "total_score": 9}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 15, "confidence_score": 128, "total_score": 1920}, {"medicine_or_poison": "poison", "mentions": 5, "confidence_score": 44, "total_score": 220}], "what_description": "Lepidaploa fieldiana is a species of plant in the family Asteraceae. It is a perennial herb with a rhizomatous growth habit, reaching heights of up to 2 meters. The leaves are opposite, elliptic to lanceolate in shape, and have serrated margins with ciliate leaf bases. The inflorescence consists of a capitulum with purple to brownish-red disc florets and white to pale yellowish ray florets. Lepidaploa fieldiana is native to Argentina and Chile, with a distribution extending to the Falkland Islands.", "category_action": "anti-inflammatory", "ailments": [{"name": "inflammation", "mentions": 15, "confidence_score": 112, "total_score": 1680}, {"name": "diabetes", "mentions": 14, "confidence_score": 103, "total_score": 1442}, {"name": "hypertension", "mentions": 12, "confidence_score": 96, "total_score": 1152}, {"name": "cancer", "mentions": 11, "confidence_score": 62, "total_score": 682}, {"name": "wound healing", "mentions": 6, "confidence_score": 53, "total_score": 318}, {"name": "fungal infections", "mentions": 7, "confidence_score": 52, "total_score": 364}, {"name": "arthritis", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "asthma", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "anxiety", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "skin irritation", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "gastritis", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "diarrhea", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "rheumatism", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "eczema", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "gastrointestinal issues", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "skin conditions", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "ulcers", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "gastroenteritis", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "fever", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "digestive issues", "mentions": 3, "confidence_score": 18, "total_score": 54}], "ailments_description": "The most common ailments you can heal with Lepidaploa fieldiana are inflammation, diabetes and hypertension, which have been effectively managed through its anti-inflammatory and hypoglycemic properties. Additionally, its antitumor and cytotoxic compounds have shown potential in treating cancer. Lepidaploa fieldiana also exhibits remarkable wound-healing properties, accelerating the process by promoting tissue regeneration and collagen synthesis. Furthermore, its antifungal and antimicrobial properties have been effective in treating fungal infections, as well as alleviating symptoms of rheumatism and gastrointestinal issues. Lepidaploa fieldiana has also been found to have antispasmodic and anti-ulcerogenic activities, making it beneficial for treating gastritis, diarrhea, eczema, ulcers and gastroenteritis, while its antipyretic and anti-inflammatory properties help in reducing fever and alleviating symptoms of asthma, arthritis and skin irritation.", "properties": [{"name": "antioxidant", "mentions": 19, "confidence_score": 136, "total_score": 2584}, {"name": "antimicrobial", "mentions": 19, "confidence_score": 134, "total_score": 2546}, {"name": "anti-inflammatory", "mentions": 19, "confidence_score": 115, "total_score": 2185}, {"name": "antifungal", "mentions": 14, "confidence_score": 86, "total_score": 1204}, {"name": "analgesic", "mentions": 19, "confidence_score": 69, "total_score": 1311}, {"name": "antibacterial", "mentions": 10, "confidence_score": 69, "total_score": 690}, {"name": "antiviral", "mentions": 17, "confidence_score": 48, "total_score": 816}, {"name": "antiproliferative", "mentions": 7, "confidence_score": 42, "total_score": 294}, {"name": "cytotoxic", "mentions": 8, "confidence_score": 40, "total_score": 320}, {"name": "anticancer", "mentions": 10, "confidence_score": 39, "total_score": 390}, {"name": "cardioprotective", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "antihistaminic", "mentions": 8, "confidence_score": 21, "total_score": 168}, {"name": "antispasmodic", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "antitumor", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "antiseptic", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "neuroprotective", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "hypotensive", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "antidiabetic", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "hepatoprotective", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "antiparasitic", "mentions": 2, "confidence_score": 7, "total_score": 14}], "properties_description": "The main therapeutic properties of Lepidaploa fieldiana are its antioxidant activity, which helps protect cells from oxidative damage and prevent chronic diseases. The antimicrobial properties of this plant are attributed to the presence of flavonoids and saponins, which inhibit the growth of microorganisms and prevent infections. Lepidaploa fieldiana also exhibits anti-inflammatory activity, reducing inflammation and alleviating symptoms associated with conditions such as arthritis. Additionally, the plant's antifungal properties, mediated by volatile oils, help combat fungal infections and promote a healthy environment. Furthermore, the analgesic properties of Lepidaploa fieldiana, attributed to the presence of bioactive compounds such as alkaloids, help relieve pain and discomfort, providing relief to individuals suffering from various ailments.", "constituents": [{"name": "quercetin", "mentions": 14, "confidence_score": 116, "total_score": 1624}, {"name": "kaempferol", "mentions": 13, "confidence_score": 102, "total_score": 1326}, {"name": "apigenin", "mentions": 11, "confidence_score": 61, "total_score": 671}, {"name": "luteolin", "mentions": 11, "confidence_score": 61, "total_score": 671}, {"name": "ferulic acid", "mentions": 9, "confidence_score": 53, "total_score": 477}, {"name": "caffeic acid", "mentions": 8, "confidence_score": 48, "total_score": 384}, {"name": "flavonoids", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "triterpenoids", "mentions": 8, "confidence_score": 38, "total_score": 304}, {"name": "epicatechin", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "isorhapontigenin", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "naringenin", "mentions": 7, "confidence_score": 35, "total_score": 245}, {"name": "rutin", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "tannins", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "saponins", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "phenolic acids", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "gallic acid", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "flavonoid glycosides", "mentions": 5, "confidence_score": 18, "total_score": 90}, {"name": "alkaloids", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "coumarins", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "rosmarinic acid", "mentions": 3, "confidence_score": 15, "total_score": 45}], "constituents_description": "The most important healing constituents of Lepidaploa fieldiana are quercetin, kaempferol, apigenin, luteolin, and ferulic acid, which possess significant antioxidant and anti-inflammatory properties. Quercetin, a potent flavonoid, has been shown to exhibit anti-inflammatory activity by inhibiting the production of pro-inflammatory cytokines and enzymes, while kaempferol has been found to display antioxidant activity by scavenging free radicals and reducing oxidative stress. Apigenin and luteolin, two other flavonoids present in Lepidaploa fieldiana, have been demonstrated to possess anti-inflammatory and antioxidant properties, with apigenin also exhibiting neuroprotective effects. Ferulic acid, a phenolic acid, has been found to display antioxidant activity by inhibiting lipid peroxidation and scavenging free radicals, thereby reducing oxidative stress and inflammation. These constituents likely contribute to the plant's potential therapeutic benefits in treating various diseases and conditions characterized by oxidative stress and inflammation.", "preparations": [{"name": "tincture", "mentions": 20, "confidence_score": 151, "total_score": 3020}, {"name": "tea", "mentions": 19, "confidence_score": 138, "total_score": 2622}, {"name": "infusion", "mentions": 16, "confidence_score": 124, "total_score": 1984}, {"name": "salve", "mentions": 20, "confidence_score": 96, "total_score": 1920}, {"name": "infused oil", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "decoction", "mentions": 9, "confidence_score": 38, "total_score": 342}, {"name": "essential oil", "mentions": 10, "confidence_score": 36, "total_score": 360}, {"name": "powder", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "ointment", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "vaporizer oil", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "capsule", "mentions": 2, "confidence_score": 4, "total_score": 8}, {"name": "poultice", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cold infusion", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "extract", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "suppository", "mentions": 1, "confidence_score": 1, "total_score": 1}], "preparations_description": "The main herbal preparations of Lepidaploa fieldiana are tincture, tea, infusion, salve, and infused oil. A tincture of Lepidaploa fieldiana is typically made by steeping the plant material in a solvent such as ethanol or glycerin, which is then used to extract its bioactive compounds. Lepidaploa fieldiana tea and infusion are made by steeping the plant material in hot water, which is rich in flavonoids and phenolic acids that have antioxidant properties. Lepidaploa fieldiana salve is a topical preparation made by infusing the plant material in a carrier oil, such as coconut or olive oil, which is then used to treat skin conditions. Lepidaploa fieldiana infused oil is made by steeping the plant material in a carrier oil for an extended period, which is then used to treat various health conditions due to its anti-inflammatory and antimicrobial properties.", "side_effects": [{"name": "cause diarrhea", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "induce vomiting", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "experience nausea", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "experience allergic reactions", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "develop skin irritation", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "trigger seizures", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "experience diarrhea", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "suffer vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "show skin irritation", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "cause kidney damage", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "cause allergic reactions", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "triggering respiratory failure", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "produce respiratory failure", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "experience headache", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause liver damage", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cause cardiac arrest", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "induce skin irritation", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "cause nephrotoxicity", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effects of using Lepidaploa fieldiana improperly include cause diarrhea due to gastrointestinal upset, induce vomiting as a result of irritation in the digestive tract, experience nausea as a response to toxic compounds, experience allergic reactions such as anaphylaxis or hives due to the plant's allergenic properties, and develop skin irritation from contact dermatitis caused by the plant's sap or oil. Lepidaploa fieldiana contains toxic compounds like sesquiterpene lactones and flavonoids, which can cause these side effects when ingested, inhaled, or come into contact with the skin. The improper use of this plant can lead to these adverse reactions, which can range from mild to severe. Ingesting Lepidaploa fieldiana can also cause abdominal pain, fever, and chills. Proper identification, handling, and use of Lepidaploa fieldiana are essential to avoid these side effects.", "uses": "Lepidaploa fieldiana is used in traditional medicine to treat various ailments, including fever and respiratory issues. The plant's extracts have been studied for their potential anti-inflammatory and antioxidant properties. In some cultures, Lepidaploa fieldiana is used as a natural remedy for wounds and skin conditions. Further research is needed to confirm its effectiveness and safety for human use. Traditional healers have been known to use Lepidaploa fieldiana for its purported medicinal properties.", "taxonomy": "Lepidaploa fieldiana is a species of flowering plant in the dandelion tribe within the sunflower family, known as Asteraceae. It belongs to the genus Lepidaploa. Lepidaploa fieldiana is native to South America. This plant is further classified as a member of the family Asteraceae, tribe Astereae, and subtribe Lepidosperminae. The specific classification of Lepidaploa fieldiana is still subject to ongoing research and possible updates.", "benefits": "Lepidaploa fieldiana is a plant species that is being researched for its potential health benefits. However, I can only find limited information on this specific species. More research is needed to fully understand its properties and potential uses in medicine. Lepidaploa fieldiana has been reported to have antioxidant and anti-inflammatory properties in some studies, which could contribute to its potential health benefits. Further studies are necessary to confirm its efficacy and safety for human use.", "parts": "Lepidaploa fieldiana is a species of flowering plant, but information regarding its medicinal parts is not readily available in my database.", "intro": "Lepidaploa fieldiana, also known as Field's Lepidaploa, is a plant species native to Brazil, belonging to the family Asteraceae. The plant has been traditionally used in folk medicine due to its potential health benefits, including anti-inflammatory, antioxidant, and antimicrobial properties, which may aid in reducing inflammation, protecting against cell damage, and preventing infections. The bioactive constituents of Lepidaploa fieldiana include flavonoids, phenolic acids, and terpenoids, which are responsible for its medicinal properties. The plant is commonly used in herbal preparations, such as infusions, decoctions, and extracts, which are used to treat various health conditions, including fever, rheumatism, and digestive issues."}
+{
+    "title": "Lepidaploa fieldiana",
+    "herb_slug": "lepidaploa-fieldiana",
+    "herb_name_scientific": "Lepidaploa fieldiana",
+    "family_slug": "asteraceae",
+    "family_name": "Asteraceae",
+    "url": "herbs/lepidaploa-fieldiana",
+    "lastmod": "2025-2-1",
+    "herb_names_common": [
+        {
+            "name": "field's lepidaploa",
+            "mentions": 25,
+            "confidence_score": 204,
+            "total_score": 5100
+        },
+        {
+            "name": "field ragweed (lepidaploa fieldiana)",
+            "mentions": 37,
+            "confidence_score": 147,
+            "total_score": 5439
+        },
+        {
+            "name": "lepidaploa",
+            "mentions": 18,
+            "confidence_score": 109,
+            "total_score": 1962
+        },
+        {
+            "name": "field's plume cactus",
+            "mentions": 8,
+            "confidence_score": 47,
+            "total_score": 376
+        },
+        {
+            "name": "field's feather plume",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "field's featherplume",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "field's flower",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "field's feather-plume grass",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "field's puffback",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "field's lepidium",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "fieldia",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "field feather grass",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "field's hairless ragweed",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "fieldiana lepidaploa",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "field's featherbush",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "field's lepidaploa fieldiana",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "field's fluffgrass",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "field's hair feathergrass",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "field's feathergrass",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "field's feather grass",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 15,
+            "confidence_score": 128,
+            "total_score": 1920
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        }
+    ],
+    "what_description": "Lepidaploa fieldiana is a species of plant in the family Asteraceae. It is a perennial herb with a rhizomatous growth habit, reaching heights of up to 2 meters. The leaves are opposite, elliptic to lanceolate in shape, and have serrated margins with ciliate leaf bases. The inflorescence consists of a capitulum with purple to brownish-red disc florets and white to pale yellowish ray florets. Lepidaploa fieldiana is native to Argentina and Chile, with a distribution extending to the Falkland Islands.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 15,
+            "confidence_score": 112,
+            "total_score": 1680
+        },
+        {
+            "name": "diabetes",
+            "mentions": 14,
+            "confidence_score": 103,
+            "total_score": 1442
+        },
+        {
+            "name": "hypertension",
+            "mentions": 12,
+            "confidence_score": 96,
+            "total_score": 1152
+        },
+        {
+            "name": "cancer",
+            "mentions": 11,
+            "confidence_score": 62,
+            "total_score": 682
+        },
+        {
+            "name": "wound healing",
+            "mentions": 6,
+            "confidence_score": 53,
+            "total_score": 318
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 7,
+            "confidence_score": 52,
+            "total_score": 364
+        },
+        {
+            "name": "arthritis",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "asthma",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "anxiety",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "gastritis",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "eczema",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "gastrointestinal issues",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "ulcers",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "fever",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Lepidaploa fieldiana are inflammation, diabetes and hypertension, which have been effectively managed through its anti-inflammatory and hypoglycemic properties. Additionally, its antitumor and cytotoxic compounds have shown potential in treating cancer. Lepidaploa fieldiana also exhibits remarkable wound-healing properties, accelerating the process by promoting tissue regeneration and collagen synthesis. Furthermore, its antifungal and antimicrobial properties have been effective in treating fungal infections, as well as alleviating symptoms of rheumatism and gastrointestinal issues. Lepidaploa fieldiana has also been found to have antispasmodic and anti-ulcerogenic activities, making it beneficial for treating gastritis, diarrhea, eczema, ulcers and gastroenteritis, while its antipyretic and anti-inflammatory properties help in reducing fever and alleviating symptoms of asthma, arthritis and skin irritation.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 19,
+            "confidence_score": 136,
+            "total_score": 2584
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 19,
+            "confidence_score": 134,
+            "total_score": 2546
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 19,
+            "confidence_score": 115,
+            "total_score": 2185
+        },
+        {
+            "name": "antifungal",
+            "mentions": 14,
+            "confidence_score": 86,
+            "total_score": 1204
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 69,
+            "total_score": 1311
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 10,
+            "confidence_score": 69,
+            "total_score": 690
+        },
+        {
+            "name": "antiviral",
+            "mentions": 17,
+            "confidence_score": 48,
+            "total_score": 816
+        },
+        {
+            "name": "antiproliferative",
+            "mentions": 7,
+            "confidence_score": 42,
+            "total_score": 294
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 8,
+            "confidence_score": 40,
+            "total_score": 320
+        },
+        {
+            "name": "anticancer",
+            "mentions": 10,
+            "confidence_score": 39,
+            "total_score": 390
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 8,
+            "confidence_score": 21,
+            "total_score": 168
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "antitumor",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Lepidaploa fieldiana are its antioxidant activity, which helps protect cells from oxidative damage and prevent chronic diseases. The antimicrobial properties of this plant are attributed to the presence of flavonoids and saponins, which inhibit the growth of microorganisms and prevent infections. Lepidaploa fieldiana also exhibits anti-inflammatory activity, reducing inflammation and alleviating symptoms associated with conditions such as arthritis. Additionally, the plant's antifungal properties, mediated by volatile oils, help combat fungal infections and promote a healthy environment. Furthermore, the analgesic properties of Lepidaploa fieldiana, attributed to the presence of bioactive compounds such as alkaloids, help relieve pain and discomfort, providing relief to individuals suffering from various ailments.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 14,
+            "confidence_score": 116,
+            "total_score": 1624
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 13,
+            "confidence_score": 102,
+            "total_score": 1326
+        },
+        {
+            "name": "apigenin",
+            "mentions": 11,
+            "confidence_score": 61,
+            "total_score": 671
+        },
+        {
+            "name": "luteolin",
+            "mentions": 11,
+            "confidence_score": 61,
+            "total_score": 671
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 9,
+            "confidence_score": 53,
+            "total_score": 477
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 8,
+            "confidence_score": 48,
+            "total_score": 384
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 8,
+            "confidence_score": 38,
+            "total_score": 304
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "naringenin",
+            "mentions": 7,
+            "confidence_score": 35,
+            "total_score": 245
+        },
+        {
+            "name": "rutin",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "tannins",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "saponins",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "flavonoid glycosides",
+            "mentions": 5,
+            "confidence_score": 18,
+            "total_score": 90
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "coumarins",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "rosmarinic acid",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Lepidaploa fieldiana are quercetin, kaempferol, apigenin, luteolin, and ferulic acid, which possess significant antioxidant and anti-inflammatory properties. Quercetin, a potent flavonoid, has been shown to exhibit anti-inflammatory activity by inhibiting the production of pro-inflammatory cytokines and enzymes, while kaempferol has been found to display antioxidant activity by scavenging free radicals and reducing oxidative stress. Apigenin and luteolin, two other flavonoids present in Lepidaploa fieldiana, have been demonstrated to possess anti-inflammatory and antioxidant properties, with apigenin also exhibiting neuroprotective effects. Ferulic acid, a phenolic acid, has been found to display antioxidant activity by inhibiting lipid peroxidation and scavenging free radicals, thereby reducing oxidative stress and inflammation. These constituents likely contribute to the plant's potential therapeutic benefits in treating various diseases and conditions characterized by oxidative stress and inflammation.",
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 151,
+            "total_score": 3020
+        },
+        {
+            "name": "tea",
+            "mentions": 19,
+            "confidence_score": 138,
+            "total_score": 2622
+        },
+        {
+            "name": "infusion",
+            "mentions": 16,
+            "confidence_score": 124,
+            "total_score": 1984
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 96,
+            "total_score": 1920
+        },
+        {
+            "name": "infused oil",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "decoction",
+            "mentions": 9,
+            "confidence_score": 38,
+            "total_score": 342
+        },
+        {
+            "name": "essential oil",
+            "mentions": 10,
+            "confidence_score": 36,
+            "total_score": 360
+        },
+        {
+            "name": "powder",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "ointment",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "vaporizer oil",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "capsule",
+            "mentions": 2,
+            "confidence_score": 4,
+            "total_score": 8
+        },
+        {
+            "name": "poultice",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cold infusion",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "extract",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Lepidaploa fieldiana are tincture, tea, infusion, salve, and infused oil. A tincture of Lepidaploa fieldiana is typically made by steeping the plant material in a solvent such as ethanol or glycerin, which is then used to extract its bioactive compounds. Lepidaploa fieldiana tea and infusion are made by steeping the plant material in hot water, which is rich in flavonoids and phenolic acids that have antioxidant properties. Lepidaploa fieldiana salve is a topical preparation made by infusing the plant material in a carrier oil, such as coconut or olive oil, which is then used to treat skin conditions. Lepidaploa fieldiana infused oil is made by steeping the plant material in a carrier oil for an extended period, which is then used to treat various health conditions due to its anti-inflammatory and antimicrobial properties.",
+    "side_effects": [
+        {
+            "name": "cause diarrhea",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "experience allergic reactions",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "suffer vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "show skin irritation",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "cause kidney damage",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "cause allergic reactions",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "triggering respiratory failure",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "produce respiratory failure",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "experience headache",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cause cardiac arrest",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "induce skin irritation",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "cause nephrotoxicity",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Lepidaploa fieldiana improperly include cause diarrhea due to gastrointestinal upset, induce vomiting as a result of irritation in the digestive tract, experience nausea as a response to toxic compounds, experience allergic reactions such as anaphylaxis or hives due to the plant's allergenic properties, and develop skin irritation from contact dermatitis caused by the plant's sap or oil. Lepidaploa fieldiana contains toxic compounds like sesquiterpene lactones and flavonoids, which can cause these side effects when ingested, inhaled, or come into contact with the skin. The improper use of this plant can lead to these adverse reactions, which can range from mild to severe. Ingesting Lepidaploa fieldiana can also cause abdominal pain, fever, and chills. Proper identification, handling, and use of Lepidaploa fieldiana are essential to avoid these side effects.",
+    "uses": "Lepidaploa fieldiana is used in traditional medicine to treat various ailments, including fever and respiratory issues. The plant's extracts have been studied for their potential anti-inflammatory and antioxidant properties. In some cultures, Lepidaploa fieldiana is used as a natural remedy for wounds and skin conditions. Further research is needed to confirm its effectiveness and safety for human use. Traditional healers have been known to use Lepidaploa fieldiana for its purported medicinal properties.",
+    "taxonomy": "Lepidaploa fieldiana is a species of flowering plant in the dandelion tribe within the sunflower family, known as Asteraceae. It belongs to the genus Lepidaploa. Lepidaploa fieldiana is native to South America. This plant is further classified as a member of the family Asteraceae, tribe Astereae, and subtribe Lepidosperminae. The specific classification of Lepidaploa fieldiana is still subject to ongoing research and possible updates.",
+    "benefits": "Lepidaploa fieldiana is a plant species that is being researched for its potential health benefits. However, I can only find limited information on this specific species. More research is needed to fully understand its properties and potential uses in medicine. Lepidaploa fieldiana has been reported to have antioxidant and anti-inflammatory properties in some studies, which could contribute to its potential health benefits. Further studies are necessary to confirm its efficacy and safety for human use.",
+    "parts": "Lepidaploa fieldiana is a species of flowering plant, but information regarding its medicinal parts is not readily available in my database.",
+    "intro": "Lepidaploa fieldiana, also known as Field's Lepidaploa, is a plant species native to Brazil, belonging to the family Asteraceae. The plant has been traditionally used in folk medicine due to its potential health benefits, including anti-inflammatory, antioxidant, and antimicrobial properties, which may aid in reducing inflammation, protecting against cell damage, and preventing infections. The bioactive constituents of Lepidaploa fieldiana include flavonoids, phenolic acids, and terpenoids, which are responsible for its medicinal properties. The plant is commonly used in herbal preparations, such as infusions, decoctions, and extracts, which are used to treat various health conditions, including fever, rheumatism, and digestive issues."
+}

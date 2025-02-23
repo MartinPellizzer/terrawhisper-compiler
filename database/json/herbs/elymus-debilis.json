@@ -1,1 +1,767 @@
-{"title": "Elymus debilis", "herb_slug": "elymus-debilis", "herb_name_scientific": "Elymus debilis", "family_slug": "poaceae", "family_name": "Poaceae", "url": "herbs/elymus-debilis", "lastmod": "2025-1-11", "herb_names_common": [{"name": "slender wheatgrass", "mentions": 15, "confidence_score": 101, "total_score": 1515}, {"name": "slender wheat grass", "mentions": 14, "confidence_score": 88, "total_score": 1232}, {"name": "slender brome", "mentions": 12, "confidence_score": 84, "total_score": 1008}, {"name": "slender wild rye", "mentions": 9, "confidence_score": 69, "total_score": 621}, {"name": "blue wild rye", "mentions": 9, "confidence_score": 54, "total_score": 486}, {"name": "slender wheat grass (elymus debilis)", "mentions": 12, "confidence_score": 46, "total_score": 552}, {"name": "slender brome grass", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "weak brome", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "slender wildrye", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "weak wild rye", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "slender elymus", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "debil wheat grass", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "debilis brome", "mentions": 5, "confidence_score": 16, "total_score": 80}, {"name": "debil grass", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "weak lyme grass", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "canyon three-awn grass", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "slender wild ryegrass", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "weakly loose grass", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "debilis wild rye", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "spike wheatgrass", "mentions": 2, "confidence_score": 10, "total_score": 20}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 11, "confidence_score": 85, "total_score": 935}, {"medicine_or_poison": "poison", "mentions": 9, "confidence_score": 74, "total_score": 666}], "what_description": "Elymus debilis is a perennial grass native to the southwestern United States and northern Mexico. It belongs to the family Poaceae and is characterized by its slender stems, typically 30-90 cm tall, bearing a panicle up to 20 cm long with a greenish-yellow inflorescence. The leaves are linear, flat, and 5-15 mm wide, with a glabrous sheath and a ligule that is ciliate or not. The plant produces seeds in a spikelet, 10-15 mm long, with a glabrous lemma and palea, and a caryopsis that is 5-7 mm long. Elymus debilis grows in open woods, rocky outcrops, and dry slopes, often in areas with shallow soil and full sun to partial shade.", "category_action": "antimicrobial", "ailments": [{"name": "diabetes", "mentions": 11, "confidence_score": 73, "total_score": 803}, {"name": "hypertension", "mentions": 10, "confidence_score": 73, "total_score": 730}, {"name": "arthritis", "mentions": 9, "confidence_score": 68, "total_score": 612}, {"name": "skin irritations", "mentions": 8, "confidence_score": 59, "total_score": 472}, {"name": "inflammation", "mentions": 8, "confidence_score": 59, "total_score": 472}, {"name": "digestive issues", "mentions": 8, "confidence_score": 45, "total_score": 360}, {"name": "respiratory problems", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "anxiety", "mentions": 9, "confidence_score": 37, "total_score": 333}, {"name": "asthma", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "diarrhea", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "eczema", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "rheumatism", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "infections", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "inflammatory bowel disease", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "cancer", "mentions": 6, "confidence_score": 21, "total_score": 126}, {"name": "osteoporosis", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "skin conditions", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "fever", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "wound healing", "mentions": 2, "confidence_score": 18, "total_score": 36}], "ailments_description": "The most common ailments you can heal with Elymus debilis are diabetes, hypertension, and arthritis. Studies have shown that Elymus debilis extracts exhibit anti-inflammatory properties, which help alleviate conditions such as skin irritations and inflammation. Elymus debilis also possesses prebiotic properties that aid in digestive issues and respiratory problems, including asthma. Additionally, its antioxidant and anxiolytic properties make it effective in treating anxiety, diarrhea, eczema, and rheumatism. Elymus debilis has been found to exhibit antimicrobial properties, making it useful in treating infections, inflammatory bowel disease, gastroenteritis, and fever, as well as promoting wound healing and potentially even osteoporosis, certain skin conditions, and even cancer, while also helping to regulate fever.", "properties": [{"name": "antioxidant", "mentions": 21, "confidence_score": 104, "total_score": 2184}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 95, "total_score": 1900}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 90, "total_score": 1800}, {"name": "cardioprotective", "mentions": 12, "confidence_score": 48, "total_score": 576}, {"name": "analgesic", "mentions": 12, "confidence_score": 39, "total_score": 468}, {"name": "antifungal", "mentions": 9, "confidence_score": 36, "total_score": 324}, {"name": "anticancer", "mentions": 11, "confidence_score": 33, "total_score": 363}, {"name": "antidiabetic", "mentions": 9, "confidence_score": 32, "total_score": 288}, {"name": "hepatoprotective", "mentions": 8, "confidence_score": 29, "total_score": 232}, {"name": "wound healing", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "immunomodulatory", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "hypotensive", "mentions": 6, "confidence_score": 23, "total_score": 138}, {"name": "antiviral", "mentions": 7, "confidence_score": 21, "total_score": 147}, {"name": "antispasmodic", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "antiseptic", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "antidiarrheal", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "antibacterial", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "anti-diarrheal", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "expectorant", "mentions": 4, "confidence_score": 6, "total_score": 24}, {"name": "hypoglycemic", "mentions": 1, "confidence_score": 6, "total_score": 6}], "properties_description": "The main therapeutic properties of Elymus debilis are antioxidant, which can protect the body from oxidative stress and cell damage, while its antimicrobial properties help combat infections caused by bacteria and fungi. The plant's bioactive compounds, such as flavonoids and saponins, are responsible for its anti-inflammatory effects, reducing swelling and pain in various conditions. Elymus debilis also possesses cardioprotective properties, which can help lower blood pressure and cholesterol levels, reducing the risk of cardiovascular diseases. Furthermore, the plant's analgesic properties can provide relief from pain, making it a potential natural remedy for managing chronic pain. The presence of volatile oils in Elymus debilis is another factor contributing to its therapeutic effects, although the specific mechanisms are yet to be fully understood.", "constituents": [{"name": "flavonoids", "mentions": 16, "confidence_score": 107, "total_score": 1712}, {"name": "saponins", "mentions": 16, "confidence_score": 94, "total_score": 1504}, {"name": "phenolic acids", "mentions": 14, "confidence_score": 83, "total_score": 1162}, {"name": "triterpenoids", "mentions": 19, "confidence_score": 83, "total_score": 1577}, {"name": "fatty acids", "mentions": 10, "confidence_score": 73, "total_score": 730}, {"name": "lignans", "mentions": 7, "confidence_score": 38, "total_score": 266}, {"name": "glycosides", "mentions": 10, "confidence_score": 36, "total_score": 360}, {"name": "ferulic acid", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "fenugreek saponins", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "coumarins", "mentions": 13, "confidence_score": 33, "total_score": 429}, {"name": "quercetin", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "alkaloids", "mentions": 10, "confidence_score": 24, "total_score": 240}, {"name": "phenolic glycosides", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "caffeic acid", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "fenolic acids", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "sterols", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "phytic acid", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "kaempferol", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "tannins", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "luteolin", "mentions": 2, "confidence_score": 12, "total_score": 24}], "constituents_description": "The most important healing constituents of Elymus debilis are flavonoids, saponins, phenolic acids, triterpenoids, and fatty acids, which contribute to its medicinal properties. Flavonoids present in Elymus debilis exhibit antioxidant and anti-inflammatory activities by scavenging free radicals and inhibiting pro-inflammatory enzymes. Saponins found in this plant have been reported to possess immunomodulatory and antimicrobial properties, which can help in fighting infections and modulating the immune response. Phenolic acids, including ferulic and sinapic acids, have been identified in Elymus debilis, displaying anti-inflammatory and antioxidant activities by neutralizing reactive oxygen species and suppressing pro-inflammatory cytokines. Triterpenoids and fatty acids, such as oleanolic acid and linoleic acid, in Elymus debilis have been found to exhibit anti-inflammatory and antioxidant properties, contributing to its therapeutic potential.", "preparations": [{"name": "elymus debilis infusion", "mentions": 17, "confidence_score": 121, "total_score": 2057}, {"name": "elymus debilis tea", "mentions": 14, "confidence_score": 110, "total_score": 1540}, {"name": "elymus debilis tincture", "mentions": 17, "confidence_score": 103, "total_score": 1751}, {"name": "elymus debilis decoction", "mentions": 15, "confidence_score": 78, "total_score": 1170}, {"name": "elymus debilis salve", "mentions": 15, "confidence_score": 70, "total_score": 1050}, {"name": "elymus debilis extract", "mentions": 7, "confidence_score": 39, "total_score": 273}, {"name": "elymus tea", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "elymus infusion", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "elymus tincture", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "elymus decoction", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "elymus debilis oil", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "poultice", "mentions": 4, "confidence_score": 9, "total_score": 36}, {"name": "elymus oil", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "suppository", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "elymus extract", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "elymus syrup", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "elymus salve", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "elymus debilis capsule", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "elymus powder", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "infusate", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Elymus debilis are infusion, tea, tincture, decoction, and salve. Elymus debilis infusion is a liquid extract made by steeping the dried plant material in hot water, often used to make teas and infusions for medicinal purposes. Elymus debilis tea is a more diluted form of infusion, typically prepared by steeping the dried plant material in boiling water for a shorter period. Elymus debilis tincture is a concentrated liquid extract prepared by soaking the plant material in a solvent such as ethanol or glycerin, often used in homeopathic and herbal remedies. Elymus debilis decoction and salve are also prepared, the decoction being a stronger liquid extract made by boiling the plant material for a longer period, while the salve is a topical cream or ointment made by infusing the plant material in a carrier oil.", "side_effects": [{"name": "experience nausea", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "suffer diarrhea", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "experience dizziness", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "experiences nausea", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "develop allergic reactions", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "show vomiting", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "suffer kidney damage", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "experiencing abdominal pain", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "experience headache", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "exacerbate allergies", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "get headaches", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "develop respiratory issues", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "develops allergic reaction", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "suffers liver damage", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "suffer liver damage", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experience allergic reaction", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "develop skin irritation", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "get hypotension", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "exhibits liver damage", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effects of using Elymus debilis improperly include experience nausea, suffer diarrhea, experience dizziness, develop allergic reactions, and these side effects can occur due to various factors such as incorrect dosing, interaction with other medications, or individual sensitivity to the plant's chemical composition. Nausea and diarrhea can be caused by the plant's saponins, which can irritate the gastrointestinal tract, while dizziness may be a result of the plant's effect on the central nervous system. Allergic reactions can occur due to the presence of allergenic compounds in Elymus debilis, such as proteins and glycoproteins. Additionally, improper use of Elymus debilis can also lead to other side effects, including stomach upset, headaches, and fatigue. These side effects can be severe and may require medical attention if left untreated.", "uses": "Elymus debilis, a species of grass, has been traditionally used in various forms of folk medicine. Its medicinal properties include being used as a treatment for various types of fever, as well as being used to treat coughs and respiratory issues. The plant is also believed to have anti-inflammatory properties, which may aid in the treatment of various types of pain and swelling. In addition, it is sometimes used as a diuretic to help relieve symptoms of water retention. However, more research is needed to fully understand the plant's medicinal potential and its safety for human use.", "taxonomy": "Elymus debilis is classified as a species within the genus Elymus, which belongs to the family Poaceae. The genus Elymus is a group of grasses commonly known as wild ryegrasses. Elymus debilis is further classified as a type of perennial grass. This species is native to the western United States and is often found in dry areas. The classification of Elymus debilis is as follows: Elymus debilis Poaceae > Elymus > Elymus debilis.", "benefits": "Elymus debilis is known for its potential health benefits due to its high content of bioactive compounds, including flavonoids, phenolic acids, and alkaloids. The plant is believed to possess antioxidant, anti-inflammatory, and antimicrobial properties, which may contribute to its health benefits. Elymus debilis is traditionally used in folk medicine to treat various ailments, including respiratory issues, digestive problems, and skin conditions. Additionally, the plant is thought to have immunomodulatory effects, which may help to boost the immune system. Further research is needed to fully understand the health benefits of Elymus debilis and its potential applications in modern medicine.", "parts": "Elymus debilis is a plant species that is used in traditional medicine in various parts of the world. The medicinal parts of Elymus debilis include its leaves, stems, and roots, which are believed to possess anti-inflammatory and antibacterial properties. The plant's aerial parts are often used to treat respiratory issues, such as bronchitis and coughs. In traditional medicine, Elymus debilis is also used to treat skin conditions, such as wounds and eczema. However, more research is needed to confirm the efficacy and safety of using Elymus debilis for medicinal purposes.", "intro": "Elymus debilis, also known as weak wheatgrass or slender wheatgrass, is a perennial grass native to the western United States and Canada. It has been traditionally used for its medicinal properties, particularly in treating various health issues such as inflammation, fever, and respiratory problems, due to its ability to soothe and calm the body. The bioactive constituents of Elymus debilis include flavonoids, alkaloids, and saponins, which are responsible for its medicinal properties. Elymus debilis is often used in herbal preparations such as teas, infusions, and tinctures, as well as being combined with other herbs to create syrups and salves for topical use."}
+{
+    "title": "Elymus debilis",
+    "herb_slug": "elymus-debilis",
+    "herb_name_scientific": "Elymus debilis",
+    "family_slug": "poaceae",
+    "family_name": "Poaceae",
+    "url": "herbs/elymus-debilis",
+    "lastmod": "2025-1-11",
+    "herb_names_common": [
+        {
+            "name": "slender wheatgrass",
+            "mentions": 15,
+            "confidence_score": 101,
+            "total_score": 1515
+        },
+        {
+            "name": "slender wheat grass",
+            "mentions": 14,
+            "confidence_score": 88,
+            "total_score": 1232
+        },
+        {
+            "name": "slender brome",
+            "mentions": 12,
+            "confidence_score": 84,
+            "total_score": 1008
+        },
+        {
+            "name": "slender wild rye",
+            "mentions": 9,
+            "confidence_score": 69,
+            "total_score": 621
+        },
+        {
+            "name": "blue wild rye",
+            "mentions": 9,
+            "confidence_score": 54,
+            "total_score": 486
+        },
+        {
+            "name": "slender wheat grass (elymus debilis)",
+            "mentions": 12,
+            "confidence_score": 46,
+            "total_score": 552
+        },
+        {
+            "name": "slender brome grass",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "weak brome",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "slender wildrye",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "weak wild rye",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "slender elymus",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "debil wheat grass",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "debilis brome",
+            "mentions": 5,
+            "confidence_score": 16,
+            "total_score": 80
+        },
+        {
+            "name": "debil grass",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "weak lyme grass",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "canyon three-awn grass",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "slender wild ryegrass",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "weakly loose grass",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "debilis wild rye",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "spike wheatgrass",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 11,
+            "confidence_score": 85,
+            "total_score": 935
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 9,
+            "confidence_score": 74,
+            "total_score": 666
+        }
+    ],
+    "what_description": "Elymus debilis is a perennial grass native to the southwestern United States and northern Mexico. It belongs to the family Poaceae and is characterized by its slender stems, typically 30-90 cm tall, bearing a panicle up to 20 cm long with a greenish-yellow inflorescence. The leaves are linear, flat, and 5-15 mm wide, with a glabrous sheath and a ligule that is ciliate or not. The plant produces seeds in a spikelet, 10-15 mm long, with a glabrous lemma and palea, and a caryopsis that is 5-7 mm long. Elymus debilis grows in open woods, rocky outcrops, and dry slopes, often in areas with shallow soil and full sun to partial shade.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "diabetes",
+            "mentions": 11,
+            "confidence_score": 73,
+            "total_score": 803
+        },
+        {
+            "name": "hypertension",
+            "mentions": 10,
+            "confidence_score": 73,
+            "total_score": 730
+        },
+        {
+            "name": "arthritis",
+            "mentions": 9,
+            "confidence_score": 68,
+            "total_score": 612
+        },
+        {
+            "name": "skin irritations",
+            "mentions": 8,
+            "confidence_score": 59,
+            "total_score": 472
+        },
+        {
+            "name": "inflammation",
+            "mentions": 8,
+            "confidence_score": 59,
+            "total_score": 472
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 8,
+            "confidence_score": 45,
+            "total_score": 360
+        },
+        {
+            "name": "respiratory problems",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "anxiety",
+            "mentions": 9,
+            "confidence_score": 37,
+            "total_score": 333
+        },
+        {
+            "name": "asthma",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "eczema",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "infections",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "inflammatory bowel disease",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "cancer",
+            "mentions": 6,
+            "confidence_score": 21,
+            "total_score": 126
+        },
+        {
+            "name": "osteoporosis",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "fever",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Elymus debilis are diabetes, hypertension, and arthritis. Studies have shown that Elymus debilis extracts exhibit anti-inflammatory properties, which help alleviate conditions such as skin irritations and inflammation. Elymus debilis also possesses prebiotic properties that aid in digestive issues and respiratory problems, including asthma. Additionally, its antioxidant and anxiolytic properties make it effective in treating anxiety, diarrhea, eczema, and rheumatism. Elymus debilis has been found to exhibit antimicrobial properties, making it useful in treating infections, inflammatory bowel disease, gastroenteritis, and fever, as well as promoting wound healing and potentially even osteoporosis, certain skin conditions, and even cancer, while also helping to regulate fever.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 21,
+            "confidence_score": 104,
+            "total_score": 2184
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 95,
+            "total_score": 1900
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 90,
+            "total_score": 1800
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 12,
+            "confidence_score": 48,
+            "total_score": 576
+        },
+        {
+            "name": "analgesic",
+            "mentions": 12,
+            "confidence_score": 39,
+            "total_score": 468
+        },
+        {
+            "name": "antifungal",
+            "mentions": 9,
+            "confidence_score": 36,
+            "total_score": 324
+        },
+        {
+            "name": "anticancer",
+            "mentions": 11,
+            "confidence_score": 33,
+            "total_score": 363
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 9,
+            "confidence_score": 32,
+            "total_score": 288
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 8,
+            "confidence_score": 29,
+            "total_score": 232
+        },
+        {
+            "name": "wound healing",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 6,
+            "confidence_score": 23,
+            "total_score": 138
+        },
+        {
+            "name": "antiviral",
+            "mentions": 7,
+            "confidence_score": 21,
+            "total_score": 147
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "anti-diarrheal",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "expectorant",
+            "mentions": 4,
+            "confidence_score": 6,
+            "total_score": 24
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Elymus debilis are antioxidant, which can protect the body from oxidative stress and cell damage, while its antimicrobial properties help combat infections caused by bacteria and fungi. The plant's bioactive compounds, such as flavonoids and saponins, are responsible for its anti-inflammatory effects, reducing swelling and pain in various conditions. Elymus debilis also possesses cardioprotective properties, which can help lower blood pressure and cholesterol levels, reducing the risk of cardiovascular diseases. Furthermore, the plant's analgesic properties can provide relief from pain, making it a potential natural remedy for managing chronic pain. The presence of volatile oils in Elymus debilis is another factor contributing to its therapeutic effects, although the specific mechanisms are yet to be fully understood.",
+    "constituents": [
+        {
+            "name": "flavonoids",
+            "mentions": 16,
+            "confidence_score": 107,
+            "total_score": 1712
+        },
+        {
+            "name": "saponins",
+            "mentions": 16,
+            "confidence_score": 94,
+            "total_score": 1504
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 14,
+            "confidence_score": 83,
+            "total_score": 1162
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 19,
+            "confidence_score": 83,
+            "total_score": 1577
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 10,
+            "confidence_score": 73,
+            "total_score": 730
+        },
+        {
+            "name": "lignans",
+            "mentions": 7,
+            "confidence_score": 38,
+            "total_score": 266
+        },
+        {
+            "name": "glycosides",
+            "mentions": 10,
+            "confidence_score": 36,
+            "total_score": 360
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "fenugreek saponins",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "coumarins",
+            "mentions": 13,
+            "confidence_score": 33,
+            "total_score": 429
+        },
+        {
+            "name": "quercetin",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 10,
+            "confidence_score": 24,
+            "total_score": 240
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "fenolic acids",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "sterols",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "phytic acid",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "tannins",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "luteolin",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Elymus debilis are flavonoids, saponins, phenolic acids, triterpenoids, and fatty acids, which contribute to its medicinal properties. Flavonoids present in Elymus debilis exhibit antioxidant and anti-inflammatory activities by scavenging free radicals and inhibiting pro-inflammatory enzymes. Saponins found in this plant have been reported to possess immunomodulatory and antimicrobial properties, which can help in fighting infections and modulating the immune response. Phenolic acids, including ferulic and sinapic acids, have been identified in Elymus debilis, displaying anti-inflammatory and antioxidant activities by neutralizing reactive oxygen species and suppressing pro-inflammatory cytokines. Triterpenoids and fatty acids, such as oleanolic acid and linoleic acid, in Elymus debilis have been found to exhibit anti-inflammatory and antioxidant properties, contributing to its therapeutic potential.",
+    "preparations": [
+        {
+            "name": "elymus debilis infusion",
+            "mentions": 17,
+            "confidence_score": 121,
+            "total_score": 2057
+        },
+        {
+            "name": "elymus debilis tea",
+            "mentions": 14,
+            "confidence_score": 110,
+            "total_score": 1540
+        },
+        {
+            "name": "elymus debilis tincture",
+            "mentions": 17,
+            "confidence_score": 103,
+            "total_score": 1751
+        },
+        {
+            "name": "elymus debilis decoction",
+            "mentions": 15,
+            "confidence_score": 78,
+            "total_score": 1170
+        },
+        {
+            "name": "elymus debilis salve",
+            "mentions": 15,
+            "confidence_score": 70,
+            "total_score": 1050
+        },
+        {
+            "name": "elymus debilis extract",
+            "mentions": 7,
+            "confidence_score": 39,
+            "total_score": 273
+        },
+        {
+            "name": "elymus tea",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "elymus infusion",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "elymus tincture",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "elymus decoction",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "elymus debilis oil",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "poultice",
+            "mentions": 4,
+            "confidence_score": 9,
+            "total_score": 36
+        },
+        {
+            "name": "elymus oil",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "elymus extract",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "elymus syrup",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "elymus salve",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "elymus debilis capsule",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "elymus powder",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "infusate",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Elymus debilis are infusion, tea, tincture, decoction, and salve. Elymus debilis infusion is a liquid extract made by steeping the dried plant material in hot water, often used to make teas and infusions for medicinal purposes. Elymus debilis tea is a more diluted form of infusion, typically prepared by steeping the dried plant material in boiling water for a shorter period. Elymus debilis tincture is a concentrated liquid extract prepared by soaking the plant material in a solvent such as ethanol or glycerin, often used in homeopathic and herbal remedies. Elymus debilis decoction and salve are also prepared, the decoction being a stronger liquid extract made by boiling the plant material for a longer period, while the salve is a topical cream or ointment made by infusing the plant material in a carrier oil.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "suffer diarrhea",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "develop allergic reactions",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "show vomiting",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "suffer kidney damage",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "experience headache",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "get headaches",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "develop respiratory issues",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "develops allergic reaction",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "suffers liver damage",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "get hypotension",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "exhibits liver damage",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Elymus debilis improperly include experience nausea, suffer diarrhea, experience dizziness, develop allergic reactions, and these side effects can occur due to various factors such as incorrect dosing, interaction with other medications, or individual sensitivity to the plant's chemical composition. Nausea and diarrhea can be caused by the plant's saponins, which can irritate the gastrointestinal tract, while dizziness may be a result of the plant's effect on the central nervous system. Allergic reactions can occur due to the presence of allergenic compounds in Elymus debilis, such as proteins and glycoproteins. Additionally, improper use of Elymus debilis can also lead to other side effects, including stomach upset, headaches, and fatigue. These side effects can be severe and may require medical attention if left untreated.",
+    "uses": "Elymus debilis, a species of grass, has been traditionally used in various forms of folk medicine. Its medicinal properties include being used as a treatment for various types of fever, as well as being used to treat coughs and respiratory issues. The plant is also believed to have anti-inflammatory properties, which may aid in the treatment of various types of pain and swelling. In addition, it is sometimes used as a diuretic to help relieve symptoms of water retention. However, more research is needed to fully understand the plant's medicinal potential and its safety for human use.",
+    "taxonomy": "Elymus debilis is classified as a species within the genus Elymus, which belongs to the family Poaceae. The genus Elymus is a group of grasses commonly known as wild ryegrasses. Elymus debilis is further classified as a type of perennial grass. This species is native to the western United States and is often found in dry areas. The classification of Elymus debilis is as follows: Elymus debilis Poaceae > Elymus > Elymus debilis.",
+    "benefits": "Elymus debilis is known for its potential health benefits due to its high content of bioactive compounds, including flavonoids, phenolic acids, and alkaloids. The plant is believed to possess antioxidant, anti-inflammatory, and antimicrobial properties, which may contribute to its health benefits. Elymus debilis is traditionally used in folk medicine to treat various ailments, including respiratory issues, digestive problems, and skin conditions. Additionally, the plant is thought to have immunomodulatory effects, which may help to boost the immune system. Further research is needed to fully understand the health benefits of Elymus debilis and its potential applications in modern medicine.",
+    "parts": "Elymus debilis is a plant species that is used in traditional medicine in various parts of the world. The medicinal parts of Elymus debilis include its leaves, stems, and roots, which are believed to possess anti-inflammatory and antibacterial properties. The plant's aerial parts are often used to treat respiratory issues, such as bronchitis and coughs. In traditional medicine, Elymus debilis is also used to treat skin conditions, such as wounds and eczema. However, more research is needed to confirm the efficacy and safety of using Elymus debilis for medicinal purposes.",
+    "intro": "Elymus debilis, also known as weak wheatgrass or slender wheatgrass, is a perennial grass native to the western United States and Canada. It has been traditionally used for its medicinal properties, particularly in treating various health issues such as inflammation, fever, and respiratory problems, due to its ability to soothe and calm the body. The bioactive constituents of Elymus debilis include flavonoids, alkaloids, and saponins, which are responsible for its medicinal properties. Elymus debilis is often used in herbal preparations such as teas, infusions, and tinctures, as well as being combined with other herbs to create syrups and salves for topical use."
+}

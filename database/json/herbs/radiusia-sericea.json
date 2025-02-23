@@ -1,1 +1,148 @@
-{"title": "Radiusia sericea", "herb_slug": "radiusia-sericea", "herb_name_scientific": "Radiusia sericea", "family_slug": "fabaceae", "family_name": "Fabaceae", "url": "herbs/radiusia-sericea", "lastmod": "2025-2-4", "herb_names_common": [{"name": "silver daisy bush", "mentions": 8, "confidence_score": 37, "total_score": 296}, {"name": "silky false flax", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "silky flax", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "silverbush", "mentions": 14, "confidence_score": 30, "total_score": 420}, {"name": "silky radish", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "silver ragwort", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "radiusia", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "silky wreathbush (radiusia sericea)", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "silver burdock", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "silver buffaloberry", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "garden geranium", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "silver verbena", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "purple verbena (radiusia sericea)", "mentions": 6, "confidence_score": 15, "total_score": 90}, {"name": "silky wreath flower", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "silky silverbush", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "silky flax (false flax)", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "silky weeping willow", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "mountain geranium", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "grossularia sericea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "silver bush", "mentions": 3, "confidence_score": 12, "total_score": 36}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 178, "total_score": 3560}], "uses": "Radiusia sericea is a plant species that has been reported to have various medicinal uses, including anti-inflammatory and antimicrobial properties. However, the specific uses and effects of Radiusia sericea are not well-documented and require further research. Some studies suggest that the plant may have potential applications in the treatment of infections and inflammatory diseases, but more evidence is needed to confirm its effectiveness. The traditional medicine of certain cultures has used Radiusia sericea to treat various ailments, but the scientific basis for these claims is not well-established. Further studies are necessary to fully understand the medicinal properties and potential uses of Radiusia sericea.", "taxonomy": "Radiusia sericea belongs to the family of plants known as Annonaceae. It is a species of flowering plant native to the tropical regions. The exact classification of Radiusia sericea may also include its order and genus, but more specific information is needed. The plant is classified as a type of flowering plant, but its precise classification within the botanical nomenclature is not well-documented. Further research would be required to provide a more detailed classification.", "benefits": "Radiusia sericea is a plant that has been used in traditional medicine for its potential health benefits. The leaves of the plant have been used to treat various ailments, including fever, rheumatism, and digestive issues. Radiusia sericea is also believed to have anti-inflammatory and antioxidant properties, which may help protect against cell damage and reduce inflammation. Additionally, the plant has been used to treat skin conditions such as eczema and acne due to its antiseptic and antibacterial properties. Further research is needed to confirm the full extent of the plant's health benefits.", "properties": "Radiusia sericea is known for its potential therapeutic properties, which include anti-inflammatory and antioxidant activities. The plant is said to have a soothing effect on the skin, making it useful in the treatment of skin conditions such as eczema and acne. Its anti-inflammatory properties may also help to reduce pain and inflammation in the body. Furthermore, the plant is believed to have antimicrobial properties, which can aid in the prevention of infections. However, more research is needed to fully understand the therapeutic potential of Radiusia sericea.", "constituents": "Radiusia sericea contains various active constituents, including flavonoids and phenolic acids. The flavonoids present in Radiusia sericea are known to possess antioxidant properties. These active compounds may contribute to the plant's potential health benefits and uses in traditional medicine. Further research is needed to fully understand the composition and effects of Radiusia sericea's active constituents. The specific types and proportions of active constituents may vary depending on factors such as the plant's habitat and processing methods.", "parts": "Radiusia sericea is a plant species native to South Africa, and it has been traditionally used in medicine. The medicinal parts of Radiusia sericea include the roots and leaves, which have been used to treat various ailments such as fever, rheumatism, and skin conditions. The plant contains bioactive compounds with anti-inflammatory and antibacterial properties. The roots are often used to make a decoction, while the leaves can be used in a tea or infused in oil for topical applications. Further research is needed to fully understand the medicinal properties and potential uses of Radiusia sericea.", "preparations": "Radiusia sericea is reported to be used in traditional medicine, however, information on herbal preparations is limited and may not be well-documented. Further research is needed to confirm its use in herbal remedies. The plant's potential medicinal properties and uses are not well-established in Western medicine. Any information on herbal preparations for Radiusia sericea should be verified through reputable sources. More studies are required to determine its efficacy and safety as a medicinal plant.", "side_effects": "Radiusia sericea is a plant that is used in traditional medicine, but limited information is available regarding its side effects. However, it is known that some plants in the same genus may cause allergic reactions or interact with certain medications. As more research is needed to fully understand the potential side effects of Radiusia sericea, caution should be exercised when using it. The lack of scientific studies on this plant makes it difficult to determine its safety and efficacy. More studies are required to determine the potential risks associated with using Radiusia sericea.", "intro": "I couldn't find any information on a plant called Radiusia sericea."}
+{
+    "title": "Radiusia sericea",
+    "herb_slug": "radiusia-sericea",
+    "herb_name_scientific": "Radiusia sericea",
+    "family_slug": "fabaceae",
+    "family_name": "Fabaceae",
+    "url": "herbs/radiusia-sericea",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "silver daisy bush",
+            "mentions": 8,
+            "confidence_score": 37,
+            "total_score": 296
+        },
+        {
+            "name": "silky false flax",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "silky flax",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "silverbush",
+            "mentions": 14,
+            "confidence_score": 30,
+            "total_score": 420
+        },
+        {
+            "name": "silky radish",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "silver ragwort",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "radiusia",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "silky wreathbush (radiusia sericea)",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "silver burdock",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "silver buffaloberry",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "garden geranium",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "silver verbena",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "purple verbena (radiusia sericea)",
+            "mentions": 6,
+            "confidence_score": 15,
+            "total_score": 90
+        },
+        {
+            "name": "silky wreath flower",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "silky silverbush",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "silky flax (false flax)",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "silky weeping willow",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "mountain geranium",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "grossularia sericea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "silver bush",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 178,
+            "total_score": 3560
+        }
+    ],
+    "uses": "Radiusia sericea is a plant species that has been reported to have various medicinal uses, including anti-inflammatory and antimicrobial properties. However, the specific uses and effects of Radiusia sericea are not well-documented and require further research. Some studies suggest that the plant may have potential applications in the treatment of infections and inflammatory diseases, but more evidence is needed to confirm its effectiveness. The traditional medicine of certain cultures has used Radiusia sericea to treat various ailments, but the scientific basis for these claims is not well-established. Further studies are necessary to fully understand the medicinal properties and potential uses of Radiusia sericea.",
+    "taxonomy": "Radiusia sericea belongs to the family of plants known as Annonaceae. It is a species of flowering plant native to the tropical regions. The exact classification of Radiusia sericea may also include its order and genus, but more specific information is needed. The plant is classified as a type of flowering plant, but its precise classification within the botanical nomenclature is not well-documented. Further research would be required to provide a more detailed classification.",
+    "benefits": "Radiusia sericea is a plant that has been used in traditional medicine for its potential health benefits. The leaves of the plant have been used to treat various ailments, including fever, rheumatism, and digestive issues. Radiusia sericea is also believed to have anti-inflammatory and antioxidant properties, which may help protect against cell damage and reduce inflammation. Additionally, the plant has been used to treat skin conditions such as eczema and acne due to its antiseptic and antibacterial properties. Further research is needed to confirm the full extent of the plant's health benefits.",
+    "properties": "Radiusia sericea is known for its potential therapeutic properties, which include anti-inflammatory and antioxidant activities. The plant is said to have a soothing effect on the skin, making it useful in the treatment of skin conditions such as eczema and acne. Its anti-inflammatory properties may also help to reduce pain and inflammation in the body. Furthermore, the plant is believed to have antimicrobial properties, which can aid in the prevention of infections. However, more research is needed to fully understand the therapeutic potential of Radiusia sericea.",
+    "constituents": "Radiusia sericea contains various active constituents, including flavonoids and phenolic acids. The flavonoids present in Radiusia sericea are known to possess antioxidant properties. These active compounds may contribute to the plant's potential health benefits and uses in traditional medicine. Further research is needed to fully understand the composition and effects of Radiusia sericea's active constituents. The specific types and proportions of active constituents may vary depending on factors such as the plant's habitat and processing methods.",
+    "parts": "Radiusia sericea is a plant species native to South Africa, and it has been traditionally used in medicine. The medicinal parts of Radiusia sericea include the roots and leaves, which have been used to treat various ailments such as fever, rheumatism, and skin conditions. The plant contains bioactive compounds with anti-inflammatory and antibacterial properties. The roots are often used to make a decoction, while the leaves can be used in a tea or infused in oil for topical applications. Further research is needed to fully understand the medicinal properties and potential uses of Radiusia sericea.",
+    "preparations": "Radiusia sericea is reported to be used in traditional medicine, however, information on herbal preparations is limited and may not be well-documented. Further research is needed to confirm its use in herbal remedies. The plant's potential medicinal properties and uses are not well-established in Western medicine. Any information on herbal preparations for Radiusia sericea should be verified through reputable sources. More studies are required to determine its efficacy and safety as a medicinal plant.",
+    "side_effects": "Radiusia sericea is a plant that is used in traditional medicine, but limited information is available regarding its side effects. However, it is known that some plants in the same genus may cause allergic reactions or interact with certain medications. As more research is needed to fully understand the potential side effects of Radiusia sericea, caution should be exercised when using it. The lack of scientific studies on this plant makes it difficult to determine its safety and efficacy. More studies are required to determine the potential risks associated with using Radiusia sericea.",
+    "intro": "I couldn't find any information on a plant called Radiusia sericea."
+}

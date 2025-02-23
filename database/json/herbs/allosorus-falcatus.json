@@ -1,1 +1,148 @@
-{"title": "Allosorus falcatus", "herb_slug": "allosorus-falcatus", "herb_name_scientific": "Allosorus falcatus", "url": "herbs/allosorus-falcatus", "lastmod": "2024-12-29", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 189, "total_score": 3780}], "family_slug": "pteridaceae", "family_name": "Pteridaceae", "herb_names_common": [{"name": "false brome grass (allosorus falcatus)", "mentions": 13, "confidence_score": 56, "total_score": 728}, {"name": "falcate spleenwort", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "falcate lip fern (allosorus falcatus)", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "falcate moss", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "false brome", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "falcate fern", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "falcate bittercress", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "falcate spleenwort (allosorus falcatus)", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "falcate riddell's cudweed", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "rough buckhorn", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "falcate moss (allosorus falcatus)", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "falcate-rachis moss", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "falcate wood-rush", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "forked fern", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "rough hawk's-beard", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "falcatus", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "false brome grass", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "falcate brome grass", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "falcate bristle fern", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "falcate rush (allosorus falcatus)", "mentions": 2, "confidence_score": 14, "total_score": 28}], "uses": "Allosorus falcatus is a type of fern, and like many plants in the fern family, it has been used in traditional medicine. However, there is limited research available on its specific medicinal uses. Allosorus falcatus has been used in some cultures to treat a range of ailments, including digestive issues and skin problems. More research is needed to fully understand the potential benefits and risks of using this plant for medicinal purposes. Some studies suggest that the plant may have anti-inflammatory properties, but more investigation is required to confirm this.", "taxonomy": "Allosorus falcatus is classified within the plant family Selaginellaceae, which is a group of spore-producing plants commonly known as spikemosses. This family is part of the larger division Lycopodiophyta, which consists of vascular plants that produce spores rather than seeds. Allosorus falcatus is a genus within the Selaginellaceae family, characterized by its distinctive leaf-like structures. The species is native to mountainous regions in Asia and is often found growing on rocky outcrops or in shaded areas. Allosorus falcatus is a relatively rare and understudied species, making it an interesting area of research for botanists and ecologists.", "benefits": "Allosorus falcatus, also known as the lesser wood fern, has been reported to have various health benefits. The plant is said to have anti-inflammatory and antioxidant properties, which may help to reduce inflammation and protect against oxidative stress. Additionally, the plant is believed to have antimicrobial properties, which may aid in the treatment of infections and wounds. The plant's extracts have been traditionally used in folk medicine to treat a range of ailments, including fever and digestive issues. Further research is needed to fully understand the potential health benefits of Allosorus falcatus.", "properties": "Allosorus falcatus is not commonly known for its therapeutic properties, but it may have some potential uses in traditional medicine. Research on this plant is limited, and more studies are needed to fully understand its effects. Allosorus falcatus contains various compounds that could potentially have antioxidant, anti-inflammatory, and antimicrobial properties. However, these properties have not been extensively scientifically proven and further research is necessary to confirm its efficacy. More information is required to accurately assess the therapeutic potential of Allosorus falcatus.", "constituents": "Allosorus falcatus contains active constituents such as sesquiterpene lactones and phenolic compounds, which contribute to its biological activities. These constituents are responsible for the plant's anti-inflammatory and antioxidant properties. The sesquiterpene lactones, in particular, have been shown to exhibit antibacterial and antifungal activities. Additionally, the phenolic compounds present in Allosorus falcatus have been found to possess antioxidant and free radical scavenging properties. The specific composition and proportions of these active constituents can vary depending on factors such as the plant's habitat and growth conditions.", "parts": "Allosorus falcatus is a type of fern, but unfortunately I do not have information on its medicinal parts.", "preparations": "Allosorus falcatus is a type of fern, but information about herbal preparations using it is limited. However, ferns in general have been used in traditional medicine for various purposes, including anti-inflammatory and antioxidant properties. Allosorus falcatus, being a relatively unknown species, is unlikely to have specific recorded uses in herbal preparations. Further research is required to understand its potential uses in traditional medicine. Traditional uses of ferns should be approached with caution due to potential toxicity and interactions with medications.", "side_effects": "Info not available yet.", "intro": "There is no information available on the plant Allosorus falcatus."}
+{
+    "title": "Allosorus falcatus",
+    "herb_slug": "allosorus-falcatus",
+    "herb_name_scientific": "Allosorus falcatus",
+    "url": "herbs/allosorus-falcatus",
+    "lastmod": "2024-12-29",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 189,
+            "total_score": 3780
+        }
+    ],
+    "family_slug": "pteridaceae",
+    "family_name": "Pteridaceae",
+    "herb_names_common": [
+        {
+            "name": "false brome grass (allosorus falcatus)",
+            "mentions": 13,
+            "confidence_score": 56,
+            "total_score": 728
+        },
+        {
+            "name": "falcate spleenwort",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "falcate lip fern (allosorus falcatus)",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "falcate moss",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "false brome",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "falcate fern",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "falcate bittercress",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "falcate spleenwort (allosorus falcatus)",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "falcate riddell's cudweed",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "rough buckhorn",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "falcate moss (allosorus falcatus)",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "falcate-rachis moss",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "falcate wood-rush",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "forked fern",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "rough hawk's-beard",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "falcatus",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "false brome grass",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "falcate brome grass",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "falcate bristle fern",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "falcate rush (allosorus falcatus)",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "uses": "Allosorus falcatus is a type of fern, and like many plants in the fern family, it has been used in traditional medicine. However, there is limited research available on its specific medicinal uses. Allosorus falcatus has been used in some cultures to treat a range of ailments, including digestive issues and skin problems. More research is needed to fully understand the potential benefits and risks of using this plant for medicinal purposes. Some studies suggest that the plant may have anti-inflammatory properties, but more investigation is required to confirm this.",
+    "taxonomy": "Allosorus falcatus is classified within the plant family Selaginellaceae, which is a group of spore-producing plants commonly known as spikemosses. This family is part of the larger division Lycopodiophyta, which consists of vascular plants that produce spores rather than seeds. Allosorus falcatus is a genus within the Selaginellaceae family, characterized by its distinctive leaf-like structures. The species is native to mountainous regions in Asia and is often found growing on rocky outcrops or in shaded areas. Allosorus falcatus is a relatively rare and understudied species, making it an interesting area of research for botanists and ecologists.",
+    "benefits": "Allosorus falcatus, also known as the lesser wood fern, has been reported to have various health benefits. The plant is said to have anti-inflammatory and antioxidant properties, which may help to reduce inflammation and protect against oxidative stress. Additionally, the plant is believed to have antimicrobial properties, which may aid in the treatment of infections and wounds. The plant's extracts have been traditionally used in folk medicine to treat a range of ailments, including fever and digestive issues. Further research is needed to fully understand the potential health benefits of Allosorus falcatus.",
+    "properties": "Allosorus falcatus is not commonly known for its therapeutic properties, but it may have some potential uses in traditional medicine. Research on this plant is limited, and more studies are needed to fully understand its effects. Allosorus falcatus contains various compounds that could potentially have antioxidant, anti-inflammatory, and antimicrobial properties. However, these properties have not been extensively scientifically proven and further research is necessary to confirm its efficacy. More information is required to accurately assess the therapeutic potential of Allosorus falcatus.",
+    "constituents": "Allosorus falcatus contains active constituents such as sesquiterpene lactones and phenolic compounds, which contribute to its biological activities. These constituents are responsible for the plant's anti-inflammatory and antioxidant properties. The sesquiterpene lactones, in particular, have been shown to exhibit antibacterial and antifungal activities. Additionally, the phenolic compounds present in Allosorus falcatus have been found to possess antioxidant and free radical scavenging properties. The specific composition and proportions of these active constituents can vary depending on factors such as the plant's habitat and growth conditions.",
+    "parts": "Allosorus falcatus is a type of fern, but unfortunately I do not have information on its medicinal parts.",
+    "preparations": "Allosorus falcatus is a type of fern, but information about herbal preparations using it is limited. However, ferns in general have been used in traditional medicine for various purposes, including anti-inflammatory and antioxidant properties. Allosorus falcatus, being a relatively unknown species, is unlikely to have specific recorded uses in herbal preparations. Further research is required to understand its potential uses in traditional medicine. Traditional uses of ferns should be approached with caution due to potential toxicity and interactions with medications.",
+    "side_effects": "Info not available yet.",
+    "intro": "There is no information available on the plant Allosorus falcatus."
+}

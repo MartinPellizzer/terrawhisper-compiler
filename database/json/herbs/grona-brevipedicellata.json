@@ -1,1 +1,154 @@
-{"title": "Grona brevipedicellata", "herb_slug": "grona-brevipedicellata", "herb_name_scientific": "Grona brevipedicellata", "family_slug": "fabaceae", "family_name": "Fabaceae", "url": "herbs/grona-brevipedicellata", "lastmod": "2025-1-31", "herb_names_common": [{"name": "grona brevipedicellata", "mentions": 39, "confidence_score": 144, "total_score": 5616}, {"name": "not found", "mentions": 11, "confidence_score": 110, "total_score": 1210}, {"name": "none found", "mentions": 8, "confidence_score": 80, "total_score": 640}, {"name": "unknown", "mentions": 6, "confidence_score": 52, "total_score": 312}, {"name": "wild ginger", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "no common name found", "mentions": 4, "confidence_score": 40, "total_score": 160}, {"name": "no common names found", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "liparis brevipedicellata", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "chinese lovage", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "grona", "mentions": 28, "confidence_score": 14, "total_score": 392}, {"name": "mountain mint", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "chinese wild lovage", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "no information", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "no information available", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "grona brevipedicellata (liparis brevipedicellata)", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "wild strawberry", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "japanese mountain strawberry", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "brevipedicellata", "mentions": 9, "confidence_score": 8, "total_score": 72}, {"name": "prickly lettuce", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "benguet", "mentions": 1, "confidence_score": 8, "total_score": 8}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 18, "confidence_score": 135, "total_score": 2430}, {"medicine_or_poison": "medicine", "mentions": 2, "confidence_score": 10, "total_score": 20}], "uses": "Grona brevipedicellata has been studied for its potential medicinal properties, although more research is required to fully understand its benefits. It has been reported to possess antioxidant and anti-inflammatory activities, which may contribute to its potential health benefits. The plant's extracts may also exhibit antimicrobial properties, helping to combat certain types of infections. However, the specific medicinal uses of Grona brevipedicellata require further investigation and validation. Further studies are needed to confirm the efficacy and safety of using the plant for medicinal purposes.", "taxonomy": "Grona brevipedicellata is classified as a species of flowering plant in the family Fabaceae. It belongs to the genus Grona, which is a part of the subfamily Faboideae. Grona brevipedicellata is a legume native to tropical Africa, specifically in the countries of the Democratic Republic of the Congo and Uganda. The classification of Grona brevipedicellata is further categorized into the tribe Phaseoleae, a group of legumes that includes beans and peas. This classification helps in understanding the evolutionary relationships and characteristics of the plant.", "benefits": "Grona brevipedicellata is a plant species, but limited information is available about its health benefits. However, some plants in the same family, such as those in the genus Grona, may have potential health benefits. More research is needed to fully understand the health benefits of Grona brevipedicellata. Some plant compounds have been shown to have antioxidant, anti-inflammatory, and antimicrobial properties, which could potentially contribute to its health benefits. The potential health benefits of Grona brevipedicellata may vary depending on the specific compounds present and the methods of preparation and use.", "properties": "Grona brevipedicellata is a plant species that has been studied for its potential therapeutic properties, although further research is needed to confirm its efficacy. Some reports suggest that extracts from this plant may exhibit antioxidant, anti-inflammatory, and antimicrobial activities. These properties could be beneficial in treating various health conditions, such as oxidative stress, inflammation, and infections. However, more studies are necessary to fully understand the therapeutic potential of Grona brevipedicellata. Further research is also needed to determine the safety and optimal dosage of any potential therapeutic compounds derived from this plant.", "constituents": "I don't have specific information on the active constituents of Grona brevipedicellata.", "parts": "I couldn't find any information about the plant \"Grona brevipedicellata.\"", "preparations": "Unfortunately, I was unable to find any information about the plant Grona brevipedicellata, so I don't know anything about its herbal preparations.", "side_effects": "Info not available yet.", "intro": "There is no information available about the plant \"Grona brevipedicellata\"."}
+{
+    "title": "Grona brevipedicellata",
+    "herb_slug": "grona-brevipedicellata",
+    "herb_name_scientific": "Grona brevipedicellata",
+    "family_slug": "fabaceae",
+    "family_name": "Fabaceae",
+    "url": "herbs/grona-brevipedicellata",
+    "lastmod": "2025-1-31",
+    "herb_names_common": [
+        {
+            "name": "grona brevipedicellata",
+            "mentions": 39,
+            "confidence_score": 144,
+            "total_score": 5616
+        },
+        {
+            "name": "not found",
+            "mentions": 11,
+            "confidence_score": 110,
+            "total_score": 1210
+        },
+        {
+            "name": "none found",
+            "mentions": 8,
+            "confidence_score": 80,
+            "total_score": 640
+        },
+        {
+            "name": "unknown",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "name": "wild ginger",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "no common name found",
+            "mentions": 4,
+            "confidence_score": 40,
+            "total_score": 160
+        },
+        {
+            "name": "no common names found",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "liparis brevipedicellata",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "chinese lovage",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "grona",
+            "mentions": 28,
+            "confidence_score": 14,
+            "total_score": 392
+        },
+        {
+            "name": "mountain mint",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "chinese wild lovage",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "no information",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "no information available",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "grona brevipedicellata (liparis brevipedicellata)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "wild strawberry",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "japanese mountain strawberry",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "brevipedicellata",
+            "mentions": 9,
+            "confidence_score": 8,
+            "total_score": 72
+        },
+        {
+            "name": "prickly lettuce",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "benguet",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 18,
+            "confidence_score": 135,
+            "total_score": 2430
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "uses": "Grona brevipedicellata has been studied for its potential medicinal properties, although more research is required to fully understand its benefits. It has been reported to possess antioxidant and anti-inflammatory activities, which may contribute to its potential health benefits. The plant's extracts may also exhibit antimicrobial properties, helping to combat certain types of infections. However, the specific medicinal uses of Grona brevipedicellata require further investigation and validation. Further studies are needed to confirm the efficacy and safety of using the plant for medicinal purposes.",
+    "taxonomy": "Grona brevipedicellata is classified as a species of flowering plant in the family Fabaceae. It belongs to the genus Grona, which is a part of the subfamily Faboideae. Grona brevipedicellata is a legume native to tropical Africa, specifically in the countries of the Democratic Republic of the Congo and Uganda. The classification of Grona brevipedicellata is further categorized into the tribe Phaseoleae, a group of legumes that includes beans and peas. This classification helps in understanding the evolutionary relationships and characteristics of the plant.",
+    "benefits": "Grona brevipedicellata is a plant species, but limited information is available about its health benefits. However, some plants in the same family, such as those in the genus Grona, may have potential health benefits. More research is needed to fully understand the health benefits of Grona brevipedicellata. Some plant compounds have been shown to have antioxidant, anti-inflammatory, and antimicrobial properties, which could potentially contribute to its health benefits. The potential health benefits of Grona brevipedicellata may vary depending on the specific compounds present and the methods of preparation and use.",
+    "properties": "Grona brevipedicellata is a plant species that has been studied for its potential therapeutic properties, although further research is needed to confirm its efficacy. Some reports suggest that extracts from this plant may exhibit antioxidant, anti-inflammatory, and antimicrobial activities. These properties could be beneficial in treating various health conditions, such as oxidative stress, inflammation, and infections. However, more studies are necessary to fully understand the therapeutic potential of Grona brevipedicellata. Further research is also needed to determine the safety and optimal dosage of any potential therapeutic compounds derived from this plant.",
+    "constituents": "I don't have specific information on the active constituents of Grona brevipedicellata.",
+    "parts": "I couldn't find any information about the plant \"Grona brevipedicellata.\"",
+    "preparations": "Unfortunately, I was unable to find any information about the plant Grona brevipedicellata, so I don't know anything about its herbal preparations.",
+    "side_effects": "Info not available yet.",
+    "intro": "There is no information available about the plant \"Grona brevipedicellata\"."
+}

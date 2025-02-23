@@ -1,1 +1,154 @@
-{"title": "Steffensia angustifolia", "herb_slug": "steffensia-angustifolia", "herb_name_scientific": "Steffensia angustifolia", "url": "herbs/steffensia-angustifolia", "lastmod": "2024-12-28", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 18, "confidence_score": 148, "total_score": 2664}, {"medicine_or_poison": "medicine", "mentions": 2, "confidence_score": 18, "total_score": 36}], "family_slug": "piperaceae", "family_name": "Piperaceae", "herb_names_common": [{"name": "steffensia", "mentions": 31, "confidence_score": 169, "total_score": 5239}, {"name": "steffensia angustifolia", "mentions": 33, "confidence_score": 168, "total_score": 5544}, {"name": "steffensia angustifolia chilean steffensia", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "steffen's bush", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "steffen's flower", "mentions": 7, "confidence_score": 25, "total_score": 175}, {"name": "bertolonia", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "false desert honeysuckle", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "stevensia", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "steffens' bush", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "steffens bush", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "steinhardtia angustifolia", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "stevensia angustifolia", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "angustifolia steffensia", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "desert honeysuckle vine", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "chilean steffensia", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "steffen's shrub", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "steffensia plant", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "steffen's thistle", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "steffen's plant", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "stevesia", "mentions": 1, "confidence_score": 9, "total_score": 9}], "uses": "Steffensia angustifolia is a plant species native to the tropical regions of Central and South America, and it has been studied for its potential medicinal properties. The plant's roots, leaves, and flowers are traditionally used in folk medicine to treat various health issues. Steffensia angustifolia has been found to possess anti-inflammatory, antioxidant, and antimicrobial properties, which may contribute to its medicinal uses. However, more research is needed to fully understand and confirm the plant's benefits and potential applications. Further studies are necessary to determine the safety and efficacy of using Steffensia angustifolia for medicinal purposes.", "taxonomy": "Steffensia angustifolia is classified within the plant family Rubiaceae, commonly known as the coffee or madder family. This family consists of flowering plants, and Steffensia angustifolia is one of its species. The plant is native to South America and is found in the tropical regions. Steffensia angustifolia is a shrub that belongs to the order Gentianales. The classification of Steffensia angustifolia also includes its genus, which is part of the broader angiosperm category.", "benefits": "Steffensia angustifolia is known for its potential health benefits, which are mainly attributed to its antimicrobial properties. The plant contains compounds that may help combat infections and inflammation, making it a possible natural remedy for various health conditions. Research suggests that Steffensia angustifolia may also have antioxidant properties, which can help protect the body from oxidative stress and damage. Furthermore, the plant has been traditionally used in folk medicine to treat various ailments, including fever and digestive issues. However, more scientific studies are needed to fully understand the extent of its health benefits.", "properties": "Steffensia angustifolia has been reported to possess various therapeutic properties. It is said to exhibit antioxidant, anti-inflammatory, and antimicrobial activities. These properties may contribute to the plant's potential in treating various health conditions, including infections, wounds, and inflammatory diseases. However, more research is needed to fully understand and confirm its therapeutic effects. Further studies are required to explore the plant's full potential in traditional medicine.", "constituents": "Steffensia angustifolia contains flavonoids and phenolic compounds, which are known for their antioxidant and anti-inflammatory properties. The flavonoids present in Steffensia angustifolia may also possess antimicrobial and antiviral activities. Additionally, the plant contains triterpenoids, which have been reported to exhibit cytotoxic and anti-proliferative effects. The exact composition and concentration of these active constituents can vary depending on factors such as the plant's habitat and stage of growth. Further research is needed to fully understand the potential therapeutic applications of Steffensia angustifolia.", "parts": "Steffensia angustifolia's medicinal properties are derived from its roots, which contain flavonoids and other bioactive compounds. These compounds have been found to possess antioxidant, anti-inflammatory, and antimicrobial activities. The roots are typically harvested when the plant is mature and then dried for later use. The dried roots can be processed into various forms, including extracts and infusions, which are used in traditional medicine. However, further research is needed to fully understand the plant's medicinal potential and potential applications.", "preparations": "Steffensia angustifolia is a plant species native to the tropical regions of Central and South America. However, there is limited information available on the herbal preparations of Steffensia angustifolia, and more research is needed to fully understand its uses and potential health benefits. Traditional medicine in some regions may utilize the plant's leaves or other parts for medicinal purposes, but these practices are not well-documented. The potential of Steffensia angustifolia for herbal preparations is largely unexplored and may be worth further investigation. Further studies are necessary to determine the safety and effectiveness of any herbal preparations made from this plant.", "side_effects": "Info not available yet.", "intro": "There is no information available on Steffensia angustifolia."}
+{
+    "title": "Steffensia angustifolia",
+    "herb_slug": "steffensia-angustifolia",
+    "herb_name_scientific": "Steffensia angustifolia",
+    "url": "herbs/steffensia-angustifolia",
+    "lastmod": "2024-12-28",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 18,
+            "confidence_score": 148,
+            "total_score": 2664
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "family_slug": "piperaceae",
+    "family_name": "Piperaceae",
+    "herb_names_common": [
+        {
+            "name": "steffensia",
+            "mentions": 31,
+            "confidence_score": 169,
+            "total_score": 5239
+        },
+        {
+            "name": "steffensia angustifolia",
+            "mentions": 33,
+            "confidence_score": 168,
+            "total_score": 5544
+        },
+        {
+            "name": "steffensia angustifolia chilean steffensia",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "steffen's bush",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "steffen's flower",
+            "mentions": 7,
+            "confidence_score": 25,
+            "total_score": 175
+        },
+        {
+            "name": "bertolonia",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "false desert honeysuckle",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "stevensia",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "steffens' bush",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "steffens bush",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "steinhardtia angustifolia",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "stevensia angustifolia",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "angustifolia steffensia",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "desert honeysuckle vine",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "chilean steffensia",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "steffen's shrub",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "steffensia plant",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "steffen's thistle",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "steffen's plant",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "stevesia",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "uses": "Steffensia angustifolia is a plant species native to the tropical regions of Central and South America, and it has been studied for its potential medicinal properties. The plant's roots, leaves, and flowers are traditionally used in folk medicine to treat various health issues. Steffensia angustifolia has been found to possess anti-inflammatory, antioxidant, and antimicrobial properties, which may contribute to its medicinal uses. However, more research is needed to fully understand and confirm the plant's benefits and potential applications. Further studies are necessary to determine the safety and efficacy of using Steffensia angustifolia for medicinal purposes.",
+    "taxonomy": "Steffensia angustifolia is classified within the plant family Rubiaceae, commonly known as the coffee or madder family. This family consists of flowering plants, and Steffensia angustifolia is one of its species. The plant is native to South America and is found in the tropical regions. Steffensia angustifolia is a shrub that belongs to the order Gentianales. The classification of Steffensia angustifolia also includes its genus, which is part of the broader angiosperm category.",
+    "benefits": "Steffensia angustifolia is known for its potential health benefits, which are mainly attributed to its antimicrobial properties. The plant contains compounds that may help combat infections and inflammation, making it a possible natural remedy for various health conditions. Research suggests that Steffensia angustifolia may also have antioxidant properties, which can help protect the body from oxidative stress and damage. Furthermore, the plant has been traditionally used in folk medicine to treat various ailments, including fever and digestive issues. However, more scientific studies are needed to fully understand the extent of its health benefits.",
+    "properties": "Steffensia angustifolia has been reported to possess various therapeutic properties. It is said to exhibit antioxidant, anti-inflammatory, and antimicrobial activities. These properties may contribute to the plant's potential in treating various health conditions, including infections, wounds, and inflammatory diseases. However, more research is needed to fully understand and confirm its therapeutic effects. Further studies are required to explore the plant's full potential in traditional medicine.",
+    "constituents": "Steffensia angustifolia contains flavonoids and phenolic compounds, which are known for their antioxidant and anti-inflammatory properties. The flavonoids present in Steffensia angustifolia may also possess antimicrobial and antiviral activities. Additionally, the plant contains triterpenoids, which have been reported to exhibit cytotoxic and anti-proliferative effects. The exact composition and concentration of these active constituents can vary depending on factors such as the plant's habitat and stage of growth. Further research is needed to fully understand the potential therapeutic applications of Steffensia angustifolia.",
+    "parts": "Steffensia angustifolia's medicinal properties are derived from its roots, which contain flavonoids and other bioactive compounds. These compounds have been found to possess antioxidant, anti-inflammatory, and antimicrobial activities. The roots are typically harvested when the plant is mature and then dried for later use. The dried roots can be processed into various forms, including extracts and infusions, which are used in traditional medicine. However, further research is needed to fully understand the plant's medicinal potential and potential applications.",
+    "preparations": "Steffensia angustifolia is a plant species native to the tropical regions of Central and South America. However, there is limited information available on the herbal preparations of Steffensia angustifolia, and more research is needed to fully understand its uses and potential health benefits. Traditional medicine in some regions may utilize the plant's leaves or other parts for medicinal purposes, but these practices are not well-documented. The potential of Steffensia angustifolia for herbal preparations is largely unexplored and may be worth further investigation. Further studies are necessary to determine the safety and effectiveness of any herbal preparations made from this plant.",
+    "side_effects": "Info not available yet.",
+    "intro": "There is no information available on Steffensia angustifolia."
+}

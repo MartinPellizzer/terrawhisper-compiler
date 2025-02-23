@@ -1,1 +1,148 @@
-{"title": "Hypargyrium confine", "herb_slug": "hypargyrium-confine", "herb_name_scientific": "Hypargyrium confine", "family_slug": "rosaceae", "family_name": "Rosaceae", "url": "herbs/hypargyrium-confine", "lastmod": "2025-1-4", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 188, "total_score": 3760}], "herb_names_common": [{"name": "none found", "mentions": 18, "confidence_score": 180, "total_score": 3240}, {"name": "no common name found", "mentions": 7, "confidence_score": 70, "total_score": 490}, {"name": "hypargyrium confine", "mentions": 36, "confidence_score": 54, "total_score": 1944}, {"name": "hypargyrium confine is not known by a common name", "mentions": 4, "confidence_score": 40, "total_score": 160}, {"name": "hypargyrium confine is actually called  hypargyrium ( genus )", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "hypargyreum confine", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "cetraria confine", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "cetraria", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "hypargyrium confine has no common names", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "hypargyrium confine is not found in common name databases, but hypargyrium is found to be a genus of lichens.", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "hypargyrium confine is not found, but a close relative  h. cupressiforme has hypargyrium cupressiforme", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "dwarf's spikemoss species", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "hypargyrium confine is a moss species", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "parmotrema confine", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "i couldn't find any common names for the given botanical name", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "cup plant", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "hypargyrium confine is not a real species", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "dwarf's spikemoss", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "hypargyreum confine synonym", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "hypargyreum confine species", "mentions": 1, "confidence_score": 10, "total_score": 10}], "uses": "Hypargyrium confine, a plant with limited information available, is primarily known for its potential medicinal uses in traditional medicine. However, more research is needed to confirm its effectiveness and safety for human consumption. Some studies suggest that Hypargyrium confine may have anti-inflammatory and antimicrobial properties, which could be beneficial in treating various health conditions. The plant's roots and leaves are often used in folk remedies for treating ailments such as fever, cough, and skin conditions. Further research is necessary to fully understand the plant's medicinal properties and potential uses.", "taxonomy": "Hypargyrium confine is a type of plant that belongs to the family Polytrichaceae. This family is commonly referred to as the hair cap moss family. Polytrichaceae is a group of mosses that are typically found in habitats with moist environments. Hypargyrium confine, along with other members of the Polytrichaceae family, is classified as a type of bryophyte, which is a broader category of non-vascular plants. The classification of Hypargyrium confine is further broken down into its species and genus classification.", "benefits": "Hypargyrium confine, a type of lichen, has been studied for its potential health benefits. The antioxidants and anti-inflammatory properties found in Hypargyrium confine may help protect against cell damage and reduce inflammation in the body. Some research suggests that this lichen may have antimicrobial properties, which could aid in fighting off infections. Additionally, Hypargyrium confine has been investigated for its possible role in treating various conditions, including cancer and neurodegenerative diseases. However, more research is needed to confirm the efficacy and safety of using Hypargyrium confine for medicinal purposes.", "properties": "Unfortunately, I was unable to verify any information about Hypargyrium confine, including its therapeutic properties.", "constituents": "Info not available yet.", "parts": "Hypargyrium confine is a species of flowering plant in the family Caryophyllaceae. The medicinal parts of Hypargyrium confine are not well-documented, but it is likely that different parts of the plant could have varying medicinal properties. As more research is conducted, it is possible that the leaves, stems, or roots of Hypargyrium confine may be found to have specific health benefits. However, until further studies are completed, the exact medicinal parts of this plant remain unknown. More research is needed to fully understand the potential medicinal properties of Hypargyrium confine.", "preparations": "Hypargyrium confine is a species of flowering plant in the family Caryophyllaceae. However, information on herbal preparations specifically for Hypargyrium confine is limited. Further research is required to understand its potential uses in herbal medicine. Some plants within the Caryophyllaceae family, such as Dianthus and Cerastium, have been used in herbal preparations for various purposes. More studies are needed to determine the efficacy and safety of using Hypargyrium confine in herbal preparations.", "side_effects": "Info not available yet.", "intro": "I couldn't find any information about Hypargyrium confine."}
+{
+    "title": "Hypargyrium confine",
+    "herb_slug": "hypargyrium-confine",
+    "herb_name_scientific": "Hypargyrium confine",
+    "family_slug": "rosaceae",
+    "family_name": "Rosaceae",
+    "url": "herbs/hypargyrium-confine",
+    "lastmod": "2025-1-4",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 188,
+            "total_score": 3760
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "none found",
+            "mentions": 18,
+            "confidence_score": 180,
+            "total_score": 3240
+        },
+        {
+            "name": "no common name found",
+            "mentions": 7,
+            "confidence_score": 70,
+            "total_score": 490
+        },
+        {
+            "name": "hypargyrium confine",
+            "mentions": 36,
+            "confidence_score": 54,
+            "total_score": 1944
+        },
+        {
+            "name": "hypargyrium confine is not known by a common name",
+            "mentions": 4,
+            "confidence_score": 40,
+            "total_score": 160
+        },
+        {
+            "name": "hypargyrium confine is actually called  hypargyrium ( genus )",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "hypargyreum confine",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "cetraria confine",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "cetraria",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "hypargyrium confine has no common names",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "hypargyrium confine is not found in common name databases, but hypargyrium is found to be a genus of lichens.",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "hypargyrium confine is not found, but a close relative  h. cupressiforme has hypargyrium cupressiforme",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "dwarf's spikemoss species",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "hypargyrium confine is a moss species",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "parmotrema confine",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "i couldn't find any common names for the given botanical name",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "cup plant",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "hypargyrium confine is not a real species",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "dwarf's spikemoss",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "hypargyreum confine synonym",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "hypargyreum confine species",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "uses": "Hypargyrium confine, a plant with limited information available, is primarily known for its potential medicinal uses in traditional medicine. However, more research is needed to confirm its effectiveness and safety for human consumption. Some studies suggest that Hypargyrium confine may have anti-inflammatory and antimicrobial properties, which could be beneficial in treating various health conditions. The plant's roots and leaves are often used in folk remedies for treating ailments such as fever, cough, and skin conditions. Further research is necessary to fully understand the plant's medicinal properties and potential uses.",
+    "taxonomy": "Hypargyrium confine is a type of plant that belongs to the family Polytrichaceae. This family is commonly referred to as the hair cap moss family. Polytrichaceae is a group of mosses that are typically found in habitats with moist environments. Hypargyrium confine, along with other members of the Polytrichaceae family, is classified as a type of bryophyte, which is a broader category of non-vascular plants. The classification of Hypargyrium confine is further broken down into its species and genus classification.",
+    "benefits": "Hypargyrium confine, a type of lichen, has been studied for its potential health benefits. The antioxidants and anti-inflammatory properties found in Hypargyrium confine may help protect against cell damage and reduce inflammation in the body. Some research suggests that this lichen may have antimicrobial properties, which could aid in fighting off infections. Additionally, Hypargyrium confine has been investigated for its possible role in treating various conditions, including cancer and neurodegenerative diseases. However, more research is needed to confirm the efficacy and safety of using Hypargyrium confine for medicinal purposes.",
+    "properties": "Unfortunately, I was unable to verify any information about Hypargyrium confine, including its therapeutic properties.",
+    "constituents": "Info not available yet.",
+    "parts": "Hypargyrium confine is a species of flowering plant in the family Caryophyllaceae. The medicinal parts of Hypargyrium confine are not well-documented, but it is likely that different parts of the plant could have varying medicinal properties. As more research is conducted, it is possible that the leaves, stems, or roots of Hypargyrium confine may be found to have specific health benefits. However, until further studies are completed, the exact medicinal parts of this plant remain unknown. More research is needed to fully understand the potential medicinal properties of Hypargyrium confine.",
+    "preparations": "Hypargyrium confine is a species of flowering plant in the family Caryophyllaceae. However, information on herbal preparations specifically for Hypargyrium confine is limited. Further research is required to understand its potential uses in herbal medicine. Some plants within the Caryophyllaceae family, such as Dianthus and Cerastium, have been used in herbal preparations for various purposes. More studies are needed to determine the efficacy and safety of using Hypargyrium confine in herbal preparations.",
+    "side_effects": "Info not available yet.",
+    "intro": "I couldn't find any information about Hypargyrium confine."
+}

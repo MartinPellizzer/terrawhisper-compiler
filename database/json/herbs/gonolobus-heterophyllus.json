@@ -1,1 +1,755 @@
-{"title": "Gonolobus heterophyllus", "herb_slug": "gonolobus-heterophyllus", "herb_name_scientific": "Gonolobus heterophyllus", "family_slug": "apocynaceae", "family_name": "Apocynaceae", "url": "herbs/gonolobus-heterophyllus", "lastmod": "2025-1-16", "herb_names_common": [{"name": "yellow trumpet vine", "mentions": 20, "confidence_score": 116, "total_score": 2320}, {"name": "gonolobus", "mentions": 16, "confidence_score": 85, "total_score": 1360}, {"name": "gonolobus heterophyllus", "mentions": 11, "confidence_score": 36, "total_score": 396}, {"name": "yellow trumpet creeper", "mentions": 7, "confidence_score": 34, "total_score": 238}, {"name": "yellow trumpet flower", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "heterophyllus", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "mexican greenbrier", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "milk flower vine", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "wild cotton", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "wild trumpet vine", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "snake flower", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "milkflower", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "wild trumpet", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "dogbane vine", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "gonolobus vine", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "witch's thumb", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "wild cucumber vine", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "false globe flower", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "false globeflower", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "devil's shoestring", "mentions": 1, "confidence_score": 9, "total_score": 9}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 16, "confidence_score": 125, "total_score": 2000}, {"medicine_or_poison": "poison", "mentions": 4, "confidence_score": 35, "total_score": 140}], "what_description": "Gonolobus heterophyllus is a species of plant in the family Apocynaceae, native to Mexico and Central America. It is a climbing or twining vine with stems 2-5 meters long, covered with fine, white hairs. The leaves are opposite, decussate, and simple, with blade lengths of 2-10 cm and petiole lengths of 1-3 cm. The flowers are white, funnel-shaped, and borne in axillary clusters, with corolla tube lengths of 2-4 cm. The fruit is a pair of follicles, 4-6 cm long, containing numerous seeds.", "category_action": "antimicrobial", "ailments": [{"name": "diabetes", "mentions": 16, "confidence_score": 124, "total_score": 1984}, {"name": "inflammation", "mentions": 13, "confidence_score": 105, "total_score": 1365}, {"name": "hypertension", "mentions": 14, "confidence_score": 100, "total_score": 1400}, {"name": "fungal infections", "mentions": 10, "confidence_score": 70, "total_score": 700}, {"name": "asthma", "mentions": 11, "confidence_score": 69, "total_score": 759}, {"name": "arthritis", "mentions": 8, "confidence_score": 55, "total_score": 440}, {"name": "cancer", "mentions": 8, "confidence_score": 45, "total_score": 360}, {"name": "fever", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "diarrhea", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "digestive issues", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "skin infections", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "anxiety", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "eczema", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "allergies", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "gout", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "urinary tract infections", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "insect bites", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "respiratory issues", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "wound healing", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "cholesterol", "mentions": 2, "confidence_score": 17, "total_score": 34}], "ailments_description": "The most common ailments you can heal with Gonolobus heterophyllus are diabetes, as it contains gymnemic acid that inhibits glucose absorption in the gut, and arthritis, due to its anti-inflammatory properties that reduce joint swelling and pain. Additionally, this plant has been effective in treating hypertension through its vasodilatory effects, and fungal infections, thanks to its antifungal compounds that inhibit fungal growth. It also exhibits potential in alleviating respiratory issues, such as asthma, and has been shown to have antioxidant properties that combat oxidative stress. Furthermore, Gonolobus heterophyllus has been traditionally used to treat skin infections and wound healing, and has been found to have immunomodulatory effects that boost the immune system's response to infections like urinary tract infections. The plant's anti-inflammatory and antiallergic properties also make it effective in treating eczema, allergies, and gout, as well as promoting digestive health and reducing cholesterol levels.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 150, "total_score": 3000}, {"name": "antioxidant", "mentions": 20, "confidence_score": 140, "total_score": 2800}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 121, "total_score": 2420}, {"name": "antiviral", "mentions": 16, "confidence_score": 79, "total_score": 1264}, {"name": "analgesic", "mentions": 19, "confidence_score": 77, "total_score": 1463}, {"name": "antifungal", "mentions": 12, "confidence_score": 77, "total_score": 924}, {"name": "antibacterial", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "antiseptic", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "antihemorrhagic", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "hemostatic", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "antiparasitic", "mentions": 7, "confidence_score": 30, "total_score": 210}, {"name": "anticancer", "mentions": 7, "confidence_score": 29, "total_score": 203}, {"name": "hepatoprotective", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "antispasmodic", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "cardioprotective", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "diuretic", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "hypotensive", "mentions": 6, "confidence_score": 23, "total_score": 138}, {"name": "cytoprotective", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "immunomodulatory", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "cytotoxic", "mentions": 3, "confidence_score": 13, "total_score": 39}], "properties_description": "The main therapeutic properties of Gonolobus heterophyllus are its antimicrobial activity, which has been attributed to the presence of volatile oils and flavonoids, allowing it to effectively inhibit the growth of various microorganisms. The antioxidant properties of this plant are mediated by saponins and phenolic compounds, which play a crucial role in protecting the body from oxidative stress and cell damage. Additionally, the anti-inflammatory effects of Gonolobus heterophyllus have been linked to the action of flavonoids and terpenoids, which help to reduce inflammation and alleviate pain. Furthermore, the antiviral properties of this plant have been associated with the presence of alkaloids and glycosides, which have been shown to inhibit the replication of certain viruses. The analgesic properties of Gonolobus heterophyllus are thought to be mediated by the action of phenolic compounds and saponins, which help to reduce pain and discomfort.", "constituents": [{"name": "saponins", "mentions": 12, "confidence_score": 66, "total_score": 792}, {"name": "flavonoids", "mentions": 13, "confidence_score": 65, "total_score": 845}, {"name": "gonolobine", "mentions": 7, "confidence_score": 63, "total_score": 441}, {"name": "triterpenoids", "mentions": 12, "confidence_score": 58, "total_score": 696}, {"name": "phenolic acids", "mentions": 12, "confidence_score": 50, "total_score": 600}, {"name": "gonolobin", "mentions": 6, "confidence_score": 48, "total_score": 288}, {"name": "alkaloids", "mentions": 11, "confidence_score": 48, "total_score": 528}, {"name": "cardiac glycosides", "mentions": 13, "confidence_score": 48, "total_score": 624}, {"name": "quercetin", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "kaempferol", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "oleanolic acid", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "furocoumarins", "mentions": 9, "confidence_score": 20, "total_score": 180}, {"name": "sterols", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "cucurbitacins", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "quassinoids", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "stigmasterol", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "tannins", "mentions": 5, "confidence_score": 14, "total_score": 70}, {"name": "coumarin", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "gonolobus heterophyllus glycosides", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "gonolobusine", "mentions": 1, "confidence_score": 9, "total_score": 9}], "constituents_description": "The most important healing constituents of Gonolobus heterophyllus are saponins, flavonoids, gonolobine, triterpenoids, and phenolic acids. These constituents have been identified as responsible for the medicinal properties of the plant, with saponins exhibiting anti-inflammatory and antimicrobial activities, flavonoids displaying antioxidant and anti-inflammatory effects, gonolobine showing antitumor activity, triterpenoids possessing antimicrobial and anti-inflammatory properties, and phenolic acids exhibiting antioxidant and anti-inflammatory effects. The presence of these bioactive compounds has been confirmed through various phytochemical analyses, including HPLC and GC-MS studies, which have identified the specific compounds and their concentrations in the plant extracts. These studies have provided a scientific basis for the traditional use of Gonolobus heterophyllus in folk medicine, particularly in the treatment of various inflammatory and infectious diseases. The combination of these constituents in Gonolobus heterophyllus makes it a valuable resource for the development of new medicinal products.", "preparations": [{"name": "tincture", "mentions": 19, "confidence_score": 151, "total_score": 2869}, {"name": "infusion", "mentions": 19, "confidence_score": 149, "total_score": 2831}, {"name": "decoction", "mentions": 19, "confidence_score": 110, "total_score": 2090}, {"name": "tea", "mentions": 14, "confidence_score": 98, "total_score": 1372}, {"name": "salve", "mentions": 19, "confidence_score": 92, "total_score": 1748}, {"name": "ointment", "mentions": 9, "confidence_score": 36, "total_score": 324}, {"name": "poultice", "mentions": 5, "confidence_score": 17, "total_score": 85}, {"name": "infused oil", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "gonolobus tincture", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "gonolobus tea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "gonolobus infusion", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "resin", "mentions": 2, "confidence_score": 4, "total_score": 8}, {"name": "gonolobus oil", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "gonolobus glycerite", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "extract", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "suppository", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "essential oil", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "infusate", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Gonolobus heterophyllus are derived from its roots, leaves, and flowers, which are rich in alkaloids, glycosides, and other bioactive compounds. A tincture of Gonolobus heterophyllus is prepared by percolating the plant material in a solvent such as ethanol or glycerin, which is then used to treat various health conditions, particularly those related to the nervous system. An infusion of the plant is prepared by steeping the leaves in hot water, which is then used to treat digestive problems and fever, while a decoction is prepared by boiling the roots in water to release its bioactive compounds, which are used to treat rheumatism and other inflammatory conditions. Gonolobus heterophyllus tea is prepared by infusing the dried leaves in hot water, which is then used to treat coughs, colds, and other respiratory problems, while a salve is prepared by infusing the plant material in a carrier oil, such as coconut or olive oil, which is then used to treat skin conditions, including wounds and burns. These preparations are used in traditional medicine due to the plant's analgesic, anti-inflammatory, and antimicrobial properties.", "side_effects": [{"name": "experience nausea", "mentions": 6, "confidence_score": 56, "total_score": 336}, {"name": "induce vomiting", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "cause diarrhea", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "experiencing vomiting", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "experience vomiting", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "develop allergic reaction", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "develop skin irritation", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "suffer diarrhea", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "get headache", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "experiencing abdominal pain", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "showing allergic reaction", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "suffering abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause hepatotoxicity", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develop allergies", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "suffer from diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "produce diarrhea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "aggravate kidney issues", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experiencing headaches", "mentions": 2, "confidence_score": 15, "total_score": 30}], "side_effects_description": "The possible side effects of using Gonolobus heterophyllus improperly include experiencing nausea, vomiting, inducing vomiting, causing diarrhea, and other gastrointestinal disturbances. These side effects are likely due to the plant's alkaloids and glycosides, which can be toxic in large quantities. Ingesting the plant can cause irritation to the digestive tract, leading to nausea, vomiting, and diarrhea as the body attempts to eliminate the toxins. The improper use of Gonolobus heterophyllus may also lead to dehydration and electrolyte imbalances due to excessive vomiting and diarrhea. It is essential to handle and use the plant with caution and under the guidance of a medical professional or experienced practitioner.", "uses": "Gonolobus heterophyllus, a plant known for its traditional medicinal uses, has been employed in folk medicine to treat various ailments. The plant's extracts have been reported to possess anti-inflammatory, antimicrobial, and antioxidant properties. In traditional medicine, Gonolobus heterophyllus has been used to treat wounds, fever, and respiratory issues. Additionally, its extracts have been studied for their potential anti-cancer and anti-diabetic properties. However, further research is necessary to confirm the efficacy and safety of using Gonolobus heterophyllus for medicinal purposes.", "taxonomy": "Gonolobus heterophyllus is classified within the family Apocynaceae, which is a family of flowering plants commonly known as the dogbane or oleander family. This family is further divided into several subfamilies, with Gonolobus heterophyllus belonging to the subfamily Asclepiadoideae. The subfamily Asclepiadoideae is one of the largest and most diverse groups within the Apocynaceae family. Gonolobus heterophyllus is a member of the genus Gonolobus, which is a small group of plants that are native to the Americas. The exact classification of Gonolobus heterophyllus can be further broken down into species level, but its general classification within the Apocynaceae family is well established.", "benefits": "Gonolobus heterophyllus is a plant species that has been used in traditional medicine, particularly in Mexico. Traditionally, the plant is used to treat various health issues, including fever, rheumatism, and digestive problems. The plant's leaves and roots are believed to possess antiseptic and anti-inflammatory properties, which contribute to its medicinal value. The extracts from Gonolobus heterophyllus have also been studied for their potential antioxidant and antimicrobial activities. However, further research is needed to fully understand the plant's health benefits and its potential applications.", "parts": "Gonolobus heterophyllus is a plant species, and while information on it is limited, research suggests that certain parts of the plant may have medicinal properties. However, specific details about the medicinal parts of Gonolobus heterophyllus are not well-documented. It is essential to note that any potential medicinal use of this plant should be researched further and utilized under the guidance of a healthcare professional. The plant's parts that may have medicinal properties are not definitively established, and more studies are required to confirm its uses. Further research is needed to understand the potential benefits and risks associated with using Gonolobus heterophyllus as a medicinal plant.", "intro": "Gonolobus heterophyllus, also known as Gonolobus, is a type of climbing vine native to Mexico and Central America, belonging to the Apocynaceae family. Traditionally, Gonolobus heterophyllus has been used in herbal medicine to treat various health conditions, including fever, inflammation, and infections, due to its antimicrobial and anti-inflammatory properties. The plant contains bioactive constituents such as gonolobin, gonolobine, and flavonoids, which contribute to its medicinal properties. Gonolobus heterophyllus is often used to make herbal preparations such as infusions, decoctions, and tinctures, which are used to treat respiratory issues, wounds, and skin conditions."}
+{
+    "title": "Gonolobus heterophyllus",
+    "herb_slug": "gonolobus-heterophyllus",
+    "herb_name_scientific": "Gonolobus heterophyllus",
+    "family_slug": "apocynaceae",
+    "family_name": "Apocynaceae",
+    "url": "herbs/gonolobus-heterophyllus",
+    "lastmod": "2025-1-16",
+    "herb_names_common": [
+        {
+            "name": "yellow trumpet vine",
+            "mentions": 20,
+            "confidence_score": 116,
+            "total_score": 2320
+        },
+        {
+            "name": "gonolobus",
+            "mentions": 16,
+            "confidence_score": 85,
+            "total_score": 1360
+        },
+        {
+            "name": "gonolobus heterophyllus",
+            "mentions": 11,
+            "confidence_score": 36,
+            "total_score": 396
+        },
+        {
+            "name": "yellow trumpet creeper",
+            "mentions": 7,
+            "confidence_score": 34,
+            "total_score": 238
+        },
+        {
+            "name": "yellow trumpet flower",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "heterophyllus",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "mexican greenbrier",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "milk flower vine",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "wild cotton",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "wild trumpet vine",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "snake flower",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "milkflower",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "wild trumpet",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "dogbane vine",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "gonolobus vine",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "witch's thumb",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "wild cucumber vine",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "false globe flower",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "false globeflower",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "devil's shoestring",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 16,
+            "confidence_score": 125,
+            "total_score": 2000
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        }
+    ],
+    "what_description": "Gonolobus heterophyllus is a species of plant in the family Apocynaceae, native to Mexico and Central America. It is a climbing or twining vine with stems 2-5 meters long, covered with fine, white hairs. The leaves are opposite, decussate, and simple, with blade lengths of 2-10 cm and petiole lengths of 1-3 cm. The flowers are white, funnel-shaped, and borne in axillary clusters, with corolla tube lengths of 2-4 cm. The fruit is a pair of follicles, 4-6 cm long, containing numerous seeds.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "diabetes",
+            "mentions": 16,
+            "confidence_score": 124,
+            "total_score": 1984
+        },
+        {
+            "name": "inflammation",
+            "mentions": 13,
+            "confidence_score": 105,
+            "total_score": 1365
+        },
+        {
+            "name": "hypertension",
+            "mentions": 14,
+            "confidence_score": 100,
+            "total_score": 1400
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 10,
+            "confidence_score": 70,
+            "total_score": 700
+        },
+        {
+            "name": "asthma",
+            "mentions": 11,
+            "confidence_score": 69,
+            "total_score": 759
+        },
+        {
+            "name": "arthritis",
+            "mentions": 8,
+            "confidence_score": 55,
+            "total_score": 440
+        },
+        {
+            "name": "cancer",
+            "mentions": 8,
+            "confidence_score": 45,
+            "total_score": 360
+        },
+        {
+            "name": "fever",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "skin infections",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "anxiety",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "eczema",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "allergies",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "gout",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "urinary tract infections",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "insect bites",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "wound healing",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "cholesterol",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Gonolobus heterophyllus are diabetes, as it contains gymnemic acid that inhibits glucose absorption in the gut, and arthritis, due to its anti-inflammatory properties that reduce joint swelling and pain. Additionally, this plant has been effective in treating hypertension through its vasodilatory effects, and fungal infections, thanks to its antifungal compounds that inhibit fungal growth. It also exhibits potential in alleviating respiratory issues, such as asthma, and has been shown to have antioxidant properties that combat oxidative stress. Furthermore, Gonolobus heterophyllus has been traditionally used to treat skin infections and wound healing, and has been found to have immunomodulatory effects that boost the immune system's response to infections like urinary tract infections. The plant's anti-inflammatory and antiallergic properties also make it effective in treating eczema, allergies, and gout, as well as promoting digestive health and reducing cholesterol levels.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 150,
+            "total_score": 3000
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 140,
+            "total_score": 2800
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 121,
+            "total_score": 2420
+        },
+        {
+            "name": "antiviral",
+            "mentions": 16,
+            "confidence_score": 79,
+            "total_score": 1264
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 77,
+            "total_score": 1463
+        },
+        {
+            "name": "antifungal",
+            "mentions": 12,
+            "confidence_score": 77,
+            "total_score": 924
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "antihemorrhagic",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 7,
+            "confidence_score": 30,
+            "total_score": 210
+        },
+        {
+            "name": "anticancer",
+            "mentions": 7,
+            "confidence_score": 29,
+            "total_score": 203
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "diuretic",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 6,
+            "confidence_score": 23,
+            "total_score": 138
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Gonolobus heterophyllus are its antimicrobial activity, which has been attributed to the presence of volatile oils and flavonoids, allowing it to effectively inhibit the growth of various microorganisms. The antioxidant properties of this plant are mediated by saponins and phenolic compounds, which play a crucial role in protecting the body from oxidative stress and cell damage. Additionally, the anti-inflammatory effects of Gonolobus heterophyllus have been linked to the action of flavonoids and terpenoids, which help to reduce inflammation and alleviate pain. Furthermore, the antiviral properties of this plant have been associated with the presence of alkaloids and glycosides, which have been shown to inhibit the replication of certain viruses. The analgesic properties of Gonolobus heterophyllus are thought to be mediated by the action of phenolic compounds and saponins, which help to reduce pain and discomfort.",
+    "constituents": [
+        {
+            "name": "saponins",
+            "mentions": 12,
+            "confidence_score": 66,
+            "total_score": 792
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 13,
+            "confidence_score": 65,
+            "total_score": 845
+        },
+        {
+            "name": "gonolobine",
+            "mentions": 7,
+            "confidence_score": 63,
+            "total_score": 441
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 12,
+            "confidence_score": 58,
+            "total_score": 696
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 12,
+            "confidence_score": 50,
+            "total_score": 600
+        },
+        {
+            "name": "gonolobin",
+            "mentions": 6,
+            "confidence_score": 48,
+            "total_score": 288
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 11,
+            "confidence_score": 48,
+            "total_score": 528
+        },
+        {
+            "name": "cardiac glycosides",
+            "mentions": 13,
+            "confidence_score": 48,
+            "total_score": 624
+        },
+        {
+            "name": "quercetin",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "furocoumarins",
+            "mentions": 9,
+            "confidence_score": 20,
+            "total_score": 180
+        },
+        {
+            "name": "sterols",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "cucurbitacins",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "quassinoids",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "stigmasterol",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "tannins",
+            "mentions": 5,
+            "confidence_score": 14,
+            "total_score": 70
+        },
+        {
+            "name": "coumarin",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "gonolobus heterophyllus glycosides",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "gonolobusine",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Gonolobus heterophyllus are saponins, flavonoids, gonolobine, triterpenoids, and phenolic acids. These constituents have been identified as responsible for the medicinal properties of the plant, with saponins exhibiting anti-inflammatory and antimicrobial activities, flavonoids displaying antioxidant and anti-inflammatory effects, gonolobine showing antitumor activity, triterpenoids possessing antimicrobial and anti-inflammatory properties, and phenolic acids exhibiting antioxidant and anti-inflammatory effects. The presence of these bioactive compounds has been confirmed through various phytochemical analyses, including HPLC and GC-MS studies, which have identified the specific compounds and their concentrations in the plant extracts. These studies have provided a scientific basis for the traditional use of Gonolobus heterophyllus in folk medicine, particularly in the treatment of various inflammatory and infectious diseases. The combination of these constituents in Gonolobus heterophyllus makes it a valuable resource for the development of new medicinal products.",
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 19,
+            "confidence_score": 151,
+            "total_score": 2869
+        },
+        {
+            "name": "infusion",
+            "mentions": 19,
+            "confidence_score": 149,
+            "total_score": 2831
+        },
+        {
+            "name": "decoction",
+            "mentions": 19,
+            "confidence_score": 110,
+            "total_score": 2090
+        },
+        {
+            "name": "tea",
+            "mentions": 14,
+            "confidence_score": 98,
+            "total_score": 1372
+        },
+        {
+            "name": "salve",
+            "mentions": 19,
+            "confidence_score": 92,
+            "total_score": 1748
+        },
+        {
+            "name": "ointment",
+            "mentions": 9,
+            "confidence_score": 36,
+            "total_score": 324
+        },
+        {
+            "name": "poultice",
+            "mentions": 5,
+            "confidence_score": 17,
+            "total_score": 85
+        },
+        {
+            "name": "infused oil",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "gonolobus tincture",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "gonolobus tea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "gonolobus infusion",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "resin",
+            "mentions": 2,
+            "confidence_score": 4,
+            "total_score": 8
+        },
+        {
+            "name": "gonolobus oil",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "gonolobus glycerite",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "extract",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "essential oil",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "infusate",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Gonolobus heterophyllus are derived from its roots, leaves, and flowers, which are rich in alkaloids, glycosides, and other bioactive compounds. A tincture of Gonolobus heterophyllus is prepared by percolating the plant material in a solvent such as ethanol or glycerin, which is then used to treat various health conditions, particularly those related to the nervous system. An infusion of the plant is prepared by steeping the leaves in hot water, which is then used to treat digestive problems and fever, while a decoction is prepared by boiling the roots in water to release its bioactive compounds, which are used to treat rheumatism and other inflammatory conditions. Gonolobus heterophyllus tea is prepared by infusing the dried leaves in hot water, which is then used to treat coughs, colds, and other respiratory problems, while a salve is prepared by infusing the plant material in a carrier oil, such as coconut or olive oil, which is then used to treat skin conditions, including wounds and burns. These preparations are used in traditional medicine due to the plant's analgesic, anti-inflammatory, and antimicrobial properties.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 6,
+            "confidence_score": 56,
+            "total_score": 336
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "suffer diarrhea",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "get headache",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "showing allergic reaction",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "suffering abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause hepatotoxicity",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develop allergies",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "suffer from diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "produce diarrhea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "aggravate kidney issues",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experiencing headaches",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Gonolobus heterophyllus improperly include experiencing nausea, vomiting, inducing vomiting, causing diarrhea, and other gastrointestinal disturbances. These side effects are likely due to the plant's alkaloids and glycosides, which can be toxic in large quantities. Ingesting the plant can cause irritation to the digestive tract, leading to nausea, vomiting, and diarrhea as the body attempts to eliminate the toxins. The improper use of Gonolobus heterophyllus may also lead to dehydration and electrolyte imbalances due to excessive vomiting and diarrhea. It is essential to handle and use the plant with caution and under the guidance of a medical professional or experienced practitioner.",
+    "uses": "Gonolobus heterophyllus, a plant known for its traditional medicinal uses, has been employed in folk medicine to treat various ailments. The plant's extracts have been reported to possess anti-inflammatory, antimicrobial, and antioxidant properties. In traditional medicine, Gonolobus heterophyllus has been used to treat wounds, fever, and respiratory issues. Additionally, its extracts have been studied for their potential anti-cancer and anti-diabetic properties. However, further research is necessary to confirm the efficacy and safety of using Gonolobus heterophyllus for medicinal purposes.",
+    "taxonomy": "Gonolobus heterophyllus is classified within the family Apocynaceae, which is a family of flowering plants commonly known as the dogbane or oleander family. This family is further divided into several subfamilies, with Gonolobus heterophyllus belonging to the subfamily Asclepiadoideae. The subfamily Asclepiadoideae is one of the largest and most diverse groups within the Apocynaceae family. Gonolobus heterophyllus is a member of the genus Gonolobus, which is a small group of plants that are native to the Americas. The exact classification of Gonolobus heterophyllus can be further broken down into species level, but its general classification within the Apocynaceae family is well established.",
+    "benefits": "Gonolobus heterophyllus is a plant species that has been used in traditional medicine, particularly in Mexico. Traditionally, the plant is used to treat various health issues, including fever, rheumatism, and digestive problems. The plant's leaves and roots are believed to possess antiseptic and anti-inflammatory properties, which contribute to its medicinal value. The extracts from Gonolobus heterophyllus have also been studied for their potential antioxidant and antimicrobial activities. However, further research is needed to fully understand the plant's health benefits and its potential applications.",
+    "parts": "Gonolobus heterophyllus is a plant species, and while information on it is limited, research suggests that certain parts of the plant may have medicinal properties. However, specific details about the medicinal parts of Gonolobus heterophyllus are not well-documented. It is essential to note that any potential medicinal use of this plant should be researched further and utilized under the guidance of a healthcare professional. The plant's parts that may have medicinal properties are not definitively established, and more studies are required to confirm its uses. Further research is needed to understand the potential benefits and risks associated with using Gonolobus heterophyllus as a medicinal plant.",
+    "intro": "Gonolobus heterophyllus, also known as Gonolobus, is a type of climbing vine native to Mexico and Central America, belonging to the Apocynaceae family. Traditionally, Gonolobus heterophyllus has been used in herbal medicine to treat various health conditions, including fever, inflammation, and infections, due to its antimicrobial and anti-inflammatory properties. The plant contains bioactive constituents such as gonolobin, gonolobine, and flavonoids, which contribute to its medicinal properties. Gonolobus heterophyllus is often used to make herbal preparations such as infusions, decoctions, and tinctures, which are used to treat respiratory issues, wounds, and skin conditions."
+}

@@ -581,33 +581,37 @@ def p_equipments_intro():
         image = img_resize(image, w=768, h=768)
         image.save(output_filepath)
 
-def a_equipments_intro():
+def a_equipments_intro(images_num=1):
     for equipment_slug in os.listdir(f'{vault}/amazon/json'):
         equipment_name = equipment_slug.lower().strip().replace('-', ' ')
         if equipment_name[-1] == 's': equipment_name = equipment_name[:-1]
         out_filepath = f'{website_folderpath}/images/equipments/{equipment_slug}.jpg'
         ast_filepath = f'assets/images/equipments/{equipment_slug}.jpg'
-        tmp_filepath = f'assets/images/equipments-tmp/{equipment_slug}.jpg'
-        if not os.path.exists(ast_filepath):
-        # if True:
-            prompt = f'''
-                close-up of {equipment_name},
-                on a wooden table,
-                with herbs,
-                indoor, 
-            '''
-            prompt += prompt_style
-            negative_prompt = f'''
-                text, watermark 
-            '''
-            print(prompt)
-            pipe_init()
-            image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
-            image = img_resize(image, w=768, h=768)
-            image.save(tmp_filepath)
+        for i in range(images_num):
+            if i == 0:
+                tmp_filepath = f'assets/images/equipments-tmp/{equipment_slug}.jpg'
+            else:
+                tmp_filepath = f'assets/images/equipments-tmp/{equipment_slug}-{i}.jpg'
+            if not os.path.exists(ast_filepath):
+            # if True:
+                prompt = f'''
+                    {equipment_name},
+                    on a wooden table,
+                    with herbs,
+                    indoor, 
+                '''
+                prompt += prompt_style
+                negative_prompt = f'''
+                    text, watermark 
+                '''
+                print(prompt)
+                pipe_init()
+                image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+                image = img_resize(image, w=768, h=768)
+                image.save(tmp_filepath)
 
-# p_equipments_intro()
-# a_equipments_intro()
+p_equipments_intro()
+a_equipments_intro(10)
 
 def get_popular_herbs_from_teas_articles():
     output = []
@@ -814,3 +818,86 @@ def herbs_taxonomy_kingdoms_archaebacteria():
 # herbs_taxonomy_kingdoms_protista()
 # herbs_taxonomy_kingdoms_eubacteria()
 # herbs_taxonomy_kingdoms_archaebacteria()
+
+# TODO: function to generate images for remedies -> ailments -> preparations
+def remedies_ailments_preparations():
+    # ;images
+    if 1:
+        non_valid_preparations = [
+            'decoctions',
+        ]
+        if preparation_slug not in non_valid_preparations:
+            herbs_names_scientific = [x['herb_name_scientific'] for x in data["remedies"][:remedies_num]]
+            herb_name_scientific = herbs_names_scientific[-1]
+            _herb_slug = herb_name_scientific.lower().strip().replace(' ', '-')
+            _url = f"images/preparations/{preparation_slug}/{_herb_slug}-herbal-{preparation_slug}.jpg"
+            output_filepath = f'{website_folderpath}/{_url}'
+            src = f'/{_url}'
+            alt = f'herbal {preparation_name} for {ailment_name}'
+            if 0:
+                if not os.path.exists(output_filepath):
+                # if True:
+                    container = ''
+                    if preparation_slug == 'teas': container = 'a cup of'
+                    if preparation_slug == 'tinctures': container = 'a bottle of'
+                    if preparation_slug == 'creams': container = 'a jar of'
+                    if preparation_slug == 'essential-oils': container = 'a bottle of'
+                    prompt = f'''
+                        {container} herbal {preparation_name} made with dry {herb_name_scientific} herb on a wooden table,
+                        indoor, 
+                        natural window light,
+                        earth tones,
+                        neutral colors,
+                        soft focus,
+                        warm tones,
+                        vintage,
+                        high resolution,
+                        cinematic
+                    '''
+                    negative_prompt = f'''
+                        text, watermark 
+                    '''
+                    print(prompt)
+                    pipe_init()
+                    image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+                    image = img_resize(image, w=768, h=768)
+                    image.save(output_filepath)
+            data['intro_image_src'] = src
+            data['intro_image_alt'] = alt
+            json_write(json_filepath, data)
+            for remedy_i, remedy in enumerate(data['remedies'][:remedies_num]):
+                herb_name_scientific = remedy['herb_name_scientific']
+                herb_slug = herb_name_scientific.strip().lower().replace(' ', '-')
+                output_filepath = f'{website_folderpath}/images/preparations/{preparation_slug}/{herb_slug}-herbal-{preparation_slug}.jpg'
+                src = f'/images/preparations/{preparation_slug}/{herb_slug}-herbal-{preparation_slug}.jpg'
+                alt = f'{herb_name_scientific} herbal {preparation_name} for {ailment_name}'
+                if not os.path.exists(output_filepath):
+                    container = ''
+                    if preparation_slug == 'teas': container = 'a cup of'
+                    if preparation_slug == 'tinctures': container = 'a bottle of'
+                    if preparation_slug == 'tinctures': container = 'one '
+                    if preparation_slug == 'creams': container = 'a jar of'
+                    if preparation_slug == 'essential-oils': container = 'a bottle of'
+                    prompt = f'''
+                        {container} herbal {preparation_name} made with dry {herb_name_scientific} herb on a wooden table,
+                        indoor, 
+                        natural window light,
+                        earth tones,
+                        neutral colors,
+                        soft focus,
+                        warm tones,
+                        vintage,
+                        high resolution,
+                        cinematic
+                    '''
+                    negative_prompt = f'''
+                        text, watermark 
+                    '''
+                    print(prompt)
+                    pipe_init()
+                    image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+                    image = img_resize(image, w=768, h=768)
+                    image.save(output_filepath)
+                remedy['image_src'] = src
+                remedy['image_alt'] = alt
+                json_write(json_filepath, data)

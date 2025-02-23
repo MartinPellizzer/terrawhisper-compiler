@@ -1,1 +1,756 @@
-{"title": "Matricaria chamomilla", "herb_slug": "matricaria-chamomilla", "herb_name_scientific": "Matricaria chamomilla", "family_slug": "", "family_name": "", "url": "herbs/matricaria-chamomilla", "lastmod": "2025-1-20", "herb_names_common": [{"name": "german chamomile", "mentions": 42, "confidence_score": 385, "total_score": 16170}, {"name": "matricaria", "mentions": 18, "confidence_score": 122, "total_score": 2196}, {"name": "wild chamomile", "mentions": 17, "confidence_score": 90, "total_score": 1530}, {"name": "common chamomile", "mentions": 10, "confidence_score": 77, "total_score": 770}, {"name": "camomile", "mentions": 7, "confidence_score": 60, "total_score": 420}, {"name": "camomilla", "mentions": 7, "confidence_score": 42, "total_score": 294}, {"name": "german mayweed", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "roman chamomile", "mentions": 10, "confidence_score": 35, "total_score": 350}, {"name": "low chamomile", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "chamomile weed", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "camomille", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "matricaire", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "hungarian chamomile", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "matricaria chamomilla", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "chamomile flowers", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "whig plant", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "field chamomile", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "chamomile daisy", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "chamomile d'allemagne", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "potentilla chamomile", "mentions": 2, "confidence_score": 9, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 195, "total_score": 3900}], "what_description": "Matricaria chamomilla is a perennial herbaceous plant belonging to the family Asteraceae. It has a taproot and a short stem, typically 10-30 cm tall, with a dichotomous branching pattern. The leaves are bipinnate, with a lanceolate shape and a 2-5 mm long petiole, and are arranged alternately on the stem. The plant produces small, white, tubular flowers in a capitulum, with a diameter of 1-2 cm, and a prominent yellow disc floret. The flowers are fertile and are pollinated by insects, producing achenes with a pappus.", "category_action": "carminatives", "ailments": [{"name": "anxiety", "mentions": 20, "confidence_score": 174, "total_score": 3480}, {"name": "insomnia", "mentions": 17, "confidence_score": 159, "total_score": 2703}, {"name": "inflammation", "mentions": 18, "confidence_score": 131, "total_score": 2358}, {"name": "digestive issues", "mentions": 18, "confidence_score": 128, "total_score": 2304}, {"name": "stress", "mentions": 15, "confidence_score": 106, "total_score": 1590}, {"name": "nausea", "mentions": 14, "confidence_score": 89, "total_score": 1246}, {"name": "allergies", "mentions": 12, "confidence_score": 82, "total_score": 984}, {"name": "skin irritation", "mentions": 10, "confidence_score": 73, "total_score": 730}, {"name": "menstrual cramps", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "diarrhea", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "headaches", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "muscle spasms", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "hives", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "eczema", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "skin issues", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "migraines", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "rheumatism", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "skin conditions", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "gastroesophageal reflux", "mentions": 3, "confidence_score": 16, "total_score": 48}], "ailments_description": "The most common ailments you can heal with Matricaria chamomilla are anxiety, insomnia, and stress, which can be alleviated due to the plant's anxiolytic and sedative properties. Inflammation and digestive issues can be treated with Matricaria chamomilla's anti-inflammatory and carminative properties, which also help to reduce nausea and gastroesophageal reflux. Allergies, skin irritation, and skin conditions such as eczema and hives can be soothed by the plant's anti-allergic and antipruritic effects. Menstrual cramps, headaches, and migraines can be relieved by Matricaria chamomilla's analgesic and anti-migraine properties, which also help to alleviate muscle spasms and gastroenteritis. Additionally, the plant's anti-inflammatory and antiseptic properties make it effective in treating skin issues, diarrhea, and rheumatism.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 177, "total_score": 3540}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 173, "total_score": 3460}, {"name": "sedative", "mentions": 20, "confidence_score": 161, "total_score": 3220}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 145, "total_score": 2900}, {"name": "analgesic", "mentions": 19, "confidence_score": 138, "total_score": 2622}, {"name": "antispasmodic", "mentions": 18, "confidence_score": 132, "total_score": 2376}, {"name": "anxiolytic", "mentions": 13, "confidence_score": 104, "total_score": 1352}, {"name": "hepatoprotective", "mentions": 15, "confidence_score": 90, "total_score": 1350}, {"name": "anti-allergic", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "antihistamine", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "uroprotective", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "immunomodulatory", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "antipruritic", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "antihistaminic", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "spasmolytic", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cytoprotective", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "antiviral", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "antiseptic", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "antiallergic", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "antibacterial", "mentions": 2, "confidence_score": 13, "total_score": 26}], "properties_description": "The main therapeutic properties of Matricaria chamomilla are attributed to its ability to act as an antioxidant, protecting against cell damage caused by free radicals. The anti-inflammatory properties of Matricaria chamomilla are due to the presence of flavonoids and terpenoids, which inhibit the production of pro-inflammatory enzymes, reducing inflammation and pain. Additionally, the sedative properties of this plant are attributed to its volatile oils, particularly apigenin and luteolin, which interact with GABA receptors to promote relaxation. Matricaria chamomilla's antimicrobial properties are attributed to the presence of flavonoids and sesquiterpenes, which inhibit the growth of bacteria and fungi. Its analgesic properties, on the other hand, are due to the presence of sesquiterpenes and flavonoids, which inhibit pain signal transmission by interacting with opioid receptors.", "constituents": [{"name": "apigenin", "mentions": 20, "confidence_score": 182, "total_score": 3640}, {"name": "luteolin", "mentions": 20, "confidence_score": 163, "total_score": 3260}, {"name": "chamazulene", "mentions": 14, "confidence_score": 119, "total_score": 1666}, {"name": "alpha-bisabolol", "mentions": 12, "confidence_score": 105, "total_score": 1260}, {"name": "\u03b1-bisabolol", "mentions": 8, "confidence_score": 70, "total_score": 560}, {"name": "matricarin", "mentions": 8, "confidence_score": 53, "total_score": 424}, {"name": "apigenin-7-o-glucoside", "mentions": 8, "confidence_score": 49, "total_score": 392}, {"name": "farnesene", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "luteolin-7-o-glucoside", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "bornyl acetate", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "chrysin", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "\u03b2-pinene", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "\u03b1-pinene", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "matricine", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "quercetin", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "alpha-bisabolol oxide b", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "alpha-bisabolol oxide a", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "\u03b1-bisabolol oxide a", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "\u03b1-bisabolol oxide b", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "bisabolol oxide a", "mentions": 3, "confidence_score": 18, "total_score": 54}], "constituents_description": "The most important healing constituents of Matricaria chamomilla are apigenin and luteolin which have potent anti-inflammatory and antioxidant properties. Apigenin has been shown to inhibit cyclooxygenase-2 (COX-2) enzyme activity which reduces inflammation. Chamazulene and \u03b1-bisabolol are also present in the essential oil and exhibit anti-inflammatory and soothing effects by inhibiting the production of pro-inflammatory cytokines and enzymes. Alpha-bisabolol in particular has been found to exhibit antimicrobial activity by disrupting bacterial cell membranes. Overall these constituents contribute to the plant's well-documented use in treating skin irritations and soothing anxiety.", "preparations": [{"name": "chamomile tea", "mentions": 20, "confidence_score": 198, "total_score": 3960}, {"name": "chamomile tincture", "mentions": 20, "confidence_score": 149, "total_score": 2980}, {"name": "chamomile salve", "mentions": 19, "confidence_score": 121, "total_score": 2299}, {"name": "chamomile oil", "mentions": 14, "confidence_score": 112, "total_score": 1568}, {"name": "chamomile infusion", "mentions": 9, "confidence_score": 76, "total_score": 684}, {"name": "chamomile cream", "mentions": 10, "confidence_score": 53, "total_score": 530}, {"name": "infusion", "mentions": 5, "confidence_score": 47, "total_score": 235}, {"name": "chamomile glycerite", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "chamomile capsules", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "infused oil", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "suppository", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "chamomile extract", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "essential oil", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "chamomile ointment", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "topical cream", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "chamomile lotion", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "chamomile infused oil", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "chamomile balm", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "chamomile syrup", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "chamomile infused vinegar", "mentions": 1, "confidence_score": 7, "total_score": 7}], "preparations_description": "The main herbal preparations of Matricaria chamomilla are derived from its flowers due to their high concentration of apigenin and luteolin flavonoids and bisabolol sesquiterpene. Chamomile tea is made by infusing the dried flowers in hot water to treat anxiety and insomnia, while chamomile tincture is a liquid extract used for its anti-inflammatory and antispasmodic properties. Chamomile salve is a topical cream applied to soothe skin irritations and wounds, whereas chamomile oil is used in aromatherapy to promote relaxation and reduce stress. Chamomile infusion is similar to tea but made in cold water to preserve the delicate flavonoids and used for its anti-inflammatory and antioxidant properties. These preparations have been traditionally used to treat various ailments, including digestive issues, skin conditions, and emotional distress, due to the flowers' unique bioactive compounds.", "side_effects": [{"name": "interact with medications", "mentions": 9, "confidence_score": 69, "total_score": 621}, {"name": "experience allergic reaction", "mentions": 6, "confidence_score": 59, "total_score": 354}, {"name": "exacerbate allergies", "mentions": 6, "confidence_score": 55, "total_score": 330}, {"name": "trigger asthma", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "suffer from diarrhea", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "develop skin irritation", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "experience nausea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "cause digestive issues", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "affect fetal development", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "provoke skin irritation", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "overdose patient", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "cause skin irritation", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "aggravate asthma", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "interact with warfarin", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experience dizziness", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause gastrointestinal issues", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "suffer from abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "increase bleeding", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "trigger asthma attacks", "mentions": 2, "confidence_score": 16, "total_score": 32}], "side_effects_description": "The possible side effects of using Matricaria chamomilla improperly include interactions with medications such as blood thinners, diabetes medications, and sedatives, which can lead to adverse reactions, including increased bleeding risk, low blood sugar levels, and respiratory depression. Additionally, some individuals may experience allergic reactions to chamomile, which can manifest as hives, itching, or difficulty breathing. Furthermore, Matricaria chamomilla can exacerbate existing allergies, such as hay fever or atopic dermatitis, by triggering an overactive immune response. In rare cases, chamomile may also trigger asthma attacks in individuals with pre-existing conditions, particularly when inhaled. Moreover, Matricaria chamomilla can trigger allergic reactions, such as anaphylaxis, in individuals who are highly sensitive to the plant's allergens, which can be life-threatening if not treated promptly."}
+{
+    "title": "Matricaria chamomilla",
+    "herb_slug": "matricaria-chamomilla",
+    "herb_name_scientific": "Matricaria chamomilla",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/matricaria-chamomilla",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "german chamomile",
+            "mentions": 42,
+            "confidence_score": 385,
+            "total_score": 16170
+        },
+        {
+            "name": "matricaria",
+            "mentions": 18,
+            "confidence_score": 122,
+            "total_score": 2196
+        },
+        {
+            "name": "wild chamomile",
+            "mentions": 17,
+            "confidence_score": 90,
+            "total_score": 1530
+        },
+        {
+            "name": "common chamomile",
+            "mentions": 10,
+            "confidence_score": 77,
+            "total_score": 770
+        },
+        {
+            "name": "camomile",
+            "mentions": 7,
+            "confidence_score": 60,
+            "total_score": 420
+        },
+        {
+            "name": "camomilla",
+            "mentions": 7,
+            "confidence_score": 42,
+            "total_score": 294
+        },
+        {
+            "name": "german mayweed",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "roman chamomile",
+            "mentions": 10,
+            "confidence_score": 35,
+            "total_score": 350
+        },
+        {
+            "name": "low chamomile",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "chamomile weed",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "camomille",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "matricaire",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "hungarian chamomile",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "matricaria chamomilla",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "chamomile flowers",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "whig plant",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "field chamomile",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "chamomile daisy",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "chamomile d'allemagne",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "potentilla chamomile",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 195,
+            "total_score": 3900
+        }
+    ],
+    "what_description": "Matricaria chamomilla is a perennial herbaceous plant belonging to the family Asteraceae. It has a taproot and a short stem, typically 10-30 cm tall, with a dichotomous branching pattern. The leaves are bipinnate, with a lanceolate shape and a 2-5 mm long petiole, and are arranged alternately on the stem. The plant produces small, white, tubular flowers in a capitulum, with a diameter of 1-2 cm, and a prominent yellow disc floret. The flowers are fertile and are pollinated by insects, producing achenes with a pappus.",
+    "category_action": "carminatives",
+    "ailments": [
+        {
+            "name": "anxiety",
+            "mentions": 20,
+            "confidence_score": 174,
+            "total_score": 3480
+        },
+        {
+            "name": "insomnia",
+            "mentions": 17,
+            "confidence_score": 159,
+            "total_score": 2703
+        },
+        {
+            "name": "inflammation",
+            "mentions": 18,
+            "confidence_score": 131,
+            "total_score": 2358
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 18,
+            "confidence_score": 128,
+            "total_score": 2304
+        },
+        {
+            "name": "stress",
+            "mentions": 15,
+            "confidence_score": 106,
+            "total_score": 1590
+        },
+        {
+            "name": "nausea",
+            "mentions": 14,
+            "confidence_score": 89,
+            "total_score": 1246
+        },
+        {
+            "name": "allergies",
+            "mentions": 12,
+            "confidence_score": 82,
+            "total_score": 984
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 10,
+            "confidence_score": 73,
+            "total_score": 730
+        },
+        {
+            "name": "menstrual cramps",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "headaches",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "muscle spasms",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "hives",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "eczema",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "skin issues",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "migraines",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "gastroesophageal reflux",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Matricaria chamomilla are anxiety, insomnia, and stress, which can be alleviated due to the plant's anxiolytic and sedative properties. Inflammation and digestive issues can be treated with Matricaria chamomilla's anti-inflammatory and carminative properties, which also help to reduce nausea and gastroesophageal reflux. Allergies, skin irritation, and skin conditions such as eczema and hives can be soothed by the plant's anti-allergic and antipruritic effects. Menstrual cramps, headaches, and migraines can be relieved by Matricaria chamomilla's analgesic and anti-migraine properties, which also help to alleviate muscle spasms and gastroenteritis. Additionally, the plant's anti-inflammatory and antiseptic properties make it effective in treating skin issues, diarrhea, and rheumatism.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 177,
+            "total_score": 3540
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 173,
+            "total_score": 3460
+        },
+        {
+            "name": "sedative",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 145,
+            "total_score": 2900
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 138,
+            "total_score": 2622
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 18,
+            "confidence_score": 132,
+            "total_score": 2376
+        },
+        {
+            "name": "anxiolytic",
+            "mentions": 13,
+            "confidence_score": 104,
+            "total_score": 1352
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 15,
+            "confidence_score": 90,
+            "total_score": 1350
+        },
+        {
+            "name": "anti-allergic",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "uroprotective",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "antipruritic",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "spasmolytic",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "antiviral",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "antiallergic",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Matricaria chamomilla are attributed to its ability to act as an antioxidant, protecting against cell damage caused by free radicals. The anti-inflammatory properties of Matricaria chamomilla are due to the presence of flavonoids and terpenoids, which inhibit the production of pro-inflammatory enzymes, reducing inflammation and pain. Additionally, the sedative properties of this plant are attributed to its volatile oils, particularly apigenin and luteolin, which interact with GABA receptors to promote relaxation. Matricaria chamomilla's antimicrobial properties are attributed to the presence of flavonoids and sesquiterpenes, which inhibit the growth of bacteria and fungi. Its analgesic properties, on the other hand, are due to the presence of sesquiterpenes and flavonoids, which inhibit pain signal transmission by interacting with opioid receptors.",
+    "constituents": [
+        {
+            "name": "apigenin",
+            "mentions": 20,
+            "confidence_score": 182,
+            "total_score": 3640
+        },
+        {
+            "name": "luteolin",
+            "mentions": 20,
+            "confidence_score": 163,
+            "total_score": 3260
+        },
+        {
+            "name": "chamazulene",
+            "mentions": 14,
+            "confidence_score": 119,
+            "total_score": 1666
+        },
+        {
+            "name": "alpha-bisabolol",
+            "mentions": 12,
+            "confidence_score": 105,
+            "total_score": 1260
+        },
+        {
+            "name": "\u03b1-bisabolol",
+            "mentions": 8,
+            "confidence_score": 70,
+            "total_score": 560
+        },
+        {
+            "name": "matricarin",
+            "mentions": 8,
+            "confidence_score": 53,
+            "total_score": 424
+        },
+        {
+            "name": "apigenin-7-o-glucoside",
+            "mentions": 8,
+            "confidence_score": 49,
+            "total_score": 392
+        },
+        {
+            "name": "farnesene",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "luteolin-7-o-glucoside",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "bornyl acetate",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "chrysin",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "\u03b2-pinene",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "\u03b1-pinene",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "matricine",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "quercetin",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "alpha-bisabolol oxide b",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "alpha-bisabolol oxide a",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "\u03b1-bisabolol oxide a",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "\u03b1-bisabolol oxide b",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "bisabolol oxide a",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Matricaria chamomilla are apigenin and luteolin which have potent anti-inflammatory and antioxidant properties. Apigenin has been shown to inhibit cyclooxygenase-2 (COX-2) enzyme activity which reduces inflammation. Chamazulene and \u03b1-bisabolol are also present in the essential oil and exhibit anti-inflammatory and soothing effects by inhibiting the production of pro-inflammatory cytokines and enzymes. Alpha-bisabolol in particular has been found to exhibit antimicrobial activity by disrupting bacterial cell membranes. Overall these constituents contribute to the plant's well-documented use in treating skin irritations and soothing anxiety.",
+    "preparations": [
+        {
+            "name": "chamomile tea",
+            "mentions": 20,
+            "confidence_score": 198,
+            "total_score": 3960
+        },
+        {
+            "name": "chamomile tincture",
+            "mentions": 20,
+            "confidence_score": 149,
+            "total_score": 2980
+        },
+        {
+            "name": "chamomile salve",
+            "mentions": 19,
+            "confidence_score": 121,
+            "total_score": 2299
+        },
+        {
+            "name": "chamomile oil",
+            "mentions": 14,
+            "confidence_score": 112,
+            "total_score": 1568
+        },
+        {
+            "name": "chamomile infusion",
+            "mentions": 9,
+            "confidence_score": 76,
+            "total_score": 684
+        },
+        {
+            "name": "chamomile cream",
+            "mentions": 10,
+            "confidence_score": 53,
+            "total_score": 530
+        },
+        {
+            "name": "infusion",
+            "mentions": 5,
+            "confidence_score": 47,
+            "total_score": 235
+        },
+        {
+            "name": "chamomile glycerite",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "chamomile capsules",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "suppository",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "chamomile extract",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "essential oil",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "chamomile ointment",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "topical cream",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "chamomile lotion",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "chamomile infused oil",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "chamomile balm",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "chamomile syrup",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "chamomile infused vinegar",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Matricaria chamomilla are derived from its flowers due to their high concentration of apigenin and luteolin flavonoids and bisabolol sesquiterpene. Chamomile tea is made by infusing the dried flowers in hot water to treat anxiety and insomnia, while chamomile tincture is a liquid extract used for its anti-inflammatory and antispasmodic properties. Chamomile salve is a topical cream applied to soothe skin irritations and wounds, whereas chamomile oil is used in aromatherapy to promote relaxation and reduce stress. Chamomile infusion is similar to tea but made in cold water to preserve the delicate flavonoids and used for its anti-inflammatory and antioxidant properties. These preparations have been traditionally used to treat various ailments, including digestive issues, skin conditions, and emotional distress, due to the flowers' unique bioactive compounds.",
+    "side_effects": [
+        {
+            "name": "interact with medications",
+            "mentions": 9,
+            "confidence_score": 69,
+            "total_score": 621
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 6,
+            "confidence_score": 59,
+            "total_score": 354
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 6,
+            "confidence_score": 55,
+            "total_score": 330
+        },
+        {
+            "name": "trigger asthma",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "suffer from diarrhea",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "cause digestive issues",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "affect fetal development",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "provoke skin irritation",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "overdose patient",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "aggravate asthma",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "interact with warfarin",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause gastrointestinal issues",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "suffer from abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "increase bleeding",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "trigger asthma attacks",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Matricaria chamomilla improperly include interactions with medications such as blood thinners, diabetes medications, and sedatives, which can lead to adverse reactions, including increased bleeding risk, low blood sugar levels, and respiratory depression. Additionally, some individuals may experience allergic reactions to chamomile, which can manifest as hives, itching, or difficulty breathing. Furthermore, Matricaria chamomilla can exacerbate existing allergies, such as hay fever or atopic dermatitis, by triggering an overactive immune response. In rare cases, chamomile may also trigger asthma attacks in individuals with pre-existing conditions, particularly when inhaled. Moreover, Matricaria chamomilla can trigger allergic reactions, such as anaphylaxis, in individuals who are highly sensitive to the plant's allergens, which can be life-threatening if not treated promptly."
+}

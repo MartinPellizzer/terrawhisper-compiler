@@ -1,1 +1,707 @@
-{"title": "Beyeria cinerea", "herb_slug": "beyeria-cinerea", "herb_name_scientific": "Beyeria cinerea", "family_slug": "euphorbiaceae", "family_name": "Euphorbiaceae", "url": "herbs/beyeria-cinerea", "lastmod": "2025-1-16", "herb_names_common": [{"name": "beyeria cinerea", "mentions": 47, "confidence_score": 411, "total_score": 19317}, {"name": "beyeria", "mentions": 25, "confidence_score": 228, "total_score": 5700}, {"name": "cinerea beyeria", "mentions": 17, "confidence_score": 108, "total_score": 1836}, {"name": "warty beyeria", "mentions": 8, "confidence_score": 67, "total_score": 536}, {"name": "grey beyeria", "mentions": 8, "confidence_score": 64, "total_score": 512}, {"name": "western beyeria", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "beyeria cinerea shrub", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "warty beyeria bush", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "beyeria species", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "grey beyeria cinerea", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "cinereous beyeria", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cinereous beyeria shrub", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "beyeria cinerea tree", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "beyeria sp.", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "cinereous beyeria tree", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "beyeria cinerea plant", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "white beyeria", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "corkwood", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "corkwood bush", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "finger bush", "mentions": 1, "confidence_score": 8, "total_score": 8}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 15, "confidence_score": 131, "total_score": 1965}, {"medicine_or_poison": "poison", "mentions": 5, "confidence_score": 44, "total_score": 220}], "what_description": "Beyeria cinerea is an Australian shrub that belongs to the family Euphorbiaceae. It has a compact and dense growth habit, typically reaching heights of 0.5-2 meters. The leaves are simple, alternate, and have a distinctive shape, with a petiole 1-3 mm long and an elliptic to lanceolate lamina 10-25 mm long. The inflorescences are axillary, unisexual, and consist of a pair of staminate and pistillate flowers, with the staminate flowers being smaller and more numerous. The fruit is a tricarpellary, trilobed capsule, 6-8 mm in diameter, containing 3 seeds.", "category_action": "anti-inflammatory", "ailments": [{"name": "fungal infections", "mentions": 18, "confidence_score": 126, "total_score": 2268}, {"name": "skin inflammation", "mentions": 13, "confidence_score": 99, "total_score": 1287}, {"name": "skin irritation", "mentions": 9, "confidence_score": 70, "total_score": 630}, {"name": "bacterial infections", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "wound healing", "mentions": 5, "confidence_score": 44, "total_score": 220}, {"name": "wounds", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "rheumatism", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "gastroenteritis", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "eczema", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "diarrhea", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "insect bites", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "skin infections", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "asthma", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "ulcers", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "diabetes", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "skin allergies", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "burns", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "fever", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "antimicrobial", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "digestive issues", "mentions": 2, "confidence_score": 17, "total_score": 34}], "ailments_description": "The most common ailments you can heal with Beyeria cinerea are fungal infections, such as athlete's foot and ringworm, which are effectively treated due to the plant's antifungal properties. Skin inflammation and skin irritation are also alleviated, thanks to the plant's anti-inflammatory and soothing effects. Beyeria cinerea is also used to combat bacterial infections, including those caused by Staphylococcus aureus, and accelerate wound healing by promoting tissue repair. Additionally, the plant has been shown to alleviate rheumatism, gastroenteritis, eczema, diarrhea, and insect bites, as well as treat skin infections and asthma. Furthermore, Beyeria cinerea has been found to be effective in treating ulcers, reducing symptoms of diabetes, alleviating skin allergies, and promoting healing in burns and fever reduction, and it possesses antimicrobial properties that aid in digestive issues.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 146, "total_score": 2920}, {"name": "antioxidant", "mentions": 20, "confidence_score": 138, "total_score": 2760}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 119, "total_score": 2380}, {"name": "antifungal", "mentions": 16, "confidence_score": 103, "total_score": 1648}, {"name": "antibacterial", "mentions": 15, "confidence_score": 101, "total_score": 1515}, {"name": "antiviral", "mentions": 20, "confidence_score": 72, "total_score": 1440}, {"name": "analgesic", "mentions": 19, "confidence_score": 66, "total_score": 1254}, {"name": "cytotoxic", "mentions": 10, "confidence_score": 50, "total_score": 500}, {"name": "anticancer", "mentions": 10, "confidence_score": 37, "total_score": 370}, {"name": "antiproliferative", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "cardioprotective", "mentions": 6, "confidence_score": 18, "total_score": 108}, {"name": "hypotensive", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "antiseptic", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "hypoglycemic", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "hepatoprotective", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "neuroprotective", "mentions": 5, "confidence_score": 12, "total_score": 60}, {"name": "immunomodulatory", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "cytoprotective", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "antispasmodic", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "anti-fungal", "mentions": 1, "confidence_score": 8, "total_score": 8}], "properties_description": "The main therapeutic properties of Beyeria cinerea are its ability to exhibit antimicrobial activity, which has been attributed to the presence of volatile oils, specifically pinene and limonene, that inhibit the growth of microorganisms. The antioxidant properties of Beyeria cinerea are associated with flavonoids such as quercetin and kaempferol, which scavenge free radicals and protect against oxidative stress. This plant also possesses anti-inflammatory properties, which have been linked to the presence of saponins that reduce inflammation and alleviate pain. Furthermore, Beyeria cinerea has been found to exhibit antifungal activity, which is thought to be due to the bioactive compounds like \u03b1-pinene and \u03b2-pinene that interfere with fungal cell membranes. Additionally, its antibacterial properties have been attributed to the presence of sesquiterpenes, which have been shown to inhibit the growth of bacteria and prevent the development of infections.", "constituents": [{"name": "flavonoids", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "quercetin", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "phenolic acids", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "beyerin", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "kaempferol", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "tannins", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "terpenoids", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "isorhapontigenin", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "quassin", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "alkaloids", "mentions": 6, "confidence_score": 19, "total_score": 114}, {"name": "coumarins", "mentions": 6, "confidence_score": 19, "total_score": 114}, {"name": "ferulic acid", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "beyerol a", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "beyerine", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "friedelin", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "beyerol b", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "saponins", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "oleanolic acid", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "ursolic acid", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "\u03b2-sitosterol", "mentions": 2, "confidence_score": 14, "total_score": 28}], "constituents_description": "The most important healing constituents of Beyeria cinerea are flavonoids, which include quercetin, and phenolic acids, which provide antioxidant and anti-inflammatory properties. Quercetin, a flavonoid, has been shown to possess anti-inflammatory, anti-viral, and anti-cancer properties, while also exhibiting cardio-protective effects. Phenolic acids, such as caffeic acid and ferulic acid, have been found to have antimicrobial and anti-inflammatory activities. Additionally, the plant contains beyerin, a lignan, which has been reported to have antioxidant and anti-inflammatory properties. Kaempferol, another flavonoid present in Beyeria cinerea, has been shown to have anti-inflammatory, anti-cancer, and anti-viral activities.", "preparations": [{"name": "infusion", "mentions": 19, "confidence_score": 168, "total_score": 3192}, {"name": "tincture", "mentions": 20, "confidence_score": 153, "total_score": 3060}, {"name": "tea", "mentions": 17, "confidence_score": 120, "total_score": 2040}, {"name": "salve", "mentions": 20, "confidence_score": 112, "total_score": 2240}, {"name": "decoction", "mentions": 12, "confidence_score": 52, "total_score": 624}, {"name": "ointment", "mentions": 9, "confidence_score": 39, "total_score": 351}, {"name": "infused oil", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "essential oil", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "poultice", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "extract", "mentions": 3, "confidence_score": 9, "total_score": 27}], "preparations_description": "The main herbal preparations of Beyeria cinerea are infusion, tincture, tea, salve, and decoction. Infusion is a liquid extract made by steeping the leaves in hot water, while tincture is a concentrated liquid extract made by soaking the leaves in a solvent such as ethanol. The leaves can be made into a tea by steeping them in hot water, or a salve by infusing them in oil to create a topical application. Decoction is a method of extraction that involves boiling the leaves in water to release their medicinal properties. These preparations are used for various purposes, although specific uses and efficacy require further research.", "side_effects": [{"name": "cause skin irritation", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "experience nausea", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "aggravate hypertension", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "experiencing nausea", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "trigger seizures", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "experience allergic reactions", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "exacerbate allergic reactions", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "triggers headaches", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "trigger allergic reactions", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "induce diarrhea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "causes diarrhea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "develop rashes", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "develop allergic reactions", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "develop skin irritation", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experiencing headaches", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "suffer kidney damage", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "worsen asthma", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "developing liver damage", "mentions": 1, "confidence_score": 10, "total_score": 10}], "side_effects_description": "The possible side effects of using Beyeria cinerea improperly include causing skin irritation, which can lead to redness, itching, and discomfort due to its irritant properties. Ingesting Beyeria cinerea can also cause nausea and vomiting, as its alkaloids can induce gastrointestinal distress. Furthermore, Beyeria cinerea can exacerbate hypertension in individuals with pre-existing cardiovascular conditions by increasing blood pressure due to its vasoconstrictive effects. Additionally, the plant's alkaloids can trigger seizures in people with a history of seizure disorders, particularly those with epilepsy, due to its neurotoxic properties. It is essential to handle and consume Beyeria cinerea with caution and under the guidance of a medical professional to minimize the risk of adverse effects.", "uses": "Beyeria cinerea is native to Western Australia, but limited information is available on its medicinal uses. However, the plant's leaves and stems are reported to be used in traditional medicine by the indigenous people of the region. The exact nature of these uses is unclear, and further research is needed to understand the potential health benefits. It is believed that Beyeria cinerea may have antimicrobial properties, but this has not been extensively studied. More research is required to confirm its medicinal uses and potential health benefits.", "taxonomy": "Beyeria cinerea is classified within the plant family Cephalotaceae. This family is a group of plants commonly known as 'rare' or 'small' shrubs. The genus Beyeria is a part of this family and comprises about 12 species of plants. Beyeria cinerea belongs to the order Sapindales, which includes a diverse range of plant families. The exact classification of Beyeria cinerea is further specified as a species within the genus Beyeria.", "benefits": "Beyeria cinerea, a species of plant in the family Euphorbiaceae, is reported to have potential health benefits. It is said to have antioxidant properties, which can help protect against cell damage and reduce inflammation in the body. The plant also contains compounds that may have anti-inflammatory and antimicrobial effects. However, more research is needed to confirm the full extent of its health benefits. Further studies are required to fully understand the potential uses and applications of Beyeria cinerea in traditional medicine.", "parts": "Beyeria cinerea is known to have medicinal properties, however the specific medicinal parts of the plant are not well-documented. The plant is part of the Santalaceae family, which includes several species used in traditional medicine. Further research is needed to confirm the exact medicinal parts of Beyeria cinerea. The plant's uses and properties may vary depending on the region and culture. More studies are required to fully understand the potential medicinal applications of Beyeria cinerea.", "intro": "Beyeria cinerea is a type of Australian native plant, specifically a species of shrub within the family Cephalotaceae. The plant is valued for its potential health benefits, which include anti-inflammatory, antimicrobial, and antioxidant properties. The bioactive constituents of Beyeria cinerea include flavonoids, phenolic acids, and saponins, which contribute to its therapeutic properties. Traditionally, the plant is used to make herbal preparations such as teas, tinctures, and infusions, which are used to support immune function and alleviate various health conditions."}
+{
+    "title": "Beyeria cinerea",
+    "herb_slug": "beyeria-cinerea",
+    "herb_name_scientific": "Beyeria cinerea",
+    "family_slug": "euphorbiaceae",
+    "family_name": "Euphorbiaceae",
+    "url": "herbs/beyeria-cinerea",
+    "lastmod": "2025-1-16",
+    "herb_names_common": [
+        {
+            "name": "beyeria cinerea",
+            "mentions": 47,
+            "confidence_score": 411,
+            "total_score": 19317
+        },
+        {
+            "name": "beyeria",
+            "mentions": 25,
+            "confidence_score": 228,
+            "total_score": 5700
+        },
+        {
+            "name": "cinerea beyeria",
+            "mentions": 17,
+            "confidence_score": 108,
+            "total_score": 1836
+        },
+        {
+            "name": "warty beyeria",
+            "mentions": 8,
+            "confidence_score": 67,
+            "total_score": 536
+        },
+        {
+            "name": "grey beyeria",
+            "mentions": 8,
+            "confidence_score": 64,
+            "total_score": 512
+        },
+        {
+            "name": "western beyeria",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "beyeria cinerea shrub",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "warty beyeria bush",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "beyeria species",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "grey beyeria cinerea",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "cinereous beyeria",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cinereous beyeria shrub",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "beyeria cinerea tree",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "beyeria sp.",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "cinereous beyeria tree",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "beyeria cinerea plant",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "white beyeria",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "corkwood",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "corkwood bush",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "finger bush",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 15,
+            "confidence_score": 131,
+            "total_score": 1965
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        }
+    ],
+    "what_description": "Beyeria cinerea is an Australian shrub that belongs to the family Euphorbiaceae. It has a compact and dense growth habit, typically reaching heights of 0.5-2 meters. The leaves are simple, alternate, and have a distinctive shape, with a petiole 1-3 mm long and an elliptic to lanceolate lamina 10-25 mm long. The inflorescences are axillary, unisexual, and consist of a pair of staminate and pistillate flowers, with the staminate flowers being smaller and more numerous. The fruit is a tricarpellary, trilobed capsule, 6-8 mm in diameter, containing 3 seeds.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "fungal infections",
+            "mentions": 18,
+            "confidence_score": 126,
+            "total_score": 2268
+        },
+        {
+            "name": "skin inflammation",
+            "mentions": 13,
+            "confidence_score": 99,
+            "total_score": 1287
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 9,
+            "confidence_score": 70,
+            "total_score": 630
+        },
+        {
+            "name": "bacterial infections",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "wound healing",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        },
+        {
+            "name": "wounds",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "eczema",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "insect bites",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "skin infections",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "asthma",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "ulcers",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "diabetes",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "skin allergies",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "burns",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "fever",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Beyeria cinerea are fungal infections, such as athlete's foot and ringworm, which are effectively treated due to the plant's antifungal properties. Skin inflammation and skin irritation are also alleviated, thanks to the plant's anti-inflammatory and soothing effects. Beyeria cinerea is also used to combat bacterial infections, including those caused by Staphylococcus aureus, and accelerate wound healing by promoting tissue repair. Additionally, the plant has been shown to alleviate rheumatism, gastroenteritis, eczema, diarrhea, and insect bites, as well as treat skin infections and asthma. Furthermore, Beyeria cinerea has been found to be effective in treating ulcers, reducing symptoms of diabetes, alleviating skin allergies, and promoting healing in burns and fever reduction, and it possesses antimicrobial properties that aid in digestive issues.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 146,
+            "total_score": 2920
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 138,
+            "total_score": 2760
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 119,
+            "total_score": 2380
+        },
+        {
+            "name": "antifungal",
+            "mentions": 16,
+            "confidence_score": 103,
+            "total_score": 1648
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 15,
+            "confidence_score": 101,
+            "total_score": 1515
+        },
+        {
+            "name": "antiviral",
+            "mentions": 20,
+            "confidence_score": 72,
+            "total_score": 1440
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 66,
+            "total_score": 1254
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 10,
+            "confidence_score": 50,
+            "total_score": 500
+        },
+        {
+            "name": "anticancer",
+            "mentions": 10,
+            "confidence_score": 37,
+            "total_score": 370
+        },
+        {
+            "name": "antiproliferative",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 6,
+            "confidence_score": 18,
+            "total_score": 108
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 5,
+            "confidence_score": 12,
+            "total_score": 60
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "anti-fungal",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Beyeria cinerea are its ability to exhibit antimicrobial activity, which has been attributed to the presence of volatile oils, specifically pinene and limonene, that inhibit the growth of microorganisms. The antioxidant properties of Beyeria cinerea are associated with flavonoids such as quercetin and kaempferol, which scavenge free radicals and protect against oxidative stress. This plant also possesses anti-inflammatory properties, which have been linked to the presence of saponins that reduce inflammation and alleviate pain. Furthermore, Beyeria cinerea has been found to exhibit antifungal activity, which is thought to be due to the bioactive compounds like \u03b1-pinene and \u03b2-pinene that interfere with fungal cell membranes. Additionally, its antibacterial properties have been attributed to the presence of sesquiterpenes, which have been shown to inhibit the growth of bacteria and prevent the development of infections.",
+    "constituents": [
+        {
+            "name": "flavonoids",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "quercetin",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "beyerin",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "tannins",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "quassin",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 6,
+            "confidence_score": 19,
+            "total_score": 114
+        },
+        {
+            "name": "coumarins",
+            "mentions": 6,
+            "confidence_score": 19,
+            "total_score": 114
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "beyerol a",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "beyerine",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "friedelin",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "beyerol b",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "saponins",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "ursolic acid",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "\u03b2-sitosterol",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Beyeria cinerea are flavonoids, which include quercetin, and phenolic acids, which provide antioxidant and anti-inflammatory properties. Quercetin, a flavonoid, has been shown to possess anti-inflammatory, anti-viral, and anti-cancer properties, while also exhibiting cardio-protective effects. Phenolic acids, such as caffeic acid and ferulic acid, have been found to have antimicrobial and anti-inflammatory activities. Additionally, the plant contains beyerin, a lignan, which has been reported to have antioxidant and anti-inflammatory properties. Kaempferol, another flavonoid present in Beyeria cinerea, has been shown to have anti-inflammatory, anti-cancer, and anti-viral activities.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 19,
+            "confidence_score": 168,
+            "total_score": 3192
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 153,
+            "total_score": 3060
+        },
+        {
+            "name": "tea",
+            "mentions": 17,
+            "confidence_score": 120,
+            "total_score": 2040
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 112,
+            "total_score": 2240
+        },
+        {
+            "name": "decoction",
+            "mentions": 12,
+            "confidence_score": 52,
+            "total_score": 624
+        },
+        {
+            "name": "ointment",
+            "mentions": 9,
+            "confidence_score": 39,
+            "total_score": 351
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "essential oil",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "poultice",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "extract",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Beyeria cinerea are infusion, tincture, tea, salve, and decoction. Infusion is a liquid extract made by steeping the leaves in hot water, while tincture is a concentrated liquid extract made by soaking the leaves in a solvent such as ethanol. The leaves can be made into a tea by steeping them in hot water, or a salve by infusing them in oil to create a topical application. Decoction is a method of extraction that involves boiling the leaves in water to release their medicinal properties. These preparations are used for various purposes, although specific uses and efficacy require further research.",
+    "side_effects": [
+        {
+            "name": "cause skin irritation",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "aggravate hypertension",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "experience allergic reactions",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "exacerbate allergic reactions",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "triggers headaches",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "causes diarrhea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "develop rashes",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "develop allergic reactions",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experiencing headaches",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "suffer kidney damage",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "worsen asthma",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "developing liver damage",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Beyeria cinerea improperly include causing skin irritation, which can lead to redness, itching, and discomfort due to its irritant properties. Ingesting Beyeria cinerea can also cause nausea and vomiting, as its alkaloids can induce gastrointestinal distress. Furthermore, Beyeria cinerea can exacerbate hypertension in individuals with pre-existing cardiovascular conditions by increasing blood pressure due to its vasoconstrictive effects. Additionally, the plant's alkaloids can trigger seizures in people with a history of seizure disorders, particularly those with epilepsy, due to its neurotoxic properties. It is essential to handle and consume Beyeria cinerea with caution and under the guidance of a medical professional to minimize the risk of adverse effects.",
+    "uses": "Beyeria cinerea is native to Western Australia, but limited information is available on its medicinal uses. However, the plant's leaves and stems are reported to be used in traditional medicine by the indigenous people of the region. The exact nature of these uses is unclear, and further research is needed to understand the potential health benefits. It is believed that Beyeria cinerea may have antimicrobial properties, but this has not been extensively studied. More research is required to confirm its medicinal uses and potential health benefits.",
+    "taxonomy": "Beyeria cinerea is classified within the plant family Cephalotaceae. This family is a group of plants commonly known as 'rare' or 'small' shrubs. The genus Beyeria is a part of this family and comprises about 12 species of plants. Beyeria cinerea belongs to the order Sapindales, which includes a diverse range of plant families. The exact classification of Beyeria cinerea is further specified as a species within the genus Beyeria.",
+    "benefits": "Beyeria cinerea, a species of plant in the family Euphorbiaceae, is reported to have potential health benefits. It is said to have antioxidant properties, which can help protect against cell damage and reduce inflammation in the body. The plant also contains compounds that may have anti-inflammatory and antimicrobial effects. However, more research is needed to confirm the full extent of its health benefits. Further studies are required to fully understand the potential uses and applications of Beyeria cinerea in traditional medicine.",
+    "parts": "Beyeria cinerea is known to have medicinal properties, however the specific medicinal parts of the plant are not well-documented. The plant is part of the Santalaceae family, which includes several species used in traditional medicine. Further research is needed to confirm the exact medicinal parts of Beyeria cinerea. The plant's uses and properties may vary depending on the region and culture. More studies are required to fully understand the potential medicinal applications of Beyeria cinerea.",
+    "intro": "Beyeria cinerea is a type of Australian native plant, specifically a species of shrub within the family Cephalotaceae. The plant is valued for its potential health benefits, which include anti-inflammatory, antimicrobial, and antioxidant properties. The bioactive constituents of Beyeria cinerea include flavonoids, phenolic acids, and saponins, which contribute to its therapeutic properties. Traditionally, the plant is used to make herbal preparations such as teas, tinctures, and infusions, which are used to support immune function and alleviate various health conditions."
+}

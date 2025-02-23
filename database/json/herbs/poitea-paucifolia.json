@@ -1,1 +1,725 @@
-{"title": "Poitea paucifolia", "herb_slug": "poitea-paucifolia", "herb_name_scientific": "Poitea paucifolia", "family_slug": "fabaceae", "family_name": "Fabaceae", "url": "herbs/poitea-paucifolia", "lastmod": "2025-1-24", "herb_names_common": [{"name": "poitea", "mentions": 17, "confidence_score": 125, "total_score": 2125}, {"name": "poitea paucifolia", "mentions": 18, "confidence_score": 83, "total_score": 1494}, {"name": "kahili flower", "mentions": 7, "confidence_score": 55, "total_score": 385}, {"name": "kawakawa", "mentions": 6, "confidence_score": 53, "total_score": 318}, {"name": "maori pepper tree", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "new zealand pea tree", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "hawaiian pea tree", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "kohuhu", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "mairena", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "kawa kawa", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "new zealand pepper tree", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "kahili orchid", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "poitea tree", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "red poui tree of joy", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "kakabeak", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "pacific pepper tree", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "kahakaha", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "hawaiian orchid tree", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "koromiko", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "k\u014dwharu", "mentions": 1, "confidence_score": 10, "total_score": 10}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 19, "confidence_score": 150, "total_score": 2850}, {"medicine_or_poison": "poison", "mentions": 1, "confidence_score": 8, "total_score": 8}], "what_description": "Poitea paucifolia is a leguminous vine native to French Polynesia, belonging to the family Fabaceae. It has pinnate leaves with 2-4 pairs of pinnae, and trifoliate leaflets measuring 5-10 mm in length. The plant produces yellow flowers in axillary racemes, 5-6 mm in length, with 5 petals and 10 stamens. The fruit is a flat pod, 10-15 cm long, containing 2-3 seeds. Poitea paucifolia is a member of the tribe Sophoreae, and its growth habit is climbing or trailing.", "category_action": "adaptogens", "ailments": [{"name": "inflammation", "mentions": 19, "confidence_score": 152, "total_score": 2888}, {"name": "digestive issues", "mentions": 11, "confidence_score": 83, "total_score": 913}, {"name": "anxiety", "mentions": 10, "confidence_score": 61, "total_score": 610}, {"name": "diabetes", "mentions": 9, "confidence_score": 59, "total_score": 531}, {"name": "hypertension", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "stress", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "skin conditions", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "pain", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "wound healing", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "arthritis", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "fungal infections", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "skin irritation", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "cancer", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "cardiovascular disease", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "diarrhea", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "cough", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "fever", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "depression", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "respiratory issues", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "fever reduction", "mentions": 3, "confidence_score": 22, "total_score": 66}], "ailments_description": "The most common ailments you can heal with Poitea paucifolia are inflammation, which is reduced due to its anti-inflammatory properties, and digestive issues, such as diarrhea and cough, that are alleviated by its ability to inhibit the growth of pathogens in the gut. Anxiety is also alleviated by the plant's anxiolytic effects, while diabetes is managed by its insulin-sensitizing properties, which decrease blood glucose levels and improve insulin sensitivity. Hypertension is reduced due to its ability to lower blood pressure by inhibiting angiotensin-converting enzyme, and stress is alleviated by its adaptogenic properties, which allow the body to adapt to stress. Skin conditions, such as skin irritation and fungal infections, are treated by its antifungal and antibacterial properties, and pain is alleviated by its analgesic and anti-inflammatory effects. Wound healing is also improved by its ability to promote collagen synthesis and tissue repair, and it has been shown to reduce the severity of arthritis, cardiovascular disease, fever, and respiratory issues.", "properties": [{"name": "antimicrobial", "mentions": 19, "confidence_score": 128, "total_score": 2432}, {"name": "antioxidant", "mentions": 19, "confidence_score": 126, "total_score": 2394}, {"name": "anti-inflammatory", "mentions": 19, "confidence_score": 109, "total_score": 2071}, {"name": "analgesic", "mentions": 19, "confidence_score": 75, "total_score": 1425}, {"name": "cardioprotective", "mentions": 11, "confidence_score": 48, "total_score": 528}, {"name": "antiviral", "mentions": 15, "confidence_score": 44, "total_score": 660}, {"name": "antibacterial", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "neuroprotective", "mentions": 12, "confidence_score": 38, "total_score": 456}, {"name": "antifungal", "mentions": 8, "confidence_score": 38, "total_score": 304}, {"name": "antispasmodic", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "antiseptic", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "anticancer", "mentions": 7, "confidence_score": 19, "total_score": 133}, {"name": "hepatoprotective", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "antihistamine", "mentions": 5, "confidence_score": 16, "total_score": 80}, {"name": "hypoglycemic", "mentions": 5, "confidence_score": 14, "total_score": 70}, {"name": "hypotensive", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "antidiabetic", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "antidiarrheal", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "antihemorrhagic", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cytoprotective", "mentions": 1, "confidence_score": 8, "total_score": 8}], "properties_description": "The main therapeutic properties of Poitea paucifolia are antimicrobial, due to the presence of flavonoids that inhibit the growth of pathogenic microorganisms. Poitea paucifolia has been found to exhibit antioxidant properties, with saponins and phenolic acids contributing to its ability to scavenge free radicals and protect cells from oxidative damage. The plant's anti-inflammatory activity is attributed to the presence of volatile oils, which reduce inflammation by inhibiting the production of pro-inflammatory cytokines. Additionally, Poitea paucifolia has been shown to possess analgesic properties, with alkaloids and glycosides contributing to its pain-relieving effects. Furthermore, the cardioprotective effects of Poitea paucifolia are thought to be mediated by flavonoids and phenolic acids, which have been shown to protect against cardiovascular disease by improving lipid profiles and reducing oxidative stress.", "constituents": [{"name": "quercetin", "mentions": 15, "confidence_score": 132, "total_score": 1980}, {"name": "kaempferol", "mentions": 15, "confidence_score": 119, "total_score": 1785}, {"name": "isorhapontigenin", "mentions": 14, "confidence_score": 102, "total_score": 1428}, {"name": "flavonoids", "mentions": 9, "confidence_score": 56, "total_score": 504}, {"name": "phenolic acids", "mentions": 8, "confidence_score": 48, "total_score": 384}, {"name": "naringenin", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "quinic acid", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "tannins", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "gallic acid", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "alkaloids", "mentions": 6, "confidence_score": 30, "total_score": 180}, {"name": "saponins", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "ellagic acid", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "coumarins", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "phenylethanoid glycosides", "mentions": 6, "confidence_score": 22, "total_score": 132}, {"name": "terpenoids", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "rutin", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "fisetin", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "ferulic acid", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "kaempferitrin", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "triterpenoids", "mentions": 2, "confidence_score": 14, "total_score": 28}], "constituents_description": "The most important healing constituents of Poitea paucifolia are flavonoids, specifically quercetin and kaempferol, which have been identified as key players in its therapeutic potential due to their antioxidant, anti-inflammatory, and antimicrobial properties. These flavonoids have been found to modulate the immune system, reduce oxidative stress, and inhibit the growth of various pathogens. Additionally, isorhapontigenin, another flavonoid present in P. paucifolia, has been shown to possess anti-inflammatory and antioxidant activities, contributing to the plant's overall medicinal properties. The phenolic acids present in the plant, including caffeic acid and ferulic acid, have also been found to exhibit antimicrobial and anti-inflammatory activities, further supporting the plant's therapeutic potential. The collective presence of these constituents in P. paucifolia underlies its effectiveness as a natural remedy for various ailments, including inflammation and infection.", "preparations": [{"name": "tea", "mentions": 20, "confidence_score": 187, "total_score": 3740}, {"name": "infusion", "mentions": 19, "confidence_score": 157, "total_score": 2983}, {"name": "tincture", "mentions": 20, "confidence_score": 138, "total_score": 2760}, {"name": "salve", "mentions": 18, "confidence_score": 86, "total_score": 1548}, {"name": "decoction", "mentions": 15, "confidence_score": 64, "total_score": 960}, {"name": "infused oil", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "capsule", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suppository", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "infused vinegar", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "extract", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "perfume", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "essence", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "glycerite", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Poitea paucifolia are derived from its leaves and flowers. The leaves can be made into a tea by infusing them in hot water to extract its bioactive compounds, including flavonoids and phenolic acids. A decoction is also prepared by boiling the leaves in water to release its medicinal properties. A tincture is prepared by soaking the leaves and flowers in a solvent like ethanol or glycerin to create a concentrated extract. Additionally, a salve can be prepared by infusing the leaves in oil, such as olive or coconut oil, to create a topical application for skin issues.", "side_effects": [{"name": "cause diarrhea", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "experiences nausea", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "experience nausea", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "develops diarrhea", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "induce vomiting", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "experiencing nausea", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "experiencing vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiences allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "developing allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "show increased heart rate", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "suffer from diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause nausea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "feel dizziness", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "develops respiratory issues", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "trigger headaches", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "trigger seizures", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experiencing fatigue", "mentions": 2, "confidence_score": 11, "total_score": 22}], "side_effects_description": "The possible side effects of using Poitea paucifolia improperly include causing diarrhea due to its potential interaction with certain medications, leading to dehydration and electrolyte imbalance. This is because the plant contains glycosides, which can be toxic in high doses, and its improper use may induce nausea and vomiting as a result of gastrointestinal irritation. Developing diarrhea can also lead to malabsorption of essential nutrients and electrolytes. The improper use of Poitea paucifolia may exacerbate underlying health conditions, such as kidney or liver disease, due to its potential toxicity. Experiencing nausea can further lead to dehydration and electrolyte imbalance, which can be severe if left untreated.", "uses": "Poitea paucifolia is a plant species native to the tropical regions of Central and South America. Poitea paucifolia has been traditionally used by indigenous communities for its medicinal properties, including its anti-inflammatory and antimicrobial effects. The plant's leaves and stems are used to treat various health issues, such as wounds, fever, and digestive problems. The plant's extracts have also been studied for their potential antioxidant and antiviral properties. Further research is needed to fully understand the medicinal uses and potential benefits of Poitea paucifolia.", "taxonomy": "Poitea paucifolia is a species of flowering plant in the family Fabaceae. It is a legume native to the mountainous regions of New Zealand. The classification of Poitea paucifolia includes its binomial nomenclature as a species within the genus Poitea. Further classification places it within the subfamily Faboideae, and the order Fabales. Additionally, it belongs to the kingdom Plantae and the phylum Magnoliophyta.", "benefits": "Poitea paucifolia is a species of flowering plant that has been used in traditional medicine to provide several health benefits. It is believed to have anti-inflammatory properties, which may help to reduce pain and swelling in the body. The plant also contains compounds that may have antimicrobial and antioxidant effects, helping to protect against infections and oxidative stress. Additionally, Poitea paucifolia may have a potential role in reducing fever and treating respiratory issues such as bronchitis. Further research is needed to fully understand the extent of its health benefits.", "parts": "Poitea paucifolia, a plant native to New Zealand and parts of the South Pacific, has been traditionally used for its medicinal properties. The leaves of this plant are reportedly used in various traditional remedies. However, the leaves are not the only part of the plant that has been utilized; other parts, such as the bark and roots, also have medicinal applications. Further research is needed to fully understand the extent and effectiveness of these uses. Traditional healers in the region have employed the plant's various parts to treat various ailments, including fever and rheumatism.", "intro": "Poitea paucifolia, also known as the \"Cree tea tree,\" is a plant species native to North America, belonging to the legume family (Fabaceae). The plant has been used in traditional medicine for its health benefits, which include its anti-inflammatory and antimicrobial properties, potentially aiding in the treatment of various health conditions, including gastrointestinal issues and fever. The bioactive constituents of Poitea paucifolia include isoflavones, alkaloids, and saponins, which are responsible for its medicinal properties. Traditionally, the plant is used to make various herbal preparations, such as teas and infusions, which are commonly consumed to promote overall health and well-being."}
+{
+    "title": "Poitea paucifolia",
+    "herb_slug": "poitea-paucifolia",
+    "herb_name_scientific": "Poitea paucifolia",
+    "family_slug": "fabaceae",
+    "family_name": "Fabaceae",
+    "url": "herbs/poitea-paucifolia",
+    "lastmod": "2025-1-24",
+    "herb_names_common": [
+        {
+            "name": "poitea",
+            "mentions": 17,
+            "confidence_score": 125,
+            "total_score": 2125
+        },
+        {
+            "name": "poitea paucifolia",
+            "mentions": 18,
+            "confidence_score": 83,
+            "total_score": 1494
+        },
+        {
+            "name": "kahili flower",
+            "mentions": 7,
+            "confidence_score": 55,
+            "total_score": 385
+        },
+        {
+            "name": "kawakawa",
+            "mentions": 6,
+            "confidence_score": 53,
+            "total_score": 318
+        },
+        {
+            "name": "maori pepper tree",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "new zealand pea tree",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "hawaiian pea tree",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "kohuhu",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "mairena",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "kawa kawa",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "new zealand pepper tree",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "kahili orchid",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "poitea tree",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "red poui tree of joy",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "kakabeak",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "pacific pepper tree",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "kahakaha",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "hawaiian orchid tree",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "koromiko",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "k\u014dwharu",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 19,
+            "confidence_score": 150,
+            "total_score": 2850
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "what_description": "Poitea paucifolia is a leguminous vine native to French Polynesia, belonging to the family Fabaceae. It has pinnate leaves with 2-4 pairs of pinnae, and trifoliate leaflets measuring 5-10 mm in length. The plant produces yellow flowers in axillary racemes, 5-6 mm in length, with 5 petals and 10 stamens. The fruit is a flat pod, 10-15 cm long, containing 2-3 seeds. Poitea paucifolia is a member of the tribe Sophoreae, and its growth habit is climbing or trailing.",
+    "category_action": "adaptogens",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 19,
+            "confidence_score": 152,
+            "total_score": 2888
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 11,
+            "confidence_score": 83,
+            "total_score": 913
+        },
+        {
+            "name": "anxiety",
+            "mentions": 10,
+            "confidence_score": 61,
+            "total_score": 610
+        },
+        {
+            "name": "diabetes",
+            "mentions": 9,
+            "confidence_score": 59,
+            "total_score": 531
+        },
+        {
+            "name": "hypertension",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "stress",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "pain",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "wound healing",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "arthritis",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "cancer",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "cough",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "fever",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "depression",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "fever reduction",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Poitea paucifolia are inflammation, which is reduced due to its anti-inflammatory properties, and digestive issues, such as diarrhea and cough, that are alleviated by its ability to inhibit the growth of pathogens in the gut. Anxiety is also alleviated by the plant's anxiolytic effects, while diabetes is managed by its insulin-sensitizing properties, which decrease blood glucose levels and improve insulin sensitivity. Hypertension is reduced due to its ability to lower blood pressure by inhibiting angiotensin-converting enzyme, and stress is alleviated by its adaptogenic properties, which allow the body to adapt to stress. Skin conditions, such as skin irritation and fungal infections, are treated by its antifungal and antibacterial properties, and pain is alleviated by its analgesic and anti-inflammatory effects. Wound healing is also improved by its ability to promote collagen synthesis and tissue repair, and it has been shown to reduce the severity of arthritis, cardiovascular disease, fever, and respiratory issues.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 19,
+            "confidence_score": 128,
+            "total_score": 2432
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 19,
+            "confidence_score": 126,
+            "total_score": 2394
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 19,
+            "confidence_score": 109,
+            "total_score": 2071
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 75,
+            "total_score": 1425
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 11,
+            "confidence_score": 48,
+            "total_score": 528
+        },
+        {
+            "name": "antiviral",
+            "mentions": 15,
+            "confidence_score": 44,
+            "total_score": 660
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 12,
+            "confidence_score": 38,
+            "total_score": 456
+        },
+        {
+            "name": "antifungal",
+            "mentions": 8,
+            "confidence_score": 38,
+            "total_score": 304
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "anticancer",
+            "mentions": 7,
+            "confidence_score": 19,
+            "total_score": 133
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 5,
+            "confidence_score": 16,
+            "total_score": 80
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 5,
+            "confidence_score": 14,
+            "total_score": 70
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "antihemorrhagic",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Poitea paucifolia are antimicrobial, due to the presence of flavonoids that inhibit the growth of pathogenic microorganisms. Poitea paucifolia has been found to exhibit antioxidant properties, with saponins and phenolic acids contributing to its ability to scavenge free radicals and protect cells from oxidative damage. The plant's anti-inflammatory activity is attributed to the presence of volatile oils, which reduce inflammation by inhibiting the production of pro-inflammatory cytokines. Additionally, Poitea paucifolia has been shown to possess analgesic properties, with alkaloids and glycosides contributing to its pain-relieving effects. Furthermore, the cardioprotective effects of Poitea paucifolia are thought to be mediated by flavonoids and phenolic acids, which have been shown to protect against cardiovascular disease by improving lipid profiles and reducing oxidative stress.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 15,
+            "confidence_score": 132,
+            "total_score": 1980
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 15,
+            "confidence_score": 119,
+            "total_score": 1785
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 14,
+            "confidence_score": 102,
+            "total_score": 1428
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 9,
+            "confidence_score": 56,
+            "total_score": 504
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 8,
+            "confidence_score": 48,
+            "total_score": 384
+        },
+        {
+            "name": "naringenin",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "tannins",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 6,
+            "confidence_score": 30,
+            "total_score": 180
+        },
+        {
+            "name": "saponins",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "coumarins",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "phenylethanoid glycosides",
+            "mentions": 6,
+            "confidence_score": 22,
+            "total_score": 132
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "rutin",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "fisetin",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "kaempferitrin",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Poitea paucifolia are flavonoids, specifically quercetin and kaempferol, which have been identified as key players in its therapeutic potential due to their antioxidant, anti-inflammatory, and antimicrobial properties. These flavonoids have been found to modulate the immune system, reduce oxidative stress, and inhibit the growth of various pathogens. Additionally, isorhapontigenin, another flavonoid present in P. paucifolia, has been shown to possess anti-inflammatory and antioxidant activities, contributing to the plant's overall medicinal properties. The phenolic acids present in the plant, including caffeic acid and ferulic acid, have also been found to exhibit antimicrobial and anti-inflammatory activities, further supporting the plant's therapeutic potential. The collective presence of these constituents in P. paucifolia underlies its effectiveness as a natural remedy for various ailments, including inflammation and infection.",
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 20,
+            "confidence_score": 187,
+            "total_score": 3740
+        },
+        {
+            "name": "infusion",
+            "mentions": 19,
+            "confidence_score": 157,
+            "total_score": 2983
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 138,
+            "total_score": 2760
+        },
+        {
+            "name": "salve",
+            "mentions": 18,
+            "confidence_score": 86,
+            "total_score": 1548
+        },
+        {
+            "name": "decoction",
+            "mentions": 15,
+            "confidence_score": 64,
+            "total_score": 960
+        },
+        {
+            "name": "infused oil",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "capsule",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "infused vinegar",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "extract",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "perfume",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "essence",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Poitea paucifolia are derived from its leaves and flowers. The leaves can be made into a tea by infusing them in hot water to extract its bioactive compounds, including flavonoids and phenolic acids. A decoction is also prepared by boiling the leaves in water to release its medicinal properties. A tincture is prepared by soaking the leaves and flowers in a solvent like ethanol or glycerin to create a concentrated extract. Additionally, a salve can be prepared by infusing the leaves in oil, such as olive or coconut oil, to create a topical application for skin issues.",
+    "side_effects": [
+        {
+            "name": "cause diarrhea",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "developing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "show increased heart rate",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "suffer from diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "develops respiratory issues",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experiencing fatigue",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Poitea paucifolia improperly include causing diarrhea due to its potential interaction with certain medications, leading to dehydration and electrolyte imbalance. This is because the plant contains glycosides, which can be toxic in high doses, and its improper use may induce nausea and vomiting as a result of gastrointestinal irritation. Developing diarrhea can also lead to malabsorption of essential nutrients and electrolytes. The improper use of Poitea paucifolia may exacerbate underlying health conditions, such as kidney or liver disease, due to its potential toxicity. Experiencing nausea can further lead to dehydration and electrolyte imbalance, which can be severe if left untreated.",
+    "uses": "Poitea paucifolia is a plant species native to the tropical regions of Central and South America. Poitea paucifolia has been traditionally used by indigenous communities for its medicinal properties, including its anti-inflammatory and antimicrobial effects. The plant's leaves and stems are used to treat various health issues, such as wounds, fever, and digestive problems. The plant's extracts have also been studied for their potential antioxidant and antiviral properties. Further research is needed to fully understand the medicinal uses and potential benefits of Poitea paucifolia.",
+    "taxonomy": "Poitea paucifolia is a species of flowering plant in the family Fabaceae. It is a legume native to the mountainous regions of New Zealand. The classification of Poitea paucifolia includes its binomial nomenclature as a species within the genus Poitea. Further classification places it within the subfamily Faboideae, and the order Fabales. Additionally, it belongs to the kingdom Plantae and the phylum Magnoliophyta.",
+    "benefits": "Poitea paucifolia is a species of flowering plant that has been used in traditional medicine to provide several health benefits. It is believed to have anti-inflammatory properties, which may help to reduce pain and swelling in the body. The plant also contains compounds that may have antimicrobial and antioxidant effects, helping to protect against infections and oxidative stress. Additionally, Poitea paucifolia may have a potential role in reducing fever and treating respiratory issues such as bronchitis. Further research is needed to fully understand the extent of its health benefits.",
+    "parts": "Poitea paucifolia, a plant native to New Zealand and parts of the South Pacific, has been traditionally used for its medicinal properties. The leaves of this plant are reportedly used in various traditional remedies. However, the leaves are not the only part of the plant that has been utilized; other parts, such as the bark and roots, also have medicinal applications. Further research is needed to fully understand the extent and effectiveness of these uses. Traditional healers in the region have employed the plant's various parts to treat various ailments, including fever and rheumatism.",
+    "intro": "Poitea paucifolia, also known as the \"Cree tea tree,\" is a plant species native to North America, belonging to the legume family (Fabaceae). The plant has been used in traditional medicine for its health benefits, which include its anti-inflammatory and antimicrobial properties, potentially aiding in the treatment of various health conditions, including gastrointestinal issues and fever. The bioactive constituents of Poitea paucifolia include isoflavones, alkaloids, and saponins, which are responsible for its medicinal properties. Traditionally, the plant is used to make various herbal preparations, such as teas and infusions, which are commonly consumed to promote overall health and well-being."
+}

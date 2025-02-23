@@ -1,1 +1,756 @@
-{"title": "Cynara scolymus", "herb_slug": "cynara-scolymus", "herb_name_scientific": "Cynara scolymus", "family_slug": "", "family_name": "", "url": "herbs/cynara-scolymus", "lastmod": "2025-1-20", "herb_names_common": [{"name": "artichoke", "mentions": 20, "confidence_score": 187, "total_score": 3740}, {"name": "globe artichoke", "mentions": 20, "confidence_score": 170, "total_score": 3400}, {"name": "cardoon", "mentions": 18, "confidence_score": 129, "total_score": 2322}, {"name": "cynara", "mentions": 18, "confidence_score": 82, "total_score": 1476}, {"name": "artichoke thistle", "mentions": 8, "confidence_score": 58, "total_score": 464}, {"name": "french artichoke", "mentions": 9, "confidence_score": 56, "total_score": 504}, {"name": "artichaut", "mentions": 9, "confidence_score": 47, "total_score": 423}, {"name": "thistle artichoke", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "cardoon artichoke", "mentions": 6, "confidence_score": 22, "total_score": 132}, {"name": "articiocco", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "carciofi", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "scolymus artichoke", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "girasole", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "globe artichoke thistle", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "globe thistle", "mentions": 6, "confidence_score": 16, "total_score": 96}, {"name": "italian artichoke", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "scolymus", "mentions": 9, "confidence_score": 15, "total_score": 135}, {"name": "cardone", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "globe cardoon", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "wild artichoke", "mentions": 3, "confidence_score": 10, "total_score": 30}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 172, "total_score": 3440}], "what_description": "Cynara scolymus is a perennial thistle native to the Mediterranean region, belonging to the family Asteraceae. The plant grows 1-3 meters tall, with a stout stem and large, ovate, silvery-gray leaves that are deeply lobed and arranged oppositely. The inflorescence is a dense, spherical head of deep purple flowers with a prominent, feathery tuft of bracts, produced from June to September. The leaves and flower stalks are edible and have been used as a vegetable in various cuisines, particularly in Greek and Italian cooking. The plant prefers well-drained soil and full sun, thriving in dry, rocky areas and along coastlines.", "category_action": "diuretics", "ailments": [{"name": "type 2 diabetes", "mentions": 19, "confidence_score": 145, "total_score": 2755}, {"name": "high blood pressure", "mentions": 12, "confidence_score": 114, "total_score": 1368}, {"name": "inflammation", "mentions": 13, "confidence_score": 110, "total_score": 1430}, {"name": "digestive issues", "mentions": 13, "confidence_score": 95, "total_score": 1235}, {"name": "arthritis", "mentions": 13, "confidence_score": 94, "total_score": 1222}, {"name": "cancer prevention", "mentions": 15, "confidence_score": 90, "total_score": 1350}, {"name": "osteoporosis", "mentions": 10, "confidence_score": 76, "total_score": 760}, {"name": "kidney stones", "mentions": 9, "confidence_score": 62, "total_score": 558}, {"name": "hypertension", "mentions": 8, "confidence_score": 61, "total_score": 488}, {"name": "obesity", "mentions": 8, "confidence_score": 53, "total_score": 424}, {"name": "cardiovascular disease", "mentions": 5, "confidence_score": 44, "total_score": 220}, {"name": "gout", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "atherosclerosis", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "cholesterol", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "gastroesophageal reflux", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "gastritis", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "antioxidant deficiency", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "gallstones", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "hypothyroidism", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "hyperlipidemia", "mentions": 2, "confidence_score": 17, "total_score": 34}], "ailments_description": "The most common ailments you can heal with Cynara scolymus are type 2 diabetes, which is alleviated by reducing insulin resistance and improving glucose metabolism. Cynara scolymus also helps alleviate high blood pressure by lowering systolic blood pressure and reducing the risk of cardiovascular events. It reduces inflammation by inhibiting the production of pro-inflammatory cytokines and enzymes. Additionally, it alleviates digestive issues, such as gastritis and gastroesophageal reflux, by improving gut motility and reducing gastric acid secretion, while also preventing gallstones and reducing the risk of kidney stones. Furthermore, Cynara scolymus helps to alleviate osteoporosis, hyperlipidemia, hypertension, atherosclerosis, obesity, gout, cholesterol, cancer, antioxidant deficiency, and cardiovascular disease by modulating the expression of genes involved in these conditions.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 179, "total_score": 3580}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 169, "total_score": 3380}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 147, "total_score": 2940}, {"name": "hypoglycemic", "mentions": 14, "confidence_score": 97, "total_score": 1358}, {"name": "cardioprotective", "mentions": 13, "confidence_score": 94, "total_score": 1222}, {"name": "anti-hypertensive", "mentions": 8, "confidence_score": 51, "total_score": 408}, {"name": "laxative", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "antioxidant enzyme inducer", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "anticancer", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "antihypertensive", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "diuretic", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "antidiabetic", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "hypocholesterolemic", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "hepatoprotective", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "anti-cancer", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "hypotensive", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "choleretic", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "antioxidant (polyphenols)", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "digestive aid", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "antioxidant hepatoprotective", "mentions": 2, "confidence_score": 16, "total_score": 32}], "properties_description": "The main therapeutic properties of Cynara scolymus are antioxidant, which is attributed to its flavonoids and phenolic acids, and anti-inflammatory properties, resulting from its saponins and terpenoids, that can modulate the activity of various enzymes and cytokines, thereby reducing oxidative stress and inflammation in the body. Additionally, this plant possesses antimicrobial properties, mediated by its essential oils and phenolic compounds, that are effective against a wide range of microorganisms, including bacteria and fungi. Cynara scolymus also exhibits hypoglycemic effects, which are associated with its flavonoids and terpenoids, that can inhibit glucose uptake in the intestines and improve insulin sensitivity. Furthermore, its cardioprotective properties are attributed to its flavonoids and saponins, that can reduce lipid peroxidation and improve cardiovascular function by modulating the activity of various enzymes and receptors. The bioactive compounds present in Cynara scolymus, including flavonoids, saponins, and essential oils, are responsible for its medicinal properties, which can be used to prevent and treat various diseases.", "constituents": [{"name": "cynarin", "mentions": 20, "confidence_score": 185, "total_score": 3700}, {"name": "quercetin", "mentions": 16, "confidence_score": 127, "total_score": 2032}, {"name": "luteolin", "mentions": 15, "confidence_score": 117, "total_score": 1755}, {"name": "kaempferol", "mentions": 16, "confidence_score": 100, "total_score": 1600}, {"name": "apigenin", "mentions": 15, "confidence_score": 98, "total_score": 1470}, {"name": "inulin", "mentions": 11, "confidence_score": 94, "total_score": 1034}, {"name": "scolymoside", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "cynaropicrin", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "chlorogenic acid", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "naringenin", "mentions": 7, "confidence_score": 30, "total_score": 210}, {"name": "saponins", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "isorhapontigenin", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "minerals (potassium, magnesium, calcium)", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "caffeic acid", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "vitexin", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "phenolic acids", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "vitamins a and c", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "flavonoids", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "rosmarinic acid", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "lactucarium", "mentions": 2, "confidence_score": 17, "total_score": 34}], "constituents_description": "The most important healing constituents of Cynara scolymus are cynarin, quercetin, luteolin, kaempferol, and apigenin. These constituents have been identified as responsible for the medicinal properties of artichoke extract. Cynarin has been shown to improve liver function by increasing bile production, reducing bilirubin levels, and inhibiting lipid peroxidation. Flavonoids such as quercetin, luteolin, kaempferol, and apigenin possess antioxidant, anti-inflammatory, and anti-cancer properties, which contribute to the plant's hepatoprotective and anti-arthritic effects. Research has demonstrated that these flavonoids inhibit enzymes involved in the inflammatory response, reduce oxidative stress, and induce apoptosis in cancer cells.", "preparations": [{"name": "infusion", "mentions": 12, "confidence_score": 118, "total_score": 1416}, {"name": "tincture", "mentions": 15, "confidence_score": 118, "total_score": 1770}, {"name": "tea", "mentions": 11, "confidence_score": 78, "total_score": 858}, {"name": "salve", "mentions": 13, "confidence_score": 57, "total_score": 741}, {"name": "artichoke capsules", "mentions": 8, "confidence_score": 54, "total_score": 432}, {"name": "capsule", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "decoction", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "artichoke juice", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "suppository", "mentions": 7, "confidence_score": 28, "total_score": 196}, {"name": "artichoke tea", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "infused oil", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "artichoke infusion", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "artichoke tincture", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "glycerite", "mentions": 7, "confidence_score": 24, "total_score": 168}, {"name": "extract", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "artichoke oil", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "cynara tea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "ointment", "mentions": 5, "confidence_score": 17, "total_score": 85}, {"name": "artichoke extract", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "essential oil", "mentions": 3, "confidence_score": 11, "total_score": 33}], "preparations_description": "The main herbal preparations of Cynara scolymus are derived from its edible flower buds and leaves, which have been used in traditional medicine for various purposes. Infusion and tea preparations are made from the dried flowers and leaves, often used to support digestive health and reduce inflammation. Tincture preparations are typically made from the dried flowers and leaves, which are extracted with a solvent such as ethanol or glycerin, used to treat various health conditions including liver and kidney support. Salve preparations are made from the leaves and flowers, used topically to soothe skin irritations and wounds. Artichoke capsules are a concentrated form of the herb, used to support liver and cardiovascular health.", "side_effects": [{"name": "interact with medications", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "exacerbate diarrhea", "mentions": 3, "confidence_score": 30, "total_score": 90}, {"name": "induce diarrhea", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "experience diarrhea", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "exacerbate kidney disease", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "cause vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induce allergic reaction", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experience abdominal pain", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "increase blood pressure", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experience vomiting", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "elevate liver enzymes", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause allergic reactions", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "provoke nausea", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "cause electrolyte imbalance", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "induce nausea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experience electrolyte imbalance", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "elicit anaphylaxis", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effect of using Cynara scolymus are numerous and can be severe when used improperly. Cynara scolymus may interact with medications such as blood thinners, diabetes medications, and blood pressure medications, which can lead to serious complications. Improper use of Cynara scolymus can also exacerbate diarrhea in individuals with pre-existing gastrointestinal conditions, and in some cases, induce diarrhea in healthy individuals, causing dehydration and electrolyte imbalances. The excessive consumption of Cynara scolymus can lead to gastrointestinal symptoms, including diarrhea, which can be uncomfortable and potentially debilitating. Furthermore, Cynara scolymus may worsen diarrhea in individuals with conditions such as irritable bowel syndrome, inflammatory bowel disease, and gastroenteritis."}
+{
+    "title": "Cynara scolymus",
+    "herb_slug": "cynara-scolymus",
+    "herb_name_scientific": "Cynara scolymus",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/cynara-scolymus",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "artichoke",
+            "mentions": 20,
+            "confidence_score": 187,
+            "total_score": 3740
+        },
+        {
+            "name": "globe artichoke",
+            "mentions": 20,
+            "confidence_score": 170,
+            "total_score": 3400
+        },
+        {
+            "name": "cardoon",
+            "mentions": 18,
+            "confidence_score": 129,
+            "total_score": 2322
+        },
+        {
+            "name": "cynara",
+            "mentions": 18,
+            "confidence_score": 82,
+            "total_score": 1476
+        },
+        {
+            "name": "artichoke thistle",
+            "mentions": 8,
+            "confidence_score": 58,
+            "total_score": 464
+        },
+        {
+            "name": "french artichoke",
+            "mentions": 9,
+            "confidence_score": 56,
+            "total_score": 504
+        },
+        {
+            "name": "artichaut",
+            "mentions": 9,
+            "confidence_score": 47,
+            "total_score": 423
+        },
+        {
+            "name": "thistle artichoke",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "cardoon artichoke",
+            "mentions": 6,
+            "confidence_score": 22,
+            "total_score": 132
+        },
+        {
+            "name": "articiocco",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "carciofi",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "scolymus artichoke",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "girasole",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "globe artichoke thistle",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "globe thistle",
+            "mentions": 6,
+            "confidence_score": 16,
+            "total_score": 96
+        },
+        {
+            "name": "italian artichoke",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "scolymus",
+            "mentions": 9,
+            "confidence_score": 15,
+            "total_score": 135
+        },
+        {
+            "name": "cardone",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "globe cardoon",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "wild artichoke",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        }
+    ],
+    "what_description": "Cynara scolymus is a perennial thistle native to the Mediterranean region, belonging to the family Asteraceae. The plant grows 1-3 meters tall, with a stout stem and large, ovate, silvery-gray leaves that are deeply lobed and arranged oppositely. The inflorescence is a dense, spherical head of deep purple flowers with a prominent, feathery tuft of bracts, produced from June to September. The leaves and flower stalks are edible and have been used as a vegetable in various cuisines, particularly in Greek and Italian cooking. The plant prefers well-drained soil and full sun, thriving in dry, rocky areas and along coastlines.",
+    "category_action": "diuretics",
+    "ailments": [
+        {
+            "name": "type 2 diabetes",
+            "mentions": 19,
+            "confidence_score": 145,
+            "total_score": 2755
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 12,
+            "confidence_score": 114,
+            "total_score": 1368
+        },
+        {
+            "name": "inflammation",
+            "mentions": 13,
+            "confidence_score": 110,
+            "total_score": 1430
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 13,
+            "confidence_score": 95,
+            "total_score": 1235
+        },
+        {
+            "name": "arthritis",
+            "mentions": 13,
+            "confidence_score": 94,
+            "total_score": 1222
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 15,
+            "confidence_score": 90,
+            "total_score": 1350
+        },
+        {
+            "name": "osteoporosis",
+            "mentions": 10,
+            "confidence_score": 76,
+            "total_score": 760
+        },
+        {
+            "name": "kidney stones",
+            "mentions": 9,
+            "confidence_score": 62,
+            "total_score": 558
+        },
+        {
+            "name": "hypertension",
+            "mentions": 8,
+            "confidence_score": 61,
+            "total_score": 488
+        },
+        {
+            "name": "obesity",
+            "mentions": 8,
+            "confidence_score": 53,
+            "total_score": 424
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        },
+        {
+            "name": "gout",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "atherosclerosis",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "cholesterol",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "gastroesophageal reflux",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "gastritis",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "antioxidant deficiency",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "gallstones",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "hypothyroidism",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "hyperlipidemia",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Cynara scolymus are type 2 diabetes, which is alleviated by reducing insulin resistance and improving glucose metabolism. Cynara scolymus also helps alleviate high blood pressure by lowering systolic blood pressure and reducing the risk of cardiovascular events. It reduces inflammation by inhibiting the production of pro-inflammatory cytokines and enzymes. Additionally, it alleviates digestive issues, such as gastritis and gastroesophageal reflux, by improving gut motility and reducing gastric acid secretion, while also preventing gallstones and reducing the risk of kidney stones. Furthermore, Cynara scolymus helps to alleviate osteoporosis, hyperlipidemia, hypertension, atherosclerosis, obesity, gout, cholesterol, cancer, antioxidant deficiency, and cardiovascular disease by modulating the expression of genes involved in these conditions.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 179,
+            "total_score": 3580
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 169,
+            "total_score": 3380
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 147,
+            "total_score": 2940
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 14,
+            "confidence_score": 97,
+            "total_score": 1358
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 13,
+            "confidence_score": 94,
+            "total_score": 1222
+        },
+        {
+            "name": "anti-hypertensive",
+            "mentions": 8,
+            "confidence_score": 51,
+            "total_score": 408
+        },
+        {
+            "name": "laxative",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "antioxidant enzyme inducer",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "diuretic",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "hypocholesterolemic",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "anti-cancer",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "choleretic",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "antioxidant (polyphenols)",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "digestive aid",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "antioxidant hepatoprotective",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Cynara scolymus are antioxidant, which is attributed to its flavonoids and phenolic acids, and anti-inflammatory properties, resulting from its saponins and terpenoids, that can modulate the activity of various enzymes and cytokines, thereby reducing oxidative stress and inflammation in the body. Additionally, this plant possesses antimicrobial properties, mediated by its essential oils and phenolic compounds, that are effective against a wide range of microorganisms, including bacteria and fungi. Cynara scolymus also exhibits hypoglycemic effects, which are associated with its flavonoids and terpenoids, that can inhibit glucose uptake in the intestines and improve insulin sensitivity. Furthermore, its cardioprotective properties are attributed to its flavonoids and saponins, that can reduce lipid peroxidation and improve cardiovascular function by modulating the activity of various enzymes and receptors. The bioactive compounds present in Cynara scolymus, including flavonoids, saponins, and essential oils, are responsible for its medicinal properties, which can be used to prevent and treat various diseases.",
+    "constituents": [
+        {
+            "name": "cynarin",
+            "mentions": 20,
+            "confidence_score": 185,
+            "total_score": 3700
+        },
+        {
+            "name": "quercetin",
+            "mentions": 16,
+            "confidence_score": 127,
+            "total_score": 2032
+        },
+        {
+            "name": "luteolin",
+            "mentions": 15,
+            "confidence_score": 117,
+            "total_score": 1755
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 16,
+            "confidence_score": 100,
+            "total_score": 1600
+        },
+        {
+            "name": "apigenin",
+            "mentions": 15,
+            "confidence_score": 98,
+            "total_score": 1470
+        },
+        {
+            "name": "inulin",
+            "mentions": 11,
+            "confidence_score": 94,
+            "total_score": 1034
+        },
+        {
+            "name": "scolymoside",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "cynaropicrin",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "chlorogenic acid",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "naringenin",
+            "mentions": 7,
+            "confidence_score": 30,
+            "total_score": 210
+        },
+        {
+            "name": "saponins",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "minerals (potassium, magnesium, calcium)",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "vitexin",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "vitamins a and c",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "rosmarinic acid",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "lactucarium",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Cynara scolymus are cynarin, quercetin, luteolin, kaempferol, and apigenin. These constituents have been identified as responsible for the medicinal properties of artichoke extract. Cynarin has been shown to improve liver function by increasing bile production, reducing bilirubin levels, and inhibiting lipid peroxidation. Flavonoids such as quercetin, luteolin, kaempferol, and apigenin possess antioxidant, anti-inflammatory, and anti-cancer properties, which contribute to the plant's hepatoprotective and anti-arthritic effects. Research has demonstrated that these flavonoids inhibit enzymes involved in the inflammatory response, reduce oxidative stress, and induce apoptosis in cancer cells.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 12,
+            "confidence_score": 118,
+            "total_score": 1416
+        },
+        {
+            "name": "tincture",
+            "mentions": 15,
+            "confidence_score": 118,
+            "total_score": 1770
+        },
+        {
+            "name": "tea",
+            "mentions": 11,
+            "confidence_score": 78,
+            "total_score": 858
+        },
+        {
+            "name": "salve",
+            "mentions": 13,
+            "confidence_score": 57,
+            "total_score": 741
+        },
+        {
+            "name": "artichoke capsules",
+            "mentions": 8,
+            "confidence_score": 54,
+            "total_score": 432
+        },
+        {
+            "name": "capsule",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "decoction",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "artichoke juice",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "suppository",
+            "mentions": 7,
+            "confidence_score": 28,
+            "total_score": 196
+        },
+        {
+            "name": "artichoke tea",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "artichoke infusion",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "artichoke tincture",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "glycerite",
+            "mentions": 7,
+            "confidence_score": 24,
+            "total_score": 168
+        },
+        {
+            "name": "extract",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "artichoke oil",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "cynara tea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "ointment",
+            "mentions": 5,
+            "confidence_score": 17,
+            "total_score": 85
+        },
+        {
+            "name": "artichoke extract",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "essential oil",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Cynara scolymus are derived from its edible flower buds and leaves, which have been used in traditional medicine for various purposes. Infusion and tea preparations are made from the dried flowers and leaves, often used to support digestive health and reduce inflammation. Tincture preparations are typically made from the dried flowers and leaves, which are extracted with a solvent such as ethanol or glycerin, used to treat various health conditions including liver and kidney support. Salve preparations are made from the leaves and flowers, used topically to soothe skin irritations and wounds. Artichoke capsules are a concentrated form of the herb, used to support liver and cardiovascular health.",
+    "side_effects": [
+        {
+            "name": "interact with medications",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "exacerbate diarrhea",
+            "mentions": 3,
+            "confidence_score": 30,
+            "total_score": 90
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "exacerbate kidney disease",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induce allergic reaction",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "elevate liver enzymes",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause allergic reactions",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "provoke nausea",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "cause electrolyte imbalance",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experience electrolyte imbalance",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "elicit anaphylaxis",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effect of using Cynara scolymus are numerous and can be severe when used improperly. Cynara scolymus may interact with medications such as blood thinners, diabetes medications, and blood pressure medications, which can lead to serious complications. Improper use of Cynara scolymus can also exacerbate diarrhea in individuals with pre-existing gastrointestinal conditions, and in some cases, induce diarrhea in healthy individuals, causing dehydration and electrolyte imbalances. The excessive consumption of Cynara scolymus can lead to gastrointestinal symptoms, including diarrhea, which can be uncomfortable and potentially debilitating. Furthermore, Cynara scolymus may worsen diarrhea in individuals with conditions such as irritable bowel syndrome, inflammatory bowel disease, and gastroenteritis."
+}

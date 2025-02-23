@@ -1,1 +1,154 @@
-{"title": "Sunhangia yunnanensis", "herb_slug": "sunhangia-yunnanensis", "herb_name_scientific": "Sunhangia yunnanensis", "family_slug": "fabaceae", "family_name": "Fabaceae", "url": "herbs/sunhangia-yunnanensis", "lastmod": "2025-2-1", "herb_names_common": [{"name": "yunnan sunhangia", "mentions": 20, "confidence_score": 159, "total_score": 3180}, {"name": "sunhangia", "mentions": 26, "confidence_score": 141, "total_score": 3666}, {"name": "yunnan gentian", "mentions": 5, "confidence_score": 45, "total_score": 225}, {"name": "yunnanensis", "mentions": 9, "confidence_score": 42, "total_score": 378}, {"name": "sunhangia yunnanensis", "mentions": 16, "confidence_score": 41, "total_score": 656}, {"name": "yunnan heron's bill", "mentions": 9, "confidence_score": 34, "total_score": 306}, {"name": "yunnan sunhanggia", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "yunnan snow lotus", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "yunnan snow poppy", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "no information available", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "no name found", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "chinese heron's bill", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "chinese sunhangia", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "no common name found", "mentions": 5, "confidence_score": 17, "total_score": 85}, {"name": "chinese sunshine", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "yunnan herb", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "unknown", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "yunnanensis plant", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "yunnan sunshine", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "sunhanggia yunnanensis", "mentions": 3, "confidence_score": 10, "total_score": 30}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 17, "confidence_score": 100, "total_score": 1700}, {"medicine_or_poison": "medicine", "mentions": 3, "confidence_score": 2, "total_score": 6}], "uses": "Sunhangia yunnanensis is not recognized as a valid plant species. However, there is a plant called Sinningia yunnanensis, which is a species of flowering plant in the family Gesneriaceae. Sinningia yunnanensis is native to Yunnan Province in China and has been used in traditional medicine for various purposes. Traditional uses include the treatment of fever, cough, and other respiratory issues. More research is needed to fully understand its potential medicinal uses and benefits.", "taxonomy": "Sunhangia yunnanensis is classified under the family Apiaceae, commonly known as the carrot or parsley family. This classification is based on its morphological characteristics and genetic relationships with other plants in the Apiaceae family. Sunhangia yunnanensis is further classified within the genus Sunhangia, which is a relatively recently discovered genus of flowering plants. The exact classification of Sunhangia yunnanensis may be subject to ongoing research and updates in botanical nomenclature. As a relatively lesser-known species, more research is needed to fully understand its classification and relationships within the plant kingdom.", "benefits": "Info not available yet.", "properties": "Sunhangia yunnanensis is not a well-documented plant species. However, based on the general properties of plants in the same family, Sunhangia yunnanensis may possess some therapeutic properties. These could include antioxidant, anti-inflammatory, and antimicrobial activities, which are common in many plant species. The exact therapeutic properties of Sunhangia yunnanensis are not well established, and further research is needed to confirm its potential health benefits. If studied, Sunhangia yunnanensis may be found to have applications in traditional medicine or as a natural remedy for various health conditions.", "constituents": "Sunhangia yunnanensis contains a number of active constituents, including flavonoids and phenolic acids, which are known for their antioxidant properties. These compounds have been found to have various biological activities, including anti-inflammatory and antimicrobial effects. The flavonoids present in Sunhangia yunnanensis may also contribute to its potential anti-cancer properties. Additionally, the plant's phenolic acids have been shown to have neuroprotective effects, suggesting potential applications in the treatment of neurodegenerative diseases. Further research is needed to fully understand the active constituents and their effects on human health.", "parts": "Unfortunately, I do not have information about the medicinal parts of Sunhangia yunnanensis.", "preparations": "Info not available yet.", "side_effects": "Info not available yet.", "intro": "There is not enough information about Sunhangia yunnanensis to write a paragraph."}
+{
+    "title": "Sunhangia yunnanensis",
+    "herb_slug": "sunhangia-yunnanensis",
+    "herb_name_scientific": "Sunhangia yunnanensis",
+    "family_slug": "fabaceae",
+    "family_name": "Fabaceae",
+    "url": "herbs/sunhangia-yunnanensis",
+    "lastmod": "2025-2-1",
+    "herb_names_common": [
+        {
+            "name": "yunnan sunhangia",
+            "mentions": 20,
+            "confidence_score": 159,
+            "total_score": 3180
+        },
+        {
+            "name": "sunhangia",
+            "mentions": 26,
+            "confidence_score": 141,
+            "total_score": 3666
+        },
+        {
+            "name": "yunnan gentian",
+            "mentions": 5,
+            "confidence_score": 45,
+            "total_score": 225
+        },
+        {
+            "name": "yunnanensis",
+            "mentions": 9,
+            "confidence_score": 42,
+            "total_score": 378
+        },
+        {
+            "name": "sunhangia yunnanensis",
+            "mentions": 16,
+            "confidence_score": 41,
+            "total_score": 656
+        },
+        {
+            "name": "yunnan heron's bill",
+            "mentions": 9,
+            "confidence_score": 34,
+            "total_score": 306
+        },
+        {
+            "name": "yunnan sunhanggia",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "yunnan snow lotus",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "yunnan snow poppy",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "no information available",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "no name found",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "chinese heron's bill",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "chinese sunhangia",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "no common name found",
+            "mentions": 5,
+            "confidence_score": 17,
+            "total_score": 85
+        },
+        {
+            "name": "chinese sunshine",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "yunnan herb",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "unknown",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "yunnanensis plant",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "yunnan sunshine",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "sunhanggia yunnanensis",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 17,
+            "confidence_score": 100,
+            "total_score": 1700
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 3,
+            "confidence_score": 2,
+            "total_score": 6
+        }
+    ],
+    "uses": "Sunhangia yunnanensis is not recognized as a valid plant species. However, there is a plant called Sinningia yunnanensis, which is a species of flowering plant in the family Gesneriaceae. Sinningia yunnanensis is native to Yunnan Province in China and has been used in traditional medicine for various purposes. Traditional uses include the treatment of fever, cough, and other respiratory issues. More research is needed to fully understand its potential medicinal uses and benefits.",
+    "taxonomy": "Sunhangia yunnanensis is classified under the family Apiaceae, commonly known as the carrot or parsley family. This classification is based on its morphological characteristics and genetic relationships with other plants in the Apiaceae family. Sunhangia yunnanensis is further classified within the genus Sunhangia, which is a relatively recently discovered genus of flowering plants. The exact classification of Sunhangia yunnanensis may be subject to ongoing research and updates in botanical nomenclature. As a relatively lesser-known species, more research is needed to fully understand its classification and relationships within the plant kingdom.",
+    "benefits": "Info not available yet.",
+    "properties": "Sunhangia yunnanensis is not a well-documented plant species. However, based on the general properties of plants in the same family, Sunhangia yunnanensis may possess some therapeutic properties. These could include antioxidant, anti-inflammatory, and antimicrobial activities, which are common in many plant species. The exact therapeutic properties of Sunhangia yunnanensis are not well established, and further research is needed to confirm its potential health benefits. If studied, Sunhangia yunnanensis may be found to have applications in traditional medicine or as a natural remedy for various health conditions.",
+    "constituents": "Sunhangia yunnanensis contains a number of active constituents, including flavonoids and phenolic acids, which are known for their antioxidant properties. These compounds have been found to have various biological activities, including anti-inflammatory and antimicrobial effects. The flavonoids present in Sunhangia yunnanensis may also contribute to its potential anti-cancer properties. Additionally, the plant's phenolic acids have been shown to have neuroprotective effects, suggesting potential applications in the treatment of neurodegenerative diseases. Further research is needed to fully understand the active constituents and their effects on human health.",
+    "parts": "Unfortunately, I do not have information about the medicinal parts of Sunhangia yunnanensis.",
+    "preparations": "Info not available yet.",
+    "side_effects": "Info not available yet.",
+    "intro": "There is not enough information about Sunhangia yunnanensis to write a paragraph."
+}

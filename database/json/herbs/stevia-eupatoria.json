@@ -1,1 +1,761 @@
-{"title": "Stevia eupatoria", "herb_slug": "stevia-eupatoria", "herb_name_scientific": "Stevia eupatoria", "family_slug": "asteraceae", "family_name": "Asteraceae", "url": "herbs/stevia-eupatoria", "lastmod": "2025-1-16", "herb_names_common": [{"name": "culinary sweet leaf", "mentions": 16, "confidence_score": 127, "total_score": 2032}, {"name": "sugar leaf", "mentions": 14, "confidence_score": 99, "total_score": 1386}, {"name": "sweet herb", "mentions": 16, "confidence_score": 95, "total_score": 1520}, {"name": "honey leaf", "mentions": 9, "confidence_score": 53, "total_score": 477}, {"name": "sweet stevia", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "sweetleaf", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "sweet white leaf", "mentions": 7, "confidence_score": 34, "total_score": 238}, {"name": "steepia", "mentions": 8, "confidence_score": 30, "total_score": 240}, {"name": "stevia", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "sweet woodruff", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "sweet white stevia", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "eupatorium", "mentions": 6, "confidence_score": 20, "total_score": 120}, {"name": "sugar stevia", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "european sweetroot", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "sugarleaf", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "mexican stevia", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "sweet william", "mentions": 4, "confidence_score": 11, "total_score": 44}, {"name": "sweet leaf stevia", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "green tea of paraguay", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "sweet tea", "mentions": 2, "confidence_score": 9, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 179, "total_score": 3580}], "what_description": "Stevia eupatoria is a perennial herb native to the Iberian Peninsula, belonging to the family Asteraceae. It grows to 60-100 cm in height, with a woody base and a leafy stem bearing ovate or lanceolate leaves 2-10 cm in length and 1-4 cm in width. The leaves are alternate, simple, and entire, with a pubescent underside. Stevia eupatoria produces small white or yellowish flowers in a capitulum, with a daisy-like appearance, from June to September. The plant prefers well-drained soils and full sun to partial shade.", "category_action": "adaptogens", "ailments": [{"name": "diabetes", "mentions": 19, "confidence_score": 181, "total_score": 3439}, {"name": "hypertension", "mentions": 17, "confidence_score": 151, "total_score": 2567}, {"name": "digestive issues", "mentions": 16, "confidence_score": 106, "total_score": 1696}, {"name": "inflammation", "mentions": 12, "confidence_score": 91, "total_score": 1092}, {"name": "oral health", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "gastritis", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "gastroesophageal reflux", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "high cholesterol", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "candidiasis", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "high blood pressure", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "bad breath", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "skin conditions", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "skin irritation", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "bacterial infections", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "cardiovascular disease", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "oral thrush", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "oral infections", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "gingivitis", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "fungal infections", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "skin allergies", "mentions": 4, "confidence_score": 20, "total_score": 80}], "ailments_description": "The most common ailments you can heal with Stevia eupatoria are diabetes, digestive issues, and hypertension, which are alleviated by its ability to lower blood sugar levels and regulate blood pressure. Stevia eupatoria's anti-inflammatory properties also help to combat inflammation, gastritis, gastroesophageal reflux, and high cholesterol. Additionally, its antibacterial and antifungal properties make it effective against oral thrush, gingivitis, and fungal infections, including candidiasis and skin allergies. Furthermore, Stevia eupatoria's ability to reduce inflammation also helps to alleviate cardiovascular disease, while its antibacterial properties combat bacterial infections and skin irritation. Oral health issues such as bad breath and oral infections are also alleviated by Stevia eupatoria's antibacterial properties.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 168, "total_score": 3360}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 157, "total_score": 3140}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 130, "total_score": 2600}, {"name": "cardioprotective", "mentions": 14, "confidence_score": 81, "total_score": 1134}, {"name": "antidiabetic", "mentions": 10, "confidence_score": 80, "total_score": 800}, {"name": "antiviral", "mentions": 17, "confidence_score": 72, "total_score": 1224}, {"name": "antihypertensive", "mentions": 10, "confidence_score": 65, "total_score": 650}, {"name": "antiseptic", "mentions": 8, "confidence_score": 62, "total_score": 496}, {"name": "hypoglycemic", "mentions": 8, "confidence_score": 52, "total_score": 416}, {"name": "analgesic", "mentions": 11, "confidence_score": 44, "total_score": 484}, {"name": "antibacterial", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "anticancer", "mentions": 7, "confidence_score": 27, "total_score": 189}, {"name": "neuroprotective", "mentions": 7, "confidence_score": 26, "total_score": 182}, {"name": "diuretic", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "antifungal", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "hypotensive", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "antispasmodic", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "antipyretic", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "antidiarrheal", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "hepatoprotective", "mentions": 3, "confidence_score": 11, "total_score": 33}], "properties_description": "The main therapeutic properties of Stevia eupatoria are multifaceted, exhibiting significant antioxidant activity, thanks to the presence of flavonoids and phenolic acids that neutralize free radicals and protect cells from oxidative damage. Additionally, the antimicrobial properties of Stevia eupatoria are attributed to its bioactive compounds, including saponins and volatile oils, which inhibit the growth of various microorganisms and combat infections. Stevia eupatoria also possesses potent anti-inflammatory properties, mediated by sesquiterpene lactones that reduce inflammation and alleviate pain. Furthermore, the cardioprotective effects of Stevia eupatoria are attributed to the presence of flavonoids and terpenoids, which lower blood pressure, reduce lipid peroxidation, and prevent cardiovascular diseases. Notably, Stevia eupatoria has been found to exhibit antidiabetic properties, with compounds like steviol and rebaudioside A being used to improve glucose metabolism and reduce insulin resistance.", "constituents": [{"name": "rebaudioside a", "mentions": 20, "confidence_score": 183, "total_score": 3660}, {"name": "steviol", "mentions": 19, "confidence_score": 163, "total_score": 3097}, {"name": "rebaudioside c", "mentions": 20, "confidence_score": 147, "total_score": 2940}, {"name": "stevioside", "mentions": 16, "confidence_score": 140, "total_score": 2240}, {"name": "dulcoside a", "mentions": 14, "confidence_score": 99, "total_score": 1386}, {"name": "steviol glycosides", "mentions": 9, "confidence_score": 76, "total_score": 684}, {"name": "dulcoside b", "mentions": 12, "confidence_score": 73, "total_score": 876}, {"name": "rebaudioside d", "mentions": 12, "confidence_score": 66, "total_score": 792}, {"name": "steviol glucoside", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "rebaudioside e", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "steviolbioside", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "isosteviol", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "rebaudioside b", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "quercetin", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "kaempferol", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "steviol glucosides", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "steviol monoside", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "dihydrosteviol", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "rebaudioside f", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "rubusoside", "mentions": 2, "confidence_score": 11, "total_score": 22}], "constituents_description": "The most important healing constituents of Stevia eupatoria are rebaudioside A, steviol, rebaudioside C, stevioside, and dulcoside A. Rebaudioside A is a glycoside responsible for the sweetness of Stevia and has been shown to exhibit antioxidant and anti-inflammatory properties. Steviol is a compound that is converted to stevioside, a potent antioxidant and anti-inflammatory, which may help to reduce inflammation and oxidative stress. Rebaudioside C is another glycoside that has been found to have antioxidant and anti-inflammatory activities, suggesting it may contribute to the plant's potential health benefits. Dulcoside A, a minor constituent, has been reported to possess anti-inflammatory and antioxidant properties, although its role in the plant's healing effects is less well-documented.", "preparations": [{"name": "infusion", "mentions": 17, "confidence_score": 146, "total_score": 2482}, {"name": "tincture", "mentions": 18, "confidence_score": 136, "total_score": 2448}, {"name": "tea", "mentions": 16, "confidence_score": 134, "total_score": 2144}, {"name": "salve", "mentions": 18, "confidence_score": 89, "total_score": 1602}, {"name": "decoction", "mentions": 10, "confidence_score": 50, "total_score": 500}, {"name": "stevia extract", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "poultice", "mentions": 6, "confidence_score": 19, "total_score": 114}, {"name": "stevia tincture", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "stevia infusion", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "stevia tea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "glycerite", "mentions": 5, "confidence_score": 14, "total_score": 70}, {"name": "infused oil", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "lotion", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "ointment", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "essential oil", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "suppository", "mentions": 3, "confidence_score": 6, "total_score": 18}, {"name": "infused vinegar", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "stevia syrup", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "stevia decoction", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "vaporizer", "mentions": 1, "confidence_score": 4, "total_score": 4}], "preparations_description": "The main herbal preparations of Stevia eupatoria are derived from its leaves, which contain bioactive compounds such as stevioside and rebaudioside. Infusion and decoction are prepared by steeping the leaves in hot water to extract these compounds, which can be used to treat various health conditions, including diabetes and hypertension. Tincture is made by soaking the leaves in a solvent such as ethanol or glycerin to create a concentrated extract, which can be used topically or internally. Tea is prepared similarly to infusion but is typically made with a smaller amount of leaves and is often used as a calming agent. A salve is prepared by infusing the leaves in a carrier oil such as coconut or olive oil, which can be used topically to treat skin conditions.", "side_effects": [{"name": "experiences nausea", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "experiences hypoglycemia", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "experiences diarrhea", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "develops diarrhea", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "develops allergic reactions", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "suffers hypoglycemia", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "experiences dizziness", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "suffers vomiting", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "suffer abdominal pain", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop hypoglycemia", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develops digestive issues", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develops abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develops headaches", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experience diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "shows abdominal pain", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experiences electrolyte imbalance", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "exhibits dizziness", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "suffers allergic reactions", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "exhibits neurological symptoms", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "develop headaches", "mentions": 2, "confidence_score": 14, "total_score": 28}], "side_effects_description": "The possible side effects of using Stevia eupatoria improperly include experiencing nausea, which is often due to its intense sweetness that can be overwhelming to the digestive system. Additionally, Stevia eupatoria may cause hypoglycemia, a drop in blood sugar levels, as it is known to inhibit the alpha-glucosidase enzyme, which can interfere with carbohydrate digestion and absorption. Furthermore, consuming Stevia eupatoria excessively can lead to diarrhea and other gastrointestinal issues, possibly due to its prebiotic properties that can alter gut bacteria balance. Some individuals may also develop allergic reactions, including skin rashes, itching, and swelling, as Stevia eupatoria is known to be a potential allergen. These side effects are often associated with the consumption of large doses of Stevia eupatoria or prolonged use.", "uses": "Stevia eupatoria is traditionally used to treat various health conditions. The plant's leaves have been used in folk medicine to help manage digestive issues, such as diarrhea and constipation. Stevia eupatoria is also said to have antimicrobial properties, which can help combat infections and promote wound healing. In addition, the plant has been used to help lower blood pressure and reduce inflammation. However, more research is needed to confirm the efficacy and safety of using Stevia eupatoria for medicinal purposes.", "taxonomy": "Stevia eupatoria is classified as a member of the Lamiaceae family, also known as the mint family. This classification is based on its botanical characteristics, such as its leaf shape and flower structure. As a member of the Lamiaceae family, Stevia eupatoria is a perennial herb native to the Mediterranean region. Its classification also places it within the Stevia genus, which is a group of plants known for their sweet-tasting leaves. Stevia eupatoria is closely related to other members of the Lamiaceae family, including the popular herbs mint and oregano.", "benefits": "Stevia eupatoria is known to have various health benefits, primarily attributed to its high concentration of stevioside and rebaudioside compounds. These compounds have been found to have potential anti-inflammatory properties and may help lower blood pressure. Research also suggests that Stevia eupatoria may help regulate blood sugar levels, making it a potential natural remedy for diabetes management. Additionally, its antibacterial properties may aid in preventing infections and promoting oral health. Further studies are needed to confirm the full extent of Stevia eupatoria's health benefits.", "parts": "Stevia eupatoria, the leaves and flowers of the plant are considered to be the medicinal parts. They contain compounds such as stevioside and rebaudioside, which have been used in traditional medicine for their sweetening and anti-inflammatory properties. The leaves are also used to treat digestive issues, such as diarrhea and stomach ulcers. The flowers are used to treat respiratory issues, such as bronchitis and coughs. Additionally, the roots of the plant are sometimes used in traditional medicine for their antimicrobial properties.", "intro": "Stevia eupatoria, also known as Stevia rebaudiana's lesser-known relative, is a plant species native to the tropical regions of the Americas, belonging to the sunflower family (Asteraceae). The leaves of Stevia eupatoria have been used for centuries in traditional medicine, offering potential health benefits such as reducing blood pressure, lowering blood sugar levels, and exhibiting anti-inflammatory and antioxidant properties. The bioactive constituents of Stevia eupatoria include steviol glycosides, flavonoids, and phenolic acids, which contribute to its medicinal properties. Stevia eupatoria is commonly used to prepare herbal teas, infusions, and tinctures, as well as being added to foods and beverages as a natural sweetener."}
+{
+    "title": "Stevia eupatoria",
+    "herb_slug": "stevia-eupatoria",
+    "herb_name_scientific": "Stevia eupatoria",
+    "family_slug": "asteraceae",
+    "family_name": "Asteraceae",
+    "url": "herbs/stevia-eupatoria",
+    "lastmod": "2025-1-16",
+    "herb_names_common": [
+        {
+            "name": "culinary sweet leaf",
+            "mentions": 16,
+            "confidence_score": 127,
+            "total_score": 2032
+        },
+        {
+            "name": "sugar leaf",
+            "mentions": 14,
+            "confidence_score": 99,
+            "total_score": 1386
+        },
+        {
+            "name": "sweet herb",
+            "mentions": 16,
+            "confidence_score": 95,
+            "total_score": 1520
+        },
+        {
+            "name": "honey leaf",
+            "mentions": 9,
+            "confidence_score": 53,
+            "total_score": 477
+        },
+        {
+            "name": "sweet stevia",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "sweetleaf",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "sweet white leaf",
+            "mentions": 7,
+            "confidence_score": 34,
+            "total_score": 238
+        },
+        {
+            "name": "steepia",
+            "mentions": 8,
+            "confidence_score": 30,
+            "total_score": 240
+        },
+        {
+            "name": "stevia",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "sweet woodruff",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "sweet white stevia",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "eupatorium",
+            "mentions": 6,
+            "confidence_score": 20,
+            "total_score": 120
+        },
+        {
+            "name": "sugar stevia",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "european sweetroot",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "sugarleaf",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "mexican stevia",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "sweet william",
+            "mentions": 4,
+            "confidence_score": 11,
+            "total_score": 44
+        },
+        {
+            "name": "sweet leaf stevia",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "green tea of paraguay",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "sweet tea",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 179,
+            "total_score": 3580
+        }
+    ],
+    "what_description": "Stevia eupatoria is a perennial herb native to the Iberian Peninsula, belonging to the family Asteraceae. It grows to 60-100 cm in height, with a woody base and a leafy stem bearing ovate or lanceolate leaves 2-10 cm in length and 1-4 cm in width. The leaves are alternate, simple, and entire, with a pubescent underside. Stevia eupatoria produces small white or yellowish flowers in a capitulum, with a daisy-like appearance, from June to September. The plant prefers well-drained soils and full sun to partial shade.",
+    "category_action": "adaptogens",
+    "ailments": [
+        {
+            "name": "diabetes",
+            "mentions": 19,
+            "confidence_score": 181,
+            "total_score": 3439
+        },
+        {
+            "name": "hypertension",
+            "mentions": 17,
+            "confidence_score": 151,
+            "total_score": 2567
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 16,
+            "confidence_score": 106,
+            "total_score": 1696
+        },
+        {
+            "name": "inflammation",
+            "mentions": 12,
+            "confidence_score": 91,
+            "total_score": 1092
+        },
+        {
+            "name": "oral health",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "gastritis",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "gastroesophageal reflux",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "high cholesterol",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "candidiasis",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "bad breath",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "bacterial infections",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "oral thrush",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "oral infections",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "gingivitis",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "skin allergies",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Stevia eupatoria are diabetes, digestive issues, and hypertension, which are alleviated by its ability to lower blood sugar levels and regulate blood pressure. Stevia eupatoria's anti-inflammatory properties also help to combat inflammation, gastritis, gastroesophageal reflux, and high cholesterol. Additionally, its antibacterial and antifungal properties make it effective against oral thrush, gingivitis, and fungal infections, including candidiasis and skin allergies. Furthermore, Stevia eupatoria's ability to reduce inflammation also helps to alleviate cardiovascular disease, while its antibacterial properties combat bacterial infections and skin irritation. Oral health issues such as bad breath and oral infections are also alleviated by Stevia eupatoria's antibacterial properties.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 168,
+            "total_score": 3360
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 157,
+            "total_score": 3140
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 130,
+            "total_score": 2600
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 14,
+            "confidence_score": 81,
+            "total_score": 1134
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 10,
+            "confidence_score": 80,
+            "total_score": 800
+        },
+        {
+            "name": "antiviral",
+            "mentions": 17,
+            "confidence_score": 72,
+            "total_score": 1224
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 10,
+            "confidence_score": 65,
+            "total_score": 650
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 8,
+            "confidence_score": 62,
+            "total_score": 496
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 8,
+            "confidence_score": 52,
+            "total_score": 416
+        },
+        {
+            "name": "analgesic",
+            "mentions": 11,
+            "confidence_score": 44,
+            "total_score": 484
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "anticancer",
+            "mentions": 7,
+            "confidence_score": 27,
+            "total_score": 189
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 7,
+            "confidence_score": 26,
+            "total_score": 182
+        },
+        {
+            "name": "diuretic",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "antifungal",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Stevia eupatoria are multifaceted, exhibiting significant antioxidant activity, thanks to the presence of flavonoids and phenolic acids that neutralize free radicals and protect cells from oxidative damage. Additionally, the antimicrobial properties of Stevia eupatoria are attributed to its bioactive compounds, including saponins and volatile oils, which inhibit the growth of various microorganisms and combat infections. Stevia eupatoria also possesses potent anti-inflammatory properties, mediated by sesquiterpene lactones that reduce inflammation and alleviate pain. Furthermore, the cardioprotective effects of Stevia eupatoria are attributed to the presence of flavonoids and terpenoids, which lower blood pressure, reduce lipid peroxidation, and prevent cardiovascular diseases. Notably, Stevia eupatoria has been found to exhibit antidiabetic properties, with compounds like steviol and rebaudioside A being used to improve glucose metabolism and reduce insulin resistance.",
+    "constituents": [
+        {
+            "name": "rebaudioside a",
+            "mentions": 20,
+            "confidence_score": 183,
+            "total_score": 3660
+        },
+        {
+            "name": "steviol",
+            "mentions": 19,
+            "confidence_score": 163,
+            "total_score": 3097
+        },
+        {
+            "name": "rebaudioside c",
+            "mentions": 20,
+            "confidence_score": 147,
+            "total_score": 2940
+        },
+        {
+            "name": "stevioside",
+            "mentions": 16,
+            "confidence_score": 140,
+            "total_score": 2240
+        },
+        {
+            "name": "dulcoside a",
+            "mentions": 14,
+            "confidence_score": 99,
+            "total_score": 1386
+        },
+        {
+            "name": "steviol glycosides",
+            "mentions": 9,
+            "confidence_score": 76,
+            "total_score": 684
+        },
+        {
+            "name": "dulcoside b",
+            "mentions": 12,
+            "confidence_score": 73,
+            "total_score": 876
+        },
+        {
+            "name": "rebaudioside d",
+            "mentions": 12,
+            "confidence_score": 66,
+            "total_score": 792
+        },
+        {
+            "name": "steviol glucoside",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "rebaudioside e",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "steviolbioside",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "isosteviol",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "rebaudioside b",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "quercetin",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "steviol glucosides",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "steviol monoside",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "dihydrosteviol",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "rebaudioside f",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "rubusoside",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Stevia eupatoria are rebaudioside A, steviol, rebaudioside C, stevioside, and dulcoside A. Rebaudioside A is a glycoside responsible for the sweetness of Stevia and has been shown to exhibit antioxidant and anti-inflammatory properties. Steviol is a compound that is converted to stevioside, a potent antioxidant and anti-inflammatory, which may help to reduce inflammation and oxidative stress. Rebaudioside C is another glycoside that has been found to have antioxidant and anti-inflammatory activities, suggesting it may contribute to the plant's potential health benefits. Dulcoside A, a minor constituent, has been reported to possess anti-inflammatory and antioxidant properties, although its role in the plant's healing effects is less well-documented.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 17,
+            "confidence_score": 146,
+            "total_score": 2482
+        },
+        {
+            "name": "tincture",
+            "mentions": 18,
+            "confidence_score": 136,
+            "total_score": 2448
+        },
+        {
+            "name": "tea",
+            "mentions": 16,
+            "confidence_score": 134,
+            "total_score": 2144
+        },
+        {
+            "name": "salve",
+            "mentions": 18,
+            "confidence_score": 89,
+            "total_score": 1602
+        },
+        {
+            "name": "decoction",
+            "mentions": 10,
+            "confidence_score": 50,
+            "total_score": 500
+        },
+        {
+            "name": "stevia extract",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "poultice",
+            "mentions": 6,
+            "confidence_score": 19,
+            "total_score": 114
+        },
+        {
+            "name": "stevia tincture",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "stevia infusion",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "stevia tea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "glycerite",
+            "mentions": 5,
+            "confidence_score": 14,
+            "total_score": 70
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "lotion",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "ointment",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "essential oil",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "suppository",
+            "mentions": 3,
+            "confidence_score": 6,
+            "total_score": 18
+        },
+        {
+            "name": "infused vinegar",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "stevia syrup",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "stevia decoction",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "vaporizer",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Stevia eupatoria are derived from its leaves, which contain bioactive compounds such as stevioside and rebaudioside. Infusion and decoction are prepared by steeping the leaves in hot water to extract these compounds, which can be used to treat various health conditions, including diabetes and hypertension. Tincture is made by soaking the leaves in a solvent such as ethanol or glycerin to create a concentrated extract, which can be used topically or internally. Tea is prepared similarly to infusion but is typically made with a smaller amount of leaves and is often used as a calming agent. A salve is prepared by infusing the leaves in a carrier oil such as coconut or olive oil, which can be used topically to treat skin conditions.",
+    "side_effects": [
+        {
+            "name": "experiences nausea",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "experiences hypoglycemia",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "experiences diarrhea",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "develops allergic reactions",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "suffers hypoglycemia",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "suffers vomiting",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "suffer abdominal pain",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop hypoglycemia",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develops digestive issues",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develops abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develops headaches",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "shows abdominal pain",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experiences electrolyte imbalance",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "exhibits dizziness",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "suffers allergic reactions",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "exhibits neurological symptoms",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "develop headaches",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Stevia eupatoria improperly include experiencing nausea, which is often due to its intense sweetness that can be overwhelming to the digestive system. Additionally, Stevia eupatoria may cause hypoglycemia, a drop in blood sugar levels, as it is known to inhibit the alpha-glucosidase enzyme, which can interfere with carbohydrate digestion and absorption. Furthermore, consuming Stevia eupatoria excessively can lead to diarrhea and other gastrointestinal issues, possibly due to its prebiotic properties that can alter gut bacteria balance. Some individuals may also develop allergic reactions, including skin rashes, itching, and swelling, as Stevia eupatoria is known to be a potential allergen. These side effects are often associated with the consumption of large doses of Stevia eupatoria or prolonged use.",
+    "uses": "Stevia eupatoria is traditionally used to treat various health conditions. The plant's leaves have been used in folk medicine to help manage digestive issues, such as diarrhea and constipation. Stevia eupatoria is also said to have antimicrobial properties, which can help combat infections and promote wound healing. In addition, the plant has been used to help lower blood pressure and reduce inflammation. However, more research is needed to confirm the efficacy and safety of using Stevia eupatoria for medicinal purposes.",
+    "taxonomy": "Stevia eupatoria is classified as a member of the Lamiaceae family, also known as the mint family. This classification is based on its botanical characteristics, such as its leaf shape and flower structure. As a member of the Lamiaceae family, Stevia eupatoria is a perennial herb native to the Mediterranean region. Its classification also places it within the Stevia genus, which is a group of plants known for their sweet-tasting leaves. Stevia eupatoria is closely related to other members of the Lamiaceae family, including the popular herbs mint and oregano.",
+    "benefits": "Stevia eupatoria is known to have various health benefits, primarily attributed to its high concentration of stevioside and rebaudioside compounds. These compounds have been found to have potential anti-inflammatory properties and may help lower blood pressure. Research also suggests that Stevia eupatoria may help regulate blood sugar levels, making it a potential natural remedy for diabetes management. Additionally, its antibacterial properties may aid in preventing infections and promoting oral health. Further studies are needed to confirm the full extent of Stevia eupatoria's health benefits.",
+    "parts": "Stevia eupatoria, the leaves and flowers of the plant are considered to be the medicinal parts. They contain compounds such as stevioside and rebaudioside, which have been used in traditional medicine for their sweetening and anti-inflammatory properties. The leaves are also used to treat digestive issues, such as diarrhea and stomach ulcers. The flowers are used to treat respiratory issues, such as bronchitis and coughs. Additionally, the roots of the plant are sometimes used in traditional medicine for their antimicrobial properties.",
+    "intro": "Stevia eupatoria, also known as Stevia rebaudiana's lesser-known relative, is a plant species native to the tropical regions of the Americas, belonging to the sunflower family (Asteraceae). The leaves of Stevia eupatoria have been used for centuries in traditional medicine, offering potential health benefits such as reducing blood pressure, lowering blood sugar levels, and exhibiting anti-inflammatory and antioxidant properties. The bioactive constituents of Stevia eupatoria include steviol glycosides, flavonoids, and phenolic acids, which contribute to its medicinal properties. Stevia eupatoria is commonly used to prepare herbal teas, infusions, and tinctures, as well as being added to foods and beverages as a natural sweetener."
+}

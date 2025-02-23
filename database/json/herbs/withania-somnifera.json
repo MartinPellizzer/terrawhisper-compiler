@@ -1,1 +1,756 @@
-{"title": "Withania somnifera", "herb_slug": "withania-somnifera", "herb_name_scientific": "Withania somnifera", "family_slug": "", "family_name": "", "url": "herbs/withania-somnifera", "lastmod": "2025-1-20", "herb_names_common": [{"name": "ashwagandha", "mentions": 20, "confidence_score": 198, "total_score": 3960}, {"name": "winter cherry", "mentions": 20, "confidence_score": 166, "total_score": 3320}, {"name": "indian ginseng", "mentions": 20, "confidence_score": 158, "total_score": 3160}, {"name": "indian winter cherry", "mentions": 12, "confidence_score": 62, "total_score": 744}, {"name": "ginseng of india", "mentions": 12, "confidence_score": 49, "total_score": 588}, {"name": "poison gooseberry", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "poona ginseng", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "sariva", "mentions": 8, "confidence_score": 39, "total_score": 312}, {"name": "withania", "mentions": 9, "confidence_score": 37, "total_score": 333}, {"name": "kanchna", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "poorna gauri", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "aswagandha", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "poona ginseg", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "indian summer", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "ayurvedic ginseng", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "ashvagandha", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "soma", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "hindu ginseng", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "asan", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "amukkura", "mentions": 2, "confidence_score": 9, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 177, "total_score": 3540}], "what_description": "Withania somnifera is a perennial plant with a woody root and erect or prostrate stems, reaching 1-3 meters in height, and 10-20 cm in diameter. It belongs to the family Solanaceae. The leaves are simple, alternate, elliptical or ovate, 8-15 cm long, and 4-10 cm wide, with a cuneate base and an acuminate apex, and are glabrous or tomentose on the lower surface. The inflorescence is a corymb, with small, yellowish flowers, 4-6 mm in diameter, and 6-8 mm long. The fruit is a berry, 6-8 mm long and 4-6 mm in diameter, with 2-4 seeds per berry.", "category_action": "adaptogens", "ailments": [{"name": "anxiety", "mentions": 20, "confidence_score": 182, "total_score": 3640}, {"name": "stress", "mentions": 19, "confidence_score": 173, "total_score": 3287}, {"name": "depression", "mentions": 18, "confidence_score": 143, "total_score": 2574}, {"name": "fatigue", "mentions": 15, "confidence_score": 119, "total_score": 1785}, {"name": "insomnia", "mentions": 12, "confidence_score": 102, "total_score": 1224}, {"name": "diabetes", "mentions": 11, "confidence_score": 70, "total_score": 770}, {"name": "inflammation", "mentions": 10, "confidence_score": 65, "total_score": 650}, {"name": "sleep disorders", "mentions": 8, "confidence_score": 64, "total_score": 512}, {"name": "arthritis", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "cancer", "mentions": 9, "confidence_score": 48, "total_score": 432}, {"name": "osteoarthritis", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "hypertension", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "osteoporosis", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "memory loss", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "cognitive impairment", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "asthma", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "pain", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "epilepsy", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "cognitive decline", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "erectile dysfunction", "mentions": 3, "confidence_score": 21, "total_score": 63}], "ailments_description": "The most common ailments you can heal with Withania somnifera are anxiety, with its adaptogenic properties reducing cortisol levels and alleviating symptoms of generalized anxiety disorder. It also helps manage stress through its ability to regulate the hypothalamic-pituitary-adrenal axis and promotes a sense of calm. Additionally, Withania somnifera has been shown to have antidepressant properties by modulating serotonin and dopamine levels in the brain, thereby treating depression. Furthermore, its antioxidant and anti-inflammatory properties make it effective in treating fatigue, insomnia, diabetes, inflammation, sleep disorders, arthritis, and cancer by reducing oxidative stress and inflammation. Withania somnifera's anxiolytic, anti-inflammatory, and antioxidant properties also help alleviate symptoms of osteoarthritis, hypertension, osteoporosis, memory loss, cognitive impairment, asthma, pain, epilepsy, cognitive decline, and erectile dysfunction.", "properties": [{"name": "antioxidant", "mentions": 23, "confidence_score": 210, "total_score": 4830}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 171, "total_score": 3420}, {"name": "neuroprotective", "mentions": 20, "confidence_score": 169, "total_score": 3380}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 140, "total_score": 2800}, {"name": "immunomodulatory", "mentions": 15, "confidence_score": 118, "total_score": 1770}, {"name": "cardioprotective", "mentions": 14, "confidence_score": 95, "total_score": 1330}, {"name": "analgesic", "mentions": 14, "confidence_score": 89, "total_score": 1246}, {"name": "adaptogenic", "mentions": 9, "confidence_score": 81, "total_score": 729}, {"name": "antistress", "mentions": 10, "confidence_score": 78, "total_score": 780}, {"name": "anticancer", "mentions": 12, "confidence_score": 70, "total_score": 840}, {"name": "anxiolytic", "mentions": 8, "confidence_score": 65, "total_score": 520}, {"name": "antiviral", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "anticonvulsant", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "antioxidant enzyme inducer", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "immune system modulator", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "sedative", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "sleep-promoting", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "free radical scavenger", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "antioxidant (free radical scavenging)", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "antidiabetic", "mentions": 1, "confidence_score": 8, "total_score": 8}], "properties_description": "The main therapeutic properties of Withania somnifera are rooted in its ability to protect against oxidative stress through its antioxidant properties, attributed to the presence of flavonoids and polyphenols. Withania somnifera has been found to exhibit anti-inflammatory effects, which are partly due to the saponin content of the plant, helping to mitigate the severity of inflammatory conditions. Furthermore, this plant has been shown to possess neuroprotective properties, thanks to the bioactive compounds like withanolides and sitoindosides, which have been found to exert neurotrophic effects and promote neuronal survival. Additionally, the antimicrobial properties of Withania somnifera have been linked to the presence of volatile oils and triterpenoids, which have been shown to inhibit the growth of various microorganisms. By modulating the immune system, Withania somnifera's immunomodulatory properties help to regulate the body's response to pathogens and prevent the onset of autoimmune diseases.", "constituents": [{"name": "withaferin a", "mentions": 17, "confidence_score": 146, "total_score": 2482}, {"name": "withanone", "mentions": 18, "confidence_score": 144, "total_score": 2592}, {"name": "withanolides", "mentions": 15, "confidence_score": 135, "total_score": 2025}, {"name": "withanoside iv", "mentions": 10, "confidence_score": 66, "total_score": 660}, {"name": "withanolide a", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "withanols a and b", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "catechols", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "triterpenoids (e.g. withasterol, withanolide a)", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "flavonoids (e.g., isoorientin and isovitalmin)", "mentions": 8, "confidence_score": 40, "total_score": 320}, {"name": "saponins", "mentions": 8, "confidence_score": 36, "total_score": 288}, {"name": "alkaloids (e.g. withanine, withaphylline)", "mentions": 7, "confidence_score": 35, "total_score": 245}, {"name": "withanoside vii", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "quercetin", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "glycosides", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "withanolide d", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "beta-sitosterol", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "catechins", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "withanolide b", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "caffeic acid", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "withasomniferin a", "mentions": 2, "confidence_score": 12, "total_score": 24}], "constituents_description": "The most important healing constituents of Withania somnifera are withanolides, which include withaferin A, withanone, and withanolide A, that are responsible for its anti-inflammatory, anti-oxidant, and anti-cancer properties. Withanolide A has been shown to inhibit the production of pro-inflammatory enzymes and cytokines, while withanone has been found to scavenge free radicals and reduce oxidative stress. Withanoside IV has been reported to have immunomodulatory effects by enhancing the activity of natural killer cells and increasing the production of antibodies. Withanolides also exhibit anti-proliferative and pro-apoptotic activities, making them effective against cancer cells. The collective action of these constituents contributes to the herb's adaptogenic, anti-stress, and anti-ageing properties, making it a valuable natural remedy for various health conditions.", "preparations": [{"name": "ashwagandha tea", "mentions": 19, "confidence_score": 182, "total_score": 3458}, {"name": "ashwagandha capsules", "mentions": 16, "confidence_score": 147, "total_score": 2352}, {"name": "ashwagandha tincture", "mentions": 19, "confidence_score": 133, "total_score": 2527}, {"name": "ashwagandha oil", "mentions": 16, "confidence_score": 98, "total_score": 1568}, {"name": "ashwagandha powder", "mentions": 10, "confidence_score": 76, "total_score": 760}, {"name": "ashwagandha infusion", "mentions": 7, "confidence_score": 42, "total_score": 294}, {"name": "ashwagandha extract oil", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "ashwagandha ghee", "mentions": 7, "confidence_score": 32, "total_score": 224}, {"name": "ashwagandha decoction", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "withania capsules", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "decoction", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "infusion", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "withania somnifera capsules", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "withania tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "withania somnifera tincture", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "ghee infusion", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "ashwagandha churna", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suppository", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "ashwagandha root powder", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "ghee with ashwagandha", "mentions": 1, "confidence_score": 6, "total_score": 6}], "preparations_description": "The main herbal preparations of Withania somnifera are derived from its roots and include ashwagandha tea, made by infusing dried roots in hot water, which is traditionally used to reduce stress and anxiety due to its alkaloids and saponins content. Ashwagandha capsules contain a standardized extract of the root, offering a concentrated form of the herb, which has been shown to improve sleep quality and cognitive function in several human studies. Ashwagandha tincture is a liquid extract of the root, commonly used in Ayurvedic medicine to enhance adaptogenic properties and promote relaxation. Ashwagandha oil is a topical preparation used for its anti-inflammatory and antioxidant properties, which may help soothe skin irritations and reduce stress-related symptoms. Ashwagandha powder is a dried and powdered root extract, often used as a dietary supplement to support immune function and reduce oxidative stress.", "side_effects": [{"name": "interact with blood thinners", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "cause liver damage", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "develops diarrhea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "raises blood pressure", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiences nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "aggravate diabetes", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "experiences hypotension", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develops dizziness", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "triggers allergic reactions", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "induce hypotension", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "shows increased liver enzymes", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experiences fatigue", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "cause sedation", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "provoke hypoglycemia", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experiences headaches", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "worsens kidney disease", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "interferes with diabetes treatment", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "develops thrombocytopenia", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "increases risk of bleeding", "mentions": 2, "confidence_score": 10, "total_score": 20}], "side_effects_description": "The possible side effect of using Withania somnifera are numerous and can be attributed to its bioactive compounds which interact with other medications. Using Withania somnifera improperly may lead to interactions with blood thinners such as warfarin due to its anticoagulant properties. Additionally, improper use can cause liver damage due to the presence of withanolides which have been shown to induce liver toxicity in high doses. Furthermore, consuming excessive amounts of Withania somnifera may cause gastrointestinal disturbances including diarrhea, nausea, and vomiting. Moreover, Withania somnifera may also raise blood pressure in individuals with pre-existing hypertension, exacerbating cardiovascular conditions."}
+{
+    "title": "Withania somnifera",
+    "herb_slug": "withania-somnifera",
+    "herb_name_scientific": "Withania somnifera",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/withania-somnifera",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "ashwagandha",
+            "mentions": 20,
+            "confidence_score": 198,
+            "total_score": 3960
+        },
+        {
+            "name": "winter cherry",
+            "mentions": 20,
+            "confidence_score": 166,
+            "total_score": 3320
+        },
+        {
+            "name": "indian ginseng",
+            "mentions": 20,
+            "confidence_score": 158,
+            "total_score": 3160
+        },
+        {
+            "name": "indian winter cherry",
+            "mentions": 12,
+            "confidence_score": 62,
+            "total_score": 744
+        },
+        {
+            "name": "ginseng of india",
+            "mentions": 12,
+            "confidence_score": 49,
+            "total_score": 588
+        },
+        {
+            "name": "poison gooseberry",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "poona ginseng",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "sariva",
+            "mentions": 8,
+            "confidence_score": 39,
+            "total_score": 312
+        },
+        {
+            "name": "withania",
+            "mentions": 9,
+            "confidence_score": 37,
+            "total_score": 333
+        },
+        {
+            "name": "kanchna",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "poorna gauri",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "aswagandha",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "poona ginseg",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "indian summer",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "ayurvedic ginseng",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "ashvagandha",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "soma",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "hindu ginseng",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "asan",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "amukkura",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 177,
+            "total_score": 3540
+        }
+    ],
+    "what_description": "Withania somnifera is a perennial plant with a woody root and erect or prostrate stems, reaching 1-3 meters in height, and 10-20 cm in diameter. It belongs to the family Solanaceae. The leaves are simple, alternate, elliptical or ovate, 8-15 cm long, and 4-10 cm wide, with a cuneate base and an acuminate apex, and are glabrous or tomentose on the lower surface. The inflorescence is a corymb, with small, yellowish flowers, 4-6 mm in diameter, and 6-8 mm long. The fruit is a berry, 6-8 mm long and 4-6 mm in diameter, with 2-4 seeds per berry.",
+    "category_action": "adaptogens",
+    "ailments": [
+        {
+            "name": "anxiety",
+            "mentions": 20,
+            "confidence_score": 182,
+            "total_score": 3640
+        },
+        {
+            "name": "stress",
+            "mentions": 19,
+            "confidence_score": 173,
+            "total_score": 3287
+        },
+        {
+            "name": "depression",
+            "mentions": 18,
+            "confidence_score": 143,
+            "total_score": 2574
+        },
+        {
+            "name": "fatigue",
+            "mentions": 15,
+            "confidence_score": 119,
+            "total_score": 1785
+        },
+        {
+            "name": "insomnia",
+            "mentions": 12,
+            "confidence_score": 102,
+            "total_score": 1224
+        },
+        {
+            "name": "diabetes",
+            "mentions": 11,
+            "confidence_score": 70,
+            "total_score": 770
+        },
+        {
+            "name": "inflammation",
+            "mentions": 10,
+            "confidence_score": 65,
+            "total_score": 650
+        },
+        {
+            "name": "sleep disorders",
+            "mentions": 8,
+            "confidence_score": 64,
+            "total_score": 512
+        },
+        {
+            "name": "arthritis",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "cancer",
+            "mentions": 9,
+            "confidence_score": 48,
+            "total_score": 432
+        },
+        {
+            "name": "osteoarthritis",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "hypertension",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "osteoporosis",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "memory loss",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "cognitive impairment",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "asthma",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "pain",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "epilepsy",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "cognitive decline",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "erectile dysfunction",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Withania somnifera are anxiety, with its adaptogenic properties reducing cortisol levels and alleviating symptoms of generalized anxiety disorder. It also helps manage stress through its ability to regulate the hypothalamic-pituitary-adrenal axis and promotes a sense of calm. Additionally, Withania somnifera has been shown to have antidepressant properties by modulating serotonin and dopamine levels in the brain, thereby treating depression. Furthermore, its antioxidant and anti-inflammatory properties make it effective in treating fatigue, insomnia, diabetes, inflammation, sleep disorders, arthritis, and cancer by reducing oxidative stress and inflammation. Withania somnifera's anxiolytic, anti-inflammatory, and antioxidant properties also help alleviate symptoms of osteoarthritis, hypertension, osteoporosis, memory loss, cognitive impairment, asthma, pain, epilepsy, cognitive decline, and erectile dysfunction.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 23,
+            "confidence_score": 210,
+            "total_score": 4830
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 171,
+            "total_score": 3420
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 20,
+            "confidence_score": 169,
+            "total_score": 3380
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 140,
+            "total_score": 2800
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 15,
+            "confidence_score": 118,
+            "total_score": 1770
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 14,
+            "confidence_score": 95,
+            "total_score": 1330
+        },
+        {
+            "name": "analgesic",
+            "mentions": 14,
+            "confidence_score": 89,
+            "total_score": 1246
+        },
+        {
+            "name": "adaptogenic",
+            "mentions": 9,
+            "confidence_score": 81,
+            "total_score": 729
+        },
+        {
+            "name": "antistress",
+            "mentions": 10,
+            "confidence_score": 78,
+            "total_score": 780
+        },
+        {
+            "name": "anticancer",
+            "mentions": 12,
+            "confidence_score": 70,
+            "total_score": 840
+        },
+        {
+            "name": "anxiolytic",
+            "mentions": 8,
+            "confidence_score": 65,
+            "total_score": 520
+        },
+        {
+            "name": "antiviral",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "anticonvulsant",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "antioxidant enzyme inducer",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "immune system modulator",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "sedative",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "sleep-promoting",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "free radical scavenger",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "antioxidant (free radical scavenging)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Withania somnifera are rooted in its ability to protect against oxidative stress through its antioxidant properties, attributed to the presence of flavonoids and polyphenols. Withania somnifera has been found to exhibit anti-inflammatory effects, which are partly due to the saponin content of the plant, helping to mitigate the severity of inflammatory conditions. Furthermore, this plant has been shown to possess neuroprotective properties, thanks to the bioactive compounds like withanolides and sitoindosides, which have been found to exert neurotrophic effects and promote neuronal survival. Additionally, the antimicrobial properties of Withania somnifera have been linked to the presence of volatile oils and triterpenoids, which have been shown to inhibit the growth of various microorganisms. By modulating the immune system, Withania somnifera's immunomodulatory properties help to regulate the body's response to pathogens and prevent the onset of autoimmune diseases.",
+    "constituents": [
+        {
+            "name": "withaferin a",
+            "mentions": 17,
+            "confidence_score": 146,
+            "total_score": 2482
+        },
+        {
+            "name": "withanone",
+            "mentions": 18,
+            "confidence_score": 144,
+            "total_score": 2592
+        },
+        {
+            "name": "withanolides",
+            "mentions": 15,
+            "confidence_score": 135,
+            "total_score": 2025
+        },
+        {
+            "name": "withanoside iv",
+            "mentions": 10,
+            "confidence_score": 66,
+            "total_score": 660
+        },
+        {
+            "name": "withanolide a",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "withanols a and b",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "catechols",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "triterpenoids (e.g. withasterol, withanolide a)",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "flavonoids (e.g., isoorientin and isovitalmin)",
+            "mentions": 8,
+            "confidence_score": 40,
+            "total_score": 320
+        },
+        {
+            "name": "saponins",
+            "mentions": 8,
+            "confidence_score": 36,
+            "total_score": 288
+        },
+        {
+            "name": "alkaloids (e.g. withanine, withaphylline)",
+            "mentions": 7,
+            "confidence_score": 35,
+            "total_score": 245
+        },
+        {
+            "name": "withanoside vii",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "quercetin",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "glycosides",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "withanolide d",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "beta-sitosterol",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "catechins",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "withanolide b",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "withasomniferin a",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Withania somnifera are withanolides, which include withaferin A, withanone, and withanolide A, that are responsible for its anti-inflammatory, anti-oxidant, and anti-cancer properties. Withanolide A has been shown to inhibit the production of pro-inflammatory enzymes and cytokines, while withanone has been found to scavenge free radicals and reduce oxidative stress. Withanoside IV has been reported to have immunomodulatory effects by enhancing the activity of natural killer cells and increasing the production of antibodies. Withanolides also exhibit anti-proliferative and pro-apoptotic activities, making them effective against cancer cells. The collective action of these constituents contributes to the herb's adaptogenic, anti-stress, and anti-ageing properties, making it a valuable natural remedy for various health conditions.",
+    "preparations": [
+        {
+            "name": "ashwagandha tea",
+            "mentions": 19,
+            "confidence_score": 182,
+            "total_score": 3458
+        },
+        {
+            "name": "ashwagandha capsules",
+            "mentions": 16,
+            "confidence_score": 147,
+            "total_score": 2352
+        },
+        {
+            "name": "ashwagandha tincture",
+            "mentions": 19,
+            "confidence_score": 133,
+            "total_score": 2527
+        },
+        {
+            "name": "ashwagandha oil",
+            "mentions": 16,
+            "confidence_score": 98,
+            "total_score": 1568
+        },
+        {
+            "name": "ashwagandha powder",
+            "mentions": 10,
+            "confidence_score": 76,
+            "total_score": 760
+        },
+        {
+            "name": "ashwagandha infusion",
+            "mentions": 7,
+            "confidence_score": 42,
+            "total_score": 294
+        },
+        {
+            "name": "ashwagandha extract oil",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "ashwagandha ghee",
+            "mentions": 7,
+            "confidence_score": 32,
+            "total_score": 224
+        },
+        {
+            "name": "ashwagandha decoction",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "withania capsules",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "decoction",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "infusion",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "withania somnifera capsules",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "withania tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "withania somnifera tincture",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "ghee infusion",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "ashwagandha churna",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "ashwagandha root powder",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "ghee with ashwagandha",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Withania somnifera are derived from its roots and include ashwagandha tea, made by infusing dried roots in hot water, which is traditionally used to reduce stress and anxiety due to its alkaloids and saponins content. Ashwagandha capsules contain a standardized extract of the root, offering a concentrated form of the herb, which has been shown to improve sleep quality and cognitive function in several human studies. Ashwagandha tincture is a liquid extract of the root, commonly used in Ayurvedic medicine to enhance adaptogenic properties and promote relaxation. Ashwagandha oil is a topical preparation used for its anti-inflammatory and antioxidant properties, which may help soothe skin irritations and reduce stress-related symptoms. Ashwagandha powder is a dried and powdered root extract, often used as a dietary supplement to support immune function and reduce oxidative stress.",
+    "side_effects": [
+        {
+            "name": "interact with blood thinners",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "raises blood pressure",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "aggravate diabetes",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "experiences hypotension",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develops dizziness",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "triggers allergic reactions",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "induce hypotension",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "shows increased liver enzymes",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experiences fatigue",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "cause sedation",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "provoke hypoglycemia",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experiences headaches",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "worsens kidney disease",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "interferes with diabetes treatment",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "develops thrombocytopenia",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "increases risk of bleeding",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "side_effects_description": "The possible side effect of using Withania somnifera are numerous and can be attributed to its bioactive compounds which interact with other medications. Using Withania somnifera improperly may lead to interactions with blood thinners such as warfarin due to its anticoagulant properties. Additionally, improper use can cause liver damage due to the presence of withanolides which have been shown to induce liver toxicity in high doses. Furthermore, consuming excessive amounts of Withania somnifera may cause gastrointestinal disturbances including diarrhea, nausea, and vomiting. Moreover, Withania somnifera may also raise blood pressure in individuals with pre-existing hypertension, exacerbating cardiovascular conditions."
+}

@@ -1,1 +1,148 @@
-{"title": "Agalma obovatum", "herb_slug": "agalma-obovatum", "herb_name_scientific": "Agalma obovatum", "family_slug": "araliaceae", "family_name": "Araliaceae", "url": "herbs/agalma-obovatum", "lastmod": "2025-1-2", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 187, "total_score": 3740}], "herb_names_common": [{"name": "agalma", "mentions": 73, "confidence_score": 357, "total_score": 26061}, {"name": "agalma obovatum", "mentions": 38, "confidence_score": 235, "total_score": 8930}, {"name": "agalma obovata", "mentions": 9, "confidence_score": 38, "total_score": 342}, {"name": "obovate agalma", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "agalma species", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "agalma obovatum species", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "agalma obovatum (synonym) - scaevola obovata", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "obovatum agalma", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "agalma (agalma obovatum)", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "obovatum plant", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "sea fan coral", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "blue fan flower", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "agalma obovatum (agalma)", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "agalma obovatum plant", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "agalma plant", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "agalma (plant)", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "agalma obovatum (plant)", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "agalma botanical", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "agalma obovatum herb", "mentions": 3, "confidence_score": 7, "total_score": 21}, {"name": "sea whip", "mentions": 1, "confidence_score": 7, "total_score": 7}], "uses": "I can find information regarding Agalma obovatum, and its medicinal uses. Agalma obovatum is a species of sea squirt, and like many sea squirts, it may have some potential medicinal uses. However, there is limited research available on its specific medicinal properties. Agalma obovatum is thought to have anti-inflammatory and antimicrobial properties, but more studies are needed to confirm this. Further research is necessary to fully understand the potential medicinal applications of Agalma obovatum.", "taxonomy": "Agalma obovatum is classified within the phylum Cnidaria, specifically within the class Hydrozoa. This species belongs to the family Halammohaidae. Further classification places it within the genus Agalma. Agalma obovatum is a type of marine hydrozoan, which is a small, gelatinous animal. Its classification is further defined by its unique characteristics and morphology.", "benefits": "Info not available yet.", "properties": "Agalma obovatum is a species of siphonophore, but unfortunately, information on its therapeutic properties is limited. However, some research on siphonophores suggests they may have potential for the production of bioactive compounds. Further studies on Agalma obovatum are needed to determine its full potential. It is possible that it may have therapeutic properties similar to other siphonophores, such as antioxidant and anti-inflammatory effects. More research is required to understand the specific benefits and applications of Agalma obovatum.", "constituents": "Agalma obovatum contains bioactive compounds including flavonoids and other phenolic compounds, which contribute to its medicinal properties. These compounds have been reported to exhibit antioxidant, anti-inflammatory, and antimicrobial activities. However, the exact composition and distribution of these compounds may vary depending on the source and preparation of the plant. Further research is necessary to fully understand the active constituents of Agalma obovatum and their potential applications. The plant's chemical profile is still being studied to unlock its full potential.", "parts": "Agalma obovatum is a species of sea squirt, and like other species in this group, various parts of it may have potential medicinal properties. However, there is limited information available on the specific medicinal parts of Agalma obovatum.  Research into marine organisms like Agalma obovatum has shown potential for the development of new medicines, particularly in the fields of cancer treatment and antimicrobial resistance. Further studies are required to determine the specific medicinal properties and uses of Agalma obovatum. The potential medicinal uses of this organism could lead to the development of new treatments for various diseases.", "preparations": "Info not available yet.", "side_effects": "Info not available yet.", "intro": "Agalma obovatum is a species of flowering plant in the family Apocynaceae, commonly known as a type of dogbane or milkweed vine. The plant is valued for its potential health benefits, including anti-inflammatory and antimicrobial properties, which may be useful in treating conditions such as wounds, infections, and skin irritations. The bioactive constituents of Agalma obovatum include alkaloids, flavonoids, and phenolic acids, which are responsible for its medicinal properties. In traditional herbal medicine, Agalma obovatum is often prepared as a tincture, infusion, or topical cream, although more research is needed to confirm its efficacy and safety as a treatment for various health conditions."}
+{
+    "title": "Agalma obovatum",
+    "herb_slug": "agalma-obovatum",
+    "herb_name_scientific": "Agalma obovatum",
+    "family_slug": "araliaceae",
+    "family_name": "Araliaceae",
+    "url": "herbs/agalma-obovatum",
+    "lastmod": "2025-1-2",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 187,
+            "total_score": 3740
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "agalma",
+            "mentions": 73,
+            "confidence_score": 357,
+            "total_score": 26061
+        },
+        {
+            "name": "agalma obovatum",
+            "mentions": 38,
+            "confidence_score": 235,
+            "total_score": 8930
+        },
+        {
+            "name": "agalma obovata",
+            "mentions": 9,
+            "confidence_score": 38,
+            "total_score": 342
+        },
+        {
+            "name": "obovate agalma",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "agalma species",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "agalma obovatum species",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "agalma obovatum (synonym) - scaevola obovata",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "obovatum agalma",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "agalma (agalma obovatum)",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "obovatum plant",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "sea fan coral",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "blue fan flower",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "agalma obovatum (agalma)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "agalma obovatum plant",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "agalma plant",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "agalma (plant)",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "agalma obovatum (plant)",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "agalma botanical",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "agalma obovatum herb",
+            "mentions": 3,
+            "confidence_score": 7,
+            "total_score": 21
+        },
+        {
+            "name": "sea whip",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        }
+    ],
+    "uses": "I can find information regarding Agalma obovatum, and its medicinal uses. Agalma obovatum is a species of sea squirt, and like many sea squirts, it may have some potential medicinal uses. However, there is limited research available on its specific medicinal properties. Agalma obovatum is thought to have anti-inflammatory and antimicrobial properties, but more studies are needed to confirm this. Further research is necessary to fully understand the potential medicinal applications of Agalma obovatum.",
+    "taxonomy": "Agalma obovatum is classified within the phylum Cnidaria, specifically within the class Hydrozoa. This species belongs to the family Halammohaidae. Further classification places it within the genus Agalma. Agalma obovatum is a type of marine hydrozoan, which is a small, gelatinous animal. Its classification is further defined by its unique characteristics and morphology.",
+    "benefits": "Info not available yet.",
+    "properties": "Agalma obovatum is a species of siphonophore, but unfortunately, information on its therapeutic properties is limited. However, some research on siphonophores suggests they may have potential for the production of bioactive compounds. Further studies on Agalma obovatum are needed to determine its full potential. It is possible that it may have therapeutic properties similar to other siphonophores, such as antioxidant and anti-inflammatory effects. More research is required to understand the specific benefits and applications of Agalma obovatum.",
+    "constituents": "Agalma obovatum contains bioactive compounds including flavonoids and other phenolic compounds, which contribute to its medicinal properties. These compounds have been reported to exhibit antioxidant, anti-inflammatory, and antimicrobial activities. However, the exact composition and distribution of these compounds may vary depending on the source and preparation of the plant. Further research is necessary to fully understand the active constituents of Agalma obovatum and their potential applications. The plant's chemical profile is still being studied to unlock its full potential.",
+    "parts": "Agalma obovatum is a species of sea squirt, and like other species in this group, various parts of it may have potential medicinal properties. However, there is limited information available on the specific medicinal parts of Agalma obovatum.  Research into marine organisms like Agalma obovatum has shown potential for the development of new medicines, particularly in the fields of cancer treatment and antimicrobial resistance. Further studies are required to determine the specific medicinal properties and uses of Agalma obovatum. The potential medicinal uses of this organism could lead to the development of new treatments for various diseases.",
+    "preparations": "Info not available yet.",
+    "side_effects": "Info not available yet.",
+    "intro": "Agalma obovatum is a species of flowering plant in the family Apocynaceae, commonly known as a type of dogbane or milkweed vine. The plant is valued for its potential health benefits, including anti-inflammatory and antimicrobial properties, which may be useful in treating conditions such as wounds, infections, and skin irritations. The bioactive constituents of Agalma obovatum include alkaloids, flavonoids, and phenolic acids, which are responsible for its medicinal properties. In traditional herbal medicine, Agalma obovatum is often prepared as a tincture, infusion, or topical cream, although more research is needed to confirm its efficacy and safety as a treatment for various health conditions."
+}

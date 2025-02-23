@@ -1,1 +1,761 @@
-{"title": "Senna cladophylla", "herb_slug": "senna-cladophylla", "herb_name_scientific": "Senna cladophylla", "family_slug": "fabaceae", "family_name": "Fabaceae", "url": "herbs/senna-cladophylla", "lastmod": "2025-1-14", "herb_names_common": [{"name": "sickle bush senna", "mentions": 30, "confidence_score": 195, "total_score": 5850}, {"name": "sickle bush", "mentions": 22, "confidence_score": 178, "total_score": 3916}, {"name": "sicklepod", "mentions": 8, "confidence_score": 64, "total_score": 512}, {"name": "false cassia", "mentions": 7, "confidence_score": 58, "total_score": 406}, {"name": "wild senna", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "sicklebush", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "sickle bush cassia", "mentions": 8, "confidence_score": 38, "total_score": 304}, {"name": "cassia sickle bush", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "sickle-pod cassia", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "sensitive plant", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "karekare bush", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "sickle senna sickle bush", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "false senna", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "wild cassia", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "sickle bush senna plant", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "sickle senna bush", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "sickle bush (senna cladophylla)", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "sickle senna", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cascara", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "sicklepod senna", "mentions": 2, "confidence_score": 9, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 174, "total_score": 3480}], "what_description": "Senna cladophylla is a perennial legume plant that belongs to the family Fabaceae, native to southern Africa. It has a woody base and erect stems, up to 2 meters tall, with compound leaves divided into 10-16 pairs of leaflets, each 2-3 cm long. The inflorescence is a raceme of 1-6 pink or purple flowers, 1-1.5 cm long, with five standard petals and a short keel. The fruit is a flat, brown pod, 2-3 cm long and 1-1.5 cm wide, containing 3-5 seeds, each 2-3 mm long. The plant grows in well-drained soil in full sun to partial shade in subtropical regions.", "category_action": "laxatives", "ailments": [{"name": "diarrhea", "mentions": 20, "confidence_score": 195, "total_score": 3900}, {"name": "constipation", "mentions": 19, "confidence_score": 174, "total_score": 3306}, {"name": "irritable bowel syndrome", "mentions": 11, "confidence_score": 78, "total_score": 858}, {"name": "bloating", "mentions": 10, "confidence_score": 69, "total_score": 690}, {"name": "gastroenteritis", "mentions": 12, "confidence_score": 63, "total_score": 756}, {"name": "inflammatory bowel disease", "mentions": 9, "confidence_score": 59, "total_score": 531}, {"name": "hemorrhoids", "mentions": 8, "confidence_score": 57, "total_score": 456}, {"name": "abdominal pain", "mentions": 8, "confidence_score": 51, "total_score": 408}, {"name": "inflammation", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "diverticulitis", "mentions": 7, "confidence_score": 36, "total_score": 252}, {"name": "colic", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "gas", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "digestive issues", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "irritability", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "nausea", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "flatulence", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "fever", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "haemorrhoids", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "gastritis", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "vomiting", "mentions": 3, "confidence_score": 13, "total_score": 39}], "ailments_description": "The most common ailments you can heal with Senna cladophylla are diarrhea, which is often caused by its anthraquinone glycosides that act as a laxative to stimulate bowel movements. Senna cladophylla is also effective in treating constipation, due to its purgative properties that increase the frequency and ease of bowel movements. Irritable bowel syndrome symptoms such as abdominal pain and bloating can be alleviated by the plant's ability to regulate bowel movements and reduce inflammation. Senna cladophylla is also used to treat gastroenteritis, inflammatory bowel disease, hemorrhoids, and gastritis, as well as reduce inflammation and abdominal pain associated with these conditions. Additionally, Senna cladophylla has been shown to alleviate digestive issues, irritability, nausea, flatulence, fever, and vomiting.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 144, "total_score": 2880}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 122, "total_score": 2440}, {"name": "antioxidant", "mentions": 20, "confidence_score": 115, "total_score": 2300}, {"name": "laxative", "mentions": 12, "confidence_score": 110, "total_score": 1320}, {"name": "diuretic", "mentions": 10, "confidence_score": 73, "total_score": 730}, {"name": "antispasmodic", "mentions": 13, "confidence_score": 65, "total_score": 845}, {"name": "analgesic", "mentions": 13, "confidence_score": 53, "total_score": 689}, {"name": "hepatoprotective", "mentions": 10, "confidence_score": 48, "total_score": 480}, {"name": "antibacterial", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "anthelmintic", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "expectorant", "mentions": 7, "confidence_score": 31, "total_score": 217}, {"name": "purgative", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "antifungal", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "antipyretic", "mentions": 7, "confidence_score": 22, "total_score": 154}, {"name": "emmenagogue", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "cardioprotective", "mentions": 6, "confidence_score": 21, "total_score": 126}, {"name": "hemostatic", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "cathartic", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "antidiarrheal", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "antiparasitic", "mentions": 2, "confidence_score": 16, "total_score": 32}], "properties_description": "The main therapeutic properties of Senna cladophylla are its antimicrobial activity, which is attributed to the presence of flavonoids and saponins, these compounds have been shown to inhibit the growth of various microorganisms, including bacteria and fungi. Its anti-inflammatory properties are mediated by the bioactive compounds glycosides and alkaloids, which have been found to reduce inflammation and alleviate pain. The antioxidant properties of Senna cladophylla are attributed to the presence of volatile oils and flavonoids, which have been shown to scavenge free radicals and protect against oxidative stress. Senna cladophylla is also known for its laxative properties, which are primarily due to the presence of anthraquinone glycosides, these compounds stimulate bowel movements and relieve constipation. The diuretic properties of Senna cladophylla are attributed to the presence of saponins and flavonoids, which increase urine production and help to reduce fluid retention.", "constituents": [{"name": "sennoside b", "mentions": 16, "confidence_score": 147, "total_score": 2352}, {"name": "sennoside a", "mentions": 16, "confidence_score": 146, "total_score": 2336}, {"name": "emodin", "mentions": 18, "confidence_score": 130, "total_score": 2340}, {"name": "sennoside c", "mentions": 14, "confidence_score": 120, "total_score": 1680}, {"name": "anthraquinone glycosides", "mentions": 18, "confidence_score": 116, "total_score": 2088}, {"name": "aloe-emodin", "mentions": 16, "confidence_score": 106, "total_score": 1696}, {"name": "sennoside d", "mentions": 12, "confidence_score": 98, "total_score": 1176}, {"name": "rhein", "mentions": 13, "confidence_score": 86, "total_score": 1118}, {"name": "sennoside e", "mentions": 9, "confidence_score": 72, "total_score": 648}, {"name": "chrysophanic acid", "mentions": 11, "confidence_score": 65, "total_score": 715}, {"name": "sennosides a and b", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "sennoside f", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "physcion", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "chrysophanol", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "anthraquinones", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "sennoside g", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "sennoside h", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "sennoside a1", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "quercetin", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "anthraquinone aglycones", "mentions": 1, "confidence_score": 8, "total_score": 8}], "constituents_description": "The most important healing constituents of Senna cladophylla are sennoside B, sennoside A, emodin, sennoside C, and anthraquinone glycosides, which are responsible for its laxative properties. Sennoside B and sennoside A are anthraquinone glycosides that are converted to their respective aglycones, emodin and aloe-emodin, upon colonic fermentation, resulting in a cathartic effect. Emodin has been shown to possess anti-inflammatory and antimicrobial properties, while sennoside C has been found to stimulate intestinal peristalsis. The anthraquinone glycosides in Senna cladophylla are thought to act by increasing the water content in the intestinal lumen and stimulating the intestinal muscles, leading to a laxative effect. The laxative properties of Senna cladophylla are attributed to the combined action of these anthraquinone glycosides, making it a useful herbal remedy for the treatment of constipation.", "preparations": [{"name": "senna tea", "mentions": 17, "confidence_score": 165, "total_score": 2805}, {"name": "senna infusion", "mentions": 12, "confidence_score": 97, "total_score": 1164}, {"name": "senna tincture", "mentions": 11, "confidence_score": 78, "total_score": 858}, {"name": "senna decoction", "mentions": 12, "confidence_score": 75, "total_score": 900}, {"name": "infusion", "mentions": 8, "confidence_score": 62, "total_score": 496}, {"name": "decoction", "mentions": 8, "confidence_score": 47, "total_score": 376}, {"name": "tincture", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "senna extract", "mentions": 9, "confidence_score": 39, "total_score": 351}, {"name": "senna leaf tea", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "senna capsules", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "infused oil", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "senna syrup", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "senna salve", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "salve", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "dried senna leaves", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "tisane", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "senna ointment", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "senna powder", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "senna cold infusion", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "tincture senna", "mentions": 1, "confidence_score": 4, "total_score": 4}], "preparations_description": "The main herbal preparations of Senna cladophylla are senna tea, senna infusion, senna tincture, and senna decoction. Senna tea is made by steeping the leaves in hot water, often used to treat constipation and relieve symptoms of irritable bowel syndrome. Senna infusion is similar to tea but typically made with a cold or room-temperature water and used for its diuretic and laxative properties. Senna tincture is an extract made with a solvent such as ethanol or glycerin and used to treat various gastrointestinal issues, including constipation and indigestion. Senna decoction is made by boiling the leaves in water, often used to treat more severe constipation and bowel obstruction.", "side_effects": [{"name": "experience diarrhea", "mentions": 11, "confidence_score": 104, "total_score": 1144}, {"name": "induce vomiting", "mentions": 10, "confidence_score": 87, "total_score": 870}, {"name": "have abdominal pain", "mentions": 8, "confidence_score": 66, "total_score": 528}, {"name": "suffer nausea", "mentions": 8, "confidence_score": 62, "total_score": 496}, {"name": "experience hypokalemia", "mentions": 7, "confidence_score": 55, "total_score": 385}, {"name": "get electrolyte imbalance", "mentions": 8, "confidence_score": 54, "total_score": 432}, {"name": "abuse electrolytes", "mentions": 6, "confidence_score": 52, "total_score": 312}, {"name": "provoke dehydration", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "feel fatigue", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "develop allergic reaction", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "get headache", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "get dehydration", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "overdose", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "vomits", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "diarrheas", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "develop abdominal pain", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "nauseate", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiences diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience vomiting", "mentions": 2, "confidence_score": 17, "total_score": 34}], "side_effects_description": "The possible side effect of using Senna cladophylla are experience of diarrhea, which can lead to electrolyte imbalance and dehydration, is induced by its laxative properties. The improper use of Senna cladophylla can also induce vomiting, resulting in the loss of essential nutrients and water. Abdominal pain and nausea are common complaints associated with the misuse of this plant, due to its ability to cause irritation and inflammation in the gastrointestinal tract. Furthermore, prolonged use of Senna cladophylla can lead to hypokalemia, a condition characterized by low potassium levels, which can cause muscle weakness and heart arrhythmias. This is because the excessive use of Senna cladophylla can cause the body to lose potassium ions, leading to an imbalance in electrolyte levels.", "uses": "Senna cladophylla, a plant native to Madagascar, has been traditionally used for its medicinal properties. The plant's leaves, stems, and roots are used to treat various health conditions, including fever, rheumatism, and respiratory issues. The plant contains alkaloids and flavonoids, which are believed to have anti-inflammatory and antioxidant properties. In traditional medicine, Senna cladophylla is used to treat digestive problems, such as constipation and diarrhea. Further research is needed to fully understand the plant's medicinal uses and potential health benefits.", "taxonomy": "Senna cladophylla is classified as a species of flowering plant in the family Fabaceae, commonly known as legumes. It belongs to the genus Senna, which consists of approximately 270 species of flowering plants. Senna cladophylla is native to tropical Africa and is often found in dry forests and woodlands. The plant is known for its bright yellow flowers and its ability to fix nitrogen in the soil through symbiotic relationships with rhizobia. Senna cladophylla is also used in traditional medicine in some parts of Africa, where it is believed to have various health benefits.", "benefits": "Senna cladophylla, a plant native to Australia, has been studied for its potential health benefits. Its leaves and pods are traditionally used in traditional medicine, particularly in Indigenous Australian communities. The plant is said to have antibacterial, anti-inflammatory, and antioxidant properties, which may help alleviate various health issues. Senna cladophylla has been used to treat conditions such as fever, cough, and skin problems. However, more research is needed to confirm its effectiveness and safety for human consumption.", "parts": "Senna cladophylla, a plant native to the tropical regions of Australia, has been studied for its medicinal properties. The roots and leaves of Senna cladophylla are considered the most medicinally significant parts, containing compounds with potential anti-inflammatory and antimicrobial properties. These compounds have been isolated and studied for their ability to inhibit the growth of certain bacteria and fungi. The traditional use of Senna cladophylla for treating skin conditions and wounds has been documented in some Australian Aboriginal cultures. Further research is needed to fully understand the potential medicinal applications of Senna cladophylla.", "intro": "Senna cladophylla, also known as the desert cassia, is a plant species native to the southwestern United States and northern Mexico, characterized by its yellow flowers and feathery foliage. The plant is known for its medicinal properties, with potential health benefits including the treatment of constipation, diarrhea, and other gastrointestinal issues due to its anthraquinone glycosides, which act as a natural laxative. The bioactive constituents of Senna cladophylla include anthraquinones, such as aloe-emodin, rhein, and chrysophanol, as well as other compounds like flavonoids and saponins. Senna cladophylla is commonly used in herbal preparations, including teas, tinctures, and capsules, to promote digestive health and relieve constipation."}
+{
+    "title": "Senna cladophylla",
+    "herb_slug": "senna-cladophylla",
+    "herb_name_scientific": "Senna cladophylla",
+    "family_slug": "fabaceae",
+    "family_name": "Fabaceae",
+    "url": "herbs/senna-cladophylla",
+    "lastmod": "2025-1-14",
+    "herb_names_common": [
+        {
+            "name": "sickle bush senna",
+            "mentions": 30,
+            "confidence_score": 195,
+            "total_score": 5850
+        },
+        {
+            "name": "sickle bush",
+            "mentions": 22,
+            "confidence_score": 178,
+            "total_score": 3916
+        },
+        {
+            "name": "sicklepod",
+            "mentions": 8,
+            "confidence_score": 64,
+            "total_score": 512
+        },
+        {
+            "name": "false cassia",
+            "mentions": 7,
+            "confidence_score": 58,
+            "total_score": 406
+        },
+        {
+            "name": "wild senna",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "sicklebush",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "sickle bush cassia",
+            "mentions": 8,
+            "confidence_score": 38,
+            "total_score": 304
+        },
+        {
+            "name": "cassia sickle bush",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "sickle-pod cassia",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "sensitive plant",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "karekare bush",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "sickle senna sickle bush",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "false senna",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "wild cassia",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "sickle bush senna plant",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "sickle senna bush",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "sickle bush (senna cladophylla)",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "sickle senna",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cascara",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "sicklepod senna",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 174,
+            "total_score": 3480
+        }
+    ],
+    "what_description": "Senna cladophylla is a perennial legume plant that belongs to the family Fabaceae, native to southern Africa. It has a woody base and erect stems, up to 2 meters tall, with compound leaves divided into 10-16 pairs of leaflets, each 2-3 cm long. The inflorescence is a raceme of 1-6 pink or purple flowers, 1-1.5 cm long, with five standard petals and a short keel. The fruit is a flat, brown pod, 2-3 cm long and 1-1.5 cm wide, containing 3-5 seeds, each 2-3 mm long. The plant grows in well-drained soil in full sun to partial shade in subtropical regions.",
+    "category_action": "laxatives",
+    "ailments": [
+        {
+            "name": "diarrhea",
+            "mentions": 20,
+            "confidence_score": 195,
+            "total_score": 3900
+        },
+        {
+            "name": "constipation",
+            "mentions": 19,
+            "confidence_score": 174,
+            "total_score": 3306
+        },
+        {
+            "name": "irritable bowel syndrome",
+            "mentions": 11,
+            "confidence_score": 78,
+            "total_score": 858
+        },
+        {
+            "name": "bloating",
+            "mentions": 10,
+            "confidence_score": 69,
+            "total_score": 690
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 12,
+            "confidence_score": 63,
+            "total_score": 756
+        },
+        {
+            "name": "inflammatory bowel disease",
+            "mentions": 9,
+            "confidence_score": 59,
+            "total_score": 531
+        },
+        {
+            "name": "hemorrhoids",
+            "mentions": 8,
+            "confidence_score": 57,
+            "total_score": 456
+        },
+        {
+            "name": "abdominal pain",
+            "mentions": 8,
+            "confidence_score": 51,
+            "total_score": 408
+        },
+        {
+            "name": "inflammation",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "diverticulitis",
+            "mentions": 7,
+            "confidence_score": 36,
+            "total_score": 252
+        },
+        {
+            "name": "colic",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "gas",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "irritability",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "nausea",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "flatulence",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "fever",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "haemorrhoids",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "gastritis",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "vomiting",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Senna cladophylla are diarrhea, which is often caused by its anthraquinone glycosides that act as a laxative to stimulate bowel movements. Senna cladophylla is also effective in treating constipation, due to its purgative properties that increase the frequency and ease of bowel movements. Irritable bowel syndrome symptoms such as abdominal pain and bloating can be alleviated by the plant's ability to regulate bowel movements and reduce inflammation. Senna cladophylla is also used to treat gastroenteritis, inflammatory bowel disease, hemorrhoids, and gastritis, as well as reduce inflammation and abdominal pain associated with these conditions. Additionally, Senna cladophylla has been shown to alleviate digestive issues, irritability, nausea, flatulence, fever, and vomiting.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 144,
+            "total_score": 2880
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 122,
+            "total_score": 2440
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 115,
+            "total_score": 2300
+        },
+        {
+            "name": "laxative",
+            "mentions": 12,
+            "confidence_score": 110,
+            "total_score": 1320
+        },
+        {
+            "name": "diuretic",
+            "mentions": 10,
+            "confidence_score": 73,
+            "total_score": 730
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 13,
+            "confidence_score": 65,
+            "total_score": 845
+        },
+        {
+            "name": "analgesic",
+            "mentions": 13,
+            "confidence_score": 53,
+            "total_score": 689
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 10,
+            "confidence_score": 48,
+            "total_score": 480
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "anthelmintic",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "expectorant",
+            "mentions": 7,
+            "confidence_score": 31,
+            "total_score": 217
+        },
+        {
+            "name": "purgative",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "antifungal",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 7,
+            "confidence_score": 22,
+            "total_score": 154
+        },
+        {
+            "name": "emmenagogue",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 6,
+            "confidence_score": 21,
+            "total_score": 126
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "cathartic",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Senna cladophylla are its antimicrobial activity, which is attributed to the presence of flavonoids and saponins, these compounds have been shown to inhibit the growth of various microorganisms, including bacteria and fungi. Its anti-inflammatory properties are mediated by the bioactive compounds glycosides and alkaloids, which have been found to reduce inflammation and alleviate pain. The antioxidant properties of Senna cladophylla are attributed to the presence of volatile oils and flavonoids, which have been shown to scavenge free radicals and protect against oxidative stress. Senna cladophylla is also known for its laxative properties, which are primarily due to the presence of anthraquinone glycosides, these compounds stimulate bowel movements and relieve constipation. The diuretic properties of Senna cladophylla are attributed to the presence of saponins and flavonoids, which increase urine production and help to reduce fluid retention.",
+    "constituents": [
+        {
+            "name": "sennoside b",
+            "mentions": 16,
+            "confidence_score": 147,
+            "total_score": 2352
+        },
+        {
+            "name": "sennoside a",
+            "mentions": 16,
+            "confidence_score": 146,
+            "total_score": 2336
+        },
+        {
+            "name": "emodin",
+            "mentions": 18,
+            "confidence_score": 130,
+            "total_score": 2340
+        },
+        {
+            "name": "sennoside c",
+            "mentions": 14,
+            "confidence_score": 120,
+            "total_score": 1680
+        },
+        {
+            "name": "anthraquinone glycosides",
+            "mentions": 18,
+            "confidence_score": 116,
+            "total_score": 2088
+        },
+        {
+            "name": "aloe-emodin",
+            "mentions": 16,
+            "confidence_score": 106,
+            "total_score": 1696
+        },
+        {
+            "name": "sennoside d",
+            "mentions": 12,
+            "confidence_score": 98,
+            "total_score": 1176
+        },
+        {
+            "name": "rhein",
+            "mentions": 13,
+            "confidence_score": 86,
+            "total_score": 1118
+        },
+        {
+            "name": "sennoside e",
+            "mentions": 9,
+            "confidence_score": 72,
+            "total_score": 648
+        },
+        {
+            "name": "chrysophanic acid",
+            "mentions": 11,
+            "confidence_score": 65,
+            "total_score": 715
+        },
+        {
+            "name": "sennosides a and b",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "sennoside f",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "physcion",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "chrysophanol",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "anthraquinones",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "sennoside g",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "sennoside h",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "sennoside a1",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "quercetin",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "anthraquinone aglycones",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Senna cladophylla are sennoside B, sennoside A, emodin, sennoside C, and anthraquinone glycosides, which are responsible for its laxative properties. Sennoside B and sennoside A are anthraquinone glycosides that are converted to their respective aglycones, emodin and aloe-emodin, upon colonic fermentation, resulting in a cathartic effect. Emodin has been shown to possess anti-inflammatory and antimicrobial properties, while sennoside C has been found to stimulate intestinal peristalsis. The anthraquinone glycosides in Senna cladophylla are thought to act by increasing the water content in the intestinal lumen and stimulating the intestinal muscles, leading to a laxative effect. The laxative properties of Senna cladophylla are attributed to the combined action of these anthraquinone glycosides, making it a useful herbal remedy for the treatment of constipation.",
+    "preparations": [
+        {
+            "name": "senna tea",
+            "mentions": 17,
+            "confidence_score": 165,
+            "total_score": 2805
+        },
+        {
+            "name": "senna infusion",
+            "mentions": 12,
+            "confidence_score": 97,
+            "total_score": 1164
+        },
+        {
+            "name": "senna tincture",
+            "mentions": 11,
+            "confidence_score": 78,
+            "total_score": 858
+        },
+        {
+            "name": "senna decoction",
+            "mentions": 12,
+            "confidence_score": 75,
+            "total_score": 900
+        },
+        {
+            "name": "infusion",
+            "mentions": 8,
+            "confidence_score": 62,
+            "total_score": 496
+        },
+        {
+            "name": "decoction",
+            "mentions": 8,
+            "confidence_score": 47,
+            "total_score": 376
+        },
+        {
+            "name": "tincture",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "senna extract",
+            "mentions": 9,
+            "confidence_score": 39,
+            "total_score": 351
+        },
+        {
+            "name": "senna leaf tea",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "senna capsules",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "senna syrup",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "senna salve",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "salve",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "dried senna leaves",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "tisane",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "senna ointment",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "senna powder",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "senna cold infusion",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "tincture senna",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Senna cladophylla are senna tea, senna infusion, senna tincture, and senna decoction. Senna tea is made by steeping the leaves in hot water, often used to treat constipation and relieve symptoms of irritable bowel syndrome. Senna infusion is similar to tea but typically made with a cold or room-temperature water and used for its diuretic and laxative properties. Senna tincture is an extract made with a solvent such as ethanol or glycerin and used to treat various gastrointestinal issues, including constipation and indigestion. Senna decoction is made by boiling the leaves in water, often used to treat more severe constipation and bowel obstruction.",
+    "side_effects": [
+        {
+            "name": "experience diarrhea",
+            "mentions": 11,
+            "confidence_score": 104,
+            "total_score": 1144
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 10,
+            "confidence_score": 87,
+            "total_score": 870
+        },
+        {
+            "name": "have abdominal pain",
+            "mentions": 8,
+            "confidence_score": 66,
+            "total_score": 528
+        },
+        {
+            "name": "suffer nausea",
+            "mentions": 8,
+            "confidence_score": 62,
+            "total_score": 496
+        },
+        {
+            "name": "experience hypokalemia",
+            "mentions": 7,
+            "confidence_score": 55,
+            "total_score": 385
+        },
+        {
+            "name": "get electrolyte imbalance",
+            "mentions": 8,
+            "confidence_score": 54,
+            "total_score": 432
+        },
+        {
+            "name": "abuse electrolytes",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "name": "provoke dehydration",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "feel fatigue",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "get headache",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "get dehydration",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "overdose",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "vomits",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "diarrheas",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "develop abdominal pain",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "nauseate",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiences diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "side_effects_description": "The possible side effect of using Senna cladophylla are experience of diarrhea, which can lead to electrolyte imbalance and dehydration, is induced by its laxative properties. The improper use of Senna cladophylla can also induce vomiting, resulting in the loss of essential nutrients and water. Abdominal pain and nausea are common complaints associated with the misuse of this plant, due to its ability to cause irritation and inflammation in the gastrointestinal tract. Furthermore, prolonged use of Senna cladophylla can lead to hypokalemia, a condition characterized by low potassium levels, which can cause muscle weakness and heart arrhythmias. This is because the excessive use of Senna cladophylla can cause the body to lose potassium ions, leading to an imbalance in electrolyte levels.",
+    "uses": "Senna cladophylla, a plant native to Madagascar, has been traditionally used for its medicinal properties. The plant's leaves, stems, and roots are used to treat various health conditions, including fever, rheumatism, and respiratory issues. The plant contains alkaloids and flavonoids, which are believed to have anti-inflammatory and antioxidant properties. In traditional medicine, Senna cladophylla is used to treat digestive problems, such as constipation and diarrhea. Further research is needed to fully understand the plant's medicinal uses and potential health benefits.",
+    "taxonomy": "Senna cladophylla is classified as a species of flowering plant in the family Fabaceae, commonly known as legumes. It belongs to the genus Senna, which consists of approximately 270 species of flowering plants. Senna cladophylla is native to tropical Africa and is often found in dry forests and woodlands. The plant is known for its bright yellow flowers and its ability to fix nitrogen in the soil through symbiotic relationships with rhizobia. Senna cladophylla is also used in traditional medicine in some parts of Africa, where it is believed to have various health benefits.",
+    "benefits": "Senna cladophylla, a plant native to Australia, has been studied for its potential health benefits. Its leaves and pods are traditionally used in traditional medicine, particularly in Indigenous Australian communities. The plant is said to have antibacterial, anti-inflammatory, and antioxidant properties, which may help alleviate various health issues. Senna cladophylla has been used to treat conditions such as fever, cough, and skin problems. However, more research is needed to confirm its effectiveness and safety for human consumption.",
+    "parts": "Senna cladophylla, a plant native to the tropical regions of Australia, has been studied for its medicinal properties. The roots and leaves of Senna cladophylla are considered the most medicinally significant parts, containing compounds with potential anti-inflammatory and antimicrobial properties. These compounds have been isolated and studied for their ability to inhibit the growth of certain bacteria and fungi. The traditional use of Senna cladophylla for treating skin conditions and wounds has been documented in some Australian Aboriginal cultures. Further research is needed to fully understand the potential medicinal applications of Senna cladophylla.",
+    "intro": "Senna cladophylla, also known as the desert cassia, is a plant species native to the southwestern United States and northern Mexico, characterized by its yellow flowers and feathery foliage. The plant is known for its medicinal properties, with potential health benefits including the treatment of constipation, diarrhea, and other gastrointestinal issues due to its anthraquinone glycosides, which act as a natural laxative. The bioactive constituents of Senna cladophylla include anthraquinones, such as aloe-emodin, rhein, and chrysophanol, as well as other compounds like flavonoids and saponins. Senna cladophylla is commonly used in herbal preparations, including teas, tinctures, and capsules, to promote digestive health and relieve constipation."
+}

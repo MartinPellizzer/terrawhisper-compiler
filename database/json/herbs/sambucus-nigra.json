@@ -1,1 +1,756 @@
-{"title": "Sambucus nigra", "herb_slug": "sambucus-nigra", "herb_name_scientific": "Sambucus nigra", "family_slug": "", "family_name": "", "url": "herbs/sambucus-nigra", "lastmod": "2025-1-20", "herb_names_common": [{"name": "elder", "mentions": 20, "confidence_score": 193, "total_score": 3860}, {"name": "black elder", "mentions": 20, "confidence_score": 182, "total_score": 3640}, {"name": "black elderberry", "mentions": 20, "confidence_score": 164, "total_score": 3280}, {"name": "european elder", "mentions": 19, "confidence_score": 155, "total_score": 2945}, {"name": "elderberry", "mentions": 10, "confidence_score": 84, "total_score": 840}, {"name": "black sambucus", "mentions": 15, "confidence_score": 74, "total_score": 1110}, {"name": "sambucus", "mentions": 13, "confidence_score": 52, "total_score": 676}, {"name": "european black elder", "mentions": 8, "confidence_score": 45, "total_score": 360}, {"name": "elder bush", "mentions": 7, "confidence_score": 36, "total_score": 252}, {"name": "european elderberry", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "elder tree", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "black elder tree", "mentions": 7, "confidence_score": 34, "total_score": 238}, {"name": "blackberry elder", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "nigra", "mentions": 10, "confidence_score": 30, "total_score": 300}, {"name": "black sambal", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "sambuca", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "black elderberry bush", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "black elder bush", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "black elder shrub", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "common elder", "mentions": 1, "confidence_score": 8, "total_score": 8}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 171, "total_score": 3420}], "what_description": "Sambucus nigra is a deciduous shrub or small tree native to Europe, North Africa, and Western Asia. It belongs to the family Adoxaceae and is also known as the black elder or European elder. The plant grows up to 6 meters tall, with a spread of 4-6 meters, and has a greyish-brown bark and pinnate leaves that are 15-30 centimeters long, with 5-9 leaflets. The leaves are dark green on top and pale green on the underside, and are arranged in an opposite or alternate manner. The plant produces clusters of small, fragrant, and white or purple flowers in late spring, followed by black, berry-like fruits in late summer.", "category_action": "anticatarrhal", "ailments": [{"name": "common cold", "mentions": 18, "confidence_score": 171, "total_score": 3078}, {"name": "sore throat", "mentions": 15, "confidence_score": 125, "total_score": 1875}, {"name": "sinusitis", "mentions": 16, "confidence_score": 123, "total_score": 1968}, {"name": "bronchitis", "mentions": 15, "confidence_score": 105, "total_score": 1575}, {"name": "cough", "mentions": 12, "confidence_score": 100, "total_score": 1200}, {"name": "influenza", "mentions": 11, "confidence_score": 96, "total_score": 1056}, {"name": "fever", "mentions": 10, "confidence_score": 78, "total_score": 780}, {"name": "flu", "mentions": 7, "confidence_score": 63, "total_score": 441}, {"name": "migraine", "mentions": 10, "confidence_score": 63, "total_score": 630}, {"name": "diarrhea", "mentions": 9, "confidence_score": 54, "total_score": 486}, {"name": "tonsillitis", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "gastroenteritis", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "allergies", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "respiratory infections", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "hay fever", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "pneumonia", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "ear infection", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "rheumatism", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "constipation", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "urinary tract infection", "mentions": 3, "confidence_score": 17, "total_score": 51}], "ailments_description": "The most common ailments you can heal with Sambucus nigra are common cold, and sore throat, both of which are significantly alleviated by its antiviral properties. Sambucus nigra has also been used to treat sinusitis and bronchitis, due to its ability to clear mucus and reduce inflammation. Additionally, the plant's expectorant properties make it effective in treating cough, influenza, and fever, by loosening and removing excess mucus. Sambucus nigra's analgesic and anti-inflammatory properties also make it a treatment option for migraine, diarrhea, tonsillitis, gastroenteritis, and respiratory infections. Furthermore, its antihistamine properties make it useful in treating allergies, hay fever, and ear infection, while its immunomodulatory effects have been shown to reduce the severity of pneumonia and rheumatism, and its laxative properties can alleviate constipation, urinary tract infection.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 172, "total_score": 3440}, {"name": "antioxidant", "mentions": 20, "confidence_score": 170, "total_score": 3400}, {"name": "expectorant", "mentions": 20, "confidence_score": 164, "total_score": 3280}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 158, "total_score": 3160}, {"name": "antiviral", "mentions": 20, "confidence_score": 142, "total_score": 2840}, {"name": "immunomodulatory", "mentions": 15, "confidence_score": 106, "total_score": 1590}, {"name": "analgesic", "mentions": 11, "confidence_score": 63, "total_score": 693}, {"name": "antifungal", "mentions": 9, "confidence_score": 61, "total_score": 549}, {"name": "antihistamine", "mentions": 10, "confidence_score": 59, "total_score": 590}, {"name": "antibacterial", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "cough suppressant", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "cardioprotective", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "antipyretic", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "antiseptic", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "anticancer", "mentions": 6, "confidence_score": 20, "total_score": 120}, {"name": "antihistaminic", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "immune system stimulant", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cytotoxic", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "mucolytic", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cardiovascular protective", "mentions": 2, "confidence_score": 12, "total_score": 24}], "properties_description": "The main therapeutic properties of Sambucus nigra are primarily attributed to its antimicrobial activity, which is largely due to the presence of flavonoids and phenolic acids. The antioxidant properties of this plant are also noteworthy, as they are responsible for scavenging free radicals and reducing oxidative stress, thereby protecting against cell damage. Its expectorant properties are beneficial in treating respiratory conditions, such as bronchitis and coughs, which is largely attributed to the saponins present in the plant. Furthermore, the anti-inflammatory properties of Sambucus nigra are also significant, as they help reduce inflammation and alleviate conditions like arthritis, which can be attributed to the presence of volatile oils and terpenes. Additionally, the antiviral properties of this plant have been documented, suggesting its potential use in treating viral infections, such as the common cold and flu, which is attributed to the bioactive compounds like glycosides and anthocyanins.", "constituents": [{"name": "flavonoids (quercetin, kaempferol)", "mentions": 28, "confidence_score": 226, "total_score": 6328}, {"name": "sambunigrin", "mentions": 17, "confidence_score": 133, "total_score": 2261}, {"name": "oleanolic acid", "mentions": 7, "confidence_score": 57, "total_score": 399}, {"name": "vitamin c", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "deoxysambunigrin", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "isorhapontigenin", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "ursolic acid", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "saponins", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "sambucol", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "sambucin", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "phenolic acids (salicylic acid)", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "anthocyanins (mainly delphinidin and cyanidin)", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "tannins", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "sambunigron", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "phenolic glycosides", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "deoxysambunigeroside", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "deoxysambunigrin-3-o-glucoside", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "caffeic acid", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "dehydrodiconiferyl alcohol", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "vitexin", "mentions": 2, "confidence_score": 17, "total_score": 34}], "constituents_description": "The most important healing constituents of Sambucus nigra are flavonoids, specifically quercetin and kaempferol, which possess strong antioxidant and anti-inflammatory properties, contributing to their immunomodulatory effects. Sambunigrin has been found to exhibit anti-inflammatory activity, potentially due to its inhibition of COX-2 enzyme. Oleanolic acid, a triterpenoid, has been demonstrated to possess hepatoprotective, anti-inflammatory, and antioxidant properties. Vitamin C, present in Sambucus nigra, is a well-known antioxidant that plays a crucial role in immune function and collagen synthesis. Deoxysambunigrin, a glycoside, has been shown to have potential anti-inflammatory activity, although its exact mechanisms of action are not yet fully understood.", "preparations": [{"name": "elderberry tincture", "mentions": 13, "confidence_score": 115, "total_score": 1495}, {"name": "sambucus syrup", "mentions": 8, "confidence_score": 79, "total_score": 632}, {"name": "elderberry syrup", "mentions": 7, "confidence_score": 68, "total_score": 476}, {"name": "elderberry wine", "mentions": 10, "confidence_score": 65, "total_score": 650}, {"name": "elderflower tea", "mentions": 8, "confidence_score": 65, "total_score": 520}, {"name": "elderberry infusion", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "elderberry tea", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "elderflower tincture", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "sambucus tea", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "sambuca syrup", "mentions": 3, "confidence_score": 30, "total_score": 90}, {"name": "sambucol", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "sambucus infusion", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "sambucus tincture", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "elderflower cordial", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "elderberry oil", "mentions": 7, "confidence_score": 23, "total_score": 161}, {"name": "elderberry juice", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "elderberry salve", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "elderberry capsules", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "elixir", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "elderberry jam", "mentions": 3, "confidence_score": 15, "total_score": 45}], "preparations_description": "The main herbal preparations of Sambucus nigra are elderberry tincture, a concentrated liquid extract used for immune support and viral infections; sambucus syrup and elderberry syrup, sweet liquid preparations traditionally used to soothe sore throats and coughs; elderberry wine, a fermented liquid used for its antiviral properties and potential cardiovascular benefits; and elderflower tea, a herbal infusion made from the flowers used for colds, flu, and sinusitis relief. These preparations are made from various parts of the plant, including the berries, flowers, and leaves, which are rich in flavonoids, anthocyanins, and other bioactive compounds. The berries are particularly rich in anthocyanins, powerful antioxidants that have been shown to exhibit antiviral and anti-inflammatory activities. The flowers, on the other hand, are rich in flavonoids, which have been shown to exhibit anti-inflammatory and antihistaminic activities. The preparations are often used to alleviate symptoms associated with colds, flu, and other respiratory infections, and may also have potential benefits for cardiovascular health.", "side_effects": [{"name": "experiencing abdominal pain", "mentions": 6, "confidence_score": 52, "total_score": 312}, {"name": "suffering hypotension", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "trigger allergic reactions", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "developing allergic reaction", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "experiencing nausea", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "cause diarrhea", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "experiencing diarrhea", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "developing allergic reactions", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "induce vomiting", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "experiencing hypotension", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "getting headaches", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "experiencing vomiting", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "vomits", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "induce nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "leads to hypoglycemia", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiencing dizziness", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "interact with medications", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "causing liver damage", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "getting dizziness", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effects of using Sambucus nigra improperly include experiencing abdominal pain due to its antispasmodic properties causing muscle contractions in the digestive system. Suffering hypotension is another possible side effect as the plant's flavonoids can lower blood pressure in individuals with pre-existing low blood pressure. Triggering allergic reactions or developing an allergic reaction is possible in individuals sensitive to the plant's compounds, such as flavonoids and glycosides. Experiencing nausea is also a possible side effect due to the plant's emetic properties, which can stimulate vomiting in some individuals. These side effects are more likely to occur when Sambucus nigra is used in excessive doses, without proper medical supervision, or in individuals with pre-existing medical conditions."}
+{
+    "title": "Sambucus nigra",
+    "herb_slug": "sambucus-nigra",
+    "herb_name_scientific": "Sambucus nigra",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/sambucus-nigra",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "elder",
+            "mentions": 20,
+            "confidence_score": 193,
+            "total_score": 3860
+        },
+        {
+            "name": "black elder",
+            "mentions": 20,
+            "confidence_score": 182,
+            "total_score": 3640
+        },
+        {
+            "name": "black elderberry",
+            "mentions": 20,
+            "confidence_score": 164,
+            "total_score": 3280
+        },
+        {
+            "name": "european elder",
+            "mentions": 19,
+            "confidence_score": 155,
+            "total_score": 2945
+        },
+        {
+            "name": "elderberry",
+            "mentions": 10,
+            "confidence_score": 84,
+            "total_score": 840
+        },
+        {
+            "name": "black sambucus",
+            "mentions": 15,
+            "confidence_score": 74,
+            "total_score": 1110
+        },
+        {
+            "name": "sambucus",
+            "mentions": 13,
+            "confidence_score": 52,
+            "total_score": 676
+        },
+        {
+            "name": "european black elder",
+            "mentions": 8,
+            "confidence_score": 45,
+            "total_score": 360
+        },
+        {
+            "name": "elder bush",
+            "mentions": 7,
+            "confidence_score": 36,
+            "total_score": 252
+        },
+        {
+            "name": "european elderberry",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "elder tree",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "black elder tree",
+            "mentions": 7,
+            "confidence_score": 34,
+            "total_score": 238
+        },
+        {
+            "name": "blackberry elder",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "nigra",
+            "mentions": 10,
+            "confidence_score": 30,
+            "total_score": 300
+        },
+        {
+            "name": "black sambal",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "sambuca",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "black elderberry bush",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "black elder bush",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "black elder shrub",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "common elder",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 171,
+            "total_score": 3420
+        }
+    ],
+    "what_description": "Sambucus nigra is a deciduous shrub or small tree native to Europe, North Africa, and Western Asia. It belongs to the family Adoxaceae and is also known as the black elder or European elder. The plant grows up to 6 meters tall, with a spread of 4-6 meters, and has a greyish-brown bark and pinnate leaves that are 15-30 centimeters long, with 5-9 leaflets. The leaves are dark green on top and pale green on the underside, and are arranged in an opposite or alternate manner. The plant produces clusters of small, fragrant, and white or purple flowers in late spring, followed by black, berry-like fruits in late summer.",
+    "category_action": "anticatarrhal",
+    "ailments": [
+        {
+            "name": "common cold",
+            "mentions": 18,
+            "confidence_score": 171,
+            "total_score": 3078
+        },
+        {
+            "name": "sore throat",
+            "mentions": 15,
+            "confidence_score": 125,
+            "total_score": 1875
+        },
+        {
+            "name": "sinusitis",
+            "mentions": 16,
+            "confidence_score": 123,
+            "total_score": 1968
+        },
+        {
+            "name": "bronchitis",
+            "mentions": 15,
+            "confidence_score": 105,
+            "total_score": 1575
+        },
+        {
+            "name": "cough",
+            "mentions": 12,
+            "confidence_score": 100,
+            "total_score": 1200
+        },
+        {
+            "name": "influenza",
+            "mentions": 11,
+            "confidence_score": 96,
+            "total_score": 1056
+        },
+        {
+            "name": "fever",
+            "mentions": 10,
+            "confidence_score": 78,
+            "total_score": 780
+        },
+        {
+            "name": "flu",
+            "mentions": 7,
+            "confidence_score": 63,
+            "total_score": 441
+        },
+        {
+            "name": "migraine",
+            "mentions": 10,
+            "confidence_score": 63,
+            "total_score": 630
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 9,
+            "confidence_score": 54,
+            "total_score": 486
+        },
+        {
+            "name": "tonsillitis",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "allergies",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "respiratory infections",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "hay fever",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "pneumonia",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "ear infection",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "constipation",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "urinary tract infection",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Sambucus nigra are common cold, and sore throat, both of which are significantly alleviated by its antiviral properties. Sambucus nigra has also been used to treat sinusitis and bronchitis, due to its ability to clear mucus and reduce inflammation. Additionally, the plant's expectorant properties make it effective in treating cough, influenza, and fever, by loosening and removing excess mucus. Sambucus nigra's analgesic and anti-inflammatory properties also make it a treatment option for migraine, diarrhea, tonsillitis, gastroenteritis, and respiratory infections. Furthermore, its antihistamine properties make it useful in treating allergies, hay fever, and ear infection, while its immunomodulatory effects have been shown to reduce the severity of pneumonia and rheumatism, and its laxative properties can alleviate constipation, urinary tract infection.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 170,
+            "total_score": 3400
+        },
+        {
+            "name": "expectorant",
+            "mentions": 20,
+            "confidence_score": 164,
+            "total_score": 3280
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 158,
+            "total_score": 3160
+        },
+        {
+            "name": "antiviral",
+            "mentions": 20,
+            "confidence_score": 142,
+            "total_score": 2840
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 15,
+            "confidence_score": 106,
+            "total_score": 1590
+        },
+        {
+            "name": "analgesic",
+            "mentions": 11,
+            "confidence_score": 63,
+            "total_score": 693
+        },
+        {
+            "name": "antifungal",
+            "mentions": 9,
+            "confidence_score": 61,
+            "total_score": 549
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 10,
+            "confidence_score": 59,
+            "total_score": 590
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "cough suppressant",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 20,
+            "total_score": 120
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "immune system stimulant",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "mucolytic",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cardiovascular protective",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Sambucus nigra are primarily attributed to its antimicrobial activity, which is largely due to the presence of flavonoids and phenolic acids. The antioxidant properties of this plant are also noteworthy, as they are responsible for scavenging free radicals and reducing oxidative stress, thereby protecting against cell damage. Its expectorant properties are beneficial in treating respiratory conditions, such as bronchitis and coughs, which is largely attributed to the saponins present in the plant. Furthermore, the anti-inflammatory properties of Sambucus nigra are also significant, as they help reduce inflammation and alleviate conditions like arthritis, which can be attributed to the presence of volatile oils and terpenes. Additionally, the antiviral properties of this plant have been documented, suggesting its potential use in treating viral infections, such as the common cold and flu, which is attributed to the bioactive compounds like glycosides and anthocyanins.",
+    "constituents": [
+        {
+            "name": "flavonoids (quercetin, kaempferol)",
+            "mentions": 28,
+            "confidence_score": 226,
+            "total_score": 6328
+        },
+        {
+            "name": "sambunigrin",
+            "mentions": 17,
+            "confidence_score": 133,
+            "total_score": 2261
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 7,
+            "confidence_score": 57,
+            "total_score": 399
+        },
+        {
+            "name": "vitamin c",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "deoxysambunigrin",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "ursolic acid",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "saponins",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "sambucol",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "sambucin",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "phenolic acids (salicylic acid)",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "anthocyanins (mainly delphinidin and cyanidin)",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "tannins",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "sambunigron",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "deoxysambunigeroside",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "deoxysambunigrin-3-o-glucoside",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "dehydrodiconiferyl alcohol",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "vitexin",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Sambucus nigra are flavonoids, specifically quercetin and kaempferol, which possess strong antioxidant and anti-inflammatory properties, contributing to their immunomodulatory effects. Sambunigrin has been found to exhibit anti-inflammatory activity, potentially due to its inhibition of COX-2 enzyme. Oleanolic acid, a triterpenoid, has been demonstrated to possess hepatoprotective, anti-inflammatory, and antioxidant properties. Vitamin C, present in Sambucus nigra, is a well-known antioxidant that plays a crucial role in immune function and collagen synthesis. Deoxysambunigrin, a glycoside, has been shown to have potential anti-inflammatory activity, although its exact mechanisms of action are not yet fully understood.",
+    "preparations": [
+        {
+            "name": "elderberry tincture",
+            "mentions": 13,
+            "confidence_score": 115,
+            "total_score": 1495
+        },
+        {
+            "name": "sambucus syrup",
+            "mentions": 8,
+            "confidence_score": 79,
+            "total_score": 632
+        },
+        {
+            "name": "elderberry syrup",
+            "mentions": 7,
+            "confidence_score": 68,
+            "total_score": 476
+        },
+        {
+            "name": "elderberry wine",
+            "mentions": 10,
+            "confidence_score": 65,
+            "total_score": 650
+        },
+        {
+            "name": "elderflower tea",
+            "mentions": 8,
+            "confidence_score": 65,
+            "total_score": 520
+        },
+        {
+            "name": "elderberry infusion",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "elderberry tea",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "elderflower tincture",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "sambucus tea",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "sambuca syrup",
+            "mentions": 3,
+            "confidence_score": 30,
+            "total_score": 90
+        },
+        {
+            "name": "sambucol",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "sambucus infusion",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "sambucus tincture",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "elderflower cordial",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "elderberry oil",
+            "mentions": 7,
+            "confidence_score": 23,
+            "total_score": 161
+        },
+        {
+            "name": "elderberry juice",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "elderberry salve",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "elderberry capsules",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "elixir",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "elderberry jam",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Sambucus nigra are elderberry tincture, a concentrated liquid extract used for immune support and viral infections; sambucus syrup and elderberry syrup, sweet liquid preparations traditionally used to soothe sore throats and coughs; elderberry wine, a fermented liquid used for its antiviral properties and potential cardiovascular benefits; and elderflower tea, a herbal infusion made from the flowers used for colds, flu, and sinusitis relief. These preparations are made from various parts of the plant, including the berries, flowers, and leaves, which are rich in flavonoids, anthocyanins, and other bioactive compounds. The berries are particularly rich in anthocyanins, powerful antioxidants that have been shown to exhibit antiviral and anti-inflammatory activities. The flowers, on the other hand, are rich in flavonoids, which have been shown to exhibit anti-inflammatory and antihistaminic activities. The preparations are often used to alleviate symptoms associated with colds, flu, and other respiratory infections, and may also have potential benefits for cardiovascular health.",
+    "side_effects": [
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "name": "suffering hypotension",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "developing allergic reaction",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "developing allergic reactions",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "experiencing hypotension",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "getting headaches",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "vomits",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "leads to hypoglycemia",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "causing liver damage",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "getting dizziness",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Sambucus nigra improperly include experiencing abdominal pain due to its antispasmodic properties causing muscle contractions in the digestive system. Suffering hypotension is another possible side effect as the plant's flavonoids can lower blood pressure in individuals with pre-existing low blood pressure. Triggering allergic reactions or developing an allergic reaction is possible in individuals sensitive to the plant's compounds, such as flavonoids and glycosides. Experiencing nausea is also a possible side effect due to the plant's emetic properties, which can stimulate vomiting in some individuals. These side effects are more likely to occur when Sambucus nigra is used in excessive doses, without proper medical supervision, or in individuals with pre-existing medical conditions."
+}

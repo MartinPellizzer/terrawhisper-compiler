@@ -1,1 +1,756 @@
-{"title": "Rhodiola rosea", "herb_slug": "rhodiola-rosea", "herb_name_scientific": "Rhodiola rosea", "family_slug": "", "family_name": "", "url": "herbs/rhodiola-rosea", "lastmod": "2025-1-20", "herb_names_common": [{"name": "golden root", "mentions": 20, "confidence_score": 180, "total_score": 3600}, {"name": "arctic root", "mentions": 19, "confidence_score": 160, "total_score": 3040}, {"name": "rose root", "mentions": 17, "confidence_score": 120, "total_score": 2040}, {"name": "roseroot", "mentions": 13, "confidence_score": 104, "total_score": 1352}, {"name": "red root", "mentions": 17, "confidence_score": 91, "total_score": 1547}, {"name": "rhodiola", "mentions": 10, "confidence_score": 79, "total_score": 790}, {"name": "golden rhodiola", "mentions": 11, "confidence_score": 61, "total_score": 671}, {"name": "rosenroot", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "mountain rose", "mentions": 7, "confidence_score": 39, "total_score": 273}, {"name": "lithium root", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "rosavin", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "lavender root", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "rodiola", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "golden rod", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "lithosun", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "snow rose", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "sedum rosea", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "golden root herb", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "golden root of the alps", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "golden root of the arctic", "mentions": 2, "confidence_score": 9, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 171, "total_score": 3420}], "what_description": "Rhodiola rosea is a perennial plant with an upright habit, growing up to 30 cm in height, and 20 cm in width. It belongs to the family Crassulaceae, commonly known as the stonecrop or orpine family. The plant's leaves are oval-shaped, 2-5 cm long, and 1-2 cm wide, with a waxy texture and a distinctive mid-rib. Rhodiola rosea produces yellowish-green flowers in late summer, which are arranged in a raceme, with five petals and five sepals. The plant's root system consists of a thick, fleshy rhizome, from which the leaves and stems emerge.", "category_action": "adaptogens", "ailments": [{"name": "anxiety", "mentions": 20, "confidence_score": 191, "total_score": 3820}, {"name": "stress", "mentions": 20, "confidence_score": 177, "total_score": 3540}, {"name": "fatigue", "mentions": 20, "confidence_score": 172, "total_score": 3440}, {"name": "depression", "mentions": 20, "confidence_score": 170, "total_score": 3400}, {"name": "burnout", "mentions": 20, "confidence_score": 143, "total_score": 2860}, {"name": "mood swings", "mentions": 12, "confidence_score": 79, "total_score": 948}, {"name": "sleep disorder", "mentions": 10, "confidence_score": 72, "total_score": 720}, {"name": "insomnia", "mentions": 7, "confidence_score": 55, "total_score": 385}, {"name": "adrenal fatigue", "mentions": 8, "confidence_score": 55, "total_score": 440}, {"name": "cognitive decline", "mentions": 9, "confidence_score": 49, "total_score": 441}, {"name": "memory loss", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "cognitive impairment", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "migraines", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "adhd", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "adrenal insufficiency", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "sleep disturbances", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "hypertension", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "headache", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "migraine", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "hypoglycemia", "mentions": 2, "confidence_score": 9, "total_score": 18}], "ailments_description": "The most common ailments you can heal with Rhodiola rosea are anxiety, depression, fatigue, and stress, which Rhodiola rosea has been shown to alleviate by reducing cortisol levels and increasing mood-enhancing neurotransmitters. Rhodiola rosea has also been proven effective in addressing burnout, a condition characterized by emotional and mental exhaustion, by enhancing mental performance and reducing symptoms of depression. Furthermore, Rhodiola rosea has been demonstrated to alleviate sleep disorders, including insomnia, by regulating sleep patterns and improving sleep quality. Additionally, Rhodiola rosea has been found to be beneficial in treating adrenal fatigue, cognitive decline, memory loss, and cognitive impairment, as well as migraines, ADHD, adrenal insufficiency, and sleep disturbances. Rhodiola rosea has also been shown to have a positive effect on hypertension, headache, and hypoglycemia.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 181, "total_score": 3620}, {"name": "neuroprotective", "mentions": 20, "confidence_score": 163, "total_score": 3260}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 159, "total_score": 3180}, {"name": "immunomodulatory", "mentions": 16, "confidence_score": 115, "total_score": 1840}, {"name": "antistress", "mentions": 14, "confidence_score": 106, "total_score": 1484}, {"name": "antimicrobial", "mentions": 19, "confidence_score": 105, "total_score": 1995}, {"name": "cardioprotective", "mentions": 17, "confidence_score": 99, "total_score": 1683}, {"name": "anxiolytic", "mentions": 12, "confidence_score": 94, "total_score": 1128}, {"name": "adaptogenic", "mentions": 10, "confidence_score": 87, "total_score": 870}, {"name": "antidepressant", "mentions": 11, "confidence_score": 84, "total_score": 924}, {"name": "antiviral", "mentions": 12, "confidence_score": 59, "total_score": 708}, {"name": "analgesic", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "hepatoprotective", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "cytotoxic", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "cognitive enhancer", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "anti-fatigue", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "antihistamine", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "antioxidative enzyme inducer", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "anti-stress", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "antineurodegenerative", "mentions": 1, "confidence_score": 8, "total_score": 8}], "properties_description": "The main therapeutic properties of Rhodiola rosea are antioxidant, which helps protect cells from damage caused by free radicals. Rhodiola rosea's antioxidant property is attributed to the presence of flavonoids and saponins, which scavenge and neutralize reactive oxygen species. The bioactive compounds responsible for the neuroprotective effects of Rhodiola rosea, such as rosin and rosmarinic acid, help to reduce oxidative stress and inflammation in the brain. The anti-inflammatory properties of Rhodiola rosea, mediated by the action of triterpenoid saponins, contribute to its immunomodulatory effects, which help to regulate the immune system and prevent autoimmune diseases. Additionally, Rhodiola rosea's antistress properties, attributed to the action of rosavin and salidroside, help to reduce fatigue, improve mental performance, and enhance mood under conditions of mental and physical stress.", "constituents": [{"name": "rosavin", "mentions": 20, "confidence_score": 180, "total_score": 3600}, {"name": "salidroside", "mentions": 20, "confidence_score": 178, "total_score": 3560}, {"name": "tyrosol", "mentions": 18, "confidence_score": 115, "total_score": 2070}, {"name": "caffeic acid", "mentions": 13, "confidence_score": 86, "total_score": 1118}, {"name": "rosmarinic acid", "mentions": 10, "confidence_score": 64, "total_score": 640}, {"name": "trehalose", "mentions": 7, "confidence_score": 53, "total_score": 371}, {"name": "rosarin", "mentions": 8, "confidence_score": 53, "total_score": 424}, {"name": "quercetin", "mentions": 9, "confidence_score": 48, "total_score": 432}, {"name": "rhodioloside", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "iridoid glycosides", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "kaempferol", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "rosin", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "isorhapontigenin", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "rosiridin", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "tryptophan", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "ferulic acid", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "catechin", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "fatty acids", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "n-feruloyltyramine", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "beta-sitosterol", "mentions": 2, "confidence_score": 10, "total_score": 20}], "constituents_description": "The most important healing constituents of Rhodiola rosea are rosavin, salidroside, tyrosol, caffeic acid, and rosmarinic acid. These compounds contribute to the herb's adaptogenic properties, allowing it to mitigate stress and fatigue by modulating the hypothalamic-pituitary-adrenal axis. Specifically, rosavin and salidroside, known as rosavinoids, exhibit adaptogenic activity by inhibiting the enzyme phosphodiesterase, which breaks down cAMP, thereby increasing its levels and enhancing cellular energy. Additionally, caffeic acid and rosmarinic acid possess antioxidant properties, scavenging free radicals and protecting cells from oxidative damage, while tyrosol may also contribute to the herb's adaptogenic effects by modulating the activity of neurotransmitters such as serotonin and dopamine. The combination of these constituents in Rhodiola rosea is thought to be responsible for its efficacy in improving mental performance, reducing fatigue, and enhancing mood.", "preparations": [{"name": "capsules", "mentions": 19, "confidence_score": 168, "total_score": 3192}, {"name": "tincture", "mentions": 19, "confidence_score": 167, "total_score": 3173}, {"name": "tea", "mentions": 19, "confidence_score": 157, "total_score": 2983}, {"name": "infusion", "mentions": 12, "confidence_score": 78, "total_score": 936}, {"name": "suppositories", "mentions": 10, "confidence_score": 48, "total_score": 480}, {"name": "salves", "mentions": 10, "confidence_score": 46, "total_score": 460}, {"name": "extract", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "infused oil", "mentions": 9, "confidence_score": 38, "total_score": 342}, {"name": "powder", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "lozenges", "mentions": 5, "confidence_score": 17, "total_score": 85}, {"name": "decoction", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "topical cream", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "gummies", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "essential oil", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "rhodiola tincture", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "ointments", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "elixir", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "rhodiola capsules", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "rhodiola tea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suppository", "mentions": 2, "confidence_score": 7, "total_score": 14}], "preparations_description": "The main herbal preparations of Rhodiola rosea include capsules, tincture, tea, infusion, and suppositories. Capsules typically contain 100-200 mg of standardized root extract, providing 1-3% rosavin and 0.5-1% salidroside, which are the primary active compounds responsible for its adaptogenic effects. Tincture is a concentrated liquid solution of the plant's root extract, often standardized to contain 1-2% rosavin and 0.5-1% salidroside, and is usually taken sublingually or added to water. Herbal teas and infusions are prepared by steeping the dried root in hot water, releasing its bioactive compounds, and are often consumed 2-3 times a day to promote adaptogenic and stress-reducing effects. Suppositories, although less common, are used to deliver the root extract directly to the bloodstream through the rectal mucosa, providing rapid absorption and potential benefits for anxiety and depression.", "side_effects": [{"name": "develop insomnia", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "develops anxiety", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "exacerbate anxiety", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "experiences dizziness", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "experiences nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiencing insomnia", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiences insomnia", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "developing anxiety", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experience anxiety", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause insomnia", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experience fatigue", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "experiencing dizziness", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "causes dizziness", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "interact with maois", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experience dizziness", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "trigger headaches", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "increases blood pressure", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "experience tremors", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "experience insomnia", "mentions": 1, "confidence_score": 10, "total_score": 10}], "side_effects_description": "The possible side effect of using Rhodiola rosea are numerous and can occur when taken improperly. Developing insomnia is a possible side effect due to Rhodiola rosea's stimulant properties which can interfere with sleep patterns when taken too close to bedtime. Additionally, Rhodiola rosea may exacerbate anxiety in individuals who are predisposed to anxiety disorders, as it can increase levels of serotonin and dopamine in the brain. Other side effects include experiencing dizziness and nausea, likely due to the herb's ability to increase heart rate and blood pressure, which can be problematic for individuals with pre-existing cardiovascular conditions. This is particularly concerning when Rhodiola rosea is taken in excessive dosages or in combination with other stimulants or medications."}
+{
+    "title": "Rhodiola rosea",
+    "herb_slug": "rhodiola-rosea",
+    "herb_name_scientific": "Rhodiola rosea",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/rhodiola-rosea",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "golden root",
+            "mentions": 20,
+            "confidence_score": 180,
+            "total_score": 3600
+        },
+        {
+            "name": "arctic root",
+            "mentions": 19,
+            "confidence_score": 160,
+            "total_score": 3040
+        },
+        {
+            "name": "rose root",
+            "mentions": 17,
+            "confidence_score": 120,
+            "total_score": 2040
+        },
+        {
+            "name": "roseroot",
+            "mentions": 13,
+            "confidence_score": 104,
+            "total_score": 1352
+        },
+        {
+            "name": "red root",
+            "mentions": 17,
+            "confidence_score": 91,
+            "total_score": 1547
+        },
+        {
+            "name": "rhodiola",
+            "mentions": 10,
+            "confidence_score": 79,
+            "total_score": 790
+        },
+        {
+            "name": "golden rhodiola",
+            "mentions": 11,
+            "confidence_score": 61,
+            "total_score": 671
+        },
+        {
+            "name": "rosenroot",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "mountain rose",
+            "mentions": 7,
+            "confidence_score": 39,
+            "total_score": 273
+        },
+        {
+            "name": "lithium root",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "rosavin",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "lavender root",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "rodiola",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "golden rod",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "lithosun",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "snow rose",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "sedum rosea",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "golden root herb",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "golden root of the alps",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "golden root of the arctic",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 171,
+            "total_score": 3420
+        }
+    ],
+    "what_description": "Rhodiola rosea is a perennial plant with an upright habit, growing up to 30 cm in height, and 20 cm in width. It belongs to the family Crassulaceae, commonly known as the stonecrop or orpine family. The plant's leaves are oval-shaped, 2-5 cm long, and 1-2 cm wide, with a waxy texture and a distinctive mid-rib. Rhodiola rosea produces yellowish-green flowers in late summer, which are arranged in a raceme, with five petals and five sepals. The plant's root system consists of a thick, fleshy rhizome, from which the leaves and stems emerge.",
+    "category_action": "adaptogens",
+    "ailments": [
+        {
+            "name": "anxiety",
+            "mentions": 20,
+            "confidence_score": 191,
+            "total_score": 3820
+        },
+        {
+            "name": "stress",
+            "mentions": 20,
+            "confidence_score": 177,
+            "total_score": 3540
+        },
+        {
+            "name": "fatigue",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        },
+        {
+            "name": "depression",
+            "mentions": 20,
+            "confidence_score": 170,
+            "total_score": 3400
+        },
+        {
+            "name": "burnout",
+            "mentions": 20,
+            "confidence_score": 143,
+            "total_score": 2860
+        },
+        {
+            "name": "mood swings",
+            "mentions": 12,
+            "confidence_score": 79,
+            "total_score": 948
+        },
+        {
+            "name": "sleep disorder",
+            "mentions": 10,
+            "confidence_score": 72,
+            "total_score": 720
+        },
+        {
+            "name": "insomnia",
+            "mentions": 7,
+            "confidence_score": 55,
+            "total_score": 385
+        },
+        {
+            "name": "adrenal fatigue",
+            "mentions": 8,
+            "confidence_score": 55,
+            "total_score": 440
+        },
+        {
+            "name": "cognitive decline",
+            "mentions": 9,
+            "confidence_score": 49,
+            "total_score": 441
+        },
+        {
+            "name": "memory loss",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "cognitive impairment",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "migraines",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "adhd",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "adrenal insufficiency",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "sleep disturbances",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "hypertension",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "headache",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "migraine",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "hypoglycemia",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Rhodiola rosea are anxiety, depression, fatigue, and stress, which Rhodiola rosea has been shown to alleviate by reducing cortisol levels and increasing mood-enhancing neurotransmitters. Rhodiola rosea has also been proven effective in addressing burnout, a condition characterized by emotional and mental exhaustion, by enhancing mental performance and reducing symptoms of depression. Furthermore, Rhodiola rosea has been demonstrated to alleviate sleep disorders, including insomnia, by regulating sleep patterns and improving sleep quality. Additionally, Rhodiola rosea has been found to be beneficial in treating adrenal fatigue, cognitive decline, memory loss, and cognitive impairment, as well as migraines, ADHD, adrenal insufficiency, and sleep disturbances. Rhodiola rosea has also been shown to have a positive effect on hypertension, headache, and hypoglycemia.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 181,
+            "total_score": 3620
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 20,
+            "confidence_score": 163,
+            "total_score": 3260
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 159,
+            "total_score": 3180
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 16,
+            "confidence_score": 115,
+            "total_score": 1840
+        },
+        {
+            "name": "antistress",
+            "mentions": 14,
+            "confidence_score": 106,
+            "total_score": 1484
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 19,
+            "confidence_score": 105,
+            "total_score": 1995
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 17,
+            "confidence_score": 99,
+            "total_score": 1683
+        },
+        {
+            "name": "anxiolytic",
+            "mentions": 12,
+            "confidence_score": 94,
+            "total_score": 1128
+        },
+        {
+            "name": "adaptogenic",
+            "mentions": 10,
+            "confidence_score": 87,
+            "total_score": 870
+        },
+        {
+            "name": "antidepressant",
+            "mentions": 11,
+            "confidence_score": 84,
+            "total_score": 924
+        },
+        {
+            "name": "antiviral",
+            "mentions": 12,
+            "confidence_score": 59,
+            "total_score": 708
+        },
+        {
+            "name": "analgesic",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "cognitive enhancer",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "anti-fatigue",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "antioxidative enzyme inducer",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "anti-stress",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "antineurodegenerative",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Rhodiola rosea are antioxidant, which helps protect cells from damage caused by free radicals. Rhodiola rosea's antioxidant property is attributed to the presence of flavonoids and saponins, which scavenge and neutralize reactive oxygen species. The bioactive compounds responsible for the neuroprotective effects of Rhodiola rosea, such as rosin and rosmarinic acid, help to reduce oxidative stress and inflammation in the brain. The anti-inflammatory properties of Rhodiola rosea, mediated by the action of triterpenoid saponins, contribute to its immunomodulatory effects, which help to regulate the immune system and prevent autoimmune diseases. Additionally, Rhodiola rosea's antistress properties, attributed to the action of rosavin and salidroside, help to reduce fatigue, improve mental performance, and enhance mood under conditions of mental and physical stress.",
+    "constituents": [
+        {
+            "name": "rosavin",
+            "mentions": 20,
+            "confidence_score": 180,
+            "total_score": 3600
+        },
+        {
+            "name": "salidroside",
+            "mentions": 20,
+            "confidence_score": 178,
+            "total_score": 3560
+        },
+        {
+            "name": "tyrosol",
+            "mentions": 18,
+            "confidence_score": 115,
+            "total_score": 2070
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 13,
+            "confidence_score": 86,
+            "total_score": 1118
+        },
+        {
+            "name": "rosmarinic acid",
+            "mentions": 10,
+            "confidence_score": 64,
+            "total_score": 640
+        },
+        {
+            "name": "trehalose",
+            "mentions": 7,
+            "confidence_score": 53,
+            "total_score": 371
+        },
+        {
+            "name": "rosarin",
+            "mentions": 8,
+            "confidence_score": 53,
+            "total_score": 424
+        },
+        {
+            "name": "quercetin",
+            "mentions": 9,
+            "confidence_score": 48,
+            "total_score": 432
+        },
+        {
+            "name": "rhodioloside",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "iridoid glycosides",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "rosin",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "rosiridin",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "tryptophan",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "catechin",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "n-feruloyltyramine",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "beta-sitosterol",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Rhodiola rosea are rosavin, salidroside, tyrosol, caffeic acid, and rosmarinic acid. These compounds contribute to the herb's adaptogenic properties, allowing it to mitigate stress and fatigue by modulating the hypothalamic-pituitary-adrenal axis. Specifically, rosavin and salidroside, known as rosavinoids, exhibit adaptogenic activity by inhibiting the enzyme phosphodiesterase, which breaks down cAMP, thereby increasing its levels and enhancing cellular energy. Additionally, caffeic acid and rosmarinic acid possess antioxidant properties, scavenging free radicals and protecting cells from oxidative damage, while tyrosol may also contribute to the herb's adaptogenic effects by modulating the activity of neurotransmitters such as serotonin and dopamine. The combination of these constituents in Rhodiola rosea is thought to be responsible for its efficacy in improving mental performance, reducing fatigue, and enhancing mood.",
+    "preparations": [
+        {
+            "name": "capsules",
+            "mentions": 19,
+            "confidence_score": 168,
+            "total_score": 3192
+        },
+        {
+            "name": "tincture",
+            "mentions": 19,
+            "confidence_score": 167,
+            "total_score": 3173
+        },
+        {
+            "name": "tea",
+            "mentions": 19,
+            "confidence_score": 157,
+            "total_score": 2983
+        },
+        {
+            "name": "infusion",
+            "mentions": 12,
+            "confidence_score": 78,
+            "total_score": 936
+        },
+        {
+            "name": "suppositories",
+            "mentions": 10,
+            "confidence_score": 48,
+            "total_score": 480
+        },
+        {
+            "name": "salves",
+            "mentions": 10,
+            "confidence_score": 46,
+            "total_score": 460
+        },
+        {
+            "name": "extract",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "infused oil",
+            "mentions": 9,
+            "confidence_score": 38,
+            "total_score": 342
+        },
+        {
+            "name": "powder",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "lozenges",
+            "mentions": 5,
+            "confidence_score": 17,
+            "total_score": 85
+        },
+        {
+            "name": "decoction",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "topical cream",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "gummies",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "essential oil",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "rhodiola tincture",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "ointments",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "elixir",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "rhodiola capsules",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "rhodiola tea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Rhodiola rosea include capsules, tincture, tea, infusion, and suppositories. Capsules typically contain 100-200 mg of standardized root extract, providing 1-3% rosavin and 0.5-1% salidroside, which are the primary active compounds responsible for its adaptogenic effects. Tincture is a concentrated liquid solution of the plant's root extract, often standardized to contain 1-2% rosavin and 0.5-1% salidroside, and is usually taken sublingually or added to water. Herbal teas and infusions are prepared by steeping the dried root in hot water, releasing its bioactive compounds, and are often consumed 2-3 times a day to promote adaptogenic and stress-reducing effects. Suppositories, although less common, are used to deliver the root extract directly to the bloodstream through the rectal mucosa, providing rapid absorption and potential benefits for anxiety and depression.",
+    "side_effects": [
+        {
+            "name": "develop insomnia",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "develops anxiety",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "exacerbate anxiety",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiencing insomnia",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiences insomnia",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "developing anxiety",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experience anxiety",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause insomnia",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experience fatigue",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "causes dizziness",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "interact with maois",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "increases blood pressure",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "experience tremors",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "experience insomnia",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "side_effects_description": "The possible side effect of using Rhodiola rosea are numerous and can occur when taken improperly. Developing insomnia is a possible side effect due to Rhodiola rosea's stimulant properties which can interfere with sleep patterns when taken too close to bedtime. Additionally, Rhodiola rosea may exacerbate anxiety in individuals who are predisposed to anxiety disorders, as it can increase levels of serotonin and dopamine in the brain. Other side effects include experiencing dizziness and nausea, likely due to the herb's ability to increase heart rate and blood pressure, which can be problematic for individuals with pre-existing cardiovascular conditions. This is particularly concerning when Rhodiola rosea is taken in excessive dosages or in combination with other stimulants or medications."
+}

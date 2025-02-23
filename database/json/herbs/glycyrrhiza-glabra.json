@@ -1,1 +1,756 @@
-{"title": "Glycyrrhiza glabra", "herb_slug": "glycyrrhiza-glabra", "herb_name_scientific": "Glycyrrhiza glabra", "family_slug": "", "family_name": "", "url": "herbs/glycyrrhiza-glabra", "lastmod": "2025-1-20", "herb_names_common": [{"name": "licorice", "mentions": 18, "confidence_score": 171, "total_score": 3078}, {"name": "mulethi", "mentions": 20, "confidence_score": 168, "total_score": 3360}, {"name": "yashtimadhu", "mentions": 22, "confidence_score": 156, "total_score": 3432}, {"name": "glycyrrhiza", "mentions": 20, "confidence_score": 150, "total_score": 3000}, {"name": "licorice root", "mentions": 13, "confidence_score": 103, "total_score": 1339}, {"name": "jethimadh", "mentions": 14, "confidence_score": 97, "total_score": 1358}, {"name": "sweet root", "mentions": 10, "confidence_score": 64, "total_score": 640}, {"name": "glycyrrhizin", "mentions": 16, "confidence_score": 62, "total_score": 992}, {"name": "sweetroot", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "jethikam", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "liquorice", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "jethimadhu", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "sweet licorice", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "methi", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "matsa", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "raswant", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "sweet wood", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "chinese licorice", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "vera", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "glycyrrhiza glabra", "mentions": 5, "confidence_score": 10, "total_score": 50}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 186, "total_score": 3720}], "what_description": "Glycyrrhiza glabra is a perennial legume plant native to southern Europe, the Mediterranean, and Asia. It belongs to the family Fabaceae. Glycyrrhiza glabra has a woody root system, a taproot, and a branched stem reaching up to 2 meters in height, with pinnate leaves composed of 9-17 leaflets. The plant produces small, white or pinkish flowers in axillary racemes, and it bears brown, ovate fruits containing 2-4 seeds. The root of Glycyrrhiza glabra is the source of the liquorice root, which is used as a flavoring agent and for medicinal purposes.", "category_action": "demulcents", "ailments": [{"name": "asthma", "mentions": 19, "confidence_score": 156, "total_score": 2964}, {"name": "gastritis", "mentions": 13, "confidence_score": 105, "total_score": 1365}, {"name": "bronchitis", "mentions": 12, "confidence_score": 93, "total_score": 1116}, {"name": "hepatitis", "mentions": 11, "confidence_score": 76, "total_score": 836}, {"name": "peptic ulcer", "mentions": 9, "confidence_score": 74, "total_score": 666}, {"name": "inflammation", "mentions": 8, "confidence_score": 66, "total_score": 528}, {"name": "inflammatory bowel disease", "mentions": 8, "confidence_score": 60, "total_score": 480}, {"name": "hypertension", "mentions": 8, "confidence_score": 58, "total_score": 464}, {"name": "diabetes", "mentions": 9, "confidence_score": 54, "total_score": 486}, {"name": "gastroesophageal reflux disease", "mentions": 7, "confidence_score": 49, "total_score": 343}, {"name": "ulcers", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "stomach ulcer", "mentions": 5, "confidence_score": 44, "total_score": 220}, {"name": "digestive issues", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "arthritis", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "diarrhea", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "skin conditions", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "cough", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "osteoporosis", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "rheumatism", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "coughs", "mentions": 3, "confidence_score": 22, "total_score": 66}], "ailments_description": "The most common ailments you can heal with Glycyrrhiza glabra are asthma, gastritis, bronchitis, and hepatitis, which can be alleviated due to its anti-inflammatory properties that inhibit the production of leukotrienes, reducing inflammation and airway constriction in asthma. Gastritis and peptic ulcer can be treated with Glycyrrhiza glabra as its compounds have been shown to increase mucus production, protecting the gastric mucosa from acid and enzymes. Inflammation, a common symptom of inflammatory bowel disease, can be reduced with Glycyrrhiza glabra due to its ability to inhibit the production of pro-inflammatory cytokines. Additionally, Glycyrrhiza glabra has been used to treat hypertension, diabetes, gastroesophageal reflux disease, and ulcers, as its compounds have been found to have antioxidant and anti-diabetic properties. Its anti-inflammatory and anti-ulcerative properties also make it effective in treating digestive issues, arthritis, diarrhea, skin conditions, coughs, osteoporosis, rheumatism, and stomach ulcers.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 175, "total_score": 3500}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 170, "total_score": 3400}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 166, "total_score": 3320}, {"name": "hepatoprotective", "mentions": 18, "confidence_score": 151, "total_score": 2718}, {"name": "cardioprotective", "mentions": 19, "confidence_score": 140, "total_score": 2660}, {"name": "analgesic", "mentions": 16, "confidence_score": 105, "total_score": 1680}, {"name": "antiviral", "mentions": 17, "confidence_score": 104, "total_score": 1768}, {"name": "expectorant", "mentions": 14, "confidence_score": 97, "total_score": 1358}, {"name": "immunomodulatory", "mentions": 8, "confidence_score": 56, "total_score": 448}, {"name": "antifungal", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "antihistamine", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "antispasmodic", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "antidiabetic", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "anticancer", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "neuroprotective", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "gastroprotective", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "anti-ulcerative", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "antihistaminic", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "immune system modulator", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "antidiarrheal", "mentions": 2, "confidence_score": 13, "total_score": 26}], "properties_description": "The main therapeutic properties of Glycyrrhiza glabra are primarily due to its bioactive compounds, which include flavonoids, saponins, and triterpenoids. The antioxidant property of this plant is attributed to the presence of flavonoids and triterpenoids, which neutralize free radicals and scavenge oxidative stress. The anti-inflammatory property of Glycyrrhiza glabra is mediated by saponins, which inhibit the production of pro-inflammatory cytokines and enzymes, thereby reducing inflammation and oxidative damage. Additionally, the antimicrobial property of this plant is attributed to its volatile oils and saponins, which exhibit bactericidal and fungicidal activities, preventing the growth of microorganisms and infections. The hepatoprotective and cardioprotective properties of Glycyrrhiza glabra are attributed to its saponins and triterpenoids, which protect against liver and heart damage by reducing oxidative stress, inflammation, and cell death.", "constituents": [{"name": "glycyrrhizin", "mentions": 20, "confidence_score": 198, "total_score": 3960}, {"name": "isoliquiritigenin", "mentions": 22, "confidence_score": 165, "total_score": 3630}, {"name": "licoricidin", "mentions": 13, "confidence_score": 85, "total_score": 1105}, {"name": "saponins (including glycyrrhetic acid and glycyrrhizic acid)", "mentions": 10, "confidence_score": 78, "total_score": 780}, {"name": "18\u03b2-glycyrrhetinic acid", "mentions": 8, "confidence_score": 71, "total_score": 568}, {"name": "isoglycyrrhizin", "mentions": 8, "confidence_score": 70, "total_score": 560}, {"name": "vitexin", "mentions": 10, "confidence_score": 68, "total_score": 680}, {"name": "flavonoids (including isoliquiritigenin and liquiritigenin)", "mentions": 8, "confidence_score": 58, "total_score": 464}, {"name": "liquiritin", "mentions": 7, "confidence_score": 49, "total_score": 343}, {"name": "18\u03b1-glycyrrhetinic acid", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "licorisoflavan a", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "glycyrrhizic acid", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "coumarins (including scopoletin)", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "licorisoflavone", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "glycyrrhetol", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "licopyrones", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "glycyrol", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "quercetin", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "glycosides", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "isoliquiritin", "mentions": 2, "confidence_score": 15, "total_score": 30}], "constituents_description": "The most important healing constituents of Glycyrrhiza glabra are glycyrrhizin, isoliquiritigenin, licoricidin, saponins including glycyrrhetic acid and glycyrrhizic acid, and 18\u03b2-glycyrrhetinic acid. Glycyrrhizin exhibits anti-inflammatory properties by inhibiting the production of pro-inflammatory cytokines and enzymes, and has been shown to have a protective effect on the gastric mucosa by increasing the production of mucus and bicarbonate. Isoliquiritigenin has been found to have antioxidant and anti-inflammatory properties, and has been shown to inhibit the activity of COX-2 and LOX enzymes. Licoricidin has been found to have antioxidant and anti-inflammatory properties, and has been shown to inhibit the production of pro-inflammatory cytokines and enzymes. Glycyrrhetic acid, a component of saponins, has been found to have anti-inflammatory properties by inhibiting the production of pro-inflammatory cytokines and enzymes, while glycyrrhizic acid has been found to have anti-inflammatory properties and has been shown to inhibit the activity of COX-2 and LOX enzymes.", "preparations": [{"name": "licorice root tea", "mentions": 17, "confidence_score": 167, "total_score": 2839}, {"name": "licorice syrup", "mentions": 13, "confidence_score": 81, "total_score": 1053}, {"name": "glycyrrhizin extract", "mentions": 9, "confidence_score": 80, "total_score": 720}, {"name": "licorice tincture", "mentions": 11, "confidence_score": 70, "total_score": 770}, {"name": "dried licorice root", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "licorice oil", "mentions": 8, "confidence_score": 48, "total_score": 384}, {"name": "licorice extract", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "licorice powder", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "licorice tea", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "glycyrrhizin", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "glycyrrhizin capsules", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "dgl tablets", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "licorice root tincture", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "licorice capsules", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "dgl lozenges", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "licorice sugar", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "glycyrrhiza tincture", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "licorice infusion", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "licorice root capsules", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "glycyrrhizin tincture", "mentions": 1, "confidence_score": 9, "total_score": 9}], "preparations_description": "The main herbal preparations of Glycyrrhiza glabra are primarily derived from its root, which contains the bioactive compound glycyrrhizin, a triterpenoid saponin responsible for its medicinal properties. Licorice root tea, made by steeping dried licorice root in hot water, is often used to soothe digestive issues and relieve inflammation due to its anti-inflammatory and antioxidant properties. Licorice syrup, a concentrated extract of licorice root, is commonly used as a sweetener and flavoring agent, while glycyrrhizin extract is a highly concentrated form of the active compound, often used to treat adrenal insufficiency and other conditions requiring a specific dose of glycyrrhizin. Licorice tincture, an alcoholic extract of licorice root, is used to treat various health conditions, including stomach ulcers and skin conditions, due to its anti-inflammatory and antimicrobial properties. Dried licorice root, a convenient and shelf-stable form of the herb, is often used to make teas and infusions, providing a readily available source of glycyrrhizin and other beneficial compounds.", "side_effects": [{"name": "induce edema", "mentions": 6, "confidence_score": 52, "total_score": 312}, {"name": "increase blood pressure", "mentions": 5, "confidence_score": 47, "total_score": 235}, {"name": "raises blood pressure", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "cause hypertension", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "elevate blood pressure", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "causes edema", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "develop edema", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "induces cushing's syndrome", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "retain fluid", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "experiences hypokalemia", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "cause hypokalemia", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "triggers hypokalemia", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "elevates blood pressure", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "aggravate hypokalemia", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "triggers edema", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induces edema", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "increase cortisol levels", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induces hypokalemia", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "trigger hypokalemia", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop hypokalemia", "mentions": 2, "confidence_score": 17, "total_score": 34}], "side_effects_description": "The possible side effect of using Glycyrrhiza glabra are inducing edema due to its mineralocorticoid activity that mimics the effects of aldosterone, a hormone that regulates electrolyte balance and water retention in the body, leading to fluid retention in the body's tissues. This can also increase blood pressure as the heart works harder to pump blood through the circulatory system, raising blood pressure and potentially leading to hypertension. Elevated blood pressure can cause further complications such as heart disease, stroke, and kidney damage. Long-term use of Glycyrrhiza glabra can also cause a condition known as pseudoadosteronism, a condition characterized by increased blood pressure, low potassium levels, and high sodium levels. These side effects can be particularly concerning for individuals with pre-existing cardiovascular conditions or those taking medications that may interact with Glycyrrhiza glabra."}
+{
+    "title": "Glycyrrhiza glabra",
+    "herb_slug": "glycyrrhiza-glabra",
+    "herb_name_scientific": "Glycyrrhiza glabra",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/glycyrrhiza-glabra",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "licorice",
+            "mentions": 18,
+            "confidence_score": 171,
+            "total_score": 3078
+        },
+        {
+            "name": "mulethi",
+            "mentions": 20,
+            "confidence_score": 168,
+            "total_score": 3360
+        },
+        {
+            "name": "yashtimadhu",
+            "mentions": 22,
+            "confidence_score": 156,
+            "total_score": 3432
+        },
+        {
+            "name": "glycyrrhiza",
+            "mentions": 20,
+            "confidence_score": 150,
+            "total_score": 3000
+        },
+        {
+            "name": "licorice root",
+            "mentions": 13,
+            "confidence_score": 103,
+            "total_score": 1339
+        },
+        {
+            "name": "jethimadh",
+            "mentions": 14,
+            "confidence_score": 97,
+            "total_score": 1358
+        },
+        {
+            "name": "sweet root",
+            "mentions": 10,
+            "confidence_score": 64,
+            "total_score": 640
+        },
+        {
+            "name": "glycyrrhizin",
+            "mentions": 16,
+            "confidence_score": 62,
+            "total_score": 992
+        },
+        {
+            "name": "sweetroot",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "jethikam",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "liquorice",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "jethimadhu",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "sweet licorice",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "methi",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "matsa",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "raswant",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "sweet wood",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "chinese licorice",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "vera",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "glycyrrhiza glabra",
+            "mentions": 5,
+            "confidence_score": 10,
+            "total_score": 50
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 186,
+            "total_score": 3720
+        }
+    ],
+    "what_description": "Glycyrrhiza glabra is a perennial legume plant native to southern Europe, the Mediterranean, and Asia. It belongs to the family Fabaceae. Glycyrrhiza glabra has a woody root system, a taproot, and a branched stem reaching up to 2 meters in height, with pinnate leaves composed of 9-17 leaflets. The plant produces small, white or pinkish flowers in axillary racemes, and it bears brown, ovate fruits containing 2-4 seeds. The root of Glycyrrhiza glabra is the source of the liquorice root, which is used as a flavoring agent and for medicinal purposes.",
+    "category_action": "demulcents",
+    "ailments": [
+        {
+            "name": "asthma",
+            "mentions": 19,
+            "confidence_score": 156,
+            "total_score": 2964
+        },
+        {
+            "name": "gastritis",
+            "mentions": 13,
+            "confidence_score": 105,
+            "total_score": 1365
+        },
+        {
+            "name": "bronchitis",
+            "mentions": 12,
+            "confidence_score": 93,
+            "total_score": 1116
+        },
+        {
+            "name": "hepatitis",
+            "mentions": 11,
+            "confidence_score": 76,
+            "total_score": 836
+        },
+        {
+            "name": "peptic ulcer",
+            "mentions": 9,
+            "confidence_score": 74,
+            "total_score": 666
+        },
+        {
+            "name": "inflammation",
+            "mentions": 8,
+            "confidence_score": 66,
+            "total_score": 528
+        },
+        {
+            "name": "inflammatory bowel disease",
+            "mentions": 8,
+            "confidence_score": 60,
+            "total_score": 480
+        },
+        {
+            "name": "hypertension",
+            "mentions": 8,
+            "confidence_score": 58,
+            "total_score": 464
+        },
+        {
+            "name": "diabetes",
+            "mentions": 9,
+            "confidence_score": 54,
+            "total_score": 486
+        },
+        {
+            "name": "gastroesophageal reflux disease",
+            "mentions": 7,
+            "confidence_score": 49,
+            "total_score": 343
+        },
+        {
+            "name": "ulcers",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "stomach ulcer",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "arthritis",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "cough",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "osteoporosis",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "coughs",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Glycyrrhiza glabra are asthma, gastritis, bronchitis, and hepatitis, which can be alleviated due to its anti-inflammatory properties that inhibit the production of leukotrienes, reducing inflammation and airway constriction in asthma. Gastritis and peptic ulcer can be treated with Glycyrrhiza glabra as its compounds have been shown to increase mucus production, protecting the gastric mucosa from acid and enzymes. Inflammation, a common symptom of inflammatory bowel disease, can be reduced with Glycyrrhiza glabra due to its ability to inhibit the production of pro-inflammatory cytokines. Additionally, Glycyrrhiza glabra has been used to treat hypertension, diabetes, gastroesophageal reflux disease, and ulcers, as its compounds have been found to have antioxidant and anti-diabetic properties. Its anti-inflammatory and anti-ulcerative properties also make it effective in treating digestive issues, arthritis, diarrhea, skin conditions, coughs, osteoporosis, rheumatism, and stomach ulcers.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 175,
+            "total_score": 3500
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 170,
+            "total_score": 3400
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 166,
+            "total_score": 3320
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 18,
+            "confidence_score": 151,
+            "total_score": 2718
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 19,
+            "confidence_score": 140,
+            "total_score": 2660
+        },
+        {
+            "name": "analgesic",
+            "mentions": 16,
+            "confidence_score": 105,
+            "total_score": 1680
+        },
+        {
+            "name": "antiviral",
+            "mentions": 17,
+            "confidence_score": 104,
+            "total_score": 1768
+        },
+        {
+            "name": "expectorant",
+            "mentions": 14,
+            "confidence_score": 97,
+            "total_score": 1358
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 8,
+            "confidence_score": 56,
+            "total_score": 448
+        },
+        {
+            "name": "antifungal",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "anticancer",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "gastroprotective",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "anti-ulcerative",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "immune system modulator",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Glycyrrhiza glabra are primarily due to its bioactive compounds, which include flavonoids, saponins, and triterpenoids. The antioxidant property of this plant is attributed to the presence of flavonoids and triterpenoids, which neutralize free radicals and scavenge oxidative stress. The anti-inflammatory property of Glycyrrhiza glabra is mediated by saponins, which inhibit the production of pro-inflammatory cytokines and enzymes, thereby reducing inflammation and oxidative damage. Additionally, the antimicrobial property of this plant is attributed to its volatile oils and saponins, which exhibit bactericidal and fungicidal activities, preventing the growth of microorganisms and infections. The hepatoprotective and cardioprotective properties of Glycyrrhiza glabra are attributed to its saponins and triterpenoids, which protect against liver and heart damage by reducing oxidative stress, inflammation, and cell death.",
+    "constituents": [
+        {
+            "name": "glycyrrhizin",
+            "mentions": 20,
+            "confidence_score": 198,
+            "total_score": 3960
+        },
+        {
+            "name": "isoliquiritigenin",
+            "mentions": 22,
+            "confidence_score": 165,
+            "total_score": 3630
+        },
+        {
+            "name": "licoricidin",
+            "mentions": 13,
+            "confidence_score": 85,
+            "total_score": 1105
+        },
+        {
+            "name": "saponins (including glycyrrhetic acid and glycyrrhizic acid)",
+            "mentions": 10,
+            "confidence_score": 78,
+            "total_score": 780
+        },
+        {
+            "name": "18\u03b2-glycyrrhetinic acid",
+            "mentions": 8,
+            "confidence_score": 71,
+            "total_score": 568
+        },
+        {
+            "name": "isoglycyrrhizin",
+            "mentions": 8,
+            "confidence_score": 70,
+            "total_score": 560
+        },
+        {
+            "name": "vitexin",
+            "mentions": 10,
+            "confidence_score": 68,
+            "total_score": 680
+        },
+        {
+            "name": "flavonoids (including isoliquiritigenin and liquiritigenin)",
+            "mentions": 8,
+            "confidence_score": 58,
+            "total_score": 464
+        },
+        {
+            "name": "liquiritin",
+            "mentions": 7,
+            "confidence_score": 49,
+            "total_score": 343
+        },
+        {
+            "name": "18\u03b1-glycyrrhetinic acid",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "licorisoflavan a",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "glycyrrhizic acid",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "coumarins (including scopoletin)",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "licorisoflavone",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "glycyrrhetol",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "licopyrones",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "glycyrol",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "quercetin",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "glycosides",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "isoliquiritin",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Glycyrrhiza glabra are glycyrrhizin, isoliquiritigenin, licoricidin, saponins including glycyrrhetic acid and glycyrrhizic acid, and 18\u03b2-glycyrrhetinic acid. Glycyrrhizin exhibits anti-inflammatory properties by inhibiting the production of pro-inflammatory cytokines and enzymes, and has been shown to have a protective effect on the gastric mucosa by increasing the production of mucus and bicarbonate. Isoliquiritigenin has been found to have antioxidant and anti-inflammatory properties, and has been shown to inhibit the activity of COX-2 and LOX enzymes. Licoricidin has been found to have antioxidant and anti-inflammatory properties, and has been shown to inhibit the production of pro-inflammatory cytokines and enzymes. Glycyrrhetic acid, a component of saponins, has been found to have anti-inflammatory properties by inhibiting the production of pro-inflammatory cytokines and enzymes, while glycyrrhizic acid has been found to have anti-inflammatory properties and has been shown to inhibit the activity of COX-2 and LOX enzymes.",
+    "preparations": [
+        {
+            "name": "licorice root tea",
+            "mentions": 17,
+            "confidence_score": 167,
+            "total_score": 2839
+        },
+        {
+            "name": "licorice syrup",
+            "mentions": 13,
+            "confidence_score": 81,
+            "total_score": 1053
+        },
+        {
+            "name": "glycyrrhizin extract",
+            "mentions": 9,
+            "confidence_score": 80,
+            "total_score": 720
+        },
+        {
+            "name": "licorice tincture",
+            "mentions": 11,
+            "confidence_score": 70,
+            "total_score": 770
+        },
+        {
+            "name": "dried licorice root",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "licorice oil",
+            "mentions": 8,
+            "confidence_score": 48,
+            "total_score": 384
+        },
+        {
+            "name": "licorice extract",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "licorice powder",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "licorice tea",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "glycyrrhizin",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "glycyrrhizin capsules",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "dgl tablets",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "licorice root tincture",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "licorice capsules",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "dgl lozenges",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "licorice sugar",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "glycyrrhiza tincture",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "licorice infusion",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "licorice root capsules",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "glycyrrhizin tincture",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Glycyrrhiza glabra are primarily derived from its root, which contains the bioactive compound glycyrrhizin, a triterpenoid saponin responsible for its medicinal properties. Licorice root tea, made by steeping dried licorice root in hot water, is often used to soothe digestive issues and relieve inflammation due to its anti-inflammatory and antioxidant properties. Licorice syrup, a concentrated extract of licorice root, is commonly used as a sweetener and flavoring agent, while glycyrrhizin extract is a highly concentrated form of the active compound, often used to treat adrenal insufficiency and other conditions requiring a specific dose of glycyrrhizin. Licorice tincture, an alcoholic extract of licorice root, is used to treat various health conditions, including stomach ulcers and skin conditions, due to its anti-inflammatory and antimicrobial properties. Dried licorice root, a convenient and shelf-stable form of the herb, is often used to make teas and infusions, providing a readily available source of glycyrrhizin and other beneficial compounds.",
+    "side_effects": [
+        {
+            "name": "induce edema",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 5,
+            "confidence_score": 47,
+            "total_score": 235
+        },
+        {
+            "name": "raises blood pressure",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "cause hypertension",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "causes edema",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "develop edema",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "induces cushing's syndrome",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "retain fluid",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "experiences hypokalemia",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "cause hypokalemia",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "triggers hypokalemia",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "elevates blood pressure",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "aggravate hypokalemia",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "triggers edema",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induces edema",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "increase cortisol levels",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induces hypokalemia",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "trigger hypokalemia",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop hypokalemia",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "side_effects_description": "The possible side effect of using Glycyrrhiza glabra are inducing edema due to its mineralocorticoid activity that mimics the effects of aldosterone, a hormone that regulates electrolyte balance and water retention in the body, leading to fluid retention in the body's tissues. This can also increase blood pressure as the heart works harder to pump blood through the circulatory system, raising blood pressure and potentially leading to hypertension. Elevated blood pressure can cause further complications such as heart disease, stroke, and kidney damage. Long-term use of Glycyrrhiza glabra can also cause a condition known as pseudoadosteronism, a condition characterized by increased blood pressure, low potassium levels, and high sodium levels. These side effects can be particularly concerning for individuals with pre-existing cardiovascular conditions or those taking medications that may interact with Glycyrrhiza glabra."
+}

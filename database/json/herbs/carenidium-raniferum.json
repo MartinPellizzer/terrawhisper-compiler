@@ -1,1 +1,148 @@
-{"herb_slug": "carenidium-raniferum", "herb_name_scientific": "Carenidium raniferum", "url": "herbs/carenidium-raniferum", "lastmod": "2024-12-25", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 119, "total_score": 2380}], "title": "Carenidium raniferum", "family_slug": "orchidaceae", "family_name": "Orchidaceae", "herb_names_common": [{"name": "raniferum", "mentions": 17, "confidence_score": 97, "total_score": 1649}, {"name": "carenidium", "mentions": 34, "confidence_score": 90, "total_score": 3060}, {"name": "carenidium raniferum", "mentions": 13, "confidence_score": 87, "total_score": 1131}, {"name": "none", "mentions": 8, "confidence_score": 80, "total_score": 640}, {"name": "no common name found", "mentions": 8, "confidence_score": 71, "total_score": 568}, {"name": "ranier's flower", "mentions": 10, "confidence_score": 45, "total_score": 450}, {"name": "carenidium species", "mentions": 6, "confidence_score": 21, "total_score": 126}, {"name": "unknown name", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "australian fern", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "australian carenidium", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "carenium raniferum", "mentions": 6, "confidence_score": 13, "total_score": 78}, {"name": "raniferum sp.", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "carenidium sp.", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "no common name", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "plant name not found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "carenidium plant", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "queensland carenidium", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "ranidium raniferum", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "raniferum plant", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "carenidium spec.", "mentions": 1, "confidence_score": 7, "total_score": 7}], "uses": "Carenidium raniferum has potential medicinal uses, although it is not well-documented. Some studies suggest that it may exhibit antimicrobial properties, which could be useful in the treatment of various infections. However, more research is needed to fully understand its medicinal applications. Additionally, the plant's traditional uses and folk remedies are not well-documented, making it difficult to assess its potential benefits. Further study is necessary to confirm its medicinal uses and potential health benefits.", "taxonomy": "Carenidium raniferum is classified as a species of flowering plant in the family Fabaceae, commonly known as legumes. It belongs to the genus Carenidium, which is a small group of plants native to Australia. The plant is further classified as being part of the tribe Mirbelieae, a group of legumes that are predominantly found in the southern regions of Australia. Carenidium raniferum is a shrub that grows in the eastern and southern parts of the country. This species is often found in dry to semi-dry areas and is known for its small, white flowers.", "benefits": "Carenidium raniferum is a genus of plant in the orchid family, but there is limited information available about its health benefits. However, in general, orchids are known for their antioxidant and anti-inflammatory properties. Carenidium raniferum may potentially have similar benefits due to its plant-based compounds. Further research is needed to confirm any specific health benefits of this plant. The potential health benefits of Carenidium raniferum are still largely unknown and require further scientific study.", "properties": "Unfortunately, I do not have information about the plant Carenidium raniferum.", "constituents": "Unfortunately, I was unable to find any information about Carenidium raniferum, its active constituents, or any other relevant details.", "parts": "Info not available yet.", "preparations": "Carenidium raniferum herbal preparations are not well-documented, but it is a species of plant native to Australia. Traditional herbal preparations may involve using the plant's roots, leaves, and stems for medicinal purposes. However, it's essential to note that the efficacy and safety of these preparations are not scientifically proven. Some studies suggest that Carenidium raniferum may have antioxidant and anti-inflammatory properties. More research is needed to understand the potential benefits and risks of using this plant in herbal preparations.", "side_effects": "Info not available yet.", "intro": "There is no information about Carenidium raniferum."}
+{
+    "herb_slug": "carenidium-raniferum",
+    "herb_name_scientific": "Carenidium raniferum",
+    "url": "herbs/carenidium-raniferum",
+    "lastmod": "2024-12-25",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 119,
+            "total_score": 2380
+        }
+    ],
+    "title": "Carenidium raniferum",
+    "family_slug": "orchidaceae",
+    "family_name": "Orchidaceae",
+    "herb_names_common": [
+        {
+            "name": "raniferum",
+            "mentions": 17,
+            "confidence_score": 97,
+            "total_score": 1649
+        },
+        {
+            "name": "carenidium",
+            "mentions": 34,
+            "confidence_score": 90,
+            "total_score": 3060
+        },
+        {
+            "name": "carenidium raniferum",
+            "mentions": 13,
+            "confidence_score": 87,
+            "total_score": 1131
+        },
+        {
+            "name": "none",
+            "mentions": 8,
+            "confidence_score": 80,
+            "total_score": 640
+        },
+        {
+            "name": "no common name found",
+            "mentions": 8,
+            "confidence_score": 71,
+            "total_score": 568
+        },
+        {
+            "name": "ranier's flower",
+            "mentions": 10,
+            "confidence_score": 45,
+            "total_score": 450
+        },
+        {
+            "name": "carenidium species",
+            "mentions": 6,
+            "confidence_score": 21,
+            "total_score": 126
+        },
+        {
+            "name": "unknown name",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "australian fern",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "australian carenidium",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "carenium raniferum",
+            "mentions": 6,
+            "confidence_score": 13,
+            "total_score": 78
+        },
+        {
+            "name": "raniferum sp.",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "carenidium sp.",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "no common name",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "plant name not found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "carenidium plant",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "queensland carenidium",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "ranidium raniferum",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "raniferum plant",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "carenidium spec.",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        }
+    ],
+    "uses": "Carenidium raniferum has potential medicinal uses, although it is not well-documented. Some studies suggest that it may exhibit antimicrobial properties, which could be useful in the treatment of various infections. However, more research is needed to fully understand its medicinal applications. Additionally, the plant's traditional uses and folk remedies are not well-documented, making it difficult to assess its potential benefits. Further study is necessary to confirm its medicinal uses and potential health benefits.",
+    "taxonomy": "Carenidium raniferum is classified as a species of flowering plant in the family Fabaceae, commonly known as legumes. It belongs to the genus Carenidium, which is a small group of plants native to Australia. The plant is further classified as being part of the tribe Mirbelieae, a group of legumes that are predominantly found in the southern regions of Australia. Carenidium raniferum is a shrub that grows in the eastern and southern parts of the country. This species is often found in dry to semi-dry areas and is known for its small, white flowers.",
+    "benefits": "Carenidium raniferum is a genus of plant in the orchid family, but there is limited information available about its health benefits. However, in general, orchids are known for their antioxidant and anti-inflammatory properties. Carenidium raniferum may potentially have similar benefits due to its plant-based compounds. Further research is needed to confirm any specific health benefits of this plant. The potential health benefits of Carenidium raniferum are still largely unknown and require further scientific study.",
+    "properties": "Unfortunately, I do not have information about the plant Carenidium raniferum.",
+    "constituents": "Unfortunately, I was unable to find any information about Carenidium raniferum, its active constituents, or any other relevant details.",
+    "parts": "Info not available yet.",
+    "preparations": "Carenidium raniferum herbal preparations are not well-documented, but it is a species of plant native to Australia. Traditional herbal preparations may involve using the plant's roots, leaves, and stems for medicinal purposes. However, it's essential to note that the efficacy and safety of these preparations are not scientifically proven. Some studies suggest that Carenidium raniferum may have antioxidant and anti-inflammatory properties. More research is needed to understand the potential benefits and risks of using this plant in herbal preparations.",
+    "side_effects": "Info not available yet.",
+    "intro": "There is no information about Carenidium raniferum."
+}

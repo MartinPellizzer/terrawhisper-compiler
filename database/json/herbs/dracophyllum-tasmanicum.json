@@ -1,1 +1,1560 @@
-{"title": "Dracophyllum tasmanicum", "herb_slug": "dracophyllum-tasmanicum", "herb_name_scientific": "Dracophyllum tasmanicum", "url": "herbs/dracophyllum-tasmanicum", "lastmod": "2024-12-29", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 174, "total_score": 3480}], "ailments": [{"name": "inflammation", "mentions": 17, "confidence_score": 139, "total_score": 2363}, {"name": "fungal infections", "mentions": 8, "confidence_score": 56, "total_score": 448}, {"name": "digestive issues", "mentions": 10, "confidence_score": 53, "total_score": 530}, {"name": "diarrhea", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "diabetes", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "wound healing", "mentions": 6, "confidence_score": 49, "total_score": 294}, {"name": "chronic cough", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "skin irritation", "mentions": 7, "confidence_score": 41, "total_score": 287}, {"name": "arthritis", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "hypertension", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "bacterial infections", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "skin conditions", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "cancer prevention", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "bronchitis", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "respiratory issues", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "wounds", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "cardiovascular disease", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "anxiety", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "allergies", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "fever", "mentions": 3, "confidence_score": 20, "total_score": 60}], "ailments_description": "The most common ailments you can heal with Dracophyllum tasmanicum are respiratory issues such as bronchitis, which is alleviated due to its expectorant properties, allowing for easier mucus expulsion from the lungs. Dracophyllum tasmanicum also exhibits anti-inflammatory properties that help in healing wounds and burns by reducing swelling and promoting faster recovery. Additionally, its antimicrobial properties aid in treating skin conditions like eczema, reducing redness and itching. Furthermore, Dracophyllum tasmanicum has been shown to have antioxidant properties that help in combating oxidative stress and cell damage, which can lead to cardiovascular diseases. Its antiseptic properties also make it effective in treating gum infections and mouth ulcers.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 158, "total_score": 3160}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 143, "total_score": 2860}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 129, "total_score": 2580}, {"name": "antifungal", "mentions": 17, "confidence_score": 104, "total_score": 1768}, {"name": "antibacterial", "mentions": 13, "confidence_score": 88, "total_score": 1144}, {"name": "cytotoxic", "mentions": 10, "confidence_score": 67, "total_score": 670}, {"name": "analgesic", "mentions": 15, "confidence_score": 57, "total_score": 855}, {"name": "antiviral", "mentions": 16, "confidence_score": 56, "total_score": 896}, {"name": "cardioprotective", "mentions": 7, "confidence_score": 27, "total_score": 189}, {"name": "anticancer", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "hepatoprotective", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "cardio-protective", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "antiproliferative", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "free radical scavenger", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "anti-hemorrhagic", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "anti-proliferative", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "anti-protozoal", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "antihistamine", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "antioxidant enzyme inducer", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cytoprotective", "mentions": 1, "confidence_score": 8, "total_score": 8}], "properties_description": "The main therapeutic properties of Dracophyllum tasmanicum are its antimicrobial, anti-inflammatory and antioxidant activities, which contribute to its wound-healing potential. The plant's ability to inhibit the growth of various microorganisms makes it effective in preventing infections. Its anti-inflammatory properties, attributed to the presence of flavonoids, saponins and phenolic acids, aid in reducing swelling and pain associated with various health conditions. The antioxidant properties of Dracophyllum tasmanicum, due to the presence of volatile oils and terpenes, help protect cells from oxidative damage and may contribute to its anticancer and neuroprotective effects. Additionally, the plant's antifungal properties, which are likely due to the presence of phenolic compounds, make it effective in preventing fungal infections.", "constituents": [{"name": "tannins", "mentions": 13, "confidence_score": 110, "total_score": 1430}, {"name": "phenolic acids", "mentions": 15, "confidence_score": 106, "total_score": 1590}, {"name": "flavonoids", "mentions": 14, "confidence_score": 102, "total_score": 1428}, {"name": "quercetin", "mentions": 9, "confidence_score": 78, "total_score": 702}, {"name": "kaempferol", "mentions": 9, "confidence_score": 68, "total_score": 612}, {"name": "glycosides", "mentions": 13, "confidence_score": 57, "total_score": 741}, {"name": "saponins", "mentions": 11, "confidence_score": 54, "total_score": 594}, {"name": "terpenoids", "mentions": 11, "confidence_score": 51, "total_score": 561}, {"name": "catechin", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "fatty acids", "mentions": 7, "confidence_score": 36, "total_score": 252}, {"name": "quinic acids", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "gallic acid", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "isorhapontigenin", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "alkaloids", "mentions": 11, "confidence_score": 30, "total_score": 330}, {"name": "coumarins", "mentions": 10, "confidence_score": 29, "total_score": 290}, {"name": "epicatechin", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "ellagic acid", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "ferulic acid", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "oleanolic acid", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "ursolic acid", "mentions": 2, "confidence_score": 16, "total_score": 32}], "constituents_description": "The most important healing constituents of Dracophyllum tasmanicum are flavonoids and phenolic acids, which have been found to possess antioxidant and anti-inflammatory properties. Flavonoids such as quercetin and kaempferol have been isolated from the plant and have been shown to exhibit strong antioxidant activity, scavenging free radicals and protecting against cell damage. The phenolic acids present in Dracophyllum tasmanicum, including ferulic and sinapic acids, have been found to possess anti-inflammatory properties, reducing inflammation and pain by inhibiting the production of pro-inflammatory enzymes. The plant also contains essential oils, including pinene and limonene, which have been shown to exhibit antimicrobial and anti-inflammatory activity. The combination of these constituents in Dracophyllum tasmanicum may contribute to its traditional use in treating wounds, inflammation, and respiratory issues.", "herb_names_common": [{"name": "tasmanian dracophyllum", "mentions": 70, "confidence_score": 541, "total_score": 37870}, {"name": "tasmanian dracophyllus", "mentions": 11, "confidence_score": 80, "total_score": 880}, {"name": "dracophyllum tasmanicum", "mentions": 12, "confidence_score": 56, "total_score": 672}, {"name": "mountain dracophyllum", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "dracophyllum species", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "tasmanian dracophyllium", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "tasmanian dracophylla", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "tasmanian dracophyllum species", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "tasmanian dracophylum", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "dracophyllum sp.", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "dracophyllum strictum", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "dracophyllium tasmanicum", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "tasmanian dracophyllum ssp", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "dracophyllus tasmanicum", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "dracophyllums", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "tasmanian needle bush", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "tasmanian dracophyllus strictum", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "tasmanian dracophyllium species", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "tasmanian dracophylluma", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "dracophyllum mountain", "mentions": 1, "confidence_score": 6, "total_score": 6}], "preparations": [{"name": "tea", "mentions": 17, "confidence_score": 146, "total_score": 2482}, {"name": "tincture", "mentions": 19, "confidence_score": 141, "total_score": 2679}, {"name": "infusion", "mentions": 16, "confidence_score": 124, "total_score": 1984}, {"name": "salve", "mentions": 19, "confidence_score": 99, "total_score": 1881}, {"name": "decoction", "mentions": 9, "confidence_score": 51, "total_score": 459}, {"name": "infused oil", "mentions": 8, "confidence_score": 47, "total_score": 376}, {"name": "ointment", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "poultice", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "oil", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "dracophyllum tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "dracophyllum leaf tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "dracophyllum tincture", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "dracophyllum infusion", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suppository", "mentions": 2, "confidence_score": 4, "total_score": 8}, {"name": "infused vinegar", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "powder", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "dracophyllum salve", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "smoking mixture", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "capsule", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "infusate", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "essential oil", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Dracophyllum tasmanicum are primarily made from its leaves and stems, which contain phenolic compounds and flavonoids. Tea is prepared by infusing the leaves in hot water to make a remedy for digestive issues and fever reduction. A tincture is made by steeping the leaves in a solvent like ethanol, creating a concentrated extract used for its antimicrobial properties. An infusion is similar to a tea but typically requires a smaller amount of plant material and is used for its antioxidant properties. A decoction is used for its anti-inflammatory properties and is made by boiling the leaves and stems in water, while a salve is prepared by infusing the plant material in a carrier oil, creating a topical remedy for wound healing and skin issues.", "side_effects": [{"name": "exacerbate allergies", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "experience vomiting", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "induce nausea", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "cause diarrhea", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "induce diarrhea", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "experience nausea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "induce vomiting", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "suffer liver damage", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "develop diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "cause kidney damage", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "trigger allergic reaction", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "trigger respiratory issues", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "cause abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause allergic reaction", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "show allergic reactions", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cause headaches", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "trigger asthma attack", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "interact with medications", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cause nausea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "cause gastrointestinal upset", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "produce diarrhea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "trigger headaches", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "induce seizures", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "develop skin irritation", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "feel dizziness", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "affect liver function", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "experiences allergic reaction", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "hinder digestive function", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experience diarrhea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "trigger allergic reactions", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "affect kidney function", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "trigger seizures", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "show severe allergic reaction", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "develops skin irritation", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "disrupt kidney function", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experien allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce dermatological irritation", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "elicit vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "abnormal heartbeat", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "disrupt gastrointestinal tract", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience hyperglycemia", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induces nausea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "leads to abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induces vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing nausea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause dizziness", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop kidney failure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "produce respiratory issues", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "experiences gastrointestinal upset", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop allergic reaction", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer allergic reaction", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "get nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "induce liver damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "elicit neurological symptoms", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "aggravate anxiety", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop photosensitivity", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "triggers allergic reaction", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "lowers blood pressure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "developing abdominal pain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "affect blood pressure", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "exhibits neurological symptoms", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "show signs of diarrhea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "increase blood pressure", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experience respiratory issues", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "cause gastrointestinal issues", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "aggravate respiratory issues", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "aggravate asthma", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "lead to dehydration", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "produce headache", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "increases heart rate", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "leads to dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "produce skin rash", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffering diarrhea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "interact with medication", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "cause kidney failure", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "shows hepatotoxicity", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "lead to seizures", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "induce cardiac problems", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "get headaches", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "trigger cardiovascular problems", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "trigger respiratory complications", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "evoke allergic reaction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffer respiratory issues", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "cause stomach pain", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "trigger asthma", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experience cardiovascular issues", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "causes diarrhea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "causes fatigue", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "showing hypoglycemia", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "harm liver function", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "get headache", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "increase heart rate", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experiences cardiovascular issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop respiratory issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "produce seizures", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "produce hematological abnormalities", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "inhibit blood clotting", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "produce dizziness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "exacerbate insomnia", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "induce headaches", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "induce gastrointestinal bleeding", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "triggers headache", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experiencing headache", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "lower blood pressure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "see hallucinations", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "cause liver damage", "mentions": 2, "confidence_score": 4, "total_score": 8}, {"name": "develops renal failure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffer kidney failure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "worsen skin irritation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "elevate blood pressure", "mentions": 2, "confidence_score": 4, "total_score": 8}, {"name": "aggravate skin conditions", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "induce renal failure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "produce skin irritation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience headache", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "cause insomnia", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "cause hypotension", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "provoke respiratory issues", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "produce hormonal imbalance", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "developing dizziness", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "increase bleeding risk", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cause respiratory depression", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "exhibits respiratory distress", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cause birth defects", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "provoke neurological symptoms", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop kidney problems", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cause musculoskeletal inflammation", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "lead to dizziness", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "provoke skin irritation", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "result in headaches", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "lead to skin irritation", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop insomnia", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "aggravate existing conditions", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffering fatigue", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "worsen kidney disease", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "produce hallucinations", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "shows teratogenic effects", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "induce coma", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "provoke eye irritation", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "worsen hypersensitivity", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "show cardiovascular problems", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "trigger nausea", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "interfere with medication absorption", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "decrease blood pressure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "showing confusion", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiences lethal outcome", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "inhibit kidney function", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "experience seizure", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "cause cardiac problems", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "cause cardiovascular problems", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "experiencing tremors", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "developing cardiac issues", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effects of using Dracophyllum tasmanicum improperly include exacerbating allergies due to its potential allergenic properties, inducing vomiting and nausea as a result of its toxic and irritating compounds, and causing or inducing diarrhea due to its laxative effects. These side effects are likely to occur when the plant is ingested or applied topically in excessive amounts, leading to an overload of toxic compounds in the body. Additionally, Dracophyllum tasmanicum may contain phytotoxins that can cause gastrointestinal irritation and vomiting. The plant's sap and leaves contain volatile oils and phenolic compounds that can induce allergic reactions and gastrointestinal symptoms. Overall, improper use of Dracophyllum tasmanicum can lead to uncomfortable and potentially serious health issues.", "category-action": "anti-inflammatory", "category_action": "anti-inflammatory", "family_slug": "ericaceae", "family_name": "Ericaceae", "what_description": "Dracophyllum tasmanicum is a shrub or small tree species in the family Ericaceae. It is endemic to Tasmania, Australia, and is characterized by its erect, woody stems, which are 0.5-3.5 meters tall, with a diameter of 2-10 cm. Leaves are linear to lanceolate, 2-12 cm long, and 3-20 mm wide, with entire margins, a glabrous surface, and a petiole that is 1-10 mm long. Inflorescences are terminal, with 5-10 flowers, which are white and 5-merous. Flowers have a 5-parted calyx, 5 petals, 10 stamens, and a superior ovary with 5 styles.", "uses": "Dracophyllum tasmanicum, also known as needle bush, has been traditionally used by the indigenous people of Tasmania for its medicinal properties. The plant contains compounds that have been reported to have antimicrobial and anti-inflammatory effects. However, there is limited scientific research on the specific medicinal uses of Dracophyllum tasmanicum. Some studies suggest that extracts from the plant may have potential in treating various health conditions, including wounds and skin irritations. Further research is needed to fully understand the medicinal properties and potential applications of Dracophyllum tasmanicum.", "taxonomy": "Dracophyllum tasmanicum belongs to the family Ericaceae, commonly known as the heath family. It is a genus of flowering plants in the family Ericaceae, native to Australia. Dracophyllum tasmanicum is a species of flowering plant that is endemic to Tasmania. The genus Dracophyllum is characterized by its needle-like leaves and small white flowers. Dracophyllum tasmanicum is a shrub that typically grows up to 2 meters in height.", "benefits": "Dracophyllum tasmanicum is a species of flowering plant native to Tasmania, and it has been used in traditional medicine for its potential health benefits. The plant's extracts have been studied for their antimicrobial, anti-inflammatory, and antioxidant properties. Some studies suggest that Dracophyllum tasmanicum may have cardiovascular benefits and help to reduce the risk of certain diseases. The plant's leaves and stems are rich in flavonoids and phenolic acids, which may contribute to its potential health benefits. Further research is needed to fully understand the health benefits of Dracophyllum tasmanicum.", "parts": "Dracophyllum tasmanicum, also known as Tasmanian driftwood, is a species of flowering plant. It is native to Tasmania and southeastern Australia. Dracophyllum tasmanicum has been studied for its potential medicinal properties, particularly in relation to its antioxidant and antibacterial compounds. The leaves and other plant parts of Dracophyllum tasmanicum are thought to be the primary sources of these medicinal compounds. However, further research is needed to confirm the specific medicinal uses of the plant's different parts.", "intro": "Dracophyllum tasmanicum, also known as the Tasmanian driftwood or prickly dracophyllum, is a shrub native to Tasmania and southeastern Australia, characterized by its dense, woody stems and small, scale-like leaves. The leaves of Dracophyllum tasmanicum are known for their potential health benefits, which include anti-inflammatory and antimicrobial properties, making it a promising natural remedy for wound healing and skin conditions. The bioactive constituents of this plant include flavonoids, phenolic acids, and terpenoids, which contribute to its medicinal properties. Dracophyllum tasmanicum is commonly used in herbal preparations, such as teas, tinctures, and infusions, which are traditionally used to treat various health issues, including respiratory problems and skin infections."}
+{
+    "title": "Dracophyllum tasmanicum",
+    "herb_slug": "dracophyllum-tasmanicum",
+    "herb_name_scientific": "Dracophyllum tasmanicum",
+    "url": "herbs/dracophyllum-tasmanicum",
+    "lastmod": "2024-12-29",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 174,
+            "total_score": 3480
+        }
+    ],
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 17,
+            "confidence_score": 139,
+            "total_score": 2363
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 8,
+            "confidence_score": 56,
+            "total_score": 448
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 10,
+            "confidence_score": 53,
+            "total_score": 530
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "diabetes",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "wound healing",
+            "mentions": 6,
+            "confidence_score": 49,
+            "total_score": 294
+        },
+        {
+            "name": "chronic cough",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 7,
+            "confidence_score": 41,
+            "total_score": 287
+        },
+        {
+            "name": "arthritis",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "hypertension",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "bacterial infections",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "bronchitis",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "wounds",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "anxiety",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "allergies",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "fever",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Dracophyllum tasmanicum are respiratory issues such as bronchitis, which is alleviated due to its expectorant properties, allowing for easier mucus expulsion from the lungs. Dracophyllum tasmanicum also exhibits anti-inflammatory properties that help in healing wounds and burns by reducing swelling and promoting faster recovery. Additionally, its antimicrobial properties aid in treating skin conditions like eczema, reducing redness and itching. Furthermore, Dracophyllum tasmanicum has been shown to have antioxidant properties that help in combating oxidative stress and cell damage, which can lead to cardiovascular diseases. Its antiseptic properties also make it effective in treating gum infections and mouth ulcers.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 158,
+            "total_score": 3160
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 143,
+            "total_score": 2860
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 129,
+            "total_score": 2580
+        },
+        {
+            "name": "antifungal",
+            "mentions": 17,
+            "confidence_score": 104,
+            "total_score": 1768
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 13,
+            "confidence_score": 88,
+            "total_score": 1144
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 10,
+            "confidence_score": 67,
+            "total_score": 670
+        },
+        {
+            "name": "analgesic",
+            "mentions": 15,
+            "confidence_score": 57,
+            "total_score": 855
+        },
+        {
+            "name": "antiviral",
+            "mentions": 16,
+            "confidence_score": 56,
+            "total_score": 896
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 7,
+            "confidence_score": 27,
+            "total_score": 189
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "cardio-protective",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "antiproliferative",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "free radical scavenger",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "anti-hemorrhagic",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "anti-proliferative",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "anti-protozoal",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "antioxidant enzyme inducer",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Dracophyllum tasmanicum are its antimicrobial, anti-inflammatory and antioxidant activities, which contribute to its wound-healing potential. The plant's ability to inhibit the growth of various microorganisms makes it effective in preventing infections. Its anti-inflammatory properties, attributed to the presence of flavonoids, saponins and phenolic acids, aid in reducing swelling and pain associated with various health conditions. The antioxidant properties of Dracophyllum tasmanicum, due to the presence of volatile oils and terpenes, help protect cells from oxidative damage and may contribute to its anticancer and neuroprotective effects. Additionally, the plant's antifungal properties, which are likely due to the presence of phenolic compounds, make it effective in preventing fungal infections.",
+    "constituents": [
+        {
+            "name": "tannins",
+            "mentions": 13,
+            "confidence_score": 110,
+            "total_score": 1430
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 15,
+            "confidence_score": 106,
+            "total_score": 1590
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 14,
+            "confidence_score": 102,
+            "total_score": 1428
+        },
+        {
+            "name": "quercetin",
+            "mentions": 9,
+            "confidence_score": 78,
+            "total_score": 702
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 9,
+            "confidence_score": 68,
+            "total_score": 612
+        },
+        {
+            "name": "glycosides",
+            "mentions": 13,
+            "confidence_score": 57,
+            "total_score": 741
+        },
+        {
+            "name": "saponins",
+            "mentions": 11,
+            "confidence_score": 54,
+            "total_score": 594
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 11,
+            "confidence_score": 51,
+            "total_score": 561
+        },
+        {
+            "name": "catechin",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 7,
+            "confidence_score": 36,
+            "total_score": 252
+        },
+        {
+            "name": "quinic acids",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 11,
+            "confidence_score": 30,
+            "total_score": 330
+        },
+        {
+            "name": "coumarins",
+            "mentions": 10,
+            "confidence_score": 29,
+            "total_score": 290
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "ursolic acid",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Dracophyllum tasmanicum are flavonoids and phenolic acids, which have been found to possess antioxidant and anti-inflammatory properties. Flavonoids such as quercetin and kaempferol have been isolated from the plant and have been shown to exhibit strong antioxidant activity, scavenging free radicals and protecting against cell damage. The phenolic acids present in Dracophyllum tasmanicum, including ferulic and sinapic acids, have been found to possess anti-inflammatory properties, reducing inflammation and pain by inhibiting the production of pro-inflammatory enzymes. The plant also contains essential oils, including pinene and limonene, which have been shown to exhibit antimicrobial and anti-inflammatory activity. The combination of these constituents in Dracophyllum tasmanicum may contribute to its traditional use in treating wounds, inflammation, and respiratory issues.",
+    "herb_names_common": [
+        {
+            "name": "tasmanian dracophyllum",
+            "mentions": 70,
+            "confidence_score": 541,
+            "total_score": 37870
+        },
+        {
+            "name": "tasmanian dracophyllus",
+            "mentions": 11,
+            "confidence_score": 80,
+            "total_score": 880
+        },
+        {
+            "name": "dracophyllum tasmanicum",
+            "mentions": 12,
+            "confidence_score": 56,
+            "total_score": 672
+        },
+        {
+            "name": "mountain dracophyllum",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "dracophyllum species",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "tasmanian dracophyllium",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "tasmanian dracophylla",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "tasmanian dracophyllum species",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "tasmanian dracophylum",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "dracophyllum sp.",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "dracophyllum strictum",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "dracophyllium tasmanicum",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "tasmanian dracophyllum ssp",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "dracophyllus tasmanicum",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "dracophyllums",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "tasmanian needle bush",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "tasmanian dracophyllus strictum",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "tasmanian dracophyllium species",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "tasmanian dracophylluma",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "dracophyllum mountain",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 17,
+            "confidence_score": 146,
+            "total_score": 2482
+        },
+        {
+            "name": "tincture",
+            "mentions": 19,
+            "confidence_score": 141,
+            "total_score": 2679
+        },
+        {
+            "name": "infusion",
+            "mentions": 16,
+            "confidence_score": 124,
+            "total_score": 1984
+        },
+        {
+            "name": "salve",
+            "mentions": 19,
+            "confidence_score": 99,
+            "total_score": 1881
+        },
+        {
+            "name": "decoction",
+            "mentions": 9,
+            "confidence_score": 51,
+            "total_score": 459
+        },
+        {
+            "name": "infused oil",
+            "mentions": 8,
+            "confidence_score": 47,
+            "total_score": 376
+        },
+        {
+            "name": "ointment",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "poultice",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "oil",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "dracophyllum tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "dracophyllum leaf tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "dracophyllum tincture",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "dracophyllum infusion",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 4,
+            "total_score": 8
+        },
+        {
+            "name": "infused vinegar",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "powder",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "dracophyllum salve",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "smoking mixture",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "capsule",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "infusate",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "essential oil",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Dracophyllum tasmanicum are primarily made from its leaves and stems, which contain phenolic compounds and flavonoids. Tea is prepared by infusing the leaves in hot water to make a remedy for digestive issues and fever reduction. A tincture is made by steeping the leaves in a solvent like ethanol, creating a concentrated extract used for its antimicrobial properties. An infusion is similar to a tea but typically requires a smaller amount of plant material and is used for its antioxidant properties. A decoction is used for its anti-inflammatory properties and is made by boiling the leaves and stems in water, while a salve is prepared by infusing the plant material in a carrier oil, creating a topical remedy for wound healing and skin issues.",
+    "side_effects": [
+        {
+            "name": "exacerbate allergies",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "cause kidney damage",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "trigger allergic reaction",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "trigger respiratory issues",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "cause abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause allergic reaction",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "show allergic reactions",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cause headaches",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "trigger asthma attack",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "cause gastrointestinal upset",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "produce diarrhea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "affect liver function",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "experiences allergic reaction",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "hinder digestive function",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "affect kidney function",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "show severe allergic reaction",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "develops skin irritation",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "disrupt kidney function",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experien allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce dermatological irritation",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "elicit vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "abnormal heartbeat",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "disrupt gastrointestinal tract",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience hyperglycemia",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induces nausea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "leads to abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induces vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop kidney failure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "produce respiratory issues",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "experiences gastrointestinal upset",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer allergic reaction",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "get nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "induce liver damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "elicit neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "aggravate anxiety",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop photosensitivity",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "triggers allergic reaction",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "lowers blood pressure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "developing abdominal pain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "affect blood pressure",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "exhibits neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "show signs of diarrhea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experience respiratory issues",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "cause gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "aggravate respiratory issues",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "aggravate asthma",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "lead to dehydration",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "produce headache",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "increases heart rate",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "leads to dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "produce skin rash",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffering diarrhea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "interact with medication",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "cause kidney failure",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "shows hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "lead to seizures",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "induce cardiac problems",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "get headaches",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "trigger cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "trigger respiratory complications",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "evoke allergic reaction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffer respiratory issues",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "cause stomach pain",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "trigger asthma",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experience cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "causes diarrhea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "causes fatigue",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "showing hypoglycemia",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "harm liver function",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "get headache",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experiences cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop respiratory issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "produce seizures",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "produce hematological abnormalities",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "inhibit blood clotting",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "produce dizziness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "exacerbate insomnia",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "induce headaches",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "induce gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "triggers headache",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experiencing headache",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "lower blood pressure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "see hallucinations",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 2,
+            "confidence_score": 4,
+            "total_score": 8
+        },
+        {
+            "name": "develops renal failure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffer kidney failure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "worsen skin irritation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 2,
+            "confidence_score": 4,
+            "total_score": 8
+        },
+        {
+            "name": "aggravate skin conditions",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "induce renal failure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "produce skin irritation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience headache",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "cause insomnia",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "cause hypotension",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "provoke respiratory issues",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "produce hormonal imbalance",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "developing dizziness",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "increase bleeding risk",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cause respiratory depression",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "exhibits respiratory distress",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cause birth defects",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "provoke neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop kidney problems",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cause musculoskeletal inflammation",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "lead to dizziness",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "provoke skin irritation",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "result in headaches",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "lead to skin irritation",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop insomnia",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "aggravate existing conditions",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffering fatigue",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "worsen kidney disease",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "produce hallucinations",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "shows teratogenic effects",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "induce coma",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "provoke eye irritation",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "worsen hypersensitivity",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "show cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "trigger nausea",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "interfere with medication absorption",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "decrease blood pressure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "showing confusion",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiences lethal outcome",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "inhibit kidney function",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "experience seizure",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "cause cardiac problems",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "cause cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "experiencing tremors",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "developing cardiac issues",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Dracophyllum tasmanicum improperly include exacerbating allergies due to its potential allergenic properties, inducing vomiting and nausea as a result of its toxic and irritating compounds, and causing or inducing diarrhea due to its laxative effects. These side effects are likely to occur when the plant is ingested or applied topically in excessive amounts, leading to an overload of toxic compounds in the body. Additionally, Dracophyllum tasmanicum may contain phytotoxins that can cause gastrointestinal irritation and vomiting. The plant's sap and leaves contain volatile oils and phenolic compounds that can induce allergic reactions and gastrointestinal symptoms. Overall, improper use of Dracophyllum tasmanicum can lead to uncomfortable and potentially serious health issues.",
+    "category-action": "anti-inflammatory",
+    "category_action": "anti-inflammatory",
+    "family_slug": "ericaceae",
+    "family_name": "Ericaceae",
+    "what_description": "Dracophyllum tasmanicum is a shrub or small tree species in the family Ericaceae. It is endemic to Tasmania, Australia, and is characterized by its erect, woody stems, which are 0.5-3.5 meters tall, with a diameter of 2-10 cm. Leaves are linear to lanceolate, 2-12 cm long, and 3-20 mm wide, with entire margins, a glabrous surface, and a petiole that is 1-10 mm long. Inflorescences are terminal, with 5-10 flowers, which are white and 5-merous. Flowers have a 5-parted calyx, 5 petals, 10 stamens, and a superior ovary with 5 styles.",
+    "uses": "Dracophyllum tasmanicum, also known as needle bush, has been traditionally used by the indigenous people of Tasmania for its medicinal properties. The plant contains compounds that have been reported to have antimicrobial and anti-inflammatory effects. However, there is limited scientific research on the specific medicinal uses of Dracophyllum tasmanicum. Some studies suggest that extracts from the plant may have potential in treating various health conditions, including wounds and skin irritations. Further research is needed to fully understand the medicinal properties and potential applications of Dracophyllum tasmanicum.",
+    "taxonomy": "Dracophyllum tasmanicum belongs to the family Ericaceae, commonly known as the heath family. It is a genus of flowering plants in the family Ericaceae, native to Australia. Dracophyllum tasmanicum is a species of flowering plant that is endemic to Tasmania. The genus Dracophyllum is characterized by its needle-like leaves and small white flowers. Dracophyllum tasmanicum is a shrub that typically grows up to 2 meters in height.",
+    "benefits": "Dracophyllum tasmanicum is a species of flowering plant native to Tasmania, and it has been used in traditional medicine for its potential health benefits. The plant's extracts have been studied for their antimicrobial, anti-inflammatory, and antioxidant properties. Some studies suggest that Dracophyllum tasmanicum may have cardiovascular benefits and help to reduce the risk of certain diseases. The plant's leaves and stems are rich in flavonoids and phenolic acids, which may contribute to its potential health benefits. Further research is needed to fully understand the health benefits of Dracophyllum tasmanicum.",
+    "parts": "Dracophyllum tasmanicum, also known as Tasmanian driftwood, is a species of flowering plant. It is native to Tasmania and southeastern Australia. Dracophyllum tasmanicum has been studied for its potential medicinal properties, particularly in relation to its antioxidant and antibacterial compounds. The leaves and other plant parts of Dracophyllum tasmanicum are thought to be the primary sources of these medicinal compounds. However, further research is needed to confirm the specific medicinal uses of the plant's different parts.",
+    "intro": "Dracophyllum tasmanicum, also known as the Tasmanian driftwood or prickly dracophyllum, is a shrub native to Tasmania and southeastern Australia, characterized by its dense, woody stems and small, scale-like leaves. The leaves of Dracophyllum tasmanicum are known for their potential health benefits, which include anti-inflammatory and antimicrobial properties, making it a promising natural remedy for wound healing and skin conditions. The bioactive constituents of this plant include flavonoids, phenolic acids, and terpenoids, which contribute to its medicinal properties. Dracophyllum tasmanicum is commonly used in herbal preparations, such as teas, tinctures, and infusions, which are traditionally used to treat various health issues, including respiratory problems and skin infections."
+}

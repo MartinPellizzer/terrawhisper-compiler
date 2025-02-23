@@ -34,7 +34,8 @@ driver.maximize_window()
 
 
 
-product_slug = 'scales'
+product_slug = 'zingiber-officinale'
+product_category = 'teas'
 # product_query = 'herbalist stirring device' >> at the moment search manually
 
 # search results
@@ -54,7 +55,7 @@ for element in elements:
     row = [link_no_ref]
     rows.append(row)
 
-with open(f'{vault}/amazon/csvs/{product_slug}-links.csv', 'w') as f:
+with open(f'{vault}/amazon/{product_category}/csvs/{product_slug}-links.csv', 'w') as f:
     writer = csv.writer(f, delimiter='\\')
     writer.writerows(rows)
 
@@ -62,10 +63,10 @@ with open(f'{vault}/amazon/csvs/{product_slug}-links.csv', 'w') as f:
 # PRODUCTS PAGES
 ##############################################################################
 
-assets_folderpath = f'{vault}/amazon/json/{product_slug}'
+assets_folderpath = f'{vault}/amazon/{product_category}/json/{product_slug}'
 
 rows = []
-with open(f'{vault}/amazon/csvs/{product_slug}-links.csv', newline='') as f:
+with open(f'{vault}/amazon/{product_category}/csvs/{product_slug}-links.csv', newline='') as f:
     reader = csv.reader(f, delimiter='\\')
     for row in reader:
         rows.append(row)
@@ -250,9 +251,9 @@ e = driver.find_element(By.XPATH, ".//b[contains(text(), ' ItemInfo')]")
 e.click()
 time.sleep(10)
 
-try: os.makedirs(f'{vault}/amazon/images/{product_slug}')
+try: os.makedirs(f'{vault}/amazon/{product_category}/images/{product_slug}')
 except: pass
-asins = [filename.split('.')[0] for filename in os.listdir(f'{vault}/amazon/json/{product_slug}')]
+asins = [filename.split('.')[0] for filename in os.listdir(f'{vault}/amazon/{product_category}/json/{product_slug}')]
 for asin_i, asin in enumerate(asins):
     print(f'{asin_i}/{len(asins)} - {asin}')
     e = driver.find_element(By.XPATH, './/input[@id="ItemIds"]')
@@ -284,7 +285,7 @@ for asin_i, asin in enumerate(asins):
         if adding:
             html_image += line
     print(html_image)
-    with open(f'{vault}/amazon/images/{product_slug}/{asin}.txt', 'w') as f: f.write(html_image)
+    with open(f'{vault}/amazon/{product_category}/images/{product_slug}/{asin}.txt', 'w') as f: f.write(html_image)
     time.sleep(30)
 
 

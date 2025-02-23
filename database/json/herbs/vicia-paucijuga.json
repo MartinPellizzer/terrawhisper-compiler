@@ -1,1 +1,154 @@
-{"title": "Vicia paucijuga", "herb_slug": "vicia-paucijuga", "herb_name_scientific": "Vicia paucijuga", "family_slug": "fabaceae", "family_name": "Fabaceae", "url": "herbs/vicia-paucijuga", "lastmod": "2025-1-5", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 16, "confidence_score": 135, "total_score": 2160}, {"medicine_or_poison": "medicine", "mentions": 4, "confidence_score": 30, "total_score": 120}], "herb_names_common": [{"name": "slender vetch", "mentions": 26, "confidence_score": 218, "total_score": 5668}, {"name": "vetch", "mentions": 22, "confidence_score": 201, "total_score": 4422}, {"name": "slender vetch (vicia paucijuga)", "mentions": 15, "confidence_score": 92, "total_score": 1380}, {"name": "vicia paucijuga vetch", "mentions": 23, "confidence_score": 62, "total_score": 1426}, {"name": "small vetch (vicia)", "mentions": 11, "confidence_score": 53, "total_score": 583}, {"name": "vetchling", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "four-angled vetch", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "paucijuga", "mentions": 13, "confidence_score": 32, "total_score": 416}, {"name": "least vetch", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "vetch (vicia paucijuga)", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "four-angled pea vetch", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "slender vetch (paucijuga)", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "bitter vetch", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "slender vetchling", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "less-jointed vetch", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "slender pea vetch", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "slender vetchlet", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "small vetch", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "least vetch (vicia paucijuga)", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "vicia paucijuga (slender vetch)", "mentions": 2, "confidence_score": 9, "total_score": 18}], "uses": "Vicia paucijuga has been used in traditional medicine, although the extent of its application is limited. It is reported to have potential antimicrobial properties, which could aid in treating various infections. The plant is also said to possess anti-inflammatory properties, which may be beneficial in reducing inflammation and pain. More research is needed to fully understand its medicinal uses and potential side effects. Its traditional uses are not widely recognized outside of its native regions.", "taxonomy": "Vicia paucijuga is classified within the family Fabaceae, which is a large and diverse group of flowering plants commonly known as legumes. This family includes a wide range of species, from shrubs to trees, and from annuals to perennials. Vicia paucijuga is further classified within the subfamily Faboideae, which is one of the largest subfamilies within the Fabaceae family. The genus Vicia itself is a group of annual or perennial legumes native to Europe, Asia, and Africa, and Vicia paucijuga is one of the many species within this genus. The species Vicia paucijuga is native to parts of Asia, where it grows in a variety of habitats.", "benefits": "Vicia paucijuga is a plant species known for its potential health benefits, although limited research is available. Its leaves, stems, and roots are traditionally used in herbal medicine. According to some studies, extracts from Vicia paucijuga have been found to exhibit antioxidant and anti-inflammatory properties. These properties may contribute to its potential in reducing inflammation and improving cardiovascular health. Further research is necessary to confirm the efficacy and safety of using Vicia paucijuga for medicinal purposes.", "properties": "Vicia paucijuga has been traditionally used in folk medicine to treat various health issues. Research on the plant's therapeutic properties is limited, but it is believed to have antioxidant, anti-inflammatory, and antimicrobial properties. The plant's leaves and stems are used in traditional remedies to treat fever, rheumatism, and other conditions. Further studies are needed to confirm the plant's efficacy and potential side effects. The therapeutic properties of Vicia paucijuga are not well-documented in modern scientific literature.", "constituents": "Vicia paucijuga is a plant species, but I don't have information on its active constituents. Further research is needed to determine the active constituents of Vicia paucijuga. However, Vicia species in general contain various compounds including flavonoids, alkaloids, and saponins, which may be present in Vicia paucijuga as well. The specific active constituents of Vicia paucijuga would depend on its chemical composition, which has not been thoroughly studied. More research is required to identify the active constituents of this specific plant species.", "parts": "Vicia paucijuga is a plant species within the legume family. The roots, leaves, and flowers of Vicia paucijuga may be used in traditional medicine. However, specific information on the medicinal parts is limited. Further research is needed to confirm the efficacy and safety of using Vicia paucijuga in medicinal practices. The plant is primarily studied for its potential in traditional medicine, but its uses and properties require more investigation.", "preparations": "Vicia paucijuga is a plant species that has been traditionally used in herbal medicine, particularly in folk remedies. The roots and leaves of the plant are used to prepare herbal teas and infusions, which are believed to have various health benefits. In some traditional practices, the plant is used to treat conditions such as fever, rheumatism, and digestive issues. However, more research is needed to confirm the efficacy and safety of using Vicia paucijuga as a medicinal plant. It is essential to consult with a healthcare professional before using any herbal preparation.", "side_effects": "Info not available yet.", "intro": "Vicia paucijuga is a species of legume, commonly known as a vetch, that is native to the Mediterranean region. The plant is valued for its medicinal properties, which include its ability to support immune function, reduce inflammation, and exhibit antioxidant activity, making it a potential natural remedy for various health conditions. The bioactive constituents of Vicia paucijuga include flavonoids, phenolic acids, and alkaloids, which are responsible for its medicinal properties. The plant is commonly used in traditional medicine to make teas, infusions, and tinctures, which are often used to treat respiratory issues, such as bronchitis and coughs, as well as digestive problems."}
+{
+    "title": "Vicia paucijuga",
+    "herb_slug": "vicia-paucijuga",
+    "herb_name_scientific": "Vicia paucijuga",
+    "family_slug": "fabaceae",
+    "family_name": "Fabaceae",
+    "url": "herbs/vicia-paucijuga",
+    "lastmod": "2025-1-5",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 16,
+            "confidence_score": 135,
+            "total_score": 2160
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "slender vetch",
+            "mentions": 26,
+            "confidence_score": 218,
+            "total_score": 5668
+        },
+        {
+            "name": "vetch",
+            "mentions": 22,
+            "confidence_score": 201,
+            "total_score": 4422
+        },
+        {
+            "name": "slender vetch (vicia paucijuga)",
+            "mentions": 15,
+            "confidence_score": 92,
+            "total_score": 1380
+        },
+        {
+            "name": "vicia paucijuga vetch",
+            "mentions": 23,
+            "confidence_score": 62,
+            "total_score": 1426
+        },
+        {
+            "name": "small vetch (vicia)",
+            "mentions": 11,
+            "confidence_score": 53,
+            "total_score": 583
+        },
+        {
+            "name": "vetchling",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "four-angled vetch",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "paucijuga",
+            "mentions": 13,
+            "confidence_score": 32,
+            "total_score": 416
+        },
+        {
+            "name": "least vetch",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "vetch (vicia paucijuga)",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "four-angled pea vetch",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "slender vetch (paucijuga)",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "bitter vetch",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "slender vetchling",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "less-jointed vetch",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "slender pea vetch",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "slender vetchlet",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "small vetch",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "least vetch (vicia paucijuga)",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "vicia paucijuga (slender vetch)",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "uses": "Vicia paucijuga has been used in traditional medicine, although the extent of its application is limited. It is reported to have potential antimicrobial properties, which could aid in treating various infections. The plant is also said to possess anti-inflammatory properties, which may be beneficial in reducing inflammation and pain. More research is needed to fully understand its medicinal uses and potential side effects. Its traditional uses are not widely recognized outside of its native regions.",
+    "taxonomy": "Vicia paucijuga is classified within the family Fabaceae, which is a large and diverse group of flowering plants commonly known as legumes. This family includes a wide range of species, from shrubs to trees, and from annuals to perennials. Vicia paucijuga is further classified within the subfamily Faboideae, which is one of the largest subfamilies within the Fabaceae family. The genus Vicia itself is a group of annual or perennial legumes native to Europe, Asia, and Africa, and Vicia paucijuga is one of the many species within this genus. The species Vicia paucijuga is native to parts of Asia, where it grows in a variety of habitats.",
+    "benefits": "Vicia paucijuga is a plant species known for its potential health benefits, although limited research is available. Its leaves, stems, and roots are traditionally used in herbal medicine. According to some studies, extracts from Vicia paucijuga have been found to exhibit antioxidant and anti-inflammatory properties. These properties may contribute to its potential in reducing inflammation and improving cardiovascular health. Further research is necessary to confirm the efficacy and safety of using Vicia paucijuga for medicinal purposes.",
+    "properties": "Vicia paucijuga has been traditionally used in folk medicine to treat various health issues. Research on the plant's therapeutic properties is limited, but it is believed to have antioxidant, anti-inflammatory, and antimicrobial properties. The plant's leaves and stems are used in traditional remedies to treat fever, rheumatism, and other conditions. Further studies are needed to confirm the plant's efficacy and potential side effects. The therapeutic properties of Vicia paucijuga are not well-documented in modern scientific literature.",
+    "constituents": "Vicia paucijuga is a plant species, but I don't have information on its active constituents. Further research is needed to determine the active constituents of Vicia paucijuga. However, Vicia species in general contain various compounds including flavonoids, alkaloids, and saponins, which may be present in Vicia paucijuga as well. The specific active constituents of Vicia paucijuga would depend on its chemical composition, which has not been thoroughly studied. More research is required to identify the active constituents of this specific plant species.",
+    "parts": "Vicia paucijuga is a plant species within the legume family. The roots, leaves, and flowers of Vicia paucijuga may be used in traditional medicine. However, specific information on the medicinal parts is limited. Further research is needed to confirm the efficacy and safety of using Vicia paucijuga in medicinal practices. The plant is primarily studied for its potential in traditional medicine, but its uses and properties require more investigation.",
+    "preparations": "Vicia paucijuga is a plant species that has been traditionally used in herbal medicine, particularly in folk remedies. The roots and leaves of the plant are used to prepare herbal teas and infusions, which are believed to have various health benefits. In some traditional practices, the plant is used to treat conditions such as fever, rheumatism, and digestive issues. However, more research is needed to confirm the efficacy and safety of using Vicia paucijuga as a medicinal plant. It is essential to consult with a healthcare professional before using any herbal preparation.",
+    "side_effects": "Info not available yet.",
+    "intro": "Vicia paucijuga is a species of legume, commonly known as a vetch, that is native to the Mediterranean region. The plant is valued for its medicinal properties, which include its ability to support immune function, reduce inflammation, and exhibit antioxidant activity, making it a potential natural remedy for various health conditions. The bioactive constituents of Vicia paucijuga include flavonoids, phenolic acids, and alkaloids, which are responsible for its medicinal properties. The plant is commonly used in traditional medicine to make teas, infusions, and tinctures, which are often used to treat respiratory issues, such as bronchitis and coughs, as well as digestive problems."
+}

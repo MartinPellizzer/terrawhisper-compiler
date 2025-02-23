@@ -1,1 +1,756 @@
-{"title": "Eucalyptus globulus", "herb_slug": "eucalyptus-globulus", "herb_name_scientific": "Eucalyptus globulus", "family_slug": "", "family_name": "", "url": "herbs/eucalyptus-globulus", "lastmod": "2025-1-20", "herb_names_common": [{"name": "blue gum", "mentions": 24, "confidence_score": 202, "total_score": 4848}, {"name": "tasmanian blue gum", "mentions": 20, "confidence_score": 173, "total_score": 3460}, {"name": "blue gum tree", "mentions": 19, "confidence_score": 127, "total_score": 2413}, {"name": "blue gum eucalyptus", "mentions": 19, "confidence_score": 120, "total_score": 2280}, {"name": "southern blue gum", "mentions": 15, "confidence_score": 111, "total_score": 1665}, {"name": "blue mallee", "mentions": 14, "confidence_score": 82, "total_score": 1148}, {"name": "peppermint gum", "mentions": 11, "confidence_score": 63, "total_score": 693}, {"name": "flooded gum", "mentions": 8, "confidence_score": 54, "total_score": 432}, {"name": "eucalyptus", "mentions": 12, "confidence_score": 50, "total_score": 600}, {"name": "eucalyptus tree", "mentions": 7, "confidence_score": 38, "total_score": 266}, {"name": "blue gum eucalyptus tree", "mentions": 7, "confidence_score": 30, "total_score": 210}, {"name": "blue peppermint gum", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "eucalyptus blue gum", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "peppermint tree", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "fern leaf peppermint gum", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "tasmanian peppermint gum", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "globulus", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "globulus eucalyptus", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "manna gum", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "eucalyptus globulus", "mentions": 3, "confidence_score": 8, "total_score": 24}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 184, "total_score": 3680}], "what_description": "Eucalyptus globulus is a species of flowering plant that belongs to the family Myrtaceae. It is a large evergreen tree that grows up to 60 meters in height, with a broad, conical crown and a straight, columnar trunk with a smooth, gray bark. The leaves are lanceolate, alternate, and aromatic, measuring 5-25 cm in length and 1.5-4 cm in width, with a glaucous, bluish-green color and a rounded base. The inflorescence is a cluster of small, white flowers that appear in spring and summer, and are followed by woody, cylindrical capsules that contain numerous small seeds. The plant is native to southeastern Australia, where it grows in coastal and mountainous regions with well-drained soils and mild temperatures.", "category_action": "expectorants", "ailments": [{"name": "bronchitis", "mentions": 19, "confidence_score": 159, "total_score": 3021}, {"name": "sinusitis", "mentions": 20, "confidence_score": 140, "total_score": 2800}, {"name": "cough", "mentions": 14, "confidence_score": 135, "total_score": 1890}, {"name": "asthma", "mentions": 16, "confidence_score": 130, "total_score": 2080}, {"name": "congestion", "mentions": 11, "confidence_score": 96, "total_score": 1056}, {"name": "sore throat", "mentions": 12, "confidence_score": 89, "total_score": 1068}, {"name": "fever", "mentions": 13, "confidence_score": 84, "total_score": 1092}, {"name": "inflammation", "mentions": 11, "confidence_score": 73, "total_score": 803}, {"name": "allergies", "mentions": 11, "confidence_score": 72, "total_score": 792}, {"name": "influenza", "mentions": 8, "confidence_score": 59, "total_score": 472}, {"name": "cold", "mentions": 8, "confidence_score": 57, "total_score": 456}, {"name": "coughs", "mentions": 6, "confidence_score": 52, "total_score": 312}, {"name": "pneumonia", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "rheumatism", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "migraines", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "respiratory issues", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "fatigue", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "pain", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "respiratory infection", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "arthritis", "mentions": 3, "confidence_score": 14, "total_score": 42}], "ailments_description": "The most common ailments you can heal with Eucalyptus globulus are bronchitis, sinusitis and cough, which are often caused by the same underlying issues of congestion and inflammation. Eucalyptus globulus has also been shown to alleviate asthma symptoms, such as wheezing and shortness of breath, by opening airways. It is commonly used to treat sore throat and fever, which can be caused by the viral and bacterial infections that lead to influenza and pneumonia. Eucalyptus globulus has anti-inflammatory properties that help to alleviate rheumatism pain and swelling, as well as reduce migraine symptoms and fatigue associated with respiratory issues. Additionally, its decongestant properties help to alleviate arthritis pain and respiratory infection symptoms, including coughs and pain.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 178, "total_score": 3560}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 172, "total_score": 3440}, {"name": "expectorant", "mentions": 20, "confidence_score": 172, "total_score": 3440}, {"name": "antioxidant", "mentions": 20, "confidence_score": 164, "total_score": 3280}, {"name": "antifungal", "mentions": 17, "confidence_score": 136, "total_score": 2312}, {"name": "antiviral", "mentions": 19, "confidence_score": 126, "total_score": 2394}, {"name": "analgesic", "mentions": 18, "confidence_score": 115, "total_score": 2070}, {"name": "antibacterial", "mentions": 9, "confidence_score": 80, "total_score": 720}, {"name": "cough suppressant", "mentions": 9, "confidence_score": 74, "total_score": 666}, {"name": "antispasmodic", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "decongestant", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "antiseptic", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "antihistamine", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "cytotoxic", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "neuroprotective", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "anxiolytic", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "immune system booster", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "bronchodilator", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "anticatarrhal", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "immune-modulator", "mentions": 1, "confidence_score": 7, "total_score": 7}], "properties_description": "The main therapeutic properties of Eucalyptus globulus are its antimicrobial properties, which inhibit the growth of various bacteria and fungi, making it effective in treating infections. Its anti-inflammatory properties help to reduce swelling and pain, alleviating respiratory issues such as asthma and bronchitis. The plant's expectorant properties facilitate the removal of mucus from the respiratory tract, providing relief from congestion and coughing. Moreover, the antioxidant properties of Eucalyptus globulus protect cells from oxidative damage, contributing to its potential anti-cancer and neuroprotective effects, while also neutralizing free radicals in the body. Additionally, its antifungal properties help to combat fungal infections, further solidifying its reputation as a natural remedy for various health issues.", "constituents": [{"name": "\u03b1-pinene", "mentions": 19, "confidence_score": 155, "total_score": 2945}, {"name": "cineole", "mentions": 16, "confidence_score": 148, "total_score": 2368}, {"name": "\u03b2-pinene", "mentions": 13, "confidence_score": 105, "total_score": 1365}, {"name": "limonene", "mentions": 16, "confidence_score": 102, "total_score": 1632}, {"name": "cineole (eucalyptol)", "mentions": 11, "confidence_score": 101, "total_score": 1111}, {"name": "\u03b1-terpineol", "mentions": 14, "confidence_score": 96, "total_score": 1344}, {"name": "bornyl acetate", "mentions": 18, "confidence_score": 88, "total_score": 1584}, {"name": "caryophyllene", "mentions": 11, "confidence_score": 60, "total_score": 660}, {"name": "alpha-pinene", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "beta-pinene", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "globulol", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "linalool", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "sabinene", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "piperitone", "mentions": 7, "confidence_score": 25, "total_score": 175}, {"name": "caryophyllene oxide", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "\u03b1-phellandrene", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "eudesmol", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "viridiflorol", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "cymene", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "\u03b1-terpinyl acetate", "mentions": 3, "confidence_score": 14, "total_score": 42}], "constituents_description": "The most important healing constituents of Eucalyptus globulus are \u03b1-pinene, cineole (also known as eucalyptol), \u03b2-pinene, and limonene, which are responsible for its medicinal properties. Cineole is a key component, accounting for up to 70% of the essential oil, and has been shown to exhibit expectorant, anti-inflammatory, and antimicrobial activities, making it effective in relieving respiratory issues such as bronchitis and asthma. \u03b1-Pinene also exhibits antimicrobial and anti-inflammatory properties, and has been shown to inhibit the growth of certain bacteria and fungi. \u03b2-Pinene and limonene also possess antimicrobial properties, with limonene also exhibiting some anti-inflammatory activity. These constituents work together to provide Eucalyptus globulus with its healing properties, making it a popular natural remedy for respiratory and skin issues.", "preparations": [{"name": "eucalyptus oil", "mentions": 19, "confidence_score": 189, "total_score": 3591}, {"name": "eucalyptus tincture", "mentions": 14, "confidence_score": 118, "total_score": 1652}, {"name": "eucalyptus infusion", "mentions": 14, "confidence_score": 100, "total_score": 1400}, {"name": "eucalyptus salve", "mentions": 14, "confidence_score": 99, "total_score": 1386}, {"name": "eucalyptus tea", "mentions": 10, "confidence_score": 57, "total_score": 570}, {"name": "salve", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "eucalyptus cream", "mentions": 9, "confidence_score": 41, "total_score": 369}, {"name": "tincture", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "tea", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "infusion", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "eucalyptus ointment", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "eucalyptus spray", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "poultice", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "eucalyptus extract", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "eucalyptus poultice", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "mist", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "eucalyptus syrup", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "inhaler", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "eucalyptus lotion", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "essential oil", "mentions": 1, "confidence_score": 10, "total_score": 10}], "preparations_description": "The main herbal preparations of Eucalyptus globulus are derived from its leaves and include eucalyptus oil which is obtained through steam distillation and used for its decongestant properties to relieve respiratory issues such as bronchitis and asthma. Eucalyptus tincture is a concentrated liquid extract of the leaves in ethanol or glycerol used for expectorant and anti-inflammatory purposes. Eucalyptus infusion is a tea made by steeping the leaves in hot water and used for its antimicrobial properties to aid in cold and flu relief. Eucalyptus salve is a topical cream or ointment made from the oil and used to soothe and protect wounds, insect bites, and minor burns due to its antibacterial properties. Eucalyptus tea is a less concentrated version of the infusion and used similarly for its expectorant and anti-inflammatory effects.", "side_effects": [{"name": "interact with medications", "mentions": 11, "confidence_score": 69, "total_score": 759}, {"name": "exacerbate asthma", "mentions": 6, "confidence_score": 59, "total_score": 354}, {"name": "induce allergic reactions", "mentions": 5, "confidence_score": 43, "total_score": 215}, {"name": "trigger asthma attacks", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "trigger allergic reactions", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "increase heart rate", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "induces nausea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "cause diarrhea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "cause skin irritation", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "causes skin irritation", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "increases heart rate", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "induce seizures", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "cause nausea", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "exacerbate bronchitis", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "triggers allergic reactions", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "induces allergic reactions", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "worsen asthma", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "triggers asthma attack", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "induce nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}], "side_effects_description": "The possible side effects of using Eucalyptus globulus improperly include interacting with medications such as blood thinners, diabetes medications and certain antidepressants, which can lead to increased bleeding risk, blood sugar fluctuations and serotonin syndrome. Exacerbating asthma in individuals with pre-existing respiratory conditions is also a concern, as the oil's decongestant properties can initially worsen symptoms before providing relief. Moreover, using Eucalyptus globulus improperly can induce allergic reactions in some individuals, manifesting as skin irritation, hives and respiratory distress. Furthermore, its decongestant properties can trigger asthma attacks in susceptible individuals, particularly those with uncontrolled asthma or respiratory allergies. Additionally, topical application of Eucalyptus globulus oil can trigger allergic reactions such as contact dermatitis and photosensitivity in rare cases."}
+{
+    "title": "Eucalyptus globulus",
+    "herb_slug": "eucalyptus-globulus",
+    "herb_name_scientific": "Eucalyptus globulus",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/eucalyptus-globulus",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "blue gum",
+            "mentions": 24,
+            "confidence_score": 202,
+            "total_score": 4848
+        },
+        {
+            "name": "tasmanian blue gum",
+            "mentions": 20,
+            "confidence_score": 173,
+            "total_score": 3460
+        },
+        {
+            "name": "blue gum tree",
+            "mentions": 19,
+            "confidence_score": 127,
+            "total_score": 2413
+        },
+        {
+            "name": "blue gum eucalyptus",
+            "mentions": 19,
+            "confidence_score": 120,
+            "total_score": 2280
+        },
+        {
+            "name": "southern blue gum",
+            "mentions": 15,
+            "confidence_score": 111,
+            "total_score": 1665
+        },
+        {
+            "name": "blue mallee",
+            "mentions": 14,
+            "confidence_score": 82,
+            "total_score": 1148
+        },
+        {
+            "name": "peppermint gum",
+            "mentions": 11,
+            "confidence_score": 63,
+            "total_score": 693
+        },
+        {
+            "name": "flooded gum",
+            "mentions": 8,
+            "confidence_score": 54,
+            "total_score": 432
+        },
+        {
+            "name": "eucalyptus",
+            "mentions": 12,
+            "confidence_score": 50,
+            "total_score": 600
+        },
+        {
+            "name": "eucalyptus tree",
+            "mentions": 7,
+            "confidence_score": 38,
+            "total_score": 266
+        },
+        {
+            "name": "blue gum eucalyptus tree",
+            "mentions": 7,
+            "confidence_score": 30,
+            "total_score": 210
+        },
+        {
+            "name": "blue peppermint gum",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "eucalyptus blue gum",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "peppermint tree",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "fern leaf peppermint gum",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "tasmanian peppermint gum",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "globulus",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "globulus eucalyptus",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "manna gum",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "eucalyptus globulus",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 184,
+            "total_score": 3680
+        }
+    ],
+    "what_description": "Eucalyptus globulus is a species of flowering plant that belongs to the family Myrtaceae. It is a large evergreen tree that grows up to 60 meters in height, with a broad, conical crown and a straight, columnar trunk with a smooth, gray bark. The leaves are lanceolate, alternate, and aromatic, measuring 5-25 cm in length and 1.5-4 cm in width, with a glaucous, bluish-green color and a rounded base. The inflorescence is a cluster of small, white flowers that appear in spring and summer, and are followed by woody, cylindrical capsules that contain numerous small seeds. The plant is native to southeastern Australia, where it grows in coastal and mountainous regions with well-drained soils and mild temperatures.",
+    "category_action": "expectorants",
+    "ailments": [
+        {
+            "name": "bronchitis",
+            "mentions": 19,
+            "confidence_score": 159,
+            "total_score": 3021
+        },
+        {
+            "name": "sinusitis",
+            "mentions": 20,
+            "confidence_score": 140,
+            "total_score": 2800
+        },
+        {
+            "name": "cough",
+            "mentions": 14,
+            "confidence_score": 135,
+            "total_score": 1890
+        },
+        {
+            "name": "asthma",
+            "mentions": 16,
+            "confidence_score": 130,
+            "total_score": 2080
+        },
+        {
+            "name": "congestion",
+            "mentions": 11,
+            "confidence_score": 96,
+            "total_score": 1056
+        },
+        {
+            "name": "sore throat",
+            "mentions": 12,
+            "confidence_score": 89,
+            "total_score": 1068
+        },
+        {
+            "name": "fever",
+            "mentions": 13,
+            "confidence_score": 84,
+            "total_score": 1092
+        },
+        {
+            "name": "inflammation",
+            "mentions": 11,
+            "confidence_score": 73,
+            "total_score": 803
+        },
+        {
+            "name": "allergies",
+            "mentions": 11,
+            "confidence_score": 72,
+            "total_score": 792
+        },
+        {
+            "name": "influenza",
+            "mentions": 8,
+            "confidence_score": 59,
+            "total_score": 472
+        },
+        {
+            "name": "cold",
+            "mentions": 8,
+            "confidence_score": 57,
+            "total_score": 456
+        },
+        {
+            "name": "coughs",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "name": "pneumonia",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "migraines",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "fatigue",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "pain",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "respiratory infection",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "arthritis",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Eucalyptus globulus are bronchitis, sinusitis and cough, which are often caused by the same underlying issues of congestion and inflammation. Eucalyptus globulus has also been shown to alleviate asthma symptoms, such as wheezing and shortness of breath, by opening airways. It is commonly used to treat sore throat and fever, which can be caused by the viral and bacterial infections that lead to influenza and pneumonia. Eucalyptus globulus has anti-inflammatory properties that help to alleviate rheumatism pain and swelling, as well as reduce migraine symptoms and fatigue associated with respiratory issues. Additionally, its decongestant properties help to alleviate arthritis pain and respiratory infection symptoms, including coughs and pain.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 178,
+            "total_score": 3560
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        },
+        {
+            "name": "expectorant",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 164,
+            "total_score": 3280
+        },
+        {
+            "name": "antifungal",
+            "mentions": 17,
+            "confidence_score": 136,
+            "total_score": 2312
+        },
+        {
+            "name": "antiviral",
+            "mentions": 19,
+            "confidence_score": 126,
+            "total_score": 2394
+        },
+        {
+            "name": "analgesic",
+            "mentions": 18,
+            "confidence_score": 115,
+            "total_score": 2070
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 9,
+            "confidence_score": 80,
+            "total_score": 720
+        },
+        {
+            "name": "cough suppressant",
+            "mentions": 9,
+            "confidence_score": 74,
+            "total_score": 666
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "decongestant",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "anxiolytic",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "immune system booster",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "bronchodilator",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "anticatarrhal",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "immune-modulator",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Eucalyptus globulus are its antimicrobial properties, which inhibit the growth of various bacteria and fungi, making it effective in treating infections. Its anti-inflammatory properties help to reduce swelling and pain, alleviating respiratory issues such as asthma and bronchitis. The plant's expectorant properties facilitate the removal of mucus from the respiratory tract, providing relief from congestion and coughing. Moreover, the antioxidant properties of Eucalyptus globulus protect cells from oxidative damage, contributing to its potential anti-cancer and neuroprotective effects, while also neutralizing free radicals in the body. Additionally, its antifungal properties help to combat fungal infections, further solidifying its reputation as a natural remedy for various health issues.",
+    "constituents": [
+        {
+            "name": "\u03b1-pinene",
+            "mentions": 19,
+            "confidence_score": 155,
+            "total_score": 2945
+        },
+        {
+            "name": "cineole",
+            "mentions": 16,
+            "confidence_score": 148,
+            "total_score": 2368
+        },
+        {
+            "name": "\u03b2-pinene",
+            "mentions": 13,
+            "confidence_score": 105,
+            "total_score": 1365
+        },
+        {
+            "name": "limonene",
+            "mentions": 16,
+            "confidence_score": 102,
+            "total_score": 1632
+        },
+        {
+            "name": "cineole (eucalyptol)",
+            "mentions": 11,
+            "confidence_score": 101,
+            "total_score": 1111
+        },
+        {
+            "name": "\u03b1-terpineol",
+            "mentions": 14,
+            "confidence_score": 96,
+            "total_score": 1344
+        },
+        {
+            "name": "bornyl acetate",
+            "mentions": 18,
+            "confidence_score": 88,
+            "total_score": 1584
+        },
+        {
+            "name": "caryophyllene",
+            "mentions": 11,
+            "confidence_score": 60,
+            "total_score": 660
+        },
+        {
+            "name": "alpha-pinene",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "beta-pinene",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "globulol",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "linalool",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "sabinene",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "piperitone",
+            "mentions": 7,
+            "confidence_score": 25,
+            "total_score": 175
+        },
+        {
+            "name": "caryophyllene oxide",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "\u03b1-phellandrene",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "eudesmol",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "viridiflorol",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "cymene",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "\u03b1-terpinyl acetate",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Eucalyptus globulus are \u03b1-pinene, cineole (also known as eucalyptol), \u03b2-pinene, and limonene, which are responsible for its medicinal properties. Cineole is a key component, accounting for up to 70% of the essential oil, and has been shown to exhibit expectorant, anti-inflammatory, and antimicrobial activities, making it effective in relieving respiratory issues such as bronchitis and asthma. \u03b1-Pinene also exhibits antimicrobial and anti-inflammatory properties, and has been shown to inhibit the growth of certain bacteria and fungi. \u03b2-Pinene and limonene also possess antimicrobial properties, with limonene also exhibiting some anti-inflammatory activity. These constituents work together to provide Eucalyptus globulus with its healing properties, making it a popular natural remedy for respiratory and skin issues.",
+    "preparations": [
+        {
+            "name": "eucalyptus oil",
+            "mentions": 19,
+            "confidence_score": 189,
+            "total_score": 3591
+        },
+        {
+            "name": "eucalyptus tincture",
+            "mentions": 14,
+            "confidence_score": 118,
+            "total_score": 1652
+        },
+        {
+            "name": "eucalyptus infusion",
+            "mentions": 14,
+            "confidence_score": 100,
+            "total_score": 1400
+        },
+        {
+            "name": "eucalyptus salve",
+            "mentions": 14,
+            "confidence_score": 99,
+            "total_score": 1386
+        },
+        {
+            "name": "eucalyptus tea",
+            "mentions": 10,
+            "confidence_score": 57,
+            "total_score": 570
+        },
+        {
+            "name": "salve",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "eucalyptus cream",
+            "mentions": 9,
+            "confidence_score": 41,
+            "total_score": 369
+        },
+        {
+            "name": "tincture",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "tea",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "infusion",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "eucalyptus ointment",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "eucalyptus spray",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "poultice",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "eucalyptus extract",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "eucalyptus poultice",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "mist",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "eucalyptus syrup",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "inhaler",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "eucalyptus lotion",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "essential oil",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Eucalyptus globulus are derived from its leaves and include eucalyptus oil which is obtained through steam distillation and used for its decongestant properties to relieve respiratory issues such as bronchitis and asthma. Eucalyptus tincture is a concentrated liquid extract of the leaves in ethanol or glycerol used for expectorant and anti-inflammatory purposes. Eucalyptus infusion is a tea made by steeping the leaves in hot water and used for its antimicrobial properties to aid in cold and flu relief. Eucalyptus salve is a topical cream or ointment made from the oil and used to soothe and protect wounds, insect bites, and minor burns due to its antibacterial properties. Eucalyptus tea is a less concentrated version of the infusion and used similarly for its expectorant and anti-inflammatory effects.",
+    "side_effects": [
+        {
+            "name": "interact with medications",
+            "mentions": 11,
+            "confidence_score": 69,
+            "total_score": 759
+        },
+        {
+            "name": "exacerbate asthma",
+            "mentions": 6,
+            "confidence_score": 59,
+            "total_score": 354
+        },
+        {
+            "name": "induce allergic reactions",
+            "mentions": 5,
+            "confidence_score": 43,
+            "total_score": 215
+        },
+        {
+            "name": "trigger asthma attacks",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "induces nausea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "causes skin irritation",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "increases heart rate",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "exacerbate bronchitis",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "triggers allergic reactions",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "induces allergic reactions",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "worsen asthma",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "triggers asthma attack",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Eucalyptus globulus improperly include interacting with medications such as blood thinners, diabetes medications and certain antidepressants, which can lead to increased bleeding risk, blood sugar fluctuations and serotonin syndrome. Exacerbating asthma in individuals with pre-existing respiratory conditions is also a concern, as the oil's decongestant properties can initially worsen symptoms before providing relief. Moreover, using Eucalyptus globulus improperly can induce allergic reactions in some individuals, manifesting as skin irritation, hives and respiratory distress. Furthermore, its decongestant properties can trigger asthma attacks in susceptible individuals, particularly those with uncontrolled asthma or respiratory allergies. Additionally, topical application of Eucalyptus globulus oil can trigger allergic reactions such as contact dermatitis and photosensitivity in rare cases."
+}

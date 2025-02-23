@@ -1,1 +1,154 @@
-{"title": "Protomegabaria stapfiana", "herb_slug": "protomegabaria-stapfiana", "herb_name_scientific": "Protomegabaria stapfiana", "family_slug": "phyllanthaceae", "family_name": "Phyllanthaceae", "url": "herbs/protomegabaria-stapfiana", "lastmod": "2025-1-16", "herb_names_common": [{"name": "protomegabaria stapfiana", "mentions": 66, "confidence_score": 352, "total_score": 23232}, {"name": "none found", "mentions": 10, "confidence_score": 100, "total_score": 1000}, {"name": "megabaria stapfiana", "mentions": 17, "confidence_score": 83, "total_score": 1411}, {"name": "common name not found", "mentions": 8, "confidence_score": 80, "total_score": 640}, {"name": "protomegabaria", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "stapf's megabaria", "mentions": 26, "confidence_score": 37, "total_score": 962}, {"name": "unknown", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "protomegabaria stapfiana (no common name found)", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "protomegabaria stapfiana (unknown common name)", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "protomegabaria stapfiana (no english name found)", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "protomegabaria stapfiana (no common name available)", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "protomegabaria stapfiana (no information available)", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "stapfiana megabaria", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "herb", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "plant", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "lichen", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "fungus", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "bryophyte", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "moss", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "lichenized fungus", "mentions": 1, "confidence_score": 2, "total_score": 2}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 14, "confidence_score": 136, "total_score": 1904}, {"medicine_or_poison": "medicine", "mentions": 6, "confidence_score": 32, "total_score": 192}], "uses": "Protomegabaria stapfiana is a plant species, but information on its medicinal uses is limited. More research is needed to determine its potential benefits and applications. There is currently a lack of documented evidence regarding its traditional or modern medicinal uses. Further studies are necessary to explore any possible health benefits associated with this plant. However, it's essential to consult with a medical professional before using any plant for medicinal purposes.", "taxonomy": "Unfortunately, I can only find limited information on Protomegabaria stapfiana. However, based on available data, I can tell you that it belongs to the family Cephalotaceae. Protomegabaria stapfiana is a species of water lily. The classification of this plant is as follows: it belongs to the phylum Magnoliophyta, class Magnoliopsida, and order Hydrostachyales.", "benefits": "Info not available yet.", "properties": "Protomegabaria stapfiana is a plant species that is reported to have various therapeutic properties, although more research is needed to confirm its efficacy. The plant is used in traditional medicine in certain regions, and it is believed to possess anti-inflammatory and antioxidant properties. Some studies suggest that Protomegabaria stapfiana may have potential in treating various health conditions, including infections and inflammatory diseases. However, the plant's therapeutic properties are not yet well-studied or widely recognized. Further research is necessary to fully understand the potential benefits and risks of using Protomegabaria stapfiana for medicinal purposes.", "constituents": "Protomegabaria stapfiana contains active constituents such as flavonoids, which are known to possess antioxidant and anti-inflammatory properties. These compounds are thought to contribute to the plant's medicinal properties. Additionally, some studies suggest the presence of phenolic acids and terpenoids in Protomegabaria stapfiana. The exact composition of the plant's active constituents is still being researched. Further studies are needed to fully understand the potential benefits of these compounds.", "parts": "Unfortunately, I do not have information on the medicinal parts of Protomegabaria stapfiana.", "preparations": "Info not available yet.", "side_effects": "Info not available yet.", "intro": "Protomegabaria stapfiana, also known as the Stapf's megabaria, is a species of flowering plant in the family Gentianaceae. This plant has been traditionally used in herbal medicine due to its various health benefits, including anti-inflammatory, antimicrobial, and antioxidant properties, which are believed to aid in the treatment of various ailments such as digestive issues and respiratory infections. The bioactive constituents of Protomegabaria stapfiana include flavonoids, alkaloids, and phenolic acids, which are responsible for its medicinal properties. In traditional medicine, the plant is often used to prepare teas, infusions, and tinctures, as well as being incorporated into capsules and tablets, to take advantage of its potential health benefits."}
+{
+    "title": "Protomegabaria stapfiana",
+    "herb_slug": "protomegabaria-stapfiana",
+    "herb_name_scientific": "Protomegabaria stapfiana",
+    "family_slug": "phyllanthaceae",
+    "family_name": "Phyllanthaceae",
+    "url": "herbs/protomegabaria-stapfiana",
+    "lastmod": "2025-1-16",
+    "herb_names_common": [
+        {
+            "name": "protomegabaria stapfiana",
+            "mentions": 66,
+            "confidence_score": 352,
+            "total_score": 23232
+        },
+        {
+            "name": "none found",
+            "mentions": 10,
+            "confidence_score": 100,
+            "total_score": 1000
+        },
+        {
+            "name": "megabaria stapfiana",
+            "mentions": 17,
+            "confidence_score": 83,
+            "total_score": 1411
+        },
+        {
+            "name": "common name not found",
+            "mentions": 8,
+            "confidence_score": 80,
+            "total_score": 640
+        },
+        {
+            "name": "protomegabaria",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "stapf's megabaria",
+            "mentions": 26,
+            "confidence_score": 37,
+            "total_score": 962
+        },
+        {
+            "name": "unknown",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "protomegabaria stapfiana (no common name found)",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "protomegabaria stapfiana (unknown common name)",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "protomegabaria stapfiana (no english name found)",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "protomegabaria stapfiana (no common name available)",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "protomegabaria stapfiana (no information available)",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "stapfiana megabaria",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "herb",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "plant",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "lichen",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "fungus",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "bryophyte",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "moss",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "lichenized fungus",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 14,
+            "confidence_score": 136,
+            "total_score": 1904
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        }
+    ],
+    "uses": "Protomegabaria stapfiana is a plant species, but information on its medicinal uses is limited. More research is needed to determine its potential benefits and applications. There is currently a lack of documented evidence regarding its traditional or modern medicinal uses. Further studies are necessary to explore any possible health benefits associated with this plant. However, it's essential to consult with a medical professional before using any plant for medicinal purposes.",
+    "taxonomy": "Unfortunately, I can only find limited information on Protomegabaria stapfiana. However, based on available data, I can tell you that it belongs to the family Cephalotaceae. Protomegabaria stapfiana is a species of water lily. The classification of this plant is as follows: it belongs to the phylum Magnoliophyta, class Magnoliopsida, and order Hydrostachyales.",
+    "benefits": "Info not available yet.",
+    "properties": "Protomegabaria stapfiana is a plant species that is reported to have various therapeutic properties, although more research is needed to confirm its efficacy. The plant is used in traditional medicine in certain regions, and it is believed to possess anti-inflammatory and antioxidant properties. Some studies suggest that Protomegabaria stapfiana may have potential in treating various health conditions, including infections and inflammatory diseases. However, the plant's therapeutic properties are not yet well-studied or widely recognized. Further research is necessary to fully understand the potential benefits and risks of using Protomegabaria stapfiana for medicinal purposes.",
+    "constituents": "Protomegabaria stapfiana contains active constituents such as flavonoids, which are known to possess antioxidant and anti-inflammatory properties. These compounds are thought to contribute to the plant's medicinal properties. Additionally, some studies suggest the presence of phenolic acids and terpenoids in Protomegabaria stapfiana. The exact composition of the plant's active constituents is still being researched. Further studies are needed to fully understand the potential benefits of these compounds.",
+    "parts": "Unfortunately, I do not have information on the medicinal parts of Protomegabaria stapfiana.",
+    "preparations": "Info not available yet.",
+    "side_effects": "Info not available yet.",
+    "intro": "Protomegabaria stapfiana, also known as the Stapf's megabaria, is a species of flowering plant in the family Gentianaceae. This plant has been traditionally used in herbal medicine due to its various health benefits, including anti-inflammatory, antimicrobial, and antioxidant properties, which are believed to aid in the treatment of various ailments such as digestive issues and respiratory infections. The bioactive constituents of Protomegabaria stapfiana include flavonoids, alkaloids, and phenolic acids, which are responsible for its medicinal properties. In traditional medicine, the plant is often used to prepare teas, infusions, and tinctures, as well as being incorporated into capsules and tablets, to take advantage of its potential health benefits."
+}

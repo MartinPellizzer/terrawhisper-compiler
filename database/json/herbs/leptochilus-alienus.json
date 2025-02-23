@@ -1,1 +1,148 @@
-{"title": "Leptochilus alienus", "herb_slug": "leptochilus-alienus", "herb_name_scientific": "Leptochilus alienus", "family_slug": "polypodiaceae", "family_name": "Polypodiaceae", "url": "herbs/leptochilus-alienus", "lastmod": "2025-1-6", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 191, "total_score": 3820}], "herb_names_common": [{"name": "thread-leaved spiderwort", "mentions": 6, "confidence_score": 52, "total_score": 312}, {"name": "red ant mound ant", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "thread-leaved glade spiderwort", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "red imported fire ant", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "green ant mound ant", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "paper wasp", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "thread-waisted wasps", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "wood wasp", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "giant leatherflower", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "false honey mushroom", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "black ant mound ant", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "giant leather flower", "mentions": 14, "confidence_score": 16, "total_score": 224}, {"name": "red harvester ant", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "red fire ant", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "red ant (solenopsis invicta)", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "smooth cottongrass", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "yellow paper wasp", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "greenhead ant", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "wild leek", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "digger wasp", "mentions": 3, "confidence_score": 11, "total_score": 33}], "uses": "Leptochilus alienus is a plant species that has been used in traditional medicine for its potential health benefits. However, limited research is available on its medicinal uses, and more studies are needed to confirm its efficacy. Traditionally, it has been used to treat various ailments, including fever, cough, and respiratory issues. The plant's leaves and roots are often used in folk remedies, but the exact mechanisms of its medicinal effects are not well understood. Further research is necessary to determine the safety and effectiveness of using Leptochilus alienus for medicinal purposes.", "taxonomy": "Leptochilus alienus is a species of epiphytic fern in the family Polypodiaceae. It belongs to the genus Leptochilus, which is part of the order Polypodiales. The classification of Leptochilus alienus at the higher taxonomic levels includes Kingdom: Plantae, Division: Pteridophyta, and Class: Polypodiopsida. This classification places Leptochilus alienus within the broader group of ferns. The specific characteristics of the plant and its unique features help to distinguish it from other members of its genus and family.", "benefits": "Leptochilus alienus, also known as the alien club moss, is a type of plant that has been studied for its potential health benefits. While limited research is available, some sources suggest that extracts from the plant may have anti-inflammatory and antioxidant properties. These properties could potentially be beneficial for treating various health conditions, such as arthritis, skin irritations, and oxidative stress. However, it's essential to note that further research is needed to confirm the effectiveness and safety of using Leptochilus alienus for medicinal purposes. More studies are required to fully understand its potential health benefits and applications.", "properties": "Leptochilus alienus is known for its potential therapeutic properties, particularly in traditional medicine. It has been traditionally used to treat various health issues, including fever, cough, and respiratory problems. Leptochilus alienus is believed to have antimicrobial and anti-inflammatory properties, which may help alleviate symptoms of certain diseases. However, more research is needed to confirm its effectiveness and safety for human consumption. Further studies are required to fully understand the plant's therapeutic potential and its applications in modern medicine.", "constituents": "Leptochilus alienus contains various active constituents, including flavonoids, alkaloids, and saponins. These compounds are responsible for the plant's medicinal properties and potential health benefits. Flavonoids, in particular, have been shown to possess antioxidant and anti-inflammatory activities. Alkaloids, on the other hand, may exhibit antimicrobial and cytotoxic effects. Further research is needed to fully understand the active constituents and their effects on human health.", "parts": "Unfortunately, I don't have enough information about the plant Leptochilus alienus.", "preparations": "Leptochilus alienus is a plant that may have been used in traditional herbal preparations, although specific information on its usage is limited. The plant is part of the fern family and may have been used in various folk remedies. In some cases, the leaves of Leptochilus alienus have been used in teas or infusions for their potential medicinal properties. However, more research is needed to fully understand the plant's effects and potential uses. It's essential to consult with a healthcare professional before using any herbal preparation.", "side_effects": "Leptochilus alienus, a species of wasp, does not directly have side effects as it is an insect. However, its sting can cause pain, redness, and swelling in some individuals. In severe cases, an allergic reaction to its venom may occur, leading to more serious symptoms. If you experience difficulty breathing, rapid heartbeat, or dizziness after a sting, seek medical attention immediately. Treatment for a Leptochilus alienus sting typically involves antihistamines or epinephrine to alleviate symptoms.", "intro": "I couldn't find any information about the specific plant called Leptochilus alienus."}
+{
+    "title": "Leptochilus alienus",
+    "herb_slug": "leptochilus-alienus",
+    "herb_name_scientific": "Leptochilus alienus",
+    "family_slug": "polypodiaceae",
+    "family_name": "Polypodiaceae",
+    "url": "herbs/leptochilus-alienus",
+    "lastmod": "2025-1-6",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 191,
+            "total_score": 3820
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "thread-leaved spiderwort",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "name": "red ant mound ant",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "thread-leaved glade spiderwort",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "red imported fire ant",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "green ant mound ant",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "paper wasp",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "thread-waisted wasps",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "wood wasp",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "giant leatherflower",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "false honey mushroom",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "black ant mound ant",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "giant leather flower",
+            "mentions": 14,
+            "confidence_score": 16,
+            "total_score": 224
+        },
+        {
+            "name": "red harvester ant",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "red fire ant",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "red ant (solenopsis invicta)",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "smooth cottongrass",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "yellow paper wasp",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "greenhead ant",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "wild leek",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "digger wasp",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        }
+    ],
+    "uses": "Leptochilus alienus is a plant species that has been used in traditional medicine for its potential health benefits. However, limited research is available on its medicinal uses, and more studies are needed to confirm its efficacy. Traditionally, it has been used to treat various ailments, including fever, cough, and respiratory issues. The plant's leaves and roots are often used in folk remedies, but the exact mechanisms of its medicinal effects are not well understood. Further research is necessary to determine the safety and effectiveness of using Leptochilus alienus for medicinal purposes.",
+    "taxonomy": "Leptochilus alienus is a species of epiphytic fern in the family Polypodiaceae. It belongs to the genus Leptochilus, which is part of the order Polypodiales. The classification of Leptochilus alienus at the higher taxonomic levels includes Kingdom: Plantae, Division: Pteridophyta, and Class: Polypodiopsida. This classification places Leptochilus alienus within the broader group of ferns. The specific characteristics of the plant and its unique features help to distinguish it from other members of its genus and family.",
+    "benefits": "Leptochilus alienus, also known as the alien club moss, is a type of plant that has been studied for its potential health benefits. While limited research is available, some sources suggest that extracts from the plant may have anti-inflammatory and antioxidant properties. These properties could potentially be beneficial for treating various health conditions, such as arthritis, skin irritations, and oxidative stress. However, it's essential to note that further research is needed to confirm the effectiveness and safety of using Leptochilus alienus for medicinal purposes. More studies are required to fully understand its potential health benefits and applications.",
+    "properties": "Leptochilus alienus is known for its potential therapeutic properties, particularly in traditional medicine. It has been traditionally used to treat various health issues, including fever, cough, and respiratory problems. Leptochilus alienus is believed to have antimicrobial and anti-inflammatory properties, which may help alleviate symptoms of certain diseases. However, more research is needed to confirm its effectiveness and safety for human consumption. Further studies are required to fully understand the plant's therapeutic potential and its applications in modern medicine.",
+    "constituents": "Leptochilus alienus contains various active constituents, including flavonoids, alkaloids, and saponins. These compounds are responsible for the plant's medicinal properties and potential health benefits. Flavonoids, in particular, have been shown to possess antioxidant and anti-inflammatory activities. Alkaloids, on the other hand, may exhibit antimicrobial and cytotoxic effects. Further research is needed to fully understand the active constituents and their effects on human health.",
+    "parts": "Unfortunately, I don't have enough information about the plant Leptochilus alienus.",
+    "preparations": "Leptochilus alienus is a plant that may have been used in traditional herbal preparations, although specific information on its usage is limited. The plant is part of the fern family and may have been used in various folk remedies. In some cases, the leaves of Leptochilus alienus have been used in teas or infusions for their potential medicinal properties. However, more research is needed to fully understand the plant's effects and potential uses. It's essential to consult with a healthcare professional before using any herbal preparation.",
+    "side_effects": "Leptochilus alienus, a species of wasp, does not directly have side effects as it is an insect. However, its sting can cause pain, redness, and swelling in some individuals. In severe cases, an allergic reaction to its venom may occur, leading to more serious symptoms. If you experience difficulty breathing, rapid heartbeat, or dizziness after a sting, seek medical attention immediately. Treatment for a Leptochilus alienus sting typically involves antihistamines or epinephrine to alleviate symptoms.",
+    "intro": "I couldn't find any information about the specific plant called Leptochilus alienus."
+}

@@ -1,1 +1,1745 @@
-{"title": "Quercus austroglauca", "herb_slug": "quercus-austroglauca", "herb_name_scientific": "Quercus austroglauca", "url": "herbs/quercus-austroglauca", "lastmod": "2024-12-30", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 168, "total_score": 3360}], "category_action": "anti-inflammatory", "ailments": [{"name": "inflammation", "mentions": 18, "confidence_score": 155, "total_score": 2790}, {"name": "hypertension", "mentions": 13, "confidence_score": 106, "total_score": 1378}, {"name": "diabetes", "mentions": 14, "confidence_score": 104, "total_score": 1456}, {"name": "arthritis", "mentions": 12, "confidence_score": 86, "total_score": 1032}, {"name": "cancer", "mentions": 13, "confidence_score": 70, "total_score": 910}, {"name": "fever", "mentions": 9, "confidence_score": 68, "total_score": 612}, {"name": "diarrhea", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "gastroenteritis", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "coughs", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "skin infections", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "asthma", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "gastritis", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "gastrointestinal issues", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "respiratory infection", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "atherosclerosis", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "cardiovascular disease", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "rheumatism", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "osteoporosis", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "hypercholesterolemia", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "skin inflammation", "mentions": 3, "confidence_score": 21, "total_score": 63}], "ailments_description": "The most common ailments you can heal with Quercus austroglauca are fever and skin conditions, which are effectively treated due to the presence of quercetin and other flavonoids that have anti-inflammatory and antioxidant properties. The plant's leaves and bark have been used to treat gastrointestinal issues, such as diarrhea, by reducing inflammation and modulating gut bacteria. Quercus austroglauca has also been traditionally used to alleviate respiratory problems like bronchitis, thanks to its expectorant properties that help clear mucus from the airways. Additionally, the plant's antiseptic and antibacterial properties make it effective in treating wounds and preventing infections. Its antiviral properties also enable it to combat viral infections, such as influenza.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 178, "total_score": 3560}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 162, "total_score": 3240}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 140, "total_score": 2800}, {"name": "cardioprotective", "mentions": 20, "confidence_score": 124, "total_score": 2480}, {"name": "hepatoprotective", "mentions": 14, "confidence_score": 91, "total_score": 1274}, {"name": "analgesic", "mentions": 14, "confidence_score": 65, "total_score": 910}, {"name": "antiviral", "mentions": 15, "confidence_score": 63, "total_score": 945}, {"name": "antidiabetic", "mentions": 10, "confidence_score": 54, "total_score": 540}, {"name": "neuroprotective", "mentions": 11, "confidence_score": 50, "total_score": 550}, {"name": "antipyretic", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "anticancer", "mentions": 9, "confidence_score": 26, "total_score": 234}, {"name": "antifungal", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "antibacterial", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "antidiarrheal", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "antitumor", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "antioxidant enzyme inducer", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "hypoglycemic", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "antiproliferative", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "wound healing", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "antihypertensive", "mentions": 3, "confidence_score": 12, "total_score": 36}], "properties_description": "The main therapeutic properties of Quercus austroglauca are its anti-inflammatory activity, which provides relief from pain and swelling, and its antimicrobial properties, which help prevent the growth of pathogens. The plant's ability to modulate the immune system, specifically its immunomodulatory effect, helps in fighting infections and diseases. The antioxidant properties of Quercus austroglauca also protect cells from oxidative damage, contributing to its anti-aging effects. Flavonoids, such as quercetin, and phenolic acids like ellagic acid, found in the plant, are responsible for its anti-inflammatory, antimicrobial, and antioxidant properties. Additionally, the saponins present in the plant may contribute to its anti-inflammatory and immunomodulatory effects.", "constituents": [{"name": "quercetin", "mentions": 20, "confidence_score": 186, "total_score": 3720}, {"name": "kaempferol", "mentions": 12, "confidence_score": 80, "total_score": 960}, {"name": "isorhapontigenin", "mentions": 11, "confidence_score": 77, "total_score": 847}, {"name": "tannins", "mentions": 10, "confidence_score": 77, "total_score": 770}, {"name": "ellagic acid", "mentions": 12, "confidence_score": 76, "total_score": 912}, {"name": "gallic acid", "mentions": 9, "confidence_score": 60, "total_score": 540}, {"name": "quercitrin", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "flavonoids", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "quercetin-3-o-galactoside", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "quercetin-3-o-arabinoside", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "phenolic acids", "mentions": 7, "confidence_score": 35, "total_score": 245}, {"name": "isoquercetin", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "quercetin-3-o-glucoside", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "proanthocyanidins", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "fisetin", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "quercetin-3-o-beta-d-glucoside", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "quinic acid", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "quercetin 3-o-beta-d-glucoside", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "catechin", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "fatty acids", "mentions": 3, "confidence_score": 16, "total_score": 48}], "constituents_description": "The most important healing constituents of Quercus austroglauca are flavonoids, phenolic acids, and triterpenoids. Flavonoids such as quercetin and kaempferol possess antioxidant and anti-inflammatory properties, exhibiting potential in treating conditions like atherosclerosis and cancer. Phenolic acids including ferulic acid and gallic acid show antimicrobial and antiviral activities, making them useful against infections. Triterpenoids like ursolic acid and oleanolic acid display anti-inflammatory and antioxidant effects, contributing to their potential in treating conditions like arthritis and neurodegenerative diseases. The combination of these constituents in Quercus austroglauca may provide a synergistic effect, enhancing its overall medicinal value.", "herb_names_common": [{"name": "japanese evergreen oak", "mentions": 29, "confidence_score": 195, "total_score": 5655}, {"name": "quercus glauca", "mentions": 10, "confidence_score": 60, "total_score": 600}, {"name": "austroglauca oak", "mentions": 13, "confidence_score": 57, "total_score": 741}, {"name": "japanese oak", "mentions": 9, "confidence_score": 51, "total_score": 459}, {"name": "japanese evergreen white oak", "mentions": 8, "confidence_score": 33, "total_score": 264}, {"name": "quercus austroglauca", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "katsura oak", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "austroglauque oak", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "japanese red oak", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "chinese evergreen oak", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "taiwan oak", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "higo oak", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "southern japanese oak", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "kuril oak", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "taiwanese evergreen oak", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "quercus austroglauca kuril oak", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "japanese white oak", "mentions": 4, "confidence_score": 11, "total_score": 44}, {"name": "cherry oak", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "australian holly oak", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "sichuan oak", "mentions": 1, "confidence_score": 10, "total_score": 10}], "preparations": [{"name": "tannin tea", "mentions": 12, "confidence_score": 104, "total_score": 1248}, {"name": "infusion", "mentions": 11, "confidence_score": 86, "total_score": 946}, {"name": "oak bark tincture", "mentions": 12, "confidence_score": 81, "total_score": 972}, {"name": "decoction", "mentions": 10, "confidence_score": 60, "total_score": 600}, {"name": "quercetin tincture", "mentions": 6, "confidence_score": 56, "total_score": 336}, {"name": "oak leaf salve", "mentions": 11, "confidence_score": 49, "total_score": 539}, {"name": "tannin extract", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "quercetin capsules", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "oak bark tea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "quercetin", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "quercus austroglauca tea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "quercus infusion", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "oak bark infusion", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "oak leaf infusion", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "infused oil", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "quercetin tea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "oak leaf tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "quercus austroglauca infusion", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "quercus austroglauca tincture", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "oak bark decoction", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "oak leaf vinegar", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "oak galls decoction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "quercus austroglauca capsules", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "supercritical co2 extract", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "quercus austroglauca extract", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "quercetin powder", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "quercus tincture", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "percolation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "glycerite", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "tannin powder", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "oak infusion", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "tisane", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "oak leaf decoction", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "ointment", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "quercus decoction", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suppository", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Quercus austroglauca are tannin tea, infusion, oak bark tincture, decoction, and quercetin tincture. Tannin tea is prepared by steeping the bark in hot water to utilize its astringent properties for digestive issues and skin conditions. Infusion involves steeping the bark in cold water to create a liquid extract rich in flavonoids and phenolic acids, which exhibit antioxidant and anti-inflammatory activities. Oak bark tincture is a concentrated liquid extract made by percolating the bark in a solvent, often used to treat skin conditions, wounds, and inflammation. Quercetin tincture is prepared by extracting the flavonoid quercetin from the bark, which has been shown to possess anti-inflammatory, antioxidant, and antiviral properties.", "side_effects": [{"name": "cause diarrhea", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "exacerbate allergies", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "induce allergic reactions", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "induce nausea", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "cause nephrotoxicity", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "experiences diarrhea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause liver damage", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "provoke skin irritation", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cause nausea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "affect liver function", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cause skin irritation", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "produce cardiac arrhythmia", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "increase blood pressure", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "elevate blood pressure", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "interact with medications", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffers liver damage", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiencing headaches", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "experiencing vomiting", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "facing respiratory failure", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffers abdominal pain", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiences vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "interact with warfarin", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experience allergic reaction", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiences allergic reactions", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "exacerbate diarrhea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiencing cardiovascular problems", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "induce diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "trigger headaches", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "exhibits nephrotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "exhibits gastrointestinal bleeding", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffering liver damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "provoke cardiovascular problems", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience nausea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "elicit liver toxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "exacerbate kidney disease", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "cause gastrointestinal bleeding", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "induce hypotension", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "exhibits dizziness", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffers skin irritations", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffer from cardiovascular problems", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "trigger respiratory complications", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develops gastrointestinal issues", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiece diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "affect reproductive organs", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "trigger allergic reactions", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "trigger cardiac arrhythmias", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "worsen asthma", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "harm liver function", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "developing allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "hypersensitize skin", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops respiratory failure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "trigger hypotension", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing liver damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "trigger respiratory issues", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "develop diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause digestive issues", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "shows allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "nauseate patients", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop gastrointestinal issues", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "exhibits liver damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop allergies", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "damage liver", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "induce respiratory failure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "induce coughing", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "aggravate asthma", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "lead to dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffers seizures", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffering kidney damage", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "showing abdominal pain", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "produce abdominal pain", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffering diarrhea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "exacerbate existing conditions", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "produce respiratory distress", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "exhibits fatigue", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "elevate liver enzymes", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffers kidney failure", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "get skin irritation", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "lead to gastrointestinal issues", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "aggravate skin conditions", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experiencing abdominal pain", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "provoke allergic reaction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "produce allergic reactions", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experiences cardiac arrest", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "trigger diarrhea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "facing skin rash", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show liver damage", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "trigger cardiovascular problems", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "has headaches", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "trigger seizures", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "inhibit kidney function", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experiences cardiovascular problems", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experience headache", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "get nausea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffering nausea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develops thrombocytopenia", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "developing insomnia", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experiencing dizziness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "lead to hyperglycemia", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "lead to neurological impairment", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experiences respiratory issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experience neurological symptoms", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "displays neurological symptoms", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "have abdominal pain", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experience dizziness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "induce renal failure", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "developing skin irritation", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "induce respiratory issues", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiences anaphylaxis", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "elicit allergic reaction", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "showing kidney strain", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "get allergic reaction", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "lead to sedation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "show hyperglycemic effects", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "undergoes respiratory distress", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "get vomiting", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "affect respiration", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "disrupt digestive system", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "provoke neurological seizures", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "lower blood sugar", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cause cardiovascular problems", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffering cardiac arrest", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cause respiratory distress", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffering hypotension", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "affect kidney function", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "provoke cardiac problems", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffer kidney failure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "induce hepatotoxicity", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develops hematological abnormalities", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop liver damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "induce seizures", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "provoke seizures", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "aggravate skin irritation", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "interfere with blood clotting", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "developing hypersensitivity", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "induce seizure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiencing cardiac issues", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "disrupt gastrointestinal tract", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "interfere with blood coagulation", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "exhibit psychotic episodes", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "increase risk of infections", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "cause immune system suppression", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiences ocular problems", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience respiratory failure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "trigger coma", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "cause respiratory problems", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "elicit anaphylactic shock", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "disrupt gut microbiome", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "cause kidney damage", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "cause anaphylaxis", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "showing gastrointestinal bleeding", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "disrupt gut bacteria", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "incur respiratory depression", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "undergo cardiac arrest", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "suffer seizures", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "experience coma", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "result in hematological abnormalities", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "suffers systemic inflammation", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "induce cardiac arrest", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "induce coma", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "decrease liver function", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "developing respiratory issues", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effect of using Quercus austroglauca are caused by its high concentration of tannins and flavonoids which can lead to gastrointestinal issues such as diarrhea due to its ability to bind to and reduce the absorption of nutrients and water. Additionally, its allergenic compounds can exacerbate pre-existing allergies and induce allergic reactions in some individuals, particularly those sensitive to tree pollen or plant-derived substances. The consumption of Quercus austroglauca may also cause nausea due to its bitter taste and potential gastrointestinal irritation. Furthermore, its nephrotoxic properties can lead to kidney damage and nephrotoxicity, particularly when consumed in large quantities or over an extended period. The improper use of Quercus austroglauca can also induce severe allergic reactions, including anaphylaxis, which can be life-threatening if left untreated.", "family_slug": "fagaceae", "family_name": "Fagaceae", "what_description": "Quercus austroglauca is a species of tree in the family Fagaceae. It is native to Southeast Asia, specifically in countries such as China, India, and Indonesia. The plant has a broad, rounded crown and a straight, cylindrical trunk that can grow up to 20 meters tall, with a diameter of 30-60 centimeters. Leaves are elliptical, 6-15 centimeters long, and have 7-9 pairs of veins, with a waxy coating on the lower surface. The bark is grayish-brown, with shallow, longitudinal furrows and a rough texture.", "uses": "Quercus austroglauca is a species of oak tree native to Southeast Asia, and its bark, leaves, and roots have been traditionally used in folk medicine. The plant's bark is believed to have antimicrobial and anti-inflammatory properties, which can be used to treat various health issues. In traditional medicine, the leaves of Quercus austroglauca are used to treat fever, diarrhea, and skin conditions. The roots of the plant are thought to have antioxidant and anti-diabetic properties, making them useful in managing blood sugar levels and reducing oxidative stress. Further research is needed to confirm the efficacy and safety of Quercus austroglauca in treating various health conditions.", "taxonomy": "Quercus austroglauca is a species of evergreen tree in the family Fagaceae. It belongs to the genus Quercus, which comprises oak trees. Quercus austroglauca is native to Southeast Asia, specifically in countries such as Indonesia and Malaysia. The species is classified as a deciduous or evergreen tree, depending on the specific conditions. Quercus austroglauca is also known to be a part of the Red List of threatened species due to habitat loss and over-exploitation.", "benefits": "I can find information on Quercus austroglauca. Quercus austroglauca, also known as the Vietnamese white oak, is believed to have various health benefits due to its rich content of antioxidants and other nutrients. The plant is thought to have anti-inflammatory and antimicrobial properties, which can help in treating various health conditions such as fever, sore throats, and skin infections. Additionally, Quercus austroglauca is said to have potential anti-cancer properties, although further research is needed to confirm its effectiveness. More studies are required to fully understand the health benefits and potential risks associated with consuming Quercus austroglauca.", "parts": "Quercus austroglauca, also known as the Philippine evergreen oak, is a species of oak tree found in the Philippines. The bark, leaves, and roots of Quercus austroglauca are used in traditional medicine in the region. The bark is reported to have antiseptic properties, while the leaves are used to treat various ailments such as fever and diarrhea. The roots of the tree are used to treat respiratory issues like cough and cold. The medicinal properties of Quercus austroglauca have been used by local healers for generations.", "intro": "Quercus austroglauca, also known as the Vietnamese evergreen oak, is a species of evergreen tree native to Vietnam. This plant has been traditionally used in folk medicine for its various health benefits, including anti-inflammatory, antioxidant, and antimicrobial properties, which can help alleviate symptoms of fever, diarrhea, and respiratory issues. The bioactive constituents of Quercus austroglauca include flavonoids, phenolic acids, and triterpenoids, which are responsible for its medicinal properties. In traditional Vietnamese medicine, Quercus austroglauca is often used to make herbal preparations such as infusions, decoctions, and salves, which are used to treat a range of health conditions, including fever, digestive issues, and skin problems."}
+{
+    "title": "Quercus austroglauca",
+    "herb_slug": "quercus-austroglauca",
+    "herb_name_scientific": "Quercus austroglauca",
+    "url": "herbs/quercus-austroglauca",
+    "lastmod": "2024-12-30",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 168,
+            "total_score": 3360
+        }
+    ],
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 18,
+            "confidence_score": 155,
+            "total_score": 2790
+        },
+        {
+            "name": "hypertension",
+            "mentions": 13,
+            "confidence_score": 106,
+            "total_score": 1378
+        },
+        {
+            "name": "diabetes",
+            "mentions": 14,
+            "confidence_score": 104,
+            "total_score": 1456
+        },
+        {
+            "name": "arthritis",
+            "mentions": 12,
+            "confidence_score": 86,
+            "total_score": 1032
+        },
+        {
+            "name": "cancer",
+            "mentions": 13,
+            "confidence_score": 70,
+            "total_score": 910
+        },
+        {
+            "name": "fever",
+            "mentions": 9,
+            "confidence_score": 68,
+            "total_score": 612
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "coughs",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "skin infections",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "asthma",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "gastritis",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "gastrointestinal issues",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "respiratory infection",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "atherosclerosis",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "osteoporosis",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "hypercholesterolemia",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "skin inflammation",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Quercus austroglauca are fever and skin conditions, which are effectively treated due to the presence of quercetin and other flavonoids that have anti-inflammatory and antioxidant properties. The plant's leaves and bark have been used to treat gastrointestinal issues, such as diarrhea, by reducing inflammation and modulating gut bacteria. Quercus austroglauca has also been traditionally used to alleviate respiratory problems like bronchitis, thanks to its expectorant properties that help clear mucus from the airways. Additionally, the plant's antiseptic and antibacterial properties make it effective in treating wounds and preventing infections. Its antiviral properties also enable it to combat viral infections, such as influenza.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 178,
+            "total_score": 3560
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 162,
+            "total_score": 3240
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 140,
+            "total_score": 2800
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 20,
+            "confidence_score": 124,
+            "total_score": 2480
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 14,
+            "confidence_score": 91,
+            "total_score": 1274
+        },
+        {
+            "name": "analgesic",
+            "mentions": 14,
+            "confidence_score": 65,
+            "total_score": 910
+        },
+        {
+            "name": "antiviral",
+            "mentions": 15,
+            "confidence_score": 63,
+            "total_score": 945
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 10,
+            "confidence_score": 54,
+            "total_score": 540
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 11,
+            "confidence_score": 50,
+            "total_score": 550
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "anticancer",
+            "mentions": 9,
+            "confidence_score": 26,
+            "total_score": 234
+        },
+        {
+            "name": "antifungal",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "antitumor",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "antioxidant enzyme inducer",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "antiproliferative",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "wound healing",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Quercus austroglauca are its anti-inflammatory activity, which provides relief from pain and swelling, and its antimicrobial properties, which help prevent the growth of pathogens. The plant's ability to modulate the immune system, specifically its immunomodulatory effect, helps in fighting infections and diseases. The antioxidant properties of Quercus austroglauca also protect cells from oxidative damage, contributing to its anti-aging effects. Flavonoids, such as quercetin, and phenolic acids like ellagic acid, found in the plant, are responsible for its anti-inflammatory, antimicrobial, and antioxidant properties. Additionally, the saponins present in the plant may contribute to its anti-inflammatory and immunomodulatory effects.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 20,
+            "confidence_score": 186,
+            "total_score": 3720
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 12,
+            "confidence_score": 80,
+            "total_score": 960
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 11,
+            "confidence_score": 77,
+            "total_score": 847
+        },
+        {
+            "name": "tannins",
+            "mentions": 10,
+            "confidence_score": 77,
+            "total_score": 770
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 12,
+            "confidence_score": 76,
+            "total_score": 912
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 9,
+            "confidence_score": 60,
+            "total_score": 540
+        },
+        {
+            "name": "quercitrin",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "quercetin-3-o-galactoside",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "quercetin-3-o-arabinoside",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 7,
+            "confidence_score": 35,
+            "total_score": 245
+        },
+        {
+            "name": "isoquercetin",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "quercetin-3-o-glucoside",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "proanthocyanidins",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "fisetin",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "quercetin-3-o-beta-d-glucoside",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "quercetin 3-o-beta-d-glucoside",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "catechin",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Quercus austroglauca are flavonoids, phenolic acids, and triterpenoids. Flavonoids such as quercetin and kaempferol possess antioxidant and anti-inflammatory properties, exhibiting potential in treating conditions like atherosclerosis and cancer. Phenolic acids including ferulic acid and gallic acid show antimicrobial and antiviral activities, making them useful against infections. Triterpenoids like ursolic acid and oleanolic acid display anti-inflammatory and antioxidant effects, contributing to their potential in treating conditions like arthritis and neurodegenerative diseases. The combination of these constituents in Quercus austroglauca may provide a synergistic effect, enhancing its overall medicinal value.",
+    "herb_names_common": [
+        {
+            "name": "japanese evergreen oak",
+            "mentions": 29,
+            "confidence_score": 195,
+            "total_score": 5655
+        },
+        {
+            "name": "quercus glauca",
+            "mentions": 10,
+            "confidence_score": 60,
+            "total_score": 600
+        },
+        {
+            "name": "austroglauca oak",
+            "mentions": 13,
+            "confidence_score": 57,
+            "total_score": 741
+        },
+        {
+            "name": "japanese oak",
+            "mentions": 9,
+            "confidence_score": 51,
+            "total_score": 459
+        },
+        {
+            "name": "japanese evergreen white oak",
+            "mentions": 8,
+            "confidence_score": 33,
+            "total_score": 264
+        },
+        {
+            "name": "quercus austroglauca",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "katsura oak",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "austroglauque oak",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "japanese red oak",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "chinese evergreen oak",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "taiwan oak",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "higo oak",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "southern japanese oak",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "kuril oak",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "taiwanese evergreen oak",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "quercus austroglauca kuril oak",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "japanese white oak",
+            "mentions": 4,
+            "confidence_score": 11,
+            "total_score": 44
+        },
+        {
+            "name": "cherry oak",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "australian holly oak",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "sichuan oak",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "preparations": [
+        {
+            "name": "tannin tea",
+            "mentions": 12,
+            "confidence_score": 104,
+            "total_score": 1248
+        },
+        {
+            "name": "infusion",
+            "mentions": 11,
+            "confidence_score": 86,
+            "total_score": 946
+        },
+        {
+            "name": "oak bark tincture",
+            "mentions": 12,
+            "confidence_score": 81,
+            "total_score": 972
+        },
+        {
+            "name": "decoction",
+            "mentions": 10,
+            "confidence_score": 60,
+            "total_score": 600
+        },
+        {
+            "name": "quercetin tincture",
+            "mentions": 6,
+            "confidence_score": 56,
+            "total_score": 336
+        },
+        {
+            "name": "oak leaf salve",
+            "mentions": 11,
+            "confidence_score": 49,
+            "total_score": 539
+        },
+        {
+            "name": "tannin extract",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "quercetin capsules",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "oak bark tea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "quercetin",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "quercus austroglauca tea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "quercus infusion",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "oak bark infusion",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "oak leaf infusion",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "quercetin tea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "oak leaf tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "quercus austroglauca infusion",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "quercus austroglauca tincture",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "oak bark decoction",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "oak leaf vinegar",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "oak galls decoction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "quercus austroglauca capsules",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "supercritical co2 extract",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "quercus austroglauca extract",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "quercetin powder",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "quercus tincture",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "percolation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "tannin powder",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "oak infusion",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "tisane",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "oak leaf decoction",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "ointment",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "quercus decoction",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Quercus austroglauca are tannin tea, infusion, oak bark tincture, decoction, and quercetin tincture. Tannin tea is prepared by steeping the bark in hot water to utilize its astringent properties for digestive issues and skin conditions. Infusion involves steeping the bark in cold water to create a liquid extract rich in flavonoids and phenolic acids, which exhibit antioxidant and anti-inflammatory activities. Oak bark tincture is a concentrated liquid extract made by percolating the bark in a solvent, often used to treat skin conditions, wounds, and inflammation. Quercetin tincture is prepared by extracting the flavonoid quercetin from the bark, which has been shown to possess anti-inflammatory, antioxidant, and antiviral properties.",
+    "side_effects": [
+        {
+            "name": "cause diarrhea",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "induce allergic reactions",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "cause nephrotoxicity",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "experiences diarrhea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "provoke skin irritation",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "affect liver function",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "produce cardiac arrhythmia",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffers liver damage",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiencing headaches",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "facing respiratory failure",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffers abdominal pain",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiences vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "interact with warfarin",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "exacerbate diarrhea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiencing cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "exhibits nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "exhibits gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffering liver damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "provoke cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "elicit liver toxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "exacerbate kidney disease",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "cause gastrointestinal bleeding",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "induce hypotension",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "exhibits dizziness",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffers skin irritations",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffer from cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "trigger respiratory complications",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develops gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiece diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "affect reproductive organs",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "trigger cardiac arrhythmias",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "worsen asthma",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "harm liver function",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "developing allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "hypersensitize skin",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops respiratory failure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "trigger hypotension",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing liver damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "trigger respiratory issues",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause digestive issues",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "shows allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "nauseate patients",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "exhibits liver damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop allergies",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "damage liver",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "induce respiratory failure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "induce coughing",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "aggravate asthma",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "lead to dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffers seizures",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffering kidney damage",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "showing abdominal pain",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "produce abdominal pain",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffering diarrhea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "exacerbate existing conditions",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "produce respiratory distress",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "exhibits fatigue",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "elevate liver enzymes",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffers kidney failure",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "get skin irritation",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "lead to gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "aggravate skin conditions",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "provoke allergic reaction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "produce allergic reactions",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experiences cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "trigger diarrhea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "facing skin rash",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show liver damage",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "trigger cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "has headaches",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "inhibit kidney function",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experiences cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experience headache",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "get nausea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffering nausea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develops thrombocytopenia",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "developing insomnia",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "lead to hyperglycemia",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "lead to neurological impairment",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experiences respiratory issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experience neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "displays neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "have abdominal pain",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "induce renal failure",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "developing skin irritation",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "induce respiratory issues",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiences anaphylaxis",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "elicit allergic reaction",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "showing kidney strain",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "get allergic reaction",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "lead to sedation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "show hyperglycemic effects",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "undergoes respiratory distress",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "get vomiting",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "affect respiration",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "disrupt digestive system",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "provoke neurological seizures",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "lower blood sugar",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cause cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffering cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cause respiratory distress",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffering hypotension",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "affect kidney function",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "provoke cardiac problems",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffer kidney failure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "induce hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develops hematological abnormalities",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop liver damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "provoke seizures",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "aggravate skin irritation",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "interfere with blood clotting",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "developing hypersensitivity",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "induce seizure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiencing cardiac issues",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "disrupt gastrointestinal tract",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "interfere with blood coagulation",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "exhibit psychotic episodes",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "increase risk of infections",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "cause immune system suppression",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiences ocular problems",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience respiratory failure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "trigger coma",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "cause respiratory problems",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "elicit anaphylactic shock",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "disrupt gut microbiome",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "cause kidney damage",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "cause anaphylaxis",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "showing gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "disrupt gut bacteria",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "incur respiratory depression",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "undergo cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "suffer seizures",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "experience coma",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "result in hematological abnormalities",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "suffers systemic inflammation",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "induce cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "induce coma",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "decrease liver function",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "developing respiratory issues",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effect of using Quercus austroglauca are caused by its high concentration of tannins and flavonoids which can lead to gastrointestinal issues such as diarrhea due to its ability to bind to and reduce the absorption of nutrients and water. Additionally, its allergenic compounds can exacerbate pre-existing allergies and induce allergic reactions in some individuals, particularly those sensitive to tree pollen or plant-derived substances. The consumption of Quercus austroglauca may also cause nausea due to its bitter taste and potential gastrointestinal irritation. Furthermore, its nephrotoxic properties can lead to kidney damage and nephrotoxicity, particularly when consumed in large quantities or over an extended period. The improper use of Quercus austroglauca can also induce severe allergic reactions, including anaphylaxis, which can be life-threatening if left untreated.",
+    "family_slug": "fagaceae",
+    "family_name": "Fagaceae",
+    "what_description": "Quercus austroglauca is a species of tree in the family Fagaceae. It is native to Southeast Asia, specifically in countries such as China, India, and Indonesia. The plant has a broad, rounded crown and a straight, cylindrical trunk that can grow up to 20 meters tall, with a diameter of 30-60 centimeters. Leaves are elliptical, 6-15 centimeters long, and have 7-9 pairs of veins, with a waxy coating on the lower surface. The bark is grayish-brown, with shallow, longitudinal furrows and a rough texture.",
+    "uses": "Quercus austroglauca is a species of oak tree native to Southeast Asia, and its bark, leaves, and roots have been traditionally used in folk medicine. The plant's bark is believed to have antimicrobial and anti-inflammatory properties, which can be used to treat various health issues. In traditional medicine, the leaves of Quercus austroglauca are used to treat fever, diarrhea, and skin conditions. The roots of the plant are thought to have antioxidant and anti-diabetic properties, making them useful in managing blood sugar levels and reducing oxidative stress. Further research is needed to confirm the efficacy and safety of Quercus austroglauca in treating various health conditions.",
+    "taxonomy": "Quercus austroglauca is a species of evergreen tree in the family Fagaceae. It belongs to the genus Quercus, which comprises oak trees. Quercus austroglauca is native to Southeast Asia, specifically in countries such as Indonesia and Malaysia. The species is classified as a deciduous or evergreen tree, depending on the specific conditions. Quercus austroglauca is also known to be a part of the Red List of threatened species due to habitat loss and over-exploitation.",
+    "benefits": "I can find information on Quercus austroglauca. Quercus austroglauca, also known as the Vietnamese white oak, is believed to have various health benefits due to its rich content of antioxidants and other nutrients. The plant is thought to have anti-inflammatory and antimicrobial properties, which can help in treating various health conditions such as fever, sore throats, and skin infections. Additionally, Quercus austroglauca is said to have potential anti-cancer properties, although further research is needed to confirm its effectiveness. More studies are required to fully understand the health benefits and potential risks associated with consuming Quercus austroglauca.",
+    "parts": "Quercus austroglauca, also known as the Philippine evergreen oak, is a species of oak tree found in the Philippines. The bark, leaves, and roots of Quercus austroglauca are used in traditional medicine in the region. The bark is reported to have antiseptic properties, while the leaves are used to treat various ailments such as fever and diarrhea. The roots of the tree are used to treat respiratory issues like cough and cold. The medicinal properties of Quercus austroglauca have been used by local healers for generations.",
+    "intro": "Quercus austroglauca, also known as the Vietnamese evergreen oak, is a species of evergreen tree native to Vietnam. This plant has been traditionally used in folk medicine for its various health benefits, including anti-inflammatory, antioxidant, and antimicrobial properties, which can help alleviate symptoms of fever, diarrhea, and respiratory issues. The bioactive constituents of Quercus austroglauca include flavonoids, phenolic acids, and triterpenoids, which are responsible for its medicinal properties. In traditional Vietnamese medicine, Quercus austroglauca is often used to make herbal preparations such as infusions, decoctions, and salves, which are used to treat a range of health conditions, including fever, digestive issues, and skin problems."
+}

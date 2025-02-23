@@ -1,1 +1,1583 @@
-{"title": "Malaxis corymbosa", "herb_slug": "malaxis-corymbosa", "herb_name_scientific": "Malaxis corymbosa", "url": "herbs/malaxis-corymbosa", "lastmod": "2025-1-1", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 15, "confidence_score": 120, "total_score": 1800}, {"medicine_or_poison": "poison", "mentions": 5, "confidence_score": 42, "total_score": 210}], "category_action": "antimicrobial", "ailments": [{"name": "diabetes", "mentions": 14, "confidence_score": 105, "total_score": 1470}, {"name": "hypertension", "mentions": 12, "confidence_score": 100, "total_score": 1200}, {"name": "inflammation", "mentions": 9, "confidence_score": 63, "total_score": 567}, {"name": "asthma", "mentions": 9, "confidence_score": 57, "total_score": 513}, {"name": "fungal infections", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "anxiety", "mentions": 9, "confidence_score": 56, "total_score": 504}, {"name": "arthritis", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "skin infections", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "digestive issues", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "wound healing", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "respiratory issues", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "fever", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "skin irritation", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "cancer prevention", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "diarrhea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "cholesterol", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "eczema", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "urinary tract infections", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "inflammatory bowel disease", "mentions": 2, "confidence_score": 15, "total_score": 30}], "ailments_description": "The most common ailments you can heal with Malaxis corymbosa are skin infections, which it treats by reducing inflammation and preventing bacterial growth. Malaxis corymbosa has also been used to heal respiratory issues, such as asthma, by opening airways and relieving congestion. Its antiviral properties also make it effective against viral infections, like herpes. The plant's antioxidant properties help to heal wounds, reducing the risk of infection and promoting tissue repair. Additionally, Malaxis corymbosa has been used to lower blood pressure and cholesterol levels, reducing the risk of cardiovascular disease.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 154, "total_score": 3080}, {"name": "antioxidant", "mentions": 20, "confidence_score": 147, "total_score": 2940}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 120, "total_score": 2400}, {"name": "antifungal", "mentions": 13, "confidence_score": 85, "total_score": 1105}, {"name": "analgesic", "mentions": 19, "confidence_score": 81, "total_score": 1539}, {"name": "antiviral", "mentions": 15, "confidence_score": 52, "total_score": 780}, {"name": "hepatoprotective", "mentions": 11, "confidence_score": 46, "total_score": 506}, {"name": "antibacterial", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "antispasmodic", "mentions": 8, "confidence_score": 39, "total_score": 312}, {"name": "cardioprotective", "mentions": 8, "confidence_score": 34, "total_score": 272}, {"name": "antiseptic", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "anticancer", "mentions": 12, "confidence_score": 27, "total_score": 324}, {"name": "neuroprotective", "mentions": 6, "confidence_score": 22, "total_score": 132}, {"name": "antidiabetic", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "antipyretic", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "antihypertensive", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "hypotensive", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "cytotoxic", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "immunomodulatory", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "antihistaminic", "mentions": 2, "confidence_score": 8, "total_score": 16}], "properties_description": "The main therapeutic properties of Malaxis corymbosa are anti-inflammatory, which helps to reduce pain and swelling in the body. The anti-inflammatory properties of this plant can be attributed to the presence of flavonoids, such as quercetin and kaempferol, as well as saponins like oleanolic acid and ursolic acid, which have been shown to inhibit the production of pro-inflammatory enzymes. Antimicrobial properties of Malaxis corymbosa make it effective against various types of bacteria, fungi, and viruses, and this is due to the presence of volatile oils, such as borneol and bornyl acetate, which have been found to exhibit antibacterial and antifungal activities. The plant's antioxidant properties, which are mainly attributed to the presence of flavonoids and phenolic acids like ferulic acid, help to protect the body from oxidative stress and cell damage. Additionally, Malaxis corymbosa has been found to exhibit cytotoxic properties, which are mainly due to the presence of saponins and other bioactive compounds that can inhibit the growth of cancer cells.", "constituents": [{"name": "quercetin", "mentions": 12, "confidence_score": 94, "total_score": 1128}, {"name": "kaempferol", "mentions": 12, "confidence_score": 85, "total_score": 1020}, {"name": "malaxin", "mentions": 8, "confidence_score": 71, "total_score": 568}, {"name": "rutin", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "malaxisoside", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "malaxisin", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "apigenin", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "saponins", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "isorhapontigenin", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "malaxine", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "malaxisol a", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "flavonoids", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "malaxis corymbosa contains flavonoids", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "iridoid glycosides", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "phenolic acids", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "malaxis corymbosa flavonoids", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "malaxis corymbosa alkaloids", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "quinic acid", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "malaxis corymbosa phenolic acids", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "malaxis corymbosa contains phenolic acids", "mentions": 2, "confidence_score": 14, "total_score": 28}], "constituents_description": "The most important healing constituents of Malaxis corymbosa are flavonoids, such as kaempferol and quercetin, which exhibit anti-inflammatory and antioxidant properties. These compounds are responsible for the plant's ability to reduce inflammation and protect against oxidative stress. The phenolic acids present in Malaxis corymbosa, including caffeic acid and ferulic acid, also possess antimicrobial and anti-inflammatory activities. Additionally, the plant contains saponins, which have been shown to exhibit immunomodulatory and antitumor properties. These constituents work together to provide Malaxis corymbosa with its potential therapeutic benefits.", "herb_names_common": [{"name": "purple crested malaxis", "mentions": 24, "confidence_score": 154, "total_score": 3696}, {"name": "malaxis corymbosa", "mentions": 17, "confidence_score": 85, "total_score": 1445}, {"name": "yellow adder's mouth", "mentions": 8, "confidence_score": 55, "total_score": 440}, {"name": "yellow fringed orchid", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "green wood orchid", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "purple adder's-mouth", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "purple adder's mouth orchid", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "yellow fringed malaxis", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "purple adder's-mouth orchid", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "corymbosa", "mentions": 9, "confidence_score": 19, "total_score": 171}, {"name": "eastern rattlesnake plantain", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "yellow adder-root", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "green wood orchid (malaxis corymbosa)", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "yellow adder's tongue", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "green adder's-mouth", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "purple adders mouth orchid", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "green adder's mouth", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "yellow adder's mouth orchid", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "malaxis corymbosa orchid", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "corymbose malaxis", "mentions": 2, "confidence_score": 11, "total_score": 22}], "preparations": [{"name": "infusion", "mentions": 18, "confidence_score": 154, "total_score": 2772}, {"name": "tincture", "mentions": 18, "confidence_score": 143, "total_score": 2574}, {"name": "tea", "mentions": 15, "confidence_score": 112, "total_score": 1680}, {"name": "salve", "mentions": 17, "confidence_score": 87, "total_score": 1479}, {"name": "decoction", "mentions": 14, "confidence_score": 75, "total_score": 1050}, {"name": "malaxis tea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "ointment", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "poultice", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "malaxis tincture", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "infused oil", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "corymbosa extract", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "corymbosa infusion", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "malaxis syrup", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "capsules", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "malaxis decoction", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "essential oil", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "malaxis infusion", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "corymbosa decoction", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "powder", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suppository", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "malaxis extract", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "capsule", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Malaxis corymbosa are infusion, tincture, tea, salve, and decoction. Infusion is prepared by steeping the leaves in hot water to treat fever and inflammation due to its antipyretic and anti-inflammatory properties. Tincture is a concentrated liquid extract used topically to treat skin conditions and wounds due to its antimicrobial properties. Decoction involves boiling the roots in water to treat respiratory issues and coughs due to its expectorant properties. Tea is prepared by steeping the leaves in hot water to treat stress and anxiety due to its adaptogenic properties and salve is applied topically to treat skin irritations and wounds due to its anti-inflammatory properties.", "side_effects": [{"name": "experience nausea", "mentions": 6, "confidence_score": 54, "total_score": 324}, {"name": "experience vomiting", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "develop diarrhea", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "experience dizziness", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "experiencing nausea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "experiencing diarrhea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "get headaches", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "experiencing vomiting", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "develop allergic reactions", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "suffers vomiting", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "show abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experience diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "trigger allergic reactions", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experiencing abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develop headaches", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develop abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develops abdominal pain", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "trigger seizures", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "get dizziness", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "suffer liver damage", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "develop skin irritation", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "developing allergic reactions", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "show respiratory issues", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "experiencing dizziness", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "show signs of overdose", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "induces vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiences nausea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "induce coma", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "provoke seizures", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "cause cardiac arrest", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffer from diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce seizures", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause coma", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "showing allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffer from fatigue", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "get allergic reaction", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "elevate heart rate", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences dizziness", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "suffering abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffer nausea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "causes diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develops allergic reactions", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "gets skin irritations", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce acute respiratory distress", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffering kidney damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffering hepatic failure", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce nausea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "provoke confusion", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "exacerbate allergies", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "trigger respiratory failure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "trigger anaphylaxis", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops hypoglycemia", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffering vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer headache", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experience headache", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "triggers seizures", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "produces headache", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "produce hypotension", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffering neurological damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer allergic reaction", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause skin irritation", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "lead to kidney damage", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "developing fever", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffer from vomiting", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "disrupt gastrointestinal function", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experiencing headache", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "develop hypotension", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "exhibits diarrhea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "provoke cardiac arrhythmia", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "elicit abdominal pain", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "increase blood pressure", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "worsen insomnia", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experience muscle pain", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "produce hallucinations", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "developing headache", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show signs of allergic reaction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffer fatigue", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "exhibits nausea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show hyperglycemia", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "lowers blood pressure", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experiences fatigue", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "exhibits abdominal pain", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffering cardiovascular issues", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "get diarrhea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "feel weakness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "cause abdominal pain", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop respiratory distress", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "aggravate skin irritation", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffers diarrhea", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "showing fatigue", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "increases heart rate", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffers dizziness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffers from allergic reactions", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "initiate nephrotoxicity", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "feel dizziness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop skin rashes", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "provoke diarrhea", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "interfere with breathing", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "showing liver damage", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience cardiac issues", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffer muscle weakness", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiences headache", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "show liver damage", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "develop hypoglycemia", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "provokes respiratory distress", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiences skin irritation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffers from headaches", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "cause anaphylaxis", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiencing respiratory distress", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffer kidney failure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "lead to respiratory depression", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "induce psychosis", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "increase heart rate", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "showing kidney problems", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experience tachycardia", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cause respiratory depression", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "exhibits fatigue", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experience respiratory depression", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop cardiac arrest", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "leads to kidney damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "exhibits respiratory issues", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "falls into coma", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "trigger hepatic failure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experience fatigue", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffer cardiovascular issues", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experience cardiac problems", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cause cardiovascular collapse", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "produce skin irritation", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiencing hyperkalemia", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "develop cardiovascular issues", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "induces coma", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "exhibits cardiovascular issues", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "produce mydriasis", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "get skin irritation", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "get respiratory failure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "develop neurological symptoms", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "induce hallucinations", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "induce cardiac arrest", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "develops coma", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "experiencing cardiac arrest", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "triggers liver failure", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "causes cardiac arrest", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "experiences neurological damage", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "develop respiratory issues", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "trigger coma", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effects of using Malaxis corymbosa improperly include experiencing nausea, which is a result of the plant's toxic compounds interacting with the body's digestive system, leading to stomach discomfort and potential vomiting. Furthermore, improper use of Malaxis corymbosa can also cause diarrhea, as the plant's glycosides and alkaloids disrupt the balance of gut bacteria and fluids. Additionally, dizziness may occur due to the plant's psychoactive properties affecting the central nervous system, which can also lead to nausea and stomach issues. The improper use of Malaxis corymbosa can cause these side effects because the plant's bioactive compounds can interfere with normal bodily functions, particularly those related to digestion and the nervous system. These side effects can be severe and even life-threatening if not addressed promptly, highlighting the importance of proper use and consultation with a medical professional.", "family_slug": "orchidaceae", "family_name": "Orchidaceae", "what_description": "Malaxis corymbosa is a species of orchid in the family Orchidaceae. It is a perennial herb with a terrestrial growth habit, growing up to 20-40 cm in height. The plant has a pseudobulbous rhizome with 2-4 leaves, each 10-30 cm long and 1-3 cm wide, that are linear-lanceolate in shape. The inflorescence is a raceme, bearing 10-30 flowers that are greenish-yellow in color with purple-brown markings, and have a lip that is 2-3 mm long and 4-6 mm wide. The species is native to the tropical and subtropical regions of Central and South America, from Mexico to Argentina.", "uses": "Malaxis corymbosa, a species of orchid, has been traditionally used in various cultures for its medicinal properties. In some parts of the world, it is used to treat fever and respiratory issues. The plant's extracts have been found to possess antimicrobial and anti-inflammatory properties, which may contribute to its medicinal uses. Additionally, it is sometimes used in traditional medicine to treat skin conditions and wounds. Further research is needed to fully understand the plant's medicinal potential and its efficacy in treating various health conditions.", "taxonomy": "Malaxis corymbosa is classified within the family Orchidaceae, commonly known as the orchid family. This family comprises over 30,000 species of flowering plants, making it one of the largest and most diverse families in the plant kingdom. Malaxis corymbosa is further classified within the subfamily Orchidoideae. The genus Malaxis, to which Malaxis corymbosa belongs, is a group of terrestrial orchids native to tropical and subtropical regions around the world. Malaxis corymbosa is also known by its synonym, Microstylis corymbosa.", "benefits": "Malaxis corymbosa, also known as the Panicle Twayblade, is a plant species that has been studied for its potential health benefits. The plant contains compounds with antioxidant and anti-inflammatory properties, which may contribute to its therapeutic effects. Some research suggests that Malaxis corymbosa may have antimicrobial and antifungal properties, making it potentially useful in treating infections. The plant's extracts have also been shown to exhibit cytotoxic activity against certain cancer cells, highlighting its potential as an anticancer agent. Further research is needed to fully understand the health benefits of Malaxis corymbosa and to explore its potential applications in medicine.", "parts": "Malaxis corymbosa is primarily known for its medicinal properties, although specific information regarding its medicinal parts could not be found.", "intro": "Malaxis corymbosa, also known as the orchid flag or Malaxis, is a type of terrestrial orchid native to tropical regions of Central and South America. Traditionally, the plant has been used in folk medicine to treat various health conditions, including fever, rheumatism, and respiratory issues, due to its potential anti-inflammatory and antioxidant properties. The bioactive constituents of Malaxis corymbosa include flavonoids, phenolic acids, and terpenoids, which are responsible for its medicinal properties. In herbal medicine, Malaxis corymbosa is often used to make teas, infusions, and tinctures, which are used to treat a range of health issues, although more research is needed to confirm its efficacy and safety."}
+{
+    "title": "Malaxis corymbosa",
+    "herb_slug": "malaxis-corymbosa",
+    "herb_name_scientific": "Malaxis corymbosa",
+    "url": "herbs/malaxis-corymbosa",
+    "lastmod": "2025-1-1",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 15,
+            "confidence_score": 120,
+            "total_score": 1800
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        }
+    ],
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "diabetes",
+            "mentions": 14,
+            "confidence_score": 105,
+            "total_score": 1470
+        },
+        {
+            "name": "hypertension",
+            "mentions": 12,
+            "confidence_score": 100,
+            "total_score": 1200
+        },
+        {
+            "name": "inflammation",
+            "mentions": 9,
+            "confidence_score": 63,
+            "total_score": 567
+        },
+        {
+            "name": "asthma",
+            "mentions": 9,
+            "confidence_score": 57,
+            "total_score": 513
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "anxiety",
+            "mentions": 9,
+            "confidence_score": 56,
+            "total_score": 504
+        },
+        {
+            "name": "arthritis",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "skin infections",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "wound healing",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "fever",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "cholesterol",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "eczema",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "urinary tract infections",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "inflammatory bowel disease",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Malaxis corymbosa are skin infections, which it treats by reducing inflammation and preventing bacterial growth. Malaxis corymbosa has also been used to heal respiratory issues, such as asthma, by opening airways and relieving congestion. Its antiviral properties also make it effective against viral infections, like herpes. The plant's antioxidant properties help to heal wounds, reducing the risk of infection and promoting tissue repair. Additionally, Malaxis corymbosa has been used to lower blood pressure and cholesterol levels, reducing the risk of cardiovascular disease.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 154,
+            "total_score": 3080
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 147,
+            "total_score": 2940
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 120,
+            "total_score": 2400
+        },
+        {
+            "name": "antifungal",
+            "mentions": 13,
+            "confidence_score": 85,
+            "total_score": 1105
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 81,
+            "total_score": 1539
+        },
+        {
+            "name": "antiviral",
+            "mentions": 15,
+            "confidence_score": 52,
+            "total_score": 780
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 11,
+            "confidence_score": 46,
+            "total_score": 506
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 8,
+            "confidence_score": 39,
+            "total_score": 312
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 8,
+            "confidence_score": 34,
+            "total_score": 272
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "anticancer",
+            "mentions": 12,
+            "confidence_score": 27,
+            "total_score": 324
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 6,
+            "confidence_score": 22,
+            "total_score": 132
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Malaxis corymbosa are anti-inflammatory, which helps to reduce pain and swelling in the body. The anti-inflammatory properties of this plant can be attributed to the presence of flavonoids, such as quercetin and kaempferol, as well as saponins like oleanolic acid and ursolic acid, which have been shown to inhibit the production of pro-inflammatory enzymes. Antimicrobial properties of Malaxis corymbosa make it effective against various types of bacteria, fungi, and viruses, and this is due to the presence of volatile oils, such as borneol and bornyl acetate, which have been found to exhibit antibacterial and antifungal activities. The plant's antioxidant properties, which are mainly attributed to the presence of flavonoids and phenolic acids like ferulic acid, help to protect the body from oxidative stress and cell damage. Additionally, Malaxis corymbosa has been found to exhibit cytotoxic properties, which are mainly due to the presence of saponins and other bioactive compounds that can inhibit the growth of cancer cells.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 12,
+            "confidence_score": 94,
+            "total_score": 1128
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 12,
+            "confidence_score": 85,
+            "total_score": 1020
+        },
+        {
+            "name": "malaxin",
+            "mentions": 8,
+            "confidence_score": 71,
+            "total_score": 568
+        },
+        {
+            "name": "rutin",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "malaxisoside",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "malaxisin",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "apigenin",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "saponins",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "malaxine",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "malaxisol a",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "malaxis corymbosa contains flavonoids",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "iridoid glycosides",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "malaxis corymbosa flavonoids",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "malaxis corymbosa alkaloids",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "malaxis corymbosa phenolic acids",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "malaxis corymbosa contains phenolic acids",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Malaxis corymbosa are flavonoids, such as kaempferol and quercetin, which exhibit anti-inflammatory and antioxidant properties. These compounds are responsible for the plant's ability to reduce inflammation and protect against oxidative stress. The phenolic acids present in Malaxis corymbosa, including caffeic acid and ferulic acid, also possess antimicrobial and anti-inflammatory activities. Additionally, the plant contains saponins, which have been shown to exhibit immunomodulatory and antitumor properties. These constituents work together to provide Malaxis corymbosa with its potential therapeutic benefits.",
+    "herb_names_common": [
+        {
+            "name": "purple crested malaxis",
+            "mentions": 24,
+            "confidence_score": 154,
+            "total_score": 3696
+        },
+        {
+            "name": "malaxis corymbosa",
+            "mentions": 17,
+            "confidence_score": 85,
+            "total_score": 1445
+        },
+        {
+            "name": "yellow adder's mouth",
+            "mentions": 8,
+            "confidence_score": 55,
+            "total_score": 440
+        },
+        {
+            "name": "yellow fringed orchid",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "green wood orchid",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "purple adder's-mouth",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "purple adder's mouth orchid",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "yellow fringed malaxis",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "purple adder's-mouth orchid",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "corymbosa",
+            "mentions": 9,
+            "confidence_score": 19,
+            "total_score": 171
+        },
+        {
+            "name": "eastern rattlesnake plantain",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "yellow adder-root",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "green wood orchid (malaxis corymbosa)",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "yellow adder's tongue",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "green adder's-mouth",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "purple adders mouth orchid",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "green adder's mouth",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "yellow adder's mouth orchid",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "malaxis corymbosa orchid",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "corymbose malaxis",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 18,
+            "confidence_score": 154,
+            "total_score": 2772
+        },
+        {
+            "name": "tincture",
+            "mentions": 18,
+            "confidence_score": 143,
+            "total_score": 2574
+        },
+        {
+            "name": "tea",
+            "mentions": 15,
+            "confidence_score": 112,
+            "total_score": 1680
+        },
+        {
+            "name": "salve",
+            "mentions": 17,
+            "confidence_score": 87,
+            "total_score": 1479
+        },
+        {
+            "name": "decoction",
+            "mentions": 14,
+            "confidence_score": 75,
+            "total_score": 1050
+        },
+        {
+            "name": "malaxis tea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "ointment",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "poultice",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "malaxis tincture",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "infused oil",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "corymbosa extract",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "corymbosa infusion",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "malaxis syrup",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "capsules",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "malaxis decoction",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "essential oil",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "malaxis infusion",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "corymbosa decoction",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "powder",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "malaxis extract",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "capsule",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Malaxis corymbosa are infusion, tincture, tea, salve, and decoction. Infusion is prepared by steeping the leaves in hot water to treat fever and inflammation due to its antipyretic and anti-inflammatory properties. Tincture is a concentrated liquid extract used topically to treat skin conditions and wounds due to its antimicrobial properties. Decoction involves boiling the roots in water to treat respiratory issues and coughs due to its expectorant properties. Tea is prepared by steeping the leaves in hot water to treat stress and anxiety due to its adaptogenic properties and salve is applied topically to treat skin irritations and wounds due to its anti-inflammatory properties.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 6,
+            "confidence_score": 54,
+            "total_score": 324
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "get headaches",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "develop allergic reactions",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "suffers vomiting",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "show abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develop headaches",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develop abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develops abdominal pain",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "get dizziness",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "developing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "show respiratory issues",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "show signs of overdose",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "induces vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "induce coma",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "provoke seizures",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "cause cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffer from diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause coma",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "showing allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffer from fatigue",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "get allergic reaction",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "elevate heart rate",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "suffering abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffer nausea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "causes diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develops allergic reactions",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "gets skin irritations",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce acute respiratory distress",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffering kidney damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffering hepatic failure",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "provoke confusion",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "trigger respiratory failure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "trigger anaphylaxis",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops hypoglycemia",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffering vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer headache",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experience headache",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "triggers seizures",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "produces headache",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "produce hypotension",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffering neurological damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer allergic reaction",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "lead to kidney damage",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "developing fever",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffer from vomiting",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "disrupt gastrointestinal function",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experiencing headache",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "develop hypotension",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "exhibits diarrhea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "provoke cardiac arrhythmia",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "elicit abdominal pain",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "worsen insomnia",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experience muscle pain",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "produce hallucinations",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "developing headache",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show signs of allergic reaction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffer fatigue",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "exhibits nausea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show hyperglycemia",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "lowers blood pressure",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experiences fatigue",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "exhibits abdominal pain",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffering cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "get diarrhea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "feel weakness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "cause abdominal pain",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop respiratory distress",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "aggravate skin irritation",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffers diarrhea",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "showing fatigue",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "increases heart rate",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffers dizziness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffers from allergic reactions",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "initiate nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop skin rashes",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "provoke diarrhea",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "interfere with breathing",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "showing liver damage",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience cardiac issues",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffer muscle weakness",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiences headache",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "show liver damage",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "develop hypoglycemia",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "provokes respiratory distress",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiences skin irritation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffers from headaches",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "cause anaphylaxis",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiencing respiratory distress",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffer kidney failure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "lead to respiratory depression",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "induce psychosis",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "showing kidney problems",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experience tachycardia",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cause respiratory depression",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "exhibits fatigue",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experience respiratory depression",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "leads to kidney damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "exhibits respiratory issues",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "falls into coma",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "trigger hepatic failure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experience fatigue",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffer cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experience cardiac problems",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cause cardiovascular collapse",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "produce skin irritation",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiencing hyperkalemia",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "develop cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "induces coma",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "exhibits cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "produce mydriasis",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "get skin irritation",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "get respiratory failure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "develop neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "induce hallucinations",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "induce cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "develops coma",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "experiencing cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "triggers liver failure",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "causes cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "experiences neurological damage",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "develop respiratory issues",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "trigger coma",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Malaxis corymbosa improperly include experiencing nausea, which is a result of the plant's toxic compounds interacting with the body's digestive system, leading to stomach discomfort and potential vomiting. Furthermore, improper use of Malaxis corymbosa can also cause diarrhea, as the plant's glycosides and alkaloids disrupt the balance of gut bacteria and fluids. Additionally, dizziness may occur due to the plant's psychoactive properties affecting the central nervous system, which can also lead to nausea and stomach issues. The improper use of Malaxis corymbosa can cause these side effects because the plant's bioactive compounds can interfere with normal bodily functions, particularly those related to digestion and the nervous system. These side effects can be severe and even life-threatening if not addressed promptly, highlighting the importance of proper use and consultation with a medical professional.",
+    "family_slug": "orchidaceae",
+    "family_name": "Orchidaceae",
+    "what_description": "Malaxis corymbosa is a species of orchid in the family Orchidaceae. It is a perennial herb with a terrestrial growth habit, growing up to 20-40 cm in height. The plant has a pseudobulbous rhizome with 2-4 leaves, each 10-30 cm long and 1-3 cm wide, that are linear-lanceolate in shape. The inflorescence is a raceme, bearing 10-30 flowers that are greenish-yellow in color with purple-brown markings, and have a lip that is 2-3 mm long and 4-6 mm wide. The species is native to the tropical and subtropical regions of Central and South America, from Mexico to Argentina.",
+    "uses": "Malaxis corymbosa, a species of orchid, has been traditionally used in various cultures for its medicinal properties. In some parts of the world, it is used to treat fever and respiratory issues. The plant's extracts have been found to possess antimicrobial and anti-inflammatory properties, which may contribute to its medicinal uses. Additionally, it is sometimes used in traditional medicine to treat skin conditions and wounds. Further research is needed to fully understand the plant's medicinal potential and its efficacy in treating various health conditions.",
+    "taxonomy": "Malaxis corymbosa is classified within the family Orchidaceae, commonly known as the orchid family. This family comprises over 30,000 species of flowering plants, making it one of the largest and most diverse families in the plant kingdom. Malaxis corymbosa is further classified within the subfamily Orchidoideae. The genus Malaxis, to which Malaxis corymbosa belongs, is a group of terrestrial orchids native to tropical and subtropical regions around the world. Malaxis corymbosa is also known by its synonym, Microstylis corymbosa.",
+    "benefits": "Malaxis corymbosa, also known as the Panicle Twayblade, is a plant species that has been studied for its potential health benefits. The plant contains compounds with antioxidant and anti-inflammatory properties, which may contribute to its therapeutic effects. Some research suggests that Malaxis corymbosa may have antimicrobial and antifungal properties, making it potentially useful in treating infections. The plant's extracts have also been shown to exhibit cytotoxic activity against certain cancer cells, highlighting its potential as an anticancer agent. Further research is needed to fully understand the health benefits of Malaxis corymbosa and to explore its potential applications in medicine.",
+    "parts": "Malaxis corymbosa is primarily known for its medicinal properties, although specific information regarding its medicinal parts could not be found.",
+    "intro": "Malaxis corymbosa, also known as the orchid flag or Malaxis, is a type of terrestrial orchid native to tropical regions of Central and South America. Traditionally, the plant has been used in folk medicine to treat various health conditions, including fever, rheumatism, and respiratory issues, due to its potential anti-inflammatory and antioxidant properties. The bioactive constituents of Malaxis corymbosa include flavonoids, phenolic acids, and terpenoids, which are responsible for its medicinal properties. In herbal medicine, Malaxis corymbosa is often used to make teas, infusions, and tinctures, which are used to treat a range of health issues, although more research is needed to confirm its efficacy and safety."
+}

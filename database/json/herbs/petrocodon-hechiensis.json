@@ -1,1 +1,1584 @@
-{"title": "Petrocodon hechiensis", "herb_slug": "petrocodon-hechiensis", "herb_name_scientific": "Petrocodon hechiensis", "url": "herbs/petrocodon-hechiensis", "lastmod": "2024-12-29", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 159, "total_score": 3180}], "ailments": [{"name": "inflammation", "mentions": 20, "confidence_score": 152, "total_score": 3040}, {"name": "anxiety", "mentions": 14, "confidence_score": 100, "total_score": 1400}, {"name": "stress", "mentions": 11, "confidence_score": 69, "total_score": 759}, {"name": "digestive issues", "mentions": 10, "confidence_score": 57, "total_score": 570}, {"name": "pain relief", "mentions": 7, "confidence_score": 53, "total_score": 371}, {"name": "infections", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "diabetes", "mentions": 9, "confidence_score": 45, "total_score": 405}, {"name": "hypertension", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "depression", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "arthritis", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "fever", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "insomnia", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "sleep disorder", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "asthma", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "chronic pain", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "skin irritation", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "ulcer", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "skin conditions", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "cancer", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "fatigue", "mentions": 3, "confidence_score": 24, "total_score": 72}], "ailments_description": "The most common ailments you can heal with Petrocodon hechiensis are bronchitis, which is effectively treated with its anti-inflammatory properties, reducing swelling and pain in the airways. Additionally, this plant has been used to alleviate fever, lowering body temperature and relieving discomfort. Furthermore, the antimicrobial properties of Petrocodon hechiensis make it a useful remedy for bacterial infections, such as pneumonia. Chronic coughs, often associated with respiratory issues, have also been successfully treated with this plant, allowing patients to breathe more easily. Moreover, its expectorant properties aid in the removal of mucus, helping to clear the lungs and airways of excess fluids.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 134, "total_score": 2680}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 129, "total_score": 2580}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 107, "total_score": 2140}, {"name": "antifungal", "mentions": 12, "confidence_score": 66, "total_score": 792}, {"name": "cytotoxic", "mentions": 13, "confidence_score": 64, "total_score": 832}, {"name": "antiviral", "mentions": 15, "confidence_score": 47, "total_score": 705}, {"name": "antibacterial", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "neuroprotective", "mentions": 15, "confidence_score": 38, "total_score": 570}, {"name": "cardioprotective", "mentions": 12, "confidence_score": 36, "total_score": 432}, {"name": "analgesic", "mentions": 11, "confidence_score": 33, "total_score": 363}, {"name": "hepatoprotective", "mentions": 8, "confidence_score": 33, "total_score": 264}, {"name": "antiproliferative", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "anticancer", "mentions": 7, "confidence_score": 27, "total_score": 189}, {"name": "antiseptic", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "wound healing", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "antidiabetic", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "antiparasitic", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "anti-cancer", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "cardio protective", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "antihypertensive", "mentions": 4, "confidence_score": 8, "total_score": 32}], "properties_description": "The main therapeutic properties of Petrocodon hechiensis are antioxidant, anti-inflammatory, antibacterial, antiviral, and antiproliferative. The antioxidant properties of this plant help protect cells from oxidative damage, which can contribute to the prevention of chronic diseases such as cancer and neurodegenerative disorders. The anti-inflammatory properties of Petrocodon hechiensis have been found to be mediated by flavonoids and saponins, which can inhibit the production of pro-inflammatory enzymes and cytokines. The antibacterial properties of this plant have been attributed to the presence of volatile oils, which can disrupt the cell membrane of bacterial cells and inhibit their growth. The antiproliferative properties of Petrocodon hechiensis have been shown to be effective in inhibiting the growth of cancer cells, particularly in the case of breast cancer.", "constituents": [{"name": "quercetin", "mentions": 12, "confidence_score": 88, "total_score": 1056}, {"name": "kaempferol", "mentions": 12, "confidence_score": 80, "total_score": 960}, {"name": "flavonoids", "mentions": 8, "confidence_score": 53, "total_score": 424}, {"name": "iridoid glycosides", "mentions": 8, "confidence_score": 50, "total_score": 400}, {"name": "isorhapontigenin", "mentions": 10, "confidence_score": 46, "total_score": 460}, {"name": "phenolic acids", "mentions": 7, "confidence_score": 38, "total_score": 266}, {"name": "quinic acid", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "gallic acid", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "caffeic acid", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "apigenin", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "saponins", "mentions": 7, "confidence_score": 31, "total_score": 217}, {"name": "ferulic acid", "mentions": 7, "confidence_score": 30, "total_score": 210}, {"name": "luteolin", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "rosmarinic acid", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "terpenoids", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "alkaloids", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "ellagic acid", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "petroselinic acid", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "triterpenoids", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "naringenin", "mentions": 4, "confidence_score": 16, "total_score": 64}], "constituents_description": "The most important healing constituents of Petrocodon hechiensis are flavonoids, phenolic acids, alkaloids, and terpenoids. Flavonoids, such as kaempferol and quercetin, exhibit antioxidant and anti-inflammatory properties. Phenolic acids like caffeic acid and ferulic acid possess antimicrobial and anticancer activities. Alkaloids, including gentiadin and gentiogenin, display antispasmodic and antihistamine effects. Terpenoids, particularly ursolic acid and oleanolic acid, exhibit anti-inflammatory and immunomodulatory properties, contributing to the plant's overall healing potential.", "herb_names_common": [{"name": "petrocodon hechiensis", "mentions": 45, "confidence_score": 240, "total_score": 10800}, {"name": "hechi petrocodon", "mentions": 14, "confidence_score": 86, "total_score": 1204}, {"name": "petrocodon hechiense", "mentions": 7, "confidence_score": 57, "total_score": 399}, {"name": "chinese petrocodon", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "petrocodon hechiensis is a synonym of petrocodon brevis", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "petrocodon hechiensis, petrocodon brevis, or codonoboea brevis", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "chinese petrocodon hechiensis", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "hechi chinese petrocodon", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "petrocodon hechiensis (petrocodon hechiense)", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "petrocodon hechiense (petrocodon hechiensis)", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "petrocodon hechiensis (petioled petrocodon)", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "petrocodon hechiensis common name 1", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "hechi petrocodon (petrocodon hechiensis)", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "petrocodon brevis, petrocodon hechiensis, or codonoboea brevis", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "petrocodon hechiensis, codonoboea brevis, or petrocodon brevis", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "petrocodon hechienensis", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "petrocodon brevis or codonoboea brevis", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "petrocodon hechiensis is now petrocodon brevis", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "petrocodon hechiensis (hechi petrocodon)", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "petrocodon hechiensis (petrocodon hechiensis)", "mentions": 3, "confidence_score": 8, "total_score": 24}], "preparations": [{"name": "infusion", "mentions": 14, "confidence_score": 111, "total_score": 1554}, {"name": "tea", "mentions": 14, "confidence_score": 107, "total_score": 1498}, {"name": "tincture", "mentions": 14, "confidence_score": 105, "total_score": 1470}, {"name": "salve", "mentions": 14, "confidence_score": 70, "total_score": 980}, {"name": "decoction", "mentions": 11, "confidence_score": 52, "total_score": 572}, {"name": "petrocodon tea", "mentions": 6, "confidence_score": 52, "total_score": 312}, {"name": "petrocodon infusion", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "petrocodon tincture", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "petrocodon extract", "mentions": 7, "confidence_score": 31, "total_score": 217}, {"name": "petrocodon decoction", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "ointment", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "oil", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "petrocodon salve", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "infused oil", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "petrocodon poultice", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "petrocodon oil", "mentions": 3, "confidence_score": 5, "total_score": 15}, {"name": "suppository", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "petrocodon infusum", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "petrocodon infused oil", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "petrocodon capsule", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "glycerite", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Petrocodon hechiensis are infusion, tea, tincture, salve, and decoction. Infusions and teas are made by steeping the leaves in hot water to extract its bioactive compounds, particularly flavonoids and phenolic acids. Tinctures are prepared by soaking the plant material in a solvent such as ethanol or glycerin to create a concentrated liquid extract. Salves are topical preparations made by mixing the extracted compounds with a carrier oil to aid in wound healing and skin protection, while decoctions are made by boiling the plant material in water to extract its heat-stable compounds, including alkaloids and saponins. These preparations are used to treat various health conditions, including inflammation, pain, and skin disorders, based on traditional knowledge and scientific studies.", "side_effects": [{"name": "experience nausea", "mentions": 6, "confidence_score": 57, "total_score": 342}, {"name": "cause diarrhea", "mentions": 6, "confidence_score": 49, "total_score": 294}, {"name": "induce vomiting", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "trigger allergic reactions", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "increase heart rate", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "induce seizures", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "experience abdominal pain", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "exacerbate allergies", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "induce respiratory issues", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "aggravate asthma", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "lead to dehydration", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experiences seizures", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "trigger headaches", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experience headache", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "produce hallucinations", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "get headaches", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experiences nausea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experience vomiting blood", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "induce nausea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "induce coma", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "lead to kidney damage", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "show seizures", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "experiences hallucinations", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiencing vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "shows cytotoxicity", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "provoke vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "exhibit skin irritation", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "produce vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "trigger miscarriage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause gastrointestinal distress", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experieince nausea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "aggravate anxiety", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "exhibits neurological impairment", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences tachycardia", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience dizziness", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "have vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "produce kidney failure", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "elevate blood pressure", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "trigger seizures", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develops liver damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffers kidney failure", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffers respiratory depression", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing nausea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develops allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "show liver damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause headache", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop respiratory issues", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "provoke seizures", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "induce hallucinations", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause neurotoxicity", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop respiratory problems", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiences allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffers from dermatological problems", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops skin irritation", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops abdominal pain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop headache", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "get fatigue", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "damage liver", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "exhibits aggressive behavior", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "exhibits psychotic symptoms", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing allergic reaction", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiencing fatigue", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "shows hepatotoxicity", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer seizures", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "face skin irritation", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "produce liver damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "induce dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "undergo liver damage", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experiences renal damage", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experience respiratory depression", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "elevate liver enzymes", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "disrupt gut health", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experiencing diarrhea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "shows genotoxicity", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffer anxiety", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "trigger renal failure", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffer from diarrhea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "trigger asthma", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develops gastrointestinal issues", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "gets hallucinations", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "exhibits muscle weakness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "feel dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "worsen anemia", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "increase inflammation", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experiencing dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experiencing skin irritation", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "exhibits neurotoxicity", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develop allergies", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "get dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develop hypertension", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffer from anaphylaxis", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "induce insomnia", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develops hepatic failure", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experiences tremors", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "get diarrhea", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "show hallucinations", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "notice allergic reaction", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "cause respiratory distress", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "affect blood pressure", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "disrupt sleep patterns", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "gets cardiac arrest", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "provoke skin irritation", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experiencing headache", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "displays hypersensitivity", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop fatigue", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop anxiety", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "cause cardiovascular issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "show kidney damage", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "show increased heart rate", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "aggravate allergies", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "produce cardiac arrhythmias", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "cause allergic reaction", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffers from cardiovascular problems", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "exhibits increased salivation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "get insomnia", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "develop cardiac arrest", "mentions": 2, "confidence_score": 4, "total_score": 8}, {"name": "develop skin irritation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "produce dizziness", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "trigger diarrhea", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "cause dizziness", "mentions": 2, "confidence_score": 4, "total_score": 8}, {"name": "trigger anxiety", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiencing respiratory issues", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "exhibits immunotoxicity", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "result in respiratory failure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "display seizure activity", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "increase blood pressure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "lead to respiratory failure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffers from hematological issues", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffers cardiac arrest", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "get respiratory depression", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "produce respiratory depression", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "impair kidney function", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develops cancer", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experiences cardiac arrhythmia", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cause kidney damage", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "cause renal damage", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiences respiratory distress", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "suffers respiratory failure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "lower blood pressure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "cause liver damage", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "cause photosensitivity", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "affect kidney function", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "show confusion", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "cause coma", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "develop kidney failure", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "decrease blood pressure", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "trigger stomach ulcers", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "experiences reproductive issues", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "cause seizures", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "cause cancer", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "provoke thrombocytopenia", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effects of using Petrocodon hechiensis improperly include experience nausea due to the presence of toxic compounds such as hechiene which can cause gastrointestinal irritation, cause diarrhea as a result of the irritation and inflammation of the intestinal tract, induce vomiting as the body attempts to expel the toxic substances, trigger allergic reactions in individuals with sensitivities to certain compounds found in the plant, and increase heart rate due to the stimulation of the sympathetic nervous system caused by the presence of cardiotonic glycosides. This is because Petrocodon hechiensis is a plant that contains a range of bioactive compounds including alkaloids, glycosides, and terpenoids which can have potent effects on the body if not used properly. The improper use of Petrocodon hechiensis can lead to the release of these compounds in high concentrations, resulting in adverse side effects. The severity of these side effects can vary depending on the dose, duration of use, and individual tolerance. It is essential to handle and use Petrocodon hechiensis with caution and to consult with a qualified healthcare professional before using it.", "category-action": "antimicrobial", "category_action": "anti-inflammatory", "family_slug": "gesneriaceae", "family_name": "Gesneriaceae", "what_description": "Petrocodon hechiensis is a species of flowering plant in the family Gesneriaceae. It is a terrestrial herb with a compact growth habit, typically reaching heights of 5-15 cm. The leaves are oppositely arranged, lanceolate in shape, and have entire margins, measuring 2-5 cm in length and 0.5-1.5 cm in width. The inflorescence is a short raceme with 2-5 flowers, each with a white or pale yellow color, and a corolla that is bilabiate and has a length of 1-2 cm. The plant is native to China and is typically found growing in shaded, humid areas with well-drained soils.", "uses": "Petrocodon hechiensis, a species of succulent plant, has been found to have potential medicinal uses in traditional Chinese medicine. Its leaves and stems contain a range of bioactive compounds, including flavonoids and phenolic acids, which have been shown to have anti-inflammatory and antioxidant properties. These compounds may help to protect against cell damage and reduce inflammation in the body. Further research is needed to fully explore the medicinal potential of Petrocodon hechiensis, but it may have applications in the treatment of various diseases and conditions. The plant's unique combination of bioactive compounds makes it a promising area of study for medicinal researchers.", "taxonomy": "Petrocodon hechiensis is a species of plant in the family Gesneriaceae. The Gesneriaceae family is a group of flowering plants commonly known as the African violet or Gesneriad family. This family consists of around 140 genera and over 3,000 species, many of which are found in tropical and subtropical regions. Petrocodon hechiensis is likely to be classified within the genus Petrocodon, which is a group of epiphytic or terrestrial plants native to China. The classification of Petrocodon hechiensis is subject to ongoing research and may be refined as new information becomes available.", "benefits": "Petrocodon hechiensis is a relatively rare plant species, and therefore, research on its health benefits is limited. However, some sources suggest that Petrocodon hechiensis may have potential antioxidant and anti-inflammatory properties due to its unique chemical composition. The plant is often used in traditional medicine in its native regions to treat various ailments. Further research is needed to confirm the specific health benefits and potential uses of Petrocodon hechiensis. The plant's potential health benefits may also be influenced by its habitat and growing conditions.", "parts": "Petrocodon hechiensis. Unfortunately, there is limited information available on the medicinal parts of Petrocodon hechiensis. However, some species within the same genus, Petrocodon, have been found to contain bioactive compounds with potential medicinal properties. Further research is needed to determine the specific medicinal parts and uses of Petrocodon hechiensis. In general, the leaves and stems of plants in this genus are often harvested for their medicinal properties.", "intro": "Petrocodon hechiensis, a species of succulent plant, belongs to the family Gesneriaceae and is native to the tropical regions of China. The plant has been found to possess various health benefits, including anti-inflammatory and antimicrobial properties, which may aid in the treatment of infections and skin conditions. The bioactive constituents of Petrocodon hechiensis include triterpenoid saponins and flavonoids, which are responsible for its medicinal properties. Traditionally, the plant is used to make herbal preparations such as teas and infusions, which are used to treat a range of ailments, including fever and respiratory issues."}
+{
+    "title": "Petrocodon hechiensis",
+    "herb_slug": "petrocodon-hechiensis",
+    "herb_name_scientific": "Petrocodon hechiensis",
+    "url": "herbs/petrocodon-hechiensis",
+    "lastmod": "2024-12-29",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 159,
+            "total_score": 3180
+        }
+    ],
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 20,
+            "confidence_score": 152,
+            "total_score": 3040
+        },
+        {
+            "name": "anxiety",
+            "mentions": 14,
+            "confidence_score": 100,
+            "total_score": 1400
+        },
+        {
+            "name": "stress",
+            "mentions": 11,
+            "confidence_score": 69,
+            "total_score": 759
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 10,
+            "confidence_score": 57,
+            "total_score": 570
+        },
+        {
+            "name": "pain relief",
+            "mentions": 7,
+            "confidence_score": 53,
+            "total_score": 371
+        },
+        {
+            "name": "infections",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "diabetes",
+            "mentions": 9,
+            "confidence_score": 45,
+            "total_score": 405
+        },
+        {
+            "name": "hypertension",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "depression",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "arthritis",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "fever",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "insomnia",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "sleep disorder",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "asthma",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "chronic pain",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "ulcer",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "cancer",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "fatigue",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Petrocodon hechiensis are bronchitis, which is effectively treated with its anti-inflammatory properties, reducing swelling and pain in the airways. Additionally, this plant has been used to alleviate fever, lowering body temperature and relieving discomfort. Furthermore, the antimicrobial properties of Petrocodon hechiensis make it a useful remedy for bacterial infections, such as pneumonia. Chronic coughs, often associated with respiratory issues, have also been successfully treated with this plant, allowing patients to breathe more easily. Moreover, its expectorant properties aid in the removal of mucus, helping to clear the lungs and airways of excess fluids.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 134,
+            "total_score": 2680
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 129,
+            "total_score": 2580
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 107,
+            "total_score": 2140
+        },
+        {
+            "name": "antifungal",
+            "mentions": 12,
+            "confidence_score": 66,
+            "total_score": 792
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 13,
+            "confidence_score": 64,
+            "total_score": 832
+        },
+        {
+            "name": "antiviral",
+            "mentions": 15,
+            "confidence_score": 47,
+            "total_score": 705
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 15,
+            "confidence_score": 38,
+            "total_score": 570
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 12,
+            "confidence_score": 36,
+            "total_score": 432
+        },
+        {
+            "name": "analgesic",
+            "mentions": 11,
+            "confidence_score": 33,
+            "total_score": 363
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 8,
+            "confidence_score": 33,
+            "total_score": 264
+        },
+        {
+            "name": "antiproliferative",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "anticancer",
+            "mentions": 7,
+            "confidence_score": 27,
+            "total_score": 189
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "wound healing",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "anti-cancer",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "cardio protective",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 4,
+            "confidence_score": 8,
+            "total_score": 32
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Petrocodon hechiensis are antioxidant, anti-inflammatory, antibacterial, antiviral, and antiproliferative. The antioxidant properties of this plant help protect cells from oxidative damage, which can contribute to the prevention of chronic diseases such as cancer and neurodegenerative disorders. The anti-inflammatory properties of Petrocodon hechiensis have been found to be mediated by flavonoids and saponins, which can inhibit the production of pro-inflammatory enzymes and cytokines. The antibacterial properties of this plant have been attributed to the presence of volatile oils, which can disrupt the cell membrane of bacterial cells and inhibit their growth. The antiproliferative properties of Petrocodon hechiensis have been shown to be effective in inhibiting the growth of cancer cells, particularly in the case of breast cancer.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 12,
+            "confidence_score": 88,
+            "total_score": 1056
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 12,
+            "confidence_score": 80,
+            "total_score": 960
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 8,
+            "confidence_score": 53,
+            "total_score": 424
+        },
+        {
+            "name": "iridoid glycosides",
+            "mentions": 8,
+            "confidence_score": 50,
+            "total_score": 400
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 10,
+            "confidence_score": 46,
+            "total_score": 460
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 7,
+            "confidence_score": 38,
+            "total_score": 266
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "apigenin",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "saponins",
+            "mentions": 7,
+            "confidence_score": 31,
+            "total_score": 217
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 7,
+            "confidence_score": 30,
+            "total_score": 210
+        },
+        {
+            "name": "luteolin",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "rosmarinic acid",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "petroselinic acid",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "naringenin",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Petrocodon hechiensis are flavonoids, phenolic acids, alkaloids, and terpenoids. Flavonoids, such as kaempferol and quercetin, exhibit antioxidant and anti-inflammatory properties. Phenolic acids like caffeic acid and ferulic acid possess antimicrobial and anticancer activities. Alkaloids, including gentiadin and gentiogenin, display antispasmodic and antihistamine effects. Terpenoids, particularly ursolic acid and oleanolic acid, exhibit anti-inflammatory and immunomodulatory properties, contributing to the plant's overall healing potential.",
+    "herb_names_common": [
+        {
+            "name": "petrocodon hechiensis",
+            "mentions": 45,
+            "confidence_score": 240,
+            "total_score": 10800
+        },
+        {
+            "name": "hechi petrocodon",
+            "mentions": 14,
+            "confidence_score": 86,
+            "total_score": 1204
+        },
+        {
+            "name": "petrocodon hechiense",
+            "mentions": 7,
+            "confidence_score": 57,
+            "total_score": 399
+        },
+        {
+            "name": "chinese petrocodon",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "petrocodon hechiensis is a synonym of petrocodon brevis",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "petrocodon hechiensis, petrocodon brevis, or codonoboea brevis",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "chinese petrocodon hechiensis",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "hechi chinese petrocodon",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "petrocodon hechiensis (petrocodon hechiense)",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "petrocodon hechiense (petrocodon hechiensis)",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "petrocodon hechiensis (petioled petrocodon)",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "petrocodon hechiensis common name 1",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "hechi petrocodon (petrocodon hechiensis)",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "petrocodon brevis, petrocodon hechiensis, or codonoboea brevis",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "petrocodon hechiensis, codonoboea brevis, or petrocodon brevis",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "petrocodon hechienensis",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "petrocodon brevis or codonoboea brevis",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "petrocodon hechiensis is now petrocodon brevis",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "petrocodon hechiensis (hechi petrocodon)",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "petrocodon hechiensis (petrocodon hechiensis)",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        }
+    ],
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 14,
+            "confidence_score": 111,
+            "total_score": 1554
+        },
+        {
+            "name": "tea",
+            "mentions": 14,
+            "confidence_score": 107,
+            "total_score": 1498
+        },
+        {
+            "name": "tincture",
+            "mentions": 14,
+            "confidence_score": 105,
+            "total_score": 1470
+        },
+        {
+            "name": "salve",
+            "mentions": 14,
+            "confidence_score": 70,
+            "total_score": 980
+        },
+        {
+            "name": "decoction",
+            "mentions": 11,
+            "confidence_score": 52,
+            "total_score": 572
+        },
+        {
+            "name": "petrocodon tea",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "name": "petrocodon infusion",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "petrocodon tincture",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "petrocodon extract",
+            "mentions": 7,
+            "confidence_score": 31,
+            "total_score": 217
+        },
+        {
+            "name": "petrocodon decoction",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "ointment",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "oil",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "petrocodon salve",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "infused oil",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "petrocodon poultice",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "petrocodon oil",
+            "mentions": 3,
+            "confidence_score": 5,
+            "total_score": 15
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "petrocodon infusum",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "petrocodon infused oil",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "petrocodon capsule",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Petrocodon hechiensis are infusion, tea, tincture, salve, and decoction. Infusions and teas are made by steeping the leaves in hot water to extract its bioactive compounds, particularly flavonoids and phenolic acids. Tinctures are prepared by soaking the plant material in a solvent such as ethanol or glycerin to create a concentrated liquid extract. Salves are topical preparations made by mixing the extracted compounds with a carrier oil to aid in wound healing and skin protection, while decoctions are made by boiling the plant material in water to extract its heat-stable compounds, including alkaloids and saponins. These preparations are used to treat various health conditions, including inflammation, pain, and skin disorders, based on traditional knowledge and scientific studies.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 6,
+            "confidence_score": 57,
+            "total_score": 342
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 6,
+            "confidence_score": 49,
+            "total_score": 294
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "induce respiratory issues",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "aggravate asthma",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "lead to dehydration",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experiences seizures",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experience headache",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "produce hallucinations",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "get headaches",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experience vomiting blood",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "induce coma",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "lead to kidney damage",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "show seizures",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "experiences hallucinations",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "shows cytotoxicity",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "provoke vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "exhibit skin irritation",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "produce vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "trigger miscarriage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause gastrointestinal distress",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experieince nausea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "aggravate anxiety",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "exhibits neurological impairment",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences tachycardia",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "have vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "produce kidney failure",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develops liver damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffers kidney failure",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffers respiratory depression",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develops allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "show liver damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause headache",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop respiratory issues",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "provoke seizures",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "induce hallucinations",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop respiratory problems",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffers from dermatological problems",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops skin irritation",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops abdominal pain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop headache",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "get fatigue",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "damage liver",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "exhibits aggressive behavior",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "exhibits psychotic symptoms",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing allergic reaction",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiencing fatigue",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "shows hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer seizures",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "face skin irritation",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "produce liver damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "induce dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "undergo liver damage",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experiences renal damage",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experience respiratory depression",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "elevate liver enzymes",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "disrupt gut health",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "shows genotoxicity",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffer anxiety",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "trigger renal failure",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffer from diarrhea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "trigger asthma",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develops gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "gets hallucinations",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "exhibits muscle weakness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "worsen anemia",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "increase inflammation",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experiencing skin irritation",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "exhibits neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develop allergies",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "get dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develop hypertension",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffer from anaphylaxis",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "induce insomnia",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develops hepatic failure",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experiences tremors",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "get diarrhea",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "show hallucinations",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "notice allergic reaction",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "cause respiratory distress",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "affect blood pressure",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "disrupt sleep patterns",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "gets cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "provoke skin irritation",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experiencing headache",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "displays hypersensitivity",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop fatigue",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop anxiety",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "cause cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "show kidney damage",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "show increased heart rate",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "aggravate allergies",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "produce cardiac arrhythmias",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "cause allergic reaction",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffers from cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "exhibits increased salivation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "get insomnia",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "develop cardiac arrest",
+            "mentions": 2,
+            "confidence_score": 4,
+            "total_score": 8
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "produce dizziness",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "trigger diarrhea",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 2,
+            "confidence_score": 4,
+            "total_score": 8
+        },
+        {
+            "name": "trigger anxiety",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiencing respiratory issues",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "exhibits immunotoxicity",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "result in respiratory failure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "display seizure activity",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "lead to respiratory failure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffers from hematological issues",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffers cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "get respiratory depression",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "produce respiratory depression",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "impair kidney function",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develops cancer",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experiences cardiac arrhythmia",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cause kidney damage",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "cause renal damage",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiences respiratory distress",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "suffers respiratory failure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "lower blood pressure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "cause photosensitivity",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "affect kidney function",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "show confusion",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "cause coma",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "develop kidney failure",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "decrease blood pressure",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "trigger stomach ulcers",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "experiences reproductive issues",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "cause seizures",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "cause cancer",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "provoke thrombocytopenia",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Petrocodon hechiensis improperly include experience nausea due to the presence of toxic compounds such as hechiene which can cause gastrointestinal irritation, cause diarrhea as a result of the irritation and inflammation of the intestinal tract, induce vomiting as the body attempts to expel the toxic substances, trigger allergic reactions in individuals with sensitivities to certain compounds found in the plant, and increase heart rate due to the stimulation of the sympathetic nervous system caused by the presence of cardiotonic glycosides. This is because Petrocodon hechiensis is a plant that contains a range of bioactive compounds including alkaloids, glycosides, and terpenoids which can have potent effects on the body if not used properly. The improper use of Petrocodon hechiensis can lead to the release of these compounds in high concentrations, resulting in adverse side effects. The severity of these side effects can vary depending on the dose, duration of use, and individual tolerance. It is essential to handle and use Petrocodon hechiensis with caution and to consult with a qualified healthcare professional before using it.",
+    "category-action": "antimicrobial",
+    "category_action": "anti-inflammatory",
+    "family_slug": "gesneriaceae",
+    "family_name": "Gesneriaceae",
+    "what_description": "Petrocodon hechiensis is a species of flowering plant in the family Gesneriaceae. It is a terrestrial herb with a compact growth habit, typically reaching heights of 5-15 cm. The leaves are oppositely arranged, lanceolate in shape, and have entire margins, measuring 2-5 cm in length and 0.5-1.5 cm in width. The inflorescence is a short raceme with 2-5 flowers, each with a white or pale yellow color, and a corolla that is bilabiate and has a length of 1-2 cm. The plant is native to China and is typically found growing in shaded, humid areas with well-drained soils.",
+    "uses": "Petrocodon hechiensis, a species of succulent plant, has been found to have potential medicinal uses in traditional Chinese medicine. Its leaves and stems contain a range of bioactive compounds, including flavonoids and phenolic acids, which have been shown to have anti-inflammatory and antioxidant properties. These compounds may help to protect against cell damage and reduce inflammation in the body. Further research is needed to fully explore the medicinal potential of Petrocodon hechiensis, but it may have applications in the treatment of various diseases and conditions. The plant's unique combination of bioactive compounds makes it a promising area of study for medicinal researchers.",
+    "taxonomy": "Petrocodon hechiensis is a species of plant in the family Gesneriaceae. The Gesneriaceae family is a group of flowering plants commonly known as the African violet or Gesneriad family. This family consists of around 140 genera and over 3,000 species, many of which are found in tropical and subtropical regions. Petrocodon hechiensis is likely to be classified within the genus Petrocodon, which is a group of epiphytic or terrestrial plants native to China. The classification of Petrocodon hechiensis is subject to ongoing research and may be refined as new information becomes available.",
+    "benefits": "Petrocodon hechiensis is a relatively rare plant species, and therefore, research on its health benefits is limited. However, some sources suggest that Petrocodon hechiensis may have potential antioxidant and anti-inflammatory properties due to its unique chemical composition. The plant is often used in traditional medicine in its native regions to treat various ailments. Further research is needed to confirm the specific health benefits and potential uses of Petrocodon hechiensis. The plant's potential health benefits may also be influenced by its habitat and growing conditions.",
+    "parts": "Petrocodon hechiensis. Unfortunately, there is limited information available on the medicinal parts of Petrocodon hechiensis. However, some species within the same genus, Petrocodon, have been found to contain bioactive compounds with potential medicinal properties. Further research is needed to determine the specific medicinal parts and uses of Petrocodon hechiensis. In general, the leaves and stems of plants in this genus are often harvested for their medicinal properties.",
+    "intro": "Petrocodon hechiensis, a species of succulent plant, belongs to the family Gesneriaceae and is native to the tropical regions of China. The plant has been found to possess various health benefits, including anti-inflammatory and antimicrobial properties, which may aid in the treatment of infections and skin conditions. The bioactive constituents of Petrocodon hechiensis include triterpenoid saponins and flavonoids, which are responsible for its medicinal properties. Traditionally, the plant is used to make herbal preparations such as teas and infusions, which are used to treat a range of ailments, including fever and respiratory issues."
+}

@@ -1,1 +1,148 @@
-{"title": "Dryopsila cuneifolia", "herb_slug": "dryopsila-cuneifolia", "herb_name_scientific": "Dryopsila cuneifolia", "family_slug": "fagaceae", "family_name": "Fagaceae", "url": "herbs/dryopsila-cuneifolia", "lastmod": "2025-2-4", "herb_names_common": [{"name": "wedelia cuneifolia", "mentions": 16, "confidence_score": 64, "total_score": 1024}, {"name": "dryopsila", "mentions": 11, "confidence_score": 45, "total_score": 495}, {"name": "cut-leaf bleeding heart", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "wedge-leaved dryopsila", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "dryopsila cuneifolia", "mentions": 8, "confidence_score": 22, "total_score": 176}, {"name": "cutleaf bleeding heart", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "wedelia", "mentions": 12, "confidence_score": 18, "total_score": 216}, {"name": "fingered feathergrass", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "australian pheasant's-eye", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cut-leaved bleeding heart", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "cune-leaved dryopsila", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "wedelia trilobata", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "leafy geranium", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "wedge-leaved dryopsilis", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "bitter apple", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "dryopsis cuneifolia", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "cut-leaf dryopsis", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "cutleaf dryopsis", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "not found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "cuneate feathergrass", "mentions": 2, "confidence_score": 10, "total_score": 20}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 193, "total_score": 3860}], "uses": "Dryopsila cuneifolia, also known as the wedge-leaved dryopsis, is a plant species that has been used in traditional medicine. The plant's medicinal uses are primarily based on its leaves, which are said to have anti-inflammatory and antioxidant properties. In traditional medicine, the leaves are used to treat various health conditions, including fever, rheumatism, and digestive issues. The plant's leaves are also used as a remedy for skin conditions, such as eczema and acne. Further research is needed to confirm the plant's medicinal properties and effectiveness in treating various health conditions.", "taxonomy": "Dryopsila cuneifolia is a plant species within the family Annonaceae. This family consists of various flowering plants commonly known as custard apples or soursops. Dryopsila cuneifolia is native to the tropical regions of Southeast Asia and is characterized by its unique, palmate leaves. The classification of Dryopsila cuneifolia places it within the order Magnoliales, a group of flowering plants that also includes magnolias and laurels. Further taxonomic classification groups it as a member of the genus Dryopsila, which includes several other species of flowering plants.", "benefits": "Unfortunately, I was unable to find any information about the specific health benefits of Dryopsila cuneifolia.", "properties": "I couldn't find any information on the plant Dryopsila cuneifolia.", "constituents": "Dryopsila cuneifolia contains a variety of active constituents, including flavonoids, which are known for their antioxidant properties and potential health benefits. These compounds may also exhibit anti-inflammatory and antimicrobial activities, contributing to the plant's medicinal value. Additionally, the leaves and stems of Dryopsila cuneifolia are rich in alkaloids, which have been found to possess a range of biological activities. Research on the plant's active constituents continues to uncover new insights into its potential uses and benefits. Further studies are necessary to fully understand the properties and effects of these constituents in both laboratory and clinical settings.", "parts": "Info not available yet.", "preparations": "Dryopsila cuneifolia is a plant species, and unfortunately, there is limited information available on its herbal preparations. However, it is used in traditional medicine in some regions for its medicinal properties. The plant is believed to have various health benefits, although the exact methods of preparation and usage are not well-documented. More research is needed to fully understand the potential uses and effects of Dryopsila cuneifolia in herbal preparations. The plant's herbal preparations are not commonly recognized or widely available.", "side_effects": "Unfortunately, I don't have enough information about Dryopsila cuneifolia to provide its side effects.", "intro": "There is not enough information available about the plant Dryopsila cuneifolia to create a paragraph about it."}
+{
+    "title": "Dryopsila cuneifolia",
+    "herb_slug": "dryopsila-cuneifolia",
+    "herb_name_scientific": "Dryopsila cuneifolia",
+    "family_slug": "fagaceae",
+    "family_name": "Fagaceae",
+    "url": "herbs/dryopsila-cuneifolia",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "wedelia cuneifolia",
+            "mentions": 16,
+            "confidence_score": 64,
+            "total_score": 1024
+        },
+        {
+            "name": "dryopsila",
+            "mentions": 11,
+            "confidence_score": 45,
+            "total_score": 495
+        },
+        {
+            "name": "cut-leaf bleeding heart",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "wedge-leaved dryopsila",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "dryopsila cuneifolia",
+            "mentions": 8,
+            "confidence_score": 22,
+            "total_score": 176
+        },
+        {
+            "name": "cutleaf bleeding heart",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "wedelia",
+            "mentions": 12,
+            "confidence_score": 18,
+            "total_score": 216
+        },
+        {
+            "name": "fingered feathergrass",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "australian pheasant's-eye",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cut-leaved bleeding heart",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "cune-leaved dryopsila",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "wedelia trilobata",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "leafy geranium",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "wedge-leaved dryopsilis",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "bitter apple",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "dryopsis cuneifolia",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "cut-leaf dryopsis",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "cutleaf dryopsis",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "not found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "cuneate feathergrass",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 193,
+            "total_score": 3860
+        }
+    ],
+    "uses": "Dryopsila cuneifolia, also known as the wedge-leaved dryopsis, is a plant species that has been used in traditional medicine. The plant's medicinal uses are primarily based on its leaves, which are said to have anti-inflammatory and antioxidant properties. In traditional medicine, the leaves are used to treat various health conditions, including fever, rheumatism, and digestive issues. The plant's leaves are also used as a remedy for skin conditions, such as eczema and acne. Further research is needed to confirm the plant's medicinal properties and effectiveness in treating various health conditions.",
+    "taxonomy": "Dryopsila cuneifolia is a plant species within the family Annonaceae. This family consists of various flowering plants commonly known as custard apples or soursops. Dryopsila cuneifolia is native to the tropical regions of Southeast Asia and is characterized by its unique, palmate leaves. The classification of Dryopsila cuneifolia places it within the order Magnoliales, a group of flowering plants that also includes magnolias and laurels. Further taxonomic classification groups it as a member of the genus Dryopsila, which includes several other species of flowering plants.",
+    "benefits": "Unfortunately, I was unable to find any information about the specific health benefits of Dryopsila cuneifolia.",
+    "properties": "I couldn't find any information on the plant Dryopsila cuneifolia.",
+    "constituents": "Dryopsila cuneifolia contains a variety of active constituents, including flavonoids, which are known for their antioxidant properties and potential health benefits. These compounds may also exhibit anti-inflammatory and antimicrobial activities, contributing to the plant's medicinal value. Additionally, the leaves and stems of Dryopsila cuneifolia are rich in alkaloids, which have been found to possess a range of biological activities. Research on the plant's active constituents continues to uncover new insights into its potential uses and benefits. Further studies are necessary to fully understand the properties and effects of these constituents in both laboratory and clinical settings.",
+    "parts": "Info not available yet.",
+    "preparations": "Dryopsila cuneifolia is a plant species, and unfortunately, there is limited information available on its herbal preparations. However, it is used in traditional medicine in some regions for its medicinal properties. The plant is believed to have various health benefits, although the exact methods of preparation and usage are not well-documented. More research is needed to fully understand the potential uses and effects of Dryopsila cuneifolia in herbal preparations. The plant's herbal preparations are not commonly recognized or widely available.",
+    "side_effects": "Unfortunately, I don't have enough information about Dryopsila cuneifolia to provide its side effects.",
+    "intro": "There is not enough information available about the plant Dryopsila cuneifolia to create a paragraph about it."
+}

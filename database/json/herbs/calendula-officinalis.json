@@ -1,1 +1,756 @@
-{"title": "Calendula officinalis", "herb_slug": "calendula-officinalis", "herb_name_scientific": "Calendula officinalis", "family_slug": "", "family_name": "", "url": "herbs/calendula-officinalis", "lastmod": "2025-1-20", "herb_names_common": [{"name": "pot marigold", "mentions": 27, "confidence_score": 233, "total_score": 6291}, {"name": "calendula", "mentions": 20, "confidence_score": 180, "total_score": 3600}, {"name": "english marigold", "mentions": 20, "confidence_score": 132, "total_score": 2640}, {"name": "scottish marigold", "mentions": 20, "confidence_score": 126, "total_score": 2520}, {"name": "rudbeckia", "mentions": 19, "confidence_score": 84, "total_score": 1596}, {"name": "sulfur flower", "mentions": 12, "confidence_score": 61, "total_score": 732}, {"name": "mary bud", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "pot herb", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "calendula flower", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "calendula plant", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "marybud", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "field marigold", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "swiss marigold", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "calendula officinalis", "mentions": 5, "confidence_score": 12, "total_score": 60}, {"name": "blessed mary's gold", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "calendula marigold", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "summer marigold", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "pedicularis", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "cudweed", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "orange marigold", "mentions": 2, "confidence_score": 9, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 182, "total_score": 3640}], "what_description": "Calendula officinalis is a perennial herbaceous plant that belongs to the family Asteraceae. It has bright orange to yellow daisy-like flowers with 12-20 petals, 30-40 mm in diameter, and a central disc of 100-150 florets. The leaves are 50-150 mm long, lance-shaped, and have an acute tip. The stem is erect, 30-100 cm tall, and green with a reddish tint at the base. The plant is native to the Mediterranean region and has been naturalized in many parts of the world.", "category_action": "anti-inflammatory", "ailments": [{"name": "burns", "mentions": 18, "confidence_score": 163, "total_score": 2934}, {"name": "eczema", "mentions": 20, "confidence_score": 145, "total_score": 2900}, {"name": "skin irritation", "mentions": 16, "confidence_score": 132, "total_score": 2112}, {"name": "bruises", "mentions": 16, "confidence_score": 107, "total_score": 1712}, {"name": "insect bites", "mentions": 15, "confidence_score": 105, "total_score": 1575}, {"name": "acne", "mentions": 15, "confidence_score": 95, "total_score": 1425}, {"name": "wounds", "mentions": 9, "confidence_score": 83, "total_score": 747}, {"name": "sunburn", "mentions": 10, "confidence_score": 72, "total_score": 720}, {"name": "wound healing", "mentions": 6, "confidence_score": 60, "total_score": 360}, {"name": "minor cuts", "mentions": 8, "confidence_score": 57, "total_score": 456}, {"name": "diaper rash", "mentions": 8, "confidence_score": 52, "total_score": 416}, {"name": "fungal infections", "mentions": 8, "confidence_score": 48, "total_score": 384}, {"name": "rashes", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "wound infection", "mentions": 4, "confidence_score": 39, "total_score": 156}, {"name": "chapped lips", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "herpes", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "skin ulcers", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "psoriasis", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "boils", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "rosacea", "mentions": 2, "confidence_score": 12, "total_score": 24}], "ailments_description": "The most common ailments you can heal with Calendula officinalis are burns, where the anti-inflammatory and antimicrobial properties help reduce pain and prevent infection. Eczema sufferers can also benefit from its soothing effects, which reduce inflammation and promote skin regeneration. Skin irritation, such as from insect bites, is alleviated by its antioxidant properties, which neutralize free radicals and promote healing. Minor cuts and bruises can be treated with Calendula officinalis, as its antimicrobial properties prevent infection and promote wound healing. Calendula officinalis has also been effective in treating acne, sunburn, wound infection, fungal infections, rashes, chapped lips, herpes, skin ulcers, psoriasis, boils, rosacea, wound healing, and diaper rash.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 180, "total_score": 3600}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 171, "total_score": 3420}, {"name": "antioxidant", "mentions": 20, "confidence_score": 166, "total_score": 3320}, {"name": "antiseptic", "mentions": 18, "confidence_score": 143, "total_score": 2574}, {"name": "wound-healing", "mentions": 13, "confidence_score": 111, "total_score": 1443}, {"name": "immunomodulatory", "mentions": 15, "confidence_score": 88, "total_score": 1320}, {"name": "antifungal", "mentions": 12, "confidence_score": 87, "total_score": 1044}, {"name": "analgesic", "mentions": 13, "confidence_score": 72, "total_score": 936}, {"name": "antiviral", "mentions": 11, "confidence_score": 64, "total_score": 704}, {"name": "antibacterial", "mentions": 7, "confidence_score": 60, "total_score": 420}, {"name": "wound healing", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "soothing", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "anti-allergic", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "hemostatic", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "skin soothing", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cytoprotective", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "anti-cancer", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "antipruritic", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "anticancer", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "pain-relieving", "mentions": 2, "confidence_score": 9, "total_score": 18}], "properties_description": "The main therapeutic properties of Calendula officinalis are antimicrobial, which inhibit the growth of bacteria, fungi, and other pathogens. The anti-inflammatory properties of this plant help reduce swelling and pain in various conditions, including wound healing and skin irritations. Additionally, the antioxidant properties of Calendula officinalis protect cells from oxidative damage, contributing to its ability to promote wound healing. The antiseptic properties of this plant also play a crucial role in wound healing by preventing infection and promoting tissue repair. The bioactive compounds responsible for these medicinal properties include flavonoids, triterpenoids, and volatile oils, such as isovaleric acid and isovaleryl ester.", "constituents": [{"name": "flavonoids (such as kaempferol and quercetin)", "mentions": 33, "confidence_score": 256, "total_score": 8448}, {"name": "saponins", "mentions": 13, "confidence_score": 99, "total_score": 1287}, {"name": "carotenoids (specifically caroten and violaxanthin)", "mentions": 14, "confidence_score": 97, "total_score": 1358}, {"name": "triterpene esters (specifically calendula esters, such as calendulin and calendrin)", "mentions": 9, "confidence_score": 73, "total_score": 657}, {"name": "triterpenoids", "mentions": 8, "confidence_score": 63, "total_score": 504}, {"name": "phytosterols", "mentions": 9, "confidence_score": 61, "total_score": 549}, {"name": "oleanolic acid", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "rosmarinic acid", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "caffeic acid", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "beta-sitosterol", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "ursolic acid", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "phenolic acids (such as ferulic acid and sinapic acid)", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "glycosides (including flavonoid glycosides and triterpenoid saponins)", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "linoleic acid", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "isorhapontigenin", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "triterpene saponins", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "flavonoids (including quercetin and kaempferol)", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "naringenin", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "triterpene acids", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "glycosides", "mentions": 3, "confidence_score": 15, "total_score": 45}], "constituents_description": "The most important healing constituents of Calendula officinalis are flavonoids like kaempferol and quercetin, which exhibit anti-inflammatory and antioxidant properties; saponins, which have antimicrobial and anti-inflammatory effects; carotenoids such as caroten and violaxanthin, which act as antioxidants to protect against cell damage; triterpene esters, specifically calendula esters like calendulin and calendrin, which possess antimicrobial and anti-inflammatory properties; and triterpenoids, which have been shown to exhibit anti-inflammatory and immunomodulatory effects. These constituents work synergistically to provide Calendula officinalis with its therapeutic potential. The anti-inflammatory effects of these constituents may contribute to the herb's ability to promote wound healing and tissue repair. Flavonoids and triterpenoids in Calendula officinalis have been shown to inhibit the production of pro-inflammatory cytokines. The antioxidant properties of carotenoids and flavonoids in Calendula officinalis may help protect against oxidative stress and cell damage.", "preparations": [{"name": "calendula salve", "mentions": 20, "confidence_score": 171, "total_score": 3420}, {"name": "calendula cream", "mentions": 19, "confidence_score": 162, "total_score": 3078}, {"name": "calendula tincture", "mentions": 20, "confidence_score": 146, "total_score": 2920}, {"name": "calendula ointment", "mentions": 15, "confidence_score": 89, "total_score": 1335}, {"name": "calendula oil", "mentions": 10, "confidence_score": 88, "total_score": 880}, {"name": "calendula infusion", "mentions": 10, "confidence_score": 68, "total_score": 680}, {"name": "infused oil", "mentions": 7, "confidence_score": 65, "total_score": 455}, {"name": "tea", "mentions": 8, "confidence_score": 45, "total_score": 360}, {"name": "calendula poultice", "mentions": 6, "confidence_score": 30, "total_score": 180}, {"name": "calendula tea", "mentions": 8, "confidence_score": 29, "total_score": 232}, {"name": "calendula infused vinegar", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "calendula infused oil", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "glycerite", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "eye drop", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "infused honey", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "calendula lip balm", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "calendula lotion", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "calendula gel", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "calendula capsules", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "calendula soap", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Calendula officinalis are typically obtained through various extraction methods, resulting in products such as calendula salve, a topical balm often used to soothe skin irritations and wounds due to its anti-inflammatory and antimicrobial properties, which are enhanced by the presence of triterpenoid saponins and sesquiterpene lactones. Calendula cream, on the other hand, provides a moisturizing effect and is commonly used to treat skin conditions like eczema and dermatitis due to its ability to reduce inflammation and promote wound healing. Calendula tincture, a liquid extract, is often used internally to alleviate digestive issues such as constipation and diarrhea, while calendula ointment serves as a protective barrier on the skin's surface, shielding it from external irritants. Calendula oil, derived from the plant's flowers, is rich in fatty acids and is frequently used as a carrier oil in aromatherapy and skincare products due to its emollient and anti-inflammatory properties. These preparations are valued for their ability to promote tissue repair, reduce inflammation, and soothe skin irritations, making Calendula officinalis a popular choice in herbal medicine.", "side_effects": [{"name": "induce allergic reactions", "mentions": 8, "confidence_score": 75, "total_score": 600}, {"name": "lead to skin irritation", "mentions": 7, "confidence_score": 64, "total_score": 448}, {"name": "interact with medications", "mentions": 9, "confidence_score": 62, "total_score": 558}, {"name": "trigger digestive issues", "mentions": 7, "confidence_score": 52, "total_score": 364}, {"name": "cause skin irritation", "mentions": 5, "confidence_score": 45, "total_score": 225}, {"name": "trigger photosensitivity", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "hypersensitivity", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "exacerbate allergies", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "increase bleeding risk", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "cause nausea", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "phototoxicity", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "trigger hives", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "experience allergic reaction", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "it causes skin irritation", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "exacerbate allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "it increases bleeding risk", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "aggravate skin conditions", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "induce photosensitivity", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "inhibit wound healing", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "it triggers photosensitivity", "mentions": 2, "confidence_score": 16, "total_score": 32}], "side_effects_description": "The possible side effects of using Calendula officinalis improperly include inducing allergic reactions in individuals with sensitivities to the plant's compounds, particularly the sesquiterpene lactones, which can cause an immune response. Improper use may also lead to skin irritation due to the essential oil's high concentration of camphor and borneol, potentially causing redness, itching, and inflammation. Furthermore, using Calendula officinalis may interact with medications, such as blood thinners and diabetes medications, due to its potential anti-inflammatory and anticoagulant properties, which can alter medication efficacy or increase the risk of bleeding. Additionally, improper use of Calendula officinalis may trigger digestive issues, including stomach upset and diarrhea, in individuals with pre-existing gastrointestinal conditions or those taking certain medications. In rare cases, skin irritation can occur due to the essential oil's high concentration of camphor and borneol."}
+{
+    "title": "Calendula officinalis",
+    "herb_slug": "calendula-officinalis",
+    "herb_name_scientific": "Calendula officinalis",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/calendula-officinalis",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "pot marigold",
+            "mentions": 27,
+            "confidence_score": 233,
+            "total_score": 6291
+        },
+        {
+            "name": "calendula",
+            "mentions": 20,
+            "confidence_score": 180,
+            "total_score": 3600
+        },
+        {
+            "name": "english marigold",
+            "mentions": 20,
+            "confidence_score": 132,
+            "total_score": 2640
+        },
+        {
+            "name": "scottish marigold",
+            "mentions": 20,
+            "confidence_score": 126,
+            "total_score": 2520
+        },
+        {
+            "name": "rudbeckia",
+            "mentions": 19,
+            "confidence_score": 84,
+            "total_score": 1596
+        },
+        {
+            "name": "sulfur flower",
+            "mentions": 12,
+            "confidence_score": 61,
+            "total_score": 732
+        },
+        {
+            "name": "mary bud",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "pot herb",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "calendula flower",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "calendula plant",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "marybud",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "field marigold",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "swiss marigold",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "calendula officinalis",
+            "mentions": 5,
+            "confidence_score": 12,
+            "total_score": 60
+        },
+        {
+            "name": "blessed mary's gold",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "calendula marigold",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "summer marigold",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "pedicularis",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "cudweed",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "orange marigold",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 182,
+            "total_score": 3640
+        }
+    ],
+    "what_description": "Calendula officinalis is a perennial herbaceous plant that belongs to the family Asteraceae. It has bright orange to yellow daisy-like flowers with 12-20 petals, 30-40 mm in diameter, and a central disc of 100-150 florets. The leaves are 50-150 mm long, lance-shaped, and have an acute tip. The stem is erect, 30-100 cm tall, and green with a reddish tint at the base. The plant is native to the Mediterranean region and has been naturalized in many parts of the world.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "burns",
+            "mentions": 18,
+            "confidence_score": 163,
+            "total_score": 2934
+        },
+        {
+            "name": "eczema",
+            "mentions": 20,
+            "confidence_score": 145,
+            "total_score": 2900
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 16,
+            "confidence_score": 132,
+            "total_score": 2112
+        },
+        {
+            "name": "bruises",
+            "mentions": 16,
+            "confidence_score": 107,
+            "total_score": 1712
+        },
+        {
+            "name": "insect bites",
+            "mentions": 15,
+            "confidence_score": 105,
+            "total_score": 1575
+        },
+        {
+            "name": "acne",
+            "mentions": 15,
+            "confidence_score": 95,
+            "total_score": 1425
+        },
+        {
+            "name": "wounds",
+            "mentions": 9,
+            "confidence_score": 83,
+            "total_score": 747
+        },
+        {
+            "name": "sunburn",
+            "mentions": 10,
+            "confidence_score": 72,
+            "total_score": 720
+        },
+        {
+            "name": "wound healing",
+            "mentions": 6,
+            "confidence_score": 60,
+            "total_score": 360
+        },
+        {
+            "name": "minor cuts",
+            "mentions": 8,
+            "confidence_score": 57,
+            "total_score": 456
+        },
+        {
+            "name": "diaper rash",
+            "mentions": 8,
+            "confidence_score": 52,
+            "total_score": 416
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 8,
+            "confidence_score": 48,
+            "total_score": 384
+        },
+        {
+            "name": "rashes",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "wound infection",
+            "mentions": 4,
+            "confidence_score": 39,
+            "total_score": 156
+        },
+        {
+            "name": "chapped lips",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "herpes",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "skin ulcers",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "psoriasis",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "boils",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "rosacea",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Calendula officinalis are burns, where the anti-inflammatory and antimicrobial properties help reduce pain and prevent infection. Eczema sufferers can also benefit from its soothing effects, which reduce inflammation and promote skin regeneration. Skin irritation, such as from insect bites, is alleviated by its antioxidant properties, which neutralize free radicals and promote healing. Minor cuts and bruises can be treated with Calendula officinalis, as its antimicrobial properties prevent infection and promote wound healing. Calendula officinalis has also been effective in treating acne, sunburn, wound infection, fungal infections, rashes, chapped lips, herpes, skin ulcers, psoriasis, boils, rosacea, wound healing, and diaper rash.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 180,
+            "total_score": 3600
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 171,
+            "total_score": 3420
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 166,
+            "total_score": 3320
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 18,
+            "confidence_score": 143,
+            "total_score": 2574
+        },
+        {
+            "name": "wound-healing",
+            "mentions": 13,
+            "confidence_score": 111,
+            "total_score": 1443
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 15,
+            "confidence_score": 88,
+            "total_score": 1320
+        },
+        {
+            "name": "antifungal",
+            "mentions": 12,
+            "confidence_score": 87,
+            "total_score": 1044
+        },
+        {
+            "name": "analgesic",
+            "mentions": 13,
+            "confidence_score": 72,
+            "total_score": 936
+        },
+        {
+            "name": "antiviral",
+            "mentions": 11,
+            "confidence_score": 64,
+            "total_score": 704
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 7,
+            "confidence_score": 60,
+            "total_score": 420
+        },
+        {
+            "name": "wound healing",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "soothing",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "anti-allergic",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "skin soothing",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "anti-cancer",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "antipruritic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "anticancer",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "pain-relieving",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Calendula officinalis are antimicrobial, which inhibit the growth of bacteria, fungi, and other pathogens. The anti-inflammatory properties of this plant help reduce swelling and pain in various conditions, including wound healing and skin irritations. Additionally, the antioxidant properties of Calendula officinalis protect cells from oxidative damage, contributing to its ability to promote wound healing. The antiseptic properties of this plant also play a crucial role in wound healing by preventing infection and promoting tissue repair. The bioactive compounds responsible for these medicinal properties include flavonoids, triterpenoids, and volatile oils, such as isovaleric acid and isovaleryl ester.",
+    "constituents": [
+        {
+            "name": "flavonoids (such as kaempferol and quercetin)",
+            "mentions": 33,
+            "confidence_score": 256,
+            "total_score": 8448
+        },
+        {
+            "name": "saponins",
+            "mentions": 13,
+            "confidence_score": 99,
+            "total_score": 1287
+        },
+        {
+            "name": "carotenoids (specifically caroten and violaxanthin)",
+            "mentions": 14,
+            "confidence_score": 97,
+            "total_score": 1358
+        },
+        {
+            "name": "triterpene esters (specifically calendula esters, such as calendulin and calendrin)",
+            "mentions": 9,
+            "confidence_score": 73,
+            "total_score": 657
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 8,
+            "confidence_score": 63,
+            "total_score": 504
+        },
+        {
+            "name": "phytosterols",
+            "mentions": 9,
+            "confidence_score": 61,
+            "total_score": 549
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "rosmarinic acid",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "beta-sitosterol",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "ursolic acid",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "phenolic acids (such as ferulic acid and sinapic acid)",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "glycosides (including flavonoid glycosides and triterpenoid saponins)",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "linoleic acid",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "triterpene saponins",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "flavonoids (including quercetin and kaempferol)",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "naringenin",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "triterpene acids",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "glycosides",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Calendula officinalis are flavonoids like kaempferol and quercetin, which exhibit anti-inflammatory and antioxidant properties; saponins, which have antimicrobial and anti-inflammatory effects; carotenoids such as caroten and violaxanthin, which act as antioxidants to protect against cell damage; triterpene esters, specifically calendula esters like calendulin and calendrin, which possess antimicrobial and anti-inflammatory properties; and triterpenoids, which have been shown to exhibit anti-inflammatory and immunomodulatory effects. These constituents work synergistically to provide Calendula officinalis with its therapeutic potential. The anti-inflammatory effects of these constituents may contribute to the herb's ability to promote wound healing and tissue repair. Flavonoids and triterpenoids in Calendula officinalis have been shown to inhibit the production of pro-inflammatory cytokines. The antioxidant properties of carotenoids and flavonoids in Calendula officinalis may help protect against oxidative stress and cell damage.",
+    "preparations": [
+        {
+            "name": "calendula salve",
+            "mentions": 20,
+            "confidence_score": 171,
+            "total_score": 3420
+        },
+        {
+            "name": "calendula cream",
+            "mentions": 19,
+            "confidence_score": 162,
+            "total_score": 3078
+        },
+        {
+            "name": "calendula tincture",
+            "mentions": 20,
+            "confidence_score": 146,
+            "total_score": 2920
+        },
+        {
+            "name": "calendula ointment",
+            "mentions": 15,
+            "confidence_score": 89,
+            "total_score": 1335
+        },
+        {
+            "name": "calendula oil",
+            "mentions": 10,
+            "confidence_score": 88,
+            "total_score": 880
+        },
+        {
+            "name": "calendula infusion",
+            "mentions": 10,
+            "confidence_score": 68,
+            "total_score": 680
+        },
+        {
+            "name": "infused oil",
+            "mentions": 7,
+            "confidence_score": 65,
+            "total_score": 455
+        },
+        {
+            "name": "tea",
+            "mentions": 8,
+            "confidence_score": 45,
+            "total_score": 360
+        },
+        {
+            "name": "calendula poultice",
+            "mentions": 6,
+            "confidence_score": 30,
+            "total_score": 180
+        },
+        {
+            "name": "calendula tea",
+            "mentions": 8,
+            "confidence_score": 29,
+            "total_score": 232
+        },
+        {
+            "name": "calendula infused vinegar",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "calendula infused oil",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "glycerite",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "eye drop",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "infused honey",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "calendula lip balm",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "calendula lotion",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "calendula gel",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "calendula capsules",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "calendula soap",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Calendula officinalis are typically obtained through various extraction methods, resulting in products such as calendula salve, a topical balm often used to soothe skin irritations and wounds due to its anti-inflammatory and antimicrobial properties, which are enhanced by the presence of triterpenoid saponins and sesquiterpene lactones. Calendula cream, on the other hand, provides a moisturizing effect and is commonly used to treat skin conditions like eczema and dermatitis due to its ability to reduce inflammation and promote wound healing. Calendula tincture, a liquid extract, is often used internally to alleviate digestive issues such as constipation and diarrhea, while calendula ointment serves as a protective barrier on the skin's surface, shielding it from external irritants. Calendula oil, derived from the plant's flowers, is rich in fatty acids and is frequently used as a carrier oil in aromatherapy and skincare products due to its emollient and anti-inflammatory properties. These preparations are valued for their ability to promote tissue repair, reduce inflammation, and soothe skin irritations, making Calendula officinalis a popular choice in herbal medicine.",
+    "side_effects": [
+        {
+            "name": "induce allergic reactions",
+            "mentions": 8,
+            "confidence_score": 75,
+            "total_score": 600
+        },
+        {
+            "name": "lead to skin irritation",
+            "mentions": 7,
+            "confidence_score": 64,
+            "total_score": 448
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 9,
+            "confidence_score": 62,
+            "total_score": 558
+        },
+        {
+            "name": "trigger digestive issues",
+            "mentions": 7,
+            "confidence_score": 52,
+            "total_score": 364
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 5,
+            "confidence_score": 45,
+            "total_score": 225
+        },
+        {
+            "name": "trigger photosensitivity",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "hypersensitivity",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "increase bleeding risk",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "phototoxicity",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "trigger hives",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "it causes skin irritation",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "exacerbate allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "it increases bleeding risk",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "aggravate skin conditions",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "induce photosensitivity",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "inhibit wound healing",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "it triggers photosensitivity",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Calendula officinalis improperly include inducing allergic reactions in individuals with sensitivities to the plant's compounds, particularly the sesquiterpene lactones, which can cause an immune response. Improper use may also lead to skin irritation due to the essential oil's high concentration of camphor and borneol, potentially causing redness, itching, and inflammation. Furthermore, using Calendula officinalis may interact with medications, such as blood thinners and diabetes medications, due to its potential anti-inflammatory and anticoagulant properties, which can alter medication efficacy or increase the risk of bleeding. Additionally, improper use of Calendula officinalis may trigger digestive issues, including stomach upset and diarrhea, in individuals with pre-existing gastrointestinal conditions or those taking certain medications. In rare cases, skin irritation can occur due to the essential oil's high concentration of camphor and borneol."
+}

@@ -1,1 +1,756 @@
-{"title": "Echinacea purpurea", "herb_slug": "echinacea-purpurea", "herb_name_scientific": "Echinacea purpurea", "family_slug": "", "family_name": "", "url": "herbs/echinacea-purpurea", "lastmod": "2025-1-20", "herb_names_common": [{"name": "purple coneflower", "mentions": 43, "confidence_score": 372, "total_score": 15996}, {"name": "echinacea", "mentions": 20, "confidence_score": 164, "total_score": 3280}, {"name": "purple echinacea", "mentions": 20, "confidence_score": 139, "total_score": 2780}, {"name": "american coneflower", "mentions": 12, "confidence_score": 60, "total_score": 720}, {"name": "eastern coneflower", "mentions": 9, "confidence_score": 53, "total_score": 477}, {"name": "echinacea purpurea", "mentions": 17, "confidence_score": 45, "total_score": 765}, {"name": "blood flower", "mentions": 8, "confidence_score": 44, "total_score": 352}, {"name": "eastern purple coneflower", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "bloodflower", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "purple coneflower echinacea", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "burn plant", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "missouri coneflower", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "echinacea angustifolia", "mentions": 6, "confidence_score": 12, "total_score": 72}, {"name": "elder's flower", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "black samson", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "purple flower", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "red sage", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "narrow-leaf coneflower", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "purple echinacea purpurea", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "burnt coneflower", "mentions": 1, "confidence_score": 5, "total_score": 5}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 172, "total_score": 3440}], "what_description": "Echinacea purpurea is a perennial herbaceous plant native to eastern North America. It belongs to the family Asteraceae and is also known as purple coneflower. The plant grows up to 3 feet tall, with hairy, lance-shaped leaves that are typically 4-8 inches long and 1-2 inches wide. Echinacea purpurea produces large, showy purple flowers in late summer, with prominent, drooping stamens and a prominent, cone-shaped disk in the center. The plant's roots and flowers are used in traditional medicine to treat various ailments.", "category_action": "immunomodulators", "ailments": [{"name": "common cold", "mentions": 20, "confidence_score": 193, "total_score": 3860}, {"name": "bronchitis", "mentions": 20, "confidence_score": 148, "total_score": 2960}, {"name": "sinusitis", "mentions": 19, "confidence_score": 142, "total_score": 2698}, {"name": "tonsillitis", "mentions": 19, "confidence_score": 128, "total_score": 2432}, {"name": "pneumonia", "mentions": 15, "confidence_score": 112, "total_score": 1680}, {"name": "flu", "mentions": 12, "confidence_score": 105, "total_score": 1260}, {"name": "influenza", "mentions": 9, "confidence_score": 81, "total_score": 729}, {"name": "fatigue", "mentions": 11, "confidence_score": 59, "total_score": 649}, {"name": "sore throat", "mentions": 7, "confidence_score": 55, "total_score": 385}, {"name": "ear infection", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "cough", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "migraine", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "laryngitis", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "herpes", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "gingivitis", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "migraines", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "skin infections", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "gastroenteritis", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "strep throat", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "fever", "mentions": 2, "confidence_score": 14, "total_score": 28}], "ailments_description": "The most common ailments you can heal with Echinacea purpurea are common cold, which is often alleviated by its anti-inflammatory properties, and bronchitis, a respiratory condition that benefits from its immunomodulatory effects. Echinacea purpurea also exhibits antiviral activity against sinusitis, an infection that affects the nasal passages, and tonsillitis, an inflammation of the tonsils. Furthermore, it has been shown to prevent pneumonia, a potentially life-threatening lung infection, and reduce the severity of flu, a highly contagious respiratory illness. Its antiviral properties also make it effective against influenza, a viral respiratory infection. Additionally, Echinacea purpurea can alleviate fatigue, sore throat, ear infection, cough, and laryngitis, while its antiseptic properties help to treat herpes, gingivitis, skin infections, gastroenteritis, and strep throat, and its anti-pyretic properties help to reduce fever.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 167, "total_score": 3340}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 166, "total_score": 3320}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 153, "total_score": 3060}, {"name": "immunomodulatory", "mentions": 17, "confidence_score": 138, "total_score": 2346}, {"name": "antiviral", "mentions": 19, "confidence_score": 131, "total_score": 2489}, {"name": "antipyretic", "mentions": 12, "confidence_score": 56, "total_score": 672}, {"name": "analgesic", "mentions": 12, "confidence_score": 54, "total_score": 648}, {"name": "antifungal", "mentions": 9, "confidence_score": 52, "total_score": 468}, {"name": "neuroprotective", "mentions": 10, "confidence_score": 49, "total_score": 490}, {"name": "anticancer", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "antibacterial", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "wound healing", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "cardioprotective", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "antioxidant enzyme inducer", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "immune system stimulant", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "cytotoxic", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "cytoprotective", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "anti-allergic", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "pain relief", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "antiproliferative", "mentions": 2, "confidence_score": 11, "total_score": 22}], "properties_description": "The main therapeutic properties of Echinacea purpurea are the result of its antioxidant activity, which helps to protect cells from oxidative damage and reduce the risk of chronic diseases. The anti-inflammatory properties of this plant, primarily due to the presence of alkylamides and phenolic acids, play a crucial role in reducing inflammation and alleviating symptoms associated with conditions such as arthritis. The plant's antimicrobial properties, attributed to the bioactive compounds like volatile oils and phenolic acids, make it effective in combating infections and promoting wound healing. Echinacea purpurea's immunomodulatory effects, facilitated by the presence of flavonoids and polysaccharides, help to regulate the immune system and increase its response to pathogens. Additionally, the antiviral properties of this plant, resulting from the action of compounds like glycosides and phenolic acids, make it a valuable natural remedy against viral infections.", "constituents": [{"name": "cichoric acid", "mentions": 20, "confidence_score": 178, "total_score": 3560}, {"name": "caffeic acid", "mentions": 18, "confidence_score": 125, "total_score": 2250}, {"name": "alkylamides", "mentions": 16, "confidence_score": 125, "total_score": 2000}, {"name": "quercetin", "mentions": 13, "confidence_score": 94, "total_score": 1222}, {"name": "chlorogenic acid", "mentions": 12, "confidence_score": 80, "total_score": 960}, {"name": "kaempferol", "mentions": 13, "confidence_score": 79, "total_score": 1027}, {"name": "rosmarinic acid", "mentions": 8, "confidence_score": 66, "total_score": 528}, {"name": "isoleucine", "mentions": 8, "confidence_score": 64, "total_score": 512}, {"name": "echinacoside", "mentions": 7, "confidence_score": 58, "total_score": 406}, {"name": "polysaccharides", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "linoleic acid", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "palmitic acid", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "iridoid glycosides", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "flavonoids", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "phenolic acids", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "ishogankacin", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "isoleucine + valine + leucine", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "triterpene acids", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "icariin", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "isoquercetin", "mentions": 2, "confidence_score": 13, "total_score": 26}], "constituents_description": "The most important healing constituents of Echinacea purpurea are cichoric acid, caffeic acid, alkylamides, quercetin, and chlorogenic acid. Cichoric acid and caffeic acid have been shown to possess anti-inflammatory properties, with studies demonstrating their ability to inhibit the production of pro-inflammatory enzymes such as cyclooxygenase-2 (COX-2) and lipoxygenase. Alkylamides have been found to stimulate the production of cytokines, such as interleukin-6 (IL-6), which play a crucial role in the immune response, while quercetin, a flavonoid, exhibits antioxidant and anti-inflammatory properties, scavenging free radicals and inhibiting the production of inflammatory mediators. Chlorogenic acid, a polyphenol, has been demonstrated to possess antimicrobial and antioxidant properties, contributing to the plant's ability to protect against infection and oxidative stress. These constituents work synergistically to support the body's natural defense mechanisms, making Echinacea purpurea a valuable herbal remedy for immune system support.", "preparations": [{"name": "echinacea tea", "mentions": 20, "confidence_score": 186, "total_score": 3720}, {"name": "echinacea tincture", "mentions": 20, "confidence_score": 182, "total_score": 3640}, {"name": "echinacea capsules", "mentions": 19, "confidence_score": 154, "total_score": 2926}, {"name": "echinacea infusion", "mentions": 19, "confidence_score": 145, "total_score": 2755}, {"name": "echinacea extract", "mentions": 11, "confidence_score": 75, "total_score": 825}, {"name": "echinacea salve", "mentions": 15, "confidence_score": 73, "total_score": 1095}, {"name": "echinacea decoction", "mentions": 7, "confidence_score": 41, "total_score": 287}, {"name": "echinacea syrup", "mentions": 7, "confidence_score": 38, "total_score": 266}, {"name": "echinacea oil", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "echinacea glycerite", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "echinacea poultice", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "ointment", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "suppositories", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "infused oil", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "supplement capsules", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "glycoside extract", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "root extract", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "echinacea topical cream", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "dry extract", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "salves", "mentions": 1, "confidence_score": 4, "total_score": 4}], "preparations_description": "The main herbal preparations of Echinacea purpurea are derived from its root, flowers, and leaves, which are rich in bioactive compounds such as alkylamides, caffeic acid derivatives, and polysaccharides. Echinacea tea is a liquid extract made by steeping the plant's root and flowers in hot water, while echinacea tincture is a concentrated liquid extract made by soaking the plant material in a solvent like ethanol. Echinacea capsules, on the other hand, are filled with dried and powdered plant material, often standardized to contain specific amounts of key bioactive compounds. Echinacea infusion is a liquid extract made by steeping the plant material in cold water, which is often used to make a tea that is easier to digest. Echinacea extract, often referred to as an Echinacea extract powder, is a highly concentrated powder made from the plant material using various extraction methods, such as solvent extraction or supercritical fluid extraction.", "side_effects": [{"name": "experience allergic reactions", "mentions": 5, "confidence_score": 47, "total_score": 235}, {"name": "trigger asthma attacks", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "interact with medications", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "allergic reactions occur", "mentions": 3, "confidence_score": 30, "total_score": 90}, {"name": "develop liver damage", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "interact with blood thinners", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "experiencing allergic reactions", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "exacerbates allergic rhinitis", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "causes stomach upset", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "increases risk of bleeding", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiences allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "exacerbate allergies", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experience nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "induces hepatotoxicity", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "triggers asthma attacks", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cause liver damage", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "diarrhea occurs", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cause digestive issues", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "vomiting happens", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "worsen autoimmune diseases", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effects of using Echinacea purpurea improperly include experience allergic reactions, trigger asthma attacks, interact with medications, and develop liver damage. These adverse effects are often reported when Echinacea is taken in high doses or for extended periods, causing an overstimulation of the immune system. This can lead to allergic reactions, such as hives, itching, and difficulty breathing, which may worsen asthma symptoms in susceptible individuals. Furthermore, Echinacea may interact with blood thinners, diabetes medications, and immunosuppressants, reducing their efficacy or increasing the risk of bleeding. Prolonged use of high-dose Echinacea may also cause liver damage, as it contains compounds that can be toxic to liver cells, particularly in individuals with pre-existing liver conditions."}
+{
+    "title": "Echinacea purpurea",
+    "herb_slug": "echinacea-purpurea",
+    "herb_name_scientific": "Echinacea purpurea",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/echinacea-purpurea",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "purple coneflower",
+            "mentions": 43,
+            "confidence_score": 372,
+            "total_score": 15996
+        },
+        {
+            "name": "echinacea",
+            "mentions": 20,
+            "confidence_score": 164,
+            "total_score": 3280
+        },
+        {
+            "name": "purple echinacea",
+            "mentions": 20,
+            "confidence_score": 139,
+            "total_score": 2780
+        },
+        {
+            "name": "american coneflower",
+            "mentions": 12,
+            "confidence_score": 60,
+            "total_score": 720
+        },
+        {
+            "name": "eastern coneflower",
+            "mentions": 9,
+            "confidence_score": 53,
+            "total_score": 477
+        },
+        {
+            "name": "echinacea purpurea",
+            "mentions": 17,
+            "confidence_score": 45,
+            "total_score": 765
+        },
+        {
+            "name": "blood flower",
+            "mentions": 8,
+            "confidence_score": 44,
+            "total_score": 352
+        },
+        {
+            "name": "eastern purple coneflower",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "bloodflower",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "purple coneflower echinacea",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "burn plant",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "missouri coneflower",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "echinacea angustifolia",
+            "mentions": 6,
+            "confidence_score": 12,
+            "total_score": 72
+        },
+        {
+            "name": "elder's flower",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "black samson",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "purple flower",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "red sage",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "narrow-leaf coneflower",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "purple echinacea purpurea",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "burnt coneflower",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        }
+    ],
+    "what_description": "Echinacea purpurea is a perennial herbaceous plant native to eastern North America. It belongs to the family Asteraceae and is also known as purple coneflower. The plant grows up to 3 feet tall, with hairy, lance-shaped leaves that are typically 4-8 inches long and 1-2 inches wide. Echinacea purpurea produces large, showy purple flowers in late summer, with prominent, drooping stamens and a prominent, cone-shaped disk in the center. The plant's roots and flowers are used in traditional medicine to treat various ailments.",
+    "category_action": "immunomodulators",
+    "ailments": [
+        {
+            "name": "common cold",
+            "mentions": 20,
+            "confidence_score": 193,
+            "total_score": 3860
+        },
+        {
+            "name": "bronchitis",
+            "mentions": 20,
+            "confidence_score": 148,
+            "total_score": 2960
+        },
+        {
+            "name": "sinusitis",
+            "mentions": 19,
+            "confidence_score": 142,
+            "total_score": 2698
+        },
+        {
+            "name": "tonsillitis",
+            "mentions": 19,
+            "confidence_score": 128,
+            "total_score": 2432
+        },
+        {
+            "name": "pneumonia",
+            "mentions": 15,
+            "confidence_score": 112,
+            "total_score": 1680
+        },
+        {
+            "name": "flu",
+            "mentions": 12,
+            "confidence_score": 105,
+            "total_score": 1260
+        },
+        {
+            "name": "influenza",
+            "mentions": 9,
+            "confidence_score": 81,
+            "total_score": 729
+        },
+        {
+            "name": "fatigue",
+            "mentions": 11,
+            "confidence_score": 59,
+            "total_score": 649
+        },
+        {
+            "name": "sore throat",
+            "mentions": 7,
+            "confidence_score": 55,
+            "total_score": 385
+        },
+        {
+            "name": "ear infection",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "cough",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "migraine",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "laryngitis",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "herpes",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "gingivitis",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "migraines",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "skin infections",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "strep throat",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "fever",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Echinacea purpurea are common cold, which is often alleviated by its anti-inflammatory properties, and bronchitis, a respiratory condition that benefits from its immunomodulatory effects. Echinacea purpurea also exhibits antiviral activity against sinusitis, an infection that affects the nasal passages, and tonsillitis, an inflammation of the tonsils. Furthermore, it has been shown to prevent pneumonia, a potentially life-threatening lung infection, and reduce the severity of flu, a highly contagious respiratory illness. Its antiviral properties also make it effective against influenza, a viral respiratory infection. Additionally, Echinacea purpurea can alleviate fatigue, sore throat, ear infection, cough, and laryngitis, while its antiseptic properties help to treat herpes, gingivitis, skin infections, gastroenteritis, and strep throat, and its anti-pyretic properties help to reduce fever.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 167,
+            "total_score": 3340
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 166,
+            "total_score": 3320
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 153,
+            "total_score": 3060
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 17,
+            "confidence_score": 138,
+            "total_score": 2346
+        },
+        {
+            "name": "antiviral",
+            "mentions": 19,
+            "confidence_score": 131,
+            "total_score": 2489
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 12,
+            "confidence_score": 56,
+            "total_score": 672
+        },
+        {
+            "name": "analgesic",
+            "mentions": 12,
+            "confidence_score": 54,
+            "total_score": 648
+        },
+        {
+            "name": "antifungal",
+            "mentions": 9,
+            "confidence_score": 52,
+            "total_score": 468
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 10,
+            "confidence_score": 49,
+            "total_score": 490
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "wound healing",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "antioxidant enzyme inducer",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "immune system stimulant",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "anti-allergic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "pain relief",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "antiproliferative",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Echinacea purpurea are the result of its antioxidant activity, which helps to protect cells from oxidative damage and reduce the risk of chronic diseases. The anti-inflammatory properties of this plant, primarily due to the presence of alkylamides and phenolic acids, play a crucial role in reducing inflammation and alleviating symptoms associated with conditions such as arthritis. The plant's antimicrobial properties, attributed to the bioactive compounds like volatile oils and phenolic acids, make it effective in combating infections and promoting wound healing. Echinacea purpurea's immunomodulatory effects, facilitated by the presence of flavonoids and polysaccharides, help to regulate the immune system and increase its response to pathogens. Additionally, the antiviral properties of this plant, resulting from the action of compounds like glycosides and phenolic acids, make it a valuable natural remedy against viral infections.",
+    "constituents": [
+        {
+            "name": "cichoric acid",
+            "mentions": 20,
+            "confidence_score": 178,
+            "total_score": 3560
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 18,
+            "confidence_score": 125,
+            "total_score": 2250
+        },
+        {
+            "name": "alkylamides",
+            "mentions": 16,
+            "confidence_score": 125,
+            "total_score": 2000
+        },
+        {
+            "name": "quercetin",
+            "mentions": 13,
+            "confidence_score": 94,
+            "total_score": 1222
+        },
+        {
+            "name": "chlorogenic acid",
+            "mentions": 12,
+            "confidence_score": 80,
+            "total_score": 960
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 13,
+            "confidence_score": 79,
+            "total_score": 1027
+        },
+        {
+            "name": "rosmarinic acid",
+            "mentions": 8,
+            "confidence_score": 66,
+            "total_score": 528
+        },
+        {
+            "name": "isoleucine",
+            "mentions": 8,
+            "confidence_score": 64,
+            "total_score": 512
+        },
+        {
+            "name": "echinacoside",
+            "mentions": 7,
+            "confidence_score": 58,
+            "total_score": 406
+        },
+        {
+            "name": "polysaccharides",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "linoleic acid",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "palmitic acid",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "iridoid glycosides",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "ishogankacin",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "isoleucine + valine + leucine",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "triterpene acids",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "icariin",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "isoquercetin",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Echinacea purpurea are cichoric acid, caffeic acid, alkylamides, quercetin, and chlorogenic acid. Cichoric acid and caffeic acid have been shown to possess anti-inflammatory properties, with studies demonstrating their ability to inhibit the production of pro-inflammatory enzymes such as cyclooxygenase-2 (COX-2) and lipoxygenase. Alkylamides have been found to stimulate the production of cytokines, such as interleukin-6 (IL-6), which play a crucial role in the immune response, while quercetin, a flavonoid, exhibits antioxidant and anti-inflammatory properties, scavenging free radicals and inhibiting the production of inflammatory mediators. Chlorogenic acid, a polyphenol, has been demonstrated to possess antimicrobial and antioxidant properties, contributing to the plant's ability to protect against infection and oxidative stress. These constituents work synergistically to support the body's natural defense mechanisms, making Echinacea purpurea a valuable herbal remedy for immune system support.",
+    "preparations": [
+        {
+            "name": "echinacea tea",
+            "mentions": 20,
+            "confidence_score": 186,
+            "total_score": 3720
+        },
+        {
+            "name": "echinacea tincture",
+            "mentions": 20,
+            "confidence_score": 182,
+            "total_score": 3640
+        },
+        {
+            "name": "echinacea capsules",
+            "mentions": 19,
+            "confidence_score": 154,
+            "total_score": 2926
+        },
+        {
+            "name": "echinacea infusion",
+            "mentions": 19,
+            "confidence_score": 145,
+            "total_score": 2755
+        },
+        {
+            "name": "echinacea extract",
+            "mentions": 11,
+            "confidence_score": 75,
+            "total_score": 825
+        },
+        {
+            "name": "echinacea salve",
+            "mentions": 15,
+            "confidence_score": 73,
+            "total_score": 1095
+        },
+        {
+            "name": "echinacea decoction",
+            "mentions": 7,
+            "confidence_score": 41,
+            "total_score": 287
+        },
+        {
+            "name": "echinacea syrup",
+            "mentions": 7,
+            "confidence_score": 38,
+            "total_score": 266
+        },
+        {
+            "name": "echinacea oil",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "echinacea glycerite",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "echinacea poultice",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "ointment",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "suppositories",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "infused oil",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "supplement capsules",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "glycoside extract",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "root extract",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "echinacea topical cream",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "dry extract",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "salves",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Echinacea purpurea are derived from its root, flowers, and leaves, which are rich in bioactive compounds such as alkylamides, caffeic acid derivatives, and polysaccharides. Echinacea tea is a liquid extract made by steeping the plant's root and flowers in hot water, while echinacea tincture is a concentrated liquid extract made by soaking the plant material in a solvent like ethanol. Echinacea capsules, on the other hand, are filled with dried and powdered plant material, often standardized to contain specific amounts of key bioactive compounds. Echinacea infusion is a liquid extract made by steeping the plant material in cold water, which is often used to make a tea that is easier to digest. Echinacea extract, often referred to as an Echinacea extract powder, is a highly concentrated powder made from the plant material using various extraction methods, such as solvent extraction or supercritical fluid extraction.",
+    "side_effects": [
+        {
+            "name": "experience allergic reactions",
+            "mentions": 5,
+            "confidence_score": 47,
+            "total_score": 235
+        },
+        {
+            "name": "trigger asthma attacks",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "allergic reactions occur",
+            "mentions": 3,
+            "confidence_score": 30,
+            "total_score": 90
+        },
+        {
+            "name": "develop liver damage",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "interact with blood thinners",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "experiencing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "exacerbates allergic rhinitis",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "causes stomach upset",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "increases risk of bleeding",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "induces hepatotoxicity",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "triggers asthma attacks",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "diarrhea occurs",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cause digestive issues",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "vomiting happens",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "worsen autoimmune diseases",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Echinacea purpurea improperly include experience allergic reactions, trigger asthma attacks, interact with medications, and develop liver damage. These adverse effects are often reported when Echinacea is taken in high doses or for extended periods, causing an overstimulation of the immune system. This can lead to allergic reactions, such as hives, itching, and difficulty breathing, which may worsen asthma symptoms in susceptible individuals. Furthermore, Echinacea may interact with blood thinners, diabetes medications, and immunosuppressants, reducing their efficacy or increasing the risk of bleeding. Prolonged use of high-dose Echinacea may also cause liver damage, as it contains compounds that can be toxic to liver cells, particularly in individuals with pre-existing liver conditions."
+}

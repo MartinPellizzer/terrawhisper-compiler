@@ -1,1 +1,154 @@
-{"title": "Mascagnia rigida", "herb_slug": "mascagnia-rigida", "herb_name_scientific": "Mascagnia rigida", "family_slug": "malpighiaceae", "family_name": "Malpighiaceae", "url": "herbs/mascagnia-rigida", "lastmod": "2025-1-10", "herb_names_common": [{"name": "mascagnia rigida", "mentions": 33, "confidence_score": 205, "total_score": 6765}, {"name": "mascagnia", "mentions": 26, "confidence_score": 195, "total_score": 5070}, {"name": "rigid mascagnia", "mentions": 10, "confidence_score": 68, "total_score": 680}, {"name": "rigida mascagnia", "mentions": 11, "confidence_score": 44, "total_score": 484}, {"name": "dragon blood tree", "mentions": 7, "confidence_score": 27, "total_score": 189}, {"name": "rigid mascagnia tree", "mentions": 5, "confidence_score": 18, "total_score": 90}, {"name": "tocoyena", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "mascagnia species", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "cordia", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "palo de tinte", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "tobacco tree", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "mascagnia tree", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "tobacco wood", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "dragon's blood tree", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "rigida tree", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "cinchona", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "mangrove bean", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "quinine tree", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "candelilla", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "palo de cristo", "mentions": 1, "confidence_score": 9, "total_score": 9}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 11, "confidence_score": 104, "total_score": 1144}, {"medicine_or_poison": "medicine", "mentions": 9, "confidence_score": 74, "total_score": 666}], "uses": "Mascagnia rigida, also known as the \"Cat's Claw Vine,\" has been traditionally used in folk medicine for its potential health benefits. However, there is limited scientific research on its medicinal uses. The plant is believed to possess anti-inflammatory and antioxidant properties. Some studies suggest that it may have immunomodulatory effects, although more research is needed to confirm its efficacy. Further investigation is required to fully understand the potential medicinal applications of Mascagnia rigida.", "taxonomy": "Mascagnia rigida is classified as a species of flowering plant in the family Malpighiaceae, commonly known as the malpighiaceae or barbados cherry family. This family is part of the larger order Malpighiales, which is a clade of flowering plants. The Malpighiales order is part of the larger group of flowering plants known as angiosperms, or more specifically, the clade of eudicots. Within the Malpighiales order, Mascagnia rigida is part of the subfamily Byrsideae, which is a group of flowering plants that are primarily found in the Americas. The species Mascagnia rigida itself is placed within the genus Mascagnia, which contains approximately 50 species of flowering plants.", "benefits": "Mascagnia rigida has been traditionally used in folk medicine for various purposes. However, research on its specific health benefits is limited. It is often reported to have anti-inflammatory properties and may be used to treat conditions such as fever and respiratory issues. In traditional medicine, the plant is also believed to have antiseptic and antibacterial properties. Further studies are needed to confirm its effectiveness and potential uses in modern medicine.", "properties": "Mascagnia rigida is a plant species native to South America. However, information regarding its therapeutic properties is limited. Further research is required to determine the potential health benefits of Mascagnia rigida. Some studies suggest that the plant may have anti-inflammatory properties. More scientific studies are necessary to confirm its therapeutic applications.", "constituents": "Mascagnia rigida contains flavonoids, alkaloids, and other bioactive compounds. These active constituents contribute to the plant's medicinal properties. The specific flavonoids present in Mascagnia rigida may include quercetin and kaempferol, which have been associated with antioxidant and anti-inflammatory activities. Additionally, the plant's alkaloids may exhibit antimicrobial and antitumor properties. Further research is needed to fully understand the active constituents and their effects on human health.", "parts": "Mascagnia rigida is a plant species that is used in traditional medicine, particularly in Latin America. The plant's medicinal properties are attributed to various parts, although the specific parts used are not well-documented in the available literature. Further research is necessary to determine the exact parts of the plant that are used for medicinal purposes. In some traditional remedies, the leaves and bark of the plant are used to treat various ailments. However, more scientific studies are needed to confirm the effectiveness and safety of using Mascagnia rigida for medicinal purposes.", "preparations": "Mascagnia rigida preparations have been used in traditional medicine to treat various health issues, including fever and skin problems. The plant is often used to create herbal infusions and decoctions, which are believed to have anti-inflammatory properties. In some cultures, Mascagnia rigida is used topically to treat wounds and skin irritations. The plant's extracts have also been used to create ointments and creams, which are thought to promote healing and reduce inflammation. Further research is needed to confirm the effectiveness and safety of Mascagnia rigida preparations for medicinal use.", "side_effects": "Mascagnia rigida is a plant that has been used in traditional medicine, but there is limited information available on its side effects. However, as with any plant used for medicinal purposes, it's essential to exercise caution and consult with a healthcare professional before using it. Some potential side effects of Mascagnia rigida may include allergic reactions, digestive issues, or interactions with other medications. Further research is needed to fully understand the potential side effects of this plant. If you're considering using Mascagnia rigida for medicinal purposes, consult with a qualified healthcare professional for guidance.", "intro": "Mascagnia rigida, also known as the \"Mascagnia spiny shrub,\" is a plant species native to the tropical regions of Central and South America, characterized by its thorny branches and vibrant green leaves. The health benefits of Mascagnia rigida include its potential to reduce inflammation, improve wound healing, and exhibit antimicrobial properties, making it a valuable resource in traditional medicine. The bioactive constituents of this plant include flavonoids, alkaloids, and phenolic compounds, which are responsible for its therapeutic effects. In herbal medicine, Mascagnia rigida is often prepared as a tea or infusion, as well as dried and encapsulated, to take advantage of its health-promoting properties."}
+{
+    "title": "Mascagnia rigida",
+    "herb_slug": "mascagnia-rigida",
+    "herb_name_scientific": "Mascagnia rigida",
+    "family_slug": "malpighiaceae",
+    "family_name": "Malpighiaceae",
+    "url": "herbs/mascagnia-rigida",
+    "lastmod": "2025-1-10",
+    "herb_names_common": [
+        {
+            "name": "mascagnia rigida",
+            "mentions": 33,
+            "confidence_score": 205,
+            "total_score": 6765
+        },
+        {
+            "name": "mascagnia",
+            "mentions": 26,
+            "confidence_score": 195,
+            "total_score": 5070
+        },
+        {
+            "name": "rigid mascagnia",
+            "mentions": 10,
+            "confidence_score": 68,
+            "total_score": 680
+        },
+        {
+            "name": "rigida mascagnia",
+            "mentions": 11,
+            "confidence_score": 44,
+            "total_score": 484
+        },
+        {
+            "name": "dragon blood tree",
+            "mentions": 7,
+            "confidence_score": 27,
+            "total_score": 189
+        },
+        {
+            "name": "rigid mascagnia tree",
+            "mentions": 5,
+            "confidence_score": 18,
+            "total_score": 90
+        },
+        {
+            "name": "tocoyena",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "mascagnia species",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "cordia",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "palo de tinte",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "tobacco tree",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "mascagnia tree",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "tobacco wood",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "dragon's blood tree",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "rigida tree",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "cinchona",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "mangrove bean",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "quinine tree",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "candelilla",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "palo de cristo",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 11,
+            "confidence_score": 104,
+            "total_score": 1144
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 9,
+            "confidence_score": 74,
+            "total_score": 666
+        }
+    ],
+    "uses": "Mascagnia rigida, also known as the \"Cat's Claw Vine,\" has been traditionally used in folk medicine for its potential health benefits. However, there is limited scientific research on its medicinal uses. The plant is believed to possess anti-inflammatory and antioxidant properties. Some studies suggest that it may have immunomodulatory effects, although more research is needed to confirm its efficacy. Further investigation is required to fully understand the potential medicinal applications of Mascagnia rigida.",
+    "taxonomy": "Mascagnia rigida is classified as a species of flowering plant in the family Malpighiaceae, commonly known as the malpighiaceae or barbados cherry family. This family is part of the larger order Malpighiales, which is a clade of flowering plants. The Malpighiales order is part of the larger group of flowering plants known as angiosperms, or more specifically, the clade of eudicots. Within the Malpighiales order, Mascagnia rigida is part of the subfamily Byrsideae, which is a group of flowering plants that are primarily found in the Americas. The species Mascagnia rigida itself is placed within the genus Mascagnia, which contains approximately 50 species of flowering plants.",
+    "benefits": "Mascagnia rigida has been traditionally used in folk medicine for various purposes. However, research on its specific health benefits is limited. It is often reported to have anti-inflammatory properties and may be used to treat conditions such as fever and respiratory issues. In traditional medicine, the plant is also believed to have antiseptic and antibacterial properties. Further studies are needed to confirm its effectiveness and potential uses in modern medicine.",
+    "properties": "Mascagnia rigida is a plant species native to South America. However, information regarding its therapeutic properties is limited. Further research is required to determine the potential health benefits of Mascagnia rigida. Some studies suggest that the plant may have anti-inflammatory properties. More scientific studies are necessary to confirm its therapeutic applications.",
+    "constituents": "Mascagnia rigida contains flavonoids, alkaloids, and other bioactive compounds. These active constituents contribute to the plant's medicinal properties. The specific flavonoids present in Mascagnia rigida may include quercetin and kaempferol, which have been associated with antioxidant and anti-inflammatory activities. Additionally, the plant's alkaloids may exhibit antimicrobial and antitumor properties. Further research is needed to fully understand the active constituents and their effects on human health.",
+    "parts": "Mascagnia rigida is a plant species that is used in traditional medicine, particularly in Latin America. The plant's medicinal properties are attributed to various parts, although the specific parts used are not well-documented in the available literature. Further research is necessary to determine the exact parts of the plant that are used for medicinal purposes. In some traditional remedies, the leaves and bark of the plant are used to treat various ailments. However, more scientific studies are needed to confirm the effectiveness and safety of using Mascagnia rigida for medicinal purposes.",
+    "preparations": "Mascagnia rigida preparations have been used in traditional medicine to treat various health issues, including fever and skin problems. The plant is often used to create herbal infusions and decoctions, which are believed to have anti-inflammatory properties. In some cultures, Mascagnia rigida is used topically to treat wounds and skin irritations. The plant's extracts have also been used to create ointments and creams, which are thought to promote healing and reduce inflammation. Further research is needed to confirm the effectiveness and safety of Mascagnia rigida preparations for medicinal use.",
+    "side_effects": "Mascagnia rigida is a plant that has been used in traditional medicine, but there is limited information available on its side effects. However, as with any plant used for medicinal purposes, it's essential to exercise caution and consult with a healthcare professional before using it. Some potential side effects of Mascagnia rigida may include allergic reactions, digestive issues, or interactions with other medications. Further research is needed to fully understand the potential side effects of this plant. If you're considering using Mascagnia rigida for medicinal purposes, consult with a qualified healthcare professional for guidance.",
+    "intro": "Mascagnia rigida, also known as the \"Mascagnia spiny shrub,\" is a plant species native to the tropical regions of Central and South America, characterized by its thorny branches and vibrant green leaves. The health benefits of Mascagnia rigida include its potential to reduce inflammation, improve wound healing, and exhibit antimicrobial properties, making it a valuable resource in traditional medicine. The bioactive constituents of this plant include flavonoids, alkaloids, and phenolic compounds, which are responsible for its therapeutic effects. In herbal medicine, Mascagnia rigida is often prepared as a tea or infusion, as well as dried and encapsulated, to take advantage of its health-promoting properties."
+}

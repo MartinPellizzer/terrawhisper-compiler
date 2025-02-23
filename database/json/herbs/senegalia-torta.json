@@ -1,1 +1,731 @@
-{"title": "Senegalia torta", "herb_slug": "senegalia-torta", "herb_name_scientific": "Senegalia torta", "family_slug": "fabaceae", "family_name": "Fabaceae", "url": "herbs/senegalia-torta", "lastmod": "2025-1-19", "herb_names_common": [{"name": "acacia torta", "mentions": 33, "confidence_score": 227, "total_score": 7491}, {"name": "thorny thorn tree", "mentions": 9, "confidence_score": 67, "total_score": 603}, {"name": "thorny acacia", "mentions": 9, "confidence_score": 54, "total_score": 486}, {"name": "false thorn mimosa", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "karee tree", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "blackthorn wattle", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "thorny mimosa", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "torta thorn", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "torta acacia", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "tortuous bushwillow", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "false mopane", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "acacia species", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "thorn acacia", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "torta tree", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "false acacia", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "false mopani tree", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "mimosa", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "senegalia torta", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "mimosa torta", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "mopani", "mentions": 1, "confidence_score": 10, "total_score": 10}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 168, "total_score": 3360}], "what_description": "Senegalia torta is a perennial shrub or small tree belonging to the family Fabaceae. It has a height range of 1-5 meters, with a spread of 1-2 meters, and a greyish-brown bark. The leaves are bipinnate, composed of 10-20 pairs of leaflets, each measuring 5-15 mm in length, with a greyish-green color and a length of 4-10 cm. The plant produces yellow flowers in axillary racemes, 3-6 cm in length, with a diameter of 10-15 mm, from January to April. The seeds are flat, elliptical, and 5-7 mm in length, with a brown color.", "category_action": "hepatics", "ailments": [{"name": "diabetes", "mentions": 17, "confidence_score": 147, "total_score": 2499}, {"name": "hypertension", "mentions": 15, "confidence_score": 126, "total_score": 1890}, {"name": "inflammation", "mentions": 15, "confidence_score": 117, "total_score": 1755}, {"name": "arthritis", "mentions": 12, "confidence_score": 86, "total_score": 1032}, {"name": "asthma", "mentions": 11, "confidence_score": 63, "total_score": 693}, {"name": "cancer", "mentions": 12, "confidence_score": 63, "total_score": 756}, {"name": "skin infections", "mentions": 8, "confidence_score": 50, "total_score": 400}, {"name": "gastroenteritis", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "digestive issues", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "wound healing", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "rheumatism", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "skin irritation", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "malaria", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "gastritis", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "anxiety", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "cardiovascular disease", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "fungal infections", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "pain relief", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "ulcers", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "cholesterol", "mentions": 3, "confidence_score": 21, "total_score": 63}], "ailments_description": "The most common ailments you can heal with Senegalia torta are diabetes, inflammation, and asthma, which are alleviated due to the plant's high antioxidant and flavonoid content. Senegalia torta has also been shown to lower hypertension by regulating blood pressure and improving cardiovascular health. The plant's anti-inflammatory properties effectively reduce arthritis symptoms and alleviate gastritis by protecting the stomach lining. Additionally, its antifungal properties treat fungal infections and skin irritations, while its antiseptic properties aid in wound healing and pain relief. Furthermore, Senegalia torta's antimalarial properties combat malaria, and its cholesterol-lowering properties help alleviate ulcers and rheumatism, as well as gastroenteritis and skin infections.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 160, "total_score": 3200}, {"name": "antioxidant", "mentions": 20, "confidence_score": 152, "total_score": 3040}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 152, "total_score": 3040}, {"name": "analgesic", "mentions": 19, "confidence_score": 103, "total_score": 1957}, {"name": "antifungal", "mentions": 11, "confidence_score": 80, "total_score": 880}, {"name": "cardioprotective", "mentions": 13, "confidence_score": 64, "total_score": 832}, {"name": "antiseptic", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "antibacterial", "mentions": 6, "confidence_score": 48, "total_score": 288}, {"name": "hepatoprotective", "mentions": 8, "confidence_score": 45, "total_score": 360}, {"name": "antipyretic", "mentions": 9, "confidence_score": 44, "total_score": 396}, {"name": "antiviral", "mentions": 9, "confidence_score": 39, "total_score": 351}, {"name": "hypoglycemic", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "antidiabetic", "mentions": 6, "confidence_score": 27, "total_score": 162}, {"name": "antidiarrheal", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "antihistamine", "mentions": 6, "confidence_score": 21, "total_score": 126}, {"name": "anticancer", "mentions": 6, "confidence_score": 21, "total_score": 126}, {"name": "hemostatic", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "wound-healing", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "wound healing", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "antihistaminic", "mentions": 3, "confidence_score": 15, "total_score": 45}], "properties_description": "The main therapeutic properties of Senegalia torta are its antimicrobial properties, which inhibit the growth of microorganisms and prevent infections. The antioxidant properties of this plant are attributed to the presence of flavonoids, which neutralize free radicals and protect against oxidative stress. Its anti-inflammatory properties are mediated by saponins, which reduce inflammation and alleviate pain, particularly in cases of arthritis and other inflammatory conditions. Additionally, the analgesic properties of Senegalia torta are attributed to the presence of volatile oils, which provide relief from pain and discomfort. Furthermore, its antifungal properties are due to the presence of triterpenoids, which inhibit the growth of fungi and prevent fungal infections.", "constituents": [{"name": "quercetin", "mentions": 12, "confidence_score": 104, "total_score": 1248}, {"name": "flavonoids", "mentions": 12, "confidence_score": 86, "total_score": 1032}, {"name": "kaempferol", "mentions": 12, "confidence_score": 85, "total_score": 1020}, {"name": "saponins", "mentions": 13, "confidence_score": 83, "total_score": 1079}, {"name": "epicatechin", "mentions": 10, "confidence_score": 83, "total_score": 830}, {"name": "gallic acid", "mentions": 9, "confidence_score": 72, "total_score": 648}, {"name": "tannins", "mentions": 9, "confidence_score": 70, "total_score": 630}, {"name": "phenolic acids", "mentions": 11, "confidence_score": 66, "total_score": 726}, {"name": "alkaloids", "mentions": 9, "confidence_score": 49, "total_score": 441}, {"name": "glycosides", "mentions": 9, "confidence_score": 45, "total_score": 405}, {"name": "ellagic acid", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "triterpenoids", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "rutin", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "fisetin", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "apigenin", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "naringenin", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "terpenoids", "mentions": 7, "confidence_score": 24, "total_score": 168}, {"name": "coumarins", "mentions": 8, "confidence_score": 23, "total_score": 184}, {"name": "luteolin", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "isorhapontigenin", "mentions": 3, "confidence_score": 16, "total_score": 48}], "constituents_description": "The most important healing constituents of Senegalia torta are quercetin, flavonoids, kaempferol, saponins, and epicatechin, which have been identified through various phytochemical studies. Quercetin, a flavonoid, has potent antioxidant and anti-inflammatory properties that contribute to its healing effects. Flavonoids, including kaempferol, have been shown to possess antimicrobial and anticancer activities, while saponins exhibit anti-inflammatory and immunomodulatory effects. Epicatechin, a polyphenol, has been found to have antioxidant and anti-cancer properties, and also plays a role in cardiovascular health by improving nitric oxide production. These constituents work synergistically to confer the medicinal properties of Senegalia torta, making it a valuable resource for the treatment of various diseases.", "preparations": [{"name": "infusion", "mentions": 20, "confidence_score": 173, "total_score": 3460}, {"name": "tea", "mentions": 20, "confidence_score": 167, "total_score": 3340}, {"name": "tincture", "mentions": 20, "confidence_score": 135, "total_score": 2700}, {"name": "decoction", "mentions": 17, "confidence_score": 99, "total_score": 1683}, {"name": "salve", "mentions": 20, "confidence_score": 98, "total_score": 1960}, {"name": "ointment", "mentions": 9, "confidence_score": 41, "total_score": 369}, {"name": "infused oil", "mentions": 5, "confidence_score": 14, "total_score": 70}, {"name": "extract", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "poultice", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "resin", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "suppository", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "essential oil", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "glycerite", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "gargle", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "infusate", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Senegalia torta are derived from its leaves, bark, and pods, which are traditionally used to treat various health conditions. Infusion and decoction are often prepared by steeping the leaves and bark in hot water to create a tea for treating fever, cough, and digestive issues. Tincture is made by macerating the leaves and bark in a solvent such as ethanol or glycerin to create a concentrated liquid extract for use in treating skin conditions and wounds. A salve is prepared by infusing the leaves and bark in a carrier oil to treat skin conditions, wounds, and inflammation. These preparations are used due to the plant's reported antiseptic, anti-inflammatory, and antimicrobial properties, which are attributed to the presence of flavonoids, phenolic acids, and other bioactive compounds.", "side_effects": [{"name": "experiences nausea", "mentions": 7, "confidence_score": 62, "total_score": 434}, {"name": "develops diarrhea", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "experiences vomiting", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "experience nausea", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "exhibits allergic reaction", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "experiences dizziness", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "showing allergic reactions", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "suffers liver damage", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop skin irritations", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "suffer from headache", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "suffering diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experiences headache", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "feel dizziness", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experiencing vomiting", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "develops rash", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "show skin irritation", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effects of using Senegalia torta improperly include nausea, diarrhea, vomiting, allergic reactions, and other gastrointestinal disturbances. This is due to the presence of toxic compounds such as glycosides, terpenoids, and alkaloids, which can cause irritation and inflammation in the digestive tract if ingested in large amounts. Ingestion of Senegalia torta can also trigger allergic reactions, such as hives, itching, and difficulty breathing, in individuals who are sensitive to its compounds. The severity of these side effects can vary depending on the individual's sensitivity, the amount and method of consumption, and any pre-existing medical conditions. It is essential to consult with a qualified healthcare professional or a trained practitioner before using Senegalia torta to avoid these potential side effects.", "uses": "Senegalia torta has been traditionally used in folk medicine, particularly in South Africa, for its medicinal properties. It is believed to have antibacterial, antifungal, and anti-inflammatory properties, which make it effective in treating various health conditions. The plant is used to treat fever, cough, and respiratory issues, as well as to reduce inflammation and promote wound healing. Its extracts have also been found to have antioxidant and antimicrobial activities. Further research is needed to fully understand and confirm its medicinal uses and potential health benefits.", "taxonomy": "Senegalia torta is classified in the kingdom Plantae, with the specific classification being a type of legume. It belongs to the family Fabaceae, which is the largest and most diverse family of flowering plants. Within the Fabaceae family, Senegalia torta falls under the subfamily Caesalpinioideae. This classification places Senegalia torta as a part of the legume order, Fabales. Its classification also suggests a close relationship to other species within the genus Senegalia.", "benefits": "Senegalia torta is known to have various health benefits, including its potential to help lower blood pressure and cholesterol levels due to its high content of flavonoids and phenolic acids. The plant has been traditionally used in medicine to treat various conditions, including fever, cough, and respiratory infections. Its antimicrobial and anti-inflammatory properties may also contribute to its potential therapeutic effects. Additionally, Senegalia torta has been found to have antioxidant properties, which can help protect against cell damage and oxidative stress. Further research is needed to fully understand the extent of its health benefits and potential applications.", "parts": "Senegalia torta is known to be a plant species with potential medicinal properties. Its medicinal parts are primarily the leaves and bark, which have been traditionally used for various health purposes. The leaves are used to treat fever, cough, and cold, while the bark is used for its anti-inflammatory and antibacterial properties. The plant's roots are also sometimes used to treat digestive issues. Further research is needed to fully understand the extent of its medicinal properties and their effectiveness in treating various health conditions.", "intro": "Senegalia torta, also known as the Black Acacia, is a thorny shrub or small tree native to Africa, belonging to the Fabaceae family of legumes. The plant has been traditionally used for its medicinal properties, with health benefits including anti-inflammatory, antimicrobial, and antifungal activities, which can aid in treating various conditions such as wounds, fever, and digestive issues. The bioactive constituents of Senegalia torta include flavonoids, phenolic acids, and tannins, which contribute to its therapeutic effects. The most common herbal preparations made with this plant include teas, infusions, and topical creams, which are used to treat skin conditions, wounds, and other health-related issues."}
+{
+    "title": "Senegalia torta",
+    "herb_slug": "senegalia-torta",
+    "herb_name_scientific": "Senegalia torta",
+    "family_slug": "fabaceae",
+    "family_name": "Fabaceae",
+    "url": "herbs/senegalia-torta",
+    "lastmod": "2025-1-19",
+    "herb_names_common": [
+        {
+            "name": "acacia torta",
+            "mentions": 33,
+            "confidence_score": 227,
+            "total_score": 7491
+        },
+        {
+            "name": "thorny thorn tree",
+            "mentions": 9,
+            "confidence_score": 67,
+            "total_score": 603
+        },
+        {
+            "name": "thorny acacia",
+            "mentions": 9,
+            "confidence_score": 54,
+            "total_score": 486
+        },
+        {
+            "name": "false thorn mimosa",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "karee tree",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "blackthorn wattle",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "thorny mimosa",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "torta thorn",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "torta acacia",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "tortuous bushwillow",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "false mopane",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "acacia species",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "thorn acacia",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "torta tree",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "false acacia",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "false mopani tree",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "mimosa",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "senegalia torta",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "mimosa torta",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "mopani",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 168,
+            "total_score": 3360
+        }
+    ],
+    "what_description": "Senegalia torta is a perennial shrub or small tree belonging to the family Fabaceae. It has a height range of 1-5 meters, with a spread of 1-2 meters, and a greyish-brown bark. The leaves are bipinnate, composed of 10-20 pairs of leaflets, each measuring 5-15 mm in length, with a greyish-green color and a length of 4-10 cm. The plant produces yellow flowers in axillary racemes, 3-6 cm in length, with a diameter of 10-15 mm, from January to April. The seeds are flat, elliptical, and 5-7 mm in length, with a brown color.",
+    "category_action": "hepatics",
+    "ailments": [
+        {
+            "name": "diabetes",
+            "mentions": 17,
+            "confidence_score": 147,
+            "total_score": 2499
+        },
+        {
+            "name": "hypertension",
+            "mentions": 15,
+            "confidence_score": 126,
+            "total_score": 1890
+        },
+        {
+            "name": "inflammation",
+            "mentions": 15,
+            "confidence_score": 117,
+            "total_score": 1755
+        },
+        {
+            "name": "arthritis",
+            "mentions": 12,
+            "confidence_score": 86,
+            "total_score": 1032
+        },
+        {
+            "name": "asthma",
+            "mentions": 11,
+            "confidence_score": 63,
+            "total_score": 693
+        },
+        {
+            "name": "cancer",
+            "mentions": 12,
+            "confidence_score": 63,
+            "total_score": 756
+        },
+        {
+            "name": "skin infections",
+            "mentions": 8,
+            "confidence_score": 50,
+            "total_score": 400
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "wound healing",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "malaria",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "gastritis",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "anxiety",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "pain relief",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "ulcers",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "cholesterol",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Senegalia torta are diabetes, inflammation, and asthma, which are alleviated due to the plant's high antioxidant and flavonoid content. Senegalia torta has also been shown to lower hypertension by regulating blood pressure and improving cardiovascular health. The plant's anti-inflammatory properties effectively reduce arthritis symptoms and alleviate gastritis by protecting the stomach lining. Additionally, its antifungal properties treat fungal infections and skin irritations, while its antiseptic properties aid in wound healing and pain relief. Furthermore, Senegalia torta's antimalarial properties combat malaria, and its cholesterol-lowering properties help alleviate ulcers and rheumatism, as well as gastroenteritis and skin infections.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 160,
+            "total_score": 3200
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 152,
+            "total_score": 3040
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 152,
+            "total_score": 3040
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 103,
+            "total_score": 1957
+        },
+        {
+            "name": "antifungal",
+            "mentions": 11,
+            "confidence_score": 80,
+            "total_score": 880
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 13,
+            "confidence_score": 64,
+            "total_score": 832
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 6,
+            "confidence_score": 48,
+            "total_score": 288
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 8,
+            "confidence_score": 45,
+            "total_score": 360
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 9,
+            "confidence_score": 44,
+            "total_score": 396
+        },
+        {
+            "name": "antiviral",
+            "mentions": 9,
+            "confidence_score": 39,
+            "total_score": 351
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 6,
+            "confidence_score": 27,
+            "total_score": 162
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 6,
+            "confidence_score": 21,
+            "total_score": 126
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 21,
+            "total_score": 126
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "wound-healing",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Senegalia torta are its antimicrobial properties, which inhibit the growth of microorganisms and prevent infections. The antioxidant properties of this plant are attributed to the presence of flavonoids, which neutralize free radicals and protect against oxidative stress. Its anti-inflammatory properties are mediated by saponins, which reduce inflammation and alleviate pain, particularly in cases of arthritis and other inflammatory conditions. Additionally, the analgesic properties of Senegalia torta are attributed to the presence of volatile oils, which provide relief from pain and discomfort. Furthermore, its antifungal properties are due to the presence of triterpenoids, which inhibit the growth of fungi and prevent fungal infections.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 12,
+            "confidence_score": 104,
+            "total_score": 1248
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 12,
+            "confidence_score": 86,
+            "total_score": 1032
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 12,
+            "confidence_score": 85,
+            "total_score": 1020
+        },
+        {
+            "name": "saponins",
+            "mentions": 13,
+            "confidence_score": 83,
+            "total_score": 1079
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 10,
+            "confidence_score": 83,
+            "total_score": 830
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 9,
+            "confidence_score": 72,
+            "total_score": 648
+        },
+        {
+            "name": "tannins",
+            "mentions": 9,
+            "confidence_score": 70,
+            "total_score": 630
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 11,
+            "confidence_score": 66,
+            "total_score": 726
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 9,
+            "confidence_score": 49,
+            "total_score": 441
+        },
+        {
+            "name": "glycosides",
+            "mentions": 9,
+            "confidence_score": 45,
+            "total_score": 405
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "rutin",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "fisetin",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "apigenin",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "naringenin",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 7,
+            "confidence_score": 24,
+            "total_score": 168
+        },
+        {
+            "name": "coumarins",
+            "mentions": 8,
+            "confidence_score": 23,
+            "total_score": 184
+        },
+        {
+            "name": "luteolin",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Senegalia torta are quercetin, flavonoids, kaempferol, saponins, and epicatechin, which have been identified through various phytochemical studies. Quercetin, a flavonoid, has potent antioxidant and anti-inflammatory properties that contribute to its healing effects. Flavonoids, including kaempferol, have been shown to possess antimicrobial and anticancer activities, while saponins exhibit anti-inflammatory and immunomodulatory effects. Epicatechin, a polyphenol, has been found to have antioxidant and anti-cancer properties, and also plays a role in cardiovascular health by improving nitric oxide production. These constituents work synergistically to confer the medicinal properties of Senegalia torta, making it a valuable resource for the treatment of various diseases.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 20,
+            "confidence_score": 173,
+            "total_score": 3460
+        },
+        {
+            "name": "tea",
+            "mentions": 20,
+            "confidence_score": 167,
+            "total_score": 3340
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 135,
+            "total_score": 2700
+        },
+        {
+            "name": "decoction",
+            "mentions": 17,
+            "confidence_score": 99,
+            "total_score": 1683
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 98,
+            "total_score": 1960
+        },
+        {
+            "name": "ointment",
+            "mentions": 9,
+            "confidence_score": 41,
+            "total_score": 369
+        },
+        {
+            "name": "infused oil",
+            "mentions": 5,
+            "confidence_score": 14,
+            "total_score": 70
+        },
+        {
+            "name": "extract",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "poultice",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "resin",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "essential oil",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "gargle",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "infusate",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Senegalia torta are derived from its leaves, bark, and pods, which are traditionally used to treat various health conditions. Infusion and decoction are often prepared by steeping the leaves and bark in hot water to create a tea for treating fever, cough, and digestive issues. Tincture is made by macerating the leaves and bark in a solvent such as ethanol or glycerin to create a concentrated liquid extract for use in treating skin conditions and wounds. A salve is prepared by infusing the leaves and bark in a carrier oil to treat skin conditions, wounds, and inflammation. These preparations are used due to the plant's reported antiseptic, anti-inflammatory, and antimicrobial properties, which are attributed to the presence of flavonoids, phenolic acids, and other bioactive compounds.",
+    "side_effects": [
+        {
+            "name": "experiences nausea",
+            "mentions": 7,
+            "confidence_score": 62,
+            "total_score": 434
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "experiences vomiting",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "exhibits allergic reaction",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "showing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "suffers liver damage",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop skin irritations",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "suffer from headache",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "suffering diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experiences headache",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "develops rash",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "show skin irritation",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Senegalia torta improperly include nausea, diarrhea, vomiting, allergic reactions, and other gastrointestinal disturbances. This is due to the presence of toxic compounds such as glycosides, terpenoids, and alkaloids, which can cause irritation and inflammation in the digestive tract if ingested in large amounts. Ingestion of Senegalia torta can also trigger allergic reactions, such as hives, itching, and difficulty breathing, in individuals who are sensitive to its compounds. The severity of these side effects can vary depending on the individual's sensitivity, the amount and method of consumption, and any pre-existing medical conditions. It is essential to consult with a qualified healthcare professional or a trained practitioner before using Senegalia torta to avoid these potential side effects.",
+    "uses": "Senegalia torta has been traditionally used in folk medicine, particularly in South Africa, for its medicinal properties. It is believed to have antibacterial, antifungal, and anti-inflammatory properties, which make it effective in treating various health conditions. The plant is used to treat fever, cough, and respiratory issues, as well as to reduce inflammation and promote wound healing. Its extracts have also been found to have antioxidant and antimicrobial activities. Further research is needed to fully understand and confirm its medicinal uses and potential health benefits.",
+    "taxonomy": "Senegalia torta is classified in the kingdom Plantae, with the specific classification being a type of legume. It belongs to the family Fabaceae, which is the largest and most diverse family of flowering plants. Within the Fabaceae family, Senegalia torta falls under the subfamily Caesalpinioideae. This classification places Senegalia torta as a part of the legume order, Fabales. Its classification also suggests a close relationship to other species within the genus Senegalia.",
+    "benefits": "Senegalia torta is known to have various health benefits, including its potential to help lower blood pressure and cholesterol levels due to its high content of flavonoids and phenolic acids. The plant has been traditionally used in medicine to treat various conditions, including fever, cough, and respiratory infections. Its antimicrobial and anti-inflammatory properties may also contribute to its potential therapeutic effects. Additionally, Senegalia torta has been found to have antioxidant properties, which can help protect against cell damage and oxidative stress. Further research is needed to fully understand the extent of its health benefits and potential applications.",
+    "parts": "Senegalia torta is known to be a plant species with potential medicinal properties. Its medicinal parts are primarily the leaves and bark, which have been traditionally used for various health purposes. The leaves are used to treat fever, cough, and cold, while the bark is used for its anti-inflammatory and antibacterial properties. The plant's roots are also sometimes used to treat digestive issues. Further research is needed to fully understand the extent of its medicinal properties and their effectiveness in treating various health conditions.",
+    "intro": "Senegalia torta, also known as the Black Acacia, is a thorny shrub or small tree native to Africa, belonging to the Fabaceae family of legumes. The plant has been traditionally used for its medicinal properties, with health benefits including anti-inflammatory, antimicrobial, and antifungal activities, which can aid in treating various conditions such as wounds, fever, and digestive issues. The bioactive constituents of Senegalia torta include flavonoids, phenolic acids, and tannins, which contribute to its therapeutic effects. The most common herbal preparations made with this plant include teas, infusions, and topical creams, which are used to treat skin conditions, wounds, and other health-related issues."
+}

@@ -1,1 +1,749 @@
-{"title": "Yushania hsuehiana", "herb_slug": "yushania-hsuehiana", "herb_name_scientific": "Yushania hsuehiana", "family_slug": "poaceae", "family_name": "Poaceae", "url": "herbs/yushania-hsuehiana", "lastmod": "2025-2-4", "herb_names_common": [{"name": "taiwan bamboo (yushania hsuehiana)", "mentions": 49, "confidence_score": 230, "total_score": 11270}, {"name": "hsueh's yushania", "mentions": 15, "confidence_score": 132, "total_score": 1980}, {"name": "yushan bamboo", "mentions": 18, "confidence_score": 88, "total_score": 1584}, {"name": "hsueh's bamboo", "mentions": 13, "confidence_score": 74, "total_score": 962}, {"name": "yushan grass", "mentions": 10, "confidence_score": 38, "total_score": 380}, {"name": "hsueh bamboo", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "taiwan yushania", "mentions": 8, "confidence_score": 34, "total_score": 272}, {"name": "taiwan bamboo", "mentions": 8, "confidence_score": 27, "total_score": 216}, {"name": "yushania hsuehiana bamboo", "mentions": 8, "confidence_score": 26, "total_score": 208}, {"name": "chinese bamboo grass", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "chinese yushania", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "yushan bamboo grass", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "taiwanese yushania", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "hsuehiana yushania", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "hsueh's bamboo grass", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "yushania bamboo", "mentions": 4, "confidence_score": 10, "total_score": 40}, {"name": "hueh's yushania", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "yushan cane", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "hsueh's cane", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "hueh's bamboo", "mentions": 1, "confidence_score": 8, "total_score": 8}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 12, "confidence_score": 80, "total_score": 960}, {"medicine_or_poison": "poison", "mentions": 8, "confidence_score": 56, "total_score": 448}], "what_description": "Yushania hsuehiana is a species of bamboo in the family Poaceae. It has a woody stem up to 4 meters tall with internodes covered in a dense, dark brown to black sheath. The culms are cylindrical, glabrous, and have a diameter of 1-2 cm. The leaves are alternate, elliptic to lanceolate in shape, and 5-12 cm long with a petiole 1-3 cm long. The plant is endemic to Taiwan and typically grows in shaded, humid environments at elevations of 1,000-2,400 meters.", "category_action": "antimicrobial", "ailments": [{"name": "hypertension", "mentions": 18, "confidence_score": 150, "total_score": 2700}, {"name": "inflammation", "mentions": 18, "confidence_score": 147, "total_score": 2646}, {"name": "diabetes", "mentions": 18, "confidence_score": 136, "total_score": 2448}, {"name": "arthritis", "mentions": 16, "confidence_score": 123, "total_score": 1968}, {"name": "asthma", "mentions": 14, "confidence_score": 96, "total_score": 1344}, {"name": "cancer", "mentions": 16, "confidence_score": 83, "total_score": 1328}, {"name": "gastritis", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "rheumatism", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "anxiety", "mentions": 8, "confidence_score": 42, "total_score": 336}, {"name": "infection", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "fever", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "digestive issues", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "allergy", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "osteoporosis", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "cholesterol", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "chronic pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "allergies", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "cardiovascular", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "influenza", "mentions": 2, "confidence_score": 13, "total_score": 26}], "ailments_description": "The most common ailments you can heal with Yushania hsuehiana are hypertension, which is alleviated by the plant's ability to reduce blood pressure through the inhibition of angiotensin-converting enzyme (ACE). Yushania hsuehiana also possesses anti-inflammatory properties that help combat inflammation, thereby reducing swelling and pain in patients with arthritis. Furthermore, studies have shown that the plant's flavonoids can regulate blood sugar levels, making it an effective treatment for diabetes. Additionally, the plant's saponins have been found to relax bronchial muscles, providing relief for asthma patients, while its alkaloids have been shown to induce apoptosis in cancer cells. Yushania hsuehiana's properties also extend to treating gastritis, rheumatism, anxiety, infection, fever, digestive issues, allergy, osteoporosis, cholesterol, chronic pain, allergies, gastroenteritis, cardiovascular disease, and influenza, making it a versatile treatment option for various health conditions.", "properties": [{"name": "antioxidant", "mentions": 21, "confidence_score": 166, "total_score": 3486}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 130, "total_score": 2600}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 126, "total_score": 2520}, {"name": "cardioprotective", "mentions": 18, "confidence_score": 70, "total_score": 1260}, {"name": "analgesic", "mentions": 17, "confidence_score": 64, "total_score": 1088}, {"name": "neuroprotective", "mentions": 18, "confidence_score": 54, "total_score": 972}, {"name": "hepatoprotective", "mentions": 11, "confidence_score": 50, "total_score": 550}, {"name": "antifungal", "mentions": 9, "confidence_score": 49, "total_score": 441}, {"name": "cytotoxic", "mentions": 10, "confidence_score": 43, "total_score": 430}, {"name": "anticancer", "mentions": 10, "confidence_score": 39, "total_score": 390}, {"name": "antiviral", "mentions": 11, "confidence_score": 29, "total_score": 319}, {"name": "hypoglycemic", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "antitumor", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "antibacterial", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "antipyretic", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "antidiabetic", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "antihistaminic", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "hypotensive", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "wound healing", "mentions": 3, "confidence_score": 7, "total_score": 21}, {"name": "anti-cancer", "mentions": 2, "confidence_score": 7, "total_score": 14}], "properties_description": "The main therapeutic properties of Yushania hsuehiana are attributed to its ability to act as a strong antioxidant, protecting cells from oxidative damage and mitigating the risk of chronic diseases. The plant's bioactive compounds, including flavonoids and saponins, exhibit significant antimicrobial activity, inhibiting the growth of pathogenic microorganisms and preventing infections. Additionally, Yushania hsuehiana has been found to possess potent anti-inflammatory properties, reducing inflammation and alleviating symptoms associated with various inflammatory conditions. The cardioprotective effects of the plant are also noteworthy, as it has been shown to prevent cardiovascular disease by regulating lipid metabolism and improving blood lipid profiles. Furthermore, the plant's analgesic properties provide relief from pain, making it a valuable resource for managing chronic pain conditions.", "constituents": [{"name": "quercetin", "mentions": 15, "confidence_score": 120, "total_score": 1800}, {"name": "kaempferol", "mentions": 15, "confidence_score": 108, "total_score": 1620}, {"name": "epicatechin", "mentions": 12, "confidence_score": 69, "total_score": 828}, {"name": "ferulic acid", "mentions": 10, "confidence_score": 60, "total_score": 600}, {"name": "isorhapontigenin", "mentions": 9, "confidence_score": 49, "total_score": 441}, {"name": "gallic acid", "mentions": 8, "confidence_score": 40, "total_score": 320}, {"name": "oleanolic acid", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "luteolin", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "apigenin", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "caffeic acid", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "naringenin", "mentions": 6, "confidence_score": 23, "total_score": 138}, {"name": "rutin", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "stigmasterol", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "ursolic acid", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "protocatechuic acid", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "ellagic acid", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "fisetin", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "quercitrin", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "tannins", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "p-coumaric acid", "mentions": 2, "confidence_score": 11, "total_score": 22}], "constituents_description": "The most important healing constituents of Yushania hsuehiana are quercetin, kaempferol, epicatechin, ferulic acid, and isorhapontigenin. These flavonoids and phenolic acids have been identified in the plant's leaves and stems through HPLC analysis and GC-MS. Quercetin, kaempferol, and epicatechin exhibit antioxidant, anti-inflammatory, and immunomodulatory activities, while ferulic acid and isorhapontigenin show anti-inflammatory and antimicrobial properties. The presence of these constituents is likely due to the plant's ability to synthesize them as a response to environmental stress, such as UV radiation and pathogen attack. These compounds may contribute to the plant's resistance to disease and its potential therapeutic applications in humans.", "preparations": [{"name": "yushania tea", "mentions": 18, "confidence_score": 167, "total_score": 3006}, {"name": "yushania infusion", "mentions": 19, "confidence_score": 146, "total_score": 2774}, {"name": "yushania tincture", "mentions": 20, "confidence_score": 142, "total_score": 2840}, {"name": "decoction", "mentions": 10, "confidence_score": 63, "total_score": 630}, {"name": "salve", "mentions": 12, "confidence_score": 50, "total_score": 600}, {"name": "yushania extract", "mentions": 9, "confidence_score": 39, "total_score": 351}, {"name": "yushania salve", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "yushania oil", "mentions": 6, "confidence_score": 22, "total_score": 132}, {"name": "yushania decoction", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "infused oil", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "tea infusion", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "essential oil", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "bath", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "poultice", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "suppository", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "capsule", "mentions": 2, "confidence_score": 3, "total_score": 6}, {"name": "supplement", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Yushania hsuehiana are yushania tea, yushania infusion, yushania tincture, decoction, and salve, which are derived from its rhizomes and stems. Yushania tea is made by infusing the rhizomes in hot water to yield a diuretic and anti-inflammatory liquid. Yushania infusion, a more concentrated liquid, is prepared by steeping the rhizomes in cold water to extract its bioactive compounds. Yushania tincture, a concentrated liquid extract, is prepared by soaking the rhizomes in a solvent such as ethanol or glycerin to yield a medicinal liquid. Decoction and salve, derived from the rhizomes and stems, are used topically to treat wounds, skin irritations, and inflammation.", "side_effects": [{"name": "experience nausea", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "get headaches", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "feel dizziness", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experience allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induce nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiences nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develops diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "causes diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause vomiting", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "developing allergic reactions", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "triggers allergic reactions", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "induces vomiting", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experiences fatigue", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "increases heart rate", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experience seizures", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experiences dizziness", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experience fatigue", "mentions": 2, "confidence_score": 11, "total_score": 22}], "side_effects_description": "The possible side effects of using Yushania hsuehiana improperly include experiencing nausea, headaches, and dizziness due to its toxic compounds such as saponins and flavonoids, which can be released when the plant is mishandled or ingested in large quantities. These compounds can cause gastrointestinal problems, neurological issues, and allergic reactions. Ingestion of large amounts of Yushania hsuehiana can lead to allergic reactions such as skin irritation, respiratory problems, and anaphylaxis. The improper use of Yushania hsuehiana can also cause headaches and dizziness due to its neurotoxic properties. Overall, the misuse of Yushania hsuehiana can result in serious health complications and requires careful handling and administration.", "uses": "Yushania hsuehiana has been found to have potential medicinal uses, but more research is needed to fully understand its applications. Traditionally, the plant has been used in Chinese medicine for its anti-inflammatory and antioxidant properties. However, the exact mechanisms and benefits of using Yushania hsuehiana as a medicinal plant are not yet fully understood. Some studies suggest that it may have antimicrobial and antifungal properties, but further investigation is required to confirm these findings. As with any plant-based remedy, caution should be exercised when using Yushania hsuehiana for medicinal purposes.", "taxonomy": "Yushania hsuehiana belongs to the family Poaceae, which is a large and diverse group of grasses. Within this family, Yushania hsuehiana is classified under the subfamily Bambusoideae, which includes bamboo species. The genus Yushania is a type of bamboo, and Yushania hsuehiana is one of the many species within this genus. This classification is based on the plant's physical characteristics, such as its woody stem and jointed branches. By grouping plants in this way, botanists can better understand the relationships between different species and their evolutionary history.", "benefits": "Yushania hsuehiana has been found to have potential health benefits due to its high content of antioxidants and other bioactive compounds. The plant is believed to have anti-inflammatory and antimicrobial properties, which may help in treating various health conditions. Additionally, Yushania hsuehiana is thought to have immunomodulatory effects, supporting the body's natural defense mechanisms. Further research is required to confirm the plant's efficacy in treating specific health issues. Preliminary studies suggest that Yushania hsuehiana may have a role in promoting overall well-being and reducing oxidative stress.", "parts": "Unfortunately, I don't have information regarding the medicinal parts of the plant Yushania hsuehiana.", "intro": "Yushania hsuehiana is a species of bamboo belonging to the family Poaceae, native to the mountainous regions of Taiwan. The plant is valued for its medicinal properties, with reported health benefits including anti-inflammatory, antimicrobial, and antioxidant activities, which can aid in the treatment of various conditions such as fever, diarrhea, and respiratory infections. The bioactive constituents of Yushania hsuehiana include flavonoids, phenolic acids, and polysaccharides, which are responsible for its medicinal properties. In traditional herbal medicine, Yushania hsuehiana is often used to make teas, infusions, and decoctions, which are used to treat various health conditions, although its use is not widely recognized in modern Western medicine."}
+{
+    "title": "Yushania hsuehiana",
+    "herb_slug": "yushania-hsuehiana",
+    "herb_name_scientific": "Yushania hsuehiana",
+    "family_slug": "poaceae",
+    "family_name": "Poaceae",
+    "url": "herbs/yushania-hsuehiana",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "taiwan bamboo (yushania hsuehiana)",
+            "mentions": 49,
+            "confidence_score": 230,
+            "total_score": 11270
+        },
+        {
+            "name": "hsueh's yushania",
+            "mentions": 15,
+            "confidence_score": 132,
+            "total_score": 1980
+        },
+        {
+            "name": "yushan bamboo",
+            "mentions": 18,
+            "confidence_score": 88,
+            "total_score": 1584
+        },
+        {
+            "name": "hsueh's bamboo",
+            "mentions": 13,
+            "confidence_score": 74,
+            "total_score": 962
+        },
+        {
+            "name": "yushan grass",
+            "mentions": 10,
+            "confidence_score": 38,
+            "total_score": 380
+        },
+        {
+            "name": "hsueh bamboo",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "taiwan yushania",
+            "mentions": 8,
+            "confidence_score": 34,
+            "total_score": 272
+        },
+        {
+            "name": "taiwan bamboo",
+            "mentions": 8,
+            "confidence_score": 27,
+            "total_score": 216
+        },
+        {
+            "name": "yushania hsuehiana bamboo",
+            "mentions": 8,
+            "confidence_score": 26,
+            "total_score": 208
+        },
+        {
+            "name": "chinese bamboo grass",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "chinese yushania",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "yushan bamboo grass",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "taiwanese yushania",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "hsuehiana yushania",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "hsueh's bamboo grass",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "yushania bamboo",
+            "mentions": 4,
+            "confidence_score": 10,
+            "total_score": 40
+        },
+        {
+            "name": "hueh's yushania",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "yushan cane",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "hsueh's cane",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "hueh's bamboo",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 12,
+            "confidence_score": 80,
+            "total_score": 960
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 8,
+            "confidence_score": 56,
+            "total_score": 448
+        }
+    ],
+    "what_description": "Yushania hsuehiana is a species of bamboo in the family Poaceae. It has a woody stem up to 4 meters tall with internodes covered in a dense, dark brown to black sheath. The culms are cylindrical, glabrous, and have a diameter of 1-2 cm. The leaves are alternate, elliptic to lanceolate in shape, and 5-12 cm long with a petiole 1-3 cm long. The plant is endemic to Taiwan and typically grows in shaded, humid environments at elevations of 1,000-2,400 meters.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "hypertension",
+            "mentions": 18,
+            "confidence_score": 150,
+            "total_score": 2700
+        },
+        {
+            "name": "inflammation",
+            "mentions": 18,
+            "confidence_score": 147,
+            "total_score": 2646
+        },
+        {
+            "name": "diabetes",
+            "mentions": 18,
+            "confidence_score": 136,
+            "total_score": 2448
+        },
+        {
+            "name": "arthritis",
+            "mentions": 16,
+            "confidence_score": 123,
+            "total_score": 1968
+        },
+        {
+            "name": "asthma",
+            "mentions": 14,
+            "confidence_score": 96,
+            "total_score": 1344
+        },
+        {
+            "name": "cancer",
+            "mentions": 16,
+            "confidence_score": 83,
+            "total_score": 1328
+        },
+        {
+            "name": "gastritis",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "anxiety",
+            "mentions": 8,
+            "confidence_score": 42,
+            "total_score": 336
+        },
+        {
+            "name": "infection",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "fever",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "allergy",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "osteoporosis",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "cholesterol",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "chronic pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "allergies",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "cardiovascular",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "influenza",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Yushania hsuehiana are hypertension, which is alleviated by the plant's ability to reduce blood pressure through the inhibition of angiotensin-converting enzyme (ACE). Yushania hsuehiana also possesses anti-inflammatory properties that help combat inflammation, thereby reducing swelling and pain in patients with arthritis. Furthermore, studies have shown that the plant's flavonoids can regulate blood sugar levels, making it an effective treatment for diabetes. Additionally, the plant's saponins have been found to relax bronchial muscles, providing relief for asthma patients, while its alkaloids have been shown to induce apoptosis in cancer cells. Yushania hsuehiana's properties also extend to treating gastritis, rheumatism, anxiety, infection, fever, digestive issues, allergy, osteoporosis, cholesterol, chronic pain, allergies, gastroenteritis, cardiovascular disease, and influenza, making it a versatile treatment option for various health conditions.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 21,
+            "confidence_score": 166,
+            "total_score": 3486
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 130,
+            "total_score": 2600
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 126,
+            "total_score": 2520
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 18,
+            "confidence_score": 70,
+            "total_score": 1260
+        },
+        {
+            "name": "analgesic",
+            "mentions": 17,
+            "confidence_score": 64,
+            "total_score": 1088
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 18,
+            "confidence_score": 54,
+            "total_score": 972
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 11,
+            "confidence_score": 50,
+            "total_score": 550
+        },
+        {
+            "name": "antifungal",
+            "mentions": 9,
+            "confidence_score": 49,
+            "total_score": 441
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 10,
+            "confidence_score": 43,
+            "total_score": 430
+        },
+        {
+            "name": "anticancer",
+            "mentions": 10,
+            "confidence_score": 39,
+            "total_score": 390
+        },
+        {
+            "name": "antiviral",
+            "mentions": 11,
+            "confidence_score": 29,
+            "total_score": 319
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "antitumor",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "wound healing",
+            "mentions": 3,
+            "confidence_score": 7,
+            "total_score": 21
+        },
+        {
+            "name": "anti-cancer",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Yushania hsuehiana are attributed to its ability to act as a strong antioxidant, protecting cells from oxidative damage and mitigating the risk of chronic diseases. The plant's bioactive compounds, including flavonoids and saponins, exhibit significant antimicrobial activity, inhibiting the growth of pathogenic microorganisms and preventing infections. Additionally, Yushania hsuehiana has been found to possess potent anti-inflammatory properties, reducing inflammation and alleviating symptoms associated with various inflammatory conditions. The cardioprotective effects of the plant are also noteworthy, as it has been shown to prevent cardiovascular disease by regulating lipid metabolism and improving blood lipid profiles. Furthermore, the plant's analgesic properties provide relief from pain, making it a valuable resource for managing chronic pain conditions.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 15,
+            "confidence_score": 120,
+            "total_score": 1800
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 15,
+            "confidence_score": 108,
+            "total_score": 1620
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 12,
+            "confidence_score": 69,
+            "total_score": 828
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 10,
+            "confidence_score": 60,
+            "total_score": 600
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 9,
+            "confidence_score": 49,
+            "total_score": 441
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 8,
+            "confidence_score": 40,
+            "total_score": 320
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "luteolin",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "apigenin",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "naringenin",
+            "mentions": 6,
+            "confidence_score": 23,
+            "total_score": 138
+        },
+        {
+            "name": "rutin",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "stigmasterol",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "ursolic acid",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "protocatechuic acid",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "fisetin",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "quercitrin",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "tannins",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "p-coumaric acid",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Yushania hsuehiana are quercetin, kaempferol, epicatechin, ferulic acid, and isorhapontigenin. These flavonoids and phenolic acids have been identified in the plant's leaves and stems through HPLC analysis and GC-MS. Quercetin, kaempferol, and epicatechin exhibit antioxidant, anti-inflammatory, and immunomodulatory activities, while ferulic acid and isorhapontigenin show anti-inflammatory and antimicrobial properties. The presence of these constituents is likely due to the plant's ability to synthesize them as a response to environmental stress, such as UV radiation and pathogen attack. These compounds may contribute to the plant's resistance to disease and its potential therapeutic applications in humans.",
+    "preparations": [
+        {
+            "name": "yushania tea",
+            "mentions": 18,
+            "confidence_score": 167,
+            "total_score": 3006
+        },
+        {
+            "name": "yushania infusion",
+            "mentions": 19,
+            "confidence_score": 146,
+            "total_score": 2774
+        },
+        {
+            "name": "yushania tincture",
+            "mentions": 20,
+            "confidence_score": 142,
+            "total_score": 2840
+        },
+        {
+            "name": "decoction",
+            "mentions": 10,
+            "confidence_score": 63,
+            "total_score": 630
+        },
+        {
+            "name": "salve",
+            "mentions": 12,
+            "confidence_score": 50,
+            "total_score": 600
+        },
+        {
+            "name": "yushania extract",
+            "mentions": 9,
+            "confidence_score": 39,
+            "total_score": 351
+        },
+        {
+            "name": "yushania salve",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "yushania oil",
+            "mentions": 6,
+            "confidence_score": 22,
+            "total_score": 132
+        },
+        {
+            "name": "yushania decoction",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "infused oil",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "tea infusion",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "essential oil",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "bath",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "poultice",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "capsule",
+            "mentions": 2,
+            "confidence_score": 3,
+            "total_score": 6
+        },
+        {
+            "name": "supplement",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Yushania hsuehiana are yushania tea, yushania infusion, yushania tincture, decoction, and salve, which are derived from its rhizomes and stems. Yushania tea is made by infusing the rhizomes in hot water to yield a diuretic and anti-inflammatory liquid. Yushania infusion, a more concentrated liquid, is prepared by steeping the rhizomes in cold water to extract its bioactive compounds. Yushania tincture, a concentrated liquid extract, is prepared by soaking the rhizomes in a solvent such as ethanol or glycerin to yield a medicinal liquid. Decoction and salve, derived from the rhizomes and stems, are used topically to treat wounds, skin irritations, and inflammation.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "get headaches",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experience allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "causes diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "developing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "triggers allergic reactions",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "induces vomiting",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experiences fatigue",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "increases heart rate",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experience seizures",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experience fatigue",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Yushania hsuehiana improperly include experiencing nausea, headaches, and dizziness due to its toxic compounds such as saponins and flavonoids, which can be released when the plant is mishandled or ingested in large quantities. These compounds can cause gastrointestinal problems, neurological issues, and allergic reactions. Ingestion of large amounts of Yushania hsuehiana can lead to allergic reactions such as skin irritation, respiratory problems, and anaphylaxis. The improper use of Yushania hsuehiana can also cause headaches and dizziness due to its neurotoxic properties. Overall, the misuse of Yushania hsuehiana can result in serious health complications and requires careful handling and administration.",
+    "uses": "Yushania hsuehiana has been found to have potential medicinal uses, but more research is needed to fully understand its applications. Traditionally, the plant has been used in Chinese medicine for its anti-inflammatory and antioxidant properties. However, the exact mechanisms and benefits of using Yushania hsuehiana as a medicinal plant are not yet fully understood. Some studies suggest that it may have antimicrobial and antifungal properties, but further investigation is required to confirm these findings. As with any plant-based remedy, caution should be exercised when using Yushania hsuehiana for medicinal purposes.",
+    "taxonomy": "Yushania hsuehiana belongs to the family Poaceae, which is a large and diverse group of grasses. Within this family, Yushania hsuehiana is classified under the subfamily Bambusoideae, which includes bamboo species. The genus Yushania is a type of bamboo, and Yushania hsuehiana is one of the many species within this genus. This classification is based on the plant's physical characteristics, such as its woody stem and jointed branches. By grouping plants in this way, botanists can better understand the relationships between different species and their evolutionary history.",
+    "benefits": "Yushania hsuehiana has been found to have potential health benefits due to its high content of antioxidants and other bioactive compounds. The plant is believed to have anti-inflammatory and antimicrobial properties, which may help in treating various health conditions. Additionally, Yushania hsuehiana is thought to have immunomodulatory effects, supporting the body's natural defense mechanisms. Further research is required to confirm the plant's efficacy in treating specific health issues. Preliminary studies suggest that Yushania hsuehiana may have a role in promoting overall well-being and reducing oxidative stress.",
+    "parts": "Unfortunately, I don't have information regarding the medicinal parts of the plant Yushania hsuehiana.",
+    "intro": "Yushania hsuehiana is a species of bamboo belonging to the family Poaceae, native to the mountainous regions of Taiwan. The plant is valued for its medicinal properties, with reported health benefits including anti-inflammatory, antimicrobial, and antioxidant activities, which can aid in the treatment of various conditions such as fever, diarrhea, and respiratory infections. The bioactive constituents of Yushania hsuehiana include flavonoids, phenolic acids, and polysaccharides, which are responsible for its medicinal properties. In traditional herbal medicine, Yushania hsuehiana is often used to make teas, infusions, and decoctions, which are used to treat various health conditions, although its use is not widely recognized in modern Western medicine."
+}

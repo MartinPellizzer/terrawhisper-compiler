@@ -1,1 +1,767 @@
-{"title": "Syzygium bracteatum", "herb_slug": "syzygium-bracteatum", "herb_name_scientific": "Syzygium bracteatum", "family_slug": "myrtaceae", "family_name": "Myrtaceae", "url": "herbs/syzygium-bracteatum", "lastmod": "2025-2-4", "herb_names_common": [{"name": "syzygium", "mentions": 18, "confidence_score": 116, "total_score": 2088}, {"name": "water apple", "mentions": 13, "confidence_score": 108, "total_score": 1404}, {"name": "syzygium bracteatum", "mentions": 22, "confidence_score": 63, "total_score": 1386}, {"name": "woolly syzygium", "mentions": 5, "confidence_score": 45, "total_score": 225}, {"name": "wax apple", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "water pear", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "waterberry", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "australian water apple", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "water berry", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "jambul", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "water guava", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "cape moreton bay cherry", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "water apple tree", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "pear apple", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "jambolan", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "black plum", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "syzygium waterberry", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "water guinep", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "woolly brush", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "wax berry", "mentions": 2, "confidence_score": 13, "total_score": 26}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 18, "confidence_score": 145, "total_score": 2610}, {"medicine_or_poison": "poison", "mentions": 2, "confidence_score": 13, "total_score": 26}], "what_description": "Syzygium bracteatum is a species of flowering plant in the family Myrtaceae. It is an evergreen shrub or small tree that grows up to 5 meters in height, with a smooth, greyish-brown bark and a dense, branched crown. The leaves are oppositely arranged, lanceolate in shape, measuring 3-7 centimeters in length, and have a glossy, dark green upper surface and a lighter green lower surface. The plant produces small, white, fragrant flowers in clusters, which are followed by red or purple fruit, measuring 1-2 centimeters in diameter, that contains 1-2 seeds. Syzygium bracteatum is native to New South Wales in Australia.", "category_action": "antimicrobial", "ailments": [{"name": "inflammation", "mentions": 18, "confidence_score": 135, "total_score": 2430}, {"name": "diarrhea", "mentions": 12, "confidence_score": 100, "total_score": 1200}, {"name": "fever", "mentions": 12, "confidence_score": 87, "total_score": 1044}, {"name": "diabetes", "mentions": 7, "confidence_score": 57, "total_score": 399}, {"name": "respiratory issues", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "digestive issues", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "cough", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "wound healing", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "infection", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "skin irritation", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "anxiety", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "hypertension", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "cardiovascular disease", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "skin conditions", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "sore throat", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "cancer", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "skin infections", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "malaria", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "rheumatism", "mentions": 4, "confidence_score": 20, "total_score": 80}], "ailments_description": "The most common ailments you can heal with Syzygium bracteatum are inflammation, which is reduced due to its anti-inflammatory properties, and diarrhea, a symptom alleviated by its antidiarrheal effects. Syzygium bracteatum also treats fever, diabetes, and respiratory issues by lowering blood glucose levels and inhibiting pro-inflammatory cytokines. It further aids in digestive issues and cough by enhancing gut motility and releasing expectorants. Additionally, its antimicrobial and antifungal properties facilitate wound healing, combat infection, and alleviate gastroenteritis. Syzygium bracteatum also treats skin irritation, anxiety, hypertension, cardiovascular disease, skin conditions, sore throat, cancer, skin infections, malaria, rheumatism, and various other health issues.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 164, "total_score": 3280}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 153, "total_score": 3060}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 134, "total_score": 2680}, {"name": "analgesic", "mentions": 19, "confidence_score": 94, "total_score": 1786}, {"name": "antifungal", "mentions": 9, "confidence_score": 68, "total_score": 612}, {"name": "antibacterial", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "antiviral", "mentions": 12, "confidence_score": 49, "total_score": 588}, {"name": "antipyretic", "mentions": 11, "confidence_score": 47, "total_score": 517}, {"name": "antioxidant cardioprotective", "mentions": 8, "confidence_score": 39, "total_score": 312}, {"name": "hepatoprotective", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "antimutagenic", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "cytotoxic", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "antidiabetic", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "hypotensive", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "anticancer", "mentions": 6, "confidence_score": 20, "total_score": 120}, {"name": "antihistamine", "mentions": 6, "confidence_score": 20, "total_score": 120}, {"name": "diuretic", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "antitumor", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "antihistaminic", "mentions": 5, "confidence_score": 16, "total_score": 80}, {"name": "antiseptic", "mentions": 2, "confidence_score": 16, "total_score": 32}], "properties_description": "The main therapeutic properties of Syzygium bracteatum are its antioxidant activity, which is attributed to the presence of phenolic compounds such as flavonoids and hydrolysable tannins. This plant exhibits significant antimicrobial activity, effective against various pathogens, due to the bioactive compounds like alkaloids and terpenoids present in its extracts. Its anti-inflammatory properties are also well-documented, with studies showing that the saponins and volatile oils in Syzygium bracteatum extracts can modulate the inflammatory response. Additionally, the plant's analgesic properties are attributed to the presence of flavonoids and phenolic acids, which can act as pain-relievers. Furthermore, Syzygium bracteatum's antifungal activity, exhibited through the inhibition of fungal growth, is attributed to the presence of terpenoids and other bioactive compounds.", "constituents": [{"name": "quercetin", "mentions": 18, "confidence_score": 157, "total_score": 2826}, {"name": "ellagic acid", "mentions": 16, "confidence_score": 125, "total_score": 2000}, {"name": "flavonoids", "mentions": 17, "confidence_score": 123, "total_score": 2091}, {"name": "phenolic acids", "mentions": 18, "confidence_score": 102, "total_score": 1836}, {"name": "gallic acid", "mentions": 14, "confidence_score": 101, "total_score": 1414}, {"name": "tannins", "mentions": 16, "confidence_score": 100, "total_score": 1600}, {"name": "catechins", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "kaempferol", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "syringic acid", "mentions": 7, "confidence_score": 31, "total_score": 217}, {"name": "glycosides", "mentions": 6, "confidence_score": 30, "total_score": 180}, {"name": "terpenoids", "mentions": 8, "confidence_score": 27, "total_score": 216}, {"name": "saponins", "mentions": 8, "confidence_score": 24, "total_score": 192}, {"name": "anthocyanins", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "epicatechin", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "proanthocyanidins", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "alkaloids", "mentions": 7, "confidence_score": 15, "total_score": 105}, {"name": "phenolic glycosides", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "coumarins", "mentions": 7, "confidence_score": 13, "total_score": 91}, {"name": "syzygium acid", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "syzygiumol a", "mentions": 2, "confidence_score": 10, "total_score": 20}], "constituents_description": "The most important healing constituents of Syzygium bracteatum are quercetin, ellagic acid, flavonoids, phenolic acids, and gallic acid. These compounds exhibit potent antioxidant and anti-inflammatory activities due to their ability to scavenge free radicals and inhibit pro-inflammatory enzymes. Quercetin and flavonoids possess anti-cancer properties by modulating cell signaling pathways and inducing apoptosis in cancer cells. Ellagic acid, a phenolic acid, has been shown to inhibit the growth of cancer cells by inducing cell cycle arrest and apoptosis, while gallic acid has anti-inflammatory and antimicrobial properties. The combination of these constituents in Syzygium bracteatum contributes to its potential therapeutic applications in treating various diseases, including cancer, inflammation, and infections.", "preparations": [{"name": "infusion", "mentions": 17, "confidence_score": 143, "total_score": 2431}, {"name": "tea", "mentions": 14, "confidence_score": 134, "total_score": 1876}, {"name": "tincture", "mentions": 17, "confidence_score": 108, "total_score": 1836}, {"name": "decoction", "mentions": 14, "confidence_score": 90, "total_score": 1260}, {"name": "salve", "mentions": 16, "confidence_score": 77, "total_score": 1232}, {"name": "ointment", "mentions": 7, "confidence_score": 30, "total_score": 210}, {"name": "infused oil", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "syzygium bracteatum tea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "syzygium bracteatum infusion", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "syzygium bracteatum tincture", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "syzygium bracteatum decoction", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "essential oil", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "syzygium tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "syzygium bracteatum syrup", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "poultice", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "syzygium infusion", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "extract", "mentions": 3, "confidence_score": 7, "total_score": 21}, {"name": "syzygium decoction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "syzygium tincture", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "capsules", "mentions": 1, "confidence_score": 4, "total_score": 4}], "preparations_description": "The main herbal preparations of Syzygium bracteatum are infusion, tea, tincture, decoction, and salve. Infusion and decoction of the leaves are traditionally used to treat respiratory issues such as coughs and colds, whereas tea made from the leaves is consumed for its potential antiseptic and anti-inflammatory properties. A tincture of Syzygium bracteatum is prepared by soaking the leaves in a solvent and is used to treat various health conditions including fever, diarrhea, and skin infections. The leaves are also used to prepare a salve, which is applied topically to treat wounds, cuts, and skin irritations due to its antiseptic and anti-inflammatory properties. These herbal preparations are used due to the plant's high content of flavonoids, phenolic acids, and essential oils, which are responsible for its medicinal properties.", "side_effects": [{"name": "cause diarrhea", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "induce vomiting", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "induce nausea", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "experience nausea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "induce allergic reactions", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "cause dizziness", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "cause liver damage", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "exacerbate allergies", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "provoke skin irritation", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "get headache", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiences allergic reactions", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develops respiratory issues", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause vomiting", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develop abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "induce rashes", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "develop rash", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "increase heart rate", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "triggers allergic reactions", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "interact with medications", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effects of using Syzygium bracteatum improperly include inducing diarrhea due to its high fiber content, inducing vomiting and nausea as a result of its emetic properties, leading to severe nausea in some individuals, and in rare cases, it can cause allergic reactions such as skin irritation, itching, and respiratory issues due to its high tannin content. This is because Syzygium bracteatum contains bioactive compounds like flavonoids, phenolic acids, and tannins, which can be toxic in excessive amounts. Improper use can lead to gastrointestinal problems, allergic reactions, and other adverse effects. Syzygium bracteatum's high concentration of essential oils and other bioactive compounds can cause these side effects. The improper use of Syzygium bracteatum can also exacerbate underlying medical conditions, such as kidney or liver disease.", "uses": "Syzygium bracteatum is a plant species native to Australia, but its medicinal uses are not well-documented. However, some sources suggest that the plant has been used in traditional medicine to treat various health issues. The plant's bark and leaves are said to have antimicrobial and anti-inflammatory properties, which may contribute to its medicinal value. Additionally, Syzygium bracteatum may have potential in treating skin conditions and wounds due to its antioxidant properties. Further research is needed to confirm the plant's medicinal uses and potential benefits.", "taxonomy": "Syzygium bracteatum is a species of plant in the family Myrtaceae. This family is a large and diverse group of flowering plants commonly known as the myrtle family. The Myrtaceae family includes over 6,000 species, many of which are native to Australia and other parts of the world. Syzygium bracteatum is often found in tropical and subtropical regions. The plant is part of the Syzygium genus, which is characterized by its evergreen leaves and showy flowers.", "benefits": "I can provide information on Syzygium bracteatum. However, I do not have information on its health benefits.", "parts": "Syzygium bracteatum is known for its medicinal properties, with various parts of the plant being used for different purposes. The leaves of Syzygium bracteatum are used to treat fever and other inflammatory conditions. The bark of the plant is also used in traditional medicine to treat digestive issues and skin problems. The roots of Syzygium bracteatum are believed to have antibacterial properties, making them useful in treating infections. Further research is needed to fully understand the medicinal properties and potential uses of Syzygium bracteatum.", "intro": "Syzygium bracteatum, also known as the brush cherry, is a species of flowering plant in the family Myrtaceae, native to Australia. The health benefits of Syzygium bracteatum include its potential anti-inflammatory and antioxidant properties, which may help to alleviate symptoms of conditions such as arthritis and reduce the risk of chronic diseases like cancer and cardiovascular disease. The bioactive constituents of this plant include flavonoids, phenolic acids, and essential oils, which have been shown to possess antimicrobial and antifungal activities. Syzygium bracteatum is often used in traditional medicine and is commonly found in herbal preparations such as teas, infusions, and tinctures, as well as in topical creams and ointments for skin and wound care."}
+{
+    "title": "Syzygium bracteatum",
+    "herb_slug": "syzygium-bracteatum",
+    "herb_name_scientific": "Syzygium bracteatum",
+    "family_slug": "myrtaceae",
+    "family_name": "Myrtaceae",
+    "url": "herbs/syzygium-bracteatum",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "syzygium",
+            "mentions": 18,
+            "confidence_score": 116,
+            "total_score": 2088
+        },
+        {
+            "name": "water apple",
+            "mentions": 13,
+            "confidence_score": 108,
+            "total_score": 1404
+        },
+        {
+            "name": "syzygium bracteatum",
+            "mentions": 22,
+            "confidence_score": 63,
+            "total_score": 1386
+        },
+        {
+            "name": "woolly syzygium",
+            "mentions": 5,
+            "confidence_score": 45,
+            "total_score": 225
+        },
+        {
+            "name": "wax apple",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "water pear",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "waterberry",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "australian water apple",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "water berry",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "jambul",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "water guava",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "cape moreton bay cherry",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "water apple tree",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "pear apple",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "jambolan",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "black plum",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "syzygium waterberry",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "water guinep",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "woolly brush",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "wax berry",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 18,
+            "confidence_score": 145,
+            "total_score": 2610
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "what_description": "Syzygium bracteatum is a species of flowering plant in the family Myrtaceae. It is an evergreen shrub or small tree that grows up to 5 meters in height, with a smooth, greyish-brown bark and a dense, branched crown. The leaves are oppositely arranged, lanceolate in shape, measuring 3-7 centimeters in length, and have a glossy, dark green upper surface and a lighter green lower surface. The plant produces small, white, fragrant flowers in clusters, which are followed by red or purple fruit, measuring 1-2 centimeters in diameter, that contains 1-2 seeds. Syzygium bracteatum is native to New South Wales in Australia.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 18,
+            "confidence_score": 135,
+            "total_score": 2430
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 12,
+            "confidence_score": 100,
+            "total_score": 1200
+        },
+        {
+            "name": "fever",
+            "mentions": 12,
+            "confidence_score": 87,
+            "total_score": 1044
+        },
+        {
+            "name": "diabetes",
+            "mentions": 7,
+            "confidence_score": 57,
+            "total_score": 399
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "cough",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "wound healing",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "infection",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "anxiety",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "hypertension",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "sore throat",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "cancer",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "skin infections",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "malaria",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Syzygium bracteatum are inflammation, which is reduced due to its anti-inflammatory properties, and diarrhea, a symptom alleviated by its antidiarrheal effects. Syzygium bracteatum also treats fever, diabetes, and respiratory issues by lowering blood glucose levels and inhibiting pro-inflammatory cytokines. It further aids in digestive issues and cough by enhancing gut motility and releasing expectorants. Additionally, its antimicrobial and antifungal properties facilitate wound healing, combat infection, and alleviate gastroenteritis. Syzygium bracteatum also treats skin irritation, anxiety, hypertension, cardiovascular disease, skin conditions, sore throat, cancer, skin infections, malaria, rheumatism, and various other health issues.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 164,
+            "total_score": 3280
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 153,
+            "total_score": 3060
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 134,
+            "total_score": 2680
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 94,
+            "total_score": 1786
+        },
+        {
+            "name": "antifungal",
+            "mentions": 9,
+            "confidence_score": 68,
+            "total_score": 612
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "antiviral",
+            "mentions": 12,
+            "confidence_score": 49,
+            "total_score": 588
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 11,
+            "confidence_score": 47,
+            "total_score": 517
+        },
+        {
+            "name": "antioxidant cardioprotective",
+            "mentions": 8,
+            "confidence_score": 39,
+            "total_score": 312
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "antimutagenic",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 20,
+            "total_score": 120
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 6,
+            "confidence_score": 20,
+            "total_score": 120
+        },
+        {
+            "name": "diuretic",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "antitumor",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 5,
+            "confidence_score": 16,
+            "total_score": 80
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Syzygium bracteatum are its antioxidant activity, which is attributed to the presence of phenolic compounds such as flavonoids and hydrolysable tannins. This plant exhibits significant antimicrobial activity, effective against various pathogens, due to the bioactive compounds like alkaloids and terpenoids present in its extracts. Its anti-inflammatory properties are also well-documented, with studies showing that the saponins and volatile oils in Syzygium bracteatum extracts can modulate the inflammatory response. Additionally, the plant's analgesic properties are attributed to the presence of flavonoids and phenolic acids, which can act as pain-relievers. Furthermore, Syzygium bracteatum's antifungal activity, exhibited through the inhibition of fungal growth, is attributed to the presence of terpenoids and other bioactive compounds.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 18,
+            "confidence_score": 157,
+            "total_score": 2826
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 16,
+            "confidence_score": 125,
+            "total_score": 2000
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 17,
+            "confidence_score": 123,
+            "total_score": 2091
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 18,
+            "confidence_score": 102,
+            "total_score": 1836
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 14,
+            "confidence_score": 101,
+            "total_score": 1414
+        },
+        {
+            "name": "tannins",
+            "mentions": 16,
+            "confidence_score": 100,
+            "total_score": 1600
+        },
+        {
+            "name": "catechins",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "syringic acid",
+            "mentions": 7,
+            "confidence_score": 31,
+            "total_score": 217
+        },
+        {
+            "name": "glycosides",
+            "mentions": 6,
+            "confidence_score": 30,
+            "total_score": 180
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 8,
+            "confidence_score": 27,
+            "total_score": 216
+        },
+        {
+            "name": "saponins",
+            "mentions": 8,
+            "confidence_score": 24,
+            "total_score": 192
+        },
+        {
+            "name": "anthocyanins",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "proanthocyanidins",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 7,
+            "confidence_score": 15,
+            "total_score": 105
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "coumarins",
+            "mentions": 7,
+            "confidence_score": 13,
+            "total_score": 91
+        },
+        {
+            "name": "syzygium acid",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "syzygiumol a",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Syzygium bracteatum are quercetin, ellagic acid, flavonoids, phenolic acids, and gallic acid. These compounds exhibit potent antioxidant and anti-inflammatory activities due to their ability to scavenge free radicals and inhibit pro-inflammatory enzymes. Quercetin and flavonoids possess anti-cancer properties by modulating cell signaling pathways and inducing apoptosis in cancer cells. Ellagic acid, a phenolic acid, has been shown to inhibit the growth of cancer cells by inducing cell cycle arrest and apoptosis, while gallic acid has anti-inflammatory and antimicrobial properties. The combination of these constituents in Syzygium bracteatum contributes to its potential therapeutic applications in treating various diseases, including cancer, inflammation, and infections.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 17,
+            "confidence_score": 143,
+            "total_score": 2431
+        },
+        {
+            "name": "tea",
+            "mentions": 14,
+            "confidence_score": 134,
+            "total_score": 1876
+        },
+        {
+            "name": "tincture",
+            "mentions": 17,
+            "confidence_score": 108,
+            "total_score": 1836
+        },
+        {
+            "name": "decoction",
+            "mentions": 14,
+            "confidence_score": 90,
+            "total_score": 1260
+        },
+        {
+            "name": "salve",
+            "mentions": 16,
+            "confidence_score": 77,
+            "total_score": 1232
+        },
+        {
+            "name": "ointment",
+            "mentions": 7,
+            "confidence_score": 30,
+            "total_score": 210
+        },
+        {
+            "name": "infused oil",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "syzygium bracteatum tea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "syzygium bracteatum infusion",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "syzygium bracteatum tincture",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "syzygium bracteatum decoction",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "essential oil",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "syzygium tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "syzygium bracteatum syrup",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "poultice",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "syzygium infusion",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "extract",
+            "mentions": 3,
+            "confidence_score": 7,
+            "total_score": 21
+        },
+        {
+            "name": "syzygium decoction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "syzygium tincture",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "capsules",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Syzygium bracteatum are infusion, tea, tincture, decoction, and salve. Infusion and decoction of the leaves are traditionally used to treat respiratory issues such as coughs and colds, whereas tea made from the leaves is consumed for its potential antiseptic and anti-inflammatory properties. A tincture of Syzygium bracteatum is prepared by soaking the leaves in a solvent and is used to treat various health conditions including fever, diarrhea, and skin infections. The leaves are also used to prepare a salve, which is applied topically to treat wounds, cuts, and skin irritations due to its antiseptic and anti-inflammatory properties. These herbal preparations are used due to the plant's high content of flavonoids, phenolic acids, and essential oils, which are responsible for its medicinal properties.",
+    "side_effects": [
+        {
+            "name": "cause diarrhea",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "induce allergic reactions",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "provoke skin irritation",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "get headache",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develops respiratory issues",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develop abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "induce rashes",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "develop rash",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "triggers allergic reactions",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Syzygium bracteatum improperly include inducing diarrhea due to its high fiber content, inducing vomiting and nausea as a result of its emetic properties, leading to severe nausea in some individuals, and in rare cases, it can cause allergic reactions such as skin irritation, itching, and respiratory issues due to its high tannin content. This is because Syzygium bracteatum contains bioactive compounds like flavonoids, phenolic acids, and tannins, which can be toxic in excessive amounts. Improper use can lead to gastrointestinal problems, allergic reactions, and other adverse effects. Syzygium bracteatum's high concentration of essential oils and other bioactive compounds can cause these side effects. The improper use of Syzygium bracteatum can also exacerbate underlying medical conditions, such as kidney or liver disease.",
+    "uses": "Syzygium bracteatum is a plant species native to Australia, but its medicinal uses are not well-documented. However, some sources suggest that the plant has been used in traditional medicine to treat various health issues. The plant's bark and leaves are said to have antimicrobial and anti-inflammatory properties, which may contribute to its medicinal value. Additionally, Syzygium bracteatum may have potential in treating skin conditions and wounds due to its antioxidant properties. Further research is needed to confirm the plant's medicinal uses and potential benefits.",
+    "taxonomy": "Syzygium bracteatum is a species of plant in the family Myrtaceae. This family is a large and diverse group of flowering plants commonly known as the myrtle family. The Myrtaceae family includes over 6,000 species, many of which are native to Australia and other parts of the world. Syzygium bracteatum is often found in tropical and subtropical regions. The plant is part of the Syzygium genus, which is characterized by its evergreen leaves and showy flowers.",
+    "benefits": "I can provide information on Syzygium bracteatum. However, I do not have information on its health benefits.",
+    "parts": "Syzygium bracteatum is known for its medicinal properties, with various parts of the plant being used for different purposes. The leaves of Syzygium bracteatum are used to treat fever and other inflammatory conditions. The bark of the plant is also used in traditional medicine to treat digestive issues and skin problems. The roots of Syzygium bracteatum are believed to have antibacterial properties, making them useful in treating infections. Further research is needed to fully understand the medicinal properties and potential uses of Syzygium bracteatum.",
+    "intro": "Syzygium bracteatum, also known as the brush cherry, is a species of flowering plant in the family Myrtaceae, native to Australia. The health benefits of Syzygium bracteatum include its potential anti-inflammatory and antioxidant properties, which may help to alleviate symptoms of conditions such as arthritis and reduce the risk of chronic diseases like cancer and cardiovascular disease. The bioactive constituents of this plant include flavonoids, phenolic acids, and essential oils, which have been shown to possess antimicrobial and antifungal activities. Syzygium bracteatum is often used in traditional medicine and is commonly found in herbal preparations such as teas, infusions, and tinctures, as well as in topical creams and ointments for skin and wound care."
+}

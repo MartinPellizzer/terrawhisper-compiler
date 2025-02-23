@@ -1,1 +1,1518 @@
-{"herb_slug": "stegnogramma-tottoides", "herb_name_scientific": "Stegnogramma tottoides", "url": "herbs/stegnogramma-tottoides", "lastmod": "2024-12-25", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 12, "confidence_score": 102, "total_score": 1224}, {"medicine_or_poison": "poison", "mentions": 8, "confidence_score": 71, "total_score": 568}], "constituents": [{"name": "quercetin", "mentions": 11, "confidence_score": 98, "total_score": 1078}, {"name": "kaempferol", "mentions": 11, "confidence_score": 76, "total_score": 836}, {"name": "flavonoids", "mentions": 11, "confidence_score": 67, "total_score": 737}, {"name": "phenolic acids", "mentions": 9, "confidence_score": 51, "total_score": 459}, {"name": "isorhapontigenin", "mentions": 8, "confidence_score": 42, "total_score": 336}, {"name": "ferulic acid", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "saponins", "mentions": 8, "confidence_score": 39, "total_score": 312}, {"name": "terpenoids", "mentions": 8, "confidence_score": 37, "total_score": 296}, {"name": "quinic acid", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "gallic acid", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "tannins", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "coumarins", "mentions": 8, "confidence_score": 29, "total_score": 232}, {"name": "epigallocatechin gallate", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "apigenin", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "alkaloids", "mentions": 8, "confidence_score": 24, "total_score": 192}, {"name": "glycosides", "mentions": 8, "confidence_score": 24, "total_score": 192}, {"name": "luteolin", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "rutin", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "naringenin", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "caffeic acid", "mentions": 2, "confidence_score": 14, "total_score": 28}], "title": "Stegnogramma tottoides", "ailments": [{"name": "inflammation", "mentions": 16, "confidence_score": 126, "total_score": 2016}, {"name": "diabetes", "mentions": 12, "confidence_score": 87, "total_score": 1044}, {"name": "diarrhea", "mentions": 8, "confidence_score": 67, "total_score": 536}, {"name": "hypertension", "mentions": 8, "confidence_score": 62, "total_score": 496}, {"name": "fever", "mentions": 9, "confidence_score": 59, "total_score": 531}, {"name": "arthritis", "mentions": 7, "confidence_score": 53, "total_score": 371}, {"name": "digestive issues", "mentions": 7, "confidence_score": 49, "total_score": 343}, {"name": "rheumatism", "mentions": 8, "confidence_score": 47, "total_score": 376}, {"name": "asthma", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "cancer", "mentions": 8, "confidence_score": 44, "total_score": 352}, {"name": "infection", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "gastroenteritis", "mentions": 7, "confidence_score": 34, "total_score": 238}, {"name": "allergies", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "eczema", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "skin irritation", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "dysentery", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "anemia", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "dyspepsia", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "colitis", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "insect bites", "mentions": 2, "confidence_score": 15, "total_score": 30}], "herb_names_common": [{"name": "tottoid fern", "mentions": 23, "confidence_score": 137, "total_score": 3151}, {"name": "stegnogramma", "mentions": 15, "confidence_score": 104, "total_score": 1560}, {"name": "stegnogramma tottoides", "mentions": 23, "confidence_score": 99, "total_score": 2277}, {"name": "tottoid club moss", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "tott's fern", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "tottoid spike moss (stegnogramma tottoides)", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "tottoid moss", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "tottoid spike moss", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "tott's stag's-horn fern", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "tott fern", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "tott's stagshorn fern", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "stemless prickly club fern", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "tott's feather fern", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "tott's stegnogramma", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "tott moss", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "tottoid grass fern", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "silver sedge", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "stegnogramma moss", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "mountain fern (var.)", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "bristle fern", "mentions": 2, "confidence_score": 11, "total_score": 22}], "ailments_description": "The most common ailments you can heal with Stegnogramma tottoides are fever, which is often treated with a decoction of the plant's leaves. Inflammation, characterized by redness, heat, and swelling, has been effectively reduced with Stegnogramma tottoides extracts. The plant has also been used to treat urinary tract infections, including cystitis, by promoting urine flow and reducing bacterial growth. Additionally, Stegnogramma tottoides has been shown to lower blood pressure in patients with hypertension. Skin conditions such as eczema and dermatitis have been alleviated with topical applications of Stegnogramma tottoides extracts.", "constituents_description": "The most important healing constituents of Stegnogramma tottoides are flavonoids, terpenoids, and phenolic acids, which possess anti-inflammatory, antioxidant, and antimicrobial properties. Flavonoids, including kaempferol and quercetin, have been shown to inhibit the production of pro-inflammatory enzymes and cytokines, thus reducing inflammation and oxidative stress. Terpenoids, such as steganic acid and tottalic acid, have been found to exhibit antimicrobial and antifungal activities, making them effective against a range of pathogens. Phenolic acids, including ferulic and caffeic acids, have been reported to possess antioxidant and anti-inflammatory properties, which may contribute to the plant's ability to protect against cell damage and promote wound healing. These bioactive compounds have been isolated and characterized using various analytical techniques, including chromatography and spectroscopy, providing evidence for their therapeutic potential.", "properties": [{"name": "antimicrobial", "mentions": 19, "confidence_score": 126, "total_score": 2394}, {"name": "antioxidant", "mentions": 19, "confidence_score": 123, "total_score": 2337}, {"name": "anti-inflammatory", "mentions": 19, "confidence_score": 107, "total_score": 2033}, {"name": "analgesic", "mentions": 17, "confidence_score": 56, "total_score": 952}, {"name": "antifungal", "mentions": 11, "confidence_score": 56, "total_score": 616}, {"name": "antibacterial", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "hepatoprotective", "mentions": 11, "confidence_score": 41, "total_score": 451}, {"name": "antiviral", "mentions": 11, "confidence_score": 40, "total_score": 440}, {"name": "anticancer", "mentions": 9, "confidence_score": 36, "total_score": 324}, {"name": "antipyretic", "mentions": 7, "confidence_score": 28, "total_score": 196}, {"name": "cardioprotective", "mentions": 11, "confidence_score": 27, "total_score": 297}, {"name": "antiseptic", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "neuroprotective", "mentions": 7, "confidence_score": 14, "total_score": 98}, {"name": "cytotoxic", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "antiparasitic", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "immunomodulatory", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "wound-healing", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "anticariogenic", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "antispasmodic", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "hypotensive", "mentions": 2, "confidence_score": 9, "total_score": 18}], "properties_description": "The main therapeutic properties of Stegnogramma tottoides are its anti-inflammatory activity, which reduces pain and swelling, its antimicrobial properties, which inhibit the growth of microorganisms, its antioxidant activity, which protects cells from oxidative damage, and its immunomodulatory effects, which regulate the immune system. The plant's bioactive compounds, including flavonoids, phenolic acids, and saponins, contribute to its anti-inflammatory activity by inhibiting pro-inflammatory enzymes and cytokines. The antimicrobial properties of Stegnogramma tottoides are attributed to its volatile oils, which have been shown to exhibit antibacterial and antifungal activities. Additionally, the plant's antioxidant activity is due to the presence of flavonoids and phenolic acids, which scavenge free radicals and protect cells from damage. The immunomodulatory effects of Stegnogramma tottoides are mediated by its saponins, which have been shown to modulate immune cell function and cytokine production.", "preparations": [{"name": "tea", "mentions": 20, "confidence_score": 173, "total_score": 3460}, {"name": "infusion", "mentions": 20, "confidence_score": 172, "total_score": 3440}, {"name": "tincture", "mentions": 20, "confidence_score": 118, "total_score": 2360}, {"name": "decoction", "mentions": 16, "confidence_score": 89, "total_score": 1424}, {"name": "salve", "mentions": 20, "confidence_score": 78, "total_score": 1560}, {"name": "ointment", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "poultice", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "suppository", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "capsule", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "capsules", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "extract", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "infused oil", "mentions": 2, "confidence_score": 3, "total_score": 6}], "preparations_description": "The main herbal preparations of Stegnogramma tottoides are tea, infusion, tincture, decoction, and salve. These preparations are made from the plant's leaves and stems, which contain bioactive compounds that exhibit anti-inflammatory and antimicrobial properties. Tea and infusion are prepared by steeping the plant material in hot water, while decoction involves boiling the material to extract its medicinal properties. Tincture is a concentrated liquid preparation made by soaking the plant material in a solvent such as ethanol or glycerin, and salve is a topical application made by infusing the plant material in a fatty substance. These preparations have been traditionally used to treat various health conditions, including fever, cough, and skin infections, although more research is needed to fully confirm their efficacy.", "side_effects": [{"name": "induce nausea", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "cause diarrhea", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "experience nausea", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "exacerbate allergies", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "experiencing vomiting", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "experiencing nausea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "develop respiratory issues", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "developing abdominal pain", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "increase blood pressure", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "experiencing abdominal pain", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "trigger headaches", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "has vomiting", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "shows abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiencing headache", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "suffering diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause liver damage", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "develops headache", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "suffer allergic reactions", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "suffers diarrhea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experiences fatigue", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "induce coma", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "trigger allergic reactions", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "suffering fatigue", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "affect kidney function", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "affect liver function", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "gets dizziness", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "suffer anaphylaxis", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "worsen digestion", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experience abdominal pain", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "interact with medication", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "induce gastrointestinal bleeding", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "developing allergic reactions", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "has fever", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develops allergic reaction", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "experience gastrointestinal distress", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "get skin irritation", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "provoke diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "showing hypoglycemia", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "lead to dehydration", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause skin irritation", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "lead to respiratory issues", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "show kidney damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "developing headaches", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develops diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience renal failure", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "trigger coma", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "lead to rash", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffering vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "getting diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "getting dizziness", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "get headaches", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiencing diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "developing dizziness", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "produce abdominal pain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause respiratory distress", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "disrupt digestive tract", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiences vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop skin irritation", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "nauseate", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "show skin irritation", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer kidney damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experience allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "produce kidney damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause neurological disorders", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "getting nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "get fatigue", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experiencing dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "trigger diarrhea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffers abdominal pain", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "develop nausea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "noticing skin irritation", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "get cardiac arrest", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "cause dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "produce dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develop allergies", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "developing respiratory issues", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "developing rash", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "provoke headaches", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "feeling dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "exhibits headache", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show signs of hypersensitivity", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show cardiac problems", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experience neurological effects", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "trigger respiratory failure", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "getting headaches", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "exhibits rash", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experience neurological damage", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "aggravate asthma", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "cause respiratory failure", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "elicit allergic reaction", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop skin rashes", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "showing fatigue", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "produce skin irritation", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffering headaches", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experience cardiovascular problems", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffer from gastrointestinal issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop gastrointestinal bleeding", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "lead to respiratory problems", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "showing unusual fatigue", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop kidney failure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "developing allergic reaction", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffer diarrhea", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "showing skin irritation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "facing hypotension", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "develop neurological disorders", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiencing skin irritation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffers dizziness", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience dizziness", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffer organ failure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "produce seizures", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffering dizziness", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience seizures", "mentions": 2, "confidence_score": 3, "total_score": 6}, {"name": "experiencing liver damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "stimulate respiratory issues", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop liver damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "showing allergic reactions", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "show gastrointestinal symptoms", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cause kidney damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "exhibits weakness", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "have seizure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "increase heart rate", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "lead to hypertension", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experiencing respiratory failure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffering kidney failure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "aggravate skin irritation", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "get seizures", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiencing allergic reaction", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "developing skin lesions", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "cause birth defects", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "provoke skin irritation", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiencing cardiac problems", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiences palpitations", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience respiratory failure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "lead to seizures", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "cause renal failure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "develop hepatic dysfunction", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "interfere with sleep", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "worsen anxiety", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "experiencing cardiac arrest", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "lead to cancer", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "trigger anaphylaxis", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "suffers hypotension", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "develop cardiac arrhythmia", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "produce cardiac arrest", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effect of using Stegnogramma tottoides are that it may induce nausea due to the presence of toxic compounds such as sesquiterpene lactones which can cause gastrointestinal irritation leading to nausea and vomiting, and cause diarrhea by disrupting the normal gut flora, exacerbate allergies in individuals sensitive to plant-derived allergens, and trigger an allergic reaction characterized by symptoms such as hives, itching, and difficulty breathing. These adverse effects are caused by the plant's ability to release sesquiterpene lactones and other bioactive compounds when ingested, inhaled, or applied topically. The severity of these side effects can vary depending on the individual's sensitivity and the amount of Stegnogramma tottoides consumed or exposed to. Stegnogramma tottoides should be handled with caution and under the guidance of a healthcare professional, especially for individuals with pre-existing allergies or gastrointestinal issues. Ingesting Stegnogramma tottoides can also lead to more severe health complications, such as liver or kidney damage, in rare cases.", "category-action": "anti-inflammatory", "category_action": "anti-inflammatory", "family_slug": "aspleniaceae", "family_name": "Aspleniaceae", "what_description": "Stegnogramma tottoides is a species of fern in the family Aspleniaceae. It is a small to medium-sized, terrestrial fern with a slender rhizome and fronds that are triangular in shape and 30-80 cm in length. The fronds are bipinnate, with pinnae that are 5-10 mm wide and pinnules that are 1-3 mm wide. The plant is found in shaded, humid areas, particularly in tropical and subtropical regions, and is often associated with rocky outcrops and tree ferns. Stegnogramma tottoides is a rare species with limited distribution, and its distinctive frond morphology makes it a valuable addition to collections of ferns.", "uses": "Stegnogramma tottoides is a species of fern, but information about its medicinal uses is limited. It is primarily known for its traditional uses in medicine, particularly in Asia, where it has been used to treat various health conditions. The plant is believed to possess anti-inflammatory and antioxidant properties, although more research is needed to confirm its potential health benefits. In some cultures, it is used to treat digestive issues and to reduce fever. However, the efficacy and safety of Stegnogramma tottoides as a medicinal plant require further scientific investigation.", "taxonomy": "Stegnogramma tottoides is classified under the family Pteridaceae, commonly known as the maidenhair fern family. This plant is a species of fern, specifically a genus of ferns in the family Pteridaceae. The classification of Stegnogramma tottoides is further broken down into the order Pteridales, and the class Polypodiopsida. The plant is native to various parts of the world, including Asia and the Pacific Islands. Its classification is an essential part of understanding its evolutionary relationships and characteristics.", "benefits": "Stegnogramma tottoides is a type of fern native to various parts of the world, and research suggests it may have potential health benefits. Its extracts have been studied for their antioxidant and anti-inflammatory properties, which could help protect against cell damage and reduce inflammation in the body. However, more extensive research is needed to fully understand its effects and potential applications. Traditionally, Stegnogramma tottoides has been used in folk medicine to treat various ailments, including fever and respiratory issues. Further studies are required to confirm its efficacy and safety for human consumption.", "parts": "Stegnogramma tottoides is a plant species found in Southeast Asia, and its medicinal parts are not well-documented in available sources. However, traditional medicine in some regions suggests that the leaves of Stegnogramma tottoides may be used for medicinal purposes. More research is needed to determine the specific medicinal properties and uses of this plant species. The leaves are often used in herbal remedies, but their effectiveness and safety have not been scientifically proven. Further studies are required to fully understand the potential benefits and risks of using Stegnogramma tottoides as a medicinal plant.", "intro": "Stegnogramma tottoides, also known as Stegnogramma, is a type of fern plant that belongs to the family Thelypteridaceae. Traditionally, Stegnogramma tottoides has been used in herbal medicine to treat various health issues, including fever, cough, and respiratory infections, due to its anti-inflammatory and antimicrobial properties. The bioactive constituents of Stegnogramma tottoides include flavonoids, phenolic acids, and terpenoids, which are responsible for its medicinal properties. Stegnogramma tottoides is commonly prepared as a tea or tincture in traditional medicine, although it can also be found in capsule or powder form in modern herbal supplements."}
+{
+    "herb_slug": "stegnogramma-tottoides",
+    "herb_name_scientific": "Stegnogramma tottoides",
+    "url": "herbs/stegnogramma-tottoides",
+    "lastmod": "2024-12-25",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 12,
+            "confidence_score": 102,
+            "total_score": 1224
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 8,
+            "confidence_score": 71,
+            "total_score": 568
+        }
+    ],
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 11,
+            "confidence_score": 98,
+            "total_score": 1078
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 11,
+            "confidence_score": 76,
+            "total_score": 836
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 11,
+            "confidence_score": 67,
+            "total_score": 737
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 9,
+            "confidence_score": 51,
+            "total_score": 459
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 8,
+            "confidence_score": 42,
+            "total_score": 336
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "saponins",
+            "mentions": 8,
+            "confidence_score": 39,
+            "total_score": 312
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 8,
+            "confidence_score": 37,
+            "total_score": 296
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "tannins",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "coumarins",
+            "mentions": 8,
+            "confidence_score": 29,
+            "total_score": 232
+        },
+        {
+            "name": "epigallocatechin gallate",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "apigenin",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 8,
+            "confidence_score": 24,
+            "total_score": 192
+        },
+        {
+            "name": "glycosides",
+            "mentions": 8,
+            "confidence_score": 24,
+            "total_score": 192
+        },
+        {
+            "name": "luteolin",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "rutin",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "naringenin",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "title": "Stegnogramma tottoides",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 16,
+            "confidence_score": 126,
+            "total_score": 2016
+        },
+        {
+            "name": "diabetes",
+            "mentions": 12,
+            "confidence_score": 87,
+            "total_score": 1044
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 8,
+            "confidence_score": 67,
+            "total_score": 536
+        },
+        {
+            "name": "hypertension",
+            "mentions": 8,
+            "confidence_score": 62,
+            "total_score": 496
+        },
+        {
+            "name": "fever",
+            "mentions": 9,
+            "confidence_score": 59,
+            "total_score": 531
+        },
+        {
+            "name": "arthritis",
+            "mentions": 7,
+            "confidence_score": 53,
+            "total_score": 371
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 7,
+            "confidence_score": 49,
+            "total_score": 343
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 8,
+            "confidence_score": 47,
+            "total_score": 376
+        },
+        {
+            "name": "asthma",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "cancer",
+            "mentions": 8,
+            "confidence_score": 44,
+            "total_score": 352
+        },
+        {
+            "name": "infection",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 7,
+            "confidence_score": 34,
+            "total_score": 238
+        },
+        {
+            "name": "allergies",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "eczema",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "dysentery",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "anemia",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "dyspepsia",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "colitis",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "insect bites",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "tottoid fern",
+            "mentions": 23,
+            "confidence_score": 137,
+            "total_score": 3151
+        },
+        {
+            "name": "stegnogramma",
+            "mentions": 15,
+            "confidence_score": 104,
+            "total_score": 1560
+        },
+        {
+            "name": "stegnogramma tottoides",
+            "mentions": 23,
+            "confidence_score": 99,
+            "total_score": 2277
+        },
+        {
+            "name": "tottoid club moss",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "tott's fern",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "tottoid spike moss (stegnogramma tottoides)",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "tottoid moss",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "tottoid spike moss",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "tott's stag's-horn fern",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "tott fern",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "tott's stagshorn fern",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "stemless prickly club fern",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "tott's feather fern",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "tott's stegnogramma",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "tott moss",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "tottoid grass fern",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "silver sedge",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "stegnogramma moss",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "mountain fern (var.)",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "bristle fern",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Stegnogramma tottoides are fever, which is often treated with a decoction of the plant's leaves. Inflammation, characterized by redness, heat, and swelling, has been effectively reduced with Stegnogramma tottoides extracts. The plant has also been used to treat urinary tract infections, including cystitis, by promoting urine flow and reducing bacterial growth. Additionally, Stegnogramma tottoides has been shown to lower blood pressure in patients with hypertension. Skin conditions such as eczema and dermatitis have been alleviated with topical applications of Stegnogramma tottoides extracts.",
+    "constituents_description": "The most important healing constituents of Stegnogramma tottoides are flavonoids, terpenoids, and phenolic acids, which possess anti-inflammatory, antioxidant, and antimicrobial properties. Flavonoids, including kaempferol and quercetin, have been shown to inhibit the production of pro-inflammatory enzymes and cytokines, thus reducing inflammation and oxidative stress. Terpenoids, such as steganic acid and tottalic acid, have been found to exhibit antimicrobial and antifungal activities, making them effective against a range of pathogens. Phenolic acids, including ferulic and caffeic acids, have been reported to possess antioxidant and anti-inflammatory properties, which may contribute to the plant's ability to protect against cell damage and promote wound healing. These bioactive compounds have been isolated and characterized using various analytical techniques, including chromatography and spectroscopy, providing evidence for their therapeutic potential.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 19,
+            "confidence_score": 126,
+            "total_score": 2394
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 19,
+            "confidence_score": 123,
+            "total_score": 2337
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 19,
+            "confidence_score": 107,
+            "total_score": 2033
+        },
+        {
+            "name": "analgesic",
+            "mentions": 17,
+            "confidence_score": 56,
+            "total_score": 952
+        },
+        {
+            "name": "antifungal",
+            "mentions": 11,
+            "confidence_score": 56,
+            "total_score": 616
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 11,
+            "confidence_score": 41,
+            "total_score": 451
+        },
+        {
+            "name": "antiviral",
+            "mentions": 11,
+            "confidence_score": 40,
+            "total_score": 440
+        },
+        {
+            "name": "anticancer",
+            "mentions": 9,
+            "confidence_score": 36,
+            "total_score": 324
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 7,
+            "confidence_score": 28,
+            "total_score": 196
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 11,
+            "confidence_score": 27,
+            "total_score": 297
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 7,
+            "confidence_score": 14,
+            "total_score": 98
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "wound-healing",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "anticariogenic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Stegnogramma tottoides are its anti-inflammatory activity, which reduces pain and swelling, its antimicrobial properties, which inhibit the growth of microorganisms, its antioxidant activity, which protects cells from oxidative damage, and its immunomodulatory effects, which regulate the immune system. The plant's bioactive compounds, including flavonoids, phenolic acids, and saponins, contribute to its anti-inflammatory activity by inhibiting pro-inflammatory enzymes and cytokines. The antimicrobial properties of Stegnogramma tottoides are attributed to its volatile oils, which have been shown to exhibit antibacterial and antifungal activities. Additionally, the plant's antioxidant activity is due to the presence of flavonoids and phenolic acids, which scavenge free radicals and protect cells from damage. The immunomodulatory effects of Stegnogramma tottoides are mediated by its saponins, which have been shown to modulate immune cell function and cytokine production.",
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 20,
+            "confidence_score": 173,
+            "total_score": 3460
+        },
+        {
+            "name": "infusion",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 118,
+            "total_score": 2360
+        },
+        {
+            "name": "decoction",
+            "mentions": 16,
+            "confidence_score": 89,
+            "total_score": 1424
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 78,
+            "total_score": 1560
+        },
+        {
+            "name": "ointment",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "poultice",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "capsule",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "capsules",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "extract",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "infused oil",
+            "mentions": 2,
+            "confidence_score": 3,
+            "total_score": 6
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Stegnogramma tottoides are tea, infusion, tincture, decoction, and salve. These preparations are made from the plant's leaves and stems, which contain bioactive compounds that exhibit anti-inflammatory and antimicrobial properties. Tea and infusion are prepared by steeping the plant material in hot water, while decoction involves boiling the material to extract its medicinal properties. Tincture is a concentrated liquid preparation made by soaking the plant material in a solvent such as ethanol or glycerin, and salve is a topical application made by infusing the plant material in a fatty substance. These preparations have been traditionally used to treat various health conditions, including fever, cough, and skin infections, although more research is needed to fully confirm their efficacy.",
+    "side_effects": [
+        {
+            "name": "induce nausea",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "develop respiratory issues",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "developing abdominal pain",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "has vomiting",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "shows abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiencing headache",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "suffering diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "develops headache",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "suffer allergic reactions",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "suffers diarrhea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experiences fatigue",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "induce coma",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "suffering fatigue",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "affect kidney function",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "affect liver function",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "gets dizziness",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "suffer anaphylaxis",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "worsen digestion",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "interact with medication",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "induce gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "developing allergic reactions",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "has fever",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develops allergic reaction",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "experience gastrointestinal distress",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "get skin irritation",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "provoke diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "showing hypoglycemia",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "lead to dehydration",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "lead to respiratory issues",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "show kidney damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "developing headaches",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience renal failure",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "trigger coma",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "lead to rash",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffering vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "getting diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "getting dizziness",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "get headaches",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "developing dizziness",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "produce abdominal pain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause respiratory distress",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "disrupt digestive tract",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiences vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "nauseate",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "show skin irritation",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer kidney damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experience allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "produce kidney damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause neurological disorders",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "getting nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "get fatigue",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "trigger diarrhea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffers abdominal pain",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "develop nausea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "noticing skin irritation",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "get cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "produce dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develop allergies",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "developing respiratory issues",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "developing rash",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "provoke headaches",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "feeling dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "exhibits headache",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show signs of hypersensitivity",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show cardiac problems",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experience neurological effects",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "trigger respiratory failure",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "getting headaches",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "exhibits rash",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experience neurological damage",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "aggravate asthma",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "cause respiratory failure",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "elicit allergic reaction",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop skin rashes",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "showing fatigue",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "produce skin irritation",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffering headaches",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experience cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffer from gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "lead to respiratory problems",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "showing unusual fatigue",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop kidney failure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "developing allergic reaction",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffer diarrhea",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "showing skin irritation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "facing hypotension",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "develop neurological disorders",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiencing skin irritation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffers dizziness",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffer organ failure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "produce seizures",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffering dizziness",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience seizures",
+            "mentions": 2,
+            "confidence_score": 3,
+            "total_score": 6
+        },
+        {
+            "name": "experiencing liver damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "stimulate respiratory issues",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop liver damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "showing allergic reactions",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "show gastrointestinal symptoms",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cause kidney damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "exhibits weakness",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "have seizure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "lead to hypertension",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experiencing respiratory failure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffering kidney failure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "aggravate skin irritation",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "get seizures",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiencing allergic reaction",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "developing skin lesions",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "cause birth defects",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "provoke skin irritation",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiencing cardiac problems",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiences palpitations",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience respiratory failure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "lead to seizures",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "cause renal failure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "develop hepatic dysfunction",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "interfere with sleep",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "worsen anxiety",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "experiencing cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "lead to cancer",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "trigger anaphylaxis",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "suffers hypotension",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "develop cardiac arrhythmia",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "produce cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effect of using Stegnogramma tottoides are that it may induce nausea due to the presence of toxic compounds such as sesquiterpene lactones which can cause gastrointestinal irritation leading to nausea and vomiting, and cause diarrhea by disrupting the normal gut flora, exacerbate allergies in individuals sensitive to plant-derived allergens, and trigger an allergic reaction characterized by symptoms such as hives, itching, and difficulty breathing. These adverse effects are caused by the plant's ability to release sesquiterpene lactones and other bioactive compounds when ingested, inhaled, or applied topically. The severity of these side effects can vary depending on the individual's sensitivity and the amount of Stegnogramma tottoides consumed or exposed to. Stegnogramma tottoides should be handled with caution and under the guidance of a healthcare professional, especially for individuals with pre-existing allergies or gastrointestinal issues. Ingesting Stegnogramma tottoides can also lead to more severe health complications, such as liver or kidney damage, in rare cases.",
+    "category-action": "anti-inflammatory",
+    "category_action": "anti-inflammatory",
+    "family_slug": "aspleniaceae",
+    "family_name": "Aspleniaceae",
+    "what_description": "Stegnogramma tottoides is a species of fern in the family Aspleniaceae. It is a small to medium-sized, terrestrial fern with a slender rhizome and fronds that are triangular in shape and 30-80 cm in length. The fronds are bipinnate, with pinnae that are 5-10 mm wide and pinnules that are 1-3 mm wide. The plant is found in shaded, humid areas, particularly in tropical and subtropical regions, and is often associated with rocky outcrops and tree ferns. Stegnogramma tottoides is a rare species with limited distribution, and its distinctive frond morphology makes it a valuable addition to collections of ferns.",
+    "uses": "Stegnogramma tottoides is a species of fern, but information about its medicinal uses is limited. It is primarily known for its traditional uses in medicine, particularly in Asia, where it has been used to treat various health conditions. The plant is believed to possess anti-inflammatory and antioxidant properties, although more research is needed to confirm its potential health benefits. In some cultures, it is used to treat digestive issues and to reduce fever. However, the efficacy and safety of Stegnogramma tottoides as a medicinal plant require further scientific investigation.",
+    "taxonomy": "Stegnogramma tottoides is classified under the family Pteridaceae, commonly known as the maidenhair fern family. This plant is a species of fern, specifically a genus of ferns in the family Pteridaceae. The classification of Stegnogramma tottoides is further broken down into the order Pteridales, and the class Polypodiopsida. The plant is native to various parts of the world, including Asia and the Pacific Islands. Its classification is an essential part of understanding its evolutionary relationships and characteristics.",
+    "benefits": "Stegnogramma tottoides is a type of fern native to various parts of the world, and research suggests it may have potential health benefits. Its extracts have been studied for their antioxidant and anti-inflammatory properties, which could help protect against cell damage and reduce inflammation in the body. However, more extensive research is needed to fully understand its effects and potential applications. Traditionally, Stegnogramma tottoides has been used in folk medicine to treat various ailments, including fever and respiratory issues. Further studies are required to confirm its efficacy and safety for human consumption.",
+    "parts": "Stegnogramma tottoides is a plant species found in Southeast Asia, and its medicinal parts are not well-documented in available sources. However, traditional medicine in some regions suggests that the leaves of Stegnogramma tottoides may be used for medicinal purposes. More research is needed to determine the specific medicinal properties and uses of this plant species. The leaves are often used in herbal remedies, but their effectiveness and safety have not been scientifically proven. Further studies are required to fully understand the potential benefits and risks of using Stegnogramma tottoides as a medicinal plant.",
+    "intro": "Stegnogramma tottoides, also known as Stegnogramma, is a type of fern plant that belongs to the family Thelypteridaceae. Traditionally, Stegnogramma tottoides has been used in herbal medicine to treat various health issues, including fever, cough, and respiratory infections, due to its anti-inflammatory and antimicrobial properties. The bioactive constituents of Stegnogramma tottoides include flavonoids, phenolic acids, and terpenoids, which are responsible for its medicinal properties. Stegnogramma tottoides is commonly prepared as a tea or tincture in traditional medicine, although it can also be found in capsule or powder form in modern herbal supplements."
+}

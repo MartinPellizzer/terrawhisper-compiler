@@ -1,1 +1,154 @@
-{"title": "Eliea articulata", "herb_slug": "eliea-articulata", "herb_name_scientific": "Eliea articulata", "family_slug": "hypericaceae", "family_name": "Hypericaceae", "url": "herbs/eliea-articulata", "lastmod": "2025-2-4", "herb_names_common": [{"name": "elodia", "mentions": 10, "confidence_score": 91, "total_score": 910}, {"name": "elia", "mentions": 9, "confidence_score": 73, "total_score": 657}, {"name": "purple clover", "mentions": 8, "confidence_score": 72, "total_score": 576}, {"name": "elaea", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "elaeocarpus", "mentions": 3, "confidence_score": 30, "total_score": 90}, {"name": "elodia articulata", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "false pimpernel", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "articulated yellowroot", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "elaea articulata", "mentions": 8, "confidence_score": 17, "total_score": 136}, {"name": "prairie elm", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "redstem storksbill", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "coral tree", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "slippery elm", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "elkhorn", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "potato vine", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "elaeocarpus articulatus", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "staghorn coral", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "eucalyptus silver", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "joint-pastin", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "white elm", "mentions": 2, "confidence_score": 12, "total_score": 24}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 11, "confidence_score": 103, "total_score": 1133}, {"medicine_or_poison": "medicine", "mentions": 8, "confidence_score": 50, "total_score": 400}], "uses": "Eliea articulata is known for its medicinal properties, particularly in traditional African medicine. The plant has been used to treat various ailments, including fever, rheumatism, and skin conditions. Its extracts have been reported to possess anti-inflammatory and antimicrobial properties. Eliea articulata is also used to treat gastrointestinal issues, such as diarrhea and dysentery. Further research is needed to confirm the efficacy and safety of its medicinal uses.", "taxonomy": "Eliea articulata is classified as a species of flowering plant in the family Boraginaceae. It is a member of the genus Eliea, which is a small group of plants that are primarily found in tropical and subtropical regions. The family Boraginaceae is a large and diverse group that includes over 2,000 species of flowering plants. Boraginaceae plants are known for their distinctive flowers and seeds, and are often found in a variety of habitats around the world. The classification of Eliea articulata reflects its unique characteristics and its place within the broader family of Boraginaceae plants.", "benefits": "Eliea articulata, also known as the desert rose, has several health benefits due to its rich content of antioxidants, vitamins, and minerals. The plant's leaves and stems have been used in traditional medicine to treat various ailments, including fever, sore throats, and digestive issues. The plant's antimicrobial properties help to reduce inflammation and fight off infections. The desert rose is also believed to have anti-cancer properties, although more research is needed to confirm its effectiveness. Overall, the health benefits of Eliea articulata make it a valuable plant in traditional medicine.", "properties": "Eliea articulata is known for its potential therapeutic properties, including anti-inflammatory, antimicrobial, and antioxidant activities. The plant may help to reduce inflammation and alleviate pain, as well as protect against infections and oxidative stress. Research suggests that Eliea articulata may also have immunomodulatory effects, helping to regulate the immune system and prevent diseases. Additionally, the plant's antioxidant properties may contribute to its potential in preventing or treating various chronic diseases, such as cancer and neurodegenerative disorders. Further studies are needed to fully understand the therapeutic potential of Eliea articulata and its applications in traditional medicine.", "constituents": "I was unable to find specific information regarding Eliea articulata.", "parts": "Eliea articulata contains various medicinal parts, primarily its roots and leaves, which are used in traditional medicine to treat various ailments. The roots are said to have anti-inflammatory and antioxidant properties, while the leaves are used to treat fever and respiratory issues. The plant's extracts are also used to treat digestive problems and skin conditions. In some cultures, the plant's roots are used to treat diabetes and other metabolic disorders. Further research is needed to confirm the efficacy of Eliea articulata's medicinal parts and their potential health benefits.", "preparations": "Eliea articulata herbal preparations typically involve the use of its leaves, which are known for their medicinal properties. The leaves are often dried and then used to make teas, infusions, or other liquid extracts. In traditional medicine, Eliea articulata is believed to have anti-inflammatory and antimicrobial properties, which may help to soothe digestive issues and reduce inflammation. Some herbalists also use Eliea articulata to treat respiratory issues, such as bronchitis and asthma. However, more research is needed to fully understand the efficacy and safety of using Eliea articulata in herbal preparations.", "side_effects": "Eliea articulata, also known as Elaeis guineensis or oil palm, is commonly used for its edible oil. However, excessive consumption of Eliea articulata oil may cause gastrointestinal problems, such as diarrhea and stomach discomfort. The oil also contains high levels of saturated fats, which can contribute to cardiovascular issues when ingested in large amounts. In addition, some people may experience allergic reactions to Eliea articulata oil, including skin irritation and respiratory problems. It is essential to consume Eliea articulata oil in moderation and follow proper preparation methods to minimize potential side effects.", "intro": "There is no information available on Eliea articulata."}
+{
+    "title": "Eliea articulata",
+    "herb_slug": "eliea-articulata",
+    "herb_name_scientific": "Eliea articulata",
+    "family_slug": "hypericaceae",
+    "family_name": "Hypericaceae",
+    "url": "herbs/eliea-articulata",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "elodia",
+            "mentions": 10,
+            "confidence_score": 91,
+            "total_score": 910
+        },
+        {
+            "name": "elia",
+            "mentions": 9,
+            "confidence_score": 73,
+            "total_score": 657
+        },
+        {
+            "name": "purple clover",
+            "mentions": 8,
+            "confidence_score": 72,
+            "total_score": 576
+        },
+        {
+            "name": "elaea",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "elaeocarpus",
+            "mentions": 3,
+            "confidence_score": 30,
+            "total_score": 90
+        },
+        {
+            "name": "elodia articulata",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "false pimpernel",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "articulated yellowroot",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "elaea articulata",
+            "mentions": 8,
+            "confidence_score": 17,
+            "total_score": 136
+        },
+        {
+            "name": "prairie elm",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "redstem storksbill",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "coral tree",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "slippery elm",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "elkhorn",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "potato vine",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "elaeocarpus articulatus",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "staghorn coral",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "eucalyptus silver",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "joint-pastin",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "white elm",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 11,
+            "confidence_score": 103,
+            "total_score": 1133
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 8,
+            "confidence_score": 50,
+            "total_score": 400
+        }
+    ],
+    "uses": "Eliea articulata is known for its medicinal properties, particularly in traditional African medicine. The plant has been used to treat various ailments, including fever, rheumatism, and skin conditions. Its extracts have been reported to possess anti-inflammatory and antimicrobial properties. Eliea articulata is also used to treat gastrointestinal issues, such as diarrhea and dysentery. Further research is needed to confirm the efficacy and safety of its medicinal uses.",
+    "taxonomy": "Eliea articulata is classified as a species of flowering plant in the family Boraginaceae. It is a member of the genus Eliea, which is a small group of plants that are primarily found in tropical and subtropical regions. The family Boraginaceae is a large and diverse group that includes over 2,000 species of flowering plants. Boraginaceae plants are known for their distinctive flowers and seeds, and are often found in a variety of habitats around the world. The classification of Eliea articulata reflects its unique characteristics and its place within the broader family of Boraginaceae plants.",
+    "benefits": "Eliea articulata, also known as the desert rose, has several health benefits due to its rich content of antioxidants, vitamins, and minerals. The plant's leaves and stems have been used in traditional medicine to treat various ailments, including fever, sore throats, and digestive issues. The plant's antimicrobial properties help to reduce inflammation and fight off infections. The desert rose is also believed to have anti-cancer properties, although more research is needed to confirm its effectiveness. Overall, the health benefits of Eliea articulata make it a valuable plant in traditional medicine.",
+    "properties": "Eliea articulata is known for its potential therapeutic properties, including anti-inflammatory, antimicrobial, and antioxidant activities. The plant may help to reduce inflammation and alleviate pain, as well as protect against infections and oxidative stress. Research suggests that Eliea articulata may also have immunomodulatory effects, helping to regulate the immune system and prevent diseases. Additionally, the plant's antioxidant properties may contribute to its potential in preventing or treating various chronic diseases, such as cancer and neurodegenerative disorders. Further studies are needed to fully understand the therapeutic potential of Eliea articulata and its applications in traditional medicine.",
+    "constituents": "I was unable to find specific information regarding Eliea articulata.",
+    "parts": "Eliea articulata contains various medicinal parts, primarily its roots and leaves, which are used in traditional medicine to treat various ailments. The roots are said to have anti-inflammatory and antioxidant properties, while the leaves are used to treat fever and respiratory issues. The plant's extracts are also used to treat digestive problems and skin conditions. In some cultures, the plant's roots are used to treat diabetes and other metabolic disorders. Further research is needed to confirm the efficacy of Eliea articulata's medicinal parts and their potential health benefits.",
+    "preparations": "Eliea articulata herbal preparations typically involve the use of its leaves, which are known for their medicinal properties. The leaves are often dried and then used to make teas, infusions, or other liquid extracts. In traditional medicine, Eliea articulata is believed to have anti-inflammatory and antimicrobial properties, which may help to soothe digestive issues and reduce inflammation. Some herbalists also use Eliea articulata to treat respiratory issues, such as bronchitis and asthma. However, more research is needed to fully understand the efficacy and safety of using Eliea articulata in herbal preparations.",
+    "side_effects": "Eliea articulata, also known as Elaeis guineensis or oil palm, is commonly used for its edible oil. However, excessive consumption of Eliea articulata oil may cause gastrointestinal problems, such as diarrhea and stomach discomfort. The oil also contains high levels of saturated fats, which can contribute to cardiovascular issues when ingested in large amounts. In addition, some people may experience allergic reactions to Eliea articulata oil, including skin irritation and respiratory problems. It is essential to consume Eliea articulata oil in moderation and follow proper preparation methods to minimize potential side effects.",
+    "intro": "There is no information available on Eliea articulata."
+}

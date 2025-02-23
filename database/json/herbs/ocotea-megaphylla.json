@@ -1,1 +1,761 @@
-{"title": "Ocotea megaphylla", "herb_slug": "ocotea-megaphylla", "herb_name_scientific": "Ocotea megaphylla", "family_slug": "lauraceae", "family_name": "Lauraceae", "url": "herbs/ocotea-megaphylla", "lastmod": "2025-1-14", "herb_names_common": [{"name": "ocotea", "mentions": 19, "confidence_score": 148, "total_score": 2812}, {"name": "megaphylla tree", "mentions": 18, "confidence_score": 109, "total_score": 1962}, {"name": "peruvian sandalwood", "mentions": 8, "confidence_score": 49, "total_score": 392}, {"name": "ocotea megaphylla", "mentions": 7, "confidence_score": 41, "total_score": 287}, {"name": "cinnamon tree", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "guaiacwood", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "canelo", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "brazilian laurel", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "mega leaf tree", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "palo de mega hoja", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "ocotea tree", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cedronela", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cinnamon bark tree", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "false sandalwood", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "huanuco sandalwood", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "peruvian rosewood", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "west indian rosewood", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "santalum", "mentions": 4, "confidence_score": 11, "total_score": 44}, {"name": "ocotea megaphylla tree", "mentions": 4, "confidence_score": 11, "total_score": 44}, {"name": "santos rosewood", "mentions": 2, "confidence_score": 11, "total_score": 22}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 165, "total_score": 3300}], "what_description": "Ocotea megaphylla is a species of plant in the family Lauraceae. It is a tree with a straight trunk, smooth, gray bark, and a rounded or conical crown. Leaves are large, 15-25 cm long, elliptic, with a pointed tip, and have a leathery texture; they are arranged opposite, with 2-4 pairs of secondary veins. The plant is native to the Andes mountains in South America, specifically in Colombia and Ecuador. Flowers are small, yellowish-green, and arranged in clusters, with 4-6 tepals, and are dioecious, meaning they have separate male and female plants.", "category_action": "antimicrobial", "ailments": [{"name": "inflammation", "mentions": 21, "confidence_score": 169, "total_score": 3549}, {"name": "anxiety", "mentions": 20, "confidence_score": 165, "total_score": 3300}, {"name": "stress", "mentions": 14, "confidence_score": 113, "total_score": 1582}, {"name": "pain", "mentions": 13, "confidence_score": 111, "total_score": 1443}, {"name": "digestive issues", "mentions": 14, "confidence_score": 96, "total_score": 1344}, {"name": "depression", "mentions": 11, "confidence_score": 80, "total_score": 880}, {"name": "hypertension", "mentions": 9, "confidence_score": 66, "total_score": 594}, {"name": "insomnia", "mentions": 9, "confidence_score": 66, "total_score": 594}, {"name": "arthritis", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "infections", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "migraines", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "sleep disorder", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "fatigue", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "fungal infections", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "high blood pressure", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "immune system boost", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "skin issues", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "diabetes", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "chronic pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "sleep disorders", "mentions": 3, "confidence_score": 17, "total_score": 51}], "ailments_description": "The most common ailments you can heal with Ocotea megaphylla are inflammation and anxiety, due to its anti-inflammatory and anxiolytic properties, reducing cortisol levels and promoting relaxation. Chronic pain and digestive issues are also alleviated by Ocotea megaphylla, as it modulates the body's response to pain and regulates gut bacteria. Additionally, Ocotea megaphylla has been shown to decrease blood pressure and alleviate symptoms of hypertension, insomnia, and sleep disorders. It also possesses antimicrobial properties that combat infections, migraines, and fungal infections, while its antioxidant properties boost the immune system. Furthermore, Ocotea megaphylla has been found to help manage depression, arthritis, fatigue, high blood pressure, skin issues, diabetes, and chronic pain.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 166, "total_score": 3320}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 148, "total_score": 2960}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 142, "total_score": 2840}, {"name": "analgesic", "mentions": 18, "confidence_score": 86, "total_score": 1548}, {"name": "antifungal", "mentions": 11, "confidence_score": 77, "total_score": 847}, {"name": "antiviral", "mentions": 15, "confidence_score": 72, "total_score": 1080}, {"name": "antispasmodic", "mentions": 11, "confidence_score": 55, "total_score": 605}, {"name": "neuroprotective", "mentions": 9, "confidence_score": 42, "total_score": 378}, {"name": "cardioprotective", "mentions": 8, "confidence_score": 42, "total_score": 336}, {"name": "antiparasitic", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "cytotoxic", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "anticancer", "mentions": 7, "confidence_score": 29, "total_score": 203}, {"name": "antiseptic", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "antibacterial", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "hypotensive", "mentions": 6, "confidence_score": 22, "total_score": 132}, {"name": "antitumor", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "cytoprotective", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "hepatoprotective", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "antihypertensive", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "antidiabetic", "mentions": 3, "confidence_score": 14, "total_score": 42}], "properties_description": "The main therapeutic properties of Ocotea megaphylla are its antioxidant activity, which protects against cell damage and oxidative stress, attributed to the presence of flavonoids and phenolic acids, including quercetin and kaempferol, that scavenge free radicals and inhibit lipid peroxidation. This plant also exhibits antimicrobial properties, inhibiting the growth of various bacteria, fungi, and yeast, due to the action of volatile oils, particularly eugenol, and other compounds like saponins and terpenoids, which interfere with microbial cell membranes and enzymes. Furthermore, Ocotea megaphylla displays anti-inflammatory activity, reducing inflammation and pain, through the modulation of pro-inflammatory cytokines and enzymes, such as COX-2 and TNF-\u03b1, which are inhibited by bioactive compounds like sesquiterpenes and diterpenes. The analgesic properties of Ocotea megaphylla are also attributed to the presence of these bioactive compounds, which interact with opioid receptors and other pain pathways, providing relief from pain and discomfort. Additionally, Ocotea megaphylla exhibits antifungal properties, inhibiting the growth of fungal pathogens, due to the action of compounds like eugenol and other volatile oils, which disrupt fungal cell membranes and inhibit fungal enzymes.", "constituents": [{"name": "limonene", "mentions": 10, "confidence_score": 80, "total_score": 800}, {"name": "caryophyllene oxide", "mentions": 12, "confidence_score": 80, "total_score": 960}, {"name": "\u03b2-pinene", "mentions": 9, "confidence_score": 58, "total_score": 522}, {"name": "catechin", "mentions": 7, "confidence_score": 57, "total_score": 399}, {"name": "quercetin", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "\u03b2-caryophyllene", "mentions": 6, "confidence_score": 49, "total_score": 294}, {"name": "\u03b1-pinene", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "linalool", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "kaempferol", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "\u03b1-terpineol", "mentions": 8, "confidence_score": 42, "total_score": 336}, {"name": "ocoteine", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "epicatechin", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "gallic acid", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "caffeic acid", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "luteolin", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "bornyl acetate", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "ferulic acid", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "eudesmol", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "eugenol", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "apigenin", "mentions": 4, "confidence_score": 22, "total_score": 88}], "constituents_description": "The most important healing constituents of Ocotea megaphylla are limonene, caryophyllene oxide, \u03b2-pinene, catechin, and quercetin. These compounds have been found to exhibit anti-inflammatory and antioxidant properties, with limonene and caryophyllene oxide displaying antibacterial and antifungal activity, while \u03b2-pinene has been shown to possess bronchodilatory effects. Catechin, a flavonoid, has been found to possess antioxidant and anti-inflammatory properties, while quercetin, a flavonoid, has been shown to have potent anti-inflammatory and antioxidant effects. The antioxidant properties of these compounds may contribute to the plant's ability to protect against oxidative stress and cell damage, while their anti-inflammatory properties may help to reduce inflammation and alleviate symptoms associated with various diseases. Furthermore, the combination of these compounds may contribute to the plant's potential therapeutic benefits in the treatment of various health conditions, including inflammatory diseases and oxidative stress-related disorders.", "preparations": [{"name": "tincture", "mentions": 19, "confidence_score": 153, "total_score": 2907}, {"name": "tea", "mentions": 15, "confidence_score": 121, "total_score": 1815}, {"name": "infusion", "mentions": 13, "confidence_score": 87, "total_score": 1131}, {"name": "essential oil", "mentions": 15, "confidence_score": 79, "total_score": 1185}, {"name": "salve", "mentions": 13, "confidence_score": 65, "total_score": 845}, {"name": "infused oil", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "capsules", "mentions": 9, "confidence_score": 41, "total_score": 369}, {"name": "ocotea tea", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "ocotea oil", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "decoction", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "suppositories", "mentions": 4, "confidence_score": 10, "total_score": 40}, {"name": "supercritical co2 extract", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "ocotea tincture", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "topical oil", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "infusion tea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suppository", "mentions": 3, "confidence_score": 7, "total_score": 21}, {"name": "ocotea capsule", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "glycerite", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "ocotea infusion", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "supplement capsule", "mentions": 1, "confidence_score": 4, "total_score": 4}], "preparations_description": "The main herbal preparations of Ocotea megaphylla are derived from its leaves and bark, which contain a rich concentration of essential oils, particularly caryophyllene, humulene, and beta-selinene. A tincture of Ocotea megaphylla is prepared by steeping its leaves and bark in a solvent such as ethanol or glycerin to create a concentrated liquid extract that can be used topically or internally to treat various health issues. The leaves of the plant can also be used to make a tea or infusion, which is said to have anti-inflammatory and antioxidant properties. Essential oils extracted from Ocotea megaphylla leaves and bark can be used in aromatherapy to promote relaxation and reduce stress levels, and can also be blended with other oils to create topical salves and creams for skin issues. A salve made from Ocotea megaphylla essential oil and a carrier oil such as coconut or olive oil can be applied topically to reduce inflammation and promote wound healing.", "side_effects": [{"name": "cause diarrhea", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "induce vomiting", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "experiencing nausea", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "trigger allergic reactions", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "developing diarrhea", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "showing allergic reactions", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "develop skin irritation", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "experience nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiencing vomiting", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "induce seizures", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "triggers allergic reactions", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "exhibits cardiovascular instability", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "trigger seizures", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "lead to liver damage", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "suffering headaches", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "elevate blood pressure", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "suffer from diarrhea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "cause liver damage", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "causes dizziness", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "develop liver damage", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effects of using Ocotea megaphylla improperly include inducing vomiting and diarrhea due to its high concentration of compounds such as sesquiterpenes and terpenoids which may cause gastrointestinal irritation. Experiencing nausea is also a possible side effect as Ocotea megaphylla may cause stomach upset and discomfort. In some cases, Ocotea megaphylla may trigger allergic reactions in sensitive individuals, leading to symptoms such as hives, itching, and difficulty breathing. This is because Ocotea megaphylla contains compounds that can stimulate the immune system and cause an allergic response. If not used properly, Ocotea megaphylla may cause diarrhea, which can be a result of its irritant properties and can lead to dehydration and other complications.", "uses": "Ocotea megaphylla is a species of plant that has been studied for its potential medicinal properties. It has been found to have antioxidant and anti-inflammatory activities, which may contribute to its potential health benefits. The plant's extracts have been shown to have antimicrobial properties, which could be useful in treating infections. However, more research is needed to fully understand the medicinal uses of Ocotea megaphylla. Further studies are required to confirm its effectiveness and safety as a medicinal agent.", "taxonomy": "Ocotea megaphylla is classified within the Lauraceae family, which is a group of flowering plants commonly known as laurel family. This family comprises about 2,000 to 3,000 species, making it one of the largest families of flowering plants. Ocotea megaphylla is further classified in the genus Ocotea, which is a genus of evergreen trees and shrubs. The genus Ocotea is primarily found in Central and South America, with species distributed from Mexico to Argentina. Ocotea megaphylla is also known as Mexican bay or West Indian bay, but its classification as a distinct species is subject to ongoing research and verification.", "benefits": "Ocotea megaphylla, also known as the Amazonian pepper tree, has been traditionally used in herbal medicine for its potential health benefits. The plant is rich in antioxidants and may have anti-inflammatory properties. Studies suggest that Ocotea megaphylla may help to reduce stress and anxiety levels due to its calming effects. Its essential oils have been used to alleviate digestive issues and improve sleep quality. However, more research is needed to fully understand the extent of its health benefits.", "parts": "Ocotea megaphylla is a species of plant known to have various medicinal properties. The leaves and roots of Ocotea megaphylla are often used in traditional medicine. These parts are believed to possess anti-inflammatory and antimicrobial properties, which can help in treating various health issues. The leaves are also used to treat respiratory problems, such as cough and cold. The roots of the plant are used to treat digestive issues, including stomach problems and diarrhea.", "intro": "Ocotea megaphylla, also known as Ocotea or Brazilian pepper tree, is a tropical evergreen tree native to the Amazon rainforest. The health benefits of Ocotea megaphylla include its ability to act as an anti-inflammatory, antimicrobial, and antioxidant agent, which can help to reduce pain and inflammation, and protect against cell damage. The bioactive constituents of Ocotea megaphylla include limonene, ocotein, and sesquiterpenes, which are responsible for its medicinal properties. In traditional herbal medicine, Ocotea megaphylla is often used in teas, capsules, and essential oils, which are commonly used to treat digestive issues, relieve pain and inflammation, and support immune function."}
+{
+    "title": "Ocotea megaphylla",
+    "herb_slug": "ocotea-megaphylla",
+    "herb_name_scientific": "Ocotea megaphylla",
+    "family_slug": "lauraceae",
+    "family_name": "Lauraceae",
+    "url": "herbs/ocotea-megaphylla",
+    "lastmod": "2025-1-14",
+    "herb_names_common": [
+        {
+            "name": "ocotea",
+            "mentions": 19,
+            "confidence_score": 148,
+            "total_score": 2812
+        },
+        {
+            "name": "megaphylla tree",
+            "mentions": 18,
+            "confidence_score": 109,
+            "total_score": 1962
+        },
+        {
+            "name": "peruvian sandalwood",
+            "mentions": 8,
+            "confidence_score": 49,
+            "total_score": 392
+        },
+        {
+            "name": "ocotea megaphylla",
+            "mentions": 7,
+            "confidence_score": 41,
+            "total_score": 287
+        },
+        {
+            "name": "cinnamon tree",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "guaiacwood",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "canelo",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "brazilian laurel",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "mega leaf tree",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "palo de mega hoja",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "ocotea tree",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cedronela",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cinnamon bark tree",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "false sandalwood",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "huanuco sandalwood",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "peruvian rosewood",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "west indian rosewood",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "santalum",
+            "mentions": 4,
+            "confidence_score": 11,
+            "total_score": 44
+        },
+        {
+            "name": "ocotea megaphylla tree",
+            "mentions": 4,
+            "confidence_score": 11,
+            "total_score": 44
+        },
+        {
+            "name": "santos rosewood",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 165,
+            "total_score": 3300
+        }
+    ],
+    "what_description": "Ocotea megaphylla is a species of plant in the family Lauraceae. It is a tree with a straight trunk, smooth, gray bark, and a rounded or conical crown. Leaves are large, 15-25 cm long, elliptic, with a pointed tip, and have a leathery texture; they are arranged opposite, with 2-4 pairs of secondary veins. The plant is native to the Andes mountains in South America, specifically in Colombia and Ecuador. Flowers are small, yellowish-green, and arranged in clusters, with 4-6 tepals, and are dioecious, meaning they have separate male and female plants.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 21,
+            "confidence_score": 169,
+            "total_score": 3549
+        },
+        {
+            "name": "anxiety",
+            "mentions": 20,
+            "confidence_score": 165,
+            "total_score": 3300
+        },
+        {
+            "name": "stress",
+            "mentions": 14,
+            "confidence_score": 113,
+            "total_score": 1582
+        },
+        {
+            "name": "pain",
+            "mentions": 13,
+            "confidence_score": 111,
+            "total_score": 1443
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 14,
+            "confidence_score": 96,
+            "total_score": 1344
+        },
+        {
+            "name": "depression",
+            "mentions": 11,
+            "confidence_score": 80,
+            "total_score": 880
+        },
+        {
+            "name": "hypertension",
+            "mentions": 9,
+            "confidence_score": 66,
+            "total_score": 594
+        },
+        {
+            "name": "insomnia",
+            "mentions": 9,
+            "confidence_score": 66,
+            "total_score": 594
+        },
+        {
+            "name": "arthritis",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "infections",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "migraines",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "sleep disorder",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "fatigue",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "immune system boost",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "skin issues",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "diabetes",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "chronic pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "sleep disorders",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Ocotea megaphylla are inflammation and anxiety, due to its anti-inflammatory and anxiolytic properties, reducing cortisol levels and promoting relaxation. Chronic pain and digestive issues are also alleviated by Ocotea megaphylla, as it modulates the body's response to pain and regulates gut bacteria. Additionally, Ocotea megaphylla has been shown to decrease blood pressure and alleviate symptoms of hypertension, insomnia, and sleep disorders. It also possesses antimicrobial properties that combat infections, migraines, and fungal infections, while its antioxidant properties boost the immune system. Furthermore, Ocotea megaphylla has been found to help manage depression, arthritis, fatigue, high blood pressure, skin issues, diabetes, and chronic pain.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 166,
+            "total_score": 3320
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 148,
+            "total_score": 2960
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 142,
+            "total_score": 2840
+        },
+        {
+            "name": "analgesic",
+            "mentions": 18,
+            "confidence_score": 86,
+            "total_score": 1548
+        },
+        {
+            "name": "antifungal",
+            "mentions": 11,
+            "confidence_score": 77,
+            "total_score": 847
+        },
+        {
+            "name": "antiviral",
+            "mentions": 15,
+            "confidence_score": 72,
+            "total_score": 1080
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 11,
+            "confidence_score": 55,
+            "total_score": 605
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 9,
+            "confidence_score": 42,
+            "total_score": 378
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 8,
+            "confidence_score": 42,
+            "total_score": 336
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "anticancer",
+            "mentions": 7,
+            "confidence_score": 29,
+            "total_score": 203
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 6,
+            "confidence_score": 22,
+            "total_score": 132
+        },
+        {
+            "name": "antitumor",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Ocotea megaphylla are its antioxidant activity, which protects against cell damage and oxidative stress, attributed to the presence of flavonoids and phenolic acids, including quercetin and kaempferol, that scavenge free radicals and inhibit lipid peroxidation. This plant also exhibits antimicrobial properties, inhibiting the growth of various bacteria, fungi, and yeast, due to the action of volatile oils, particularly eugenol, and other compounds like saponins and terpenoids, which interfere with microbial cell membranes and enzymes. Furthermore, Ocotea megaphylla displays anti-inflammatory activity, reducing inflammation and pain, through the modulation of pro-inflammatory cytokines and enzymes, such as COX-2 and TNF-\u03b1, which are inhibited by bioactive compounds like sesquiterpenes and diterpenes. The analgesic properties of Ocotea megaphylla are also attributed to the presence of these bioactive compounds, which interact with opioid receptors and other pain pathways, providing relief from pain and discomfort. Additionally, Ocotea megaphylla exhibits antifungal properties, inhibiting the growth of fungal pathogens, due to the action of compounds like eugenol and other volatile oils, which disrupt fungal cell membranes and inhibit fungal enzymes.",
+    "constituents": [
+        {
+            "name": "limonene",
+            "mentions": 10,
+            "confidence_score": 80,
+            "total_score": 800
+        },
+        {
+            "name": "caryophyllene oxide",
+            "mentions": 12,
+            "confidence_score": 80,
+            "total_score": 960
+        },
+        {
+            "name": "\u03b2-pinene",
+            "mentions": 9,
+            "confidence_score": 58,
+            "total_score": 522
+        },
+        {
+            "name": "catechin",
+            "mentions": 7,
+            "confidence_score": 57,
+            "total_score": 399
+        },
+        {
+            "name": "quercetin",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "\u03b2-caryophyllene",
+            "mentions": 6,
+            "confidence_score": 49,
+            "total_score": 294
+        },
+        {
+            "name": "\u03b1-pinene",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "linalool",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "\u03b1-terpineol",
+            "mentions": 8,
+            "confidence_score": 42,
+            "total_score": 336
+        },
+        {
+            "name": "ocoteine",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "luteolin",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "bornyl acetate",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "eudesmol",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "eugenol",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "apigenin",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Ocotea megaphylla are limonene, caryophyllene oxide, \u03b2-pinene, catechin, and quercetin. These compounds have been found to exhibit anti-inflammatory and antioxidant properties, with limonene and caryophyllene oxide displaying antibacterial and antifungal activity, while \u03b2-pinene has been shown to possess bronchodilatory effects. Catechin, a flavonoid, has been found to possess antioxidant and anti-inflammatory properties, while quercetin, a flavonoid, has been shown to have potent anti-inflammatory and antioxidant effects. The antioxidant properties of these compounds may contribute to the plant's ability to protect against oxidative stress and cell damage, while their anti-inflammatory properties may help to reduce inflammation and alleviate symptoms associated with various diseases. Furthermore, the combination of these compounds may contribute to the plant's potential therapeutic benefits in the treatment of various health conditions, including inflammatory diseases and oxidative stress-related disorders.",
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 19,
+            "confidence_score": 153,
+            "total_score": 2907
+        },
+        {
+            "name": "tea",
+            "mentions": 15,
+            "confidence_score": 121,
+            "total_score": 1815
+        },
+        {
+            "name": "infusion",
+            "mentions": 13,
+            "confidence_score": 87,
+            "total_score": 1131
+        },
+        {
+            "name": "essential oil",
+            "mentions": 15,
+            "confidence_score": 79,
+            "total_score": 1185
+        },
+        {
+            "name": "salve",
+            "mentions": 13,
+            "confidence_score": 65,
+            "total_score": 845
+        },
+        {
+            "name": "infused oil",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "capsules",
+            "mentions": 9,
+            "confidence_score": 41,
+            "total_score": 369
+        },
+        {
+            "name": "ocotea tea",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "ocotea oil",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "decoction",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "suppositories",
+            "mentions": 4,
+            "confidence_score": 10,
+            "total_score": 40
+        },
+        {
+            "name": "supercritical co2 extract",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "ocotea tincture",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "topical oil",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "infusion tea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suppository",
+            "mentions": 3,
+            "confidence_score": 7,
+            "total_score": 21
+        },
+        {
+            "name": "ocotea capsule",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "ocotea infusion",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "supplement capsule",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Ocotea megaphylla are derived from its leaves and bark, which contain a rich concentration of essential oils, particularly caryophyllene, humulene, and beta-selinene. A tincture of Ocotea megaphylla is prepared by steeping its leaves and bark in a solvent such as ethanol or glycerin to create a concentrated liquid extract that can be used topically or internally to treat various health issues. The leaves of the plant can also be used to make a tea or infusion, which is said to have anti-inflammatory and antioxidant properties. Essential oils extracted from Ocotea megaphylla leaves and bark can be used in aromatherapy to promote relaxation and reduce stress levels, and can also be blended with other oils to create topical salves and creams for skin issues. A salve made from Ocotea megaphylla essential oil and a carrier oil such as coconut or olive oil can be applied topically to reduce inflammation and promote wound healing.",
+    "side_effects": [
+        {
+            "name": "cause diarrhea",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "developing diarrhea",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "showing allergic reactions",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "triggers allergic reactions",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "exhibits cardiovascular instability",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "lead to liver damage",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "suffering headaches",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "suffer from diarrhea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "causes dizziness",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "develop liver damage",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Ocotea megaphylla improperly include inducing vomiting and diarrhea due to its high concentration of compounds such as sesquiterpenes and terpenoids which may cause gastrointestinal irritation. Experiencing nausea is also a possible side effect as Ocotea megaphylla may cause stomach upset and discomfort. In some cases, Ocotea megaphylla may trigger allergic reactions in sensitive individuals, leading to symptoms such as hives, itching, and difficulty breathing. This is because Ocotea megaphylla contains compounds that can stimulate the immune system and cause an allergic response. If not used properly, Ocotea megaphylla may cause diarrhea, which can be a result of its irritant properties and can lead to dehydration and other complications.",
+    "uses": "Ocotea megaphylla is a species of plant that has been studied for its potential medicinal properties. It has been found to have antioxidant and anti-inflammatory activities, which may contribute to its potential health benefits. The plant's extracts have been shown to have antimicrobial properties, which could be useful in treating infections. However, more research is needed to fully understand the medicinal uses of Ocotea megaphylla. Further studies are required to confirm its effectiveness and safety as a medicinal agent.",
+    "taxonomy": "Ocotea megaphylla is classified within the Lauraceae family, which is a group of flowering plants commonly known as laurel family. This family comprises about 2,000 to 3,000 species, making it one of the largest families of flowering plants. Ocotea megaphylla is further classified in the genus Ocotea, which is a genus of evergreen trees and shrubs. The genus Ocotea is primarily found in Central and South America, with species distributed from Mexico to Argentina. Ocotea megaphylla is also known as Mexican bay or West Indian bay, but its classification as a distinct species is subject to ongoing research and verification.",
+    "benefits": "Ocotea megaphylla, also known as the Amazonian pepper tree, has been traditionally used in herbal medicine for its potential health benefits. The plant is rich in antioxidants and may have anti-inflammatory properties. Studies suggest that Ocotea megaphylla may help to reduce stress and anxiety levels due to its calming effects. Its essential oils have been used to alleviate digestive issues and improve sleep quality. However, more research is needed to fully understand the extent of its health benefits.",
+    "parts": "Ocotea megaphylla is a species of plant known to have various medicinal properties. The leaves and roots of Ocotea megaphylla are often used in traditional medicine. These parts are believed to possess anti-inflammatory and antimicrobial properties, which can help in treating various health issues. The leaves are also used to treat respiratory problems, such as cough and cold. The roots of the plant are used to treat digestive issues, including stomach problems and diarrhea.",
+    "intro": "Ocotea megaphylla, also known as Ocotea or Brazilian pepper tree, is a tropical evergreen tree native to the Amazon rainforest. The health benefits of Ocotea megaphylla include its ability to act as an anti-inflammatory, antimicrobial, and antioxidant agent, which can help to reduce pain and inflammation, and protect against cell damage. The bioactive constituents of Ocotea megaphylla include limonene, ocotein, and sesquiterpenes, which are responsible for its medicinal properties. In traditional herbal medicine, Ocotea megaphylla is often used in teas, capsules, and essential oils, which are commonly used to treat digestive issues, relieve pain and inflammation, and support immune function."
+}

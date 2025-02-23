@@ -1,1 +1,719 @@
-{"title": "Endostemon viscosus", "herb_slug": "endostemon-viscosus", "herb_name_scientific": "Endostemon viscosus", "family_slug": "lamiaceae", "family_name": "Lamiaceae", "url": "herbs/endostemon-viscosus", "lastmod": "2025-2-1", "herb_names_common": [{"name": "endostemon", "mentions": 20, "confidence_score": 137, "total_score": 2740}, {"name": "viscous endostemon", "mentions": 13, "confidence_score": 80, "total_score": 1040}, {"name": "viscous endostemon viscosus", "mentions": 12, "confidence_score": 66, "total_score": 792}, {"name": "viscosus", "mentions": 11, "confidence_score": 55, "total_score": 605}, {"name": "wild basil", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "african dusty miller", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "viscous herbe", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "dwarf false sage", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "african sticky herbe", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "african blue sage", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "sesame weed", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "sticky endostemon", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "wild bergamot", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "wild marjoram", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "viscous endostemon species", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "east african basil", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "viscous basil", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "plectranthus", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "wild thyme", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "viscous endostemon (english)", "mentions": 1, "confidence_score": 9, "total_score": 9}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 14, "confidence_score": 112, "total_score": 1568}, {"medicine_or_poison": "poison", "mentions": 6, "confidence_score": 55, "total_score": 330}], "what_description": "Endostemon viscosus is a species of flowering plant in the family Lamiaceae. It is an annual herb with a viscid or sticky stem, growing up to 10-30 cm in height, and has a quadrangular to subquadrangular shape. The leaves are opposite, ovate to elliptic in shape, and measure 1-2.5 cm in length, with a cuneate base and a serrated margin. The inflorescence is a spike-like raceme, bearing small, tubular flowers with a corolla length of 3-4 mm and a yellowish-white color. The plant produces four-merous flowers with a calyx of 2-3 mm in length and an upper lip that is notched at the apex.", "category_action": "antimicrobial", "ailments": [{"name": "diarrhea", "mentions": 14, "confidence_score": 112, "total_score": 1568}, {"name": "skin irritation", "mentions": 12, "confidence_score": 93, "total_score": 1116}, {"name": "fever", "mentions": 12, "confidence_score": 92, "total_score": 1104}, {"name": "inflammation", "mentions": 10, "confidence_score": 79, "total_score": 790}, {"name": "wounds", "mentions": 8, "confidence_score": 58, "total_score": 464}, {"name": "wound healing", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "cough", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "skin infections", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "malaria", "mentions": 9, "confidence_score": 48, "total_score": 432}, {"name": "rheumatism", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "insect bites", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "fungal infections", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "digestive issues", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "respiratory issues", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "gastroenteritis", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "dysentery", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "bacterial infections", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "cholera", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "viral infections", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "boils", "mentions": 3, "confidence_score": 17, "total_score": 51}], "ailments_description": "The most common ailments you can heal with Endostemon viscosus are diarrhea and skin irritation, as it has been shown to have antimicrobial properties that inhibit the growth of pathogens causing these conditions. The plant has also been traditionally used to treat fever and reduce body temperature. Its anti-inflammatory properties make it effective in treating inflammation, wounds, and accelerating wound healing. Additionally, Endostemon viscosus has been found to have expectorant properties, making it a treatment for cough, while its antimicrobial properties also combat skin infections and malaria. Furthermore, the plant is used to relieve rheumatism and insect bites, and its antifungal properties combat fungal infections, as well as digestive issues and gastroenteritis, and its antibacterial properties combat cholera, bacterial infections, and viral infections, and it is also used to treat boils.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 158, "total_score": 3160}, {"name": "antioxidant", "mentions": 20, "confidence_score": 146, "total_score": 2920}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 131, "total_score": 2620}, {"name": "analgesic", "mentions": 20, "confidence_score": 92, "total_score": 1840}, {"name": "antibacterial", "mentions": 11, "confidence_score": 85, "total_score": 935}, {"name": "antifungal", "mentions": 15, "confidence_score": 84, "total_score": 1260}, {"name": "hepatoprotective", "mentions": 9, "confidence_score": 46, "total_score": 414}, {"name": "antipyretic", "mentions": 11, "confidence_score": 42, "total_score": 462}, {"name": "antiviral", "mentions": 12, "confidence_score": 37, "total_score": 444}, {"name": "antiseptic", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "cardioprotective", "mentions": 6, "confidence_score": 21, "total_score": 126}, {"name": "antidiarrheal", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "anticancer", "mentions": 6, "confidence_score": 17, "total_score": 102}, {"name": "antiparasitic", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "antispasmodic", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "expectorant", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cytotoxic", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "antihistaminic", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "antihistamine", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "antidiabetic", "mentions": 3, "confidence_score": 8, "total_score": 24}], "properties_description": "The main therapeutic properties of Endostemon viscosus are attributed to its ability to exhibit antimicrobial activity, which prevents the growth of harmful microorganisms. The antioxidant properties of this plant are responsible for neutralizing free radicals, thereby reducing oxidative stress and cell damage. Anti-inflammatory properties are also present, which help in alleviating pain and reducing swelling caused by inflammation, while also protecting the body from chronic diseases. Analgesic properties enable the plant to provide relief from pain, allowing individuals to recover from injuries and illnesses. The antimicrobial, antioxidant, anti-inflammatory, and analgesic properties of Endostemon viscosus are further enhanced by its antibacterial properties, which inhibit the growth of bacteria and prevent infections.", "constituents": [{"name": "flavonoids", "mentions": 15, "confidence_score": 113, "total_score": 1695}, {"name": "phenolic acids", "mentions": 14, "confidence_score": 96, "total_score": 1344}, {"name": "saponins", "mentions": 15, "confidence_score": 90, "total_score": 1350}, {"name": "tannins", "mentions": 12, "confidence_score": 89, "total_score": 1068}, {"name": "terpenoids", "mentions": 14, "confidence_score": 72, "total_score": 1008}, {"name": "quercetin", "mentions": 7, "confidence_score": 60, "total_score": 420}, {"name": "alkaloids", "mentions": 14, "confidence_score": 57, "total_score": 798}, {"name": "glycosides", "mentions": 12, "confidence_score": 53, "total_score": 636}, {"name": "kaempferol", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "coumarins", "mentions": 12, "confidence_score": 38, "total_score": 456}, {"name": "rutin", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "phenolic glycosides", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "ursolic acid", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "sterols", "mentions": 8, "confidence_score": 27, "total_score": 216}, {"name": "oleanolic acid", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "apigenin", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "luteolin", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "naringenin", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "caffeic acid", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "\u03b2-sitosterol", "mentions": 2, "confidence_score": 16, "total_score": 32}], "constituents_description": "The most important healing constituents of Endostemon viscosus are flavonoids, phenolic acids, saponins, tannins, and terpenoids. These compounds have been found to possess antioxidant, anti-inflammatory, and antimicrobial properties, which contribute to the plant's medicinal value. Flavonoids, such as quercetin and kaempferol, have been identified as the primary flavonoids present in Endostemon viscosus, which are responsible for its anti-inflammatory and antioxidant activities. Phenolic acids, including ferulic and sinapic acid, have been found to possess antimicrobial and anti-inflammatory properties, while saponins, such as oleanolic acid, exhibit anti-inflammatory and antioxidant activities. Additionally, the presence of terpenoids, including beta-sitosterol and stigmasterol, contributes to the plant's antifungal and antimicrobial properties.", "preparations": [{"name": "tea", "mentions": 19, "confidence_score": 173, "total_score": 3287}, {"name": "infusion", "mentions": 18, "confidence_score": 143, "total_score": 2574}, {"name": "tincture", "mentions": 20, "confidence_score": 143, "total_score": 2860}, {"name": "salve", "mentions": 20, "confidence_score": 98, "total_score": 1960}, {"name": "essential oil", "mentions": 8, "confidence_score": 34, "total_score": 272}, {"name": "decoction", "mentions": 7, "confidence_score": 31, "total_score": 217}, {"name": "infused oil", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "ointment", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "poultice", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "capsules", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "resin", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "extract", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Endostemon viscosus are derived from its leaves and stems, which contain essential oils, flavonoids, and phenolic acids. Tea is made by steeping the leaves in hot water to treat various ailments, including fever, headache, and digestive issues. Infusion is prepared similarly but often involves steeping the plant material for a longer period to release more bioactive compounds. Tincture is a concentrated liquid extract of the plant, used to treat conditions such as colds, flu, and respiratory issues. Salve and essential oil preparations, obtained through steam distillation or solvent extraction, are used topically to treat wounds, skin infections, and inflammation.", "side_effects": [{"name": "experiencing nausea", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "experience diarrhea", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "developing allergic reactions", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "show increased heart rate", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiencing dizziness", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "develop nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "feel dizziness", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "experience allergic reactions", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop skin irritation", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experience abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experience vomiting", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "developing respiratory issues", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experience allergic reaction", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffers hepatic toxicity", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "develop respiratory depression", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "triggers allergic reaction", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffering respiratory distress", "mentions": 1, "confidence_score": 10, "total_score": 10}], "side_effects_description": "The possible side effects of using Endostemon viscosus improperly include experiencing nausea, which is often caused by excessive consumption of its extracts, leading to stomach irritation. Diarrhea is another potential side effect due to the plant's ability to stimulate gut motility and secretion, resulting in increased bowel movements. Developing allergic reactions is also possible, particularly in individuals who are sensitive to certain compounds found in the plant, such as flavonoids and terpenes. Increased heart rate can occur due to the plant's potential to interact with cardiovascular medications and stimulate the sympathetic nervous system, thereby affecting heart function. Furthermore, experiencing diarrhea, which is a common gastrointestinal symptom, may also occur due to the plant's laxative properties.", "uses": "Endostemon viscosus has been traditionally used in various cultures for its medicinal properties, particularly in treating respiratory issues such as coughs and colds. The plant's extracts have been used to relieve congestion and reduce inflammation in the respiratory tract. Its antimicrobial properties also make it useful in treating infections and wounds. Additionally, Endostemon viscosus has been used to treat fever and other systemic illnesses. More research is needed to fully understand the plant's potential medicinal uses and their effectiveness.", "taxonomy": "Endostemon viscosus is classified in the following manner: it belongs to the family Lamiaceae, commonly known as the mint family. This species is further classified as belonging to the genus Endostemon, which is native to the tropical regions of Africa and Madagascar. The genus Endostemon is closely related to other genera in the same family, such as Pogostemon and Siphomeria. Endostemon viscosus is a perennial herb that is known for its sticky leaves and stems. It is a relatively understudied species within the Lamiaceae family, with limited information available on its classification and characteristics.", "benefits": "Endostemon viscosus has been traditionally used in various cultures for its medicinal properties. It is believed to have anti-inflammatory and antimicrobial effects, which may help in treating wounds and skin infections. Some studies suggest that the plant may also have antioxidant and antidiabetic properties, making it a potential natural remedy for managing blood sugar levels. Furthermore, Endostemon viscosus is thought to have immunomodulatory effects, which could aid in boosting the immune system and preventing illnesses. However, more research is needed to fully understand the health benefits of Endostemon viscosus and to confirm its efficacy in treating various health conditions.", "parts": "Endostemon viscosus is a species of flowering plant, but unfortunately, I do not have information on its medicinal parts.", "intro": "Endostemon viscosus, also known as sticky bush, is a plant species native to tropical regions of Africa, belonging to the family Lamiaceae. The plant has been traditionally used for its medicinal properties, which include anti-inflammatory, antimicrobial, and antioxidant effects, providing relief from various health issues such as fever, cough, and skin infections. The bioactive constituents of Endostemon viscosus include flavonoids, phenolic acids, and terpenoids, which are responsible for its medicinal properties. The plant is commonly used in traditional medicine and is prepared in various forms, including infusions, decoctions, and extracts, to treat various health conditions."}
+{
+    "title": "Endostemon viscosus",
+    "herb_slug": "endostemon-viscosus",
+    "herb_name_scientific": "Endostemon viscosus",
+    "family_slug": "lamiaceae",
+    "family_name": "Lamiaceae",
+    "url": "herbs/endostemon-viscosus",
+    "lastmod": "2025-2-1",
+    "herb_names_common": [
+        {
+            "name": "endostemon",
+            "mentions": 20,
+            "confidence_score": 137,
+            "total_score": 2740
+        },
+        {
+            "name": "viscous endostemon",
+            "mentions": 13,
+            "confidence_score": 80,
+            "total_score": 1040
+        },
+        {
+            "name": "viscous endostemon viscosus",
+            "mentions": 12,
+            "confidence_score": 66,
+            "total_score": 792
+        },
+        {
+            "name": "viscosus",
+            "mentions": 11,
+            "confidence_score": 55,
+            "total_score": 605
+        },
+        {
+            "name": "wild basil",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "african dusty miller",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "viscous herbe",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "dwarf false sage",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "african sticky herbe",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "african blue sage",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "sesame weed",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "sticky endostemon",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "wild bergamot",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "wild marjoram",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "viscous endostemon species",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "east african basil",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "viscous basil",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "plectranthus",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "wild thyme",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "viscous endostemon (english)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 14,
+            "confidence_score": 112,
+            "total_score": 1568
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 6,
+            "confidence_score": 55,
+            "total_score": 330
+        }
+    ],
+    "what_description": "Endostemon viscosus is a species of flowering plant in the family Lamiaceae. It is an annual herb with a viscid or sticky stem, growing up to 10-30 cm in height, and has a quadrangular to subquadrangular shape. The leaves are opposite, ovate to elliptic in shape, and measure 1-2.5 cm in length, with a cuneate base and a serrated margin. The inflorescence is a spike-like raceme, bearing small, tubular flowers with a corolla length of 3-4 mm and a yellowish-white color. The plant produces four-merous flowers with a calyx of 2-3 mm in length and an upper lip that is notched at the apex.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "diarrhea",
+            "mentions": 14,
+            "confidence_score": 112,
+            "total_score": 1568
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 12,
+            "confidence_score": 93,
+            "total_score": 1116
+        },
+        {
+            "name": "fever",
+            "mentions": 12,
+            "confidence_score": 92,
+            "total_score": 1104
+        },
+        {
+            "name": "inflammation",
+            "mentions": 10,
+            "confidence_score": 79,
+            "total_score": 790
+        },
+        {
+            "name": "wounds",
+            "mentions": 8,
+            "confidence_score": 58,
+            "total_score": 464
+        },
+        {
+            "name": "wound healing",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "cough",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "skin infections",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "malaria",
+            "mentions": 9,
+            "confidence_score": 48,
+            "total_score": 432
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "insect bites",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "dysentery",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "bacterial infections",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "cholera",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "viral infections",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "boils",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Endostemon viscosus are diarrhea and skin irritation, as it has been shown to have antimicrobial properties that inhibit the growth of pathogens causing these conditions. The plant has also been traditionally used to treat fever and reduce body temperature. Its anti-inflammatory properties make it effective in treating inflammation, wounds, and accelerating wound healing. Additionally, Endostemon viscosus has been found to have expectorant properties, making it a treatment for cough, while its antimicrobial properties also combat skin infections and malaria. Furthermore, the plant is used to relieve rheumatism and insect bites, and its antifungal properties combat fungal infections, as well as digestive issues and gastroenteritis, and its antibacterial properties combat cholera, bacterial infections, and viral infections, and it is also used to treat boils.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 158,
+            "total_score": 3160
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 146,
+            "total_score": 2920
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 131,
+            "total_score": 2620
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 92,
+            "total_score": 1840
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 11,
+            "confidence_score": 85,
+            "total_score": 935
+        },
+        {
+            "name": "antifungal",
+            "mentions": 15,
+            "confidence_score": 84,
+            "total_score": 1260
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 9,
+            "confidence_score": 46,
+            "total_score": 414
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 11,
+            "confidence_score": 42,
+            "total_score": 462
+        },
+        {
+            "name": "antiviral",
+            "mentions": 12,
+            "confidence_score": 37,
+            "total_score": 444
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 6,
+            "confidence_score": 21,
+            "total_score": 126
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 17,
+            "total_score": 102
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "expectorant",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Endostemon viscosus are attributed to its ability to exhibit antimicrobial activity, which prevents the growth of harmful microorganisms. The antioxidant properties of this plant are responsible for neutralizing free radicals, thereby reducing oxidative stress and cell damage. Anti-inflammatory properties are also present, which help in alleviating pain and reducing swelling caused by inflammation, while also protecting the body from chronic diseases. Analgesic properties enable the plant to provide relief from pain, allowing individuals to recover from injuries and illnesses. The antimicrobial, antioxidant, anti-inflammatory, and analgesic properties of Endostemon viscosus are further enhanced by its antibacterial properties, which inhibit the growth of bacteria and prevent infections.",
+    "constituents": [
+        {
+            "name": "flavonoids",
+            "mentions": 15,
+            "confidence_score": 113,
+            "total_score": 1695
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 14,
+            "confidence_score": 96,
+            "total_score": 1344
+        },
+        {
+            "name": "saponins",
+            "mentions": 15,
+            "confidence_score": 90,
+            "total_score": 1350
+        },
+        {
+            "name": "tannins",
+            "mentions": 12,
+            "confidence_score": 89,
+            "total_score": 1068
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 14,
+            "confidence_score": 72,
+            "total_score": 1008
+        },
+        {
+            "name": "quercetin",
+            "mentions": 7,
+            "confidence_score": 60,
+            "total_score": 420
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 14,
+            "confidence_score": 57,
+            "total_score": 798
+        },
+        {
+            "name": "glycosides",
+            "mentions": 12,
+            "confidence_score": 53,
+            "total_score": 636
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "coumarins",
+            "mentions": 12,
+            "confidence_score": 38,
+            "total_score": 456
+        },
+        {
+            "name": "rutin",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "ursolic acid",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "sterols",
+            "mentions": 8,
+            "confidence_score": 27,
+            "total_score": 216
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "apigenin",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "luteolin",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "naringenin",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "\u03b2-sitosterol",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Endostemon viscosus are flavonoids, phenolic acids, saponins, tannins, and terpenoids. These compounds have been found to possess antioxidant, anti-inflammatory, and antimicrobial properties, which contribute to the plant's medicinal value. Flavonoids, such as quercetin and kaempferol, have been identified as the primary flavonoids present in Endostemon viscosus, which are responsible for its anti-inflammatory and antioxidant activities. Phenolic acids, including ferulic and sinapic acid, have been found to possess antimicrobial and anti-inflammatory properties, while saponins, such as oleanolic acid, exhibit anti-inflammatory and antioxidant activities. Additionally, the presence of terpenoids, including beta-sitosterol and stigmasterol, contributes to the plant's antifungal and antimicrobial properties.",
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 19,
+            "confidence_score": 173,
+            "total_score": 3287
+        },
+        {
+            "name": "infusion",
+            "mentions": 18,
+            "confidence_score": 143,
+            "total_score": 2574
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 143,
+            "total_score": 2860
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 98,
+            "total_score": 1960
+        },
+        {
+            "name": "essential oil",
+            "mentions": 8,
+            "confidence_score": 34,
+            "total_score": 272
+        },
+        {
+            "name": "decoction",
+            "mentions": 7,
+            "confidence_score": 31,
+            "total_score": 217
+        },
+        {
+            "name": "infused oil",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "ointment",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "poultice",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "capsules",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "resin",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "extract",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Endostemon viscosus are derived from its leaves and stems, which contain essential oils, flavonoids, and phenolic acids. Tea is made by steeping the leaves in hot water to treat various ailments, including fever, headache, and digestive issues. Infusion is prepared similarly but often involves steeping the plant material for a longer period to release more bioactive compounds. Tincture is a concentrated liquid extract of the plant, used to treat conditions such as colds, flu, and respiratory issues. Salve and essential oil preparations, obtained through steam distillation or solvent extraction, are used topically to treat wounds, skin infections, and inflammation.",
+    "side_effects": [
+        {
+            "name": "experiencing nausea",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "developing allergic reactions",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "show increased heart rate",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "develop nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "experience allergic reactions",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "developing respiratory issues",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffers hepatic toxicity",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "develop respiratory depression",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "triggers allergic reaction",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffering respiratory distress",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Endostemon viscosus improperly include experiencing nausea, which is often caused by excessive consumption of its extracts, leading to stomach irritation. Diarrhea is another potential side effect due to the plant's ability to stimulate gut motility and secretion, resulting in increased bowel movements. Developing allergic reactions is also possible, particularly in individuals who are sensitive to certain compounds found in the plant, such as flavonoids and terpenes. Increased heart rate can occur due to the plant's potential to interact with cardiovascular medications and stimulate the sympathetic nervous system, thereby affecting heart function. Furthermore, experiencing diarrhea, which is a common gastrointestinal symptom, may also occur due to the plant's laxative properties.",
+    "uses": "Endostemon viscosus has been traditionally used in various cultures for its medicinal properties, particularly in treating respiratory issues such as coughs and colds. The plant's extracts have been used to relieve congestion and reduce inflammation in the respiratory tract. Its antimicrobial properties also make it useful in treating infections and wounds. Additionally, Endostemon viscosus has been used to treat fever and other systemic illnesses. More research is needed to fully understand the plant's potential medicinal uses and their effectiveness.",
+    "taxonomy": "Endostemon viscosus is classified in the following manner: it belongs to the family Lamiaceae, commonly known as the mint family. This species is further classified as belonging to the genus Endostemon, which is native to the tropical regions of Africa and Madagascar. The genus Endostemon is closely related to other genera in the same family, such as Pogostemon and Siphomeria. Endostemon viscosus is a perennial herb that is known for its sticky leaves and stems. It is a relatively understudied species within the Lamiaceae family, with limited information available on its classification and characteristics.",
+    "benefits": "Endostemon viscosus has been traditionally used in various cultures for its medicinal properties. It is believed to have anti-inflammatory and antimicrobial effects, which may help in treating wounds and skin infections. Some studies suggest that the plant may also have antioxidant and antidiabetic properties, making it a potential natural remedy for managing blood sugar levels. Furthermore, Endostemon viscosus is thought to have immunomodulatory effects, which could aid in boosting the immune system and preventing illnesses. However, more research is needed to fully understand the health benefits of Endostemon viscosus and to confirm its efficacy in treating various health conditions.",
+    "parts": "Endostemon viscosus is a species of flowering plant, but unfortunately, I do not have information on its medicinal parts.",
+    "intro": "Endostemon viscosus, also known as sticky bush, is a plant species native to tropical regions of Africa, belonging to the family Lamiaceae. The plant has been traditionally used for its medicinal properties, which include anti-inflammatory, antimicrobial, and antioxidant effects, providing relief from various health issues such as fever, cough, and skin infections. The bioactive constituents of Endostemon viscosus include flavonoids, phenolic acids, and terpenoids, which are responsible for its medicinal properties. The plant is commonly used in traditional medicine and is prepared in various forms, including infusions, decoctions, and extracts, to treat various health conditions."
+}

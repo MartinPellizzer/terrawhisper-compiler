@@ -1,1 +1,761 @@
-{"title": "Angelica cyclocarpa", "herb_slug": "angelica-cyclocarpa", "herb_name_scientific": "Angelica cyclocarpa", "family_slug": "apiaceae", "family_name": "Apiaceae", "url": "herbs/angelica-cyclocarpa", "lastmod": "2025-1-11", "herb_names_common": [{"name": "chinese angelica", "mentions": 19, "confidence_score": 143, "total_score": 2717}, {"name": "dong quai", "mentions": 18, "confidence_score": 139, "total_score": 2502}, {"name": "angelica", "mentions": 17, "confidence_score": 136, "total_score": 2312}, {"name": "chinese angelica root", "mentions": 20, "confidence_score": 120, "total_score": 2400}, {"name": "japanese angelica", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "cyclocarpa", "mentions": 6, "confidence_score": 30, "total_score": 180}, {"name": "dong quai root", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "sichuan angelica", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "chinese wild celery", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "giant angelica", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "tang kuei", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "korean angelica", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "wild angelica", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "asian angelica", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "huang qi", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "dong kui", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "huatoki", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "kwao krua", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "huatoki angelica", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "tian zhu huo xiang", "mentions": 2, "confidence_score": 9, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 156, "total_score": 3120}], "what_description": "Angelica cyclocarpa is a species of flowering plant in the family Apiaceae. It is a perennial herb with a stout rhizome, and erect, cylindrical stem that can grow up to 150 cm tall. The plant has compound, bipinnate leaves with 2-3 pairs of pinnae, and a terminal leaflet, with the leaf margins being lobed or serrated. The inflorescence is a compound umbel with numerous small white flowers, which are arranged in a circular pattern around the center. The fruit is a small, two-sided schizocarp with two seeds, each containing one seed.", "category_action": "anti-inflammatory", "ailments": [{"name": "inflammation", "mentions": 14, "confidence_score": 123, "total_score": 1722}, {"name": "fever reduction", "mentions": 13, "confidence_score": 91, "total_score": 1183}, {"name": "digestive issues", "mentions": 10, "confidence_score": 82, "total_score": 820}, {"name": "arthritis", "mentions": 9, "confidence_score": 72, "total_score": 648}, {"name": "menstrual cramps", "mentions": 8, "confidence_score": 61, "total_score": 488}, {"name": "diarrhea", "mentions": 8, "confidence_score": 54, "total_score": 432}, {"name": "asthma", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "skin conditions", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "cancer prevention", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "diabetes", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "rheumatism", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "respiratory issues", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "gastritis", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "chronic bronchitis", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "hypertension", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "cough", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "respiratory problems", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "antiviral properties", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "pain relief", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "eczema", "mentions": 4, "confidence_score": 23, "total_score": 92}], "ailments_description": "The most common ailments you can heal with Angelica cyclocarpa are inflammation, arthritis and respiratory problems, which are alleviated by the plant's anti-inflammatory properties, while fever reduction and digestive issues are addressed through its antipyretic and carminative effects. Additionally, Angelica cyclocarpa has been shown to reduce menstrual cramps and alleviate diarrhea due to its spasmolytic properties, and its antihistamine effects also help with skin conditions like eczema. Furthermore, the plant's antioxidant properties contribute to cancer prevention and the management of diabetes, while its expectorant properties make it effective in treating respiratory issues like asthma and chronic bronchitis, and also aid in pain relief and cough suppression. The plant's antiviral properties also provide protection against respiratory problems and gastritis, and its vasodilatory effects help alleviate hypertension and gastritis.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 163, "total_score": 3260}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 154, "total_score": 3080}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 144, "total_score": 2880}, {"name": "analgesic", "mentions": 17, "confidence_score": 81, "total_score": 1377}, {"name": "hepatoprotective", "mentions": 12, "confidence_score": 72, "total_score": 864}, {"name": "cardioprotective", "mentions": 15, "confidence_score": 72, "total_score": 1080}, {"name": "antiviral", "mentions": 16, "confidence_score": 62, "total_score": 992}, {"name": "anticancer", "mentions": 10, "confidence_score": 46, "total_score": 460}, {"name": "antispasmodic", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "antidiabetic", "mentions": 7, "confidence_score": 36, "total_score": 252}, {"name": "antipyretic", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "neuroprotective", "mentions": 7, "confidence_score": 29, "total_score": 203}, {"name": "immunomodulatory", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "antitumor", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "cytotoxic", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "antifungal", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "antiseptic", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "antihypertensive", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "diuretic", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "anti-hypertensive", "mentions": 3, "confidence_score": 9, "total_score": 27}], "properties_description": "The main therapeutic properties of Angelica cyclocarpa are its antioxidant effects, which protect cells from oxidative damage, and its anti-inflammatory properties, which reduce inflammation and alleviate pain. This plant's hepatoprotective properties, demonstrated by its ability to mitigate liver injury, are also noteworthy, and are attributed to the presence of flavonoids and phenolic acids that scavenge free radicals and modulate liver enzymes. Additionally, Angelica cyclocarpa has been found to exhibit antimicrobial properties, inhibiting the growth of certain microorganisms through the action of saponins and volatile oils. Furthermore, studies have shown that this plant possesses analgesic properties, providing relief from pain through the suppression of inflammatory mediators and the modulation of pain perception. The combination of these bioactive compounds contributes to the plant's overall therapeutic profile.", "constituents": [{"name": "coumarins", "mentions": 14, "confidence_score": 89, "total_score": 1246}, {"name": "ligustilide", "mentions": 9, "confidence_score": 73, "total_score": 657}, {"name": "butylphthalide", "mentions": 9, "confidence_score": 70, "total_score": 630}, {"name": "angelan", "mentions": 8, "confidence_score": 62, "total_score": 496}, {"name": "phthalides", "mentions": 6, "confidence_score": 48, "total_score": 288}, {"name": "angelol", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "ferulic acid", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "flavonoids", "mentions": 8, "confidence_score": 42, "total_score": 336}, {"name": "phenolic acids", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "cyclocarpine", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "furanocoumarins", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "quercetin", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "oleanolic acid", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "falcarinol", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "apigenin", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "sesquiterpenes", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "ursolic acid", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "lignans", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "acetylated saponins", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "kaempferol", "mentions": 4, "confidence_score": 19, "total_score": 76}], "constituents_description": "The most important healing constituents of Angelica cyclocarpa are coumarins, ligustilide, butylphthalide, angelan, and phthalides, which are responsible for its medicinal properties. Coumarins have been shown to exhibit antioxidant, anti-inflammatory, and anticancer activities, contributing to the plant's potential in reducing oxidative stress and cancer cell growth. Ligustilide, a sesquiterpene lactone, has been demonstrated to possess analgesic, anti-inflammatory, and neuroprotective effects, which can help alleviate pain and protect against neurodegenerative diseases. Butylphthalide, a phthalide, has been found to exhibit potent anti-inflammatory and neuroprotective activities, with studies suggesting its potential in the treatment of stroke and Alzheimer's disease. The phthalides and angelan, a lignan, in Angelica cyclocarpa have also been reported to have anti-inflammatory and antioxidant properties, further emphasizing the plant's potential in the management of inflammation and oxidative stress.", "preparations": [{"name": "tincture", "mentions": 14, "confidence_score": 115, "total_score": 1610}, {"name": "infusion", "mentions": 14, "confidence_score": 101, "total_score": 1414}, {"name": "tea", "mentions": 12, "confidence_score": 88, "total_score": 1056}, {"name": "decoction", "mentions": 13, "confidence_score": 83, "total_score": 1079}, {"name": "salve", "mentions": 15, "confidence_score": 71, "total_score": 1065}, {"name": "angelica tincture", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "angelica tea", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "angelica extract", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "suppository", "mentions": 6, "confidence_score": 22, "total_score": 132}, {"name": "infused oil", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "essential oil", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "ointment", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "angelica infusion", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "dried root tincture", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "dong quai tincture", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "poultice", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "capsules", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "dried root tea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "glycerite", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "cold infusion", "mentions": 1, "confidence_score": 6, "total_score": 6}], "preparations_description": "The main herbal preparations of Angelica cyclocarpa are tincture, infusion, tea, decoction and salve. Tinctures are made by steeping the roots in a solvent, typically ethanol or glycerol, to extract its bioactive compounds such as polysaccharides and phenolic compounds with antiviral and anti-inflammatory properties. Infusions and teas are prepared by steeping the roots in hot water to extract flavonoids and alkaloids that may have antioxidant and anti-inflammatory effects. Decoctions are made by boiling the roots in water to extract its lignans and phenolic acids that may have antimicrobial and antiviral properties. Salves are prepared by infusing the roots in a carrier oil, such as olive or coconut oil, to create topical preparations for wound healing and skin issues.", "side_effects": [{"name": "experiencing vomiting", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "experiencing nausea", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "experiences allergic reactions", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "interact with medications", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "develops liver damage", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "increases blood pressure", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "develops hepatotoxicity", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "exacerbate kidney problems", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "exacerbate allergies", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "showing allergic reactions", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "induce nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "increase blood pressure", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "developing diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "developing abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiencing dizziness", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "develops diarrhea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cause abdominal pain", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "aggravate digestive issues", "mentions": 2, "confidence_score": 14, "total_score": 28}], "side_effects_description": "The possible side effects of using Angelica cyclocarpa improperly include experiencing vomiting and nausea due to its emetic properties, which can cause irritation to the digestive system. Allergic reactions may occur, particularly in individuals with sensitivities or allergies to plants in the same genus, leading to symptoms such as hives, itching, and difficulty breathing. Additionally, Angelica cyclocarpa may interact with medications, such as blood thinners and diabetes medications, by altering their metabolism and efficacy. Prolonged or excessive use of Angelica cyclocarpa has also been linked to the development of liver damage, as its compounds may cause oxidative stress and inflammation in the liver cells. Furthermore, the improper use of Angelica cyclocarpa can exacerbate pre-existing liver conditions, such as hepatitis or cirrhosis, making it essential to consult with a healthcare professional before using this herb.", "uses": "Angelica cyclocarpa has been used in traditional medicine to treat various ailments, including fever, rheumatism, and digestive issues. Its root, in particular, is valued for its purported anti-inflammatory and antibacterial properties. The plant is also believed to have antiviral and antioxidant effects, which may help to boost the immune system and protect against cell damage. In some cultures, Angelica cyclocarpa is used as a diuretic, to help relieve water retention and reduce blood pressure. However, more research is needed to fully understand the efficacy and potential side effects of using this plant for medicinal purposes.", "taxonomy": "Angelica cyclocarpa is classified in the kingdom Plantae, specifically within the family Apiaceae. It belongs to the genus Angelica, which includes other flowering plants. Within the genus, Angelica cyclocarpa is likely a distinct species due to its unique characteristics. Further classification involves its order (Apiales), class (Magnoliopsida), and division (Magnoliophyta). More detailed classification may require further research or specific taxonomic data.", "benefits": "Angelica cyclocarpa is known to have various health benefits, although more research is needed to confirm its effectiveness. Traditionally, it has been used in herbal medicine to treat digestive issues and reduce inflammation. The plant's roots and rhizomes are believed to contain compounds with antioxidant properties, which may help protect against cell damage and oxidative stress. Some studies suggest that Angelica cyclocarpa may also have antimicrobial and anti-cancer properties, although more research is required to fully understand its potential benefits. Further studies are necessary to confirm the plant's safety and efficacy for human consumption.", "parts": "Angelica cyclocarpa, the rhizome and roots of this plant are traditionally used in herbal medicine. The rhizome and roots are considered the medicinal parts and are used to treat various health conditions. These parts are known to have anti-inflammatory and antimicrobial properties. In traditional medicine, the rhizome and roots are used to treat conditions such as fever and rheumatism. The rhizome and roots are also used to aid in digestion and relieve nausea.", "intro": "Angelica cyclocarpa, also known as Korean angelica, is a type of perennial plant belonging to the Apiaceae family, native to East Asia. The plant is valued for its medicinal properties, which include anti-inflammatory, antispasmodic, and antiviral effects, making it beneficial in treating menstrual disorders, digestive issues, and respiratory problems. The bioactive constituents of Angelica cyclocarpa include essential oils, flavonoids, and lignans, such as ferulic acid and ligustilide, which are responsible for its therapeutic properties. In traditional herbal medicine, Angelica cyclocarpa is commonly prepared as a decoction, tea, or dried extract, and is also used in combination with other herbs to create tonics and formulas for promoting health and well-being."}
+{
+    "title": "Angelica cyclocarpa",
+    "herb_slug": "angelica-cyclocarpa",
+    "herb_name_scientific": "Angelica cyclocarpa",
+    "family_slug": "apiaceae",
+    "family_name": "Apiaceae",
+    "url": "herbs/angelica-cyclocarpa",
+    "lastmod": "2025-1-11",
+    "herb_names_common": [
+        {
+            "name": "chinese angelica",
+            "mentions": 19,
+            "confidence_score": 143,
+            "total_score": 2717
+        },
+        {
+            "name": "dong quai",
+            "mentions": 18,
+            "confidence_score": 139,
+            "total_score": 2502
+        },
+        {
+            "name": "angelica",
+            "mentions": 17,
+            "confidence_score": 136,
+            "total_score": 2312
+        },
+        {
+            "name": "chinese angelica root",
+            "mentions": 20,
+            "confidence_score": 120,
+            "total_score": 2400
+        },
+        {
+            "name": "japanese angelica",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "cyclocarpa",
+            "mentions": 6,
+            "confidence_score": 30,
+            "total_score": 180
+        },
+        {
+            "name": "dong quai root",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "sichuan angelica",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "chinese wild celery",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "giant angelica",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "tang kuei",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "korean angelica",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "wild angelica",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "asian angelica",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "huang qi",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "dong kui",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "huatoki",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "kwao krua",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "huatoki angelica",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "tian zhu huo xiang",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 156,
+            "total_score": 3120
+        }
+    ],
+    "what_description": "Angelica cyclocarpa is a species of flowering plant in the family Apiaceae. It is a perennial herb with a stout rhizome, and erect, cylindrical stem that can grow up to 150 cm tall. The plant has compound, bipinnate leaves with 2-3 pairs of pinnae, and a terminal leaflet, with the leaf margins being lobed or serrated. The inflorescence is a compound umbel with numerous small white flowers, which are arranged in a circular pattern around the center. The fruit is a small, two-sided schizocarp with two seeds, each containing one seed.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 14,
+            "confidence_score": 123,
+            "total_score": 1722
+        },
+        {
+            "name": "fever reduction",
+            "mentions": 13,
+            "confidence_score": 91,
+            "total_score": 1183
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 10,
+            "confidence_score": 82,
+            "total_score": 820
+        },
+        {
+            "name": "arthritis",
+            "mentions": 9,
+            "confidence_score": 72,
+            "total_score": 648
+        },
+        {
+            "name": "menstrual cramps",
+            "mentions": 8,
+            "confidence_score": 61,
+            "total_score": 488
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 8,
+            "confidence_score": 54,
+            "total_score": 432
+        },
+        {
+            "name": "asthma",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "diabetes",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "gastritis",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "chronic bronchitis",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "hypertension",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "cough",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "respiratory problems",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "antiviral properties",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "pain relief",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "eczema",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Angelica cyclocarpa are inflammation, arthritis and respiratory problems, which are alleviated by the plant's anti-inflammatory properties, while fever reduction and digestive issues are addressed through its antipyretic and carminative effects. Additionally, Angelica cyclocarpa has been shown to reduce menstrual cramps and alleviate diarrhea due to its spasmolytic properties, and its antihistamine effects also help with skin conditions like eczema. Furthermore, the plant's antioxidant properties contribute to cancer prevention and the management of diabetes, while its expectorant properties make it effective in treating respiratory issues like asthma and chronic bronchitis, and also aid in pain relief and cough suppression. The plant's antiviral properties also provide protection against respiratory problems and gastritis, and its vasodilatory effects help alleviate hypertension and gastritis.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 163,
+            "total_score": 3260
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 154,
+            "total_score": 3080
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 144,
+            "total_score": 2880
+        },
+        {
+            "name": "analgesic",
+            "mentions": 17,
+            "confidence_score": 81,
+            "total_score": 1377
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 12,
+            "confidence_score": 72,
+            "total_score": 864
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 15,
+            "confidence_score": 72,
+            "total_score": 1080
+        },
+        {
+            "name": "antiviral",
+            "mentions": 16,
+            "confidence_score": 62,
+            "total_score": 992
+        },
+        {
+            "name": "anticancer",
+            "mentions": 10,
+            "confidence_score": 46,
+            "total_score": 460
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 7,
+            "confidence_score": 36,
+            "total_score": 252
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 7,
+            "confidence_score": 29,
+            "total_score": 203
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "antitumor",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "antifungal",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "diuretic",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "anti-hypertensive",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Angelica cyclocarpa are its antioxidant effects, which protect cells from oxidative damage, and its anti-inflammatory properties, which reduce inflammation and alleviate pain. This plant's hepatoprotective properties, demonstrated by its ability to mitigate liver injury, are also noteworthy, and are attributed to the presence of flavonoids and phenolic acids that scavenge free radicals and modulate liver enzymes. Additionally, Angelica cyclocarpa has been found to exhibit antimicrobial properties, inhibiting the growth of certain microorganisms through the action of saponins and volatile oils. Furthermore, studies have shown that this plant possesses analgesic properties, providing relief from pain through the suppression of inflammatory mediators and the modulation of pain perception. The combination of these bioactive compounds contributes to the plant's overall therapeutic profile.",
+    "constituents": [
+        {
+            "name": "coumarins",
+            "mentions": 14,
+            "confidence_score": 89,
+            "total_score": 1246
+        },
+        {
+            "name": "ligustilide",
+            "mentions": 9,
+            "confidence_score": 73,
+            "total_score": 657
+        },
+        {
+            "name": "butylphthalide",
+            "mentions": 9,
+            "confidence_score": 70,
+            "total_score": 630
+        },
+        {
+            "name": "angelan",
+            "mentions": 8,
+            "confidence_score": 62,
+            "total_score": 496
+        },
+        {
+            "name": "phthalides",
+            "mentions": 6,
+            "confidence_score": 48,
+            "total_score": 288
+        },
+        {
+            "name": "angelol",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 8,
+            "confidence_score": 42,
+            "total_score": 336
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "cyclocarpine",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "furanocoumarins",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "quercetin",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "falcarinol",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "apigenin",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "sesquiterpenes",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "ursolic acid",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "lignans",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "acetylated saponins",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Angelica cyclocarpa are coumarins, ligustilide, butylphthalide, angelan, and phthalides, which are responsible for its medicinal properties. Coumarins have been shown to exhibit antioxidant, anti-inflammatory, and anticancer activities, contributing to the plant's potential in reducing oxidative stress and cancer cell growth. Ligustilide, a sesquiterpene lactone, has been demonstrated to possess analgesic, anti-inflammatory, and neuroprotective effects, which can help alleviate pain and protect against neurodegenerative diseases. Butylphthalide, a phthalide, has been found to exhibit potent anti-inflammatory and neuroprotective activities, with studies suggesting its potential in the treatment of stroke and Alzheimer's disease. The phthalides and angelan, a lignan, in Angelica cyclocarpa have also been reported to have anti-inflammatory and antioxidant properties, further emphasizing the plant's potential in the management of inflammation and oxidative stress.",
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 14,
+            "confidence_score": 115,
+            "total_score": 1610
+        },
+        {
+            "name": "infusion",
+            "mentions": 14,
+            "confidence_score": 101,
+            "total_score": 1414
+        },
+        {
+            "name": "tea",
+            "mentions": 12,
+            "confidence_score": 88,
+            "total_score": 1056
+        },
+        {
+            "name": "decoction",
+            "mentions": 13,
+            "confidence_score": 83,
+            "total_score": 1079
+        },
+        {
+            "name": "salve",
+            "mentions": 15,
+            "confidence_score": 71,
+            "total_score": 1065
+        },
+        {
+            "name": "angelica tincture",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "angelica tea",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "angelica extract",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "suppository",
+            "mentions": 6,
+            "confidence_score": 22,
+            "total_score": 132
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "essential oil",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "ointment",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "angelica infusion",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "dried root tincture",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "dong quai tincture",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "poultice",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "capsules",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "dried root tea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "glycerite",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "cold infusion",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Angelica cyclocarpa are tincture, infusion, tea, decoction and salve. Tinctures are made by steeping the roots in a solvent, typically ethanol or glycerol, to extract its bioactive compounds such as polysaccharides and phenolic compounds with antiviral and anti-inflammatory properties. Infusions and teas are prepared by steeping the roots in hot water to extract flavonoids and alkaloids that may have antioxidant and anti-inflammatory effects. Decoctions are made by boiling the roots in water to extract its lignans and phenolic acids that may have antimicrobial and antiviral properties. Salves are prepared by infusing the roots in a carrier oil, such as olive or coconut oil, to create topical preparations for wound healing and skin issues.",
+    "side_effects": [
+        {
+            "name": "experiencing vomiting",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "develops liver damage",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "increases blood pressure",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "develops hepatotoxicity",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "exacerbate kidney problems",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "showing allergic reactions",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "developing diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "developing abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cause abdominal pain",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "aggravate digestive issues",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Angelica cyclocarpa improperly include experiencing vomiting and nausea due to its emetic properties, which can cause irritation to the digestive system. Allergic reactions may occur, particularly in individuals with sensitivities or allergies to plants in the same genus, leading to symptoms such as hives, itching, and difficulty breathing. Additionally, Angelica cyclocarpa may interact with medications, such as blood thinners and diabetes medications, by altering their metabolism and efficacy. Prolonged or excessive use of Angelica cyclocarpa has also been linked to the development of liver damage, as its compounds may cause oxidative stress and inflammation in the liver cells. Furthermore, the improper use of Angelica cyclocarpa can exacerbate pre-existing liver conditions, such as hepatitis or cirrhosis, making it essential to consult with a healthcare professional before using this herb.",
+    "uses": "Angelica cyclocarpa has been used in traditional medicine to treat various ailments, including fever, rheumatism, and digestive issues. Its root, in particular, is valued for its purported anti-inflammatory and antibacterial properties. The plant is also believed to have antiviral and antioxidant effects, which may help to boost the immune system and protect against cell damage. In some cultures, Angelica cyclocarpa is used as a diuretic, to help relieve water retention and reduce blood pressure. However, more research is needed to fully understand the efficacy and potential side effects of using this plant for medicinal purposes.",
+    "taxonomy": "Angelica cyclocarpa is classified in the kingdom Plantae, specifically within the family Apiaceae. It belongs to the genus Angelica, which includes other flowering plants. Within the genus, Angelica cyclocarpa is likely a distinct species due to its unique characteristics. Further classification involves its order (Apiales), class (Magnoliopsida), and division (Magnoliophyta). More detailed classification may require further research or specific taxonomic data.",
+    "benefits": "Angelica cyclocarpa is known to have various health benefits, although more research is needed to confirm its effectiveness. Traditionally, it has been used in herbal medicine to treat digestive issues and reduce inflammation. The plant's roots and rhizomes are believed to contain compounds with antioxidant properties, which may help protect against cell damage and oxidative stress. Some studies suggest that Angelica cyclocarpa may also have antimicrobial and anti-cancer properties, although more research is required to fully understand its potential benefits. Further studies are necessary to confirm the plant's safety and efficacy for human consumption.",
+    "parts": "Angelica cyclocarpa, the rhizome and roots of this plant are traditionally used in herbal medicine. The rhizome and roots are considered the medicinal parts and are used to treat various health conditions. These parts are known to have anti-inflammatory and antimicrobial properties. In traditional medicine, the rhizome and roots are used to treat conditions such as fever and rheumatism. The rhizome and roots are also used to aid in digestion and relieve nausea.",
+    "intro": "Angelica cyclocarpa, also known as Korean angelica, is a type of perennial plant belonging to the Apiaceae family, native to East Asia. The plant is valued for its medicinal properties, which include anti-inflammatory, antispasmodic, and antiviral effects, making it beneficial in treating menstrual disorders, digestive issues, and respiratory problems. The bioactive constituents of Angelica cyclocarpa include essential oils, flavonoids, and lignans, such as ferulic acid and ligustilide, which are responsible for its therapeutic properties. In traditional herbal medicine, Angelica cyclocarpa is commonly prepared as a decoction, tea, or dried extract, and is also used in combination with other herbs to create tonics and formulas for promoting health and well-being."
+}

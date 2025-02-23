@@ -1,1 +1,1728 @@
-{"herb_slug": "cassebeera-farinosa", "herb_name_scientific": "Cassebeera farinosa", "url": "herbs/cassebeera-farinosa", "lastmod": "2024-12-25", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 18, "confidence_score": 153, "total_score": 2754}, {"medicine_or_poison": "poison", "mentions": 2, "confidence_score": 18, "total_score": 36}], "constituents": [{"name": "flavonoids (including quercetin and rutin)", "mentions": 10, "confidence_score": 76, "total_score": 760}, {"name": "flavonoids", "mentions": 8, "confidence_score": 50, "total_score": 400}, {"name": "cassipouranin", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "kaempferol", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "phenolic acids (including chlorogenic acid, caffeic acid and ferulic acid)", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "saponins", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "alkaloids", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "tannins", "mentions": 7, "confidence_score": 34, "total_score": 238}, {"name": "phenolic acids", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "ellagic acid", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "glycosides", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "cassane diterpenes", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "oleanolic acid", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "ursolic acid", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "terpenoids", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "gallic acid", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "quinic acid", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "sterols", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "casbene", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "cassigenin", "mentions": 2, "confidence_score": 17, "total_score": 34}], "title": "Cassebeera farinosa", "ailments": [{"name": "inflammation", "mentions": 16, "confidence_score": 127, "total_score": 2032}, {"name": "diarrhea", "mentions": 12, "confidence_score": 100, "total_score": 1200}, {"name": "fever", "mentions": 11, "confidence_score": 88, "total_score": 968}, {"name": "diabetes", "mentions": 8, "confidence_score": 66, "total_score": 528}, {"name": "hypertension", "mentions": 7, "confidence_score": 57, "total_score": 399}, {"name": "fungal infections", "mentions": 6, "confidence_score": 48, "total_score": 288}, {"name": "gastroenteritis", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "arthritis", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "cough", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "rheumatism", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "cancer", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "digestive issues", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "asthma", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "dysentery", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "skin irritation", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "malaria", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "skin conditions", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "high cholesterol", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "wound healing", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "respiratory issues", "mentions": 4, "confidence_score": 24, "total_score": 96}], "herb_names_common": [{"name": "cassipourea", "mentions": 31, "confidence_score": 276, "total_score": 8556}, {"name": "cassipourea farinosa", "mentions": 15, "confidence_score": 125, "total_score": 1875}, {"name": "cassia", "mentions": 7, "confidence_score": 66, "total_score": 462}, {"name": "sarsaparilla", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "senna", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "cassia farinacea", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "cassebeera", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "cassipouera farinosa", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "cassipouera", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "wild sarsaparilla", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "saraca asoca", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "sarsaparilla root", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "fern tree", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "coffee senna", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "butter cassia", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "cassebeera farinosa", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "cassebeera farinacea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "cassipourea farinacea", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "sarapai", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "cassia senna", "mentions": 2, "confidence_score": 11, "total_score": 22}], "ailments_description": "The most common ailments you can heal with Cassebeera farinosa are fever and malaria, with its anti-inflammatory properties providing relief from joint pain in rheumatoid arthritis, and its antimalarial activity inhibiting the growth of Plasmodium falciparum parasites that cause the disease. Fever reduction is achieved through the plant's flavonoid and saponin content, which exhibit antipyretic properties. Cassebeera farinosa's essential oil also demonstrates antimicrobial activity against Staphylococcus aureus and Escherichia coli bacteria, addressing infections such as urinary tract infections and gastrointestinal disorders. The plant's antioxidant properties protect against oxidative stress and cell damage in neurodegenerative diseases like Parkinson's and Alzheimer's. Additionally, its antihelminthic activity helps alleviate intestinal worm infestations and parasitic infections.", "constituents_description": "The most important healing constituents of Cassebeera farinosa are iridoid glycosides, particularly cassiposide, cassiarin, and 8-epicassiposide, as well as triterpenoid saponins and cardiac glycosides. These constituents exhibit anti-inflammatory and antioxidant properties, contributing to the plant's potential in treating various health conditions. The iridoid glycosides have been shown to possess antimicrobial and anti-cancer activities, while the saponins display hepatoprotective and immunomodulatory effects. The cardiac glycosides in C. farinosa have been found to exert anti-hypertensive and cardiotonic actions, suggesting potential applications in cardiovascular disease management. Furthermore, the plant's constituents have been demonstrated to exhibit neuroprotective and anti-convulsant activities, highlighting its potential in the treatment of neurological disorders.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 162, "total_score": 3240}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 160, "total_score": 3200}, {"name": "antioxidant", "mentions": 20, "confidence_score": 153, "total_score": 3060}, {"name": "analgesic", "mentions": 20, "confidence_score": 117, "total_score": 2340}, {"name": "antipyretic", "mentions": 15, "confidence_score": 84, "total_score": 1260}, {"name": "cardioprotective", "mentions": 17, "confidence_score": 79, "total_score": 1343}, {"name": "antiviral", "mentions": 15, "confidence_score": 73, "total_score": 1095}, {"name": "hepatoprotective", "mentions": 8, "confidence_score": 57, "total_score": 456}, {"name": "anticancer", "mentions": 12, "confidence_score": 53, "total_score": 636}, {"name": "antibacterial", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "antifungal", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "antispasmodic", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "hypoglycemic", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "antihistaminic", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "diuretic", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "neuroprotective", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "immunomodulatory", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "wound healing", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "hypotensive", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "anti-diarrheal", "mentions": 2, "confidence_score": 10, "total_score": 20}], "properties_description": "The main therapeutic properties of Cassebeera farinosa are its antidiabetic, anti-inflammatory, antimicrobial, and antioxidant activities. The antidiabetic properties are attributed to the presence of flavonoids and phenolic acids, which have been shown to enhance glucose uptake and inhibit alpha-glucosidase activity. The anti-inflammatory properties are due to the presence of saponins, which have been found to suppress the production of pro-inflammatory cytokines. Additionally, the antimicrobial properties are attributed to the volatile oils, which have been shown to exhibit inhibitory activity against a range of microorganisms, including bacteria and fungi. The antioxidant properties of Cassebeera farinosa are attributed to the presence of flavonoids and phenolic acids, which have been found to scavenge free radicals and protect against oxidative stress.", "preparations": [{"name": "infusion", "mentions": 14, "confidence_score": 113, "total_score": 1582}, {"name": "tincture", "mentions": 16, "confidence_score": 112, "total_score": 1792}, {"name": "decoction", "mentions": 15, "confidence_score": 107, "total_score": 1605}, {"name": "tea", "mentions": 10, "confidence_score": 67, "total_score": 670}, {"name": "salve", "mentions": 12, "confidence_score": 64, "total_score": 768}, {"name": "suppository", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "cassia tea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "ointment", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "cassebeer tea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "poultice", "mentions": 5, "confidence_score": 16, "total_score": 80}, {"name": "cassia infusion", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cassia decoction", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "syrup", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "cassia tincture", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "tisane", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "aqueous extract", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cassebeer extract", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cashew leaf tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cassia powder", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "infusion decoction", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cassebeera decoction", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "infusate", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "infused oil", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "capsule", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "cassebeer tincture", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "cassebeera infusion", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "dry extract", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "cassia oil", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "cassebeer oil", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "cassebeera tincture", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "powder", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cassebeer infusion", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cassia infused oil", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cassebeera oil", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Cassebeera farinosa are infusion, tincture, decoction, tea, and salve. Infusion is prepared by steeping dried leaves of Cassebeera farinosa in boiling water to treat fever and rheumatism. Decoction is made by boiling the bark or roots in water to treat various ailments including fever and skin conditions. Tincture is a concentrated liquid extract prepared by macerating the plant in a solvent like ethanol to treat various health conditions. Salve is a topical preparation made from the leaves and roots of Cassebeera farinosa infused in a carrier oil to treat skin conditions such as wounds and eczema.", "side_effects": [{"name": "experience nausea", "mentions": 5, "confidence_score": 45, "total_score": 225}, {"name": "experiencing nausea", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "suffer diarrhea", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "experiencing diarrhea", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "experiencing vomiting", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "developing diarrhea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiencing headache", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "showing abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "developing vomiting", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "suffering nausea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experiencing abdominal pain", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experience headache", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experiencing dizziness", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experiencing fatigue", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experiencing kidney failure", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "exhibits cardiotoxicity", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "suffering respiratory failure", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experience abdominal pain", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "get headache", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "have hepatotoxicity", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiencing hepatotoxicity", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "develop allergic reactions", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "have abdominal pain", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "develop nephrotoxicity", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "showing liver damage", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffering liver damage", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffer liver damage", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "develop allergy", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "lead to kidney damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "get diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "developing seizures", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "lead to liver damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences nephrotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing nephrotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "developing neurotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences nausea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develops abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience seizures", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause anemia", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "getting allergic reactions", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop kidney issues", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop seizures", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop coma", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences seizures", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "exhibits hepatotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences renal failure", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "developing allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experien nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "get respiratory issues", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "result in respiratory failure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop abdominal pain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "feel dizziness", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "developing nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "developing liver damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "induce kidney failure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops hepatotoxicity", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffering cardiac arrhythmias", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiencing myelosuppression", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffers diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiences vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "induce hepatotoxicity", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing dizziness", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffering diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "getting kidney failure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experience vomiting blood", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer cardiac arrest", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops nephrotoxicity", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops respiratory depression", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "facing liver damage", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "show skin irritation", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "cause liver failure", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "showing hypoglycemia", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "cause respiratory distress", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experiencing hemolysis", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experiences headache", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "get skin irritation", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "get headaches", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "developing respiratory failure", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffer heart arrhythmia", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "develops hypotension", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "developing abdominal pain", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experience dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "trigger seizures", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "induce cardiac arrest", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "trigger allergic reaction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "cause neurological symptoms", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "undergoes photosensitization", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "developing gastrointestinal issues", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "has allergic reaction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develop hypotension", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develop allergies", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffering headache", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show hemolysis", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "showing seizure", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "showing seizures", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "undergo respiratory failure", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "shows neurotoxicity", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "showing electrolyte imbalance", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffer fatigue", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffering cardiovascular issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "produce renal failure", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "showing cardiac issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "produce skin irritation", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "displays teratogenicity", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experiences dizziness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffer skin irritation", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "show diarrhea", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffering allergic reaction", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "showing headache", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "showing neurotoxicity", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experience diarrhea", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experiences gastrointestinal bleeding", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "showing abnormal liver function", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "showing allergic reactions", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "develop insomnia", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "produce hallucinations", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "trigger cardiac arrhythmia", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "get liver damage", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiencing cardiac arrest", "mentions": 2, "confidence_score": 4, "total_score": 8}, {"name": "produce cardiac arrhythmia", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiences neurotoxicity", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffering from anaphylaxis", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffers kidney damage", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "get kidney damage", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience fatigue", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "showing tremors", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "cause myocarditis", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "showing cardiac arrest", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "shows myocardial damage", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "getting dizziness", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience insomnia", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "feel weakness", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "get kidney failure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experiencing respiratory failure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "induce anaphylactic shock", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develops hematotoxicity", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffering from respiratory depression", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "has liver damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffer respiratory failure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop kidney damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "developing skin rashes", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop hypertension", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "developing kidney damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experiencing neurological problems", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience hallucinations", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "showing acute kidney injury", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "exhibits gastrotoxicity", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "suffers cardiovascular issues", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience cardiac arrest", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience cardiac issues", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiencing allergic reactions", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience cytopenia", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiencing hallucinations", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiencing cardiovascular issues", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "facing death", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "develop cardiovascular issues", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "undergoes nephrolithiasis", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "experiences dermatitis", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "develop liver failure", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "develop nausea", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effects of using Cassytha filiformis (Cassebeera farinosa) improperly include experiencing nausea and vomiting due to its saponin content, which can irritate the digestive system and cause gastrointestinal upset, resulting in suffer diarrhea and experiencing diarrhea. This can be attributed to the plant's ability to reduce gut motility and increase water and electrolyte secretion, leading to severe gastrointestinal disturbances. The improper use of this plant can also cause abdominal pain and discomfort. The severity of these side effects can be exacerbated in individuals with pre-existing gastrointestinal conditions. It is essential to exercise caution when handling Cassytha filiformis and follow proper guidelines for its use.", "category-action": "antimicrobial", "category_action": "hepatics", "family_slug": "pteridaceae", "family_name": "Pteridaceae", "what_description": "Cassebeera farinosa is a species of fern in the family Pteridaceae. It is native to tropical Africa and Madagascar. The plant has rhizomatous stems and fronds that are 2-3 meters long, pinnate to tripinnate, with lanceolate to ovate pinnae that are 30-40 cm long. The fronds are green on both sides, and the plant produces sporangia in sori on the underside of the fronds. The sporangia are yellowish-brown, and the plant reproduces through spores.", "uses": "Cassebeera farinosa is used in traditional medicine for its anti-inflammatory and antimicrobial properties. The plant is said to have various health benefits, including treating fever, skin infections, and respiratory issues. In some parts of the world, it is used to treat wounds and reduce inflammation. The plant's extracts are also used to treat gastrointestinal problems and as an anti-diarrheal agent. Further studies are needed to confirm the efficacy and safety of Cassebeera farinosa for medicinal use.", "taxonomy": "Cassebeera farinosa is classified as a species of flowering plant in the family Stemonuraceae. It belongs to the genus Cassebeera, which is a group of plants native to tropical and subtropical regions. The family Stemonuraceae is a small group of flowering plants, commonly known as the Stemonuraceae family. This family is part of the order Aquifoliales, which consists of a diverse range of flowering plant families. The order Aquifoliales is within the clade asterids, a large and diverse group of flowering plants.", "benefits": "Cassebeera farinosa is a plant species used in traditional medicine in various parts of the world, and research has identified some potential health benefits associated with its use. Its extracts have been found to possess antimicrobial and antioxidant properties, which may help to protect against infections and oxidative stress. Additionally, some studies suggest that Cassebeera farinosa may have anti-inflammatory effects, which could be beneficial in the treatment of conditions such as arthritis. However, more research is needed to fully understand the plant's potential health benefits and to confirm its efficacy in treating specific health conditions. Further studies are necessary to determine the safe and effective use of Cassebeera farinosa as a medicinal plant.", "parts": "Cassebeera farinosa's leaves are used in traditional medicine, while its stem and bark are also utilized for medicinal purposes. The plant's root is considered a source of various medicinal compounds. The leaves are valued for their antidiabetic properties. They are also used in the treatment of various other health conditions, including fever and inflammation. The plant's bark is believed to have antimicrobial properties.", "intro": "Cassebeera farinosa, also known as Cassipourea farinosa, is a medicinal plant species native to tropical Africa, belonging to the family Rhizophoraceae. The health benefits of Cassebeera farinosa include its anti-inflammatory, antimicrobial, and antioxidant properties, which have been used to treat various ailments such as fever, rheumatism, and skin conditions. The bioactive constituents of this plant include flavonoids, phenolic acids, and terpenoids, which are responsible for its medicinal properties. In traditional medicine, Cassebeera farinosa is commonly used to make herbal preparations such as infusions, decoctions, and ointments to treat various health conditions."}
+{
+    "herb_slug": "cassebeera-farinosa",
+    "herb_name_scientific": "Cassebeera farinosa",
+    "url": "herbs/cassebeera-farinosa",
+    "lastmod": "2024-12-25",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 18,
+            "confidence_score": 153,
+            "total_score": 2754
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "constituents": [
+        {
+            "name": "flavonoids (including quercetin and rutin)",
+            "mentions": 10,
+            "confidence_score": 76,
+            "total_score": 760
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 8,
+            "confidence_score": 50,
+            "total_score": 400
+        },
+        {
+            "name": "cassipouranin",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "phenolic acids (including chlorogenic acid, caffeic acid and ferulic acid)",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "saponins",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "tannins",
+            "mentions": 7,
+            "confidence_score": 34,
+            "total_score": 238
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "glycosides",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "cassane diterpenes",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "ursolic acid",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "sterols",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "casbene",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "cassigenin",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "title": "Cassebeera farinosa",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 16,
+            "confidence_score": 127,
+            "total_score": 2032
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 12,
+            "confidence_score": 100,
+            "total_score": 1200
+        },
+        {
+            "name": "fever",
+            "mentions": 11,
+            "confidence_score": 88,
+            "total_score": 968
+        },
+        {
+            "name": "diabetes",
+            "mentions": 8,
+            "confidence_score": 66,
+            "total_score": 528
+        },
+        {
+            "name": "hypertension",
+            "mentions": 7,
+            "confidence_score": 57,
+            "total_score": 399
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 6,
+            "confidence_score": 48,
+            "total_score": 288
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "arthritis",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "cough",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "cancer",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "asthma",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "dysentery",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "malaria",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "high cholesterol",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "wound healing",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "cassipourea",
+            "mentions": 31,
+            "confidence_score": 276,
+            "total_score": 8556
+        },
+        {
+            "name": "cassipourea farinosa",
+            "mentions": 15,
+            "confidence_score": 125,
+            "total_score": 1875
+        },
+        {
+            "name": "cassia",
+            "mentions": 7,
+            "confidence_score": 66,
+            "total_score": 462
+        },
+        {
+            "name": "sarsaparilla",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "senna",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "cassia farinacea",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "cassebeera",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "cassipouera farinosa",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "cassipouera",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "wild sarsaparilla",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "saraca asoca",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "sarsaparilla root",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "fern tree",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "coffee senna",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "butter cassia",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "cassebeera farinosa",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "cassebeera farinacea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "cassipourea farinacea",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "sarapai",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "cassia senna",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Cassebeera farinosa are fever and malaria, with its anti-inflammatory properties providing relief from joint pain in rheumatoid arthritis, and its antimalarial activity inhibiting the growth of Plasmodium falciparum parasites that cause the disease. Fever reduction is achieved through the plant's flavonoid and saponin content, which exhibit antipyretic properties. Cassebeera farinosa's essential oil also demonstrates antimicrobial activity against Staphylococcus aureus and Escherichia coli bacteria, addressing infections such as urinary tract infections and gastrointestinal disorders. The plant's antioxidant properties protect against oxidative stress and cell damage in neurodegenerative diseases like Parkinson's and Alzheimer's. Additionally, its antihelminthic activity helps alleviate intestinal worm infestations and parasitic infections.",
+    "constituents_description": "The most important healing constituents of Cassebeera farinosa are iridoid glycosides, particularly cassiposide, cassiarin, and 8-epicassiposide, as well as triterpenoid saponins and cardiac glycosides. These constituents exhibit anti-inflammatory and antioxidant properties, contributing to the plant's potential in treating various health conditions. The iridoid glycosides have been shown to possess antimicrobial and anti-cancer activities, while the saponins display hepatoprotective and immunomodulatory effects. The cardiac glycosides in C. farinosa have been found to exert anti-hypertensive and cardiotonic actions, suggesting potential applications in cardiovascular disease management. Furthermore, the plant's constituents have been demonstrated to exhibit neuroprotective and anti-convulsant activities, highlighting its potential in the treatment of neurological disorders.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 162,
+            "total_score": 3240
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 160,
+            "total_score": 3200
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 153,
+            "total_score": 3060
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 117,
+            "total_score": 2340
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 15,
+            "confidence_score": 84,
+            "total_score": 1260
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 17,
+            "confidence_score": 79,
+            "total_score": 1343
+        },
+        {
+            "name": "antiviral",
+            "mentions": 15,
+            "confidence_score": 73,
+            "total_score": 1095
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 8,
+            "confidence_score": 57,
+            "total_score": 456
+        },
+        {
+            "name": "anticancer",
+            "mentions": 12,
+            "confidence_score": 53,
+            "total_score": 636
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "antifungal",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "diuretic",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "anti-diarrheal",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Cassebeera farinosa are its antidiabetic, anti-inflammatory, antimicrobial, and antioxidant activities. The antidiabetic properties are attributed to the presence of flavonoids and phenolic acids, which have been shown to enhance glucose uptake and inhibit alpha-glucosidase activity. The anti-inflammatory properties are due to the presence of saponins, which have been found to suppress the production of pro-inflammatory cytokines. Additionally, the antimicrobial properties are attributed to the volatile oils, which have been shown to exhibit inhibitory activity against a range of microorganisms, including bacteria and fungi. The antioxidant properties of Cassebeera farinosa are attributed to the presence of flavonoids and phenolic acids, which have been found to scavenge free radicals and protect against oxidative stress.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 14,
+            "confidence_score": 113,
+            "total_score": 1582
+        },
+        {
+            "name": "tincture",
+            "mentions": 16,
+            "confidence_score": 112,
+            "total_score": 1792
+        },
+        {
+            "name": "decoction",
+            "mentions": 15,
+            "confidence_score": 107,
+            "total_score": 1605
+        },
+        {
+            "name": "tea",
+            "mentions": 10,
+            "confidence_score": 67,
+            "total_score": 670
+        },
+        {
+            "name": "salve",
+            "mentions": 12,
+            "confidence_score": 64,
+            "total_score": 768
+        },
+        {
+            "name": "suppository",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "cassia tea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "ointment",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "cassebeer tea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "poultice",
+            "mentions": 5,
+            "confidence_score": 16,
+            "total_score": 80
+        },
+        {
+            "name": "cassia infusion",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cassia decoction",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "syrup",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "cassia tincture",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "tisane",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "aqueous extract",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cassebeer extract",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cashew leaf tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cassia powder",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "infusion decoction",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cassebeera decoction",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "infusate",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "infused oil",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "capsule",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "cassebeer tincture",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "cassebeera infusion",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "dry extract",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "cassia oil",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "cassebeer oil",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "cassebeera tincture",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "powder",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cassebeer infusion",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cassia infused oil",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cassebeera oil",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Cassebeera farinosa are infusion, tincture, decoction, tea, and salve. Infusion is prepared by steeping dried leaves of Cassebeera farinosa in boiling water to treat fever and rheumatism. Decoction is made by boiling the bark or roots in water to treat various ailments including fever and skin conditions. Tincture is a concentrated liquid extract prepared by macerating the plant in a solvent like ethanol to treat various health conditions. Salve is a topical preparation made from the leaves and roots of Cassebeera farinosa infused in a carrier oil to treat skin conditions such as wounds and eczema.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 5,
+            "confidence_score": 45,
+            "total_score": 225
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "suffer diarrhea",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "developing diarrhea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiencing headache",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "showing abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "developing vomiting",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "suffering nausea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experience headache",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experiencing fatigue",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experiencing kidney failure",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "exhibits cardiotoxicity",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "suffering respiratory failure",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "get headache",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "have hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiencing hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "develop allergic reactions",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "have abdominal pain",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "develop nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "showing liver damage",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffering liver damage",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "develop allergy",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "lead to kidney damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "get diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "developing seizures",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "lead to liver damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "developing neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develops abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience seizures",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause anemia",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "getting allergic reactions",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop kidney issues",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop seizures",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop coma",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences seizures",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "exhibits hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences renal failure",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "developing allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experien nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "get respiratory issues",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "result in respiratory failure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop abdominal pain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "developing nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "developing liver damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "induce kidney failure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffering cardiac arrhythmias",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiencing myelosuppression",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffers diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiences vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "induce hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing dizziness",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffering diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "getting kidney failure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experience vomiting blood",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops respiratory depression",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "facing liver damage",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "show skin irritation",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "cause liver failure",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "showing hypoglycemia",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "cause respiratory distress",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experiencing hemolysis",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experiences headache",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "get skin irritation",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "get headaches",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "developing respiratory failure",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffer heart arrhythmia",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "develops hypotension",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "developing abdominal pain",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "induce cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "trigger allergic reaction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "cause neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "undergoes photosensitization",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "developing gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "has allergic reaction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develop hypotension",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develop allergies",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffering headache",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show hemolysis",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "showing seizure",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "showing seizures",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "undergo respiratory failure",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "shows neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "showing electrolyte imbalance",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffer fatigue",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffering cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "produce renal failure",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "showing cardiac issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "produce skin irritation",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "displays teratogenicity",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffer skin irritation",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "show diarrhea",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffering allergic reaction",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "showing headache",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "showing neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experiences gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "showing abnormal liver function",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "showing allergic reactions",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "develop insomnia",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "produce hallucinations",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "trigger cardiac arrhythmia",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "get liver damage",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiencing cardiac arrest",
+            "mentions": 2,
+            "confidence_score": 4,
+            "total_score": 8
+        },
+        {
+            "name": "produce cardiac arrhythmia",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiences neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffering from anaphylaxis",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffers kidney damage",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "get kidney damage",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience fatigue",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "showing tremors",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "cause myocarditis",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "showing cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "shows myocardial damage",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "getting dizziness",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience insomnia",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "feel weakness",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "get kidney failure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experiencing respiratory failure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "induce anaphylactic shock",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develops hematotoxicity",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffering from respiratory depression",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "has liver damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffer respiratory failure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop kidney damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "developing skin rashes",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop hypertension",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "developing kidney damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experiencing neurological problems",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience hallucinations",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "showing acute kidney injury",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "exhibits gastrotoxicity",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "suffers cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience cardiac issues",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiencing allergic reactions",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience cytopenia",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiencing hallucinations",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiencing cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "facing death",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "develop cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "undergoes nephrolithiasis",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "experiences dermatitis",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "develop liver failure",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "develop nausea",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Cassytha filiformis (Cassebeera farinosa) improperly include experiencing nausea and vomiting due to its saponin content, which can irritate the digestive system and cause gastrointestinal upset, resulting in suffer diarrhea and experiencing diarrhea. This can be attributed to the plant's ability to reduce gut motility and increase water and electrolyte secretion, leading to severe gastrointestinal disturbances. The improper use of this plant can also cause abdominal pain and discomfort. The severity of these side effects can be exacerbated in individuals with pre-existing gastrointestinal conditions. It is essential to exercise caution when handling Cassytha filiformis and follow proper guidelines for its use.",
+    "category-action": "antimicrobial",
+    "category_action": "hepatics",
+    "family_slug": "pteridaceae",
+    "family_name": "Pteridaceae",
+    "what_description": "Cassebeera farinosa is a species of fern in the family Pteridaceae. It is native to tropical Africa and Madagascar. The plant has rhizomatous stems and fronds that are 2-3 meters long, pinnate to tripinnate, with lanceolate to ovate pinnae that are 30-40 cm long. The fronds are green on both sides, and the plant produces sporangia in sori on the underside of the fronds. The sporangia are yellowish-brown, and the plant reproduces through spores.",
+    "uses": "Cassebeera farinosa is used in traditional medicine for its anti-inflammatory and antimicrobial properties. The plant is said to have various health benefits, including treating fever, skin infections, and respiratory issues. In some parts of the world, it is used to treat wounds and reduce inflammation. The plant's extracts are also used to treat gastrointestinal problems and as an anti-diarrheal agent. Further studies are needed to confirm the efficacy and safety of Cassebeera farinosa for medicinal use.",
+    "taxonomy": "Cassebeera farinosa is classified as a species of flowering plant in the family Stemonuraceae. It belongs to the genus Cassebeera, which is a group of plants native to tropical and subtropical regions. The family Stemonuraceae is a small group of flowering plants, commonly known as the Stemonuraceae family. This family is part of the order Aquifoliales, which consists of a diverse range of flowering plant families. The order Aquifoliales is within the clade asterids, a large and diverse group of flowering plants.",
+    "benefits": "Cassebeera farinosa is a plant species used in traditional medicine in various parts of the world, and research has identified some potential health benefits associated with its use. Its extracts have been found to possess antimicrobial and antioxidant properties, which may help to protect against infections and oxidative stress. Additionally, some studies suggest that Cassebeera farinosa may have anti-inflammatory effects, which could be beneficial in the treatment of conditions such as arthritis. However, more research is needed to fully understand the plant's potential health benefits and to confirm its efficacy in treating specific health conditions. Further studies are necessary to determine the safe and effective use of Cassebeera farinosa as a medicinal plant.",
+    "parts": "Cassebeera farinosa's leaves are used in traditional medicine, while its stem and bark are also utilized for medicinal purposes. The plant's root is considered a source of various medicinal compounds. The leaves are valued for their antidiabetic properties. They are also used in the treatment of various other health conditions, including fever and inflammation. The plant's bark is believed to have antimicrobial properties.",
+    "intro": "Cassebeera farinosa, also known as Cassipourea farinosa, is a medicinal plant species native to tropical Africa, belonging to the family Rhizophoraceae. The health benefits of Cassebeera farinosa include its anti-inflammatory, antimicrobial, and antioxidant properties, which have been used to treat various ailments such as fever, rheumatism, and skin conditions. The bioactive constituents of this plant include flavonoids, phenolic acids, and terpenoids, which are responsible for its medicinal properties. In traditional medicine, Cassebeera farinosa is commonly used to make herbal preparations such as infusions, decoctions, and ointments to treat various health conditions."
+}

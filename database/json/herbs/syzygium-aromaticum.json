@@ -1,1 +1,756 @@
-{"title": "Syzygium aromaticum", "herb_slug": "syzygium-aromaticum", "herb_name_scientific": "Syzygium aromaticum", "family_slug": "", "family_name": "", "url": "herbs/syzygium-aromaticum", "lastmod": "2025-1-20", "herb_names_common": [{"name": "clove", "mentions": 20, "confidence_score": 200, "total_score": 4000}, {"name": "cloves", "mentions": 18, "confidence_score": 176, "total_score": 3168}, {"name": "clove tree", "mentions": 15, "confidence_score": 124, "total_score": 1860}, {"name": "syzygium", "mentions": 19, "confidence_score": 103, "total_score": 1957}, {"name": "malabar clove", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "eugenia caryophyllata", "mentions": 11, "confidence_score": 39, "total_score": 429}, {"name": "syzygium aromaticum", "mentions": 14, "confidence_score": 36, "total_score": 504}, {"name": "caryophyllus aromaticus", "mentions": 9, "confidence_score": 33, "total_score": 297}, {"name": "syzygium caryophyllatum", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "eugenia aromaticum", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "clove buds", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "cloves tree", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "eugenia", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "eugenia aromatica", "mentions": 8, "confidence_score": 20, "total_score": 160}, {"name": "clove bush", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "clove spice", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "java clove", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "clove flower", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "clove plant", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "javanese clove", "mentions": 1, "confidence_score": 7, "total_score": 7}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 177, "total_score": 3540}], "what_description": "Syzygium aromaticum is a tropical evergreen tree native to Indonesia, belonging to the family Myrtaceae, which comprises around 130 genera and 3,000 species. It is characterized by its broad, elliptical leaves, measuring 5-15 cm in length and 2-5 cm in width, with a glossy dark green upper surface and a lighter green underside. The tree produces small, white flowers in axillary panicles, which are followed by red, purple, or black fruit, often referred to as cloves, containing a single seed. Syzygium aromaticum grows up to 10-15 meters in height, with a straight trunk and a conical crown, and thrives in tropical and subtropical climates. The tree's bark is smooth, grayish-brown, and exfoliates in small scales.", "category_action": "antimicrobial", "ailments": [{"name": "digestive issues", "mentions": 12, "confidence_score": 97, "total_score": 1164}, {"name": "inflammation", "mentions": 9, "confidence_score": 75, "total_score": 675}, {"name": "respiratory issues", "mentions": 9, "confidence_score": 60, "total_score": 540}, {"name": "cough", "mentions": 7, "confidence_score": 58, "total_score": 406}, {"name": "fever", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "insect bites", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "respiratory infections", "mentions": 5, "confidence_score": 44, "total_score": 220}, {"name": "diarrhea", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "antioxidant effects", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "coughs", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "antifungal properties", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "pain relief", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "bad breath", "mentions": 3, "confidence_score": 30, "total_score": 90}, {"name": "anxiety", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "ear infections", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "cold", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "antibacterial properties", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "cold sores", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "gastritis", "mentions": 4, "confidence_score": 24, "total_score": 96}], "ailments_description": "The most common ailments you can heal with Syzygium aromaticum are digestive issues due to its carminative properties, which help to reduce gas and alleviate symptoms of bloating and indigestion. Syzygium aromaticum has been shown to exhibit potent anti-inflammatory properties, making it effective in reducing inflammation associated with various health conditions. Additionally, its expectorant properties make it a useful treatment for respiratory issues such as bronchitis and asthma, while also helping to relieve coughs and respiratory infections like pneumonia. Syzygium aromaticum has been demonstrated to have antiviral properties, which help to reduce fever and alleviate symptoms of the common cold and influenza, as well as cold sores caused by the herpes simplex virus. Furthermore, its antiseptic and antibacterial properties make it effective in treating a range of conditions, including gastroenteritis, gastritis, bad breath, anxiety, ear infections, insect bites, and even gastric ulcers, while also exhibiting antifungal properties and providing pain relief and antioxidant effects.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 176, "total_score": 3520}, {"name": "antioxidant", "mentions": 20, "confidence_score": 169, "total_score": 3380}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 154, "total_score": 3080}, {"name": "antifungal", "mentions": 16, "confidence_score": 127, "total_score": 2032}, {"name": "analgesic", "mentions": 19, "confidence_score": 117, "total_score": 2223}, {"name": "antibacterial", "mentions": 13, "confidence_score": 113, "total_score": 1469}, {"name": "antiviral", "mentions": 17, "confidence_score": 109, "total_score": 1853}, {"name": "cardioprotective", "mentions": 12, "confidence_score": 68, "total_score": 816}, {"name": "anticancer", "mentions": 9, "confidence_score": 49, "total_score": 441}, {"name": "antiseptic", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "neuroprotective", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "cytotoxic", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "antispasmodic", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "antipyretic", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "antiparasitic", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "hepatoprotective", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "cytoprotective", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "anxiolytic", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "antihistamine", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "anticonvulsant", "mentions": 2, "confidence_score": 9, "total_score": 18}], "properties_description": "The main therapeutic properties of Syzygium aromaticum are the result of its rich composition of bioactive compounds. The antimicrobial property of this plant is attributed to the presence of volatile oils, specifically eugenol, which exhibits broad-spectrum activity against various pathogens. The antioxidant properties of Syzygium aromaticum are due to the flavonoid content, including quercetin and kaempferol, which can scavenge free radicals and protect against oxidative stress. The anti-inflammatory property of this plant is also significant, as it has been shown to inhibit the production of pro-inflammatory enzymes, such as COX-2 and lipoxygenase, thereby reducing inflammation. Additionally, the antifungal and analgesic properties of Syzygium aromaticum are attributed to the sesquiterpene and phenolic compounds present in its essential oil, which exhibit antifungal activity against various fungi and provide pain relief through the inhibition of pain mediators.", "constituents": [{"name": "eugenol", "mentions": 19, "confidence_score": 171, "total_score": 3249}, {"name": "caryophyllene", "mentions": 19, "confidence_score": 162, "total_score": 3078}, {"name": "\u03b1-pinene", "mentions": 17, "confidence_score": 118, "total_score": 2006}, {"name": "limonene", "mentions": 17, "confidence_score": 104, "total_score": 1768}, {"name": "\u03b2-pinene", "mentions": 13, "confidence_score": 95, "total_score": 1235}, {"name": "\u03b1-humulene", "mentions": 13, "confidence_score": 81, "total_score": 1053}, {"name": "\u03b2-caryophyllene", "mentions": 10, "confidence_score": 77, "total_score": 770}, {"name": "methyl eugenol", "mentions": 9, "confidence_score": 60, "total_score": 540}, {"name": "\u03b2-selinene", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "\u03b1-terpineol", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "\u03b1-caryophyllene oxide", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "caryophyllene oxide", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "geraniol", "mentions": 7, "confidence_score": 34, "total_score": 238}, {"name": "linalool", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "safrole", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "\u03b2-caryophyllene oxide", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "\u03b2-phellandrene", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "sabinene", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "cinnamaldehyde", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "gallocatechin", "mentions": 2, "confidence_score": 14, "total_score": 28}], "constituents_description": "The most important healing constituents of Syzygium aromaticum are eugenol, caryophyllene, \u03b1-pinene, limonene, and \u03b2-pinene. Eugenol is a potent anti-inflammatory and antimicrobial agent that inhibits the production of pro-inflammatory enzymes and cytokines. Caryophyllene is a sesquiterpene that exhibits anti-inflammatory and antioxidant properties, while \u03b1-pinene and limonene have been shown to possess antimicrobial and antiviral activities. \u03b2-pinene has been found to have bronchodilatory effects, making it beneficial for respiratory issues. These constituents contribute to the traditional uses of Syzygium aromaticum in relieving pain, inflammation, and respiratory issues.", "preparations": [{"name": "digestive tea", "mentions": 16, "confidence_score": 146, "total_score": 2336}, {"name": "respiratory tincture", "mentions": 14, "confidence_score": 108, "total_score": 1512}, {"name": "infusion", "mentions": 11, "confidence_score": 86, "total_score": 946}, {"name": "pain relieving salve", "mentions": 13, "confidence_score": 65, "total_score": 845}, {"name": "cloves oil", "mentions": 4, "confidence_score": 40, "total_score": 160}, {"name": "suppository", "mentions": 9, "confidence_score": 31, "total_score": 279}, {"name": "essential oil", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "gastric tonic", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "infused oil", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "anti-inflammatory oil", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "capsules", "mentions": 6, "confidence_score": 22, "total_score": 132}, {"name": "glycerite", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "antioxidant extract", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "garam masala", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "cloves tincture", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "antiseptic mouthwash", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "wound healing ointment", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "gum resin tea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "gargle", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "clove syrup", "mentions": 2, "confidence_score": 12, "total_score": 24}], "preparations_description": "The main herbal preparations of Syzygium aromaticum are derived from its dried flower buds, which are rich in essential oils and bioactive compounds. A digestive tea is prepared by infusing the buds in hot water to aid digestion and relieve symptoms of indigestion and nausea. A respiratory tincture is formulated by extracting the buds in a solvent to treat respiratory issues such as bronchitis and asthma due to its anti-inflammatory and expectorant properties. An infusion, a more concentrated preparation, can be used topically to relieve pain and reduce inflammation, while a pain-relieving salve is made by combining the infusion with a carrier oil to provide topical analgesia. Cloves oil, extracted through steam distillation, is used as a topical antiseptic and analgesic to relieve toothache and other minor aches and pains.", "side_effects": [{"name": "interact with medications", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "induce headaches", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "cause liver damage", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "cause dizziness", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "triggers allergic reaction", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiences allergic reaction", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiencing allergic reactions", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "exacerbate allergy", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "exacerbate allergies", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "exacerbate asthma", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induce allergic reactions", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "trigger allergic reaction", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "trigger seizures", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "develops liver damage", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause digestive issues", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "trigger asthma", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "increase heart rate", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "induce seizures", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "induces hypotension", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "aggravate asthma", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effects of using Syzygium aromaticum improperly include interactions with medications such as blood thinners, which can increase the risk of bleeding, as well as inducing headaches and dizziness due to its high eugenol content, which can stimulate the nervous system. Ingesting large amounts of Syzygium aromaticum may cause liver damage due to its potential toxicity and the ability of eugenol to affect liver function. Furthermore, Syzygium aromaticum can also trigger allergic reactions, particularly in individuals with sensitive skin or respiratory issues, resulting in symptoms such as hives, itching, and difficulty breathing. The high concentration of eugenol in Syzygium aromaticum can also lead to liver damage and potentially cause other adverse effects when used improperly. Additionally, the improper use of Syzygium aromaticum may exacerbate conditions such as asthma and other respiratory problems."}
+{
+    "title": "Syzygium aromaticum",
+    "herb_slug": "syzygium-aromaticum",
+    "herb_name_scientific": "Syzygium aromaticum",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/syzygium-aromaticum",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "clove",
+            "mentions": 20,
+            "confidence_score": 200,
+            "total_score": 4000
+        },
+        {
+            "name": "cloves",
+            "mentions": 18,
+            "confidence_score": 176,
+            "total_score": 3168
+        },
+        {
+            "name": "clove tree",
+            "mentions": 15,
+            "confidence_score": 124,
+            "total_score": 1860
+        },
+        {
+            "name": "syzygium",
+            "mentions": 19,
+            "confidence_score": 103,
+            "total_score": 1957
+        },
+        {
+            "name": "malabar clove",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "eugenia caryophyllata",
+            "mentions": 11,
+            "confidence_score": 39,
+            "total_score": 429
+        },
+        {
+            "name": "syzygium aromaticum",
+            "mentions": 14,
+            "confidence_score": 36,
+            "total_score": 504
+        },
+        {
+            "name": "caryophyllus aromaticus",
+            "mentions": 9,
+            "confidence_score": 33,
+            "total_score": 297
+        },
+        {
+            "name": "syzygium caryophyllatum",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "eugenia aromaticum",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "clove buds",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "cloves tree",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "eugenia",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "eugenia aromatica",
+            "mentions": 8,
+            "confidence_score": 20,
+            "total_score": 160
+        },
+        {
+            "name": "clove bush",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "clove spice",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "java clove",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "clove flower",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "clove plant",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "javanese clove",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 177,
+            "total_score": 3540
+        }
+    ],
+    "what_description": "Syzygium aromaticum is a tropical evergreen tree native to Indonesia, belonging to the family Myrtaceae, which comprises around 130 genera and 3,000 species. It is characterized by its broad, elliptical leaves, measuring 5-15 cm in length and 2-5 cm in width, with a glossy dark green upper surface and a lighter green underside. The tree produces small, white flowers in axillary panicles, which are followed by red, purple, or black fruit, often referred to as cloves, containing a single seed. Syzygium aromaticum grows up to 10-15 meters in height, with a straight trunk and a conical crown, and thrives in tropical and subtropical climates. The tree's bark is smooth, grayish-brown, and exfoliates in small scales.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "digestive issues",
+            "mentions": 12,
+            "confidence_score": 97,
+            "total_score": 1164
+        },
+        {
+            "name": "inflammation",
+            "mentions": 9,
+            "confidence_score": 75,
+            "total_score": 675
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 9,
+            "confidence_score": 60,
+            "total_score": 540
+        },
+        {
+            "name": "cough",
+            "mentions": 7,
+            "confidence_score": 58,
+            "total_score": 406
+        },
+        {
+            "name": "fever",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "insect bites",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "respiratory infections",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "antioxidant effects",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "coughs",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "antifungal properties",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "pain relief",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "bad breath",
+            "mentions": 3,
+            "confidence_score": 30,
+            "total_score": 90
+        },
+        {
+            "name": "anxiety",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "ear infections",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "cold",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "antibacterial properties",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "cold sores",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "gastritis",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Syzygium aromaticum are digestive issues due to its carminative properties, which help to reduce gas and alleviate symptoms of bloating and indigestion. Syzygium aromaticum has been shown to exhibit potent anti-inflammatory properties, making it effective in reducing inflammation associated with various health conditions. Additionally, its expectorant properties make it a useful treatment for respiratory issues such as bronchitis and asthma, while also helping to relieve coughs and respiratory infections like pneumonia. Syzygium aromaticum has been demonstrated to have antiviral properties, which help to reduce fever and alleviate symptoms of the common cold and influenza, as well as cold sores caused by the herpes simplex virus. Furthermore, its antiseptic and antibacterial properties make it effective in treating a range of conditions, including gastroenteritis, gastritis, bad breath, anxiety, ear infections, insect bites, and even gastric ulcers, while also exhibiting antifungal properties and providing pain relief and antioxidant effects.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 176,
+            "total_score": 3520
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 169,
+            "total_score": 3380
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 154,
+            "total_score": 3080
+        },
+        {
+            "name": "antifungal",
+            "mentions": 16,
+            "confidence_score": 127,
+            "total_score": 2032
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 117,
+            "total_score": 2223
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 13,
+            "confidence_score": 113,
+            "total_score": 1469
+        },
+        {
+            "name": "antiviral",
+            "mentions": 17,
+            "confidence_score": 109,
+            "total_score": 1853
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 12,
+            "confidence_score": 68,
+            "total_score": 816
+        },
+        {
+            "name": "anticancer",
+            "mentions": 9,
+            "confidence_score": 49,
+            "total_score": 441
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "anxiolytic",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "anticonvulsant",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Syzygium aromaticum are the result of its rich composition of bioactive compounds. The antimicrobial property of this plant is attributed to the presence of volatile oils, specifically eugenol, which exhibits broad-spectrum activity against various pathogens. The antioxidant properties of Syzygium aromaticum are due to the flavonoid content, including quercetin and kaempferol, which can scavenge free radicals and protect against oxidative stress. The anti-inflammatory property of this plant is also significant, as it has been shown to inhibit the production of pro-inflammatory enzymes, such as COX-2 and lipoxygenase, thereby reducing inflammation. Additionally, the antifungal and analgesic properties of Syzygium aromaticum are attributed to the sesquiterpene and phenolic compounds present in its essential oil, which exhibit antifungal activity against various fungi and provide pain relief through the inhibition of pain mediators.",
+    "constituents": [
+        {
+            "name": "eugenol",
+            "mentions": 19,
+            "confidence_score": 171,
+            "total_score": 3249
+        },
+        {
+            "name": "caryophyllene",
+            "mentions": 19,
+            "confidence_score": 162,
+            "total_score": 3078
+        },
+        {
+            "name": "\u03b1-pinene",
+            "mentions": 17,
+            "confidence_score": 118,
+            "total_score": 2006
+        },
+        {
+            "name": "limonene",
+            "mentions": 17,
+            "confidence_score": 104,
+            "total_score": 1768
+        },
+        {
+            "name": "\u03b2-pinene",
+            "mentions": 13,
+            "confidence_score": 95,
+            "total_score": 1235
+        },
+        {
+            "name": "\u03b1-humulene",
+            "mentions": 13,
+            "confidence_score": 81,
+            "total_score": 1053
+        },
+        {
+            "name": "\u03b2-caryophyllene",
+            "mentions": 10,
+            "confidence_score": 77,
+            "total_score": 770
+        },
+        {
+            "name": "methyl eugenol",
+            "mentions": 9,
+            "confidence_score": 60,
+            "total_score": 540
+        },
+        {
+            "name": "\u03b2-selinene",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "\u03b1-terpineol",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "\u03b1-caryophyllene oxide",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "caryophyllene oxide",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "geraniol",
+            "mentions": 7,
+            "confidence_score": 34,
+            "total_score": 238
+        },
+        {
+            "name": "linalool",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "safrole",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "\u03b2-caryophyllene oxide",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "\u03b2-phellandrene",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "sabinene",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "cinnamaldehyde",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "gallocatechin",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Syzygium aromaticum are eugenol, caryophyllene, \u03b1-pinene, limonene, and \u03b2-pinene. Eugenol is a potent anti-inflammatory and antimicrobial agent that inhibits the production of pro-inflammatory enzymes and cytokines. Caryophyllene is a sesquiterpene that exhibits anti-inflammatory and antioxidant properties, while \u03b1-pinene and limonene have been shown to possess antimicrobial and antiviral activities. \u03b2-pinene has been found to have bronchodilatory effects, making it beneficial for respiratory issues. These constituents contribute to the traditional uses of Syzygium aromaticum in relieving pain, inflammation, and respiratory issues.",
+    "preparations": [
+        {
+            "name": "digestive tea",
+            "mentions": 16,
+            "confidence_score": 146,
+            "total_score": 2336
+        },
+        {
+            "name": "respiratory tincture",
+            "mentions": 14,
+            "confidence_score": 108,
+            "total_score": 1512
+        },
+        {
+            "name": "infusion",
+            "mentions": 11,
+            "confidence_score": 86,
+            "total_score": 946
+        },
+        {
+            "name": "pain relieving salve",
+            "mentions": 13,
+            "confidence_score": 65,
+            "total_score": 845
+        },
+        {
+            "name": "cloves oil",
+            "mentions": 4,
+            "confidence_score": 40,
+            "total_score": 160
+        },
+        {
+            "name": "suppository",
+            "mentions": 9,
+            "confidence_score": 31,
+            "total_score": 279
+        },
+        {
+            "name": "essential oil",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "gastric tonic",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "infused oil",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "anti-inflammatory oil",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "capsules",
+            "mentions": 6,
+            "confidence_score": 22,
+            "total_score": 132
+        },
+        {
+            "name": "glycerite",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "antioxidant extract",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "garam masala",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "cloves tincture",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "antiseptic mouthwash",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "wound healing ointment",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "gum resin tea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "gargle",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "clove syrup",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Syzygium aromaticum are derived from its dried flower buds, which are rich in essential oils and bioactive compounds. A digestive tea is prepared by infusing the buds in hot water to aid digestion and relieve symptoms of indigestion and nausea. A respiratory tincture is formulated by extracting the buds in a solvent to treat respiratory issues such as bronchitis and asthma due to its anti-inflammatory and expectorant properties. An infusion, a more concentrated preparation, can be used topically to relieve pain and reduce inflammation, while a pain-relieving salve is made by combining the infusion with a carrier oil to provide topical analgesia. Cloves oil, extracted through steam distillation, is used as a topical antiseptic and analgesic to relieve toothache and other minor aches and pains.",
+    "side_effects": [
+        {
+            "name": "interact with medications",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "induce headaches",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "triggers allergic reaction",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiences allergic reaction",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiencing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "exacerbate allergy",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "exacerbate asthma",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induce allergic reactions",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "trigger allergic reaction",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "develops liver damage",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause digestive issues",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "trigger asthma",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "induces hypotension",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "aggravate asthma",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Syzygium aromaticum improperly include interactions with medications such as blood thinners, which can increase the risk of bleeding, as well as inducing headaches and dizziness due to its high eugenol content, which can stimulate the nervous system. Ingesting large amounts of Syzygium aromaticum may cause liver damage due to its potential toxicity and the ability of eugenol to affect liver function. Furthermore, Syzygium aromaticum can also trigger allergic reactions, particularly in individuals with sensitive skin or respiratory issues, resulting in symptoms such as hives, itching, and difficulty breathing. The high concentration of eugenol in Syzygium aromaticum can also lead to liver damage and potentially cause other adverse effects when used improperly. Additionally, the improper use of Syzygium aromaticum may exacerbate conditions such as asthma and other respiratory problems."
+}

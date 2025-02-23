@@ -1,1 +1,767 @@
-{"title": "Iphiona mucronata", "herb_slug": "iphiona-mucronata", "herb_name_scientific": "Iphiona mucronata", "family_slug": "asteraceae", "family_name": "Asteraceae", "url": "herbs/iphiona-mucronata", "lastmod": "2025-1-14", "herb_names_common": [{"name": "iphiona", "mentions": 28, "confidence_score": 197, "total_score": 5516}, {"name": "iphionia", "mentions": 24, "confidence_score": 186, "total_score": 4464}, {"name": "cape thistle", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "mucronata", "mentions": 10, "confidence_score": 34, "total_score": 340}, {"name": "african spurge", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "egyptian thistle", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "acacia mucronata", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "iphionia mucronata", "mentions": 7, "confidence_score": 17, "total_score": 119}, {"name": "acacia-like herb", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "thorny iphion", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "black thorn", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "pumpion bush", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "blue heliotrope", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "thorny iphionia", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "cape creosote bush", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "african wormwood", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "egyptian artichoke", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "iphiona species", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "karee", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "iphion (plant)", "mentions": 1, "confidence_score": 9, "total_score": 9}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 18, "confidence_score": 145, "total_score": 2610}, {"medicine_or_poison": "poison", "mentions": 2, "confidence_score": 17, "total_score": 34}], "what_description": "Iphiona mucronata is a species of plant in the family Asteraceae, native to tropical Africa. It is an annual herb with a single stem, typically 10-30 cm tall, and a woody base. The leaves are ovate, 5-10 cm long, and have a pointed tip, with a ciliate margin and a petiole that is 1-2 cm long. The inflorescence is a capitulum, 1-2 cm in diameter, with a ring of 5-10 phyllaries surrounding the disc, and 10-20 florets that are tubular, yellow or orange in color. The plant produces achenes that are 4-5 mm long, with a pappus of 10-15 bristles.", "category_action": "antimicrobial", "ailments": [{"name": "inflammation", "mentions": 16, "confidence_score": 146, "total_score": 2336}, {"name": "fever", "mentions": 10, "confidence_score": 75, "total_score": 750}, {"name": "arthritis", "mentions": 9, "confidence_score": 70, "total_score": 630}, {"name": "diarrhea", "mentions": 9, "confidence_score": 69, "total_score": 621}, {"name": "skin infections", "mentions": 12, "confidence_score": 68, "total_score": 816}, {"name": "diabetes", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "digestive issues", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "rheumatism", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "cough", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "wound healing", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "gastroenteritis", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "respiratory issues", "mentions": 7, "confidence_score": 35, "total_score": 245}, {"name": "hypertension", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "skin irritation", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "anxiety", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "fungal infections", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "wounds", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "cancer", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "skin conditions", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "pain", "mentions": 4, "confidence_score": 25, "total_score": 100}], "ailments_description": "The most common ailments you can heal with Iphiona mucronata are inflammation, fever, and arthritis, which are often reduced by its anti-inflammatory and antipyretic properties. Iphiona mucronata also helps to alleviate diarrhea due to its antimicrobial effects, and skin infections are treated by its ability to inhibit the growth of certain pathogens. Additionally, the plant is effective in managing diabetes, digestive issues, and rheumatism through its antioxidant and anti-inflammatory properties. Furthermore, cough is relieved by its expectorant properties, wound healing is accelerated by its antimicrobial and anti-inflammatory effects, and gastroenteritis is treated by its antimicrobial and anti-inflammatory properties. Iphiona mucronata is also beneficial for respiratory issues, hypertension, skin irritation, anxiety, fungal infections, wounds, cancer, skin conditions, and pain due to its various bioactive compounds and therapeutic properties.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 151, "total_score": 3020}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 146, "total_score": 2920}, {"name": "antioxidant", "mentions": 20, "confidence_score": 145, "total_score": 2900}, {"name": "analgesic", "mentions": 20, "confidence_score": 95, "total_score": 1900}, {"name": "antibacterial", "mentions": 9, "confidence_score": 69, "total_score": 621}, {"name": "antifungal", "mentions": 10, "confidence_score": 65, "total_score": 650}, {"name": "antispasmodic", "mentions": 10, "confidence_score": 59, "total_score": 590}, {"name": "hepatoprotective", "mentions": 11, "confidence_score": 54, "total_score": 594}, {"name": "antiviral", "mentions": 12, "confidence_score": 48, "total_score": 576}, {"name": "cytotoxic", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "antipyretic", "mentions": 9, "confidence_score": 32, "total_score": 288}, {"name": "anticancer", "mentions": 11, "confidence_score": 31, "total_score": 341}, {"name": "cardioprotective", "mentions": 9, "confidence_score": 25, "total_score": 225}, {"name": "antihistamine", "mentions": 7, "confidence_score": 24, "total_score": 168}, {"name": "antidiarrheal", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "antioxidant (cardio protective)", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "antitumor", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "hypotensive", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "antiseptic", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "antinociceptive", "mentions": 1, "confidence_score": 5, "total_score": 5}], "properties_description": "The main therapeutic properties of Iphiona mucronata are its antimicrobial activity, which inhibits the growth of various microorganisms, including bacteria and fungi, thus preventing infections and diseases. The plant's anti-inflammatory properties help to reduce swelling and alleviate pain, making it an effective remedy for conditions such as arthritis and other inflammatory disorders. Additionally, Iphiona mucronata exhibits antioxidant activity, which helps to neutralize free radicals and protect cells from oxidative damage, thereby promoting overall health and well-being. Its analgesic properties also make it a valuable treatment for pain management, providing relief from headaches, muscle aches, and other types of pain. Furthermore, the plant's antibacterial properties make it effective in treating bacterial infections, such as those caused by Staphylococcus aureus and Escherichia coli, which are responsible for a range of diseases and conditions.", "constituents": [{"name": "flavonoids", "mentions": 11, "confidence_score": 66, "total_score": 726}, {"name": "iphionin", "mentions": 7, "confidence_score": 60, "total_score": 420}, {"name": "iridoid glycosides", "mentions": 8, "confidence_score": 51, "total_score": 408}, {"name": "triterpenoids", "mentions": 8, "confidence_score": 42, "total_score": 336}, {"name": "phenolic acids", "mentions": 8, "confidence_score": 39, "total_score": 312}, {"name": "caffeic acid", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "sesquiterpenes", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "coumarins", "mentions": 8, "confidence_score": 26, "total_score": 208}, {"name": "quercetin", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "ursolic acid", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "lupanone", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "tannins", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "rosmarinic acid", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "\u03b2-caryophyllene", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "alkaloids", "mentions": 8, "confidence_score": 19, "total_score": 152}, {"name": "\u03b1-amyrin", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "\u03b2-amyrin", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "oleanolic acid", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "eudesmanolide", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "eupatorin", "mentions": 2, "confidence_score": 18, "total_score": 36}], "constituents_description": "The most important healing constituents of Iphiona mucronata are flavonoids, which have been shown to exhibit antioxidant, anti-inflammatory, and antimicrobial properties, while iphionin, a unique compound, has been found to have anti-inflammatory and antioxidant activities, iridoid glycosides, such as aucubin and harpagoside, have been reported to have anti-inflammatory, antimicrobial, and antispasmodic effects, triterpenoids, including ursolic acid, have been found to possess anti-inflammatory, antioxidant, and anticancer properties, and phenolic acids, like ferulic acid, have been shown to exhibit antioxidant, anti-inflammatory, and antimicrobial activities, contributing to its traditional use in treating various ailments.", "preparations": [{"name": "infusion", "mentions": 18, "confidence_score": 145, "total_score": 2610}, {"name": "tea", "mentions": 17, "confidence_score": 143, "total_score": 2431}, {"name": "tincture", "mentions": 19, "confidence_score": 139, "total_score": 2641}, {"name": "salve", "mentions": 18, "confidence_score": 84, "total_score": 1512}, {"name": "decoction", "mentions": 12, "confidence_score": 63, "total_score": 756}, {"name": "infused oil", "mentions": 7, "confidence_score": 27, "total_score": 189}, {"name": "ointment", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "capsules", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "iphiona tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "iphionia tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "iphiona oil", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "poultice", "mentions": 3, "confidence_score": 7, "total_score": 21}, {"name": "extract", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "iphiona powder", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "suppository", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "iphiona tincture", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "iphiona infusion", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "capsule", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "glycerite", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "iphiona extract", "mentions": 1, "confidence_score": 4, "total_score": 4}], "preparations_description": "The main herbal preparations of Iphiona mucronata are infusion, tea, tincture, salve, and decoction, which are derived from its leaves and stems. Infusion and tea are made by steeping dried leaves in hot water to extract its bioactive compounds, such as flavonoids and phenolic acids, which exhibit anti-inflammatory and antioxidant properties. Tincture is a concentrated liquid extract of the plant, often used in traditional medicine for its analgesic and antiseptic effects. Decoction is a process of extracting the plant's roots and stems, which are then used to treat various health conditions, including fever and digestive issues. Salve is a topical preparation made from the plant's extracts, used to treat skin conditions and wounds due to its antimicrobial and anti-inflammatory properties.", "side_effects": [{"name": "experience nausea", "mentions": 6, "confidence_score": 55, "total_score": 330}, {"name": "experience vomiting", "mentions": 5, "confidence_score": 45, "total_score": 225}, {"name": "develop allergic reaction", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "induce vomiting", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "cause diarrhea", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "exacerbate allergies", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "experience diarrhea", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "suffer diarrhea", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "experience dizziness", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "develop skin irritation", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience allergic reactions", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "induce diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "aggravate kidney disease", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "produce liver damage", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "developing allergic reaction", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "show liver damage", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experience fatigue", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "trigger asthma", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "developing skin irritation", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effects of using Iphiona mucronata improperly include experiencing nausea and vomiting due to its toxic glycosides, developing an allergic reaction or anaphylaxis due to its allergenic properties, inducing vomiting as a protective mechanism to expel the toxin, causing diarrhea as a result of the irritant effect on the gastrointestinal tract, and potentially severe gastrointestinal distress if ingested in large quantities or with inadequate preparation. This is because Iphiona mucronata contains bioactive compounds like sesquiterpene lactones and polyacetylenes that can cause irritation, inflammation, and cytotoxic effects on the body. The improper use of Iphiona mucronata can lead to adverse reactions, especially if the plant is not properly identified, prepared, or dosed. Ingestion of Iphiona mucronata can also interact with other medications or exacerbate underlying health conditions. It is essential to consult with a healthcare professional or a qualified practitioner before using Iphiona mucronata or any other herbal remedy.", "uses": "Iphiona mucronata has been reported to have potential medicinal uses, with traditional remedies utilizing its extracts to treat various ailments. It is said to possess anti-inflammatory and antimicrobial properties, which may aid in the treatment of infections and skin conditions. The plant's roots and leaves are often used in traditional medicine, although more research is needed to fully understand its effects. Its use may also extend to treating fever and digestive issues, based on traditional practices. Further studies are necessary to confirm the efficacy and safety of Iphiona mucronata as a medicinal plant.", "taxonomy": "Iphiona mucronata is classified as a species of flowering plant in the daisy family (Asteraceae). It belongs to the genus Iphiona, which is a group of plants native to tropical Africa. The genus Iphiona is further classified within the tribe Inuleae, which includes a variety of daisy-like plants. Iphiona mucronata is native to tropical Africa, specifically in countries such as Kenya and Tanzania. The plant's classification is an important aspect of understanding its evolutionary history and relationships with other plant species.", "benefits": "Iphiona mucronata, a plant species native to Africa, has been traditionally used to treat various health issues. Its roots are said to possess antimicrobial and anti-inflammatory properties, which may help alleviate symptoms of digestive issues and wounds. The plant is also believed to have antiseptic and antifungal properties, making it useful in treating skin infections and promoting wound healing. Additionally, Iphiona mucronata may help reduce fever and alleviate pain. More research is needed to fully understand the plant's potential health benefits and confirm its effectiveness in treating various conditions.", "parts": "Iphiona mucronata is known for its various medicinal properties, and the parts of the plant used for medicinal purposes include the roots, leaves, and flowers. The roots are particularly valued for their potential anti-inflammatory and antioxidant properties. The leaves and flowers are also used in traditional medicine to treat various ailments, including fever and respiratory issues. However, further research is needed to confirm the efficacy and safety of using these parts for medicinal purposes. In traditional medicine, the plant is often used to treat a range of conditions due to its perceived medicinal properties.", "intro": "Iphiona mucronata is a flowering plant species in the daisy family (Asteraceae), commonly known for its medicinal properties. The plant has been found to possess various health benefits, including anti-inflammatory, antimicrobial, and antioxidant activities, which can help alleviate symptoms of digestive issues, skin problems, and respiratory infections. The bioactive constituents of Iphiona mucronata include sesquiterpene lactones, flavonoids, and alkaloids, which are responsible for its therapeutic effects. Traditionally, Iphiona mucronata is used to prepare herbal teas, infusions, and tinctures, which are used to treat various ailments, and it is also used in modern medicine as an ingredient in pharmaceutical formulations and dietary supplements."}
+{
+    "title": "Iphiona mucronata",
+    "herb_slug": "iphiona-mucronata",
+    "herb_name_scientific": "Iphiona mucronata",
+    "family_slug": "asteraceae",
+    "family_name": "Asteraceae",
+    "url": "herbs/iphiona-mucronata",
+    "lastmod": "2025-1-14",
+    "herb_names_common": [
+        {
+            "name": "iphiona",
+            "mentions": 28,
+            "confidence_score": 197,
+            "total_score": 5516
+        },
+        {
+            "name": "iphionia",
+            "mentions": 24,
+            "confidence_score": 186,
+            "total_score": 4464
+        },
+        {
+            "name": "cape thistle",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "mucronata",
+            "mentions": 10,
+            "confidence_score": 34,
+            "total_score": 340
+        },
+        {
+            "name": "african spurge",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "egyptian thistle",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "acacia mucronata",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "iphionia mucronata",
+            "mentions": 7,
+            "confidence_score": 17,
+            "total_score": 119
+        },
+        {
+            "name": "acacia-like herb",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "thorny iphion",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "black thorn",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "pumpion bush",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "blue heliotrope",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "thorny iphionia",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "cape creosote bush",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "african wormwood",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "egyptian artichoke",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "iphiona species",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "karee",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "iphion (plant)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 18,
+            "confidence_score": 145,
+            "total_score": 2610
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "what_description": "Iphiona mucronata is a species of plant in the family Asteraceae, native to tropical Africa. It is an annual herb with a single stem, typically 10-30 cm tall, and a woody base. The leaves are ovate, 5-10 cm long, and have a pointed tip, with a ciliate margin and a petiole that is 1-2 cm long. The inflorescence is a capitulum, 1-2 cm in diameter, with a ring of 5-10 phyllaries surrounding the disc, and 10-20 florets that are tubular, yellow or orange in color. The plant produces achenes that are 4-5 mm long, with a pappus of 10-15 bristles.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 16,
+            "confidence_score": 146,
+            "total_score": 2336
+        },
+        {
+            "name": "fever",
+            "mentions": 10,
+            "confidence_score": 75,
+            "total_score": 750
+        },
+        {
+            "name": "arthritis",
+            "mentions": 9,
+            "confidence_score": 70,
+            "total_score": 630
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 9,
+            "confidence_score": 69,
+            "total_score": 621
+        },
+        {
+            "name": "skin infections",
+            "mentions": 12,
+            "confidence_score": 68,
+            "total_score": 816
+        },
+        {
+            "name": "diabetes",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "cough",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "wound healing",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 7,
+            "confidence_score": 35,
+            "total_score": 245
+        },
+        {
+            "name": "hypertension",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "anxiety",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "wounds",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "cancer",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "pain",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Iphiona mucronata are inflammation, fever, and arthritis, which are often reduced by its anti-inflammatory and antipyretic properties. Iphiona mucronata also helps to alleviate diarrhea due to its antimicrobial effects, and skin infections are treated by its ability to inhibit the growth of certain pathogens. Additionally, the plant is effective in managing diabetes, digestive issues, and rheumatism through its antioxidant and anti-inflammatory properties. Furthermore, cough is relieved by its expectorant properties, wound healing is accelerated by its antimicrobial and anti-inflammatory effects, and gastroenteritis is treated by its antimicrobial and anti-inflammatory properties. Iphiona mucronata is also beneficial for respiratory issues, hypertension, skin irritation, anxiety, fungal infections, wounds, cancer, skin conditions, and pain due to its various bioactive compounds and therapeutic properties.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 151,
+            "total_score": 3020
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 146,
+            "total_score": 2920
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 145,
+            "total_score": 2900
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 95,
+            "total_score": 1900
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 9,
+            "confidence_score": 69,
+            "total_score": 621
+        },
+        {
+            "name": "antifungal",
+            "mentions": 10,
+            "confidence_score": 65,
+            "total_score": 650
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 10,
+            "confidence_score": 59,
+            "total_score": 590
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 11,
+            "confidence_score": 54,
+            "total_score": 594
+        },
+        {
+            "name": "antiviral",
+            "mentions": 12,
+            "confidence_score": 48,
+            "total_score": 576
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 9,
+            "confidence_score": 32,
+            "total_score": 288
+        },
+        {
+            "name": "anticancer",
+            "mentions": 11,
+            "confidence_score": 31,
+            "total_score": 341
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 9,
+            "confidence_score": 25,
+            "total_score": 225
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 7,
+            "confidence_score": 24,
+            "total_score": 168
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "antioxidant (cardio protective)",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "antitumor",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "antinociceptive",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Iphiona mucronata are its antimicrobial activity, which inhibits the growth of various microorganisms, including bacteria and fungi, thus preventing infections and diseases. The plant's anti-inflammatory properties help to reduce swelling and alleviate pain, making it an effective remedy for conditions such as arthritis and other inflammatory disorders. Additionally, Iphiona mucronata exhibits antioxidant activity, which helps to neutralize free radicals and protect cells from oxidative damage, thereby promoting overall health and well-being. Its analgesic properties also make it a valuable treatment for pain management, providing relief from headaches, muscle aches, and other types of pain. Furthermore, the plant's antibacterial properties make it effective in treating bacterial infections, such as those caused by Staphylococcus aureus and Escherichia coli, which are responsible for a range of diseases and conditions.",
+    "constituents": [
+        {
+            "name": "flavonoids",
+            "mentions": 11,
+            "confidence_score": 66,
+            "total_score": 726
+        },
+        {
+            "name": "iphionin",
+            "mentions": 7,
+            "confidence_score": 60,
+            "total_score": 420
+        },
+        {
+            "name": "iridoid glycosides",
+            "mentions": 8,
+            "confidence_score": 51,
+            "total_score": 408
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 8,
+            "confidence_score": 42,
+            "total_score": 336
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 8,
+            "confidence_score": 39,
+            "total_score": 312
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "sesquiterpenes",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "coumarins",
+            "mentions": 8,
+            "confidence_score": 26,
+            "total_score": 208
+        },
+        {
+            "name": "quercetin",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "ursolic acid",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "lupanone",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "tannins",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "rosmarinic acid",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "\u03b2-caryophyllene",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 8,
+            "confidence_score": 19,
+            "total_score": 152
+        },
+        {
+            "name": "\u03b1-amyrin",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "\u03b2-amyrin",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "eudesmanolide",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "eupatorin",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Iphiona mucronata are flavonoids, which have been shown to exhibit antioxidant, anti-inflammatory, and antimicrobial properties, while iphionin, a unique compound, has been found to have anti-inflammatory and antioxidant activities, iridoid glycosides, such as aucubin and harpagoside, have been reported to have anti-inflammatory, antimicrobial, and antispasmodic effects, triterpenoids, including ursolic acid, have been found to possess anti-inflammatory, antioxidant, and anticancer properties, and phenolic acids, like ferulic acid, have been shown to exhibit antioxidant, anti-inflammatory, and antimicrobial activities, contributing to its traditional use in treating various ailments.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 18,
+            "confidence_score": 145,
+            "total_score": 2610
+        },
+        {
+            "name": "tea",
+            "mentions": 17,
+            "confidence_score": 143,
+            "total_score": 2431
+        },
+        {
+            "name": "tincture",
+            "mentions": 19,
+            "confidence_score": 139,
+            "total_score": 2641
+        },
+        {
+            "name": "salve",
+            "mentions": 18,
+            "confidence_score": 84,
+            "total_score": 1512
+        },
+        {
+            "name": "decoction",
+            "mentions": 12,
+            "confidence_score": 63,
+            "total_score": 756
+        },
+        {
+            "name": "infused oil",
+            "mentions": 7,
+            "confidence_score": 27,
+            "total_score": 189
+        },
+        {
+            "name": "ointment",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "capsules",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "iphiona tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "iphionia tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "iphiona oil",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "poultice",
+            "mentions": 3,
+            "confidence_score": 7,
+            "total_score": 21
+        },
+        {
+            "name": "extract",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "iphiona powder",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "iphiona tincture",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "iphiona infusion",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "capsule",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "iphiona extract",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Iphiona mucronata are infusion, tea, tincture, salve, and decoction, which are derived from its leaves and stems. Infusion and tea are made by steeping dried leaves in hot water to extract its bioactive compounds, such as flavonoids and phenolic acids, which exhibit anti-inflammatory and antioxidant properties. Tincture is a concentrated liquid extract of the plant, often used in traditional medicine for its analgesic and antiseptic effects. Decoction is a process of extracting the plant's roots and stems, which are then used to treat various health conditions, including fever and digestive issues. Salve is a topical preparation made from the plant's extracts, used to treat skin conditions and wounds due to its antimicrobial and anti-inflammatory properties.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 6,
+            "confidence_score": 55,
+            "total_score": 330
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 5,
+            "confidence_score": 45,
+            "total_score": 225
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "suffer diarrhea",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience allergic reactions",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "aggravate kidney disease",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "produce liver damage",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "developing allergic reaction",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "show liver damage",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experience fatigue",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "trigger asthma",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "developing skin irritation",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Iphiona mucronata improperly include experiencing nausea and vomiting due to its toxic glycosides, developing an allergic reaction or anaphylaxis due to its allergenic properties, inducing vomiting as a protective mechanism to expel the toxin, causing diarrhea as a result of the irritant effect on the gastrointestinal tract, and potentially severe gastrointestinal distress if ingested in large quantities or with inadequate preparation. This is because Iphiona mucronata contains bioactive compounds like sesquiterpene lactones and polyacetylenes that can cause irritation, inflammation, and cytotoxic effects on the body. The improper use of Iphiona mucronata can lead to adverse reactions, especially if the plant is not properly identified, prepared, or dosed. Ingestion of Iphiona mucronata can also interact with other medications or exacerbate underlying health conditions. It is essential to consult with a healthcare professional or a qualified practitioner before using Iphiona mucronata or any other herbal remedy.",
+    "uses": "Iphiona mucronata has been reported to have potential medicinal uses, with traditional remedies utilizing its extracts to treat various ailments. It is said to possess anti-inflammatory and antimicrobial properties, which may aid in the treatment of infections and skin conditions. The plant's roots and leaves are often used in traditional medicine, although more research is needed to fully understand its effects. Its use may also extend to treating fever and digestive issues, based on traditional practices. Further studies are necessary to confirm the efficacy and safety of Iphiona mucronata as a medicinal plant.",
+    "taxonomy": "Iphiona mucronata is classified as a species of flowering plant in the daisy family (Asteraceae). It belongs to the genus Iphiona, which is a group of plants native to tropical Africa. The genus Iphiona is further classified within the tribe Inuleae, which includes a variety of daisy-like plants. Iphiona mucronata is native to tropical Africa, specifically in countries such as Kenya and Tanzania. The plant's classification is an important aspect of understanding its evolutionary history and relationships with other plant species.",
+    "benefits": "Iphiona mucronata, a plant species native to Africa, has been traditionally used to treat various health issues. Its roots are said to possess antimicrobial and anti-inflammatory properties, which may help alleviate symptoms of digestive issues and wounds. The plant is also believed to have antiseptic and antifungal properties, making it useful in treating skin infections and promoting wound healing. Additionally, Iphiona mucronata may help reduce fever and alleviate pain. More research is needed to fully understand the plant's potential health benefits and confirm its effectiveness in treating various conditions.",
+    "parts": "Iphiona mucronata is known for its various medicinal properties, and the parts of the plant used for medicinal purposes include the roots, leaves, and flowers. The roots are particularly valued for their potential anti-inflammatory and antioxidant properties. The leaves and flowers are also used in traditional medicine to treat various ailments, including fever and respiratory issues. However, further research is needed to confirm the efficacy and safety of using these parts for medicinal purposes. In traditional medicine, the plant is often used to treat a range of conditions due to its perceived medicinal properties.",
+    "intro": "Iphiona mucronata is a flowering plant species in the daisy family (Asteraceae), commonly known for its medicinal properties. The plant has been found to possess various health benefits, including anti-inflammatory, antimicrobial, and antioxidant activities, which can help alleviate symptoms of digestive issues, skin problems, and respiratory infections. The bioactive constituents of Iphiona mucronata include sesquiterpene lactones, flavonoids, and alkaloids, which are responsible for its therapeutic effects. Traditionally, Iphiona mucronata is used to prepare herbal teas, infusions, and tinctures, which are used to treat various ailments, and it is also used in modern medicine as an ingredient in pharmaceutical formulations and dietary supplements."
+}

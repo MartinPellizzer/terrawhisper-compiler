@@ -1,1 +1,767 @@
-{"title": "Murraya macrophylla", "herb_slug": "murraya-macrophylla", "herb_name_scientific": "Murraya macrophylla", "family_slug": "rutaceae", "family_name": "Rutaceae", "url": "herbs/murraya-macrophylla", "lastmod": "2025-1-17", "herb_names_common": [{"name": "orange jessamine", "mentions": 19, "confidence_score": 161, "total_score": 3059}, {"name": "big leaf orange jasmine", "mentions": 11, "confidence_score": 84, "total_score": 924}, {"name": "orange blossom", "mentions": 13, "confidence_score": 65, "total_score": 845}, {"name": "chinese box orange", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "yellow jessamine", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "mountain jasmine", "mentions": 7, "confidence_score": 38, "total_score": 266}, {"name": "orange jessamine tree", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "murraya", "mentions": 9, "confidence_score": 36, "total_score": 324}, {"name": "orange jessamine vine", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "may flower tree", "mentions": 8, "confidence_score": 33, "total_score": 264}, {"name": "jasmine orange", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "mountain orange blossom", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "orange blossom tree", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "orange jessamine bush", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "mountain orange", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "common orange jessamine", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "may chang", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "orange jasmine vine", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "mayflower", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "big orange jessamine", "mentions": 2, "confidence_score": 12, "total_score": 24}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 17, "confidence_score": 137, "total_score": 2329}, {"medicine_or_poison": "poison", "mentions": 3, "confidence_score": 26, "total_score": 78}], "what_description": "Murraya macrophylla is a species of flowering plant in the family Rutaceae. It is a shrub or small tree that grows up to 10 meters in height, with a broad, rounded crown and a smooth, grayish-brown bark. The leaves are simple, alternate, and elliptical in shape, measuring 4-12 cm in length and 2-6 cm in width, with a glossy, dark green upper surface and a lighter lower surface. The flowers are small, white or yellowish in color, with five petals and a sweet, fragrant scent, and are arranged in axillary panicles. The plant is native to China and Southeast Asia, and is cultivated for its ornamental value and its use in traditional medicine.", "category_action": "antimicrobial", "ailments": [{"name": "anxiety", "mentions": 19, "confidence_score": 166, "total_score": 3154}, {"name": "stress", "mentions": 16, "confidence_score": 126, "total_score": 2016}, {"name": "digestive issues", "mentions": 15, "confidence_score": 100, "total_score": 1500}, {"name": "inflammation", "mentions": 13, "confidence_score": 90, "total_score": 1170}, {"name": "depression", "mentions": 8, "confidence_score": 62, "total_score": 496}, {"name": "fever reduction", "mentions": 10, "confidence_score": 58, "total_score": 580}, {"name": "insomnia", "mentions": 7, "confidence_score": 57, "total_score": 399}, {"name": "skin irritation", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "hypertension", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "pain", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "pain relief", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "migraines", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "sleep disorder", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "insect bites", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "wound healing", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "skin conditions", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "fungal infections", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "allergies", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "infection", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "fatigue", "mentions": 3, "confidence_score": 19, "total_score": 57}], "ailments_description": "The most common ailments you can heal with Murraya macrophylla are anxiety, which is alleviated by its anxiolytic properties, and stress, which is reduced by its adaptogenic effects. Digestive issues are soothed by its anti-inflammatory properties, while inflammation is directly addressed by its flavonoids and terpenoids. Depression is improved by its antidepressant properties, and fever reduction is achieved through its antipyretic effects. Insomnia is treated by promoting a healthy sleep-wake cycle, and skin irritation is alleviated by its anti-irritant properties. Other conditions, such as hypertension, pain, migraines, sleep disorder, insect bites, wound healing, skin conditions, fungal infections, allergies, infection, and fatigue, are also improved by its antihypertensive, analgesic, antimigraine, sleep-promoting, anti-inflammatory, antifungal, antiallergic, and antiseptic properties.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 162, "total_score": 3240}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 153, "total_score": 3060}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 145, "total_score": 2900}, {"name": "analgesic", "mentions": 17, "confidence_score": 88, "total_score": 1496}, {"name": "antifungal", "mentions": 11, "confidence_score": 77, "total_score": 847}, {"name": "cardioprotective", "mentions": 11, "confidence_score": 69, "total_score": 759}, {"name": "hepatoprotective", "mentions": 10, "confidence_score": 66, "total_score": 660}, {"name": "neuroprotective", "mentions": 11, "confidence_score": 54, "total_score": 594}, {"name": "antipyretic", "mentions": 10, "confidence_score": 48, "total_score": 480}, {"name": "antibacterial", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "antiviral", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "anticancer", "mentions": 8, "confidence_score": 35, "total_score": 280}, {"name": "antihistamine", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "antispasmodic", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "cytotoxic", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "hypotensive", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "cytoprotective", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "antiseptic", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "sedative", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "antiproliferative", "mentions": 2, "confidence_score": 11, "total_score": 22}], "properties_description": "The main therapeutic properties of Murraya macrophylla are its antioxidant properties, which are attributed to the presence of flavonoids and phenolic acids, capable of neutralizing free radicals and protecting against oxidative stress. This plant also exhibits antimicrobial properties, inhibiting the growth of bacteria and fungi through the action of saponins and volatile oils, thereby preventing infections and promoting wound healing. Additionally, Murraya macrophylla displays anti-inflammatory properties, reducing inflammation and pain through the activity of flavonoids and terpenoids, which inhibit the production of pro-inflammatory mediators. The plant's analgesic properties are also evident, providing relief from pain through the action of flavonoids and phenolic acids, which modulate the activity of pain receptors. Furthermore, Murraya macrophylla exhibits antifungal properties, inhibiting the growth of fungi through the action of saponins and volatile oils, thereby preventing the development of fungal infections.", "constituents": [{"name": "flavonoids", "mentions": 10, "confidence_score": 82, "total_score": 820}, {"name": "quercetin", "mentions": 8, "confidence_score": 67, "total_score": 536}, {"name": "phenolic acids", "mentions": 9, "confidence_score": 64, "total_score": 576}, {"name": "kaempferol", "mentions": 8, "confidence_score": 60, "total_score": 480}, {"name": "coumarins", "mentions": 9, "confidence_score": 53, "total_score": 477}, {"name": "tannins", "mentions": 8, "confidence_score": 53, "total_score": 424}, {"name": "alkaloids", "mentions": 9, "confidence_score": 52, "total_score": 468}, {"name": "glycosides", "mentions": 9, "confidence_score": 49, "total_score": 441}, {"name": "saponins", "mentions": 8, "confidence_score": 43, "total_score": 344}, {"name": "terpenoids", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "naringenin", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "phenolic glycosides", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "\u03b2-caryophyllene", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "\u03b1-pinene", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "murranginin", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "murrangatin", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "gallic acid", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "linalool", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "limonene", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "ascorbic acid", "mentions": 2, "confidence_score": 13, "total_score": 26}], "constituents_description": "The most important healing constituents of Murraya macrophylla are flavonoids, including quercetin and kaempferol, which have been shown to possess antioxidant and anti-inflammatory properties, helping to protect against cell damage and reduce inflammation. Phenolic acids present in Murraya macrophylla have been found to exhibit antimicrobial and antifungal activities, contributing to its healing properties. Additionally, coumarins present in the plant have been reported to possess analgesic and anti-inflammatory activities, providing relief from pain and inflammation. These bioactive compounds work synergistically to contribute to the plant's overall healing properties. The antioxidant and anti-inflammatory activities of these constituents make Murraya macrophylla a valuable plant for traditional medicine.", "preparations": [{"name": "tea", "mentions": 13, "confidence_score": 113, "total_score": 1469}, {"name": "tincture", "mentions": 14, "confidence_score": 101, "total_score": 1414}, {"name": "infusion", "mentions": 12, "confidence_score": 98, "total_score": 1176}, {"name": "murraya oil", "mentions": 11, "confidence_score": 77, "total_score": 847}, {"name": "salve", "mentions": 11, "confidence_score": 56, "total_score": 616}, {"name": "murraya tea", "mentions": 6, "confidence_score": 52, "total_score": 312}, {"name": "murraya tincture", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "murraya infusion", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "decoction", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "murraya salve", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "essential oil", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "infused oil", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "suppository", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "glycerite", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "murraya extract", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "tea infusion", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "vaporizer", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "ointment", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "infused vinegar", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "murraya syrup", "mentions": 2, "confidence_score": 5, "total_score": 10}], "preparations_description": "The main herbal preparations of Murraya macrophylla are used for its medicinal and aromatic properties. Murraya macrophylla tea is made by infusing the leaves and flowers in hot water, traditionally used to treat fever, cough and respiratory issues. Murraya macrophylla tincture is a concentrated liquid extract of the plant used as a treatment for digestive issues, insomnia and anxiety. Murraya macrophylla infusion is a cold-brewed liquid made by soaking the plant in water, used to treat skin conditions and promote relaxation. Murraya oil and salve are derived from the plant's leaves and flowers, used topically to treat skin conditions, wounds and inflammation due to its antimicrobial and anti-inflammatory properties.", "side_effects": [{"name": "induce nausea", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "cause diarrhea", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "cause cardiac arrest", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "experiences allergic reaction", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experience allergic reaction", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop liver damage", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "experiencing vomiting", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "developing diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develops liver damage", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "induce seizures", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "developing skin irritation", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experiences respiratory depression", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "trigger headaches", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experiencing fatigue", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "cause dizziness", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "hinder digestion", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "provoke allergic reactions", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "experiences gastrointestinal issues", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "induces vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}], "side_effects_description": "The possible side effects of using Murraya macrophylla improperly include inducing nausea and causing diarrhea due to its toxicity, which can lead to dehydration if not addressed. Additionally, consuming Murraya macrophylla can cause cardiac arrest in severe cases, particularly when the plant's toxic compounds, such as furanocoumarins, interact with the heart's electrical system. Furthermore, individuals may experience an allergic reaction, which can manifest as skin irritation, respiratory issues, or even anaphylaxis, a life-threatening condition. These adverse effects occur because Murraya macrophylla contains toxic compounds that can cause harm when ingested, inhaled, or applied topically without proper caution and medical supervision. Ingesting Murraya macrophylla can also trigger an allergic reaction in some individuals, which can range from mild to severe.", "uses": "Murraya macrophylla, also known as orange jessamine, has been used in traditional medicine for its potential health benefits. The plant's flowers, leaves, and roots are used to treat various ailments, including fever, rheumatism, and digestive issues. In some cultures, it is believed to have anti-inflammatory and antimicrobial properties, which may help alleviate symptoms of certain diseases. Additionally, extracts from the plant have been studied for their potential to inhibit the growth of certain microorganisms and to have antioxidant effects. More research is needed to fully understand the medicinal properties and uses of Murraya macrophylla.", "taxonomy": "Murraya macrophylla is classified in the family Rutaceae, commonly known as the citrus family, due to its close relation to citrus species. This family consists of flowering plants, which are predominantly found in the tropical and subtropical regions of the world. Murraya macrophylla is further grouped into the genus Murraya, which contains around 15 species of flowering plants. The genus Murraya belongs to the order Sapindales, a group of flowering plants characterized by their five-petaled flowers and typically woody stems. The classification of Murraya macrophylla reflects its evolutionary relationships with other plants in the Rutaceae family.", "benefits": "Murraya macrophylla has been found to have various health benefits due to its rich content of antioxidants and flavonoids. The plant is known to possess anti-inflammatory properties, which can help in reducing pain and swelling in the body. It is also believed to have antibacterial and antifungal properties, making it effective in treating skin infections and other diseases. The leaves of the Murraya macrophylla plant are often used in traditional medicine to treat fever, cough, and respiratory issues. Furthermore, the plant is also said to have anti-cancer properties, which can help in preventing the growth of cancer cells.", "parts": "Murraya macrophylla is a plant species that has been studied for its potential medicinal properties. The leaves and fruits of Murraya macrophylla are known to be rich in antioxidants and have been traditionally used in various cultures for their health benefits. The leaves have been used to treat fever, inflammation, and respiratory issues, while the fruits have been used to treat digestive problems and as an anti-diarrheal agent. Additionally, the plant's extracts have been shown to have antimicrobial and anti-inflammatory properties. Further research is needed to fully understand the medicinal potential of Murraya macrophylla.", "intro": "Murraya macrophylla, also known as orange Jessamine or Chinese Box Orange, is a flowering plant species native to Southeast Asia, belonging to the Rutaceae family. The plant has been traditionally used in folk medicine for its health benefits, which include reducing anxiety, promoting relaxation, and aiding in the treatment of fever, cough, and cold. The bioactive constituents of Murraya macrophylla include limonoids, flavonoids, and terpenoids, which are responsible for its medicinal properties. The most common herbal preparations made from this plant include teas, infusions, and extracts, often used in traditional Chinese medicine to treat various health conditions."}
+{
+    "title": "Murraya macrophylla",
+    "herb_slug": "murraya-macrophylla",
+    "herb_name_scientific": "Murraya macrophylla",
+    "family_slug": "rutaceae",
+    "family_name": "Rutaceae",
+    "url": "herbs/murraya-macrophylla",
+    "lastmod": "2025-1-17",
+    "herb_names_common": [
+        {
+            "name": "orange jessamine",
+            "mentions": 19,
+            "confidence_score": 161,
+            "total_score": 3059
+        },
+        {
+            "name": "big leaf orange jasmine",
+            "mentions": 11,
+            "confidence_score": 84,
+            "total_score": 924
+        },
+        {
+            "name": "orange blossom",
+            "mentions": 13,
+            "confidence_score": 65,
+            "total_score": 845
+        },
+        {
+            "name": "chinese box orange",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "yellow jessamine",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "mountain jasmine",
+            "mentions": 7,
+            "confidence_score": 38,
+            "total_score": 266
+        },
+        {
+            "name": "orange jessamine tree",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "murraya",
+            "mentions": 9,
+            "confidence_score": 36,
+            "total_score": 324
+        },
+        {
+            "name": "orange jessamine vine",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "may flower tree",
+            "mentions": 8,
+            "confidence_score": 33,
+            "total_score": 264
+        },
+        {
+            "name": "jasmine orange",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "mountain orange blossom",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "orange blossom tree",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "orange jessamine bush",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "mountain orange",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "common orange jessamine",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "may chang",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "orange jasmine vine",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "mayflower",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "big orange jessamine",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 17,
+            "confidence_score": 137,
+            "total_score": 2329
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        }
+    ],
+    "what_description": "Murraya macrophylla is a species of flowering plant in the family Rutaceae. It is a shrub or small tree that grows up to 10 meters in height, with a broad, rounded crown and a smooth, grayish-brown bark. The leaves are simple, alternate, and elliptical in shape, measuring 4-12 cm in length and 2-6 cm in width, with a glossy, dark green upper surface and a lighter lower surface. The flowers are small, white or yellowish in color, with five petals and a sweet, fragrant scent, and are arranged in axillary panicles. The plant is native to China and Southeast Asia, and is cultivated for its ornamental value and its use in traditional medicine.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "anxiety",
+            "mentions": 19,
+            "confidence_score": 166,
+            "total_score": 3154
+        },
+        {
+            "name": "stress",
+            "mentions": 16,
+            "confidence_score": 126,
+            "total_score": 2016
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 15,
+            "confidence_score": 100,
+            "total_score": 1500
+        },
+        {
+            "name": "inflammation",
+            "mentions": 13,
+            "confidence_score": 90,
+            "total_score": 1170
+        },
+        {
+            "name": "depression",
+            "mentions": 8,
+            "confidence_score": 62,
+            "total_score": 496
+        },
+        {
+            "name": "fever reduction",
+            "mentions": 10,
+            "confidence_score": 58,
+            "total_score": 580
+        },
+        {
+            "name": "insomnia",
+            "mentions": 7,
+            "confidence_score": 57,
+            "total_score": 399
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "hypertension",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "pain",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "pain relief",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "migraines",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "sleep disorder",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "insect bites",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "wound healing",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "allergies",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "infection",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "fatigue",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Murraya macrophylla are anxiety, which is alleviated by its anxiolytic properties, and stress, which is reduced by its adaptogenic effects. Digestive issues are soothed by its anti-inflammatory properties, while inflammation is directly addressed by its flavonoids and terpenoids. Depression is improved by its antidepressant properties, and fever reduction is achieved through its antipyretic effects. Insomnia is treated by promoting a healthy sleep-wake cycle, and skin irritation is alleviated by its anti-irritant properties. Other conditions, such as hypertension, pain, migraines, sleep disorder, insect bites, wound healing, skin conditions, fungal infections, allergies, infection, and fatigue, are also improved by its antihypertensive, analgesic, antimigraine, sleep-promoting, anti-inflammatory, antifungal, antiallergic, and antiseptic properties.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 162,
+            "total_score": 3240
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 153,
+            "total_score": 3060
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 145,
+            "total_score": 2900
+        },
+        {
+            "name": "analgesic",
+            "mentions": 17,
+            "confidence_score": 88,
+            "total_score": 1496
+        },
+        {
+            "name": "antifungal",
+            "mentions": 11,
+            "confidence_score": 77,
+            "total_score": 847
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 11,
+            "confidence_score": 69,
+            "total_score": 759
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 10,
+            "confidence_score": 66,
+            "total_score": 660
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 11,
+            "confidence_score": 54,
+            "total_score": 594
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 10,
+            "confidence_score": 48,
+            "total_score": 480
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "antiviral",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "anticancer",
+            "mentions": 8,
+            "confidence_score": 35,
+            "total_score": 280
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "sedative",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "antiproliferative",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Murraya macrophylla are its antioxidant properties, which are attributed to the presence of flavonoids and phenolic acids, capable of neutralizing free radicals and protecting against oxidative stress. This plant also exhibits antimicrobial properties, inhibiting the growth of bacteria and fungi through the action of saponins and volatile oils, thereby preventing infections and promoting wound healing. Additionally, Murraya macrophylla displays anti-inflammatory properties, reducing inflammation and pain through the activity of flavonoids and terpenoids, which inhibit the production of pro-inflammatory mediators. The plant's analgesic properties are also evident, providing relief from pain through the action of flavonoids and phenolic acids, which modulate the activity of pain receptors. Furthermore, Murraya macrophylla exhibits antifungal properties, inhibiting the growth of fungi through the action of saponins and volatile oils, thereby preventing the development of fungal infections.",
+    "constituents": [
+        {
+            "name": "flavonoids",
+            "mentions": 10,
+            "confidence_score": 82,
+            "total_score": 820
+        },
+        {
+            "name": "quercetin",
+            "mentions": 8,
+            "confidence_score": 67,
+            "total_score": 536
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 9,
+            "confidence_score": 64,
+            "total_score": 576
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 8,
+            "confidence_score": 60,
+            "total_score": 480
+        },
+        {
+            "name": "coumarins",
+            "mentions": 9,
+            "confidence_score": 53,
+            "total_score": 477
+        },
+        {
+            "name": "tannins",
+            "mentions": 8,
+            "confidence_score": 53,
+            "total_score": 424
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 9,
+            "confidence_score": 52,
+            "total_score": 468
+        },
+        {
+            "name": "glycosides",
+            "mentions": 9,
+            "confidence_score": 49,
+            "total_score": 441
+        },
+        {
+            "name": "saponins",
+            "mentions": 8,
+            "confidence_score": 43,
+            "total_score": 344
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "naringenin",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "\u03b2-caryophyllene",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "\u03b1-pinene",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "murranginin",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "murrangatin",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "linalool",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "limonene",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "ascorbic acid",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Murraya macrophylla are flavonoids, including quercetin and kaempferol, which have been shown to possess antioxidant and anti-inflammatory properties, helping to protect against cell damage and reduce inflammation. Phenolic acids present in Murraya macrophylla have been found to exhibit antimicrobial and antifungal activities, contributing to its healing properties. Additionally, coumarins present in the plant have been reported to possess analgesic and anti-inflammatory activities, providing relief from pain and inflammation. These bioactive compounds work synergistically to contribute to the plant's overall healing properties. The antioxidant and anti-inflammatory activities of these constituents make Murraya macrophylla a valuable plant for traditional medicine.",
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 13,
+            "confidence_score": 113,
+            "total_score": 1469
+        },
+        {
+            "name": "tincture",
+            "mentions": 14,
+            "confidence_score": 101,
+            "total_score": 1414
+        },
+        {
+            "name": "infusion",
+            "mentions": 12,
+            "confidence_score": 98,
+            "total_score": 1176
+        },
+        {
+            "name": "murraya oil",
+            "mentions": 11,
+            "confidence_score": 77,
+            "total_score": 847
+        },
+        {
+            "name": "salve",
+            "mentions": 11,
+            "confidence_score": 56,
+            "total_score": 616
+        },
+        {
+            "name": "murraya tea",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "name": "murraya tincture",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "murraya infusion",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "decoction",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "murraya salve",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "essential oil",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "infused oil",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "suppository",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "glycerite",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "murraya extract",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "tea infusion",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "vaporizer",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "ointment",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "infused vinegar",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "murraya syrup",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Murraya macrophylla are used for its medicinal and aromatic properties. Murraya macrophylla tea is made by infusing the leaves and flowers in hot water, traditionally used to treat fever, cough and respiratory issues. Murraya macrophylla tincture is a concentrated liquid extract of the plant used as a treatment for digestive issues, insomnia and anxiety. Murraya macrophylla infusion is a cold-brewed liquid made by soaking the plant in water, used to treat skin conditions and promote relaxation. Murraya oil and salve are derived from the plant's leaves and flowers, used topically to treat skin conditions, wounds and inflammation due to its antimicrobial and anti-inflammatory properties.",
+    "side_effects": [
+        {
+            "name": "induce nausea",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "cause cardiac arrest",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "experiences allergic reaction",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop liver damage",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "developing diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develops liver damage",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "developing skin irritation",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experiences respiratory depression",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experiencing fatigue",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "hinder digestion",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "provoke allergic reactions",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "experiences gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "induces vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Murraya macrophylla improperly include inducing nausea and causing diarrhea due to its toxicity, which can lead to dehydration if not addressed. Additionally, consuming Murraya macrophylla can cause cardiac arrest in severe cases, particularly when the plant's toxic compounds, such as furanocoumarins, interact with the heart's electrical system. Furthermore, individuals may experience an allergic reaction, which can manifest as skin irritation, respiratory issues, or even anaphylaxis, a life-threatening condition. These adverse effects occur because Murraya macrophylla contains toxic compounds that can cause harm when ingested, inhaled, or applied topically without proper caution and medical supervision. Ingesting Murraya macrophylla can also trigger an allergic reaction in some individuals, which can range from mild to severe.",
+    "uses": "Murraya macrophylla, also known as orange jessamine, has been used in traditional medicine for its potential health benefits. The plant's flowers, leaves, and roots are used to treat various ailments, including fever, rheumatism, and digestive issues. In some cultures, it is believed to have anti-inflammatory and antimicrobial properties, which may help alleviate symptoms of certain diseases. Additionally, extracts from the plant have been studied for their potential to inhibit the growth of certain microorganisms and to have antioxidant effects. More research is needed to fully understand the medicinal properties and uses of Murraya macrophylla.",
+    "taxonomy": "Murraya macrophylla is classified in the family Rutaceae, commonly known as the citrus family, due to its close relation to citrus species. This family consists of flowering plants, which are predominantly found in the tropical and subtropical regions of the world. Murraya macrophylla is further grouped into the genus Murraya, which contains around 15 species of flowering plants. The genus Murraya belongs to the order Sapindales, a group of flowering plants characterized by their five-petaled flowers and typically woody stems. The classification of Murraya macrophylla reflects its evolutionary relationships with other plants in the Rutaceae family.",
+    "benefits": "Murraya macrophylla has been found to have various health benefits due to its rich content of antioxidants and flavonoids. The plant is known to possess anti-inflammatory properties, which can help in reducing pain and swelling in the body. It is also believed to have antibacterial and antifungal properties, making it effective in treating skin infections and other diseases. The leaves of the Murraya macrophylla plant are often used in traditional medicine to treat fever, cough, and respiratory issues. Furthermore, the plant is also said to have anti-cancer properties, which can help in preventing the growth of cancer cells.",
+    "parts": "Murraya macrophylla is a plant species that has been studied for its potential medicinal properties. The leaves and fruits of Murraya macrophylla are known to be rich in antioxidants and have been traditionally used in various cultures for their health benefits. The leaves have been used to treat fever, inflammation, and respiratory issues, while the fruits have been used to treat digestive problems and as an anti-diarrheal agent. Additionally, the plant's extracts have been shown to have antimicrobial and anti-inflammatory properties. Further research is needed to fully understand the medicinal potential of Murraya macrophylla.",
+    "intro": "Murraya macrophylla, also known as orange Jessamine or Chinese Box Orange, is a flowering plant species native to Southeast Asia, belonging to the Rutaceae family. The plant has been traditionally used in folk medicine for its health benefits, which include reducing anxiety, promoting relaxation, and aiding in the treatment of fever, cough, and cold. The bioactive constituents of Murraya macrophylla include limonoids, flavonoids, and terpenoids, which are responsible for its medicinal properties. The most common herbal preparations made from this plant include teas, infusions, and extracts, often used in traditional Chinese medicine to treat various health conditions."
+}

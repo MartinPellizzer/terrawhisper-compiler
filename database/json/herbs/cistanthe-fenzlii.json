@@ -1,1 +1,154 @@
-{"title": "Cistanthe fenzlii", "herb_slug": "cistanthe-fenzlii", "herb_name_scientific": "Cistanthe fenzlii", "family_slug": "montiaceae", "family_name": "Montiaceae", "url": "herbs/cistanthe-fenzlii", "lastmod": "2025-1-18", "herb_names_common": [{"name": "cistanthe", "mentions": 19, "confidence_score": 116, "total_score": 2204}, {"name": "fenzli's cistanthe", "mentions": 11, "confidence_score": 79, "total_score": 869}, {"name": "purple cockle", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "fenzli's catchfly (cistanthe fenzlii)", "mentions": 11, "confidence_score": 37, "total_score": 407}, {"name": "purple cistanthe", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "fenzli's carpetweed", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "fenzli's cockle", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "red-flowered widow's thrill", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "red widow", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "purple dwarf", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "purple sally", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "rock pink cistanthe", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "red star gentian", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "fenzli's catchfly", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "fenzli's gentian", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "red carpet flower", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "purple carpetweed", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "purple fountain plant", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "purple cockleburr", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "rock pink", "mentions": 2, "confidence_score": 12, "total_score": 24}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 12, "confidence_score": 110, "total_score": 1320}, {"medicine_or_poison": "medicine", "mentions": 8, "confidence_score": 67, "total_score": 536}], "uses": "Cistanthe fenzlii is known to have various medicinal uses, primarily in traditional medicine. It has been used to treat respiratory issues, such as bronchitis and coughs, due to its expectorant properties. The plant is also believed to have anti-inflammatory and antiseptic properties, making it useful for wound healing and skin issues. In some cultures, Cistanthe fenzlii is used to treat digestive problems, including diarrhea and nausea. Further research is needed to fully understand the plant's medicinal potential.", "taxonomy": "Cistanthe fenzlii is classified within the family Portulacaceae. This classification places it within the order Caryophyllales. The family Portulacaceae is a group of flowering plants commonly known as the purslane family. This classification is based on the plant's morphological and molecular characteristics. Further, Cistanthe fenzlii is also placed within the genus Cistanthe.", "benefits": "Cistanthe fenzlii has been used in traditional medicine, but more research is needed to confirm its full range of health benefits. It is said to have anti-inflammatory and antioxidant properties. Some studies suggest that the plant may have antimicrobial effects, which could be useful in treating infections. Additionally, Cistanthe fenzlii may have potential as an antiseptic and anti-inflammatory agent. However, the plant's effects on human health are not yet fully understood and require further scientific investigation.", "properties": "Cistanthe fenzlii, although not widely known, is reported to have potential therapeutic properties. Some research suggests that the plant may possess anti-inflammatory and antioxidant activities. However, more studies are needed to fully understand its effects on human health. The plant's properties are thought to be linked to its bioactive compounds, including flavonoids and alkaloids. Further research is necessary to confirm its therapeutic potential and potential applications.", "constituents": "Cistanthe fenzlii is a flowering plant species native to South America, but information about its specific active constituents is limited. Research on Cistanthe fenzlii is not well-documented, and it's primarily valued for its ornamental uses. More studies are needed to identify and understand the plant's active constituents. Some studies suggest that plants in the Cistanthe genus may have potential medicinal properties, but specific findings are scarce. Further research is necessary to determine the active constituents of Cistanthe fenzlii.", "parts": "Cistanthe fenzlii is a plant species native to South America. Cistanthe fenzlii's medicinal parts are primarily its leaves and roots, which have been used in traditional medicine to treat various ailments. The leaves and roots of Cistanthe fenzlii contain compounds with anti-inflammatory and antimicrobial properties. These properties make it a potential treatment for wounds, infections, and other health issues. However, more research is needed to fully understand the medicinal applications of Cistanthe fenzlii.", "preparations": "Cistanthe fenzlii is not well-documented, but in some traditional uses, it is believed to be used to make herbal preparations that may have anti-inflammatory and antiseptic properties. These herbal preparations are thought to be used for treating various health issues, including skin problems and wounds. However, there is limited scientific evidence to support the effectiveness of Cistanthe fenzlii for these purposes. More research is needed to understand the potential benefits and risks of using Cistanthe fenzlii in herbal preparations. Traditional uses of Cistanthe fenzlii vary, and it is essential to consult with a healthcare professional before using it for medicinal purposes.", "side_effects": "Unfortunately, I could not find any information regarding the side effects of Cistanthe fenzlii.", "intro": "Cistanthe fenzlii, also known as Chilean pink or pink saxifrage, is a flowering plant species native to the Andes mountain range in South America. The plant is valued for its potential health benefits, including its anti-inflammatory and antioxidant properties, which may help to reduce the risk of chronic diseases such as cardiovascular disease and cancer. The bioactive constituents of Cistanthe fenzlii include flavonoids, phenolic acids, and glycosides, which are thought to be responsible for its medicinal properties. The most common herbal preparations made with Cistanthe fenzlii include teas, tinctures, and infusions, which are traditionally used to treat a range of health conditions, including digestive issues and respiratory problems."}
+{
+    "title": "Cistanthe fenzlii",
+    "herb_slug": "cistanthe-fenzlii",
+    "herb_name_scientific": "Cistanthe fenzlii",
+    "family_slug": "montiaceae",
+    "family_name": "Montiaceae",
+    "url": "herbs/cistanthe-fenzlii",
+    "lastmod": "2025-1-18",
+    "herb_names_common": [
+        {
+            "name": "cistanthe",
+            "mentions": 19,
+            "confidence_score": 116,
+            "total_score": 2204
+        },
+        {
+            "name": "fenzli's cistanthe",
+            "mentions": 11,
+            "confidence_score": 79,
+            "total_score": 869
+        },
+        {
+            "name": "purple cockle",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "fenzli's catchfly (cistanthe fenzlii)",
+            "mentions": 11,
+            "confidence_score": 37,
+            "total_score": 407
+        },
+        {
+            "name": "purple cistanthe",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "fenzli's carpetweed",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "fenzli's cockle",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "red-flowered widow's thrill",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "red widow",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "purple dwarf",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "purple sally",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "rock pink cistanthe",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "red star gentian",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "fenzli's catchfly",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "fenzli's gentian",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "red carpet flower",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "purple carpetweed",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "purple fountain plant",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "purple cockleburr",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "rock pink",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 12,
+            "confidence_score": 110,
+            "total_score": 1320
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 8,
+            "confidence_score": 67,
+            "total_score": 536
+        }
+    ],
+    "uses": "Cistanthe fenzlii is known to have various medicinal uses, primarily in traditional medicine. It has been used to treat respiratory issues, such as bronchitis and coughs, due to its expectorant properties. The plant is also believed to have anti-inflammatory and antiseptic properties, making it useful for wound healing and skin issues. In some cultures, Cistanthe fenzlii is used to treat digestive problems, including diarrhea and nausea. Further research is needed to fully understand the plant's medicinal potential.",
+    "taxonomy": "Cistanthe fenzlii is classified within the family Portulacaceae. This classification places it within the order Caryophyllales. The family Portulacaceae is a group of flowering plants commonly known as the purslane family. This classification is based on the plant's morphological and molecular characteristics. Further, Cistanthe fenzlii is also placed within the genus Cistanthe.",
+    "benefits": "Cistanthe fenzlii has been used in traditional medicine, but more research is needed to confirm its full range of health benefits. It is said to have anti-inflammatory and antioxidant properties. Some studies suggest that the plant may have antimicrobial effects, which could be useful in treating infections. Additionally, Cistanthe fenzlii may have potential as an antiseptic and anti-inflammatory agent. However, the plant's effects on human health are not yet fully understood and require further scientific investigation.",
+    "properties": "Cistanthe fenzlii, although not widely known, is reported to have potential therapeutic properties. Some research suggests that the plant may possess anti-inflammatory and antioxidant activities. However, more studies are needed to fully understand its effects on human health. The plant's properties are thought to be linked to its bioactive compounds, including flavonoids and alkaloids. Further research is necessary to confirm its therapeutic potential and potential applications.",
+    "constituents": "Cistanthe fenzlii is a flowering plant species native to South America, but information about its specific active constituents is limited. Research on Cistanthe fenzlii is not well-documented, and it's primarily valued for its ornamental uses. More studies are needed to identify and understand the plant's active constituents. Some studies suggest that plants in the Cistanthe genus may have potential medicinal properties, but specific findings are scarce. Further research is necessary to determine the active constituents of Cistanthe fenzlii.",
+    "parts": "Cistanthe fenzlii is a plant species native to South America. Cistanthe fenzlii's medicinal parts are primarily its leaves and roots, which have been used in traditional medicine to treat various ailments. The leaves and roots of Cistanthe fenzlii contain compounds with anti-inflammatory and antimicrobial properties. These properties make it a potential treatment for wounds, infections, and other health issues. However, more research is needed to fully understand the medicinal applications of Cistanthe fenzlii.",
+    "preparations": "Cistanthe fenzlii is not well-documented, but in some traditional uses, it is believed to be used to make herbal preparations that may have anti-inflammatory and antiseptic properties. These herbal preparations are thought to be used for treating various health issues, including skin problems and wounds. However, there is limited scientific evidence to support the effectiveness of Cistanthe fenzlii for these purposes. More research is needed to understand the potential benefits and risks of using Cistanthe fenzlii in herbal preparations. Traditional uses of Cistanthe fenzlii vary, and it is essential to consult with a healthcare professional before using it for medicinal purposes.",
+    "side_effects": "Unfortunately, I could not find any information regarding the side effects of Cistanthe fenzlii.",
+    "intro": "Cistanthe fenzlii, also known as Chilean pink or pink saxifrage, is a flowering plant species native to the Andes mountain range in South America. The plant is valued for its potential health benefits, including its anti-inflammatory and antioxidant properties, which may help to reduce the risk of chronic diseases such as cardiovascular disease and cancer. The bioactive constituents of Cistanthe fenzlii include flavonoids, phenolic acids, and glycosides, which are thought to be responsible for its medicinal properties. The most common herbal preparations made with Cistanthe fenzlii include teas, tinctures, and infusions, which are traditionally used to treat a range of health conditions, including digestive issues and respiratory problems."
+}

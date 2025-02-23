@@ -1,1 +1,154 @@
-{"title": "Stipa pellita", "herb_slug": "stipa-pellita", "herb_name_scientific": "Stipa pellita", "family_slug": "poaceae", "family_name": "Poaceae", "url": "herbs/stipa-pellita", "lastmod": "2025-2-4", "herb_names_common": [{"name": "pellita grass", "mentions": 17, "confidence_score": 83, "total_score": 1411}, {"name": "feather grass", "mentions": 9, "confidence_score": 75, "total_score": 675}, {"name": "feather grass (stipa pellita)", "mentions": 17, "confidence_score": 52, "total_score": 884}, {"name": "pellitory", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "pellitory grass", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "pellita stipa grass", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "pellita needle grass", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "blue grama", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "blue oatgrass", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "woolly bunchgrass", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "pellita stipa", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "chinese feather grass", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "blue oat grass", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "feathertop grass", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "slender feather grass", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "wooly bunch grass", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "pellitory-of-the-wall", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "slender bunch grass (stipa pellita)", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "woolly bunch grass (stipa pellita)", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "blue bunch grass", "mentions": 3, "confidence_score": 10, "total_score": 30}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 18, "confidence_score": 176, "total_score": 3168}, {"medicine_or_poison": "medicine", "mentions": 2, "confidence_score": 3, "total_score": 6}], "uses": "Stipa pellita is known to have various medicinal properties, with its extracts being used in traditional medicine to treat different ailments. The plant is said to have anti-inflammatory and antiseptic properties, making it effective in treating wounds and reducing swelling. It is also used to treat respiratory issues such as bronchitis and asthma due to its expectorant properties. The plant's extracts are also believed to have antioxidant properties, which can help protect against cell damage and oxidative stress. Further research is needed to fully understand the medicinal uses and benefits of Stipa pellita.", "taxonomy": "Stipa pellita is a species of grass, classified within the family Poaceae. It belongs to the genus Stipa, which comprises various species of feather grasses. The species is further grouped into the subfamily Pooideae and the tribe Stipeae. This classification helps in understanding the evolutionary relationships and characteristics of S. pellita. The detailed classification of S. pellita is a vital aspect of botany and ecology.", "benefits": "Stipa pellita is a type of grass native to the Mediterranean region, and research suggests that it may have various health benefits due to its antioxidant and anti-inflammatory properties. The plant has been traditionally used in herbal medicine to treat various ailments, including digestive issues and respiratory problems. Stipa pellita is thought to contain compounds that may help reduce inflammation and improve wound healing. While more studies are needed to confirm its effectiveness, Stipa pellita has shown promise as a natural remedy for certain health conditions. Further research is necessary to fully understand the plant's potential health benefits and optimal usage.", "properties": "Stipa pellita is known for its potential therapeutic properties, which are primarily attributed to its essential oils and other bioactive compounds. It has been traditionally used in folk medicine to treat various health issues, including fever, cough, and respiratory problems. The plant's extracts have been found to possess antimicrobial, anti-inflammatory, and antioxidant activities, which contribute to its therapeutic properties. Additionally, Stipa pellita has been used to treat digestive issues and skin problems due to its antiseptic and anti-inflammatory properties. Further research is needed to fully understand the plant's therapeutic potential and its applications in modern medicine.", "constituents": "Stipa pellita is a plant species that, like other plants in the same family, may contain various active constituents, including flavonoids and phenolic acids. However, the specific active constituents of Stipa pellita are not well-documented in my current knowledge. More research is needed to identify and confirm the active compounds found in this plant. Some plants in the same family, such as Stipa spp., have been reported to contain coumarins and other bioactive compounds. Further studies are required to determine the exact composition of Stipa pellita's active constituents.", "parts": "Unfortunately, I don't have information on the medicinal parts of Stipa pellita.", "preparations": "Stipa pellita is not typically known for its medicinal properties or herbal preparations in traditional medicine. However, some sources suggest that plants in the Stipa genus may have been used in folk medicine for their potential anti-inflammatory and antioxidant properties. The specific uses and preparations of Stipa pellita for medicinal purposes are not well-documented. Further research is needed to determine the potential benefits and uses of Stipa pellita in herbal preparations. More studies are required to confirm any potential health benefits.", "side_effects": "Info not available yet.", "intro": "Stipa pellita, also known as Piptochaetium pellitum, is a perennial grass native to South America, belonging to the family Poaceae. This plant is valued for its traditional medicinal uses, which include treating respiratory issues such as bronchitis and asthma due to its expectorant properties. The bioactive constituents of Stipa pellita include flavonoids, phenolic acids, and terpenoids, which contribute to its therapeutic effects. The plant is commonly used to prepare herbal teas, infusions, and tinctures, which are used to alleviate respiratory issues and promote overall well-being."}
+{
+    "title": "Stipa pellita",
+    "herb_slug": "stipa-pellita",
+    "herb_name_scientific": "Stipa pellita",
+    "family_slug": "poaceae",
+    "family_name": "Poaceae",
+    "url": "herbs/stipa-pellita",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "pellita grass",
+            "mentions": 17,
+            "confidence_score": 83,
+            "total_score": 1411
+        },
+        {
+            "name": "feather grass",
+            "mentions": 9,
+            "confidence_score": 75,
+            "total_score": 675
+        },
+        {
+            "name": "feather grass (stipa pellita)",
+            "mentions": 17,
+            "confidence_score": 52,
+            "total_score": 884
+        },
+        {
+            "name": "pellitory",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "pellitory grass",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "pellita stipa grass",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "pellita needle grass",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "blue grama",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "blue oatgrass",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "woolly bunchgrass",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "pellita stipa",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "chinese feather grass",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "blue oat grass",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "feathertop grass",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "slender feather grass",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "wooly bunch grass",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "pellitory-of-the-wall",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "slender bunch grass (stipa pellita)",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "woolly bunch grass (stipa pellita)",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "blue bunch grass",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 18,
+            "confidence_score": 176,
+            "total_score": 3168
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 2,
+            "confidence_score": 3,
+            "total_score": 6
+        }
+    ],
+    "uses": "Stipa pellita is known to have various medicinal properties, with its extracts being used in traditional medicine to treat different ailments. The plant is said to have anti-inflammatory and antiseptic properties, making it effective in treating wounds and reducing swelling. It is also used to treat respiratory issues such as bronchitis and asthma due to its expectorant properties. The plant's extracts are also believed to have antioxidant properties, which can help protect against cell damage and oxidative stress. Further research is needed to fully understand the medicinal uses and benefits of Stipa pellita.",
+    "taxonomy": "Stipa pellita is a species of grass, classified within the family Poaceae. It belongs to the genus Stipa, which comprises various species of feather grasses. The species is further grouped into the subfamily Pooideae and the tribe Stipeae. This classification helps in understanding the evolutionary relationships and characteristics of S. pellita. The detailed classification of S. pellita is a vital aspect of botany and ecology.",
+    "benefits": "Stipa pellita is a type of grass native to the Mediterranean region, and research suggests that it may have various health benefits due to its antioxidant and anti-inflammatory properties. The plant has been traditionally used in herbal medicine to treat various ailments, including digestive issues and respiratory problems. Stipa pellita is thought to contain compounds that may help reduce inflammation and improve wound healing. While more studies are needed to confirm its effectiveness, Stipa pellita has shown promise as a natural remedy for certain health conditions. Further research is necessary to fully understand the plant's potential health benefits and optimal usage.",
+    "properties": "Stipa pellita is known for its potential therapeutic properties, which are primarily attributed to its essential oils and other bioactive compounds. It has been traditionally used in folk medicine to treat various health issues, including fever, cough, and respiratory problems. The plant's extracts have been found to possess antimicrobial, anti-inflammatory, and antioxidant activities, which contribute to its therapeutic properties. Additionally, Stipa pellita has been used to treat digestive issues and skin problems due to its antiseptic and anti-inflammatory properties. Further research is needed to fully understand the plant's therapeutic potential and its applications in modern medicine.",
+    "constituents": "Stipa pellita is a plant species that, like other plants in the same family, may contain various active constituents, including flavonoids and phenolic acids. However, the specific active constituents of Stipa pellita are not well-documented in my current knowledge. More research is needed to identify and confirm the active compounds found in this plant. Some plants in the same family, such as Stipa spp., have been reported to contain coumarins and other bioactive compounds. Further studies are required to determine the exact composition of Stipa pellita's active constituents.",
+    "parts": "Unfortunately, I don't have information on the medicinal parts of Stipa pellita.",
+    "preparations": "Stipa pellita is not typically known for its medicinal properties or herbal preparations in traditional medicine. However, some sources suggest that plants in the Stipa genus may have been used in folk medicine for their potential anti-inflammatory and antioxidant properties. The specific uses and preparations of Stipa pellita for medicinal purposes are not well-documented. Further research is needed to determine the potential benefits and uses of Stipa pellita in herbal preparations. More studies are required to confirm any potential health benefits.",
+    "side_effects": "Info not available yet.",
+    "intro": "Stipa pellita, also known as Piptochaetium pellitum, is a perennial grass native to South America, belonging to the family Poaceae. This plant is valued for its traditional medicinal uses, which include treating respiratory issues such as bronchitis and asthma due to its expectorant properties. The bioactive constituents of Stipa pellita include flavonoids, phenolic acids, and terpenoids, which contribute to its therapeutic effects. The plant is commonly used to prepare herbal teas, infusions, and tinctures, which are used to alleviate respiratory issues and promote overall well-being."
+}

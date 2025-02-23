@@ -1,1 +1,756 @@
-{"title": "Rheum palmatum", "herb_slug": "rheum-palmatum", "herb_name_scientific": "Rheum palmatum", "family_slug": "", "family_name": "", "url": "herbs/rheum-palmatum", "lastmod": "2025-1-20", "herb_names_common": [{"name": "chinese rhubarb", "mentions": 37, "confidence_score": 305, "total_score": 11285}, {"name": "da huang", "mentions": 17, "confidence_score": 148, "total_score": 2516}, {"name": "rheum", "mentions": 19, "confidence_score": 113, "total_score": 2147}, {"name": "chinese rhubarb root", "mentions": 14, "confidence_score": 84, "total_score": 1176}, {"name": "turkestan rhubarb", "mentions": 8, "confidence_score": 53, "total_score": 424}, {"name": "rheum palmatum root", "mentions": 12, "confidence_score": 38, "total_score": 456}, {"name": "palmate rhubarb", "mentions": 7, "confidence_score": 32, "total_score": 224}, {"name": "chinese rhubarb plant", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "rheum officinale", "mentions": 10, "confidence_score": 22, "total_score": 220}, {"name": "chinese rheum", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "greater rheum", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "tian hua fen", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "taiwanese rhubarb", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "chinese turkey rhubarb", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "chinese medicinal rhubarb", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "greater rhubarb", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "dahurian rhubarb", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "chinese turkestan rhubarb", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "tartar rhubarb", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "turkey rhubarb", "mentions": 3, "confidence_score": 8, "total_score": 24}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 167, "total_score": 3340}], "what_description": "Rheum palmatum is a perennial plant that belongs to the family Polygonaceae. It is a large, rhizomatous herb with a woody rootstock, growing up to 1.5 meters tall, with simple, alternate leaves that are 30-60 centimeters long and 10-20 centimeters wide, having a lanceolate shape and a wavy margin. The leaves are glabrous, dark green on the upper surface and pale green on the lower surface. The plant produces a large, compound umbel of small, greenish-yellow flowers in late spring and early summer, followed by red to purple-red seed capsules that ripen in late summer. The rootstock and rhizomes of the plant are used in traditional Chinese medicine.", "category_action": "anti-inflammatory", "ailments": [{"name": "arthritis", "mentions": 18, "confidence_score": 172, "total_score": 3096}, {"name": "inflammation", "mentions": 20, "confidence_score": 169, "total_score": 3380}, {"name": "gout", "mentions": 15, "confidence_score": 135, "total_score": 2025}, {"name": "fever", "mentions": 15, "confidence_score": 105, "total_score": 1575}, {"name": "rheumatism", "mentions": 10, "confidence_score": 94, "total_score": 940}, {"name": "pain", "mentions": 9, "confidence_score": 74, "total_score": 666}, {"name": "digestive issues", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "diarrhea", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "diabetes", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "cancer", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "hypertension", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "asthma", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "skin conditions", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "kidney stones", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "stomach ulcers", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "rheumatic arthritis", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "infection", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "swelling", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "cough", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "nephritis", "mentions": 2, "confidence_score": 15, "total_score": 30}], "ailments_description": "The most common ailments you can heal with Rheum palmatum are arthritis, with its anti-inflammatory compounds reducing joint inflammation and pain. Rheum palmatum has been used to treat gout due to its ability to reduce uric acid levels in the body. Fever reduction is also attributed to the plant's antipyretic properties, which lower body temperature. Rheumatism symptoms, including pain and swelling, can be alleviated by the plant's analgesic and anti-inflammatory effects. Additionally, Rheum palmatum has been used to treat digestive issues, such as diarrhea and stomach ulcers, due to its anti-inflammatory properties in the digestive tract.", "properties": [{"name": "anti-inflammatory", "mentions": 20, "confidence_score": 175, "total_score": 3500}, {"name": "antioxidant", "mentions": 20, "confidence_score": 173, "total_score": 3460}, {"name": "analgesic", "mentions": 20, "confidence_score": 149, "total_score": 2980}, {"name": "antimicrobial", "mentions": 18, "confidence_score": 130, "total_score": 2340}, {"name": "hepatoprotective", "mentions": 18, "confidence_score": 110, "total_score": 1980}, {"name": "expectorant", "mentions": 16, "confidence_score": 99, "total_score": 1584}, {"name": "antipyretic", "mentions": 15, "confidence_score": 94, "total_score": 1410}, {"name": "cardioprotective", "mentions": 14, "confidence_score": 74, "total_score": 1036}, {"name": "diuretic", "mentions": 8, "confidence_score": 69, "total_score": 552}, {"name": "anticancer", "mentions": 9, "confidence_score": 37, "total_score": 333}, {"name": "antiviral", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "laxative", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "anti-diarrheal", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "cardiovascular protective", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "antidiarrheal", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "antibacterial", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "antiseptic", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "immunomodulatory", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "antispasmodic", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "anti-rheumatic", "mentions": 1, "confidence_score": 9, "total_score": 9}], "properties_description": "The main therapeutic properties of Rheum palmatum are its anti-inflammatory effects, which have been attributed to the presence of saponins and flavonoids that inhibit the production of pro-inflammatory cytokines. The antioxidant properties of Rheum palmatum are also well-documented, with its ability to scavenge free radicals and protect against oxidative stress linked to the presence of volatile oils and phenolic acids. Additionally, the analgesic effects of Rheum palmatum have been shown to be mediated by the inhibition of pain-sensing neurons, likely due to the presence of glycosides and alkaloids. Furthermore, Rheum palmatum exhibits antimicrobial properties, with its ability to inhibit the growth of various microorganisms attributed to the presence of terpenoids and coumarins. The hepatoprotective effects of Rheum palmatum are also of interest, with its ability to protect against liver damage linked to the presence of flavonoids and phenolic acids that inhibit oxidative stress and inflammation.", "constituents": [{"name": "emodin", "mentions": 20, "confidence_score": 180, "total_score": 3600}, {"name": "rhein", "mentions": 20, "confidence_score": 180, "total_score": 3600}, {"name": "anthraquinones", "mentions": 18, "confidence_score": 136, "total_score": 2448}, {"name": "aloe-emodin", "mentions": 14, "confidence_score": 98, "total_score": 1372}, {"name": "physcion", "mentions": 12, "confidence_score": 74, "total_score": 888}, {"name": "chrysophanic acid", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "anthraquinone glycosides", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "rhaponticin", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "rhein-8-glucoside", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "anthraglycoside", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "triterpenoid saponins", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "rubratoxin", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "quercetin", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "chrysophanol", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "sennoside a", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "sennoside b", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "triterpene saponins", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "flavonoids", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "triterpenoids", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "alaternin", "mentions": 3, "confidence_score": 14, "total_score": 42}], "constituents_description": "The most important healing constituents of Rheum palmatum are emodin, rhein, anthraquinones, aloe-emodin, and physcion. Emodin and rhein are anthraquinone derivatives responsible for the herb's anti-inflammatory, anti-bacterial, and anti-cancer properties. Aloe-emodin and physcion are also anthraquinones that exhibit anti-inflammatory, anti-viral, and anti-cancer activities, with aloe-emodin also displaying potential for anti-tumor and anti-microbial effects. The anthraquinones in Rheum palmatum exert their therapeutic effects by inhibiting the growth of cancer cells, inducing apoptosis, and modulating various signaling pathways involved in inflammation and cell survival. These constituents work together to provide the herb with its medicinal properties, which have been traditionally used to treat various conditions, including fever, rheumatism, and gastrointestinal disorders.", "preparations": [{"name": "rheum tincture", "mentions": 8, "confidence_score": 69, "total_score": 552}, {"name": "rheum infusion", "mentions": 9, "confidence_score": 65, "total_score": 585}, {"name": "rheum palmatum tincture", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "rheum decoction", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "rheum tea", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "tangkuei infusion", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "rheum extract", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "palmaum tea", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "dried root", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "tangkuei tea", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "tang-kuei powder", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "rheum capsules", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "tangkuei powder", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "rheum wine", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "rheum palmatum extract", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "suppository", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "ointment", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "rhizome tea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "tangkuei decoction", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "infused oil", "mentions": 2, "confidence_score": 12, "total_score": 24}], "preparations_description": "The main herbal preparations of Rheum palmatum are rheum tincture, a concentrated liquid extract typically made from the root, rheum infusion, a tea made by steeping the root in hot water, rheum palmatum tincture, a more specific tincture made from the same root, rheum decoction, a liquid extract made by boiling the root in water, and rheum tea, a gentle preparation made by steeping the root in hot water. Rheum tincture is commonly used to treat digestive issues such as constipation and diarrhea. Rheum infusion and rheum tea are used to treat similar conditions due to their high water content and ability to draw out the plant's soluble compounds. Rheum palmatum tincture is a more potent version of the general rheum tincture, often used in higher doses to treat severe digestive issues. Rheum decoction is typically used to treat more severe conditions due to its ability to extract the plant's insoluble compounds.", "side_effects": [{"name": "exacerbate kidney issues", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "cause diarrhea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "develop kidney stones", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "affect liver function", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "develop acute renal failure", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induce vomiting", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "experiences gastrointestinal distress", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "developing gastrointestinal distress", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "damage liver", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "it triggers allergic reactions", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "suffering hepatotoxicity", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause nausea", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "develop nephrotoxicity", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experience kidney damage", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experience gastrointestinal distress", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "developing liver damage", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "developing kidney damage", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experience cardiac arrhythmia", "mentions": 3, "confidence_score": 13, "total_score": 39}], "side_effects_description": "The possible side effects of using Rheum palmatum improperly include exacerbating kidney issues due to its high content of anthraquinone glycosides which can increase the risk of kidney damage and failure. Rheum palmatum can also cause diarrhea and trigger allergic reactions in some individuals, particularly those with pre-existing conditions such as asthma or eczema. Furthermore, the glycosides in Rheum palmatum can increase the risk of developing kidney stones by altering the composition of urine and increasing the concentration of calcium and oxalate. Additionally, Rheum palmatum may affect liver function by causing an increase in liver enzymes and potentially leading to liver damage over time. Prolonged or excessive use of Rheum palmatum without proper supervision can lead to these side effects, emphasizing the importance of careful administration and monitoring."}
+{
+    "title": "Rheum palmatum",
+    "herb_slug": "rheum-palmatum",
+    "herb_name_scientific": "Rheum palmatum",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/rheum-palmatum",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "chinese rhubarb",
+            "mentions": 37,
+            "confidence_score": 305,
+            "total_score": 11285
+        },
+        {
+            "name": "da huang",
+            "mentions": 17,
+            "confidence_score": 148,
+            "total_score": 2516
+        },
+        {
+            "name": "rheum",
+            "mentions": 19,
+            "confidence_score": 113,
+            "total_score": 2147
+        },
+        {
+            "name": "chinese rhubarb root",
+            "mentions": 14,
+            "confidence_score": 84,
+            "total_score": 1176
+        },
+        {
+            "name": "turkestan rhubarb",
+            "mentions": 8,
+            "confidence_score": 53,
+            "total_score": 424
+        },
+        {
+            "name": "rheum palmatum root",
+            "mentions": 12,
+            "confidence_score": 38,
+            "total_score": 456
+        },
+        {
+            "name": "palmate rhubarb",
+            "mentions": 7,
+            "confidence_score": 32,
+            "total_score": 224
+        },
+        {
+            "name": "chinese rhubarb plant",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "rheum officinale",
+            "mentions": 10,
+            "confidence_score": 22,
+            "total_score": 220
+        },
+        {
+            "name": "chinese rheum",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "greater rheum",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "tian hua fen",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "taiwanese rhubarb",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "chinese turkey rhubarb",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "chinese medicinal rhubarb",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "greater rhubarb",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "dahurian rhubarb",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "chinese turkestan rhubarb",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "tartar rhubarb",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "turkey rhubarb",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 167,
+            "total_score": 3340
+        }
+    ],
+    "what_description": "Rheum palmatum is a perennial plant that belongs to the family Polygonaceae. It is a large, rhizomatous herb with a woody rootstock, growing up to 1.5 meters tall, with simple, alternate leaves that are 30-60 centimeters long and 10-20 centimeters wide, having a lanceolate shape and a wavy margin. The leaves are glabrous, dark green on the upper surface and pale green on the lower surface. The plant produces a large, compound umbel of small, greenish-yellow flowers in late spring and early summer, followed by red to purple-red seed capsules that ripen in late summer. The rootstock and rhizomes of the plant are used in traditional Chinese medicine.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "arthritis",
+            "mentions": 18,
+            "confidence_score": 172,
+            "total_score": 3096
+        },
+        {
+            "name": "inflammation",
+            "mentions": 20,
+            "confidence_score": 169,
+            "total_score": 3380
+        },
+        {
+            "name": "gout",
+            "mentions": 15,
+            "confidence_score": 135,
+            "total_score": 2025
+        },
+        {
+            "name": "fever",
+            "mentions": 15,
+            "confidence_score": 105,
+            "total_score": 1575
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 10,
+            "confidence_score": 94,
+            "total_score": 940
+        },
+        {
+            "name": "pain",
+            "mentions": 9,
+            "confidence_score": 74,
+            "total_score": 666
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "diabetes",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "cancer",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "hypertension",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "asthma",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "kidney stones",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "stomach ulcers",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "rheumatic arthritis",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "infection",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "swelling",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "cough",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "nephritis",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Rheum palmatum are arthritis, with its anti-inflammatory compounds reducing joint inflammation and pain. Rheum palmatum has been used to treat gout due to its ability to reduce uric acid levels in the body. Fever reduction is also attributed to the plant's antipyretic properties, which lower body temperature. Rheumatism symptoms, including pain and swelling, can be alleviated by the plant's analgesic and anti-inflammatory effects. Additionally, Rheum palmatum has been used to treat digestive issues, such as diarrhea and stomach ulcers, due to its anti-inflammatory properties in the digestive tract.",
+    "properties": [
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 175,
+            "total_score": 3500
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 173,
+            "total_score": 3460
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 149,
+            "total_score": 2980
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 18,
+            "confidence_score": 130,
+            "total_score": 2340
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 18,
+            "confidence_score": 110,
+            "total_score": 1980
+        },
+        {
+            "name": "expectorant",
+            "mentions": 16,
+            "confidence_score": 99,
+            "total_score": 1584
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 15,
+            "confidence_score": 94,
+            "total_score": 1410
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 14,
+            "confidence_score": 74,
+            "total_score": 1036
+        },
+        {
+            "name": "diuretic",
+            "mentions": 8,
+            "confidence_score": 69,
+            "total_score": 552
+        },
+        {
+            "name": "anticancer",
+            "mentions": 9,
+            "confidence_score": 37,
+            "total_score": 333
+        },
+        {
+            "name": "antiviral",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "laxative",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "anti-diarrheal",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "cardiovascular protective",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "anti-rheumatic",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Rheum palmatum are its anti-inflammatory effects, which have been attributed to the presence of saponins and flavonoids that inhibit the production of pro-inflammatory cytokines. The antioxidant properties of Rheum palmatum are also well-documented, with its ability to scavenge free radicals and protect against oxidative stress linked to the presence of volatile oils and phenolic acids. Additionally, the analgesic effects of Rheum palmatum have been shown to be mediated by the inhibition of pain-sensing neurons, likely due to the presence of glycosides and alkaloids. Furthermore, Rheum palmatum exhibits antimicrobial properties, with its ability to inhibit the growth of various microorganisms attributed to the presence of terpenoids and coumarins. The hepatoprotective effects of Rheum palmatum are also of interest, with its ability to protect against liver damage linked to the presence of flavonoids and phenolic acids that inhibit oxidative stress and inflammation.",
+    "constituents": [
+        {
+            "name": "emodin",
+            "mentions": 20,
+            "confidence_score": 180,
+            "total_score": 3600
+        },
+        {
+            "name": "rhein",
+            "mentions": 20,
+            "confidence_score": 180,
+            "total_score": 3600
+        },
+        {
+            "name": "anthraquinones",
+            "mentions": 18,
+            "confidence_score": 136,
+            "total_score": 2448
+        },
+        {
+            "name": "aloe-emodin",
+            "mentions": 14,
+            "confidence_score": 98,
+            "total_score": 1372
+        },
+        {
+            "name": "physcion",
+            "mentions": 12,
+            "confidence_score": 74,
+            "total_score": 888
+        },
+        {
+            "name": "chrysophanic acid",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "anthraquinone glycosides",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "rhaponticin",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "rhein-8-glucoside",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "anthraglycoside",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "triterpenoid saponins",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "rubratoxin",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "quercetin",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "chrysophanol",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "sennoside a",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "sennoside b",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "triterpene saponins",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "alaternin",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Rheum palmatum are emodin, rhein, anthraquinones, aloe-emodin, and physcion. Emodin and rhein are anthraquinone derivatives responsible for the herb's anti-inflammatory, anti-bacterial, and anti-cancer properties. Aloe-emodin and physcion are also anthraquinones that exhibit anti-inflammatory, anti-viral, and anti-cancer activities, with aloe-emodin also displaying potential for anti-tumor and anti-microbial effects. The anthraquinones in Rheum palmatum exert their therapeutic effects by inhibiting the growth of cancer cells, inducing apoptosis, and modulating various signaling pathways involved in inflammation and cell survival. These constituents work together to provide the herb with its medicinal properties, which have been traditionally used to treat various conditions, including fever, rheumatism, and gastrointestinal disorders.",
+    "preparations": [
+        {
+            "name": "rheum tincture",
+            "mentions": 8,
+            "confidence_score": 69,
+            "total_score": 552
+        },
+        {
+            "name": "rheum infusion",
+            "mentions": 9,
+            "confidence_score": 65,
+            "total_score": 585
+        },
+        {
+            "name": "rheum palmatum tincture",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "rheum decoction",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "rheum tea",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "tangkuei infusion",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "rheum extract",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "palmaum tea",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "dried root",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "tangkuei tea",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "tang-kuei powder",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "rheum capsules",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "tangkuei powder",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "rheum wine",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "rheum palmatum extract",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "suppository",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "ointment",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "rhizome tea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "tangkuei decoction",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "infused oil",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Rheum palmatum are rheum tincture, a concentrated liquid extract typically made from the root, rheum infusion, a tea made by steeping the root in hot water, rheum palmatum tincture, a more specific tincture made from the same root, rheum decoction, a liquid extract made by boiling the root in water, and rheum tea, a gentle preparation made by steeping the root in hot water. Rheum tincture is commonly used to treat digestive issues such as constipation and diarrhea. Rheum infusion and rheum tea are used to treat similar conditions due to their high water content and ability to draw out the plant's soluble compounds. Rheum palmatum tincture is a more potent version of the general rheum tincture, often used in higher doses to treat severe digestive issues. Rheum decoction is typically used to treat more severe conditions due to its ability to extract the plant's insoluble compounds.",
+    "side_effects": [
+        {
+            "name": "exacerbate kidney issues",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "develop kidney stones",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "affect liver function",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "develop acute renal failure",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "experiences gastrointestinal distress",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "developing gastrointestinal distress",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "damage liver",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "it triggers allergic reactions",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "suffering hepatotoxicity",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "develop nephrotoxicity",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experience kidney damage",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experience gastrointestinal distress",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "developing liver damage",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "developing kidney damage",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experience cardiac arrhythmia",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Rheum palmatum improperly include exacerbating kidney issues due to its high content of anthraquinone glycosides which can increase the risk of kidney damage and failure. Rheum palmatum can also cause diarrhea and trigger allergic reactions in some individuals, particularly those with pre-existing conditions such as asthma or eczema. Furthermore, the glycosides in Rheum palmatum can increase the risk of developing kidney stones by altering the composition of urine and increasing the concentration of calcium and oxalate. Additionally, Rheum palmatum may affect liver function by causing an increase in liver enzymes and potentially leading to liver damage over time. Prolonged or excessive use of Rheum palmatum without proper supervision can lead to these side effects, emphasizing the importance of careful administration and monitoring."
+}

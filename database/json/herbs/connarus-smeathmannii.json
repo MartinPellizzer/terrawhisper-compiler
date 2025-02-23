@@ -1,1 +1,1559 @@
-{"title": "Connarus smeathmannii", "herb_slug": "connarus-smeathmannii", "herb_name_scientific": "Connarus smeathmannii", "url": "herbs/connarus-smeathmannii", "lastmod": "2025-1-1", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 151, "total_score": 3020}], "category_action": "antimicrobial", "ailments": [{"name": "hypertension", "mentions": 14, "confidence_score": 110, "total_score": 1540}, {"name": "diabetes", "mentions": 14, "confidence_score": 104, "total_score": 1456}, {"name": "inflammation", "mentions": 13, "confidence_score": 96, "total_score": 1248}, {"name": "asthma", "mentions": 10, "confidence_score": 71, "total_score": 710}, {"name": "fever", "mentions": 9, "confidence_score": 61, "total_score": 549}, {"name": "rheumatism", "mentions": 10, "confidence_score": 58, "total_score": 580}, {"name": "arthritis", "mentions": 8, "confidence_score": 55, "total_score": 440}, {"name": "cancer", "mentions": 9, "confidence_score": 54, "total_score": 486}, {"name": "malaria", "mentions": 9, "confidence_score": 53, "total_score": 477}, {"name": "diarrhea", "mentions": 8, "confidence_score": 51, "total_score": 408}, {"name": "skin infections", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "gastroenteritis", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "cardiovascular disease", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "fungal infections", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "eczema", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "gout", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "dysentery", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "respiratory issues", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "infections", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "cough", "mentions": 3, "confidence_score": 16, "total_score": 48}], "ailments_description": "The most common ailments you can heal with Connarus smeathmannii are respiratory issues such as bronchitis, with its expectorant properties helping to loosen and clear mucus from the lungs. Connarus smeathmannii has been traditionally used to treat gastrointestinal disorders like diarrhea, by virtue of its anthraquinone content which has purgative and anti-inflammatory effects. Its antiseptic and antimicrobial properties have been used to treat skin conditions such as eczema, by reducing inflammation and preventing bacterial infections. Additionally, Connarus smeathmannii has been found to be effective in reducing fever, due to its pyrogenic and anti-pyretic properties. Furthermore, the plant has been used to treat urinary tract infections, with its antibacterial activity helping to combat bacterial growth in the urinary system.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 146, "total_score": 2920}, {"name": "antioxidant", "mentions": 20, "confidence_score": 141, "total_score": 2820}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 121, "total_score": 2420}, {"name": "analgesic", "mentions": 19, "confidence_score": 82, "total_score": 1558}, {"name": "cardioprotective", "mentions": 16, "confidence_score": 78, "total_score": 1248}, {"name": "anticancer", "mentions": 14, "confidence_score": 49, "total_score": 686}, {"name": "hepatoprotective", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "antiviral", "mentions": 11, "confidence_score": 39, "total_score": 429}, {"name": "antipyretic", "mentions": 7, "confidence_score": 32, "total_score": 224}, {"name": "antihypertensive", "mentions": 7, "confidence_score": 30, "total_score": 210}, {"name": "antiseptic", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "antifungal", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "neuroprotective", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "hypotensive", "mentions": 6, "confidence_score": 21, "total_score": 126}, {"name": "hypoglycemic", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "antidiabetic", "mentions": 6, "confidence_score": 20, "total_score": 120}, {"name": "diuretic", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "antihistaminic", "mentions": 5, "confidence_score": 17, "total_score": 85}, {"name": "antiparasitic", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "antidiarrheal", "mentions": 3, "confidence_score": 11, "total_score": 33}], "properties_description": "The main therapeutic properties of Connarus smeathmannii are its anti-inflammatory activity, which is attributed to the presence of flavonoids, such as quercetin and kaempferol, that inhibit the production of pro-inflammatory enzymes. The plant's antioxidant properties, responsible for its ability to scavenge free radicals and protect against oxidative stress, are due to the presence of saponins, including glycosides and triterpenes. Connarus smeathmannii also exhibits antimicrobial activity, effective against a range of microorganisms, including bacteria and fungi, thanks to the presence of volatile oils, such as borneol and bornyl acetate. Additionally, the plant's antiparasitic properties, which have been used to treat various parasitic infections, are attributed to the presence of alkaloids, including isoquinoline and benzylisoquinoline derivatives. The plant's ability to modulate the immune system and exhibit immunomodulatory activity is also a notable therapeutic property, which is attributed to the presence of various bioactive compounds, including polysaccharides and phenolic acids.", "constituents": [{"name": "quercetin", "mentions": 11, "confidence_score": 88, "total_score": 968}, {"name": "connarine", "mentions": 8, "confidence_score": 75, "total_score": 600}, {"name": "connoside", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "kaempferol", "mentions": 8, "confidence_score": 54, "total_score": 432}, {"name": "ellagic acid", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "connasperine", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "connosine", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "gallic acid", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "connarin", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "connaropicrin", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "phenolic acids", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "quinic acid", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "quercitrin", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "connaroside", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "connosine alkaloid", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "flavonoids", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "saponins", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "isoboldine", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "tannins", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "connosine glycoside", "mentions": 3, "confidence_score": 15, "total_score": 45}], "constituents_description": "The most important healing constituents of Connarus smeathmannii are flavonoids, phenolic acids, and alkaloids, which contribute to its medicinal properties. Flavonoids present in Connarus smeathmannii include kaempferol, quercetin, and isorhapontigenin, which exhibit antioxidant, anti-inflammatory, and antimicrobial activities. Phenolic acids such as ferulic acid and sinapic acid in Connarus smeathmannii possess antioxidant and anti-inflammatory properties, which may help in wound healing and tissue protection. Alkaloids like connaridine and connanidine in Connarus smeathmannii have shown antimicrobial and anti-inflammatory activities, which may aid in the treatment of infections and inflammatory diseases. These constituents have been isolated and characterized through various chemical and biological assays, providing evidence for their potential healing properties.", "herb_names_common": [{"name": "smeathmann's connarus", "mentions": 41, "confidence_score": 291, "total_score": 11931}, {"name": "smeathmannia", "mentions": 22, "confidence_score": 145, "total_score": 3190}, {"name": "connarus smeathmannii", "mentions": 14, "confidence_score": 44, "total_score": 616}, {"name": "smeathmann's tree", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "smeathmann's connarus tree", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "connar smeathmannii", "mentions": 6, "confidence_score": 19, "total_score": 114}, {"name": "smeathmannia smeathmannii", "mentions": 5, "confidence_score": 18, "total_score": 90}, {"name": "smeathmann's connaraceae", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "mata", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "connaraceae smeathmannii", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "smeathmann's connarus bush", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "connaraceae", "mentions": 6, "confidence_score": 12, "total_score": 72}, {"name": "west african connarus", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "connarus smeathmannii tree", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "smeathmann connar", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "smeathmann connarus", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "red connar", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "black plum", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "yellow connarus", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "kurrajong", "mentions": 1, "confidence_score": 9, "total_score": 9}], "preparations": [{"name": "tincture", "mentions": 16, "confidence_score": 129, "total_score": 2064}, {"name": "infusion", "mentions": 16, "confidence_score": 127, "total_score": 2032}, {"name": "decoction", "mentions": 16, "confidence_score": 103, "total_score": 1648}, {"name": "salve", "mentions": 14, "confidence_score": 64, "total_score": 896}, {"name": "tea", "mentions": 8, "confidence_score": 50, "total_score": 400}, {"name": "connarus tea", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "connarus extract", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "connarus infusion", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "connarus tincture", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "supercritical extract", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "ointment", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "connarus decoction", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "poultice", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "connarus oil", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "tincture connarus", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "oil", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "connarus powder", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "connarus salve", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "infused oil", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "elixir", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suppository", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "essential oil", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "resin", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "connarus ointment", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Connarus smeathmannii are derived from its leaves, stems, and roots, and include a tincture made by extracting the plant's bioactive compounds using a solvent such as ethanol or glycerin, a tea made by steeping the dried leaves in hot water, an infusion made by steeping the fresh or dried leaves in hot water, a decoction made by boiling the roots and stems in water to release their active compounds, and a salve made by mixing the plant's oils with a carrier oil to create a topical application. The tincture is a concentrated liquid extract of the plant's bioactive compounds, making it a convenient and shelf-stable preparation for medicinal use. The infusion and decoction are both aqueous preparations, with the infusion being a more delicate and flavorful preparation made with fresh or dried leaves, and the decoction being a more robust preparation made with the roots and stems. The salve is a topical preparation made by mixing the plant's oils with a carrier oil, such as coconut or olive oil, to create a cream or ointment that can be applied directly to the skin. These herbal preparations of Connarus smeathmannii are used to treat various health conditions, including fever, rheumatism, and digestive issues.", "side_effects": [{"name": "experience nausea", "mentions": 9, "confidence_score": 80, "total_score": 720}, {"name": "develop allergic reactions", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "cause diarrhea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "induce nausea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "suffer diarrhea", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "experience dizziness", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "experience fatigue", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "aggravate asthma", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "feel dizziness", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "develop vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience seizures", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "suffer kidney damage", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "show increased blood pressure", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "suffer liver damage", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "show increased heart rate", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "show allergic reaction", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "develop allergies", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "get headache", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "develop insomnia", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "elevate blood pressure", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "develop headaches", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "develop respiratory issues", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "suffers liver damage", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "exhibits nausea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "get diarrhea", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "produce abdominal pain", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "get hypotension", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "suffer headache", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause headaches", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop cardiovascular issues", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences hallucinations", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "shows seizures", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "get liver damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop cardiac arrest", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "vomits", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "developing diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "having abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induces nausea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "triggers allergic reactions", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "produces vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "exacerbate", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "amplify", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences hypotension", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develops allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "show exanthema", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer gastrointestinal issues", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer abdominal pain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "increase heart rate", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "experience headaches", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "lead to liver damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffers nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experience diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experience coma", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "diarrheas", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiencing nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiencing vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "show signs of hypotension", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops headache", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "exhibits confusion", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "causes dizziness", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "affects liver function", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause kidney damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "have vomiting", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experience tremors", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "lower blood pressure", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "inhibit fertility", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffering from headache", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffer from vomiting", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "gets fatigue", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "have abdominal pain", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "increases heart rate", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "occur", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "have diarrhea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "get abdominal pain", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "shows electrolyte imbalance", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "reduce kidney function", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "cause muscle weakness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "exhibits tremors", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffer cardiac arrhythmia", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "allergizes", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "showing allergic reactions", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffer from diarrhea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "feels dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "raises blood pressure", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "accelerate", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffer from headache", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "shows liver damage", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "induce dizziness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop skin irritation", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "produce diarrhea", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "exhibits muscle weakness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "abdominal pains", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experiencing dizziness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop skin rashes", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "shows rash", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "feels weakness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "worsens insomnia", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "manifest", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "exhibits abdominal pain", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "interact with medications", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "be drowsy", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience liver damage", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "develops diarrhea", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "show abnormal behavior", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "display tremors", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "developing skin lesions", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "develops cough", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "develop liver damage", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "damages kidneys", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "provoke", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "have fatigue", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffers kidney failure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "get cardiac arrest", "mentions": 2, "confidence_score": 3, "total_score": 6}, {"name": "worsen kidney function", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "trigger seizures", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "shows abnormal heart rate", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cause coma", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experience respiratory failure", "mentions": 3, "confidence_score": 3, "total_score": 9}, {"name": "fevered", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "showing seizure activity", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop kidney damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "get cardiovascular issues", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "leads to seizures", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "show liver damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experiences cardiovascular issues", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "decrease fertility", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cause liver damage", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "induce respiratory distress", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "get respiratory depression", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiences vomiting", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "show seizures", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "skin rashes", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiencing cardiac arrest", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience cardiac arrest", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "have seizures", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "exhibits seizures", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "develops insomnia", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "renal failure", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "show cardiac problems", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "suffers respiratory depression", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "induce seizures", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effects of using Connarus smeathmannii improperly are experience nausea, develop allergic reactions, cause diarrhea, induce nausea, and suffer from diarrhea. These side effects can occur due to the plant's toxic compounds, such as saponins and flavonoids, which can cause gastrointestinal irritation and allergic responses. Prolonged consumption of the plant can also lead to gastrointestinal disturbances, including diarrhea and nausea, as the body tries to eliminate the toxic compounds. In severe cases, allergic reactions can manifest as skin rashes, itching, and respiratory issues, which can be life-threatening if not treated promptly. It is essential to consult a medical professional before using Connarus smeathmannii to ensure safe and proper usage.", "family_slug": "connaraceae", "family_name": "Connaraceae", "what_description": "Connarus smeathmannii is a species of plant in the family Connaraceae, native to tropical Africa. It is a climbing shrub with a woody stem and simple, alternate, and elliptical leaves that are 4-8 cm long and 1.5-3.5 cm wide. The leaves have entire margins and are glabrous on both surfaces. The plant produces small, greenish-yellow flowers in axillary cymes, which are dioecious, meaning they have separate male and female reproductive structures. The fruits are small, green capsules that split open to release seeds.", "uses": "Connarus smeathmannii has been reported to have various medicinal uses, including the treatment of fever and cough. Its extracts are said to possess anti-inflammatory and antimicrobial properties. In traditional medicine, the plant is used to treat various health conditions, including respiratory issues and skin infections. Further research is needed to confirm the effectiveness of Connarus smeathmannii for medicinal purposes. The plant's potential health benefits make it an area of interest for scientists studying medicinal plants.", "taxonomy": "Connarus smeathmannii is a species of flowering plant in the family Olacaceae, commonly known as the sapol\u00e3o. This plant is native to South America and is part of the genus Connarus, which comprises approximately 300 species of plants. The species Connarus smeathmannii is classified within the kingdom Plantae and further categorized into the phylum Magnoliophyta. The classification of Connarus smeathmannii is also known as a flowering plant or angiosperm, which is a group of plants that produce flowers and seeds. Within the Olacaceae family, Connarus smeathmannii is classified as a member of the genus Connarus, which is a group of plants that have a similar morphology and growth habit.", "benefits": "Connarus smeathmannii, a plant species native to tropical regions, has been traditionally used in folk medicine to treat various health conditions. Its extracts have been found to possess antioxidant, anti-inflammatory, and antimicrobial properties, which may contribute to its potential health benefits. Research suggests that Connarus smeathmannii may help in managing diabetes, reducing oxidative stress, and exhibiting anticancer activities. The plant's leaves and roots are rich in bioactive compounds, including flavonoids and alkaloids, which may be responsible for its medicinal properties. Further studies are necessary to fully understand the therapeutic potential of Connarus smeathmannii and its safe use in human medicine.", "parts": "Connarus smeathmannii is a plant species that has been found to have various medicinal properties. The leaves of Connarus smeathmannii are known to be used in traditional medicine to treat various ailments. However, more research is needed to confirm the efficacy of these medicinal parts. The roots and stems of the plant are also used in some traditional remedies. Further studies are required to fully understand the medicinal properties and potential uses of Connarus smeathmannii.", "intro": "Connarus smeathmannii is a plant species belonging to the family Connaraceae, commonly found in tropical regions. Traditionally, the plant has been used to treat various health conditions, including fever, rheumatism, and skin disorders, due to its potential anti-inflammatory and antimicrobial properties. The bioactive constituents of C. smeathmannii include flavonoids, alkaloids, and phenolic acids, which are responsible for its medicinal properties. In herbal medicine, the plant is often prepared as a tea or infused in water to treat various ailments, although more research is needed to confirm its efficacy and optimal usage."}
+{
+    "title": "Connarus smeathmannii",
+    "herb_slug": "connarus-smeathmannii",
+    "herb_name_scientific": "Connarus smeathmannii",
+    "url": "herbs/connarus-smeathmannii",
+    "lastmod": "2025-1-1",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 151,
+            "total_score": 3020
+        }
+    ],
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "hypertension",
+            "mentions": 14,
+            "confidence_score": 110,
+            "total_score": 1540
+        },
+        {
+            "name": "diabetes",
+            "mentions": 14,
+            "confidence_score": 104,
+            "total_score": 1456
+        },
+        {
+            "name": "inflammation",
+            "mentions": 13,
+            "confidence_score": 96,
+            "total_score": 1248
+        },
+        {
+            "name": "asthma",
+            "mentions": 10,
+            "confidence_score": 71,
+            "total_score": 710
+        },
+        {
+            "name": "fever",
+            "mentions": 9,
+            "confidence_score": 61,
+            "total_score": 549
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 10,
+            "confidence_score": 58,
+            "total_score": 580
+        },
+        {
+            "name": "arthritis",
+            "mentions": 8,
+            "confidence_score": 55,
+            "total_score": 440
+        },
+        {
+            "name": "cancer",
+            "mentions": 9,
+            "confidence_score": 54,
+            "total_score": 486
+        },
+        {
+            "name": "malaria",
+            "mentions": 9,
+            "confidence_score": 53,
+            "total_score": 477
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 8,
+            "confidence_score": 51,
+            "total_score": 408
+        },
+        {
+            "name": "skin infections",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "eczema",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "gout",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "dysentery",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "infections",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "cough",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Connarus smeathmannii are respiratory issues such as bronchitis, with its expectorant properties helping to loosen and clear mucus from the lungs. Connarus smeathmannii has been traditionally used to treat gastrointestinal disorders like diarrhea, by virtue of its anthraquinone content which has purgative and anti-inflammatory effects. Its antiseptic and antimicrobial properties have been used to treat skin conditions such as eczema, by reducing inflammation and preventing bacterial infections. Additionally, Connarus smeathmannii has been found to be effective in reducing fever, due to its pyrogenic and anti-pyretic properties. Furthermore, the plant has been used to treat urinary tract infections, with its antibacterial activity helping to combat bacterial growth in the urinary system.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 146,
+            "total_score": 2920
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 141,
+            "total_score": 2820
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 121,
+            "total_score": 2420
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 82,
+            "total_score": 1558
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 16,
+            "confidence_score": 78,
+            "total_score": 1248
+        },
+        {
+            "name": "anticancer",
+            "mentions": 14,
+            "confidence_score": 49,
+            "total_score": 686
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "antiviral",
+            "mentions": 11,
+            "confidence_score": 39,
+            "total_score": 429
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 7,
+            "confidence_score": 32,
+            "total_score": 224
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 7,
+            "confidence_score": 30,
+            "total_score": 210
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "antifungal",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 6,
+            "confidence_score": 21,
+            "total_score": 126
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 6,
+            "confidence_score": 20,
+            "total_score": 120
+        },
+        {
+            "name": "diuretic",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 5,
+            "confidence_score": 17,
+            "total_score": 85
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Connarus smeathmannii are its anti-inflammatory activity, which is attributed to the presence of flavonoids, such as quercetin and kaempferol, that inhibit the production of pro-inflammatory enzymes. The plant's antioxidant properties, responsible for its ability to scavenge free radicals and protect against oxidative stress, are due to the presence of saponins, including glycosides and triterpenes. Connarus smeathmannii also exhibits antimicrobial activity, effective against a range of microorganisms, including bacteria and fungi, thanks to the presence of volatile oils, such as borneol and bornyl acetate. Additionally, the plant's antiparasitic properties, which have been used to treat various parasitic infections, are attributed to the presence of alkaloids, including isoquinoline and benzylisoquinoline derivatives. The plant's ability to modulate the immune system and exhibit immunomodulatory activity is also a notable therapeutic property, which is attributed to the presence of various bioactive compounds, including polysaccharides and phenolic acids.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 11,
+            "confidence_score": 88,
+            "total_score": 968
+        },
+        {
+            "name": "connarine",
+            "mentions": 8,
+            "confidence_score": 75,
+            "total_score": 600
+        },
+        {
+            "name": "connoside",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 8,
+            "confidence_score": 54,
+            "total_score": 432
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "connasperine",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "connosine",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "connarin",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "connaropicrin",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "quercitrin",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "connaroside",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "connosine alkaloid",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "saponins",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "isoboldine",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "tannins",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "connosine glycoside",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Connarus smeathmannii are flavonoids, phenolic acids, and alkaloids, which contribute to its medicinal properties. Flavonoids present in Connarus smeathmannii include kaempferol, quercetin, and isorhapontigenin, which exhibit antioxidant, anti-inflammatory, and antimicrobial activities. Phenolic acids such as ferulic acid and sinapic acid in Connarus smeathmannii possess antioxidant and anti-inflammatory properties, which may help in wound healing and tissue protection. Alkaloids like connaridine and connanidine in Connarus smeathmannii have shown antimicrobial and anti-inflammatory activities, which may aid in the treatment of infections and inflammatory diseases. These constituents have been isolated and characterized through various chemical and biological assays, providing evidence for their potential healing properties.",
+    "herb_names_common": [
+        {
+            "name": "smeathmann's connarus",
+            "mentions": 41,
+            "confidence_score": 291,
+            "total_score": 11931
+        },
+        {
+            "name": "smeathmannia",
+            "mentions": 22,
+            "confidence_score": 145,
+            "total_score": 3190
+        },
+        {
+            "name": "connarus smeathmannii",
+            "mentions": 14,
+            "confidence_score": 44,
+            "total_score": 616
+        },
+        {
+            "name": "smeathmann's tree",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "smeathmann's connarus tree",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "connar smeathmannii",
+            "mentions": 6,
+            "confidence_score": 19,
+            "total_score": 114
+        },
+        {
+            "name": "smeathmannia smeathmannii",
+            "mentions": 5,
+            "confidence_score": 18,
+            "total_score": 90
+        },
+        {
+            "name": "smeathmann's connaraceae",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "mata",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "connaraceae smeathmannii",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "smeathmann's connarus bush",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "connaraceae",
+            "mentions": 6,
+            "confidence_score": 12,
+            "total_score": 72
+        },
+        {
+            "name": "west african connarus",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "connarus smeathmannii tree",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "smeathmann connar",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "smeathmann connarus",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "red connar",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "black plum",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "yellow connarus",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "kurrajong",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 16,
+            "confidence_score": 129,
+            "total_score": 2064
+        },
+        {
+            "name": "infusion",
+            "mentions": 16,
+            "confidence_score": 127,
+            "total_score": 2032
+        },
+        {
+            "name": "decoction",
+            "mentions": 16,
+            "confidence_score": 103,
+            "total_score": 1648
+        },
+        {
+            "name": "salve",
+            "mentions": 14,
+            "confidence_score": 64,
+            "total_score": 896
+        },
+        {
+            "name": "tea",
+            "mentions": 8,
+            "confidence_score": 50,
+            "total_score": 400
+        },
+        {
+            "name": "connarus tea",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "connarus extract",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "connarus infusion",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "connarus tincture",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "supercritical extract",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "ointment",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "connarus decoction",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "poultice",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "connarus oil",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "tincture connarus",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "oil",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "connarus powder",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "connarus salve",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "infused oil",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "elixir",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "essential oil",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "resin",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "connarus ointment",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Connarus smeathmannii are derived from its leaves, stems, and roots, and include a tincture made by extracting the plant's bioactive compounds using a solvent such as ethanol or glycerin, a tea made by steeping the dried leaves in hot water, an infusion made by steeping the fresh or dried leaves in hot water, a decoction made by boiling the roots and stems in water to release their active compounds, and a salve made by mixing the plant's oils with a carrier oil to create a topical application. The tincture is a concentrated liquid extract of the plant's bioactive compounds, making it a convenient and shelf-stable preparation for medicinal use. The infusion and decoction are both aqueous preparations, with the infusion being a more delicate and flavorful preparation made with fresh or dried leaves, and the decoction being a more robust preparation made with the roots and stems. The salve is a topical preparation made by mixing the plant's oils with a carrier oil, such as coconut or olive oil, to create a cream or ointment that can be applied directly to the skin. These herbal preparations of Connarus smeathmannii are used to treat various health conditions, including fever, rheumatism, and digestive issues.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 9,
+            "confidence_score": 80,
+            "total_score": 720
+        },
+        {
+            "name": "develop allergic reactions",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "suffer diarrhea",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "experience fatigue",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "aggravate asthma",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "develop vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience seizures",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "suffer kidney damage",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "show increased blood pressure",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "show increased heart rate",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "show allergic reaction",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "develop allergies",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "get headache",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "develop insomnia",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "develop headaches",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "develop respiratory issues",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "suffers liver damage",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "exhibits nausea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "get diarrhea",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "produce abdominal pain",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "get hypotension",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "suffer headache",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause headaches",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences hallucinations",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "shows seizures",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "get liver damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "vomits",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "developing diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "having abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induces nausea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "triggers allergic reactions",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "produces vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "exacerbate",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "amplify",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences hypotension",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develops allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "show exanthema",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer abdominal pain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "experience headaches",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "lead to liver damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffers nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experience coma",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "diarrheas",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "show signs of hypotension",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops headache",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "exhibits confusion",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "causes dizziness",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "affects liver function",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause kidney damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "have vomiting",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experience tremors",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "lower blood pressure",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "inhibit fertility",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffering from headache",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffer from vomiting",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "gets fatigue",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "have abdominal pain",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "increases heart rate",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "occur",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "have diarrhea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "get abdominal pain",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "shows electrolyte imbalance",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "reduce kidney function",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "cause muscle weakness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "exhibits tremors",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffer cardiac arrhythmia",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "allergizes",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "showing allergic reactions",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffer from diarrhea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "feels dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "raises blood pressure",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "accelerate",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffer from headache",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "shows liver damage",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "induce dizziness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "produce diarrhea",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "exhibits muscle weakness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "abdominal pains",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop skin rashes",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "shows rash",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "feels weakness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "worsens insomnia",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "manifest",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "exhibits abdominal pain",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "be drowsy",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience liver damage",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "show abnormal behavior",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "display tremors",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "developing skin lesions",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "develops cough",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "develop liver damage",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "damages kidneys",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "provoke",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "have fatigue",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffers kidney failure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "get cardiac arrest",
+            "mentions": 2,
+            "confidence_score": 3,
+            "total_score": 6
+        },
+        {
+            "name": "worsen kidney function",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "shows abnormal heart rate",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cause coma",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experience respiratory failure",
+            "mentions": 3,
+            "confidence_score": 3,
+            "total_score": 9
+        },
+        {
+            "name": "fevered",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "showing seizure activity",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop kidney damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "get cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "leads to seizures",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "show liver damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experiences cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "decrease fertility",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "induce respiratory distress",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "get respiratory depression",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiences vomiting",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "show seizures",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "skin rashes",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiencing cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "have seizures",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "exhibits seizures",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "develops insomnia",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "renal failure",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "show cardiac problems",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "suffers respiratory depression",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Connarus smeathmannii improperly are experience nausea, develop allergic reactions, cause diarrhea, induce nausea, and suffer from diarrhea. These side effects can occur due to the plant's toxic compounds, such as saponins and flavonoids, which can cause gastrointestinal irritation and allergic responses. Prolonged consumption of the plant can also lead to gastrointestinal disturbances, including diarrhea and nausea, as the body tries to eliminate the toxic compounds. In severe cases, allergic reactions can manifest as skin rashes, itching, and respiratory issues, which can be life-threatening if not treated promptly. It is essential to consult a medical professional before using Connarus smeathmannii to ensure safe and proper usage.",
+    "family_slug": "connaraceae",
+    "family_name": "Connaraceae",
+    "what_description": "Connarus smeathmannii is a species of plant in the family Connaraceae, native to tropical Africa. It is a climbing shrub with a woody stem and simple, alternate, and elliptical leaves that are 4-8 cm long and 1.5-3.5 cm wide. The leaves have entire margins and are glabrous on both surfaces. The plant produces small, greenish-yellow flowers in axillary cymes, which are dioecious, meaning they have separate male and female reproductive structures. The fruits are small, green capsules that split open to release seeds.",
+    "uses": "Connarus smeathmannii has been reported to have various medicinal uses, including the treatment of fever and cough. Its extracts are said to possess anti-inflammatory and antimicrobial properties. In traditional medicine, the plant is used to treat various health conditions, including respiratory issues and skin infections. Further research is needed to confirm the effectiveness of Connarus smeathmannii for medicinal purposes. The plant's potential health benefits make it an area of interest for scientists studying medicinal plants.",
+    "taxonomy": "Connarus smeathmannii is a species of flowering plant in the family Olacaceae, commonly known as the sapol\u00e3o. This plant is native to South America and is part of the genus Connarus, which comprises approximately 300 species of plants. The species Connarus smeathmannii is classified within the kingdom Plantae and further categorized into the phylum Magnoliophyta. The classification of Connarus smeathmannii is also known as a flowering plant or angiosperm, which is a group of plants that produce flowers and seeds. Within the Olacaceae family, Connarus smeathmannii is classified as a member of the genus Connarus, which is a group of plants that have a similar morphology and growth habit.",
+    "benefits": "Connarus smeathmannii, a plant species native to tropical regions, has been traditionally used in folk medicine to treat various health conditions. Its extracts have been found to possess antioxidant, anti-inflammatory, and antimicrobial properties, which may contribute to its potential health benefits. Research suggests that Connarus smeathmannii may help in managing diabetes, reducing oxidative stress, and exhibiting anticancer activities. The plant's leaves and roots are rich in bioactive compounds, including flavonoids and alkaloids, which may be responsible for its medicinal properties. Further studies are necessary to fully understand the therapeutic potential of Connarus smeathmannii and its safe use in human medicine.",
+    "parts": "Connarus smeathmannii is a plant species that has been found to have various medicinal properties. The leaves of Connarus smeathmannii are known to be used in traditional medicine to treat various ailments. However, more research is needed to confirm the efficacy of these medicinal parts. The roots and stems of the plant are also used in some traditional remedies. Further studies are required to fully understand the medicinal properties and potential uses of Connarus smeathmannii.",
+    "intro": "Connarus smeathmannii is a plant species belonging to the family Connaraceae, commonly found in tropical regions. Traditionally, the plant has been used to treat various health conditions, including fever, rheumatism, and skin disorders, due to its potential anti-inflammatory and antimicrobial properties. The bioactive constituents of C. smeathmannii include flavonoids, alkaloids, and phenolic acids, which are responsible for its medicinal properties. In herbal medicine, the plant is often prepared as a tea or infused in water to treat various ailments, although more research is needed to confirm its efficacy and optimal usage."
+}

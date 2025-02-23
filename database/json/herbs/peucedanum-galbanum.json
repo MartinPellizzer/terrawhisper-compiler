@@ -1,1 +1,1536 @@
-{"herb_slug": "peucedanum-galbanum", "herb_name_scientific": "Peucedanum galbanum", "url": "herbs/peucedanum-galbanum", "lastmod": "2024-12-25", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 17, "confidence_score": 137, "total_score": 2329}, {"medicine_or_poison": "poison", "mentions": 3, "confidence_score": 27, "total_score": 81}], "constituents": [{"name": "falcarinol", "mentions": 15, "confidence_score": 131, "total_score": 1965}, {"name": "coumarins", "mentions": 15, "confidence_score": 98, "total_score": 1470}, {"name": "falcarinene", "mentions": 8, "confidence_score": 69, "total_score": 552}, {"name": "falcarindiol", "mentions": 8, "confidence_score": 69, "total_score": 552}, {"name": "phthalides", "mentions": 9, "confidence_score": 58, "total_score": 522}, {"name": "falcarinone", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "triterpenoids", "mentions": 12, "confidence_score": 49, "total_score": 588}, {"name": "flavonoids", "mentions": 8, "confidence_score": 39, "total_score": 312}, {"name": "sesquiterpenes", "mentions": 9, "confidence_score": 36, "total_score": 324}, {"name": "phytolaccatoxin", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "phenolic acids", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "furanocoumarins", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "ligustilide", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "coumarins (including peucedanin)", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "lignans", "mentions": 6, "confidence_score": 23, "total_score": 138}, {"name": "sesquiterpene alcohols", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "\u03b1-pinene", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "galbanic acid", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "oxypeucedanin", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "saponins", "mentions": 3, "confidence_score": 15, "total_score": 45}], "title": "Peucedanum galbanum", "ailments": [{"name": "inflammation", "mentions": 16, "confidence_score": 138, "total_score": 2208}, {"name": "arthritis", "mentions": 10, "confidence_score": 87, "total_score": 870}, {"name": "rheumatism", "mentions": 10, "confidence_score": 83, "total_score": 830}, {"name": "asthma", "mentions": 10, "confidence_score": 67, "total_score": 670}, {"name": "fever reduction", "mentions": 9, "confidence_score": 63, "total_score": 567}, {"name": "diarrhea", "mentions": 9, "confidence_score": 62, "total_score": 558}, {"name": "eczema", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "gastroenteritis", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "hypertension", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "digestive issues", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "cancer", "mentions": 7, "confidence_score": 38, "total_score": 266}, {"name": "nausea", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "diabetes", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "gout", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "skin conditions", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "fungal infections", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "indigestion", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "coughs", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "dyspepsia", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "pain relief", "mentions": 3, "confidence_score": 23, "total_score": 69}], "herb_names_common": [{"name": "galbanum", "mentions": 37, "confidence_score": 275, "total_score": 10175}, {"name": "ferula galbanum", "mentions": 23, "confidence_score": 137, "total_score": 3151}, {"name": "galbanic", "mentions": 11, "confidence_score": 40, "total_score": 440}, {"name": "galbanum ferula", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "peucedanum", "mentions": 7, "confidence_score": 21, "total_score": 147}, {"name": "galbanic ferula", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "galbanic resin", "mentions": 6, "confidence_score": 18, "total_score": 108}, {"name": "galban resin", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "ferula galbaniflua", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "ferula galbanica", "mentions": 4, "confidence_score": 11, "total_score": 44}, {"name": "golab", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "galbanic root", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "lesser galbanum", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "golbandan", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "dill weed", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "lesser ferney", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "russian galbanum", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "horse parsley", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "wild parsley", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "galbanum root", "mentions": 2, "confidence_score": 6, "total_score": 12}], "ailments_description": "The most common ailments you can heal with Peucedanum galbanum are fever, which it has been shown to reduce in patients with malaria, as well as digestive issues such as diarrhea, due to its anti-inflammatory properties that inhibit the growth of intestinal pathogens. It is also effective in treating respiratory problems like bronchitis, where its expectorant properties help to loosen and clear mucus from the lungs. Furthermore, Peucedanum galbanum has been used to treat skin conditions like eczema, by reducing inflammation and promoting wound healing. Additionally, its antiseptic properties make it useful in preventing infections in wounds and cuts, thereby promoting faster recovery. Moreover, it has been shown to be effective in reducing inflammation and pain associated with arthritis, making it a valuable treatment option for individuals suffering from this condition.", "constituents_description": "The most important healing constituents of Peucedanum galbanum are a combination of polyacetylenes, sesquiterpene lactones, and phenolic compounds. The sesquiterpene lactones are primarily responsible for its anti-inflammatory properties, with compounds like sesquiterpene lactone A and B exhibiting potent anti-inflammatory activity by inhibiting the production of pro-inflammatory enzymes. The polyacetylenes, including falcarinol and falcarinone, possess antioxidant and anti-inflammatory properties, contributing to the plant's ability to scavenge free radicals and reduce oxidative stress. The phenolic compounds, such as caffeic acid and ferulic acid, exhibit antimicrobial and antioxidant activities, further enhancing the plant's potential therapeutic benefits. These constituents work synergistically to provide Peucedanum galbanum with its broad-spectrum healing properties.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 154, "total_score": 3080}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 153, "total_score": 3060}, {"name": "antioxidant", "mentions": 20, "confidence_score": 151, "total_score": 3020}, {"name": "antispasmodic", "mentions": 18, "confidence_score": 112, "total_score": 2016}, {"name": "analgesic", "mentions": 19, "confidence_score": 105, "total_score": 1995}, {"name": "hepatoprotective", "mentions": 14, "confidence_score": 94, "total_score": 1316}, {"name": "anticancer", "mentions": 13, "confidence_score": 57, "total_score": 741}, {"name": "cytotoxic", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "cardioprotective", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "expectorant", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "antiseptic", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "antifungal", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "diuretic", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "antiviral", "mentions": 7, "confidence_score": 27, "total_score": 189}, {"name": "neuroprotective", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "antipyretic", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "antibacterial", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "antihistaminic", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "antihistamine", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "cardiovascular protective", "mentions": 2, "confidence_score": 12, "total_score": 24}], "properties_description": "The main therapeutic properties of Peucedanum galbanum are its anti-inflammatory activity, which is attributed to the presence of sesquiterpenes like galbanic acid and the sesquiterpene lactone, galbanicin, that have been shown to inhibit the production of pro-inflammatory enzymes. The plant's antiviral properties are due to the presence of flavonoids such as quercetin and kaempferol, which have been demonstrated to have inhibitory effects on various viral infections. Additionally, the plant's volatile oils, including pinene and limonene, contribute to its antimicrobial properties, which have been shown to be effective against a range of microorganisms. Furthermore, the saponins present in Peucedanum galbanum, such as galbanic acid, have been found to have antioxidant activity, helping to protect against oxidative stress and cell damage. Its antispasmodic properties are also attributed to the presence of sesquiterpene lactones, which have been shown to relax smooth muscle and reduce spasms.", "preparations": [{"name": "galbanum tincture", "mentions": 20, "confidence_score": 171, "total_score": 3420}, {"name": "galbanum oil", "mentions": 16, "confidence_score": 155, "total_score": 2480}, {"name": "galbanum infusion", "mentions": 18, "confidence_score": 119, "total_score": 2142}, {"name": "galbanum salve", "mentions": 20, "confidence_score": 106, "total_score": 2120}, {"name": "galbanum cream", "mentions": 11, "confidence_score": 48, "total_score": 528}, {"name": "infused oil", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "tea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "galbanum decoction", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "galbanum essential oil", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "galbanum poultice", "mentions": 4, "confidence_score": 10, "total_score": 40}, {"name": "galbanum ointment", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "galbanum extract", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "galbanum infused oil", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "resin", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "glycerite", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "glycoside extract", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "galbanum resin", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "galbanum suppository", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Peucedanum galbanum are galbanum tincture, galbanum oil, galbanum infusion, galbanum salve, and galbanum cream. Galbanum tincture, obtained through the percolation of the plant in a solvent, is used to treat anxiety, stress, and insomnia due to its sedative and anxiolytic properties. Galbanum oil, extracted through steam distillation or solvent extraction, is used topically to relieve pain, reduce inflammation, and improve skin conditions such as acne and eczema. Galbanum infusion, made by steeping the plant in hot water, is used to treat digestive issues, such as indigestion and bloating, due to its carminative properties. Galbanum salve and cream, made by mixing the plant extract with a carrier oil or water, are used to treat skin conditions, reduce inflammation, and promote wound healing.", "side_effects": [{"name": "cause diarrhea", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "induce vomiting", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "cause vomiting", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "cause nausea", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "induce nausea", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "elevate blood pressure", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "trigger headaches", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "induce diarrhea", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "trigger seizures", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "experience nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "exacerbate allergies", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "increase heart rate", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "suffer nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experience diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "trigger abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "exhibits liver damage", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "trigger allergic reactions", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "trigger diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "aggravate asthma", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "provoke skin irritation", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "suffer liver damage", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "show seizure activity", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "evoke cardiovascular problems", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "hemorrhage", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "experiences nephrotoxicity", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "cause renal failure", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "experience allergic reaction", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiencing vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiences gastrointestinal problems", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "induce seizures", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "disrupt thyroid function", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "impair liver function", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "aggravate liver damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "increase risk of hemorrhage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develops hepatotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "get abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop hepatotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing nausea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "provoke vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develops photosensitivity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience liver damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "get skin irritation", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing gastrointestinal distress", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing cardiovascular collapse", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences nausea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences dizziness", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences respiratory distress", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause liver damage", "mentions": 4, "confidence_score": 8, "total_score": 32}, {"name": "fatigue", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause kidney failure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffers hemolysis", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer respiratory failure", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "experience neurotoxicity", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "lead to seizures", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "developing allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffering abdominal pain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiences allergic reaction", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop kidney stones", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experience abdominal pain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "developing liver damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffering renal failure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "worsen anemia", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "weaken immune system", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops allergic reaction", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffers kidney failure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "elicit allergic reaction", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "exhibits neurotoxicity", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "develop skin lesions", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "produce hallucinations", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "trigger cardiac arrest", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "develop renal failure", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "produce convulsions", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "showing tremors", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "cause skin irritation", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "develops neurological symptoms", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "produce sedation", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "fever", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffer respiratory distress", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "get headache", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "show allergic reactions", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "developing cerebral edema", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "hinder digestion", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "exhibits gastrointestinal bleeding", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "evoke diarrhea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "lead to allergic reaction", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "cough", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "cause cardiovascular issues", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "shows cardiotoxicity", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "exhibit neurotoxic symptoms", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "elicit seizures", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experience hypertension", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "evoke hallucinations", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffering convulsions", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "showing confusion", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "evoke allergic reaction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "produce seizures", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develop hives", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "showing cardiovascular instability", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffers cardiac issues", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "induce respiratory distress", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experiences pulmonary fibrosis", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "cause respiratory depression", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "show cardiovascular collapse", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "promote paralysis", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "developing coma", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "induce headache", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffers hematological abnormalities", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "worsen inflammation", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "get headaches", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develops neurological disorders", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "produce dizziness", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "cause neurological impairment", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "develops gastrointestinal bleeding", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "show hallucination", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "generate tremors", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "showing hallucinations", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "provoke dizziness", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffers cardiovascular issues", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "disrupt gut flora", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "worsen kidney function", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience seizures", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "develop skin irritation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffering seizures", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "develops seizures", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffers renal failure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "show cardiac arrhythmia", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "produce coma", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "evoke respiratory distress", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "exhibits renal failure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "aggravate respiratory issues", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "undergo cardiac arrest", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "get fatigue", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experiencing respiratory depression", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "exhibits allergic dermatitis", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience hallucinations", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "induce hepatic failure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiences cardiovascular collapse", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "disrupt gut bacteria", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "death", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "showing hematological abnormalities", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "induce respiratory issues", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "experiences tachycardia", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "develops respiratory depression", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "lead to kidney failure", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "developing neurological toxity", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effects of using Peucedanum galbanum improperly include inducing vomiting, causing vomiting, causing nausea, inducing nausea, and causing diarrhea, due to its high concentration of furanocoumarins which can cause gastrointestinal irritation and stimulate the vomiting center in the brain, leading to these adverse reactions. This is because the furanocoumarins in Peucedanum galbanum can cause the smooth muscle in the digestive tract to contract and relax repeatedly, resulting in vomiting, diarrhea, and nausea. Prolonged use of Peucedanum galbanum can lead to dehydration, electrolyte imbalance, and metabolic acidosis due to excessive vomiting and diarrhea. The improper use of Peucedanum galbanum can also cause electrolyte disturbances, including hypokalemia and hypochloremia, which can lead to cardiac arrhythmias and other complications. Additionally, Peucedanum galbanum can cause liver damage and jaundice due to its hepatotoxic properties.", "category-action": "anti-inflammatory", "category_action": "anti-inflammatory", "family_slug": "apiaceae", "family_name": "Apiaceae", "what_description": "Peucedanum galbanum is a perennial plant that belongs to the family Apiaceae, commonly known as the carrot or parsley family. The plant grows to a height of 50-120 cm, with a stout, glabrous rhizome and a simple, glabrous stem that is often branched. Its leaves are bipinnate, with leaflets that are ovate-lanceolate, 5-20 cm long, and have a crenate margin. The plant produces small, greenish-yellow flowers in a compound umbel, with 5-12 rays, and the fruits are schizocarps, 5-7 mm long, with a ribbed pericarp. The plant is native to China and the Himalayas, where it grows in mountainous regions at elevations of 2000-3600 meters.", "uses": "Peucedanum galbanum is traditionally used in medicine for its antiseptic and antispasmodic properties. The plant's essential oil has been found to have antimicrobial and antioxidant activities. It has been used to treat various health issues, including digestive problems, respiratory issues, and skin conditions. In traditional Chinese medicine, Peucedanum galbanum is valued for its ability to clear heat and relieve toxicity. Further research is needed to fully understand the plant's medicinal applications and potential benefits.", "taxonomy": "Peucedanum galbanum belongs to the family Apiaceae, commonly known as the carrot or parsley family. This plant is a species of flowering plant, and it is a member of the genus Peucedanum. The genus Peucedanum is a group of flowering plants that are native to the Northern Hemisphere. The species is also known as Galbanum, and it is native to Iran. It is classified as a perennial herb, which typically grows in mountainous areas.", "benefits": "Peucedanum galbanum, also known as Galbanum, has been traditionally used in herbal medicine for its potential health benefits. The plant is believed to have anti-inflammatory, antiseptic, and antioxidant properties, which may help to soothe and protect the skin. It is also used to relieve digestive issues and reduce fever. Additionally, Galbanum is thought to possess analgesic and anti-anxiety properties, making it a potential natural remedy for stress and pain relief. Further research is needed to confirm the efficacy of Peucedanum galbanum's health benefits.", "parts": "Peucedanum galbanum, a plant with potential medicinal properties, typically features the roots and rhizomes as the primary medicinal parts. These underground structures are often used in traditional medicine for their supposed health benefits. The roots and rhizomes are said to contain various bioactive compounds that contribute to their medicinal properties. The exact composition and efficacy of these parts can vary depending on the specific plant and preparation method. Further research is needed to confirm the safety and effectiveness of using these parts for medicinal purposes.", "intro": "Peucedanum galbanum, commonly known as Galbanum, is a perennial plant belonging to the carrot family (Apiaceae). The health benefits of Peucedanum galbanum include its anti-inflammatory, antimicrobial, and antiseptic properties, which make it effective in treating respiratory issues, wounds, and skin conditions. The bioactive constituents of this plant include sesquiterpene lactones, flavonoids, and coumarins, which contribute to its medicinal properties. Peucedanum galbanum is traditionally used in herbal medicine and is often made into tinctures, infusions, and essential oils, as well as being incorporated into topical creams and ointments."}
+{
+    "herb_slug": "peucedanum-galbanum",
+    "herb_name_scientific": "Peucedanum galbanum",
+    "url": "herbs/peucedanum-galbanum",
+    "lastmod": "2024-12-25",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 17,
+            "confidence_score": 137,
+            "total_score": 2329
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        }
+    ],
+    "constituents": [
+        {
+            "name": "falcarinol",
+            "mentions": 15,
+            "confidence_score": 131,
+            "total_score": 1965
+        },
+        {
+            "name": "coumarins",
+            "mentions": 15,
+            "confidence_score": 98,
+            "total_score": 1470
+        },
+        {
+            "name": "falcarinene",
+            "mentions": 8,
+            "confidence_score": 69,
+            "total_score": 552
+        },
+        {
+            "name": "falcarindiol",
+            "mentions": 8,
+            "confidence_score": 69,
+            "total_score": 552
+        },
+        {
+            "name": "phthalides",
+            "mentions": 9,
+            "confidence_score": 58,
+            "total_score": 522
+        },
+        {
+            "name": "falcarinone",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 12,
+            "confidence_score": 49,
+            "total_score": 588
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 8,
+            "confidence_score": 39,
+            "total_score": 312
+        },
+        {
+            "name": "sesquiterpenes",
+            "mentions": 9,
+            "confidence_score": 36,
+            "total_score": 324
+        },
+        {
+            "name": "phytolaccatoxin",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "furanocoumarins",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "ligustilide",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "coumarins (including peucedanin)",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "lignans",
+            "mentions": 6,
+            "confidence_score": 23,
+            "total_score": 138
+        },
+        {
+            "name": "sesquiterpene alcohols",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "\u03b1-pinene",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "galbanic acid",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "oxypeucedanin",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "saponins",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        }
+    ],
+    "title": "Peucedanum galbanum",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 16,
+            "confidence_score": 138,
+            "total_score": 2208
+        },
+        {
+            "name": "arthritis",
+            "mentions": 10,
+            "confidence_score": 87,
+            "total_score": 870
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 10,
+            "confidence_score": 83,
+            "total_score": 830
+        },
+        {
+            "name": "asthma",
+            "mentions": 10,
+            "confidence_score": 67,
+            "total_score": 670
+        },
+        {
+            "name": "fever reduction",
+            "mentions": 9,
+            "confidence_score": 63,
+            "total_score": 567
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 9,
+            "confidence_score": 62,
+            "total_score": 558
+        },
+        {
+            "name": "eczema",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "hypertension",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "cancer",
+            "mentions": 7,
+            "confidence_score": 38,
+            "total_score": 266
+        },
+        {
+            "name": "nausea",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "diabetes",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "gout",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "indigestion",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "coughs",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "dyspepsia",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "pain relief",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "galbanum",
+            "mentions": 37,
+            "confidence_score": 275,
+            "total_score": 10175
+        },
+        {
+            "name": "ferula galbanum",
+            "mentions": 23,
+            "confidence_score": 137,
+            "total_score": 3151
+        },
+        {
+            "name": "galbanic",
+            "mentions": 11,
+            "confidence_score": 40,
+            "total_score": 440
+        },
+        {
+            "name": "galbanum ferula",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "peucedanum",
+            "mentions": 7,
+            "confidence_score": 21,
+            "total_score": 147
+        },
+        {
+            "name": "galbanic ferula",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "galbanic resin",
+            "mentions": 6,
+            "confidence_score": 18,
+            "total_score": 108
+        },
+        {
+            "name": "galban resin",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "ferula galbaniflua",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "ferula galbanica",
+            "mentions": 4,
+            "confidence_score": 11,
+            "total_score": 44
+        },
+        {
+            "name": "golab",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "galbanic root",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "lesser galbanum",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "golbandan",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "dill weed",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "lesser ferney",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "russian galbanum",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "horse parsley",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "wild parsley",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "galbanum root",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Peucedanum galbanum are fever, which it has been shown to reduce in patients with malaria, as well as digestive issues such as diarrhea, due to its anti-inflammatory properties that inhibit the growth of intestinal pathogens. It is also effective in treating respiratory problems like bronchitis, where its expectorant properties help to loosen and clear mucus from the lungs. Furthermore, Peucedanum galbanum has been used to treat skin conditions like eczema, by reducing inflammation and promoting wound healing. Additionally, its antiseptic properties make it useful in preventing infections in wounds and cuts, thereby promoting faster recovery. Moreover, it has been shown to be effective in reducing inflammation and pain associated with arthritis, making it a valuable treatment option for individuals suffering from this condition.",
+    "constituents_description": "The most important healing constituents of Peucedanum galbanum are a combination of polyacetylenes, sesquiterpene lactones, and phenolic compounds. The sesquiterpene lactones are primarily responsible for its anti-inflammatory properties, with compounds like sesquiterpene lactone A and B exhibiting potent anti-inflammatory activity by inhibiting the production of pro-inflammatory enzymes. The polyacetylenes, including falcarinol and falcarinone, possess antioxidant and anti-inflammatory properties, contributing to the plant's ability to scavenge free radicals and reduce oxidative stress. The phenolic compounds, such as caffeic acid and ferulic acid, exhibit antimicrobial and antioxidant activities, further enhancing the plant's potential therapeutic benefits. These constituents work synergistically to provide Peucedanum galbanum with its broad-spectrum healing properties.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 154,
+            "total_score": 3080
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 153,
+            "total_score": 3060
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 151,
+            "total_score": 3020
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 18,
+            "confidence_score": 112,
+            "total_score": 2016
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 105,
+            "total_score": 1995
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 14,
+            "confidence_score": 94,
+            "total_score": 1316
+        },
+        {
+            "name": "anticancer",
+            "mentions": 13,
+            "confidence_score": 57,
+            "total_score": 741
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "expectorant",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "antifungal",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "diuretic",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "antiviral",
+            "mentions": 7,
+            "confidence_score": 27,
+            "total_score": 189
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "cardiovascular protective",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Peucedanum galbanum are its anti-inflammatory activity, which is attributed to the presence of sesquiterpenes like galbanic acid and the sesquiterpene lactone, galbanicin, that have been shown to inhibit the production of pro-inflammatory enzymes. The plant's antiviral properties are due to the presence of flavonoids such as quercetin and kaempferol, which have been demonstrated to have inhibitory effects on various viral infections. Additionally, the plant's volatile oils, including pinene and limonene, contribute to its antimicrobial properties, which have been shown to be effective against a range of microorganisms. Furthermore, the saponins present in Peucedanum galbanum, such as galbanic acid, have been found to have antioxidant activity, helping to protect against oxidative stress and cell damage. Its antispasmodic properties are also attributed to the presence of sesquiterpene lactones, which have been shown to relax smooth muscle and reduce spasms.",
+    "preparations": [
+        {
+            "name": "galbanum tincture",
+            "mentions": 20,
+            "confidence_score": 171,
+            "total_score": 3420
+        },
+        {
+            "name": "galbanum oil",
+            "mentions": 16,
+            "confidence_score": 155,
+            "total_score": 2480
+        },
+        {
+            "name": "galbanum infusion",
+            "mentions": 18,
+            "confidence_score": 119,
+            "total_score": 2142
+        },
+        {
+            "name": "galbanum salve",
+            "mentions": 20,
+            "confidence_score": 106,
+            "total_score": 2120
+        },
+        {
+            "name": "galbanum cream",
+            "mentions": 11,
+            "confidence_score": 48,
+            "total_score": 528
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "tea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "galbanum decoction",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "galbanum essential oil",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "galbanum poultice",
+            "mentions": 4,
+            "confidence_score": 10,
+            "total_score": 40
+        },
+        {
+            "name": "galbanum ointment",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "galbanum extract",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "galbanum infused oil",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "resin",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "glycoside extract",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "galbanum resin",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "galbanum suppository",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Peucedanum galbanum are galbanum tincture, galbanum oil, galbanum infusion, galbanum salve, and galbanum cream. Galbanum tincture, obtained through the percolation of the plant in a solvent, is used to treat anxiety, stress, and insomnia due to its sedative and anxiolytic properties. Galbanum oil, extracted through steam distillation or solvent extraction, is used topically to relieve pain, reduce inflammation, and improve skin conditions such as acne and eczema. Galbanum infusion, made by steeping the plant in hot water, is used to treat digestive issues, such as indigestion and bloating, due to its carminative properties. Galbanum salve and cream, made by mixing the plant extract with a carrier oil or water, are used to treat skin conditions, reduce inflammation, and promote wound healing.",
+    "side_effects": [
+        {
+            "name": "cause diarrhea",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "suffer nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "trigger abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "exhibits liver damage",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "trigger diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "aggravate asthma",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "provoke skin irritation",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "show seizure activity",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "evoke cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "hemorrhage",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "experiences nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "cause renal failure",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiences gastrointestinal problems",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "disrupt thyroid function",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "impair liver function",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "aggravate liver damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "increase risk of hemorrhage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develops hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "get abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "provoke vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develops photosensitivity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience liver damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "get skin irritation",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing gastrointestinal distress",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing cardiovascular collapse",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences respiratory distress",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 4,
+            "confidence_score": 8,
+            "total_score": 32
+        },
+        {
+            "name": "fatigue",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause kidney failure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffers hemolysis",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer respiratory failure",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "experience neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "lead to seizures",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "developing allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffering abdominal pain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiences allergic reaction",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop kidney stones",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "developing liver damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffering renal failure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "worsen anemia",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "weaken immune system",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops allergic reaction",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffers kidney failure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "elicit allergic reaction",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "exhibits neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "develop skin lesions",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "produce hallucinations",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "trigger cardiac arrest",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "develop renal failure",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "produce convulsions",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "showing tremors",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "develops neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "produce sedation",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "fever",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffer respiratory distress",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "get headache",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "show allergic reactions",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "developing cerebral edema",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "hinder digestion",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "exhibits gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "evoke diarrhea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "lead to allergic reaction",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "cough",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "cause cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "shows cardiotoxicity",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "exhibit neurotoxic symptoms",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "elicit seizures",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experience hypertension",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "evoke hallucinations",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffering convulsions",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "showing confusion",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "evoke allergic reaction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "produce seizures",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develop hives",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "showing cardiovascular instability",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffers cardiac issues",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "induce respiratory distress",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experiences pulmonary fibrosis",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "cause respiratory depression",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "show cardiovascular collapse",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "promote paralysis",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "developing coma",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "induce headache",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffers hematological abnormalities",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "worsen inflammation",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "get headaches",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develops neurological disorders",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "produce dizziness",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "cause neurological impairment",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "develops gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "show hallucination",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "generate tremors",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "showing hallucinations",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "provoke dizziness",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffers cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "disrupt gut flora",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "worsen kidney function",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience seizures",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffering seizures",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "develops seizures",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffers renal failure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "show cardiac arrhythmia",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "produce coma",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "evoke respiratory distress",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "exhibits renal failure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "aggravate respiratory issues",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "undergo cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "get fatigue",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experiencing respiratory depression",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "exhibits allergic dermatitis",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience hallucinations",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "induce hepatic failure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiences cardiovascular collapse",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "disrupt gut bacteria",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "death",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "showing hematological abnormalities",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "induce respiratory issues",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "experiences tachycardia",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "develops respiratory depression",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "lead to kidney failure",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "developing neurological toxity",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Peucedanum galbanum improperly include inducing vomiting, causing vomiting, causing nausea, inducing nausea, and causing diarrhea, due to its high concentration of furanocoumarins which can cause gastrointestinal irritation and stimulate the vomiting center in the brain, leading to these adverse reactions. This is because the furanocoumarins in Peucedanum galbanum can cause the smooth muscle in the digestive tract to contract and relax repeatedly, resulting in vomiting, diarrhea, and nausea. Prolonged use of Peucedanum galbanum can lead to dehydration, electrolyte imbalance, and metabolic acidosis due to excessive vomiting and diarrhea. The improper use of Peucedanum galbanum can also cause electrolyte disturbances, including hypokalemia and hypochloremia, which can lead to cardiac arrhythmias and other complications. Additionally, Peucedanum galbanum can cause liver damage and jaundice due to its hepatotoxic properties.",
+    "category-action": "anti-inflammatory",
+    "category_action": "anti-inflammatory",
+    "family_slug": "apiaceae",
+    "family_name": "Apiaceae",
+    "what_description": "Peucedanum galbanum is a perennial plant that belongs to the family Apiaceae, commonly known as the carrot or parsley family. The plant grows to a height of 50-120 cm, with a stout, glabrous rhizome and a simple, glabrous stem that is often branched. Its leaves are bipinnate, with leaflets that are ovate-lanceolate, 5-20 cm long, and have a crenate margin. The plant produces small, greenish-yellow flowers in a compound umbel, with 5-12 rays, and the fruits are schizocarps, 5-7 mm long, with a ribbed pericarp. The plant is native to China and the Himalayas, where it grows in mountainous regions at elevations of 2000-3600 meters.",
+    "uses": "Peucedanum galbanum is traditionally used in medicine for its antiseptic and antispasmodic properties. The plant's essential oil has been found to have antimicrobial and antioxidant activities. It has been used to treat various health issues, including digestive problems, respiratory issues, and skin conditions. In traditional Chinese medicine, Peucedanum galbanum is valued for its ability to clear heat and relieve toxicity. Further research is needed to fully understand the plant's medicinal applications and potential benefits.",
+    "taxonomy": "Peucedanum galbanum belongs to the family Apiaceae, commonly known as the carrot or parsley family. This plant is a species of flowering plant, and it is a member of the genus Peucedanum. The genus Peucedanum is a group of flowering plants that are native to the Northern Hemisphere. The species is also known as Galbanum, and it is native to Iran. It is classified as a perennial herb, which typically grows in mountainous areas.",
+    "benefits": "Peucedanum galbanum, also known as Galbanum, has been traditionally used in herbal medicine for its potential health benefits. The plant is believed to have anti-inflammatory, antiseptic, and antioxidant properties, which may help to soothe and protect the skin. It is also used to relieve digestive issues and reduce fever. Additionally, Galbanum is thought to possess analgesic and anti-anxiety properties, making it a potential natural remedy for stress and pain relief. Further research is needed to confirm the efficacy of Peucedanum galbanum's health benefits.",
+    "parts": "Peucedanum galbanum, a plant with potential medicinal properties, typically features the roots and rhizomes as the primary medicinal parts. These underground structures are often used in traditional medicine for their supposed health benefits. The roots and rhizomes are said to contain various bioactive compounds that contribute to their medicinal properties. The exact composition and efficacy of these parts can vary depending on the specific plant and preparation method. Further research is needed to confirm the safety and effectiveness of using these parts for medicinal purposes.",
+    "intro": "Peucedanum galbanum, commonly known as Galbanum, is a perennial plant belonging to the carrot family (Apiaceae). The health benefits of Peucedanum galbanum include its anti-inflammatory, antimicrobial, and antiseptic properties, which make it effective in treating respiratory issues, wounds, and skin conditions. The bioactive constituents of this plant include sesquiterpene lactones, flavonoids, and coumarins, which contribute to its medicinal properties. Peucedanum galbanum is traditionally used in herbal medicine and is often made into tinctures, infusions, and essential oils, as well as being incorporated into topical creams and ointments."
+}

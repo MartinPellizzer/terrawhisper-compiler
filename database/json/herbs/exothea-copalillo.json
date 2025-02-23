@@ -1,1 +1,767 @@
-{"title": "Exothea copalillo", "herb_slug": "exothea-copalillo", "herb_name_scientific": "Exothea copalillo", "family_slug": "sapindaceae", "family_name": "Sapindaceae", "url": "herbs/exothea-copalillo", "lastmod": "2025-1-17", "herb_names_common": [{"name": "copalillo", "mentions": 32, "confidence_score": 304, "total_score": 9728}, {"name": "copalillo tree", "mentions": 24, "confidence_score": 158, "total_score": 3792}, {"name": "exothea", "mentions": 18, "confidence_score": 104, "total_score": 1872}, {"name": "mexican copalillo", "mentions": 10, "confidence_score": 55, "total_score": 550}, {"name": "copalillo tree (exothea copalillo)", "mentions": 12, "confidence_score": 40, "total_score": 480}, {"name": "copalillo (exothea copalillo)", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "copalillo tree species", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "copalillo wood", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "copalillo plant", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "copoazu", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "copaiba resin tree", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "copalillo (tree)", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "exothea species", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "copalillo (exothea)", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "unknown", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "copalillo tree name", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "copalillo [exothea copalillo]", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "copalillo plant name", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "copalillo name", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "copaiba", "mentions": 1, "confidence_score": 8, "total_score": 8}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 18, "confidence_score": 152, "total_score": 2736}, {"medicine_or_poison": "poison", "mentions": 2, "confidence_score": 19, "total_score": 38}], "what_description": "Exothea copalillo is a species of plant in the family Sapindaceae, native to Mexico. It is a small tree or shrub that reaches heights of 3-10 meters, with a trunk diameter of up to 20 centimeters. The plant has simple, alternate leaves that are 10-20 centimeters long, with 3-5 pairs of leaflets, and a petiole that is 5-10 centimeters long. The inflorescence is a terminal panicle, composed of small, yellowish flowers that are 1-2 centimeters in diameter. The plant produces small, drupaceous fruits that are 1-2 centimeters long, containing a single seed.", "category_action": "antimicrobial", "ailments": [{"name": "inflammation", "mentions": 16, "confidence_score": 126, "total_score": 2016}, {"name": "fever", "mentions": 12, "confidence_score": 87, "total_score": 1044}, {"name": "chronic pain", "mentions": 9, "confidence_score": 72, "total_score": 648}, {"name": "skin irritation", "mentions": 11, "confidence_score": 71, "total_score": 781}, {"name": "skin infections", "mentions": 8, "confidence_score": 61, "total_score": 488}, {"name": "diarrhea", "mentions": 8, "confidence_score": 61, "total_score": 488}, {"name": "digestive issues", "mentions": 9, "confidence_score": 56, "total_score": 504}, {"name": "diabetes", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "arthritis", "mentions": 5, "confidence_score": 43, "total_score": 215}, {"name": "anxiety", "mentions": 9, "confidence_score": 43, "total_score": 387}, {"name": "respiratory issues", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "fungal infections", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "hypertension", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "cough", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "nausea", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "gastrointestinal disorders", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "respiratory problems", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "vomiting", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "wound healing", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "bacterial infections", "mentions": 3, "confidence_score": 17, "total_score": 51}], "ailments_description": "The most common ailments you can heal with Exothea copalillo are inflammation, fever, and chronic pain. Exothea copalillo has been used to treat skin irritation and skin infections due to its antimicrobial properties. Studies have shown that it is effective in treating diarrhea and digestive issues, including gastrointestinal disorders. Exothea copalillo has also been used to manage diabetes, arthritis, and anxiety. Additionally, it has been used to treat respiratory issues, fungal infections, hypertension, cough, nausea, and bacterial infections, as well as promoting wound healing.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 156, "total_score": 3120}, {"name": "antioxidant", "mentions": 20, "confidence_score": 147, "total_score": 2940}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 135, "total_score": 2700}, {"name": "analgesic", "mentions": 20, "confidence_score": 95, "total_score": 1900}, {"name": "antifungal", "mentions": 13, "confidence_score": 91, "total_score": 1183}, {"name": "antiviral", "mentions": 15, "confidence_score": 75, "total_score": 1125}, {"name": "antiseptic", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "antiparasitic", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "antispasmodic", "mentions": 7, "confidence_score": 38, "total_score": 266}, {"name": "antibacterial", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "hepatoprotective", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "cardioprotective", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "hypotensive", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "antipyretic", "mentions": 7, "confidence_score": 29, "total_score": 203}, {"name": "antihistamine", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "anticancer", "mentions": 7, "confidence_score": 22, "total_score": 154}, {"name": "antihemorrhagic", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "antidiarrheal", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "hypoglycemic", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "neuroprotective", "mentions": 2, "confidence_score": 9, "total_score": 18}], "properties_description": "The main therapeutic properties of Exothea copalillo are antimicrobial, with its ability to inhibit the growth of various microorganisms, including bacteria and fungi, thereby preventing infections and promoting wound healing. Exothea copalillo's antioxidant activity, primarily attributed to its flavonoid and phenolic content, helps to neutralize free radicals and protect against oxidative stress. The plant's anti-inflammatory properties are also notable, as it has been shown to reduce inflammation and alleviate symptoms associated with conditions such as arthritis. Additionally, Exothea copalillo's analgesic properties are attributed to its volatile oil content, which has been found to exhibit pain-relieving effects. Furthermore, the plant's antifungal properties are significant, as it has been demonstrated to inhibit the growth of various fungal species, including Candida albicans.", "constituents": [{"name": "flavonoids", "mentions": 15, "confidence_score": 98, "total_score": 1470}, {"name": "quercetin", "mentions": 11, "confidence_score": 97, "total_score": 1067}, {"name": "tannins", "mentions": 13, "confidence_score": 79, "total_score": 1027}, {"name": "phenolic acids", "mentions": 13, "confidence_score": 75, "total_score": 975}, {"name": "kaempferol", "mentions": 10, "confidence_score": 73, "total_score": 730}, {"name": "ellagic acid", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "saponins", "mentions": 12, "confidence_score": 54, "total_score": 648}, {"name": "gallic acid", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "terpenoids", "mentions": 9, "confidence_score": 42, "total_score": 378}, {"name": "coumarins", "mentions": 12, "confidence_score": 41, "total_score": 492}, {"name": "sterols", "mentions": 9, "confidence_score": 37, "total_score": 333}, {"name": "glycosides", "mentions": 8, "confidence_score": 37, "total_score": 296}, {"name": "alkaloids", "mentions": 7, "confidence_score": 35, "total_score": 245}, {"name": "epicatechin", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "isorhapontigenin", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "quinic acid", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "triterpenoids", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "ferulic acid", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "essential oils", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "exothea alkaloids", "mentions": 2, "confidence_score": 18, "total_score": 36}], "constituents_description": "The most important healing constituents of Exothea copalillo are flavonoids and their derivatives, which have been found to possess significant antioxidant and anti-inflammatory properties. Specifically, quercetin and kaempferol, types of flavonoids present in Exothea copalillo, have been shown to exhibit anti-inflammatory activity by inhibiting the production of pro-inflammatory enzymes and cytokines. Additionally, the presence of tannins and phenolic acids in Exothea copalillo contributes to its antimicrobial and antioxidant activities, helping to protect against oxidative stress and cell damage. The combination of these flavonoids and phenolic compounds makes Exothea copalillo a valuable source of natural compounds with potential therapeutic applications. Studies have demonstrated the efficacy of Exothea copalillo's bioactive compounds in modulating various biological pathways, thereby supporting its use in traditional medicine for treating various health conditions.", "preparations": [{"name": "tea", "mentions": 18, "confidence_score": 159, "total_score": 2862}, {"name": "infusion", "mentions": 19, "confidence_score": 150, "total_score": 2850}, {"name": "tincture", "mentions": 19, "confidence_score": 147, "total_score": 2793}, {"name": "decoction", "mentions": 16, "confidence_score": 91, "total_score": 1456}, {"name": "salve", "mentions": 19, "confidence_score": 89, "total_score": 1691}, {"name": "infused oil", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "exothea tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "capsules", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "exothea infusion", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "oil", "mentions": 3, "confidence_score": 7, "total_score": 21}, {"name": "ointment", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "suppository", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "exothea tincture", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "poultice", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "suppositories", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "glycerite", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "vaporizer", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "essential oil", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "exothea capsules", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "bath", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Exothea copalillo are made from its bark, leaves, and roots, which are rich in bioactive compounds like flavonoids, phenolic acids, and terpenoids. The tea preparation involves steeping the dried plant material in hot water to release its bioactive compounds, which are then consumed to alleviate gastrointestinal issues and as an antidiarrheal agent. An infusion is prepared similarly but with cold water, often used for its antioxidant properties. A decoction involves boiling the plant material in water to release its soluble compounds, commonly used to treat fever and inflammation. The tincture and salve preparations involve extracting the bioactive compounds from Exothea copalillo using solvents and then combining them with a carrier oil, respectively, to create topical remedies for skin issues and wounds.", "side_effects": [{"name": "experience nausea", "mentions": 11, "confidence_score": 93, "total_score": 1023}, {"name": "develop allergic reaction", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "experience vomiting", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "experiencing vomiting", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "experience headaches", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "develop diarrhea", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "develop skin irritation", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "experience dizziness", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "suffer diarrhea", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "show seizure activity", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "suffer abdominal pain", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "suffer allergic reactions", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "developing diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "suffer liver damage", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "get dizziness", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "develop respiratory issues", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "develop allergic reactions", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "show skin irritation", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experiencing fatigue", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "experiencing dizziness", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effects of using Exothea copalillo improperly include experiencing nausea due to its toxic compounds, developing allergic reactions such as skin irritation or respiratory issues, experiencing vomiting caused by the plant's toxic alkaloids, headaches due to inflammation and irritation of the nervous system, and gastrointestinal problems. These side effects occur because Exothea copalillo contains toxic compounds like diterpenes and alkaloids that can cause irritation and inflammation in the body when ingested or applied topically in excessive amounts. If not used according to the recommended dosage and instructions, the plant's toxic compounds can accumulate in the body, leading to severe health issues. The improper use of Exothea copalillo can also cause liver and kidney damage due to the plant's toxic effects on these organs. It is essential to consult with a healthcare professional before using Exothea copalillo to avoid any potential side effects.", "uses": "Exothea copalillo has been traditionally used in various parts of its native range for its medicinal properties. Its leaves and bark are used to treat various ailments, including fever, rheumatism, and respiratory issues. The plant's extracts are believed to possess anti-inflammatory and antimicrobial properties, which contribute to its medicinal uses. Additionally, Exothea copalillo has been used to treat digestive problems and skin conditions. However, further research is needed to confirm the efficacy and safety of using Exothea copalillo for medicinal purposes.", "taxonomy": "Exothea copalillo belongs to the family Meliaceae, a family of flowering plants commonly known as the mahogany family. It is a genus of flowering plants native to Mexico and Central America. Exothea copalillo is a species within this genus, characterized by its unique properties and growth habits. The plant has been used in various traditional and medicinal applications due to its potential health benefits. Its classification as a member of the Meliaceae family reflects its botanical relationships with other plants in this family.", "benefits": "Exothea copalillo is a plant species native to Central America, and its bark and leaves have been used in traditional medicine for centuries. Exothea copalillo is believed to have anti-inflammatory and antimicrobial properties, which may help to soothe digestive issues and wounds. The plant's extracts have also been studied for their potential to reduce fever and alleviate respiratory problems. Additionally, Exothea copalillo is thought to have antioxidant properties, which could help protect against cell damage and promote overall well-being. However, more research is needed to fully understand the health benefits and potential uses of Exothea copalillo.", "parts": "Exothea copalillo has been found to have medicinal properties, particularly in the leaves, roots, and bark, which are traditionally used in various cultures for their medicinal benefits. The leaves are often used to treat fever, while the roots are used for their anti-inflammatory properties. Exothea copalillo's bark is also used to treat various gastrointestinal issues. Additionally, the plant's extracts have been studied for their potential antimicrobial and antioxidant effects. Further research is needed to fully understand the extent of Exothea copalillo's medicinal properties.", "intro": "Exothea copalillo, also known as Copalillo, is a small evergreen tree native to Mexico and Central America, belonging to the family Meliaceae. The plant has been traditionally used in folk medicine for its anti-inflammatory, antiseptic, and antimicrobial properties, which have been attributed to its health benefits, including wound healing, fever reduction, and relief from respiratory issues such as coughs and bronchitis. Bioactive constituents of Exothea copalillo include flavonoids, terpenoids, and alkaloids, which contribute to its medicinal properties. The most common herbal preparations made from Copalillo include infusions, decoctions, and tinctures, often used to treat various health conditions, particularly those related to the respiratory and digestive systems."}
+{
+    "title": "Exothea copalillo",
+    "herb_slug": "exothea-copalillo",
+    "herb_name_scientific": "Exothea copalillo",
+    "family_slug": "sapindaceae",
+    "family_name": "Sapindaceae",
+    "url": "herbs/exothea-copalillo",
+    "lastmod": "2025-1-17",
+    "herb_names_common": [
+        {
+            "name": "copalillo",
+            "mentions": 32,
+            "confidence_score": 304,
+            "total_score": 9728
+        },
+        {
+            "name": "copalillo tree",
+            "mentions": 24,
+            "confidence_score": 158,
+            "total_score": 3792
+        },
+        {
+            "name": "exothea",
+            "mentions": 18,
+            "confidence_score": 104,
+            "total_score": 1872
+        },
+        {
+            "name": "mexican copalillo",
+            "mentions": 10,
+            "confidence_score": 55,
+            "total_score": 550
+        },
+        {
+            "name": "copalillo tree (exothea copalillo)",
+            "mentions": 12,
+            "confidence_score": 40,
+            "total_score": 480
+        },
+        {
+            "name": "copalillo (exothea copalillo)",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "copalillo tree species",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "copalillo wood",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "copalillo plant",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "copoazu",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "copaiba resin tree",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "copalillo (tree)",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "exothea species",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "copalillo (exothea)",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "unknown",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "copalillo tree name",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "copalillo [exothea copalillo]",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "copalillo plant name",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "copalillo name",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "copaiba",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 18,
+            "confidence_score": 152,
+            "total_score": 2736
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        }
+    ],
+    "what_description": "Exothea copalillo is a species of plant in the family Sapindaceae, native to Mexico. It is a small tree or shrub that reaches heights of 3-10 meters, with a trunk diameter of up to 20 centimeters. The plant has simple, alternate leaves that are 10-20 centimeters long, with 3-5 pairs of leaflets, and a petiole that is 5-10 centimeters long. The inflorescence is a terminal panicle, composed of small, yellowish flowers that are 1-2 centimeters in diameter. The plant produces small, drupaceous fruits that are 1-2 centimeters long, containing a single seed.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 16,
+            "confidence_score": 126,
+            "total_score": 2016
+        },
+        {
+            "name": "fever",
+            "mentions": 12,
+            "confidence_score": 87,
+            "total_score": 1044
+        },
+        {
+            "name": "chronic pain",
+            "mentions": 9,
+            "confidence_score": 72,
+            "total_score": 648
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 11,
+            "confidence_score": 71,
+            "total_score": 781
+        },
+        {
+            "name": "skin infections",
+            "mentions": 8,
+            "confidence_score": 61,
+            "total_score": 488
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 8,
+            "confidence_score": 61,
+            "total_score": 488
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 9,
+            "confidence_score": 56,
+            "total_score": 504
+        },
+        {
+            "name": "diabetes",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "arthritis",
+            "mentions": 5,
+            "confidence_score": 43,
+            "total_score": 215
+        },
+        {
+            "name": "anxiety",
+            "mentions": 9,
+            "confidence_score": 43,
+            "total_score": 387
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "hypertension",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "cough",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "nausea",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "gastrointestinal disorders",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "respiratory problems",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "vomiting",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "bacterial infections",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Exothea copalillo are inflammation, fever, and chronic pain. Exothea copalillo has been used to treat skin irritation and skin infections due to its antimicrobial properties. Studies have shown that it is effective in treating diarrhea and digestive issues, including gastrointestinal disorders. Exothea copalillo has also been used to manage diabetes, arthritis, and anxiety. Additionally, it has been used to treat respiratory issues, fungal infections, hypertension, cough, nausea, and bacterial infections, as well as promoting wound healing.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 156,
+            "total_score": 3120
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 147,
+            "total_score": 2940
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 135,
+            "total_score": 2700
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 95,
+            "total_score": 1900
+        },
+        {
+            "name": "antifungal",
+            "mentions": 13,
+            "confidence_score": 91,
+            "total_score": 1183
+        },
+        {
+            "name": "antiviral",
+            "mentions": 15,
+            "confidence_score": 75,
+            "total_score": 1125
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 7,
+            "confidence_score": 38,
+            "total_score": 266
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 7,
+            "confidence_score": 29,
+            "total_score": 203
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "anticancer",
+            "mentions": 7,
+            "confidence_score": 22,
+            "total_score": 154
+        },
+        {
+            "name": "antihemorrhagic",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Exothea copalillo are antimicrobial, with its ability to inhibit the growth of various microorganisms, including bacteria and fungi, thereby preventing infections and promoting wound healing. Exothea copalillo's antioxidant activity, primarily attributed to its flavonoid and phenolic content, helps to neutralize free radicals and protect against oxidative stress. The plant's anti-inflammatory properties are also notable, as it has been shown to reduce inflammation and alleviate symptoms associated with conditions such as arthritis. Additionally, Exothea copalillo's analgesic properties are attributed to its volatile oil content, which has been found to exhibit pain-relieving effects. Furthermore, the plant's antifungal properties are significant, as it has been demonstrated to inhibit the growth of various fungal species, including Candida albicans.",
+    "constituents": [
+        {
+            "name": "flavonoids",
+            "mentions": 15,
+            "confidence_score": 98,
+            "total_score": 1470
+        },
+        {
+            "name": "quercetin",
+            "mentions": 11,
+            "confidence_score": 97,
+            "total_score": 1067
+        },
+        {
+            "name": "tannins",
+            "mentions": 13,
+            "confidence_score": 79,
+            "total_score": 1027
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 13,
+            "confidence_score": 75,
+            "total_score": 975
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 10,
+            "confidence_score": 73,
+            "total_score": 730
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "saponins",
+            "mentions": 12,
+            "confidence_score": 54,
+            "total_score": 648
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 9,
+            "confidence_score": 42,
+            "total_score": 378
+        },
+        {
+            "name": "coumarins",
+            "mentions": 12,
+            "confidence_score": 41,
+            "total_score": 492
+        },
+        {
+            "name": "sterols",
+            "mentions": 9,
+            "confidence_score": 37,
+            "total_score": 333
+        },
+        {
+            "name": "glycosides",
+            "mentions": 8,
+            "confidence_score": 37,
+            "total_score": 296
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 7,
+            "confidence_score": 35,
+            "total_score": 245
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "essential oils",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "exothea alkaloids",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Exothea copalillo are flavonoids and their derivatives, which have been found to possess significant antioxidant and anti-inflammatory properties. Specifically, quercetin and kaempferol, types of flavonoids present in Exothea copalillo, have been shown to exhibit anti-inflammatory activity by inhibiting the production of pro-inflammatory enzymes and cytokines. Additionally, the presence of tannins and phenolic acids in Exothea copalillo contributes to its antimicrobial and antioxidant activities, helping to protect against oxidative stress and cell damage. The combination of these flavonoids and phenolic compounds makes Exothea copalillo a valuable source of natural compounds with potential therapeutic applications. Studies have demonstrated the efficacy of Exothea copalillo's bioactive compounds in modulating various biological pathways, thereby supporting its use in traditional medicine for treating various health conditions.",
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 18,
+            "confidence_score": 159,
+            "total_score": 2862
+        },
+        {
+            "name": "infusion",
+            "mentions": 19,
+            "confidence_score": 150,
+            "total_score": 2850
+        },
+        {
+            "name": "tincture",
+            "mentions": 19,
+            "confidence_score": 147,
+            "total_score": 2793
+        },
+        {
+            "name": "decoction",
+            "mentions": 16,
+            "confidence_score": 91,
+            "total_score": 1456
+        },
+        {
+            "name": "salve",
+            "mentions": 19,
+            "confidence_score": 89,
+            "total_score": 1691
+        },
+        {
+            "name": "infused oil",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "exothea tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "capsules",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "exothea infusion",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "oil",
+            "mentions": 3,
+            "confidence_score": 7,
+            "total_score": 21
+        },
+        {
+            "name": "ointment",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "exothea tincture",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "poultice",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "suppositories",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "vaporizer",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "essential oil",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "exothea capsules",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "bath",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Exothea copalillo are made from its bark, leaves, and roots, which are rich in bioactive compounds like flavonoids, phenolic acids, and terpenoids. The tea preparation involves steeping the dried plant material in hot water to release its bioactive compounds, which are then consumed to alleviate gastrointestinal issues and as an antidiarrheal agent. An infusion is prepared similarly but with cold water, often used for its antioxidant properties. A decoction involves boiling the plant material in water to release its soluble compounds, commonly used to treat fever and inflammation. The tincture and salve preparations involve extracting the bioactive compounds from Exothea copalillo using solvents and then combining them with a carrier oil, respectively, to create topical remedies for skin issues and wounds.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 11,
+            "confidence_score": 93,
+            "total_score": 1023
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "experience headaches",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "suffer diarrhea",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "show seizure activity",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "suffer abdominal pain",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "suffer allergic reactions",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "developing diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "get dizziness",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "develop respiratory issues",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "develop allergic reactions",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "show skin irritation",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experiencing fatigue",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Exothea copalillo improperly include experiencing nausea due to its toxic compounds, developing allergic reactions such as skin irritation or respiratory issues, experiencing vomiting caused by the plant's toxic alkaloids, headaches due to inflammation and irritation of the nervous system, and gastrointestinal problems. These side effects occur because Exothea copalillo contains toxic compounds like diterpenes and alkaloids that can cause irritation and inflammation in the body when ingested or applied topically in excessive amounts. If not used according to the recommended dosage and instructions, the plant's toxic compounds can accumulate in the body, leading to severe health issues. The improper use of Exothea copalillo can also cause liver and kidney damage due to the plant's toxic effects on these organs. It is essential to consult with a healthcare professional before using Exothea copalillo to avoid any potential side effects.",
+    "uses": "Exothea copalillo has been traditionally used in various parts of its native range for its medicinal properties. Its leaves and bark are used to treat various ailments, including fever, rheumatism, and respiratory issues. The plant's extracts are believed to possess anti-inflammatory and antimicrobial properties, which contribute to its medicinal uses. Additionally, Exothea copalillo has been used to treat digestive problems and skin conditions. However, further research is needed to confirm the efficacy and safety of using Exothea copalillo for medicinal purposes.",
+    "taxonomy": "Exothea copalillo belongs to the family Meliaceae, a family of flowering plants commonly known as the mahogany family. It is a genus of flowering plants native to Mexico and Central America. Exothea copalillo is a species within this genus, characterized by its unique properties and growth habits. The plant has been used in various traditional and medicinal applications due to its potential health benefits. Its classification as a member of the Meliaceae family reflects its botanical relationships with other plants in this family.",
+    "benefits": "Exothea copalillo is a plant species native to Central America, and its bark and leaves have been used in traditional medicine for centuries. Exothea copalillo is believed to have anti-inflammatory and antimicrobial properties, which may help to soothe digestive issues and wounds. The plant's extracts have also been studied for their potential to reduce fever and alleviate respiratory problems. Additionally, Exothea copalillo is thought to have antioxidant properties, which could help protect against cell damage and promote overall well-being. However, more research is needed to fully understand the health benefits and potential uses of Exothea copalillo.",
+    "parts": "Exothea copalillo has been found to have medicinal properties, particularly in the leaves, roots, and bark, which are traditionally used in various cultures for their medicinal benefits. The leaves are often used to treat fever, while the roots are used for their anti-inflammatory properties. Exothea copalillo's bark is also used to treat various gastrointestinal issues. Additionally, the plant's extracts have been studied for their potential antimicrobial and antioxidant effects. Further research is needed to fully understand the extent of Exothea copalillo's medicinal properties.",
+    "intro": "Exothea copalillo, also known as Copalillo, is a small evergreen tree native to Mexico and Central America, belonging to the family Meliaceae. The plant has been traditionally used in folk medicine for its anti-inflammatory, antiseptic, and antimicrobial properties, which have been attributed to its health benefits, including wound healing, fever reduction, and relief from respiratory issues such as coughs and bronchitis. Bioactive constituents of Exothea copalillo include flavonoids, terpenoids, and alkaloids, which contribute to its medicinal properties. The most common herbal preparations made from Copalillo include infusions, decoctions, and tinctures, often used to treat various health conditions, particularly those related to the respiratory and digestive systems."
+}

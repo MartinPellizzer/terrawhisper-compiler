@@ -1,1 +1,743 @@
-{"title": "Thelypteris rhombea", "herb_slug": "thelypteris-rhombea", "herb_name_scientific": "Thelypteris rhombea", "family_slug": "aspleniaceae", "family_name": "Aspleniaceae", "url": "herbs/thelypteris-rhombea", "lastmod": "2025-2-4", "herb_names_common": [{"name": "rhombea fern", "mentions": 32, "confidence_score": 194, "total_score": 6208}, {"name": "rhombea lady fern", "mentions": 21, "confidence_score": 116, "total_score": 2436}, {"name": "rhombic wood fern", "mentions": 21, "confidence_score": 115, "total_score": 2415}, {"name": "thelypteris", "mentions": 10, "confidence_score": 53, "total_score": 530}, {"name": "rhombic fern", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "thelypteris rhombea fern", "mentions": 8, "confidence_score": 39, "total_score": 312}, {"name": "rhombic lady fern", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "rhombea wood fern", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "rhombo fern", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "rhombea lady fern (thelypteris rhombea)", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "rhombea maiden fern", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "rhombea fern (thelypteris rhombea)", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "rhombic shield fern", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "rhombea autumn fern", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "autumn fern", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "woodland fern", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "rhombus fern", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "rhombea fernie", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "rhombea shield fern", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "rhombean lady fern", "mentions": 2, "confidence_score": 11, "total_score": 22}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 18, "confidence_score": 155, "total_score": 2790}, {"medicine_or_poison": "poison", "mentions": 2, "confidence_score": 18, "total_score": 36}], "what_description": "Thelypteris rhombea is a species of fern in the family Aspleniaceae. It is characterized by its rhombic or heart-shaped frond blades, which are pinnatifid and have a winged rachis. The fronds typically grow up to 30-60 cm in length and have a distinctive midrib and a sparse or absent indusium. The plant produces sori on the underside of the frond blades, which are monomorphic and contain 64 spores per sorus. Thelypteris rhombea is native to the tropical and subtropical regions of Central and South America.", "category_action": "antimicrobial", "ailments": [{"name": "inflammation", "mentions": 15, "confidence_score": 126, "total_score": 1890}, {"name": "fever reduction", "mentions": 11, "confidence_score": 75, "total_score": 825}, {"name": "digestive issues", "mentions": 10, "confidence_score": 69, "total_score": 690}, {"name": "diarrhea", "mentions": 8, "confidence_score": 64, "total_score": 512}, {"name": "diabetes", "mentions": 9, "confidence_score": 63, "total_score": 567}, {"name": "hypertension", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "skin irritation", "mentions": 6, "confidence_score": 48, "total_score": 288}, {"name": "anxiety", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "asthma", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "arthritis", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "skin infections", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "rheumatism", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "skin conditions", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "wound healing", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "respiratory issues", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "allergies", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "cough", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "anemia", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "cancer", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "wounds", "mentions": 2, "confidence_score": 17, "total_score": 34}], "ailments_description": "The most common ailments you can heal with Thelypteris rhombea are inflammation, fever reduction, digestive issues, and skin irritation, which are alleviated due to its anti-inflammatory and antipyretic properties. Thelypteris rhombea has been shown to reduce fever and alleviate digestive issues such as diarrhea through its prebiotic properties. Additionally, Thelypteris rhombea has been found to lower blood sugar levels and reduce hypertension in individuals with diabetes. Its antioxidant properties have also been effective in treating respiratory issues such as asthma and allergies, as well as reducing the severity of coughs. Furthermore, Thelypteris rhombea has been used to treat skin conditions, wound healing, anemia, and even cancer, while also alleviating symptoms of rheumatism and arthritis.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 157, "total_score": 3140}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 145, "total_score": 2900}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 137, "total_score": 2740}, {"name": "analgesic", "mentions": 19, "confidence_score": 85, "total_score": 1615}, {"name": "antifungal", "mentions": 9, "confidence_score": 51, "total_score": 459}, {"name": "hepatoprotective", "mentions": 9, "confidence_score": 46, "total_score": 414}, {"name": "antipyretic", "mentions": 10, "confidence_score": 41, "total_score": 410}, {"name": "antiviral", "mentions": 12, "confidence_score": 32, "total_score": 384}, {"name": "cytotoxic", "mentions": 8, "confidence_score": 28, "total_score": 224}, {"name": "cardioprotective", "mentions": 7, "confidence_score": 26, "total_score": 182}, {"name": "antiparasitic", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "diuretic", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "antibacterial", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "antidiarrheal", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "antispasmodic", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "antihistamine", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "hypotensive", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "wound-healing", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "antitumor", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "anticancer", "mentions": 4, "confidence_score": 12, "total_score": 48}], "properties_description": "The main therapeutic properties of Thelypteris rhombea are its antioxidant activity, which can be attributed to the presence of flavonoids and phenolic acids, compounds known to scavenge free radicals and protect cells from oxidative damage. The plant's antimicrobial properties, mediated by saponins and volatile oils, enable it to inhibit the growth of various microorganisms, including bacteria and fungi. Its anti-inflammatory properties, resulting from the action of terpenoids and glycosides, contribute to the reduction of inflammation and pain. Thelypteris rhombea also exhibits analgesic activity, likely due to the presence of alkaloids and phenolic compounds, which can modulate pain perception and response. Additionally, the plant's antifungal properties, attributed to the action of sesquiterpenes and flavonoids, make it a potential natural agent against fungal infections.", "constituents": [{"name": "quercetin", "mentions": 15, "confidence_score": 134, "total_score": 2010}, {"name": "tannins", "mentions": 12, "confidence_score": 81, "total_score": 972}, {"name": "flavonoids", "mentions": 11, "confidence_score": 81, "total_score": 891}, {"name": "kaempferol", "mentions": 10, "confidence_score": 80, "total_score": 800}, {"name": "phenolic acids", "mentions": 11, "confidence_score": 65, "total_score": 715}, {"name": "saponins", "mentions": 10, "confidence_score": 53, "total_score": 530}, {"name": "isorhapontigenin", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "coumarins", "mentions": 10, "confidence_score": 44, "total_score": 440}, {"name": "terpenoids", "mentions": 9, "confidence_score": 40, "total_score": 360}, {"name": "alkaloids", "mentions": 9, "confidence_score": 39, "total_score": 351}, {"name": "gallic acid", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "caffeic acid", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "ferulic acid", "mentions": 7, "confidence_score": 34, "total_score": 238}, {"name": "glycosides", "mentions": 9, "confidence_score": 33, "total_score": 297}, {"name": "rutin", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "catechin", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "epicatechin", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "quinic acid", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "ellagic acid", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "apigenin", "mentions": 3, "confidence_score": 15, "total_score": 45}], "constituents_description": "The most important healing constituents of Thelypteris rhombea are quercetin, a potent antioxidant and anti-inflammatory flavonoid, tannins, which exhibit antimicrobial and anti-inflammatory properties, flavonoids, a diverse group of compounds including kaempferol, which has been shown to inhibit the growth of cancer cells and have anti-inflammatory effects, and phenolic acids, such as ferulic acid, which have been found to have antioxidant and anti-inflammatory activities. These constituents contribute to the plant's ability to reduce inflammation, inhibit the growth of microorganisms, and exhibit antioxidant properties. The flavonoids and phenolic acids in Thelypteris rhombea have been shown to have potential anti-cancer and anti-inflammatory effects. The tannins and flavonoids in the plant have been found to have a synergistic effect, enhancing their individual properties and contributing to the plant's overall therapeutic potential. The antioxidant and anti-inflammatory activities of these constituents may contribute to the plant's ability to promote wound healing and reduce oxidative stress.", "preparations": [{"name": "tea", "mentions": 20, "confidence_score": 189, "total_score": 3780}, {"name": "infusion", "mentions": 19, "confidence_score": 155, "total_score": 2945}, {"name": "tincture", "mentions": 20, "confidence_score": 109, "total_score": 2180}, {"name": "decoction", "mentions": 17, "confidence_score": 96, "total_score": 1632}, {"name": "salve", "mentions": 20, "confidence_score": 86, "total_score": 1720}, {"name": "infused oil", "mentions": 8, "confidence_score": 35, "total_score": 280}, {"name": "poultice", "mentions": 6, "confidence_score": 15, "total_score": 90}, {"name": "ointment", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "syrup", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "capsules", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "essential oil", "mentions": 2, "confidence_score": 4, "total_score": 8}, {"name": "resin", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "cold infusion", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "suppository", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "essence", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "glycerite", "mentions": 1, "confidence_score": 1, "total_score": 1}], "preparations_description": "The main herbal preparations of Thelypteris rhombea are tea, infusion, tincture, decoction, and salve. Tea and infusion are prepared by steeping the leaves in hot water to extract flavonoids and phenolic acids with antioxidant properties. A tincture is made by soaking the leaves in a solvent like ethanol or glycerin to create a concentrated liquid extract of its bioactive compounds. Decoction involves boiling the leaves in water to extract its mucilages and saponins which are used to treat skin irritations and inflammation. A salve is prepared by infusing the leaves in a carrier oil like coconut or olive oil to create a topical treatment for wounds and skin conditions.", "side_effects": [{"name": "cause diarrhea", "mentions": 7, "confidence_score": 55, "total_score": 385}, {"name": "induce vomiting", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "experience nausea", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "experience allergic reaction", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "suffer liver damage", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "cause liver damage", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "increase heart rate", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "induce nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiences allergic reactions", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "develop vomiting", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "interact with medications", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experience gastrointestinal issues", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "develop skin irritation", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "induce seizures", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "lead to coma", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experience respiratory failure", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "result in respiratory failure", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "increase blood pressure", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "get headache", "mentions": 2, "confidence_score": 11, "total_score": 22}], "side_effects_description": "The possible side effect of using Thelypteris rhombea are numerous and can be severe when used improperly. Ingesting Thelypteris rhombea may cause diarrhea due to its high content of tannins and saponins, which can irritate the digestive tract and disrupt the balance of gut bacteria. Prolonged use or excessive consumption can also induce vomiting and nausea as the body tries to expel the toxic compounds. Furthermore, some individuals may experience an allergic reaction to Thelypteris rhombea, which can manifest as skin rashes, itching, and difficulty breathing. Long-term exposure to the plant's toxic compounds has been linked to liver damage due to its hepatotoxic properties, which can lead to liver failure and other serious health complications.", "uses": "Thelypteris rhombea is known to have various medicinal properties, particularly in traditional medicine. In some cultures, the plant is used to treat fever, cough, and respiratory issues. The leaves of the plant are said to have anti-inflammatory and antioxidant properties, which may help in reducing pain and inflammation. Additionally, Thelypteris rhombea is believed to have antimicrobial properties, which can aid in treating infections. Further research is needed to fully understand the medicinal uses and potential benefits of Thelypteris rhombea.", "taxonomy": "Thelypteris rhombea is classified within the family Thelypteridaceae. It belongs to the genus Thelypteris, which is a group of ferns. The species is further categorized as a member of the Thelypteris rhombea species, with some classifications placing it as a synonym for the species Thelypteris hastata. However, more recent classifications group Thelypteris rhombea as a distinct species within the genus. Thelypteris rhombea is native to the Americas and can be found in various regions, from the southeastern United States to South America.", "benefits": "Thelypteris rhombea is a species of fern known for its potential health benefits. The plant contains various compounds that may have anti-inflammatory and antioxidant properties. These properties could contribute to the plant's ability to help reduce stress and promote overall well-being. Additionally, Thelypteris rhombea may have antimicrobial properties, which could aid in wound healing and protection against infection. Further research is necessary to fully understand the plant's health benefits and potential uses.", "parts": "I don't have information on Thelypteris rhombea's medicinal parts.", "intro": "Thelypteris rhombea, also known as the rhombic wood fern, is a type of plant species in the family Thelypteridaceae. The health benefits of Thelypteris rhombea include its potential anti-inflammatory and antioxidant properties, which may help to reduce inflammation and protect against oxidative stress. Bioactive constituents of this plant include flavonoids, phenolic acids, and alkaloids, which contribute to its medicinal properties. Thelypteris rhombea is often used to make herbal teas, infusions, and extracts, which are traditionally used to treat various health conditions, including fever, cough, and respiratory issues."}
+{
+    "title": "Thelypteris rhombea",
+    "herb_slug": "thelypteris-rhombea",
+    "herb_name_scientific": "Thelypteris rhombea",
+    "family_slug": "aspleniaceae",
+    "family_name": "Aspleniaceae",
+    "url": "herbs/thelypteris-rhombea",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "rhombea fern",
+            "mentions": 32,
+            "confidence_score": 194,
+            "total_score": 6208
+        },
+        {
+            "name": "rhombea lady fern",
+            "mentions": 21,
+            "confidence_score": 116,
+            "total_score": 2436
+        },
+        {
+            "name": "rhombic wood fern",
+            "mentions": 21,
+            "confidence_score": 115,
+            "total_score": 2415
+        },
+        {
+            "name": "thelypteris",
+            "mentions": 10,
+            "confidence_score": 53,
+            "total_score": 530
+        },
+        {
+            "name": "rhombic fern",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "thelypteris rhombea fern",
+            "mentions": 8,
+            "confidence_score": 39,
+            "total_score": 312
+        },
+        {
+            "name": "rhombic lady fern",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "rhombea wood fern",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "rhombo fern",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "rhombea lady fern (thelypteris rhombea)",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "rhombea maiden fern",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "rhombea fern (thelypteris rhombea)",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "rhombic shield fern",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "rhombea autumn fern",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "autumn fern",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "woodland fern",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "rhombus fern",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "rhombea fernie",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "rhombea shield fern",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "rhombean lady fern",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 18,
+            "confidence_score": 155,
+            "total_score": 2790
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "what_description": "Thelypteris rhombea is a species of fern in the family Aspleniaceae. It is characterized by its rhombic or heart-shaped frond blades, which are pinnatifid and have a winged rachis. The fronds typically grow up to 30-60 cm in length and have a distinctive midrib and a sparse or absent indusium. The plant produces sori on the underside of the frond blades, which are monomorphic and contain 64 spores per sorus. Thelypteris rhombea is native to the tropical and subtropical regions of Central and South America.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 15,
+            "confidence_score": 126,
+            "total_score": 1890
+        },
+        {
+            "name": "fever reduction",
+            "mentions": 11,
+            "confidence_score": 75,
+            "total_score": 825
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 10,
+            "confidence_score": 69,
+            "total_score": 690
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 8,
+            "confidence_score": 64,
+            "total_score": 512
+        },
+        {
+            "name": "diabetes",
+            "mentions": 9,
+            "confidence_score": 63,
+            "total_score": 567
+        },
+        {
+            "name": "hypertension",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 6,
+            "confidence_score": 48,
+            "total_score": 288
+        },
+        {
+            "name": "anxiety",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "asthma",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "arthritis",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "skin infections",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "wound healing",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "allergies",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "cough",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "anemia",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "cancer",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "wounds",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Thelypteris rhombea are inflammation, fever reduction, digestive issues, and skin irritation, which are alleviated due to its anti-inflammatory and antipyretic properties. Thelypteris rhombea has been shown to reduce fever and alleviate digestive issues such as diarrhea through its prebiotic properties. Additionally, Thelypteris rhombea has been found to lower blood sugar levels and reduce hypertension in individuals with diabetes. Its antioxidant properties have also been effective in treating respiratory issues such as asthma and allergies, as well as reducing the severity of coughs. Furthermore, Thelypteris rhombea has been used to treat skin conditions, wound healing, anemia, and even cancer, while also alleviating symptoms of rheumatism and arthritis.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 157,
+            "total_score": 3140
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 145,
+            "total_score": 2900
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 137,
+            "total_score": 2740
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 85,
+            "total_score": 1615
+        },
+        {
+            "name": "antifungal",
+            "mentions": 9,
+            "confidence_score": 51,
+            "total_score": 459
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 9,
+            "confidence_score": 46,
+            "total_score": 414
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 10,
+            "confidence_score": 41,
+            "total_score": 410
+        },
+        {
+            "name": "antiviral",
+            "mentions": 12,
+            "confidence_score": 32,
+            "total_score": 384
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 8,
+            "confidence_score": 28,
+            "total_score": 224
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 7,
+            "confidence_score": 26,
+            "total_score": 182
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "diuretic",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "wound-healing",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "antitumor",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "anticancer",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Thelypteris rhombea are its antioxidant activity, which can be attributed to the presence of flavonoids and phenolic acids, compounds known to scavenge free radicals and protect cells from oxidative damage. The plant's antimicrobial properties, mediated by saponins and volatile oils, enable it to inhibit the growth of various microorganisms, including bacteria and fungi. Its anti-inflammatory properties, resulting from the action of terpenoids and glycosides, contribute to the reduction of inflammation and pain. Thelypteris rhombea also exhibits analgesic activity, likely due to the presence of alkaloids and phenolic compounds, which can modulate pain perception and response. Additionally, the plant's antifungal properties, attributed to the action of sesquiterpenes and flavonoids, make it a potential natural agent against fungal infections.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 15,
+            "confidence_score": 134,
+            "total_score": 2010
+        },
+        {
+            "name": "tannins",
+            "mentions": 12,
+            "confidence_score": 81,
+            "total_score": 972
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 11,
+            "confidence_score": 81,
+            "total_score": 891
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 10,
+            "confidence_score": 80,
+            "total_score": 800
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 11,
+            "confidence_score": 65,
+            "total_score": 715
+        },
+        {
+            "name": "saponins",
+            "mentions": 10,
+            "confidence_score": 53,
+            "total_score": 530
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "coumarins",
+            "mentions": 10,
+            "confidence_score": 44,
+            "total_score": 440
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 9,
+            "confidence_score": 40,
+            "total_score": 360
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 9,
+            "confidence_score": 39,
+            "total_score": 351
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 7,
+            "confidence_score": 34,
+            "total_score": 238
+        },
+        {
+            "name": "glycosides",
+            "mentions": 9,
+            "confidence_score": 33,
+            "total_score": 297
+        },
+        {
+            "name": "rutin",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "catechin",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "apigenin",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Thelypteris rhombea are quercetin, a potent antioxidant and anti-inflammatory flavonoid, tannins, which exhibit antimicrobial and anti-inflammatory properties, flavonoids, a diverse group of compounds including kaempferol, which has been shown to inhibit the growth of cancer cells and have anti-inflammatory effects, and phenolic acids, such as ferulic acid, which have been found to have antioxidant and anti-inflammatory activities. These constituents contribute to the plant's ability to reduce inflammation, inhibit the growth of microorganisms, and exhibit antioxidant properties. The flavonoids and phenolic acids in Thelypteris rhombea have been shown to have potential anti-cancer and anti-inflammatory effects. The tannins and flavonoids in the plant have been found to have a synergistic effect, enhancing their individual properties and contributing to the plant's overall therapeutic potential. The antioxidant and anti-inflammatory activities of these constituents may contribute to the plant's ability to promote wound healing and reduce oxidative stress.",
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 20,
+            "confidence_score": 189,
+            "total_score": 3780
+        },
+        {
+            "name": "infusion",
+            "mentions": 19,
+            "confidence_score": 155,
+            "total_score": 2945
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 109,
+            "total_score": 2180
+        },
+        {
+            "name": "decoction",
+            "mentions": 17,
+            "confidence_score": 96,
+            "total_score": 1632
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 86,
+            "total_score": 1720
+        },
+        {
+            "name": "infused oil",
+            "mentions": 8,
+            "confidence_score": 35,
+            "total_score": 280
+        },
+        {
+            "name": "poultice",
+            "mentions": 6,
+            "confidence_score": 15,
+            "total_score": 90
+        },
+        {
+            "name": "ointment",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "syrup",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "capsules",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "essential oil",
+            "mentions": 2,
+            "confidence_score": 4,
+            "total_score": 8
+        },
+        {
+            "name": "resin",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "cold infusion",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "essence",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Thelypteris rhombea are tea, infusion, tincture, decoction, and salve. Tea and infusion are prepared by steeping the leaves in hot water to extract flavonoids and phenolic acids with antioxidant properties. A tincture is made by soaking the leaves in a solvent like ethanol or glycerin to create a concentrated liquid extract of its bioactive compounds. Decoction involves boiling the leaves in water to extract its mucilages and saponins which are used to treat skin irritations and inflammation. A salve is prepared by infusing the leaves in a carrier oil like coconut or olive oil to create a topical treatment for wounds and skin conditions.",
+    "side_effects": [
+        {
+            "name": "cause diarrhea",
+            "mentions": 7,
+            "confidence_score": 55,
+            "total_score": 385
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "develop vomiting",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experience gastrointestinal issues",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "lead to coma",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experience respiratory failure",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "result in respiratory failure",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "get headache",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "side_effects_description": "The possible side effect of using Thelypteris rhombea are numerous and can be severe when used improperly. Ingesting Thelypteris rhombea may cause diarrhea due to its high content of tannins and saponins, which can irritate the digestive tract and disrupt the balance of gut bacteria. Prolonged use or excessive consumption can also induce vomiting and nausea as the body tries to expel the toxic compounds. Furthermore, some individuals may experience an allergic reaction to Thelypteris rhombea, which can manifest as skin rashes, itching, and difficulty breathing. Long-term exposure to the plant's toxic compounds has been linked to liver damage due to its hepatotoxic properties, which can lead to liver failure and other serious health complications.",
+    "uses": "Thelypteris rhombea is known to have various medicinal properties, particularly in traditional medicine. In some cultures, the plant is used to treat fever, cough, and respiratory issues. The leaves of the plant are said to have anti-inflammatory and antioxidant properties, which may help in reducing pain and inflammation. Additionally, Thelypteris rhombea is believed to have antimicrobial properties, which can aid in treating infections. Further research is needed to fully understand the medicinal uses and potential benefits of Thelypteris rhombea.",
+    "taxonomy": "Thelypteris rhombea is classified within the family Thelypteridaceae. It belongs to the genus Thelypteris, which is a group of ferns. The species is further categorized as a member of the Thelypteris rhombea species, with some classifications placing it as a synonym for the species Thelypteris hastata. However, more recent classifications group Thelypteris rhombea as a distinct species within the genus. Thelypteris rhombea is native to the Americas and can be found in various regions, from the southeastern United States to South America.",
+    "benefits": "Thelypteris rhombea is a species of fern known for its potential health benefits. The plant contains various compounds that may have anti-inflammatory and antioxidant properties. These properties could contribute to the plant's ability to help reduce stress and promote overall well-being. Additionally, Thelypteris rhombea may have antimicrobial properties, which could aid in wound healing and protection against infection. Further research is necessary to fully understand the plant's health benefits and potential uses.",
+    "parts": "I don't have information on Thelypteris rhombea's medicinal parts.",
+    "intro": "Thelypteris rhombea, also known as the rhombic wood fern, is a type of plant species in the family Thelypteridaceae. The health benefits of Thelypteris rhombea include its potential anti-inflammatory and antioxidant properties, which may help to reduce inflammation and protect against oxidative stress. Bioactive constituents of this plant include flavonoids, phenolic acids, and alkaloids, which contribute to its medicinal properties. Thelypteris rhombea is often used to make herbal teas, infusions, and extracts, which are traditionally used to treat various health conditions, including fever, cough, and respiratory issues."
+}

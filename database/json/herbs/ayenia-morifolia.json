@@ -1,1 +1,743 @@
-{"title": "Ayenia morifolia", "herb_slug": "ayenia-morifolia", "herb_name_scientific": "Ayenia morifolia", "family_slug": "malvaceae", "family_name": "Malvaceae", "url": "herbs/ayenia-morifolia", "lastmod": "2025-1-13", "herb_names_common": [{"name": "ayenia", "mentions": 28, "confidence_score": 236, "total_score": 6608}, {"name": "ayenia morifolia", "mentions": 19, "confidence_score": 114, "total_score": 2166}, {"name": "rocky ayenia", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "mexican ayenia", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "morifolia", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "wild madder", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "velvet-leaf ayenia", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "milkflower", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "ayenia mexicana", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "wild madder bush", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "coralillo", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "globe milk flower", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "wild ayenia", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "velvet leaf", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "milk flower", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "tropical ayenia", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "mexican ayenia morifolia", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "wild potato bush", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "wild sneeze", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "spearleaf", "mentions": 1, "confidence_score": 9, "total_score": 9}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 16, "confidence_score": 121, "total_score": 1936}, {"medicine_or_poison": "poison", "mentions": 4, "confidence_score": 34, "total_score": 136}], "what_description": "Ayenia morifolia is a plant species belonging to the family Malvaceae. It is a shrub or small tree that typically grows up to 3-6 meters in height, with a woody stem and a rounded crown. The leaves are alternate, simple, and elliptical in shape, measuring 2-8 cm in length and 1-4 cm in width, with a leathery texture and a crenate margin. The flowers are small, yellowish-green in color, and arranged in axillary clusters, with five sepals and five petals. The plant is native to the tropical regions of Central and South America.", "category_action": "antimicrobial", "ailments": [{"name": "inflammation", "mentions": 16, "confidence_score": 132, "total_score": 2112}, {"name": "diabetes", "mentions": 14, "confidence_score": 109, "total_score": 1526}, {"name": "hypertension", "mentions": 11, "confidence_score": 79, "total_score": 869}, {"name": "rheumatism", "mentions": 10, "confidence_score": 68, "total_score": 680}, {"name": "asthma", "mentions": 10, "confidence_score": 60, "total_score": 600}, {"name": "cancer", "mentions": 10, "confidence_score": 49, "total_score": 490}, {"name": "digestive issues", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "gastritis", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "eczema", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "arthritis", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "skin infections", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "wound healing", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "skin conditions", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "skin irritation", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "necrotic wounds", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "gastrointestinal ulcers", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "fungal infections", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "respiratory problems", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "diarrhea", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "gastrointestinal issues", "mentions": 3, "confidence_score": 19, "total_score": 57}], "ailments_description": "The most common ailments you can heal with Ayenia morifolia are inflammation, which is reduced by its anti-inflammatory compounds, diabetes, a condition alleviated by its ability to lower blood sugar levels. Hypertension is also controlled due to its vasodilatory properties, and rheumatism is relieved by its anti-arthritic compounds. Additionally, asthma symptoms are diminished by its bronchodilatory effects, while cancer growth is inhibited by its cytotoxic properties. Its anti-ulcerogenic compounds also alleviate digestive issues such as gastritis, and eczema is treated by its anti-inflammatory and antioxidant properties. Furthermore, Ayenia morifolia has been shown to promote wound healing, treat skin conditions like dermatitis, and alleviate respiratory problems like bronchitis, as well as treating gastrointestinal issues like diarrhea and gastrointestinal ulcers, fungal infections, skin irritation, necrotic wounds, and arthritis, and preventing skin infections.", "properties": [{"name": "antimicrobial", "mentions": 18, "confidence_score": 133, "total_score": 2394}, {"name": "antioxidant", "mentions": 18, "confidence_score": 126, "total_score": 2268}, {"name": "anti-inflammatory", "mentions": 18, "confidence_score": 122, "total_score": 2196}, {"name": "analgesic", "mentions": 18, "confidence_score": 80, "total_score": 1440}, {"name": "antiseptic", "mentions": 10, "confidence_score": 67, "total_score": 670}, {"name": "antifungal", "mentions": 10, "confidence_score": 63, "total_score": 630}, {"name": "antibacterial", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "antipyretic", "mentions": 8, "confidence_score": 32, "total_score": 256}, {"name": "hypoglycemic", "mentions": 7, "confidence_score": 31, "total_score": 217}, {"name": "hypotensive", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "cardioprotective", "mentions": 7, "confidence_score": 27, "total_score": 189}, {"name": "antiviral", "mentions": 7, "confidence_score": 26, "total_score": 182}, {"name": "hepatoprotective", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "hemostatic", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "antiparasitic", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "antihemorrhagic", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "diuretic", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "antihistaminic", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "antidiarrheal", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "wound healing", "mentions": 2, "confidence_score": 16, "total_score": 32}], "properties_description": "The main therapeutic properties of Ayenia morifolia are primarily related to its antimicrobial activity, which is attributed to the presence of flavonoids, such as quercetin and kaempferol, that exhibit potent antibacterial and antifungal properties. This plant also possesses antioxidant properties, which can be attributed to the high concentration of phenolic compounds, including gallic acid and ellagic acid, that scavenge free radicals and protect against oxidative stress. Additionally, Ayenia morifolia exhibits anti-inflammatory activity, which is mediated by the presence of saponins, such as glycosides and triterpenoids, that inhibit the production of pro-inflammatory cytokines and enzymes. Furthermore, the plant has been found to possess analgesic properties, which can be attributed to the presence of volatile oils, such as limonene and beta-pinene, that exert pain-relieving effects. The antiseptic properties of Ayenia morifolia are also noteworthy, which are attributed to the presence of phenolic compounds that exhibit broad-spectrum antimicrobial activity, thus preventing the growth of microorganisms and reducing the risk of infection.", "constituents": [{"name": "flavonoids", "mentions": 18, "confidence_score": 118, "total_score": 2124}, {"name": "quercetin", "mentions": 13, "confidence_score": 113, "total_score": 1469}, {"name": "saponins", "mentions": 17, "confidence_score": 93, "total_score": 1581}, {"name": "kaempferol", "mentions": 12, "confidence_score": 92, "total_score": 1104}, {"name": "phenolic acids", "mentions": 16, "confidence_score": 85, "total_score": 1360}, {"name": "alkaloids", "mentions": 14, "confidence_score": 78, "total_score": 1092}, {"name": "tannins", "mentions": 14, "confidence_score": 75, "total_score": 1050}, {"name": "cardiac glycosides", "mentions": 14, "confidence_score": 46, "total_score": 644}, {"name": "ellagic acid", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "gallic acid", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "terpenoids", "mentions": 12, "confidence_score": 34, "total_score": 408}, {"name": "coumarins", "mentions": 9, "confidence_score": 33, "total_score": 297}, {"name": "rutin", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "isorhapontigenin", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "naringenin", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "triterpenoids", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "sterols", "mentions": 6, "confidence_score": 17, "total_score": 102}, {"name": "luteolin", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "catechin", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "ferulic acid", "mentions": 3, "confidence_score": 13, "total_score": 39}], "constituents_description": "The most important healing constituents of Ayenia morifolia are flavonoids, particularly quercetin and kaempferol, which exhibit potent anti-inflammatory and antioxidant activities, thereby providing protection against oxidative stress and inflammation. Additionally, the plant contains saponins, which have been shown to possess immunomodulatory and anti-inflammatory properties, making them effective in treating various diseases. Phenolic acids, including those belonging to the hydroxybenzoic and hydroxycinnamic acid classes, are also present in Ayenia morifolia and have been reported to exhibit antioxidant and antimicrobial activities. The flavonoids quercetin and kaempferol have been found to inhibit the production of pro-inflammatory enzymes, such as COX-2 and lipoxygenase, which contribute to the plant's anti-inflammatory effects. The presence of these bioactive compounds in Ayenia morifolia makes it a valuable source of natural medicines for the treatment of various inflammatory and oxidative stress-related diseases.", "preparations": [{"name": "infusion", "mentions": 19, "confidence_score": 160, "total_score": 3040}, {"name": "tea", "mentions": 18, "confidence_score": 152, "total_score": 2736}, {"name": "tincture", "mentions": 19, "confidence_score": 117, "total_score": 2223}, {"name": "decoction", "mentions": 16, "confidence_score": 75, "total_score": 1200}, {"name": "salve", "mentions": 18, "confidence_score": 70, "total_score": 1260}, {"name": "ointment", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "ayenia oil", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "poultice", "mentions": 4, "confidence_score": 10, "total_score": 40}, {"name": "ayenia tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "ayenia infusion", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "ayenia tincture", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "capsule", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "ayenia salve", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "bath", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "infusate", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suppository", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Ayenia morifolia are infusion, tea, tincture, decoction, and salve. Infusion and decoction are prepared by steeping the dried leaves or flowers in boiling water to make a medicinal tea for treating fever, rheumatism, and as a diuretic. Tincture is made by soaking the plant in a solvent such as ethanol or glycerin to create a concentrated liquid extract used for treating various ailments. Tea is a preparation of the dried leaves or flowers that is steeped in hot water to make a medicinal drink for treating fever, cough, and sore throat. Salve is a topical preparation made by mixing the plant's extract with a carrier oil to treat skin conditions such as wounds, eczema, and inflammation.", "side_effects": [{"name": "develop skin irritation", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "cause diarrhea", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "induce vomiting", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "experience allergic reaction", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "experience nausea", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "experiencing nausea", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "induce nausea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "get headache", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "lower blood pressure", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "cause respiratory depression", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "feel dizziness", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "experiencing vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "developing diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "have abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "increase heart rate", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "show skin irritation", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cause liver damage", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effects of using Ayenia morifolia improperly are the development of skin irritation due to its allergic properties, which can cause an allergic reaction in sensitive individuals. Furthermore, consuming Ayenia morifolia may lead to gastrointestinal problems such as diarrhea and nausea, potentially inducing vomiting as the body attempts to expel the irritant. These reactions can be attributed to the plant's toxic compounds, which can cause gastrointestinal upset when ingested in large quantities. The improper use of Ayenia morifolia can also result in more severe reactions, including anaphylaxis, a potentially life-threatening allergic reaction. The severity of these side effects is often dependent on the individual's sensitivity to the plant's toxic compounds and the dosage consumed.", "uses": "Ayenia morifolia is a plant with diverse medicinal uses. It has been traditionally used in folk medicine for its anti-inflammatory and antioxidant properties. The leaves of the plant have been used to treat various health issues, including fever, rheumatism, and respiratory problems. Some studies have also suggested that Ayenia morifolia may have antimicrobial and antifungal activities, making it a potential natural remedy for infections. Further research is needed to confirm the full scope of its medicinal properties and applications.", "taxonomy": "Ayenia morifolia is classified in the family Malpighiaceae. This family of plants is part of the order Malpighiales, which is a group of flowering plants. The family Malpighiaceae is also known as the Barbados cherry family. Ayenia morifolia is a species of flowering plant that belongs to the genus Ayenia. The classification of Ayenia morifolia provides information about its evolutionary relationships and characteristics.", "benefits": "Ayenia morifolia is a plant species that has been traditionally used in various cultures for its medicinal properties. The leaves of Ayenia morifolia are believed to have anti-inflammatory and antioxidant properties, which may help to reduce inflammation and protect against oxidative stress. Some studies suggest that Ayenia morifolia may have antimicrobial and antifungal properties, which could aid in the treatment of infections and wounds. Furthermore, the plant is thought to have potential applications in the management of certain health conditions, including diabetes and cardiovascular disease. More research is needed to fully understand the health benefits of Ayenia morifolia and to confirm its effectiveness as a medicinal agent.", "parts": "Ayenia morifolia is a plant species with various medicinal properties, but specific information on its medicinal parts is limited in available knowledge. The plant's parts, including its leaves and stems, are used in traditional medicine in some regions. However, more research is needed to confirm the efficacy and safety of using these parts for medicinal purposes. The plant is known to contain compounds with potential antibacterial and anti-inflammatory properties. Further studies are required to fully understand the medicinal properties of Ayenia morifolia and its various parts.", "intro": "Ayenia morifolia is a medicinal plant species, native to tropical regions of Central and South America, belonging to the family Malpighiaceae. The plant has been traditionally used to treat various health conditions, including fever, rheumatism, and digestive issues, due to its anti-inflammatory and antimicrobial properties. The bioactive constituents of Ayenia morifolia include flavonoids, alkaloids, and terpenoids, which are responsible for its medicinal activities. In traditional herbal medicine, Ayenia morifolia is often prepared as a decoction or infusion, or used in the form of tincture or ointment to treat various health conditions."}
+{
+    "title": "Ayenia morifolia",
+    "herb_slug": "ayenia-morifolia",
+    "herb_name_scientific": "Ayenia morifolia",
+    "family_slug": "malvaceae",
+    "family_name": "Malvaceae",
+    "url": "herbs/ayenia-morifolia",
+    "lastmod": "2025-1-13",
+    "herb_names_common": [
+        {
+            "name": "ayenia",
+            "mentions": 28,
+            "confidence_score": 236,
+            "total_score": 6608
+        },
+        {
+            "name": "ayenia morifolia",
+            "mentions": 19,
+            "confidence_score": 114,
+            "total_score": 2166
+        },
+        {
+            "name": "rocky ayenia",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "mexican ayenia",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "morifolia",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "wild madder",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "velvet-leaf ayenia",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "milkflower",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "ayenia mexicana",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "wild madder bush",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "coralillo",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "globe milk flower",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "wild ayenia",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "velvet leaf",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "milk flower",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "tropical ayenia",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "mexican ayenia morifolia",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "wild potato bush",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "wild sneeze",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "spearleaf",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 16,
+            "confidence_score": 121,
+            "total_score": 1936
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        }
+    ],
+    "what_description": "Ayenia morifolia is a plant species belonging to the family Malvaceae. It is a shrub or small tree that typically grows up to 3-6 meters in height, with a woody stem and a rounded crown. The leaves are alternate, simple, and elliptical in shape, measuring 2-8 cm in length and 1-4 cm in width, with a leathery texture and a crenate margin. The flowers are small, yellowish-green in color, and arranged in axillary clusters, with five sepals and five petals. The plant is native to the tropical regions of Central and South America.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 16,
+            "confidence_score": 132,
+            "total_score": 2112
+        },
+        {
+            "name": "diabetes",
+            "mentions": 14,
+            "confidence_score": 109,
+            "total_score": 1526
+        },
+        {
+            "name": "hypertension",
+            "mentions": 11,
+            "confidence_score": 79,
+            "total_score": 869
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 10,
+            "confidence_score": 68,
+            "total_score": 680
+        },
+        {
+            "name": "asthma",
+            "mentions": 10,
+            "confidence_score": 60,
+            "total_score": 600
+        },
+        {
+            "name": "cancer",
+            "mentions": 10,
+            "confidence_score": 49,
+            "total_score": 490
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "gastritis",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "eczema",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "arthritis",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "skin infections",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "wound healing",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "necrotic wounds",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "gastrointestinal ulcers",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "respiratory problems",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "gastrointestinal issues",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Ayenia morifolia are inflammation, which is reduced by its anti-inflammatory compounds, diabetes, a condition alleviated by its ability to lower blood sugar levels. Hypertension is also controlled due to its vasodilatory properties, and rheumatism is relieved by its anti-arthritic compounds. Additionally, asthma symptoms are diminished by its bronchodilatory effects, while cancer growth is inhibited by its cytotoxic properties. Its anti-ulcerogenic compounds also alleviate digestive issues such as gastritis, and eczema is treated by its anti-inflammatory and antioxidant properties. Furthermore, Ayenia morifolia has been shown to promote wound healing, treat skin conditions like dermatitis, and alleviate respiratory problems like bronchitis, as well as treating gastrointestinal issues like diarrhea and gastrointestinal ulcers, fungal infections, skin irritation, necrotic wounds, and arthritis, and preventing skin infections.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 18,
+            "confidence_score": 133,
+            "total_score": 2394
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 18,
+            "confidence_score": 126,
+            "total_score": 2268
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 18,
+            "confidence_score": 122,
+            "total_score": 2196
+        },
+        {
+            "name": "analgesic",
+            "mentions": 18,
+            "confidence_score": 80,
+            "total_score": 1440
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 10,
+            "confidence_score": 67,
+            "total_score": 670
+        },
+        {
+            "name": "antifungal",
+            "mentions": 10,
+            "confidence_score": 63,
+            "total_score": 630
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 8,
+            "confidence_score": 32,
+            "total_score": 256
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 7,
+            "confidence_score": 31,
+            "total_score": 217
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 7,
+            "confidence_score": 27,
+            "total_score": 189
+        },
+        {
+            "name": "antiviral",
+            "mentions": 7,
+            "confidence_score": 26,
+            "total_score": 182
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "antihemorrhagic",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "diuretic",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Ayenia morifolia are primarily related to its antimicrobial activity, which is attributed to the presence of flavonoids, such as quercetin and kaempferol, that exhibit potent antibacterial and antifungal properties. This plant also possesses antioxidant properties, which can be attributed to the high concentration of phenolic compounds, including gallic acid and ellagic acid, that scavenge free radicals and protect against oxidative stress. Additionally, Ayenia morifolia exhibits anti-inflammatory activity, which is mediated by the presence of saponins, such as glycosides and triterpenoids, that inhibit the production of pro-inflammatory cytokines and enzymes. Furthermore, the plant has been found to possess analgesic properties, which can be attributed to the presence of volatile oils, such as limonene and beta-pinene, that exert pain-relieving effects. The antiseptic properties of Ayenia morifolia are also noteworthy, which are attributed to the presence of phenolic compounds that exhibit broad-spectrum antimicrobial activity, thus preventing the growth of microorganisms and reducing the risk of infection.",
+    "constituents": [
+        {
+            "name": "flavonoids",
+            "mentions": 18,
+            "confidence_score": 118,
+            "total_score": 2124
+        },
+        {
+            "name": "quercetin",
+            "mentions": 13,
+            "confidence_score": 113,
+            "total_score": 1469
+        },
+        {
+            "name": "saponins",
+            "mentions": 17,
+            "confidence_score": 93,
+            "total_score": 1581
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 12,
+            "confidence_score": 92,
+            "total_score": 1104
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 16,
+            "confidence_score": 85,
+            "total_score": 1360
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 14,
+            "confidence_score": 78,
+            "total_score": 1092
+        },
+        {
+            "name": "tannins",
+            "mentions": 14,
+            "confidence_score": 75,
+            "total_score": 1050
+        },
+        {
+            "name": "cardiac glycosides",
+            "mentions": 14,
+            "confidence_score": 46,
+            "total_score": 644
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 12,
+            "confidence_score": 34,
+            "total_score": 408
+        },
+        {
+            "name": "coumarins",
+            "mentions": 9,
+            "confidence_score": 33,
+            "total_score": 297
+        },
+        {
+            "name": "rutin",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "naringenin",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "sterols",
+            "mentions": 6,
+            "confidence_score": 17,
+            "total_score": 102
+        },
+        {
+            "name": "luteolin",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "catechin",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Ayenia morifolia are flavonoids, particularly quercetin and kaempferol, which exhibit potent anti-inflammatory and antioxidant activities, thereby providing protection against oxidative stress and inflammation. Additionally, the plant contains saponins, which have been shown to possess immunomodulatory and anti-inflammatory properties, making them effective in treating various diseases. Phenolic acids, including those belonging to the hydroxybenzoic and hydroxycinnamic acid classes, are also present in Ayenia morifolia and have been reported to exhibit antioxidant and antimicrobial activities. The flavonoids quercetin and kaempferol have been found to inhibit the production of pro-inflammatory enzymes, such as COX-2 and lipoxygenase, which contribute to the plant's anti-inflammatory effects. The presence of these bioactive compounds in Ayenia morifolia makes it a valuable source of natural medicines for the treatment of various inflammatory and oxidative stress-related diseases.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 19,
+            "confidence_score": 160,
+            "total_score": 3040
+        },
+        {
+            "name": "tea",
+            "mentions": 18,
+            "confidence_score": 152,
+            "total_score": 2736
+        },
+        {
+            "name": "tincture",
+            "mentions": 19,
+            "confidence_score": 117,
+            "total_score": 2223
+        },
+        {
+            "name": "decoction",
+            "mentions": 16,
+            "confidence_score": 75,
+            "total_score": 1200
+        },
+        {
+            "name": "salve",
+            "mentions": 18,
+            "confidence_score": 70,
+            "total_score": 1260
+        },
+        {
+            "name": "ointment",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "ayenia oil",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "poultice",
+            "mentions": 4,
+            "confidence_score": 10,
+            "total_score": 40
+        },
+        {
+            "name": "ayenia tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "ayenia infusion",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "ayenia tincture",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "capsule",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "ayenia salve",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "bath",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "infusate",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Ayenia morifolia are infusion, tea, tincture, decoction, and salve. Infusion and decoction are prepared by steeping the dried leaves or flowers in boiling water to make a medicinal tea for treating fever, rheumatism, and as a diuretic. Tincture is made by soaking the plant in a solvent such as ethanol or glycerin to create a concentrated liquid extract used for treating various ailments. Tea is a preparation of the dried leaves or flowers that is steeped in hot water to make a medicinal drink for treating fever, cough, and sore throat. Salve is a topical preparation made by mixing the plant's extract with a carrier oil to treat skin conditions such as wounds, eczema, and inflammation.",
+    "side_effects": [
+        {
+            "name": "develop skin irritation",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "get headache",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "lower blood pressure",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "cause respiratory depression",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "developing diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "have abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "show skin irritation",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Ayenia morifolia improperly are the development of skin irritation due to its allergic properties, which can cause an allergic reaction in sensitive individuals. Furthermore, consuming Ayenia morifolia may lead to gastrointestinal problems such as diarrhea and nausea, potentially inducing vomiting as the body attempts to expel the irritant. These reactions can be attributed to the plant's toxic compounds, which can cause gastrointestinal upset when ingested in large quantities. The improper use of Ayenia morifolia can also result in more severe reactions, including anaphylaxis, a potentially life-threatening allergic reaction. The severity of these side effects is often dependent on the individual's sensitivity to the plant's toxic compounds and the dosage consumed.",
+    "uses": "Ayenia morifolia is a plant with diverse medicinal uses. It has been traditionally used in folk medicine for its anti-inflammatory and antioxidant properties. The leaves of the plant have been used to treat various health issues, including fever, rheumatism, and respiratory problems. Some studies have also suggested that Ayenia morifolia may have antimicrobial and antifungal activities, making it a potential natural remedy for infections. Further research is needed to confirm the full scope of its medicinal properties and applications.",
+    "taxonomy": "Ayenia morifolia is classified in the family Malpighiaceae. This family of plants is part of the order Malpighiales, which is a group of flowering plants. The family Malpighiaceae is also known as the Barbados cherry family. Ayenia morifolia is a species of flowering plant that belongs to the genus Ayenia. The classification of Ayenia morifolia provides information about its evolutionary relationships and characteristics.",
+    "benefits": "Ayenia morifolia is a plant species that has been traditionally used in various cultures for its medicinal properties. The leaves of Ayenia morifolia are believed to have anti-inflammatory and antioxidant properties, which may help to reduce inflammation and protect against oxidative stress. Some studies suggest that Ayenia morifolia may have antimicrobial and antifungal properties, which could aid in the treatment of infections and wounds. Furthermore, the plant is thought to have potential applications in the management of certain health conditions, including diabetes and cardiovascular disease. More research is needed to fully understand the health benefits of Ayenia morifolia and to confirm its effectiveness as a medicinal agent.",
+    "parts": "Ayenia morifolia is a plant species with various medicinal properties, but specific information on its medicinal parts is limited in available knowledge. The plant's parts, including its leaves and stems, are used in traditional medicine in some regions. However, more research is needed to confirm the efficacy and safety of using these parts for medicinal purposes. The plant is known to contain compounds with potential antibacterial and anti-inflammatory properties. Further studies are required to fully understand the medicinal properties of Ayenia morifolia and its various parts.",
+    "intro": "Ayenia morifolia is a medicinal plant species, native to tropical regions of Central and South America, belonging to the family Malpighiaceae. The plant has been traditionally used to treat various health conditions, including fever, rheumatism, and digestive issues, due to its anti-inflammatory and antimicrobial properties. The bioactive constituents of Ayenia morifolia include flavonoids, alkaloids, and terpenoids, which are responsible for its medicinal activities. In traditional herbal medicine, Ayenia morifolia is often prepared as a decoction or infusion, or used in the form of tincture or ointment to treat various health conditions."
+}

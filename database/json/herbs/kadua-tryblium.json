@@ -1,1 +1,154 @@
-{"title": "Kadua tryblium", "herb_slug": "kadua-tryblium", "herb_name_scientific": "Kadua tryblium", "family_slug": "rubiaceae", "family_name": "Rubiaceae", "url": "herbs/kadua-tryblium", "lastmod": "2025-1-24", "herb_names_common": [{"name": "kadua", "mentions": 18, "confidence_score": 112, "total_score": 2016}, {"name": "hawaiian kadua", "mentions": 8, "confidence_score": 58, "total_score": 464}, {"name": "kahili ginger", "mentions": 7, "confidence_score": 55, "total_score": 385}, {"name": "tryblium", "mentions": 11, "confidence_score": 44, "total_score": 484}, {"name": "kadua tryblium", "mentions": 12, "confidence_score": 36, "total_score": 432}, {"name": "island kadala", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "ilima", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "island kadala vine", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "kowhai berry tree", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "ka\u02bb\u016b woodrose", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "navybean tree", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "hawaiian ilima", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "m\u0101pou", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "fiji vine", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "hairy kadua", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "red strangler fig", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "m\u0101pou tree", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "waianae silversword", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "tryblium tree", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "tryblium kadua", "mentions": 3, "confidence_score": 13, "total_score": 39}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 11, "confidence_score": 90, "total_score": 990}, {"medicine_or_poison": "medicine", "mentions": 9, "confidence_score": 70, "total_score": 630}], "uses": "Kadua tryblium is a plant species with various traditional uses, including its application in herbal medicine. However, the specific medicinal uses of Kadua tryblium are not well-documented in scientific literature. Further research is needed to understand its potential health benefits. It is often used in traditional medicine for its reported antiseptic and anti-inflammatory properties. The plant's effectiveness in treating specific health conditions is still largely anecdotal and requires further investigation.", "taxonomy": "Kadua tryblium is classified within the family Rubiaceae. It is a species of flowering plant native to the Pacific Islands. Kadua tryblium is further classified under the genus Kadua, a group of plants commonly known as the \"forest vines\". The classification of Kadua tryblium is also supported by its morphological characteristics, which align with those of other species within the genus. Further research may be necessary to confirm the exact classification of this plant species.", "benefits": "Kadua tryblium is a plant species known for its potential health benefits, primarily in traditional medicine. It is reported to have anti-inflammatory and antimicrobial properties, which may help in treating various health conditions. The plant's extracts are said to possess antioxidant properties that can protect against cell damage and oxidative stress. Additionally, Kadua tryblium is believed to have anti-cancer properties, although further research is needed to confirm its efficacy. More studies are required to fully understand the plant's health benefits and potential applications.", "properties": "Kadua tryblium is reported to have various therapeutic properties, although more research is needed to confirm its effectiveness. It is said to possess anti-inflammatory, antimicrobial, and antioxidant properties. The plant is traditionally used in some cultures to treat various health conditions, including fever, wounds, and skin infections. The leaves of Kadua tryblium are often used in traditional medicine due to their purported medicinal benefits. Further studies are necessary to fully understand the plant's therapeutic potential and potential applications.", "constituents": "Kadua tryblium contains active constituents such as flavonoids and phenolic acids, which have been reported to have various biological activities. These compounds have been isolated and identified through various studies on the plant's chemical composition. The flavonoids present in Kadua tryblium may contribute to its antioxidant and anti-inflammatory properties. Further research is needed to fully understand the effects of these constituents on human health. The active constituents in Kadua tryblium may also have potential applications in the development of new medicines.", "parts": "Kadua tryblium is known for its potential medicinal properties, with its leaves and stems being utilized in traditional medicine. The plant is said to have antimicrobial and anti-inflammatory effects, making it a sought-after remedy for various health issues. Research suggests that the plant's extracts may have antioxidant properties, contributing to its potential health benefits. The exact medicinal parts of Kadua tryblium are not well-documented, but its leaves and stems are commonly used in traditional remedies. Further studies are necessary to fully understand the plant's medicinal properties and their potential applications.", "preparations": "Kadua tryblium is a plant species whose herbal preparations have been traditionally used in various cultures. The plant is believed to have medicinal properties, particularly in treating digestive issues and skin problems. In traditional medicine, herbal preparations of Kadua tryblium are often made from its leaves, roots, or bark. These preparations are typically consumed as teas, infusions, or tinctures. More research is needed to fully understand the efficacy and potential benefits of Kadua tryblium herbal preparations.", "side_effects": "Info not available yet.", "intro": "Kadua tryblium, also known as Kadua or the Kadua vine, is a tropical vine plant native to the Pacific Islands, belonging to the Rubiaceae family of flowering plants. The plant is valued for its potential health benefits, including its antimicrobial and anti-inflammatory properties, which may help alleviate symptoms of infections, wounds, and inflammatory conditions. The bioactive constituents of Kadua tryblium include flavonoids, phenolic acids, and alkaloids, which contribute to its medicinal properties. Kadua tryblium is commonly used in traditional herbal preparations, such as teas, infusions, and tinctures, which are employed to treat various health issues, including fever, cough, and skin conditions."}
+{
+    "title": "Kadua tryblium",
+    "herb_slug": "kadua-tryblium",
+    "herb_name_scientific": "Kadua tryblium",
+    "family_slug": "rubiaceae",
+    "family_name": "Rubiaceae",
+    "url": "herbs/kadua-tryblium",
+    "lastmod": "2025-1-24",
+    "herb_names_common": [
+        {
+            "name": "kadua",
+            "mentions": 18,
+            "confidence_score": 112,
+            "total_score": 2016
+        },
+        {
+            "name": "hawaiian kadua",
+            "mentions": 8,
+            "confidence_score": 58,
+            "total_score": 464
+        },
+        {
+            "name": "kahili ginger",
+            "mentions": 7,
+            "confidence_score": 55,
+            "total_score": 385
+        },
+        {
+            "name": "tryblium",
+            "mentions": 11,
+            "confidence_score": 44,
+            "total_score": 484
+        },
+        {
+            "name": "kadua tryblium",
+            "mentions": 12,
+            "confidence_score": 36,
+            "total_score": 432
+        },
+        {
+            "name": "island kadala",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "ilima",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "island kadala vine",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "kowhai berry tree",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "ka\u02bb\u016b woodrose",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "navybean tree",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "hawaiian ilima",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "m\u0101pou",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "fiji vine",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "hairy kadua",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "red strangler fig",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "m\u0101pou tree",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "waianae silversword",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "tryblium tree",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "tryblium kadua",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 11,
+            "confidence_score": 90,
+            "total_score": 990
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 9,
+            "confidence_score": 70,
+            "total_score": 630
+        }
+    ],
+    "uses": "Kadua tryblium is a plant species with various traditional uses, including its application in herbal medicine. However, the specific medicinal uses of Kadua tryblium are not well-documented in scientific literature. Further research is needed to understand its potential health benefits. It is often used in traditional medicine for its reported antiseptic and anti-inflammatory properties. The plant's effectiveness in treating specific health conditions is still largely anecdotal and requires further investigation.",
+    "taxonomy": "Kadua tryblium is classified within the family Rubiaceae. It is a species of flowering plant native to the Pacific Islands. Kadua tryblium is further classified under the genus Kadua, a group of plants commonly known as the \"forest vines\". The classification of Kadua tryblium is also supported by its morphological characteristics, which align with those of other species within the genus. Further research may be necessary to confirm the exact classification of this plant species.",
+    "benefits": "Kadua tryblium is a plant species known for its potential health benefits, primarily in traditional medicine. It is reported to have anti-inflammatory and antimicrobial properties, which may help in treating various health conditions. The plant's extracts are said to possess antioxidant properties that can protect against cell damage and oxidative stress. Additionally, Kadua tryblium is believed to have anti-cancer properties, although further research is needed to confirm its efficacy. More studies are required to fully understand the plant's health benefits and potential applications.",
+    "properties": "Kadua tryblium is reported to have various therapeutic properties, although more research is needed to confirm its effectiveness. It is said to possess anti-inflammatory, antimicrobial, and antioxidant properties. The plant is traditionally used in some cultures to treat various health conditions, including fever, wounds, and skin infections. The leaves of Kadua tryblium are often used in traditional medicine due to their purported medicinal benefits. Further studies are necessary to fully understand the plant's therapeutic potential and potential applications.",
+    "constituents": "Kadua tryblium contains active constituents such as flavonoids and phenolic acids, which have been reported to have various biological activities. These compounds have been isolated and identified through various studies on the plant's chemical composition. The flavonoids present in Kadua tryblium may contribute to its antioxidant and anti-inflammatory properties. Further research is needed to fully understand the effects of these constituents on human health. The active constituents in Kadua tryblium may also have potential applications in the development of new medicines.",
+    "parts": "Kadua tryblium is known for its potential medicinal properties, with its leaves and stems being utilized in traditional medicine. The plant is said to have antimicrobial and anti-inflammatory effects, making it a sought-after remedy for various health issues. Research suggests that the plant's extracts may have antioxidant properties, contributing to its potential health benefits. The exact medicinal parts of Kadua tryblium are not well-documented, but its leaves and stems are commonly used in traditional remedies. Further studies are necessary to fully understand the plant's medicinal properties and their potential applications.",
+    "preparations": "Kadua tryblium is a plant species whose herbal preparations have been traditionally used in various cultures. The plant is believed to have medicinal properties, particularly in treating digestive issues and skin problems. In traditional medicine, herbal preparations of Kadua tryblium are often made from its leaves, roots, or bark. These preparations are typically consumed as teas, infusions, or tinctures. More research is needed to fully understand the efficacy and potential benefits of Kadua tryblium herbal preparations.",
+    "side_effects": "Info not available yet.",
+    "intro": "Kadua tryblium, also known as Kadua or the Kadua vine, is a tropical vine plant native to the Pacific Islands, belonging to the Rubiaceae family of flowering plants. The plant is valued for its potential health benefits, including its antimicrobial and anti-inflammatory properties, which may help alleviate symptoms of infections, wounds, and inflammatory conditions. The bioactive constituents of Kadua tryblium include flavonoids, phenolic acids, and alkaloids, which contribute to its medicinal properties. Kadua tryblium is commonly used in traditional herbal preparations, such as teas, infusions, and tinctures, which are employed to treat various health issues, including fever, cough, and skin conditions."
+}

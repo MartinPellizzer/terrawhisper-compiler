@@ -1,1 +1,756 @@
-{"title": "Astragalus membranaceus", "herb_slug": "astragalus-membranaceus", "herb_name_scientific": "Astragalus membranaceus", "family_slug": "", "family_name": "", "url": "herbs/astragalus-membranaceus", "lastmod": "2025-1-20", "herb_names_common": [{"name": "huang qi", "mentions": 20, "confidence_score": 196, "total_score": 3920}, {"name": "milk vetch", "mentions": 22, "confidence_score": 169, "total_score": 3718}, {"name": "astragalus", "mentions": 17, "confidence_score": 109, "total_score": 1853}, {"name": "huangqi", "mentions": 15, "confidence_score": 104, "total_score": 1560}, {"name": "milk vetch root", "mentions": 13, "confidence_score": 83, "total_score": 1079}, {"name": "chinese milk vetch", "mentions": 11, "confidence_score": 65, "total_score": 715}, {"name": "membranous milk vetch", "mentions": 12, "confidence_score": 64, "total_score": 768}, {"name": "chinese astragalus", "mentions": 10, "confidence_score": 54, "total_score": 540}, {"name": "duhuang", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "membranous milkvetch", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "huang qi root", "mentions": 7, "confidence_score": 34, "total_score": 238}, {"name": "dong qi", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "astragalus root", "mentions": 7, "confidence_score": 28, "total_score": 196}, {"name": "asian milk vetch", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "yellow vetch", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "membranous vetch", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "milk vetches", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "membranous astragalus", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "white milk vetch", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "white astragalus", "mentions": 2, "confidence_score": 9, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 183, "total_score": 3660}], "what_description": "Astragalus membranaceus is a perennial plant that belongs to the family Fabaceae, commonly known as the legume family. It has a height range of 50-100 cm, with a branching stem and leaflets that are ovate-lanceolate in shape and 2-5 cm in length. The plant's root is reported to contain up to 60% of the bioactive compounds. The plant's rhizome is used in traditional Chinese medicine for its anti-inflammatory properties, and it has been used to treat various conditions such as fever and rheumatism. Astragalus membranaceus has been found to contain saponins, flavonoids, and other bioactive compounds, which contribute to its medicinal properties.", "category_action": "immunomodulators", "ailments": [{"name": "fatigue", "mentions": 17, "confidence_score": 160, "total_score": 2720}, {"name": "gastrointestinal inflammation", "mentions": 19, "confidence_score": 153, "total_score": 2907}, {"name": "diabetes", "mentions": 19, "confidence_score": 147, "total_score": 2793}, {"name": "hypertension", "mentions": 17, "confidence_score": 128, "total_score": 2176}, {"name": "asthma", "mentions": 12, "confidence_score": 88, "total_score": 1056}, {"name": "cancer prevention", "mentions": 14, "confidence_score": 85, "total_score": 1190}, {"name": "anemia", "mentions": 8, "confidence_score": 53, "total_score": 424}, {"name": "cough", "mentions": 5, "confidence_score": 43, "total_score": 215}, {"name": "autoimmune disorders", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "digestive issues", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "immune system weakness", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "immune deficiency", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "cardiovascular disease", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "anxiety", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "weakened immune system", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "arthritis", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "bronchitis", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "respiratory infection", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "autoimmune disease", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "gastrointestinal issues", "mentions": 3, "confidence_score": 20, "total_score": 60}], "ailments_description": "The most common ailments you can heal with Astragalus membranaceus are fatigue and gastrointestinal inflammation, which are alleviated through its anti-inflammatory and antioxidant properties. Astragalus membranaceus has been shown to improve insulin sensitivity and glucose metabolism, effectively managing diabetes. Hypertension is also addressed through the plant's vasodilatory effect, while its expectorant properties help to alleviate asthma symptoms. Additionally, Astragalus membranaceus has been found to exhibit anti-tumor and anti-proliferative activities, contributing to cancer prevention, and its high iron content helps to alleviate anemia. Furthermore, the plant has been used to treat cough, autoimmune disorders, digestive issues, immune system weakness, immune deficiency, cardiovascular disease, anxiety, weakened immune system, arthritis, bronchitis, respiratory infection, and gastrointestinal issues.", "properties": [{"name": "antioxidant", "mentions": 21, "confidence_score": 193, "total_score": 4053}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 174, "total_score": 3480}, {"name": "immunomodulatory", "mentions": 19, "confidence_score": 159, "total_score": 3021}, {"name": "cardioprotective", "mentions": 20, "confidence_score": 143, "total_score": 2860}, {"name": "antimicrobial", "mentions": 18, "confidence_score": 132, "total_score": 2376}, {"name": "antiviral", "mentions": 19, "confidence_score": 123, "total_score": 2337}, {"name": "neuroprotective", "mentions": 18, "confidence_score": 112, "total_score": 2016}, {"name": "hepatoprotective", "mentions": 14, "confidence_score": 89, "total_score": 1246}, {"name": "antihypertensive", "mentions": 9, "confidence_score": 54, "total_score": 486}, {"name": "anticancer", "mentions": 9, "confidence_score": 44, "total_score": 396}, {"name": "antidiabetic", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "antioxidant enzyme inducer", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "analgesic", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "antibacterial", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "antifibrotic", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "anti-fatigue", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "cytoprotective", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "antioxidant free radical scavenger", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "antifungal", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "free radical scavenging", "mentions": 1, "confidence_score": 9, "total_score": 9}], "properties_description": "The main therapeutic properties of Astragalus membranaceus are its antioxidant effects, which are attributed to the presence of flavonoids and phenolic acids that neutralize free radicals and protect cells from oxidative damage. Astragalus membranaceus also exhibits anti-inflammatory properties, with saponins and polysaccharides contributing to the inhibition of pro-inflammatory cytokines and enzymes. Additionally, it has immunomodulatory effects, primarily due to the bioactive compounds astragalosides and polysaccharides, which modulate the immune system by enhancing its activity and regulating its response to pathogens. Astragalus membranaceus has been found to possess cardioprotective properties, with flavonoids and phenolic acids helping to reduce lipid peroxidation and improve cardiac function in animal models. Furthermore, its antimicrobial properties, attributed to the presence of saponins and volatile oils, have been shown to inhibit the growth of various microorganisms, including bacteria and fungi.", "constituents": [{"name": "astragaloside iv", "mentions": 40, "confidence_score": 350, "total_score": 14000}, {"name": "astragaloside ii", "mentions": 18, "confidence_score": 142, "total_score": 2556}, {"name": "astragaloside vi", "mentions": 18, "confidence_score": 140, "total_score": 2520}, {"name": "astragaloside iii", "mentions": 18, "confidence_score": 132, "total_score": 2376}, {"name": "astragaloside viii", "mentions": 12, "confidence_score": 74, "total_score": 888}, {"name": "saponins", "mentions": 11, "confidence_score": 63, "total_score": 693}, {"name": "polysaccharides", "mentions": 8, "confidence_score": 59, "total_score": 472}, {"name": "formononetin", "mentions": 7, "confidence_score": 53, "total_score": 371}, {"name": "astragaloside ix", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "flavonoids", "mentions": 8, "confidence_score": 45, "total_score": 360}, {"name": "calycosin", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "alkaloids", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "astragaloside x", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "calcium", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "phenolic acids", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "potassium", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "glycosides", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "oligosaccharides", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "terpenoids", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "isorhapontigenin", "mentions": 1, "confidence_score": 8, "total_score": 8}], "constituents_description": "The most important healing constituents of Astragalus membranaceus are astragalosides, specifically astragaloside IV, astragaloside II, astragaloside VI, astragaloside III, and astragaloside VIII, which have been shown to have anti-inflammatory, anti-oxidative, and immunomodulatory effects. Astragaloside IV has been demonstrated to inhibit TNF-\u03b1 and IL-1\u03b2 production, while astragaloside II has been found to improve cardiac function and reduce oxidative stress. Astragaloside VI has been reported to exhibit anti-inflammatory activity by inhibiting NF-\u03baB activation, and astragaloside III has been shown to have immunomodulatory effects by enhancing the activity of immune cells. Astragaloside VIII has been found to have antioxidant and anti-inflammatory properties, reducing oxidative stress and inflammation in various tissues. These constituents contribute to the medicinal properties of Astragalus membranaceus, including its use in traditional Chinese medicine for anti-aging, anti-fatigue, and immune-enhancing effects.", "preparations": [{"name": "tea", "mentions": 12, "confidence_score": 116, "total_score": 1392}, {"name": "tincture", "mentions": 13, "confidence_score": 110, "total_score": 1430}, {"name": "capsules", "mentions": 13, "confidence_score": 104, "total_score": 1352}, {"name": "decoction", "mentions": 10, "confidence_score": 69, "total_score": 690}, {"name": "astragalus tea", "mentions": 7, "confidence_score": 67, "total_score": 469}, {"name": "infusion", "mentions": 10, "confidence_score": 62, "total_score": 620}, {"name": "astragalus tincture", "mentions": 7, "confidence_score": 60, "total_score": 420}, {"name": "astragalus extract", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "powder", "mentions": 9, "confidence_score": 40, "total_score": 360}, {"name": "astragalus infusion", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "astragalus capsules", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "astragalus decoction", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "astragalus membranaceus extract", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "astragalus powder", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "suppositories", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "infused oil", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "ginseng astragalus syrup", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "glycerite", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "glycoside extract", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "dried root tea", "mentions": 1, "confidence_score": 10, "total_score": 10}], "preparations_description": "The main herbal preparations of Astragalus membranaceus are derived from its roots and used to enhance the immune system and adaptogenic properties. Astragalus membranaceus tea is prepared by steeping dried roots in hot water to extract its bioactive compounds and is used to boost energy and immune function. The tincture is a concentrated liquid extract of the roots in a solvent such as ethanol or glycerin, often used in traditional Chinese medicine to promote immune response and reduce inflammation. Capsules contain dried Astragalus membranaceus root powder, which can be standardized to contain a specific percentage of bioactive compounds such as astragaloside IV and polysaccharides. A decoction is a longer extraction process than tea, where the roots are boiled in water to release a higher concentration of bioactive compounds, and is often used to treat respiratory and cardiovascular conditions.", "side_effects": [{"name": "exacerbate kidney disease", "mentions": 8, "confidence_score": 70, "total_score": 560}, {"name": "trigger allergic reactions", "mentions": 9, "confidence_score": 58, "total_score": 522}, {"name": "interact with blood thinners", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "cause nausea", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "increase blood pressure", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "induce hypoglycemia", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "cause digestive issues", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "induce allergic reactions", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "worsen diabetes", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "exacerbate diarrhea", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "induce hypotension", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "interact with medications", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "increase bleeding risk", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "interact with warfarin", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "exacerbate kidney issues", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "exacerbate autoimmune disorders", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause liver damage", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "disrupt thyroid function", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "aggravate kidney disease", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "impair immune function", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effects of using Astragalus membranaceus improperly include exacerbating kidney disease in individuals with pre-existing kidney conditions due to its potential to increase blood pressure and reduce urine production, triggering allergic reactions in some individuals who may be sensitive to its immunomodulatory effects, interacting with blood thinners such as warfarin by enhancing their anticoagulant activity and increasing the risk of bleeding, causing nausea and gastrointestinal discomfort in some individuals due to its potential to stimulate the digestive system, and further increasing blood pressure in individuals with hypertension due to its potential to stimulate the sympathetic nervous system. Astragalus membranaceus may also worsen symptoms in individuals with hypoglycemia or diabetes due to its potential to lower blood sugar levels. The improper use of Astragalus membranaceus may also lead to an imbalance in electrolytes and fluids in the body. This herb may also cause an imbalance in the immune system due to its immunomodulatory effects. The improper use of Astragalus membranaceus may also cause an imbalance in the thyroid function in some individuals."}
+{
+    "title": "Astragalus membranaceus",
+    "herb_slug": "astragalus-membranaceus",
+    "herb_name_scientific": "Astragalus membranaceus",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/astragalus-membranaceus",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "huang qi",
+            "mentions": 20,
+            "confidence_score": 196,
+            "total_score": 3920
+        },
+        {
+            "name": "milk vetch",
+            "mentions": 22,
+            "confidence_score": 169,
+            "total_score": 3718
+        },
+        {
+            "name": "astragalus",
+            "mentions": 17,
+            "confidence_score": 109,
+            "total_score": 1853
+        },
+        {
+            "name": "huangqi",
+            "mentions": 15,
+            "confidence_score": 104,
+            "total_score": 1560
+        },
+        {
+            "name": "milk vetch root",
+            "mentions": 13,
+            "confidence_score": 83,
+            "total_score": 1079
+        },
+        {
+            "name": "chinese milk vetch",
+            "mentions": 11,
+            "confidence_score": 65,
+            "total_score": 715
+        },
+        {
+            "name": "membranous milk vetch",
+            "mentions": 12,
+            "confidence_score": 64,
+            "total_score": 768
+        },
+        {
+            "name": "chinese astragalus",
+            "mentions": 10,
+            "confidence_score": 54,
+            "total_score": 540
+        },
+        {
+            "name": "duhuang",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "membranous milkvetch",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "huang qi root",
+            "mentions": 7,
+            "confidence_score": 34,
+            "total_score": 238
+        },
+        {
+            "name": "dong qi",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "astragalus root",
+            "mentions": 7,
+            "confidence_score": 28,
+            "total_score": 196
+        },
+        {
+            "name": "asian milk vetch",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "yellow vetch",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "membranous vetch",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "milk vetches",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "membranous astragalus",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "white milk vetch",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "white astragalus",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 183,
+            "total_score": 3660
+        }
+    ],
+    "what_description": "Astragalus membranaceus is a perennial plant that belongs to the family Fabaceae, commonly known as the legume family. It has a height range of 50-100 cm, with a branching stem and leaflets that are ovate-lanceolate in shape and 2-5 cm in length. The plant's root is reported to contain up to 60% of the bioactive compounds. The plant's rhizome is used in traditional Chinese medicine for its anti-inflammatory properties, and it has been used to treat various conditions such as fever and rheumatism. Astragalus membranaceus has been found to contain saponins, flavonoids, and other bioactive compounds, which contribute to its medicinal properties.",
+    "category_action": "immunomodulators",
+    "ailments": [
+        {
+            "name": "fatigue",
+            "mentions": 17,
+            "confidence_score": 160,
+            "total_score": 2720
+        },
+        {
+            "name": "gastrointestinal inflammation",
+            "mentions": 19,
+            "confidence_score": 153,
+            "total_score": 2907
+        },
+        {
+            "name": "diabetes",
+            "mentions": 19,
+            "confidence_score": 147,
+            "total_score": 2793
+        },
+        {
+            "name": "hypertension",
+            "mentions": 17,
+            "confidence_score": 128,
+            "total_score": 2176
+        },
+        {
+            "name": "asthma",
+            "mentions": 12,
+            "confidence_score": 88,
+            "total_score": 1056
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 14,
+            "confidence_score": 85,
+            "total_score": 1190
+        },
+        {
+            "name": "anemia",
+            "mentions": 8,
+            "confidence_score": 53,
+            "total_score": 424
+        },
+        {
+            "name": "cough",
+            "mentions": 5,
+            "confidence_score": 43,
+            "total_score": 215
+        },
+        {
+            "name": "autoimmune disorders",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "immune system weakness",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "immune deficiency",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "anxiety",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "weakened immune system",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "arthritis",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "bronchitis",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "respiratory infection",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "autoimmune disease",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "gastrointestinal issues",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Astragalus membranaceus are fatigue and gastrointestinal inflammation, which are alleviated through its anti-inflammatory and antioxidant properties. Astragalus membranaceus has been shown to improve insulin sensitivity and glucose metabolism, effectively managing diabetes. Hypertension is also addressed through the plant's vasodilatory effect, while its expectorant properties help to alleviate asthma symptoms. Additionally, Astragalus membranaceus has been found to exhibit anti-tumor and anti-proliferative activities, contributing to cancer prevention, and its high iron content helps to alleviate anemia. Furthermore, the plant has been used to treat cough, autoimmune disorders, digestive issues, immune system weakness, immune deficiency, cardiovascular disease, anxiety, weakened immune system, arthritis, bronchitis, respiratory infection, and gastrointestinal issues.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 21,
+            "confidence_score": 193,
+            "total_score": 4053
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 174,
+            "total_score": 3480
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 19,
+            "confidence_score": 159,
+            "total_score": 3021
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 20,
+            "confidence_score": 143,
+            "total_score": 2860
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 18,
+            "confidence_score": 132,
+            "total_score": 2376
+        },
+        {
+            "name": "antiviral",
+            "mentions": 19,
+            "confidence_score": 123,
+            "total_score": 2337
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 18,
+            "confidence_score": 112,
+            "total_score": 2016
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 14,
+            "confidence_score": 89,
+            "total_score": 1246
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 9,
+            "confidence_score": 54,
+            "total_score": 486
+        },
+        {
+            "name": "anticancer",
+            "mentions": 9,
+            "confidence_score": 44,
+            "total_score": 396
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "antioxidant enzyme inducer",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "analgesic",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "antifibrotic",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "anti-fatigue",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "antioxidant free radical scavenger",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "antifungal",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "free radical scavenging",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Astragalus membranaceus are its antioxidant effects, which are attributed to the presence of flavonoids and phenolic acids that neutralize free radicals and protect cells from oxidative damage. Astragalus membranaceus also exhibits anti-inflammatory properties, with saponins and polysaccharides contributing to the inhibition of pro-inflammatory cytokines and enzymes. Additionally, it has immunomodulatory effects, primarily due to the bioactive compounds astragalosides and polysaccharides, which modulate the immune system by enhancing its activity and regulating its response to pathogens. Astragalus membranaceus has been found to possess cardioprotective properties, with flavonoids and phenolic acids helping to reduce lipid peroxidation and improve cardiac function in animal models. Furthermore, its antimicrobial properties, attributed to the presence of saponins and volatile oils, have been shown to inhibit the growth of various microorganisms, including bacteria and fungi.",
+    "constituents": [
+        {
+            "name": "astragaloside iv",
+            "mentions": 40,
+            "confidence_score": 350,
+            "total_score": 14000
+        },
+        {
+            "name": "astragaloside ii",
+            "mentions": 18,
+            "confidence_score": 142,
+            "total_score": 2556
+        },
+        {
+            "name": "astragaloside vi",
+            "mentions": 18,
+            "confidence_score": 140,
+            "total_score": 2520
+        },
+        {
+            "name": "astragaloside iii",
+            "mentions": 18,
+            "confidence_score": 132,
+            "total_score": 2376
+        },
+        {
+            "name": "astragaloside viii",
+            "mentions": 12,
+            "confidence_score": 74,
+            "total_score": 888
+        },
+        {
+            "name": "saponins",
+            "mentions": 11,
+            "confidence_score": 63,
+            "total_score": 693
+        },
+        {
+            "name": "polysaccharides",
+            "mentions": 8,
+            "confidence_score": 59,
+            "total_score": 472
+        },
+        {
+            "name": "formononetin",
+            "mentions": 7,
+            "confidence_score": 53,
+            "total_score": 371
+        },
+        {
+            "name": "astragaloside ix",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 8,
+            "confidence_score": 45,
+            "total_score": 360
+        },
+        {
+            "name": "calycosin",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "astragaloside x",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "calcium",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "potassium",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "glycosides",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "oligosaccharides",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Astragalus membranaceus are astragalosides, specifically astragaloside IV, astragaloside II, astragaloside VI, astragaloside III, and astragaloside VIII, which have been shown to have anti-inflammatory, anti-oxidative, and immunomodulatory effects. Astragaloside IV has been demonstrated to inhibit TNF-\u03b1 and IL-1\u03b2 production, while astragaloside II has been found to improve cardiac function and reduce oxidative stress. Astragaloside VI has been reported to exhibit anti-inflammatory activity by inhibiting NF-\u03baB activation, and astragaloside III has been shown to have immunomodulatory effects by enhancing the activity of immune cells. Astragaloside VIII has been found to have antioxidant and anti-inflammatory properties, reducing oxidative stress and inflammation in various tissues. These constituents contribute to the medicinal properties of Astragalus membranaceus, including its use in traditional Chinese medicine for anti-aging, anti-fatigue, and immune-enhancing effects.",
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 12,
+            "confidence_score": 116,
+            "total_score": 1392
+        },
+        {
+            "name": "tincture",
+            "mentions": 13,
+            "confidence_score": 110,
+            "total_score": 1430
+        },
+        {
+            "name": "capsules",
+            "mentions": 13,
+            "confidence_score": 104,
+            "total_score": 1352
+        },
+        {
+            "name": "decoction",
+            "mentions": 10,
+            "confidence_score": 69,
+            "total_score": 690
+        },
+        {
+            "name": "astragalus tea",
+            "mentions": 7,
+            "confidence_score": 67,
+            "total_score": 469
+        },
+        {
+            "name": "infusion",
+            "mentions": 10,
+            "confidence_score": 62,
+            "total_score": 620
+        },
+        {
+            "name": "astragalus tincture",
+            "mentions": 7,
+            "confidence_score": 60,
+            "total_score": 420
+        },
+        {
+            "name": "astragalus extract",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "powder",
+            "mentions": 9,
+            "confidence_score": 40,
+            "total_score": 360
+        },
+        {
+            "name": "astragalus infusion",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "astragalus capsules",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "astragalus decoction",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "astragalus membranaceus extract",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "astragalus powder",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "suppositories",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "infused oil",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "ginseng astragalus syrup",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "glycerite",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "glycoside extract",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "dried root tea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Astragalus membranaceus are derived from its roots and used to enhance the immune system and adaptogenic properties. Astragalus membranaceus tea is prepared by steeping dried roots in hot water to extract its bioactive compounds and is used to boost energy and immune function. The tincture is a concentrated liquid extract of the roots in a solvent such as ethanol or glycerin, often used in traditional Chinese medicine to promote immune response and reduce inflammation. Capsules contain dried Astragalus membranaceus root powder, which can be standardized to contain a specific percentage of bioactive compounds such as astragaloside IV and polysaccharides. A decoction is a longer extraction process than tea, where the roots are boiled in water to release a higher concentration of bioactive compounds, and is often used to treat respiratory and cardiovascular conditions.",
+    "side_effects": [
+        {
+            "name": "exacerbate kidney disease",
+            "mentions": 8,
+            "confidence_score": 70,
+            "total_score": 560
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 9,
+            "confidence_score": 58,
+            "total_score": 522
+        },
+        {
+            "name": "interact with blood thinners",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "induce hypoglycemia",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "cause digestive issues",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "induce allergic reactions",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "worsen diabetes",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "exacerbate diarrhea",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "induce hypotension",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "increase bleeding risk",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "interact with warfarin",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "exacerbate kidney issues",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "exacerbate autoimmune disorders",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "disrupt thyroid function",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "aggravate kidney disease",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "impair immune function",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Astragalus membranaceus improperly include exacerbating kidney disease in individuals with pre-existing kidney conditions due to its potential to increase blood pressure and reduce urine production, triggering allergic reactions in some individuals who may be sensitive to its immunomodulatory effects, interacting with blood thinners such as warfarin by enhancing their anticoagulant activity and increasing the risk of bleeding, causing nausea and gastrointestinal discomfort in some individuals due to its potential to stimulate the digestive system, and further increasing blood pressure in individuals with hypertension due to its potential to stimulate the sympathetic nervous system. Astragalus membranaceus may also worsen symptoms in individuals with hypoglycemia or diabetes due to its potential to lower blood sugar levels. The improper use of Astragalus membranaceus may also lead to an imbalance in electrolytes and fluids in the body. This herb may also cause an imbalance in the immune system due to its immunomodulatory effects. The improper use of Astragalus membranaceus may also cause an imbalance in the thyroid function in some individuals."
+}

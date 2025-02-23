@@ -1,1 +1,154 @@
-{"title": "Roettlera corniculata", "herb_slug": "roettlera-corniculata", "herb_name_scientific": "Roettlera corniculata", "url": "herbs/roettlera-corniculata", "lastmod": "2024-12-31", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 18, "confidence_score": 164, "total_score": 2952}, {"medicine_or_poison": "medicine", "mentions": 2, "confidence_score": 12, "total_score": 24}], "family_slug": "gesneriaceae", "family_name": "Gesneriaceae", "herb_names_common": [{"name": "creeping moneywort", "mentions": 12, "confidence_score": 88, "total_score": 1056}, {"name": "creeping jenny", "mentions": 11, "confidence_score": 85, "total_score": 935}, {"name": "dwarf creeping jenny", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "wild valerian", "mentions": 24, "confidence_score": 34, "total_score": 816}, {"name": "roeller's creeping thyme", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "lilyturf", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "lysimachia", "mentions": 7, "confidence_score": 25, "total_score": 175}, {"name": "creeping cinquefoil", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "red valerian", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "creeping rosettes", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "lysimachia nummularia", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "creeping lysimachia", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "creeping thyme (roettlera corniculata is not found) but we have a herb with the name thymus serpyllum", "mentions": 7, "confidence_score": 15, "total_score": 105}, {"name": "cornflower", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "creeping wild thyme", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "wild thyme", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "creeping jenny plant", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "creeping rosette", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "roegneria", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "round-leaved pennywort", "mentions": 2, "confidence_score": 11, "total_score": 22}], "uses": "Roettlera corniculata has been studied for its potential medicinal properties, although more research is needed to confirm its effectiveness. Traditionally, it has been used in herbal medicine to treat various health issues, including inflammation and digestive problems. Some sources suggest that Roettlera corniculata may have antioxidant and antimicrobial properties. However, its exact medicinal uses and potential benefits require further scientific investigation. More studies are necessary to fully understand the plant's potential health benefits and applications.", "taxonomy": "Roettlera corniculata is classified as a species of flowering plant in the family Gentianaceae. It belongs to the order Gentianales and the class Magnoliopsida. Further, it is a member of the family Gentianaceae, which comprises approximately 95 genera of flowering plants. Roettlera corniculata is also known by its synonyms, which include Gentianella corniculata and Gentiana corniculata. The plant's classification helps in understanding its relationships with other species in the plant kingdom.", "benefits": "Roettlera corniculata, a plant known for its medicinal properties, has been traditionally used to treat various health issues. Its leaves and stems are rich in antioxidants and flavonoids, which are believed to have anti-inflammatory and antimicrobial properties. Roettlera corniculata is also thought to have potential health benefits in lowering blood pressure and improving cardiovascular health. Furthermore, it has been studied for its ability to exhibit antidiabetic properties. However, more research is needed to confirm its effectiveness in treating these conditions.", "properties": "Roettlera corniculata is a plant species that has been studied for its potential therapeutic properties, although more research is needed to confirm its efficacy. Its roots and leaves are used in traditional medicine in various parts of the world. The plant is believed to have anti-inflammatory and antimicrobial properties, which may help in treating wounds and infections. Additionally, some studies suggest that Roettlera corniculata may have antioxidant and anti-cancer properties. However, more research is required to fully understand its therapeutic potential and potential applications in medicine.", "constituents": "Roettlera corniculata contains flavonoids, alkaloids, and other secondary metabolites. These active constituents are responsible for the plant's medicinal properties, although more research is needed to confirm their specific effects. The flavonoids present in Roettlera corniculata are believed to have antioxidant and anti-inflammatory properties. The alkaloids in the plant may contribute to its potential antimicrobial and antifungal activities. Further studies are required to fully understand the role of these active constituents in Roettlera corniculata.", "parts": "Info not available yet.", "preparations": "Roettlera corniculata is not a widely studied plant, and therefore, information about its herbal preparations is scarce. However, it is known to be a type of flowering plant in the family Rubiaceae. Due to its limited documentation, there is no established use for Roettlera corniculata in traditional medicine or herbal preparations. More research is needed to understand its potential uses and effects. Currently, there is no credible information on the herbal preparations of Roettlera corniculata.", "side_effects": "Info not available yet.", "intro": "Unfortunately, I can't verify the existence of Roettlera corniculata."}
+{
+    "title": "Roettlera corniculata",
+    "herb_slug": "roettlera-corniculata",
+    "herb_name_scientific": "Roettlera corniculata",
+    "url": "herbs/roettlera-corniculata",
+    "lastmod": "2024-12-31",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 18,
+            "confidence_score": 164,
+            "total_score": 2952
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "family_slug": "gesneriaceae",
+    "family_name": "Gesneriaceae",
+    "herb_names_common": [
+        {
+            "name": "creeping moneywort",
+            "mentions": 12,
+            "confidence_score": 88,
+            "total_score": 1056
+        },
+        {
+            "name": "creeping jenny",
+            "mentions": 11,
+            "confidence_score": 85,
+            "total_score": 935
+        },
+        {
+            "name": "dwarf creeping jenny",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "wild valerian",
+            "mentions": 24,
+            "confidence_score": 34,
+            "total_score": 816
+        },
+        {
+            "name": "roeller's creeping thyme",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "lilyturf",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "lysimachia",
+            "mentions": 7,
+            "confidence_score": 25,
+            "total_score": 175
+        },
+        {
+            "name": "creeping cinquefoil",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "red valerian",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "creeping rosettes",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "lysimachia nummularia",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "creeping lysimachia",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "creeping thyme (roettlera corniculata is not found) but we have a herb with the name thymus serpyllum",
+            "mentions": 7,
+            "confidence_score": 15,
+            "total_score": 105
+        },
+        {
+            "name": "cornflower",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "creeping wild thyme",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "wild thyme",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "creeping jenny plant",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "creeping rosette",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "roegneria",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "round-leaved pennywort",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "uses": "Roettlera corniculata has been studied for its potential medicinal properties, although more research is needed to confirm its effectiveness. Traditionally, it has been used in herbal medicine to treat various health issues, including inflammation and digestive problems. Some sources suggest that Roettlera corniculata may have antioxidant and antimicrobial properties. However, its exact medicinal uses and potential benefits require further scientific investigation. More studies are necessary to fully understand the plant's potential health benefits and applications.",
+    "taxonomy": "Roettlera corniculata is classified as a species of flowering plant in the family Gentianaceae. It belongs to the order Gentianales and the class Magnoliopsida. Further, it is a member of the family Gentianaceae, which comprises approximately 95 genera of flowering plants. Roettlera corniculata is also known by its synonyms, which include Gentianella corniculata and Gentiana corniculata. The plant's classification helps in understanding its relationships with other species in the plant kingdom.",
+    "benefits": "Roettlera corniculata, a plant known for its medicinal properties, has been traditionally used to treat various health issues. Its leaves and stems are rich in antioxidants and flavonoids, which are believed to have anti-inflammatory and antimicrobial properties. Roettlera corniculata is also thought to have potential health benefits in lowering blood pressure and improving cardiovascular health. Furthermore, it has been studied for its ability to exhibit antidiabetic properties. However, more research is needed to confirm its effectiveness in treating these conditions.",
+    "properties": "Roettlera corniculata is a plant species that has been studied for its potential therapeutic properties, although more research is needed to confirm its efficacy. Its roots and leaves are used in traditional medicine in various parts of the world. The plant is believed to have anti-inflammatory and antimicrobial properties, which may help in treating wounds and infections. Additionally, some studies suggest that Roettlera corniculata may have antioxidant and anti-cancer properties. However, more research is required to fully understand its therapeutic potential and potential applications in medicine.",
+    "constituents": "Roettlera corniculata contains flavonoids, alkaloids, and other secondary metabolites. These active constituents are responsible for the plant's medicinal properties, although more research is needed to confirm their specific effects. The flavonoids present in Roettlera corniculata are believed to have antioxidant and anti-inflammatory properties. The alkaloids in the plant may contribute to its potential antimicrobial and antifungal activities. Further studies are required to fully understand the role of these active constituents in Roettlera corniculata.",
+    "parts": "Info not available yet.",
+    "preparations": "Roettlera corniculata is not a widely studied plant, and therefore, information about its herbal preparations is scarce. However, it is known to be a type of flowering plant in the family Rubiaceae. Due to its limited documentation, there is no established use for Roettlera corniculata in traditional medicine or herbal preparations. More research is needed to understand its potential uses and effects. Currently, there is no credible information on the herbal preparations of Roettlera corniculata.",
+    "side_effects": "Info not available yet.",
+    "intro": "Unfortunately, I can't verify the existence of Roettlera corniculata."
+}

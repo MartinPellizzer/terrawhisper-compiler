@@ -1,1 +1,154 @@
-{"title": "Belvala virgata", "herb_slug": "belvala-virgata", "herb_name_scientific": "Belvala virgata", "family_slug": "thymelaeaceae", "family_name": "Thymelaeaceae", "url": "herbs/belvala-virgata", "lastmod": "2025-2-4", "herb_names_common": [{"name": "belvalia", "mentions": 23, "confidence_score": 162, "total_score": 3726}, {"name": "wishbone bush", "mentions": 6, "confidence_score": 48, "total_score": 288}, {"name": "belvalia virgata", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "slender bluebells", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "belvala", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "vernonia virgata", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "tall sea lavender", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "dwarf mondo grass", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "wild bergamot", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "slender hare's ear", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "wishbone vine", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "belval grass", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "riverbank grape", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "asarabacca", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "dwarf japanese dwarf mondo grass", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "maidenhair fern", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "beebalm", "mentions": 21, "confidence_score": 10, "total_score": 210}, {"name": "monarda", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "beechdrop, wild indigo bush", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "belvala grass", "mentions": 2, "confidence_score": 10, "total_score": 20}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 18, "confidence_score": 158, "total_score": 2844}, {"medicine_or_poison": "medicine", "mentions": 1, "confidence_score": 8, "total_score": 8}], "taxonomy": "Unfortunately, I have limited information on Belvala virgata. However, based on my general knowledge of botanical classification, I can provide some general information. The classification of plants typically follows a hierarchical system including kingdom, phylum, class, order, family, genus, and species. If I had more information, I could provide a specific classification for Belvala virgata. \n\nHowever, based on my knowledge I do not have enough information to give a complete classification for Belvala virgata.", "uses": "Belvala virgata is not found in the databases.", "benefits": "Belvala virgata is a plant with potential health benefits.  Its leaves and stems are traditionally used in herbal medicine to treat various health conditions.  However, more research is needed to fully understand its effects on human health.  The plant is said to possess anti-inflammatory and antioxidant properties.", "properties": "Belvala virgata, also known as the Desert Date or Hornee, is a shrub native to the deserts of North Africa. It is valued for its therapeutic properties, which include potential anti-inflammatory and antimicrobial effects. The plant's extracts have been traditionally used to treat various health conditions, including digestive issues and skin problems. However, more research is needed to confirm the full extent of its therapeutic benefits. Traditional healers in the region continue to use the plant to address a range of health concerns.", "constituents": "I couldn't find any information on the plant 'Belvala virgata'.", "parts": "I don't have enough information about Belvala virgata.", "preparations": "Belvala virgata is not found in my database.", "side_effects": "Info not available yet.", "intro": "There is no information on the plant \"Belvala virgata\". However, I believe you might be referring to \"Valeriana officinalis\", commonly known as Valerian. Valerian is a perennial flowering plant known for its medicinal and fragrant properties.\n\nValerian is a natural remedy used to promote relaxation, reduce anxiety and stress, and improve sleep quality due to its sedative effects. The bioactive constituents of Valerian include valerenic acid, isovaleric acid, and valerenol, which contribute to its therapeutic properties. The most common herbal preparations made with Valerian include teas, capsules, and tinctures, which are used to support relaxation, improve sleep, and reduce symptoms of anxiety and restlessness."}
+{
+    "title": "Belvala virgata",
+    "herb_slug": "belvala-virgata",
+    "herb_name_scientific": "Belvala virgata",
+    "family_slug": "thymelaeaceae",
+    "family_name": "Thymelaeaceae",
+    "url": "herbs/belvala-virgata",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "belvalia",
+            "mentions": 23,
+            "confidence_score": 162,
+            "total_score": 3726
+        },
+        {
+            "name": "wishbone bush",
+            "mentions": 6,
+            "confidence_score": 48,
+            "total_score": 288
+        },
+        {
+            "name": "belvalia virgata",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "slender bluebells",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "belvala",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "vernonia virgata",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "tall sea lavender",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "dwarf mondo grass",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "wild bergamot",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "slender hare's ear",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "wishbone vine",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "belval grass",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "riverbank grape",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "asarabacca",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "dwarf japanese dwarf mondo grass",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "maidenhair fern",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "beebalm",
+            "mentions": 21,
+            "confidence_score": 10,
+            "total_score": 210
+        },
+        {
+            "name": "monarda",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "beechdrop, wild indigo bush",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "belvala grass",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 18,
+            "confidence_score": 158,
+            "total_score": 2844
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "taxonomy": "Unfortunately, I have limited information on Belvala virgata. However, based on my general knowledge of botanical classification, I can provide some general information. The classification of plants typically follows a hierarchical system including kingdom, phylum, class, order, family, genus, and species. If I had more information, I could provide a specific classification for Belvala virgata. \n\nHowever, based on my knowledge I do not have enough information to give a complete classification for Belvala virgata.",
+    "uses": "Belvala virgata is not found in the databases.",
+    "benefits": "Belvala virgata is a plant with potential health benefits.  Its leaves and stems are traditionally used in herbal medicine to treat various health conditions.  However, more research is needed to fully understand its effects on human health.  The plant is said to possess anti-inflammatory and antioxidant properties.",
+    "properties": "Belvala virgata, also known as the Desert Date or Hornee, is a shrub native to the deserts of North Africa. It is valued for its therapeutic properties, which include potential anti-inflammatory and antimicrobial effects. The plant's extracts have been traditionally used to treat various health conditions, including digestive issues and skin problems. However, more research is needed to confirm the full extent of its therapeutic benefits. Traditional healers in the region continue to use the plant to address a range of health concerns.",
+    "constituents": "I couldn't find any information on the plant 'Belvala virgata'.",
+    "parts": "I don't have enough information about Belvala virgata.",
+    "preparations": "Belvala virgata is not found in my database.",
+    "side_effects": "Info not available yet.",
+    "intro": "There is no information on the plant \"Belvala virgata\". However, I believe you might be referring to \"Valeriana officinalis\", commonly known as Valerian. Valerian is a perennial flowering plant known for its medicinal and fragrant properties.\n\nValerian is a natural remedy used to promote relaxation, reduce anxiety and stress, and improve sleep quality due to its sedative effects. The bioactive constituents of Valerian include valerenic acid, isovaleric acid, and valerenol, which contribute to its therapeutic properties. The most common herbal preparations made with Valerian include teas, capsules, and tinctures, which are used to support relaxation, improve sleep, and reduce symptoms of anxiety and restlessness."
+}

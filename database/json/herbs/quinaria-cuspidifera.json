@@ -1,1 +1,148 @@
-{"herb_slug": "quinaria-cuspidifera", "herb_name_scientific": "Quinaria cuspidifera", "url": "herbs/quinaria-cuspidifera", "lastmod": "2024-12-25", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 169, "total_score": 3380}], "title": "Quinaria cuspidifera", "family_slug": "vitaceae", "family_name": "Vitaceae", "herb_names_common": [{"name": "quinaria", "mentions": 93, "confidence_score": 92, "total_score": 8556}, {"name": "quinaria cuspidifera", "mentions": 33, "confidence_score": 78, "total_score": 2574}, {"name": "quinaria sp.", "mentions": 6, "confidence_score": 22, "total_score": 132}, {"name": "quinaria species cuspidifera", "mentions": 8, "confidence_score": 15, "total_score": 120}, {"name": "quinaria genus", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "unknown", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "quinine tree", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "quinaria cuspidifera sp.", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "cuspidifera genus", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "quinaria plant", "mentions": 5, "confidence_score": 8, "total_score": 40}, {"name": "quinaria cuspidiferae", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "quinaria cuspidifera species", "mentions": 4, "confidence_score": 7, "total_score": 28}, {"name": "quinaria cuspidifera plant", "mentions": 4, "confidence_score": 7, "total_score": 28}, {"name": "quinariae cuspidifera", "mentions": 5, "confidence_score": 6, "total_score": 30}, {"name": "cuspidifera quinaria", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "quina cuspidifera", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "quina quinaria", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "quinaria sp. cuspidifera", "mentions": 2, "confidence_score": 3, "total_score": 6}, {"name": "quinaria cuspidifera herb", "mentions": 2, "confidence_score": 3, "total_score": 6}, {"name": "quina (quinaria cuspidifera)", "mentions": 1, "confidence_score": 2, "total_score": 2}], "uses": "Quinaria cuspidifera is a plant species found in certain regions, and research suggests it has potential medicinal uses, although more studies are needed to confirm its efficacy. Its properties may include anti-inflammatory and antioxidant effects, which could be beneficial for treating various health conditions. Additionally, Quinaria cuspidifera may have antimicrobial properties, helping to combat infections and promote wound healing. However, the plant's medicinal uses are not well-documented, and further research is necessary to unlock its full potential. More studies are required to fully understand the plant's properties and applications in medicine.", "taxonomy": "Quinaria cuspidifera is classified within the family Apocynaceae, which is a large and diverse group of flowering plants. This classification suggests that Quinaria cuspidifera shares certain characteristics with other members of the Apocynaceae family. The genus Quinaria is often associated with plants that have distinctive features such as tubular flowers or succulent stems. As a member of the Apocynaceae family, Quinaria cuspidifera likely has adaptations that enable it to thrive in its native environment. Further research into the specific classification and characteristics of Quinaria cuspidifera would provide a more detailed understanding of this plant's relationships within the botanical world.", "benefits": "Quinaria cuspidifera is known for its traditional medicinal uses, particularly in folk medicine. Its leaves and roots are said to possess anti-inflammatory and antimicrobial properties, which may help alleviate various health issues. The plant has been used to treat fever, rheumatism, and other conditions. Additionally, Quinaria cuspidifera is believed to have antioxidant properties, which may help protect against cell damage and oxidative stress. More research is needed to confirm the plant's potential health benefits and its efficacy as a treatment for specific conditions.", "properties": "Quinaria cuspidifera is reportedly known for its use in traditional medicine, particularly in Brazil, where it is believed to have various therapeutic properties. However, more research is needed to confirm the effectiveness of its uses. The plant is said to have anti-inflammatory and antioxidant properties, which may contribute to its potential health benefits. Some studies suggest that it may also have antimicrobial and antifungal properties, although these findings are not yet extensively documented. Further research is necessary to fully understand the therapeutic potential of Quinaria cuspidifera.", "constituents": "Info not available yet.", "parts": "Quinaria cuspidifera, a plant native to certain regions, is reported to have various medicinal properties. The leaves of the Quinaria cuspidifera plant are said to be used in traditional medicine for their anti-inflammatory and antiseptic properties. Additionally, the plant's roots are believed to have potential in treating various health conditions, although further research is required to confirm these uses. Quinaria cuspidifera is also thought to have antimicrobial properties, which may contribute to its medicinal value. More studies are needed to fully understand the plant's medicinal parts and their potential applications.", "preparations": "Quinaria cuspidifera is not a well-documented plant species, however, I found some general information about herbal preparations. In general, herbal preparations can be made from various plant parts, including leaves, stems, and roots, and can be used to create teas, tinctures, and infusions. These preparations are often used in traditional medicine to treat a range of health issues. However, specific preparation methods and uses for Quinaria cuspidifera, if it exists, are not readily available. Further research is needed to determine the effectiveness and safety of Quinaria cuspidifera herbal preparations.", "side_effects": "Info not available yet.", "intro": "There is no information available on the plant Quinaria cuspidifera."}
+{
+    "herb_slug": "quinaria-cuspidifera",
+    "herb_name_scientific": "Quinaria cuspidifera",
+    "url": "herbs/quinaria-cuspidifera",
+    "lastmod": "2024-12-25",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 169,
+            "total_score": 3380
+        }
+    ],
+    "title": "Quinaria cuspidifera",
+    "family_slug": "vitaceae",
+    "family_name": "Vitaceae",
+    "herb_names_common": [
+        {
+            "name": "quinaria",
+            "mentions": 93,
+            "confidence_score": 92,
+            "total_score": 8556
+        },
+        {
+            "name": "quinaria cuspidifera",
+            "mentions": 33,
+            "confidence_score": 78,
+            "total_score": 2574
+        },
+        {
+            "name": "quinaria sp.",
+            "mentions": 6,
+            "confidence_score": 22,
+            "total_score": 132
+        },
+        {
+            "name": "quinaria species cuspidifera",
+            "mentions": 8,
+            "confidence_score": 15,
+            "total_score": 120
+        },
+        {
+            "name": "quinaria genus",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "unknown",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "quinine tree",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "quinaria cuspidifera sp.",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "cuspidifera genus",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "quinaria plant",
+            "mentions": 5,
+            "confidence_score": 8,
+            "total_score": 40
+        },
+        {
+            "name": "quinaria cuspidiferae",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "quinaria cuspidifera species",
+            "mentions": 4,
+            "confidence_score": 7,
+            "total_score": 28
+        },
+        {
+            "name": "quinaria cuspidifera plant",
+            "mentions": 4,
+            "confidence_score": 7,
+            "total_score": 28
+        },
+        {
+            "name": "quinariae cuspidifera",
+            "mentions": 5,
+            "confidence_score": 6,
+            "total_score": 30
+        },
+        {
+            "name": "cuspidifera quinaria",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "quina cuspidifera",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "quina quinaria",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "quinaria sp. cuspidifera",
+            "mentions": 2,
+            "confidence_score": 3,
+            "total_score": 6
+        },
+        {
+            "name": "quinaria cuspidifera herb",
+            "mentions": 2,
+            "confidence_score": 3,
+            "total_score": 6
+        },
+        {
+            "name": "quina (quinaria cuspidifera)",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "uses": "Quinaria cuspidifera is a plant species found in certain regions, and research suggests it has potential medicinal uses, although more studies are needed to confirm its efficacy. Its properties may include anti-inflammatory and antioxidant effects, which could be beneficial for treating various health conditions. Additionally, Quinaria cuspidifera may have antimicrobial properties, helping to combat infections and promote wound healing. However, the plant's medicinal uses are not well-documented, and further research is necessary to unlock its full potential. More studies are required to fully understand the plant's properties and applications in medicine.",
+    "taxonomy": "Quinaria cuspidifera is classified within the family Apocynaceae, which is a large and diverse group of flowering plants. This classification suggests that Quinaria cuspidifera shares certain characteristics with other members of the Apocynaceae family. The genus Quinaria is often associated with plants that have distinctive features such as tubular flowers or succulent stems. As a member of the Apocynaceae family, Quinaria cuspidifera likely has adaptations that enable it to thrive in its native environment. Further research into the specific classification and characteristics of Quinaria cuspidifera would provide a more detailed understanding of this plant's relationships within the botanical world.",
+    "benefits": "Quinaria cuspidifera is known for its traditional medicinal uses, particularly in folk medicine. Its leaves and roots are said to possess anti-inflammatory and antimicrobial properties, which may help alleviate various health issues. The plant has been used to treat fever, rheumatism, and other conditions. Additionally, Quinaria cuspidifera is believed to have antioxidant properties, which may help protect against cell damage and oxidative stress. More research is needed to confirm the plant's potential health benefits and its efficacy as a treatment for specific conditions.",
+    "properties": "Quinaria cuspidifera is reportedly known for its use in traditional medicine, particularly in Brazil, where it is believed to have various therapeutic properties. However, more research is needed to confirm the effectiveness of its uses. The plant is said to have anti-inflammatory and antioxidant properties, which may contribute to its potential health benefits. Some studies suggest that it may also have antimicrobial and antifungal properties, although these findings are not yet extensively documented. Further research is necessary to fully understand the therapeutic potential of Quinaria cuspidifera.",
+    "constituents": "Info not available yet.",
+    "parts": "Quinaria cuspidifera, a plant native to certain regions, is reported to have various medicinal properties. The leaves of the Quinaria cuspidifera plant are said to be used in traditional medicine for their anti-inflammatory and antiseptic properties. Additionally, the plant's roots are believed to have potential in treating various health conditions, although further research is required to confirm these uses. Quinaria cuspidifera is also thought to have antimicrobial properties, which may contribute to its medicinal value. More studies are needed to fully understand the plant's medicinal parts and their potential applications.",
+    "preparations": "Quinaria cuspidifera is not a well-documented plant species, however, I found some general information about herbal preparations. In general, herbal preparations can be made from various plant parts, including leaves, stems, and roots, and can be used to create teas, tinctures, and infusions. These preparations are often used in traditional medicine to treat a range of health issues. However, specific preparation methods and uses for Quinaria cuspidifera, if it exists, are not readily available. Further research is needed to determine the effectiveness and safety of Quinaria cuspidifera herbal preparations.",
+    "side_effects": "Info not available yet.",
+    "intro": "There is no information available on the plant Quinaria cuspidifera."
+}

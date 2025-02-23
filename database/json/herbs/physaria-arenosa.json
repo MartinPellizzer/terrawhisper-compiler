@@ -1,1 +1,761 @@
-{"title": "Physaria arenosa", "herb_slug": "physaria-arenosa", "herb_name_scientific": "Physaria arenosa", "family_slug": "brassicaceae", "family_name": "Brassicaceae", "url": "herbs/physaria-arenosa", "lastmod": "2025-1-24", "herb_names_common": [{"name": "sand bladderpod", "mentions": 30, "confidence_score": 209, "total_score": 6270}, {"name": "sand bladder pod", "mentions": 10, "confidence_score": 71, "total_score": 710}, {"name": "sand physaria", "mentions": 9, "confidence_score": 59, "total_score": 531}, {"name": "dune bladderpod", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "sand bladderpod (physaria arenosa)", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "rocky mountain bladderpod", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "sand bloom", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "rock twinflower", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "sand blisterpod", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "sand bladder cress", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "sandpocket", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "sand pocket plant", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "sandbladder pod", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "sand twinpod", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "sand phlox", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "sand bladder pod (physaria arenosa)", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "blister pod", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "sandpocket gumweed", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "sand bloom (physaria arenosa)", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "sand bladdercress (physaria arenosa)", "mentions": 5, "confidence_score": 10, "total_score": 50}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 158, "total_score": 3160}], "what_description": "Physaria arenosa is an annual or perennial herbaceous plant belonging to the family Brassicaceae. It has simple, alternate leaves that are linear to lanceolate in shape, measuring 2-15 cm in length, and are often glabrous or hairy. The plant produces white to pinkish flowers in a raceme, with 4-petaled sepals and 4-petaled petals, and measures 2-6 mm in diameter. The flowers are self-pollinating and are usually borne in late spring to early summer. The plant's stems are usually erect, glabrous or hairy, and measure 2-30 cm in height.", "category_action": "anti-inflammatory", "ailments": [{"name": "inflammation", "mentions": 18, "confidence_score": 148, "total_score": 2664}, {"name": "diabetes", "mentions": 12, "confidence_score": 87, "total_score": 1044}, {"name": "digestive issues", "mentions": 10, "confidence_score": 74, "total_score": 740}, {"name": "hypertension", "mentions": 10, "confidence_score": 73, "total_score": 730}, {"name": "cancer", "mentions": 12, "confidence_score": 72, "total_score": 864}, {"name": "arthritis", "mentions": 9, "confidence_score": 68, "total_score": 612}, {"name": "wound healing", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "cardiovascular disease", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "antioxidant properties", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "gastrointestinal issues", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "asthma", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "gastritis", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "skin irritation", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "antimicrobial infections", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "fever reduction", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "gout", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "skin conditions", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "antifungal infections", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "bacterial infections", "mentions": 2, "confidence_score": 17, "total_score": 34}], "ailments_description": "The most common ailments you can heal with Physaria arenosa are inflammation and diabetes, which can be alleviated by its anti-inflammatory compounds and insulin-like properties. Additionally, Physaria arenosa has been proven to have a positive effect on digestive issues, such as constipation and diarrhea, due to its saponins and glycosides. Furthermore, its flavonoids have been shown to reduce hypertension by dilating blood vessels and improving cardiovascular health, while also exhibiting antitumor properties against cancer cells. Moreover, Physaria arenosa has been found to have wound healing properties, accelerate tissue repair, and exhibit antioxidant properties, which can help combat gastrointestinal issues and asthma. Its antimicrobial compounds have also been effective in treating antimicrobial infections, fever reduction, and antifungal infections, as well as bacterial infections, skin irritation, gastritis, gout, skin conditions, gastroenteritis, and cardiovascular disease.", "properties": [{"name": "antioxidant", "mentions": 21, "confidence_score": 154, "total_score": 3234}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 131, "total_score": 2620}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 129, "total_score": 2580}, {"name": "antifungal", "mentions": 11, "confidence_score": 64, "total_score": 704}, {"name": "analgesic", "mentions": 16, "confidence_score": 63, "total_score": 1008}, {"name": "cardioprotective", "mentions": 13, "confidence_score": 54, "total_score": 702}, {"name": "anticancer", "mentions": 11, "confidence_score": 38, "total_score": 418}, {"name": "antibacterial", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "antiviral", "mentions": 11, "confidence_score": 33, "total_score": 363}, {"name": "antiproliferative", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "cytotoxic", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "neuroprotective", "mentions": 8, "confidence_score": 27, "total_score": 216}, {"name": "hepatoprotective", "mentions": 6, "confidence_score": 21, "total_score": 126}, {"name": "antidiabetic", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "cytoprotective", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "antiseptic", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "hypotensive", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "anti-diarrheal", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "antioxidant (lipid peroxidation inhibition)", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "expectorant", "mentions": 1, "confidence_score": 9, "total_score": 9}], "properties_description": "The main therapeutic properties of Physaria arenosa are its antioxidant activity, which is attributed to the presence of flavonoids, that protect the body from oxidative stress caused by free radicals. Additionally, this plant exhibits antimicrobial properties, thanks to the saponins present in its composition, which inhibit the growth of various microorganisms, including bacteria and fungi. Its anti-inflammatory properties are also noteworthy, as the volatile oils in Physaria arenosa have been shown to reduce inflammation and alleviate pain. Furthermore, the plant has been found to exhibit antifungal properties, as the bioactive compounds in its composition inhibit the growth of certain fungal species. The analgesic properties of Physaria arenosa are also significant, as the alkaloids present in the plant have been found to possess pain-relieving properties.", "constituents": [{"name": "saponins", "mentions": 17, "confidence_score": 126, "total_score": 2142}, {"name": "flavonoids", "mentions": 17, "confidence_score": 113, "total_score": 1921}, {"name": "phenolic acids", "mentions": 16, "confidence_score": 99, "total_score": 1584}, {"name": "physalin", "mentions": 7, "confidence_score": 64, "total_score": 448}, {"name": "phenylethanoid glycosides", "mentions": 17, "confidence_score": 62, "total_score": 1054}, {"name": "alkaloids", "mentions": 14, "confidence_score": 60, "total_score": 840}, {"name": "coumarins", "mentions": 14, "confidence_score": 48, "total_score": 672}, {"name": "cardenolides", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "physalin b", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "terpenoids", "mentions": 7, "confidence_score": 32, "total_score": 224}, {"name": "physalin c", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "triterpenoids", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "physalin e", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "sterols", "mentions": 6, "confidence_score": 23, "total_score": 138}, {"name": "physalin d", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "physalin f", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "cardiac glycosides", "mentions": 7, "confidence_score": 18, "total_score": 126}, {"name": "physalin a", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "physalin g", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "anthocyanins", "mentions": 3, "confidence_score": 16, "total_score": 48}], "constituents_description": "The most important healing constituents of Physaria arenosa are saponins, flavonoids, phenolic acids, physalin, and phenylethanoid glycosides, which contribute to its medicinal properties. Saponins exhibit anti-inflammatory and antimicrobial activities, while flavonoids display antioxidant and anti-inflammatory effects. Phenolic acids, such as caffeic acid and ferulic acid, have been shown to possess antioxidant and anti-inflammatory activities. Physalin, a triterpenoid glycoside, has been found to inhibit the growth of cancer cells and exhibit anti-inflammatory properties. Phenylethanoid glycosides have been demonstrated to possess antioxidant and anti-inflammatory effects, highlighting the significance of these compounds in the healing properties of Physaria arenosa.", "preparations": [{"name": "tincture", "mentions": 18, "confidence_score": 143, "total_score": 2574}, {"name": "tea", "mentions": 17, "confidence_score": 118, "total_score": 2006}, {"name": "salve", "mentions": 18, "confidence_score": 99, "total_score": 1782}, {"name": "infusion", "mentions": 13, "confidence_score": 99, "total_score": 1287}, {"name": "infused oil", "mentions": 11, "confidence_score": 70, "total_score": 770}, {"name": "decoction", "mentions": 10, "confidence_score": 41, "total_score": 410}, {"name": "physaria arenosa tea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "physaria arenosa infusion", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "powder", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "physaria arenosa tincture", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "physaria arenosa salve", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "physaria arenosa capsules", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "physaria arenosa extract", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "physaria arenosa oil", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "infused vinegar", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "ointment", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "extract", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "poultice", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "physaria arenosa poultice", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "resin", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Physaria arenosa are tincture, tea, salve, infusion, and infused oil, which are derived from its roots and leaves. A tincture is a concentrated liquid extract prepared with a solvent, typically ethanol or glycerin, to preserve and concentrate the plant's bioactive compounds. Herbal tea is made by infusing the plant's dried leaves and roots in hot water, while a salve is a topical preparation of infused oil and wax that provides localized relief. Infusion is a liquid extract made by steeping the plant's parts in cold water, and infused oil is a topical oil extracted from the plant's roots and leaves using a carrier oil like coconut or olive oil. These preparations are used to harness the plant's potential therapeutic properties, including antioxidant, anti-inflammatory, and antimicrobial activities.", "side_effects": [{"name": "cause diarrhea", "mentions": 6, "confidence_score": 49, "total_score": 294}, {"name": "experiences nausea", "mentions": 5, "confidence_score": 45, "total_score": 225}, {"name": "induce nausea", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "experience nausea", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "induce vomiting", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "interact with medications", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "develops diarrhea", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "develop allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "exacerbate allergies", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "developing diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause skin irritation", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "suffer hypotension", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "induce kidney damage", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "elevate blood pressure", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "suffers kidney damage", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "trigger allergic reaction", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "cause dizziness", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "increase blood pressure", "mentions": 2, "confidence_score": 14, "total_score": 28}], "side_effects_description": "The possible side effects of using Physaria arenosa improperly include causing diarrhea due to the plant's high concentration of toxic compounds, such as cardenolides, which can disrupt gut motility and lead to gastrointestinal disturbances. These toxic compounds can also induce nausea and vomiting in individuals, particularly when ingested in large quantities or by people with pre-existing sensitivities. Furthermore, the plant's toxic properties can lead to nausea, as the body attempts to expel the toxic substances through the gastrointestinal tract. The gastrointestinal irritation caused by Physaria arenosa can also lead to nausea and vomiting, resulting in dehydration and electrolyte imbalances if left untreated. These adverse effects are primarily due to the plant's toxic glycosides, which can cause severe gastrointestinal symptoms when ingested improperly.", "uses": "Physaria arenosa is known for its potential medicinal properties. Physaria arenosa, also known as sand blayia, contains compounds that may have anti-inflammatory and antioxidant effects. Its roots and leaves are traditionally used in herbal medicine to treat various ailments, including skin conditions and respiratory issues. Further research is needed to confirm the efficacy and safety of Physaria arenosa as a medicinal plant. Some studies suggest that it may have antimicrobial properties, which could aid in wound healing.", "taxonomy": "Physaria arenosa is classified as a species within the genus Physaria, which is a group of flowering plants in the family Brassicaceae. This family includes various types of mustards, cabbages, and other related plants. The genus Physaria is typically found in the western United States and Mexico. The classification of Physaria arenosa is further detailed at the species level, where it is often referred to by its binomial nomenclature. Physaria arenosa is also sometimes classified as a rare or endangered species due to its limited geographical range.", "benefits": "Physaria arenosa, also known as sand lily, is a flowering plant that offers potential health benefits due to its antioxidant and anti-inflammatory properties. Its extracts have been studied for their ability to protect against cell damage and oxidative stress. The plant's flavonoids and other compounds may help to reduce inflammation and improve cardiovascular health. However, more research is needed to fully understand the health benefits of Physaria arenosa. Its potential uses in traditional medicine have been documented in some cultures, where it is used to treat various ailments.", "parts": "Physaria arenosa, commonly known as sand honeysuckle or yellow sand bluffs, is a species of flowering plant. The medicinal parts of Physaria arenosa are not well-documented, but the plant is used in traditional medicine by some Native American tribes. However, there is limited scientific evidence to support its medicinal uses. Further research is needed to confirm the efficacy of any potential medicinal properties. Physaria arenosa is also used as an ornamental plant in some regions.", "intro": "Physaria arenosa, also known as sand blom or sand rock cress, is a small, annual plant belonging to the Brassicaceae family. The plant has been traditionally used for its medicinal properties, with reported health benefits including anti-inflammatory and antimicrobial effects, which may aid in treating various skin conditions, such as eczema and acne. The bioactive constituents of Physaria arenosa include isothiocyanates, glucosinolates, and other compounds that contribute to its medicinal properties. Physaria arenosa is commonly used in herbal preparations, including teas, infusions, and tinctures, which are used to support skin health and reduce inflammation."}
+{
+    "title": "Physaria arenosa",
+    "herb_slug": "physaria-arenosa",
+    "herb_name_scientific": "Physaria arenosa",
+    "family_slug": "brassicaceae",
+    "family_name": "Brassicaceae",
+    "url": "herbs/physaria-arenosa",
+    "lastmod": "2025-1-24",
+    "herb_names_common": [
+        {
+            "name": "sand bladderpod",
+            "mentions": 30,
+            "confidence_score": 209,
+            "total_score": 6270
+        },
+        {
+            "name": "sand bladder pod",
+            "mentions": 10,
+            "confidence_score": 71,
+            "total_score": 710
+        },
+        {
+            "name": "sand physaria",
+            "mentions": 9,
+            "confidence_score": 59,
+            "total_score": 531
+        },
+        {
+            "name": "dune bladderpod",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "sand bladderpod (physaria arenosa)",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "rocky mountain bladderpod",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "sand bloom",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "rock twinflower",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "sand blisterpod",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "sand bladder cress",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "sandpocket",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "sand pocket plant",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "sandbladder pod",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "sand twinpod",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "sand phlox",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "sand bladder pod (physaria arenosa)",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "blister pod",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "sandpocket gumweed",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "sand bloom (physaria arenosa)",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "sand bladdercress (physaria arenosa)",
+            "mentions": 5,
+            "confidence_score": 10,
+            "total_score": 50
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 158,
+            "total_score": 3160
+        }
+    ],
+    "what_description": "Physaria arenosa is an annual or perennial herbaceous plant belonging to the family Brassicaceae. It has simple, alternate leaves that are linear to lanceolate in shape, measuring 2-15 cm in length, and are often glabrous or hairy. The plant produces white to pinkish flowers in a raceme, with 4-petaled sepals and 4-petaled petals, and measures 2-6 mm in diameter. The flowers are self-pollinating and are usually borne in late spring to early summer. The plant's stems are usually erect, glabrous or hairy, and measure 2-30 cm in height.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 18,
+            "confidence_score": 148,
+            "total_score": 2664
+        },
+        {
+            "name": "diabetes",
+            "mentions": 12,
+            "confidence_score": 87,
+            "total_score": 1044
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 10,
+            "confidence_score": 74,
+            "total_score": 740
+        },
+        {
+            "name": "hypertension",
+            "mentions": 10,
+            "confidence_score": 73,
+            "total_score": 730
+        },
+        {
+            "name": "cancer",
+            "mentions": 12,
+            "confidence_score": 72,
+            "total_score": 864
+        },
+        {
+            "name": "arthritis",
+            "mentions": 9,
+            "confidence_score": 68,
+            "total_score": 612
+        },
+        {
+            "name": "wound healing",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "antioxidant properties",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "gastrointestinal issues",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "asthma",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "gastritis",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "antimicrobial infections",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "fever reduction",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "gout",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "antifungal infections",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "bacterial infections",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Physaria arenosa are inflammation and diabetes, which can be alleviated by its anti-inflammatory compounds and insulin-like properties. Additionally, Physaria arenosa has been proven to have a positive effect on digestive issues, such as constipation and diarrhea, due to its saponins and glycosides. Furthermore, its flavonoids have been shown to reduce hypertension by dilating blood vessels and improving cardiovascular health, while also exhibiting antitumor properties against cancer cells. Moreover, Physaria arenosa has been found to have wound healing properties, accelerate tissue repair, and exhibit antioxidant properties, which can help combat gastrointestinal issues and asthma. Its antimicrobial compounds have also been effective in treating antimicrobial infections, fever reduction, and antifungal infections, as well as bacterial infections, skin irritation, gastritis, gout, skin conditions, gastroenteritis, and cardiovascular disease.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 21,
+            "confidence_score": 154,
+            "total_score": 3234
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 131,
+            "total_score": 2620
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 129,
+            "total_score": 2580
+        },
+        {
+            "name": "antifungal",
+            "mentions": 11,
+            "confidence_score": 64,
+            "total_score": 704
+        },
+        {
+            "name": "analgesic",
+            "mentions": 16,
+            "confidence_score": 63,
+            "total_score": 1008
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 13,
+            "confidence_score": 54,
+            "total_score": 702
+        },
+        {
+            "name": "anticancer",
+            "mentions": 11,
+            "confidence_score": 38,
+            "total_score": 418
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "antiviral",
+            "mentions": 11,
+            "confidence_score": 33,
+            "total_score": 363
+        },
+        {
+            "name": "antiproliferative",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 8,
+            "confidence_score": 27,
+            "total_score": 216
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 6,
+            "confidence_score": 21,
+            "total_score": 126
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "anti-diarrheal",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "antioxidant (lipid peroxidation inhibition)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "expectorant",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Physaria arenosa are its antioxidant activity, which is attributed to the presence of flavonoids, that protect the body from oxidative stress caused by free radicals. Additionally, this plant exhibits antimicrobial properties, thanks to the saponins present in its composition, which inhibit the growth of various microorganisms, including bacteria and fungi. Its anti-inflammatory properties are also noteworthy, as the volatile oils in Physaria arenosa have been shown to reduce inflammation and alleviate pain. Furthermore, the plant has been found to exhibit antifungal properties, as the bioactive compounds in its composition inhibit the growth of certain fungal species. The analgesic properties of Physaria arenosa are also significant, as the alkaloids present in the plant have been found to possess pain-relieving properties.",
+    "constituents": [
+        {
+            "name": "saponins",
+            "mentions": 17,
+            "confidence_score": 126,
+            "total_score": 2142
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 17,
+            "confidence_score": 113,
+            "total_score": 1921
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 16,
+            "confidence_score": 99,
+            "total_score": 1584
+        },
+        {
+            "name": "physalin",
+            "mentions": 7,
+            "confidence_score": 64,
+            "total_score": 448
+        },
+        {
+            "name": "phenylethanoid glycosides",
+            "mentions": 17,
+            "confidence_score": 62,
+            "total_score": 1054
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 14,
+            "confidence_score": 60,
+            "total_score": 840
+        },
+        {
+            "name": "coumarins",
+            "mentions": 14,
+            "confidence_score": 48,
+            "total_score": 672
+        },
+        {
+            "name": "cardenolides",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "physalin b",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 7,
+            "confidence_score": 32,
+            "total_score": 224
+        },
+        {
+            "name": "physalin c",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "physalin e",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "sterols",
+            "mentions": 6,
+            "confidence_score": 23,
+            "total_score": 138
+        },
+        {
+            "name": "physalin d",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "physalin f",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "cardiac glycosides",
+            "mentions": 7,
+            "confidence_score": 18,
+            "total_score": 126
+        },
+        {
+            "name": "physalin a",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "physalin g",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "anthocyanins",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Physaria arenosa are saponins, flavonoids, phenolic acids, physalin, and phenylethanoid glycosides, which contribute to its medicinal properties. Saponins exhibit anti-inflammatory and antimicrobial activities, while flavonoids display antioxidant and anti-inflammatory effects. Phenolic acids, such as caffeic acid and ferulic acid, have been shown to possess antioxidant and anti-inflammatory activities. Physalin, a triterpenoid glycoside, has been found to inhibit the growth of cancer cells and exhibit anti-inflammatory properties. Phenylethanoid glycosides have been demonstrated to possess antioxidant and anti-inflammatory effects, highlighting the significance of these compounds in the healing properties of Physaria arenosa.",
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 18,
+            "confidence_score": 143,
+            "total_score": 2574
+        },
+        {
+            "name": "tea",
+            "mentions": 17,
+            "confidence_score": 118,
+            "total_score": 2006
+        },
+        {
+            "name": "salve",
+            "mentions": 18,
+            "confidence_score": 99,
+            "total_score": 1782
+        },
+        {
+            "name": "infusion",
+            "mentions": 13,
+            "confidence_score": 99,
+            "total_score": 1287
+        },
+        {
+            "name": "infused oil",
+            "mentions": 11,
+            "confidence_score": 70,
+            "total_score": 770
+        },
+        {
+            "name": "decoction",
+            "mentions": 10,
+            "confidence_score": 41,
+            "total_score": 410
+        },
+        {
+            "name": "physaria arenosa tea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "physaria arenosa infusion",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "powder",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "physaria arenosa tincture",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "physaria arenosa salve",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "physaria arenosa capsules",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "physaria arenosa extract",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "physaria arenosa oil",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "infused vinegar",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "ointment",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "extract",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "poultice",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "physaria arenosa poultice",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "resin",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Physaria arenosa are tincture, tea, salve, infusion, and infused oil, which are derived from its roots and leaves. A tincture is a concentrated liquid extract prepared with a solvent, typically ethanol or glycerin, to preserve and concentrate the plant's bioactive compounds. Herbal tea is made by infusing the plant's dried leaves and roots in hot water, while a salve is a topical preparation of infused oil and wax that provides localized relief. Infusion is a liquid extract made by steeping the plant's parts in cold water, and infused oil is a topical oil extracted from the plant's roots and leaves using a carrier oil like coconut or olive oil. These preparations are used to harness the plant's potential therapeutic properties, including antioxidant, anti-inflammatory, and antimicrobial activities.",
+    "side_effects": [
+        {
+            "name": "cause diarrhea",
+            "mentions": 6,
+            "confidence_score": 49,
+            "total_score": 294
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 5,
+            "confidence_score": 45,
+            "total_score": 225
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "develop allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "developing diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "suffer hypotension",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "induce kidney damage",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "suffers kidney damage",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "trigger allergic reaction",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Physaria arenosa improperly include causing diarrhea due to the plant's high concentration of toxic compounds, such as cardenolides, which can disrupt gut motility and lead to gastrointestinal disturbances. These toxic compounds can also induce nausea and vomiting in individuals, particularly when ingested in large quantities or by people with pre-existing sensitivities. Furthermore, the plant's toxic properties can lead to nausea, as the body attempts to expel the toxic substances through the gastrointestinal tract. The gastrointestinal irritation caused by Physaria arenosa can also lead to nausea and vomiting, resulting in dehydration and electrolyte imbalances if left untreated. These adverse effects are primarily due to the plant's toxic glycosides, which can cause severe gastrointestinal symptoms when ingested improperly.",
+    "uses": "Physaria arenosa is known for its potential medicinal properties. Physaria arenosa, also known as sand blayia, contains compounds that may have anti-inflammatory and antioxidant effects. Its roots and leaves are traditionally used in herbal medicine to treat various ailments, including skin conditions and respiratory issues. Further research is needed to confirm the efficacy and safety of Physaria arenosa as a medicinal plant. Some studies suggest that it may have antimicrobial properties, which could aid in wound healing.",
+    "taxonomy": "Physaria arenosa is classified as a species within the genus Physaria, which is a group of flowering plants in the family Brassicaceae. This family includes various types of mustards, cabbages, and other related plants. The genus Physaria is typically found in the western United States and Mexico. The classification of Physaria arenosa is further detailed at the species level, where it is often referred to by its binomial nomenclature. Physaria arenosa is also sometimes classified as a rare or endangered species due to its limited geographical range.",
+    "benefits": "Physaria arenosa, also known as sand lily, is a flowering plant that offers potential health benefits due to its antioxidant and anti-inflammatory properties. Its extracts have been studied for their ability to protect against cell damage and oxidative stress. The plant's flavonoids and other compounds may help to reduce inflammation and improve cardiovascular health. However, more research is needed to fully understand the health benefits of Physaria arenosa. Its potential uses in traditional medicine have been documented in some cultures, where it is used to treat various ailments.",
+    "parts": "Physaria arenosa, commonly known as sand honeysuckle or yellow sand bluffs, is a species of flowering plant. The medicinal parts of Physaria arenosa are not well-documented, but the plant is used in traditional medicine by some Native American tribes. However, there is limited scientific evidence to support its medicinal uses. Further research is needed to confirm the efficacy of any potential medicinal properties. Physaria arenosa is also used as an ornamental plant in some regions.",
+    "intro": "Physaria arenosa, also known as sand blom or sand rock cress, is a small, annual plant belonging to the Brassicaceae family. The plant has been traditionally used for its medicinal properties, with reported health benefits including anti-inflammatory and antimicrobial effects, which may aid in treating various skin conditions, such as eczema and acne. The bioactive constituents of Physaria arenosa include isothiocyanates, glucosinolates, and other compounds that contribute to its medicinal properties. Physaria arenosa is commonly used in herbal preparations, including teas, infusions, and tinctures, which are used to support skin health and reduce inflammation."
+}

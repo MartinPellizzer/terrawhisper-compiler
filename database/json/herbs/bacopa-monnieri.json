@@ -1,1 +1,756 @@
-{"title": "Bacopa monnieri", "herb_slug": "bacopa-monnieri", "herb_name_scientific": "Bacopa monnieri", "family_slug": "", "family_name": "", "url": "herbs/bacopa-monnieri", "lastmod": "2025-1-20", "herb_names_common": [{"name": "brahmi", "mentions": 20, "confidence_score": 192, "total_score": 3840}, {"name": "bacopa", "mentions": 20, "confidence_score": 173, "total_score": 3460}, {"name": "water hyssop", "mentions": 20, "confidence_score": 152, "total_score": 3040}, {"name": "indian pennywort", "mentions": 12, "confidence_score": 98, "total_score": 1176}, {"name": "monnieri", "mentions": 20, "confidence_score": 94, "total_score": 1880}, {"name": "brahmi herb", "mentions": 11, "confidence_score": 82, "total_score": 902}, {"name": "herpestis", "mentions": 18, "confidence_score": 80, "total_score": 1440}, {"name": "brahmi plant", "mentions": 11, "confidence_score": 75, "total_score": 825}, {"name": "bacopa monnieri", "mentions": 14, "confidence_score": 43, "total_score": 602}, {"name": "herpestis monnieri", "mentions": 7, "confidence_score": 29, "total_score": 203}, {"name": "indian hyssop", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "bacopa herb", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "indian periwinkle", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "hindu pennywort", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "brahmi leaf", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "mandukaparni", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "hydrocotyle monnieri", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "bacopa monieri", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "water hyssop herb", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "herba of brahmi", "mentions": 1, "confidence_score": 6, "total_score": 6}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 173, "total_score": 3460}], "what_description": "Bacopa monnieri is an annual or perennial herbaceous plant belonging to the family Plantaginaceae, native to tropical, subtropical, and temperate regions of the world. It has simple, petiolate, and alternate leaves, measuring 3-10 cm in length, with an ovate or elliptical shape and a cordate base. The leaves are dark green in color, with a glabrous or slightly hairy surface, and contain a single midrib with prominent secondary veins. The plant produces small, white, or pale blue flowers in axillary cymes, measuring 4-6 mm in diameter, and bears two-celled capsules that split open at maturity to release numerous seeds. Bacopa monnieri is commonly known as Brahmi in Ayurvedic medicine, where it has been used for centuries to enhance cognitive function and memory.", "category_action": "nervines", "ailments": [{"name": "memory loss", "mentions": 20, "confidence_score": 175, "total_score": 3500}, {"name": "anxiety", "mentions": 19, "confidence_score": 171, "total_score": 3249}, {"name": "stress", "mentions": 19, "confidence_score": 155, "total_score": 2945}, {"name": "depression", "mentions": 19, "confidence_score": 142, "total_score": 2698}, {"name": "insomnia", "mentions": 11, "confidence_score": 79, "total_score": 869}, {"name": "cognitive decline", "mentions": 9, "confidence_score": 72, "total_score": 648}, {"name": "fatigue", "mentions": 11, "confidence_score": 71, "total_score": 781}, {"name": "adhd", "mentions": 11, "confidence_score": 68, "total_score": 748}, {"name": "epilepsy", "mentions": 12, "confidence_score": 63, "total_score": 756}, {"name": "alzheimer's", "mentions": 9, "confidence_score": 60, "total_score": 540}, {"name": "sleep disorders", "mentions": 8, "confidence_score": 54, "total_score": 432}, {"name": "brain fog", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "attention deficit hyperactivity disorder", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "migraines", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "parkinson's", "mentions": 6, "confidence_score": 20, "total_score": 120}, {"name": "schizophrenia", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "hypertension", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "add", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "trauma", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "mood swings", "mentions": 2, "confidence_score": 11, "total_score": 22}], "ailments_description": "The most common ailments you can heal with Bacopa monnieri are memory loss through its ability to enhance memory consolidation and retrieval, anxiety by modulating the activity of GABA and serotonin neurotransmitters. Bacopa monnieri has been shown to alleviate stress by reducing cortisol levels, and depression symptoms through its antidepressant-like effects, insomnia by promoting relaxation and improving sleep quality. Cognitive decline can be reversed with Bacopa monnieri, improving cognitive function and reversing age-related cognitive impairment, fatigue by increasing mitochondrial biogenesis and reducing oxidative stress, ADHD by enhancing working memory and attention. Additionally, Bacopa monnieri has been found to have antiepileptic properties, and has been studied for its potential therapeutic effects on Alzheimer's disease, as well as sleep disorders, brain fog, migraines, Parkinson's, schizophrenia, hypertension, ADHD, ADD, trauma, and mood swings.", "properties": [{"name": "antioxidant", "mentions": 21, "confidence_score": 186, "total_score": 3906}, {"name": "neuroprotective", "mentions": 20, "confidence_score": 175, "total_score": 3500}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 162, "total_score": 3240}, {"name": "anxiolytic", "mentions": 19, "confidence_score": 137, "total_score": 2603}, {"name": "antimicrobial", "mentions": 19, "confidence_score": 128, "total_score": 2432}, {"name": "cognitive enhancer", "mentions": 14, "confidence_score": 112, "total_score": 1568}, {"name": "anticonvulsant", "mentions": 11, "confidence_score": 69, "total_score": 759}, {"name": "antistress", "mentions": 8, "confidence_score": 60, "total_score": 480}, {"name": "hepatoprotective", "mentions": 10, "confidence_score": 56, "total_score": 560}, {"name": "antioxidant enzyme inducer", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "neuroregenerative", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "cardioprotective", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "anti-stress", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "antiviral", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "nootropic", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "immunomodulatory", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "memory enhancer", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "antifungal", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "analgesic", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "antibacterial", "mentions": 2, "confidence_score": 14, "total_score": 28}], "properties_description": "The main therapeutic properties of Bacopa monnieri are attributed to its antioxidant properties, which help protect the body from oxidative stress and cell damage. The neuroprotective effects of this plant are also noteworthy, as they may contribute to improved cognitive function and memory. Additionally, Bacopa monnieri has been found to possess anti-inflammatory properties, which can help mitigate the severity of various inflammatory conditions. Furthermore, it has anxiolytic properties, making it a potential natural remedy for anxiety and stress relief. The antimicrobial properties of Bacopa monnieri are also significant, as they may help combat infections and promote a healthy gut microbiome, with key bioactive compounds including bacosides, saponins, and flavonoids.", "constituents": [{"name": "bacoside a", "mentions": 18, "confidence_score": 159, "total_score": 2862}, {"name": "bacoside b", "mentions": 17, "confidence_score": 144, "total_score": 2448}, {"name": "bacoside c", "mentions": 15, "confidence_score": 112, "total_score": 1680}, {"name": "bacoside d", "mentions": 10, "confidence_score": 69, "total_score": 690}, {"name": "monnierin", "mentions": 10, "confidence_score": 68, "total_score": 680}, {"name": "bacopaside i", "mentions": 9, "confidence_score": 57, "total_score": 513}, {"name": "bacopaside ii", "mentions": 8, "confidence_score": 53, "total_score": 424}, {"name": "bacosides", "mentions": 5, "confidence_score": 49, "total_score": 245}, {"name": "bacopasides", "mentions": 6, "confidence_score": 49, "total_score": 294}, {"name": "bacoside a3", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "bacopasaponin e", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "\u03b2-sitosterol", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "jujubogenin", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "bacopa saponins", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "oleanolic acid", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "jujuboside b", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "jasmonic acid", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "ursolic acid", "mentions": 5, "confidence_score": 18, "total_score": 90}, {"name": "stigmasterol", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "bacopasaponins", "mentions": 2, "confidence_score": 17, "total_score": 34}], "constituents_description": "The most important healing constituents of Bacopa monnieri are bacosides and monnierin, which contribute to its cognitive-enhancing and neuroprotective properties. Bacoside A is a glycoside that has been shown to enhance cognitive function by increasing the expression of genes involved in neuronal growth and differentiation. Bacoside B, Bacoside C, and Bacoside D, along with bacoside A, have been found to possess antioxidant and anti-inflammatory activities, which may contribute to their neuroprotective effects. Monnierin, another key constituent of Bacopa monnieri, has been demonstrated to have a protective effect on the brain by scavenging free radicals and reducing oxidative stress. These constituents work synergistically to improve memory, cognitive function, and overall brain health, making Bacopa monnieri a valuable herb in traditional Ayurvedic medicine.", "preparations": [{"name": "bacopa capsules", "mentions": 17, "confidence_score": 149, "total_score": 2533}, {"name": "bacopa tincture", "mentions": 19, "confidence_score": 149, "total_score": 2831}, {"name": "bacopa tea", "mentions": 17, "confidence_score": 134, "total_score": 2278}, {"name": "bacopa extract", "mentions": 14, "confidence_score": 116, "total_score": 1624}, {"name": "bacopa infusion", "mentions": 17, "confidence_score": 98, "total_score": 1666}, {"name": "bacopa oil", "mentions": 15, "confidence_score": 66, "total_score": 990}, {"name": "bacopa decoction", "mentions": 10, "confidence_score": 57, "total_score": 570}, {"name": "bacopa powder", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "bacopa ghee", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "bacopa churna", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "bacopa monnieri tea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "bacopa extract capsules", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "bacopa monnieri oil", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "bacopa monnieri capsules", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "bacopa monnieri tincture", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "bacopa tea infusion", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "glycerite", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "bacopa monnieri extract", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "bacopa infused water", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "bacopa oil infusion", "mentions": 1, "confidence_score": 4, "total_score": 4}], "preparations_description": "The main herbal preparations of Bacopa monnieri are used to enhance cognitive function and memory, and they are typically standardized to contain 20-50% bacosides. Bacopa capsules are the most common preparation, providing a controlled release of bacosides into the bloodstream. Bacopa tincture is another preparation, often standardized to contain 10-20% bacosides, and is used for its bioavailability and ease of administration. Bacopa tea is a less concentrated preparation, typically made by infusing dried Bacopa leaves in hot water, and contains lower levels of bacosides compared to other preparations. Bacopa extract and infusion are also used, with the former often being a concentrated extract of bacosides and the latter being a less concentrated preparation similar to tea.", "side_effects": [{"name": "exhibits sedation", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "experiences seizures", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiences stomach upset", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiences gastrointestinal distress", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develops diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "increases liver enzymes", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experiencing anxiety", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "suffering fatigue", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "increase anxiety", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "induce mania", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "exhibits anxiety", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "develop diarrhea", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "suffering nausea", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "trigger seizures", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "exacerbate seizures", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "interact with blood thinners", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experience gastrointestinal disturbances", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiences tachycardia", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "interact with medications", "mentions": 1, "confidence_score": 10, "total_score": 10}], "side_effects_description": "The possible side effects of using Bacopa monnieri improperly are exhibits sedation due to its GABAergic and dopaminergic effects, experiences seizures in rare cases due to its potential interaction with certain medications that lower the seizure threshold, experiencing nausea and stomach upset due to its gastroirritant properties and potential interaction with certain medications that affect gut motility, and experiencing gastrointestinal distress such as diarrhea and abdominal pain in some individuals. Bacopa monnieri's mechanism of action involves increasing the synthesis of brain-derived neurotrophic factor (BDNF), which may contribute to its potential side effects. The improper use of Bacopa monnieri may also lead to its interaction with other medications, such as blood thinners and diabetes medications, which may exacerbate its side effects. The individual's health status, including any pre-existing medical conditions, and the dosage and duration of Bacopa monnieri use may also influence the likelihood and severity of its side effects. Additionally, Bacopa monnieri's potential interaction with other herbs and supplements may also contribute to its side effects."}
+{
+    "title": "Bacopa monnieri",
+    "herb_slug": "bacopa-monnieri",
+    "herb_name_scientific": "Bacopa monnieri",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/bacopa-monnieri",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "brahmi",
+            "mentions": 20,
+            "confidence_score": 192,
+            "total_score": 3840
+        },
+        {
+            "name": "bacopa",
+            "mentions": 20,
+            "confidence_score": 173,
+            "total_score": 3460
+        },
+        {
+            "name": "water hyssop",
+            "mentions": 20,
+            "confidence_score": 152,
+            "total_score": 3040
+        },
+        {
+            "name": "indian pennywort",
+            "mentions": 12,
+            "confidence_score": 98,
+            "total_score": 1176
+        },
+        {
+            "name": "monnieri",
+            "mentions": 20,
+            "confidence_score": 94,
+            "total_score": 1880
+        },
+        {
+            "name": "brahmi herb",
+            "mentions": 11,
+            "confidence_score": 82,
+            "total_score": 902
+        },
+        {
+            "name": "herpestis",
+            "mentions": 18,
+            "confidence_score": 80,
+            "total_score": 1440
+        },
+        {
+            "name": "brahmi plant",
+            "mentions": 11,
+            "confidence_score": 75,
+            "total_score": 825
+        },
+        {
+            "name": "bacopa monnieri",
+            "mentions": 14,
+            "confidence_score": 43,
+            "total_score": 602
+        },
+        {
+            "name": "herpestis monnieri",
+            "mentions": 7,
+            "confidence_score": 29,
+            "total_score": 203
+        },
+        {
+            "name": "indian hyssop",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "bacopa herb",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "indian periwinkle",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "hindu pennywort",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "brahmi leaf",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "mandukaparni",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "hydrocotyle monnieri",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "bacopa monieri",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "water hyssop herb",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "herba of brahmi",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 173,
+            "total_score": 3460
+        }
+    ],
+    "what_description": "Bacopa monnieri is an annual or perennial herbaceous plant belonging to the family Plantaginaceae, native to tropical, subtropical, and temperate regions of the world. It has simple, petiolate, and alternate leaves, measuring 3-10 cm in length, with an ovate or elliptical shape and a cordate base. The leaves are dark green in color, with a glabrous or slightly hairy surface, and contain a single midrib with prominent secondary veins. The plant produces small, white, or pale blue flowers in axillary cymes, measuring 4-6 mm in diameter, and bears two-celled capsules that split open at maturity to release numerous seeds. Bacopa monnieri is commonly known as Brahmi in Ayurvedic medicine, where it has been used for centuries to enhance cognitive function and memory.",
+    "category_action": "nervines",
+    "ailments": [
+        {
+            "name": "memory loss",
+            "mentions": 20,
+            "confidence_score": 175,
+            "total_score": 3500
+        },
+        {
+            "name": "anxiety",
+            "mentions": 19,
+            "confidence_score": 171,
+            "total_score": 3249
+        },
+        {
+            "name": "stress",
+            "mentions": 19,
+            "confidence_score": 155,
+            "total_score": 2945
+        },
+        {
+            "name": "depression",
+            "mentions": 19,
+            "confidence_score": 142,
+            "total_score": 2698
+        },
+        {
+            "name": "insomnia",
+            "mentions": 11,
+            "confidence_score": 79,
+            "total_score": 869
+        },
+        {
+            "name": "cognitive decline",
+            "mentions": 9,
+            "confidence_score": 72,
+            "total_score": 648
+        },
+        {
+            "name": "fatigue",
+            "mentions": 11,
+            "confidence_score": 71,
+            "total_score": 781
+        },
+        {
+            "name": "adhd",
+            "mentions": 11,
+            "confidence_score": 68,
+            "total_score": 748
+        },
+        {
+            "name": "epilepsy",
+            "mentions": 12,
+            "confidence_score": 63,
+            "total_score": 756
+        },
+        {
+            "name": "alzheimer's",
+            "mentions": 9,
+            "confidence_score": 60,
+            "total_score": 540
+        },
+        {
+            "name": "sleep disorders",
+            "mentions": 8,
+            "confidence_score": 54,
+            "total_score": 432
+        },
+        {
+            "name": "brain fog",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "attention deficit hyperactivity disorder",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "migraines",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "parkinson's",
+            "mentions": 6,
+            "confidence_score": 20,
+            "total_score": 120
+        },
+        {
+            "name": "schizophrenia",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "hypertension",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "add",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "trauma",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "mood swings",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Bacopa monnieri are memory loss through its ability to enhance memory consolidation and retrieval, anxiety by modulating the activity of GABA and serotonin neurotransmitters. Bacopa monnieri has been shown to alleviate stress by reducing cortisol levels, and depression symptoms through its antidepressant-like effects, insomnia by promoting relaxation and improving sleep quality. Cognitive decline can be reversed with Bacopa monnieri, improving cognitive function and reversing age-related cognitive impairment, fatigue by increasing mitochondrial biogenesis and reducing oxidative stress, ADHD by enhancing working memory and attention. Additionally, Bacopa monnieri has been found to have antiepileptic properties, and has been studied for its potential therapeutic effects on Alzheimer's disease, as well as sleep disorders, brain fog, migraines, Parkinson's, schizophrenia, hypertension, ADHD, ADD, trauma, and mood swings.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 21,
+            "confidence_score": 186,
+            "total_score": 3906
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 20,
+            "confidence_score": 175,
+            "total_score": 3500
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 162,
+            "total_score": 3240
+        },
+        {
+            "name": "anxiolytic",
+            "mentions": 19,
+            "confidence_score": 137,
+            "total_score": 2603
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 19,
+            "confidence_score": 128,
+            "total_score": 2432
+        },
+        {
+            "name": "cognitive enhancer",
+            "mentions": 14,
+            "confidence_score": 112,
+            "total_score": 1568
+        },
+        {
+            "name": "anticonvulsant",
+            "mentions": 11,
+            "confidence_score": 69,
+            "total_score": 759
+        },
+        {
+            "name": "antistress",
+            "mentions": 8,
+            "confidence_score": 60,
+            "total_score": 480
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 10,
+            "confidence_score": 56,
+            "total_score": 560
+        },
+        {
+            "name": "antioxidant enzyme inducer",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "neuroregenerative",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "anti-stress",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "antiviral",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "nootropic",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "memory enhancer",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "antifungal",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "analgesic",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Bacopa monnieri are attributed to its antioxidant properties, which help protect the body from oxidative stress and cell damage. The neuroprotective effects of this plant are also noteworthy, as they may contribute to improved cognitive function and memory. Additionally, Bacopa monnieri has been found to possess anti-inflammatory properties, which can help mitigate the severity of various inflammatory conditions. Furthermore, it has anxiolytic properties, making it a potential natural remedy for anxiety and stress relief. The antimicrobial properties of Bacopa monnieri are also significant, as they may help combat infections and promote a healthy gut microbiome, with key bioactive compounds including bacosides, saponins, and flavonoids.",
+    "constituents": [
+        {
+            "name": "bacoside a",
+            "mentions": 18,
+            "confidence_score": 159,
+            "total_score": 2862
+        },
+        {
+            "name": "bacoside b",
+            "mentions": 17,
+            "confidence_score": 144,
+            "total_score": 2448
+        },
+        {
+            "name": "bacoside c",
+            "mentions": 15,
+            "confidence_score": 112,
+            "total_score": 1680
+        },
+        {
+            "name": "bacoside d",
+            "mentions": 10,
+            "confidence_score": 69,
+            "total_score": 690
+        },
+        {
+            "name": "monnierin",
+            "mentions": 10,
+            "confidence_score": 68,
+            "total_score": 680
+        },
+        {
+            "name": "bacopaside i",
+            "mentions": 9,
+            "confidence_score": 57,
+            "total_score": 513
+        },
+        {
+            "name": "bacopaside ii",
+            "mentions": 8,
+            "confidence_score": 53,
+            "total_score": 424
+        },
+        {
+            "name": "bacosides",
+            "mentions": 5,
+            "confidence_score": 49,
+            "total_score": 245
+        },
+        {
+            "name": "bacopasides",
+            "mentions": 6,
+            "confidence_score": 49,
+            "total_score": 294
+        },
+        {
+            "name": "bacoside a3",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "bacopasaponin e",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "\u03b2-sitosterol",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "jujubogenin",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "bacopa saponins",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "jujuboside b",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "jasmonic acid",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "ursolic acid",
+            "mentions": 5,
+            "confidence_score": 18,
+            "total_score": 90
+        },
+        {
+            "name": "stigmasterol",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "bacopasaponins",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Bacopa monnieri are bacosides and monnierin, which contribute to its cognitive-enhancing and neuroprotective properties. Bacoside A is a glycoside that has been shown to enhance cognitive function by increasing the expression of genes involved in neuronal growth and differentiation. Bacoside B, Bacoside C, and Bacoside D, along with bacoside A, have been found to possess antioxidant and anti-inflammatory activities, which may contribute to their neuroprotective effects. Monnierin, another key constituent of Bacopa monnieri, has been demonstrated to have a protective effect on the brain by scavenging free radicals and reducing oxidative stress. These constituents work synergistically to improve memory, cognitive function, and overall brain health, making Bacopa monnieri a valuable herb in traditional Ayurvedic medicine.",
+    "preparations": [
+        {
+            "name": "bacopa capsules",
+            "mentions": 17,
+            "confidence_score": 149,
+            "total_score": 2533
+        },
+        {
+            "name": "bacopa tincture",
+            "mentions": 19,
+            "confidence_score": 149,
+            "total_score": 2831
+        },
+        {
+            "name": "bacopa tea",
+            "mentions": 17,
+            "confidence_score": 134,
+            "total_score": 2278
+        },
+        {
+            "name": "bacopa extract",
+            "mentions": 14,
+            "confidence_score": 116,
+            "total_score": 1624
+        },
+        {
+            "name": "bacopa infusion",
+            "mentions": 17,
+            "confidence_score": 98,
+            "total_score": 1666
+        },
+        {
+            "name": "bacopa oil",
+            "mentions": 15,
+            "confidence_score": 66,
+            "total_score": 990
+        },
+        {
+            "name": "bacopa decoction",
+            "mentions": 10,
+            "confidence_score": 57,
+            "total_score": 570
+        },
+        {
+            "name": "bacopa powder",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "bacopa ghee",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "bacopa churna",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "bacopa monnieri tea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "bacopa extract capsules",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "bacopa monnieri oil",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "bacopa monnieri capsules",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "bacopa monnieri tincture",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "bacopa tea infusion",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "bacopa monnieri extract",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "bacopa infused water",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "bacopa oil infusion",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Bacopa monnieri are used to enhance cognitive function and memory, and they are typically standardized to contain 20-50% bacosides. Bacopa capsules are the most common preparation, providing a controlled release of bacosides into the bloodstream. Bacopa tincture is another preparation, often standardized to contain 10-20% bacosides, and is used for its bioavailability and ease of administration. Bacopa tea is a less concentrated preparation, typically made by infusing dried Bacopa leaves in hot water, and contains lower levels of bacosides compared to other preparations. Bacopa extract and infusion are also used, with the former often being a concentrated extract of bacosides and the latter being a less concentrated preparation similar to tea.",
+    "side_effects": [
+        {
+            "name": "exhibits sedation",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "experiences seizures",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiences stomach upset",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiences gastrointestinal distress",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "increases liver enzymes",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experiencing anxiety",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "suffering fatigue",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "increase anxiety",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "induce mania",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "exhibits anxiety",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "suffering nausea",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "exacerbate seizures",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "interact with blood thinners",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experience gastrointestinal disturbances",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiences tachycardia",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Bacopa monnieri improperly are exhibits sedation due to its GABAergic and dopaminergic effects, experiences seizures in rare cases due to its potential interaction with certain medications that lower the seizure threshold, experiencing nausea and stomach upset due to its gastroirritant properties and potential interaction with certain medications that affect gut motility, and experiencing gastrointestinal distress such as diarrhea and abdominal pain in some individuals. Bacopa monnieri's mechanism of action involves increasing the synthesis of brain-derived neurotrophic factor (BDNF), which may contribute to its potential side effects. The improper use of Bacopa monnieri may also lead to its interaction with other medications, such as blood thinners and diabetes medications, which may exacerbate its side effects. The individual's health status, including any pre-existing medical conditions, and the dosage and duration of Bacopa monnieri use may also influence the likelihood and severity of its side effects. Additionally, Bacopa monnieri's potential interaction with other herbs and supplements may also contribute to its side effects."
+}

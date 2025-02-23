@@ -1,1 +1,756 @@
-{"title": "Thymus vulgaris", "herb_slug": "thymus-vulgaris", "herb_name_scientific": "Thymus vulgaris", "family_slug": "", "family_name": "", "url": "herbs/thymus-vulgaris", "lastmod": "2025-1-20", "herb_names_common": [{"name": "thyme", "mentions": 26, "confidence_score": 223, "total_score": 5798}, {"name": "common thyme", "mentions": 20, "confidence_score": 181, "total_score": 3620}, {"name": "garden thyme", "mentions": 20, "confidence_score": 161, "total_score": 3220}, {"name": "english thyme", "mentions": 16, "confidence_score": 86, "total_score": 1376}, {"name": "wild thyme", "mentions": 13, "confidence_score": 69, "total_score": 897}, {"name": "creeping thyme", "mentions": 14, "confidence_score": 60, "total_score": 840}, {"name": "red thyme", "mentions": 11, "confidence_score": 57, "total_score": 627}, {"name": "mother of thyme", "mentions": 13, "confidence_score": 56, "total_score": 728}, {"name": "french thyme", "mentions": 8, "confidence_score": 42, "total_score": 336}, {"name": "kitchen thyme", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "winter thyme", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "german thyme", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "summer thyme", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "cooking thyme", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "lemon thyme", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "oregano", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "spanish thyme", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "broad leaf thyme", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "herbal thyme", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "broadleaf thyme", "mentions": 1, "confidence_score": 6, "total_score": 6}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 193, "total_score": 3860}], "what_description": "Thymus vulgaris is a perennial herbaceous plant belonging to the family Lamiaceae, commonly known as the mint or deadnettle family. It has a woody base and branches that are 20-30 cm long, with linear or lanceolate leaves that are 6-10 mm long, grayish-green in color, and have a crenate margin. The leaves are oppositely arranged on the stem, and the plant produces small, tubular, pinkish or purplish flowers in axillary whorls, which are 6-8 mm long and contain 4 lobes. The flowers are arranged in a corymb, and the calyx is 5-6 mm long, with 5 triangular lobes. The plant has a fibrous root system and is native to the Mediterranean region, but it is now cultivated worldwide for its leaves and essential oil.", "category_action": "antimicrobial", "ailments": [{"name": "digestive issues", "mentions": 13, "confidence_score": 113, "total_score": 1469}, {"name": "fungal infections", "mentions": 13, "confidence_score": 90, "total_score": 1170}, {"name": "respiratory infections", "mentions": 10, "confidence_score": 88, "total_score": 880}, {"name": "wound healing", "mentions": 9, "confidence_score": 75, "total_score": 675}, {"name": "skin irritations", "mentions": 11, "confidence_score": 74, "total_score": 814}, {"name": "insect bites", "mentions": 11, "confidence_score": 71, "total_score": 781}, {"name": "cold sores", "mentions": 9, "confidence_score": 50, "total_score": 450}, {"name": "diarrhea", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "gastroenteritis", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "stress relief", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "common cold", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "wounds", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "cough", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "skin conditions", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "sore throat", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "inflammation", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "sinusitis", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "respiratory problems", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "indigestion", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "bronchitis", "mentions": 3, "confidence_score": 24, "total_score": 72}], "ailments_description": "The most common ailments you can heal with Thymus vulgaris are digestive issues, including indigestion, which is alleviated by its antispasmodic properties. Thymus vulgaris also exhibits antifungal properties, making it effective against fungal infections, such as athlete's foot. Additionally, its expectorant and antimicrobial properties aid in treating respiratory infections, such as bronchitis, and respiratory problems, such as cough and sinusitis. Furthermore, Thymus vulgaris has anti-inflammatory properties, which accelerate wound healing and soothe skin irritations and insect bites, while its antiviral properties combat cold sores and gastroenteritis. Thymus vulgaris also relieves stress, alleviates diarrhea, and treats sore throat, inflammation, and common cold, in addition to promoting skin conditions, wound healing, and preventing the occurrence of respiratory infections like cough and bronchitis.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 179, "total_score": 3580}, {"name": "antioxidant", "mentions": 20, "confidence_score": 165, "total_score": 3300}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 157, "total_score": 3140}, {"name": "antiviral", "mentions": 18, "confidence_score": 121, "total_score": 2178}, {"name": "antifungal", "mentions": 15, "confidence_score": 120, "total_score": 1800}, {"name": "antispasmodic", "mentions": 15, "confidence_score": 112, "total_score": 1680}, {"name": "expectorant", "mentions": 15, "confidence_score": 110, "total_score": 1650}, {"name": "antiseptic", "mentions": 10, "confidence_score": 87, "total_score": 870}, {"name": "analgesic", "mentions": 13, "confidence_score": 74, "total_score": 962}, {"name": "anticancer", "mentions": 9, "confidence_score": 48, "total_score": 432}, {"name": "antibacterial", "mentions": 5, "confidence_score": 44, "total_score": 220}, {"name": "cytotoxic", "mentions": 8, "confidence_score": 42, "total_score": 336}, {"name": "immunomodulatory", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "anxiolytic", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "digestive aid", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "diaphoretic", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "anticough", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "antihistaminic", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "sedative", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "cytoprotective", "mentions": 1, "confidence_score": 8, "total_score": 8}], "properties_description": "The main therapeutic properties of Thymus vulgaris are primarily due to its antimicrobial activity, which is attributed to the presence of volatile oils, particularly thymol, that exhibit bactericidal and fungicidal effects against a wide range of microorganisms. Additionally, the antioxidant properties of this plant are also noteworthy, as flavonoids and phenolic acids have been shown to scavenge free radicals and protect against oxidative stress. Its anti-inflammatory properties are also well-documented, with studies demonstrating that the bioactive compounds of Thymus vulgaris can inhibit the production of pro-inflammatory enzymes and cytokines. Furthermore, the antiviral properties of this plant have been found to be effective against certain viral infections, with the bioactive compounds exhibiting antiviral activity against herpes simplex virus and influenza virus. The antifungal properties of Thymus vulgaris are also significant, as its bioactive compounds have been shown to inhibit the growth of various fungal species, including Candida albicans and Aspergillus niger.", "constituents": [{"name": "thymol", "mentions": 20, "confidence_score": 192, "total_score": 3840}, {"name": "carvacrol", "mentions": 19, "confidence_score": 174, "total_score": 3306}, {"name": "linalool", "mentions": 20, "confidence_score": 151, "total_score": 3020}, {"name": "p-cymene", "mentions": 14, "confidence_score": 110, "total_score": 1540}, {"name": "borneol", "mentions": 17, "confidence_score": 101, "total_score": 1717}, {"name": "bornyl acetate", "mentions": 15, "confidence_score": 90, "total_score": 1350}, {"name": "caryophyllene", "mentions": 11, "confidence_score": 74, "total_score": 814}, {"name": "limonene", "mentions": 12, "confidence_score": 57, "total_score": 684}, {"name": "geraniol", "mentions": 11, "confidence_score": 54, "total_score": 594}, {"name": "\u03b1-terpineol", "mentions": 10, "confidence_score": 46, "total_score": 460}, {"name": "pinene", "mentions": 7, "confidence_score": 38, "total_score": 266}, {"name": "\u03b2-pinene", "mentions": 7, "confidence_score": 35, "total_score": 245}, {"name": "\u03b1-pinene", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "linalyl acetate", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "camphene", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "camphor", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "piperitenone", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "sabinene", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "\u03b3-terpinene", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "gamma-terpinene", "mentions": 1, "confidence_score": 7, "total_score": 7}], "constituents_description": "The most important healing constituents of Thymus vulgaris are thymol, carvacrol, linalool, p-cymene, and borneol. Thymol is a potent antimicrobial agent with a broad spectrum of activity, effective against bacteria, viruses, and fungi, inhibiting the growth of pathogens through disruption of cell membranes and interference with DNA replication. Carvacrol is a natural antioxidant and anti-inflammatory compound, exhibiting cytotoxic activity against cancer cells and modulating the immune system to enhance its response to infection. Linalool has been shown to possess antiseptic and anti-inflammatory properties, while also exhibiting anxiolytic and sedative effects, contributing to its calming and relaxing properties. P-cymene and borneol, which are also present in Thymus vulgaris, contribute to its antioxidant and anti-inflammatory activities, with p-cymene exhibiting antimicrobial properties and borneol possessing anti-inflammatory and antiseptic effects.", "preparations": [{"name": "thyme tea", "mentions": 20, "confidence_score": 196, "total_score": 3920}, {"name": "thyme tincture", "mentions": 19, "confidence_score": 151, "total_score": 2869}, {"name": "thyme oil", "mentions": 15, "confidence_score": 136, "total_score": 2040}, {"name": "thyme infusion", "mentions": 17, "confidence_score": 133, "total_score": 2261}, {"name": "thyme salve", "mentions": 16, "confidence_score": 95, "total_score": 1520}, {"name": "thyme syrup", "mentions": 13, "confidence_score": 75, "total_score": 975}, {"name": "thyme capsules", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "thymol tincture", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "thyme vinegar", "mentions": 7, "confidence_score": 28, "total_score": 196}, {"name": "thyme extract", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "thyme decoction", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "thyme infused oil", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "thyme poultice", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "essential oil", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "thyme cream", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "thyme honey", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "thyme glycerite", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "thyme infused vinegar", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "thymus oil", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "thymol syrup", "mentions": 1, "confidence_score": 8, "total_score": 8}], "preparations_description": "The main herbal preparations of Thymus vulgaris are made to utilize its carvacrol and thymol content, which exhibit antimicrobial, antifungal, and anti-inflammatory properties. Thyme tea, a liquid extract made by steeping the leaves in hot water, is used to treat respiratory issues like coughs and bronchitis due to its expectorant properties. Thyme tincture, a concentrated liquid extract, is often used to treat digestive issues, such as bloating and indigestion, due to its carminative and anti-inflammatory effects. Thyme oil, a highly concentrated essential oil, is used topically to treat skin issues like acne, wounds, and fungal infections due to its antimicrobial properties, while also being used in aromatherapy for its calming effects. Thyme infusion, a liquid extract made by steeping the leaves in cold water, is similar to thyme tea but has a milder flavor and is often used to make thyme salve, a topical preparation made with beeswax and oil that is used to treat skin issues like eczema and dermatitis.", "side_effects": [{"name": "exacerbate allergies", "mentions": 6, "confidence_score": 53, "total_score": 318}, {"name": "cause liver damage", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "induce nausea", "mentions": 5, "confidence_score": 43, "total_score": 215}, {"name": "interact with medications", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "trigger seizures", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "allergic reactions", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "induce photosensitivity", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "cause allergic reactions", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "trigger asthma attack", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "aggravate asthma", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "lower blood pressure", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "hinder digestion", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "causes gastrointestinal bleeding", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "induces diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "increase heart rate", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "elevate blood pressure", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "prolong bleeding time", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "interact with medication", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "induces dizziness", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "trigger headaches", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effect of using Thymus vulgaris are exacerbation of allergies due to its allergenic compounds like thymol and carvacrol which can trigger severe reactions in individuals with existing allergies. Improper use of Thymus vulgaris can also lead to liver damage as its compounds can be toxic to the liver in high concentrations and prolonged use. Additionally, ingestion of Thymus vulgaris can cause nausea and vomiting due to its strong aromatic properties. Furthermore, Thymus vulgaris can interact with certain medications like blood thinners, diabetes medications, and sedatives, reducing their efficacy or increasing the risk of adverse effects. Thymus vulgaris may also trigger seizures in individuals with a history of seizure disorders due to its neurotoxic properties, especially when used in large quantities or in combination with other medications."}
+{
+    "title": "Thymus vulgaris",
+    "herb_slug": "thymus-vulgaris",
+    "herb_name_scientific": "Thymus vulgaris",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/thymus-vulgaris",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "thyme",
+            "mentions": 26,
+            "confidence_score": 223,
+            "total_score": 5798
+        },
+        {
+            "name": "common thyme",
+            "mentions": 20,
+            "confidence_score": 181,
+            "total_score": 3620
+        },
+        {
+            "name": "garden thyme",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        },
+        {
+            "name": "english thyme",
+            "mentions": 16,
+            "confidence_score": 86,
+            "total_score": 1376
+        },
+        {
+            "name": "wild thyme",
+            "mentions": 13,
+            "confidence_score": 69,
+            "total_score": 897
+        },
+        {
+            "name": "creeping thyme",
+            "mentions": 14,
+            "confidence_score": 60,
+            "total_score": 840
+        },
+        {
+            "name": "red thyme",
+            "mentions": 11,
+            "confidence_score": 57,
+            "total_score": 627
+        },
+        {
+            "name": "mother of thyme",
+            "mentions": 13,
+            "confidence_score": 56,
+            "total_score": 728
+        },
+        {
+            "name": "french thyme",
+            "mentions": 8,
+            "confidence_score": 42,
+            "total_score": 336
+        },
+        {
+            "name": "kitchen thyme",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "winter thyme",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "german thyme",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "summer thyme",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "cooking thyme",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "lemon thyme",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "oregano",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "spanish thyme",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "broad leaf thyme",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "herbal thyme",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "broadleaf thyme",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 193,
+            "total_score": 3860
+        }
+    ],
+    "what_description": "Thymus vulgaris is a perennial herbaceous plant belonging to the family Lamiaceae, commonly known as the mint or deadnettle family. It has a woody base and branches that are 20-30 cm long, with linear or lanceolate leaves that are 6-10 mm long, grayish-green in color, and have a crenate margin. The leaves are oppositely arranged on the stem, and the plant produces small, tubular, pinkish or purplish flowers in axillary whorls, which are 6-8 mm long and contain 4 lobes. The flowers are arranged in a corymb, and the calyx is 5-6 mm long, with 5 triangular lobes. The plant has a fibrous root system and is native to the Mediterranean region, but it is now cultivated worldwide for its leaves and essential oil.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "digestive issues",
+            "mentions": 13,
+            "confidence_score": 113,
+            "total_score": 1469
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 13,
+            "confidence_score": 90,
+            "total_score": 1170
+        },
+        {
+            "name": "respiratory infections",
+            "mentions": 10,
+            "confidence_score": 88,
+            "total_score": 880
+        },
+        {
+            "name": "wound healing",
+            "mentions": 9,
+            "confidence_score": 75,
+            "total_score": 675
+        },
+        {
+            "name": "skin irritations",
+            "mentions": 11,
+            "confidence_score": 74,
+            "total_score": 814
+        },
+        {
+            "name": "insect bites",
+            "mentions": 11,
+            "confidence_score": 71,
+            "total_score": 781
+        },
+        {
+            "name": "cold sores",
+            "mentions": 9,
+            "confidence_score": 50,
+            "total_score": 450
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "stress relief",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "common cold",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "wounds",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "cough",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "sore throat",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "inflammation",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "sinusitis",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "respiratory problems",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "indigestion",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "bronchitis",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Thymus vulgaris are digestive issues, including indigestion, which is alleviated by its antispasmodic properties. Thymus vulgaris also exhibits antifungal properties, making it effective against fungal infections, such as athlete's foot. Additionally, its expectorant and antimicrobial properties aid in treating respiratory infections, such as bronchitis, and respiratory problems, such as cough and sinusitis. Furthermore, Thymus vulgaris has anti-inflammatory properties, which accelerate wound healing and soothe skin irritations and insect bites, while its antiviral properties combat cold sores and gastroenteritis. Thymus vulgaris also relieves stress, alleviates diarrhea, and treats sore throat, inflammation, and common cold, in addition to promoting skin conditions, wound healing, and preventing the occurrence of respiratory infections like cough and bronchitis.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 179,
+            "total_score": 3580
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 165,
+            "total_score": 3300
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 157,
+            "total_score": 3140
+        },
+        {
+            "name": "antiviral",
+            "mentions": 18,
+            "confidence_score": 121,
+            "total_score": 2178
+        },
+        {
+            "name": "antifungal",
+            "mentions": 15,
+            "confidence_score": 120,
+            "total_score": 1800
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 15,
+            "confidence_score": 112,
+            "total_score": 1680
+        },
+        {
+            "name": "expectorant",
+            "mentions": 15,
+            "confidence_score": 110,
+            "total_score": 1650
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 10,
+            "confidence_score": 87,
+            "total_score": 870
+        },
+        {
+            "name": "analgesic",
+            "mentions": 13,
+            "confidence_score": 74,
+            "total_score": 962
+        },
+        {
+            "name": "anticancer",
+            "mentions": 9,
+            "confidence_score": 48,
+            "total_score": 432
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 8,
+            "confidence_score": 42,
+            "total_score": 336
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "anxiolytic",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "digestive aid",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "diaphoretic",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "anticough",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "sedative",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Thymus vulgaris are primarily due to its antimicrobial activity, which is attributed to the presence of volatile oils, particularly thymol, that exhibit bactericidal and fungicidal effects against a wide range of microorganisms. Additionally, the antioxidant properties of this plant are also noteworthy, as flavonoids and phenolic acids have been shown to scavenge free radicals and protect against oxidative stress. Its anti-inflammatory properties are also well-documented, with studies demonstrating that the bioactive compounds of Thymus vulgaris can inhibit the production of pro-inflammatory enzymes and cytokines. Furthermore, the antiviral properties of this plant have been found to be effective against certain viral infections, with the bioactive compounds exhibiting antiviral activity against herpes simplex virus and influenza virus. The antifungal properties of Thymus vulgaris are also significant, as its bioactive compounds have been shown to inhibit the growth of various fungal species, including Candida albicans and Aspergillus niger.",
+    "constituents": [
+        {
+            "name": "thymol",
+            "mentions": 20,
+            "confidence_score": 192,
+            "total_score": 3840
+        },
+        {
+            "name": "carvacrol",
+            "mentions": 19,
+            "confidence_score": 174,
+            "total_score": 3306
+        },
+        {
+            "name": "linalool",
+            "mentions": 20,
+            "confidence_score": 151,
+            "total_score": 3020
+        },
+        {
+            "name": "p-cymene",
+            "mentions": 14,
+            "confidence_score": 110,
+            "total_score": 1540
+        },
+        {
+            "name": "borneol",
+            "mentions": 17,
+            "confidence_score": 101,
+            "total_score": 1717
+        },
+        {
+            "name": "bornyl acetate",
+            "mentions": 15,
+            "confidence_score": 90,
+            "total_score": 1350
+        },
+        {
+            "name": "caryophyllene",
+            "mentions": 11,
+            "confidence_score": 74,
+            "total_score": 814
+        },
+        {
+            "name": "limonene",
+            "mentions": 12,
+            "confidence_score": 57,
+            "total_score": 684
+        },
+        {
+            "name": "geraniol",
+            "mentions": 11,
+            "confidence_score": 54,
+            "total_score": 594
+        },
+        {
+            "name": "\u03b1-terpineol",
+            "mentions": 10,
+            "confidence_score": 46,
+            "total_score": 460
+        },
+        {
+            "name": "pinene",
+            "mentions": 7,
+            "confidence_score": 38,
+            "total_score": 266
+        },
+        {
+            "name": "\u03b2-pinene",
+            "mentions": 7,
+            "confidence_score": 35,
+            "total_score": 245
+        },
+        {
+            "name": "\u03b1-pinene",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "linalyl acetate",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "camphene",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "camphor",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "piperitenone",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "sabinene",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "\u03b3-terpinene",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "gamma-terpinene",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Thymus vulgaris are thymol, carvacrol, linalool, p-cymene, and borneol. Thymol is a potent antimicrobial agent with a broad spectrum of activity, effective against bacteria, viruses, and fungi, inhibiting the growth of pathogens through disruption of cell membranes and interference with DNA replication. Carvacrol is a natural antioxidant and anti-inflammatory compound, exhibiting cytotoxic activity against cancer cells and modulating the immune system to enhance its response to infection. Linalool has been shown to possess antiseptic and anti-inflammatory properties, while also exhibiting anxiolytic and sedative effects, contributing to its calming and relaxing properties. P-cymene and borneol, which are also present in Thymus vulgaris, contribute to its antioxidant and anti-inflammatory activities, with p-cymene exhibiting antimicrobial properties and borneol possessing anti-inflammatory and antiseptic effects.",
+    "preparations": [
+        {
+            "name": "thyme tea",
+            "mentions": 20,
+            "confidence_score": 196,
+            "total_score": 3920
+        },
+        {
+            "name": "thyme tincture",
+            "mentions": 19,
+            "confidence_score": 151,
+            "total_score": 2869
+        },
+        {
+            "name": "thyme oil",
+            "mentions": 15,
+            "confidence_score": 136,
+            "total_score": 2040
+        },
+        {
+            "name": "thyme infusion",
+            "mentions": 17,
+            "confidence_score": 133,
+            "total_score": 2261
+        },
+        {
+            "name": "thyme salve",
+            "mentions": 16,
+            "confidence_score": 95,
+            "total_score": 1520
+        },
+        {
+            "name": "thyme syrup",
+            "mentions": 13,
+            "confidence_score": 75,
+            "total_score": 975
+        },
+        {
+            "name": "thyme capsules",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "thymol tincture",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "thyme vinegar",
+            "mentions": 7,
+            "confidence_score": 28,
+            "total_score": 196
+        },
+        {
+            "name": "thyme extract",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "thyme decoction",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "thyme infused oil",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "thyme poultice",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "essential oil",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "thyme cream",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "thyme honey",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "thyme glycerite",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "thyme infused vinegar",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "thymus oil",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "thymol syrup",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Thymus vulgaris are made to utilize its carvacrol and thymol content, which exhibit antimicrobial, antifungal, and anti-inflammatory properties. Thyme tea, a liquid extract made by steeping the leaves in hot water, is used to treat respiratory issues like coughs and bronchitis due to its expectorant properties. Thyme tincture, a concentrated liquid extract, is often used to treat digestive issues, such as bloating and indigestion, due to its carminative and anti-inflammatory effects. Thyme oil, a highly concentrated essential oil, is used topically to treat skin issues like acne, wounds, and fungal infections due to its antimicrobial properties, while also being used in aromatherapy for its calming effects. Thyme infusion, a liquid extract made by steeping the leaves in cold water, is similar to thyme tea but has a milder flavor and is often used to make thyme salve, a topical preparation made with beeswax and oil that is used to treat skin issues like eczema and dermatitis.",
+    "side_effects": [
+        {
+            "name": "exacerbate allergies",
+            "mentions": 6,
+            "confidence_score": 53,
+            "total_score": 318
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 5,
+            "confidence_score": 43,
+            "total_score": 215
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "allergic reactions",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "induce photosensitivity",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "cause allergic reactions",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "trigger asthma attack",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "aggravate asthma",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "lower blood pressure",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "hinder digestion",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "causes gastrointestinal bleeding",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "induces diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "prolong bleeding time",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "interact with medication",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "induces dizziness",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effect of using Thymus vulgaris are exacerbation of allergies due to its allergenic compounds like thymol and carvacrol which can trigger severe reactions in individuals with existing allergies. Improper use of Thymus vulgaris can also lead to liver damage as its compounds can be toxic to the liver in high concentrations and prolonged use. Additionally, ingestion of Thymus vulgaris can cause nausea and vomiting due to its strong aromatic properties. Furthermore, Thymus vulgaris can interact with certain medications like blood thinners, diabetes medications, and sedatives, reducing their efficacy or increasing the risk of adverse effects. Thymus vulgaris may also trigger seizures in individuals with a history of seizure disorders due to its neurotoxic properties, especially when used in large quantities or in combination with other medications."
+}

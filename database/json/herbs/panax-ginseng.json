@@ -1,1 +1,744 @@
-{"title": "Panax ginseng", "herb_slug": "panax-ginseng", "herb_name_scientific": "Panax ginseng", "family_slug": "", "family_name": "", "url": "herbs/panax-ginseng", "lastmod": "2025-1-20", "herb_names_common": [{"name": "asian ginseng", "mentions": 35, "confidence_score": 306, "total_score": 10710}, {"name": "chinese ginseng", "mentions": 20, "confidence_score": 186, "total_score": 3720}, {"name": "korean ginseng", "mentions": 20, "confidence_score": 161, "total_score": 3220}, {"name": "red ginseng", "mentions": 18, "confidence_score": 119, "total_score": 2142}, {"name": "panax ginseng", "mentions": 16, "confidence_score": 109, "total_score": 1744}, {"name": "asian red ginseng", "mentions": 8, "confidence_score": 51, "total_score": 408}, {"name": "man's root", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "siberian ginseng", "mentions": 9, "confidence_score": 39, "total_score": 351}, {"name": "american ginseng", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "man root", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "chinese red ginseng", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "canadian ginseng", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "man ginseng", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "asian panax ginseng", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "ginseng root", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "sang", "mentions": 5, "confidence_score": 17, "total_score": 85}, {"name": "chinese panax", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "ren shen", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "korean red ginseng", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "white ginseng", "mentions": 2, "confidence_score": 6, "total_score": 12}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 181, "total_score": 3620}], "what_description": "Panax ginseng is a perennial plant native to eastern Asia, belonging to the family Araliaceae. It has a woody rhizome, up to 2 cm in diameter, with multiple fleshy roots, and a single stem that can grow up to 30 cm in height, bearing 5-10 leaflets on a single stem. The leaves are dark green, glossy, and 5-10 cm long, with a serrated margin and a rounded tip. The plant produces small greenish-yellow flowers in late summer, followed by red berries in autumn. The roots of Panax ginseng contain ginsenosides, which are a group of triterpenoid saponins responsible for its medicinal properties.", "category_action": "adaptogens", "ailments": [{"name": "fatigue", "mentions": 20, "confidence_score": 196, "total_score": 3920}, {"name": "anxiety", "mentions": 20, "confidence_score": 167, "total_score": 3340}, {"name": "insomnia", "mentions": 17, "confidence_score": 143, "total_score": 2431}, {"name": "depression", "mentions": 16, "confidence_score": 122, "total_score": 1952}, {"name": "hypertension", "mentions": 14, "confidence_score": 111, "total_score": 1554}, {"name": "diabetes", "mentions": 14, "confidence_score": 88, "total_score": 1232}, {"name": "chronic stress", "mentions": 11, "confidence_score": 83, "total_score": 913}, {"name": "cognitive decline", "mentions": 11, "confidence_score": 80, "total_score": 880}, {"name": "erectile dysfunction", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "osteoarthritis", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "memory loss", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "cancer prevention", "mentions": 7, "confidence_score": 38, "total_score": 266}, {"name": "impotence", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "migraines", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "chronic pain", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "cognitive impairment", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "high blood pressure", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "cholesterol", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "digestive issues", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "inflammation", "mentions": 3, "confidence_score": 16, "total_score": 48}], "ailments_description": "The most common ailments you can heal with Panax ginseng are fatigue, anxiety, and insomnia, which are often alleviated due to its adaptogenic properties that help regulate the body's response to stress. Additionally, Panax ginseng has been proven to effectively lower hypertension and cholesterol levels by improving lipid profiles and reducing systolic blood pressure. It has also been shown to have a positive impact on diabetes management, improving insulin sensitivity and glucose metabolism. Furthermore, Panax ginseng has been found to alleviate chronic stress, cognitive decline, erectile dysfunction, osteoarthritis, and memory loss, while also exhibiting properties that can prevent cancer, impotence, migraines, chronic pain, and cognitive impairment. Its antioxidant and anti-inflammatory properties also aid in reducing inflammation, high blood pressure, digestive issues, and cholesterol levels, ultimately promoting a healthier and more balanced life.", "properties": [{"name": "antioxidant", "mentions": 21, "confidence_score": 191, "total_score": 4011}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 169, "total_score": 3380}, {"name": "neuroprotective", "mentions": 20, "confidence_score": 163, "total_score": 3260}, {"name": "immunomodulatory", "mentions": 18, "confidence_score": 147, "total_score": 2646}, {"name": "cardioprotective", "mentions": 19, "confidence_score": 146, "total_score": 2774}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 139, "total_score": 2780}, {"name": "anticancer", "mentions": 14, "confidence_score": 83, "total_score": 1162}, {"name": "analgesic", "mentions": 12, "confidence_score": 75, "total_score": 900}, {"name": "anxiolytic", "mentions": 9, "confidence_score": 53, "total_score": 477}, {"name": "antiviral", "mentions": 9, "confidence_score": 52, "total_score": 468}, {"name": "antihypertensive", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "hepatoprotective", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "anti-fatigue", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "antifatigue", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "hypoglycemic", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "neurostimulant", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "antihyperglycemic", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "cytotoxic", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "antioxidant (free radical scavenger)", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "adaptogenic", "mentions": 1, "confidence_score": 9, "total_score": 9}], "properties_description": "The main therapeutic properties of Panax ginseng are closely related to its antioxidant capabilities, which help mitigate oxidative stress and cell damage. The anti-inflammatory properties of this plant contribute to its potential in alleviating conditions such as arthritis, with the bioactive compounds like ginsenosides and flavonoids playing a crucial role. Additionally, Panax ginseng exhibits neuroprotective effects, safeguarding neurons from degeneration and neurotoxicity, and has been shown to enhance cognitive function and memory. The immunomodulatory effects of this plant enable it to modulate the immune response and prevent excessive inflammation, which is beneficial in autoimmune diseases. Furthermore, the cardioprotective properties of Panax ginseng, attributed to its saponin content, help protect against cardiovascular diseases by lowering cholesterol levels and improving blood lipid profiles.", "constituents": [{"name": "ginsenoside rg1", "mentions": 20, "confidence_score": 180, "total_score": 3600}, {"name": "ginsenoside rb1", "mentions": 20, "confidence_score": 180, "total_score": 3600}, {"name": "ginsenoside re", "mentions": 20, "confidence_score": 160, "total_score": 3200}, {"name": "ginsenoside rd", "mentions": 20, "confidence_score": 151, "total_score": 3020}, {"name": "ginsenoside ro", "mentions": 19, "confidence_score": 123, "total_score": 2337}, {"name": "ginsenoside f1", "mentions": 20, "confidence_score": 120, "total_score": 2400}, {"name": "ginsenoside f2", "mentions": 18, "confidence_score": 91, "total_score": 1638}, {"name": "ginsenoside rg3", "mentions": 9, "confidence_score": 68, "total_score": 612}, {"name": "ginsenoside rh2", "mentions": 11, "confidence_score": 60, "total_score": 660}, {"name": "ginsenoside rh1", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "ginsenoside 20(s)-protopanaxadiol", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "ginsenoside rg2", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "ginsenoside 20(s)-protopanaxatriol", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "ginsenoside rb3", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "ginsenoside rk1", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "panaxynol", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "ginsenoside rc", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "ginsenoside k", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "notoginsenoside r1", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "ginsenoside rb2", "mentions": 1, "confidence_score": 8, "total_score": 8}], "constituents_description": "The most important healing constituents of Panax ginseng are ginsenosides, specifically Rg1, Rb1, Re, Rd, and Ro, which have been extensively studied for their therapeutic properties. Rg1 has been shown to have neuroprotective effects by promoting the expression of neurotrophic factors, improving cognitive function, and enhancing the survival of neurons in animal models of Alzheimer's disease and stroke. Rb1 has been demonstrated to exert anti-inflammatory and antioxidant effects, reducing the production of pro-inflammatory cytokines and scavenging free radicals, thus alleviating symptoms of arthritis and other inflammatory diseases. Re has been found to stimulate the proliferation of hematopoietic cells, enhance the immune response, and exhibit antiviral activity, making it beneficial for the prevention and treatment of infections. Rd has been reported to have a protective effect on the cardiovascular system by improving lipid metabolism, reducing blood pressure, and inhibiting platelet aggregation, thus lowering the risk of cardiovascular diseases.", "preparations": [{"name": "ginseng tea", "mentions": 20, "confidence_score": 190, "total_score": 3800}, {"name": "ginseng extract", "mentions": 18, "confidence_score": 155, "total_score": 2790}, {"name": "ginseng tincture", "mentions": 20, "confidence_score": 154, "total_score": 3080}, {"name": "ginseng infusion", "mentions": 19, "confidence_score": 115, "total_score": 2185}, {"name": "ginseng capsules", "mentions": 13, "confidence_score": 106, "total_score": 1378}, {"name": "ginseng decoction", "mentions": 15, "confidence_score": 87, "total_score": 1305}, {"name": "ginseng powder", "mentions": 13, "confidence_score": 74, "total_score": 962}, {"name": "ginseng oil", "mentions": 9, "confidence_score": 45, "total_score": 405}, {"name": "ginseng capsule", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "ginseng elixir", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "ginseng syrup", "mentions": 6, "confidence_score": 19, "total_score": 114}, {"name": "ginseng extract capsules", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "ginseng infused oil", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "ginseng juice", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "ginseng granule", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "ginseng infusate", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "ginseng coffee", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "ginseng wine", "mentions": 1, "confidence_score": 4, "total_score": 4}], "preparations_description": "The main herbal preparations of Panax ginseng are typically derived from its roots and involve different methods of extraction to release its bioactive compounds. Ginseng tea is made by steeping the dried roots in hot water, typically containing 1-2 grams of ginseng per 250 milliliters of water. Ginseng extract is a concentrated form of ginseng, often standardized to contain a specific percentage of ginsenosides, its active compounds. Ginseng tincture and infusion are liquid preparations made by soaking the roots in a solvent, such as ethanol or glycerin, and water respectively, with the tincture being more concentrated. Ginseng capsules are a solid preparation containing dried and powdered ginseng root, often combined with other herbs or excipients.", "side_effects": [{"name": "experience insomnia", "mentions": 7, "confidence_score": 68, "total_score": 476}, {"name": "experiences insomnia", "mentions": 7, "confidence_score": 64, "total_score": 448}, {"name": "develops hypertension", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "develop hypertension", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "develop insomnia", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "suffer liver damage", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "develop high blood pressure", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "experiences liver damage", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "develop liver damage", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "increases blood pressure", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "increases heart rate", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience dizziness", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "get headaches", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "experience hypertension", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "suffers kidney damage", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "get digestive issues", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "feel anxiety", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "suffers liver damage", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "suffer from anxiety", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "reports headaches", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effects of using Panax ginseng improperly include experience insomnia, develop hypertension, and other cardiovascular issues. These adverse effects can occur due to the high levels of ginsenosides present in the herb, which can stimulate the nervous system and increase blood pressure. In some cases, taking Panax ginseng in excess can lead to insomnia, develop hypertension, and even exacerbate existing hypertension conditions. This is particularly concerning for individuals with pre-existing cardiovascular conditions, as high blood pressure can increase the risk of heart disease and stroke. The improper use of Panax ginseng can also interact with certain medications, such as blood thinners and diabetes medications, leading to potentially serious complications."}
+{
+    "title": "Panax ginseng",
+    "herb_slug": "panax-ginseng",
+    "herb_name_scientific": "Panax ginseng",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/panax-ginseng",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "asian ginseng",
+            "mentions": 35,
+            "confidence_score": 306,
+            "total_score": 10710
+        },
+        {
+            "name": "chinese ginseng",
+            "mentions": 20,
+            "confidence_score": 186,
+            "total_score": 3720
+        },
+        {
+            "name": "korean ginseng",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        },
+        {
+            "name": "red ginseng",
+            "mentions": 18,
+            "confidence_score": 119,
+            "total_score": 2142
+        },
+        {
+            "name": "panax ginseng",
+            "mentions": 16,
+            "confidence_score": 109,
+            "total_score": 1744
+        },
+        {
+            "name": "asian red ginseng",
+            "mentions": 8,
+            "confidence_score": 51,
+            "total_score": 408
+        },
+        {
+            "name": "man's root",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "siberian ginseng",
+            "mentions": 9,
+            "confidence_score": 39,
+            "total_score": 351
+        },
+        {
+            "name": "american ginseng",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "man root",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "chinese red ginseng",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "canadian ginseng",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "man ginseng",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "asian panax ginseng",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "ginseng root",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "sang",
+            "mentions": 5,
+            "confidence_score": 17,
+            "total_score": 85
+        },
+        {
+            "name": "chinese panax",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "ren shen",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "korean red ginseng",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "white ginseng",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 181,
+            "total_score": 3620
+        }
+    ],
+    "what_description": "Panax ginseng is a perennial plant native to eastern Asia, belonging to the family Araliaceae. It has a woody rhizome, up to 2 cm in diameter, with multiple fleshy roots, and a single stem that can grow up to 30 cm in height, bearing 5-10 leaflets on a single stem. The leaves are dark green, glossy, and 5-10 cm long, with a serrated margin and a rounded tip. The plant produces small greenish-yellow flowers in late summer, followed by red berries in autumn. The roots of Panax ginseng contain ginsenosides, which are a group of triterpenoid saponins responsible for its medicinal properties.",
+    "category_action": "adaptogens",
+    "ailments": [
+        {
+            "name": "fatigue",
+            "mentions": 20,
+            "confidence_score": 196,
+            "total_score": 3920
+        },
+        {
+            "name": "anxiety",
+            "mentions": 20,
+            "confidence_score": 167,
+            "total_score": 3340
+        },
+        {
+            "name": "insomnia",
+            "mentions": 17,
+            "confidence_score": 143,
+            "total_score": 2431
+        },
+        {
+            "name": "depression",
+            "mentions": 16,
+            "confidence_score": 122,
+            "total_score": 1952
+        },
+        {
+            "name": "hypertension",
+            "mentions": 14,
+            "confidence_score": 111,
+            "total_score": 1554
+        },
+        {
+            "name": "diabetes",
+            "mentions": 14,
+            "confidence_score": 88,
+            "total_score": 1232
+        },
+        {
+            "name": "chronic stress",
+            "mentions": 11,
+            "confidence_score": 83,
+            "total_score": 913
+        },
+        {
+            "name": "cognitive decline",
+            "mentions": 11,
+            "confidence_score": 80,
+            "total_score": 880
+        },
+        {
+            "name": "erectile dysfunction",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "osteoarthritis",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "memory loss",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 7,
+            "confidence_score": 38,
+            "total_score": 266
+        },
+        {
+            "name": "impotence",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "migraines",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "chronic pain",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "cognitive impairment",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "cholesterol",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "inflammation",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Panax ginseng are fatigue, anxiety, and insomnia, which are often alleviated due to its adaptogenic properties that help regulate the body's response to stress. Additionally, Panax ginseng has been proven to effectively lower hypertension and cholesterol levels by improving lipid profiles and reducing systolic blood pressure. It has also been shown to have a positive impact on diabetes management, improving insulin sensitivity and glucose metabolism. Furthermore, Panax ginseng has been found to alleviate chronic stress, cognitive decline, erectile dysfunction, osteoarthritis, and memory loss, while also exhibiting properties that can prevent cancer, impotence, migraines, chronic pain, and cognitive impairment. Its antioxidant and anti-inflammatory properties also aid in reducing inflammation, high blood pressure, digestive issues, and cholesterol levels, ultimately promoting a healthier and more balanced life.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 21,
+            "confidence_score": 191,
+            "total_score": 4011
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 169,
+            "total_score": 3380
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 20,
+            "confidence_score": 163,
+            "total_score": 3260
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 18,
+            "confidence_score": 147,
+            "total_score": 2646
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 19,
+            "confidence_score": 146,
+            "total_score": 2774
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 139,
+            "total_score": 2780
+        },
+        {
+            "name": "anticancer",
+            "mentions": 14,
+            "confidence_score": 83,
+            "total_score": 1162
+        },
+        {
+            "name": "analgesic",
+            "mentions": 12,
+            "confidence_score": 75,
+            "total_score": 900
+        },
+        {
+            "name": "anxiolytic",
+            "mentions": 9,
+            "confidence_score": 53,
+            "total_score": 477
+        },
+        {
+            "name": "antiviral",
+            "mentions": 9,
+            "confidence_score": 52,
+            "total_score": 468
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "anti-fatigue",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "antifatigue",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "neurostimulant",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "antihyperglycemic",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "antioxidant (free radical scavenger)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "adaptogenic",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Panax ginseng are closely related to its antioxidant capabilities, which help mitigate oxidative stress and cell damage. The anti-inflammatory properties of this plant contribute to its potential in alleviating conditions such as arthritis, with the bioactive compounds like ginsenosides and flavonoids playing a crucial role. Additionally, Panax ginseng exhibits neuroprotective effects, safeguarding neurons from degeneration and neurotoxicity, and has been shown to enhance cognitive function and memory. The immunomodulatory effects of this plant enable it to modulate the immune response and prevent excessive inflammation, which is beneficial in autoimmune diseases. Furthermore, the cardioprotective properties of Panax ginseng, attributed to its saponin content, help protect against cardiovascular diseases by lowering cholesterol levels and improving blood lipid profiles.",
+    "constituents": [
+        {
+            "name": "ginsenoside rg1",
+            "mentions": 20,
+            "confidence_score": 180,
+            "total_score": 3600
+        },
+        {
+            "name": "ginsenoside rb1",
+            "mentions": 20,
+            "confidence_score": 180,
+            "total_score": 3600
+        },
+        {
+            "name": "ginsenoside re",
+            "mentions": 20,
+            "confidence_score": 160,
+            "total_score": 3200
+        },
+        {
+            "name": "ginsenoside rd",
+            "mentions": 20,
+            "confidence_score": 151,
+            "total_score": 3020
+        },
+        {
+            "name": "ginsenoside ro",
+            "mentions": 19,
+            "confidence_score": 123,
+            "total_score": 2337
+        },
+        {
+            "name": "ginsenoside f1",
+            "mentions": 20,
+            "confidence_score": 120,
+            "total_score": 2400
+        },
+        {
+            "name": "ginsenoside f2",
+            "mentions": 18,
+            "confidence_score": 91,
+            "total_score": 1638
+        },
+        {
+            "name": "ginsenoside rg3",
+            "mentions": 9,
+            "confidence_score": 68,
+            "total_score": 612
+        },
+        {
+            "name": "ginsenoside rh2",
+            "mentions": 11,
+            "confidence_score": 60,
+            "total_score": 660
+        },
+        {
+            "name": "ginsenoside rh1",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "ginsenoside 20(s)-protopanaxadiol",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "ginsenoside rg2",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "ginsenoside 20(s)-protopanaxatriol",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "ginsenoside rb3",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "ginsenoside rk1",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "panaxynol",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "ginsenoside rc",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "ginsenoside k",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "notoginsenoside r1",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "ginsenoside rb2",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Panax ginseng are ginsenosides, specifically Rg1, Rb1, Re, Rd, and Ro, which have been extensively studied for their therapeutic properties. Rg1 has been shown to have neuroprotective effects by promoting the expression of neurotrophic factors, improving cognitive function, and enhancing the survival of neurons in animal models of Alzheimer's disease and stroke. Rb1 has been demonstrated to exert anti-inflammatory and antioxidant effects, reducing the production of pro-inflammatory cytokines and scavenging free radicals, thus alleviating symptoms of arthritis and other inflammatory diseases. Re has been found to stimulate the proliferation of hematopoietic cells, enhance the immune response, and exhibit antiviral activity, making it beneficial for the prevention and treatment of infections. Rd has been reported to have a protective effect on the cardiovascular system by improving lipid metabolism, reducing blood pressure, and inhibiting platelet aggregation, thus lowering the risk of cardiovascular diseases.",
+    "preparations": [
+        {
+            "name": "ginseng tea",
+            "mentions": 20,
+            "confidence_score": 190,
+            "total_score": 3800
+        },
+        {
+            "name": "ginseng extract",
+            "mentions": 18,
+            "confidence_score": 155,
+            "total_score": 2790
+        },
+        {
+            "name": "ginseng tincture",
+            "mentions": 20,
+            "confidence_score": 154,
+            "total_score": 3080
+        },
+        {
+            "name": "ginseng infusion",
+            "mentions": 19,
+            "confidence_score": 115,
+            "total_score": 2185
+        },
+        {
+            "name": "ginseng capsules",
+            "mentions": 13,
+            "confidence_score": 106,
+            "total_score": 1378
+        },
+        {
+            "name": "ginseng decoction",
+            "mentions": 15,
+            "confidence_score": 87,
+            "total_score": 1305
+        },
+        {
+            "name": "ginseng powder",
+            "mentions": 13,
+            "confidence_score": 74,
+            "total_score": 962
+        },
+        {
+            "name": "ginseng oil",
+            "mentions": 9,
+            "confidence_score": 45,
+            "total_score": 405
+        },
+        {
+            "name": "ginseng capsule",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "ginseng elixir",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "ginseng syrup",
+            "mentions": 6,
+            "confidence_score": 19,
+            "total_score": 114
+        },
+        {
+            "name": "ginseng extract capsules",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "ginseng infused oil",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "ginseng juice",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "ginseng granule",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "ginseng infusate",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "ginseng coffee",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "ginseng wine",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Panax ginseng are typically derived from its roots and involve different methods of extraction to release its bioactive compounds. Ginseng tea is made by steeping the dried roots in hot water, typically containing 1-2 grams of ginseng per 250 milliliters of water. Ginseng extract is a concentrated form of ginseng, often standardized to contain a specific percentage of ginsenosides, its active compounds. Ginseng tincture and infusion are liquid preparations made by soaking the roots in a solvent, such as ethanol or glycerin, and water respectively, with the tincture being more concentrated. Ginseng capsules are a solid preparation containing dried and powdered ginseng root, often combined with other herbs or excipients.",
+    "side_effects": [
+        {
+            "name": "experience insomnia",
+            "mentions": 7,
+            "confidence_score": 68,
+            "total_score": 476
+        },
+        {
+            "name": "experiences insomnia",
+            "mentions": 7,
+            "confidence_score": 64,
+            "total_score": 448
+        },
+        {
+            "name": "develops hypertension",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "develop hypertension",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "develop insomnia",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "develop high blood pressure",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "experiences liver damage",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "develop liver damage",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "increases blood pressure",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "increases heart rate",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "get headaches",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "experience hypertension",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "suffers kidney damage",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "get digestive issues",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "feel anxiety",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "suffers liver damage",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "suffer from anxiety",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "reports headaches",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Panax ginseng improperly include experience insomnia, develop hypertension, and other cardiovascular issues. These adverse effects can occur due to the high levels of ginsenosides present in the herb, which can stimulate the nervous system and increase blood pressure. In some cases, taking Panax ginseng in excess can lead to insomnia, develop hypertension, and even exacerbate existing hypertension conditions. This is particularly concerning for individuals with pre-existing cardiovascular conditions, as high blood pressure can increase the risk of heart disease and stroke. The improper use of Panax ginseng can also interact with certain medications, such as blood thinners and diabetes medications, leading to potentially serious complications."
+}

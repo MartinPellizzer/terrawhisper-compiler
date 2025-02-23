@@ -1,1 +1,756 @@
-{"title": "Harpagophytum procumbens", "herb_slug": "harpagophytum-procumbens", "herb_name_scientific": "Harpagophytum procumbens", "family_slug": "", "family_name": "", "url": "herbs/harpagophytum-procumbens", "lastmod": "2025-1-20", "herb_names_common": [{"name": "devil's claw", "mentions": 20, "confidence_score": 197, "total_score": 3940}, {"name": "harpagophytum", "mentions": 20, "confidence_score": 146, "total_score": 2920}, {"name": "grapple plant", "mentions": 22, "confidence_score": 134, "total_score": 2948}, {"name": "wood spider", "mentions": 12, "confidence_score": 55, "total_score": 660}, {"name": "wild devil's claw", "mentions": 6, "confidence_score": 48, "total_score": 288}, {"name": "graskop", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "hooded grapple", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "devil's claw root", "mentions": 7, "confidence_score": 31, "total_score": 217}, {"name": "hood of the devil", "mentions": 6, "confidence_score": 27, "total_score": 162}, {"name": "cape devil's claw", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "cape grass", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "harpagophytum procumbens", "mentions": 6, "confidence_score": 18, "total_score": 108}, {"name": "climbing grapple", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "cape claw flower", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "graskrall", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "wood spurge", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "graskoppe", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "climbing devil's claw", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "grapple bush", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "devils claw", "mentions": 1, "confidence_score": 10, "total_score": 10}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 173, "total_score": 3460}], "what_description": "Harpagophytum procumbens is a perennial plant native to southern Africa, belonging to the family Pedaliaceae. It grows up to 1 meter in height, with procumbent stems bearing lance-shaped leaves that are 2-5 cm long and 1-2 cm wide. The plant produces small, greenish-yellow flowers in clusters from June to October, which develop into 4-angled capsules containing numerous seeds. The roots are used medicinally, containing harpagoside, a iridoid glycoside responsible for its anti-inflammatory and analgesic properties. The plant is commonly known as Devil's Claw, a name derived from its unique claw-like fruit appendages.", "category_action": "anti-inflammatory", "ailments": [{"name": "rheumatoid arthritis", "mentions": 20, "confidence_score": 188, "total_score": 3760}, {"name": "inflammation", "mentions": 20, "confidence_score": 179, "total_score": 3580}, {"name": "pain", "mentions": 13, "confidence_score": 109, "total_score": 1417}, {"name": "rheumatism", "mentions": 15, "confidence_score": 105, "total_score": 1575}, {"name": "gout", "mentions": 14, "confidence_score": 91, "total_score": 1274}, {"name": "tendinitis", "mentions": 13, "confidence_score": 83, "total_score": 1079}, {"name": "muscle spasms", "mentions": 11, "confidence_score": 74, "total_score": 814}, {"name": "osteoarthritis", "mentions": 8, "confidence_score": 55, "total_score": 440}, {"name": "fibromyalgia", "mentions": 9, "confidence_score": 49, "total_score": 441}, {"name": "swelling", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "sprains", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "infection", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "sciatica", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "muscle pain", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "joint pain", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "stiffness", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "bruising", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "bruises", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "bursitis", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "digestive issues", "mentions": 3, "confidence_score": 16, "total_score": 48}], "ailments_description": "The most common ailments you can heal with Harpagophytum procumbens are rheumatoid arthritis, with its anti-inflammatory properties reducing joint swelling and pain. Inflammation is effectively reduced due to its high content of harpagoside, which has been shown to inhibit prostaglandin synthesis. Harpagophytum procumbens is also effective in treating pain, including acute and chronic pain, through its analgesic properties. Rheumatism symptoms such as joint pain and stiffness are alleviated by its anti-inflammatory and anti-arthritic effects, also alleviating symptoms of gout, tendinitis, and muscle spasms. Harpagophytum procumbens has also been proven to alleviate symptoms of osteoarthritis, fibromyalgia, swelling, sprains, infection, sciatica, muscle pain, joint pain, stiffness, bruising, and bruises, as well as bursitis and digestive issues.", "properties": [{"name": "anti-inflammatory", "mentions": 20, "confidence_score": 179, "total_score": 3580}, {"name": "antioxidant", "mentions": 23, "confidence_score": 174, "total_score": 4002}, {"name": "analgesic", "mentions": 20, "confidence_score": 168, "total_score": 3360}, {"name": "immunomodulatory", "mentions": 12, "confidence_score": 79, "total_score": 948}, {"name": "antispasmodic", "mentions": 12, "confidence_score": 71, "total_score": 852}, {"name": "anti-rheumatic", "mentions": 7, "confidence_score": 53, "total_score": 371}, {"name": "antimicrobial", "mentions": 9, "confidence_score": 44, "total_score": 396}, {"name": "antipyretic", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "antibacterial", "mentions": 8, "confidence_score": 43, "total_score": 344}, {"name": "neuroprotective", "mentions": 11, "confidence_score": 43, "total_score": 473}, {"name": "immune system modulator", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "anti-arthritic", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "antifungal", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "hepatoprotective", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "antiviral", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "gastroprotective", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "free radical scavenger", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "sedative", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "antioxidant enzyme inducer", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "immunomodulator", "mentions": 2, "confidence_score": 12, "total_score": 24}], "properties_description": "The main therapeutic properties of Harpagophytum procumbens are its analgesic effects, which are attributed to its bioactive compounds such as flavonoids and saponins. This plant exhibits anti-inflammatory properties, which are partly due to the presence of volatile oils, thereby reducing pain and inflammation in various conditions. Additionally, the antioxidant properties of Harpagophytum procumbens are a result of its high content of flavonoids and phenolic acids, which help protect against oxidative stress and cell damage. The immunomodulatory effects of this plant, which involve the regulation of the immune system, are associated with the presence of saponins and flavonoids, making it beneficial for conditions such as arthritis. Furthermore, the antispasmodic properties of Harpagophytum procumbens, which involve the relaxation of smooth muscle, are due to its bioactive compounds like flavonoids and saponins, thereby providing relief from muscle spasms.", "constituents": [{"name": "harpagoside", "mentions": 20, "confidence_score": 179, "total_score": 3580}, {"name": "harpagide", "mentions": 12, "confidence_score": 97, "total_score": 1164}, {"name": "harpagophytum extract's flavonoids", "mentions": 10, "confidence_score": 55, "total_score": 550}, {"name": "procumbideside", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "harpagophytum extract's phenolic acids", "mentions": 9, "confidence_score": 44, "total_score": 396}, {"name": "triterpene saponins", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "oleanolic acid", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "ursolic acid", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "quercetin", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "harpagophytum extract's alkaloids", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "harpagophytum extract's saponins", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "kaempferol", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "harpagophytum procumbens extract", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "\u03b1-hydroxy-\u03b2-amyrin", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "\u03b2-sitosterol", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "triterpenoid saponins", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "harposide-6-glucoside", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "tannins", "mentions": 5, "confidence_score": 16, "total_score": 80}, {"name": "harpagophylline", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "glycosides", "mentions": 3, "confidence_score": 14, "total_score": 42}], "constituents_description": "The most important healing constituents of Harpagophytum procumbens are harpagoside, harpagide, flavonoids, procumbideside, and phenolic acids. Harpagoside, a iridoid glycoside, has been shown to possess anti-inflammatory and analgesic properties, while harpagide has been found to exhibit antioxidant and anti-inflammatory activities. The flavonoids present in Harpagophytum procumbens extract, such as kaempferol and quercetin, have been reported to possess anti-inflammatory and antioxidant properties. Procumbideside, another iridoid glycoside, has been found to have anti-inflammatory activity, while the phenolic acids, including caffeic and ferulic acid, have been reported to possess antioxidant and anti-inflammatory properties. The combination of these constituents in Harpagophytum procumbens extract contributes to its traditional use as a treatment for joint pain and inflammation.", "preparations": [{"name": "tincture harpg", "mentions": 16, "confidence_score": 137, "total_score": 2192}, {"name": "harpg tea", "mentions": 16, "confidence_score": 117, "total_score": 1872}, {"name": "capsules", "mentions": 12, "confidence_score": 104, "total_score": 1248}, {"name": "infusion", "mentions": 12, "confidence_score": 80, "total_score": 960}, {"name": "harpag extract", "mentions": 7, "confidence_score": 36, "total_score": 252}, {"name": "harpgs capsule", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "harpg oil", "mentions": 7, "confidence_score": 27, "total_score": 189}, {"name": "harpgon decoction", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "salve", "mentions": 7, "confidence_score": 24, "total_score": 168}, {"name": "harpgon oil", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "harpgon capsules", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "devil's claw tea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "harpgon tincture", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "suppositories", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "topical cream", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "infused oil", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "harpgs oil", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "harpagophytum capsules", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "harpgon infusion", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "harpagophytum tincture", "mentions": 1, "confidence_score": 8, "total_score": 8}], "preparations_description": "The main herbal preparations of Harpagophytum procumbens are derived from the root of the plant, which contains harpagoside and harpagide responsible for its therapeutic properties. Harpagophytum tincture (harpg) is a liquid extract typically standardized to 2-4% harpagoside, used to treat pain and inflammation. Harpg tea is a decoction made from the roots, traditionally used for its anti-inflammatory and analgesic effects. Capsules and infusions are also prepared from the roots, with the latter often standardized to 2-5% harpagoside. Harpag extract is a concentrated form of the plant's root, often standardized to 40-70% harpagoside, used to treat a range of conditions including rheumatoid arthritis and osteoarthritis.", "side_effects": [{"name": "cause nausea", "mentions": 7, "confidence_score": 49, "total_score": 343}, {"name": "experiencing dizziness", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "experiencing fatigue", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "experiencing vomiting", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "experiencing allergic reactions", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "trigger headaches", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "showing abdominal pain", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "induce diarrhea", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "exacerbate inflammation", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "induce allergic reactions", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "abuse", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "cause skin rashes", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "hypotension", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "interact with medications", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "experience nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "have dizziness", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "experience abdominal pain", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "increase risk of bleeding", "mentions": 2, "confidence_score": 16, "total_score": 32}], "side_effects_description": "The possible side effect of using Harpagophytum procumbens are gastrointestinal issues and allergic reactions when used improperly. Taking high doses of Harpagophytum procumbens can cause nausea, dizziness, fatigue, vomiting and allergic reactions. This is because Harpagophytum procumbens contains harpagoside, a glycoside that can cause gastrointestinal upset, especially when consumed in excess. The high levels of harpagoside in the extract can lead to an imbalance in the body's natural chemicals, resulting in adverse reactions such as dizziness, nausea, fatigue and vomiting. Furthermore, some individuals may experience allergic reactions such as hives, itching, and swelling due to the body's immune system reacting to the compound."}
+{
+    "title": "Harpagophytum procumbens",
+    "herb_slug": "harpagophytum-procumbens",
+    "herb_name_scientific": "Harpagophytum procumbens",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/harpagophytum-procumbens",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "devil's claw",
+            "mentions": 20,
+            "confidence_score": 197,
+            "total_score": 3940
+        },
+        {
+            "name": "harpagophytum",
+            "mentions": 20,
+            "confidence_score": 146,
+            "total_score": 2920
+        },
+        {
+            "name": "grapple plant",
+            "mentions": 22,
+            "confidence_score": 134,
+            "total_score": 2948
+        },
+        {
+            "name": "wood spider",
+            "mentions": 12,
+            "confidence_score": 55,
+            "total_score": 660
+        },
+        {
+            "name": "wild devil's claw",
+            "mentions": 6,
+            "confidence_score": 48,
+            "total_score": 288
+        },
+        {
+            "name": "graskop",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "hooded grapple",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "devil's claw root",
+            "mentions": 7,
+            "confidence_score": 31,
+            "total_score": 217
+        },
+        {
+            "name": "hood of the devil",
+            "mentions": 6,
+            "confidence_score": 27,
+            "total_score": 162
+        },
+        {
+            "name": "cape devil's claw",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "cape grass",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "harpagophytum procumbens",
+            "mentions": 6,
+            "confidence_score": 18,
+            "total_score": 108
+        },
+        {
+            "name": "climbing grapple",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "cape claw flower",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "graskrall",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "wood spurge",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "graskoppe",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "climbing devil's claw",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "grapple bush",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "devils claw",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 173,
+            "total_score": 3460
+        }
+    ],
+    "what_description": "Harpagophytum procumbens is a perennial plant native to southern Africa, belonging to the family Pedaliaceae. It grows up to 1 meter in height, with procumbent stems bearing lance-shaped leaves that are 2-5 cm long and 1-2 cm wide. The plant produces small, greenish-yellow flowers in clusters from June to October, which develop into 4-angled capsules containing numerous seeds. The roots are used medicinally, containing harpagoside, a iridoid glycoside responsible for its anti-inflammatory and analgesic properties. The plant is commonly known as Devil's Claw, a name derived from its unique claw-like fruit appendages.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "rheumatoid arthritis",
+            "mentions": 20,
+            "confidence_score": 188,
+            "total_score": 3760
+        },
+        {
+            "name": "inflammation",
+            "mentions": 20,
+            "confidence_score": 179,
+            "total_score": 3580
+        },
+        {
+            "name": "pain",
+            "mentions": 13,
+            "confidence_score": 109,
+            "total_score": 1417
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 15,
+            "confidence_score": 105,
+            "total_score": 1575
+        },
+        {
+            "name": "gout",
+            "mentions": 14,
+            "confidence_score": 91,
+            "total_score": 1274
+        },
+        {
+            "name": "tendinitis",
+            "mentions": 13,
+            "confidence_score": 83,
+            "total_score": 1079
+        },
+        {
+            "name": "muscle spasms",
+            "mentions": 11,
+            "confidence_score": 74,
+            "total_score": 814
+        },
+        {
+            "name": "osteoarthritis",
+            "mentions": 8,
+            "confidence_score": 55,
+            "total_score": 440
+        },
+        {
+            "name": "fibromyalgia",
+            "mentions": 9,
+            "confidence_score": 49,
+            "total_score": 441
+        },
+        {
+            "name": "swelling",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "sprains",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "infection",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "sciatica",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "muscle pain",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "joint pain",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "stiffness",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "bruising",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "bruises",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "bursitis",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Harpagophytum procumbens are rheumatoid arthritis, with its anti-inflammatory properties reducing joint swelling and pain. Inflammation is effectively reduced due to its high content of harpagoside, which has been shown to inhibit prostaglandin synthesis. Harpagophytum procumbens is also effective in treating pain, including acute and chronic pain, through its analgesic properties. Rheumatism symptoms such as joint pain and stiffness are alleviated by its anti-inflammatory and anti-arthritic effects, also alleviating symptoms of gout, tendinitis, and muscle spasms. Harpagophytum procumbens has also been proven to alleviate symptoms of osteoarthritis, fibromyalgia, swelling, sprains, infection, sciatica, muscle pain, joint pain, stiffness, bruising, and bruises, as well as bursitis and digestive issues.",
+    "properties": [
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 179,
+            "total_score": 3580
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 23,
+            "confidence_score": 174,
+            "total_score": 4002
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 168,
+            "total_score": 3360
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 12,
+            "confidence_score": 79,
+            "total_score": 948
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 12,
+            "confidence_score": 71,
+            "total_score": 852
+        },
+        {
+            "name": "anti-rheumatic",
+            "mentions": 7,
+            "confidence_score": 53,
+            "total_score": 371
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 9,
+            "confidence_score": 44,
+            "total_score": 396
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 8,
+            "confidence_score": 43,
+            "total_score": 344
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 11,
+            "confidence_score": 43,
+            "total_score": 473
+        },
+        {
+            "name": "immune system modulator",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "anti-arthritic",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "antifungal",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "antiviral",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "gastroprotective",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "free radical scavenger",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "sedative",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "antioxidant enzyme inducer",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "immunomodulator",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Harpagophytum procumbens are its analgesic effects, which are attributed to its bioactive compounds such as flavonoids and saponins. This plant exhibits anti-inflammatory properties, which are partly due to the presence of volatile oils, thereby reducing pain and inflammation in various conditions. Additionally, the antioxidant properties of Harpagophytum procumbens are a result of its high content of flavonoids and phenolic acids, which help protect against oxidative stress and cell damage. The immunomodulatory effects of this plant, which involve the regulation of the immune system, are associated with the presence of saponins and flavonoids, making it beneficial for conditions such as arthritis. Furthermore, the antispasmodic properties of Harpagophytum procumbens, which involve the relaxation of smooth muscle, are due to its bioactive compounds like flavonoids and saponins, thereby providing relief from muscle spasms.",
+    "constituents": [
+        {
+            "name": "harpagoside",
+            "mentions": 20,
+            "confidence_score": 179,
+            "total_score": 3580
+        },
+        {
+            "name": "harpagide",
+            "mentions": 12,
+            "confidence_score": 97,
+            "total_score": 1164
+        },
+        {
+            "name": "harpagophytum extract's flavonoids",
+            "mentions": 10,
+            "confidence_score": 55,
+            "total_score": 550
+        },
+        {
+            "name": "procumbideside",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "harpagophytum extract's phenolic acids",
+            "mentions": 9,
+            "confidence_score": 44,
+            "total_score": 396
+        },
+        {
+            "name": "triterpene saponins",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "ursolic acid",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "quercetin",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "harpagophytum extract's alkaloids",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "harpagophytum extract's saponins",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "harpagophytum procumbens extract",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "\u03b1-hydroxy-\u03b2-amyrin",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "\u03b2-sitosterol",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "triterpenoid saponins",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "harposide-6-glucoside",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "tannins",
+            "mentions": 5,
+            "confidence_score": 16,
+            "total_score": 80
+        },
+        {
+            "name": "harpagophylline",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "glycosides",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Harpagophytum procumbens are harpagoside, harpagide, flavonoids, procumbideside, and phenolic acids. Harpagoside, a iridoid glycoside, has been shown to possess anti-inflammatory and analgesic properties, while harpagide has been found to exhibit antioxidant and anti-inflammatory activities. The flavonoids present in Harpagophytum procumbens extract, such as kaempferol and quercetin, have been reported to possess anti-inflammatory and antioxidant properties. Procumbideside, another iridoid glycoside, has been found to have anti-inflammatory activity, while the phenolic acids, including caffeic and ferulic acid, have been reported to possess antioxidant and anti-inflammatory properties. The combination of these constituents in Harpagophytum procumbens extract contributes to its traditional use as a treatment for joint pain and inflammation.",
+    "preparations": [
+        {
+            "name": "tincture harpg",
+            "mentions": 16,
+            "confidence_score": 137,
+            "total_score": 2192
+        },
+        {
+            "name": "harpg tea",
+            "mentions": 16,
+            "confidence_score": 117,
+            "total_score": 1872
+        },
+        {
+            "name": "capsules",
+            "mentions": 12,
+            "confidence_score": 104,
+            "total_score": 1248
+        },
+        {
+            "name": "infusion",
+            "mentions": 12,
+            "confidence_score": 80,
+            "total_score": 960
+        },
+        {
+            "name": "harpag extract",
+            "mentions": 7,
+            "confidence_score": 36,
+            "total_score": 252
+        },
+        {
+            "name": "harpgs capsule",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "harpg oil",
+            "mentions": 7,
+            "confidence_score": 27,
+            "total_score": 189
+        },
+        {
+            "name": "harpgon decoction",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "salve",
+            "mentions": 7,
+            "confidence_score": 24,
+            "total_score": 168
+        },
+        {
+            "name": "harpgon oil",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "harpgon capsules",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "devil's claw tea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "harpgon tincture",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "suppositories",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "topical cream",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "infused oil",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "harpgs oil",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "harpagophytum capsules",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "harpgon infusion",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "harpagophytum tincture",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Harpagophytum procumbens are derived from the root of the plant, which contains harpagoside and harpagide responsible for its therapeutic properties. Harpagophytum tincture (harpg) is a liquid extract typically standardized to 2-4% harpagoside, used to treat pain and inflammation. Harpg tea is a decoction made from the roots, traditionally used for its anti-inflammatory and analgesic effects. Capsules and infusions are also prepared from the roots, with the latter often standardized to 2-5% harpagoside. Harpag extract is a concentrated form of the plant's root, often standardized to 40-70% harpagoside, used to treat a range of conditions including rheumatoid arthritis and osteoarthritis.",
+    "side_effects": [
+        {
+            "name": "cause nausea",
+            "mentions": 7,
+            "confidence_score": 49,
+            "total_score": 343
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "experiencing fatigue",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "experiencing allergic reactions",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "showing abdominal pain",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "exacerbate inflammation",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "induce allergic reactions",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "abuse",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "cause skin rashes",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "hypotension",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "have dizziness",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "increase risk of bleeding",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "side_effects_description": "The possible side effect of using Harpagophytum procumbens are gastrointestinal issues and allergic reactions when used improperly. Taking high doses of Harpagophytum procumbens can cause nausea, dizziness, fatigue, vomiting and allergic reactions. This is because Harpagophytum procumbens contains harpagoside, a glycoside that can cause gastrointestinal upset, especially when consumed in excess. The high levels of harpagoside in the extract can lead to an imbalance in the body's natural chemicals, resulting in adverse reactions such as dizziness, nausea, fatigue and vomiting. Furthermore, some individuals may experience allergic reactions such as hives, itching, and swelling due to the body's immune system reacting to the compound."
+}

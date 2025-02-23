@@ -1,1 +1,148 @@
-{"title": "Ephippiorhynchium polycephalum", "herb_slug": "ephippiorhynchium-polycephalum", "herb_name_scientific": "Ephippiorhynchium polycephalum", "family_slug": "cyperaceae", "family_name": "Cyperaceae", "url": "herbs/ephippiorhynchium-polycephalum", "lastmod": "2025-1-8", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 195, "total_score": 3900}], "herb_names_common": [{"name": "ephippiorhynchus asiaticus", "mentions": 13, "confidence_score": 122, "total_score": 1586}, {"name": "no common name found", "mentions": 10, "confidence_score": 100, "total_score": 1000}, {"name": "saddle-billed stork", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "ephippiorhynchium fern", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "ephippiorhynchus asiaticus polycephalum", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "polycephalum moss", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "saddle-billed stork (ephippiorhynchus spp.)", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "ephippium fern", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "giant hornbill", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "goliath stork", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "no matching results were found for ephippiorhynchium polycephalum. however, a possible alternative name for this genus is ephippiorhynchus.", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "saddle-billed stork species", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "goliath heron", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "open-billed stork", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "saddlebilled stork (ephippiorhynchus spp.)", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "lesser adjutant", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "lesser adjutant stork", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "lesser saddle-billed stork", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "ephippiorhynchus senegalensis", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "grey heron", "mentions": 2, "confidence_score": 11, "total_score": 22}], "taxonomy": "Ephippiorhynchium polycephalum is a genus of ferns in the family Hymenophyllaceae. This genus is part of the larger group of ferns known as the hymenophyllalean filmy ferns. The Hymenophyllaceae family consists of approximately 700 species of ferns, which are distributed across the globe, primarily in tropical and subtropical regions. The classification of Ephippiorhynchium polycephalum places it within the division Pteridophyta, which includes all ferns and their allies. The exact species classification is still being studied and may be subject to change as new research emerges.", "uses": "Info not available yet.", "benefits": "Info not available yet.", "properties": "Unfortunately, I do not have enough information about the plant Ephippiorhynchium polycephalum to provide a response regarding its therapeutic properties.", "constituents": "Info not available yet.", "parts": "Info not available yet.", "preparations": "Ephippiorhynchium polycephalum is not a well-documented plant species. However, some plants of the genus Ephippiorhynchium have been used in traditional medicine in various parts of the world. Herbal preparations made from these plants are often used to treat respiratory issues and skin conditions. The properties of Ephippiorhynchium polycephalum itself, if it exists, are not well-documented, and its potential uses in herbal preparations are unknown. Further research is needed to understand the properties and potential uses of this plant species.", "side_effects": "Info not available yet.", "intro": "I couldn't find any information on the plant Ephippiorhynchium polycephalum. However, I did find information on the lichen Ephippiorhynchium polycephalum is not a plant but a lichen and it seems this information is not available.\n\nBut, I can provide information on a different plant that may be similar to what you're looking for. \n\nHowever, if you are looking for information on a different plant, please provide more information or context about the plant you're looking for."}
+{
+    "title": "Ephippiorhynchium polycephalum",
+    "herb_slug": "ephippiorhynchium-polycephalum",
+    "herb_name_scientific": "Ephippiorhynchium polycephalum",
+    "family_slug": "cyperaceae",
+    "family_name": "Cyperaceae",
+    "url": "herbs/ephippiorhynchium-polycephalum",
+    "lastmod": "2025-1-8",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 195,
+            "total_score": 3900
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "ephippiorhynchus asiaticus",
+            "mentions": 13,
+            "confidence_score": 122,
+            "total_score": 1586
+        },
+        {
+            "name": "no common name found",
+            "mentions": 10,
+            "confidence_score": 100,
+            "total_score": 1000
+        },
+        {
+            "name": "saddle-billed stork",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "ephippiorhynchium fern",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "ephippiorhynchus asiaticus polycephalum",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "polycephalum moss",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "saddle-billed stork (ephippiorhynchus spp.)",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "ephippium fern",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "giant hornbill",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "goliath stork",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "no matching results were found for ephippiorhynchium polycephalum. however, a possible alternative name for this genus is ephippiorhynchus.",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "saddle-billed stork species",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "goliath heron",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "open-billed stork",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "saddlebilled stork (ephippiorhynchus spp.)",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "lesser adjutant",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "lesser adjutant stork",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "lesser saddle-billed stork",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "ephippiorhynchus senegalensis",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "grey heron",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "taxonomy": "Ephippiorhynchium polycephalum is a genus of ferns in the family Hymenophyllaceae. This genus is part of the larger group of ferns known as the hymenophyllalean filmy ferns. The Hymenophyllaceae family consists of approximately 700 species of ferns, which are distributed across the globe, primarily in tropical and subtropical regions. The classification of Ephippiorhynchium polycephalum places it within the division Pteridophyta, which includes all ferns and their allies. The exact species classification is still being studied and may be subject to change as new research emerges.",
+    "uses": "Info not available yet.",
+    "benefits": "Info not available yet.",
+    "properties": "Unfortunately, I do not have enough information about the plant Ephippiorhynchium polycephalum to provide a response regarding its therapeutic properties.",
+    "constituents": "Info not available yet.",
+    "parts": "Info not available yet.",
+    "preparations": "Ephippiorhynchium polycephalum is not a well-documented plant species. However, some plants of the genus Ephippiorhynchium have been used in traditional medicine in various parts of the world. Herbal preparations made from these plants are often used to treat respiratory issues and skin conditions. The properties of Ephippiorhynchium polycephalum itself, if it exists, are not well-documented, and its potential uses in herbal preparations are unknown. Further research is needed to understand the properties and potential uses of this plant species.",
+    "side_effects": "Info not available yet.",
+    "intro": "I couldn't find any information on the plant Ephippiorhynchium polycephalum. However, I did find information on the lichen Ephippiorhynchium polycephalum is not a plant but a lichen and it seems this information is not available.\n\nBut, I can provide information on a different plant that may be similar to what you're looking for. \n\nHowever, if you are looking for information on a different plant, please provide more information or context about the plant you're looking for."
+}

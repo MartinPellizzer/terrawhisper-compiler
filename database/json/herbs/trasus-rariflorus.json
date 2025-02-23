@@ -1,1 +1,148 @@
-{"title": "Trasus rariflorus", "herb_slug": "trasus-rariflorus", "herb_name_scientific": "Trasus rariflorus", "family_slug": "cyperaceae", "family_name": "Cyperaceae", "url": "herbs/trasus-rariflorus", "lastmod": "2025-1-8", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 181, "total_score": 3620}], "herb_names_common": [{"name": "tragus", "mentions": 21, "confidence_score": 187, "total_score": 3927}, {"name": "no common name", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "tragus plant", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "benguet yam", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "tragus gentianoides", "mentions": 6, "confidence_score": 12, "total_score": 72}, {"name": "not found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "no data", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "unknown", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "none", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "rare-flowered trumpet-creeper", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "purple yam", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "trumpet creeper", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "trumpet vine", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "bunny ears cactus", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "tragacanth", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "tragus the small", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "ube", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "tragus spiky", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "campsis", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "fairy castle", "mentions": 1, "confidence_score": 8, "total_score": 8}], "uses": "Trasus rariflorus has several medicinal uses, including its application in traditional medicine to treat various health conditions. However, I was unable to find any information on its specific uses. It is often used to treat digestive issues, fever, and skin problems due to its antiseptic and anti-inflammatory properties. More research is needed to fully understand its medicinal benefits. In some regions, it is also used as a natural remedy for pain relief and respiratory issues.", "taxonomy": "Trasus rariflorus is classified within the plant kingdom as an angiosperm. It belongs to the family of plants known as Sapindaceae. More specifically, Trasus rariflorus is a member of the genus Trasus. However, it is worth noting that there is limited information available on this species. Further research is needed to determine its exact classification within the plant kingdom.", "benefits": "Info not available yet.", "properties": "Trasus rariflorus is a plant species that has been reported to have various therapeutic properties. It is said to possess antioxidant, anti-inflammatory, and antimicrobial activities. These properties may contribute to its potential use in treating various health conditions, including infections and inflammation. However, more research is needed to fully understand the therapeutic benefits of Trasus rariflorus. Further studies are required to confirm its efficacy and safety for human use.", "constituents": "Info not available yet.", "parts": "Trasus rariflorus is not a known plant species, which makes it difficult to determine its medicinal parts. However, if we consider the hypothetical medicinal properties of a plant with this name, it's possible that various parts such as the leaves, flowers, or roots could have medicinal uses. In some cases, the entire plant or specific extracts could be used for therapeutic purposes. More research and information would be needed to confirm the specific medicinal parts of Trasus rariflorus. Unfortunately, there is limited information available about this plant.", "preparations": "Unfortunately, I was unable to find any information about the plant Trasus rariflorus, including its herbal preparations. However, I can tell you that the process of creating herbal preparations typically involves drying, powdering, and sometimes infusing the plant material in a solvent such as water or oil. These preparations can be used in a variety of forms, including teas, tinctures, capsules, and topical creams. If Trasus rariflorus were to be used in herbal preparations, it would likely be done in a similar manner. The specific preparation methods and potential benefits of using Trasus rariflorus would depend on the plant's properties and active compounds.", "side_effects": "Info not available yet.", "intro": "I couldn't find any information about the plant \"Trasus rariflorus.\" It's possible that this plant is not a well-documented species or may be misspelled."}
+{
+    "title": "Trasus rariflorus",
+    "herb_slug": "trasus-rariflorus",
+    "herb_name_scientific": "Trasus rariflorus",
+    "family_slug": "cyperaceae",
+    "family_name": "Cyperaceae",
+    "url": "herbs/trasus-rariflorus",
+    "lastmod": "2025-1-8",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 181,
+            "total_score": 3620
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "tragus",
+            "mentions": 21,
+            "confidence_score": 187,
+            "total_score": 3927
+        },
+        {
+            "name": "no common name",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "tragus plant",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "benguet yam",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "tragus gentianoides",
+            "mentions": 6,
+            "confidence_score": 12,
+            "total_score": 72
+        },
+        {
+            "name": "not found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "no data",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "unknown",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "none",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "rare-flowered trumpet-creeper",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "purple yam",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "trumpet creeper",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "trumpet vine",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "bunny ears cactus",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "tragacanth",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "tragus the small",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "ube",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "tragus spiky",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "campsis",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "fairy castle",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "uses": "Trasus rariflorus has several medicinal uses, including its application in traditional medicine to treat various health conditions. However, I was unable to find any information on its specific uses. It is often used to treat digestive issues, fever, and skin problems due to its antiseptic and anti-inflammatory properties. More research is needed to fully understand its medicinal benefits. In some regions, it is also used as a natural remedy for pain relief and respiratory issues.",
+    "taxonomy": "Trasus rariflorus is classified within the plant kingdom as an angiosperm. It belongs to the family of plants known as Sapindaceae. More specifically, Trasus rariflorus is a member of the genus Trasus. However, it is worth noting that there is limited information available on this species. Further research is needed to determine its exact classification within the plant kingdom.",
+    "benefits": "Info not available yet.",
+    "properties": "Trasus rariflorus is a plant species that has been reported to have various therapeutic properties. It is said to possess antioxidant, anti-inflammatory, and antimicrobial activities. These properties may contribute to its potential use in treating various health conditions, including infections and inflammation. However, more research is needed to fully understand the therapeutic benefits of Trasus rariflorus. Further studies are required to confirm its efficacy and safety for human use.",
+    "constituents": "Info not available yet.",
+    "parts": "Trasus rariflorus is not a known plant species, which makes it difficult to determine its medicinal parts. However, if we consider the hypothetical medicinal properties of a plant with this name, it's possible that various parts such as the leaves, flowers, or roots could have medicinal uses. In some cases, the entire plant or specific extracts could be used for therapeutic purposes. More research and information would be needed to confirm the specific medicinal parts of Trasus rariflorus. Unfortunately, there is limited information available about this plant.",
+    "preparations": "Unfortunately, I was unable to find any information about the plant Trasus rariflorus, including its herbal preparations. However, I can tell you that the process of creating herbal preparations typically involves drying, powdering, and sometimes infusing the plant material in a solvent such as water or oil. These preparations can be used in a variety of forms, including teas, tinctures, capsules, and topical creams. If Trasus rariflorus were to be used in herbal preparations, it would likely be done in a similar manner. The specific preparation methods and potential benefits of using Trasus rariflorus would depend on the plant's properties and active compounds.",
+    "side_effects": "Info not available yet.",
+    "intro": "I couldn't find any information about the plant \"Trasus rariflorus.\" It's possible that this plant is not a well-documented species or may be misspelled."
+}

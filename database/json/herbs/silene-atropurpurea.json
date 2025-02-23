@@ -1,1 +1,1458 @@
-{"herb_slug": "silene-atropurpurea", "herb_name_scientific": "Silene atropurpurea", "url": "herbs/silene-atropurpurea", "lastmod": "2024-12-25", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 12, "confidence_score": 98, "total_score": 1176}, {"medicine_or_poison": "poison", "mentions": 8, "confidence_score": 67, "total_score": 536}], "constituents": [{"name": "iridoid glycosides", "mentions": 19, "confidence_score": 135, "total_score": 2565}, {"name": "flavonoids", "mentions": 18, "confidence_score": 125, "total_score": 2250}, {"name": "saponins", "mentions": 18, "confidence_score": 114, "total_score": 2052}, {"name": "phenolic acids", "mentions": 16, "confidence_score": 110, "total_score": 1760}, {"name": "triterpenoids", "mentions": 19, "confidence_score": 102, "total_score": 1938}, {"name": "coumarins", "mentions": 14, "confidence_score": 54, "total_score": 756}, {"name": "quercetin", "mentions": 6, "confidence_score": 48, "total_score": 288}, {"name": "alkaloids", "mentions": 13, "confidence_score": 46, "total_score": 598}, {"name": "tannins", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "anthocyanins", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "kaempferol", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "rosmarinic acid", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "caffeic acid", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "silenein", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "carotenoids", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "sterols", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "phenolic glycosides", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "anthraquinones", "mentions": 5, "confidence_score": 11, "total_score": 55}, {"name": "atropurpurine", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "cardiac glycosides", "mentions": 2, "confidence_score": 10, "total_score": 20}], "title": "Silene atropurpurea", "ailments": [{"name": "inflammation", "mentions": 20, "confidence_score": 168, "total_score": 3360}, {"name": "wound healing", "mentions": 10, "confidence_score": 84, "total_score": 840}, {"name": "anxiety", "mentions": 8, "confidence_score": 50, "total_score": 400}, {"name": "fever", "mentions": 8, "confidence_score": 48, "total_score": 384}, {"name": "arthritis", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "skin irritation", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "digestive issues", "mentions": 8, "confidence_score": 42, "total_score": 336}, {"name": "pain relief", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "respiratory issues", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "diabetes", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "rheumatism", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "hypertension", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "gastrointestinal issues", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "infections", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "cancer prevention", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "gastrointestinal ulcers", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "diarrhea", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "skin conditions", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "coughs", "mentions": 3, "confidence_score": 20, "total_score": 60}], "herb_names_common": [{"name": "purple catchfly", "mentions": 20, "confidence_score": 160, "total_score": 3200}, {"name": "atropurpurea catchfly", "mentions": 25, "confidence_score": 155, "total_score": 3875}, {"name": "red catchfly", "mentions": 24, "confidence_score": 147, "total_score": 3528}, {"name": "purple silene", "mentions": 15, "confidence_score": 78, "total_score": 1170}, {"name": "atropurpurea silene", "mentions": 12, "confidence_score": 66, "total_score": 792}, {"name": "red silene", "mentions": 13, "confidence_score": 60, "total_score": 780}, {"name": "red campion", "mentions": 10, "confidence_score": 49, "total_score": 490}, {"name": "purple campion", "mentions": 7, "confidence_score": 32, "total_score": 224}, {"name": "atropurpureum", "mentions": 5, "confidence_score": 17, "total_score": 85}, {"name": "purple catchfly (silene atropurpurea)", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "velvet pink", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "purple evening primrose", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "atropurpureum silene", "mentions": 4, "confidence_score": 9, "total_score": 36}, {"name": "dark red catchfly", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "royal catchfly", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "red-flowered catchfly", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "purple catchfly or red catchfly", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "atropurpurea red campion", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "dark red silene", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "dark-red campion", "mentions": 1, "confidence_score": 6, "total_score": 6}], "ailments_description": "The most common ailments you can heal with Silene atropurpurea are respiratory issues, such as bronchitis and asthma, which are alleviated by its expectorant properties that help remove mucus from the airways. Silene atropurpurea is also known to treat cardiovascular problems, including high blood pressure, by reducing the heart rate and blood vessel tension. Additionally, it has been used to heal digestive issues, including diarrhea and constipation, due to its antispasmodic and astringent properties that reduce inflammation and improve bowel function. Furthermore, this plant has been shown to be effective in treating skin conditions, such as acne and eczema, by its anti-inflammatory and antimicrobial properties that reduce redness and prevent infection. Silene atropurpurea has also been used to alleviate nervous system disorders, including anxiety and insomnia, by its sedative and anxiolytic effects that promote relaxation and reduce stress.", "constituents_description": "The most important healing constituents of Silene atropurpurea are flavonoids, alkaloids, phenolic acids, and terpenoids, which contribute to its medicinal properties. Flavonoids, specifically kaempferol and quercetin, exhibit antioxidant and anti-inflammatory activities, protecting against oxidative stress and inflammation-related diseases. Alkaloids, including atropine, scopolamine, and hyoscyamine, display anticholinergic properties, which can be used to treat various conditions such as spasms, muscle cramps, and gastrointestinal disorders. Phenolic acids, including caffeic acid and ferulic acid, possess antimicrobial and anti-inflammatory effects, which may help prevent infections and reduce inflammation. Terpenoids, including carotenoids and xanthophylls, have been found to have antioxidant and anti-inflammatory properties, which contribute to the plant's potential therapeutic benefits.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 157, "total_score": 3140}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 149, "total_score": 2980}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 134, "total_score": 2680}, {"name": "analgesic", "mentions": 19, "confidence_score": 91, "total_score": 1729}, {"name": "antiviral", "mentions": 16, "confidence_score": 55, "total_score": 880}, {"name": "antispasmodic", "mentions": 10, "confidence_score": 46, "total_score": 460}, {"name": "anticancer", "mentions": 10, "confidence_score": 38, "total_score": 380}, {"name": "antifungal", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "cardioprotective", "mentions": 9, "confidence_score": 33, "total_score": 297}, {"name": "antibacterial", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "immunomodulatory", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "antihistamine", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "antitumor", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "hepatoprotective", "mentions": 6, "confidence_score": 18, "total_score": 108}, {"name": "antiseptic", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "hypotensive", "mentions": 6, "confidence_score": 17, "total_score": 102}, {"name": "neuroprotective", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "diuretic", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "cytotoxic", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "expectorant", "mentions": 3, "confidence_score": 13, "total_score": 39}], "properties_description": "The main therapeutic properties of Silene atropurpurea are its anti-inflammatory, antioxidant, and antimicrobial activities. The plant's ability to exhibit anti-inflammatory effects is attributed to its rich content of flavonoids and phenolic acids. Its antioxidant properties, which help protect cells from oxidative damage, are associated with the presence of saponins and volatile oils. Additionally, Silene atropurpurea's antimicrobial properties, useful in the treatment of infections, can be attributed to the presence of terpenoids and glycosides. These bioactive compounds contribute to the plant's ability to also exhibit hepatoprotective and cardioprotective effects.", "preparations": [{"name": "infusion", "mentions": 20, "confidence_score": 171, "total_score": 3420}, {"name": "tincture", "mentions": 20, "confidence_score": 156, "total_score": 3120}, {"name": "tea", "mentions": 20, "confidence_score": 141, "total_score": 2820}, {"name": "salve", "mentions": 20, "confidence_score": 108, "total_score": 2160}, {"name": "decoction", "mentions": 11, "confidence_score": 52, "total_score": 572}, {"name": "ointment", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "poultice", "mentions": 6, "confidence_score": 20, "total_score": 120}, {"name": "infused oil", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "smoking mix", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Silene atropurpurea are made from its leaves and flowers. Infusion is prepared by steeping 1-2 teaspoons of dried leaves and flowers in 1 cup of boiling water for 5-10 minutes, used to treat inflammation and sore throats. Tincture is made by mixing 1 part of plant material in 5 parts of solvent, used as a treatment for colds, fever, and rheumatism. Tea is prepared similarly to infusion, used for its anti-inflammatory properties and to ease respiratory issues. Decoction is prepared by boiling 1-2 teaspoons of dried roots in 1 cup of water for 10-15 minutes, used to treat digestive issues and as a diuretic.", "side_effects": [{"name": "develop headaches", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "experience nausea", "mentions": 5, "confidence_score": 45, "total_score": 225}, {"name": "experiencing nausea", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "experience hallucinations", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "induce vomiting", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "cause diarrhea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "lower blood pressure", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "suffer dizziness", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "get diarrhea", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "vomits", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "increase heart rate", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "suffering abdominal pain", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "showing hypotension", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop insomnia", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "suffer liver damage", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experience seizures", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "feel fatigue", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experience fatigue", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "suffering diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "suffer respiratory depression", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "showing tachycardia", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experiencing dizziness", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experience confusion", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experiencing seizures", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "suffer liver toxicity", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "trigger seizures", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "experiencing vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiencing respiratory depression", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "exhibits neurological damage", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffer vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffer anxiety", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "experience vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "developing vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "developing headache", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "develop kidney damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffer respiratory failure", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing hallucinations", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing confusion", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cardiacarrhythmia", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause dizziness", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "produce respiratory depression", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "showing diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing headache", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "experiences seizures", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences respiratory failure", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "have vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "get abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "aggravate anxiety", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "show increased blood pressure", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "show increased respiration rate", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "developing headaches", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "showing abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing fatigue", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing allergic reactions", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "experience cardiac arrhythmia", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing increased respiration", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "developing cardiovascular instability", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing increased heart rate", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "abdominalpain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops hallucinations", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiences hepatic necrosis", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "diarrheas", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "nauseas", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer headache", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "show dizziness", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop hallucinations", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "developing allergic reaction", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause stomach pain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "exhibit aggressive behavior", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop tachycardia", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "show signs of insomnia", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiencing abdominal pain", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "displaying muscle weakness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "trigger hypotension", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "show ocular problems", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experiences myocardial infarction", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "develop hypotension", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "lead to dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experience dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffer from diarrhea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "feeling dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "show increased anxiety", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "produce hallucinations", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show liver damage", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experiences cardiac arrest", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develops renal failure", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experience diarrhea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "abdominal pains", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "get insomnia", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffering vomiting", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show hyperactivity", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "provoke insomnia", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show signs of mania", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develop psychosis", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experience paranoia", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "feel dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develop diarrhea", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffering from diarrhea", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "cause nephrotoxicity", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "getting dizziness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffer respiratory issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experience hematological issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "exhibits hemolysis", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "exhibit tremors", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "interact with medications", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "skin irritations", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experience insomnia", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "get nausea", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "getting fatigue", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "developing abdominal pain", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "showing skin irritation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "get skin irritation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiences gastrointestinal bleeding", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "show hallucinations", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "aggravate kidney problems", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience cardiac issues", "mentions": 2, "confidence_score": 4, "total_score": 8}, {"name": "cardiac arrhythmias", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "trigger tremors", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "get cardiac arrest", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffer kidney failure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiencing allergic reactions", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "induce cardiac arrest", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experiencing allergic reaction", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "undergo cardiovascular problems", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop arrhythmia", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "provoke allergic reactions", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "respiratory distress", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "provoke hallucinations", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffer cardiac arrest", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop skin irritation", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "developing insomnia", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "respiratorydepression", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "suffering kidney damage", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience neurological symptoms", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "suffer convulsions", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "worsen respiratory issues", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "suffering dizziness", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "showing irritability", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "suffering cardiac arrest", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "develop gastrointestinal upset", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "coughs", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "experiencing cardiac arrest", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effects of using Silene atropurpurea improperly include developing headaches due to its potential to cause vasoconstriction, experience nausea as a result of its emetic properties which can induce vomiting, experiencing hallucinations due to the presence of psychoactive compounds such as atropine and scopolamine, and induce vomiting due to its emetic effects, these side effects can be attributed to the plant's alkaloid content which can cause anticholinergic toxicity.", "category-action": "adaptogens", "category_action": "antispasmodic", "family_slug": "caryophyllaceae", "family_name": "Caryophyllaceae", "what_description": "Silene atropurpurea is a flowering plant species belonging to the family Caryophyllaceae, commonly known as pink or red catchfly. It is a perennial herb that typically grows 30-90 cm tall, with a simple or branched stem and oval-shaped leaves that are 2-6 cm long and 1-2 cm wide. The leaves are usually dark green and have a pointed tip. The plant produces clusters of small, fragrant flowers that are 1-2 cm in diameter, with five petals of a deep pink to reddish-purple color. The flowers are pentamerous, with the calyx and corolla being symmetrical and having five sepals and petals, respectively.", "uses": "Silene atropurpurea, also known as the woodland catchfly, has been used in traditional medicine for various purposes. Its roots and leaves are rich in alkaloids, which have been reported to possess antimicrobial and anti-inflammatory properties. In traditional herbal medicine, it has been used to treat conditions such as fever, rheumatism, and skin disorders. The plant's extracts have also been studied for their potential antioxidant and anti-cancer properties. However, further research is needed to fully understand its medicinal uses and potential benefits.", "taxonomy": "Silene atropurpurea is classified within the plant family Caryophyllaceae. This classification places it within the order Caryophyllales and the clade rosids. At the rank of kingdom, it is classified as Plantae. Further, it is classified as a dicotyledonous plant at the rank of division and a flowering plant at the rank of phylum. The species can be found in the genus Silene.", "benefits": "Silene atropurpurea, also known as red catchfly, has been traditionally used in herbal medicine to treat various health issues. Its leaves and flowers are rich in antioxidants and flavonoids, which may help reduce inflammation and oxidative stress in the body. The plant is believed to have anti-inflammatory and antimicrobial properties, making it potentially useful in treating wounds and skin conditions. Additionally, Silene atropurpurea may have antidiabetic and antihypertensive effects due to its ability to regulate blood sugar and blood pressure levels. Further research is needed to confirm the effectiveness and safety of using Silene atropurpurea for medicinal purposes.", "parts": "Silene atropurpurea, also known as wood sorrel or purple mountain clover, is a plant that has been used in traditional medicine for various purposes. The roots of Silene atropurpurea are considered to be the medicinal part, as they are rich in alkaloids and other bioactive compounds. These compounds have been reported to have anti-inflammatory and antioxidant properties. The roots are often used to treat respiratory issues, such as bronchitis and coughs. Additionally, the roots are also used to treat digestive problems, including diarrhea and ulcers.", "intro": "Silene atropurpurea, also known as woodland catchfly or black silene, is a perennial herbaceous plant belonging to the Caryophyllaceae family. The plant has been traditionally used to treat various health issues, including respiratory problems, such as bronchitis and coughs, due to its expectorant and anti-inflammatory properties. The bioactive constituents of Silene atropurpurea include alkaloids, glycosides, and phenolic compounds, which are responsible for its medicinal properties. Silene atropurpurea is often used in traditional herbal medicine to make teas, tinctures, and infusions, which are used to treat respiratory issues, as well as being used in the production of modern herbal supplements."}
+{
+    "herb_slug": "silene-atropurpurea",
+    "herb_name_scientific": "Silene atropurpurea",
+    "url": "herbs/silene-atropurpurea",
+    "lastmod": "2024-12-25",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 12,
+            "confidence_score": 98,
+            "total_score": 1176
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 8,
+            "confidence_score": 67,
+            "total_score": 536
+        }
+    ],
+    "constituents": [
+        {
+            "name": "iridoid glycosides",
+            "mentions": 19,
+            "confidence_score": 135,
+            "total_score": 2565
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 18,
+            "confidence_score": 125,
+            "total_score": 2250
+        },
+        {
+            "name": "saponins",
+            "mentions": 18,
+            "confidence_score": 114,
+            "total_score": 2052
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 16,
+            "confidence_score": 110,
+            "total_score": 1760
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 19,
+            "confidence_score": 102,
+            "total_score": 1938
+        },
+        {
+            "name": "coumarins",
+            "mentions": 14,
+            "confidence_score": 54,
+            "total_score": 756
+        },
+        {
+            "name": "quercetin",
+            "mentions": 6,
+            "confidence_score": 48,
+            "total_score": 288
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 13,
+            "confidence_score": 46,
+            "total_score": 598
+        },
+        {
+            "name": "tannins",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "anthocyanins",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "rosmarinic acid",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "silenein",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "carotenoids",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "sterols",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "anthraquinones",
+            "mentions": 5,
+            "confidence_score": 11,
+            "total_score": 55
+        },
+        {
+            "name": "atropurpurine",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "cardiac glycosides",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "title": "Silene atropurpurea",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 20,
+            "confidence_score": 168,
+            "total_score": 3360
+        },
+        {
+            "name": "wound healing",
+            "mentions": 10,
+            "confidence_score": 84,
+            "total_score": 840
+        },
+        {
+            "name": "anxiety",
+            "mentions": 8,
+            "confidence_score": 50,
+            "total_score": 400
+        },
+        {
+            "name": "fever",
+            "mentions": 8,
+            "confidence_score": 48,
+            "total_score": 384
+        },
+        {
+            "name": "arthritis",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 8,
+            "confidence_score": 42,
+            "total_score": 336
+        },
+        {
+            "name": "pain relief",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "diabetes",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "hypertension",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "gastrointestinal issues",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "infections",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "gastrointestinal ulcers",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "coughs",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "purple catchfly",
+            "mentions": 20,
+            "confidence_score": 160,
+            "total_score": 3200
+        },
+        {
+            "name": "atropurpurea catchfly",
+            "mentions": 25,
+            "confidence_score": 155,
+            "total_score": 3875
+        },
+        {
+            "name": "red catchfly",
+            "mentions": 24,
+            "confidence_score": 147,
+            "total_score": 3528
+        },
+        {
+            "name": "purple silene",
+            "mentions": 15,
+            "confidence_score": 78,
+            "total_score": 1170
+        },
+        {
+            "name": "atropurpurea silene",
+            "mentions": 12,
+            "confidence_score": 66,
+            "total_score": 792
+        },
+        {
+            "name": "red silene",
+            "mentions": 13,
+            "confidence_score": 60,
+            "total_score": 780
+        },
+        {
+            "name": "red campion",
+            "mentions": 10,
+            "confidence_score": 49,
+            "total_score": 490
+        },
+        {
+            "name": "purple campion",
+            "mentions": 7,
+            "confidence_score": 32,
+            "total_score": 224
+        },
+        {
+            "name": "atropurpureum",
+            "mentions": 5,
+            "confidence_score": 17,
+            "total_score": 85
+        },
+        {
+            "name": "purple catchfly (silene atropurpurea)",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "velvet pink",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "purple evening primrose",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "atropurpureum silene",
+            "mentions": 4,
+            "confidence_score": 9,
+            "total_score": 36
+        },
+        {
+            "name": "dark red catchfly",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "royal catchfly",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "red-flowered catchfly",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "purple catchfly or red catchfly",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "atropurpurea red campion",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "dark red silene",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "dark-red campion",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Silene atropurpurea are respiratory issues, such as bronchitis and asthma, which are alleviated by its expectorant properties that help remove mucus from the airways. Silene atropurpurea is also known to treat cardiovascular problems, including high blood pressure, by reducing the heart rate and blood vessel tension. Additionally, it has been used to heal digestive issues, including diarrhea and constipation, due to its antispasmodic and astringent properties that reduce inflammation and improve bowel function. Furthermore, this plant has been shown to be effective in treating skin conditions, such as acne and eczema, by its anti-inflammatory and antimicrobial properties that reduce redness and prevent infection. Silene atropurpurea has also been used to alleviate nervous system disorders, including anxiety and insomnia, by its sedative and anxiolytic effects that promote relaxation and reduce stress.",
+    "constituents_description": "The most important healing constituents of Silene atropurpurea are flavonoids, alkaloids, phenolic acids, and terpenoids, which contribute to its medicinal properties. Flavonoids, specifically kaempferol and quercetin, exhibit antioxidant and anti-inflammatory activities, protecting against oxidative stress and inflammation-related diseases. Alkaloids, including atropine, scopolamine, and hyoscyamine, display anticholinergic properties, which can be used to treat various conditions such as spasms, muscle cramps, and gastrointestinal disorders. Phenolic acids, including caffeic acid and ferulic acid, possess antimicrobial and anti-inflammatory effects, which may help prevent infections and reduce inflammation. Terpenoids, including carotenoids and xanthophylls, have been found to have antioxidant and anti-inflammatory properties, which contribute to the plant's potential therapeutic benefits.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 157,
+            "total_score": 3140
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 149,
+            "total_score": 2980
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 134,
+            "total_score": 2680
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 91,
+            "total_score": 1729
+        },
+        {
+            "name": "antiviral",
+            "mentions": 16,
+            "confidence_score": 55,
+            "total_score": 880
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 10,
+            "confidence_score": 46,
+            "total_score": 460
+        },
+        {
+            "name": "anticancer",
+            "mentions": 10,
+            "confidence_score": 38,
+            "total_score": 380
+        },
+        {
+            "name": "antifungal",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 9,
+            "confidence_score": 33,
+            "total_score": 297
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "antitumor",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 6,
+            "confidence_score": 18,
+            "total_score": 108
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 6,
+            "confidence_score": 17,
+            "total_score": 102
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "diuretic",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "expectorant",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Silene atropurpurea are its anti-inflammatory, antioxidant, and antimicrobial activities. The plant's ability to exhibit anti-inflammatory effects is attributed to its rich content of flavonoids and phenolic acids. Its antioxidant properties, which help protect cells from oxidative damage, are associated with the presence of saponins and volatile oils. Additionally, Silene atropurpurea's antimicrobial properties, useful in the treatment of infections, can be attributed to the presence of terpenoids and glycosides. These bioactive compounds contribute to the plant's ability to also exhibit hepatoprotective and cardioprotective effects.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 20,
+            "confidence_score": 171,
+            "total_score": 3420
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 156,
+            "total_score": 3120
+        },
+        {
+            "name": "tea",
+            "mentions": 20,
+            "confidence_score": 141,
+            "total_score": 2820
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 108,
+            "total_score": 2160
+        },
+        {
+            "name": "decoction",
+            "mentions": 11,
+            "confidence_score": 52,
+            "total_score": 572
+        },
+        {
+            "name": "ointment",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "poultice",
+            "mentions": 6,
+            "confidence_score": 20,
+            "total_score": 120
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "smoking mix",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Silene atropurpurea are made from its leaves and flowers. Infusion is prepared by steeping 1-2 teaspoons of dried leaves and flowers in 1 cup of boiling water for 5-10 minutes, used to treat inflammation and sore throats. Tincture is made by mixing 1 part of plant material in 5 parts of solvent, used as a treatment for colds, fever, and rheumatism. Tea is prepared similarly to infusion, used for its anti-inflammatory properties and to ease respiratory issues. Decoction is prepared by boiling 1-2 teaspoons of dried roots in 1 cup of water for 10-15 minutes, used to treat digestive issues and as a diuretic.",
+    "side_effects": [
+        {
+            "name": "develop headaches",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 5,
+            "confidence_score": 45,
+            "total_score": 225
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "experience hallucinations",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "lower blood pressure",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "suffer dizziness",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "get diarrhea",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "vomits",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "suffering abdominal pain",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "showing hypotension",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop insomnia",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experience seizures",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "feel fatigue",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experience fatigue",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "suffering diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "suffer respiratory depression",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "showing tachycardia",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experience confusion",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experiencing seizures",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "suffer liver toxicity",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiencing respiratory depression",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "exhibits neurological damage",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffer vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffer anxiety",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "developing vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "developing headache",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "develop kidney damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffer respiratory failure",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing hallucinations",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing confusion",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cardiacarrhythmia",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "produce respiratory depression",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "showing diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing headache",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "experiences seizures",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences respiratory failure",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "have vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "get abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "aggravate anxiety",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "show increased blood pressure",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "show increased respiration rate",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "developing headaches",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "showing abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing fatigue",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "experience cardiac arrhythmia",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing increased respiration",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "developing cardiovascular instability",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing increased heart rate",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "abdominalpain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops hallucinations",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiences hepatic necrosis",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "diarrheas",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "nauseas",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer headache",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "show dizziness",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop hallucinations",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "developing allergic reaction",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause stomach pain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "exhibit aggressive behavior",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop tachycardia",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "show signs of insomnia",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "displaying muscle weakness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "trigger hypotension",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "show ocular problems",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experiences myocardial infarction",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "develop hypotension",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "lead to dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffer from diarrhea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "feeling dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "show increased anxiety",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "produce hallucinations",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show liver damage",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experiences cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develops renal failure",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "abdominal pains",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "get insomnia",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffering vomiting",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show hyperactivity",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "provoke insomnia",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show signs of mania",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develop psychosis",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experience paranoia",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffering from diarrhea",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "cause nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "getting dizziness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffer respiratory issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experience hematological issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "exhibits hemolysis",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "exhibit tremors",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "skin irritations",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experience insomnia",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "get nausea",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "getting fatigue",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "developing abdominal pain",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "showing skin irritation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "get skin irritation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiences gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "show hallucinations",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "aggravate kidney problems",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience cardiac issues",
+            "mentions": 2,
+            "confidence_score": 4,
+            "total_score": 8
+        },
+        {
+            "name": "cardiac arrhythmias",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "trigger tremors",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "get cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffer kidney failure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiencing allergic reactions",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "induce cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experiencing allergic reaction",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "undergo cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop arrhythmia",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "provoke allergic reactions",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "respiratory distress",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "provoke hallucinations",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffer cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "developing insomnia",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "respiratorydepression",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "suffering kidney damage",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "suffer convulsions",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "worsen respiratory issues",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "suffering dizziness",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "showing irritability",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "suffering cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "develop gastrointestinal upset",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "coughs",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "experiencing cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Silene atropurpurea improperly include developing headaches due to its potential to cause vasoconstriction, experience nausea as a result of its emetic properties which can induce vomiting, experiencing hallucinations due to the presence of psychoactive compounds such as atropine and scopolamine, and induce vomiting due to its emetic effects, these side effects can be attributed to the plant's alkaloid content which can cause anticholinergic toxicity.",
+    "category-action": "adaptogens",
+    "category_action": "antispasmodic",
+    "family_slug": "caryophyllaceae",
+    "family_name": "Caryophyllaceae",
+    "what_description": "Silene atropurpurea is a flowering plant species belonging to the family Caryophyllaceae, commonly known as pink or red catchfly. It is a perennial herb that typically grows 30-90 cm tall, with a simple or branched stem and oval-shaped leaves that are 2-6 cm long and 1-2 cm wide. The leaves are usually dark green and have a pointed tip. The plant produces clusters of small, fragrant flowers that are 1-2 cm in diameter, with five petals of a deep pink to reddish-purple color. The flowers are pentamerous, with the calyx and corolla being symmetrical and having five sepals and petals, respectively.",
+    "uses": "Silene atropurpurea, also known as the woodland catchfly, has been used in traditional medicine for various purposes. Its roots and leaves are rich in alkaloids, which have been reported to possess antimicrobial and anti-inflammatory properties. In traditional herbal medicine, it has been used to treat conditions such as fever, rheumatism, and skin disorders. The plant's extracts have also been studied for their potential antioxidant and anti-cancer properties. However, further research is needed to fully understand its medicinal uses and potential benefits.",
+    "taxonomy": "Silene atropurpurea is classified within the plant family Caryophyllaceae. This classification places it within the order Caryophyllales and the clade rosids. At the rank of kingdom, it is classified as Plantae. Further, it is classified as a dicotyledonous plant at the rank of division and a flowering plant at the rank of phylum. The species can be found in the genus Silene.",
+    "benefits": "Silene atropurpurea, also known as red catchfly, has been traditionally used in herbal medicine to treat various health issues. Its leaves and flowers are rich in antioxidants and flavonoids, which may help reduce inflammation and oxidative stress in the body. The plant is believed to have anti-inflammatory and antimicrobial properties, making it potentially useful in treating wounds and skin conditions. Additionally, Silene atropurpurea may have antidiabetic and antihypertensive effects due to its ability to regulate blood sugar and blood pressure levels. Further research is needed to confirm the effectiveness and safety of using Silene atropurpurea for medicinal purposes.",
+    "parts": "Silene atropurpurea, also known as wood sorrel or purple mountain clover, is a plant that has been used in traditional medicine for various purposes. The roots of Silene atropurpurea are considered to be the medicinal part, as they are rich in alkaloids and other bioactive compounds. These compounds have been reported to have anti-inflammatory and antioxidant properties. The roots are often used to treat respiratory issues, such as bronchitis and coughs. Additionally, the roots are also used to treat digestive problems, including diarrhea and ulcers.",
+    "intro": "Silene atropurpurea, also known as woodland catchfly or black silene, is a perennial herbaceous plant belonging to the Caryophyllaceae family. The plant has been traditionally used to treat various health issues, including respiratory problems, such as bronchitis and coughs, due to its expectorant and anti-inflammatory properties. The bioactive constituents of Silene atropurpurea include alkaloids, glycosides, and phenolic compounds, which are responsible for its medicinal properties. Silene atropurpurea is often used in traditional herbal medicine to make teas, tinctures, and infusions, which are used to treat respiratory issues, as well as being used in the production of modern herbal supplements."
+}

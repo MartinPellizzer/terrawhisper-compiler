@@ -1,1 +1,154 @@
-{"title": "Tapeinia flava", "herb_slug": "tapeinia-flava", "herb_name_scientific": "Tapeinia flava", "family_slug": "iridaceae", "family_name": "Iridaceae", "url": "herbs/tapeinia-flava", "lastmod": "2025-1-10", "herb_names_common": [{"name": "tapeinia", "mentions": 26, "confidence_score": 186, "total_score": 4836}, {"name": "yellow tapeinia", "mentions": 8, "confidence_score": 61, "total_score": 488}, {"name": "yellow tapienia", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "yellow tapioca vine", "mentions": 7, "confidence_score": 34, "total_score": 238}, {"name": "yellow tapien", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "twinflower", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "yellow bush violet (tapeinia flava)", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "tahina", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "yellow stinging tree", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "yellow pea bush", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "yellow st. john's wort", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "tapeinia yellow", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "golden st. john's wort", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "tapienia flava", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "tapeinanthus", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "golden twinflower", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "yellow bush pea", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "yellow tapienia flava", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "tawari", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "yellow tawari", "mentions": 1, "confidence_score": 9, "total_score": 9}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 17, "confidence_score": 152, "total_score": 2584}, {"medicine_or_poison": "medicine", "mentions": 3, "confidence_score": 27, "total_score": 81}], "uses": "Tapeinia flava is a plant species that has been studied for its potential medicinal properties. However, limited information is available on its specific uses and applications. Further research is needed to determine the efficacy and safety of using Tapeinia flava for medicinal purposes. Some studies suggest that the plant may have antioxidant and anti-inflammatory effects, but more studies are required to confirm these findings. More research is necessary to fully understand the potential medicinal uses of Tapeinia flava.", "taxonomy": "Tapeinia flava is a species of flowering plant in the family Cucurbitaceae. It is native to tropical regions of the Pacific Islands. Tapeinia flava is classified as a genus within the subfamily Cucurbitoideae. The family Cucurbitaceae is a group of plants commonly known as gourds or melons. Tapeinia flava is closely related to other tropical cucurbits in the same region.", "benefits": "Tapeinia flava is known to have various health benefits, although more research is needed to confirm its efficacy. The plant is traditionally used in some cultures for its potential anti-inflammatory properties and antioxidant effects. Tapeinia flava may also help to lower blood sugar levels and improve insulin sensitivity. Some studies suggest that the plant may have antimicrobial and antifungal properties, making it a potential natural remedy for infections. However, further studies are required to fully understand the health benefits of Tapeinia flava.", "properties": "Tapeinia flava is a plant species known to have various therapeutic properties. It has been traditionally used to treat a range of health issues, including fever, headache, and skin conditions. The plant is believed to possess anti-inflammatory and antimicrobial properties, which contribute to its therapeutic effects. Additionally, it has been used to treat digestive issues and respiratory problems. Further research is needed to fully understand the therapeutic properties and potential applications of Tapeinia flava.", "constituents": "Tapeinia flava contains several active constituents, including flavonoids and alkaloids. These compounds are responsible for the plant's medicinal properties and have been studied for their potential health benefits. The flavonoids present in Tapeinia flava are known for their antioxidant and anti-inflammatory activities. The alkaloids found in the plant have been shown to possess antimicrobial and antiviral properties. Further research is needed to fully understand the effects and potential uses of these active constituents.", "parts": "Tapeinia flava. Unfortunately, there is limited information available about the medicinal parts of Tapeinia flava. However, I can tell you that Tapeinia flava is a plant species native to Madagascar. More research is needed to determine the potential medicinal uses of the plant. The plant is known to produce yellow flowers and may have ornamental value.", "preparations": "Tapeinia flava is a plant species found in Australia, but specific information on its herbal preparations is limited in available sources. However, given the lack of information, it's difficult to provide detailed insights into the plant's potential uses or preparations. Nonetheless, in the context of traditional Australian medicine, some plant species from the same family (family Annonaceae) have been used for their medicinal properties. Further research is needed to understand the full potential of Tapeinia flava and its possible applications in herbal preparations. As of now, there is limited to no information available on the specific herbal preparations of Tapeinia flava.", "side_effects": "Info not available yet.", "intro": "Tapeinia flava, also known as Yellow Tapeinia, is a perennial plant species native to Southeast Asia, belonging to the family Cucurbitaceae. The plant has been traditionally used for its medicinal properties, exhibiting potential health benefits such as anti-inflammatory and antioxidant effects, as well as its ability to lower blood sugar levels and improve cardiovascular health. The bioactive constituents of Tapeinia flava include flavonoids, alkaloids, and saponins, which are responsible for its therapeutic properties. Traditionally, the plant is used to make herbal preparations such as teas, infusions, and tinctures, which are often used to treat various health conditions, including diabetes, hypertension, and gastrointestinal disorders."}
+{
+    "title": "Tapeinia flava",
+    "herb_slug": "tapeinia-flava",
+    "herb_name_scientific": "Tapeinia flava",
+    "family_slug": "iridaceae",
+    "family_name": "Iridaceae",
+    "url": "herbs/tapeinia-flava",
+    "lastmod": "2025-1-10",
+    "herb_names_common": [
+        {
+            "name": "tapeinia",
+            "mentions": 26,
+            "confidence_score": 186,
+            "total_score": 4836
+        },
+        {
+            "name": "yellow tapeinia",
+            "mentions": 8,
+            "confidence_score": 61,
+            "total_score": 488
+        },
+        {
+            "name": "yellow tapienia",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "yellow tapioca vine",
+            "mentions": 7,
+            "confidence_score": 34,
+            "total_score": 238
+        },
+        {
+            "name": "yellow tapien",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "twinflower",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "yellow bush violet (tapeinia flava)",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "tahina",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "yellow stinging tree",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "yellow pea bush",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "yellow st. john's wort",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "tapeinia yellow",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "golden st. john's wort",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "tapienia flava",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "tapeinanthus",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "golden twinflower",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "yellow bush pea",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "yellow tapienia flava",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "tawari",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "yellow tawari",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 17,
+            "confidence_score": 152,
+            "total_score": 2584
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        }
+    ],
+    "uses": "Tapeinia flava is a plant species that has been studied for its potential medicinal properties. However, limited information is available on its specific uses and applications. Further research is needed to determine the efficacy and safety of using Tapeinia flava for medicinal purposes. Some studies suggest that the plant may have antioxidant and anti-inflammatory effects, but more studies are required to confirm these findings. More research is necessary to fully understand the potential medicinal uses of Tapeinia flava.",
+    "taxonomy": "Tapeinia flava is a species of flowering plant in the family Cucurbitaceae. It is native to tropical regions of the Pacific Islands. Tapeinia flava is classified as a genus within the subfamily Cucurbitoideae. The family Cucurbitaceae is a group of plants commonly known as gourds or melons. Tapeinia flava is closely related to other tropical cucurbits in the same region.",
+    "benefits": "Tapeinia flava is known to have various health benefits, although more research is needed to confirm its efficacy. The plant is traditionally used in some cultures for its potential anti-inflammatory properties and antioxidant effects. Tapeinia flava may also help to lower blood sugar levels and improve insulin sensitivity. Some studies suggest that the plant may have antimicrobial and antifungal properties, making it a potential natural remedy for infections. However, further studies are required to fully understand the health benefits of Tapeinia flava.",
+    "properties": "Tapeinia flava is a plant species known to have various therapeutic properties. It has been traditionally used to treat a range of health issues, including fever, headache, and skin conditions. The plant is believed to possess anti-inflammatory and antimicrobial properties, which contribute to its therapeutic effects. Additionally, it has been used to treat digestive issues and respiratory problems. Further research is needed to fully understand the therapeutic properties and potential applications of Tapeinia flava.",
+    "constituents": "Tapeinia flava contains several active constituents, including flavonoids and alkaloids. These compounds are responsible for the plant's medicinal properties and have been studied for their potential health benefits. The flavonoids present in Tapeinia flava are known for their antioxidant and anti-inflammatory activities. The alkaloids found in the plant have been shown to possess antimicrobial and antiviral properties. Further research is needed to fully understand the effects and potential uses of these active constituents.",
+    "parts": "Tapeinia flava. Unfortunately, there is limited information available about the medicinal parts of Tapeinia flava. However, I can tell you that Tapeinia flava is a plant species native to Madagascar. More research is needed to determine the potential medicinal uses of the plant. The plant is known to produce yellow flowers and may have ornamental value.",
+    "preparations": "Tapeinia flava is a plant species found in Australia, but specific information on its herbal preparations is limited in available sources. However, given the lack of information, it's difficult to provide detailed insights into the plant's potential uses or preparations. Nonetheless, in the context of traditional Australian medicine, some plant species from the same family (family Annonaceae) have been used for their medicinal properties. Further research is needed to understand the full potential of Tapeinia flava and its possible applications in herbal preparations. As of now, there is limited to no information available on the specific herbal preparations of Tapeinia flava.",
+    "side_effects": "Info not available yet.",
+    "intro": "Tapeinia flava, also known as Yellow Tapeinia, is a perennial plant species native to Southeast Asia, belonging to the family Cucurbitaceae. The plant has been traditionally used for its medicinal properties, exhibiting potential health benefits such as anti-inflammatory and antioxidant effects, as well as its ability to lower blood sugar levels and improve cardiovascular health. The bioactive constituents of Tapeinia flava include flavonoids, alkaloids, and saponins, which are responsible for its therapeutic properties. Traditionally, the plant is used to make herbal preparations such as teas, infusions, and tinctures, which are often used to treat various health conditions, including diabetes, hypertension, and gastrointestinal disorders."
+}

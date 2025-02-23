@@ -1,1 +1,756 @@
-{"title": "Zingiber officinale", "herb_slug": "zingiber-officinale", "herb_name_scientific": "Zingiber officinale", "family_slug": "", "family_name": "", "url": "herbs/zingiber-officinale", "lastmod": "2025-1-20", "herb_names_common": [{"name": "ginger", "mentions": 20, "confidence_score": 198, "total_score": 3960}, {"name": "zingiber", "mentions": 22, "confidence_score": 144, "total_score": 3168}, {"name": "sheng jiang", "mentions": 17, "confidence_score": 113, "total_score": 1921}, {"name": "chinese ginger", "mentions": 13, "confidence_score": 93, "total_score": 1209}, {"name": "common ginger", "mentions": 11, "confidence_score": 80, "total_score": 880}, {"name": "indian ginger", "mentions": 9, "confidence_score": 53, "total_score": 477}, {"name": "gingembre", "mentions": 8, "confidence_score": 52, "total_score": 416}, {"name": "gengibre", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "jengibre", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "jungle ginger", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "zingiberis", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "nagiri", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "echte ingwer", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "african ginger", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "kancha", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "ginger root", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "inji", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "jingiber", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "hindu ginger", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "japanese ginger", "mentions": 3, "confidence_score": 10, "total_score": 30}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 197, "total_score": 3940}], "what_description": "Zingiber officinale is a perennial herbaceous plant native to South Asia. It belongs to the family Zingiberaceae. Botanically, it is characterized by a cylindrical rhizome with a waxy, yellowish-brown skin and white, fleshy interior, which contains a pair of petioles supporting a compound leaf with a sheathing base. The plant grows up to 90 cm tall, with a white, greenish or yellowish tubular inflorescence bearing a collection of small, white or pinkish flowers. Zingiber officinale's leaves are linear-lanceolate, 15-20 cm long, and 2-3 cm wide, with a rounded base and a pointed tip.", "category_action": "anti-inflammatory", "ailments": [{"name": "nausea", "mentions": 20, "confidence_score": 197, "total_score": 3940}, {"name": "inflammation", "mentions": 19, "confidence_score": 156, "total_score": 2964}, {"name": "diarrhea", "mentions": 18, "confidence_score": 146, "total_score": 2628}, {"name": "digestive issues", "mentions": 12, "confidence_score": 98, "total_score": 1176}, {"name": "menstrual cramps", "mentions": 10, "confidence_score": 73, "total_score": 730}, {"name": "cough", "mentions": 12, "confidence_score": 72, "total_score": 864}, {"name": "arthritis", "mentions": 10, "confidence_score": 72, "total_score": 720}, {"name": "indigestion", "mentions": 8, "confidence_score": 68, "total_score": 544}, {"name": "vomiting", "mentions": 6, "confidence_score": 53, "total_score": 318}, {"name": "motion sickness", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "fatigue", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "headache", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "cold", "mentions": 7, "confidence_score": 42, "total_score": 294}, {"name": "migraines", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "bloating", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "stress", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "stomach upset", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "sore throat", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "fever", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "dyspepsia", "mentions": 2, "confidence_score": 17, "total_score": 34}], "ailments_description": "The most common ailments you can heal with Zingiber officinale are nausea, which is alleviated due to its antiemetic properties, inflammation, which is reduced due to its anti-inflammatory compounds, and digestive issues, such as diarrhea, are treated with its antimicrobial and anti-inflammatory properties. Inflammation also causes arthritis, which is relieved by Zingiber officinale's anti-inflammatory and pain-relieving compounds. Additionally, indigestion and vomiting can be managed with its carminative and antiemetic properties, while motion sickness is treated with its antiemetic and sedative effects. Furthermore, fatigue is alleviated due to its antioxidant and anti-inflammatory properties, and headaches can be relieved with its analgesic and anti-inflammatory compounds. Its antimicrobial and anti-inflammatory properties also make it effective in treating cold, menstrual cramps, cough, dyspepsia, bloat, sore throat, fever, and stress, which can be managed with its adaptogenic and antioxidant properties.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 178, "total_score": 3560}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 172, "total_score": 3440}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 162, "total_score": 3240}, {"name": "analgesic", "mentions": 20, "confidence_score": 144, "total_score": 2880}, {"name": "digestive aid", "mentions": 13, "confidence_score": 113, "total_score": 1469}, {"name": "cardioprotective", "mentions": 12, "confidence_score": 76, "total_score": 912}, {"name": "antispasmodic", "mentions": 9, "confidence_score": 71, "total_score": 639}, {"name": "anticancer", "mentions": 14, "confidence_score": 69, "total_score": 966}, {"name": "neuroprotective", "mentions": 12, "confidence_score": 65, "total_score": 780}, {"name": "antiemetic", "mentions": 8, "confidence_score": 63, "total_score": 504}, {"name": "expectorant", "mentions": 8, "confidence_score": 49, "total_score": 392}, {"name": "antipyretic", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "cardiovascular protector", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "gastroprotective", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "antibacterial", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "antiviral", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "anti-emetic", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "antihistamine", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "hepatoprotective", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "immunomodulatory", "mentions": 2, "confidence_score": 10, "total_score": 20}], "properties_description": "The main therapeutic properties of Zingiber officinale are largely attributed to its bioactive compounds, including gingerols and shogaols, which possess antioxidant properties, thereby neutralizing free radicals and protecting against oxidative stress. The anti-inflammatory properties of Zingiber officinale are primarily due to its ability to inhibit the production of pro-inflammatory enzymes and cytokines, thereby reducing inflammation and alleviating conditions such as arthritis. The antimicrobial properties of Zingiber officinale are attributed to its ability to inhibit the growth of bacteria, fungi, and viruses, making it effective against a range of infections. Additionally, the analgesic properties of Zingiber officinale are primarily due to its ability to inhibit the production of pain-causing chemicals in the body, thereby providing relief from pain and discomfort. Furthermore, the bioactive compounds of Zingiber officinale, including volatile oils and saponins, also have a digestive aid effect, thereby alleviating symptoms of nausea, vomiting, and indigestion.", "constituents": [{"name": "gingerol", "mentions": 19, "confidence_score": 173, "total_score": 3287}, {"name": "shogaol", "mentions": 19, "confidence_score": 160, "total_score": 3040}, {"name": "zingiberene", "mentions": 19, "confidence_score": 150, "total_score": 2850}, {"name": "paradol", "mentions": 17, "confidence_score": 107, "total_score": 1819}, {"name": "6-gingerol", "mentions": 13, "confidence_score": 99, "total_score": 1287}, {"name": "bisabolol", "mentions": 17, "confidence_score": 94, "total_score": 1598}, {"name": "zingiberone", "mentions": 9, "confidence_score": 60, "total_score": 540}, {"name": "zingerone", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "gingerdione", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "gingerdiol", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "citral", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "naringenin", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "farnesene", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "n-geranial", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "6-shogaol", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "germacrone", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "linalool", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "10-gingerol", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "narlolin", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "zingiberol", "mentions": 2, "confidence_score": 10, "total_score": 20}], "constituents_description": "The most important healing constituents of Zingiber officinale are gingerols, specifically 6-gingerol and 8-gingerol, shogaols, zingiberene, and paradol. These compounds possess anti-inflammatory properties, which contribute to the plant's analgesic and anti-pain effects. 6-gingerol has been shown to inhibit the production of pro-inflammatory cytokines, while shogaols have been found to reduce pain by inhibiting the activity of COX-2 enzymes. Zingiberene and paradol have been demonstrated to exhibit antimicrobial and anti-cancer properties, respectively, further highlighting the medicinal potential of Zingiber officinale. The combination of these constituents in ginger root is believed to be responsible for its traditional use in treating various ailments, including nausea, arthritis, and digestive issues.", "preparations": [{"name": "ginger tea", "mentions": 19, "confidence_score": 186, "total_score": 3534}, {"name": "ginger oil", "mentions": 19, "confidence_score": 148, "total_score": 2812}, {"name": "ginger tincture", "mentions": 18, "confidence_score": 136, "total_score": 2448}, {"name": "ginger syrup", "mentions": 19, "confidence_score": 110, "total_score": 2090}, {"name": "ginger infusion", "mentions": 11, "confidence_score": 73, "total_score": 803}, {"name": "ginger ale", "mentions": 8, "confidence_score": 61, "total_score": 488}, {"name": "ginger powder", "mentions": 6, "confidence_score": 52, "total_score": 312}, {"name": "ginger capsules", "mentions": 9, "confidence_score": 51, "total_score": 459}, {"name": "ginger juice", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "ginger vinegar", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "ginger decoction", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "ginger extract", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "pickled ginger", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "ginger jam", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "ginger capsule", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "zingiber tincture", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "zingiber oil", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "zingiber powder", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "zingiber tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "ginger lotion", "mentions": 2, "confidence_score": 8, "total_score": 16}], "preparations_description": "The main herbal preparations of Zingiber officinale are ginger tea, ginger oil, ginger tincture, ginger syrup, and ginger infusion. Ginger tea is prepared by steeping dried ginger root in hot water to relieve nausea and indigestion due to its high content of gingerols and shogaols. Ginger oil, obtained through steam distillation, is used topically for pain relief and has anti-inflammatory properties. Ginger tincture, an ethanol-based extract, is commonly used to treat digestive issues and nausea, while ginger syrup is a concentrated liquid used to mask unpleasant flavors in medications. Ginger infusion, similar to tea but typically made with fresh ginger, is used to relieve cold and flu symptoms due to its high content of gingerols and flavonoids.", "side_effects": [{"name": "develops abdominal pain", "mentions": 6, "confidence_score": 57, "total_score": 342}, {"name": "exhibits nausea", "mentions": 5, "confidence_score": 44, "total_score": 220}, {"name": "experiencing diarrhea", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "suffers from diarrhea", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "experiences allergic reaction", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "suffers from dizziness", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "develop allergic reaction", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "experience nausea", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "inducing allergic reactions", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "experience diarrhea", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "experiences diarrhea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiencing vomiting", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiences allergic reactions", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "interacting with medications", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "increasing bleeding risk", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "produces vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "developing allergic reactions", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "suffering from headaches", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "inducing headaches", "mentions": 2, "confidence_score": 15, "total_score": 30}], "side_effects_description": "The possible side effects of using Zingiber officinale improperly are abdominal pain, nausea, diarrhea, and allergic reactions. These side effects occur when Zingiber officinale is ingested in large amounts or taken by individuals with pre-existing gastrointestinal issues. The high fiber content in Zingiber officinale can exacerbate conditions like irritable bowel syndrome, leading to abdominal pain, nausea, and diarrhea. Additionally, individuals with allergies to the ginger plant may experience an allergic reaction, which can manifest as hives, itching, or difficulty breathing. These side effects are a result of the improper use of Zingiber officinale, which can cause an imbalance of electrolytes and disrupt the body's natural digestive processes."}
+{
+    "title": "Zingiber officinale",
+    "herb_slug": "zingiber-officinale",
+    "herb_name_scientific": "Zingiber officinale",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/zingiber-officinale",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "ginger",
+            "mentions": 20,
+            "confidence_score": 198,
+            "total_score": 3960
+        },
+        {
+            "name": "zingiber",
+            "mentions": 22,
+            "confidence_score": 144,
+            "total_score": 3168
+        },
+        {
+            "name": "sheng jiang",
+            "mentions": 17,
+            "confidence_score": 113,
+            "total_score": 1921
+        },
+        {
+            "name": "chinese ginger",
+            "mentions": 13,
+            "confidence_score": 93,
+            "total_score": 1209
+        },
+        {
+            "name": "common ginger",
+            "mentions": 11,
+            "confidence_score": 80,
+            "total_score": 880
+        },
+        {
+            "name": "indian ginger",
+            "mentions": 9,
+            "confidence_score": 53,
+            "total_score": 477
+        },
+        {
+            "name": "gingembre",
+            "mentions": 8,
+            "confidence_score": 52,
+            "total_score": 416
+        },
+        {
+            "name": "gengibre",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "jengibre",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "jungle ginger",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "zingiberis",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "nagiri",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "echte ingwer",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "african ginger",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "kancha",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "ginger root",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "inji",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "jingiber",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "hindu ginger",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "japanese ginger",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 197,
+            "total_score": 3940
+        }
+    ],
+    "what_description": "Zingiber officinale is a perennial herbaceous plant native to South Asia. It belongs to the family Zingiberaceae. Botanically, it is characterized by a cylindrical rhizome with a waxy, yellowish-brown skin and white, fleshy interior, which contains a pair of petioles supporting a compound leaf with a sheathing base. The plant grows up to 90 cm tall, with a white, greenish or yellowish tubular inflorescence bearing a collection of small, white or pinkish flowers. Zingiber officinale's leaves are linear-lanceolate, 15-20 cm long, and 2-3 cm wide, with a rounded base and a pointed tip.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "nausea",
+            "mentions": 20,
+            "confidence_score": 197,
+            "total_score": 3940
+        },
+        {
+            "name": "inflammation",
+            "mentions": 19,
+            "confidence_score": 156,
+            "total_score": 2964
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 18,
+            "confidence_score": 146,
+            "total_score": 2628
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 12,
+            "confidence_score": 98,
+            "total_score": 1176
+        },
+        {
+            "name": "menstrual cramps",
+            "mentions": 10,
+            "confidence_score": 73,
+            "total_score": 730
+        },
+        {
+            "name": "cough",
+            "mentions": 12,
+            "confidence_score": 72,
+            "total_score": 864
+        },
+        {
+            "name": "arthritis",
+            "mentions": 10,
+            "confidence_score": 72,
+            "total_score": 720
+        },
+        {
+            "name": "indigestion",
+            "mentions": 8,
+            "confidence_score": 68,
+            "total_score": 544
+        },
+        {
+            "name": "vomiting",
+            "mentions": 6,
+            "confidence_score": 53,
+            "total_score": 318
+        },
+        {
+            "name": "motion sickness",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "fatigue",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "headache",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "cold",
+            "mentions": 7,
+            "confidence_score": 42,
+            "total_score": 294
+        },
+        {
+            "name": "migraines",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "bloating",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "stress",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "stomach upset",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "sore throat",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "fever",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "dyspepsia",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Zingiber officinale are nausea, which is alleviated due to its antiemetic properties, inflammation, which is reduced due to its anti-inflammatory compounds, and digestive issues, such as diarrhea, are treated with its antimicrobial and anti-inflammatory properties. Inflammation also causes arthritis, which is relieved by Zingiber officinale's anti-inflammatory and pain-relieving compounds. Additionally, indigestion and vomiting can be managed with its carminative and antiemetic properties, while motion sickness is treated with its antiemetic and sedative effects. Furthermore, fatigue is alleviated due to its antioxidant and anti-inflammatory properties, and headaches can be relieved with its analgesic and anti-inflammatory compounds. Its antimicrobial and anti-inflammatory properties also make it effective in treating cold, menstrual cramps, cough, dyspepsia, bloat, sore throat, fever, and stress, which can be managed with its adaptogenic and antioxidant properties.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 178,
+            "total_score": 3560
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 162,
+            "total_score": 3240
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 144,
+            "total_score": 2880
+        },
+        {
+            "name": "digestive aid",
+            "mentions": 13,
+            "confidence_score": 113,
+            "total_score": 1469
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 12,
+            "confidence_score": 76,
+            "total_score": 912
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 9,
+            "confidence_score": 71,
+            "total_score": 639
+        },
+        {
+            "name": "anticancer",
+            "mentions": 14,
+            "confidence_score": 69,
+            "total_score": 966
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 12,
+            "confidence_score": 65,
+            "total_score": 780
+        },
+        {
+            "name": "antiemetic",
+            "mentions": 8,
+            "confidence_score": 63,
+            "total_score": 504
+        },
+        {
+            "name": "expectorant",
+            "mentions": 8,
+            "confidence_score": 49,
+            "total_score": 392
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "cardiovascular protector",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "gastroprotective",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "antiviral",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "anti-emetic",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Zingiber officinale are largely attributed to its bioactive compounds, including gingerols and shogaols, which possess antioxidant properties, thereby neutralizing free radicals and protecting against oxidative stress. The anti-inflammatory properties of Zingiber officinale are primarily due to its ability to inhibit the production of pro-inflammatory enzymes and cytokines, thereby reducing inflammation and alleviating conditions such as arthritis. The antimicrobial properties of Zingiber officinale are attributed to its ability to inhibit the growth of bacteria, fungi, and viruses, making it effective against a range of infections. Additionally, the analgesic properties of Zingiber officinale are primarily due to its ability to inhibit the production of pain-causing chemicals in the body, thereby providing relief from pain and discomfort. Furthermore, the bioactive compounds of Zingiber officinale, including volatile oils and saponins, also have a digestive aid effect, thereby alleviating symptoms of nausea, vomiting, and indigestion.",
+    "constituents": [
+        {
+            "name": "gingerol",
+            "mentions": 19,
+            "confidence_score": 173,
+            "total_score": 3287
+        },
+        {
+            "name": "shogaol",
+            "mentions": 19,
+            "confidence_score": 160,
+            "total_score": 3040
+        },
+        {
+            "name": "zingiberene",
+            "mentions": 19,
+            "confidence_score": 150,
+            "total_score": 2850
+        },
+        {
+            "name": "paradol",
+            "mentions": 17,
+            "confidence_score": 107,
+            "total_score": 1819
+        },
+        {
+            "name": "6-gingerol",
+            "mentions": 13,
+            "confidence_score": 99,
+            "total_score": 1287
+        },
+        {
+            "name": "bisabolol",
+            "mentions": 17,
+            "confidence_score": 94,
+            "total_score": 1598
+        },
+        {
+            "name": "zingiberone",
+            "mentions": 9,
+            "confidence_score": 60,
+            "total_score": 540
+        },
+        {
+            "name": "zingerone",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "gingerdione",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "gingerdiol",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "citral",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "naringenin",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "farnesene",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "n-geranial",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "6-shogaol",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "germacrone",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "linalool",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "10-gingerol",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "narlolin",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "zingiberol",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Zingiber officinale are gingerols, specifically 6-gingerol and 8-gingerol, shogaols, zingiberene, and paradol. These compounds possess anti-inflammatory properties, which contribute to the plant's analgesic and anti-pain effects. 6-gingerol has been shown to inhibit the production of pro-inflammatory cytokines, while shogaols have been found to reduce pain by inhibiting the activity of COX-2 enzymes. Zingiberene and paradol have been demonstrated to exhibit antimicrobial and anti-cancer properties, respectively, further highlighting the medicinal potential of Zingiber officinale. The combination of these constituents in ginger root is believed to be responsible for its traditional use in treating various ailments, including nausea, arthritis, and digestive issues.",
+    "preparations": [
+        {
+            "name": "ginger tea",
+            "mentions": 19,
+            "confidence_score": 186,
+            "total_score": 3534
+        },
+        {
+            "name": "ginger oil",
+            "mentions": 19,
+            "confidence_score": 148,
+            "total_score": 2812
+        },
+        {
+            "name": "ginger tincture",
+            "mentions": 18,
+            "confidence_score": 136,
+            "total_score": 2448
+        },
+        {
+            "name": "ginger syrup",
+            "mentions": 19,
+            "confidence_score": 110,
+            "total_score": 2090
+        },
+        {
+            "name": "ginger infusion",
+            "mentions": 11,
+            "confidence_score": 73,
+            "total_score": 803
+        },
+        {
+            "name": "ginger ale",
+            "mentions": 8,
+            "confidence_score": 61,
+            "total_score": 488
+        },
+        {
+            "name": "ginger powder",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "name": "ginger capsules",
+            "mentions": 9,
+            "confidence_score": 51,
+            "total_score": 459
+        },
+        {
+            "name": "ginger juice",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "ginger vinegar",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "ginger decoction",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "ginger extract",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "pickled ginger",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "ginger jam",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "ginger capsule",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "zingiber tincture",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "zingiber oil",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "zingiber powder",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "zingiber tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "ginger lotion",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Zingiber officinale are ginger tea, ginger oil, ginger tincture, ginger syrup, and ginger infusion. Ginger tea is prepared by steeping dried ginger root in hot water to relieve nausea and indigestion due to its high content of gingerols and shogaols. Ginger oil, obtained through steam distillation, is used topically for pain relief and has anti-inflammatory properties. Ginger tincture, an ethanol-based extract, is commonly used to treat digestive issues and nausea, while ginger syrup is a concentrated liquid used to mask unpleasant flavors in medications. Ginger infusion, similar to tea but typically made with fresh ginger, is used to relieve cold and flu symptoms due to its high content of gingerols and flavonoids.",
+    "side_effects": [
+        {
+            "name": "develops abdominal pain",
+            "mentions": 6,
+            "confidence_score": 57,
+            "total_score": 342
+        },
+        {
+            "name": "exhibits nausea",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "suffers from diarrhea",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "experiences allergic reaction",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "suffers from dizziness",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "inducing allergic reactions",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "experiences diarrhea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "interacting with medications",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "increasing bleeding risk",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "produces vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "developing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "suffering from headaches",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "inducing headaches",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Zingiber officinale improperly are abdominal pain, nausea, diarrhea, and allergic reactions. These side effects occur when Zingiber officinale is ingested in large amounts or taken by individuals with pre-existing gastrointestinal issues. The high fiber content in Zingiber officinale can exacerbate conditions like irritable bowel syndrome, leading to abdominal pain, nausea, and diarrhea. Additionally, individuals with allergies to the ginger plant may experience an allergic reaction, which can manifest as hives, itching, or difficulty breathing. These side effects are a result of the improper use of Zingiber officinale, which can cause an imbalance of electrolytes and disrupt the body's natural digestive processes."
+}

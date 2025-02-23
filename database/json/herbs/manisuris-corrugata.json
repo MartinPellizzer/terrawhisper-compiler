@@ -1,1 +1,148 @@
-{"title": "Manisuris corrugata", "herb_slug": "manisuris-corrugata", "herb_name_scientific": "Manisuris corrugata", "family_slug": "poaceae", "family_name": "Poaceae", "url": "herbs/manisuris-corrugata", "lastmod": "2025-2-4", "herb_names_common": [{"name": "manisurus corrugatus", "mentions": 16, "confidence_score": 137, "total_score": 2192}, {"name": "no common names found", "mentions": 11, "confidence_score": 107, "total_score": 1177}, {"name": "manisurus", "mentions": 14, "confidence_score": 96, "total_score": 1344}, {"name": "manisurus corrugata", "mentions": 13, "confidence_score": 93, "total_score": 1209}, {"name": "no data", "mentions": 9, "confidence_score": 90, "total_score": 810}, {"name": "manisuris corrugata", "mentions": 36, "confidence_score": 36, "total_score": 1296}, {"name": "manisuris corrugata (no common name found)", "mentions": 3, "confidence_score": 30, "total_score": 90}, {"name": "squashed coral mushroom", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "manisuris", "mentions": 9, "confidence_score": 22, "total_score": 198}, {"name": "no information available", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "warty manis", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "smooth manis urchin", "mentions": 23, "confidence_score": 17, "total_score": 391}, {"name": "manisuris corrugatus", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "manisuris species (no common name found)", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "manisuris corrugata is not found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "this species does not have any commonly recognized names", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "there are no records of common names for this species", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "corrugated manis urchin", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "unknown", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "manis corrugata urchin", "mentions": 6, "confidence_score": 8, "total_score": 48}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 183, "total_score": 3660}], "uses": "Manisuris corrugata is a species of flowering plant, and research on its medicinal uses is limited. However, some studies suggest that it may have potential anti-inflammatory and antimicrobial properties. Further research is necessary to confirm its efficacy and safety for medicinal purposes. Traditional uses of similar species in the same genus have been reported for their potential benefits in treating various health conditions. More studies are needed to fully understand the potential medicinal applications of Manisuris corrugata.", "taxonomy": "Manisuris corrugata is classified in the family Menispermaceae, which is a group of flowering plants commonly known as moonseed or yellow minges. The species Manisuris corrugata is native to certain regions of Asia and is part of the genus Manisuris. Manisuris corrugata is also known as a woody climber, which means it grows by twining around other plants or structures. Its classification further categorizes it as a plant in the order Ranunculales. This classification reflects the plant's unique characteristics and evolutionary relationships within the plant kingdom.", "benefits": "Manisuris corrugata, also known as the corrugated Manisuris, is a plant species that has been found to have various health benefits. It is rich in antioxidants, which can help protect the body from free radicals and oxidative stress. The plant has anti-inflammatory properties, which can help reduce inflammation and alleviate symptoms associated with conditions such as arthritis and other inflammatory diseases. Additionally, Manisuris corrugata has been found to have antimicrobial properties, which can help combat infections and promote wound healing. Further research is needed to fully understand the potential health benefits of this plant.", "properties": "Info not available yet.", "constituents": "Info not available yet.", "parts": "Info not available yet.", "preparations": "Unfortunately, I do not have information about the plant Manisuris corrugata, so I can provide an answer to the query about its herbal preparations.\n\nHowever, I can tell you that I can provide a general response about herbal preparations in general. Herbal preparations can vary widely depending on the plant, its intended use, and the cultural traditions of the people who use it. These preparations can take many forms, including teas, tinctures, infusions, and salves. The specific preparation methods and ingredients used can also differ depending on the desired effect and the individual's needs.", "side_effects": "Info not available yet.", "intro": "I couldn't find any information on the plant Manisuris corrugata."}
+{
+    "title": "Manisuris corrugata",
+    "herb_slug": "manisuris-corrugata",
+    "herb_name_scientific": "Manisuris corrugata",
+    "family_slug": "poaceae",
+    "family_name": "Poaceae",
+    "url": "herbs/manisuris-corrugata",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "manisurus corrugatus",
+            "mentions": 16,
+            "confidence_score": 137,
+            "total_score": 2192
+        },
+        {
+            "name": "no common names found",
+            "mentions": 11,
+            "confidence_score": 107,
+            "total_score": 1177
+        },
+        {
+            "name": "manisurus",
+            "mentions": 14,
+            "confidence_score": 96,
+            "total_score": 1344
+        },
+        {
+            "name": "manisurus corrugata",
+            "mentions": 13,
+            "confidence_score": 93,
+            "total_score": 1209
+        },
+        {
+            "name": "no data",
+            "mentions": 9,
+            "confidence_score": 90,
+            "total_score": 810
+        },
+        {
+            "name": "manisuris corrugata",
+            "mentions": 36,
+            "confidence_score": 36,
+            "total_score": 1296
+        },
+        {
+            "name": "manisuris corrugata (no common name found)",
+            "mentions": 3,
+            "confidence_score": 30,
+            "total_score": 90
+        },
+        {
+            "name": "squashed coral mushroom",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "manisuris",
+            "mentions": 9,
+            "confidence_score": 22,
+            "total_score": 198
+        },
+        {
+            "name": "no information available",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "warty manis",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "smooth manis urchin",
+            "mentions": 23,
+            "confidence_score": 17,
+            "total_score": 391
+        },
+        {
+            "name": "manisuris corrugatus",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "manisuris species (no common name found)",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "manisuris corrugata is not found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "this species does not have any commonly recognized names",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "there are no records of common names for this species",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "corrugated manis urchin",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "unknown",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "manis corrugata urchin",
+            "mentions": 6,
+            "confidence_score": 8,
+            "total_score": 48
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 183,
+            "total_score": 3660
+        }
+    ],
+    "uses": "Manisuris corrugata is a species of flowering plant, and research on its medicinal uses is limited. However, some studies suggest that it may have potential anti-inflammatory and antimicrobial properties. Further research is necessary to confirm its efficacy and safety for medicinal purposes. Traditional uses of similar species in the same genus have been reported for their potential benefits in treating various health conditions. More studies are needed to fully understand the potential medicinal applications of Manisuris corrugata.",
+    "taxonomy": "Manisuris corrugata is classified in the family Menispermaceae, which is a group of flowering plants commonly known as moonseed or yellow minges. The species Manisuris corrugata is native to certain regions of Asia and is part of the genus Manisuris. Manisuris corrugata is also known as a woody climber, which means it grows by twining around other plants or structures. Its classification further categorizes it as a plant in the order Ranunculales. This classification reflects the plant's unique characteristics and evolutionary relationships within the plant kingdom.",
+    "benefits": "Manisuris corrugata, also known as the corrugated Manisuris, is a plant species that has been found to have various health benefits. It is rich in antioxidants, which can help protect the body from free radicals and oxidative stress. The plant has anti-inflammatory properties, which can help reduce inflammation and alleviate symptoms associated with conditions such as arthritis and other inflammatory diseases. Additionally, Manisuris corrugata has been found to have antimicrobial properties, which can help combat infections and promote wound healing. Further research is needed to fully understand the potential health benefits of this plant.",
+    "properties": "Info not available yet.",
+    "constituents": "Info not available yet.",
+    "parts": "Info not available yet.",
+    "preparations": "Unfortunately, I do not have information about the plant Manisuris corrugata, so I can provide an answer to the query about its herbal preparations.\n\nHowever, I can tell you that I can provide a general response about herbal preparations in general. Herbal preparations can vary widely depending on the plant, its intended use, and the cultural traditions of the people who use it. These preparations can take many forms, including teas, tinctures, infusions, and salves. The specific preparation methods and ingredients used can also differ depending on the desired effect and the individual's needs.",
+    "side_effects": "Info not available yet.",
+    "intro": "I couldn't find any information on the plant Manisuris corrugata."
+}

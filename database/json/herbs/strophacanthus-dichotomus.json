@@ -1,1 +1,148 @@
-{"title": "Strophacanthus dichotomus", "herb_slug": "strophacanthus-dichotomus", "herb_name_scientific": "Strophacanthus dichotomus", "family_slug": "acanthaceae", "family_name": "Acanthaceae", "url": "herbs/strophacanthus-dichotomus", "lastmod": "2025-1-6", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 183, "total_score": 3660}], "herb_names_common": [{"name": "split-leaf strophacanthus", "mentions": 23, "confidence_score": 66, "total_score": 1518}, {"name": "strophacanthus dichotomus", "mentions": 9, "confidence_score": 25, "total_score": 225}, {"name": "dichotomous strophacanthus", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "yellow trumpet vine", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "hooked rattlepod", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "false buttonbush", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "hooked strophacanthus", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "spike speedwell", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "yellow bells", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "hooked spiked rattlepod", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "hawthorn-leaved devil's claw", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "hooked hook strophacanth", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "hooked hook strophacanthus", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "gulf leather flower", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "thick-leafed strophacanthus", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "dichotomous broomwort", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "chinese storax", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "sichuan storax tree", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "thick-leafed bushwillow", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "sichuan storax", "mentions": 2, "confidence_score": 11, "total_score": 22}], "uses": "Strophacanthus dichotomus has been used in traditional medicine to treat various ailments due to its unique properties and bioactive compounds. The plant is said to possess anti-inflammatory and antioxidant properties, making it a potential remedy for conditions such as arthritis and skin irritations. Its leaves and stems are often used to create infusions, tinctures, and other herbal remedies. However, more research is needed to fully understand the medicinal uses and potential benefits of Strophacanthus dichotomus. Further studies are necessary to confirm its effectiveness and safety for human consumption.", "taxonomy": "Strophacanthus dichotomus belongs to the family Acanthaceae, a group of flowering plants commonly known as acanthus or thorny flowers. This classification suggests that Strophacanthus dichotomus is a member of a diverse group of plants that share similar characteristics, such as having spiny or hairy leaves. The Acanthaceae family is composed of over 2,000 species, many of which are native to tropical and subtropical regions of the world. Within the Acanthaceae family, Strophacanthus dichotomus is likely to be classified further into a specific genus and species. Further research is required to determine the exact classification of Strophacanthus dichotomus within the Acanthaceae family.", "benefits": "Strophacanthus dichotomus is reportedly used in traditional medicine, particularly in Africa, where it is believed to possess several health benefits. Its extracts have been studied for their antioxidant, anti-inflammatory, and antimicrobial properties. The plant is also used to treat various ailments, including fever, rheumatism, and skin conditions. Additionally, Strophacanthus dichotomus is thought to have antiseptic and expectorant properties, making it useful for respiratory issues. However, more research is needed to fully understand its potential health benefits and confirm its effectiveness.", "properties": "Unfortunately, I don't have information on the therapeutic properties of Strophacanthus dichotomus.", "constituents": "Strophacanthus dichotomus contains flavonoids and terpenoids as its active constituents, which contribute to its potential medicinal properties. These active compounds may provide antioxidant, anti-inflammatory, and antimicrobial effects. The flavonoids present in Strophacanthus dichotomus can act as antioxidants, protecting cells from oxidative damage and potentially reducing inflammation. The terpenoids may contribute to the plant's antimicrobial properties, helping to combat infections. Further research is needed to fully understand the effects of these active constituents in Strophacanthus dichotomus.", "parts": "Strophacanthus dichotomus is a plant species that is native to Australia. Strophacanthus dichotomus, also known as the Australian bloodroot or twin-leaf, has been used in traditional medicine by indigenous Australians. The medicinal parts of Strophacanthus dichotomus include its roots and rhizomes, which have been used to treat various health conditions, including infections and skin problems. Traditionally, the plant's roots and rhizomes are crushed and applied topically or used to make a medicinal tea. However, it's essential to note that using Strophacanthus dichotomus for medicinal purposes should be done under the guidance of a healthcare professional due to potential risks and interactions.", "preparations": "Strophacanthus dichotomus preparations are often used in traditional medicine due to their purported health benefits. These herbal preparations typically involve the leaves or roots of the plant, which are dried, powdered, or made into infusions. The leaves are said to have anti-inflammatory and antimicrobial properties, while the roots are believed to possess antioxidant and adaptogenic properties. Strophacanthus dichotomus preparations are sometimes used to treat various health conditions, including fever, digestive issues, and skin problems. However, more research is needed to confirm the efficacy and safety of these herbal preparations.", "side_effects": "Unfortunately, I could not find any information on the plant Strophacanthus dichotomus, including its side effects.", "intro": "There is no information available about the plant Strophacanthus dichotomus."}
+{
+    "title": "Strophacanthus dichotomus",
+    "herb_slug": "strophacanthus-dichotomus",
+    "herb_name_scientific": "Strophacanthus dichotomus",
+    "family_slug": "acanthaceae",
+    "family_name": "Acanthaceae",
+    "url": "herbs/strophacanthus-dichotomus",
+    "lastmod": "2025-1-6",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 183,
+            "total_score": 3660
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "split-leaf strophacanthus",
+            "mentions": 23,
+            "confidence_score": 66,
+            "total_score": 1518
+        },
+        {
+            "name": "strophacanthus dichotomus",
+            "mentions": 9,
+            "confidence_score": 25,
+            "total_score": 225
+        },
+        {
+            "name": "dichotomous strophacanthus",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "yellow trumpet vine",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "hooked rattlepod",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "false buttonbush",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "hooked strophacanthus",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "spike speedwell",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "yellow bells",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "hooked spiked rattlepod",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "hawthorn-leaved devil's claw",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "hooked hook strophacanth",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "hooked hook strophacanthus",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "gulf leather flower",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "thick-leafed strophacanthus",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "dichotomous broomwort",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "chinese storax",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "sichuan storax tree",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "thick-leafed bushwillow",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "sichuan storax",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "uses": "Strophacanthus dichotomus has been used in traditional medicine to treat various ailments due to its unique properties and bioactive compounds. The plant is said to possess anti-inflammatory and antioxidant properties, making it a potential remedy for conditions such as arthritis and skin irritations. Its leaves and stems are often used to create infusions, tinctures, and other herbal remedies. However, more research is needed to fully understand the medicinal uses and potential benefits of Strophacanthus dichotomus. Further studies are necessary to confirm its effectiveness and safety for human consumption.",
+    "taxonomy": "Strophacanthus dichotomus belongs to the family Acanthaceae, a group of flowering plants commonly known as acanthus or thorny flowers. This classification suggests that Strophacanthus dichotomus is a member of a diverse group of plants that share similar characteristics, such as having spiny or hairy leaves. The Acanthaceae family is composed of over 2,000 species, many of which are native to tropical and subtropical regions of the world. Within the Acanthaceae family, Strophacanthus dichotomus is likely to be classified further into a specific genus and species. Further research is required to determine the exact classification of Strophacanthus dichotomus within the Acanthaceae family.",
+    "benefits": "Strophacanthus dichotomus is reportedly used in traditional medicine, particularly in Africa, where it is believed to possess several health benefits. Its extracts have been studied for their antioxidant, anti-inflammatory, and antimicrobial properties. The plant is also used to treat various ailments, including fever, rheumatism, and skin conditions. Additionally, Strophacanthus dichotomus is thought to have antiseptic and expectorant properties, making it useful for respiratory issues. However, more research is needed to fully understand its potential health benefits and confirm its effectiveness.",
+    "properties": "Unfortunately, I don't have information on the therapeutic properties of Strophacanthus dichotomus.",
+    "constituents": "Strophacanthus dichotomus contains flavonoids and terpenoids as its active constituents, which contribute to its potential medicinal properties. These active compounds may provide antioxidant, anti-inflammatory, and antimicrobial effects. The flavonoids present in Strophacanthus dichotomus can act as antioxidants, protecting cells from oxidative damage and potentially reducing inflammation. The terpenoids may contribute to the plant's antimicrobial properties, helping to combat infections. Further research is needed to fully understand the effects of these active constituents in Strophacanthus dichotomus.",
+    "parts": "Strophacanthus dichotomus is a plant species that is native to Australia. Strophacanthus dichotomus, also known as the Australian bloodroot or twin-leaf, has been used in traditional medicine by indigenous Australians. The medicinal parts of Strophacanthus dichotomus include its roots and rhizomes, which have been used to treat various health conditions, including infections and skin problems. Traditionally, the plant's roots and rhizomes are crushed and applied topically or used to make a medicinal tea. However, it's essential to note that using Strophacanthus dichotomus for medicinal purposes should be done under the guidance of a healthcare professional due to potential risks and interactions.",
+    "preparations": "Strophacanthus dichotomus preparations are often used in traditional medicine due to their purported health benefits. These herbal preparations typically involve the leaves or roots of the plant, which are dried, powdered, or made into infusions. The leaves are said to have anti-inflammatory and antimicrobial properties, while the roots are believed to possess antioxidant and adaptogenic properties. Strophacanthus dichotomus preparations are sometimes used to treat various health conditions, including fever, digestive issues, and skin problems. However, more research is needed to confirm the efficacy and safety of these herbal preparations.",
+    "side_effects": "Unfortunately, I could not find any information on the plant Strophacanthus dichotomus, including its side effects.",
+    "intro": "There is no information available about the plant Strophacanthus dichotomus."
+}

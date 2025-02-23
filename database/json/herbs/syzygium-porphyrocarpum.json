@@ -1,1 +1,743 @@
-{"title": "Syzygium porphyrocarpum", "herb_slug": "syzygium-porphyrocarpum", "herb_name_scientific": "Syzygium porphyrocarpum", "family_slug": "myrtaceae", "family_name": "Myrtaceae", "url": "herbs/syzygium-porphyrocarpum", "lastmod": "2025-1-15", "herb_names_common": [{"name": "water apple", "mentions": 17, "confidence_score": 140, "total_score": 2380}, {"name": "syzygium", "mentions": 13, "confidence_score": 73, "total_score": 949}, {"name": "red apple", "mentions": 7, "confidence_score": 52, "total_score": 364}, {"name": "pearberry", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "syzygium porphyrocarpum", "mentions": 12, "confidence_score": 36, "total_score": 432}, {"name": "water pear", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "jungle apple", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "pear apple", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "australian water apple", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "malabar plum", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "malabar apple", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "jambolan", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "rose apple", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "wax apple", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "water cherry", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "malay apple", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "java plum", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "pink syzygium", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "wild apple", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "red plum", "mentions": 2, "confidence_score": 13, "total_score": 26}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 18, "confidence_score": 144, "total_score": 2592}, {"medicine_or_poison": "poison", "mentions": 2, "confidence_score": 20, "total_score": 40}], "what_description": "Syzygium porphyrocarpum is a species of flowering plant in the family Myrtaceae. It is an evergreen tree with a broad, rounded crown and a smooth, grey bark that becomes longitudinally fissured with age. The leaves are elliptic to lanceolate, 3-7 cm long, 1-2.5 cm wide, with a pointed tip and a rounded base, and are arranged oppositely on the branchlets. The flowers are white, 5-6 mm long, and are arranged in dense clusters at the ends of branchlets. The fruit is a berry, 1.5-2 cm in diameter, with a red or purple color when ripe, and is edible, containing 3-4 seeds.", "category_action": "antimicrobial", "ailments": [{"name": "diarrhea", "mentions": 17, "confidence_score": 141, "total_score": 2397}, {"name": "fever", "mentions": 17, "confidence_score": 139, "total_score": 2363}, {"name": "inflammation", "mentions": 17, "confidence_score": 137, "total_score": 2329}, {"name": "malaria", "mentions": 10, "confidence_score": 66, "total_score": 660}, {"name": "fungal infections", "mentions": 7, "confidence_score": 58, "total_score": 406}, {"name": "cough", "mentions": 8, "confidence_score": 57, "total_score": 456}, {"name": "skin infections", "mentions": 8, "confidence_score": 54, "total_score": 432}, {"name": "respiratory issues", "mentions": 8, "confidence_score": 50, "total_score": 400}, {"name": "rheumatism", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "wound healing", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "gastroenteritis", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "dysentery", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "urinary tract infections", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "vomiting", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "dyspepsia", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "pain", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "digestive issues", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "antimicrobial", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "gastrointestinal issues", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "viral infections", "mentions": 3, "confidence_score": 21, "total_score": 63}], "ailments_description": "The most common ailments you can heal with Syzygium porphyrocarpum are diarrhea, fever, inflammation, and gastrointestinal issues, which are often associated with gastrointestinal issues such as dysentery. The plant has also been used to treat malaria, a severe disease caused by Plasmodium parasites. Inflammation and pain can be reduced due to the anti-inflammatory properties of Syzygium porphyrocarpum. Additionally, it has been used to treat fungal infections, cough, skin infections, respiratory issues, rheumatism, and wound healing. Furthermore, the plant's antimicrobial properties make it effective against urinary tract infections, vomiting, dyspepsia, and viral infections.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 168, "total_score": 3360}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 147, "total_score": 2940}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 135, "total_score": 2700}, {"name": "antifungal", "mentions": 17, "confidence_score": 108, "total_score": 1836}, {"name": "analgesic", "mentions": 19, "confidence_score": 94, "total_score": 1786}, {"name": "antiviral", "mentions": 17, "confidence_score": 77, "total_score": 1309}, {"name": "antibacterial", "mentions": 10, "confidence_score": 76, "total_score": 760}, {"name": "antipyretic", "mentions": 13, "confidence_score": 57, "total_score": 741}, {"name": "cardioprotective", "mentions": 12, "confidence_score": 57, "total_score": 684}, {"name": "hepatoprotective", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "cytotoxic", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "anticancer", "mentions": 7, "confidence_score": 25, "total_score": 175}, {"name": "antidiabetic", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "antispasmodic", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "neuroprotective", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "cytoprotective", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "antihistaminic", "mentions": 5, "confidence_score": 14, "total_score": 70}, {"name": "hypoglycemic", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "cardioactive", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "anti-helminthic", "mentions": 1, "confidence_score": 8, "total_score": 8}], "properties_description": "The main therapeutic properties of Syzygium porphyrocarpum are attributed to its antioxidant properties, which are mediated by the presence of flavonoids and phenolic acids, capable of neutralizing free radicals and preventing oxidative stress. This plant also exhibits antimicrobial activity, inhibiting the growth of various pathogens, including bacteria and fungi, through the action of saponins and terpenoids. Furthermore, Syzygium porphyrocarpum has been found to possess anti-inflammatory properties, reducing inflammation and pain through the modulation of pro-inflammatory enzymes and cytokines by bioactive compounds such as volatile oils and glycosides. Additionally, the plant's antifungal properties are thought to be mediated by the presence of sesquiterpenes, which inhibit the growth of fungi and prevent infections. Its analgesic properties, on the other hand, are attributed to the action of flavonoids and phenolic acids, which inhibit pain transmission and reduce inflammation, making it a potential natural remedy for pain relief.", "constituents": [{"name": "quercetin", "mentions": 19, "confidence_score": 163, "total_score": 3097}, {"name": "ellagic acid", "mentions": 18, "confidence_score": 147, "total_score": 2646}, {"name": "gallic acid", "mentions": 17, "confidence_score": 127, "total_score": 2159}, {"name": "kaempferol", "mentions": 13, "confidence_score": 86, "total_score": 1118}, {"name": "catechins", "mentions": 11, "confidence_score": 67, "total_score": 737}, {"name": "phenolic acids", "mentions": 12, "confidence_score": 52, "total_score": 624}, {"name": "flavonoids", "mentions": 9, "confidence_score": 48, "total_score": 432}, {"name": "tannins", "mentions": 9, "confidence_score": 40, "total_score": 360}, {"name": "syzygium porphyrocarpum flavonoids", "mentions": 7, "confidence_score": 39, "total_score": 273}, {"name": "myricetin", "mentions": 6, "confidence_score": 30, "total_score": 180}, {"name": "gallocatechin", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "gallocatechin gallate", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "ferulic acid", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "coumarins", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "epicatechin", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "syringic acid", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "alkaloids", "mentions": 5, "confidence_score": 13, "total_score": 65}, {"name": "protocatechuic acid", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "rutin", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "naringenin", "mentions": 3, "confidence_score": 11, "total_score": 33}], "constituents_description": "The most important healing constituents of Syzygium porphyrocarpum are flavonoids and phenolic acids, which include quercetin, a potent antioxidant with anti-inflammatory properties, ellagic acid, a known chemopreventive agent that inhibits cancer cell growth, gallic acid, a compound with antimicrobial and anti-inflammatory activities, kaempferol, a flavonoid with anti-inflammatory and antioxidant effects, and catechins, a type of flavonoid with anti-inflammatory and anticancer properties. These compounds have been found to be responsible for the plant's antioxidant, anti-inflammatory, and antimicrobial activities. Studies have shown that quercetin and ellagic acid have the ability to scavenge free radicals and reduce oxidative stress, while gallic acid has been found to inhibit the growth of microorganisms and reduce inflammation. Kaempferol and catechins have also been shown to have anti-inflammatory and anticancer effects, respectively. The combination of these compounds in Syzygium porphyrocarpum makes it a valuable plant for the treatment of various diseases.", "preparations": [{"name": "tea", "mentions": 18, "confidence_score": 164, "total_score": 2952}, {"name": "infusion", "mentions": 19, "confidence_score": 147, "total_score": 2793}, {"name": "tincture", "mentions": 19, "confidence_score": 120, "total_score": 2280}, {"name": "decoction", "mentions": 15, "confidence_score": 83, "total_score": 1245}, {"name": "salve", "mentions": 15, "confidence_score": 56, "total_score": 840}, {"name": "oil", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "ointment", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "syzygium porphyrocarpum extract", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "syzygium porphyrocarpum tincture", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "syzygium porphyrocarpum tea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "syzygium porphyrocarpum capsule", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "suppository", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "syzygium porphyrocarpum infusion", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "supplement", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "syzygium porphyrocarpum oil", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "glycoside", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Syzygium porphyrocarpum are tea and infusion made from its leaves, which are rich in antioxidants and have been traditionally used to treat fever and cough; decoction is prepared from its bark, used for its anti-inflammatory and antiseptic properties to treat wounds and skin conditions; a tincture of its leaves and bark is also used to treat digestive issues and as an antiseptic; a salve is prepared from its bark and leaves to treat skin conditions and wounds, due to its antimicrobial properties; these preparations are used due to the plant's bioactive compounds such as flavonoids and phenolic acids, which have been scientifically proven to have therapeutic effects.", "side_effects": [{"name": "induce vomiting", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "develop skin irritation", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "induce nausea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "cause allergic reactions", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "cause diarrhea", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "induce diarrhea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "cause nausea", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "experience nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "trigger headaches", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "experience allergic reaction", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause skin irritation", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "elevate blood pressure", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "increase blood pressure", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "trigger hypertension", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "cause dizziness", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "cause neurological disorders", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "experiences kidney damage", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffers kidney damage", "mentions": 1, "confidence_score": 10, "total_score": 10}], "side_effects_description": "The possible side effects of using Syzygium porphyrocarpum improperly include inducing vomiting due to its emetic properties, developing skin irritation from the presence of allergenic compounds, inducing nausea as a result of its toxic alkaloids, causing allergic reactions in some individuals due to cross-reactivity with other plant species, and causing diarrhea from the gastrointestinal irritation caused by its saponins and flavonoids. These side effects can occur if the plant is ingested in large quantities or if it is used for an extended period of time. The improper use of Syzygium porphyrocarpum can also lead to an increased risk of gastrointestinal complications, such as abdominal pain and bloody stools. In addition, the use of the plant can interact with other medications, such as blood thinners and diabetes medications, which can exacerbate its side effects. Therefore, it is essential to consult with a healthcare professional before using Syzygium porphyrocarpum for medicinal purposes.", "uses": "Syzygium porphyrocarpum, also known as the pink fruited waterberry, has been traditionally used in various parts of the world for its medicinal properties. Its extracts and leaves have been used to treat fever, cough, and respiratory issues. The plant's bark is also reported to have antiseptic and anti-inflammatory properties, making it useful for treating wounds and skin infections. Additionally, the fruit of Syzygium porphyrocarpum is rich in antioxidants and has been used to boost the immune system and reduce inflammation. However, further research is needed to confirm the efficacy and safety of these uses.", "taxonomy": "Syzygium porphyrocarpum is a species of flowering plant in the family Myrtaceae. It is native to Australia and is considered an endemic species of that region. The Myrtaceae family, to which Syzygium porphyrocarpum belongs, comprises approximately 6,300 species of plants. These species are widely distributed across the globe, with a significant presence in the tropical and subtropical regions. The classification of Syzygium porphyrocarpum reflects its unique characteristics and adaptations to its native Australian habitat.", "benefits": "Syzygium porphyrocarpum is known for its potential health benefits, including its antioxidant properties which may help protect against cell damage and inflammation. The plant's extracts have been studied for their anti-inflammatory and antimicrobial properties, which could aid in wound healing and the prevention of infections. Additionally, Syzygium porphyrocarpum has been traditionally used to treat various health conditions, such as fever and respiratory issues. Its bioactive compounds may also contribute to its potential anticancer properties and its ability to regulate blood sugar levels. Further research is needed to fully understand the health benefits of Syzygium porphyrocarpum.", "parts": "Syzygium porphyrocarpum is a plant species native to New Guinea, and its medicinal properties are being studied for potential uses. The leaves and bark of the plant are known to have various medicinal properties, including anti-inflammatory and antimicrobial effects. The plant's extracts have been reported to have potential uses in treating various health conditions, such as fever, cough, and skin infections. However, more research is needed to fully understand the plant's medicinal properties and potential applications. Traditional healers in New Guinea have used Syzygium porphyrocarpum for centuries to treat various ailments.", "intro": "Syzygium porphyrocarpum, also known as the purple fruit syzygium, is a species of flowering plant in the family Myrtaceae. The plant is valued for its medicinal properties, particularly in traditional medicine, where it is used to treat various health issues such as fever, rheumatism, and gastrointestinal disorders, due to its antioxidant, anti-inflammatory, and antimicrobial properties. The bioactive constituents of Syzygium porphyrocarpum include flavonoids, phenolic acids, and terpenoids, which contribute to its therapeutic effects. In traditional medicine, the plant is often made into herbal preparations such as teas, infusions, and extracts, which are used to alleviate symptoms of various health conditions."}
+{
+    "title": "Syzygium porphyrocarpum",
+    "herb_slug": "syzygium-porphyrocarpum",
+    "herb_name_scientific": "Syzygium porphyrocarpum",
+    "family_slug": "myrtaceae",
+    "family_name": "Myrtaceae",
+    "url": "herbs/syzygium-porphyrocarpum",
+    "lastmod": "2025-1-15",
+    "herb_names_common": [
+        {
+            "name": "water apple",
+            "mentions": 17,
+            "confidence_score": 140,
+            "total_score": 2380
+        },
+        {
+            "name": "syzygium",
+            "mentions": 13,
+            "confidence_score": 73,
+            "total_score": 949
+        },
+        {
+            "name": "red apple",
+            "mentions": 7,
+            "confidence_score": 52,
+            "total_score": 364
+        },
+        {
+            "name": "pearberry",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "syzygium porphyrocarpum",
+            "mentions": 12,
+            "confidence_score": 36,
+            "total_score": 432
+        },
+        {
+            "name": "water pear",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "jungle apple",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "pear apple",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "australian water apple",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "malabar plum",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "malabar apple",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "jambolan",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "rose apple",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "wax apple",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "water cherry",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "malay apple",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "java plum",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "pink syzygium",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "wild apple",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "red plum",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 18,
+            "confidence_score": 144,
+            "total_score": 2592
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        }
+    ],
+    "what_description": "Syzygium porphyrocarpum is a species of flowering plant in the family Myrtaceae. It is an evergreen tree with a broad, rounded crown and a smooth, grey bark that becomes longitudinally fissured with age. The leaves are elliptic to lanceolate, 3-7 cm long, 1-2.5 cm wide, with a pointed tip and a rounded base, and are arranged oppositely on the branchlets. The flowers are white, 5-6 mm long, and are arranged in dense clusters at the ends of branchlets. The fruit is a berry, 1.5-2 cm in diameter, with a red or purple color when ripe, and is edible, containing 3-4 seeds.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "diarrhea",
+            "mentions": 17,
+            "confidence_score": 141,
+            "total_score": 2397
+        },
+        {
+            "name": "fever",
+            "mentions": 17,
+            "confidence_score": 139,
+            "total_score": 2363
+        },
+        {
+            "name": "inflammation",
+            "mentions": 17,
+            "confidence_score": 137,
+            "total_score": 2329
+        },
+        {
+            "name": "malaria",
+            "mentions": 10,
+            "confidence_score": 66,
+            "total_score": 660
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 7,
+            "confidence_score": 58,
+            "total_score": 406
+        },
+        {
+            "name": "cough",
+            "mentions": 8,
+            "confidence_score": 57,
+            "total_score": 456
+        },
+        {
+            "name": "skin infections",
+            "mentions": 8,
+            "confidence_score": 54,
+            "total_score": 432
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 8,
+            "confidence_score": 50,
+            "total_score": 400
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "wound healing",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "dysentery",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "urinary tract infections",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "vomiting",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "dyspepsia",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "pain",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "gastrointestinal issues",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "viral infections",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Syzygium porphyrocarpum are diarrhea, fever, inflammation, and gastrointestinal issues, which are often associated with gastrointestinal issues such as dysentery. The plant has also been used to treat malaria, a severe disease caused by Plasmodium parasites. Inflammation and pain can be reduced due to the anti-inflammatory properties of Syzygium porphyrocarpum. Additionally, it has been used to treat fungal infections, cough, skin infections, respiratory issues, rheumatism, and wound healing. Furthermore, the plant's antimicrobial properties make it effective against urinary tract infections, vomiting, dyspepsia, and viral infections.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 168,
+            "total_score": 3360
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 147,
+            "total_score": 2940
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 135,
+            "total_score": 2700
+        },
+        {
+            "name": "antifungal",
+            "mentions": 17,
+            "confidence_score": 108,
+            "total_score": 1836
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 94,
+            "total_score": 1786
+        },
+        {
+            "name": "antiviral",
+            "mentions": 17,
+            "confidence_score": 77,
+            "total_score": 1309
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 10,
+            "confidence_score": 76,
+            "total_score": 760
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 13,
+            "confidence_score": 57,
+            "total_score": 741
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 12,
+            "confidence_score": 57,
+            "total_score": 684
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "anticancer",
+            "mentions": 7,
+            "confidence_score": 25,
+            "total_score": 175
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 5,
+            "confidence_score": 14,
+            "total_score": 70
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "cardioactive",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "anti-helminthic",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Syzygium porphyrocarpum are attributed to its antioxidant properties, which are mediated by the presence of flavonoids and phenolic acids, capable of neutralizing free radicals and preventing oxidative stress. This plant also exhibits antimicrobial activity, inhibiting the growth of various pathogens, including bacteria and fungi, through the action of saponins and terpenoids. Furthermore, Syzygium porphyrocarpum has been found to possess anti-inflammatory properties, reducing inflammation and pain through the modulation of pro-inflammatory enzymes and cytokines by bioactive compounds such as volatile oils and glycosides. Additionally, the plant's antifungal properties are thought to be mediated by the presence of sesquiterpenes, which inhibit the growth of fungi and prevent infections. Its analgesic properties, on the other hand, are attributed to the action of flavonoids and phenolic acids, which inhibit pain transmission and reduce inflammation, making it a potential natural remedy for pain relief.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 19,
+            "confidence_score": 163,
+            "total_score": 3097
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 18,
+            "confidence_score": 147,
+            "total_score": 2646
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 17,
+            "confidence_score": 127,
+            "total_score": 2159
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 13,
+            "confidence_score": 86,
+            "total_score": 1118
+        },
+        {
+            "name": "catechins",
+            "mentions": 11,
+            "confidence_score": 67,
+            "total_score": 737
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 12,
+            "confidence_score": 52,
+            "total_score": 624
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 9,
+            "confidence_score": 48,
+            "total_score": 432
+        },
+        {
+            "name": "tannins",
+            "mentions": 9,
+            "confidence_score": 40,
+            "total_score": 360
+        },
+        {
+            "name": "syzygium porphyrocarpum flavonoids",
+            "mentions": 7,
+            "confidence_score": 39,
+            "total_score": 273
+        },
+        {
+            "name": "myricetin",
+            "mentions": 6,
+            "confidence_score": 30,
+            "total_score": 180
+        },
+        {
+            "name": "gallocatechin",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "gallocatechin gallate",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "coumarins",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "syringic acid",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 5,
+            "confidence_score": 13,
+            "total_score": 65
+        },
+        {
+            "name": "protocatechuic acid",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "rutin",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "naringenin",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Syzygium porphyrocarpum are flavonoids and phenolic acids, which include quercetin, a potent antioxidant with anti-inflammatory properties, ellagic acid, a known chemopreventive agent that inhibits cancer cell growth, gallic acid, a compound with antimicrobial and anti-inflammatory activities, kaempferol, a flavonoid with anti-inflammatory and antioxidant effects, and catechins, a type of flavonoid with anti-inflammatory and anticancer properties. These compounds have been found to be responsible for the plant's antioxidant, anti-inflammatory, and antimicrobial activities. Studies have shown that quercetin and ellagic acid have the ability to scavenge free radicals and reduce oxidative stress, while gallic acid has been found to inhibit the growth of microorganisms and reduce inflammation. Kaempferol and catechins have also been shown to have anti-inflammatory and anticancer effects, respectively. The combination of these compounds in Syzygium porphyrocarpum makes it a valuable plant for the treatment of various diseases.",
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 18,
+            "confidence_score": 164,
+            "total_score": 2952
+        },
+        {
+            "name": "infusion",
+            "mentions": 19,
+            "confidence_score": 147,
+            "total_score": 2793
+        },
+        {
+            "name": "tincture",
+            "mentions": 19,
+            "confidence_score": 120,
+            "total_score": 2280
+        },
+        {
+            "name": "decoction",
+            "mentions": 15,
+            "confidence_score": 83,
+            "total_score": 1245
+        },
+        {
+            "name": "salve",
+            "mentions": 15,
+            "confidence_score": 56,
+            "total_score": 840
+        },
+        {
+            "name": "oil",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "ointment",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "syzygium porphyrocarpum extract",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "syzygium porphyrocarpum tincture",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "syzygium porphyrocarpum tea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "syzygium porphyrocarpum capsule",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "suppository",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "syzygium porphyrocarpum infusion",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "supplement",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "syzygium porphyrocarpum oil",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "glycoside",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Syzygium porphyrocarpum are tea and infusion made from its leaves, which are rich in antioxidants and have been traditionally used to treat fever and cough; decoction is prepared from its bark, used for its anti-inflammatory and antiseptic properties to treat wounds and skin conditions; a tincture of its leaves and bark is also used to treat digestive issues and as an antiseptic; a salve is prepared from its bark and leaves to treat skin conditions and wounds, due to its antimicrobial properties; these preparations are used due to the plant's bioactive compounds such as flavonoids and phenolic acids, which have been scientifically proven to have therapeutic effects.",
+    "side_effects": [
+        {
+            "name": "induce vomiting",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "cause allergic reactions",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "trigger hypertension",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "cause neurological disorders",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "experiences kidney damage",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffers kidney damage",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Syzygium porphyrocarpum improperly include inducing vomiting due to its emetic properties, developing skin irritation from the presence of allergenic compounds, inducing nausea as a result of its toxic alkaloids, causing allergic reactions in some individuals due to cross-reactivity with other plant species, and causing diarrhea from the gastrointestinal irritation caused by its saponins and flavonoids. These side effects can occur if the plant is ingested in large quantities or if it is used for an extended period of time. The improper use of Syzygium porphyrocarpum can also lead to an increased risk of gastrointestinal complications, such as abdominal pain and bloody stools. In addition, the use of the plant can interact with other medications, such as blood thinners and diabetes medications, which can exacerbate its side effects. Therefore, it is essential to consult with a healthcare professional before using Syzygium porphyrocarpum for medicinal purposes.",
+    "uses": "Syzygium porphyrocarpum, also known as the pink fruited waterberry, has been traditionally used in various parts of the world for its medicinal properties. Its extracts and leaves have been used to treat fever, cough, and respiratory issues. The plant's bark is also reported to have antiseptic and anti-inflammatory properties, making it useful for treating wounds and skin infections. Additionally, the fruit of Syzygium porphyrocarpum is rich in antioxidants and has been used to boost the immune system and reduce inflammation. However, further research is needed to confirm the efficacy and safety of these uses.",
+    "taxonomy": "Syzygium porphyrocarpum is a species of flowering plant in the family Myrtaceae. It is native to Australia and is considered an endemic species of that region. The Myrtaceae family, to which Syzygium porphyrocarpum belongs, comprises approximately 6,300 species of plants. These species are widely distributed across the globe, with a significant presence in the tropical and subtropical regions. The classification of Syzygium porphyrocarpum reflects its unique characteristics and adaptations to its native Australian habitat.",
+    "benefits": "Syzygium porphyrocarpum is known for its potential health benefits, including its antioxidant properties which may help protect against cell damage and inflammation. The plant's extracts have been studied for their anti-inflammatory and antimicrobial properties, which could aid in wound healing and the prevention of infections. Additionally, Syzygium porphyrocarpum has been traditionally used to treat various health conditions, such as fever and respiratory issues. Its bioactive compounds may also contribute to its potential anticancer properties and its ability to regulate blood sugar levels. Further research is needed to fully understand the health benefits of Syzygium porphyrocarpum.",
+    "parts": "Syzygium porphyrocarpum is a plant species native to New Guinea, and its medicinal properties are being studied for potential uses. The leaves and bark of the plant are known to have various medicinal properties, including anti-inflammatory and antimicrobial effects. The plant's extracts have been reported to have potential uses in treating various health conditions, such as fever, cough, and skin infections. However, more research is needed to fully understand the plant's medicinal properties and potential applications. Traditional healers in New Guinea have used Syzygium porphyrocarpum for centuries to treat various ailments.",
+    "intro": "Syzygium porphyrocarpum, also known as the purple fruit syzygium, is a species of flowering plant in the family Myrtaceae. The plant is valued for its medicinal properties, particularly in traditional medicine, where it is used to treat various health issues such as fever, rheumatism, and gastrointestinal disorders, due to its antioxidant, anti-inflammatory, and antimicrobial properties. The bioactive constituents of Syzygium porphyrocarpum include flavonoids, phenolic acids, and terpenoids, which contribute to its therapeutic effects. In traditional medicine, the plant is often made into herbal preparations such as teas, infusions, and extracts, which are used to alleviate symptoms of various health conditions."
+}

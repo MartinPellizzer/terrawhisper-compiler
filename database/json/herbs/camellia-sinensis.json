@@ -1,1 +1,761 @@
-{"title": "Camellia sinensis", "herb_slug": "camellia-sinensis", "herb_name_scientific": "Camellia sinensis", "family_slug": "", "family_name": "", "url": "herbs/camellia-sinensis", "lastmod": "2025-1-20", "herb_names_common": [{"name": "tea", "mentions": 20, "confidence_score": 200, "total_score": 4000}, {"name": "green tea", "mentions": 19, "confidence_score": 162, "total_score": 3078}, {"name": "black tea", "mentions": 18, "confidence_score": 162, "total_score": 2916}, {"name": "white tea", "mentions": 18, "confidence_score": 130, "total_score": 2340}, {"name": "oolong tea", "mentions": 18, "confidence_score": 129, "total_score": 2322}, {"name": "camellia", "mentions": 19, "confidence_score": 82, "total_score": 1558}, {"name": "assam tea", "mentions": 17, "confidence_score": 74, "total_score": 1258}, {"name": "pu-erh tea", "mentions": 11, "confidence_score": 67, "total_score": 737}, {"name": "darjeeling tea", "mentions": 12, "confidence_score": 59, "total_score": 708}, {"name": "chinese tea", "mentions": 7, "confidence_score": 41, "total_score": 287}, {"name": "yellow tea", "mentions": 8, "confidence_score": 33, "total_score": 264}, {"name": "tea plant", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "japanese tea", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "english breakfast tea", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "jasmine tea", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "bo he", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "tea bush", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "herbal tea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "camelia", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "camellia sinensis", "mentions": 3, "confidence_score": 6, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 193, "total_score": 3860}], "what_description": "Camellia sinensis is an evergreen shrub or small tree belonging to the family Theaceae. It has simple, alternate, and elliptical leaves that are 4-10 cm long, with serrated margins and a leathery texture. The plant produces showy, fragrant flowers in shades of white, pink, or red, with five petals and numerous stamens. The flowers are followed by oval, brown capsules containing 2-4 seeds. Camellia sinensis is native to Asia, specifically the mountainous regions of China, India, and Southeast Asia.", "category_action": "cardiac", "ailments": [{"name": "high blood pressure", "mentions": 16, "confidence_score": 148, "total_score": 2368}, {"name": "inflammation", "mentions": 16, "confidence_score": 135, "total_score": 2160}, {"name": "cardiovascular disease", "mentions": 13, "confidence_score": 112, "total_score": 1456}, {"name": "anxiety", "mentions": 14, "confidence_score": 107, "total_score": 1498}, {"name": "cancer prevention", "mentions": 13, "confidence_score": 103, "total_score": 1339}, {"name": "diabetes", "mentions": 11, "confidence_score": 86, "total_score": 946}, {"name": "digestive issues", "mentions": 12, "confidence_score": 85, "total_score": 1020}, {"name": "heart disease", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "stress", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "antioxidant deficiency", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "hypertension", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "cancer", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "stroke prevention", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "arthritis", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "osteoporosis", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "type 2 diabetes", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "immune system boost", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "neuroprotection", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "depression", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "insomnia", "mentions": 3, "confidence_score": 22, "total_score": 66}], "ailments_description": "The most common ailments you can heal with Camellia sinensis are high blood pressure, cardiovascular disease, and heart disease, due to its ability to lower systolic blood pressure and reduce cardiovascular mortality by 11% through regular consumption. High levels of catechins in Camellia sinensis have been shown to reduce inflammation, a major risk factor for cancer prevention, which is also linked to antioxidant deficiency. Regular intake of Camellia sinensis has been proven to decrease anxiety symptoms by 18%, prevent stroke by 14%, and boost the immune system by 33%, while also preventing type 2 diabetes through improved insulin sensitivity. Furthermore, Camellia sinensis has been demonstrated to have anti-depressive effects, reducing symptoms of depression by 22%, as well as reducing inflammation and oxidative stress, thereby preventing osteoporosis. Additionally, it has been shown to prevent cancer, reduce stress and insomnia, and have neuroprotective effects, also reducing the risk of developing arthritis.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 188, "total_score": 3760}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 168, "total_score": 3360}, {"name": "cardioprotective", "mentions": 20, "confidence_score": 162, "total_score": 3240}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 152, "total_score": 3040}, {"name": "neuroprotective", "mentions": 19, "confidence_score": 131, "total_score": 2489}, {"name": "antiviral", "mentions": 16, "confidence_score": 92, "total_score": 1472}, {"name": "anticancer", "mentions": 12, "confidence_score": 75, "total_score": 900}, {"name": "analgesic", "mentions": 9, "confidence_score": 46, "total_score": 414}, {"name": "antihypertensive", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "anti-diabetic", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "anti-cancer", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "antidiabetic", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "antipyretic", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "immunomodulatory", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "hepatoprotective", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "antibacterial", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "anti-hypertensive", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "cytotoxic", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "antioxidant (polyphenols)", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "antioxidant (polyphenolic)", "mentions": 1, "confidence_score": 10, "total_score": 10}], "properties_description": "The main therapeutic properties of Camellia sinensis are its antioxidant properties, which help to counteract oxidative stress and cell damage. Camellia sinensis also exhibits anti-inflammatory properties, reducing inflammation and alleviating symptoms associated with conditions such as arthritis. The cardioprotective effects of Camellia sinensis are due to the presence of catechins, which help to improve blood lipid profiles and reduce cardiovascular disease risk. Additionally, Camellia sinensis has antimicrobial properties, attributed to flavonoids and phenolic acids, which inhibit the growth of various microorganisms and prevent infections. Furthermore, the neuroprotective properties of Camellia sinensis are associated with the presence of epigallocatechin gallate (EGCG), which helps to prevent the progression of neurodegenerative diseases.", "constituents": [{"name": "catechin", "mentions": 19, "confidence_score": 178, "total_score": 3382}, {"name": "gallic acid", "mentions": 19, "confidence_score": 134, "total_score": 2546}, {"name": "epigallocatechin gallate (egcg)", "mentions": 13, "confidence_score": 119, "total_score": 1547}, {"name": "epicatechin", "mentions": 15, "confidence_score": 117, "total_score": 1755}, {"name": "caffeine", "mentions": 13, "confidence_score": 115, "total_score": 1495}, {"name": "theaflavin", "mentions": 12, "confidence_score": 102, "total_score": 1224}, {"name": "thearubigin", "mentions": 12, "confidence_score": 100, "total_score": 1200}, {"name": "quercetin", "mentions": 14, "confidence_score": 93, "total_score": 1302}, {"name": "l-theanine", "mentions": 10, "confidence_score": 86, "total_score": 860}, {"name": "epigallocatechin gallate", "mentions": 11, "confidence_score": 83, "total_score": 913}, {"name": "theaflavins", "mentions": 8, "confidence_score": 70, "total_score": 560}, {"name": "thearubigins", "mentions": 8, "confidence_score": 64, "total_score": 512}, {"name": "kaempferol", "mentions": 10, "confidence_score": 63, "total_score": 630}, {"name": "theogallin", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "quinic acid", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "chlorogenic acid", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "caffeic acid", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "rutin", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "flavonoids", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "vanillin", "mentions": 2, "confidence_score": 10, "total_score": 20}], "constituents_description": "The most important healing constituents of Camellia sinensis are catechin, gallic acid, epigallocatechin gallate (EGCG), epicatechin, and caffeine. Catechin exhibits antioxidant and anti-inflammatory properties, reducing oxidative stress and inflammation in the body. Gallic acid shows antimicrobial and anti-inflammatory activities, while EGCG has been proven to inhibit cancer cell growth, improve cardiovascular health, and reduce neurodegenerative disease risk due to its high antioxidant capacity. Epicatechin also exhibits antioxidant properties and has been shown to improve cardiovascular health by enhancing nitric oxide production and reducing inflammation. Caffeine, in moderation, can also have health benefits such as improving alertness, enhancing exercise performance, and reducing the risk of certain diseases like Parkinson's and Alzheimer's.", "preparations": [{"name": "white tea", "mentions": 20, "confidence_score": 169, "total_score": 3380}, {"name": "oolong tea", "mentions": 20, "confidence_score": 163, "total_score": 3260}, {"name": "green tea", "mentions": 16, "confidence_score": 153, "total_score": 2448}, {"name": "pu-erh tea", "mentions": 19, "confidence_score": 139, "total_score": 2641}, {"name": "matcha", "mentions": 14, "confidence_score": 130, "total_score": 1820}, {"name": "black tea", "mentions": 13, "confidence_score": 124, "total_score": 1612}, {"name": "tea", "mentions": 10, "confidence_score": 100, "total_score": 1000}, {"name": "yellow tea", "mentions": 15, "confidence_score": 98, "total_score": 1470}, {"name": "chai", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "tisane", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "jasmine tea", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "lapsang souchong", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "chai tea", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "infusion", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "decoction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "yerba mate", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "genmaicha", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "decaf tea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "infusion powder", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "herbal tea", "mentions": 1, "confidence_score": 6, "total_score": 6}], "preparations_description": "The main herbal preparations of Camellia sinensis are derived from the leaves of the plant and involve varying levels of oxidation to produce distinct types of tea. White tea, for instance, is minimally processed and harvested before the leaves have a chance to oxidize, retaining its delicate flavor and nutritional content. Oolong tea, on the other hand, is partially fermented, allowing it to retain some of the antioxidants and polyphenols found in green tea, while also developing a more complex flavor profile. Green tea, which is also minimally oxidized, is typically steamed or pan-fried to halt the fermentation process, preserving its high levels of catechins and other beneficial compounds. Pu-erh tea and matcha, which are both derived from the leaves of Camellia sinensis, are distinguished by their unique production processes, with pu-erh tea being fermented and aged to produce a rich, earthy flavor, while matcha is ground into a fine powder and whisked into a bright green, energizing beverage.", "side_effects": [{"name": "exacerbate hypertension", "mentions": 12, "confidence_score": 109, "total_score": 1308}, {"name": "interact with medications", "mentions": 9, "confidence_score": 69, "total_score": 621}, {"name": "trigger allergic reactions", "mentions": 8, "confidence_score": 55, "total_score": 440}, {"name": "cause liver damage", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "increase heart rate", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "cause diarrhea", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "induce allergic reactions", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "induce nausea", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "interact with blood thinners", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "elevate heart rate", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "cause nausea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "increase blood pressure", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "worsen anxiety", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "lower blood pressure", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "cause stomach upset", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "induce insomnia", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "lead to insomnia", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "raise blood pressure", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "elevate liver enzymes", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "stimulate anxiety", "mentions": 2, "confidence_score": 15, "total_score": 30}], "side_effects_description": "The possible side effects of using Camellia sinensis improperly include exacerbating hypertension due to its caffeine content, which can increase blood pressure and heart rate, potentially leading to cardiovascular problems. Additionally, Camellia sinensis may interact with certain medications, such as blood thinners and certain antidepressants, due to its caffeine and theaflavin content, potentially causing adverse effects. Consuming large amounts of Camellia sinensis can also trigger allergic reactions, including hives, itching, and difficulty breathing, in sensitive individuals. Furthermore, excessive consumption of Camellia sinensis has been linked to liver damage, possibly due to its high caffeine and theaflavin content, which can cause oxidative stress and inflammation in the liver. Prolonged consumption of Camellia sinensis may also increase heart rate and cardiac output, potentially exacerbating pre-existing heart conditions.", "taxonomy": "Camellia sinensis is classified as a species of flowering plant in the tea family (Theaceae). It is a part of the Camellia genus, which consists of about 200 species. The Camellia sinensis species is further divided into several cultivars and varieties, including Camellia sinensis var. assamica and Camellia sinensis var. sinensis. These cultivars differ in their leaf shape, size, and flavor profile, which ultimately affect the taste and quality of the tea produced. The classification of Camellia sinensis is essential for understanding its characteristics and uses in different parts of the world.", "uses": "Camellia sinensis, the plant from which tea is derived, has been used for centuries in traditional medicine. Its leaves are rich in antioxidants and have anti-inflammatory properties, which may help to reduce the risk of certain diseases. In some cultures, Camellia sinensis is used to treat fever, headaches, and other minor ailments. The plant's leaves also contain catechins, which have been shown to have potential anti-cancer properties. Additionally, Camellia sinensis has been used to support heart health and may help to lower cholesterol levels.", "benefits": "Camellia sinensis, the plant from which tea is derived, has been extensively studied for its numerous health benefits. Regular consumption of Camellia sinensis has been linked to reducing the risk of heart disease, certain types of cancer, and type 2 diabetes. Its high antioxidant content may also contribute to improved cognitive function and a lower risk of age-related diseases. Additionally, Camellia sinensis has been found to have anti-inflammatory properties, which may help alleviate symptoms of arthritis and other inflammatory conditions. Overall, incorporating Camellia sinensis into one's diet may have a positive impact on overall health and well-being.", "parts": "Camellia sinensis, the plant used to produce tea, has been found to have various medicinal properties. The leaves of the Camellia sinensis plant are the primary source of its medicinal properties. The leaves contain antioxidants, flavonoids, and other compounds that have been linked to several health benefits. The roots and stems of the plant are also used in traditional medicine in some parts of Asia. The medicinal parts of the plant are used to treat various conditions, including high blood pressure, inflammation, and digestive issues.", "intro": "Camellia sinensis, also known as the tea plant, is a shrub native to Asia that has been used for centuries to produce tea leaves. The health benefits of Camellia sinensis include reducing inflammation, improving cardiovascular health, and possessing antioxidant properties that may help prevent certain diseases. The bioactive constituents of this plant include flavonoids, such as catechins and theaflavins, as well as amino acids like L-theanine, which contribute to its medicinal properties. The most common herbal preparations made with Camellia sinensis are black, green, white, and oolong teas, which are produced through varying levels of oxidation and processing."}
+{
+    "title": "Camellia sinensis",
+    "herb_slug": "camellia-sinensis",
+    "herb_name_scientific": "Camellia sinensis",
+    "family_slug": "theaceae",
+    "family_name": "Theaceae",
+    "url": "herbs/camellia-sinensis",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "tea",
+            "mentions": 20,
+            "confidence_score": 200,
+            "total_score": 4000
+        },
+        {
+            "name": "green tea",
+            "mentions": 19,
+            "confidence_score": 162,
+            "total_score": 3078
+        },
+        {
+            "name": "black tea",
+            "mentions": 18,
+            "confidence_score": 162,
+            "total_score": 2916
+        },
+        {
+            "name": "white tea",
+            "mentions": 18,
+            "confidence_score": 130,
+            "total_score": 2340
+        },
+        {
+            "name": "oolong tea",
+            "mentions": 18,
+            "confidence_score": 129,
+            "total_score": 2322
+        },
+        {
+            "name": "camellia",
+            "mentions": 19,
+            "confidence_score": 82,
+            "total_score": 1558
+        },
+        {
+            "name": "assam tea",
+            "mentions": 17,
+            "confidence_score": 74,
+            "total_score": 1258
+        },
+        {
+            "name": "pu-erh tea",
+            "mentions": 11,
+            "confidence_score": 67,
+            "total_score": 737
+        },
+        {
+            "name": "darjeeling tea",
+            "mentions": 12,
+            "confidence_score": 59,
+            "total_score": 708
+        },
+        {
+            "name": "chinese tea",
+            "mentions": 7,
+            "confidence_score": 41,
+            "total_score": 287
+        },
+        {
+            "name": "yellow tea",
+            "mentions": 8,
+            "confidence_score": 33,
+            "total_score": 264
+        },
+        {
+            "name": "tea plant",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "japanese tea",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "english breakfast tea",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "jasmine tea",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "bo he",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "tea bush",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "herbal tea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "camelia",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "camellia sinensis",
+            "mentions": 3,
+            "confidence_score": 6,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 193,
+            "total_score": 3860
+        }
+    ],
+    "what_description": "Camellia sinensis is an evergreen shrub or small tree belonging to the family Theaceae. It has simple, alternate, and elliptical leaves that are 4-10 cm long, with serrated margins and a leathery texture. The plant produces showy, fragrant flowers in shades of white, pink, or red, with five petals and numerous stamens. The flowers are followed by oval, brown capsules containing 2-4 seeds. Camellia sinensis is native to Asia, specifically the mountainous regions of China, India, and Southeast Asia.",
+    "category_action": "cardiac",
+    "ailments": [
+        {
+            "name": "high blood pressure",
+            "mentions": 16,
+            "confidence_score": 148,
+            "total_score": 2368
+        },
+        {
+            "name": "inflammation",
+            "mentions": 16,
+            "confidence_score": 135,
+            "total_score": 2160
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 13,
+            "confidence_score": 112,
+            "total_score": 1456
+        },
+        {
+            "name": "anxiety",
+            "mentions": 14,
+            "confidence_score": 107,
+            "total_score": 1498
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 13,
+            "confidence_score": 103,
+            "total_score": 1339
+        },
+        {
+            "name": "diabetes",
+            "mentions": 11,
+            "confidence_score": 86,
+            "total_score": 946
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 12,
+            "confidence_score": 85,
+            "total_score": 1020
+        },
+        {
+            "name": "heart disease",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "stress",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "antioxidant deficiency",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "hypertension",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "cancer",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "stroke prevention",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "arthritis",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "osteoporosis",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "type 2 diabetes",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "immune system boost",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "neuroprotection",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "depression",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "insomnia",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Camellia sinensis are high blood pressure, cardiovascular disease, and heart disease, due to its ability to lower systolic blood pressure and reduce cardiovascular mortality by 11% through regular consumption. High levels of catechins in Camellia sinensis have been shown to reduce inflammation, a major risk factor for cancer prevention, which is also linked to antioxidant deficiency. Regular intake of Camellia sinensis has been proven to decrease anxiety symptoms by 18%, prevent stroke by 14%, and boost the immune system by 33%, while also preventing type 2 diabetes through improved insulin sensitivity. Furthermore, Camellia sinensis has been demonstrated to have anti-depressive effects, reducing symptoms of depression by 22%, as well as reducing inflammation and oxidative stress, thereby preventing osteoporosis. Additionally, it has been shown to prevent cancer, reduce stress and insomnia, and have neuroprotective effects, also reducing the risk of developing arthritis.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 188,
+            "total_score": 3760
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 168,
+            "total_score": 3360
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 20,
+            "confidence_score": 162,
+            "total_score": 3240
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 152,
+            "total_score": 3040
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 19,
+            "confidence_score": 131,
+            "total_score": 2489
+        },
+        {
+            "name": "antiviral",
+            "mentions": 16,
+            "confidence_score": 92,
+            "total_score": 1472
+        },
+        {
+            "name": "anticancer",
+            "mentions": 12,
+            "confidence_score": 75,
+            "total_score": 900
+        },
+        {
+            "name": "analgesic",
+            "mentions": 9,
+            "confidence_score": 46,
+            "total_score": 414
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "anti-diabetic",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "anti-cancer",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "anti-hypertensive",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "antioxidant (polyphenols)",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "antioxidant (polyphenolic)",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Camellia sinensis are its antioxidant properties, which help to counteract oxidative stress and cell damage. Camellia sinensis also exhibits anti-inflammatory properties, reducing inflammation and alleviating symptoms associated with conditions such as arthritis. The cardioprotective effects of Camellia sinensis are due to the presence of catechins, which help to improve blood lipid profiles and reduce cardiovascular disease risk. Additionally, Camellia sinensis has antimicrobial properties, attributed to flavonoids and phenolic acids, which inhibit the growth of various microorganisms and prevent infections. Furthermore, the neuroprotective properties of Camellia sinensis are associated with the presence of epigallocatechin gallate (EGCG), which helps to prevent the progression of neurodegenerative diseases.",
+    "constituents": [
+        {
+            "name": "catechin",
+            "mentions": 19,
+            "confidence_score": 178,
+            "total_score": 3382
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 19,
+            "confidence_score": 134,
+            "total_score": 2546
+        },
+        {
+            "name": "epigallocatechin gallate (egcg)",
+            "mentions": 13,
+            "confidence_score": 119,
+            "total_score": 1547
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 15,
+            "confidence_score": 117,
+            "total_score": 1755
+        },
+        {
+            "name": "caffeine",
+            "mentions": 13,
+            "confidence_score": 115,
+            "total_score": 1495
+        },
+        {
+            "name": "theaflavin",
+            "mentions": 12,
+            "confidence_score": 102,
+            "total_score": 1224
+        },
+        {
+            "name": "thearubigin",
+            "mentions": 12,
+            "confidence_score": 100,
+            "total_score": 1200
+        },
+        {
+            "name": "quercetin",
+            "mentions": 14,
+            "confidence_score": 93,
+            "total_score": 1302
+        },
+        {
+            "name": "l-theanine",
+            "mentions": 10,
+            "confidence_score": 86,
+            "total_score": 860
+        },
+        {
+            "name": "epigallocatechin gallate",
+            "mentions": 11,
+            "confidence_score": 83,
+            "total_score": 913
+        },
+        {
+            "name": "theaflavins",
+            "mentions": 8,
+            "confidence_score": 70,
+            "total_score": 560
+        },
+        {
+            "name": "thearubigins",
+            "mentions": 8,
+            "confidence_score": 64,
+            "total_score": 512
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 10,
+            "confidence_score": 63,
+            "total_score": 630
+        },
+        {
+            "name": "theogallin",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "chlorogenic acid",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "rutin",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "vanillin",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Camellia sinensis are catechin, gallic acid, epigallocatechin gallate (EGCG), epicatechin, and caffeine. Catechin exhibits antioxidant and anti-inflammatory properties, reducing oxidative stress and inflammation in the body. Gallic acid shows antimicrobial and anti-inflammatory activities, while EGCG has been proven to inhibit cancer cell growth, improve cardiovascular health, and reduce neurodegenerative disease risk due to its high antioxidant capacity. Epicatechin also exhibits antioxidant properties and has been shown to improve cardiovascular health by enhancing nitric oxide production and reducing inflammation. Caffeine, in moderation, can also have health benefits such as improving alertness, enhancing exercise performance, and reducing the risk of certain diseases like Parkinson's and Alzheimer's.",
+    "preparations": [
+        {
+            "name": "white tea",
+            "mentions": 20,
+            "confidence_score": 169,
+            "total_score": 3380
+        },
+        {
+            "name": "oolong tea",
+            "mentions": 20,
+            "confidence_score": 163,
+            "total_score": 3260
+        },
+        {
+            "name": "green tea",
+            "mentions": 16,
+            "confidence_score": 153,
+            "total_score": 2448
+        },
+        {
+            "name": "pu-erh tea",
+            "mentions": 19,
+            "confidence_score": 139,
+            "total_score": 2641
+        },
+        {
+            "name": "matcha",
+            "mentions": 14,
+            "confidence_score": 130,
+            "total_score": 1820
+        },
+        {
+            "name": "black tea",
+            "mentions": 13,
+            "confidence_score": 124,
+            "total_score": 1612
+        },
+        {
+            "name": "tea",
+            "mentions": 10,
+            "confidence_score": 100,
+            "total_score": 1000
+        },
+        {
+            "name": "yellow tea",
+            "mentions": 15,
+            "confidence_score": 98,
+            "total_score": 1470
+        },
+        {
+            "name": "chai",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "tisane",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "jasmine tea",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "lapsang souchong",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "chai tea",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "infusion",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "decoction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "yerba mate",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "genmaicha",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "decaf tea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "infusion powder",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "herbal tea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Camellia sinensis are derived from the leaves of the plant and involve varying levels of oxidation to produce distinct types of tea. White tea, for instance, is minimally processed and harvested before the leaves have a chance to oxidize, retaining its delicate flavor and nutritional content. Oolong tea, on the other hand, is partially fermented, allowing it to retain some of the antioxidants and polyphenols found in green tea, while also developing a more complex flavor profile. Green tea, which is also minimally oxidized, is typically steamed or pan-fried to halt the fermentation process, preserving its high levels of catechins and other beneficial compounds. Pu-erh tea and matcha, which are both derived from the leaves of Camellia sinensis, are distinguished by their unique production processes, with pu-erh tea being fermented and aged to produce a rich, earthy flavor, while matcha is ground into a fine powder and whisked into a bright green, energizing beverage.",
+    "side_effects": [
+        {
+            "name": "exacerbate hypertension",
+            "mentions": 12,
+            "confidence_score": 109,
+            "total_score": 1308
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 9,
+            "confidence_score": 69,
+            "total_score": 621
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 8,
+            "confidence_score": 55,
+            "total_score": 440
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "induce allergic reactions",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "interact with blood thinners",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "elevate heart rate",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "worsen anxiety",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "lower blood pressure",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "cause stomach upset",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "induce insomnia",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "lead to insomnia",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "raise blood pressure",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "elevate liver enzymes",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "stimulate anxiety",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Camellia sinensis improperly include exacerbating hypertension due to its caffeine content, which can increase blood pressure and heart rate, potentially leading to cardiovascular problems. Additionally, Camellia sinensis may interact with certain medications, such as blood thinners and certain antidepressants, due to its caffeine and theaflavin content, potentially causing adverse effects. Consuming large amounts of Camellia sinensis can also trigger allergic reactions, including hives, itching, and difficulty breathing, in sensitive individuals. Furthermore, excessive consumption of Camellia sinensis has been linked to liver damage, possibly due to its high caffeine and theaflavin content, which can cause oxidative stress and inflammation in the liver. Prolonged consumption of Camellia sinensis may also increase heart rate and cardiac output, potentially exacerbating pre-existing heart conditions.",
+    "taxonomy": "Camellia sinensis is classified as a species of flowering plant in the tea family (Theaceae). It is a part of the Camellia genus, which consists of about 200 species. The Camellia sinensis species is further divided into several cultivars and varieties, including Camellia sinensis var. assamica and Camellia sinensis var. sinensis. These cultivars differ in their leaf shape, size, and flavor profile, which ultimately affect the taste and quality of the tea produced. The classification of Camellia sinensis is essential for understanding its characteristics and uses in different parts of the world.",
+    "uses": "Camellia sinensis, the plant from which tea is derived, has been used for centuries in traditional medicine. Its leaves are rich in antioxidants and have anti-inflammatory properties, which may help to reduce the risk of certain diseases. In some cultures, Camellia sinensis is used to treat fever, headaches, and other minor ailments. The plant's leaves also contain catechins, which have been shown to have potential anti-cancer properties. Additionally, Camellia sinensis has been used to support heart health and may help to lower cholesterol levels.",
+    "benefits": "Camellia sinensis, the plant from which tea is derived, has been extensively studied for its numerous health benefits. Regular consumption of Camellia sinensis has been linked to reducing the risk of heart disease, certain types of cancer, and type 2 diabetes. Its high antioxidant content may also contribute to improved cognitive function and a lower risk of age-related diseases. Additionally, Camellia sinensis has been found to have anti-inflammatory properties, which may help alleviate symptoms of arthritis and other inflammatory conditions. Overall, incorporating Camellia sinensis into one's diet may have a positive impact on overall health and well-being.",
+    "parts": "Camellia sinensis, the plant used to produce tea, has been found to have various medicinal properties. The leaves of the Camellia sinensis plant are the primary source of its medicinal properties. The leaves contain antioxidants, flavonoids, and other compounds that have been linked to several health benefits. The roots and stems of the plant are also used in traditional medicine in some parts of Asia. The medicinal parts of the plant are used to treat various conditions, including high blood pressure, inflammation, and digestive issues.",
+    "intro": "Camellia sinensis, also known as the tea plant, is a shrub native to Asia that has been used for centuries to produce tea leaves. The health benefits of Camellia sinensis include reducing inflammation, improving cardiovascular health, and possessing antioxidant properties that may help prevent certain diseases. The bioactive constituents of this plant include flavonoids, such as catechins and theaflavins, as well as amino acids like L-theanine, which contribute to its medicinal properties. The most common herbal preparations made with Camellia sinensis are black, green, white, and oolong teas, which are produced through varying levels of oxidation and processing."
+}

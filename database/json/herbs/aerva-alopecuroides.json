@@ -1,1 +1,1661 @@
-{"title": "Aerva alopecuroides", "herb_slug": "aerva-alopecuroides", "herb_name_scientific": "Aerva alopecuroides", "url": "herbs/aerva-alopecuroides", "lastmod": "2024-12-31", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 161, "total_score": 3220}], "category_action": "antimicrobial", "ailments": [{"name": "diabetes", "mentions": 15, "confidence_score": 132, "total_score": 1980}, {"name": "hypertension", "mentions": 15, "confidence_score": 121, "total_score": 1815}, {"name": "inflammation", "mentions": 12, "confidence_score": 98, "total_score": 1176}, {"name": "asthma", "mentions": 14, "confidence_score": 91, "total_score": 1274}, {"name": "skin infections", "mentions": 13, "confidence_score": 90, "total_score": 1170}, {"name": "rheumatism", "mentions": 12, "confidence_score": 88, "total_score": 1056}, {"name": "diarrhea", "mentions": 7, "confidence_score": 55, "total_score": 385}, {"name": "arthritis", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "fever", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "eczema", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "fungal infections", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "urinary tract infection", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "gastroenteritis", "mentions": 7, "confidence_score": 27, "total_score": 189}, {"name": "urinary issues", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "hyperlipidemia", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "gout", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "migraines", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "gastritis", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "wound healing", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "inflammatory diseases", "mentions": 2, "confidence_score": 17, "total_score": 34}], "ailments_description": "The most common ailments you can heal with Aerva alopecuroides are fever and cough due to its expectorant properties, helping to alleviate respiratory issues. Aerva alopecuroides has been used to treat kidney stones by increasing urine production, reducing the risk of stone formation. The plant has also been found to be effective in treating rheumatoid arthritis, reducing inflammation and alleviating joint pain. Its antioxidant properties have been used to combat oxidative stress, which can lead to liver damage and cirrhosis, as well as to lower blood pressure and prevent cardiovascular disease. Additionally, Aerva alopecuroides has been used to treat gastric ulcers, reducing inflammation and promoting healing of the gastric mucosa.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 155, "total_score": 3100}, {"name": "antioxidant", "mentions": 20, "confidence_score": 148, "total_score": 2960}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 131, "total_score": 2620}, {"name": "analgesic", "mentions": 20, "confidence_score": 90, "total_score": 1800}, {"name": "cardioprotective", "mentions": 15, "confidence_score": 76, "total_score": 1140}, {"name": "antidiabetic", "mentions": 14, "confidence_score": 63, "total_score": 882}, {"name": "hepatoprotective", "mentions": 10, "confidence_score": 62, "total_score": 620}, {"name": "antiseptic", "mentions": 8, "confidence_score": 54, "total_score": 432}, {"name": "anticancer", "mentions": 12, "confidence_score": 47, "total_score": 564}, {"name": "antipyretic", "mentions": 10, "confidence_score": 43, "total_score": 430}, {"name": "antispasmodic", "mentions": 6, "confidence_score": 30, "total_score": 180}, {"name": "antihistaminic", "mentions": 9, "confidence_score": 27, "total_score": 243}, {"name": "antihypertensive", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "antidiarrheal", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "hypoglycemic", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "cytotoxic", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "hypotensive", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "anticonvulsant", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "neuroprotective", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "antihyperlipidemic", "mentions": 2, "confidence_score": 9, "total_score": 18}], "properties_description": "The main therapeutic properties of Aerva alopecuroides are its antioxidant and anti-inflammatory activities. This plant exhibits antimicrobial properties, inhibiting the growth of various pathogens, including bacteria and fungi. The bioactive compounds responsible for these properties include flavonoids, saponins, and volatile oils, which contribute to its antiseptic and antifungal activities. Aerva alopecuroides also possesses analgesic and anti-pyretic properties, providing relief from pain and fever, and its saponins and flavonoids contribute to its anti-arthritic and hepatoprotective effects. Additionally, its flavonoids and phenolic acids contribute to its anti-diabetic and anti-cancer properties, highlighting its potential in treating various diseases.", "constituents": [{"name": "aervoside", "mentions": 11, "confidence_score": 94, "total_score": 1034}, {"name": "quercetin", "mentions": 10, "confidence_score": 75, "total_score": 750}, {"name": "flavonoids", "mentions": 9, "confidence_score": 63, "total_score": 567}, {"name": "phenolic acids", "mentions": 9, "confidence_score": 55, "total_score": 495}, {"name": "aervoside b", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "saponins", "mentions": 8, "confidence_score": 45, "total_score": 360}, {"name": "kaempferol", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "aervoside c", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "tannins", "mentions": 7, "confidence_score": 41, "total_score": 287}, {"name": "allopyrone", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "aervoside a", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "aloperine", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "alkaloids", "mentions": 8, "confidence_score": 30, "total_score": 240}, {"name": "coumarins", "mentions": 7, "confidence_score": 28, "total_score": 196}, {"name": "rutin", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "terpenoids", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "gallic acid", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "\u03b2-sitosterol", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "allopyrones", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "aervagenin", "mentions": 2, "confidence_score": 18, "total_score": 36}], "constituents_description": "The most important healing constituents of Aerva alopecuroides are iridoid glycosides, alkaloids, and flavonoids. Iridoid glycosides, including ajugol and ajugoside, have been shown to possess anti-inflammatory and antimicrobial properties, while flavonoids, such as quercetin and kaempferol, exhibit antioxidant and anti-inflammatory activities. Alkaloids, including ajugaline and ajuganine, display antimicrobial and antifungal properties, contributing to the plant's wound-healing and anti-inflammatory effects. The flavonoids and iridoid glycosides in Aerva alopecuroides also show potential in treating oxidative stress and inflammation-related disorders. Overall, these constituents contribute to the plant's healing properties, making it useful in traditional medicine for treating various ailments.", "herb_names_common": [{"name": "aerva", "mentions": 17, "confidence_score": 145, "total_score": 2465}, {"name": "alopecuroides aerva", "mentions": 27, "confidence_score": 140, "total_score": 3780}, {"name": "dhava", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "alopecurus", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "hairy aerva", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "alopecia grass", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "pigtail grass", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "false beard grass", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "dog's tooth grass", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "wild celery", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "hairy knotgrass", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "bleeding heart grass", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "aerva sanguinea", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "hairy stickseed", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "aerva alopecuroides", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "false bristle grass", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "khadir", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "false beardgrass", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "aervoides", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "pig's tail", "mentions": 1, "confidence_score": 9, "total_score": 9}], "preparations": [{"name": "decoction", "mentions": 17, "confidence_score": 153, "total_score": 2601}, {"name": "infusion", "mentions": 17, "confidence_score": 132, "total_score": 2244}, {"name": "tincture", "mentions": 17, "confidence_score": 84, "total_score": 1428}, {"name": "aerva ointment", "mentions": 12, "confidence_score": 53, "total_score": 636}, {"name": "powder", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "poultice", "mentions": 8, "confidence_score": 31, "total_score": 248}, {"name": "aerva tea", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "aerva decoction", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "cold infusion", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "aerva alopecuroides decoction", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "aerva infusion", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "oil", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "aerva alopecuroides infusion", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "infused oil", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "aerva alopecuroides tincture", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "aerva powder", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "aerva oil", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "aerva alopecuroides oil", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "aerva tincture", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "paste", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "decorticate", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "aerva alopecuroides powder", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "aerva syrup", "mentions": 3, "confidence_score": 5, "total_score": 15}, {"name": "salve", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "infusate", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "aerva extract", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "oil maceration", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "capsule", "mentions": 1, "confidence_score": 1, "total_score": 1}], "preparations_description": "The main herbal preparations of Aerva alopecuroides are decoction, infusion, tincture, aerva ointment, and powder. Decoction involves boiling the roots and aerial parts in water to extract its medicinal properties, which is used to treat fever, cough, and respiratory issues. Infusion is a preparation of the dried plant parts in hot water, used for its expectorant and anti-inflammatory properties. Tincture is a concentrated liquid extract of the plant, used in small doses to treat various health conditions, including fever, rheumatism, and skin problems. Aerva ointment and powder are topical preparations used to treat skin conditions, such as wounds, ulcers, and dermatitis, due to its antiseptic and anti-inflammatory properties.", "side_effects": [{"name": "experiences nausea", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "exhibits allergic reactions", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "develops diarrhea", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "develop skin irritation", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "experience nausea", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "experiences headache", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "experience vomiting", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "suffer abdominal pain", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "exacerbate nephrotoxicity", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience gastrointestinal issues", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "induces vomiting", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develops abdominal pain", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "causes diarrhea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "induces liver damage", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experiences vomiting", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "feel dizziness", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "suffers kidney damage", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "exacerbate allergic reactions", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiencing dizziness", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "experience seizures", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "suffering cardiovascular issues", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "develops skin irritation", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "suffer from allergic reactions", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffer vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experience kidney damage", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "increase respiratory depression", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "cause diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "disrupt gut flora", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce hepatotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "worsen kidney function", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "produce vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing nausea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "developing fatigue", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing hypotension", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffering neurological symptoms", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences kidney damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience liver damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences dizziness", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "suffers cardiovascular issues", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffer allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce nephrotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce hypotension", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "elevate liver enzymes", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffers vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "triggers seizures", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "triggers cardiac arrhythmias", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause cardiovascular instability", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause gastrointestinal irritation", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "increase blood pressure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffering diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "get liver toxicity", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "developing kidney stones", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "faces nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "exhibits rash", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop skin rash", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop respiratory issues", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause gastrointestinal upset", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "produce hepatotoxicity", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "induce photosensitization", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "show kidney damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "affect liver function", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "cause skin irritation", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "provoke allergic reactions", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "trigger seizures", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "cause respiratory issues", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "developing respiratory problems", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "faces cardiovascular issues", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "show nausea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experiences seizures", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffer neurological impairment", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "triggers respiratory problems", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "exhibits abdominal pain", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "lead to diarrhea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "raises blood pressure", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "exhibits increased heart rate", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "trigger headaches", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "lead to electrolyte imbalance", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "induce diarrhea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "developing vomiting", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show allergic reactions", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffering liver damage", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "get headache", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develops fatigue", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "get headaches", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "gets headache", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "feel headache", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "trigger allergic dermatitis", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "induce hemolysis", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "increases heart rate", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "encounters dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develop abdominal pain", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "cause liver damage", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develops respiratory issues", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "increase risk of infections", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "trigger allergic reactions", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "showing tremors", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experiencing allergic reactions", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "get dizziness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "exhibits dizziness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "have diarrhea", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop liver enzyme imbalance", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "induce cardiovascular instability", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "promote gastrointestinal bleeding", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "causes skin irritation", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffers fatigue", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "inhibit blood clotting", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "decreases platelet count", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "aggravate respiratory issues", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "induce neurotoxicity", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "produce abnormal heart rhythms", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiencing abdominal pain", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffer cardiac problems", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiencing diarrhea", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiences abdominal pain", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiences liver damage", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "develop allergic reaction", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "show increased heart rate", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "produce neurotoxic effects", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "aggravate skin irritation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "triggers allergic reactions", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "worsens glaucoma", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffers liver damage", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "lead to kidney damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "showing hyperglycemia", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "get kidney damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "getting skin irritation", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "faces liver damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "get liver damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "get fatigue", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop liver damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experience respiratory depression", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "interfere with blood clotting", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cause cardiac arrhythmias", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "lowers blood pressure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "induce respiratory depression", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "leads to kidney damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "interact with medications", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "suffering headache", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience respiratory failure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "develop kidney failure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "gets liver toxicity", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience respiratory issues", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "develop cardiovascular problems", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "cause respiratory distress", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "trigger seizure activity", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "causes kidney damage", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "exhibit neurotoxicity", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "produces hallucinations", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "provoke hypersensitivity", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "induce seizures", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "developing cardiac issues", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "develop neurological disorders", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "develops headaches", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "exhibits hyperglycemia", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "suffer seizure", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "nauseate patient", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "induces seizures", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effects of using Aerva alopecuroides improperly include experiencing nausea, which may be due to the plant's alkaloid content, such as aucubin and aucubigenin, that can cause gastrointestinal upset. Allergic reactions, including skin irritation, may also occur, as the plant contains sesquiterpene lactones that can elicit an immune response. Diarrhea is another possible side effect, which may be caused by the plant's anthraquinone content, that can irritate the gastrointestinal tract. The sesquiterpene lactones in Aerva alopecuroides may also cause skin irritation, leading to redness, itching, and blistering. These side effects can be severe if the plant is ingested or applied topically in large quantities or for extended periods, highlighting the importance of proper handling and use.", "family_slug": "amaranthaceae", "family_name": "Amaranthaceae", "what_description": "Aerva alopecuroides is a perennial herbaceous plant belonging to the family Amaranthaceae. It grows up to 60 cm in height, with a slender stem and a spreading habit, bearing small, white or greenish flowers in axillary spikes. The leaves are linear-lanceolate, measuring 1-3 cm in length, and are densely hairy on both surfaces. The inflorescence is a branched spike with 2-3-flowered cymes, and the flowers have five stamens and a five-lobed calyx. This plant is found in various habitats, including grasslands and dry forests, in tropical and subtropical regions.", "uses": "Aerva alopecuroides has been traditionally used in Ayurvedic medicine, where it is known for its potential anti-inflammatory and antioxidant properties. The plant is also used to treat various health issues, including fever, rheumatism, and skin conditions. Its leaves and roots are utilized to prepare herbal remedies that help alleviate symptoms associated with respiratory problems and digestive issues. Furthermore, Aerva alopecuroides has been studied for its potential anticancer properties and its ability to protect against oxidative stress. Additional research is needed to fully understand the medicinal uses and potential benefits of this plant.", "taxonomy": "Aerva alopecuroides, a species of plant, belongs to the family Amaranthaceae. This plant is a type of succulent herb, which is a characteristic of the Amaranthaceae family. Aerva alopecuroides is classified in the genus Aerva, which is a group of flowering plants. The plant's classification at the kingdom level is Plantae, indicating that it is a plant. Within the plant kingdom, Aerva alopecuroides can be further classified into various other taxonomic ranks such as family, genus, and species.", "benefits": "Aerva alopecuroides, also known as the \"Bengal hair grass,\" has been traditionally used in Ayurvedic medicine for its various health benefits. The plant is believed to possess anti-inflammatory and antioxidant properties, which can help in reducing stress and promoting overall well-being. Its leaves and stems are used to treat various health issues, including fever, rheumatism, and skin problems. The plant is also said to have antibacterial and antifungal properties, making it effective in treating infections. Further research is needed to confirm the full extent of its health benefits.", "parts": "Aerva alopecuroides, a plant species native to tropical Africa, has been traditionally used in various folk remedies. The root and leaves of Aerva alopecuroides are considered medicinal parts and are used in traditional medicine. The plant's root is said to have diuretic properties and is used to treat kidney problems, while its leaves are used to treat fever and cough. The roots and leaves of the plant have also been used to treat various other health issues, including skin conditions and respiratory problems. The medicinal properties of Aerva alopecuroides are still being studied, and more research is needed to fully understand its potential health benefits.", "intro": "Aerva alopecuroides, also known as Aerva lanata, is a perennial herbaceous plant belonging to the family Amaranthaceae. The plant has been traditionally used in Ayurvedic medicine, and its health benefits include anti-inflammatory, antioxidant, and antimicrobial properties, which are said to aid in the treatment of various ailments such as fever, rheumatism, and digestive disorders. The bioactive constituents of Aerva alopecuroides include flavonoids, phenolic acids, and alkaloids, which contribute to its medicinal properties. Aerva alopecuroides is commonly used to make herbal preparations such as decoctions, infusions, and powder, which are used to treat various health conditions, including fever, cough, and respiratory issues."}
+{
+    "title": "Aerva alopecuroides",
+    "herb_slug": "aerva-alopecuroides",
+    "herb_name_scientific": "Aerva alopecuroides",
+    "url": "herbs/aerva-alopecuroides",
+    "lastmod": "2024-12-31",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        }
+    ],
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "diabetes",
+            "mentions": 15,
+            "confidence_score": 132,
+            "total_score": 1980
+        },
+        {
+            "name": "hypertension",
+            "mentions": 15,
+            "confidence_score": 121,
+            "total_score": 1815
+        },
+        {
+            "name": "inflammation",
+            "mentions": 12,
+            "confidence_score": 98,
+            "total_score": 1176
+        },
+        {
+            "name": "asthma",
+            "mentions": 14,
+            "confidence_score": 91,
+            "total_score": 1274
+        },
+        {
+            "name": "skin infections",
+            "mentions": 13,
+            "confidence_score": 90,
+            "total_score": 1170
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 12,
+            "confidence_score": 88,
+            "total_score": 1056
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 7,
+            "confidence_score": 55,
+            "total_score": 385
+        },
+        {
+            "name": "arthritis",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "fever",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "eczema",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "urinary tract infection",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 7,
+            "confidence_score": 27,
+            "total_score": 189
+        },
+        {
+            "name": "urinary issues",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "hyperlipidemia",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "gout",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "migraines",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "gastritis",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "inflammatory diseases",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Aerva alopecuroides are fever and cough due to its expectorant properties, helping to alleviate respiratory issues. Aerva alopecuroides has been used to treat kidney stones by increasing urine production, reducing the risk of stone formation. The plant has also been found to be effective in treating rheumatoid arthritis, reducing inflammation and alleviating joint pain. Its antioxidant properties have been used to combat oxidative stress, which can lead to liver damage and cirrhosis, as well as to lower blood pressure and prevent cardiovascular disease. Additionally, Aerva alopecuroides has been used to treat gastric ulcers, reducing inflammation and promoting healing of the gastric mucosa.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 155,
+            "total_score": 3100
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 148,
+            "total_score": 2960
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 131,
+            "total_score": 2620
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 90,
+            "total_score": 1800
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 15,
+            "confidence_score": 76,
+            "total_score": 1140
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 14,
+            "confidence_score": 63,
+            "total_score": 882
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 10,
+            "confidence_score": 62,
+            "total_score": 620
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 8,
+            "confidence_score": 54,
+            "total_score": 432
+        },
+        {
+            "name": "anticancer",
+            "mentions": 12,
+            "confidence_score": 47,
+            "total_score": 564
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 10,
+            "confidence_score": 43,
+            "total_score": 430
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 6,
+            "confidence_score": 30,
+            "total_score": 180
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 9,
+            "confidence_score": 27,
+            "total_score": 243
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "anticonvulsant",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "antihyperlipidemic",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Aerva alopecuroides are its antioxidant and anti-inflammatory activities. This plant exhibits antimicrobial properties, inhibiting the growth of various pathogens, including bacteria and fungi. The bioactive compounds responsible for these properties include flavonoids, saponins, and volatile oils, which contribute to its antiseptic and antifungal activities. Aerva alopecuroides also possesses analgesic and anti-pyretic properties, providing relief from pain and fever, and its saponins and flavonoids contribute to its anti-arthritic and hepatoprotective effects. Additionally, its flavonoids and phenolic acids contribute to its anti-diabetic and anti-cancer properties, highlighting its potential in treating various diseases.",
+    "constituents": [
+        {
+            "name": "aervoside",
+            "mentions": 11,
+            "confidence_score": 94,
+            "total_score": 1034
+        },
+        {
+            "name": "quercetin",
+            "mentions": 10,
+            "confidence_score": 75,
+            "total_score": 750
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 9,
+            "confidence_score": 63,
+            "total_score": 567
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 9,
+            "confidence_score": 55,
+            "total_score": 495
+        },
+        {
+            "name": "aervoside b",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "saponins",
+            "mentions": 8,
+            "confidence_score": 45,
+            "total_score": 360
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "aervoside c",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "tannins",
+            "mentions": 7,
+            "confidence_score": 41,
+            "total_score": 287
+        },
+        {
+            "name": "allopyrone",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "aervoside a",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "aloperine",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 8,
+            "confidence_score": 30,
+            "total_score": 240
+        },
+        {
+            "name": "coumarins",
+            "mentions": 7,
+            "confidence_score": 28,
+            "total_score": 196
+        },
+        {
+            "name": "rutin",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "\u03b2-sitosterol",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "allopyrones",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "aervagenin",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Aerva alopecuroides are iridoid glycosides, alkaloids, and flavonoids. Iridoid glycosides, including ajugol and ajugoside, have been shown to possess anti-inflammatory and antimicrobial properties, while flavonoids, such as quercetin and kaempferol, exhibit antioxidant and anti-inflammatory activities. Alkaloids, including ajugaline and ajuganine, display antimicrobial and antifungal properties, contributing to the plant's wound-healing and anti-inflammatory effects. The flavonoids and iridoid glycosides in Aerva alopecuroides also show potential in treating oxidative stress and inflammation-related disorders. Overall, these constituents contribute to the plant's healing properties, making it useful in traditional medicine for treating various ailments.",
+    "herb_names_common": [
+        {
+            "name": "aerva",
+            "mentions": 17,
+            "confidence_score": 145,
+            "total_score": 2465
+        },
+        {
+            "name": "alopecuroides aerva",
+            "mentions": 27,
+            "confidence_score": 140,
+            "total_score": 3780
+        },
+        {
+            "name": "dhava",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "alopecurus",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "hairy aerva",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "alopecia grass",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "pigtail grass",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "false beard grass",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "dog's tooth grass",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "wild celery",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "hairy knotgrass",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "bleeding heart grass",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "aerva sanguinea",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "hairy stickseed",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "aerva alopecuroides",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "false bristle grass",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "khadir",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "false beardgrass",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "aervoides",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "pig's tail",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "preparations": [
+        {
+            "name": "decoction",
+            "mentions": 17,
+            "confidence_score": 153,
+            "total_score": 2601
+        },
+        {
+            "name": "infusion",
+            "mentions": 17,
+            "confidence_score": 132,
+            "total_score": 2244
+        },
+        {
+            "name": "tincture",
+            "mentions": 17,
+            "confidence_score": 84,
+            "total_score": 1428
+        },
+        {
+            "name": "aerva ointment",
+            "mentions": 12,
+            "confidence_score": 53,
+            "total_score": 636
+        },
+        {
+            "name": "powder",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "poultice",
+            "mentions": 8,
+            "confidence_score": 31,
+            "total_score": 248
+        },
+        {
+            "name": "aerva tea",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "aerva decoction",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "cold infusion",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "aerva alopecuroides decoction",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "aerva infusion",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "oil",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "aerva alopecuroides infusion",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "aerva alopecuroides tincture",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "aerva powder",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "aerva oil",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "aerva alopecuroides oil",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "aerva tincture",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "paste",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "decorticate",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "aerva alopecuroides powder",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "aerva syrup",
+            "mentions": 3,
+            "confidence_score": 5,
+            "total_score": 15
+        },
+        {
+            "name": "salve",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "infusate",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "aerva extract",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "oil maceration",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "capsule",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Aerva alopecuroides are decoction, infusion, tincture, aerva ointment, and powder. Decoction involves boiling the roots and aerial parts in water to extract its medicinal properties, which is used to treat fever, cough, and respiratory issues. Infusion is a preparation of the dried plant parts in hot water, used for its expectorant and anti-inflammatory properties. Tincture is a concentrated liquid extract of the plant, used in small doses to treat various health conditions, including fever, rheumatism, and skin problems. Aerva ointment and powder are topical preparations used to treat skin conditions, such as wounds, ulcers, and dermatitis, due to its antiseptic and anti-inflammatory properties.",
+    "side_effects": [
+        {
+            "name": "experiences nausea",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "exhibits allergic reactions",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "experiences headache",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "suffer abdominal pain",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "exacerbate nephrotoxicity",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience gastrointestinal issues",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "induces vomiting",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develops abdominal pain",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "causes diarrhea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "induces liver damage",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experiences vomiting",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "suffers kidney damage",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "exacerbate allergic reactions",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "experience seizures",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "suffering cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "develops skin irritation",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "suffer from allergic reactions",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffer vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experience kidney damage",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "increase respiratory depression",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "disrupt gut flora",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "worsen kidney function",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "produce vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "developing fatigue",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing hypotension",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffering neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences kidney damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience liver damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "suffers cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffer allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce hypotension",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "elevate liver enzymes",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffers vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "triggers seizures",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "triggers cardiac arrhythmias",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause cardiovascular instability",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause gastrointestinal irritation",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffering diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "get liver toxicity",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "developing kidney stones",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "faces nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "exhibits rash",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop skin rash",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop respiratory issues",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause gastrointestinal upset",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "produce hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "induce photosensitization",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "show kidney damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "affect liver function",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "provoke allergic reactions",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "cause respiratory issues",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "developing respiratory problems",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "faces cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "show nausea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experiences seizures",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffer neurological impairment",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "triggers respiratory problems",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "exhibits abdominal pain",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "lead to diarrhea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "raises blood pressure",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "exhibits increased heart rate",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "lead to electrolyte imbalance",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "developing vomiting",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show allergic reactions",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffering liver damage",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "get headache",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develops fatigue",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "get headaches",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "gets headache",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "feel headache",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "trigger allergic dermatitis",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "induce hemolysis",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "increases heart rate",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "encounters dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develop abdominal pain",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develops respiratory issues",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "increase risk of infections",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "showing tremors",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experiencing allergic reactions",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "get dizziness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "exhibits dizziness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "have diarrhea",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop liver enzyme imbalance",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "induce cardiovascular instability",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "promote gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "causes skin irritation",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffers fatigue",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "inhibit blood clotting",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "decreases platelet count",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "aggravate respiratory issues",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "induce neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "produce abnormal heart rhythms",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffer cardiac problems",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiences abdominal pain",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiences liver damage",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "show increased heart rate",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "produce neurotoxic effects",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "aggravate skin irritation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "triggers allergic reactions",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "worsens glaucoma",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffers liver damage",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "lead to kidney damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "showing hyperglycemia",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "get kidney damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "getting skin irritation",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "faces liver damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "get liver damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "get fatigue",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop liver damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experience respiratory depression",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "interfere with blood clotting",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cause cardiac arrhythmias",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "lowers blood pressure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "induce respiratory depression",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "leads to kidney damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "suffering headache",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience respiratory failure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "develop kidney failure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "gets liver toxicity",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience respiratory issues",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "develop cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "cause respiratory distress",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "trigger seizure activity",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "causes kidney damage",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "exhibit neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "produces hallucinations",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "provoke hypersensitivity",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "developing cardiac issues",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "develop neurological disorders",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "develops headaches",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "exhibits hyperglycemia",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "suffer seizure",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "nauseate patient",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "induces seizures",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Aerva alopecuroides improperly include experiencing nausea, which may be due to the plant's alkaloid content, such as aucubin and aucubigenin, that can cause gastrointestinal upset. Allergic reactions, including skin irritation, may also occur, as the plant contains sesquiterpene lactones that can elicit an immune response. Diarrhea is another possible side effect, which may be caused by the plant's anthraquinone content, that can irritate the gastrointestinal tract. The sesquiterpene lactones in Aerva alopecuroides may also cause skin irritation, leading to redness, itching, and blistering. These side effects can be severe if the plant is ingested or applied topically in large quantities or for extended periods, highlighting the importance of proper handling and use.",
+    "family_slug": "amaranthaceae",
+    "family_name": "Amaranthaceae",
+    "what_description": "Aerva alopecuroides is a perennial herbaceous plant belonging to the family Amaranthaceae. It grows up to 60 cm in height, with a slender stem and a spreading habit, bearing small, white or greenish flowers in axillary spikes. The leaves are linear-lanceolate, measuring 1-3 cm in length, and are densely hairy on both surfaces. The inflorescence is a branched spike with 2-3-flowered cymes, and the flowers have five stamens and a five-lobed calyx. This plant is found in various habitats, including grasslands and dry forests, in tropical and subtropical regions.",
+    "uses": "Aerva alopecuroides has been traditionally used in Ayurvedic medicine, where it is known for its potential anti-inflammatory and antioxidant properties. The plant is also used to treat various health issues, including fever, rheumatism, and skin conditions. Its leaves and roots are utilized to prepare herbal remedies that help alleviate symptoms associated with respiratory problems and digestive issues. Furthermore, Aerva alopecuroides has been studied for its potential anticancer properties and its ability to protect against oxidative stress. Additional research is needed to fully understand the medicinal uses and potential benefits of this plant.",
+    "taxonomy": "Aerva alopecuroides, a species of plant, belongs to the family Amaranthaceae. This plant is a type of succulent herb, which is a characteristic of the Amaranthaceae family. Aerva alopecuroides is classified in the genus Aerva, which is a group of flowering plants. The plant's classification at the kingdom level is Plantae, indicating that it is a plant. Within the plant kingdom, Aerva alopecuroides can be further classified into various other taxonomic ranks such as family, genus, and species.",
+    "benefits": "Aerva alopecuroides, also known as the \"Bengal hair grass,\" has been traditionally used in Ayurvedic medicine for its various health benefits. The plant is believed to possess anti-inflammatory and antioxidant properties, which can help in reducing stress and promoting overall well-being. Its leaves and stems are used to treat various health issues, including fever, rheumatism, and skin problems. The plant is also said to have antibacterial and antifungal properties, making it effective in treating infections. Further research is needed to confirm the full extent of its health benefits.",
+    "parts": "Aerva alopecuroides, a plant species native to tropical Africa, has been traditionally used in various folk remedies. The root and leaves of Aerva alopecuroides are considered medicinal parts and are used in traditional medicine. The plant's root is said to have diuretic properties and is used to treat kidney problems, while its leaves are used to treat fever and cough. The roots and leaves of the plant have also been used to treat various other health issues, including skin conditions and respiratory problems. The medicinal properties of Aerva alopecuroides are still being studied, and more research is needed to fully understand its potential health benefits.",
+    "intro": "Aerva alopecuroides, also known as Aerva lanata, is a perennial herbaceous plant belonging to the family Amaranthaceae. The plant has been traditionally used in Ayurvedic medicine, and its health benefits include anti-inflammatory, antioxidant, and antimicrobial properties, which are said to aid in the treatment of various ailments such as fever, rheumatism, and digestive disorders. The bioactive constituents of Aerva alopecuroides include flavonoids, phenolic acids, and alkaloids, which contribute to its medicinal properties. Aerva alopecuroides is commonly used to make herbal preparations such as decoctions, infusions, and powder, which are used to treat various health conditions, including fever, cough, and respiratory issues."
+}

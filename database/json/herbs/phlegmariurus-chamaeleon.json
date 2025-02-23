@@ -1,1 +1,1464 @@
-{"title": "Phlegmariurus chamaeleon", "herb_slug": "phlegmariurus-chamaeleon", "herb_name_scientific": "Phlegmariurus chamaeleon", "url": "herbs/phlegmariurus-chamaeleon", "lastmod": "2024-12-29", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 174, "total_score": 3480}], "ailments": [{"name": "inflammation", "mentions": 17, "confidence_score": 127, "total_score": 2159}, {"name": "arthritis", "mentions": 15, "confidence_score": 117, "total_score": 1755}, {"name": "hypertension", "mentions": 12, "confidence_score": 93, "total_score": 1116}, {"name": "asthma", "mentions": 13, "confidence_score": 88, "total_score": 1144}, {"name": "diabetes", "mentions": 13, "confidence_score": 88, "total_score": 1144}, {"name": "fever", "mentions": 9, "confidence_score": 75, "total_score": 675}, {"name": "rheumatism", "mentions": 9, "confidence_score": 66, "total_score": 594}, {"name": "eczema", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "cancer", "mentions": 8, "confidence_score": 33, "total_score": 264}, {"name": "diarrhea", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "gout", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "psoriasis", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "skin infection", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "osteoporosis", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "gastritis", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "pain", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "headache", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "sore throat", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "anxiety", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "gastroenteritis", "mentions": 2, "confidence_score": 17, "total_score": 34}], "ailments_description": "The most common ailments you can heal with Phlegmariurus chamaeleon are fever and respiratory problems, which it treats by inducing a sweat that helps eliminate toxins from the body. Arthritis is another condition that Phlegmariurus chamaeleon can alleviate, by reducing inflammation and relieving pain. Its effectiveness against fever is due in part to its ability to inhibit the production of pro-inflammatory cytokines, which contribute to the severity of the condition. By reducing inflammation, Phlegmariurus chamaeleon also helps to alleviate conditions such as rheumatism and joint pain. In addition to these ailments, Phlegmariurus chamaeleon has also been used to treat infections and to support the immune system.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 161, "total_score": 3220}, {"name": "antioxidant", "mentions": 20, "confidence_score": 150, "total_score": 3000}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 134, "total_score": 2680}, {"name": "antifungal", "mentions": 15, "confidence_score": 105, "total_score": 1575}, {"name": "analgesic", "mentions": 19, "confidence_score": 97, "total_score": 1843}, {"name": "antibacterial", "mentions": 9, "confidence_score": 70, "total_score": 630}, {"name": "antipyretic", "mentions": 11, "confidence_score": 54, "total_score": 594}, {"name": "antiviral", "mentions": 13, "confidence_score": 48, "total_score": 624}, {"name": "cardioprotective", "mentions": 12, "confidence_score": 36, "total_score": 432}, {"name": "cytotoxic", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "hepatoprotective", "mentions": 7, "confidence_score": 27, "total_score": 189}, {"name": "neuroprotective", "mentions": 9, "confidence_score": 22, "total_score": 198}, {"name": "antidiabetic", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "immunomodulatory", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "antitumor", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "anticancer", "mentions": 5, "confidence_score": 14, "total_score": 70}, {"name": "antihistamine", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "cytoprotective", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "hypoglycemic", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "wound healing", "mentions": 2, "confidence_score": 12, "total_score": 24}], "properties_description": "The main therapeutic properties of Phlegmariurus chamaeleon are anti-inflammatory, due to the presence of flavonoids such as quercetin and kaempferol that inhibit pro-inflammatory enzymes. This plant has also been found to possess antimicrobial properties, attributed to the presence of saponins and volatile oils like limonene, which interfere with microbial cell membranes and prevent the growth of pathogens. The anti-cancer properties of Phlegmariurus chamaeleon have been linked to the presence of phenolic acids like ferulic and caffeic acid, which have been shown to induce apoptosis in cancer cells. Additionally, the plant has been found to have antioxidant properties, with compounds like flavonoids and phenolic acids exhibiting free radical scavenging activity. Its antiparasitic properties, on the other hand, are attributed to the presence of alkaloids like berberine, which inhibit the growth and replication of parasites.", "constituents": [{"name": "phlegmarin", "mentions": 12, "confidence_score": 109, "total_score": 1308}, {"name": "phlegmarinin", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "quercetin", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "flavonoids", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "kaempferol", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "triterpenoids", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "chamaeleonin", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "phlegmarine", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "isorhapontigenin", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "saponins", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "phenolic acids", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "quinic acid", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "alkaloids", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "quassin", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "furanoglaucine", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "phlegmariurine", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "chamaeleonine", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "phenolic glycosides", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "coumarins", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "ferulic acid", "mentions": 2, "confidence_score": 13, "total_score": 26}], "constituents_description": "The most important healing constituents of Phlegmariurus chamaeleon are flavonoids, terpenoids, and phenolic compounds which exhibit anti-inflammatory, antioxidant, and antimicrobial properties. Flavonoids such as quercetin and kaempferol have been found to have potential anti-inflammatory effects by inhibiting the production of pro-inflammatory enzymes. Terpenoids like ursolic acid have been shown to possess anti-inflammatory and antioxidant properties, whereas phenolic compounds like caffeic acid exhibit antimicrobial activity against various pathogens. These bioactive compounds contribute to the plant's ability to modulate immune responses and alleviate conditions such as arthritis and other inflammatory diseases. The exact mechanisms of action and potential therapeutic applications of these constituents require further research to fully elucidate their healing potential.", "herb_names_common": [{"name": "phlegmariurus chamaeleon", "mentions": 36, "confidence_score": 156, "total_score": 5616}, {"name": "chamaeleon tree fern", "mentions": 20, "confidence_score": 118, "total_score": 2360}, {"name": "chameleon tree fern", "mentions": 7, "confidence_score": 64, "total_score": 448}, {"name": "chamaeleon fern", "mentions": 9, "confidence_score": 42, "total_score": 378}, {"name": "chameleon tree club moss", "mentions": 8, "confidence_score": 35, "total_score": 280}, {"name": "chamaeleon forked fern", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "chamaeleon vine fern", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "slender climbing asparagus fern", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "chamaeleon scale fern", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "chamaeleon hair sensitive plant", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "chamaeleon spike moss", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "chamaeleon horsetail", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "tree fern chameleon", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "chamaeleon spikemoss", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "slender climbing maidenhair", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "chamaeleon grape fern", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "chamaeleon vinescale fern", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "chamaeleon spike moss (phlegmariurus chamaeleon)", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "chamaeleon's spike moss", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "chamaeleon horsetail vine", "mentions": 2, "confidence_score": 13, "total_score": 26}], "preparations": [{"name": "tincture", "mentions": 20, "confidence_score": 148, "total_score": 2960}, {"name": "tea", "mentions": 18, "confidence_score": 136, "total_score": 2448}, {"name": "infusion", "mentions": 19, "confidence_score": 136, "total_score": 2584}, {"name": "decoction", "mentions": 18, "confidence_score": 101, "total_score": 1818}, {"name": "salve", "mentions": 20, "confidence_score": 85, "total_score": 1700}, {"name": "poultice", "mentions": 7, "confidence_score": 24, "total_score": 168}, {"name": "infused oil", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "ointment", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "suppository", "mentions": 4, "confidence_score": 9, "total_score": 36}, {"name": "phlegmariurus tea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "glycerite", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "capsule", "mentions": 1, "confidence_score": 1, "total_score": 1}], "preparations_description": "The main herbal preparations of Phlegmariurus chamaeleon are tincture, tea, infusion, decoction, and salve. A tincture is a concentrated liquid solution typically prepared by soaking the plant's aerial parts in a solvent such as ethanol or glycerin. Tea and infusion preparations are made by steeping the plant's aerial parts in hot water, with the latter often requiring longer steeping times to release more bioactive compounds. Decoction involves boiling the plant's aerial parts in water to release its active constituents, particularly for harder plant parts. A salve preparation involves mixing the plant's aerial parts with a carrier oil to create a topical remedy for skin issues.", "side_effects": [{"name": "experience nausea", "mentions": 9, "confidence_score": 80, "total_score": 720}, {"name": "develop skin irritation", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "experiencing nausea", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "experience dizziness", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "develop allergic reaction", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "develop respiratory issues", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "experiencing vomiting", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "experiencing dizziness", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "suffer diarrhea", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "suffer liver damage", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "develop headache", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "developing allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experiencing abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experience headache", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "developing diarrhea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "showing hypersensitivity", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "get diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experience diarrhea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "feel dizziness", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "suffer from diarrhea", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experience seizures", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "developing seizures", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "show allergic reaction", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiences nausea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "elicit neurological damage", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "induce vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "cause death", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "developing liver toxicity", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experience abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffer abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffer vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffering liver damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing neurotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop gastrointestinal issues", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develops allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience liver toxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "showing headaches", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience renal failure", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "elicit allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing headaches", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "exacerbate allergic reactions", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "worsen kidney function", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "developing nephrotoxicity", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experience hallucinations", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experience confusion", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiencing headache", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "exhibits respiratory depression", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experience respiratory problems", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer kidney strain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer from headache", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer from abdominal pain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing allergic reactions", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "experience allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "induce nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause seizures", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "trigger allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing cardiac irritation", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "get headache", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "induce respiratory failure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experience fatigue", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experiencing respiratory depression", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experiencing hypotension", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experience muscle weakness", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "suffering diarrhea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffer kidney problems", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "shows neurotoxicity", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "develop neurological disorders", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "undergo liver damage", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "trigger diarrhea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffering from abdominal pain", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "aggravate liver disease", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "cause liver damage", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experience cough", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffering cardiovascular collapse", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show cardiovascular symptoms", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "developing skin irritation", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffers cardiovascular collapse", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show cardiovascular issues", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffer from gastrointestinal distress", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "cause dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "lead to kidney damage", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "cause gastrointestinal bleeding", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "get dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffer fatigue", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffering gastrointestinal bleeding", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffer cardiovascular issues", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "suffer nausea", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffering muscle weakness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "exhibits hepatotoxicity", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffer kidney damage", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experience respiratory issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop cardiovascular complications", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "increase heart rate", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experiencing fatigue", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "provoke seizures", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffer respiratory failure", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop skin rashes", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiencing cardiovascular arrest", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "exhibit skin irritation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "showing abnormal behavior", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiences seizure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffer hormonal imbalance", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffer cardiovascular problems", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience cardiac problems", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "show increased heart rate", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "produce respiratory failure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "induce hypertension", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "show signs of allergic reaction", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "elevate blood pressure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "show cardiac issues", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience liver damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop respiratory problems", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop liver damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develops dermatitis", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop cardiovascular failure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experience insomnia", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffer from liver damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "developing cardiovascular issues", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "induce coma", "mentions": 2, "confidence_score": 3, "total_score": 6}, {"name": "trigger respiratory failure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffering from fatigue", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "show cardiac problems", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "trigger cardiac arrest", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "inhibit kidney function", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffer kidney failure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiences renal failure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiencing kidney problems", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience respiratory failure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "cause cardiac arrest", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "developing liver damage", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "suffer from kidney damage", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "nauseate users", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience neurological symptoms", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "show seizure activity", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "suffers death", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "showing neurological damage", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "suffer from hemolysis", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "produce cardiac arrest", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "paralyze muscles", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effects of using Phlegmariurus chamaeleon improperly include experiencing nausea and dizziness due to its toxic compounds, such as neolignans and sesquiterpenes, which can cause gastrointestinal disturbances and central nervous system stimulation. Additionally, improper use may lead to skin irritation and allergic reactions, including contact dermatitis, as the plant's sap contains allergenic compounds. These symptoms are a direct result of the plant's toxic and irritating properties, which can cause inflammation and discomfort in sensitive individuals. Furthermore, the improper use of Phlegmariurus chamaeleon may also cause systemic allergic reactions, including anaphylaxis, in individuals with a history of allergies. It is essential to handle the plant with caution and follow proper preparation and dosing guidelines to minimize the risk of adverse effects.", "category-action": "antimicrobial", "category_action": "anti-inflammatory", "family_slug": "lycopodiaceae", "family_name": "Lycopodiaceae", "what_description": "Phlegmariurus chamaeleon is a species of lycopod fern that belongs to the family Lycopodiaceae. It is a perennial evergreen plant with a scrambling habit, growing up to 1 meter in height. The plant has long, thin, and dark green stems with alternate, scale-like leaves that are usually 2-5 mm long and linear in shape. The leaves are attached to the stem by a small stalk and are often hairy, particularly on the margins. Phlegmariurus chamaeleon produces small, yellowish-brown cones, which are dioecious, meaning they occur on separate plants.", "uses": "Phlegmariurus chamaeleon is reported to have several medicinal uses, primarily in traditional medicine. It is believed to have anti-inflammatory and antioxidant properties. In some cultures, it is used to treat various health conditions, including fever and respiratory issues. Additionally, it is sometimes used as a remedy for digestive problems and skin conditions. More research is needed to fully understand the potential benefits and risks of using Phlegmariurus chamaeleon for medicinal purposes.", "taxonomy": "Phlegmariurus chamaeleon belongs to the family Lycopodiaceae, which is a group of small, herbaceous plants commonly known as club mosses. This family is part of the larger division Lycopodiophyta, which is a group of vascular plants that are thought to have evolved over 360 million years ago. Within the family Lycopodiaceae, Phlegmariurus chamaeleon is classified as a species of the genus Phlegmariurus, which is a group of small, terrestrial plants found in tropical regions. The genus Phlegmariurus is closely related to the genus Huperzia, and both are part of the subfamily Huperzioideae. Phlegmariurus chamaeleon is native to tropical and subtropical regions of Asia and the Pacific.", "benefits": "Phlegmariurus chamaeleon is reported to have several potential health benefits, including anti-inflammatory and antioxidant properties. It is also believed to have antimicrobial and antiviral effects, which may help to prevent infections and promote wound healing. Additionally, the plant is said to have anti-cancer properties and may help to reduce the risk of certain diseases. The plant's extracts may also have neuroprotective effects, which could help to protect against neurodegenerative diseases such as Alzheimer's and Parkinson's. Further research is needed to confirm the efficacy of Phlegmariurus chamaeleon in these areas.", "parts": "Phlegmariurus chamaeleon, also known as the dwarf club moss, is a plant used in traditional medicine in various parts of the world. The medicinal parts of Phlegmariurus chamaeleon include the leaves and stems, which are rich in bioactive compounds with potential health benefits. The plant has been traditionally used to treat various health conditions, including fever, cough, and skin infections. Research has shown that the plant's bioactive compounds have antimicrobial, anti-inflammatory, and antioxidant properties. The leaves and stems of Phlegmariurus chamaeleon are often harvested and used fresh or dried for medicinal purposes.", "intro": "Phlegmariurus chamaeleon, also known as the chameleon's tail or Chamaeleon's Spike Moss, is a type of epiphytic fern, specifically a member of the family Lycopodiaceae. This plant has been used in traditional medicine for its various health benefits, including the treatment of fever, cough, and respiratory issues, due to its anti-inflammatory and expectorant properties. The bioactive constituents of Phlegmariurus chamaeleon include alkaloids, phenolic compounds, and saponins, which contribute to its medicinal properties. In traditional herbal medicine, Phlegmariurus chamaeleon is often used to make teas, infusions, and decoctions, as well as being incorporated into tinctures and other liquid herbal preparations."}
+{
+    "title": "Phlegmariurus chamaeleon",
+    "herb_slug": "phlegmariurus-chamaeleon",
+    "herb_name_scientific": "Phlegmariurus chamaeleon",
+    "url": "herbs/phlegmariurus-chamaeleon",
+    "lastmod": "2024-12-29",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 174,
+            "total_score": 3480
+        }
+    ],
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 17,
+            "confidence_score": 127,
+            "total_score": 2159
+        },
+        {
+            "name": "arthritis",
+            "mentions": 15,
+            "confidence_score": 117,
+            "total_score": 1755
+        },
+        {
+            "name": "hypertension",
+            "mentions": 12,
+            "confidence_score": 93,
+            "total_score": 1116
+        },
+        {
+            "name": "asthma",
+            "mentions": 13,
+            "confidence_score": 88,
+            "total_score": 1144
+        },
+        {
+            "name": "diabetes",
+            "mentions": 13,
+            "confidence_score": 88,
+            "total_score": 1144
+        },
+        {
+            "name": "fever",
+            "mentions": 9,
+            "confidence_score": 75,
+            "total_score": 675
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 9,
+            "confidence_score": 66,
+            "total_score": 594
+        },
+        {
+            "name": "eczema",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "cancer",
+            "mentions": 8,
+            "confidence_score": 33,
+            "total_score": 264
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "gout",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "psoriasis",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "skin infection",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "osteoporosis",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "gastritis",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "pain",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "headache",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "sore throat",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "anxiety",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Phlegmariurus chamaeleon are fever and respiratory problems, which it treats by inducing a sweat that helps eliminate toxins from the body. Arthritis is another condition that Phlegmariurus chamaeleon can alleviate, by reducing inflammation and relieving pain. Its effectiveness against fever is due in part to its ability to inhibit the production of pro-inflammatory cytokines, which contribute to the severity of the condition. By reducing inflammation, Phlegmariurus chamaeleon also helps to alleviate conditions such as rheumatism and joint pain. In addition to these ailments, Phlegmariurus chamaeleon has also been used to treat infections and to support the immune system.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 150,
+            "total_score": 3000
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 134,
+            "total_score": 2680
+        },
+        {
+            "name": "antifungal",
+            "mentions": 15,
+            "confidence_score": 105,
+            "total_score": 1575
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 97,
+            "total_score": 1843
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 9,
+            "confidence_score": 70,
+            "total_score": 630
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 11,
+            "confidence_score": 54,
+            "total_score": 594
+        },
+        {
+            "name": "antiviral",
+            "mentions": 13,
+            "confidence_score": 48,
+            "total_score": 624
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 12,
+            "confidence_score": 36,
+            "total_score": 432
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 7,
+            "confidence_score": 27,
+            "total_score": 189
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 9,
+            "confidence_score": 22,
+            "total_score": 198
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "antitumor",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "anticancer",
+            "mentions": 5,
+            "confidence_score": 14,
+            "total_score": 70
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Phlegmariurus chamaeleon are anti-inflammatory, due to the presence of flavonoids such as quercetin and kaempferol that inhibit pro-inflammatory enzymes. This plant has also been found to possess antimicrobial properties, attributed to the presence of saponins and volatile oils like limonene, which interfere with microbial cell membranes and prevent the growth of pathogens. The anti-cancer properties of Phlegmariurus chamaeleon have been linked to the presence of phenolic acids like ferulic and caffeic acid, which have been shown to induce apoptosis in cancer cells. Additionally, the plant has been found to have antioxidant properties, with compounds like flavonoids and phenolic acids exhibiting free radical scavenging activity. Its antiparasitic properties, on the other hand, are attributed to the presence of alkaloids like berberine, which inhibit the growth and replication of parasites.",
+    "constituents": [
+        {
+            "name": "phlegmarin",
+            "mentions": 12,
+            "confidence_score": 109,
+            "total_score": 1308
+        },
+        {
+            "name": "phlegmarinin",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "quercetin",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "chamaeleonin",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "phlegmarine",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "saponins",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "quassin",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "furanoglaucine",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "phlegmariurine",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "chamaeleonine",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "coumarins",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Phlegmariurus chamaeleon are flavonoids, terpenoids, and phenolic compounds which exhibit anti-inflammatory, antioxidant, and antimicrobial properties. Flavonoids such as quercetin and kaempferol have been found to have potential anti-inflammatory effects by inhibiting the production of pro-inflammatory enzymes. Terpenoids like ursolic acid have been shown to possess anti-inflammatory and antioxidant properties, whereas phenolic compounds like caffeic acid exhibit antimicrobial activity against various pathogens. These bioactive compounds contribute to the plant's ability to modulate immune responses and alleviate conditions such as arthritis and other inflammatory diseases. The exact mechanisms of action and potential therapeutic applications of these constituents require further research to fully elucidate their healing potential.",
+    "herb_names_common": [
+        {
+            "name": "phlegmariurus chamaeleon",
+            "mentions": 36,
+            "confidence_score": 156,
+            "total_score": 5616
+        },
+        {
+            "name": "chamaeleon tree fern",
+            "mentions": 20,
+            "confidence_score": 118,
+            "total_score": 2360
+        },
+        {
+            "name": "chameleon tree fern",
+            "mentions": 7,
+            "confidence_score": 64,
+            "total_score": 448
+        },
+        {
+            "name": "chamaeleon fern",
+            "mentions": 9,
+            "confidence_score": 42,
+            "total_score": 378
+        },
+        {
+            "name": "chameleon tree club moss",
+            "mentions": 8,
+            "confidence_score": 35,
+            "total_score": 280
+        },
+        {
+            "name": "chamaeleon forked fern",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "chamaeleon vine fern",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "slender climbing asparagus fern",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "chamaeleon scale fern",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "chamaeleon hair sensitive plant",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "chamaeleon spike moss",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "chamaeleon horsetail",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "tree fern chameleon",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "chamaeleon spikemoss",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "slender climbing maidenhair",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "chamaeleon grape fern",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "chamaeleon vinescale fern",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "chamaeleon spike moss (phlegmariurus chamaeleon)",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "chamaeleon's spike moss",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "chamaeleon horsetail vine",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 148,
+            "total_score": 2960
+        },
+        {
+            "name": "tea",
+            "mentions": 18,
+            "confidence_score": 136,
+            "total_score": 2448
+        },
+        {
+            "name": "infusion",
+            "mentions": 19,
+            "confidence_score": 136,
+            "total_score": 2584
+        },
+        {
+            "name": "decoction",
+            "mentions": 18,
+            "confidence_score": 101,
+            "total_score": 1818
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 85,
+            "total_score": 1700
+        },
+        {
+            "name": "poultice",
+            "mentions": 7,
+            "confidence_score": 24,
+            "total_score": 168
+        },
+        {
+            "name": "infused oil",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "ointment",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "suppository",
+            "mentions": 4,
+            "confidence_score": 9,
+            "total_score": 36
+        },
+        {
+            "name": "phlegmariurus tea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "capsule",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Phlegmariurus chamaeleon are tincture, tea, infusion, decoction, and salve. A tincture is a concentrated liquid solution typically prepared by soaking the plant's aerial parts in a solvent such as ethanol or glycerin. Tea and infusion preparations are made by steeping the plant's aerial parts in hot water, with the latter often requiring longer steeping times to release more bioactive compounds. Decoction involves boiling the plant's aerial parts in water to release its active constituents, particularly for harder plant parts. A salve preparation involves mixing the plant's aerial parts with a carrier oil to create a topical remedy for skin issues.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 9,
+            "confidence_score": 80,
+            "total_score": 720
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "develop respiratory issues",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "suffer diarrhea",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "develop headache",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "developing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experience headache",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "developing diarrhea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "showing hypersensitivity",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "get diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "suffer from diarrhea",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experience seizures",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "developing seizures",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "show allergic reaction",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "elicit neurological damage",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "cause death",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "developing liver toxicity",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffer abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffer vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffering liver damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develops allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience liver toxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "showing headaches",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience renal failure",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "elicit allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing headaches",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "exacerbate allergic reactions",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "worsen kidney function",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "developing nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experience hallucinations",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experience confusion",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiencing headache",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "exhibits respiratory depression",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experience respiratory problems",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer kidney strain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer from headache",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer from abdominal pain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "experience allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause seizures",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing cardiac irritation",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "get headache",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "induce respiratory failure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experience fatigue",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experiencing respiratory depression",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experiencing hypotension",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experience muscle weakness",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "suffering diarrhea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffer kidney problems",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "shows neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "develop neurological disorders",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "undergo liver damage",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "trigger diarrhea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffering from abdominal pain",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "aggravate liver disease",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experience cough",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffering cardiovascular collapse",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show cardiovascular symptoms",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "developing skin irritation",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffers cardiovascular collapse",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffer from gastrointestinal distress",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "lead to kidney damage",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "cause gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "get dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffer fatigue",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffering gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffer cardiovascular issues",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "suffer nausea",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffering muscle weakness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "exhibits hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffer kidney damage",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experience respiratory issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop cardiovascular complications",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experiencing fatigue",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "provoke seizures",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffer respiratory failure",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop skin rashes",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiencing cardiovascular arrest",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "exhibit skin irritation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "showing abnormal behavior",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiences seizure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffer hormonal imbalance",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffer cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience cardiac problems",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "show increased heart rate",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "produce respiratory failure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "induce hypertension",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "show signs of allergic reaction",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "show cardiac issues",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience liver damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop respiratory problems",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop liver damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develops dermatitis",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop cardiovascular failure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experience insomnia",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffer from liver damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "developing cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "induce coma",
+            "mentions": 2,
+            "confidence_score": 3,
+            "total_score": 6
+        },
+        {
+            "name": "trigger respiratory failure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffering from fatigue",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "show cardiac problems",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "trigger cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "inhibit kidney function",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffer kidney failure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiences renal failure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiencing kidney problems",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience respiratory failure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "cause cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "developing liver damage",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "suffer from kidney damage",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "nauseate users",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "show seizure activity",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "suffers death",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "showing neurological damage",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "suffer from hemolysis",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "produce cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "paralyze muscles",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Phlegmariurus chamaeleon improperly include experiencing nausea and dizziness due to its toxic compounds, such as neolignans and sesquiterpenes, which can cause gastrointestinal disturbances and central nervous system stimulation. Additionally, improper use may lead to skin irritation and allergic reactions, including contact dermatitis, as the plant's sap contains allergenic compounds. These symptoms are a direct result of the plant's toxic and irritating properties, which can cause inflammation and discomfort in sensitive individuals. Furthermore, the improper use of Phlegmariurus chamaeleon may also cause systemic allergic reactions, including anaphylaxis, in individuals with a history of allergies. It is essential to handle the plant with caution and follow proper preparation and dosing guidelines to minimize the risk of adverse effects.",
+    "category-action": "antimicrobial",
+    "category_action": "anti-inflammatory",
+    "family_slug": "lycopodiaceae",
+    "family_name": "Lycopodiaceae",
+    "what_description": "Phlegmariurus chamaeleon is a species of lycopod fern that belongs to the family Lycopodiaceae. It is a perennial evergreen plant with a scrambling habit, growing up to 1 meter in height. The plant has long, thin, and dark green stems with alternate, scale-like leaves that are usually 2-5 mm long and linear in shape. The leaves are attached to the stem by a small stalk and are often hairy, particularly on the margins. Phlegmariurus chamaeleon produces small, yellowish-brown cones, which are dioecious, meaning they occur on separate plants.",
+    "uses": "Phlegmariurus chamaeleon is reported to have several medicinal uses, primarily in traditional medicine. It is believed to have anti-inflammatory and antioxidant properties. In some cultures, it is used to treat various health conditions, including fever and respiratory issues. Additionally, it is sometimes used as a remedy for digestive problems and skin conditions. More research is needed to fully understand the potential benefits and risks of using Phlegmariurus chamaeleon for medicinal purposes.",
+    "taxonomy": "Phlegmariurus chamaeleon belongs to the family Lycopodiaceae, which is a group of small, herbaceous plants commonly known as club mosses. This family is part of the larger division Lycopodiophyta, which is a group of vascular plants that are thought to have evolved over 360 million years ago. Within the family Lycopodiaceae, Phlegmariurus chamaeleon is classified as a species of the genus Phlegmariurus, which is a group of small, terrestrial plants found in tropical regions. The genus Phlegmariurus is closely related to the genus Huperzia, and both are part of the subfamily Huperzioideae. Phlegmariurus chamaeleon is native to tropical and subtropical regions of Asia and the Pacific.",
+    "benefits": "Phlegmariurus chamaeleon is reported to have several potential health benefits, including anti-inflammatory and antioxidant properties. It is also believed to have antimicrobial and antiviral effects, which may help to prevent infections and promote wound healing. Additionally, the plant is said to have anti-cancer properties and may help to reduce the risk of certain diseases. The plant's extracts may also have neuroprotective effects, which could help to protect against neurodegenerative diseases such as Alzheimer's and Parkinson's. Further research is needed to confirm the efficacy of Phlegmariurus chamaeleon in these areas.",
+    "parts": "Phlegmariurus chamaeleon, also known as the dwarf club moss, is a plant used in traditional medicine in various parts of the world. The medicinal parts of Phlegmariurus chamaeleon include the leaves and stems, which are rich in bioactive compounds with potential health benefits. The plant has been traditionally used to treat various health conditions, including fever, cough, and skin infections. Research has shown that the plant's bioactive compounds have antimicrobial, anti-inflammatory, and antioxidant properties. The leaves and stems of Phlegmariurus chamaeleon are often harvested and used fresh or dried for medicinal purposes.",
+    "intro": "Phlegmariurus chamaeleon, also known as the chameleon's tail or Chamaeleon's Spike Moss, is a type of epiphytic fern, specifically a member of the family Lycopodiaceae. This plant has been used in traditional medicine for its various health benefits, including the treatment of fever, cough, and respiratory issues, due to its anti-inflammatory and expectorant properties. The bioactive constituents of Phlegmariurus chamaeleon include alkaloids, phenolic compounds, and saponins, which contribute to its medicinal properties. In traditional herbal medicine, Phlegmariurus chamaeleon is often used to make teas, infusions, and decoctions, as well as being incorporated into tinctures and other liquid herbal preparations."
+}

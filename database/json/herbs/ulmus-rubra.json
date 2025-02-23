@@ -1,1 +1,750 @@
-{"title": "Ulmus rubra", "herb_slug": "ulmus-rubra", "herb_name_scientific": "Ulmus rubra", "family_slug": "", "family_name": "", "url": "herbs/ulmus-rubra", "lastmod": "2025-1-20", "herb_names_common": [{"name": "red elm", "mentions": 23, "confidence_score": 205, "total_score": 4715}, {"name": "slippery elm", "mentions": 20, "confidence_score": 168, "total_score": 3360}, {"name": "red elm tree", "mentions": 25, "confidence_score": 156, "total_score": 3900}, {"name": "american red elm", "mentions": 15, "confidence_score": 113, "total_score": 1695}, {"name": "ornamental elm", "mentions": 16, "confidence_score": 78, "total_score": 1248}, {"name": "soft elm", "mentions": 12, "confidence_score": 72, "total_score": 864}, {"name": "american elm", "mentions": 15, "confidence_score": 70, "total_score": 1050}, {"name": "cork elm", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "red elm (ulmus rubra)", "mentions": 4, "confidence_score": 11, "total_score": 44}, {"name": "gray elm", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "american slippery elm", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "sessile elm", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "sycamore elm", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "red elm leaf", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "eastern red elm", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cedar elm", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "red red elm", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "grey elm", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "white elm", "mentions": 3, "confidence_score": 7, "total_score": 21}, {"name": "red slippery elm", "mentions": 2, "confidence_score": 7, "total_score": 14}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 172, "total_score": 3440}], "what_description": "Ulmus rubra is a deciduous tree native to eastern North America, belonging to the family Ulmaceae. It has a broad, vase-shaped crown, a straight or slightly curved trunk, and a smooth, grey bark that becomes rugged with age. The leaves are simple, alternate, and 2-4 inches long, with a cordate or sagittate base, a double-toothed margin, and a slightly fuzzy lower surface. The flowers are small and greenish-yellow, arranged in pendulous catkins, and produced in early spring. The samaras, or fruit, are flat and winged, 2-3 inches long, and ripen in late spring.", "category_action": "anti-inflammatory", "ailments": [{"name": "arthritis", "mentions": 10, "confidence_score": 80, "total_score": 800}, {"name": "diabetes", "mentions": 9, "confidence_score": 77, "total_score": 693}, {"name": "inflammation", "mentions": 10, "confidence_score": 76, "total_score": 760}, {"name": "cardiovascular disease", "mentions": 7, "confidence_score": 55, "total_score": 385}, {"name": "cancer", "mentions": 8, "confidence_score": 47, "total_score": 376}, {"name": "eczema", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "rheumatism", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "hypertension", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "insect bites", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "high blood pressure", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "varicose veins", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "digestive issues", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "diarrhea", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "skin irritation", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "psoriasis", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "skin conditions", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "wounds", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "fever", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "gout", "mentions": 3, "confidence_score": 22, "total_score": 66}], "ailments_description": "The most common ailments you can heal with Ulmus rubra are arthritis, diabetes, inflammation and cardiovascular disease. Research has shown that Ulmus rubra extracts exhibit anti-inflammatory properties, which can help alleviate the symptoms of rheumatism and eczema. Studies have also found that the plant's flavonoids and phenolic acids have antioxidant and anti-diabetic properties, making it effective in managing hypertension and high blood pressure. Additionally, the plant's antiseptic and anti-inflammatory properties can help treat insect bites, varicose veins, digestive issues and gastroenteritis. Ulmus rubra has also been found to have anti-platelet aggregation properties, which can help prevent gout and fever.", "properties": [{"name": "anti-inflammatory", "mentions": 20, "confidence_score": 168, "total_score": 3360}, {"name": "antioxidant", "mentions": 20, "confidence_score": 165, "total_score": 3300}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 157, "total_score": 3140}, {"name": "analgesic", "mentions": 17, "confidence_score": 106, "total_score": 1802}, {"name": "cardioprotective", "mentions": 12, "confidence_score": 71, "total_score": 852}, {"name": "antiviral", "mentions": 13, "confidence_score": 67, "total_score": 871}, {"name": "wound healing", "mentions": 7, "confidence_score": 55, "total_score": 385}, {"name": "antipyretic", "mentions": 9, "confidence_score": 54, "total_score": 486}, {"name": "hemostatic", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "antibacterial", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "antiseptic", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "antifungal", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "wound-healing", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "hepatoprotective", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "antihistamine", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "astringent", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "anticancer", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "anti-hemorrhagic", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "antiparasitic", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "antihemorrhagic", "mentions": 2, "confidence_score": 16, "total_score": 32}], "properties_description": "The main therapeutic properties of Ulmus rubra are its ability to provide cardioprotective effects by reducing oxidative stress and inflammation in the cardiovascular system, which is attributed to the presence of flavonoids and phenolic acids. This plant also exhibits anti-inflammatory properties, primarily due to the action of saponins and volatile oils, which help to alleviate pain and discomfort associated with various conditions. Additionally, the antioxidant properties of Ulmus rubra are essential in neutralizing free radicals and protecting cells from damage, while its antimicrobial activity is mediated by the plant's terpenoids and alkaloids, which inhibit the growth of pathogens. Furthermore, Ulmus rubra's analgesic properties are attributed to the presence of sesquiterpenes and phenolic compounds, which help to reduce pain by inhibiting the production of pro-inflammatory mediators. The bioactive compounds present in Ulmus rubra work synergistically to provide these therapeutic benefits.", "constituents": [{"name": "ursolic acid", "mentions": 18, "confidence_score": 141, "total_score": 2538}, {"name": "tannins", "mentions": 16, "confidence_score": 123, "total_score": 1968}, {"name": "oleanolic acid", "mentions": 14, "confidence_score": 110, "total_score": 1540}, {"name": "salicin", "mentions": 12, "confidence_score": 99, "total_score": 1188}, {"name": "flavonoids", "mentions": 16, "confidence_score": 91, "total_score": 1456}, {"name": "phenolic acids", "mentions": 16, "confidence_score": 89, "total_score": 1424}, {"name": "quercetin", "mentions": 12, "confidence_score": 81, "total_score": 972}, {"name": "salicylic acid", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "ellagic acid", "mentions": 8, "confidence_score": 51, "total_score": 408}, {"name": "catechins", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "saponins", "mentions": 8, "confidence_score": 33, "total_score": 264}, {"name": "kaempferol", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "gallic acid", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "coumarins", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "betulinic acid", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "epicatechin", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "terpenoids", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "glycosides", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "alkaloids", "mentions": 5, "confidence_score": 13, "total_score": 65}, {"name": "isorhapontigenin", "mentions": 2, "confidence_score": 10, "total_score": 20}], "constituents_description": "The most important healing constituents of Ulmus rubra are ursolic acid, tannins, oleanolic acid, salicin, and flavonoids. These constituents exhibit potent anti-inflammatory, antimicrobial, and antioxidant properties, with ursolic acid and oleanolic acid demonstrating significant inhibition of pro-inflammatory cytokines and enzymes. Salicin, a glycoside of salicylic acid, displays analgesic and anti-inflammatory activities, while tannins exhibit astringent and antimicrobial effects. Flavonoids, including quercetin and kaempferol, possess antioxidant and anti-inflammatory properties, with quercetin also showing antiviral activity. The combination of these constituents in Ulmus rubra contributes to its traditional use in treating various ailments, including skin conditions, wounds, and respiratory issues.", "preparations": [{"name": "ulmus rubra tincture", "mentions": 20, "confidence_score": 163, "total_score": 3260}, {"name": "ulmus rubra tea", "mentions": 18, "confidence_score": 142, "total_score": 2556}, {"name": "ulmus rubra infusion", "mentions": 17, "confidence_score": 134, "total_score": 2278}, {"name": "ulmus rubra salve", "mentions": 19, "confidence_score": 122, "total_score": 2318}, {"name": "ulmus rubra decoction", "mentions": 11, "confidence_score": 66, "total_score": 726}, {"name": "ulmus rubra poultice", "mentions": 11, "confidence_score": 52, "total_score": 572}, {"name": "ulmus rubra extract", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "ulmus rubra oil", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "ointment", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "red elm salve", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "red elm tea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "ulmus rubra capsules", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "infusate", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "infused oil", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "ulmus rubra ointment", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "ulmus rubra capsule", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "ulmus rubra infusum", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "glycoside extract", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "ulmus rubra infused oil", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Ulmus rubra are derived from its bark, leaves, and inner bark. Ulmus rubra tincture is a concentrated liquid extract of the bark and inner bark in a solvent such as ethanol or glycerin, used for medicinal purposes. Ulmus rubra tea is a decoction of the inner bark and leaves in hot water, used for its anti-inflammatory and antimicrobial properties. Ulmus rubra infusion is a cold-brewed tea made from the inner bark and leaves, used for its antioxidant and anti-inflammatory properties. Ulmus rubra salve and decoction are topical preparations made from the bark and inner bark, used to treat skin irritations and wounds due to their antimicrobial and anti-inflammatory properties.", "side_effects": [{"name": "experiences allergic reactions", "mentions": 7, "confidence_score": 68, "total_score": 476}, {"name": "develops skin irritation", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "experiences nausea", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "develop skin irritation", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "experience allergic reactions", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "experience allergic reaction", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "induce allergic reaction", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "cause nausea", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "suffers from nephrotoxicity", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develops diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "provoke skin irritation", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experiences headaches", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experiences cardiovascular issues", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "induce allergy", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "leads to respiratory failure", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "experiences respiratory failure", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "exacerbate diarrhea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiences vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "induces vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "showing cardiovascular issues", "mentions": 1, "confidence_score": 10, "total_score": 10}], "side_effects_description": "The possible side effects of using Ulmus rubra improperly include experiencing allergic reactions such as hives, itching, and swelling due to the presence of allergenic compounds like urushiol oil, which is commonly found in the sap of the tree. This oil can cause skin irritation, including redness, blistering, and burns, as it can penetrate the skin and cause inflammation. In addition to skin reactions, ingesting Ulmus rubra can lead to nausea, vomiting, and diarrhea due to its toxic nature, as the leaves and bark contain compounds like salicylic acid and other phenolic compounds that can cause gastrointestinal upset. The improper use of Ulmus rubra, such as consuming it in large quantities or applying its sap to open wounds, can exacerbate these side effects and lead to more severe reactions. Furthermore, individuals with pre-existing conditions like asthma or eczema may experience more severe allergic reactions when exposed to Ulmus rubra."}
+{
+    "title": "Ulmus rubra",
+    "herb_slug": "ulmus-rubra",
+    "herb_name_scientific": "Ulmus rubra",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/ulmus-rubra",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "red elm",
+            "mentions": 23,
+            "confidence_score": 205,
+            "total_score": 4715
+        },
+        {
+            "name": "slippery elm",
+            "mentions": 20,
+            "confidence_score": 168,
+            "total_score": 3360
+        },
+        {
+            "name": "red elm tree",
+            "mentions": 25,
+            "confidence_score": 156,
+            "total_score": 3900
+        },
+        {
+            "name": "american red elm",
+            "mentions": 15,
+            "confidence_score": 113,
+            "total_score": 1695
+        },
+        {
+            "name": "ornamental elm",
+            "mentions": 16,
+            "confidence_score": 78,
+            "total_score": 1248
+        },
+        {
+            "name": "soft elm",
+            "mentions": 12,
+            "confidence_score": 72,
+            "total_score": 864
+        },
+        {
+            "name": "american elm",
+            "mentions": 15,
+            "confidence_score": 70,
+            "total_score": 1050
+        },
+        {
+            "name": "cork elm",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "red elm (ulmus rubra)",
+            "mentions": 4,
+            "confidence_score": 11,
+            "total_score": 44
+        },
+        {
+            "name": "gray elm",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "american slippery elm",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "sessile elm",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "sycamore elm",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "red elm leaf",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "eastern red elm",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cedar elm",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "red red elm",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "grey elm",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "white elm",
+            "mentions": 3,
+            "confidence_score": 7,
+            "total_score": 21
+        },
+        {
+            "name": "red slippery elm",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        }
+    ],
+    "what_description": "Ulmus rubra is a deciduous tree native to eastern North America, belonging to the family Ulmaceae. It has a broad, vase-shaped crown, a straight or slightly curved trunk, and a smooth, grey bark that becomes rugged with age. The leaves are simple, alternate, and 2-4 inches long, with a cordate or sagittate base, a double-toothed margin, and a slightly fuzzy lower surface. The flowers are small and greenish-yellow, arranged in pendulous catkins, and produced in early spring. The samaras, or fruit, are flat and winged, 2-3 inches long, and ripen in late spring.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "arthritis",
+            "mentions": 10,
+            "confidence_score": 80,
+            "total_score": 800
+        },
+        {
+            "name": "diabetes",
+            "mentions": 9,
+            "confidence_score": 77,
+            "total_score": 693
+        },
+        {
+            "name": "inflammation",
+            "mentions": 10,
+            "confidence_score": 76,
+            "total_score": 760
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 7,
+            "confidence_score": 55,
+            "total_score": 385
+        },
+        {
+            "name": "cancer",
+            "mentions": 8,
+            "confidence_score": 47,
+            "total_score": 376
+        },
+        {
+            "name": "eczema",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "hypertension",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "insect bites",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "varicose veins",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "psoriasis",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "wounds",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "fever",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "gout",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Ulmus rubra are arthritis, diabetes, inflammation and cardiovascular disease. Research has shown that Ulmus rubra extracts exhibit anti-inflammatory properties, which can help alleviate the symptoms of rheumatism and eczema. Studies have also found that the plant's flavonoids and phenolic acids have antioxidant and anti-diabetic properties, making it effective in managing hypertension and high blood pressure. Additionally, the plant's antiseptic and anti-inflammatory properties can help treat insect bites, varicose veins, digestive issues and gastroenteritis. Ulmus rubra has also been found to have anti-platelet aggregation properties, which can help prevent gout and fever.",
+    "properties": [
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 168,
+            "total_score": 3360
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 165,
+            "total_score": 3300
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 157,
+            "total_score": 3140
+        },
+        {
+            "name": "analgesic",
+            "mentions": 17,
+            "confidence_score": 106,
+            "total_score": 1802
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 12,
+            "confidence_score": 71,
+            "total_score": 852
+        },
+        {
+            "name": "antiviral",
+            "mentions": 13,
+            "confidence_score": 67,
+            "total_score": 871
+        },
+        {
+            "name": "wound healing",
+            "mentions": 7,
+            "confidence_score": 55,
+            "total_score": 385
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 9,
+            "confidence_score": 54,
+            "total_score": 486
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "antifungal",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "wound-healing",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "astringent",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "anticancer",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "anti-hemorrhagic",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "antihemorrhagic",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Ulmus rubra are its ability to provide cardioprotective effects by reducing oxidative stress and inflammation in the cardiovascular system, which is attributed to the presence of flavonoids and phenolic acids. This plant also exhibits anti-inflammatory properties, primarily due to the action of saponins and volatile oils, which help to alleviate pain and discomfort associated with various conditions. Additionally, the antioxidant properties of Ulmus rubra are essential in neutralizing free radicals and protecting cells from damage, while its antimicrobial activity is mediated by the plant's terpenoids and alkaloids, which inhibit the growth of pathogens. Furthermore, Ulmus rubra's analgesic properties are attributed to the presence of sesquiterpenes and phenolic compounds, which help to reduce pain by inhibiting the production of pro-inflammatory mediators. The bioactive compounds present in Ulmus rubra work synergistically to provide these therapeutic benefits.",
+    "constituents": [
+        {
+            "name": "ursolic acid",
+            "mentions": 18,
+            "confidence_score": 141,
+            "total_score": 2538
+        },
+        {
+            "name": "tannins",
+            "mentions": 16,
+            "confidence_score": 123,
+            "total_score": 1968
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 14,
+            "confidence_score": 110,
+            "total_score": 1540
+        },
+        {
+            "name": "salicin",
+            "mentions": 12,
+            "confidence_score": 99,
+            "total_score": 1188
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 16,
+            "confidence_score": 91,
+            "total_score": 1456
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 16,
+            "confidence_score": 89,
+            "total_score": 1424
+        },
+        {
+            "name": "quercetin",
+            "mentions": 12,
+            "confidence_score": 81,
+            "total_score": 972
+        },
+        {
+            "name": "salicylic acid",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 8,
+            "confidence_score": 51,
+            "total_score": 408
+        },
+        {
+            "name": "catechins",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "saponins",
+            "mentions": 8,
+            "confidence_score": 33,
+            "total_score": 264
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "coumarins",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "betulinic acid",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "glycosides",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 5,
+            "confidence_score": 13,
+            "total_score": 65
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Ulmus rubra are ursolic acid, tannins, oleanolic acid, salicin, and flavonoids. These constituents exhibit potent anti-inflammatory, antimicrobial, and antioxidant properties, with ursolic acid and oleanolic acid demonstrating significant inhibition of pro-inflammatory cytokines and enzymes. Salicin, a glycoside of salicylic acid, displays analgesic and anti-inflammatory activities, while tannins exhibit astringent and antimicrobial effects. Flavonoids, including quercetin and kaempferol, possess antioxidant and anti-inflammatory properties, with quercetin also showing antiviral activity. The combination of these constituents in Ulmus rubra contributes to its traditional use in treating various ailments, including skin conditions, wounds, and respiratory issues.",
+    "preparations": [
+        {
+            "name": "ulmus rubra tincture",
+            "mentions": 20,
+            "confidence_score": 163,
+            "total_score": 3260
+        },
+        {
+            "name": "ulmus rubra tea",
+            "mentions": 18,
+            "confidence_score": 142,
+            "total_score": 2556
+        },
+        {
+            "name": "ulmus rubra infusion",
+            "mentions": 17,
+            "confidence_score": 134,
+            "total_score": 2278
+        },
+        {
+            "name": "ulmus rubra salve",
+            "mentions": 19,
+            "confidence_score": 122,
+            "total_score": 2318
+        },
+        {
+            "name": "ulmus rubra decoction",
+            "mentions": 11,
+            "confidence_score": 66,
+            "total_score": 726
+        },
+        {
+            "name": "ulmus rubra poultice",
+            "mentions": 11,
+            "confidence_score": 52,
+            "total_score": 572
+        },
+        {
+            "name": "ulmus rubra extract",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "ulmus rubra oil",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "ointment",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "red elm salve",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "red elm tea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "ulmus rubra capsules",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "infusate",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "infused oil",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "ulmus rubra ointment",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "ulmus rubra capsule",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "ulmus rubra infusum",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "glycoside extract",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "ulmus rubra infused oil",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Ulmus rubra are derived from its bark, leaves, and inner bark. Ulmus rubra tincture is a concentrated liquid extract of the bark and inner bark in a solvent such as ethanol or glycerin, used for medicinal purposes. Ulmus rubra tea is a decoction of the inner bark and leaves in hot water, used for its anti-inflammatory and antimicrobial properties. Ulmus rubra infusion is a cold-brewed tea made from the inner bark and leaves, used for its antioxidant and anti-inflammatory properties. Ulmus rubra salve and decoction are topical preparations made from the bark and inner bark, used to treat skin irritations and wounds due to their antimicrobial and anti-inflammatory properties.",
+    "side_effects": [
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 7,
+            "confidence_score": 68,
+            "total_score": 476
+        },
+        {
+            "name": "develops skin irritation",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "experience allergic reactions",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "induce allergic reaction",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "suffers from nephrotoxicity",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "provoke skin irritation",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experiences headaches",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experiences cardiovascular issues",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "induce allergy",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "leads to respiratory failure",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "experiences respiratory failure",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "exacerbate diarrhea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiences vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "induces vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "showing cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Ulmus rubra improperly include experiencing allergic reactions such as hives, itching, and swelling due to the presence of allergenic compounds like urushiol oil, which is commonly found in the sap of the tree. This oil can cause skin irritation, including redness, blistering, and burns, as it can penetrate the skin and cause inflammation. In addition to skin reactions, ingesting Ulmus rubra can lead to nausea, vomiting, and diarrhea due to its toxic nature, as the leaves and bark contain compounds like salicylic acid and other phenolic compounds that can cause gastrointestinal upset. The improper use of Ulmus rubra, such as consuming it in large quantities or applying its sap to open wounds, can exacerbate these side effects and lead to more severe reactions. Furthermore, individuals with pre-existing conditions like asthma or eczema may experience more severe allergic reactions when exposed to Ulmus rubra."
+}

@@ -1,1 +1,1697 @@
-{"title": "Ferocactus glaucus", "herb_slug": "ferocactus-glaucus", "herb_name_scientific": "Ferocactus glaucus", "url": "herbs/ferocactus-glaucus", "lastmod": "2024-12-30", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 168, "total_score": 3360}], "category_action": "antimicrobial", "ailments": [{"name": "diabetes", "mentions": 19, "confidence_score": 168, "total_score": 3192}, {"name": "inflammation", "mentions": 17, "confidence_score": 122, "total_score": 2074}, {"name": "hypertension", "mentions": 12, "confidence_score": 90, "total_score": 1080}, {"name": "arthritis", "mentions": 10, "confidence_score": 80, "total_score": 800}, {"name": "cancer", "mentions": 13, "confidence_score": 77, "total_score": 1001}, {"name": "digestive issues", "mentions": 9, "confidence_score": 68, "total_score": 612}, {"name": "wound healing", "mentions": 7, "confidence_score": 52, "total_score": 364}, {"name": "gastritis", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "infections", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "gastrointestinal issues", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "asthma", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "skin conditions", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "anemia", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "ulcers", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "anxiety", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "burns", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "gastrointestinal disorders", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "inflammatory bowel disease", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "eczema", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "skin issues", "mentions": 3, "confidence_score": 16, "total_score": 48}], "ailments_description": "The most common ailments you can heal with Ferocactus glaucus are diabetes, particularly due to its inhibitory effect on alpha-glucosidase enzymes, which blocks carbohydrate digestion and absorption. It also exhibits anti-inflammatory properties, which makes it a potential treatment for arthritis by reducing joint inflammation and pain. Furthermore, Ferocactus glaucus has been studied for its antiviral activity, showing efficacy against certain viral infections like herpes simplex virus. Additionally, its antioxidant properties contribute to its potential in treating various cardiovascular diseases, such as atherosclerosis, by reducing oxidative stress and lipid peroxidation. Moreover, Ferocactus glaucus has been shown to have antimicrobial properties, which can be used to treat infections like E. coli and Staphylococcus aureus.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 158, "total_score": 3160}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 154, "total_score": 3080}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 138, "total_score": 2760}, {"name": "analgesic", "mentions": 20, "confidence_score": 101, "total_score": 2020}, {"name": "cardioprotective", "mentions": 15, "confidence_score": 66, "total_score": 990}, {"name": "wound-healing", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "antiviral", "mentions": 14, "confidence_score": 53, "total_score": 742}, {"name": "anticancer", "mentions": 12, "confidence_score": 41, "total_score": 492}, {"name": "hemostatic", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "antifungal", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "antibacterial", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "hepatoprotective", "mentions": 7, "confidence_score": 32, "total_score": 224}, {"name": "antidiabetic", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "cytotoxic", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "antiseptic", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "antihemorrhagic", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "hypoglycemic", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "diuretic", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "antispasmodic", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "wound healing", "mentions": 2, "confidence_score": 11, "total_score": 22}], "properties_description": "The main therapeutic properties of Ferocactus glaucus are its anti-inflammatory and antimicrobial effects, which contribute to its wound healing and tissue repair capabilities. Its ability to exhibit antioxidant activity helps to protect against oxidative stress and cell damage, while its immunomodulatory properties aid in the regulation of the immune system. Additionally, Ferocactus glaucus has been found to possess analgesic and antipyretic effects, reducing pain and fever in affected individuals. The bioactive compounds responsible for these properties include flavonoids, saponins, and volatile oils, such as ferrocactin and ferulic acid, which have been identified in the plant's extracts. These compounds work synergistically to exert the medicinal properties of Ferocactus glaucus.", "constituents": [{"name": "ferulic acid", "mentions": 14, "confidence_score": 118, "total_score": 1652}, {"name": "flavonoids", "mentions": 17, "confidence_score": 105, "total_score": 1785}, {"name": "saponins", "mentions": 17, "confidence_score": 102, "total_score": 1734}, {"name": "phenolic acids", "mentions": 15, "confidence_score": 80, "total_score": 1200}, {"name": "furostanol glycosides", "mentions": 14, "confidence_score": 77, "total_score": 1078}, {"name": "alkaloids", "mentions": 12, "confidence_score": 75, "total_score": 900}, {"name": "quercetin", "mentions": 9, "confidence_score": 65, "total_score": 585}, {"name": "triterpenoids", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "kaempferol", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "terpenoids", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "fatty acids", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "sterols", "mentions": 7, "confidence_score": 29, "total_score": 203}, {"name": "ellagic acid", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "tannins", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "gallic acid", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "catechins", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "oleanolic acid", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "vitamins", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "\u03b2-sitosterol", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "triterpenes", "mentions": 2, "confidence_score": 14, "total_score": 28}], "constituents_description": "The most important healing constituents of Ferocactus glaucus are alkaloids, flavonoids, phenolic acids, saponins, and mucilages. These constituents have been found to exhibit anti-inflammatory, antimicrobial, and antioxidant properties, which contribute to the plant's potential healing effects. Alkaloids such as ferrocactin and glycosides have been shown to possess anti-inflammatory and antioxidant activities, while flavonoids like kaempferol and quercetin exhibit strong antioxidant and free radical scavenging properties. The phenolic acids present in Ferocactus glaucus, including gallic acid and ellagic acid, have been found to have antimicrobial and anti-inflammatory effects. The presence of saponins and mucilages in the plant may contribute to its potential anti-inflammatory and soothing properties, particularly in the treatment of wounds and skin irritations.", "herb_names_common": [{"name": "blue barrel cactus", "mentions": 42, "confidence_score": 347, "total_score": 14574}, {"name": "ferocactus glaucus", "mentions": 37, "confidence_score": 113, "total_score": 4181}, {"name": "glaucous barrel cactus", "mentions": 18, "confidence_score": 110, "total_score": 1980}, {"name": "blue ferocactus", "mentions": 11, "confidence_score": 62, "total_score": 682}, {"name": "blue barrel cactus (ferocactus glaucus)", "mentions": 9, "confidence_score": 34, "total_score": 306}, {"name": "glaucous ferocactus", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "blue barrel ferocactus", "mentions": 7, "confidence_score": 32, "total_score": 224}, {"name": "glaucous pincushion cactus", "mentions": 6, "confidence_score": 30, "total_score": 180}, {"name": "blue pincushion cactus", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "glaucus cactus", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "blue cactus", "mentions": 5, "confidence_score": 17, "total_score": 85}, {"name": "glaucus barrel cactus", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "blue globe cactus", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "devil's head cactus", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "blue spine barrel cactus", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "blue barrell cactus", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "blue ball cactus", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "ferocactus glaucus (blue barrel cactus)", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "blue ferocactus (ferocactus glaucus)", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "blue barrel cactus plant", "mentions": 1, "confidence_score": 8, "total_score": 8}], "preparations": [{"name": "ferocactus tea", "mentions": 14, "confidence_score": 115, "total_score": 1610}, {"name": "ferocactus tincture", "mentions": 14, "confidence_score": 110, "total_score": 1540}, {"name": "ferocactus infusion", "mentions": 14, "confidence_score": 95, "total_score": 1330}, {"name": "ferocactus salve", "mentions": 13, "confidence_score": 73, "total_score": 949}, {"name": "ferocactus glaucus tincture", "mentions": 5, "confidence_score": 44, "total_score": 220}, {"name": "ferocactus glaucus tea", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "ferocactus decoction", "mentions": 8, "confidence_score": 35, "total_score": 280}, {"name": "ferocactus glaucus infusion", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "ferocactus oil", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "ferocactus glaucus oil", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "ferocactus glaucus salve", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "ferocactus extract", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "poultice", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "tincture of ferocactus", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "ferocactus glaucus decoction", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "infused oil", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "ferocactus syrup", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suppository", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "gluacus infusion", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "ferocactus glaucus ointment", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "glycerite", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "ointment", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "ferocactus glaucus cream", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "powder", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "glycoside", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "ferocactus glaucus capsules", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "gel", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "ferocactus glaucus lotion", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "capsules", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Ferocactus glaucus are made from its stems and flowers, which are rich in flavonoids, alkaloids, and saponins. Ferocactus tea is prepared by infusing the dried stems and flowers in hot water, used traditionally to treat fever, cough, and respiratory issues. Ferocactus tincture is a concentrated liquid extract made by soaking the plant material in a solvent like ethanol or glycerin, used as a treatment for digestive issues, skin problems, and inflammation. Ferocactus infusion is a liquid extract made by steeping the plant material in cold water, used to treat sore throats, coughs, and as a digestive aid. Ferocactus salve, a topical ointment, is prepared by mixing the plant material with a carrier oil, used to treat skin conditions, wounds, and inflammation.", "side_effects": [{"name": "experiences nausea", "mentions": 4, "confidence_score": 39, "total_score": 156}, {"name": "develops diarrhea", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "experience nausea", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "develop diarrhea", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "experience diarrhea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experience vomiting", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "induces nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develops allergic reaction", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "exhibits vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "developing allergic reactions", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "shows abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "causes diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "provoke skin irritation", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "elevate blood pressure", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experiences headaches", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "causes skin irritation", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experiences fatigue", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "trigger allergic reaction", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "suffers allergic reactions", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "cause respiratory issues", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "increases blood pressure", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "getting nausea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiencing vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "leads to overdose", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiences gastrointestinal issues", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "develop allergic reactions", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffer abdominal pain", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "produces headache", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "triggers abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "promotes dehydration", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "raises blood pressure", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop nephrotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develops skin lesions", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "has fatal outcome", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffer skin irritation", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce nausea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "exhibits hepatotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences neurotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "exacerbate diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "exhibits abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develops allergic reactions", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "get skin irritation", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develops skin irritation", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences hepatotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "initiating skin irritation", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "get headaches", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "get dehydration", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "leads to dizziness", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "causing liver damage", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "increasing heart rate", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "show signs of allergic reaction", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "increases heart rate", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "causes kidney damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "induces dizziness", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer dehydration", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experience cardiac arrhythmia", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiences diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer stomach pain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "interfere with medication", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops headache", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffers diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiences nephrotoxicity", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "exhibits cardiovascular problems", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiences allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiences hematological abnormalities", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "producing dizziness", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "have fever", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "promotes fatigue", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experiencing headaches", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffer from dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "triggers digestive issues", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "causes stomach ulcers", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "develop liver damage", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "gets headaches", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "trigger headaches", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "exhibits dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "develops nausea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experiences gastrointestinal distress", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "decrease appetite", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experiences neurological symptoms", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "exhibits skin irritation", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "inducing nausea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "develop skin irritations", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "triggers allergic reaction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "incurring skin irritation", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develop hives", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develop headache", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "triggers allergic reactions", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "induces allergic reaction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "triggers skin irritation", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "get hallucinations", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "get abdominal pain", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffers cardiovascular issues", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experience headache", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffers from dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "finds itching", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develops hypoglycemia", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develops kidney stones", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "induce headache", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "shows kidney damage", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experiences respiratory issues", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "shows dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show abdominal pain", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "exhibits gastrointestinal upset", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffering headache", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show hallucinations", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "developing respiratory issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop skin irritation", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "interferes with wound healing", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experience respiratory depression", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop respiratory issue", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "encounters allergic reactions", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffers dizziness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "exhibits cardiovascular issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "aggravate insomnia", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "exhibits liver damage", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experience liver damage", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "exhibits nephrotoxicity", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experience cardiac issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "induces respiratory issues", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "interferes with kidney function", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "increases risk of seizures", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience neurological impairment", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffers kidney damage", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience dizziness", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "gets skin irritations", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "disrupt kidney function", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "shows allergic reactions", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiences weakness", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "shows liver damage", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "get dizziness", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "exhibits cardiovascular disturbances", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "show signs of hallucinations", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "triggers respiratory issues", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "disrupts heart rhythm", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "has respiratory failure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop cardiovascular problem", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develops liver damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "induce coma", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experiences liver damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develops fever", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffers respiratory problems", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "interact with medications", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffer headache", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experiences respiratory failure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "triggering respiratory issues", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "causing kidney problems", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiences seizures", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience hepatic damage", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiences hemorrhaging", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "shows immune system suppression", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "develops cardiac problems", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "feel fatigue", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "exhibits neurological impairment", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "triggering seizure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "suffers liver damage", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "experiences hematologic abnormalities", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "suffer kidney failure", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "exhibits anaphylactic shock", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effects of using Ferocactus glaucus improperly are experiencing nausea and developing diarrhea due to the presence of toxic compounds such as alkaloids and glycosides in the plant. These compounds can cause gastrointestinal irritation and inflammation leading to nausea and diarrhea when ingested in large quantities. This is because Ferocactus glaucus contains toxic compounds that can interfere with normal digestive processes and cause a range of symptoms including gastrointestinal distress. The improper use of Ferocactus glaucus can also lead to more severe side effects such as vomiting and abdominal pain. Consuming the plant parts can cause gastrointestinal upset and lead to diarrhea.", "family_slug": "cactaceae", "family_name": "Cactaceae", "what_description": "Ferocactus glaucus is a species of cactus in the family Cactaceae. It is a globular to cylindrical cactus, typically growing 30-60 cm tall and 20-40 cm wide, with 20-30 ribs, each bearing 8-15 areoles. The plant has short, white, or yellow flowers, 3-4 cm long, appearing in late spring. Ferocactus glaucus is native to Mexico, and its stems are covered with short, fine, grayish or brownish spines. The fruits are red to purple, 3-4 cm long, and contain numerous seeds.", "uses": "Ferocactus glaucus is a species of cactus that has been traditionally used in folk medicine, particularly by indigenous communities in the southwestern United States and Mexico. Its medicinal uses are primarily based on its stem and flower extracts, which are believed to have anti-inflammatory, antiseptic, and antipruritic properties. The plant is said to be effective in treating various health issues, including skin conditions, wounds, and gastrointestinal problems. Additionally, it is sometimes used as a natural remedy for fever and respiratory issues. However, the effectiveness and safety of these uses have not been extensively scientifically studied or verified.", "taxonomy": "Ferocactus glaucus is a species of cactus in the family Cactaceae, commonly known as the pitaya or pitahaya. It belongs to the genus Ferocactus and is native to Mexico. The classification of Ferocactus glaucus is as follows: Kingdom: Plantae, Phylum: Magnoliophyta, Class: Magnoliopsida, Order: Caryophyllales, Family: Cactaceae, Genus: Ferocactus, Species: F. glaucus. This species is further divided into several subspecies and varieties. The classification of Ferocactus glaucus has been extensively studied and documented by botanists and cactus experts.", "benefits": "Ferocactus glaucus is a species of cactus that has been used in traditional medicine for its potential health benefits. It contains compounds with anti-inflammatory and antioxidant properties, which may help protect against cell damage and reduce inflammation in the body. The plant is also believed to have antimicrobial properties, making it potentially useful in treating infections and wounds. Additionally, Ferocactus glaucus may have antiseptic and antibacterial effects, which could aid in the treatment of skin conditions and infections. More research is needed to fully understand the health benefits of Ferocactus glaucus.", "parts": "Ferocactus glaucus, also known as the blue barrel cactus, has been used in traditional medicine for various purposes. The plant's stems and flowers are reported to have medicinal properties, with the stems being used to treat fever and inflammation. The plant contains various bioactive compounds, including flavonoids and saponins, which are believed to contribute to its medicinal properties. The flowers of the Ferocactus glaucus are also used in traditional medicine to treat a range of ailments, including digestive issues and skin conditions. Further research is needed to confirm the efficacy and safety of using Ferocactus glaucus for medicinal purposes.", "intro": "Ferocactus glaucus, also known as the blue barrel cactus, is a species of columnar cactus native to the southwestern United States and northern Mexico. Traditionally, Ferocactus glaucus has been used in folk medicine for its potential health benefits, including reducing inflammation and improving digestion, likely due to its antioxidant and anti-inflammatory properties. The bioactive constituents of Ferocactus glaucus include flavonoids, glycosides, and terpenoids, which are responsible for its medicinal properties. Ferocactus glaucus is commonly used to make herbal preparations such as teas, tinctures, and capsules, often standardized to contain high levels of its bioactive constituents, particularly ferrocactin and isoferrocactin."}
+{
+    "title": "Ferocactus glaucus",
+    "herb_slug": "ferocactus-glaucus",
+    "herb_name_scientific": "Ferocactus glaucus",
+    "url": "herbs/ferocactus-glaucus",
+    "lastmod": "2024-12-30",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 168,
+            "total_score": 3360
+        }
+    ],
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "diabetes",
+            "mentions": 19,
+            "confidence_score": 168,
+            "total_score": 3192
+        },
+        {
+            "name": "inflammation",
+            "mentions": 17,
+            "confidence_score": 122,
+            "total_score": 2074
+        },
+        {
+            "name": "hypertension",
+            "mentions": 12,
+            "confidence_score": 90,
+            "total_score": 1080
+        },
+        {
+            "name": "arthritis",
+            "mentions": 10,
+            "confidence_score": 80,
+            "total_score": 800
+        },
+        {
+            "name": "cancer",
+            "mentions": 13,
+            "confidence_score": 77,
+            "total_score": 1001
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 9,
+            "confidence_score": 68,
+            "total_score": 612
+        },
+        {
+            "name": "wound healing",
+            "mentions": 7,
+            "confidence_score": 52,
+            "total_score": 364
+        },
+        {
+            "name": "gastritis",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "infections",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "gastrointestinal issues",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "asthma",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "anemia",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "ulcers",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "anxiety",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "burns",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "gastrointestinal disorders",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "inflammatory bowel disease",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "eczema",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "skin issues",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Ferocactus glaucus are diabetes, particularly due to its inhibitory effect on alpha-glucosidase enzymes, which blocks carbohydrate digestion and absorption. It also exhibits anti-inflammatory properties, which makes it a potential treatment for arthritis by reducing joint inflammation and pain. Furthermore, Ferocactus glaucus has been studied for its antiviral activity, showing efficacy against certain viral infections like herpes simplex virus. Additionally, its antioxidant properties contribute to its potential in treating various cardiovascular diseases, such as atherosclerosis, by reducing oxidative stress and lipid peroxidation. Moreover, Ferocactus glaucus has been shown to have antimicrobial properties, which can be used to treat infections like E. coli and Staphylococcus aureus.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 158,
+            "total_score": 3160
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 154,
+            "total_score": 3080
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 138,
+            "total_score": 2760
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 101,
+            "total_score": 2020
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 15,
+            "confidence_score": 66,
+            "total_score": 990
+        },
+        {
+            "name": "wound-healing",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "antiviral",
+            "mentions": 14,
+            "confidence_score": 53,
+            "total_score": 742
+        },
+        {
+            "name": "anticancer",
+            "mentions": 12,
+            "confidence_score": 41,
+            "total_score": 492
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "antifungal",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 7,
+            "confidence_score": 32,
+            "total_score": 224
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "antihemorrhagic",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "diuretic",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Ferocactus glaucus are its anti-inflammatory and antimicrobial effects, which contribute to its wound healing and tissue repair capabilities. Its ability to exhibit antioxidant activity helps to protect against oxidative stress and cell damage, while its immunomodulatory properties aid in the regulation of the immune system. Additionally, Ferocactus glaucus has been found to possess analgesic and antipyretic effects, reducing pain and fever in affected individuals. The bioactive compounds responsible for these properties include flavonoids, saponins, and volatile oils, such as ferrocactin and ferulic acid, which have been identified in the plant's extracts. These compounds work synergistically to exert the medicinal properties of Ferocactus glaucus.",
+    "constituents": [
+        {
+            "name": "ferulic acid",
+            "mentions": 14,
+            "confidence_score": 118,
+            "total_score": 1652
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 17,
+            "confidence_score": 105,
+            "total_score": 1785
+        },
+        {
+            "name": "saponins",
+            "mentions": 17,
+            "confidence_score": 102,
+            "total_score": 1734
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 15,
+            "confidence_score": 80,
+            "total_score": 1200
+        },
+        {
+            "name": "furostanol glycosides",
+            "mentions": 14,
+            "confidence_score": 77,
+            "total_score": 1078
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 12,
+            "confidence_score": 75,
+            "total_score": 900
+        },
+        {
+            "name": "quercetin",
+            "mentions": 9,
+            "confidence_score": 65,
+            "total_score": 585
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "sterols",
+            "mentions": 7,
+            "confidence_score": 29,
+            "total_score": 203
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "tannins",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "catechins",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "vitamins",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "\u03b2-sitosterol",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "triterpenes",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Ferocactus glaucus are alkaloids, flavonoids, phenolic acids, saponins, and mucilages. These constituents have been found to exhibit anti-inflammatory, antimicrobial, and antioxidant properties, which contribute to the plant's potential healing effects. Alkaloids such as ferrocactin and glycosides have been shown to possess anti-inflammatory and antioxidant activities, while flavonoids like kaempferol and quercetin exhibit strong antioxidant and free radical scavenging properties. The phenolic acids present in Ferocactus glaucus, including gallic acid and ellagic acid, have been found to have antimicrobial and anti-inflammatory effects. The presence of saponins and mucilages in the plant may contribute to its potential anti-inflammatory and soothing properties, particularly in the treatment of wounds and skin irritations.",
+    "herb_names_common": [
+        {
+            "name": "blue barrel cactus",
+            "mentions": 42,
+            "confidence_score": 347,
+            "total_score": 14574
+        },
+        {
+            "name": "ferocactus glaucus",
+            "mentions": 37,
+            "confidence_score": 113,
+            "total_score": 4181
+        },
+        {
+            "name": "glaucous barrel cactus",
+            "mentions": 18,
+            "confidence_score": 110,
+            "total_score": 1980
+        },
+        {
+            "name": "blue ferocactus",
+            "mentions": 11,
+            "confidence_score": 62,
+            "total_score": 682
+        },
+        {
+            "name": "blue barrel cactus (ferocactus glaucus)",
+            "mentions": 9,
+            "confidence_score": 34,
+            "total_score": 306
+        },
+        {
+            "name": "glaucous ferocactus",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "blue barrel ferocactus",
+            "mentions": 7,
+            "confidence_score": 32,
+            "total_score": 224
+        },
+        {
+            "name": "glaucous pincushion cactus",
+            "mentions": 6,
+            "confidence_score": 30,
+            "total_score": 180
+        },
+        {
+            "name": "blue pincushion cactus",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "glaucus cactus",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "blue cactus",
+            "mentions": 5,
+            "confidence_score": 17,
+            "total_score": 85
+        },
+        {
+            "name": "glaucus barrel cactus",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "blue globe cactus",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "devil's head cactus",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "blue spine barrel cactus",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "blue barrell cactus",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "blue ball cactus",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "ferocactus glaucus (blue barrel cactus)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "blue ferocactus (ferocactus glaucus)",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "blue barrel cactus plant",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "preparations": [
+        {
+            "name": "ferocactus tea",
+            "mentions": 14,
+            "confidence_score": 115,
+            "total_score": 1610
+        },
+        {
+            "name": "ferocactus tincture",
+            "mentions": 14,
+            "confidence_score": 110,
+            "total_score": 1540
+        },
+        {
+            "name": "ferocactus infusion",
+            "mentions": 14,
+            "confidence_score": 95,
+            "total_score": 1330
+        },
+        {
+            "name": "ferocactus salve",
+            "mentions": 13,
+            "confidence_score": 73,
+            "total_score": 949
+        },
+        {
+            "name": "ferocactus glaucus tincture",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        },
+        {
+            "name": "ferocactus glaucus tea",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "ferocactus decoction",
+            "mentions": 8,
+            "confidence_score": 35,
+            "total_score": 280
+        },
+        {
+            "name": "ferocactus glaucus infusion",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "ferocactus oil",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "ferocactus glaucus oil",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "ferocactus glaucus salve",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "ferocactus extract",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "poultice",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "tincture of ferocactus",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "ferocactus glaucus decoction",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "infused oil",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "ferocactus syrup",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "gluacus infusion",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "ferocactus glaucus ointment",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "ointment",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "ferocactus glaucus cream",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "powder",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "glycoside",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "ferocactus glaucus capsules",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "gel",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "ferocactus glaucus lotion",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "capsules",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Ferocactus glaucus are made from its stems and flowers, which are rich in flavonoids, alkaloids, and saponins. Ferocactus tea is prepared by infusing the dried stems and flowers in hot water, used traditionally to treat fever, cough, and respiratory issues. Ferocactus tincture is a concentrated liquid extract made by soaking the plant material in a solvent like ethanol or glycerin, used as a treatment for digestive issues, skin problems, and inflammation. Ferocactus infusion is a liquid extract made by steeping the plant material in cold water, used to treat sore throats, coughs, and as a digestive aid. Ferocactus salve, a topical ointment, is prepared by mixing the plant material with a carrier oil, used to treat skin conditions, wounds, and inflammation.",
+    "side_effects": [
+        {
+            "name": "experiences nausea",
+            "mentions": 4,
+            "confidence_score": 39,
+            "total_score": 156
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "induces nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develops allergic reaction",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "exhibits vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "developing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "shows abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "causes diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "provoke skin irritation",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experiences headaches",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "causes skin irritation",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experiences fatigue",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "trigger allergic reaction",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "suffers allergic reactions",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "cause respiratory issues",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "increases blood pressure",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "getting nausea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "leads to overdose",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiences gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "develop allergic reactions",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffer abdominal pain",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "produces headache",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "triggers abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "promotes dehydration",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "raises blood pressure",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develops skin lesions",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "has fatal outcome",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffer skin irritation",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "exhibits hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "exacerbate diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "exhibits abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develops allergic reactions",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "get skin irritation",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develops skin irritation",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "initiating skin irritation",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "get headaches",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "get dehydration",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "leads to dizziness",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "causing liver damage",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "increasing heart rate",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "show signs of allergic reaction",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "increases heart rate",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "causes kidney damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "induces dizziness",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer dehydration",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experience cardiac arrhythmia",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiences diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer stomach pain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "interfere with medication",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops headache",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffers diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiences nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "exhibits cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiences hematological abnormalities",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "producing dizziness",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "have fever",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "promotes fatigue",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experiencing headaches",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffer from dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "triggers digestive issues",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "causes stomach ulcers",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "develop liver damage",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "gets headaches",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "exhibits dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "develops nausea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experiences gastrointestinal distress",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "decrease appetite",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experiences neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "exhibits skin irritation",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "inducing nausea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "develop skin irritations",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "triggers allergic reaction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "incurring skin irritation",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develop hives",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develop headache",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "triggers allergic reactions",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "induces allergic reaction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "triggers skin irritation",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "get hallucinations",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "get abdominal pain",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffers cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experience headache",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffers from dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "finds itching",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develops hypoglycemia",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develops kidney stones",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "induce headache",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "shows kidney damage",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experiences respiratory issues",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "shows dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show abdominal pain",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "exhibits gastrointestinal upset",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffering headache",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show hallucinations",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "developing respiratory issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "interferes with wound healing",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experience respiratory depression",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop respiratory issue",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "encounters allergic reactions",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffers dizziness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "exhibits cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "aggravate insomnia",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "exhibits liver damage",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experience liver damage",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "exhibits nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experience cardiac issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "induces respiratory issues",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "interferes with kidney function",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "increases risk of seizures",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience neurological impairment",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffers kidney damage",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "gets skin irritations",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "disrupt kidney function",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "shows allergic reactions",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiences weakness",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "shows liver damage",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "get dizziness",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "exhibits cardiovascular disturbances",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "show signs of hallucinations",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "triggers respiratory issues",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "disrupts heart rhythm",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "has respiratory failure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop cardiovascular problem",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develops liver damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "induce coma",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experiences liver damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develops fever",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffers respiratory problems",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffer headache",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experiences respiratory failure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "triggering respiratory issues",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "causing kidney problems",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiences seizures",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience hepatic damage",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiences hemorrhaging",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "shows immune system suppression",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "develops cardiac problems",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "feel fatigue",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "exhibits neurological impairment",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "triggering seizure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "suffers liver damage",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "experiences hematologic abnormalities",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "suffer kidney failure",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "exhibits anaphylactic shock",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Ferocactus glaucus improperly are experiencing nausea and developing diarrhea due to the presence of toxic compounds such as alkaloids and glycosides in the plant. These compounds can cause gastrointestinal irritation and inflammation leading to nausea and diarrhea when ingested in large quantities. This is because Ferocactus glaucus contains toxic compounds that can interfere with normal digestive processes and cause a range of symptoms including gastrointestinal distress. The improper use of Ferocactus glaucus can also lead to more severe side effects such as vomiting and abdominal pain. Consuming the plant parts can cause gastrointestinal upset and lead to diarrhea.",
+    "family_slug": "cactaceae",
+    "family_name": "Cactaceae",
+    "what_description": "Ferocactus glaucus is a species of cactus in the family Cactaceae. It is a globular to cylindrical cactus, typically growing 30-60 cm tall and 20-40 cm wide, with 20-30 ribs, each bearing 8-15 areoles. The plant has short, white, or yellow flowers, 3-4 cm long, appearing in late spring. Ferocactus glaucus is native to Mexico, and its stems are covered with short, fine, grayish or brownish spines. The fruits are red to purple, 3-4 cm long, and contain numerous seeds.",
+    "uses": "Ferocactus glaucus is a species of cactus that has been traditionally used in folk medicine, particularly by indigenous communities in the southwestern United States and Mexico. Its medicinal uses are primarily based on its stem and flower extracts, which are believed to have anti-inflammatory, antiseptic, and antipruritic properties. The plant is said to be effective in treating various health issues, including skin conditions, wounds, and gastrointestinal problems. Additionally, it is sometimes used as a natural remedy for fever and respiratory issues. However, the effectiveness and safety of these uses have not been extensively scientifically studied or verified.",
+    "taxonomy": "Ferocactus glaucus is a species of cactus in the family Cactaceae, commonly known as the pitaya or pitahaya. It belongs to the genus Ferocactus and is native to Mexico. The classification of Ferocactus glaucus is as follows: Kingdom: Plantae, Phylum: Magnoliophyta, Class: Magnoliopsida, Order: Caryophyllales, Family: Cactaceae, Genus: Ferocactus, Species: F. glaucus. This species is further divided into several subspecies and varieties. The classification of Ferocactus glaucus has been extensively studied and documented by botanists and cactus experts.",
+    "benefits": "Ferocactus glaucus is a species of cactus that has been used in traditional medicine for its potential health benefits. It contains compounds with anti-inflammatory and antioxidant properties, which may help protect against cell damage and reduce inflammation in the body. The plant is also believed to have antimicrobial properties, making it potentially useful in treating infections and wounds. Additionally, Ferocactus glaucus may have antiseptic and antibacterial effects, which could aid in the treatment of skin conditions and infections. More research is needed to fully understand the health benefits of Ferocactus glaucus.",
+    "parts": "Ferocactus glaucus, also known as the blue barrel cactus, has been used in traditional medicine for various purposes. The plant's stems and flowers are reported to have medicinal properties, with the stems being used to treat fever and inflammation. The plant contains various bioactive compounds, including flavonoids and saponins, which are believed to contribute to its medicinal properties. The flowers of the Ferocactus glaucus are also used in traditional medicine to treat a range of ailments, including digestive issues and skin conditions. Further research is needed to confirm the efficacy and safety of using Ferocactus glaucus for medicinal purposes.",
+    "intro": "Ferocactus glaucus, also known as the blue barrel cactus, is a species of columnar cactus native to the southwestern United States and northern Mexico. Traditionally, Ferocactus glaucus has been used in folk medicine for its potential health benefits, including reducing inflammation and improving digestion, likely due to its antioxidant and anti-inflammatory properties. The bioactive constituents of Ferocactus glaucus include flavonoids, glycosides, and terpenoids, which are responsible for its medicinal properties. Ferocactus glaucus is commonly used to make herbal preparations such as teas, tinctures, and capsules, often standardized to contain high levels of its bioactive constituents, particularly ferrocactin and isoferrocactin."
+}

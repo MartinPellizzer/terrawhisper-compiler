@@ -1,1 +1,756 @@
-{"title": "Althaea officinalis", "herb_slug": "althaea-officinalis", "herb_name_scientific": "Althaea officinalis", "family_slug": "", "family_name": "", "url": "herbs/althaea-officinalis", "lastmod": "2025-1-20", "herb_names_common": [{"name": "marsh mallow", "mentions": 38, "confidence_score": 280, "total_score": 10640}, {"name": "marshmallow", "mentions": 16, "confidence_score": 145, "total_score": 2320}, {"name": "common marshmallow", "mentions": 13, "confidence_score": 100, "total_score": 1300}, {"name": "althea", "mentions": 16, "confidence_score": 97, "total_score": 1552}, {"name": "althaea", "mentions": 15, "confidence_score": 92, "total_score": 1380}, {"name": "marshmallow plant", "mentions": 12, "confidence_score": 70, "total_score": 840}, {"name": "common mallow", "mentions": 10, "confidence_score": 66, "total_score": 660}, {"name": "white mallow", "mentions": 12, "confidence_score": 56, "total_score": 672}, {"name": "sea mallow", "mentions": 7, "confidence_score": 31, "total_score": 217}, {"name": "hollyhock mallow", "mentions": 9, "confidence_score": 28, "total_score": 252}, {"name": "water mallow", "mentions": 6, "confidence_score": 22, "total_score": 132}, {"name": "soft mallow", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "water hollyhock", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "holy grass", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "sweet weed", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "holy mallow", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "bladder mallow", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "mallows", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "purging mallow", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "althea root", "mentions": 2, "confidence_score": 6, "total_score": 12}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 188, "total_score": 3760}], "what_description": "Althaea officinalis is a perennial herbaceous plant, belonging to the family Malvaceae. It grows up to 1 meter in height, with simple, alternate, and stipulate leaves that are 3-10 cm long, and 1-3 cm wide. The leaves are cordate or ovate, with a serrated margin. The flowers are pinkish-purple, 5-10 mm in diameter, with 5 petals and 5 stamens. The plant produces a fleshy, white or pink root, which is used for medicinal purposes.", "category_action": "demulcents", "ailments": [{"name": "diarrhea", "mentions": 19, "confidence_score": 160, "total_score": 3040}, {"name": "gastroenteritis", "mentions": 17, "confidence_score": 133, "total_score": 2261}, {"name": "gastritis", "mentions": 15, "confidence_score": 118, "total_score": 1770}, {"name": "inflammatory bowel disease", "mentions": 14, "confidence_score": 108, "total_score": 1512}, {"name": "chronic colitis", "mentions": 15, "confidence_score": 101, "total_score": 1515}, {"name": "skin irritation", "mentions": 13, "confidence_score": 92, "total_score": 1196}, {"name": "irritable bowel syndrome", "mentions": 9, "confidence_score": 66, "total_score": 594}, {"name": "ulcers", "mentions": 8, "confidence_score": 61, "total_score": 488}, {"name": "constipation", "mentions": 8, "confidence_score": 57, "total_score": 456}, {"name": "peptic ulcer", "mentions": 7, "confidence_score": 52, "total_score": 364}, {"name": "wound healing", "mentions": 6, "confidence_score": 49, "total_score": 294}, {"name": "inflammation", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "gastroesophageal reflux", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "sore throat", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "ulcerative proctitis", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "diverticulitis", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "cystitis", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "haemorrhoids", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "digestive issues", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "hemorrhoids", "mentions": 3, "confidence_score": 19, "total_score": 57}], "ailments_description": "The most common ailments you can heal with Althaea officinalis are diarrhea, gastritis and irritable bowel syndrome through its anti-inflammatory properties. Althaea officinalis also heals gastroenteritis by soothing the mucous membranes and reducing inflammation in the digestive tract, which also helps with peptic ulcer and ulcerative proctitis. Its demulcent properties make it effective in treating constipation and haemorrhoids by forming a protective barrier on the mucous membranes, reducing inflammation and promoting wound healing. Additionally, Althaea officinalis has been used to treat gastroesophageal reflux, diverticulitis and cystitis due to its anti-inflammatory properties and ability to soothe the mucous membranes. Its anti-inflammatory and soothing properties also make it effective in treating skin irritation, inflammatory bowel disease, chronic colitis and sore throat.", "properties": [{"name": "anti-inflammatory", "mentions": 20, "confidence_score": 181, "total_score": 3620}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 163, "total_score": 3260}, {"name": "antioxidant", "mentions": 20, "confidence_score": 146, "total_score": 2920}, {"name": "soothing", "mentions": 14, "confidence_score": 111, "total_score": 1554}, {"name": "demulcent", "mentions": 11, "confidence_score": 105, "total_score": 1155}, {"name": "emollient", "mentions": 10, "confidence_score": 91, "total_score": 910}, {"name": "anti-ulcer", "mentions": 12, "confidence_score": 74, "total_score": 888}, {"name": "wound healing", "mentions": 9, "confidence_score": 73, "total_score": 657}, {"name": "analgesic", "mentions": 11, "confidence_score": 63, "total_score": 693}, {"name": "wound-healing", "mentions": 8, "confidence_score": 62, "total_score": 496}, {"name": "expectorant", "mentions": 9, "confidence_score": 60, "total_score": 540}, {"name": "hemostatic", "mentions": 8, "confidence_score": 48, "total_score": 384}, {"name": "antispasmodic", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "protective mucilage", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "mucilaginous", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "antiseptic", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "anti-irritant", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "anti-ulcerative", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cardioprotective", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "antipyretic", "mentions": 2, "confidence_score": 11, "total_score": 22}], "properties_description": "The main therapeutic properties of Althaea officinalis are its anti-inflammatory effects, which are attributed to the presence of flavonoids and saponins in the plant. As an antimicrobial agent, Althaea officinalis has been shown to exhibit broad-spectrum activity against various pathogens, particularly due to the presence of volatile oils, which contribute to its ability to inhibit the growth of microorganisms. The antioxidant properties of the plant, which are primarily associated with the flavonoids and phenolic acids, help in protecting the body from oxidative stress and cellular damage. Althaea officinalis has been traditionally used as a soothing agent, providing relief from discomfort and inflammation in the mucous membranes, a property that is mainly attributed to its demulcent properties. The demulcent properties of the plant also enable it to form a protective barrier on the surface of wounds, reducing inflammation and promoting healing.", "constituents": [{"name": "mucilage", "mentions": 13, "confidence_score": 127, "total_score": 1651}, {"name": "althaea polysaccharides", "mentions": 8, "confidence_score": 68, "total_score": 544}, {"name": "althaea saponins", "mentions": 9, "confidence_score": 55, "total_score": 495}, {"name": "althaea root mucilages", "mentions": 5, "confidence_score": 50, "total_score": 250}, {"name": "gallic acid", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "flavonoids", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "glucuronic acid", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "quercetin", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "isoaltheinic acid", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "althaea root polysaccharides", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "althaea flavonoids", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "tannins", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "kaempferol", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "galloyl glucoses", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "althaea root saponins", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "sitosterol", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "arabinose", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "saponin glycosides", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "mineral salts (potassium, calcium, magnesium, and iron)", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "fatty acids", "mentions": 2, "confidence_score": 16, "total_score": 32}], "constituents_description": "The most important healing constituents of Althaea officinalis are mucilage, althaea polysaccharides, and althaea root mucilages, which are responsible for its soothing and protective properties, providing relief from inflammation and irritation in the mucous membranes and skin. Althaea saponins exhibit antimicrobial and anti-inflammatory activities, contributing to the plant's ability to combat infections and reduce swelling. Gallic acid, a polyphenolic compound, has been shown to possess antioxidant and anti-inflammatory properties, further enhancing the plant's therapeutic potential. Althaea polysaccharides have been found to stimulate the production of mucin, a key component of mucus, which helps to protect and lubricate the mucous membranes. The combination of these constituents in Althaea officinalis makes it a valuable remedy for treating various inflammatory and irritative conditions.", "preparations": [{"name": "althaea infusion", "mentions": 19, "confidence_score": 173, "total_score": 3287}, {"name": "althaea tincture", "mentions": 17, "confidence_score": 135, "total_score": 2295}, {"name": "althaea tea", "mentions": 12, "confidence_score": 104, "total_score": 1248}, {"name": "althaea salve", "mentions": 14, "confidence_score": 89, "total_score": 1246}, {"name": "ointment", "mentions": 13, "confidence_score": 88, "total_score": 1144}, {"name": "althaea decoction", "mentions": 12, "confidence_score": 87, "total_score": 1044}, {"name": "althaea syrup", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "poultice", "mentions": 9, "confidence_score": 56, "total_score": 504}, {"name": "gel", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "suppository", "mentions": 6, "confidence_score": 23, "total_score": 138}, {"name": "marshmallow tea", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "althaea cream", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "glycoside extract", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "marshmallow syrup", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "althaea paste", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "althaea compress", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "marshmallow root tincture", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "althaea ointment", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "althaea infused oil", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "marshmallow salve", "mentions": 1, "confidence_score": 6, "total_score": 6}], "preparations_description": "The main herbal preparations of Althaea officinalis are althaea infusion, althaea tincture, althaea tea, althaea salve, and ointment. Althaea infusion is a liquid extract prepared by steeping the roots in hot water, typically used for soothing digestive issues and inflammation. Althaea tincture is a concentrated liquid extract prepared by steeping the roots in a solvent, commonly used for its demulcent and anti-inflammatory properties. Althaea salve and ointment are topical preparations made from the roots, used for treating skin conditions such as wounds, burns, and eczema due to their mucilaginous properties. These preparations are effective because the roots of Althaea officinalis contain a high concentration of mucilages, including galactose, glucose, and arabinose, which provide soothing and protective effects.", "side_effects": [{"name": "exacerbate diarrhea", "mentions": 8, "confidence_score": 74, "total_score": 592}, {"name": "interact with medications", "mentions": 8, "confidence_score": 58, "total_score": 464}, {"name": "induce allergic reaction", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "cause nausea", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "cause gastrointestinal upset", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "allergic reactions", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "trigger allergic reaction", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "vomiting occurs", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "exacerbate inflammation", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "overdose", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "interact with blood thinners", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "diarrhea", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "abdominal pain", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "gastrointestinal upset", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "increase bleeding risk", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "interactions happen", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "lead to electrolyte imbalance", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "lead to kidney damage", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "interact with digoxin", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effects of using Althaea officinalis improperly include exacerbating diarrhea in individuals with pre-existing gastrointestinal issues, such as inflammatory bowel disease, due to its high mucilage content. Using Althaea officinalis may also interact with medications, particularly those that slow down digestion or cause constipation, which can lead to adverse effects. Furthermore, Althaea officinalis can induce an allergic reaction in some individuals, manifesting as skin rashes, hives, or itching. Additionally, consuming large amounts of Althaea officinalis may cause nausea and gastrointestinal upset, including stomach cramps and bloating, in susceptible individuals. These side effects are often attributed to the herb's high fiber and mucilage content, which can be overwhelming for certain individuals."}
+{
+    "title": "Althaea officinalis",
+    "herb_slug": "althaea-officinalis",
+    "herb_name_scientific": "Althaea officinalis",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/althaea-officinalis",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "marsh mallow",
+            "mentions": 38,
+            "confidence_score": 280,
+            "total_score": 10640
+        },
+        {
+            "name": "marshmallow",
+            "mentions": 16,
+            "confidence_score": 145,
+            "total_score": 2320
+        },
+        {
+            "name": "common marshmallow",
+            "mentions": 13,
+            "confidence_score": 100,
+            "total_score": 1300
+        },
+        {
+            "name": "althea",
+            "mentions": 16,
+            "confidence_score": 97,
+            "total_score": 1552
+        },
+        {
+            "name": "althaea",
+            "mentions": 15,
+            "confidence_score": 92,
+            "total_score": 1380
+        },
+        {
+            "name": "marshmallow plant",
+            "mentions": 12,
+            "confidence_score": 70,
+            "total_score": 840
+        },
+        {
+            "name": "common mallow",
+            "mentions": 10,
+            "confidence_score": 66,
+            "total_score": 660
+        },
+        {
+            "name": "white mallow",
+            "mentions": 12,
+            "confidence_score": 56,
+            "total_score": 672
+        },
+        {
+            "name": "sea mallow",
+            "mentions": 7,
+            "confidence_score": 31,
+            "total_score": 217
+        },
+        {
+            "name": "hollyhock mallow",
+            "mentions": 9,
+            "confidence_score": 28,
+            "total_score": 252
+        },
+        {
+            "name": "water mallow",
+            "mentions": 6,
+            "confidence_score": 22,
+            "total_score": 132
+        },
+        {
+            "name": "soft mallow",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "water hollyhock",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "holy grass",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "sweet weed",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "holy mallow",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "bladder mallow",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "mallows",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "purging mallow",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "althea root",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 188,
+            "total_score": 3760
+        }
+    ],
+    "what_description": "Althaea officinalis is a perennial herbaceous plant, belonging to the family Malvaceae. It grows up to 1 meter in height, with simple, alternate, and stipulate leaves that are 3-10 cm long, and 1-3 cm wide. The leaves are cordate or ovate, with a serrated margin. The flowers are pinkish-purple, 5-10 mm in diameter, with 5 petals and 5 stamens. The plant produces a fleshy, white or pink root, which is used for medicinal purposes.",
+    "category_action": "demulcents",
+    "ailments": [
+        {
+            "name": "diarrhea",
+            "mentions": 19,
+            "confidence_score": 160,
+            "total_score": 3040
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 17,
+            "confidence_score": 133,
+            "total_score": 2261
+        },
+        {
+            "name": "gastritis",
+            "mentions": 15,
+            "confidence_score": 118,
+            "total_score": 1770
+        },
+        {
+            "name": "inflammatory bowel disease",
+            "mentions": 14,
+            "confidence_score": 108,
+            "total_score": 1512
+        },
+        {
+            "name": "chronic colitis",
+            "mentions": 15,
+            "confidence_score": 101,
+            "total_score": 1515
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 13,
+            "confidence_score": 92,
+            "total_score": 1196
+        },
+        {
+            "name": "irritable bowel syndrome",
+            "mentions": 9,
+            "confidence_score": 66,
+            "total_score": 594
+        },
+        {
+            "name": "ulcers",
+            "mentions": 8,
+            "confidence_score": 61,
+            "total_score": 488
+        },
+        {
+            "name": "constipation",
+            "mentions": 8,
+            "confidence_score": 57,
+            "total_score": 456
+        },
+        {
+            "name": "peptic ulcer",
+            "mentions": 7,
+            "confidence_score": 52,
+            "total_score": 364
+        },
+        {
+            "name": "wound healing",
+            "mentions": 6,
+            "confidence_score": 49,
+            "total_score": 294
+        },
+        {
+            "name": "inflammation",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "gastroesophageal reflux",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "sore throat",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "ulcerative proctitis",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "diverticulitis",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "cystitis",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "haemorrhoids",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "hemorrhoids",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Althaea officinalis are diarrhea, gastritis and irritable bowel syndrome through its anti-inflammatory properties. Althaea officinalis also heals gastroenteritis by soothing the mucous membranes and reducing inflammation in the digestive tract, which also helps with peptic ulcer and ulcerative proctitis. Its demulcent properties make it effective in treating constipation and haemorrhoids by forming a protective barrier on the mucous membranes, reducing inflammation and promoting wound healing. Additionally, Althaea officinalis has been used to treat gastroesophageal reflux, diverticulitis and cystitis due to its anti-inflammatory properties and ability to soothe the mucous membranes. Its anti-inflammatory and soothing properties also make it effective in treating skin irritation, inflammatory bowel disease, chronic colitis and sore throat.",
+    "properties": [
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 181,
+            "total_score": 3620
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 163,
+            "total_score": 3260
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 146,
+            "total_score": 2920
+        },
+        {
+            "name": "soothing",
+            "mentions": 14,
+            "confidence_score": 111,
+            "total_score": 1554
+        },
+        {
+            "name": "demulcent",
+            "mentions": 11,
+            "confidence_score": 105,
+            "total_score": 1155
+        },
+        {
+            "name": "emollient",
+            "mentions": 10,
+            "confidence_score": 91,
+            "total_score": 910
+        },
+        {
+            "name": "anti-ulcer",
+            "mentions": 12,
+            "confidence_score": 74,
+            "total_score": 888
+        },
+        {
+            "name": "wound healing",
+            "mentions": 9,
+            "confidence_score": 73,
+            "total_score": 657
+        },
+        {
+            "name": "analgesic",
+            "mentions": 11,
+            "confidence_score": 63,
+            "total_score": 693
+        },
+        {
+            "name": "wound-healing",
+            "mentions": 8,
+            "confidence_score": 62,
+            "total_score": 496
+        },
+        {
+            "name": "expectorant",
+            "mentions": 9,
+            "confidence_score": 60,
+            "total_score": 540
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 8,
+            "confidence_score": 48,
+            "total_score": 384
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "protective mucilage",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "mucilaginous",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "anti-irritant",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "anti-ulcerative",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Althaea officinalis are its anti-inflammatory effects, which are attributed to the presence of flavonoids and saponins in the plant. As an antimicrobial agent, Althaea officinalis has been shown to exhibit broad-spectrum activity against various pathogens, particularly due to the presence of volatile oils, which contribute to its ability to inhibit the growth of microorganisms. The antioxidant properties of the plant, which are primarily associated with the flavonoids and phenolic acids, help in protecting the body from oxidative stress and cellular damage. Althaea officinalis has been traditionally used as a soothing agent, providing relief from discomfort and inflammation in the mucous membranes, a property that is mainly attributed to its demulcent properties. The demulcent properties of the plant also enable it to form a protective barrier on the surface of wounds, reducing inflammation and promoting healing.",
+    "constituents": [
+        {
+            "name": "mucilage",
+            "mentions": 13,
+            "confidence_score": 127,
+            "total_score": 1651
+        },
+        {
+            "name": "althaea polysaccharides",
+            "mentions": 8,
+            "confidence_score": 68,
+            "total_score": 544
+        },
+        {
+            "name": "althaea saponins",
+            "mentions": 9,
+            "confidence_score": 55,
+            "total_score": 495
+        },
+        {
+            "name": "althaea root mucilages",
+            "mentions": 5,
+            "confidence_score": 50,
+            "total_score": 250
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "glucuronic acid",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "quercetin",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "isoaltheinic acid",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "althaea root polysaccharides",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "althaea flavonoids",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "tannins",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "galloyl glucoses",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "althaea root saponins",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "sitosterol",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "arabinose",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "saponin glycosides",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "mineral salts (potassium, calcium, magnesium, and iron)",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Althaea officinalis are mucilage, althaea polysaccharides, and althaea root mucilages, which are responsible for its soothing and protective properties, providing relief from inflammation and irritation in the mucous membranes and skin. Althaea saponins exhibit antimicrobial and anti-inflammatory activities, contributing to the plant's ability to combat infections and reduce swelling. Gallic acid, a polyphenolic compound, has been shown to possess antioxidant and anti-inflammatory properties, further enhancing the plant's therapeutic potential. Althaea polysaccharides have been found to stimulate the production of mucin, a key component of mucus, which helps to protect and lubricate the mucous membranes. The combination of these constituents in Althaea officinalis makes it a valuable remedy for treating various inflammatory and irritative conditions.",
+    "preparations": [
+        {
+            "name": "althaea infusion",
+            "mentions": 19,
+            "confidence_score": 173,
+            "total_score": 3287
+        },
+        {
+            "name": "althaea tincture",
+            "mentions": 17,
+            "confidence_score": 135,
+            "total_score": 2295
+        },
+        {
+            "name": "althaea tea",
+            "mentions": 12,
+            "confidence_score": 104,
+            "total_score": 1248
+        },
+        {
+            "name": "althaea salve",
+            "mentions": 14,
+            "confidence_score": 89,
+            "total_score": 1246
+        },
+        {
+            "name": "ointment",
+            "mentions": 13,
+            "confidence_score": 88,
+            "total_score": 1144
+        },
+        {
+            "name": "althaea decoction",
+            "mentions": 12,
+            "confidence_score": 87,
+            "total_score": 1044
+        },
+        {
+            "name": "althaea syrup",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "poultice",
+            "mentions": 9,
+            "confidence_score": 56,
+            "total_score": 504
+        },
+        {
+            "name": "gel",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "suppository",
+            "mentions": 6,
+            "confidence_score": 23,
+            "total_score": 138
+        },
+        {
+            "name": "marshmallow tea",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "althaea cream",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "glycoside extract",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "marshmallow syrup",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "althaea paste",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "althaea compress",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "marshmallow root tincture",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "althaea ointment",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "althaea infused oil",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "marshmallow salve",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Althaea officinalis are althaea infusion, althaea tincture, althaea tea, althaea salve, and ointment. Althaea infusion is a liquid extract prepared by steeping the roots in hot water, typically used for soothing digestive issues and inflammation. Althaea tincture is a concentrated liquid extract prepared by steeping the roots in a solvent, commonly used for its demulcent and anti-inflammatory properties. Althaea salve and ointment are topical preparations made from the roots, used for treating skin conditions such as wounds, burns, and eczema due to their mucilaginous properties. These preparations are effective because the roots of Althaea officinalis contain a high concentration of mucilages, including galactose, glucose, and arabinose, which provide soothing and protective effects.",
+    "side_effects": [
+        {
+            "name": "exacerbate diarrhea",
+            "mentions": 8,
+            "confidence_score": 74,
+            "total_score": 592
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 8,
+            "confidence_score": 58,
+            "total_score": 464
+        },
+        {
+            "name": "induce allergic reaction",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "cause gastrointestinal upset",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "allergic reactions",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "trigger allergic reaction",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "vomiting occurs",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "exacerbate inflammation",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "overdose",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "interact with blood thinners",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "abdominal pain",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "gastrointestinal upset",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "increase bleeding risk",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "interactions happen",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "lead to electrolyte imbalance",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "lead to kidney damage",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "interact with digoxin",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Althaea officinalis improperly include exacerbating diarrhea in individuals with pre-existing gastrointestinal issues, such as inflammatory bowel disease, due to its high mucilage content. Using Althaea officinalis may also interact with medications, particularly those that slow down digestion or cause constipation, which can lead to adverse effects. Furthermore, Althaea officinalis can induce an allergic reaction in some individuals, manifesting as skin rashes, hives, or itching. Additionally, consuming large amounts of Althaea officinalis may cause nausea and gastrointestinal upset, including stomach cramps and bloating, in susceptible individuals. These side effects are often attributed to the herb's high fiber and mucilage content, which can be overwhelming for certain individuals."
+}

@@ -1,1 +1,761 @@
-{"title": "Andrographis paniculata", "herb_slug": "andrographis-paniculata", "herb_name_scientific": "Andrographis paniculata", "family_slug": "", "family_name": "", "url": "herbs/andrographis-paniculata", "lastmod": "2025-1-20", "herb_names_common": [{"name": "andrographis", "mentions": 41, "confidence_score": 299, "total_score": 12259}, {"name": "kalmegh", "mentions": 20, "confidence_score": 173, "total_score": 3460}, {"name": "king of bitters", "mentions": 17, "confidence_score": 130, "total_score": 2210}, {"name": "bhunimba", "mentions": 13, "confidence_score": 82, "total_score": 1066}, {"name": "green chirayata", "mentions": 8, "confidence_score": 61, "total_score": 488}, {"name": "andrographis leaf", "mentions": 8, "confidence_score": 37, "total_score": 296}, {"name": "chirata", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "indian echinacea", "mentions": 7, "confidence_score": 27, "total_score": 189}, {"name": "andrographis herb", "mentions": 6, "confidence_score": 27, "total_score": 162}, {"name": "kalmegha", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "bitter and bitter", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "vasaka", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "andrographis paniculata", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "bitter andrographis", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "kavach", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "hairy veldt", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "kanchna", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "nirupushpaka", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "veldt grape", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "kamala", "mentions": 1, "confidence_score": 9, "total_score": 9}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 179, "total_score": 3580}], "what_description": "Andrographis paniculata is a perennial herbaceous plant native to India and Southeast Asia, belonging to the family Acanthaceae. It has a hairy stem, 60-100 cm tall, with heart-shaped leaves, 5-10 cm long, and 3-5 cm wide, and bears small, greenish-yellow flowers in a spike-like inflorescence. The plant's rhizomes and roots contain andrographolide, a diterpenoid lactone responsible for its medicinal properties. The leaves and flowering spikes of Andrographis paniculata are used in traditional medicine to treat various conditions, including fever, inflammation, and digestive issues. The plant's seeds are small, ovoid, and 5-7 mm long, with a smooth, brown testa.", "category_action": "immunomodulators", "ailments": [{"name": "common cold", "mentions": 18, "confidence_score": 168, "total_score": 3024}, {"name": "gastroenteritis", "mentions": 18, "confidence_score": 137, "total_score": 2466}, {"name": "influenza", "mentions": 16, "confidence_score": 135, "total_score": 2160}, {"name": "fever", "mentions": 17, "confidence_score": 130, "total_score": 2210}, {"name": "diarrhea", "mentions": 16, "confidence_score": 113, "total_score": 1808}, {"name": "sinusitis", "mentions": 11, "confidence_score": 75, "total_score": 825}, {"name": "bronchitis", "mentions": 8, "confidence_score": 57, "total_score": 456}, {"name": "malaria", "mentions": 8, "confidence_score": 52, "total_score": 416}, {"name": "migraine", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "cough", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "dyspepsia", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "inflammation", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "asthma", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "respiratory infections", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "respiratory tract infection", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "hepatitis", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "digestive issues", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "tonsillitis", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "sore throat", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "nausea", "mentions": 3, "confidence_score": 18, "total_score": 54}], "ailments_description": "The most common ailments you can heal with Andrographis paniculata are common cold, gastroenteritis, influenza, fever, diarrhea, sinusitis, bronchitis, malaria, and respiratory infections, which are effectively treated with its anti-inflammatory and antimicrobial properties, reducing severity and duration of symptoms. Furthermore, Andrographis paniculata has been shown to alleviate digestive issues such as dyspepsia and nausea by regulating gut motility and enhancing digestion, making it a viable solution for those experiencing abdominal discomfort. Additionally, its anti-inflammatory and immunomodulatory effects enable the treatment of inflammation, migraine, and tonsillitis, making it an effective herbal remedy. Moreover, Andrographis paniculata has been found to exhibit potent antiviral properties, effectively combating respiratory tract infections and hepatitis. Finally, its antimicrobial and anti-inflammatory properties also make it an effective treatment for cough, sore throat, and asthma.", "properties": [{"name": "anti-inflammatory", "mentions": 20, "confidence_score": 172, "total_score": 3440}, {"name": "antioxidant", "mentions": 20, "confidence_score": 172, "total_score": 3440}, {"name": "antimicrobial", "mentions": 19, "confidence_score": 151, "total_score": 2869}, {"name": "immunomodulatory", "mentions": 18, "confidence_score": 147, "total_score": 2646}, {"name": "antiviral", "mentions": 20, "confidence_score": 141, "total_score": 2820}, {"name": "cardioprotective", "mentions": 19, "confidence_score": 124, "total_score": 2356}, {"name": "antipyretic", "mentions": 16, "confidence_score": 116, "total_score": 1856}, {"name": "analgesic", "mentions": 11, "confidence_score": 71, "total_score": 781}, {"name": "anticancer", "mentions": 12, "confidence_score": 60, "total_score": 720}, {"name": "neuroprotective", "mentions": 10, "confidence_score": 56, "total_score": 560}, {"name": "hepatoprotective", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "antihistaminic", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "antibacterial", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "antifungal", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "antioxidant enzyme inducer", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cytoprotective", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "gastroprotective", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "anti-cancer", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "immune system modulator", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "immune stimulant", "mentions": 1, "confidence_score": 8, "total_score": 8}], "properties_description": "The main therapeutic properties of Andrographis paniculata are its anti-inflammatory effects, which are attributed to the presence of andrographolide, a sesquiterpene lactone that has been shown to inhibit the production of pro-inflammatory mediators. This plant also exhibits significant antioxidant activity, which is primarily due to the presence of flavonoids, such as andrographolide and neoandrographolide, that scavenge free radicals and protect cells from oxidative damage. Furthermore, the antimicrobial properties of Andrographis paniculata are mediated by compounds like andrographolide, which have been demonstrated to inhibit the growth of various bacteria and fungi. Additionally, the immunomodulatory effects of this plant are attributed to the presence of andrographolide, which has been shown to modulate the immune response by increasing the production of cytokines and activating immune cells. Moreover, Andrographis paniculata has been found to exhibit antiviral activity, which is primarily due to the presence of andrographolide and neoandrographolide, that have been shown to inhibit the replication of various viruses.", "constituents": [{"name": "andrographolide", "mentions": 20, "confidence_score": 189, "total_score": 3780}, {"name": "14-deoxyandrographolide", "mentions": 11, "confidence_score": 81, "total_score": 891}, {"name": "isoandrographolide", "mentions": 9, "confidence_score": 73, "total_score": 657}, {"name": "andrographiside", "mentions": 11, "confidence_score": 69, "total_score": 759}, {"name": "neoadrographolide", "mentions": 8, "confidence_score": 55, "total_score": 440}, {"name": "dehydroandrographolide", "mentions": 9, "confidence_score": 55, "total_score": 495}, {"name": "neoandrographolide", "mentions": 8, "confidence_score": 55, "total_score": 440}, {"name": "dihydroandrographolide", "mentions": 7, "confidence_score": 49, "total_score": 343}, {"name": "andrographolide glucoside", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "andrographolide-14-acetate", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "andrographin", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "dihydrodehydroandrographolide", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "lithospermic acid", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "andrographoside", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "6-deoxyandrographolide", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "quercetin", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "kaempferol", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "andrographolide 14-acetate", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "luteolin", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "dihydrodeoxysciadopside", "mentions": 2, "confidence_score": 12, "total_score": 24}], "constituents_description": "The most important healing constituents of Andrographis paniculata are andrographolide, 14-deoxyandrographolide, isoandrographolide, andrographiside, and neoadrographolide, which possess potent anti-inflammatory, antioxidant, and immunomodulatory properties. Andrographolide has been shown to inhibit the production of pro-inflammatory cytokines, such as TNF-alpha and IL-1 beta, while also scavenging free radicals and protecting against oxidative stress. 14-Deoxyandrographolide has been found to exhibit anti-inflammatory activity by inhibiting the activity of COX-2 and lipoxygenase enzymes. Isoandrographolide has demonstrated immunomodulatory effects by enhancing the production of antibody-secreting cells and activating natural killer cells. Andrographiside and neoadrographolide have been reported to possess antioxidant and anti-inflammatory activities, further supporting the plant's therapeutic potential.", "preparations": [{"name": "andrographis tincture", "mentions": 19, "confidence_score": 159, "total_score": 3021}, {"name": "andrographis tea", "mentions": 17, "confidence_score": 133, "total_score": 2261}, {"name": "andrographis extract", "mentions": 16, "confidence_score": 119, "total_score": 1904}, {"name": "andrographis infusion", "mentions": 15, "confidence_score": 95, "total_score": 1425}, {"name": "capsules", "mentions": 9, "confidence_score": 70, "total_score": 630}, {"name": "decoction", "mentions": 8, "confidence_score": 49, "total_score": 392}, {"name": "andrographis capsule", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "andrographis capsules", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "andrographis oil", "mentions": 7, "confidence_score": 27, "total_score": 189}, {"name": "powder", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "salve", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "suppository", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "infused oil", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "andrographis powder", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "kashayam", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "andrographis juice", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "glycerite", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "ghan vati", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "andrographis decoction", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "dried leaf tea", "mentions": 1, "confidence_score": 8, "total_score": 8}], "preparations_description": "The main herbal preparations of Andrographis paniculata are andrographis tincture made by extracting the roots and leaves in a solvent such as ethanol or glycerin, andrographis tea prepared by steeping the dried herbs in hot water, andrographis extract standardized to contain 30-90% andrographolide which is the main bioactive compound, andrographis infusion made by steeping the herbs in cold water for a longer period, and capsules containing the dried and powdered herbs or the extract which are often used for convenience and standardized dosing. Andrographis tincture is used for its antimicrobial and anti-inflammatory properties while andrographis tea and infusion are used for their antioxidant and adaptogenic effects. The standardized extract is used for its immunomodulatory and anti-cancer properties. The andrographis extract is often used in combination with other herbs to enhance its effects. The capsules are a convenient way to consume the herb and ensure standardized dosing.", "side_effects": [{"name": "exacerbate liver damage", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "trigger allergic reactions", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "interact with medications", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "interact with warfarin", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "cause liver damage", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "increase bleeding risk", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "experience liver damage", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiences nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "causes diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "triggers allergic reactions", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "worsen hypoglycemia", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause hypotension", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "lower blood pressure", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "increase heart rate", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "interact with blood thinners", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "induce gastrointestinal bleeding", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "decrease blood sugar levels", "mentions": 2, "confidence_score": 10, "total_score": 20}], "side_effects_description": "The possible side effects of using Andrographis paniculata improperly include exacerbating liver damage due to its potential to increase liver enzyme levels, triggering allergic reactions such as hives and itching in susceptible individuals, interacting with medications like blood thinners and diabetes medications, and interacting with warfarin by increasing its anticoagulant effects, resulting in bleeding complications, and experiencing nausea and stomach discomfort. This is because Andrographis paniculata contains compounds that can strain liver function and may not be suitable for individuals with pre-existing liver conditions. Furthermore, its anti-inflammatory properties may also cause allergic reactions in some people. Additionally, consuming Andrographis paniculata with certain medications can lead to adverse interactions, including increased bleeding risk when taken with warfarin. The risk of nausea and stomach discomfort is also increased when consuming Andrographis paniculata in excessive amounts or for prolonged periods.", "taxonomy": "Andrographis paniculata is classified as a member of the family Acanthaceae, a large and diverse group of flowering plants. This plant is further categorized as belonging to the genus Andrographis, which consists of only a few species. The species itself is known as Andrographis paniculata, and it is a perennial herb native to India and Southeast Asia. It is also commonly known as kalmegh or king of bitters. The plant's classification reflects its unique characteristics and its position within the larger family of Acanthaceae.", "uses": "Andrographis paniculata is a plant with a long history of traditional use in Ayurvedic medicine. It is commonly known as 'kalmegh' or 'king of bitters' due to its bitter taste. The plant is used to treat various health conditions, including fever, digestive issues, and respiratory problems. Andrographis paniculata is also used to boost the immune system and reduce inflammation. Its extracts and essential oils are often used in herbal remedies to promote overall well-being.", "benefits": "Andrographis paniculata, also known as Kalmegh, is a plant that has been used in traditional Ayurvedic and Chinese medicine for centuries. It is believed to have various health benefits, including reducing inflammation and improving immune function. The plant is thought to have antimicrobial and antiviral properties, which may help to prevent illnesses such as the common cold and flu. Additionally, Andrographis paniculata is said to have antioxidant properties, which can help to protect the body from oxidative stress and cell damage. These potential health benefits make Andrographis paniculata a popular ingredient in herbal supplements and traditional remedies.", "parts": "Andrographis paniculata, commonly known as Kalmegh, contains various medicinal parts, including its leaves, roots, and stem. The leaves are particularly valued for their medicinal properties due to their high concentration of andrographolide. The roots and stem also contain andrographolide, although in smaller amounts compared to the leaves. The leaves can be harvested at different stages of maturity, but the ideal time is during the flowering stage when they are rich in andrographolide. The medicinal parts of Andrographis paniculata are traditionally used to treat various health conditions, including fever, digestive issues, and inflammation.", "intro": "Andrographis paniculata, also known as Kalmegh or King of Bitters, is a medicinal plant native to Asia, commonly used in traditional Ayurvedic and Chinese medicine. The health benefits of Andrographis paniculata include its anti-inflammatory, antimicrobial, and antiviral properties, which have been traditionally used to treat a range of ailments, from fever and digestive issues to respiratory problems and immune system dysfunction. The plant's bioactive constituents include andrographolide, neo-andrographolide, and andrographisne, which are responsible for its medicinal properties. In herbal medicine, Andrographis paniculata is most commonly prepared as a decoction, capsule, or tincture, and is often used in combination with other herbs to enhance its therapeutic effects."}
+{
+    "title": "Andrographis paniculata",
+    "herb_slug": "andrographis-paniculata",
+    "herb_name_scientific": "Andrographis paniculata",
+    "family_slug": "acanthaceae",
+    "family_name": "Acanthaceae",
+    "url": "herbs/andrographis-paniculata",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "andrographis",
+            "mentions": 41,
+            "confidence_score": 299,
+            "total_score": 12259
+        },
+        {
+            "name": "kalmegh",
+            "mentions": 20,
+            "confidence_score": 173,
+            "total_score": 3460
+        },
+        {
+            "name": "king of bitters",
+            "mentions": 17,
+            "confidence_score": 130,
+            "total_score": 2210
+        },
+        {
+            "name": "bhunimba",
+            "mentions": 13,
+            "confidence_score": 82,
+            "total_score": 1066
+        },
+        {
+            "name": "green chirayata",
+            "mentions": 8,
+            "confidence_score": 61,
+            "total_score": 488
+        },
+        {
+            "name": "andrographis leaf",
+            "mentions": 8,
+            "confidence_score": 37,
+            "total_score": 296
+        },
+        {
+            "name": "chirata",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "indian echinacea",
+            "mentions": 7,
+            "confidence_score": 27,
+            "total_score": 189
+        },
+        {
+            "name": "andrographis herb",
+            "mentions": 6,
+            "confidence_score": 27,
+            "total_score": 162
+        },
+        {
+            "name": "kalmegha",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "bitter and bitter",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "vasaka",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "andrographis paniculata",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "bitter andrographis",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "kavach",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "hairy veldt",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "kanchna",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "nirupushpaka",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "veldt grape",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "kamala",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 179,
+            "total_score": 3580
+        }
+    ],
+    "what_description": "Andrographis paniculata is a perennial herbaceous plant native to India and Southeast Asia, belonging to the family Acanthaceae. It has a hairy stem, 60-100 cm tall, with heart-shaped leaves, 5-10 cm long, and 3-5 cm wide, and bears small, greenish-yellow flowers in a spike-like inflorescence. The plant's rhizomes and roots contain andrographolide, a diterpenoid lactone responsible for its medicinal properties. The leaves and flowering spikes of Andrographis paniculata are used in traditional medicine to treat various conditions, including fever, inflammation, and digestive issues. The plant's seeds are small, ovoid, and 5-7 mm long, with a smooth, brown testa.",
+    "category_action": "immunomodulators",
+    "ailments": [
+        {
+            "name": "common cold",
+            "mentions": 18,
+            "confidence_score": 168,
+            "total_score": 3024
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 18,
+            "confidence_score": 137,
+            "total_score": 2466
+        },
+        {
+            "name": "influenza",
+            "mentions": 16,
+            "confidence_score": 135,
+            "total_score": 2160
+        },
+        {
+            "name": "fever",
+            "mentions": 17,
+            "confidence_score": 130,
+            "total_score": 2210
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 16,
+            "confidence_score": 113,
+            "total_score": 1808
+        },
+        {
+            "name": "sinusitis",
+            "mentions": 11,
+            "confidence_score": 75,
+            "total_score": 825
+        },
+        {
+            "name": "bronchitis",
+            "mentions": 8,
+            "confidence_score": 57,
+            "total_score": 456
+        },
+        {
+            "name": "malaria",
+            "mentions": 8,
+            "confidence_score": 52,
+            "total_score": 416
+        },
+        {
+            "name": "migraine",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "cough",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "dyspepsia",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "inflammation",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "asthma",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "respiratory infections",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "respiratory tract infection",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "hepatitis",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "tonsillitis",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "sore throat",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "nausea",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Andrographis paniculata are common cold, gastroenteritis, influenza, fever, diarrhea, sinusitis, bronchitis, malaria, and respiratory infections, which are effectively treated with its anti-inflammatory and antimicrobial properties, reducing severity and duration of symptoms. Furthermore, Andrographis paniculata has been shown to alleviate digestive issues such as dyspepsia and nausea by regulating gut motility and enhancing digestion, making it a viable solution for those experiencing abdominal discomfort. Additionally, its anti-inflammatory and immunomodulatory effects enable the treatment of inflammation, migraine, and tonsillitis, making it an effective herbal remedy. Moreover, Andrographis paniculata has been found to exhibit potent antiviral properties, effectively combating respiratory tract infections and hepatitis. Finally, its antimicrobial and anti-inflammatory properties also make it an effective treatment for cough, sore throat, and asthma.",
+    "properties": [
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 19,
+            "confidence_score": 151,
+            "total_score": 2869
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 18,
+            "confidence_score": 147,
+            "total_score": 2646
+        },
+        {
+            "name": "antiviral",
+            "mentions": 20,
+            "confidence_score": 141,
+            "total_score": 2820
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 19,
+            "confidence_score": 124,
+            "total_score": 2356
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 16,
+            "confidence_score": 116,
+            "total_score": 1856
+        },
+        {
+            "name": "analgesic",
+            "mentions": 11,
+            "confidence_score": 71,
+            "total_score": 781
+        },
+        {
+            "name": "anticancer",
+            "mentions": 12,
+            "confidence_score": 60,
+            "total_score": 720
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 10,
+            "confidence_score": 56,
+            "total_score": 560
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "antifungal",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "antioxidant enzyme inducer",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "gastroprotective",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "anti-cancer",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "immune system modulator",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "immune stimulant",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Andrographis paniculata are its anti-inflammatory effects, which are attributed to the presence of andrographolide, a sesquiterpene lactone that has been shown to inhibit the production of pro-inflammatory mediators. This plant also exhibits significant antioxidant activity, which is primarily due to the presence of flavonoids, such as andrographolide and neoandrographolide, that scavenge free radicals and protect cells from oxidative damage. Furthermore, the antimicrobial properties of Andrographis paniculata are mediated by compounds like andrographolide, which have been demonstrated to inhibit the growth of various bacteria and fungi. Additionally, the immunomodulatory effects of this plant are attributed to the presence of andrographolide, which has been shown to modulate the immune response by increasing the production of cytokines and activating immune cells. Moreover, Andrographis paniculata has been found to exhibit antiviral activity, which is primarily due to the presence of andrographolide and neoandrographolide, that have been shown to inhibit the replication of various viruses.",
+    "constituents": [
+        {
+            "name": "andrographolide",
+            "mentions": 20,
+            "confidence_score": 189,
+            "total_score": 3780
+        },
+        {
+            "name": "14-deoxyandrographolide",
+            "mentions": 11,
+            "confidence_score": 81,
+            "total_score": 891
+        },
+        {
+            "name": "isoandrographolide",
+            "mentions": 9,
+            "confidence_score": 73,
+            "total_score": 657
+        },
+        {
+            "name": "andrographiside",
+            "mentions": 11,
+            "confidence_score": 69,
+            "total_score": 759
+        },
+        {
+            "name": "neoadrographolide",
+            "mentions": 8,
+            "confidence_score": 55,
+            "total_score": 440
+        },
+        {
+            "name": "dehydroandrographolide",
+            "mentions": 9,
+            "confidence_score": 55,
+            "total_score": 495
+        },
+        {
+            "name": "neoandrographolide",
+            "mentions": 8,
+            "confidence_score": 55,
+            "total_score": 440
+        },
+        {
+            "name": "dihydroandrographolide",
+            "mentions": 7,
+            "confidence_score": 49,
+            "total_score": 343
+        },
+        {
+            "name": "andrographolide glucoside",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "andrographolide-14-acetate",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "andrographin",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "dihydrodehydroandrographolide",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "lithospermic acid",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "andrographoside",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "6-deoxyandrographolide",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "quercetin",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "andrographolide 14-acetate",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "luteolin",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "dihydrodeoxysciadopside",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Andrographis paniculata are andrographolide, 14-deoxyandrographolide, isoandrographolide, andrographiside, and neoadrographolide, which possess potent anti-inflammatory, antioxidant, and immunomodulatory properties. Andrographolide has been shown to inhibit the production of pro-inflammatory cytokines, such as TNF-alpha and IL-1 beta, while also scavenging free radicals and protecting against oxidative stress. 14-Deoxyandrographolide has been found to exhibit anti-inflammatory activity by inhibiting the activity of COX-2 and lipoxygenase enzymes. Isoandrographolide has demonstrated immunomodulatory effects by enhancing the production of antibody-secreting cells and activating natural killer cells. Andrographiside and neoadrographolide have been reported to possess antioxidant and anti-inflammatory activities, further supporting the plant's therapeutic potential.",
+    "preparations": [
+        {
+            "name": "andrographis tincture",
+            "mentions": 19,
+            "confidence_score": 159,
+            "total_score": 3021
+        },
+        {
+            "name": "andrographis tea",
+            "mentions": 17,
+            "confidence_score": 133,
+            "total_score": 2261
+        },
+        {
+            "name": "andrographis extract",
+            "mentions": 16,
+            "confidence_score": 119,
+            "total_score": 1904
+        },
+        {
+            "name": "andrographis infusion",
+            "mentions": 15,
+            "confidence_score": 95,
+            "total_score": 1425
+        },
+        {
+            "name": "capsules",
+            "mentions": 9,
+            "confidence_score": 70,
+            "total_score": 630
+        },
+        {
+            "name": "decoction",
+            "mentions": 8,
+            "confidence_score": 49,
+            "total_score": 392
+        },
+        {
+            "name": "andrographis capsule",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "andrographis capsules",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "andrographis oil",
+            "mentions": 7,
+            "confidence_score": 27,
+            "total_score": 189
+        },
+        {
+            "name": "powder",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "salve",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "suppository",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "infused oil",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "andrographis powder",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "kashayam",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "andrographis juice",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "ghan vati",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "andrographis decoction",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "dried leaf tea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Andrographis paniculata are andrographis tincture made by extracting the roots and leaves in a solvent such as ethanol or glycerin, andrographis tea prepared by steeping the dried herbs in hot water, andrographis extract standardized to contain 30-90% andrographolide which is the main bioactive compound, andrographis infusion made by steeping the herbs in cold water for a longer period, and capsules containing the dried and powdered herbs or the extract which are often used for convenience and standardized dosing. Andrographis tincture is used for its antimicrobial and anti-inflammatory properties while andrographis tea and infusion are used for their antioxidant and adaptogenic effects. The standardized extract is used for its immunomodulatory and anti-cancer properties. The andrographis extract is often used in combination with other herbs to enhance its effects. The capsules are a convenient way to consume the herb and ensure standardized dosing.",
+    "side_effects": [
+        {
+            "name": "exacerbate liver damage",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "interact with warfarin",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "increase bleeding risk",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "experience liver damage",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "causes diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "triggers allergic reactions",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "worsen hypoglycemia",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause hypotension",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "lower blood pressure",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "interact with blood thinners",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "induce gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "decrease blood sugar levels",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Andrographis paniculata improperly include exacerbating liver damage due to its potential to increase liver enzyme levels, triggering allergic reactions such as hives and itching in susceptible individuals, interacting with medications like blood thinners and diabetes medications, and interacting with warfarin by increasing its anticoagulant effects, resulting in bleeding complications, and experiencing nausea and stomach discomfort. This is because Andrographis paniculata contains compounds that can strain liver function and may not be suitable for individuals with pre-existing liver conditions. Furthermore, its anti-inflammatory properties may also cause allergic reactions in some people. Additionally, consuming Andrographis paniculata with certain medications can lead to adverse interactions, including increased bleeding risk when taken with warfarin. The risk of nausea and stomach discomfort is also increased when consuming Andrographis paniculata in excessive amounts or for prolonged periods.",
+    "taxonomy": "Andrographis paniculata is classified as a member of the family Acanthaceae, a large and diverse group of flowering plants. This plant is further categorized as belonging to the genus Andrographis, which consists of only a few species. The species itself is known as Andrographis paniculata, and it is a perennial herb native to India and Southeast Asia. It is also commonly known as kalmegh or king of bitters. The plant's classification reflects its unique characteristics and its position within the larger family of Acanthaceae.",
+    "uses": "Andrographis paniculata is a plant with a long history of traditional use in Ayurvedic medicine. It is commonly known as 'kalmegh' or 'king of bitters' due to its bitter taste. The plant is used to treat various health conditions, including fever, digestive issues, and respiratory problems. Andrographis paniculata is also used to boost the immune system and reduce inflammation. Its extracts and essential oils are often used in herbal remedies to promote overall well-being.",
+    "benefits": "Andrographis paniculata, also known as Kalmegh, is a plant that has been used in traditional Ayurvedic and Chinese medicine for centuries. It is believed to have various health benefits, including reducing inflammation and improving immune function. The plant is thought to have antimicrobial and antiviral properties, which may help to prevent illnesses such as the common cold and flu. Additionally, Andrographis paniculata is said to have antioxidant properties, which can help to protect the body from oxidative stress and cell damage. These potential health benefits make Andrographis paniculata a popular ingredient in herbal supplements and traditional remedies.",
+    "parts": "Andrographis paniculata, commonly known as Kalmegh, contains various medicinal parts, including its leaves, roots, and stem. The leaves are particularly valued for their medicinal properties due to their high concentration of andrographolide. The roots and stem also contain andrographolide, although in smaller amounts compared to the leaves. The leaves can be harvested at different stages of maturity, but the ideal time is during the flowering stage when they are rich in andrographolide. The medicinal parts of Andrographis paniculata are traditionally used to treat various health conditions, including fever, digestive issues, and inflammation.",
+    "intro": "Andrographis paniculata, also known as Kalmegh or King of Bitters, is a medicinal plant native to Asia, commonly used in traditional Ayurvedic and Chinese medicine. The health benefits of Andrographis paniculata include its anti-inflammatory, antimicrobial, and antiviral properties, which have been traditionally used to treat a range of ailments, from fever and digestive issues to respiratory problems and immune system dysfunction. The plant's bioactive constituents include andrographolide, neo-andrographolide, and andrographisne, which are responsible for its medicinal properties. In herbal medicine, Andrographis paniculata is most commonly prepared as a decoction, capsule, or tincture, and is often used in combination with other herbs to enhance its therapeutic effects."
+}

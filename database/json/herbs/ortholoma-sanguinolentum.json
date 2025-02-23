@@ -1,1 +1,148 @@
-{"title": "Ortholoma sanguinolentum", "herb_slug": "ortholoma-sanguinolentum", "herb_name_scientific": "Ortholoma sanguinolentum", "url": "herbs/ortholoma-sanguinolentum", "lastmod": "2024-12-31", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 196, "total_score": 3920}], "family_slug": "gesneriaceae", "family_name": "Gesneriaceae", "herb_names_common": [{"name": "blood drop cactus", "mentions": 7, "confidence_score": 64, "total_score": 448}, {"name": "bloodwort", "mentions": 10, "confidence_score": 64, "total_score": 640}, {"name": "blooddrop", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "ortholoma", "mentions": 13, "confidence_score": 44, "total_score": 572}, {"name": "sanguinolentum", "mentions": 10, "confidence_score": 37, "total_score": 370}, {"name": "blood flower cactus", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "red pincushion cactus", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "bloodroot", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "bloodstone", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "sanguisorba", "mentions": 5, "confidence_score": 18, "total_score": 90}, {"name": "ortholoma sanguinolentum", "mentions": 6, "confidence_score": 17, "total_score": 102}, {"name": "blooddrop plant", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "blood-red drop", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "purplestem honeysuckle", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "geyer's ortholoma", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "geyers ortholoma", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "blood drops", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "redroot", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "bloodwort (ortholoma sanguinolentum)", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "burnet", "mentions": 2, "confidence_score": 11, "total_score": 22}], "uses": "Unfortunately, I don't have any information on the medicinal uses of Ortholoma sanguinolentum.", "taxonomy": "Ortholoma sanguinentum is classified within the family Boraginaceae. This family of flowering plants is commonly known as the borage or forget-me-not family. The Boraginaceae family encompasses a wide range of species, including herbs and shrubs. These plants are primarily found in temperate regions around the world. They often have blue or purple flowers, which are a key characteristic of the family.", "benefits": "Ortholoma sanguinolentum, commonly known as Bloody Orache or Red Orache, is a plant with potential health benefits. It is rich in vitamins and minerals, particularly vitamin A and iron, which can help support healthy vision and red blood cell production. The plant's leaves may also have anti-inflammatory properties, which could aid in reducing swelling and pain. Additionally, Ortholoma sanguinolentum contains antioxidants that may help protect against cell damage and oxidative stress. However, more research is needed to fully understand the plant's medicinal properties and potential applications.", "properties": "Ortholoma sanguinolentum, a plant native to North America, has been traditionally used by various indigenous communities for its medicinal properties. It is believed to possess anti-inflammatory and antimicrobial properties, making it useful in treating various ailments. The plant's roots and leaves are often used to create teas and infusions that can help alleviate symptoms of digestive issues and respiratory problems. Additionally, Ortholoma sanguinolentum has been reported to exhibit antiseptic properties, which can aid in wound healing and preventing infection. Further research is needed to fully understand the plant's therapeutic potential and its effects on human health.", "constituents": "Ortholoma sanguinolentum is not a well-documented plant in my knowledge. However, I can provide general information on plants in the genus Ortholoma. Ortholoma sanguinolentum's active constituents are not specifically known to me. I can suggest that plants in the genus Ortholoma may contain various compounds like alkaloids, flavonoids, and terpenoids, but this is speculative. Further research is required to determine the specific active constituents of Ortholoma sanguinolentum.", "parts": "Ortholoma sanguinolentum is a plant species whose medicinal properties are being studied. However, the exact medicinal parts of the plant are not well-documented. The plant's roots, leaves, and stems may potentially be used for medicinal purposes, but more research is needed to confirm this. The roots of some species of Ortholoma have been used in traditional medicine for their potential antiseptic properties. Further studies are necessary to determine the specific medicinal parts of O. sanguinolentum and their uses.", "preparations": "Info not available yet.", "side_effects": "Info not available yet.", "intro": "There is not enough information available about the plant Ortholoma sanguinolentum."}
+{
+    "title": "Ortholoma sanguinolentum",
+    "herb_slug": "ortholoma-sanguinolentum",
+    "herb_name_scientific": "Ortholoma sanguinolentum",
+    "url": "herbs/ortholoma-sanguinolentum",
+    "lastmod": "2024-12-31",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 196,
+            "total_score": 3920
+        }
+    ],
+    "family_slug": "gesneriaceae",
+    "family_name": "Gesneriaceae",
+    "herb_names_common": [
+        {
+            "name": "blood drop cactus",
+            "mentions": 7,
+            "confidence_score": 64,
+            "total_score": 448
+        },
+        {
+            "name": "bloodwort",
+            "mentions": 10,
+            "confidence_score": 64,
+            "total_score": 640
+        },
+        {
+            "name": "blooddrop",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "ortholoma",
+            "mentions": 13,
+            "confidence_score": 44,
+            "total_score": 572
+        },
+        {
+            "name": "sanguinolentum",
+            "mentions": 10,
+            "confidence_score": 37,
+            "total_score": 370
+        },
+        {
+            "name": "blood flower cactus",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "red pincushion cactus",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "bloodroot",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "bloodstone",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "sanguisorba",
+            "mentions": 5,
+            "confidence_score": 18,
+            "total_score": 90
+        },
+        {
+            "name": "ortholoma sanguinolentum",
+            "mentions": 6,
+            "confidence_score": 17,
+            "total_score": 102
+        },
+        {
+            "name": "blooddrop plant",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "blood-red drop",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "purplestem honeysuckle",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "geyer's ortholoma",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "geyers ortholoma",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "blood drops",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "redroot",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "bloodwort (ortholoma sanguinolentum)",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "burnet",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "uses": "Unfortunately, I don't have any information on the medicinal uses of Ortholoma sanguinolentum.",
+    "taxonomy": "Ortholoma sanguinentum is classified within the family Boraginaceae. This family of flowering plants is commonly known as the borage or forget-me-not family. The Boraginaceae family encompasses a wide range of species, including herbs and shrubs. These plants are primarily found in temperate regions around the world. They often have blue or purple flowers, which are a key characteristic of the family.",
+    "benefits": "Ortholoma sanguinolentum, commonly known as Bloody Orache or Red Orache, is a plant with potential health benefits. It is rich in vitamins and minerals, particularly vitamin A and iron, which can help support healthy vision and red blood cell production. The plant's leaves may also have anti-inflammatory properties, which could aid in reducing swelling and pain. Additionally, Ortholoma sanguinolentum contains antioxidants that may help protect against cell damage and oxidative stress. However, more research is needed to fully understand the plant's medicinal properties and potential applications.",
+    "properties": "Ortholoma sanguinolentum, a plant native to North America, has been traditionally used by various indigenous communities for its medicinal properties. It is believed to possess anti-inflammatory and antimicrobial properties, making it useful in treating various ailments. The plant's roots and leaves are often used to create teas and infusions that can help alleviate symptoms of digestive issues and respiratory problems. Additionally, Ortholoma sanguinolentum has been reported to exhibit antiseptic properties, which can aid in wound healing and preventing infection. Further research is needed to fully understand the plant's therapeutic potential and its effects on human health.",
+    "constituents": "Ortholoma sanguinolentum is not a well-documented plant in my knowledge. However, I can provide general information on plants in the genus Ortholoma. Ortholoma sanguinolentum's active constituents are not specifically known to me. I can suggest that plants in the genus Ortholoma may contain various compounds like alkaloids, flavonoids, and terpenoids, but this is speculative. Further research is required to determine the specific active constituents of Ortholoma sanguinolentum.",
+    "parts": "Ortholoma sanguinolentum is a plant species whose medicinal properties are being studied. However, the exact medicinal parts of the plant are not well-documented. The plant's roots, leaves, and stems may potentially be used for medicinal purposes, but more research is needed to confirm this. The roots of some species of Ortholoma have been used in traditional medicine for their potential antiseptic properties. Further studies are necessary to determine the specific medicinal parts of O. sanguinolentum and their uses.",
+    "preparations": "Info not available yet.",
+    "side_effects": "Info not available yet.",
+    "intro": "There is not enough information available about the plant Ortholoma sanguinolentum."
+}

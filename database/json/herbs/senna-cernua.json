@@ -1,1 +1,761 @@
-{"title": "Senna cernua", "herb_slug": "senna-cernua", "herb_name_scientific": "Senna cernua", "family_slug": "fabaceae", "family_name": "Fabaceae", "url": "herbs/senna-cernua", "lastmod": "2025-1-15", "herb_names_common": [{"name": "cassia cernua", "mentions": 19, "confidence_score": 130, "total_score": 2470}, {"name": "sickle bush", "mentions": 19, "confidence_score": 127, "total_score": 2413}, {"name": "wild senna", "mentions": 18, "confidence_score": 122, "total_score": 2196}, {"name": "cassia", "mentions": 13, "confidence_score": 94, "total_score": 1222}, {"name": "candle bush", "mentions": 8, "confidence_score": 68, "total_score": 544}, {"name": "candle bush senna", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "yellow cassia", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "sickle bush cassia", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "wild cassia", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "yellow senna", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "sickle bush senna", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "candlestick bush", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "wild senna cernua", "mentions": 7, "confidence_score": 22, "total_score": 154}, {"name": "sicklepod", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "sensitive senna", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "candle bush senna cernua", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "candle wax bush", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "candle flower", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "cascara d'azogue", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "candle stick bush", "mentions": 2, "confidence_score": 13, "total_score": 26}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 167, "total_score": 3340}], "what_description": "Senna cernua is a perennial herbaceous plant belonging to the family Fabaceae. It has a slender stem, typically up to 30 cm tall, with alternate, trifoliolate leaves and yellow flowers in racemes. The flowers are small, with five petals, and are produced from March to July. Senna cernua is native to the Mediterranean region and has a taproot system, with nodules that fix nitrogen from the atmosphere. Its fruit is a flat, brown pod containing 2-4 seeds, which are dispersed by wind and water.", "category_action": "laxatives", "ailments": [{"name": "diarrhea", "mentions": 20, "confidence_score": 193, "total_score": 3860}, {"name": "constipation", "mentions": 20, "confidence_score": 177, "total_score": 3540}, {"name": "bloating", "mentions": 14, "confidence_score": 89, "total_score": 1246}, {"name": "irritable bowel syndrome", "mentions": 13, "confidence_score": 88, "total_score": 1144}, {"name": "gastroenteritis", "mentions": 11, "confidence_score": 78, "total_score": 858}, {"name": "hemorrhoids", "mentions": 11, "confidence_score": 77, "total_score": 847}, {"name": "abdominal pain", "mentions": 8, "confidence_score": 60, "total_score": 480}, {"name": "colic", "mentions": 10, "confidence_score": 58, "total_score": 580}, {"name": "nausea", "mentions": 8, "confidence_score": 47, "total_score": 376}, {"name": "flatulence", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "inflammation", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "gas", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "vomiting", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "indigestion", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "inflammatory bowel disease", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "digestive issues", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "fever", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "diverticulitis", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "chronic colitis", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "anxiety", "mentions": 3, "confidence_score": 16, "total_score": 48}], "ailments_description": "The most common ailments you can heal with Senna cernua are diarrhea, hemorrhoids, and irritable bowel syndrome. Senna cernua is also used to treat constipation by stimulating bowel movements and reducing abdominal pain. Bloating and gastroenteritis symptoms, such as nausea and vomiting, are alleviated through its purgative properties. Inflammation and flatulence associated with inflammatory bowel disease and digestive issues are reduced due to its anti-inflammatory compounds. Senna cernua is also known to alleviate abdominal colic, fever, and diverticulitis symptoms, as well as anxiety related to chronic conditions like chronic colitis.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 147, "total_score": 2940}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 134, "total_score": 2680}, {"name": "laxative", "mentions": 14, "confidence_score": 131, "total_score": 1834}, {"name": "antioxidant", "mentions": 20, "confidence_score": 113, "total_score": 2260}, {"name": "antispasmodic", "mentions": 15, "confidence_score": 89, "total_score": 1335}, {"name": "diuretic", "mentions": 11, "confidence_score": 82, "total_score": 902}, {"name": "analgesic", "mentions": 16, "confidence_score": 67, "total_score": 1072}, {"name": "hepatoprotective", "mentions": 12, "confidence_score": 52, "total_score": 624}, {"name": "expectorant", "mentions": 8, "confidence_score": 42, "total_score": 336}, {"name": "antipyretic", "mentions": 10, "confidence_score": 40, "total_score": 400}, {"name": "purgative", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "emetic", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "cathartic", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "hemostatic", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "antidiarrheal", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "antihelmintic", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "anthelmintic", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "antibacterial", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "anti-diarrheal", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cytotoxic", "mentions": 3, "confidence_score": 14, "total_score": 42}], "properties_description": "The main therapeutic properties of Senna cernua are its antimicrobial activity, which helps combat bacterial infections, and its laxative effect, which aids in regulating bowel movements and treating constipation. The plant's bioactive compounds, including flavonoids and saponins, are responsible for its anti-inflammatory properties, which help reduce swelling and alleviate pain in various conditions. Additionally, the bioactive compounds found in Senna cernua, such as volatile oils, exhibit antioxidant properties, neutralizing free radicals and protecting against oxidative stress. Furthermore, the antispasmodic properties of Senna cernua help alleviate smooth muscle spasms and cramps, providing relief from conditions like irritable bowel syndrome. The plant's laxative effect is also attributed to its bioactive compounds, which stimulate bowel movements and relieve constipation.", "constituents": [{"name": "sennoside a", "mentions": 15, "confidence_score": 128, "total_score": 1920}, {"name": "sennoside b", "mentions": 15, "confidence_score": 128, "total_score": 1920}, {"name": "emodin", "mentions": 17, "confidence_score": 128, "total_score": 2176}, {"name": "sennoside c", "mentions": 12, "confidence_score": 104, "total_score": 1248}, {"name": "rhein", "mentions": 12, "confidence_score": 91, "total_score": 1092}, {"name": "sennoside d", "mentions": 10, "confidence_score": 87, "total_score": 870}, {"name": "aloe-emodin", "mentions": 12, "confidence_score": 80, "total_score": 960}, {"name": "sennoside e", "mentions": 8, "confidence_score": 65, "total_score": 520}, {"name": "anthraquinone glycosides", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "anthraquinone", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "sennoside f", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "chrysophanic acid", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "sennosides a and b", "mentions": 4, "confidence_score": 39, "total_score": 156}, {"name": "quercetin", "mentions": 7, "confidence_score": 32, "total_score": 224}, {"name": "aloin", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "kaempferol", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "chrysophanol", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "cassia senna glycosides", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "sennoside g", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "sennosides b", "mentions": 1, "confidence_score": 10, "total_score": 10}], "constituents_description": "The most important healing constituents of Senna cernua are anthraquinone glycosides, including sennoside A and B, which are responsible for its laxative properties due to their ability to stimulate peristalsis and increase gut motility. Emodin, a phenolic compound, exhibits anti-inflammatory and antimicrobial activities, contributing to its wound-healing and antiseptic properties. Sennoside C and rhein, another type of anthraquinone glycoside, have been shown to have anti-inflammatory and immunosuppressive effects, making them valuable in the management of conditions such as arthritis and skin disorders. The combination of these constituents in Senna cernua provides a unique therapeutic profile, enabling its use in treating various gastrointestinal and dermatological conditions. The bioactive compounds in Senna cernua have been extensively studied, and their mechanisms of action have been well-documented in scientific literature.", "preparations": [{"name": "senna tea", "mentions": 20, "confidence_score": 190, "total_score": 3800}, {"name": "senna infusion", "mentions": 19, "confidence_score": 161, "total_score": 3059}, {"name": "senna tincture", "mentions": 20, "confidence_score": 139, "total_score": 2780}, {"name": "senna decoction", "mentions": 16, "confidence_score": 91, "total_score": 1456}, {"name": "senna extract", "mentions": 11, "confidence_score": 56, "total_score": 616}, {"name": "senna syrup", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "infused oil", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "senna capsules", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "senna salve", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "senna glycoside extract", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "dried leaf", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "senna oil", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "senna ointment", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "senna powder", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "senna suppository", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "glycerite", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "senna oil infusion", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "dried powder", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "powder", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "senna oil maceration", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Senna cernua are senna tea, an aqueous solution made by steeping dried leaves and pods in boiling water, typically taken as a purgative to relieve constipation; senna infusion, a less concentrated version of senna tea made by steeping the same parts in cold or warm water; senna tincture, a liquid extract made by mixing the dried plant parts with a solvent such as ethanol or glycerin; senna decoction, a concentrated liquid solution made by boiling the dried plant parts in water to release their active compounds, often used for its anthraquinone content; senna extract, a concentrated powder or liquid made by removing the water from a decoction or infusion, commonly used in pharmaceutical and food industries due to its laxative properties.", "side_effects": [{"name": "experience diarrhea", "mentions": 14, "confidence_score": 135, "total_score": 1890}, {"name": "experience vomiting", "mentions": 10, "confidence_score": 92, "total_score": 920}, {"name": "suffer nausea", "mentions": 9, "confidence_score": 74, "total_score": 666}, {"name": "show electrolyte imbalance", "mentions": 9, "confidence_score": 72, "total_score": 648}, {"name": "abuse", "mentions": 7, "confidence_score": 69, "total_score": 483}, {"name": "exhibit dehydration", "mentions": 6, "confidence_score": 51, "total_score": 306}, {"name": "hypokalemia", "mentions": 5, "confidence_score": 43, "total_score": 215}, {"name": "get dizziness", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "develop electrolyte imbalance", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "get headache", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "develop kidney damage", "mentions": 7, "confidence_score": 32, "total_score": 224}, {"name": "experiencing diarrhea", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "get dehydration", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "suffer abdominal pain", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "dependence", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "get allergic reaction", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "get cardiac arrhythmia", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "experiencing vomiting", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "experience seizures", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "overdose", "mentions": 2, "confidence_score": 20, "total_score": 40}], "side_effects_description": "The possible side effects of using Senna cernua improperly include experiencing diarrhea, vomiting, and suffering from nausea, which can lead to severe dehydration and electrolyte imbalance due to excessive fluid loss and disturbances in the normal balance of electrolytes such as potassium, sodium, and chloride. The abuse of Senna cernua can also lead to these side effects, as well as other health issues, particularly when used in large doses or for extended periods, causing damage to the gastrointestinal tract and liver. The improper use of Senna cernua can also lead to complications such as hypokalemia, a condition characterized by low potassium levels in the blood, which can cause muscle weakness, fatigue, and heart problems. Furthermore, the use of Senna cernua can cause dependency and withdrawal symptoms when discontinued abruptly. The risk of these side effects increases when Senna cernua is used in combination with other medications or substances that have a similar mechanism of action.", "uses": "Senna cernua, also known as the drooping senna, has been used in traditional medicine for various purposes. Its roots and leaves contain anthraquinones, which are believed to have laxative properties. Historically, the plant has been used to treat constipation and other gastrointestinal issues. Additionally, it has been used to treat fever and rheumatism. The plant's medicinal uses are largely based on its ability to stimulate bowel movements and relieve digestive discomfort.", "taxonomy": "Senna cernua is a species of flowering plant in the pea family Fabaceae. It belongs to the genus Senna, which is a group of flowering plants native to tropical and subtropical regions. Senna cernua is a part of the subgenus Cassia, which is a group of legumes. The plant is commonly known as the sickle-pod or sickle-pod senna. It is native to the tropical regions of Asia and the Pacific.", "benefits": "Senna cernua is believed to have various health benefits, including the ability to aid in digestion and relieve symptoms of constipation. It is also thought to have anti-inflammatory properties, which may help to reduce pain and swelling in the body. Additionally, the plant is said to have antioxidant properties, which can help to protect against cell damage and oxidative stress. Senna cernua may also have antimicrobial properties, which can help to prevent the growth of harmful bacteria and other microorganisms. However, it's essential to consult with a healthcare professional before using Senna cernua for medicinal purposes, as it can interact with certain medications and have side effects in some individuals.", "parts": "Senna cernua has been used in traditional medicine, primarily for its seeds and leaves. The seeds, also known as pods, are a rich source of glycosides, which are believed to have a laxative effect. The leaves of the plant are also considered medicinal, but their specific uses are not as well-documented. In some cultures, the plant is used to treat various health issues, including fever and digestive problems. However, more research is needed to confirm its effectiveness and potential side effects.", "intro": "Senna cernua, commonly known as the drooping senna, is a perennial plant belonging to the Fabaceae family, native to tropical and subtropical regions. The plant has been traditionally used in herbal medicine to treat constipation and other gastrointestinal issues due to its laxative properties, which can help relieve symptoms of irritable bowel syndrome and promote bowel movements. The bioactive constituents of Senna cernua include anthraquinone glycosides, such as aloe-emodin and chrysophanic acid, which are responsible for its laxative and anti-inflammatory effects. Herbal preparations made from Senna cernua include tea, capsules, and tablets, which can be used as a natural remedy for constipation and other digestive issues."}
+{
+    "title": "Senna cernua",
+    "herb_slug": "senna-cernua",
+    "herb_name_scientific": "Senna cernua",
+    "family_slug": "fabaceae",
+    "family_name": "Fabaceae",
+    "url": "herbs/senna-cernua",
+    "lastmod": "2025-1-15",
+    "herb_names_common": [
+        {
+            "name": "cassia cernua",
+            "mentions": 19,
+            "confidence_score": 130,
+            "total_score": 2470
+        },
+        {
+            "name": "sickle bush",
+            "mentions": 19,
+            "confidence_score": 127,
+            "total_score": 2413
+        },
+        {
+            "name": "wild senna",
+            "mentions": 18,
+            "confidence_score": 122,
+            "total_score": 2196
+        },
+        {
+            "name": "cassia",
+            "mentions": 13,
+            "confidence_score": 94,
+            "total_score": 1222
+        },
+        {
+            "name": "candle bush",
+            "mentions": 8,
+            "confidence_score": 68,
+            "total_score": 544
+        },
+        {
+            "name": "candle bush senna",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "yellow cassia",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "sickle bush cassia",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "wild cassia",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "yellow senna",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "sickle bush senna",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "candlestick bush",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "wild senna cernua",
+            "mentions": 7,
+            "confidence_score": 22,
+            "total_score": 154
+        },
+        {
+            "name": "sicklepod",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "sensitive senna",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "candle bush senna cernua",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "candle wax bush",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "candle flower",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "cascara d'azogue",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "candle stick bush",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 167,
+            "total_score": 3340
+        }
+    ],
+    "what_description": "Senna cernua is a perennial herbaceous plant belonging to the family Fabaceae. It has a slender stem, typically up to 30 cm tall, with alternate, trifoliolate leaves and yellow flowers in racemes. The flowers are small, with five petals, and are produced from March to July. Senna cernua is native to the Mediterranean region and has a taproot system, with nodules that fix nitrogen from the atmosphere. Its fruit is a flat, brown pod containing 2-4 seeds, which are dispersed by wind and water.",
+    "category_action": "laxatives",
+    "ailments": [
+        {
+            "name": "diarrhea",
+            "mentions": 20,
+            "confidence_score": 193,
+            "total_score": 3860
+        },
+        {
+            "name": "constipation",
+            "mentions": 20,
+            "confidence_score": 177,
+            "total_score": 3540
+        },
+        {
+            "name": "bloating",
+            "mentions": 14,
+            "confidence_score": 89,
+            "total_score": 1246
+        },
+        {
+            "name": "irritable bowel syndrome",
+            "mentions": 13,
+            "confidence_score": 88,
+            "total_score": 1144
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 11,
+            "confidence_score": 78,
+            "total_score": 858
+        },
+        {
+            "name": "hemorrhoids",
+            "mentions": 11,
+            "confidence_score": 77,
+            "total_score": 847
+        },
+        {
+            "name": "abdominal pain",
+            "mentions": 8,
+            "confidence_score": 60,
+            "total_score": 480
+        },
+        {
+            "name": "colic",
+            "mentions": 10,
+            "confidence_score": 58,
+            "total_score": 580
+        },
+        {
+            "name": "nausea",
+            "mentions": 8,
+            "confidence_score": 47,
+            "total_score": 376
+        },
+        {
+            "name": "flatulence",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "inflammation",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "gas",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "vomiting",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "indigestion",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "inflammatory bowel disease",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "fever",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "diverticulitis",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "chronic colitis",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "anxiety",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Senna cernua are diarrhea, hemorrhoids, and irritable bowel syndrome. Senna cernua is also used to treat constipation by stimulating bowel movements and reducing abdominal pain. Bloating and gastroenteritis symptoms, such as nausea and vomiting, are alleviated through its purgative properties. Inflammation and flatulence associated with inflammatory bowel disease and digestive issues are reduced due to its anti-inflammatory compounds. Senna cernua is also known to alleviate abdominal colic, fever, and diverticulitis symptoms, as well as anxiety related to chronic conditions like chronic colitis.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 147,
+            "total_score": 2940
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 134,
+            "total_score": 2680
+        },
+        {
+            "name": "laxative",
+            "mentions": 14,
+            "confidence_score": 131,
+            "total_score": 1834
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 113,
+            "total_score": 2260
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 15,
+            "confidence_score": 89,
+            "total_score": 1335
+        },
+        {
+            "name": "diuretic",
+            "mentions": 11,
+            "confidence_score": 82,
+            "total_score": 902
+        },
+        {
+            "name": "analgesic",
+            "mentions": 16,
+            "confidence_score": 67,
+            "total_score": 1072
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 12,
+            "confidence_score": 52,
+            "total_score": 624
+        },
+        {
+            "name": "expectorant",
+            "mentions": 8,
+            "confidence_score": 42,
+            "total_score": 336
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 10,
+            "confidence_score": 40,
+            "total_score": 400
+        },
+        {
+            "name": "purgative",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "emetic",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "cathartic",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "antihelmintic",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "anthelmintic",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "anti-diarrheal",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Senna cernua are its antimicrobial activity, which helps combat bacterial infections, and its laxative effect, which aids in regulating bowel movements and treating constipation. The plant's bioactive compounds, including flavonoids and saponins, are responsible for its anti-inflammatory properties, which help reduce swelling and alleviate pain in various conditions. Additionally, the bioactive compounds found in Senna cernua, such as volatile oils, exhibit antioxidant properties, neutralizing free radicals and protecting against oxidative stress. Furthermore, the antispasmodic properties of Senna cernua help alleviate smooth muscle spasms and cramps, providing relief from conditions like irritable bowel syndrome. The plant's laxative effect is also attributed to its bioactive compounds, which stimulate bowel movements and relieve constipation.",
+    "constituents": [
+        {
+            "name": "sennoside a",
+            "mentions": 15,
+            "confidence_score": 128,
+            "total_score": 1920
+        },
+        {
+            "name": "sennoside b",
+            "mentions": 15,
+            "confidence_score": 128,
+            "total_score": 1920
+        },
+        {
+            "name": "emodin",
+            "mentions": 17,
+            "confidence_score": 128,
+            "total_score": 2176
+        },
+        {
+            "name": "sennoside c",
+            "mentions": 12,
+            "confidence_score": 104,
+            "total_score": 1248
+        },
+        {
+            "name": "rhein",
+            "mentions": 12,
+            "confidence_score": 91,
+            "total_score": 1092
+        },
+        {
+            "name": "sennoside d",
+            "mentions": 10,
+            "confidence_score": 87,
+            "total_score": 870
+        },
+        {
+            "name": "aloe-emodin",
+            "mentions": 12,
+            "confidence_score": 80,
+            "total_score": 960
+        },
+        {
+            "name": "sennoside e",
+            "mentions": 8,
+            "confidence_score": 65,
+            "total_score": 520
+        },
+        {
+            "name": "anthraquinone glycosides",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "anthraquinone",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "sennoside f",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "chrysophanic acid",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "sennosides a and b",
+            "mentions": 4,
+            "confidence_score": 39,
+            "total_score": 156
+        },
+        {
+            "name": "quercetin",
+            "mentions": 7,
+            "confidence_score": 32,
+            "total_score": 224
+        },
+        {
+            "name": "aloin",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "chrysophanol",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "cassia senna glycosides",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "sennoside g",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "sennosides b",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Senna cernua are anthraquinone glycosides, including sennoside A and B, which are responsible for its laxative properties due to their ability to stimulate peristalsis and increase gut motility. Emodin, a phenolic compound, exhibits anti-inflammatory and antimicrobial activities, contributing to its wound-healing and antiseptic properties. Sennoside C and rhein, another type of anthraquinone glycoside, have been shown to have anti-inflammatory and immunosuppressive effects, making them valuable in the management of conditions such as arthritis and skin disorders. The combination of these constituents in Senna cernua provides a unique therapeutic profile, enabling its use in treating various gastrointestinal and dermatological conditions. The bioactive compounds in Senna cernua have been extensively studied, and their mechanisms of action have been well-documented in scientific literature.",
+    "preparations": [
+        {
+            "name": "senna tea",
+            "mentions": 20,
+            "confidence_score": 190,
+            "total_score": 3800
+        },
+        {
+            "name": "senna infusion",
+            "mentions": 19,
+            "confidence_score": 161,
+            "total_score": 3059
+        },
+        {
+            "name": "senna tincture",
+            "mentions": 20,
+            "confidence_score": 139,
+            "total_score": 2780
+        },
+        {
+            "name": "senna decoction",
+            "mentions": 16,
+            "confidence_score": 91,
+            "total_score": 1456
+        },
+        {
+            "name": "senna extract",
+            "mentions": 11,
+            "confidence_score": 56,
+            "total_score": 616
+        },
+        {
+            "name": "senna syrup",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "infused oil",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "senna capsules",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "senna salve",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "senna glycoside extract",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "dried leaf",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "senna oil",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "senna ointment",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "senna powder",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "senna suppository",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "glycerite",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "senna oil infusion",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "dried powder",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "powder",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "senna oil maceration",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Senna cernua are senna tea, an aqueous solution made by steeping dried leaves and pods in boiling water, typically taken as a purgative to relieve constipation; senna infusion, a less concentrated version of senna tea made by steeping the same parts in cold or warm water; senna tincture, a liquid extract made by mixing the dried plant parts with a solvent such as ethanol or glycerin; senna decoction, a concentrated liquid solution made by boiling the dried plant parts in water to release their active compounds, often used for its anthraquinone content; senna extract, a concentrated powder or liquid made by removing the water from a decoction or infusion, commonly used in pharmaceutical and food industries due to its laxative properties.",
+    "side_effects": [
+        {
+            "name": "experience diarrhea",
+            "mentions": 14,
+            "confidence_score": 135,
+            "total_score": 1890
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 10,
+            "confidence_score": 92,
+            "total_score": 920
+        },
+        {
+            "name": "suffer nausea",
+            "mentions": 9,
+            "confidence_score": 74,
+            "total_score": 666
+        },
+        {
+            "name": "show electrolyte imbalance",
+            "mentions": 9,
+            "confidence_score": 72,
+            "total_score": 648
+        },
+        {
+            "name": "abuse",
+            "mentions": 7,
+            "confidence_score": 69,
+            "total_score": 483
+        },
+        {
+            "name": "exhibit dehydration",
+            "mentions": 6,
+            "confidence_score": 51,
+            "total_score": 306
+        },
+        {
+            "name": "hypokalemia",
+            "mentions": 5,
+            "confidence_score": 43,
+            "total_score": 215
+        },
+        {
+            "name": "get dizziness",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "develop electrolyte imbalance",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "get headache",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "develop kidney damage",
+            "mentions": 7,
+            "confidence_score": 32,
+            "total_score": 224
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "get dehydration",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "suffer abdominal pain",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "dependence",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "get allergic reaction",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "get cardiac arrhythmia",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "experience seizures",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "overdose",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Senna cernua improperly include experiencing diarrhea, vomiting, and suffering from nausea, which can lead to severe dehydration and electrolyte imbalance due to excessive fluid loss and disturbances in the normal balance of electrolytes such as potassium, sodium, and chloride. The abuse of Senna cernua can also lead to these side effects, as well as other health issues, particularly when used in large doses or for extended periods, causing damage to the gastrointestinal tract and liver. The improper use of Senna cernua can also lead to complications such as hypokalemia, a condition characterized by low potassium levels in the blood, which can cause muscle weakness, fatigue, and heart problems. Furthermore, the use of Senna cernua can cause dependency and withdrawal symptoms when discontinued abruptly. The risk of these side effects increases when Senna cernua is used in combination with other medications or substances that have a similar mechanism of action.",
+    "uses": "Senna cernua, also known as the drooping senna, has been used in traditional medicine for various purposes. Its roots and leaves contain anthraquinones, which are believed to have laxative properties. Historically, the plant has been used to treat constipation and other gastrointestinal issues. Additionally, it has been used to treat fever and rheumatism. The plant's medicinal uses are largely based on its ability to stimulate bowel movements and relieve digestive discomfort.",
+    "taxonomy": "Senna cernua is a species of flowering plant in the pea family Fabaceae. It belongs to the genus Senna, which is a group of flowering plants native to tropical and subtropical regions. Senna cernua is a part of the subgenus Cassia, which is a group of legumes. The plant is commonly known as the sickle-pod or sickle-pod senna. It is native to the tropical regions of Asia and the Pacific.",
+    "benefits": "Senna cernua is believed to have various health benefits, including the ability to aid in digestion and relieve symptoms of constipation. It is also thought to have anti-inflammatory properties, which may help to reduce pain and swelling in the body. Additionally, the plant is said to have antioxidant properties, which can help to protect against cell damage and oxidative stress. Senna cernua may also have antimicrobial properties, which can help to prevent the growth of harmful bacteria and other microorganisms. However, it's essential to consult with a healthcare professional before using Senna cernua for medicinal purposes, as it can interact with certain medications and have side effects in some individuals.",
+    "parts": "Senna cernua has been used in traditional medicine, primarily for its seeds and leaves. The seeds, also known as pods, are a rich source of glycosides, which are believed to have a laxative effect. The leaves of the plant are also considered medicinal, but their specific uses are not as well-documented. In some cultures, the plant is used to treat various health issues, including fever and digestive problems. However, more research is needed to confirm its effectiveness and potential side effects.",
+    "intro": "Senna cernua, commonly known as the drooping senna, is a perennial plant belonging to the Fabaceae family, native to tropical and subtropical regions. The plant has been traditionally used in herbal medicine to treat constipation and other gastrointestinal issues due to its laxative properties, which can help relieve symptoms of irritable bowel syndrome and promote bowel movements. The bioactive constituents of Senna cernua include anthraquinone glycosides, such as aloe-emodin and chrysophanic acid, which are responsible for its laxative and anti-inflammatory effects. Herbal preparations made from Senna cernua include tea, capsules, and tablets, which can be used as a natural remedy for constipation and other digestive issues."
+}

@@ -1,1 +1,756 @@
-{"title": "Aesculus hippocastanum", "herb_slug": "aesculus-hippocastanum", "herb_name_scientific": "Aesculus hippocastanum", "family_slug": "", "family_name": "", "url": "herbs/aesculus-hippocastanum", "lastmod": "2025-1-20", "herb_names_common": [{"name": "horse chestnut", "mentions": 20, "confidence_score": 195, "total_score": 3900}, {"name": "conker tree", "mentions": 19, "confidence_score": 168, "total_score": 3192}, {"name": "spanish chestnut", "mentions": 19, "confidence_score": 135, "total_score": 2565}, {"name": "buckeye", "mentions": 16, "confidence_score": 101, "total_score": 1616}, {"name": "hippocastanum", "mentions": 19, "confidence_score": 80, "total_score": 1520}, {"name": "european horse chestnut", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "ox chestnut", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "buckeye tree", "mentions": 6, "confidence_score": 30, "total_score": 180}, {"name": "red buckeye", "mentions": 8, "confidence_score": 29, "total_score": 232}, {"name": "horse chestnut tree", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "european chestnut", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "white horse chestnut", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "greek chestnut", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "spanish chestnut tree", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "bastard chestnut", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "fair maiden", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "aesculus", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "sweet chestnut", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "caster oil plant", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cuckoo nut tree", "mentions": 1, "confidence_score": 8, "total_score": 8}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 172, "total_score": 3440}], "what_description": "Aesculus hippocastanum is a deciduous tree species, belonging to the family Sapindaceae. It has a broad, spreading crown and a straight, columnar trunk with a grayish-brown, smooth bark that becomes fissured with age. The leaves are pinnate, consisting of 5-7 leaflets, each 7-15 cm long, with a dark green color on the upper surface and a pale greenish-yellow color on the lower surface. The flowers are large, showy, and pinkish-red in color, produced in May and June in the form of a dense, spherical panicle. The fruit is a two-part, spiny capsule, 10-20 cm long, containing one to three seeds per chamber.", "category_action": "anti-inflammatory", "ailments": [{"name": "varicose veins", "mentions": 19, "confidence_score": 177, "total_score": 3363}, {"name": "eczema", "mentions": 13, "confidence_score": 84, "total_score": 1092}, {"name": "psoriasis", "mentions": 11, "confidence_score": 69, "total_score": 759}, {"name": "arthritis", "mentions": 9, "confidence_score": 64, "total_score": 576}, {"name": "high blood pressure", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "cardiovascular disease", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "hypertension", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "diabetes", "mentions": 7, "confidence_score": 39, "total_score": 273}, {"name": "skin inflammation", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "gout", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "skin ulcers", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "bruises", "mentions": 6, "confidence_score": 30, "total_score": 180}, {"name": "insect bites", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "hemorrhoids", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "cancer prevention", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "fungal infections", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "cholesterol levels", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "atherosclerosis", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "high cholesterol", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "warts", "mentions": 3, "confidence_score": 18, "total_score": 54}], "ailments_description": "The most common ailments you can heal with Aesculus hippocastanum are varicose veins, eczema, and skin inflammation, which are effectively treated by its flavonoids and phenolic acids that reduce inflammation and improve circulation. Aesculus hippocastanum also shows promise in treating psoriasis through its ability to decrease skin cell proliferation and modulate the immune system, preventing excessive skin cell growth. Arthritis symptoms can be alleviated by the plant's anti-inflammatory and antioxidant properties, which inhibit the production of pro-inflammatory enzymes and free radicals that exacerbate the condition. High blood pressure and cardiovascular disease can be managed through the plant's flavonoids, which have been shown to lower blood pressure and improve lipid profiles, reducing the risk of cardiovascular events. Additionally, Aesculus hippocastanum has been found to be effective in treating hemorrhoids, gout, skin ulcers, bruises, insect bites, and warts, while also showing potential in preventing cancer, fungal infections, and high cholesterol, and reducing atherosclerosis.", "properties": [{"name": "anti-inflammatory", "mentions": 20, "confidence_score": 169, "total_score": 3380}, {"name": "antioxidant", "mentions": 20, "confidence_score": 162, "total_score": 3240}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 139, "total_score": 2780}, {"name": "antispasmodic", "mentions": 16, "confidence_score": 99, "total_score": 1584}, {"name": "hypotensive", "mentions": 14, "confidence_score": 98, "total_score": 1372}, {"name": "cardioprotective", "mentions": 11, "confidence_score": 86, "total_score": 946}, {"name": "analgesic", "mentions": 15, "confidence_score": 86, "total_score": 1290}, {"name": "neuroprotective", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "diuretic", "mentions": 9, "confidence_score": 40, "total_score": 360}, {"name": "cardioactive", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "sedative", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "cardiotonic", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "antiviral", "mentions": 9, "confidence_score": 32, "total_score": 288}, {"name": "vasodilator", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "anticancer", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "antipyretic", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "hemostatic", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "antiarrhythmic", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "immunomodulatory", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "cytotoxic", "mentions": 3, "confidence_score": 15, "total_score": 45}], "properties_description": "The main therapeutic properties of Aesculus hippocastanum are its anti-inflammatory effects, which are attributed to the presence of flavonoids and saponins in the plant. Aesculus hippocastanum also exhibits antioxidant activity, primarily due to the action of its phenolic compounds, which help protect cells from oxidative damage. Additionally, the plant's antimicrobial properties are attributed to its volatile oils, which have been shown to inhibit the growth of various microorganisms. Furthermore, Aesculus hippocastanum possesses antispasmodic properties, which are thought to be mediated by its alkaloids, that help relax smooth muscle and reduce spasms. The plant's hypotensive effects are also well-documented, and are believed to be due to the vasodilatory action of its glycosides, which help lower blood pressure.", "constituents": [{"name": "aesculetin", "mentions": 18, "confidence_score": 157, "total_score": 2826}, {"name": "aesculin", "mentions": 16, "confidence_score": 144, "total_score": 2304}, {"name": "hippocastanin", "mentions": 16, "confidence_score": 127, "total_score": 2032}, {"name": "quercetin", "mentions": 14, "confidence_score": 98, "total_score": 1372}, {"name": "kaempferol", "mentions": 14, "confidence_score": 88, "total_score": 1232}, {"name": "flavonoids", "mentions": 8, "confidence_score": 55, "total_score": 440}, {"name": "aescin", "mentions": 4, "confidence_score": 39, "total_score": 156}, {"name": "steroid saponins", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "hippocastanone", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "aescosides", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "tannins", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "gallic acid", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "fatty acids", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "triterpenoids", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "vitexin", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "isorhapontigenin", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "phenolic acids", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "phytosterols", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "vitamin c", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "triterpenes", "mentions": 3, "confidence_score": 20, "total_score": 60}], "constituents_description": "The most important healing constituents of Aesculus hippocastanum are aesculetin and aesculin, which have been shown to exhibit anti-inflammatory and antioxidant properties due to their ability to scavenge free radicals and inhibit the production of pro-inflammatory enzymes. Hippocastanin, a triterpene saponin, has been found to possess anti-inflammatory and immunomodulatory effects, contributing to the plant's wound-healing and anti-inflammatory activities. Quercetin, a flavonoid glycoside, and kaempferol, a flavonol, are also present in Aesculus hippocastanum and have been demonstrated to exhibit antioxidant and anti-inflammatory properties, as well as potential anticancer and cardiovascular-protective effects. The combination of these constituents is thought to contribute to the plant's traditional uses in treating conditions such as varicose veins and eczema. Research suggests that the healing constituents of Aesculus hippocastanum work synergistically to produce its therapeutic effects.", "preparations": [{"name": "tincture", "mentions": 16, "confidence_score": 149, "total_score": 2384}, {"name": "infusion", "mentions": 16, "confidence_score": 130, "total_score": 2080}, {"name": "ointment", "mentions": 16, "confidence_score": 100, "total_score": 1600}, {"name": "salve", "mentions": 17, "confidence_score": 94, "total_score": 1598}, {"name": "hippocastanum extract", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "aesculus oil", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "poultice", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "topical cream", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "aesculus tincture", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "hippocastanum tincture", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "aesculus extract", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "aesculus cream", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "decoction", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "aesculus salve", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "suppository", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "glycoside", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "tea", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "aesculus tea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "infused vinegar", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "resin", "mentions": 1, "confidence_score": 6, "total_score": 6}], "preparations_description": "The main herbal preparations of Aesculus hippocastanum are tincture, infusion, ointment, salve, and hippocastanum extract. These preparations are typically derived from the bark and leaves of the horse chestnut tree, which contain saponins, flavonoids, and other bioactive compounds with anti-inflammatory and antioxidant properties. Tincture and infusion are liquid preparations used to treat conditions such as varicose veins and hemorrhoids due to their aescin and saponin content. Ointment and salve preparations are topical applications used to treat skin conditions like eczema and wounds due to their anti-inflammatory and antimicrobial properties. Hippocastanum extract is a concentrated form of these bioactive compounds used in various pharmaceutical and cosmetic products for its potential therapeutic benefits.", "side_effects": [{"name": "triggers seizures", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "induce vomiting", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "vomits", "mentions": 3, "confidence_score": 30, "total_score": 90}, {"name": "induces vomiting", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "cause diarrhea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "cause dizziness", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "nauseates users", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "produce diarrhea", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "induce nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "causes diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "induces cardiac arrest", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "allergizes", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cardiac arrests", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "developing nephrotoxicity", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "provoke hypotension", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "elicit tachycardia", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "induce headache", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "cause nausea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "decreases blood pressure", "mentions": 2, "confidence_score": 14, "total_score": 28}], "side_effects_description": "The possible side effects of using Aesculus hippocastanum improperly include triggering seizures due to its toxic compounds, such as aesculin and aesculetin, which can affect the central nervous system. Aesculus hippocastanum can also induce vomiting and vomiting, as its sap contains toxic alkaloids that can irritate the gastrointestinal tract and lead to nausea and emesis. Furthermore, Aesculus hippocastanum can cause diarrhea due to its irritant properties, which can disrupt the normal functioning of the digestive system. The plant's toxic compounds can also have a systemic effect, leading to gastrointestinal disturbances, including nausea, vomiting, and diarrhea. If ingested in large quantities or taken improperly, Aesculus hippocastanum can cause severe and potentially life-threatening symptoms, emphasizing the importance of proper use and handling."}
+{
+    "title": "Aesculus hippocastanum",
+    "herb_slug": "aesculus-hippocastanum",
+    "herb_name_scientific": "Aesculus hippocastanum",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/aesculus-hippocastanum",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "horse chestnut",
+            "mentions": 20,
+            "confidence_score": 195,
+            "total_score": 3900
+        },
+        {
+            "name": "conker tree",
+            "mentions": 19,
+            "confidence_score": 168,
+            "total_score": 3192
+        },
+        {
+            "name": "spanish chestnut",
+            "mentions": 19,
+            "confidence_score": 135,
+            "total_score": 2565
+        },
+        {
+            "name": "buckeye",
+            "mentions": 16,
+            "confidence_score": 101,
+            "total_score": 1616
+        },
+        {
+            "name": "hippocastanum",
+            "mentions": 19,
+            "confidence_score": 80,
+            "total_score": 1520
+        },
+        {
+            "name": "european horse chestnut",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "ox chestnut",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "buckeye tree",
+            "mentions": 6,
+            "confidence_score": 30,
+            "total_score": 180
+        },
+        {
+            "name": "red buckeye",
+            "mentions": 8,
+            "confidence_score": 29,
+            "total_score": 232
+        },
+        {
+            "name": "horse chestnut tree",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "european chestnut",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "white horse chestnut",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "greek chestnut",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "spanish chestnut tree",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "bastard chestnut",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "fair maiden",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "aesculus",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "sweet chestnut",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "caster oil plant",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cuckoo nut tree",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        }
+    ],
+    "what_description": "Aesculus hippocastanum is a deciduous tree species, belonging to the family Sapindaceae. It has a broad, spreading crown and a straight, columnar trunk with a grayish-brown, smooth bark that becomes fissured with age. The leaves are pinnate, consisting of 5-7 leaflets, each 7-15 cm long, with a dark green color on the upper surface and a pale greenish-yellow color on the lower surface. The flowers are large, showy, and pinkish-red in color, produced in May and June in the form of a dense, spherical panicle. The fruit is a two-part, spiny capsule, 10-20 cm long, containing one to three seeds per chamber.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "varicose veins",
+            "mentions": 19,
+            "confidence_score": 177,
+            "total_score": 3363
+        },
+        {
+            "name": "eczema",
+            "mentions": 13,
+            "confidence_score": 84,
+            "total_score": 1092
+        },
+        {
+            "name": "psoriasis",
+            "mentions": 11,
+            "confidence_score": 69,
+            "total_score": 759
+        },
+        {
+            "name": "arthritis",
+            "mentions": 9,
+            "confidence_score": 64,
+            "total_score": 576
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "hypertension",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "diabetes",
+            "mentions": 7,
+            "confidence_score": 39,
+            "total_score": 273
+        },
+        {
+            "name": "skin inflammation",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "gout",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "skin ulcers",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "bruises",
+            "mentions": 6,
+            "confidence_score": 30,
+            "total_score": 180
+        },
+        {
+            "name": "insect bites",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "hemorrhoids",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "cholesterol levels",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "atherosclerosis",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "high cholesterol",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "warts",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Aesculus hippocastanum are varicose veins, eczema, and skin inflammation, which are effectively treated by its flavonoids and phenolic acids that reduce inflammation and improve circulation. Aesculus hippocastanum also shows promise in treating psoriasis through its ability to decrease skin cell proliferation and modulate the immune system, preventing excessive skin cell growth. Arthritis symptoms can be alleviated by the plant's anti-inflammatory and antioxidant properties, which inhibit the production of pro-inflammatory enzymes and free radicals that exacerbate the condition. High blood pressure and cardiovascular disease can be managed through the plant's flavonoids, which have been shown to lower blood pressure and improve lipid profiles, reducing the risk of cardiovascular events. Additionally, Aesculus hippocastanum has been found to be effective in treating hemorrhoids, gout, skin ulcers, bruises, insect bites, and warts, while also showing potential in preventing cancer, fungal infections, and high cholesterol, and reducing atherosclerosis.",
+    "properties": [
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 169,
+            "total_score": 3380
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 162,
+            "total_score": 3240
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 139,
+            "total_score": 2780
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 16,
+            "confidence_score": 99,
+            "total_score": 1584
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 14,
+            "confidence_score": 98,
+            "total_score": 1372
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 11,
+            "confidence_score": 86,
+            "total_score": 946
+        },
+        {
+            "name": "analgesic",
+            "mentions": 15,
+            "confidence_score": 86,
+            "total_score": 1290
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "diuretic",
+            "mentions": 9,
+            "confidence_score": 40,
+            "total_score": 360
+        },
+        {
+            "name": "cardioactive",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "sedative",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "cardiotonic",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "antiviral",
+            "mentions": 9,
+            "confidence_score": 32,
+            "total_score": 288
+        },
+        {
+            "name": "vasodilator",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "anticancer",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "antiarrhythmic",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Aesculus hippocastanum are its anti-inflammatory effects, which are attributed to the presence of flavonoids and saponins in the plant. Aesculus hippocastanum also exhibits antioxidant activity, primarily due to the action of its phenolic compounds, which help protect cells from oxidative damage. Additionally, the plant's antimicrobial properties are attributed to its volatile oils, which have been shown to inhibit the growth of various microorganisms. Furthermore, Aesculus hippocastanum possesses antispasmodic properties, which are thought to be mediated by its alkaloids, that help relax smooth muscle and reduce spasms. The plant's hypotensive effects are also well-documented, and are believed to be due to the vasodilatory action of its glycosides, which help lower blood pressure.",
+    "constituents": [
+        {
+            "name": "aesculetin",
+            "mentions": 18,
+            "confidence_score": 157,
+            "total_score": 2826
+        },
+        {
+            "name": "aesculin",
+            "mentions": 16,
+            "confidence_score": 144,
+            "total_score": 2304
+        },
+        {
+            "name": "hippocastanin",
+            "mentions": 16,
+            "confidence_score": 127,
+            "total_score": 2032
+        },
+        {
+            "name": "quercetin",
+            "mentions": 14,
+            "confidence_score": 98,
+            "total_score": 1372
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 14,
+            "confidence_score": 88,
+            "total_score": 1232
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 8,
+            "confidence_score": 55,
+            "total_score": 440
+        },
+        {
+            "name": "aescin",
+            "mentions": 4,
+            "confidence_score": 39,
+            "total_score": 156
+        },
+        {
+            "name": "steroid saponins",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "hippocastanone",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "aescosides",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "tannins",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "vitexin",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "phytosterols",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "vitamin c",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "triterpenes",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Aesculus hippocastanum are aesculetin and aesculin, which have been shown to exhibit anti-inflammatory and antioxidant properties due to their ability to scavenge free radicals and inhibit the production of pro-inflammatory enzymes. Hippocastanin, a triterpene saponin, has been found to possess anti-inflammatory and immunomodulatory effects, contributing to the plant's wound-healing and anti-inflammatory activities. Quercetin, a flavonoid glycoside, and kaempferol, a flavonol, are also present in Aesculus hippocastanum and have been demonstrated to exhibit antioxidant and anti-inflammatory properties, as well as potential anticancer and cardiovascular-protective effects. The combination of these constituents is thought to contribute to the plant's traditional uses in treating conditions such as varicose veins and eczema. Research suggests that the healing constituents of Aesculus hippocastanum work synergistically to produce its therapeutic effects.",
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 16,
+            "confidence_score": 149,
+            "total_score": 2384
+        },
+        {
+            "name": "infusion",
+            "mentions": 16,
+            "confidence_score": 130,
+            "total_score": 2080
+        },
+        {
+            "name": "ointment",
+            "mentions": 16,
+            "confidence_score": 100,
+            "total_score": 1600
+        },
+        {
+            "name": "salve",
+            "mentions": 17,
+            "confidence_score": 94,
+            "total_score": 1598
+        },
+        {
+            "name": "hippocastanum extract",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "aesculus oil",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "poultice",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "topical cream",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "aesculus tincture",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "hippocastanum tincture",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "aesculus extract",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "aesculus cream",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "decoction",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "aesculus salve",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "suppository",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "glycoside",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "tea",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "aesculus tea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "infused vinegar",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "resin",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Aesculus hippocastanum are tincture, infusion, ointment, salve, and hippocastanum extract. These preparations are typically derived from the bark and leaves of the horse chestnut tree, which contain saponins, flavonoids, and other bioactive compounds with anti-inflammatory and antioxidant properties. Tincture and infusion are liquid preparations used to treat conditions such as varicose veins and hemorrhoids due to their aescin and saponin content. Ointment and salve preparations are topical applications used to treat skin conditions like eczema and wounds due to their anti-inflammatory and antimicrobial properties. Hippocastanum extract is a concentrated form of these bioactive compounds used in various pharmaceutical and cosmetic products for its potential therapeutic benefits.",
+    "side_effects": [
+        {
+            "name": "triggers seizures",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "vomits",
+            "mentions": 3,
+            "confidence_score": 30,
+            "total_score": 90
+        },
+        {
+            "name": "induces vomiting",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "nauseates users",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "produce diarrhea",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "causes diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "induces cardiac arrest",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "allergizes",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cardiac arrests",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "developing nephrotoxicity",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "provoke hypotension",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "elicit tachycardia",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "induce headache",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "decreases blood pressure",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Aesculus hippocastanum improperly include triggering seizures due to its toxic compounds, such as aesculin and aesculetin, which can affect the central nervous system. Aesculus hippocastanum can also induce vomiting and vomiting, as its sap contains toxic alkaloids that can irritate the gastrointestinal tract and lead to nausea and emesis. Furthermore, Aesculus hippocastanum can cause diarrhea due to its irritant properties, which can disrupt the normal functioning of the digestive system. The plant's toxic compounds can also have a systemic effect, leading to gastrointestinal disturbances, including nausea, vomiting, and diarrhea. If ingested in large quantities or taken improperly, Aesculus hippocastanum can cause severe and potentially life-threatening symptoms, emphasizing the importance of proper use and handling."
+}

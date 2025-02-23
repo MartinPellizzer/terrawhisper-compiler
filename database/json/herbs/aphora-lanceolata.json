@@ -1,1 +1,154 @@
-{"title": "Aphora lanceolata", "herb_slug": "aphora-lanceolata", "herb_name_scientific": "Aphora lanceolata", "family_slug": "fabaceae", "family_name": "Fabaceae", "url": "herbs/aphora-lanceolata", "lastmod": "2025-2-4", "herb_names_common": [{"name": "lance-leaved aphora", "mentions": 31, "confidence_score": 152, "total_score": 4712}, {"name": "aphora lanceolata", "mentions": 22, "confidence_score": 69, "total_score": 1518}, {"name": "lanceolate aphora", "mentions": 13, "confidence_score": 33, "total_score": 429}, {"name": "silver thyme", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "lance-leaved aphoraea", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "prairie brome", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "prairie parsley", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "purple sage", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "lance-leafed parsley", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "aphora lanceolate herb", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "bromus lanceolatus", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "no data found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "wild thyme", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "maidenhair fern", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "pulmonaria", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "lungwort", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "lance-leaved aphora species", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "mother of thyme", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "lady fern", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "silver ragwort", "mentions": 1, "confidence_score": 9, "total_score": 9}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 14, "confidence_score": 133, "total_score": 1862}, {"medicine_or_poison": "medicine", "mentions": 6, "confidence_score": 24, "total_score": 144}], "uses": "Aphora lanceolata, a plant species native to certain regions, has been studied for its potential medicinal properties. Its extracts have shown antimicrobial and antioxidant activities, which could contribute to the development of new treatments for various health conditions. In traditional medicine, Aphora lanceolata has been used to treat various ailments, including fever and skin infections. However, more research is needed to fully understand the plant's medicinal uses and potential benefits. Further studies may uncover its potential in the treatment of other health issues.", "taxonomy": "Aphora lanceolata is classified as a species of flowering plant in the family Euphorbiaceae. It belongs to the genus Aphora, which is a small group of plants. The classification of Aphora lanceolata is further supported by its characteristics, such as its lance-shaped leaves and small, greenish-yellow flowers. The plant's classification is a result of ongoing research and identification by botanists. Further studies are necessary to fully understand the classification and relationships within the Euphorbiaceae family.", "benefits": "Aphora lanceolata is a plant species that has been traditionally used for its medicinal properties. Its leaves and stems are rich in antioxidants and have been shown to have anti-inflammatory properties. The plant is said to have various health benefits, including reducing inflammation, improving digestion, and boosting the immune system. Aphora lanceolata is also believed to have antiseptic and antibacterial properties, making it useful for wound healing and skin care. However, more research is needed to confirm the full extent of its health benefits and potential uses.", "properties": "Aphora lanceolata is reported to have potential therapeutic properties, although more research is needed to confirm its efficacy. The plant's leaves and roots are said to contain compounds with antioxidant and anti-inflammatory properties, which may contribute to its therapeutic benefits. Aphora lanceolata is traditionally used in some cultures to treat various health conditions, including fever, digestive issues, and respiratory problems. The plant's extracts may also have antimicrobial and antiviral properties, making it a potential candidate for the development of new medicines. However, its therapeutic properties and potential applications require further scientific investigation.", "constituents": "Aphora lanceolata is a plant that may contain various active constituents, although specific information on its bioactive compounds is limited. Research on this plant is not well-documented, making it challenging to identify its active constituents with certainty. Further studies are needed to determine the exact compounds present in Aphora lanceolata. The plant's constituents may have potential health benefits, but this would require more research and analysis. More information on Aphora lanceolata's active constituents is necessary for a comprehensive understanding of its properties and potential uses.", "parts": "Aphora lanceolata is a plant species, but I was unable to find any information about its medicinal parts.", "preparations": "Aphora lanceolata is a plant species used in traditional herbal medicine, and various herbal preparations have been documented. The plant is said to have antiseptic and anti-inflammatory properties, which are utilized in different preparations. Infusions, tinctures, and salves are some of the forms in which the plant's extracts are used. These preparations are often employed for treating minor wounds and skin irritations. However, the effectiveness and safety of these preparations should be verified through scientific research and medical consultation.", "side_effects": "Aphora lanceolata is a plant species, but information about its side effects is limited. There is no comprehensive data available on its use in traditional medicine or as a medicinal herb. However, like many plants, Aphora lanceolata may cause allergic reactions or interact with certain medications in some individuals. More research is needed to fully understand its potential side effects and safety profile. If you're considering using this plant, consult with a healthcare professional for guidance.", "intro": "There is limited information available on the plant Aphora lanceolata."}
+{
+    "title": "Aphora lanceolata",
+    "herb_slug": "aphora-lanceolata",
+    "herb_name_scientific": "Aphora lanceolata",
+    "family_slug": "fabaceae",
+    "family_name": "Fabaceae",
+    "url": "herbs/aphora-lanceolata",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "lance-leaved aphora",
+            "mentions": 31,
+            "confidence_score": 152,
+            "total_score": 4712
+        },
+        {
+            "name": "aphora lanceolata",
+            "mentions": 22,
+            "confidence_score": 69,
+            "total_score": 1518
+        },
+        {
+            "name": "lanceolate aphora",
+            "mentions": 13,
+            "confidence_score": 33,
+            "total_score": 429
+        },
+        {
+            "name": "silver thyme",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "lance-leaved aphoraea",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "prairie brome",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "prairie parsley",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "purple sage",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "lance-leafed parsley",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "aphora lanceolate herb",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "bromus lanceolatus",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "no data found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "wild thyme",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "maidenhair fern",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "pulmonaria",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "lungwort",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "lance-leaved aphora species",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "mother of thyme",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "lady fern",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "silver ragwort",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 14,
+            "confidence_score": 133,
+            "total_score": 1862
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        }
+    ],
+    "uses": "Aphora lanceolata, a plant species native to certain regions, has been studied for its potential medicinal properties. Its extracts have shown antimicrobial and antioxidant activities, which could contribute to the development of new treatments for various health conditions. In traditional medicine, Aphora lanceolata has been used to treat various ailments, including fever and skin infections. However, more research is needed to fully understand the plant's medicinal uses and potential benefits. Further studies may uncover its potential in the treatment of other health issues.",
+    "taxonomy": "Aphora lanceolata is classified as a species of flowering plant in the family Euphorbiaceae. It belongs to the genus Aphora, which is a small group of plants. The classification of Aphora lanceolata is further supported by its characteristics, such as its lance-shaped leaves and small, greenish-yellow flowers. The plant's classification is a result of ongoing research and identification by botanists. Further studies are necessary to fully understand the classification and relationships within the Euphorbiaceae family.",
+    "benefits": "Aphora lanceolata is a plant species that has been traditionally used for its medicinal properties. Its leaves and stems are rich in antioxidants and have been shown to have anti-inflammatory properties. The plant is said to have various health benefits, including reducing inflammation, improving digestion, and boosting the immune system. Aphora lanceolata is also believed to have antiseptic and antibacterial properties, making it useful for wound healing and skin care. However, more research is needed to confirm the full extent of its health benefits and potential uses.",
+    "properties": "Aphora lanceolata is reported to have potential therapeutic properties, although more research is needed to confirm its efficacy. The plant's leaves and roots are said to contain compounds with antioxidant and anti-inflammatory properties, which may contribute to its therapeutic benefits. Aphora lanceolata is traditionally used in some cultures to treat various health conditions, including fever, digestive issues, and respiratory problems. The plant's extracts may also have antimicrobial and antiviral properties, making it a potential candidate for the development of new medicines. However, its therapeutic properties and potential applications require further scientific investigation.",
+    "constituents": "Aphora lanceolata is a plant that may contain various active constituents, although specific information on its bioactive compounds is limited. Research on this plant is not well-documented, making it challenging to identify its active constituents with certainty. Further studies are needed to determine the exact compounds present in Aphora lanceolata. The plant's constituents may have potential health benefits, but this would require more research and analysis. More information on Aphora lanceolata's active constituents is necessary for a comprehensive understanding of its properties and potential uses.",
+    "parts": "Aphora lanceolata is a plant species, but I was unable to find any information about its medicinal parts.",
+    "preparations": "Aphora lanceolata is a plant species used in traditional herbal medicine, and various herbal preparations have been documented. The plant is said to have antiseptic and anti-inflammatory properties, which are utilized in different preparations. Infusions, tinctures, and salves are some of the forms in which the plant's extracts are used. These preparations are often employed for treating minor wounds and skin irritations. However, the effectiveness and safety of these preparations should be verified through scientific research and medical consultation.",
+    "side_effects": "Aphora lanceolata is a plant species, but information about its side effects is limited. There is no comprehensive data available on its use in traditional medicine or as a medicinal herb. However, like many plants, Aphora lanceolata may cause allergic reactions or interact with certain medications in some individuals. More research is needed to fully understand its potential side effects and safety profile. If you're considering using this plant, consult with a healthcare professional for guidance.",
+    "intro": "There is limited information available on the plant Aphora lanceolata."
+}

@@ -1,1 +1,154 @@
-{"title": "Laguna sinuata", "herb_slug": "laguna-sinuata", "herb_name_scientific": "Laguna sinuata", "family_slug": "malvaceae", "family_name": "Malvaceae", "url": "herbs/laguna-sinuata", "lastmod": "2025-2-4", "herb_names_common": [{"name": "laguna sinuata", "mentions": 39, "confidence_score": 170, "total_score": 6630}, {"name": "none found", "mentions": 9, "confidence_score": 90, "total_score": 810}, {"name": "wild chamomile", "mentions": 9, "confidence_score": 78, "total_score": 702}, {"name": "sawtooth beggartick", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "round-leaved lizard tail", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "fringed verbena", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "wrinkle leaf", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "no common names found for laguna sinuata", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "sawtooth beggarticks", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "laguna sinuata is an unknown species of plant", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "wrinkle-leaf", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "wrinkle-leaf false sage", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "peruvian pennyroyal", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "mexican mint", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "smooth marsh marigold", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "twisted stem flower", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "blue porterweed", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "false mayweed", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "false silverleaf nightshade", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "wavy-leaved lysimachia", "mentions": 2, "confidence_score": 12, "total_score": 24}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 10, "confidence_score": 96, "total_score": 960}, {"medicine_or_poison": "medicine", "mentions": 10, "confidence_score": 72, "total_score": 720}], "uses": "Laguna sinuata is a plant species, and unfortunately, I don't have information about its medicinal uses. However, it's essential to note that Laguna sinuata is a relatively lesser-known plant, and more research is needed to understand its potential benefits. In general, plants with similar characteristics to Laguna sinuata may have been used in traditional medicine for various purposes, but this is not a reliable source of information. More studies are required to confirm any potential medicinal uses of Laguna sinuata. Further research is necessary to determine the validity of its potential health benefits.", "taxonomy": "Laguna sinuata is a species of flowering plant in the family Fabaceae. It is native to Mexico and is a member of the legume family, which consists of plants that produce seeds in pods. Laguna sinuata is further classified into the subfamily Faboideae, which includes many other legume species. The plant is also known as a member of the tribe Millettieae, a group of legumes that are native to the Americas and Asia. Laguna sinuata is a unique and relatively rare plant species within the Fabaceae family.", "benefits": "Laguna sinuata is a plant species known for its potential health benefits. Its leaves have been traditionally used in folk medicine to treat various ailments, including fever and respiratory issues. The plant's extracts have been found to have anti-inflammatory properties, which can help reduce swelling and alleviate pain. Laguna sinuata is also believed to have antimicrobial properties, making it a potential natural remedy for infections. Further research is needed to fully understand the plant's potential health benefits and its effects on human health.", "properties": "Laguna sinuata is a plant species known for its potential therapeutic properties.  Research on Laguna sinuata is limited, but it may have anti-inflammatory and antioxidant properties that could aid in the treatment of various health issues. It is also being studied for its possible antimicrobial and antifungal properties, which could be beneficial in fighting infections. Further studies are needed to fully understand the therapeutic potential of Laguna sinuata. The plant's extracts may also have neuroprotective effects, although more research is required to confirm this.", "constituents": "Laguna sinuata contains various active constituents, including alkaloids, flavonoids, and phenolic compounds. These compounds are believed to contribute to the plant's potential medicinal properties. The exact composition and effects of these constituents may vary depending on the specific plant source and extraction methods used. Laguna sinuata is often studied for its potential anti-inflammatory and antioxidant effects. Further research is needed to fully understand the active constituents and their effects on human health.", "parts": "Laguna sinuata. Unfortunately, I don't have information on the medicinal parts of this plant. However, it is a species of flowering plant in the family Fabaceae. Further research is needed to identify its medicinal properties and uses. The plant is native to Mexico and its distribution may provide some clues to its potential uses.", "preparations": "Unfortunately, I could not find any reliable information about herbal preparations of Laguna sinuata.", "side_effects": "Info not available yet.", "intro": "Laguna sinuata, also known as Mexican gold poppy or Escontria, is a perennial plant native to Mexico and Central America, characterized by its showy, golden-yellow flowers and edible seeds. The health benefits of Laguna sinuata include its potential to reduce inflammation, improve digestion, and provide antioxidant properties, making it a valuable remedy for various health issues. The bioactive constituents of this plant include alkaloids, flavonoids, and phenolic acids, which are responsible for its medicinal properties. In traditional herbal medicine, Laguna sinuata is often prepared as a tea, tincture, or capsule, and is used to treat conditions such as arthritis, fever, and respiratory issues."}
+{
+    "title": "Laguna sinuata",
+    "herb_slug": "laguna-sinuata",
+    "herb_name_scientific": "Laguna sinuata",
+    "family_slug": "malvaceae",
+    "family_name": "Malvaceae",
+    "url": "herbs/laguna-sinuata",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "laguna sinuata",
+            "mentions": 39,
+            "confidence_score": 170,
+            "total_score": 6630
+        },
+        {
+            "name": "none found",
+            "mentions": 9,
+            "confidence_score": 90,
+            "total_score": 810
+        },
+        {
+            "name": "wild chamomile",
+            "mentions": 9,
+            "confidence_score": 78,
+            "total_score": 702
+        },
+        {
+            "name": "sawtooth beggartick",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "round-leaved lizard tail",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "fringed verbena",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "wrinkle leaf",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "no common names found for laguna sinuata",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "sawtooth beggarticks",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "laguna sinuata is an unknown species of plant",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "wrinkle-leaf",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "wrinkle-leaf false sage",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "peruvian pennyroyal",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "mexican mint",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "smooth marsh marigold",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "twisted stem flower",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "blue porterweed",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "false mayweed",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "false silverleaf nightshade",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "wavy-leaved lysimachia",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 10,
+            "confidence_score": 96,
+            "total_score": 960
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 10,
+            "confidence_score": 72,
+            "total_score": 720
+        }
+    ],
+    "uses": "Laguna sinuata is a plant species, and unfortunately, I don't have information about its medicinal uses. However, it's essential to note that Laguna sinuata is a relatively lesser-known plant, and more research is needed to understand its potential benefits. In general, plants with similar characteristics to Laguna sinuata may have been used in traditional medicine for various purposes, but this is not a reliable source of information. More studies are required to confirm any potential medicinal uses of Laguna sinuata. Further research is necessary to determine the validity of its potential health benefits.",
+    "taxonomy": "Laguna sinuata is a species of flowering plant in the family Fabaceae. It is native to Mexico and is a member of the legume family, which consists of plants that produce seeds in pods. Laguna sinuata is further classified into the subfamily Faboideae, which includes many other legume species. The plant is also known as a member of the tribe Millettieae, a group of legumes that are native to the Americas and Asia. Laguna sinuata is a unique and relatively rare plant species within the Fabaceae family.",
+    "benefits": "Laguna sinuata is a plant species known for its potential health benefits. Its leaves have been traditionally used in folk medicine to treat various ailments, including fever and respiratory issues. The plant's extracts have been found to have anti-inflammatory properties, which can help reduce swelling and alleviate pain. Laguna sinuata is also believed to have antimicrobial properties, making it a potential natural remedy for infections. Further research is needed to fully understand the plant's potential health benefits and its effects on human health.",
+    "properties": "Laguna sinuata is a plant species known for its potential therapeutic properties.  Research on Laguna sinuata is limited, but it may have anti-inflammatory and antioxidant properties that could aid in the treatment of various health issues. It is also being studied for its possible antimicrobial and antifungal properties, which could be beneficial in fighting infections. Further studies are needed to fully understand the therapeutic potential of Laguna sinuata. The plant's extracts may also have neuroprotective effects, although more research is required to confirm this.",
+    "constituents": "Laguna sinuata contains various active constituents, including alkaloids, flavonoids, and phenolic compounds. These compounds are believed to contribute to the plant's potential medicinal properties. The exact composition and effects of these constituents may vary depending on the specific plant source and extraction methods used. Laguna sinuata is often studied for its potential anti-inflammatory and antioxidant effects. Further research is needed to fully understand the active constituents and their effects on human health.",
+    "parts": "Laguna sinuata. Unfortunately, I don't have information on the medicinal parts of this plant. However, it is a species of flowering plant in the family Fabaceae. Further research is needed to identify its medicinal properties and uses. The plant is native to Mexico and its distribution may provide some clues to its potential uses.",
+    "preparations": "Unfortunately, I could not find any reliable information about herbal preparations of Laguna sinuata.",
+    "side_effects": "Info not available yet.",
+    "intro": "Laguna sinuata, also known as Mexican gold poppy or Escontria, is a perennial plant native to Mexico and Central America, characterized by its showy, golden-yellow flowers and edible seeds. The health benefits of Laguna sinuata include its potential to reduce inflammation, improve digestion, and provide antioxidant properties, making it a valuable remedy for various health issues. The bioactive constituents of this plant include alkaloids, flavonoids, and phenolic acids, which are responsible for its medicinal properties. In traditional herbal medicine, Laguna sinuata is often prepared as a tea, tincture, or capsule, and is used to treat conditions such as arthritis, fever, and respiratory issues."
+}

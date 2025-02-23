@@ -1,1 +1,719 @@
-{"title": "Platysace juncea", "herb_slug": "platysace-juncea", "herb_name_scientific": "Platysace juncea", "family_slug": "apiaceae", "family_name": "Apiaceae", "url": "herbs/platysace-juncea", "lastmod": "2025-2-1", "herb_names_common": [{"name": "juncea platysace", "mentions": 37, "confidence_score": 196, "total_score": 7252}, {"name": "fern-leaved platysace", "mentions": 13, "confidence_score": 110, "total_score": 1430}, {"name": "platysace juncea", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "slender platysace", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "sea celery", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "junegrass platysace", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "junceous platysace", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "slender prickly pear bush", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "beach carrot", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "prickly burreed", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "slender burreed", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "ferny bush pea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "slender beach banquet", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "slender prickly pear", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "junceoides", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "bog celery", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "slender prickly currant", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "slender platysace juncea", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "bog rocket", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "slender juniper", "mentions": 1, "confidence_score": 9, "total_score": 9}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 169, "total_score": 3380}], "what_description": "Platysace juncea is an erect, glabrous perennial herb of the family Apiaceae, native to Western Australia. It has a slender stem, 10-40 cm tall, branched above and terminating in a compound umbel of 5-10 mm diameter. Leaves are ternate, linear to lanceolate, 1-2 mm wide, with 2-5 pairs of pinnae. The plant reproduces by small brown seeds, 0.5-0.7 mm long, in a schizocarp. Platysace juncea flowers from June to October, producing small white to greenish flowers, 1-2 mm diameter, in a dense umbel.", "category_action": "antimicrobial", "ailments": [{"name": "inflammation", "mentions": 12, "confidence_score": 87, "total_score": 1044}, {"name": "digestive issues", "mentions": 12, "confidence_score": 85, "total_score": 1020}, {"name": "skin irritation", "mentions": 12, "confidence_score": 83, "total_score": 996}, {"name": "fungal infections", "mentions": 14, "confidence_score": 81, "total_score": 1134}, {"name": "insect bites", "mentions": 9, "confidence_score": 60, "total_score": 540}, {"name": "diarrhea", "mentions": 8, "confidence_score": 56, "total_score": 448}, {"name": "wounds", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "wound healing", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "eczema", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "pain relief", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "urinary tract infections", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "coughs", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "fever", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "anxiety", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "rheumatism", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "bacterial infections", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "respiratory issues", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "psoriasis", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "arthritis", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "skin conditions", "mentions": 2, "confidence_score": 18, "total_score": 36}], "ailments_description": "The most common ailments you can heal with Platysace juncea are inflammation, digestive issues, and skin irritation. Platysace juncea has been used to treat fungal infections, particularly those affecting the skin and nails. It has also been effective in soothing insect bites and diarrhea, while its antiseptic properties aid in wound healing and eczema management. Additionally, it has been used for pain relief, urinary tract infections, and coughs, as well as reducing fever. Furthermore, Platysace juncea has been utilized in treating anxiety, rheumatism, bacterial infections, respiratory issues, psoriasis, arthritis, and other skin conditions.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 153, "total_score": 3060}, {"name": "antioxidant", "mentions": 20, "confidence_score": 150, "total_score": 3000}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 120, "total_score": 2400}, {"name": "antibacterial", "mentions": 12, "confidence_score": 92, "total_score": 1104}, {"name": "antifungal", "mentions": 12, "confidence_score": 80, "total_score": 960}, {"name": "analgesic", "mentions": 17, "confidence_score": 69, "total_score": 1173}, {"name": "antiviral", "mentions": 14, "confidence_score": 54, "total_score": 756}, {"name": "anticancer", "mentions": 9, "confidence_score": 41, "total_score": 369}, {"name": "cytotoxic", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "antiseptic", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "antipyretic", "mentions": 7, "confidence_score": 25, "total_score": 175}, {"name": "antiparasitic", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "cardioprotective", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "antiproliferative", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "diuretic", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "hypotensive", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "uremic toxin removal", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "wound healing", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "antihistamine", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "hepatoprotective", "mentions": 3, "confidence_score": 12, "total_score": 36}], "properties_description": "The main therapeutic properties of Platysace juncea are its ability to exhibit antimicrobial properties, which are attributed to the presence of volatile oils and flavonoids, thereby inhibiting the growth of various pathogens. The antioxidant properties of this plant are due to the abundance of saponins, which help protect against cell damage and oxidative stress. Additionally, Platysace juncea has anti-inflammatory properties, which are thought to be mediated by the action of triterpenoids, thus reducing inflammation and alleviating pain. Furthermore, the antibacterial properties of this plant are attributed to the presence of phenolic compounds, which interfere with the bacterial cell wall and membrane, ultimately leading to cell death. Its antifungal properties are believed to be due to the action of sesquiterpenes, which exhibit a fungicidal effect against various fungal species.", "constituents": [{"name": "phenolic acids", "mentions": 15, "confidence_score": 119, "total_score": 1785}, {"name": "flavonoids", "mentions": 17, "confidence_score": 116, "total_score": 1972}, {"name": "coumarins", "mentions": 16, "confidence_score": 91, "total_score": 1456}, {"name": "saponins", "mentions": 13, "confidence_score": 65, "total_score": 845}, {"name": "terpenoids", "mentions": 14, "confidence_score": 62, "total_score": 868}, {"name": "phytosterols", "mentions": 9, "confidence_score": 54, "total_score": 486}, {"name": "alkaloids", "mentions": 14, "confidence_score": 40, "total_score": 560}, {"name": "glycosides", "mentions": 13, "confidence_score": 39, "total_score": 507}, {"name": "tannins", "mentions": 8, "confidence_score": 34, "total_score": 272}, {"name": "lignans", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "triterpenoids", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "\u03b2-sitosterol", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "essential oils", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "phenolic compounds", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "fatty acids", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "quercetin", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "volatile oils", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "phytol", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "caffeic acid", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "\u03b2-amyrin", "mentions": 2, "confidence_score": 12, "total_score": 24}], "constituents_description": "The most important healing constituents of Platysace juncea are phenolic acids which have been shown to exhibit antioxidant and anti-inflammatory properties, flavonoids that have been found to possess antimicrobial and anti-cancer activities, coumarins which have demonstrated anticoagulant and antiseptic properties, saponins that have been used traditionally to treat various ailments including fever and rheumatism, and terpenoids that have been reported to possess anti-inflammatory and antiviral activities. These compounds have been identified through various phytochemical studies and have been isolated and purified from different parts of the plant. The presence of these constituents in Platysace juncea is thought to be responsible for its traditional uses in folk medicine. The antioxidant properties of phenolic acids and flavonoids are believed to contribute to the plant's ability to protect against oxidative stress and inflammation. The combination of these different bioactive compounds in Platysace juncea makes it a potentially valuable source of natural products for the development of new medicines.", "preparations": [{"name": "infusion", "mentions": 19, "confidence_score": 164, "total_score": 3116}, {"name": "tincture", "mentions": 20, "confidence_score": 155, "total_score": 3100}, {"name": "tea", "mentions": 18, "confidence_score": 142, "total_score": 2556}, {"name": "salve", "mentions": 20, "confidence_score": 110, "total_score": 2200}, {"name": "decoction", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "poultice", "mentions": 9, "confidence_score": 34, "total_score": 306}, {"name": "infused oil", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "ointment", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "oil", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "resin", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "extract", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "infused vinegar", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "vaporizer", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Platysace juncea are infusion, decoction, tincture, tea, and salve. Infusion is made by steeping the leaves and stems in hot water to release their bioactive compounds. Decoction is prepared by boiling the roots and stems in water to extract their medicinal properties. Tincture is made by soaking the leaves and stems in a solvent such as ethanol to create a concentrated liquid extract. Salve is prepared by infusing the leaves and stems in a carrier oil to create a topical ointment for skin conditions.", "side_effects": [{"name": "experience nausea", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "it causes diarrhea", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "induce vomiting", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "cause liver damage", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "trigger seizures", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "induce nausea", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "it triggers allergic reactions", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "it triggers seizures", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "induces vomiting", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "exacerbate allergies", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiences nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiences allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause cardiac arrest", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "trigger allergic reactions", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "experiences headache", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "experiences dizziness", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "increase risk of bleeding", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "get headache", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "it increases blood pressure", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effects of using Platysace juncea improperly include inducing severe gastrointestinal issues such as nausea and diarrhea due to its toxic glycosides, which can cause vomiting. Prolonged or excessive consumption can lead to liver damage and potential liver failure due to the plant's hepatotoxic properties. In rare cases, Platysace juncea has been known to trigger seizures in individuals with a history of epilepsy or other seizure disorders. This is due to the plant's neurotoxic compounds that can alter normal brain function. Overall, improper use of Platysace juncea can have serious consequences, emphasizing the need for caution and proper medical supervision.", "uses": "Platysace juncea, also known as native celery, has been used in traditional medicine by Indigenous Australians. Its leaves, stems, and roots have been employed to treat various ailments, including colds, fever, and respiratory issues. The plant's medicinal properties are attributed to its volatile oils, which have been shown to possess antimicrobial and anti-inflammatory properties. Traditionally, native celery was used as a treatment for sore throats, coughs, and skin conditions. Further research is needed to fully understand the plant's potential health benefits and optimal methods of use.", "taxonomy": "Platysace juncea is a species of flowering plant in the family Apiaceae. It is native to Western Australia. The classification of Platysace juncea places it within the genus Platysace and the subfamily Apioideae. The family Apiaceae is commonly known as the carrot or parsley family. This classification helps to organize and understand the relationships between different plant species.", "benefits": "Platysace juncea is a species of plant that is native to Australia and is known for its potential health benefits. The plant's leaves, stems, and roots are rich in antioxidants and have been traditionally used in Aboriginal medicine to treat various ailments. Platysace juncea has been reported to possess anti-inflammatory and antimicrobial properties, which may help to reduce inflammation and prevent infections. Additionally, the plant's extracts have been shown to exhibit antioxidant and free radical scavenging activities, which can help to protect against cell damage and oxidative stress. Further research is needed to fully understand the potential health benefits of Platysace juncea.", "parts": "Platysace juncea is a species of plant native to Western Australia, but specific information regarding its medicinal parts is limited. The plant is known to be used in traditional medicine, particularly for its potential anti-inflammatory properties. However, more research is needed to fully understand the plant's medicinal properties and the specific parts that are used. It is also worth noting that Platysace juncea, like other plants in the carrot family (Apiaceae), may contain compounds with potential medicinal value. Further study is required to determine the exact medicinal parts of Platysace juncea.", "intro": "The Platysace juncea, also known as Juncea platysace, is a type of flowering plant that belongs to the family Apiaceae. This plant is valued for its potential health benefits, including anti-inflammatory and antimicrobial properties, which may help to soothe digestive issues and boost the immune system. The bioactive constituents of Platysace juncea include volatile oils, flavonoids, and phenolic acids, which contribute to its medicinal properties. Traditionally, Platysace juncea is used in herbal medicine and is often prepared as a tea or tincture, which can be used to treat a range of ailments, including colds, fever, and digestive disorders."}
+{
+    "title": "Platysace juncea",
+    "herb_slug": "platysace-juncea",
+    "herb_name_scientific": "Platysace juncea",
+    "family_slug": "apiaceae",
+    "family_name": "Apiaceae",
+    "url": "herbs/platysace-juncea",
+    "lastmod": "2025-2-1",
+    "herb_names_common": [
+        {
+            "name": "juncea platysace",
+            "mentions": 37,
+            "confidence_score": 196,
+            "total_score": 7252
+        },
+        {
+            "name": "fern-leaved platysace",
+            "mentions": 13,
+            "confidence_score": 110,
+            "total_score": 1430
+        },
+        {
+            "name": "platysace juncea",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "slender platysace",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "sea celery",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "junegrass platysace",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "junceous platysace",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "slender prickly pear bush",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "beach carrot",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "prickly burreed",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "slender burreed",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "ferny bush pea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "slender beach banquet",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "slender prickly pear",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "junceoides",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "bog celery",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "slender prickly currant",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "slender platysace juncea",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "bog rocket",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "slender juniper",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 169,
+            "total_score": 3380
+        }
+    ],
+    "what_description": "Platysace juncea is an erect, glabrous perennial herb of the family Apiaceae, native to Western Australia. It has a slender stem, 10-40 cm tall, branched above and terminating in a compound umbel of 5-10 mm diameter. Leaves are ternate, linear to lanceolate, 1-2 mm wide, with 2-5 pairs of pinnae. The plant reproduces by small brown seeds, 0.5-0.7 mm long, in a schizocarp. Platysace juncea flowers from June to October, producing small white to greenish flowers, 1-2 mm diameter, in a dense umbel.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 12,
+            "confidence_score": 87,
+            "total_score": 1044
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 12,
+            "confidence_score": 85,
+            "total_score": 1020
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 12,
+            "confidence_score": 83,
+            "total_score": 996
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 14,
+            "confidence_score": 81,
+            "total_score": 1134
+        },
+        {
+            "name": "insect bites",
+            "mentions": 9,
+            "confidence_score": 60,
+            "total_score": 540
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 8,
+            "confidence_score": 56,
+            "total_score": 448
+        },
+        {
+            "name": "wounds",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "wound healing",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "eczema",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "pain relief",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "urinary tract infections",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "coughs",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "fever",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "anxiety",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "bacterial infections",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "psoriasis",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "arthritis",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Platysace juncea are inflammation, digestive issues, and skin irritation. Platysace juncea has been used to treat fungal infections, particularly those affecting the skin and nails. It has also been effective in soothing insect bites and diarrhea, while its antiseptic properties aid in wound healing and eczema management. Additionally, it has been used for pain relief, urinary tract infections, and coughs, as well as reducing fever. Furthermore, Platysace juncea has been utilized in treating anxiety, rheumatism, bacterial infections, respiratory issues, psoriasis, arthritis, and other skin conditions.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 153,
+            "total_score": 3060
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 150,
+            "total_score": 3000
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 120,
+            "total_score": 2400
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 12,
+            "confidence_score": 92,
+            "total_score": 1104
+        },
+        {
+            "name": "antifungal",
+            "mentions": 12,
+            "confidence_score": 80,
+            "total_score": 960
+        },
+        {
+            "name": "analgesic",
+            "mentions": 17,
+            "confidence_score": 69,
+            "total_score": 1173
+        },
+        {
+            "name": "antiviral",
+            "mentions": 14,
+            "confidence_score": 54,
+            "total_score": 756
+        },
+        {
+            "name": "anticancer",
+            "mentions": 9,
+            "confidence_score": 41,
+            "total_score": 369
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 7,
+            "confidence_score": 25,
+            "total_score": 175
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "antiproliferative",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "diuretic",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "uremic toxin removal",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Platysace juncea are its ability to exhibit antimicrobial properties, which are attributed to the presence of volatile oils and flavonoids, thereby inhibiting the growth of various pathogens. The antioxidant properties of this plant are due to the abundance of saponins, which help protect against cell damage and oxidative stress. Additionally, Platysace juncea has anti-inflammatory properties, which are thought to be mediated by the action of triterpenoids, thus reducing inflammation and alleviating pain. Furthermore, the antibacterial properties of this plant are attributed to the presence of phenolic compounds, which interfere with the bacterial cell wall and membrane, ultimately leading to cell death. Its antifungal properties are believed to be due to the action of sesquiterpenes, which exhibit a fungicidal effect against various fungal species.",
+    "constituents": [
+        {
+            "name": "phenolic acids",
+            "mentions": 15,
+            "confidence_score": 119,
+            "total_score": 1785
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 17,
+            "confidence_score": 116,
+            "total_score": 1972
+        },
+        {
+            "name": "coumarins",
+            "mentions": 16,
+            "confidence_score": 91,
+            "total_score": 1456
+        },
+        {
+            "name": "saponins",
+            "mentions": 13,
+            "confidence_score": 65,
+            "total_score": 845
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 14,
+            "confidence_score": 62,
+            "total_score": 868
+        },
+        {
+            "name": "phytosterols",
+            "mentions": 9,
+            "confidence_score": 54,
+            "total_score": 486
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 14,
+            "confidence_score": 40,
+            "total_score": 560
+        },
+        {
+            "name": "glycosides",
+            "mentions": 13,
+            "confidence_score": 39,
+            "total_score": 507
+        },
+        {
+            "name": "tannins",
+            "mentions": 8,
+            "confidence_score": 34,
+            "total_score": 272
+        },
+        {
+            "name": "lignans",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "\u03b2-sitosterol",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "essential oils",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "phenolic compounds",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "quercetin",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "volatile oils",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "phytol",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "\u03b2-amyrin",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Platysace juncea are phenolic acids which have been shown to exhibit antioxidant and anti-inflammatory properties, flavonoids that have been found to possess antimicrobial and anti-cancer activities, coumarins which have demonstrated anticoagulant and antiseptic properties, saponins that have been used traditionally to treat various ailments including fever and rheumatism, and terpenoids that have been reported to possess anti-inflammatory and antiviral activities. These compounds have been identified through various phytochemical studies and have been isolated and purified from different parts of the plant. The presence of these constituents in Platysace juncea is thought to be responsible for its traditional uses in folk medicine. The antioxidant properties of phenolic acids and flavonoids are believed to contribute to the plant's ability to protect against oxidative stress and inflammation. The combination of these different bioactive compounds in Platysace juncea makes it a potentially valuable source of natural products for the development of new medicines.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 19,
+            "confidence_score": 164,
+            "total_score": 3116
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 155,
+            "total_score": 3100
+        },
+        {
+            "name": "tea",
+            "mentions": 18,
+            "confidence_score": 142,
+            "total_score": 2556
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 110,
+            "total_score": 2200
+        },
+        {
+            "name": "decoction",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "poultice",
+            "mentions": 9,
+            "confidence_score": 34,
+            "total_score": 306
+        },
+        {
+            "name": "infused oil",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "ointment",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "oil",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "resin",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "extract",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "infused vinegar",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "vaporizer",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Platysace juncea are infusion, decoction, tincture, tea, and salve. Infusion is made by steeping the leaves and stems in hot water to release their bioactive compounds. Decoction is prepared by boiling the roots and stems in water to extract their medicinal properties. Tincture is made by soaking the leaves and stems in a solvent such as ethanol to create a concentrated liquid extract. Salve is prepared by infusing the leaves and stems in a carrier oil to create a topical ointment for skin conditions.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "it causes diarrhea",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "it triggers allergic reactions",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "it triggers seizures",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "induces vomiting",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause cardiac arrest",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "experiences headache",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "increase risk of bleeding",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "get headache",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "it increases blood pressure",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Platysace juncea improperly include inducing severe gastrointestinal issues such as nausea and diarrhea due to its toxic glycosides, which can cause vomiting. Prolonged or excessive consumption can lead to liver damage and potential liver failure due to the plant's hepatotoxic properties. In rare cases, Platysace juncea has been known to trigger seizures in individuals with a history of epilepsy or other seizure disorders. This is due to the plant's neurotoxic compounds that can alter normal brain function. Overall, improper use of Platysace juncea can have serious consequences, emphasizing the need for caution and proper medical supervision.",
+    "uses": "Platysace juncea, also known as native celery, has been used in traditional medicine by Indigenous Australians. Its leaves, stems, and roots have been employed to treat various ailments, including colds, fever, and respiratory issues. The plant's medicinal properties are attributed to its volatile oils, which have been shown to possess antimicrobial and anti-inflammatory properties. Traditionally, native celery was used as a treatment for sore throats, coughs, and skin conditions. Further research is needed to fully understand the plant's potential health benefits and optimal methods of use.",
+    "taxonomy": "Platysace juncea is a species of flowering plant in the family Apiaceae. It is native to Western Australia. The classification of Platysace juncea places it within the genus Platysace and the subfamily Apioideae. The family Apiaceae is commonly known as the carrot or parsley family. This classification helps to organize and understand the relationships between different plant species.",
+    "benefits": "Platysace juncea is a species of plant that is native to Australia and is known for its potential health benefits. The plant's leaves, stems, and roots are rich in antioxidants and have been traditionally used in Aboriginal medicine to treat various ailments. Platysace juncea has been reported to possess anti-inflammatory and antimicrobial properties, which may help to reduce inflammation and prevent infections. Additionally, the plant's extracts have been shown to exhibit antioxidant and free radical scavenging activities, which can help to protect against cell damage and oxidative stress. Further research is needed to fully understand the potential health benefits of Platysace juncea.",
+    "parts": "Platysace juncea is a species of plant native to Western Australia, but specific information regarding its medicinal parts is limited. The plant is known to be used in traditional medicine, particularly for its potential anti-inflammatory properties. However, more research is needed to fully understand the plant's medicinal properties and the specific parts that are used. It is also worth noting that Platysace juncea, like other plants in the carrot family (Apiaceae), may contain compounds with potential medicinal value. Further study is required to determine the exact medicinal parts of Platysace juncea.",
+    "intro": "The Platysace juncea, also known as Juncea platysace, is a type of flowering plant that belongs to the family Apiaceae. This plant is valued for its potential health benefits, including anti-inflammatory and antimicrobial properties, which may help to soothe digestive issues and boost the immune system. The bioactive constituents of Platysace juncea include volatile oils, flavonoids, and phenolic acids, which contribute to its medicinal properties. Traditionally, Platysace juncea is used in herbal medicine and is often prepared as a tea or tincture, which can be used to treat a range of ailments, including colds, fever, and digestive disorders."
+}

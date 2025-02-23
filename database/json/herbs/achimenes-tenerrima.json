@@ -1,1 +1,1475 @@
-{"title": "Achimenes tenerrima", "herb_slug": "achimenes-tenerrima", "herb_name_scientific": "Achimenes tenerrima", "url": "herbs/achimenes-tenerrima", "lastmod": "2025-1-1", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 16, "confidence_score": 112, "total_score": 1792}, {"medicine_or_poison": "poison", "mentions": 4, "confidence_score": 22, "total_score": 88}], "category_action": "anti-inflammatory", "ailments": [{"name": "inflammation", "mentions": 15, "confidence_score": 114, "total_score": 1710}, {"name": "wound healing", "mentions": 10, "confidence_score": 81, "total_score": 810}, {"name": "diarrhea", "mentions": 10, "confidence_score": 80, "total_score": 800}, {"name": "skin irritation", "mentions": 8, "confidence_score": 58, "total_score": 464}, {"name": "fever", "mentions": 6, "confidence_score": 48, "total_score": 288}, {"name": "fungal infections", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "anxiety", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "insect bites", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "cough", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "respiratory issues", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "stress", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "hypertension", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "fatigue", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "rheumatism", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "pain relief", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "antibacterial effects", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "digestive issues", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "influenza", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "diabetes", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "fever reduction", "mentions": 3, "confidence_score": 17, "total_score": 51}], "ailments_description": "The most common ailments you can heal with Achimenes tenerrima are bronchitis, a condition characterized by inflammation of the airways. Achimenes tenerrima is also effective in treating rheumatism, a chronic condition causing joint pain and inflammation. Its medicinal properties make it an ideal remedy for fever, often caused by bacterial infections. Additionally, the plant's antiseptic properties also aid in the treatment of boils, a painful skin infection caused by bacterial growth. Achimenes tenerrima's anti-inflammatory properties also make it a valuable remedy for eczema, a chronic skin condition causing redness and itching.", "properties": [{"name": "antimicrobial", "mentions": 19, "confidence_score": 137, "total_score": 2603}, {"name": "antioxidant", "mentions": 19, "confidence_score": 135, "total_score": 2565}, {"name": "anti-inflammatory", "mentions": 19, "confidence_score": 124, "total_score": 2356}, {"name": "analgesic", "mentions": 18, "confidence_score": 81, "total_score": 1458}, {"name": "antiviral", "mentions": 13, "confidence_score": 45, "total_score": 585}, {"name": "antiseptic", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "diuretic", "mentions": 7, "confidence_score": 30, "total_score": 210}, {"name": "cytotoxic", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "antispasmodic", "mentions": 7, "confidence_score": 26, "total_score": 182}, {"name": "antifungal", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "hepatoprotective", "mentions": 7, "confidence_score": 23, "total_score": 161}, {"name": "antibacterial", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "antipyretic", "mentions": 6, "confidence_score": 18, "total_score": 108}, {"name": "antihistamine", "mentions": 7, "confidence_score": 18, "total_score": 126}, {"name": "expectorant", "mentions": 6, "confidence_score": 18, "total_score": 108}, {"name": "hemostatic", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "sedative", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "hypotensive", "mentions": 4, "confidence_score": 11, "total_score": 44}, {"name": "anticancer", "mentions": 5, "confidence_score": 11, "total_score": 55}, {"name": "wound healing", "mentions": 2, "confidence_score": 9, "total_score": 18}], "properties_description": "The main therapeutic properties of Achimenes tenerrima are its anti-inflammatory effects, which are attributed to the presence of flavonoids and phenolic acids that inhibit the production of pro-inflammatory enzymes. This plant also exhibits antimicrobial activity, particularly against certain strains of bacteria and fungi, due to the presence of saponins and other terpenoids in its extracts. Furthermore, Achimenes tenerrima has been found to have antioxidant properties, with its phenolic compounds scavenging free radicals and protecting cells from oxidative damage. Additionally, the plant's volatile oils have been shown to possess analgesic and sedative effects, providing relief from pain and promoting relaxation. Its immunomodulatory effects, mediated by flavonoids and other bioactive compounds, also contribute to the plant's medicinal properties.", "constituents": [{"name": "alkaloids", "mentions": 21, "confidence_score": 143, "total_score": 3003}, {"name": "flavonoids", "mentions": 20, "confidence_score": 133, "total_score": 2660}, {"name": "saponins", "mentions": 20, "confidence_score": 121, "total_score": 2420}, {"name": "phenolic acids", "mentions": 19, "confidence_score": 103, "total_score": 1957}, {"name": "glycosides", "mentions": 18, "confidence_score": 101, "total_score": 1818}, {"name": "tannins", "mentions": 19, "confidence_score": 98, "total_score": 1862}, {"name": "terpenoids", "mentions": 17, "confidence_score": 89, "total_score": 1513}, {"name": "coumarins", "mentions": 17, "confidence_score": 44, "total_score": 748}, {"name": "cardiac glycosides", "mentions": 11, "confidence_score": 28, "total_score": 308}, {"name": "iridoid glycosides", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "carotenoids", "mentions": 7, "confidence_score": 23, "total_score": 161}, {"name": "amino acids", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "triterpenoids", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "anthocyanins", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "sterols", "mentions": 6, "confidence_score": 10, "total_score": 60}, {"name": "iridoids", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "anthraquinones", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "irregular glycosides", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "phenolic compounds", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "sesquiterpenes", "mentions": 1, "confidence_score": 5, "total_score": 5}], "constituents_description": "The most important healing constituents of Achimenes tenerrima are flavonoids and alkaloids, with the primary compounds being tenerrimine, demethoxytenerrimine, and nortenerrimine. These compounds have been found to have anti-inflammatory, antimicrobial, and antioxidant properties, which can help to reduce pain and swelling, prevent infection, and protect against oxidative stress. Research has also identified the presence of iridoids, including 8-epi-10-deacetylioscytopside, which have been shown to have anti-inflammatory and immunomodulatory effects. Additionally, Achimenes tenerrima contains phenolic acids, including ferulic and sinapic acid, which have been found to have antioxidant and anti-inflammatory properties. The combination of these bioactive compounds provides the plant with its healing potential, making it a valuable resource for the treatment of various health conditions.", "herb_names_common": [{"name": "achimenes", "mentions": 31, "confidence_score": 262, "total_score": 8122}, {"name": "hot lips", "mentions": 7, "confidence_score": 57, "total_score": 399}, {"name": "mexican orchid", "mentions": 7, "confidence_score": 53, "total_score": 371}, {"name": "hot lip", "mentions": 5, "confidence_score": 43, "total_score": 215}, {"name": "mexican petunia", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "mandevilla", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "achimenes tenerrima", "mentions": 9, "confidence_score": 28, "total_score": 252}, {"name": "tender flower", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "miniature orchid", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "mexican mimosa", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "pink trumpet flower", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "pinwheel flower", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cupflower", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "miniature butterfly flower", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "monkey flower", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "tender lips", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "sensitive plant", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "hot lips plant", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "mexican flower", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "mexican butterfly plant", "mentions": 2, "confidence_score": 11, "total_score": 22}], "preparations": [{"name": "achimenes infusion", "mentions": 17, "confidence_score": 148, "total_score": 2516}, {"name": "tea", "mentions": 17, "confidence_score": 127, "total_score": 2159}, {"name": "tincture", "mentions": 17, "confidence_score": 113, "total_score": 1921}, {"name": "salve", "mentions": 18, "confidence_score": 83, "total_score": 1494}, {"name": "achimenes decoction", "mentions": 12, "confidence_score": 53, "total_score": 636}, {"name": "infused oil", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "ointment", "mentions": 6, "confidence_score": 20, "total_score": 120}, {"name": "achimenes tincture", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "poultice", "mentions": 5, "confidence_score": 17, "total_score": 85}, {"name": "achimenes tea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "achimenes salve", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "tisane", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "infused water", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "achimenes ointment", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "achimenes extract", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "essence", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "essential oil", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "vaporizer", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "glycerite", "mentions": 1, "confidence_score": 1, "total_score": 1}], "preparations_description": "The main herbal preparations of Achimenes tenerrima are achimenes infusion, tea, tincture, salve, and achimenes decoction. Achimenes infusion is prepared by steeping the dried or fresh flowers in hot water to make a tea for digestive issues and as a sedative. The tincture is a concentrated liquid extract of the plant made by steeping the flowers in a solvent like ethanol or glycerin, often used for its antiseptic and anti-inflammatory properties. Achimenes decoction is a liquid extract made by boiling the roots and rhizomes in water to treat fever, cough, and sore throat. Achimenes salve is a topical preparation made from the tincture or decoction mixed with a carrier oil, often used to treat skin irritations and wounds.", "side_effects": [{"name": "cause diarrhea", "mentions": 10, "confidence_score": 83, "total_score": 830}, {"name": "induce nausea", "mentions": 6, "confidence_score": 53, "total_score": 318}, {"name": "induce vomiting", "mentions": 5, "confidence_score": 48, "total_score": 240}, {"name": "trigger allergic reactions", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "trigger seizures", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "lead to coma", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "produce hallucinations", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "cause liver damage", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "cause vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "increase blood pressure", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "developing diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "produce headaches", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "cause dizziness", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "induce respiratory depression", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "lower blood pressure", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "cause cardiac arrest", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "induce seizures", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "induce respiratory failure", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "cause cardiac arrhythmia", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "hypotension", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "develop skin irritation", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "trigger psychosis", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "provoke liver damage", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "lead to death", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "vomits", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "toxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "evoke vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "increase heart rate", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "experience cardiac issues", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "reduce white blood cell count", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause respiratory depression", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "dehydration developing", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "trigger cardiac arrest", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiencing diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffering from gastritis", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "interfere with blood clotting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences allergic reactions", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "collapses", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "hypertension", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "trigger headache", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "produce diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "show allergic reaction", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "vomiting heavily", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "affect central nervous system", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing abdominal pain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiencing dizziness", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "showing allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiencing insomnia", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "disrupt kidney function", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops liver damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "increases blood pressure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "developing allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "produce abdominal pain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "elicit diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "comas", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "elicit renal failure", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "provoke skin irritation", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "produce excessive salivation", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "cause excessive sedation", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "produce dermatitis", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "prolong bleeding time", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "produces seizures", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "leads to nausea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffering diarrhea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "trigger hepatotoxicity", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "seizures", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "lead to paralysis", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "stimulate cardiac arrest", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "get dizziness", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "cause kidney damage", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "lead to kidney failure", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "showing allergic reaction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "provoke allergic reaction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffering nausea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "developing headache", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffering from respiratory problems", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "produce renal failure", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "causes skin irritation", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "affects kidney function", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "experiencing abdominal pain", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "respiratory", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "lead to dizziness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "cause hypotension", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "get headaches", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "elevate blood pressure", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "induce coma", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "showing fatigue", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experiencing liver damage", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "triggers respiratory issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "results in vomiting", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "showing increased heart rate", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "lead to dehydration", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "produce cardiotoxicity", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "cardiac", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "aggravate allergy", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffer allergic reactions", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience cardiovascular issues", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "hypotension occurring", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiencing skin irritation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "facing cardiovascular issues", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "cause hallucinations", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "cause cardiovascular collapse", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "induces diarrhea", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffering vomiting", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "allergic", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "have respiratory problems", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "increase respiratory rate", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "produce hepatotoxicity", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "produce respiratory distress", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "worsen kidney function", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop seizures", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "seizure inducing", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "affect liver function", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "developing allergic reaction", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "developing neurological impairment", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "produce respiratory failure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experiencing fatigue", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "affect respiratory function", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience tremors", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "elevate heart rate", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "show neurological damage", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiencing cardiac issues", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "facing kidney failure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "induce insomnia", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "developing headaches", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "show inflammation", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "provoke coma", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "interfere with breathing", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "experience fatal outcome", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "death resulting", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "induce hallucinations", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "showing seizure activity", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "provoke asthma attack", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "showing muscle weakness", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "elicit nephrotoxicity", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effect of using Achimenes tenerrima are its improper use can cause diarrhea due to its toxic glycosides which can irritate the digestive system and cause inflammation. Achimenes tenerrima contains toxic compounds that can induce nausea and vomiting as the body tries to expel the toxins. It can also trigger allergic reactions in some individuals, particularly those with sensitive skin, as the plant's sap can cause skin irritation and inflammation. Furthermore, Achimenes tenerrima has been known to contain neurotoxins that can trigger seizures in rare cases, particularly when ingested in large amounts. This is why improper use of Achimenes tenerrima can be fatal and should be avoided altogether.", "family_slug": "gesneriaceae", "family_name": "Gesneriaceae", "what_description": "Achimenes tenerrima is a species of flowering plant in the family Gesneriaceae. It is an evergreen perennial with slender stems, up to 30 cm long, and heart-shaped leaves, 5-10 cm long, with ciliate margins. The plant produces white flowers, 7-9 cm long, with a tube 2-3 cm long and a corolla 5-7 cm long, in terminal clusters. Each flower has 4-5 petals, 2-3 cm long, and 5 stamens, 1-2 cm long. The plant typically grows in shaded, moist areas in tropical forests at elevations of 1,000-2,000 meters.", "uses": "Achimenes tenerrima has been used in traditional medicine due to its potential anti-inflammatory and antimicrobial properties. Its extracts have been studied for possible uses in treating various health issues. However, more research is needed to confirm its effectiveness and safety for human consumption. Some studies suggest that Achimenes tenerrima may have antioxidant properties, which could contribute to its potential health benefits. Further investigation is necessary to fully understand its medicinal uses and potential applications.", "taxonomy": "Achimenes tenerrima is classified within the family Gesneriaceae, a group of flowering plants commonly known as the African violet family. This classification places Achimenes tenerrima alongside other similar flowering plants. The genus Achimenes itself is native to Central and South America, with Achimenes tenerrima specifically being found in Mexico and Guatemala. Further classification within the family Gesneriaceae places Achimenes tenerrima within the tribe Gesnerieae. The species is recognized for its unique, delicate flowers and growth habits.", "benefits": "Achimenes tenerrima is known for its medicinal properties, particularly in traditional medicine. It is said to have anti-inflammatory and antiseptic properties, which may help in soothing skin irritations and wounds. The plant is also believed to have antiviral and antimicrobial properties, making it potentially useful in treating various infections. Additionally, Achimenes tenerrima is thought to have antioxidant properties, which may help protect against cell damage and oxidative stress. Further research is needed to fully understand the health benefits and potential uses of this plant.", "parts": "Achimenes tenerrima is a plant species that belongs to the family Gesneriaceae, but there is limited information available regarding its medicinal properties. However, traditional medicine often uses various plant species within the Gesneriaceae family for their potential health benefits. Achimenes tenerrima leaves, flowers, or roots may be utilized in some traditional remedies, although the exact parts used and their specific medicinal properties are not well-documented. The plant's potential medicinal applications are likely similar to those of other Gesneriaceae species, which have been traditionally used to treat various ailments. Further research is needed to confirm the medicinal properties and uses of Achimenes tenerrima.", "intro": "Achimenes tenerrima, also known as the \"Mexican Orchid,\" is a flowering plant species native to the tropical regions of Central America, characterized by its delicate, orchid-like flowers and slender stems. The plant has been used in traditional medicine for its purported health benefits, including anti-inflammatory, antimicrobial, and antiviral properties, which may help alleviate symptoms associated with colds, fever, and respiratory infections. Bioactive constituents of Achimenes tenerrima include flavonoids, alkaloids, and phenolic acids, which have been shown to exhibit antioxidant and immunomodulatory activities. In traditional medicine, Achimenes tenerrima is commonly prepared as a tea, infusion, or tincture, as well as being used in topical applications to treat skin conditions and wounds."}
+{
+    "title": "Achimenes tenerrima",
+    "herb_slug": "achimenes-tenerrima",
+    "herb_name_scientific": "Achimenes tenerrima",
+    "url": "herbs/achimenes-tenerrima",
+    "lastmod": "2025-1-1",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 16,
+            "confidence_score": 112,
+            "total_score": 1792
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        }
+    ],
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 15,
+            "confidence_score": 114,
+            "total_score": 1710
+        },
+        {
+            "name": "wound healing",
+            "mentions": 10,
+            "confidence_score": 81,
+            "total_score": 810
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 10,
+            "confidence_score": 80,
+            "total_score": 800
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 8,
+            "confidence_score": 58,
+            "total_score": 464
+        },
+        {
+            "name": "fever",
+            "mentions": 6,
+            "confidence_score": 48,
+            "total_score": 288
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "anxiety",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "insect bites",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "cough",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "stress",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "hypertension",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "fatigue",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "pain relief",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "antibacterial effects",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "influenza",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "diabetes",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "fever reduction",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Achimenes tenerrima are bronchitis, a condition characterized by inflammation of the airways. Achimenes tenerrima is also effective in treating rheumatism, a chronic condition causing joint pain and inflammation. Its medicinal properties make it an ideal remedy for fever, often caused by bacterial infections. Additionally, the plant's antiseptic properties also aid in the treatment of boils, a painful skin infection caused by bacterial growth. Achimenes tenerrima's anti-inflammatory properties also make it a valuable remedy for eczema, a chronic skin condition causing redness and itching.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 19,
+            "confidence_score": 137,
+            "total_score": 2603
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 19,
+            "confidence_score": 135,
+            "total_score": 2565
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 19,
+            "confidence_score": 124,
+            "total_score": 2356
+        },
+        {
+            "name": "analgesic",
+            "mentions": 18,
+            "confidence_score": 81,
+            "total_score": 1458
+        },
+        {
+            "name": "antiviral",
+            "mentions": 13,
+            "confidence_score": 45,
+            "total_score": 585
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "diuretic",
+            "mentions": 7,
+            "confidence_score": 30,
+            "total_score": 210
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 7,
+            "confidence_score": 26,
+            "total_score": 182
+        },
+        {
+            "name": "antifungal",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 7,
+            "confidence_score": 23,
+            "total_score": 161
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 6,
+            "confidence_score": 18,
+            "total_score": 108
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 7,
+            "confidence_score": 18,
+            "total_score": 126
+        },
+        {
+            "name": "expectorant",
+            "mentions": 6,
+            "confidence_score": 18,
+            "total_score": 108
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "sedative",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 4,
+            "confidence_score": 11,
+            "total_score": 44
+        },
+        {
+            "name": "anticancer",
+            "mentions": 5,
+            "confidence_score": 11,
+            "total_score": 55
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Achimenes tenerrima are its anti-inflammatory effects, which are attributed to the presence of flavonoids and phenolic acids that inhibit the production of pro-inflammatory enzymes. This plant also exhibits antimicrobial activity, particularly against certain strains of bacteria and fungi, due to the presence of saponins and other terpenoids in its extracts. Furthermore, Achimenes tenerrima has been found to have antioxidant properties, with its phenolic compounds scavenging free radicals and protecting cells from oxidative damage. Additionally, the plant's volatile oils have been shown to possess analgesic and sedative effects, providing relief from pain and promoting relaxation. Its immunomodulatory effects, mediated by flavonoids and other bioactive compounds, also contribute to the plant's medicinal properties.",
+    "constituents": [
+        {
+            "name": "alkaloids",
+            "mentions": 21,
+            "confidence_score": 143,
+            "total_score": 3003
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 20,
+            "confidence_score": 133,
+            "total_score": 2660
+        },
+        {
+            "name": "saponins",
+            "mentions": 20,
+            "confidence_score": 121,
+            "total_score": 2420
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 19,
+            "confidence_score": 103,
+            "total_score": 1957
+        },
+        {
+            "name": "glycosides",
+            "mentions": 18,
+            "confidence_score": 101,
+            "total_score": 1818
+        },
+        {
+            "name": "tannins",
+            "mentions": 19,
+            "confidence_score": 98,
+            "total_score": 1862
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 17,
+            "confidence_score": 89,
+            "total_score": 1513
+        },
+        {
+            "name": "coumarins",
+            "mentions": 17,
+            "confidence_score": 44,
+            "total_score": 748
+        },
+        {
+            "name": "cardiac glycosides",
+            "mentions": 11,
+            "confidence_score": 28,
+            "total_score": 308
+        },
+        {
+            "name": "iridoid glycosides",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "carotenoids",
+            "mentions": 7,
+            "confidence_score": 23,
+            "total_score": 161
+        },
+        {
+            "name": "amino acids",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "anthocyanins",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "sterols",
+            "mentions": 6,
+            "confidence_score": 10,
+            "total_score": 60
+        },
+        {
+            "name": "iridoids",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "anthraquinones",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "irregular glycosides",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "phenolic compounds",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "sesquiterpenes",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Achimenes tenerrima are flavonoids and alkaloids, with the primary compounds being tenerrimine, demethoxytenerrimine, and nortenerrimine. These compounds have been found to have anti-inflammatory, antimicrobial, and antioxidant properties, which can help to reduce pain and swelling, prevent infection, and protect against oxidative stress. Research has also identified the presence of iridoids, including 8-epi-10-deacetylioscytopside, which have been shown to have anti-inflammatory and immunomodulatory effects. Additionally, Achimenes tenerrima contains phenolic acids, including ferulic and sinapic acid, which have been found to have antioxidant and anti-inflammatory properties. The combination of these bioactive compounds provides the plant with its healing potential, making it a valuable resource for the treatment of various health conditions.",
+    "herb_names_common": [
+        {
+            "name": "achimenes",
+            "mentions": 31,
+            "confidence_score": 262,
+            "total_score": 8122
+        },
+        {
+            "name": "hot lips",
+            "mentions": 7,
+            "confidence_score": 57,
+            "total_score": 399
+        },
+        {
+            "name": "mexican orchid",
+            "mentions": 7,
+            "confidence_score": 53,
+            "total_score": 371
+        },
+        {
+            "name": "hot lip",
+            "mentions": 5,
+            "confidence_score": 43,
+            "total_score": 215
+        },
+        {
+            "name": "mexican petunia",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "mandevilla",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "achimenes tenerrima",
+            "mentions": 9,
+            "confidence_score": 28,
+            "total_score": 252
+        },
+        {
+            "name": "tender flower",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "miniature orchid",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "mexican mimosa",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "pink trumpet flower",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "pinwheel flower",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cupflower",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "miniature butterfly flower",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "monkey flower",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "tender lips",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "sensitive plant",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "hot lips plant",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "mexican flower",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "mexican butterfly plant",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "preparations": [
+        {
+            "name": "achimenes infusion",
+            "mentions": 17,
+            "confidence_score": 148,
+            "total_score": 2516
+        },
+        {
+            "name": "tea",
+            "mentions": 17,
+            "confidence_score": 127,
+            "total_score": 2159
+        },
+        {
+            "name": "tincture",
+            "mentions": 17,
+            "confidence_score": 113,
+            "total_score": 1921
+        },
+        {
+            "name": "salve",
+            "mentions": 18,
+            "confidence_score": 83,
+            "total_score": 1494
+        },
+        {
+            "name": "achimenes decoction",
+            "mentions": 12,
+            "confidence_score": 53,
+            "total_score": 636
+        },
+        {
+            "name": "infused oil",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "ointment",
+            "mentions": 6,
+            "confidence_score": 20,
+            "total_score": 120
+        },
+        {
+            "name": "achimenes tincture",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "poultice",
+            "mentions": 5,
+            "confidence_score": 17,
+            "total_score": 85
+        },
+        {
+            "name": "achimenes tea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "achimenes salve",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "tisane",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "infused water",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "achimenes ointment",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "achimenes extract",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "essence",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "essential oil",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "vaporizer",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Achimenes tenerrima are achimenes infusion, tea, tincture, salve, and achimenes decoction. Achimenes infusion is prepared by steeping the dried or fresh flowers in hot water to make a tea for digestive issues and as a sedative. The tincture is a concentrated liquid extract of the plant made by steeping the flowers in a solvent like ethanol or glycerin, often used for its antiseptic and anti-inflammatory properties. Achimenes decoction is a liquid extract made by boiling the roots and rhizomes in water to treat fever, cough, and sore throat. Achimenes salve is a topical preparation made from the tincture or decoction mixed with a carrier oil, often used to treat skin irritations and wounds.",
+    "side_effects": [
+        {
+            "name": "cause diarrhea",
+            "mentions": 10,
+            "confidence_score": 83,
+            "total_score": 830
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 6,
+            "confidence_score": 53,
+            "total_score": 318
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 5,
+            "confidence_score": 48,
+            "total_score": 240
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "lead to coma",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "produce hallucinations",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "developing diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "produce headaches",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "induce respiratory depression",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "lower blood pressure",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "cause cardiac arrest",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "induce respiratory failure",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "cause cardiac arrhythmia",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "hypotension",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "trigger psychosis",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "provoke liver damage",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "lead to death",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "vomits",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "toxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "evoke vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "experience cardiac issues",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "reduce white blood cell count",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause respiratory depression",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "dehydration developing",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "trigger cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffering from gastritis",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "interfere with blood clotting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "collapses",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "hypertension",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "trigger headache",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "produce diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "show allergic reaction",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "vomiting heavily",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "affect central nervous system",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing abdominal pain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "showing allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiencing insomnia",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "disrupt kidney function",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops liver damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "increases blood pressure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "developing allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "produce abdominal pain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "elicit diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "comas",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "elicit renal failure",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "provoke skin irritation",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "produce excessive salivation",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "cause excessive sedation",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "produce dermatitis",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "prolong bleeding time",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "produces seizures",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "leads to nausea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffering diarrhea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "trigger hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "seizures",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "lead to paralysis",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "stimulate cardiac arrest",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "get dizziness",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "cause kidney damage",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "lead to kidney failure",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "showing allergic reaction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "provoke allergic reaction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffering nausea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "developing headache",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffering from respiratory problems",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "produce renal failure",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "causes skin irritation",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "affects kidney function",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "respiratory",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "lead to dizziness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "cause hypotension",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "get headaches",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "induce coma",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "showing fatigue",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experiencing liver damage",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "triggers respiratory issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "results in vomiting",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "showing increased heart rate",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "lead to dehydration",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "produce cardiotoxicity",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "cardiac",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "aggravate allergy",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffer allergic reactions",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "hypotension occurring",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiencing skin irritation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "facing cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "cause hallucinations",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "cause cardiovascular collapse",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "induces diarrhea",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffering vomiting",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "allergic",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "have respiratory problems",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "increase respiratory rate",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "produce hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "produce respiratory distress",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "worsen kidney function",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop seizures",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "seizure inducing",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "affect liver function",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "developing allergic reaction",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "developing neurological impairment",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "produce respiratory failure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experiencing fatigue",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "affect respiratory function",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience tremors",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "elevate heart rate",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "show neurological damage",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiencing cardiac issues",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "facing kidney failure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "induce insomnia",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "developing headaches",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "show inflammation",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "provoke coma",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "interfere with breathing",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "experience fatal outcome",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "death resulting",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "induce hallucinations",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "showing seizure activity",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "provoke asthma attack",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "showing muscle weakness",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "elicit nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effect of using Achimenes tenerrima are its improper use can cause diarrhea due to its toxic glycosides which can irritate the digestive system and cause inflammation. Achimenes tenerrima contains toxic compounds that can induce nausea and vomiting as the body tries to expel the toxins. It can also trigger allergic reactions in some individuals, particularly those with sensitive skin, as the plant's sap can cause skin irritation and inflammation. Furthermore, Achimenes tenerrima has been known to contain neurotoxins that can trigger seizures in rare cases, particularly when ingested in large amounts. This is why improper use of Achimenes tenerrima can be fatal and should be avoided altogether.",
+    "family_slug": "gesneriaceae",
+    "family_name": "Gesneriaceae",
+    "what_description": "Achimenes tenerrima is a species of flowering plant in the family Gesneriaceae. It is an evergreen perennial with slender stems, up to 30 cm long, and heart-shaped leaves, 5-10 cm long, with ciliate margins. The plant produces white flowers, 7-9 cm long, with a tube 2-3 cm long and a corolla 5-7 cm long, in terminal clusters. Each flower has 4-5 petals, 2-3 cm long, and 5 stamens, 1-2 cm long. The plant typically grows in shaded, moist areas in tropical forests at elevations of 1,000-2,000 meters.",
+    "uses": "Achimenes tenerrima has been used in traditional medicine due to its potential anti-inflammatory and antimicrobial properties. Its extracts have been studied for possible uses in treating various health issues. However, more research is needed to confirm its effectiveness and safety for human consumption. Some studies suggest that Achimenes tenerrima may have antioxidant properties, which could contribute to its potential health benefits. Further investigation is necessary to fully understand its medicinal uses and potential applications.",
+    "taxonomy": "Achimenes tenerrima is classified within the family Gesneriaceae, a group of flowering plants commonly known as the African violet family. This classification places Achimenes tenerrima alongside other similar flowering plants. The genus Achimenes itself is native to Central and South America, with Achimenes tenerrima specifically being found in Mexico and Guatemala. Further classification within the family Gesneriaceae places Achimenes tenerrima within the tribe Gesnerieae. The species is recognized for its unique, delicate flowers and growth habits.",
+    "benefits": "Achimenes tenerrima is known for its medicinal properties, particularly in traditional medicine. It is said to have anti-inflammatory and antiseptic properties, which may help in soothing skin irritations and wounds. The plant is also believed to have antiviral and antimicrobial properties, making it potentially useful in treating various infections. Additionally, Achimenes tenerrima is thought to have antioxidant properties, which may help protect against cell damage and oxidative stress. Further research is needed to fully understand the health benefits and potential uses of this plant.",
+    "parts": "Achimenes tenerrima is a plant species that belongs to the family Gesneriaceae, but there is limited information available regarding its medicinal properties. However, traditional medicine often uses various plant species within the Gesneriaceae family for their potential health benefits. Achimenes tenerrima leaves, flowers, or roots may be utilized in some traditional remedies, although the exact parts used and their specific medicinal properties are not well-documented. The plant's potential medicinal applications are likely similar to those of other Gesneriaceae species, which have been traditionally used to treat various ailments. Further research is needed to confirm the medicinal properties and uses of Achimenes tenerrima.",
+    "intro": "Achimenes tenerrima, also known as the \"Mexican Orchid,\" is a flowering plant species native to the tropical regions of Central America, characterized by its delicate, orchid-like flowers and slender stems. The plant has been used in traditional medicine for its purported health benefits, including anti-inflammatory, antimicrobial, and antiviral properties, which may help alleviate symptoms associated with colds, fever, and respiratory infections. Bioactive constituents of Achimenes tenerrima include flavonoids, alkaloids, and phenolic acids, which have been shown to exhibit antioxidant and immunomodulatory activities. In traditional medicine, Achimenes tenerrima is commonly prepared as a tea, infusion, or tincture, as well as being used in topical applications to treat skin conditions and wounds."
+}

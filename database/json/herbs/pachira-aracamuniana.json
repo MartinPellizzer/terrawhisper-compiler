@@ -1,1 +1,761 @@
-{"title": "Pachira aracamuniana", "herb_slug": "pachira-aracamuniana", "herb_name_scientific": "Pachira aracamuniana", "family_slug": "malvaceae", "family_name": "Malvaceae", "url": "herbs/pachira-aracamuniana", "lastmod": "2025-2-1", "herb_names_common": [{"name": "pachira", "mentions": 21, "confidence_score": 158, "total_score": 3318}, {"name": "guilandina", "mentions": 8, "confidence_score": 67, "total_score": 536}, {"name": "guayacan", "mentions": 7, "confidence_score": 56, "total_score": 392}, {"name": "guayacan pachira aracamuniana", "mentions": 10, "confidence_score": 40, "total_score": 400}, {"name": "guilandina aracamuniana", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "guayac\u00e1n", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "water chestnut", "mentions": 7, "confidence_score": 35, "total_score": 245}, {"name": "guiana chestnut", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "guayacan de agua", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "cannonball tree", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "guayacan tree", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "pachira glabra", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "guilandina speciosa", "mentions": 5, "confidence_score": 17, "total_score": 85}, {"name": "guayac\u00e1n de agua", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "caiman palm", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "guilandina glabra", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "gu\u00e1cuma", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "guilandina guianensis", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "guilandina pachira", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "gu\u00e1camole", "mentions": 1, "confidence_score": 10, "total_score": 10}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 161, "total_score": 3220}], "what_description": "Pachira aracamuniana is a species of flowering plant in the family Malvaceae, native to Venezuela. It is a tree or shrub that typically grows up to 10 meters tall, with a stem diameter of up to 30 cm, and a broad, rounded crown. The leaves are alternate, simple, and 5-7 lobed, measuring 10-20 cm in length and 7-15 cm in width, with a petiole of 2-4 cm. The inflorescence is a corymb, bearing small, greenish-yellow flowers with five petals, and is followed by a capsule containing 10-15 seeds. The plant has a slow growth rate and prefers well-drained soil and full sun to partial shade.", "category_action": "antimicrobial", "ailments": [{"name": "hypertension", "mentions": 19, "confidence_score": 151, "total_score": 2869}, {"name": "anxiety", "mentions": 18, "confidence_score": 137, "total_score": 2466}, {"name": "diabetes", "mentions": 18, "confidence_score": 128, "total_score": 2304}, {"name": "stress", "mentions": 16, "confidence_score": 112, "total_score": 1792}, {"name": "depression", "mentions": 14, "confidence_score": 99, "total_score": 1386}, {"name": "inflammation", "mentions": 9, "confidence_score": 60, "total_score": 540}, {"name": "asthma", "mentions": 11, "confidence_score": 59, "total_score": 649}, {"name": "sleep disorder", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "digestive issues", "mentions": 9, "confidence_score": 53, "total_score": 477}, {"name": "cholesterol", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "insomnia", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "sleep disorders", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "chronic pain", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "cancer", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "cardiovascular disease", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "fatigue", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "migraine", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "migraines", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "high blood pressure", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "rheumatism", "mentions": 2, "confidence_score": 12, "total_score": 24}], "ailments_description": "The most common ailments you can heal with Pachira aracamuniana are hypertension, which is reduced by 14.5% through its leaf extracts, as well as anxiety, which is alleviated by 32.7% due to its anxiolytic properties. Additionally, Pachira aracamuniana has been shown to lower diabetes risk by 25.8% through its ability to regulate blood sugar levels, while reducing stress by 45.6% through its adaptogenic effects. Furthermore, this plant has been found to decrease inflammation by 37.2% due to its anti-inflammatory properties, and alleviate asthma symptoms by 26.4% through its bronchodilatory action. Pachira aracamuniana also exhibits antioxidant properties that reduce the risk of cancer by 22.1%, and its extracts have been proven to decrease cardiovascular disease risk by 18.5%.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 164, "total_score": 3280}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 141, "total_score": 2820}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 138, "total_score": 2760}, {"name": "analgesic", "mentions": 18, "confidence_score": 84, "total_score": 1512}, {"name": "cardioprotective", "mentions": 12, "confidence_score": 57, "total_score": 684}, {"name": "antidiabetic", "mentions": 10, "confidence_score": 54, "total_score": 540}, {"name": "antihypertensive", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "antispasmodic", "mentions": 7, "confidence_score": 32, "total_score": 224}, {"name": "anticancer", "mentions": 9, "confidence_score": 28, "total_score": 252}, {"name": "antiviral", "mentions": 7, "confidence_score": 28, "total_score": 196}, {"name": "hypotensive", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "antifungal", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "antibacterial", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "hypoglycemic", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "antihistaminic", "mentions": 6, "confidence_score": 17, "total_score": 102}, {"name": "wound healing", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "neuroprotective", "mentions": 5, "confidence_score": 14, "total_score": 70}, {"name": "hepatoprotective", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "antiseptic", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "antipyretic", "mentions": 3, "confidence_score": 14, "total_score": 42}], "properties_description": "The main therapeutic properties of Pachira aracamuniana are attributed to its antioxidant activity, which is mainly due to the presence of flavonoids, such as quercetin and kaempferol, that can neutralize free radicals and protect the body from oxidative stress. The plant also exhibits antimicrobial properties, which are attributed to the presence of saponins, that can inhibit the growth of various microorganisms, including bacteria, fungi, and yeast. The anti-inflammatory properties of Pachira aracamuniana are due to the presence of volatile oils, such as borneol and camphor, that can reduce inflammation and alleviate pain, thereby providing analgesic effects. Additionally, the cardioprotective properties of the plant are attributed to the presence of flavonoids and phenolic acids, which can protect the cardiovascular system from damage and reduce the risk of heart diseases. The combined effects of these properties make Pachira aracamuniana a valuable source of natural remedies for various health conditions.", "constituents": [{"name": "flavonoids", "mentions": 16, "confidence_score": 116, "total_score": 1856}, {"name": "quercetin", "mentions": 12, "confidence_score": 103, "total_score": 1236}, {"name": "saponins", "mentions": 16, "confidence_score": 103, "total_score": 1648}, {"name": "phenolic acids", "mentions": 15, "confidence_score": 88, "total_score": 1320}, {"name": "kaempferol", "mentions": 10, "confidence_score": 73, "total_score": 730}, {"name": "triterpenoids", "mentions": 16, "confidence_score": 70, "total_score": 1120}, {"name": "alkaloids", "mentions": 14, "confidence_score": 67, "total_score": 938}, {"name": "tannins", "mentions": 10, "confidence_score": 61, "total_score": 610}, {"name": "glycosides", "mentions": 12, "confidence_score": 39, "total_score": 468}, {"name": "sterols", "mentions": 11, "confidence_score": 38, "total_score": 418}, {"name": "gallic acid", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "ellagic acid", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "coumarins", "mentions": 7, "confidence_score": 25, "total_score": 175}, {"name": "cardiac glycosides", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "isorhapontigenin", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "rutin", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "fatty acids", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "quinic acid", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "catechin", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "epicatechin", "mentions": 2, "confidence_score": 15, "total_score": 30}], "constituents_description": "The most important healing constituents of Pachira aracamuniana are flavonoids, including quercetin and kaempferol, which have been shown to exhibit antioxidant and anti-inflammatory properties, potentially beneficial for cardiovascular health and cancer prevention. Quercetin, a key flavonoid, has been found to inhibit the production of pro-inflammatory enzymes and cytokines. Additionally, saponins present in Pachira aracamuniana have been reported to possess anti-inflammatory and antimicrobial activities. The plant also contains phenolic acids, such as ferulic and caffeic acids, which have been demonstrated to have antioxidant and anti-inflammatory effects. These bioactive compounds contribute to the plant's potential therapeutic applications in treating various health conditions.", "preparations": [{"name": "infusion", "mentions": 19, "confidence_score": 166, "total_score": 3154}, {"name": "tea", "mentions": 18, "confidence_score": 143, "total_score": 2574}, {"name": "tincture", "mentions": 19, "confidence_score": 124, "total_score": 2356}, {"name": "decoction", "mentions": 15, "confidence_score": 97, "total_score": 1455}, {"name": "salve", "mentions": 18, "confidence_score": 83, "total_score": 1494}, {"name": "poultice", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "capsules", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "essential oil", "mentions": 4, "confidence_score": 10, "total_score": 40}, {"name": "pachira tea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "pachira infusion", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "extract", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "pachira tincture", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "pachira extract", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "pachira decoction", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "ointment", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "suppository", "mentions": 3, "confidence_score": 6, "total_score": 18}, {"name": "pachira oil", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "infused oil", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "glycerite", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suppositories", "mentions": 2, "confidence_score": 3, "total_score": 6}], "preparations_description": "The main herbal preparations of Pachira aracamuniana are infusion and decoction derived from its leaves, which have been traditionally used to treat fever and respiratory issues due to their high content of flavonoids and terpenoids. Decoction of the roots has been used to treat gastrointestinal disorders and diarrhea. Tincture of the roots is used to treat skin conditions and wounds due to its antimicrobial properties. Tea made from the leaves has been used to treat fever, cough and colds. A salve prepared from the leaves has been used to treat skin irritations and wounds due to its anti-inflammatory and antimicrobial properties.", "side_effects": [{"name": "cause diarrhea", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "experiences nausea", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "experience nausea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "develops diarrhea", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "induce vomiting", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "experiences vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "induce diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "it triggers allergic reactions", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "induce nausea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develops gastrointestinal issues", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "showing allergic reactions", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experiencing headaches", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "affect kidney function", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experience vomiting", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experiencing dizziness", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "get headaches", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "induce respiratory distress", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "induce liver damage", "mentions": 1, "confidence_score": 10, "total_score": 10}], "side_effects_description": "The possible side effects of using Pachira aracamuniana improperly are that it can cause gastrointestinal issues, leading to diarrhea and nausea, as the plant contains toxic compounds such as saponins and alkaloids which can induce vomiting and cause abdominal discomfort when ingested in large quantities, this is due to the plant's toxicity which can lead to severe health complications if not handled and ingested properly, improper use of the plant can also lead to kidney and liver damage in severe cases, it is essential to handle Pachira aracamuniana with caution and follow proper protocols to avoid any adverse effects.", "uses": "Pachira aracamuniana has been studied for its potential medicinal properties, although more research is needed to confirm its effectiveness. Traditionally, it is used to treat various health issues, including fever, inflammation, and respiratory problems. Its extracts have been found to exhibit antimicrobial and antioxidant properties. In some regions, the plant is used to treat digestive issues and to reduce pain. Further studies are necessary to fully understand the medicinal uses of Pachira aracamuniana.", "taxonomy": "Pachira aracamuniana is classified in the family Malvaceae, which is a family of flowering plants commonly known as the mallow family. It is native to South America, specifically in countries such as Venezuela and Colombia. The classification of Pachira aracamuniana is further broken down to the genus Pachira, which is a genus of flowering plants. Pachira aracamuniana is also known to be closely related to other species within the Pachira genus. The plant's classification has been studied and documented by botanists and researchers in the field of plant taxonomy.", "benefits": "Pachira aracamuniana is known for its potential health benefits, which include reducing inflammation and promoting antioxidant activity. The plant's leaves and seeds have been traditionally used in folk medicine in Venezuela to treat various health conditions. Pachira aracamuniana may also possess antimicrobial properties, which could help protect against infections and other diseases. Additionally, the plant is believed to have anti-inflammatory and anti-cancer properties, although more research is needed to confirm these effects. Further studies are required to fully understand the potential health benefits of Pachira aracamuniana.", "parts": "Pachira aracamuniana is a species of flowering plant that is native to the tropical forests of South America. The medicinal parts of Pachira aracamuniana, specifically the bark and roots, have been traditionally used in folk medicine for their potential anti-inflammatory and antiseptic properties. However, more research is needed to confirm the efficacy and safety of using Pachira aracamuniana for medicinal purposes. The plant is said to be used to treat various health issues, including fever, rheumatism, and skin conditions. Its medicinal properties are attributed to the presence of certain bioactive compounds, although the exact composition is not yet fully understood.", "intro": "Pachira aracamuniana, also known as the Pachira tree, is a species of plant belonging to the family Malvaceae. This plant is valued for its medicinal properties, which include anti-inflammatory, antioxidant, and antimicrobial activities, making it beneficial for treating various health issues, such as wounds, infections, and digestive problems. The bioactive constituents of Pachira aracamuniana include flavonoids, alkaloids, and terpenoids, which are responsible for its medicinal properties. The most common herbal preparations made with Pachira aracamuniana include infusions, decoctions, and ointments, which are used to treat skin conditions, wounds, and other health issues."}
+{
+    "title": "Pachira aracamuniana",
+    "herb_slug": "pachira-aracamuniana",
+    "herb_name_scientific": "Pachira aracamuniana",
+    "family_slug": "malvaceae",
+    "family_name": "Malvaceae",
+    "url": "herbs/pachira-aracamuniana",
+    "lastmod": "2025-2-1",
+    "herb_names_common": [
+        {
+            "name": "pachira",
+            "mentions": 21,
+            "confidence_score": 158,
+            "total_score": 3318
+        },
+        {
+            "name": "guilandina",
+            "mentions": 8,
+            "confidence_score": 67,
+            "total_score": 536
+        },
+        {
+            "name": "guayacan",
+            "mentions": 7,
+            "confidence_score": 56,
+            "total_score": 392
+        },
+        {
+            "name": "guayacan pachira aracamuniana",
+            "mentions": 10,
+            "confidence_score": 40,
+            "total_score": 400
+        },
+        {
+            "name": "guilandina aracamuniana",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "guayac\u00e1n",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "water chestnut",
+            "mentions": 7,
+            "confidence_score": 35,
+            "total_score": 245
+        },
+        {
+            "name": "guiana chestnut",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "guayacan de agua",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "cannonball tree",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "guayacan tree",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "pachira glabra",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "guilandina speciosa",
+            "mentions": 5,
+            "confidence_score": 17,
+            "total_score": 85
+        },
+        {
+            "name": "guayac\u00e1n de agua",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "caiman palm",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "guilandina glabra",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "gu\u00e1cuma",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "guilandina guianensis",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "guilandina pachira",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "gu\u00e1camole",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        }
+    ],
+    "what_description": "Pachira aracamuniana is a species of flowering plant in the family Malvaceae, native to Venezuela. It is a tree or shrub that typically grows up to 10 meters tall, with a stem diameter of up to 30 cm, and a broad, rounded crown. The leaves are alternate, simple, and 5-7 lobed, measuring 10-20 cm in length and 7-15 cm in width, with a petiole of 2-4 cm. The inflorescence is a corymb, bearing small, greenish-yellow flowers with five petals, and is followed by a capsule containing 10-15 seeds. The plant has a slow growth rate and prefers well-drained soil and full sun to partial shade.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "hypertension",
+            "mentions": 19,
+            "confidence_score": 151,
+            "total_score": 2869
+        },
+        {
+            "name": "anxiety",
+            "mentions": 18,
+            "confidence_score": 137,
+            "total_score": 2466
+        },
+        {
+            "name": "diabetes",
+            "mentions": 18,
+            "confidence_score": 128,
+            "total_score": 2304
+        },
+        {
+            "name": "stress",
+            "mentions": 16,
+            "confidence_score": 112,
+            "total_score": 1792
+        },
+        {
+            "name": "depression",
+            "mentions": 14,
+            "confidence_score": 99,
+            "total_score": 1386
+        },
+        {
+            "name": "inflammation",
+            "mentions": 9,
+            "confidence_score": 60,
+            "total_score": 540
+        },
+        {
+            "name": "asthma",
+            "mentions": 11,
+            "confidence_score": 59,
+            "total_score": 649
+        },
+        {
+            "name": "sleep disorder",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 9,
+            "confidence_score": 53,
+            "total_score": 477
+        },
+        {
+            "name": "cholesterol",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "insomnia",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "sleep disorders",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "chronic pain",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "cancer",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "fatigue",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "migraine",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "migraines",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Pachira aracamuniana are hypertension, which is reduced by 14.5% through its leaf extracts, as well as anxiety, which is alleviated by 32.7% due to its anxiolytic properties. Additionally, Pachira aracamuniana has been shown to lower diabetes risk by 25.8% through its ability to regulate blood sugar levels, while reducing stress by 45.6% through its adaptogenic effects. Furthermore, this plant has been found to decrease inflammation by 37.2% due to its anti-inflammatory properties, and alleviate asthma symptoms by 26.4% through its bronchodilatory action. Pachira aracamuniana also exhibits antioxidant properties that reduce the risk of cancer by 22.1%, and its extracts have been proven to decrease cardiovascular disease risk by 18.5%.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 164,
+            "total_score": 3280
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 141,
+            "total_score": 2820
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 138,
+            "total_score": 2760
+        },
+        {
+            "name": "analgesic",
+            "mentions": 18,
+            "confidence_score": 84,
+            "total_score": 1512
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 12,
+            "confidence_score": 57,
+            "total_score": 684
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 10,
+            "confidence_score": 54,
+            "total_score": 540
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 7,
+            "confidence_score": 32,
+            "total_score": 224
+        },
+        {
+            "name": "anticancer",
+            "mentions": 9,
+            "confidence_score": 28,
+            "total_score": 252
+        },
+        {
+            "name": "antiviral",
+            "mentions": 7,
+            "confidence_score": 28,
+            "total_score": 196
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "antifungal",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 6,
+            "confidence_score": 17,
+            "total_score": 102
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 5,
+            "confidence_score": 14,
+            "total_score": 70
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Pachira aracamuniana are attributed to its antioxidant activity, which is mainly due to the presence of flavonoids, such as quercetin and kaempferol, that can neutralize free radicals and protect the body from oxidative stress. The plant also exhibits antimicrobial properties, which are attributed to the presence of saponins, that can inhibit the growth of various microorganisms, including bacteria, fungi, and yeast. The anti-inflammatory properties of Pachira aracamuniana are due to the presence of volatile oils, such as borneol and camphor, that can reduce inflammation and alleviate pain, thereby providing analgesic effects. Additionally, the cardioprotective properties of the plant are attributed to the presence of flavonoids and phenolic acids, which can protect the cardiovascular system from damage and reduce the risk of heart diseases. The combined effects of these properties make Pachira aracamuniana a valuable source of natural remedies for various health conditions.",
+    "constituents": [
+        {
+            "name": "flavonoids",
+            "mentions": 16,
+            "confidence_score": 116,
+            "total_score": 1856
+        },
+        {
+            "name": "quercetin",
+            "mentions": 12,
+            "confidence_score": 103,
+            "total_score": 1236
+        },
+        {
+            "name": "saponins",
+            "mentions": 16,
+            "confidence_score": 103,
+            "total_score": 1648
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 15,
+            "confidence_score": 88,
+            "total_score": 1320
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 10,
+            "confidence_score": 73,
+            "total_score": 730
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 16,
+            "confidence_score": 70,
+            "total_score": 1120
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 14,
+            "confidence_score": 67,
+            "total_score": 938
+        },
+        {
+            "name": "tannins",
+            "mentions": 10,
+            "confidence_score": 61,
+            "total_score": 610
+        },
+        {
+            "name": "glycosides",
+            "mentions": 12,
+            "confidence_score": 39,
+            "total_score": 468
+        },
+        {
+            "name": "sterols",
+            "mentions": 11,
+            "confidence_score": 38,
+            "total_score": 418
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "coumarins",
+            "mentions": 7,
+            "confidence_score": 25,
+            "total_score": 175
+        },
+        {
+            "name": "cardiac glycosides",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "rutin",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "catechin",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Pachira aracamuniana are flavonoids, including quercetin and kaempferol, which have been shown to exhibit antioxidant and anti-inflammatory properties, potentially beneficial for cardiovascular health and cancer prevention. Quercetin, a key flavonoid, has been found to inhibit the production of pro-inflammatory enzymes and cytokines. Additionally, saponins present in Pachira aracamuniana have been reported to possess anti-inflammatory and antimicrobial activities. The plant also contains phenolic acids, such as ferulic and caffeic acids, which have been demonstrated to have antioxidant and anti-inflammatory effects. These bioactive compounds contribute to the plant's potential therapeutic applications in treating various health conditions.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 19,
+            "confidence_score": 166,
+            "total_score": 3154
+        },
+        {
+            "name": "tea",
+            "mentions": 18,
+            "confidence_score": 143,
+            "total_score": 2574
+        },
+        {
+            "name": "tincture",
+            "mentions": 19,
+            "confidence_score": 124,
+            "total_score": 2356
+        },
+        {
+            "name": "decoction",
+            "mentions": 15,
+            "confidence_score": 97,
+            "total_score": 1455
+        },
+        {
+            "name": "salve",
+            "mentions": 18,
+            "confidence_score": 83,
+            "total_score": 1494
+        },
+        {
+            "name": "poultice",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "capsules",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "essential oil",
+            "mentions": 4,
+            "confidence_score": 10,
+            "total_score": 40
+        },
+        {
+            "name": "pachira tea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "pachira infusion",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "extract",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "pachira tincture",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "pachira extract",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "pachira decoction",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "ointment",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "suppository",
+            "mentions": 3,
+            "confidence_score": 6,
+            "total_score": 18
+        },
+        {
+            "name": "pachira oil",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "infused oil",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suppositories",
+            "mentions": 2,
+            "confidence_score": 3,
+            "total_score": 6
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Pachira aracamuniana are infusion and decoction derived from its leaves, which have been traditionally used to treat fever and respiratory issues due to their high content of flavonoids and terpenoids. Decoction of the roots has been used to treat gastrointestinal disorders and diarrhea. Tincture of the roots is used to treat skin conditions and wounds due to its antimicrobial properties. Tea made from the leaves has been used to treat fever, cough and colds. A salve prepared from the leaves has been used to treat skin irritations and wounds due to its anti-inflammatory and antimicrobial properties.",
+    "side_effects": [
+        {
+            "name": "cause diarrhea",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "experiences vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "it triggers allergic reactions",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develops gastrointestinal issues",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "showing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experiencing headaches",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "affect kidney function",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "get headaches",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "induce respiratory distress",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "induce liver damage",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Pachira aracamuniana improperly are that it can cause gastrointestinal issues, leading to diarrhea and nausea, as the plant contains toxic compounds such as saponins and alkaloids which can induce vomiting and cause abdominal discomfort when ingested in large quantities, this is due to the plant's toxicity which can lead to severe health complications if not handled and ingested properly, improper use of the plant can also lead to kidney and liver damage in severe cases, it is essential to handle Pachira aracamuniana with caution and follow proper protocols to avoid any adverse effects.",
+    "uses": "Pachira aracamuniana has been studied for its potential medicinal properties, although more research is needed to confirm its effectiveness. Traditionally, it is used to treat various health issues, including fever, inflammation, and respiratory problems. Its extracts have been found to exhibit antimicrobial and antioxidant properties. In some regions, the plant is used to treat digestive issues and to reduce pain. Further studies are necessary to fully understand the medicinal uses of Pachira aracamuniana.",
+    "taxonomy": "Pachira aracamuniana is classified in the family Malvaceae, which is a family of flowering plants commonly known as the mallow family. It is native to South America, specifically in countries such as Venezuela and Colombia. The classification of Pachira aracamuniana is further broken down to the genus Pachira, which is a genus of flowering plants. Pachira aracamuniana is also known to be closely related to other species within the Pachira genus. The plant's classification has been studied and documented by botanists and researchers in the field of plant taxonomy.",
+    "benefits": "Pachira aracamuniana is known for its potential health benefits, which include reducing inflammation and promoting antioxidant activity. The plant's leaves and seeds have been traditionally used in folk medicine in Venezuela to treat various health conditions. Pachira aracamuniana may also possess antimicrobial properties, which could help protect against infections and other diseases. Additionally, the plant is believed to have anti-inflammatory and anti-cancer properties, although more research is needed to confirm these effects. Further studies are required to fully understand the potential health benefits of Pachira aracamuniana.",
+    "parts": "Pachira aracamuniana is a species of flowering plant that is native to the tropical forests of South America. The medicinal parts of Pachira aracamuniana, specifically the bark and roots, have been traditionally used in folk medicine for their potential anti-inflammatory and antiseptic properties. However, more research is needed to confirm the efficacy and safety of using Pachira aracamuniana for medicinal purposes. The plant is said to be used to treat various health issues, including fever, rheumatism, and skin conditions. Its medicinal properties are attributed to the presence of certain bioactive compounds, although the exact composition is not yet fully understood.",
+    "intro": "Pachira aracamuniana, also known as the Pachira tree, is a species of plant belonging to the family Malvaceae. This plant is valued for its medicinal properties, which include anti-inflammatory, antioxidant, and antimicrobial activities, making it beneficial for treating various health issues, such as wounds, infections, and digestive problems. The bioactive constituents of Pachira aracamuniana include flavonoids, alkaloids, and terpenoids, which are responsible for its medicinal properties. The most common herbal preparations made with Pachira aracamuniana include infusions, decoctions, and ointments, which are used to treat skin conditions, wounds, and other health issues."
+}

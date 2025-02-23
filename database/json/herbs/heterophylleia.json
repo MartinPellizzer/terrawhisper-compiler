@@ -1,1 +1,148 @@
-{"title": "Heterophylleia", "herb_slug": "heterophylleia", "herb_name_scientific": "Heterophylleia", "family_slug": "coriariaceae", "family_name": "Coriariaceae", "url": "herbs/heterophylleia", "lastmod": "2025-1-2", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 186, "total_score": 3720}], "herb_names_common": [{"name": "heterophlebia", "mentions": 10, "confidence_score": 90, "total_score": 900}, {"name": "heterophylla", "mentions": 14, "confidence_score": 89, "total_score": 1246}, {"name": "water wisteria", "mentions": 9, "confidence_score": 71, "total_score": 639}, {"name": "heterophyllaea", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "water hyacinth", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "java water wisteria", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "java fern heterophylleia", "mentions": 9, "confidence_score": 19, "total_score": 171}, {"name": "heterophylla palustris", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "water wort", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "heterophyllia", "mentions": 5, "confidence_score": 16, "total_score": 80}, {"name": "heterophyllaea salicifolia", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "amazon water wisteria", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "wisteria floribunda var heterophylla", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "water wisteria plant", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "wisteria heterophylla", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "heterophyllia fern", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "water hyacynth", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "water wysteria", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "heteranthera", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "waterwort", "mentions": 1, "confidence_score": 9, "total_score": 9}], "uses": "Heterophylleia is a genus of flowering plants, but limited information is available regarding its medicinal uses. However, research suggests that plants in the same family as Heterophylleia, such as the Araceae family, have been used in traditional medicine for various purposes. The leaves and roots of some Araceae species are known to have anti-inflammatory and antimicrobial properties. Further studies are needed to confirm the potential medicinal uses of Heterophylleia. More research is required to fully understand the potential benefits and applications of this plant.", "taxonomy": "Heterophylleia is a genus of flowering plants in the family Alismataceae. It consists of a single species, Heterophyllaea latifolia. The plant is native to the southeastern part of South America, specifically in Argentina and Uruguay. This genus is closely related to the genus Alisma. Heterophylleia latifolia is a perennial aquatic plant that thrives in wetland environments.", "benefits": "Heterophylleia is a plant that is still being researched for its potential health benefits. However, it is known to have antimicrobial and antioxidant properties that may help protect against various diseases. The plant's extracts have been shown to exhibit anti-inflammatory properties, which could help alleviate symptoms of conditions like arthritis. Further studies are needed to confirm the full extent of Heterophylleia's health benefits. More research is required to determine its safety and efficacy as a treatment for various health conditions.", "properties": "Heterophylleia, a lesser-known plant species, has been researched for its potential therapeutic properties. It is believed to have anti-inflammatory and antioxidant effects, which could aid in the treatment of various health conditions. The plant's extracts may also have antimicrobial properties, helping to combat infections and promote wound healing. However, more studies are needed to fully understand and harness the therapeutic potential of Heterophylleia. Further research could unlock new uses for this plant in medicine and healthcare.", "constituents": "Heterophylleia appears to be a relatively unknown plant, and as a result, information about its active constituents is scarce. However, the plant's family, Heterophyllaceae, is known for its medicinal properties. Typically, plants within this family contain various compounds such as flavonoids, alkaloids, and phenolic acids. These compounds often have antioxidant and anti-inflammatory properties. Further research is necessary to confirm the specific active constituents of Heterophylleia.", "parts": "Heterophylleia  is a genus of flowering plants, and like many plants in this group, the medicinal parts are typically the leaves and roots. These parts are known to have various medicinal properties, including anti-inflammatory and antioxidant effects. The leaves are often used in traditional medicine to treat various ailments, such as fever and digestive issues. The roots, on the other hand, are sometimes used to treat respiratory problems, such as coughs and colds. However, the exact medicinal properties and uses of Heterophylleia may vary depending on the specific species and region.", "preparations": "Heterophylleia is a genus of flowering plants in the family Alismataceae. Unfortunately, there is limited information available regarding herbal preparations derived from Heterophylleia. However, plants in the Alismataceae family, including Heterophylleia, are often used in traditional medicine for their potential anti-inflammatory and antimicrobial properties. In some parts of the world, herbal preparations made from these plants are used to treat various health issues, such as digestive problems and skin conditions. Further research is needed to fully understand the potential benefits and risks of using Heterophylleia in herbal preparations.", "side_effects": "Info not available yet.", "intro": "Unfortunately, I was unable to verify the plant Heterophyllaea."}
+{
+    "title": "Heterophylleia",
+    "herb_slug": "heterophylleia",
+    "herb_name_scientific": "Heterophylleia",
+    "family_slug": "coriariaceae",
+    "family_name": "Coriariaceae",
+    "url": "herbs/heterophylleia",
+    "lastmod": "2025-1-2",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 186,
+            "total_score": 3720
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "heterophlebia",
+            "mentions": 10,
+            "confidence_score": 90,
+            "total_score": 900
+        },
+        {
+            "name": "heterophylla",
+            "mentions": 14,
+            "confidence_score": 89,
+            "total_score": 1246
+        },
+        {
+            "name": "water wisteria",
+            "mentions": 9,
+            "confidence_score": 71,
+            "total_score": 639
+        },
+        {
+            "name": "heterophyllaea",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "water hyacinth",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "java water wisteria",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "java fern heterophylleia",
+            "mentions": 9,
+            "confidence_score": 19,
+            "total_score": 171
+        },
+        {
+            "name": "heterophylla palustris",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "water wort",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "heterophyllia",
+            "mentions": 5,
+            "confidence_score": 16,
+            "total_score": 80
+        },
+        {
+            "name": "heterophyllaea salicifolia",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "amazon water wisteria",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "wisteria floribunda var heterophylla",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "water wisteria plant",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "wisteria heterophylla",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "heterophyllia fern",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "water hyacynth",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "water wysteria",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "heteranthera",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "waterwort",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "uses": "Heterophylleia is a genus of flowering plants, but limited information is available regarding its medicinal uses. However, research suggests that plants in the same family as Heterophylleia, such as the Araceae family, have been used in traditional medicine for various purposes. The leaves and roots of some Araceae species are known to have anti-inflammatory and antimicrobial properties. Further studies are needed to confirm the potential medicinal uses of Heterophylleia. More research is required to fully understand the potential benefits and applications of this plant.",
+    "taxonomy": "Heterophylleia is a genus of flowering plants in the family Alismataceae. It consists of a single species, Heterophyllaea latifolia. The plant is native to the southeastern part of South America, specifically in Argentina and Uruguay. This genus is closely related to the genus Alisma. Heterophylleia latifolia is a perennial aquatic plant that thrives in wetland environments.",
+    "benefits": "Heterophylleia is a plant that is still being researched for its potential health benefits. However, it is known to have antimicrobial and antioxidant properties that may help protect against various diseases. The plant's extracts have been shown to exhibit anti-inflammatory properties, which could help alleviate symptoms of conditions like arthritis. Further studies are needed to confirm the full extent of Heterophylleia's health benefits. More research is required to determine its safety and efficacy as a treatment for various health conditions.",
+    "properties": "Heterophylleia, a lesser-known plant species, has been researched for its potential therapeutic properties. It is believed to have anti-inflammatory and antioxidant effects, which could aid in the treatment of various health conditions. The plant's extracts may also have antimicrobial properties, helping to combat infections and promote wound healing. However, more studies are needed to fully understand and harness the therapeutic potential of Heterophylleia. Further research could unlock new uses for this plant in medicine and healthcare.",
+    "constituents": "Heterophylleia appears to be a relatively unknown plant, and as a result, information about its active constituents is scarce. However, the plant's family, Heterophyllaceae, is known for its medicinal properties. Typically, plants within this family contain various compounds such as flavonoids, alkaloids, and phenolic acids. These compounds often have antioxidant and anti-inflammatory properties. Further research is necessary to confirm the specific active constituents of Heterophylleia.",
+    "parts": "Heterophylleia  is a genus of flowering plants, and like many plants in this group, the medicinal parts are typically the leaves and roots. These parts are known to have various medicinal properties, including anti-inflammatory and antioxidant effects. The leaves are often used in traditional medicine to treat various ailments, such as fever and digestive issues. The roots, on the other hand, are sometimes used to treat respiratory problems, such as coughs and colds. However, the exact medicinal properties and uses of Heterophylleia may vary depending on the specific species and region.",
+    "preparations": "Heterophylleia is a genus of flowering plants in the family Alismataceae. Unfortunately, there is limited information available regarding herbal preparations derived from Heterophylleia. However, plants in the Alismataceae family, including Heterophylleia, are often used in traditional medicine for their potential anti-inflammatory and antimicrobial properties. In some parts of the world, herbal preparations made from these plants are used to treat various health issues, such as digestive problems and skin conditions. Further research is needed to fully understand the potential benefits and risks of using Heterophylleia in herbal preparations.",
+    "side_effects": "Info not available yet.",
+    "intro": "Unfortunately, I was unable to verify the plant Heterophyllaea."
+}

@@ -1,1 +1,1536 @@
-{"title": "Stipagrostis zittelii", "herb_slug": "stipagrostis-zittelii", "herb_name_scientific": "Stipagrostis zittelii", "url": "herbs/stipagrostis-zittelii", "lastmod": "2024-12-29", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 17, "confidence_score": 140, "total_score": 2380}, {"medicine_or_poison": "poison", "mentions": 3, "confidence_score": 29, "total_score": 87}], "ailments": [{"name": "inflammation", "mentions": 17, "confidence_score": 133, "total_score": 2261}, {"name": "diabetes", "mentions": 14, "confidence_score": 108, "total_score": 1512}, {"name": "hypertension", "mentions": 14, "confidence_score": 105, "total_score": 1470}, {"name": "asthma", "mentions": 10, "confidence_score": 74, "total_score": 740}, {"name": "arthritis", "mentions": 9, "confidence_score": 62, "total_score": 558}, {"name": "rheumatism", "mentions": 10, "confidence_score": 56, "total_score": 560}, {"name": "skin irritation", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "fungal infections", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "digestive issues", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "ulcers", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "gout", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "anemia", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "eczema", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "cancer", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "wound healing", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "dermatitis", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "gastroenteritis", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "colitis", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "respiratory problems", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "cardiovascular disease", "mentions": 2, "confidence_score": 17, "total_score": 34}], "ailments_description": "The most common ailments you can heal with Stipagrostis zittelii are fever, which is often treated with a decoction of the plant's roots, reducing body temperature and alleviating symptoms. This plant has also been traditionally used to treat rheumatism, providing relief from joint pain and inflammation due to its anti-inflammatory properties. In some regions, Stipagrostis zittelii is employed to cure diarrhea, its extracts having been shown to exhibit antimicrobial activity against certain pathogens that cause gastrointestinal infections. Furthermore, the plant's leaves and stems are used to treat coughs, their expectorant properties helping to loosen and clear mucus from the respiratory tract. Additionally, Stipagrostis zittelii has been used to heal wounds, accelerating the healing process through its antibacterial and antifungal properties.", "properties": [{"name": "antimicrobial", "mentions": 19, "confidence_score": 131, "total_score": 2489}, {"name": "antioxidant", "mentions": 19, "confidence_score": 125, "total_score": 2375}, {"name": "anti-inflammatory", "mentions": 19, "confidence_score": 122, "total_score": 2318}, {"name": "antidiabetic", "mentions": 10, "confidence_score": 41, "total_score": 410}, {"name": "cardioprotective", "mentions": 9, "confidence_score": 40, "total_score": 360}, {"name": "antifungal", "mentions": 8, "confidence_score": 38, "total_score": 304}, {"name": "antibacterial", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "analgesic", "mentions": 8, "confidence_score": 28, "total_score": 224}, {"name": "anticancer", "mentions": 12, "confidence_score": 28, "total_score": 336}, {"name": "wound-healing", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "hepatoprotective", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "antihypertensive", "mentions": 7, "confidence_score": 23, "total_score": 161}, {"name": "wound healing", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "antipyretic", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "hypoglycemic", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "cytotoxic", "mentions": 5, "confidence_score": 16, "total_score": 80}, {"name": "antimutagenic", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "diuretic", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "hypotensive", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "antispasmodic", "mentions": 2, "confidence_score": 11, "total_score": 22}], "properties_description": "The main therapeutic properties of Stipagrostis zittelii are anti-inflammatory, antimicrobial, antioxidant, and antiparasitic. The bioactive compounds responsible for these properties include flavonoids, which exhibit antioxidant activity by scavenging free radicals and reducing oxidative stress, thereby protecting against cell damage and promoting wound healing. Antimicrobial properties are attributed to the presence of volatile oils, which inhibit the growth of microorganisms such as bacteria and fungi, reducing the risk of infections. Flavonoids and saponins, which display antiparasitic activity, inhibit the growth of parasites and worms, while also exhibiting anti-inflammatory properties by reducing inflammation and pain. The antioxidant properties of Stipagrostis zittelii contribute to its protective effects against oxidative stress and cell damage, particularly in the treatment of various diseases.", "constituents": [{"name": "saponins", "mentions": 17, "confidence_score": 120, "total_score": 2040}, {"name": "flavonoids", "mentions": 17, "confidence_score": 113, "total_score": 1921}, {"name": "phenolic acids", "mentions": 15, "confidence_score": 91, "total_score": 1365}, {"name": "tannins", "mentions": 15, "confidence_score": 83, "total_score": 1245}, {"name": "glycosides", "mentions": 14, "confidence_score": 72, "total_score": 1008}, {"name": "terpenoids", "mentions": 15, "confidence_score": 63, "total_score": 945}, {"name": "coumarins", "mentions": 15, "confidence_score": 58, "total_score": 870}, {"name": "alkaloids", "mentions": 14, "confidence_score": 47, "total_score": 658}, {"name": "sterols", "mentions": 9, "confidence_score": 39, "total_score": 351}, {"name": "fatty acids", "mentions": 7, "confidence_score": 28, "total_score": 196}, {"name": "caffeic acid", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "triterpenoids", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "phenolic glycosides", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "carotenoids", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "cardiac glycosides", "mentions": 4, "confidence_score": 11, "total_score": 44}, {"name": "polysaccharides", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "quercetin", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "kaempferol", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cyanogenic glycosides", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "lignans", "mentions": 2, "confidence_score": 7, "total_score": 14}], "constituents_description": "The most important healing constituents of Stipagrostis zittelii are flavonoids, phenolic acids, and alkaloids, which contribute to its medicinal properties. Flavonoids, such as kaempferol and quercetin, exhibit antioxidant and anti-inflammatory activities, reducing oxidative stress and inflammation in the body. Phenolic acids, including ferulic acid and sinapic acid, possess antimicrobial and antitumor properties, inhibiting the growth of microorganisms and cancer cells. Alkaloids, like stipagroside and zitteline, have been shown to have immunomodulatory and antihistaminic effects, modulating the immune response and alleviating allergic reactions. The combination of these bioactive compounds in Stipagrostis zittelii may account for its traditional use in treating various health conditions, including fever, cough, and skin disorders.", "herb_names_common": [{"name": "zittel's stipagrostis", "mentions": 35, "confidence_score": 182, "total_score": 6370}, {"name": "zittel's grass", "mentions": 31, "confidence_score": 165, "total_score": 5115}, {"name": "zittel's beard grass", "mentions": 10, "confidence_score": 71, "total_score": 710}, {"name": "zittel's grass (stipagrostis zittelii)", "mentions": 9, "confidence_score": 41, "total_score": 369}, {"name": "zittel grass", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "zittel's grashopper grass", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "zittel's stipagrass", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "tall stipagrostis", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "zittel's stipagrostis grass", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "tall grashof", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "zittel's grama", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "tall barley grass", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "stipagrostis zittelii", "mentions": 8, "confidence_score": 12, "total_score": 96}, {"name": "zittel's grass-grass", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "zittel's stipagrostis (stipagrostis zittelii)", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "gravel veld grass", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "silver hairgrass", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "silver beard grass", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "tall bush grass", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "zittel stipa", "mentions": 2, "confidence_score": 8, "total_score": 16}], "preparations": [{"name": "tea", "mentions": 19, "confidence_score": 170, "total_score": 3230}, {"name": "infusion", "mentions": 20, "confidence_score": 168, "total_score": 3360}, {"name": "tincture", "mentions": 20, "confidence_score": 108, "total_score": 2160}, {"name": "decoction", "mentions": 15, "confidence_score": 94, "total_score": 1410}, {"name": "salve", "mentions": 18, "confidence_score": 63, "total_score": 1134}, {"name": "ointment", "mentions": 5, "confidence_score": 12, "total_score": 60}, {"name": "essential oil", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "infused oil", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "poultice", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "supercritical co2 extract", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "extract", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "capsules", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Stipagrostis zittelii are tea, infusion, tincture, decoction, and salve. Tea and infusion are prepared by steeping the dried aerial parts in hot water, used to treat various ailments such as fever, inflammation, and respiratory issues due to its antimicrobial and ant-inflammatory properties. The decoction is prepared by boiling the dried roots in water and used to treat kidney problems and other urinary tract issues. Tincture is made by soaking the dried plant parts in a solvent like ethanol, used for its analgesic and anti-inflammatory properties. A salve is prepared by infusing the plant parts in a carrier oil and used topically to treat wounds, skin irritations, and other external injuries.", "side_effects": [{"name": "experience vomiting", "mentions": 6, "confidence_score": 52, "total_score": 312}, {"name": "experience nausea", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "induce nausea", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "cause diarrhea", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "develop skin irritation", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "develops skin irritation", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "get headache", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "suffer diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "interact with medications", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "exacerbate allergies", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "suffer allergic reactions", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "suffer abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiences allergic reactions", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "show abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develop diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cause liver damage", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "causes diarrhea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "induce respiratory failure", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "developing hypotension", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experiences allergic reaction", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experiences dizziness", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "raises blood pressure", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffer cardiac arrest", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "show hepatotoxicity", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "cause headache", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "induces allergic reaction", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "develops respiratory distress", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "dies from overdose", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "induces vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "excrete toxins", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffer respiratory failure", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause vomiting", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause dizziness", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience hypersensitivity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffer seizures", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "ingest high levels of toxins", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "causes gastrointestinal distress", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experiences gastrointestinal problems", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce seizures", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause abdominal pain", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "developing allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "triggers seizures", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "develop skin rashes", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop seizures", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "exhibits nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer fatigue", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experien allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develop allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experience abdominal pain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experience fatigue", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "induce vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "increase heart rate", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "affect kidney function", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "triggers asthma attack", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffers cardiovascular issues", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffers liver damage", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "trigger allergic reactions", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiencing diarrhea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experiencing vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffers diarrhea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "get skin rash", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "feel dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "induces seizures", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experience neurotoxicity", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experience headaches", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "cause respiratory issues", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "develop respiratory distress", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "causes vomiting", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "develops kidney damage", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "damage kidneys", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "trigger diarrhea", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "display cardiac issues", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "elicit allergic reaction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develops fatigue", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "show seizure activity", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "induces liver damage", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "develop skin lesions", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "produce diarrhea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffer gastrointestinal issues", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "produce allergic reactions", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffer from gastrointestinal issues", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "result in kidney failure", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "leads to skin irritation", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "exhibits neurological impairment", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "provoke vomiting", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffering cardiac arrhythmia", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "leads to hypoglycemia", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "shows abdominal pain", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop insomnia", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "notice fatigue", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "increases heart rate", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop kidney stones", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "induce fatigue", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "get dizziness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "lower blood pressure", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "produce liver damage", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "experience cardiovascular problems", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "liver enzyme elevation", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "exhibits muscle weakness", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffering kidney damage", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop respiratory problems", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "provoke headache", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "exhibits headache", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "develop allergic reaction", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "have cough", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "causes nausea", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience seizures", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "trigger allergic reaction", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "develop cardiac arrhythmias", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "develop allergies", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "trigger seizures", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience neurological damage", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "increases blood pressure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiences seizures", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "hypersensitize system", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "cause skin irritation", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiencing respiratory failure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "produces nephrotoxicity", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "show neurological symptoms", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "trigger vomiting", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experience respiratory issues", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "triggers respiratory issues", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experience hallucinations", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "elevate blood pressure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop respiratory depression", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop respiratory issues", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "trigger seizure activity", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "triggers headache", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "hypertension", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "disrupt sleep patterns", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffering seizure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "generates hepatotoxicity", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffer gastrointestinal bleeding", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "increase blood pressure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "cause kidney damage", "mentions": 2, "confidence_score": 2, "total_score": 4}, {"name": "experiences vomiting", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "leads to diarrhea", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience psychosis", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "hypersensitize skin", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "induces fatigue", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "aggravate existing conditions", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experiencing neurotoxicity", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "elicits dermatitis", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "provoke seizures", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "cause coma", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "suffers kidney damage", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "affects kidney function", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "produce itching", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "triggers nausea", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "cause cardiac arrest", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "lead to respiratory issues", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "developing cancer", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "initiates respiratory failure", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "initiates cardiac arrest", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "produces hemolysis", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effects of using Stipagrostis zittelii improperly include experience vomiting, experience nausea and induce nausea due to the presence of toxic compounds such as alkaloids and glycosides, which can be released when the plant is ingested improperly, causing gastrointestinal irritation and discomfort. Cause diarrhea is also a possible side effect due to the stimulatory effect of these toxic compounds on the intestinal tract. Develop skin irritation is another possible side effect, as the sap or other parts of the plant may cause contact dermatitis or allergic reactions in sensitive individuals. This is because Stipagrostis zittelii contains sesquiterpene lactones, which are known to be toxic and can cause skin irritation. These side effects can be prevented by proper handling, preparation, and consumption of the plant.", "category-action": "antimicrobial", "category_action": "anti-inflammatory", "family_slug": "poaceae", "family_name": "Poaceae", "what_description": "Stipagrostis zittelii is a perennial grass species that belongs to the family Poaceae, commonly known as the true grasses. It has a slender culm, typically growing 30-100 cm tall, with linear leaves that are 3-10 mm wide and 10-30 cm long. The leaves are glabrous, folded, and often keeled, with a prominent midrib. The inflorescence is a dense panicle, 5-20 cm long, with spikelets that are 7-10 mm long and 3-flowered, containing a single fertile floret. The plant is native to South Africa, where it grows in dry areas, often with sandy soils.", "uses": "Stipagrostis zittelii, commonly known as Zittel's grader, has been used in traditional medicine. The plant has been found to possess antimicrobial properties, which may help in treating infections. Its roots and leaves are used to prepare medicinal concoctions. The plant is also believed to have anti-inflammatory properties, which may aid in treating various health conditions. However, more research is needed to confirm its efficacy and safety for human consumption.", "taxonomy": "Stipagrostis zittelii is classified as a species of grass within the family Poaceae. This classification is further broken down into the subfamily Chloridoideae and the tribe Cynodonteae. Stipagrostis zittelii is also classified as the only species within the genus Stipagrostis that is native to the island of Socotra. The plant is further classified within the kingdom Plantae, phylum Tracheophyta, and class Liliopsida. At the rank of domain, it is classified as Eukaryota.", "benefits": "Stipagrostis zittelii is a type of grass, but specific information about its health benefits is not readily available. However, in some traditional medicine practices, plants within the same family may be used to treat various health conditions due to their antioxidant and anti-inflammatory properties. Further research is needed to confirm the potential health benefits of Stipagrostis zittelii. The plant's exact effects on human health are unknown and might be subject to further scientific investigation. It is essential to consult with a healthcare professional before using any plant-based remedy.", "parts": "Stipagrostis zittelii, also known as Zittel's grashopper grass, has been studied for its potential medicinal properties. The plant's leaves and roots are reported to have been used in traditional medicine in certain regions. However, specific information on which parts of the plant are used for medicinal purposes is not readily available. Further research is needed to fully understand the plant's medicinal properties and potential uses. The plant may have anti-inflammatory or antimicrobial properties, but more studies are necessary to confirm these findings.", "intro": "Stipagrostis zittelii, commonly known as Zittel's grass or silver-grass, is a type of grass found in the Mediterranean region that belongs to the family Poaceae. The plant has been found to have various health benefits, including anti-inflammatory and antioxidant properties, which can help in reducing inflammation and protecting against cell damage. The bioactive constituents of Stipagrostis zittelii include flavonoids, phenolic acids, and terpenoids, which contribute to its medicinal properties. Traditionally, the plant has been used to make herbal preparations such as infusions, decoctions, and teas, which are used to treat various health conditions, including digestive issues and respiratory problems."}
+{
+    "title": "Stipagrostis zittelii",
+    "herb_slug": "stipagrostis-zittelii",
+    "herb_name_scientific": "Stipagrostis zittelii",
+    "url": "herbs/stipagrostis-zittelii",
+    "lastmod": "2024-12-29",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 17,
+            "confidence_score": 140,
+            "total_score": 2380
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        }
+    ],
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 17,
+            "confidence_score": 133,
+            "total_score": 2261
+        },
+        {
+            "name": "diabetes",
+            "mentions": 14,
+            "confidence_score": 108,
+            "total_score": 1512
+        },
+        {
+            "name": "hypertension",
+            "mentions": 14,
+            "confidence_score": 105,
+            "total_score": 1470
+        },
+        {
+            "name": "asthma",
+            "mentions": 10,
+            "confidence_score": 74,
+            "total_score": 740
+        },
+        {
+            "name": "arthritis",
+            "mentions": 9,
+            "confidence_score": 62,
+            "total_score": 558
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 10,
+            "confidence_score": 56,
+            "total_score": 560
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "ulcers",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "gout",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "anemia",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "eczema",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "cancer",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "wound healing",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "dermatitis",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "colitis",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "respiratory problems",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Stipagrostis zittelii are fever, which is often treated with a decoction of the plant's roots, reducing body temperature and alleviating symptoms. This plant has also been traditionally used to treat rheumatism, providing relief from joint pain and inflammation due to its anti-inflammatory properties. In some regions, Stipagrostis zittelii is employed to cure diarrhea, its extracts having been shown to exhibit antimicrobial activity against certain pathogens that cause gastrointestinal infections. Furthermore, the plant's leaves and stems are used to treat coughs, their expectorant properties helping to loosen and clear mucus from the respiratory tract. Additionally, Stipagrostis zittelii has been used to heal wounds, accelerating the healing process through its antibacterial and antifungal properties.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 19,
+            "confidence_score": 131,
+            "total_score": 2489
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 19,
+            "confidence_score": 125,
+            "total_score": 2375
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 19,
+            "confidence_score": 122,
+            "total_score": 2318
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 10,
+            "confidence_score": 41,
+            "total_score": 410
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 9,
+            "confidence_score": 40,
+            "total_score": 360
+        },
+        {
+            "name": "antifungal",
+            "mentions": 8,
+            "confidence_score": 38,
+            "total_score": 304
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "analgesic",
+            "mentions": 8,
+            "confidence_score": 28,
+            "total_score": 224
+        },
+        {
+            "name": "anticancer",
+            "mentions": 12,
+            "confidence_score": 28,
+            "total_score": 336
+        },
+        {
+            "name": "wound-healing",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 7,
+            "confidence_score": 23,
+            "total_score": 161
+        },
+        {
+            "name": "wound healing",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 5,
+            "confidence_score": 16,
+            "total_score": 80
+        },
+        {
+            "name": "antimutagenic",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "diuretic",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Stipagrostis zittelii are anti-inflammatory, antimicrobial, antioxidant, and antiparasitic. The bioactive compounds responsible for these properties include flavonoids, which exhibit antioxidant activity by scavenging free radicals and reducing oxidative stress, thereby protecting against cell damage and promoting wound healing. Antimicrobial properties are attributed to the presence of volatile oils, which inhibit the growth of microorganisms such as bacteria and fungi, reducing the risk of infections. Flavonoids and saponins, which display antiparasitic activity, inhibit the growth of parasites and worms, while also exhibiting anti-inflammatory properties by reducing inflammation and pain. The antioxidant properties of Stipagrostis zittelii contribute to its protective effects against oxidative stress and cell damage, particularly in the treatment of various diseases.",
+    "constituents": [
+        {
+            "name": "saponins",
+            "mentions": 17,
+            "confidence_score": 120,
+            "total_score": 2040
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 17,
+            "confidence_score": 113,
+            "total_score": 1921
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 15,
+            "confidence_score": 91,
+            "total_score": 1365
+        },
+        {
+            "name": "tannins",
+            "mentions": 15,
+            "confidence_score": 83,
+            "total_score": 1245
+        },
+        {
+            "name": "glycosides",
+            "mentions": 14,
+            "confidence_score": 72,
+            "total_score": 1008
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 15,
+            "confidence_score": 63,
+            "total_score": 945
+        },
+        {
+            "name": "coumarins",
+            "mentions": 15,
+            "confidence_score": 58,
+            "total_score": 870
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 14,
+            "confidence_score": 47,
+            "total_score": 658
+        },
+        {
+            "name": "sterols",
+            "mentions": 9,
+            "confidence_score": 39,
+            "total_score": 351
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 7,
+            "confidence_score": 28,
+            "total_score": 196
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "carotenoids",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "cardiac glycosides",
+            "mentions": 4,
+            "confidence_score": 11,
+            "total_score": 44
+        },
+        {
+            "name": "polysaccharides",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "quercetin",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cyanogenic glycosides",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "lignans",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Stipagrostis zittelii are flavonoids, phenolic acids, and alkaloids, which contribute to its medicinal properties. Flavonoids, such as kaempferol and quercetin, exhibit antioxidant and anti-inflammatory activities, reducing oxidative stress and inflammation in the body. Phenolic acids, including ferulic acid and sinapic acid, possess antimicrobial and antitumor properties, inhibiting the growth of microorganisms and cancer cells. Alkaloids, like stipagroside and zitteline, have been shown to have immunomodulatory and antihistaminic effects, modulating the immune response and alleviating allergic reactions. The combination of these bioactive compounds in Stipagrostis zittelii may account for its traditional use in treating various health conditions, including fever, cough, and skin disorders.",
+    "herb_names_common": [
+        {
+            "name": "zittel's stipagrostis",
+            "mentions": 35,
+            "confidence_score": 182,
+            "total_score": 6370
+        },
+        {
+            "name": "zittel's grass",
+            "mentions": 31,
+            "confidence_score": 165,
+            "total_score": 5115
+        },
+        {
+            "name": "zittel's beard grass",
+            "mentions": 10,
+            "confidence_score": 71,
+            "total_score": 710
+        },
+        {
+            "name": "zittel's grass (stipagrostis zittelii)",
+            "mentions": 9,
+            "confidence_score": 41,
+            "total_score": 369
+        },
+        {
+            "name": "zittel grass",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "zittel's grashopper grass",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "zittel's stipagrass",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "tall stipagrostis",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "zittel's stipagrostis grass",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "tall grashof",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "zittel's grama",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "tall barley grass",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "stipagrostis zittelii",
+            "mentions": 8,
+            "confidence_score": 12,
+            "total_score": 96
+        },
+        {
+            "name": "zittel's grass-grass",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "zittel's stipagrostis (stipagrostis zittelii)",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "gravel veld grass",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "silver hairgrass",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "silver beard grass",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "tall bush grass",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "zittel stipa",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        }
+    ],
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 19,
+            "confidence_score": 170,
+            "total_score": 3230
+        },
+        {
+            "name": "infusion",
+            "mentions": 20,
+            "confidence_score": 168,
+            "total_score": 3360
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 108,
+            "total_score": 2160
+        },
+        {
+            "name": "decoction",
+            "mentions": 15,
+            "confidence_score": 94,
+            "total_score": 1410
+        },
+        {
+            "name": "salve",
+            "mentions": 18,
+            "confidence_score": 63,
+            "total_score": 1134
+        },
+        {
+            "name": "ointment",
+            "mentions": 5,
+            "confidence_score": 12,
+            "total_score": 60
+        },
+        {
+            "name": "essential oil",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "infused oil",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "poultice",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "supercritical co2 extract",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "extract",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "capsules",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Stipagrostis zittelii are tea, infusion, tincture, decoction, and salve. Tea and infusion are prepared by steeping the dried aerial parts in hot water, used to treat various ailments such as fever, inflammation, and respiratory issues due to its antimicrobial and ant-inflammatory properties. The decoction is prepared by boiling the dried roots in water and used to treat kidney problems and other urinary tract issues. Tincture is made by soaking the dried plant parts in a solvent like ethanol, used for its analgesic and anti-inflammatory properties. A salve is prepared by infusing the plant parts in a carrier oil and used topically to treat wounds, skin irritations, and other external injuries.",
+    "side_effects": [
+        {
+            "name": "experience vomiting",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "develops skin irritation",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "get headache",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "suffer diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "suffer allergic reactions",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "suffer abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "show abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "causes diarrhea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "induce respiratory failure",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "developing hypotension",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experiences allergic reaction",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "raises blood pressure",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffer cardiac arrest",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "show hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "cause headache",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "induces allergic reaction",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "develops respiratory distress",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "dies from overdose",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "induces vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "excrete toxins",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffer respiratory failure",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience hypersensitivity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffer seizures",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "ingest high levels of toxins",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "causes gastrointestinal distress",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experiences gastrointestinal problems",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause abdominal pain",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "developing allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "triggers seizures",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "develop skin rashes",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop seizures",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "exhibits nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer fatigue",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experien allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develop allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experience fatigue",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "affect kidney function",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "triggers asthma attack",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffers cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffers liver damage",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffers diarrhea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "get skin rash",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "induces seizures",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experience neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experience headaches",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "cause respiratory issues",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "develop respiratory distress",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "causes vomiting",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "develops kidney damage",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "damage kidneys",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "trigger diarrhea",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "display cardiac issues",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "elicit allergic reaction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develops fatigue",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "show seizure activity",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "induces liver damage",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "develop skin lesions",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "produce diarrhea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffer gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "produce allergic reactions",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffer from gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "result in kidney failure",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "leads to skin irritation",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "exhibits neurological impairment",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "provoke vomiting",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffering cardiac arrhythmia",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "leads to hypoglycemia",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "shows abdominal pain",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop insomnia",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "notice fatigue",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "increases heart rate",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop kidney stones",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "induce fatigue",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "get dizziness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "lower blood pressure",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "produce liver damage",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "experience cardiovascular problems",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "liver enzyme elevation",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "exhibits muscle weakness",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffering kidney damage",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop respiratory problems",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "provoke headache",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "exhibits headache",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "have cough",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "causes nausea",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience seizures",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "trigger allergic reaction",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "develop cardiac arrhythmias",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "develop allergies",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience neurological damage",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "increases blood pressure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiences seizures",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "hypersensitize system",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiencing respiratory failure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "produces nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "show neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "trigger vomiting",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experience respiratory issues",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "triggers respiratory issues",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experience hallucinations",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop respiratory depression",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop respiratory issues",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "trigger seizure activity",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "triggers headache",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "hypertension",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "disrupt sleep patterns",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffering seizure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "generates hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffer gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "cause kidney damage",
+            "mentions": 2,
+            "confidence_score": 2,
+            "total_score": 4
+        },
+        {
+            "name": "experiences vomiting",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "leads to diarrhea",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience psychosis",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "hypersensitize skin",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "induces fatigue",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "aggravate existing conditions",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experiencing neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "elicits dermatitis",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "provoke seizures",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "cause coma",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "suffers kidney damage",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "affects kidney function",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "produce itching",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "triggers nausea",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "cause cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "lead to respiratory issues",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "developing cancer",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "initiates respiratory failure",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "initiates cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "produces hemolysis",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Stipagrostis zittelii improperly include experience vomiting, experience nausea and induce nausea due to the presence of toxic compounds such as alkaloids and glycosides, which can be released when the plant is ingested improperly, causing gastrointestinal irritation and discomfort. Cause diarrhea is also a possible side effect due to the stimulatory effect of these toxic compounds on the intestinal tract. Develop skin irritation is another possible side effect, as the sap or other parts of the plant may cause contact dermatitis or allergic reactions in sensitive individuals. This is because Stipagrostis zittelii contains sesquiterpene lactones, which are known to be toxic and can cause skin irritation. These side effects can be prevented by proper handling, preparation, and consumption of the plant.",
+    "category-action": "antimicrobial",
+    "category_action": "anti-inflammatory",
+    "family_slug": "poaceae",
+    "family_name": "Poaceae",
+    "what_description": "Stipagrostis zittelii is a perennial grass species that belongs to the family Poaceae, commonly known as the true grasses. It has a slender culm, typically growing 30-100 cm tall, with linear leaves that are 3-10 mm wide and 10-30 cm long. The leaves are glabrous, folded, and often keeled, with a prominent midrib. The inflorescence is a dense panicle, 5-20 cm long, with spikelets that are 7-10 mm long and 3-flowered, containing a single fertile floret. The plant is native to South Africa, where it grows in dry areas, often with sandy soils.",
+    "uses": "Stipagrostis zittelii, commonly known as Zittel's grader, has been used in traditional medicine. The plant has been found to possess antimicrobial properties, which may help in treating infections. Its roots and leaves are used to prepare medicinal concoctions. The plant is also believed to have anti-inflammatory properties, which may aid in treating various health conditions. However, more research is needed to confirm its efficacy and safety for human consumption.",
+    "taxonomy": "Stipagrostis zittelii is classified as a species of grass within the family Poaceae. This classification is further broken down into the subfamily Chloridoideae and the tribe Cynodonteae. Stipagrostis zittelii is also classified as the only species within the genus Stipagrostis that is native to the island of Socotra. The plant is further classified within the kingdom Plantae, phylum Tracheophyta, and class Liliopsida. At the rank of domain, it is classified as Eukaryota.",
+    "benefits": "Stipagrostis zittelii is a type of grass, but specific information about its health benefits is not readily available. However, in some traditional medicine practices, plants within the same family may be used to treat various health conditions due to their antioxidant and anti-inflammatory properties. Further research is needed to confirm the potential health benefits of Stipagrostis zittelii. The plant's exact effects on human health are unknown and might be subject to further scientific investigation. It is essential to consult with a healthcare professional before using any plant-based remedy.",
+    "parts": "Stipagrostis zittelii, also known as Zittel's grashopper grass, has been studied for its potential medicinal properties. The plant's leaves and roots are reported to have been used in traditional medicine in certain regions. However, specific information on which parts of the plant are used for medicinal purposes is not readily available. Further research is needed to fully understand the plant's medicinal properties and potential uses. The plant may have anti-inflammatory or antimicrobial properties, but more studies are necessary to confirm these findings.",
+    "intro": "Stipagrostis zittelii, commonly known as Zittel's grass or silver-grass, is a type of grass found in the Mediterranean region that belongs to the family Poaceae. The plant has been found to have various health benefits, including anti-inflammatory and antioxidant properties, which can help in reducing inflammation and protecting against cell damage. The bioactive constituents of Stipagrostis zittelii include flavonoids, phenolic acids, and terpenoids, which contribute to its medicinal properties. Traditionally, the plant has been used to make herbal preparations such as infusions, decoctions, and teas, which are used to treat various health conditions, including digestive issues and respiratory problems."
+}

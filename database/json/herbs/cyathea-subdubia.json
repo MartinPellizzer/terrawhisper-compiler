@@ -1,1 +1,154 @@
-{"title": "Cyathea subdubia", "herb_slug": "cyathea-subdubia", "herb_name_scientific": "Cyathea subdubia", "family_slug": "cyatheaceae", "family_name": "Cyatheaceae", "url": "herbs/cyathea-subdubia", "lastmod": "2025-2-4", "herb_names_common": [{"name": "tree fern", "mentions": 29, "confidence_score": 231, "total_score": 6699}, {"name": "cyathea", "mentions": 11, "confidence_score": 56, "total_score": 616}, {"name": "new zealand tree fern", "mentions": 11, "confidence_score": 46, "total_score": 506}, {"name": "subdubia fern", "mentions": 8, "confidence_score": 31, "total_score": 248}, {"name": "silver fern", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "australian tree fern", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "new zealand fern", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "black fern", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "soft tree fern", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "blechnum fern", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "silver tree fern", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "fern tree", "mentions": 6, "confidence_score": 18, "total_score": 108}, {"name": "black tree fern", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "red stag fern", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "black currant tree fern", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "southern tree fern", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "brown tree fern", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "subdubious tree fern", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "kapok tree", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "cycad fern", "mentions": 2, "confidence_score": 10, "total_score": 20}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 18, "confidence_score": 170, "total_score": 3060}, {"medicine_or_poison": "medicine", "mentions": 2, "confidence_score": 18, "total_score": 36}], "uses": "Cyathea subdubia is reportedly used in traditional medicine, with its leaves and roots said to have anti-inflammatory and antimicrobial properties. The plant is used to treat various ailments, including fever, cough, and skin conditions. Its leaves are also used as a treatment for wounds and burns, as well as a remedy for respiratory issues. In addition, the plant is believed to have antioxidant and immunomodulatory effects, which may contribute to its medicinal properties. Further research is needed to confirm the efficacy and safety of Cyathea subdubia for medicinal use.", "taxonomy": "Cyathea subdubia is classified as a species of fern in the family Cyatheaceae. This plant is a type of tree fern native to New Zealand. The classification of Cyathea subdubia is further divided into the genus Cyathea and the specific epithet subdubia, indicating its unique characteristics within the genus. Within the family Cyatheaceae, Cyathea subdubia is one of several species that are native to New Zealand and other parts of the world. The classification of Cyathea subdubia reflects its distinct evolutionary history and relationships with other tree ferns.", "benefits": "Cyathea subdubia is known for its potential health benefits, including anti-inflammatory and antioxidant properties. The plant's extracts have been studied for their ability to protect against cell damage and promote overall well-being. Its antioxidant properties may help to reduce the risk of chronic diseases such as heart disease and certain types of cancer. Additionally, Cyathea subdubia has been traditionally used to treat various health issues, including fever and respiratory problems. Further research is needed to fully understand the plant's potential health benefits and its effects on human health.", "properties": "Cyathea subdubia, a species of tree fern, is said to have therapeutic properties due to its antioxidant and anti-inflammatory compounds. The plant is believed to have potential in treating various health issues, including skin conditions and wounds. Its extracts may also possess antimicrobial properties, helping to prevent infections and promote healing. However, more research is needed to fully understand the plant's therapeutic applications. The potential benefits of Cyathea subdubia make it an area of interest for further scientific study.", "constituents": "Cyathea subdubia contains various active constituents, including flavonoids, tannins, and saponins. These compounds are responsible for the plant's medicinal properties and have been used in traditional medicine. Flavonoids, in particular, have been shown to possess anti-inflammatory and antioxidant activities. The saponins present in Cyathea subdubia may also contribute to its potential antimicrobial and anti-cancer properties. Further research is needed to fully understand the effects of these constituents and their potential applications.", "parts": "Cyathea subdubia's medicinal properties are not well-documented, however, some species within the Cyathea genus have been used in traditional medicine. The plant's rhizome and roots are sometimes used for their medicinal properties. The rhizome is said to have anti-inflammatory and antimicrobial properties, but more research is needed to confirm its effectiveness. The plant's fronds are also used in some traditional remedies, but specific uses are not well-documented. Further studies are required to understand the full scope of Cyathea subdubia's medicinal properties.", "preparations": "Cyathea subdubia is a species of tree fern, and while it's primarily used in traditional medicine, specific information on herbal preparations is limited. However, tree ferns like Cyathea subdubia have been used in various traditional remedies, often for their supposed anti-inflammatory and antimicrobial properties. Preparations may involve infusions or decoctions of the plant's fronds or roots, although exact methods are not well-documented. The potential health benefits of Cyathea subdubia preparations are largely anecdotal and require further scientific research to confirm. More studies are needed to fully understand the plant's medicinal properties and potential uses.", "side_effects": "Info not available yet.", "intro": "There is not enough information in the available knowledge about \"Cyathea subdubia\"."}
+{
+    "title": "Cyathea subdubia",
+    "herb_slug": "cyathea-subdubia",
+    "herb_name_scientific": "Cyathea subdubia",
+    "family_slug": "cyatheaceae",
+    "family_name": "Cyatheaceae",
+    "url": "herbs/cyathea-subdubia",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "tree fern",
+            "mentions": 29,
+            "confidence_score": 231,
+            "total_score": 6699
+        },
+        {
+            "name": "cyathea",
+            "mentions": 11,
+            "confidence_score": 56,
+            "total_score": 616
+        },
+        {
+            "name": "new zealand tree fern",
+            "mentions": 11,
+            "confidence_score": 46,
+            "total_score": 506
+        },
+        {
+            "name": "subdubia fern",
+            "mentions": 8,
+            "confidence_score": 31,
+            "total_score": 248
+        },
+        {
+            "name": "silver fern",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "australian tree fern",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "new zealand fern",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "black fern",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "soft tree fern",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "blechnum fern",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "silver tree fern",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "fern tree",
+            "mentions": 6,
+            "confidence_score": 18,
+            "total_score": 108
+        },
+        {
+            "name": "black tree fern",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "red stag fern",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "black currant tree fern",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "southern tree fern",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "brown tree fern",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "subdubious tree fern",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "kapok tree",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "cycad fern",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 18,
+            "confidence_score": 170,
+            "total_score": 3060
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "uses": "Cyathea subdubia is reportedly used in traditional medicine, with its leaves and roots said to have anti-inflammatory and antimicrobial properties. The plant is used to treat various ailments, including fever, cough, and skin conditions. Its leaves are also used as a treatment for wounds and burns, as well as a remedy for respiratory issues. In addition, the plant is believed to have antioxidant and immunomodulatory effects, which may contribute to its medicinal properties. Further research is needed to confirm the efficacy and safety of Cyathea subdubia for medicinal use.",
+    "taxonomy": "Cyathea subdubia is classified as a species of fern in the family Cyatheaceae. This plant is a type of tree fern native to New Zealand. The classification of Cyathea subdubia is further divided into the genus Cyathea and the specific epithet subdubia, indicating its unique characteristics within the genus. Within the family Cyatheaceae, Cyathea subdubia is one of several species that are native to New Zealand and other parts of the world. The classification of Cyathea subdubia reflects its distinct evolutionary history and relationships with other tree ferns.",
+    "benefits": "Cyathea subdubia is known for its potential health benefits, including anti-inflammatory and antioxidant properties. The plant's extracts have been studied for their ability to protect against cell damage and promote overall well-being. Its antioxidant properties may help to reduce the risk of chronic diseases such as heart disease and certain types of cancer. Additionally, Cyathea subdubia has been traditionally used to treat various health issues, including fever and respiratory problems. Further research is needed to fully understand the plant's potential health benefits and its effects on human health.",
+    "properties": "Cyathea subdubia, a species of tree fern, is said to have therapeutic properties due to its antioxidant and anti-inflammatory compounds. The plant is believed to have potential in treating various health issues, including skin conditions and wounds. Its extracts may also possess antimicrobial properties, helping to prevent infections and promote healing. However, more research is needed to fully understand the plant's therapeutic applications. The potential benefits of Cyathea subdubia make it an area of interest for further scientific study.",
+    "constituents": "Cyathea subdubia contains various active constituents, including flavonoids, tannins, and saponins. These compounds are responsible for the plant's medicinal properties and have been used in traditional medicine. Flavonoids, in particular, have been shown to possess anti-inflammatory and antioxidant activities. The saponins present in Cyathea subdubia may also contribute to its potential antimicrobial and anti-cancer properties. Further research is needed to fully understand the effects of these constituents and their potential applications.",
+    "parts": "Cyathea subdubia's medicinal properties are not well-documented, however, some species within the Cyathea genus have been used in traditional medicine. The plant's rhizome and roots are sometimes used for their medicinal properties. The rhizome is said to have anti-inflammatory and antimicrobial properties, but more research is needed to confirm its effectiveness. The plant's fronds are also used in some traditional remedies, but specific uses are not well-documented. Further studies are required to understand the full scope of Cyathea subdubia's medicinal properties.",
+    "preparations": "Cyathea subdubia is a species of tree fern, and while it's primarily used in traditional medicine, specific information on herbal preparations is limited. However, tree ferns like Cyathea subdubia have been used in various traditional remedies, often for their supposed anti-inflammatory and antimicrobial properties. Preparations may involve infusions or decoctions of the plant's fronds or roots, although exact methods are not well-documented. The potential health benefits of Cyathea subdubia preparations are largely anecdotal and require further scientific research to confirm. More studies are needed to fully understand the plant's medicinal properties and potential uses.",
+    "side_effects": "Info not available yet.",
+    "intro": "There is not enough information in the available knowledge about \"Cyathea subdubia\"."
+}

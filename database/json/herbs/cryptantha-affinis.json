@@ -1,1 +1,154 @@
-{"title": "Cryptantha affinis", "herb_slug": "cryptantha-affinis", "herb_name_scientific": "Cryptantha affinis", "family_slug": "boraginaceae", "family_name": "Boraginaceae", "url": "herbs/cryptantha-affinis", "lastmod": "2025-1-22", "herb_names_common": [{"name": "small-flowered cryptantha", "mentions": 28, "confidence_score": 231, "total_score": 6468}, {"name": "cryptantha affinis", "mentions": 25, "confidence_score": 101, "total_score": 2525}, {"name": "small cryptantha", "mentions": 8, "confidence_score": 55, "total_score": 440}, {"name": "affinis cryptantha", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "pitney's cat's-eye", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "wyoming cryptantha", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "pitney's cryptantha", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "cat's eye", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "san diego bird's-beak", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "small white cryptantha", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "pitney's cat's-eye cryptantha", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "wyoming starwort", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "gypsum cryptantha", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "pincushion plant", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "cryptantha smallii", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "cryptantha spp.", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "san diego five-spot", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "cryptantha affinis var. affinis", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "small whitetop", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "gypsum flower", "mentions": 1, "confidence_score": 9, "total_score": 9}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 10, "confidence_score": 83, "total_score": 830}, {"medicine_or_poison": "medicine", "mentions": 10, "confidence_score": 80, "total_score": 800}], "uses": "Cryptantha affinis is reportedly used in traditional medicine to treat various health issues. Its roots and leaves are said to have anti-inflammatory and antibacterial properties. In some regions, it is used to treat respiratory problems such as bronchitis and asthma. Additionally, it is believed to have antiseptic and antifungal properties. Further research is needed to fully understand the medicinal potential of Cryptantha affinis.", "taxonomy": "Cryptantha affinis is classified within the family Boraginaceae. This family includes other plants commonly known as forget-me-nots or borage. Cryptantha affinis is also classified within the genus Cryptantha, a group of flowering plants native to the Western United States. The species is further classified as a member of the tribe Cryptanthinae. By classifying it within Boraginaceae, scientists can understand its evolutionary relationships with other plants in this family.", "benefits": "Cryptantha affinis has been used in traditional medicine, and some research suggests it may have anti-inflammatory and antioxidant properties, which could contribute to its potential health benefits. Its roots and leaves contain various bioactive compounds, including alkaloids and flavonoids, that may have medicinal properties. Additionally, the plant has been studied for its potential antimicrobial and antifungal effects. However, more research is needed to fully understand the health benefits of Cryptantha affinis and its potential applications in medicine. Further studies are necessary to confirm its efficacy and safety for human use.", "properties": "Cryptantha affinis is a plant species that has been found to possess certain therapeutic properties. However, the specific therapeutic properties of this plant are not well-documented in scientific literature. Research on Cryptantha affinis is limited, and more studies are needed to understand its potential health benefits. Some sources suggest that the plant may have anti-inflammatory and antioxidant properties, but these claims require further verification. Further research is necessary to confirm the therapeutic properties of Cryptantha affinis.", "constituents": "Cryptantha affinis is known to contain sesquiterpene lactones and flavonoids, which are responsible for its medicinal properties. These compounds may contribute to the plant's potential anti-inflammatory and antioxidant effects. However, more research is needed to fully understand the active constituents and their effects on human health. The plant's chemical composition can vary depending on factors such as its environment and geographical location. Further studies are necessary to determine the exact role of each constituent in the plant's overall activity.", "parts": "Cryptantha affinis, the medicinal parts of this plant are reportedly used to treat various ailments. \nThe plant is said to have properties that can help reduce inflammation and alleviate pain. \nIts leaves and stems may be used to create remedies for fever and other conditions. \nResearch suggests that the plant contains bioactive compounds that contribute to its medicinal effects. \nFurther studies are necessary to fully understand the potential benefits and uses of Cryptantha affinis.", "preparations": "Cryptantha affinis is a plant that has been used in herbal preparations for its medicinal properties. The plant's leaves and stems are often used to make teas, infusions, and tinctures. These preparations are believed to have anti-inflammatory and antimicrobial effects, making them useful for treating various health issues. However, more research is needed to fully understand the plant's potential benefits and risks. In some traditional medicine practices, Cryptantha affinis is used to treat conditions such as digestive issues and respiratory problems.", "side_effects": "Info not available yet.", "intro": "Cryptantha affinis is a perennial herbaceous plant belonging to the borage family (Boraginaceae), native to the southwestern United States and northern Mexico. The plant is valued for its potential health benefits, including anti-inflammatory and antimicrobial properties, which may aid in soothing wounds, reducing fever, and combating infections. The bioactive constituents of Cryptantha affinis include flavonoids, alkaloids, and sesquiterpenoids, which are responsible for its medicinal properties. Traditionally, the plant is used to prepare herbal infusions, tinctures, and salves, which are used topically to treat skin irritations, wounds, and other minor health issues."}
+{
+    "title": "Cryptantha affinis",
+    "herb_slug": "cryptantha-affinis",
+    "herb_name_scientific": "Cryptantha affinis",
+    "family_slug": "boraginaceae",
+    "family_name": "Boraginaceae",
+    "url": "herbs/cryptantha-affinis",
+    "lastmod": "2025-1-22",
+    "herb_names_common": [
+        {
+            "name": "small-flowered cryptantha",
+            "mentions": 28,
+            "confidence_score": 231,
+            "total_score": 6468
+        },
+        {
+            "name": "cryptantha affinis",
+            "mentions": 25,
+            "confidence_score": 101,
+            "total_score": 2525
+        },
+        {
+            "name": "small cryptantha",
+            "mentions": 8,
+            "confidence_score": 55,
+            "total_score": 440
+        },
+        {
+            "name": "affinis cryptantha",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "pitney's cat's-eye",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "wyoming cryptantha",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "pitney's cryptantha",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "cat's eye",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "san diego bird's-beak",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "small white cryptantha",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "pitney's cat's-eye cryptantha",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "wyoming starwort",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "gypsum cryptantha",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "pincushion plant",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "cryptantha smallii",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "cryptantha spp.",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "san diego five-spot",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "cryptantha affinis var. affinis",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "small whitetop",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "gypsum flower",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 10,
+            "confidence_score": 83,
+            "total_score": 830
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 10,
+            "confidence_score": 80,
+            "total_score": 800
+        }
+    ],
+    "uses": "Cryptantha affinis is reportedly used in traditional medicine to treat various health issues. Its roots and leaves are said to have anti-inflammatory and antibacterial properties. In some regions, it is used to treat respiratory problems such as bronchitis and asthma. Additionally, it is believed to have antiseptic and antifungal properties. Further research is needed to fully understand the medicinal potential of Cryptantha affinis.",
+    "taxonomy": "Cryptantha affinis is classified within the family Boraginaceae. This family includes other plants commonly known as forget-me-nots or borage. Cryptantha affinis is also classified within the genus Cryptantha, a group of flowering plants native to the Western United States. The species is further classified as a member of the tribe Cryptanthinae. By classifying it within Boraginaceae, scientists can understand its evolutionary relationships with other plants in this family.",
+    "benefits": "Cryptantha affinis has been used in traditional medicine, and some research suggests it may have anti-inflammatory and antioxidant properties, which could contribute to its potential health benefits. Its roots and leaves contain various bioactive compounds, including alkaloids and flavonoids, that may have medicinal properties. Additionally, the plant has been studied for its potential antimicrobial and antifungal effects. However, more research is needed to fully understand the health benefits of Cryptantha affinis and its potential applications in medicine. Further studies are necessary to confirm its efficacy and safety for human use.",
+    "properties": "Cryptantha affinis is a plant species that has been found to possess certain therapeutic properties. However, the specific therapeutic properties of this plant are not well-documented in scientific literature. Research on Cryptantha affinis is limited, and more studies are needed to understand its potential health benefits. Some sources suggest that the plant may have anti-inflammatory and antioxidant properties, but these claims require further verification. Further research is necessary to confirm the therapeutic properties of Cryptantha affinis.",
+    "constituents": "Cryptantha affinis is known to contain sesquiterpene lactones and flavonoids, which are responsible for its medicinal properties. These compounds may contribute to the plant's potential anti-inflammatory and antioxidant effects. However, more research is needed to fully understand the active constituents and their effects on human health. The plant's chemical composition can vary depending on factors such as its environment and geographical location. Further studies are necessary to determine the exact role of each constituent in the plant's overall activity.",
+    "parts": "Cryptantha affinis, the medicinal parts of this plant are reportedly used to treat various ailments. \nThe plant is said to have properties that can help reduce inflammation and alleviate pain. \nIts leaves and stems may be used to create remedies for fever and other conditions. \nResearch suggests that the plant contains bioactive compounds that contribute to its medicinal effects. \nFurther studies are necessary to fully understand the potential benefits and uses of Cryptantha affinis.",
+    "preparations": "Cryptantha affinis is a plant that has been used in herbal preparations for its medicinal properties. The plant's leaves and stems are often used to make teas, infusions, and tinctures. These preparations are believed to have anti-inflammatory and antimicrobial effects, making them useful for treating various health issues. However, more research is needed to fully understand the plant's potential benefits and risks. In some traditional medicine practices, Cryptantha affinis is used to treat conditions such as digestive issues and respiratory problems.",
+    "side_effects": "Info not available yet.",
+    "intro": "Cryptantha affinis is a perennial herbaceous plant belonging to the borage family (Boraginaceae), native to the southwestern United States and northern Mexico. The plant is valued for its potential health benefits, including anti-inflammatory and antimicrobial properties, which may aid in soothing wounds, reducing fever, and combating infections. The bioactive constituents of Cryptantha affinis include flavonoids, alkaloids, and sesquiterpenoids, which are responsible for its medicinal properties. Traditionally, the plant is used to prepare herbal infusions, tinctures, and salves, which are used topically to treat skin irritations, wounds, and other minor health issues."
+}

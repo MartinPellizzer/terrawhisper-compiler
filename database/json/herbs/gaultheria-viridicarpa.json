@@ -1,1 +1,761 @@
-{"title": "Gaultheria viridicarpa", "herb_slug": "gaultheria-viridicarpa", "herb_name_scientific": "Gaultheria viridicarpa", "family_slug": "ericaceae", "family_name": "Ericaceae", "url": "herbs/gaultheria-viridicarpa", "lastmod": "2025-1-17", "herb_names_common": [{"name": "gaultheria", "mentions": 23, "confidence_score": 168, "total_score": 3864}, {"name": "green gaultheria", "mentions": 15, "confidence_score": 102, "total_score": 1530}, {"name": "american wintergreen", "mentions": 10, "confidence_score": 72, "total_score": 720}, {"name": "eastern teaberry", "mentions": 8, "confidence_score": 63, "total_score": 504}, {"name": "gaultheria viridicarpa", "mentions": 11, "confidence_score": 41, "total_score": 451}, {"name": "twinflower gaultheria", "mentions": 6, "confidence_score": 27, "total_score": 162}, {"name": "green mountain tea", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "pacific gaultheria", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "red gaultheria", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "green mountain gaultheria", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "eastern gaultheria", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "red teaberry", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "red twinflower", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "eastern wintergreen", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "wintergreen gaultheria", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "red wintergreen", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "mountain matipo", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "gaultheria procumbens", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "northern snowberry", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "mountain wintergreen", "mentions": 4, "confidence_score": 14, "total_score": 56}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 167, "total_score": 3340}], "what_description": "Gaultheria viridicarpa is a species of flowering plant in the family Ericaceae, native to Southeast Asia. It is a shrub that grows up to 1 meter in height, with dark green, elliptical leaves that are 2-5 centimeters long and have entire margins. The plant produces small, white flowers in clusters, which are followed by red berries. Gaultheria viridicarpa has a woody stem with a smooth, gray bark, and the leaves are gland-dotted, giving them a slightly sticky texture. The plant prefers shaded, humid environments and is often found in tropical forests.", "category_action": "antispasmodic", "ailments": [{"name": "inflammation", "mentions": 9, "confidence_score": 74, "total_score": 666}, {"name": "insect bites", "mentions": 8, "confidence_score": 64, "total_score": 512}, {"name": "diarrhea", "mentions": 9, "confidence_score": 63, "total_score": 567}, {"name": "fever", "mentions": 10, "confidence_score": 61, "total_score": 610}, {"name": "muscle pain", "mentions": 7, "confidence_score": 58, "total_score": 406}, {"name": "coughs", "mentions": 8, "confidence_score": 58, "total_score": 464}, {"name": "skin irritation", "mentions": 8, "confidence_score": 55, "total_score": 440}, {"name": "muscle spasms", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "fungal infections", "mentions": 7, "confidence_score": 42, "total_score": 294}, {"name": "rheumatism", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "arthritis", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "digestive issues", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "nausea", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "wounds", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "wound healing", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "sore throat", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "vomiting", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "anxiety", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "respiratory infections", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 24, "total_score": 96}], "ailments_description": "The most common ailments you can heal with Gaultheria viridicarpa are inflammation, fever, and digestive issues, which it alleviates through its anti-inflammatory and antipyretic properties. Insect bites and skin irritation, often caused by allergic reactions, are also treated with Gaultheria viridicarpa due to its analgesic and anti-inflammatory effects. Diarrhea, caused by gastrointestinal infections, is relieved by the plant's antimicrobial and anti-inflammatory properties. Muscle pain, coughs, and respiratory infections are alleviated by Gaultheria viridicarpa's expectorant and anti-inflammatory properties, while fungal infections, rheumatism, and arthritis are treated with its antifungal and anti-inflammatory effects. Additionally, the plant's antiseptic and antimicrobial properties help to heal wounds and alleviate symptoms of gastroenteritis, nausea, vomiting, sore throat, and anxiety.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 158, "total_score": 3160}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 154, "total_score": 3080}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 142, "total_score": 2840}, {"name": "analgesic", "mentions": 20, "confidence_score": 104, "total_score": 2080}, {"name": "antiviral", "mentions": 19, "confidence_score": 83, "total_score": 1577}, {"name": "antifungal", "mentions": 9, "confidence_score": 64, "total_score": 576}, {"name": "antispasmodic", "mentions": 8, "confidence_score": 52, "total_score": 416}, {"name": "antibacterial", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "anticancer", "mentions": 9, "confidence_score": 37, "total_score": 333}, {"name": "antiseptic", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "cytotoxic", "mentions": 7, "confidence_score": 27, "total_score": 189}, {"name": "hepatoprotective", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "expectorant", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "cardioprotective", "mentions": 7, "confidence_score": 20, "total_score": 140}, {"name": "antiproliferative", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "diuretic", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "neuroprotective", "mentions": 6, "confidence_score": 15, "total_score": 90}, {"name": "cytoprotective", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "immunomodulatory", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "antihistamine", "mentions": 3, "confidence_score": 11, "total_score": 33}], "properties_description": "The main therapeutic properties of Gaultheria viridicarpa are attributed to its ability to scavenge free radicals, thus exhibiting strong antioxidant activity, which can neutralize oxidative stress and cell damage. The plant's antimicrobial properties are also noteworthy, as it contains volatile oils that have been shown to inhibit the growth of various pathogens and reduce the incidence of infections. Gaultheria viridicarpa's anti-inflammatory properties are mediated by flavonoids and phenolic acids, which can reduce swelling and pain by inhibiting the production of pro-inflammatory enzymes. Furthermore, the plant's analgesic properties are attributed to the presence of sesquiterpenes, which can bind to opioid receptors and reduce pain perception. Gaultheria viridicarpa's antiviral properties are also reported, with the plant's extracts showing inhibitory effects on the replication of certain viruses, including herpes simplex and influenza.", "constituents": [{"name": "gaultherin", "mentions": 20, "confidence_score": 188, "total_score": 3760}, {"name": "gaultherin glycosides", "mentions": 25, "confidence_score": 162, "total_score": 4050}, {"name": "tannins", "mentions": 12, "confidence_score": 70, "total_score": 840}, {"name": "gaultherin flavonoids", "mentions": 13, "confidence_score": 57, "total_score": 741}, {"name": "gaultherin glucoside", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "gaultherin phenolic acids", "mentions": 10, "confidence_score": 45, "total_score": 450}, {"name": "quinic acid", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "gaultherin saponins", "mentions": 8, "confidence_score": 31, "total_score": 248}, {"name": "quercetin", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "gaultherin aglycone", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "ellagic acid", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "kaempferol", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "terpenoids", "mentions": 5, "confidence_score": 18, "total_score": 90}, {"name": "gaultherin-7-o-\u03b1-l-rhamnopyranosyl-(1\u21922)-\u03b2-d-glucopyranoside", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "gaultherin acid", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "coumarins", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "gaultherin alkaloids", "mentions": 4, "confidence_score": 10, "total_score": 40}, {"name": "gaultherin methyl ester", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "ascorbic acid", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "gaultherin aldehyde", "mentions": 2, "confidence_score": 9, "total_score": 18}], "constituents_description": "The most important healing constituents of Gaultheria viridicarpa are gaultherin, a phenolic compound with antioxidant properties, gaultherin glycosides, which are responsible for its medicinal activities, tannins, contributing to its anti-inflammatory properties, and gaultherin flavonoids and gaultherin glucoside, which exhibit antimicrobial and antifungal activities due to their ability to inhibit the growth of microorganisms. Gaultherin's antioxidant properties are attributed to its ability to scavenge free radicals and chelate metal ions, thereby protecting against oxidative stress and inflammation. The antimicrobial activities of gaultherin flavonoids and gaultherin glucoside have been demonstrated in various studies, where they were shown to inhibit the growth of bacteria, fungi, and yeast. Tannins, on the other hand, have been found to exhibit anti-inflammatory properties by inhibiting the production of pro-inflammatory cytokines and enzymes. The combination of these constituents makes Gaultheria viridicarpa a valuable resource for the treatment of various health conditions, including infections and inflammation.", "preparations": [{"name": "infusion tea", "mentions": 16, "confidence_score": 111, "total_score": 1776}, {"name": "tincture", "mentions": 13, "confidence_score": 97, "total_score": 1261}, {"name": "gaultheria oil", "mentions": 7, "confidence_score": 58, "total_score": 406}, {"name": "salve", "mentions": 11, "confidence_score": 56, "total_score": 616}, {"name": "gaultheria tea", "mentions": 6, "confidence_score": 53, "total_score": 318}, {"name": "gaultheria tincture", "mentions": 6, "confidence_score": 51, "total_score": 306}, {"name": "gaultheria salve", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "essential oil", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "infused oil", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "gaultheria infusion", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "methanolic extract", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "glycoside extract", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "gaultheria decoction", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "gaultheria viridicarpa tea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "gaultheria wine", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "gaultheria viridicarpa tincture", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "gaultheria viridicarpa infusion", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "gaultheria extract", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "ginger tea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "gaultheria syrup", "mentions": 2, "confidence_score": 7, "total_score": 14}], "preparations_description": "The main herbal preparations of Gaultheria viridicarpa are infusion tea, made by steeping the leaves in hot water to extract its medicinal compounds, which is traditionally used to treat respiratory issues and sore throats; tincture, a concentrated liquid extract of the plant's leaves, used to treat various health conditions, including digestive issues and skin problems; gaultheria oil, a topical oil extracted from the plant's leaves, used to relieve pain and inflammation; salve, a topical cream or ointment made by infusing the gaultheria oil in a carrier oil, used to treat skin conditions and wounds; and gaultheria tea, a medicinal tea made by infusing the plant's leaves in hot water, used to treat digestive issues and relieve stress, due to its high content of phenolic compounds and organic acids.", "side_effects": [{"name": "experience nausea", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "induce vomiting", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "experience dizziness", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "experiencing nausea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "develop allergic reaction", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "experience diarrhea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "experience vomiting", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "develop nausea", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "cause respiratory depression", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "develop dizziness", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "suffer vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "trigger seizures", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "vomits", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develop skin irritation", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "experiencing dizziness", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "show allergic reaction", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "suffer headache", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experience toxicity", "mentions": 1, "confidence_score": 10, "total_score": 10}], "side_effects_description": "The possible side effects of using Gaultheria viridicarpa improperly include experiencing nausea and vomiting, which may be caused by the plant's toxic compounds, specifically sesquiterpenoids. These compounds can also lead to dizziness and other gastrointestinal issues. Furthermore, individuals may develop an allergic reaction, such as hives or itching, due to the plant's volatile oils. Gaultheria viridicarpa contains toxic compounds that can cause nausea and vomiting, which may be due to the plant's high sesquiterpenoid content. These side effects can be severe and require immediate medical attention if not properly managed.", "uses": "Gaultheria viridicarpa is a species of shrub native to the Himalayas, and it has been used in traditional medicine for various purposes. The plant is believed to have anti-inflammatory and antimicrobial properties, which can help in treating wounds and infections. It is also said to possess antioxidant properties, which can help in protecting the body from oxidative stress and damage. In traditional medicine, Gaultheria viridicarpa is used to treat various ailments, including fever, cough, and digestive issues. However, more research is needed to confirm the efficacy and safety of using Gaultheria viridicarpa as a medicinal plant.", "taxonomy": "Gaultheria viridicarpa is classified within the family Ericaceae. This family includes various heath and heather species, as well as cranberries and blueberries. Gaultheria viridicarpa itself is part of the genus Gaultheria, which consists of several species of wintergreen plants. The genus Gaultheria is further grouped into the order Ericales, which also contains other plant families such as Theaceae and Clethraceae. Gaultheria viridicarpa's classification reflects its close evolutionary relationships with other flowering plants in the Ericaceae family.", "benefits": "Gaultheria viridicarpa is a plant species that has been studied for its potential health benefits. The plant's extracts have been reported to exhibit antioxidant, anti-inflammatory, and antimicrobial properties. These properties may help protect against cell damage, reduce inflammation, and combat infections. Further research is needed to fully understand the plant's effects on human health. Gaultheria viridicarpa may also be used in traditional medicine to treat various ailments.", "parts": "Gaultheria viridicarpa, a species of flowering plant, is known to have medicinal properties, with various parts of the plant being used for their therapeutic benefits. The leaves of Gaultheria viridicarpa are particularly valued for their medicinal properties, with traditional uses including treating fever, pain, and inflammation. Additionally, the plant's berries are also used in some traditional medicine practices, although their specific medicinal applications are less well-documented. The root and stem of Gaultheria viridicarpa are also reported to have medicinal properties, although these are less commonly used in traditional medicine. More research is needed to fully understand the medicinal properties and uses of all parts of the Gaultheria viridicarpa plant.", "intro": "Gaultheria viridicarpa, also known as the Oregon cranberry or green Gaultheria, is a type of flowering plant that belongs to the heath family (Ericaceae). This plant has been traditionally used in herbal medicine for its potential health benefits, including anti-inflammatory and antimicrobial properties, which may help to alleviate symptoms of respiratory infections, digestive issues, and skin conditions. The bioactive constituents of Gaultheria viridicarpa include phenolic acids, flavonoids, and glycosides, particularly ursolic acid and oleanolic acid, which are responsible for its medicinal properties. Gaultheria viridicarpa is commonly used in herbal preparations such as teas, tinctures, and infusions, as well as in topical creams and ointments to harness its therapeutic benefits."}
+{
+    "title": "Gaultheria viridicarpa",
+    "herb_slug": "gaultheria-viridicarpa",
+    "herb_name_scientific": "Gaultheria viridicarpa",
+    "family_slug": "ericaceae",
+    "family_name": "Ericaceae",
+    "url": "herbs/gaultheria-viridicarpa",
+    "lastmod": "2025-1-17",
+    "herb_names_common": [
+        {
+            "name": "gaultheria",
+            "mentions": 23,
+            "confidence_score": 168,
+            "total_score": 3864
+        },
+        {
+            "name": "green gaultheria",
+            "mentions": 15,
+            "confidence_score": 102,
+            "total_score": 1530
+        },
+        {
+            "name": "american wintergreen",
+            "mentions": 10,
+            "confidence_score": 72,
+            "total_score": 720
+        },
+        {
+            "name": "eastern teaberry",
+            "mentions": 8,
+            "confidence_score": 63,
+            "total_score": 504
+        },
+        {
+            "name": "gaultheria viridicarpa",
+            "mentions": 11,
+            "confidence_score": 41,
+            "total_score": 451
+        },
+        {
+            "name": "twinflower gaultheria",
+            "mentions": 6,
+            "confidence_score": 27,
+            "total_score": 162
+        },
+        {
+            "name": "green mountain tea",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "pacific gaultheria",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "red gaultheria",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "green mountain gaultheria",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "eastern gaultheria",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "red teaberry",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "red twinflower",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "eastern wintergreen",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "wintergreen gaultheria",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "red wintergreen",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "mountain matipo",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "gaultheria procumbens",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "northern snowberry",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "mountain wintergreen",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 167,
+            "total_score": 3340
+        }
+    ],
+    "what_description": "Gaultheria viridicarpa is a species of flowering plant in the family Ericaceae, native to Southeast Asia. It is a shrub that grows up to 1 meter in height, with dark green, elliptical leaves that are 2-5 centimeters long and have entire margins. The plant produces small, white flowers in clusters, which are followed by red berries. Gaultheria viridicarpa has a woody stem with a smooth, gray bark, and the leaves are gland-dotted, giving them a slightly sticky texture. The plant prefers shaded, humid environments and is often found in tropical forests.",
+    "category_action": "antispasmodic",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 9,
+            "confidence_score": 74,
+            "total_score": 666
+        },
+        {
+            "name": "insect bites",
+            "mentions": 8,
+            "confidence_score": 64,
+            "total_score": 512
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 9,
+            "confidence_score": 63,
+            "total_score": 567
+        },
+        {
+            "name": "fever",
+            "mentions": 10,
+            "confidence_score": 61,
+            "total_score": 610
+        },
+        {
+            "name": "muscle pain",
+            "mentions": 7,
+            "confidence_score": 58,
+            "total_score": 406
+        },
+        {
+            "name": "coughs",
+            "mentions": 8,
+            "confidence_score": 58,
+            "total_score": 464
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 8,
+            "confidence_score": 55,
+            "total_score": 440
+        },
+        {
+            "name": "muscle spasms",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 7,
+            "confidence_score": 42,
+            "total_score": 294
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "arthritis",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "nausea",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "wounds",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "wound healing",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "sore throat",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "vomiting",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "anxiety",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "respiratory infections",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Gaultheria viridicarpa are inflammation, fever, and digestive issues, which it alleviates through its anti-inflammatory and antipyretic properties. Insect bites and skin irritation, often caused by allergic reactions, are also treated with Gaultheria viridicarpa due to its analgesic and anti-inflammatory effects. Diarrhea, caused by gastrointestinal infections, is relieved by the plant's antimicrobial and anti-inflammatory properties. Muscle pain, coughs, and respiratory infections are alleviated by Gaultheria viridicarpa's expectorant and anti-inflammatory properties, while fungal infections, rheumatism, and arthritis are treated with its antifungal and anti-inflammatory effects. Additionally, the plant's antiseptic and antimicrobial properties help to heal wounds and alleviate symptoms of gastroenteritis, nausea, vomiting, sore throat, and anxiety.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 158,
+            "total_score": 3160
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 154,
+            "total_score": 3080
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 142,
+            "total_score": 2840
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 104,
+            "total_score": 2080
+        },
+        {
+            "name": "antiviral",
+            "mentions": 19,
+            "confidence_score": 83,
+            "total_score": 1577
+        },
+        {
+            "name": "antifungal",
+            "mentions": 9,
+            "confidence_score": 64,
+            "total_score": 576
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 8,
+            "confidence_score": 52,
+            "total_score": 416
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "anticancer",
+            "mentions": 9,
+            "confidence_score": 37,
+            "total_score": 333
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 7,
+            "confidence_score": 27,
+            "total_score": 189
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "expectorant",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 7,
+            "confidence_score": 20,
+            "total_score": 140
+        },
+        {
+            "name": "antiproliferative",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "diuretic",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 6,
+            "confidence_score": 15,
+            "total_score": 90
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Gaultheria viridicarpa are attributed to its ability to scavenge free radicals, thus exhibiting strong antioxidant activity, which can neutralize oxidative stress and cell damage. The plant's antimicrobial properties are also noteworthy, as it contains volatile oils that have been shown to inhibit the growth of various pathogens and reduce the incidence of infections. Gaultheria viridicarpa's anti-inflammatory properties are mediated by flavonoids and phenolic acids, which can reduce swelling and pain by inhibiting the production of pro-inflammatory enzymes. Furthermore, the plant's analgesic properties are attributed to the presence of sesquiterpenes, which can bind to opioid receptors and reduce pain perception. Gaultheria viridicarpa's antiviral properties are also reported, with the plant's extracts showing inhibitory effects on the replication of certain viruses, including herpes simplex and influenza.",
+    "constituents": [
+        {
+            "name": "gaultherin",
+            "mentions": 20,
+            "confidence_score": 188,
+            "total_score": 3760
+        },
+        {
+            "name": "gaultherin glycosides",
+            "mentions": 25,
+            "confidence_score": 162,
+            "total_score": 4050
+        },
+        {
+            "name": "tannins",
+            "mentions": 12,
+            "confidence_score": 70,
+            "total_score": 840
+        },
+        {
+            "name": "gaultherin flavonoids",
+            "mentions": 13,
+            "confidence_score": 57,
+            "total_score": 741
+        },
+        {
+            "name": "gaultherin glucoside",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "gaultherin phenolic acids",
+            "mentions": 10,
+            "confidence_score": 45,
+            "total_score": 450
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "gaultherin saponins",
+            "mentions": 8,
+            "confidence_score": 31,
+            "total_score": 248
+        },
+        {
+            "name": "quercetin",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "gaultherin aglycone",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 5,
+            "confidence_score": 18,
+            "total_score": 90
+        },
+        {
+            "name": "gaultherin-7-o-\u03b1-l-rhamnopyranosyl-(1\u21922)-\u03b2-d-glucopyranoside",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "gaultherin acid",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "coumarins",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "gaultherin alkaloids",
+            "mentions": 4,
+            "confidence_score": 10,
+            "total_score": 40
+        },
+        {
+            "name": "gaultherin methyl ester",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "ascorbic acid",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "gaultherin aldehyde",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Gaultheria viridicarpa are gaultherin, a phenolic compound with antioxidant properties, gaultherin glycosides, which are responsible for its medicinal activities, tannins, contributing to its anti-inflammatory properties, and gaultherin flavonoids and gaultherin glucoside, which exhibit antimicrobial and antifungal activities due to their ability to inhibit the growth of microorganisms. Gaultherin's antioxidant properties are attributed to its ability to scavenge free radicals and chelate metal ions, thereby protecting against oxidative stress and inflammation. The antimicrobial activities of gaultherin flavonoids and gaultherin glucoside have been demonstrated in various studies, where they were shown to inhibit the growth of bacteria, fungi, and yeast. Tannins, on the other hand, have been found to exhibit anti-inflammatory properties by inhibiting the production of pro-inflammatory cytokines and enzymes. The combination of these constituents makes Gaultheria viridicarpa a valuable resource for the treatment of various health conditions, including infections and inflammation.",
+    "preparations": [
+        {
+            "name": "infusion tea",
+            "mentions": 16,
+            "confidence_score": 111,
+            "total_score": 1776
+        },
+        {
+            "name": "tincture",
+            "mentions": 13,
+            "confidence_score": 97,
+            "total_score": 1261
+        },
+        {
+            "name": "gaultheria oil",
+            "mentions": 7,
+            "confidence_score": 58,
+            "total_score": 406
+        },
+        {
+            "name": "salve",
+            "mentions": 11,
+            "confidence_score": 56,
+            "total_score": 616
+        },
+        {
+            "name": "gaultheria tea",
+            "mentions": 6,
+            "confidence_score": 53,
+            "total_score": 318
+        },
+        {
+            "name": "gaultheria tincture",
+            "mentions": 6,
+            "confidence_score": 51,
+            "total_score": 306
+        },
+        {
+            "name": "gaultheria salve",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "essential oil",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "infused oil",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "gaultheria infusion",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "methanolic extract",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "glycoside extract",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "gaultheria decoction",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "gaultheria viridicarpa tea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "gaultheria wine",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "gaultheria viridicarpa tincture",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "gaultheria viridicarpa infusion",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "gaultheria extract",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "ginger tea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "gaultheria syrup",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Gaultheria viridicarpa are infusion tea, made by steeping the leaves in hot water to extract its medicinal compounds, which is traditionally used to treat respiratory issues and sore throats; tincture, a concentrated liquid extract of the plant's leaves, used to treat various health conditions, including digestive issues and skin problems; gaultheria oil, a topical oil extracted from the plant's leaves, used to relieve pain and inflammation; salve, a topical cream or ointment made by infusing the gaultheria oil in a carrier oil, used to treat skin conditions and wounds; and gaultheria tea, a medicinal tea made by infusing the plant's leaves in hot water, used to treat digestive issues and relieve stress, due to its high content of phenolic compounds and organic acids.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "develop nausea",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "cause respiratory depression",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "develop dizziness",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "suffer vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "vomits",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "show allergic reaction",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "suffer headache",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experience toxicity",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Gaultheria viridicarpa improperly include experiencing nausea and vomiting, which may be caused by the plant's toxic compounds, specifically sesquiterpenoids. These compounds can also lead to dizziness and other gastrointestinal issues. Furthermore, individuals may develop an allergic reaction, such as hives or itching, due to the plant's volatile oils. Gaultheria viridicarpa contains toxic compounds that can cause nausea and vomiting, which may be due to the plant's high sesquiterpenoid content. These side effects can be severe and require immediate medical attention if not properly managed.",
+    "uses": "Gaultheria viridicarpa is a species of shrub native to the Himalayas, and it has been used in traditional medicine for various purposes. The plant is believed to have anti-inflammatory and antimicrobial properties, which can help in treating wounds and infections. It is also said to possess antioxidant properties, which can help in protecting the body from oxidative stress and damage. In traditional medicine, Gaultheria viridicarpa is used to treat various ailments, including fever, cough, and digestive issues. However, more research is needed to confirm the efficacy and safety of using Gaultheria viridicarpa as a medicinal plant.",
+    "taxonomy": "Gaultheria viridicarpa is classified within the family Ericaceae. This family includes various heath and heather species, as well as cranberries and blueberries. Gaultheria viridicarpa itself is part of the genus Gaultheria, which consists of several species of wintergreen plants. The genus Gaultheria is further grouped into the order Ericales, which also contains other plant families such as Theaceae and Clethraceae. Gaultheria viridicarpa's classification reflects its close evolutionary relationships with other flowering plants in the Ericaceae family.",
+    "benefits": "Gaultheria viridicarpa is a plant species that has been studied for its potential health benefits. The plant's extracts have been reported to exhibit antioxidant, anti-inflammatory, and antimicrobial properties. These properties may help protect against cell damage, reduce inflammation, and combat infections. Further research is needed to fully understand the plant's effects on human health. Gaultheria viridicarpa may also be used in traditional medicine to treat various ailments.",
+    "parts": "Gaultheria viridicarpa, a species of flowering plant, is known to have medicinal properties, with various parts of the plant being used for their therapeutic benefits. The leaves of Gaultheria viridicarpa are particularly valued for their medicinal properties, with traditional uses including treating fever, pain, and inflammation. Additionally, the plant's berries are also used in some traditional medicine practices, although their specific medicinal applications are less well-documented. The root and stem of Gaultheria viridicarpa are also reported to have medicinal properties, although these are less commonly used in traditional medicine. More research is needed to fully understand the medicinal properties and uses of all parts of the Gaultheria viridicarpa plant.",
+    "intro": "Gaultheria viridicarpa, also known as the Oregon cranberry or green Gaultheria, is a type of flowering plant that belongs to the heath family (Ericaceae). This plant has been traditionally used in herbal medicine for its potential health benefits, including anti-inflammatory and antimicrobial properties, which may help to alleviate symptoms of respiratory infections, digestive issues, and skin conditions. The bioactive constituents of Gaultheria viridicarpa include phenolic acids, flavonoids, and glycosides, particularly ursolic acid and oleanolic acid, which are responsible for its medicinal properties. Gaultheria viridicarpa is commonly used in herbal preparations such as teas, tinctures, and infusions, as well as in topical creams and ointments to harness its therapeutic benefits."
+}

@@ -1,1 +1,755 @@
-{"title": "Meehania fargesii", "herb_slug": "meehania-fargesii", "herb_name_scientific": "Meehania fargesii", "family_slug": "lamiaceae", "family_name": "Lamiaceae", "url": "herbs/meehania-fargesii", "lastmod": "2025-1-13", "herb_names_common": [{"name": "farges' meehania", "mentions": 53, "confidence_score": 380, "total_score": 20140}, {"name": "farges meehania", "mentions": 41, "confidence_score": 294, "total_score": 12054}, {"name": "meehania fargesii", "mentions": 35, "confidence_score": 142, "total_score": 4970}, {"name": "chinese meehania", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "woodland meehania", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "farge's meehania", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "farges heron's pieris", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "farges meehanias", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "farges meehania (meehania fargesii)", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "farges meehania fargesii", "mentions": 6, "confidence_score": 10, "total_score": 60}, {"name": "meehan's mint", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "farge meehania", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "farges' meehania (meehania fargesii)", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "meehania fargesii (meehania fargesii)", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "farges's meehania", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "meehania fargesii meehania", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "farges meehania, meehania fargesii", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "meehania fargesii, meehania fargesii", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "woodland mint", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "chinese woodsia", "mentions": 2, "confidence_score": 8, "total_score": 16}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 159, "total_score": 3180}], "what_description": "Meehania fargesii is a species of flowering plant in the family Lamiaceae. It is a perennial herb that grows up to 60 cm tall, with a woody base and a hairy stem. The leaves are opposite, ovate, and have a serrated margin, measuring 4-12 cm in length and 2-6 cm in width. The inflorescence is a terminal spike of small, white to pink flowers, which are bilaterally symmetrical and have a four-lobed calyx. The plant is native to China and is commonly found in moist, shaded areas, often in association with other vegetation.", "category_action": "antispasmodic", "ailments": [{"name": "inflammation", "mentions": 20, "confidence_score": 171, "total_score": 3420}, {"name": "digestive issues", "mentions": 12, "confidence_score": 88, "total_score": 1056}, {"name": "anxiety", "mentions": 12, "confidence_score": 88, "total_score": 1056}, {"name": "fever", "mentions": 11, "confidence_score": 81, "total_score": 891}, {"name": "skin irritation", "mentions": 10, "confidence_score": 69, "total_score": 690}, {"name": "stress", "mentions": 8, "confidence_score": 59, "total_score": 472}, {"name": "cough", "mentions": 10, "confidence_score": 58, "total_score": 580}, {"name": "diarrhea", "mentions": 8, "confidence_score": 58, "total_score": 464}, {"name": "pain", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "hypertension", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "respiratory infections", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "respiratory issues", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "rheumatism", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "allergies", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "skin issues", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "cancer prevention", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "diabetes control", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "indigestion", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "gastritis", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "high blood pressure", "mentions": 3, "confidence_score": 18, "total_score": 54}], "ailments_description": "The most common ailments you can heal with Meehania fargesii are inflammation, digestive issues, and anxiety, which are alleviated by its anti-inflammatory properties and flavonoids, reducing stress and anxiety through GABA receptor modulation. Meehania fargesii also has antipyretic properties, lowering fever in infected individuals. Its anti-irritant properties soothe skin irritation, while its adaptogenic effects mitigate stress and alleviate respiratory issues, such as cough and respiratory infections, by modulating the immune system. Additionally, Meehania fargesii has been shown to exhibit analgesic and anti-hypertensive effects, reducing pain and high blood pressure in affected individuals, and to possess anti-allergic and anti-inflammatory properties that alleviate skin issues and rheumatism. It also exhibits antioxidant and anti-diabetic properties, which help prevent cancer, control diabetes, and alleviate indigestion and gastritis.", "properties": [{"name": "antioxidant", "mentions": 21, "confidence_score": 174, "total_score": 3654}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 150, "total_score": 3000}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 143, "total_score": 2860}, {"name": "analgesic", "mentions": 18, "confidence_score": 77, "total_score": 1386}, {"name": "anticancer", "mentions": 15, "confidence_score": 66, "total_score": 990}, {"name": "neuroprotective", "mentions": 15, "confidence_score": 63, "total_score": 945}, {"name": "cardioprotective", "mentions": 14, "confidence_score": 51, "total_score": 714}, {"name": "antiviral", "mentions": 14, "confidence_score": 48, "total_score": 672}, {"name": "cytotoxic", "mentions": 9, "confidence_score": 46, "total_score": 414}, {"name": "hepatoprotective", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "immunomodulatory", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "antiproliferative", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "antidiabetic", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "antihistamine", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "antipyretic", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "antispasmodic", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "antifungal", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "antibacterial", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "hypotensive", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "antihypertensive", "mentions": 2, "confidence_score": 8, "total_score": 16}], "properties_description": "The main therapeutic properties of Meehania fargesii are attributed to its antioxidant activity, which is primarily due to the presence of flavonoids, contributing to the protection of cells from oxidative damage and potentially mitigating the progression of various diseases. Its anti-inflammatory property, resulting from the action of saponins and volatile oils, may help alleviate symptoms associated with conditions such as arthritis and other inflammatory disorders. Additionally, the plant's antimicrobial property, mediated by the action of phenolic compounds, can inhibit the growth of pathogens, making it a potential candidate for the development of new antimicrobial agents. Meehania fargesii also exhibits analgesic activity, likely due to the presence of alkaloids and glycosides, which may help alleviate pain by interacting with opioid receptors in the brain. Furthermore, the anticancer property of Meehania fargesii is thought to be attributed to the action of terpenoids and phenolic acids, which may induce apoptosis in cancer cells and inhibit tumor growth.", "constituents": [{"name": "quercetin", "mentions": 14, "confidence_score": 119, "total_score": 1666}, {"name": "kaempferol", "mentions": 13, "confidence_score": 91, "total_score": 1183}, {"name": "iridoid glycosides", "mentions": 12, "confidence_score": 70, "total_score": 840}, {"name": "flavonoids", "mentions": 9, "confidence_score": 63, "total_score": 567}, {"name": "isorhapontigenin", "mentions": 8, "confidence_score": 59, "total_score": 472}, {"name": "phenolic acids", "mentions": 9, "confidence_score": 58, "total_score": 522}, {"name": "triterpenoids", "mentions": 10, "confidence_score": 58, "total_score": 580}, {"name": "rutin", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "rosmarinic acid", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "apigenin", "mentions": 8, "confidence_score": 38, "total_score": 304}, {"name": "luteolin", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "saponins", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "hyperoside", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "alkaloids", "mentions": 8, "confidence_score": 31, "total_score": 248}, {"name": "naringenin", "mentions": 6, "confidence_score": 30, "total_score": 180}, {"name": "caffeic acid", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "tannins", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "coumarins", "mentions": 7, "confidence_score": 22, "total_score": 154}, {"name": "chlorogenic acid", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "rhaponticin", "mentions": 3, "confidence_score": 17, "total_score": 51}], "constituents_description": "The most important healing constituents of Meehania fargesii are quercetin and kaempferol, two flavonoids that have been identified as potent antioxidants and anti-inflammatory compounds. Additionally, the plant contains iridoid glycosides, including aucubin and isorhapontigenin, which have been shown to exhibit antibacterial and anti-inflammatory activities. Flavonoids, such as quercetin and kaempferol, have also been reported to possess anti-cancer properties, while isorhapontigenin has been found to inhibit the production of pro-inflammatory enzymes. These constituents are likely responsible for the plant's traditional use in treating various ailments, including fever, rheumatism, and digestive issues. Overall, the combination of these bioactive compounds in Meehania fargesii suggests its potential as a natural remedy for a range of health conditions.", "preparations": [{"name": "tincture", "mentions": 19, "confidence_score": 152, "total_score": 2888}, {"name": "tea", "mentions": 15, "confidence_score": 127, "total_score": 1905}, {"name": "infusion", "mentions": 15, "confidence_score": 118, "total_score": 1770}, {"name": "salve", "mentions": 19, "confidence_score": 96, "total_score": 1824}, {"name": "decoction", "mentions": 14, "confidence_score": 72, "total_score": 1008}, {"name": "infused oil", "mentions": 9, "confidence_score": 49, "total_score": 441}, {"name": "meehania tea", "mentions": 5, "confidence_score": 44, "total_score": 220}, {"name": "meehania infusion", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "meehania salve", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "poultice", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "meehania tincture", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "ointment", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "glycerite", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "infused vinegar", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suppository", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "essence", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "capsule", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "meehania oil", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "essential oil", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Meehania fargesii are derived from its leaves and stems, which are rich in flavonoids, phenolic acids, and terpenoids. A tincture is made by steeping the plant material in a solvent like ethanol or glycerin to extract its active compounds, which can be used to treat various health issues such as inflammation and digestive problems. Meehania fargesii tea is prepared by infusing the dried leaves and stems in hot water to make a decoction, which is traditionally used to treat fever, cough, and respiratory issues. An infusion is made by steeping the plant material in cold water to extract its subtle flavors and medicinal properties, which is often used to treat anxiety and stress. Additionally, a salve is prepared by mixing the plant material with a carrier oil like coconut or olive oil to create a topical application for skin issues such as wounds, burns, and eczema.", "side_effects": [{"name": "cause nausea", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "exacerbate allergies", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "experience nausea", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "induce nausea", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "trigger asthma", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "develop diarrhea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "feel dizziness", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "trigger allergic reactions", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "provoke skin irritation", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "induce diarrhea", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "exacerbate liver damage", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "affect liver function", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "show allergic reactions", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "developed allergic reaction", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "interact with medications", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "experience abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experienced nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause dizziness", "mentions": 2, "confidence_score": 15, "total_score": 30}], "side_effects_description": "The possible side effects of using Meehania fargesii improperly are that it can cause nausea due to its emmenagogue properties, exacerbate allergies as it belongs to the Lamiaceae family, which includes plants known to trigger allergic reactions, induce nausea and trigger asthma in susceptible individuals, particularly those with pre-existing respiratory conditions, and experience nausea is also a reported side effect likely due to its potential interaction with certain medications or sensitivities.", "uses": "Meehania fargesii is a plant native to China, and it has been used in traditional medicine for various purposes. The plant's leaves and stems are used to treat fever, rheumatism, and digestive issues. Traditionally, it is also used to lower blood pressure and as an anti-inflammatory agent. However, more research is needed to confirm its effectiveness and safety for human consumption. In some regions, it is also used as a natural remedy for snake bites and insect stings.", "taxonomy": "Meehania fargesii is classified in the following way: it belongs to the family Lamiaceae, commonly known as the mint family. The genus Meehania is a small group of flowering plants native to East Asia. Meehania fargesii is specifically a species of flowering plant native to China. It is a perennial herb, often found growing in shady woodland environments. Meehania fargesii is also known by the common name Farges' meehania.", "benefits": "Meehania fargesii.  Meehania fargesii is a plant traditionally used in Chinese medicine, and it may have various health benefits, including anti-inflammatory, antioxidant, and antimicrobial properties. It may also be used to treat fever, cough, and respiratory issues. Studies have shown that the plant's extracts may have neuroprotective effects and may help in reducing the risk of age-related neurodegenerative diseases. However, more research is needed to confirm the full extent of its health benefits.", "parts": "Meehania fargesii. The medicinal parts of Meehania fargesii, commonly known as Farges' meehania, are the leaves, stems, and roots. Traditionally, these parts are used in herbal medicine to treat various ailments, including fever, inflammation, and respiratory issues. The leaves are particularly valued for their anti-inflammatory properties, while the roots are used to treat digestive problems. Further research is needed to confirm the full extent of Meehania fargesii's medicinal properties and potential uses.", "intro": "Meehania fargesii, also known as Farges' meehania or Chinese meehania, is a perennial herbaceous plant native to China, belonging to the Lamiaceae family. It has been traditionally used in medicine to treat various health issues, including fever, cough, and respiratory problems, due to its anti-inflammatory and antimicrobial properties, which may contribute to its potential health benefits such as reducing inflammation and improving respiratory function. The bioactive constituents of Meehania fargesii include flavonoids, phenolic acids, and terpenoids, which are thought to be responsible for its medicinal properties. In traditional Chinese medicine, Meehania fargesii is commonly prepared into teas, infusions, and extracts, which are used to treat various health conditions, and is also sometimes used in combination with other herbs to enhance its therapeutic effects."}
+{
+    "title": "Meehania fargesii",
+    "herb_slug": "meehania-fargesii",
+    "herb_name_scientific": "Meehania fargesii",
+    "family_slug": "lamiaceae",
+    "family_name": "Lamiaceae",
+    "url": "herbs/meehania-fargesii",
+    "lastmod": "2025-1-13",
+    "herb_names_common": [
+        {
+            "name": "farges' meehania",
+            "mentions": 53,
+            "confidence_score": 380,
+            "total_score": 20140
+        },
+        {
+            "name": "farges meehania",
+            "mentions": 41,
+            "confidence_score": 294,
+            "total_score": 12054
+        },
+        {
+            "name": "meehania fargesii",
+            "mentions": 35,
+            "confidence_score": 142,
+            "total_score": 4970
+        },
+        {
+            "name": "chinese meehania",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "woodland meehania",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "farge's meehania",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "farges heron's pieris",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "farges meehanias",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "farges meehania (meehania fargesii)",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "farges meehania fargesii",
+            "mentions": 6,
+            "confidence_score": 10,
+            "total_score": 60
+        },
+        {
+            "name": "meehan's mint",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "farge meehania",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "farges' meehania (meehania fargesii)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "meehania fargesii (meehania fargesii)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "farges's meehania",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "meehania fargesii meehania",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "farges meehania, meehania fargesii",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "meehania fargesii, meehania fargesii",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "woodland mint",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "chinese woodsia",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 159,
+            "total_score": 3180
+        }
+    ],
+    "what_description": "Meehania fargesii is a species of flowering plant in the family Lamiaceae. It is a perennial herb that grows up to 60 cm tall, with a woody base and a hairy stem. The leaves are opposite, ovate, and have a serrated margin, measuring 4-12 cm in length and 2-6 cm in width. The inflorescence is a terminal spike of small, white to pink flowers, which are bilaterally symmetrical and have a four-lobed calyx. The plant is native to China and is commonly found in moist, shaded areas, often in association with other vegetation.",
+    "category_action": "antispasmodic",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 20,
+            "confidence_score": 171,
+            "total_score": 3420
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 12,
+            "confidence_score": 88,
+            "total_score": 1056
+        },
+        {
+            "name": "anxiety",
+            "mentions": 12,
+            "confidence_score": 88,
+            "total_score": 1056
+        },
+        {
+            "name": "fever",
+            "mentions": 11,
+            "confidence_score": 81,
+            "total_score": 891
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 10,
+            "confidence_score": 69,
+            "total_score": 690
+        },
+        {
+            "name": "stress",
+            "mentions": 8,
+            "confidence_score": 59,
+            "total_score": 472
+        },
+        {
+            "name": "cough",
+            "mentions": 10,
+            "confidence_score": 58,
+            "total_score": 580
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 8,
+            "confidence_score": 58,
+            "total_score": 464
+        },
+        {
+            "name": "pain",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "hypertension",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "respiratory infections",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "allergies",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "skin issues",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "diabetes control",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "indigestion",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "gastritis",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Meehania fargesii are inflammation, digestive issues, and anxiety, which are alleviated by its anti-inflammatory properties and flavonoids, reducing stress and anxiety through GABA receptor modulation. Meehania fargesii also has antipyretic properties, lowering fever in infected individuals. Its anti-irritant properties soothe skin irritation, while its adaptogenic effects mitigate stress and alleviate respiratory issues, such as cough and respiratory infections, by modulating the immune system. Additionally, Meehania fargesii has been shown to exhibit analgesic and anti-hypertensive effects, reducing pain and high blood pressure in affected individuals, and to possess anti-allergic and anti-inflammatory properties that alleviate skin issues and rheumatism. It also exhibits antioxidant and anti-diabetic properties, which help prevent cancer, control diabetes, and alleviate indigestion and gastritis.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 21,
+            "confidence_score": 174,
+            "total_score": 3654
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 150,
+            "total_score": 3000
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 143,
+            "total_score": 2860
+        },
+        {
+            "name": "analgesic",
+            "mentions": 18,
+            "confidence_score": 77,
+            "total_score": 1386
+        },
+        {
+            "name": "anticancer",
+            "mentions": 15,
+            "confidence_score": 66,
+            "total_score": 990
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 15,
+            "confidence_score": 63,
+            "total_score": 945
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 14,
+            "confidence_score": 51,
+            "total_score": 714
+        },
+        {
+            "name": "antiviral",
+            "mentions": 14,
+            "confidence_score": 48,
+            "total_score": 672
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 9,
+            "confidence_score": 46,
+            "total_score": 414
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "antiproliferative",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "antifungal",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Meehania fargesii are attributed to its antioxidant activity, which is primarily due to the presence of flavonoids, contributing to the protection of cells from oxidative damage and potentially mitigating the progression of various diseases. Its anti-inflammatory property, resulting from the action of saponins and volatile oils, may help alleviate symptoms associated with conditions such as arthritis and other inflammatory disorders. Additionally, the plant's antimicrobial property, mediated by the action of phenolic compounds, can inhibit the growth of pathogens, making it a potential candidate for the development of new antimicrobial agents. Meehania fargesii also exhibits analgesic activity, likely due to the presence of alkaloids and glycosides, which may help alleviate pain by interacting with opioid receptors in the brain. Furthermore, the anticancer property of Meehania fargesii is thought to be attributed to the action of terpenoids and phenolic acids, which may induce apoptosis in cancer cells and inhibit tumor growth.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 14,
+            "confidence_score": 119,
+            "total_score": 1666
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 13,
+            "confidence_score": 91,
+            "total_score": 1183
+        },
+        {
+            "name": "iridoid glycosides",
+            "mentions": 12,
+            "confidence_score": 70,
+            "total_score": 840
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 9,
+            "confidence_score": 63,
+            "total_score": 567
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 8,
+            "confidence_score": 59,
+            "total_score": 472
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 9,
+            "confidence_score": 58,
+            "total_score": 522
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 10,
+            "confidence_score": 58,
+            "total_score": 580
+        },
+        {
+            "name": "rutin",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "rosmarinic acid",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "apigenin",
+            "mentions": 8,
+            "confidence_score": 38,
+            "total_score": 304
+        },
+        {
+            "name": "luteolin",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "saponins",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "hyperoside",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 8,
+            "confidence_score": 31,
+            "total_score": 248
+        },
+        {
+            "name": "naringenin",
+            "mentions": 6,
+            "confidence_score": 30,
+            "total_score": 180
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "tannins",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "coumarins",
+            "mentions": 7,
+            "confidence_score": 22,
+            "total_score": 154
+        },
+        {
+            "name": "chlorogenic acid",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "rhaponticin",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Meehania fargesii are quercetin and kaempferol, two flavonoids that have been identified as potent antioxidants and anti-inflammatory compounds. Additionally, the plant contains iridoid glycosides, including aucubin and isorhapontigenin, which have been shown to exhibit antibacterial and anti-inflammatory activities. Flavonoids, such as quercetin and kaempferol, have also been reported to possess anti-cancer properties, while isorhapontigenin has been found to inhibit the production of pro-inflammatory enzymes. These constituents are likely responsible for the plant's traditional use in treating various ailments, including fever, rheumatism, and digestive issues. Overall, the combination of these bioactive compounds in Meehania fargesii suggests its potential as a natural remedy for a range of health conditions.",
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 19,
+            "confidence_score": 152,
+            "total_score": 2888
+        },
+        {
+            "name": "tea",
+            "mentions": 15,
+            "confidence_score": 127,
+            "total_score": 1905
+        },
+        {
+            "name": "infusion",
+            "mentions": 15,
+            "confidence_score": 118,
+            "total_score": 1770
+        },
+        {
+            "name": "salve",
+            "mentions": 19,
+            "confidence_score": 96,
+            "total_score": 1824
+        },
+        {
+            "name": "decoction",
+            "mentions": 14,
+            "confidence_score": 72,
+            "total_score": 1008
+        },
+        {
+            "name": "infused oil",
+            "mentions": 9,
+            "confidence_score": 49,
+            "total_score": 441
+        },
+        {
+            "name": "meehania tea",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        },
+        {
+            "name": "meehania infusion",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "meehania salve",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "poultice",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "meehania tincture",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "ointment",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "infused vinegar",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "essence",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "capsule",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "meehania oil",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "essential oil",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Meehania fargesii are derived from its leaves and stems, which are rich in flavonoids, phenolic acids, and terpenoids. A tincture is made by steeping the plant material in a solvent like ethanol or glycerin to extract its active compounds, which can be used to treat various health issues such as inflammation and digestive problems. Meehania fargesii tea is prepared by infusing the dried leaves and stems in hot water to make a decoction, which is traditionally used to treat fever, cough, and respiratory issues. An infusion is made by steeping the plant material in cold water to extract its subtle flavors and medicinal properties, which is often used to treat anxiety and stress. Additionally, a salve is prepared by mixing the plant material with a carrier oil like coconut or olive oil to create a topical application for skin issues such as wounds, burns, and eczema.",
+    "side_effects": [
+        {
+            "name": "cause nausea",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "trigger asthma",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "provoke skin irritation",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "exacerbate liver damage",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "affect liver function",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "show allergic reactions",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "developed allergic reaction",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experienced nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Meehania fargesii improperly are that it can cause nausea due to its emmenagogue properties, exacerbate allergies as it belongs to the Lamiaceae family, which includes plants known to trigger allergic reactions, induce nausea and trigger asthma in susceptible individuals, particularly those with pre-existing respiratory conditions, and experience nausea is also a reported side effect likely due to its potential interaction with certain medications or sensitivities.",
+    "uses": "Meehania fargesii is a plant native to China, and it has been used in traditional medicine for various purposes. The plant's leaves and stems are used to treat fever, rheumatism, and digestive issues. Traditionally, it is also used to lower blood pressure and as an anti-inflammatory agent. However, more research is needed to confirm its effectiveness and safety for human consumption. In some regions, it is also used as a natural remedy for snake bites and insect stings.",
+    "taxonomy": "Meehania fargesii is classified in the following way: it belongs to the family Lamiaceae, commonly known as the mint family. The genus Meehania is a small group of flowering plants native to East Asia. Meehania fargesii is specifically a species of flowering plant native to China. It is a perennial herb, often found growing in shady woodland environments. Meehania fargesii is also known by the common name Farges' meehania.",
+    "benefits": "Meehania fargesii.  Meehania fargesii is a plant traditionally used in Chinese medicine, and it may have various health benefits, including anti-inflammatory, antioxidant, and antimicrobial properties. It may also be used to treat fever, cough, and respiratory issues. Studies have shown that the plant's extracts may have neuroprotective effects and may help in reducing the risk of age-related neurodegenerative diseases. However, more research is needed to confirm the full extent of its health benefits.",
+    "parts": "Meehania fargesii. The medicinal parts of Meehania fargesii, commonly known as Farges' meehania, are the leaves, stems, and roots. Traditionally, these parts are used in herbal medicine to treat various ailments, including fever, inflammation, and respiratory issues. The leaves are particularly valued for their anti-inflammatory properties, while the roots are used to treat digestive problems. Further research is needed to confirm the full extent of Meehania fargesii's medicinal properties and potential uses.",
+    "intro": "Meehania fargesii, also known as Farges' meehania or Chinese meehania, is a perennial herbaceous plant native to China, belonging to the Lamiaceae family. It has been traditionally used in medicine to treat various health issues, including fever, cough, and respiratory problems, due to its anti-inflammatory and antimicrobial properties, which may contribute to its potential health benefits such as reducing inflammation and improving respiratory function. The bioactive constituents of Meehania fargesii include flavonoids, phenolic acids, and terpenoids, which are thought to be responsible for its medicinal properties. In traditional Chinese medicine, Meehania fargesii is commonly prepared into teas, infusions, and extracts, which are used to treat various health conditions, and is also sometimes used in combination with other herbs to enhance its therapeutic effects."
+}

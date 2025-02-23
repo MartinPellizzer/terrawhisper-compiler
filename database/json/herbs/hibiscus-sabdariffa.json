@@ -1,1 +1,756 @@
-{"title": "Hibiscus sabdariffa", "herb_slug": "hibiscus-sabdariffa", "herb_name_scientific": "Hibiscus sabdariffa", "family_slug": "", "family_name": "", "url": "herbs/hibiscus-sabdariffa", "lastmod": "2025-1-20", "herb_names_common": [{"name": "jamaica sorrel", "mentions": 25, "confidence_score": 208, "total_score": 5200}, {"name": "roselle", "mentions": 17, "confidence_score": 159, "total_score": 2703}, {"name": "hibiscus", "mentions": 18, "confidence_score": 135, "total_score": 2430}, {"name": "red sorrel", "mentions": 14, "confidence_score": 98, "total_score": 1372}, {"name": "cranberry hibiscus", "mentions": 13, "confidence_score": 63, "total_score": 819}, {"name": "jamaican sorrel", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "jamaica flower", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "hibiscus sabdariffa", "mentions": 15, "confidence_score": 43, "total_score": 645}, {"name": "florida cranberry", "mentions": 7, "confidence_score": 38, "total_score": 266}, {"name": "sudan tea", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "karkade", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "agret", "mentions": 7, "confidence_score": 29, "total_score": 203}, {"name": "rosella", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "sudan sorrel", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "bissap", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "red hibiscus", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "sudanese tea", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "agua de jamaica", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "sorrel tea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "egyptian thorn", "mentions": 2, "confidence_score": 11, "total_score": 22}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 174, "total_score": 3480}], "what_description": "Hibiscus sabdariffa is a perennial plant belonging to the family Malvaceae. It is a shrub that grows up to 3 meters in height, with a woody base and a soft, hairy stem. The leaves are large, ovate, and have a serrated margin, measuring 10-20 cm in length and 5-10 cm in width. The plant produces large, showy flowers with five petals, typically measuring 10-15 cm in diameter, which are a deep red or reddish-purple color. The plant is native to tropical and subtropical regions of Africa and Asia.", "category_action": "astringents", "ailments": [{"name": "high blood pressure", "mentions": 17, "confidence_score": 163, "total_score": 2771}, {"name": "inflammation", "mentions": 20, "confidence_score": 159, "total_score": 3180}, {"name": "diabetes", "mentions": 17, "confidence_score": 139, "total_score": 2363}, {"name": "digestive issues", "mentions": 16, "confidence_score": 111, "total_score": 1776}, {"name": "cancer prevention", "mentions": 16, "confidence_score": 97, "total_score": 1552}, {"name": "anemia", "mentions": 12, "confidence_score": 83, "total_score": 996}, {"name": "anxiety", "mentions": 11, "confidence_score": 68, "total_score": 748}, {"name": "cardiovascular disease", "mentions": 10, "confidence_score": 66, "total_score": 660}, {"name": "menstrual cramps", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "hypertension", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "cholesterol", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "sleep disorders", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "kidney stones", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "type 2 diabetes", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "urinary tract infections", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "gastroesophageal reflux", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "hypothyroidism", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "gastrointestinal ulcers", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "antibacterial properties", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "menopausal symptoms", "mentions": 2, "confidence_score": 14, "total_score": 28}], "ailments_description": "The most common ailments you can heal with Hibiscus sabdariffa are high blood pressure, which can be effectively managed with regular consumption of Hibiscus tea, due to its ability to lower systolic blood pressure. Hibiscus sabdariffa has also been shown to possess anti-inflammatory properties, which can help alleviate conditions such as inflammation and menstrual cramps. Additionally, the plant has been found to be effective in controlling blood sugar levels, particularly in individuals with type 2 diabetes, by increasing insulin sensitivity and reducing oxidative stress. The antioxidant and flavonoid content in Hibiscus sabdariffa also contributes to its ability to prevent cancer and alleviate gastrointestinal ulcers, while its antibacterial properties help combat urinary tract infections. Furthermore, Hibiscus sabdariffa has been found to be effective in alleviating menopausal symptoms, reducing anxiety, and lowering cholesterol levels, making it a valuable addition to a natural health regimen.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 179, "total_score": 3580}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 163, "total_score": 3260}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 159, "total_score": 3180}, {"name": "cardioprotective", "mentions": 18, "confidence_score": 127, "total_score": 2286}, {"name": "hypotensive", "mentions": 16, "confidence_score": 122, "total_score": 1952}, {"name": "antidiabetic", "mentions": 12, "confidence_score": 82, "total_score": 984}, {"name": "analgesic", "mentions": 14, "confidence_score": 69, "total_score": 966}, {"name": "anticancer", "mentions": 10, "confidence_score": 55, "total_score": 550}, {"name": "hypoglycemic", "mentions": 8, "confidence_score": 54, "total_score": 432}, {"name": "antiviral", "mentions": 11, "confidence_score": 52, "total_score": 572}, {"name": "diuretic", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "antihypertensive", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "antispasmodic", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "antioxidant in lipids", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "antiparasitic", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "antiulcer", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "antipyretic", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "neuroprotective", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "anxiolytic", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "antioxidant (inhibits lipid peroxidation)", "mentions": 1, "confidence_score": 9, "total_score": 9}], "properties_description": "The main therapeutic properties of Hibiscus sabdariffa are due to its antioxidant activity, which helps protect against cell damage and oxidative stress. This is largely attributed to the presence of flavonoids, anthocyanins, and ascorbic acid, which are known to have potent antioxidant effects. Additionally, Hibiscus sabdariffa has been found to exhibit anti-inflammatory properties, which may contribute to its ability to reduce inflammation and alleviate symptoms associated with conditions such as arthritis. Furthermore, the plant's antimicrobial properties make it effective against a range of bacteria, fungi, and viruses, highlighting its potential as a natural remedy for infections and diseases. Its cardioprotective and hypotensive effects, mediated by compounds like saponins and tannins, may also help to lower blood pressure and reduce the risk of cardiovascular disease.", "constituents": [{"name": "anthocyanins", "mentions": 15, "confidence_score": 131, "total_score": 1965}, {"name": "quercetin", "mentions": 15, "confidence_score": 115, "total_score": 1725}, {"name": "mucilage", "mentions": 10, "confidence_score": 95, "total_score": 950}, {"name": "kaempferol", "mentions": 12, "confidence_score": 83, "total_score": 996}, {"name": "saponins", "mentions": 12, "confidence_score": 66, "total_score": 792}, {"name": "flavonoids", "mentions": 9, "confidence_score": 64, "total_score": 576}, {"name": "delphinidin", "mentions": 8, "confidence_score": 62, "total_score": 496}, {"name": "phenolic acids", "mentions": 8, "confidence_score": 56, "total_score": 448}, {"name": "tannins", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "gallic acid", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "malic acid", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "minerals like potassium, magnesium, and iron", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "caffeic acid", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "anthocyanin", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "catechin", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "vitamin c", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "minerals (potassium, magnesium, calcium)", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "vitamins a and c", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "cyanidin", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "ellagic acid", "mentions": 3, "confidence_score": 22, "total_score": 66}], "constituents_description": "The most important healing constituents of Hibiscus sabdariffa are anthocyanins, responsible for its antioxidant and anti-inflammatory properties, quercetin, a potent flavonoid with anti-inflammatory and antiviral effects, mucilage, a thick protective gel that soothes digestive issues, kaempferol, a flavonoid with anti-inflammatory and anti-cancer properties, and saponins, compounds that exhibit anti-inflammatory, antiviral, and antibacterial activities, all of which contribute to the plant's ability to reduce inflammation, protect against oxidative stress, and promote overall health. Research has shown that Hibiscus sabdariffa extracts rich in these constituents exhibit significant bioactivity, including inhibiting the growth of cancer cells, reducing inflammation in the gut and joints, and exhibiting antimicrobial properties against a range of pathogens. The anthocyanins and quercetin in Hibiscus sabdariffa have been shown to scavenge free radicals and reduce oxidative stress, while the mucilage helps to protect and heal the mucous membranes in the digestive tract. The kaempferol and saponins in Hibiscus sabdariffa have been shown to inhibit the growth of cancer cells and exhibit anti-inflammatory effects by reducing the production of pro-inflammatory enzymes. The combination of these healing constituents makes Hibiscus sabdariffa a valuable plant for promoting overall health and well-being.", "preparations": [{"name": "hibiscus tea", "mentions": 20, "confidence_score": 198, "total_score": 3960}, {"name": "hibiscus syrup", "mentions": 16, "confidence_score": 100, "total_score": 1600}, {"name": "cordial", "mentions": 10, "confidence_score": 76, "total_score": 760}, {"name": "tisane", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "hibiscus jelly", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "hibiscus infusion", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "kombucha", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "cranberry-hibiscus juice", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "hibiscus powder", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "dried calyx", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "grenadine", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "infused water", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "rosella jam", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "hibiscus kombucha", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "decoction", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "hibiscus tisane", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "hibiscus sorbet", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "hibiscus wine", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "gummies", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "cranberry-like fruit leather", "mentions": 2, "confidence_score": 11, "total_score": 22}], "preparations_description": "The main herbal preparations of Hibiscus sabdariffa are hibiscus tea, hibiscus syrup, and cordial, which are used for their potential diuretic and antihypertensive properties due to their high content of flavonoids, anthocyanins, and other bioactive compounds. Hibiscus tea has been traditionally used to lower blood pressure and improve lipid profiles, while hibiscus syrup and cordial are often used as sweetened alternatives for flavor and medicinal purposes. Tisane, a caffeine-free herbal infusion, is also prepared from Hibiscus sabdariffa, utilizing its flowers as a base for relaxation and stress relief. Hibiscus jelly, a sweet and tangy spread, is made from the flowers' extract, providing a concentrated source of antioxidants and potential anti-inflammatory compounds. These preparations are valued for their potential health benefits, including antioxidant, anti-inflammatory, and cardiovascular support.", "side_effects": [{"name": "interact with blood thinners", "mentions": 7, "confidence_score": 59, "total_score": 413}, {"name": "develop kidney stones", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "induce vomiting", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "induces diarrhea", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "exacerbate diarrhea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "lead to dehydration", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "cause nausea", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "cause electrolyte imbalance", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "affects kidney function", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "experience diarrhea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "causes abdominal pain", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "show allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience hypokalemia", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "triggers allergic reaction", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "increases bleeding risk", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "induce hypoglycemia", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "causes electrolyte imbalance", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "produce headaches", "mentions": 2, "confidence_score": 15, "total_score": 30}], "side_effects_description": "The possible side effects of using Hibiscus sabdariffa improperly include interacting with blood thinners such as warfarin, leading to increased risk of bleeding due to the presence of anthocyanins that inhibit platelet aggregation. Consuming large amounts of Hibiscus sabdariffa may also lead to the development of kidney stones, as the high levels of oxalates in the herb can increase the risk of oxalate stone formation. Additionally, excessive consumption can induce vomiting and induce diarrhea in some individuals, likely due to the herb's high water content and potential irritant effects on the gastrointestinal tract. Furthermore, for those who already experience diarrhea, Hibiscus sabdariffa may exacerbate the condition due to its high fiber content and potential for gastrointestinal irritation. These side effects are often associated with excessive consumption or prolonged use, highlighting the importance of proper dosage and medical supervision when using Hibiscus sabdariffa."}
+{
+    "title": "Hibiscus sabdariffa",
+    "herb_slug": "hibiscus-sabdariffa",
+    "herb_name_scientific": "Hibiscus sabdariffa",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/hibiscus-sabdariffa",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "jamaica sorrel",
+            "mentions": 25,
+            "confidence_score": 208,
+            "total_score": 5200
+        },
+        {
+            "name": "roselle",
+            "mentions": 17,
+            "confidence_score": 159,
+            "total_score": 2703
+        },
+        {
+            "name": "hibiscus",
+            "mentions": 18,
+            "confidence_score": 135,
+            "total_score": 2430
+        },
+        {
+            "name": "red sorrel",
+            "mentions": 14,
+            "confidence_score": 98,
+            "total_score": 1372
+        },
+        {
+            "name": "cranberry hibiscus",
+            "mentions": 13,
+            "confidence_score": 63,
+            "total_score": 819
+        },
+        {
+            "name": "jamaican sorrel",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "jamaica flower",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "hibiscus sabdariffa",
+            "mentions": 15,
+            "confidence_score": 43,
+            "total_score": 645
+        },
+        {
+            "name": "florida cranberry",
+            "mentions": 7,
+            "confidence_score": 38,
+            "total_score": 266
+        },
+        {
+            "name": "sudan tea",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "karkade",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "agret",
+            "mentions": 7,
+            "confidence_score": 29,
+            "total_score": 203
+        },
+        {
+            "name": "rosella",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "sudan sorrel",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "bissap",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "red hibiscus",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "sudanese tea",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "agua de jamaica",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "sorrel tea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "egyptian thorn",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 174,
+            "total_score": 3480
+        }
+    ],
+    "what_description": "Hibiscus sabdariffa is a perennial plant belonging to the family Malvaceae. It is a shrub that grows up to 3 meters in height, with a woody base and a soft, hairy stem. The leaves are large, ovate, and have a serrated margin, measuring 10-20 cm in length and 5-10 cm in width. The plant produces large, showy flowers with five petals, typically measuring 10-15 cm in diameter, which are a deep red or reddish-purple color. The plant is native to tropical and subtropical regions of Africa and Asia.",
+    "category_action": "astringents",
+    "ailments": [
+        {
+            "name": "high blood pressure",
+            "mentions": 17,
+            "confidence_score": 163,
+            "total_score": 2771
+        },
+        {
+            "name": "inflammation",
+            "mentions": 20,
+            "confidence_score": 159,
+            "total_score": 3180
+        },
+        {
+            "name": "diabetes",
+            "mentions": 17,
+            "confidence_score": 139,
+            "total_score": 2363
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 16,
+            "confidence_score": 111,
+            "total_score": 1776
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 16,
+            "confidence_score": 97,
+            "total_score": 1552
+        },
+        {
+            "name": "anemia",
+            "mentions": 12,
+            "confidence_score": 83,
+            "total_score": 996
+        },
+        {
+            "name": "anxiety",
+            "mentions": 11,
+            "confidence_score": 68,
+            "total_score": 748
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 10,
+            "confidence_score": 66,
+            "total_score": 660
+        },
+        {
+            "name": "menstrual cramps",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "hypertension",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "cholesterol",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "sleep disorders",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "kidney stones",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "type 2 diabetes",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "urinary tract infections",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "gastroesophageal reflux",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "hypothyroidism",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "gastrointestinal ulcers",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "antibacterial properties",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "menopausal symptoms",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Hibiscus sabdariffa are high blood pressure, which can be effectively managed with regular consumption of Hibiscus tea, due to its ability to lower systolic blood pressure. Hibiscus sabdariffa has also been shown to possess anti-inflammatory properties, which can help alleviate conditions such as inflammation and menstrual cramps. Additionally, the plant has been found to be effective in controlling blood sugar levels, particularly in individuals with type 2 diabetes, by increasing insulin sensitivity and reducing oxidative stress. The antioxidant and flavonoid content in Hibiscus sabdariffa also contributes to its ability to prevent cancer and alleviate gastrointestinal ulcers, while its antibacterial properties help combat urinary tract infections. Furthermore, Hibiscus sabdariffa has been found to be effective in alleviating menopausal symptoms, reducing anxiety, and lowering cholesterol levels, making it a valuable addition to a natural health regimen.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 179,
+            "total_score": 3580
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 163,
+            "total_score": 3260
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 159,
+            "total_score": 3180
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 18,
+            "confidence_score": 127,
+            "total_score": 2286
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 16,
+            "confidence_score": 122,
+            "total_score": 1952
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 12,
+            "confidence_score": 82,
+            "total_score": 984
+        },
+        {
+            "name": "analgesic",
+            "mentions": 14,
+            "confidence_score": 69,
+            "total_score": 966
+        },
+        {
+            "name": "anticancer",
+            "mentions": 10,
+            "confidence_score": 55,
+            "total_score": 550
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 8,
+            "confidence_score": 54,
+            "total_score": 432
+        },
+        {
+            "name": "antiviral",
+            "mentions": 11,
+            "confidence_score": 52,
+            "total_score": 572
+        },
+        {
+            "name": "diuretic",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "antioxidant in lipids",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "antiulcer",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "anxiolytic",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "antioxidant (inhibits lipid peroxidation)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Hibiscus sabdariffa are due to its antioxidant activity, which helps protect against cell damage and oxidative stress. This is largely attributed to the presence of flavonoids, anthocyanins, and ascorbic acid, which are known to have potent antioxidant effects. Additionally, Hibiscus sabdariffa has been found to exhibit anti-inflammatory properties, which may contribute to its ability to reduce inflammation and alleviate symptoms associated with conditions such as arthritis. Furthermore, the plant's antimicrobial properties make it effective against a range of bacteria, fungi, and viruses, highlighting its potential as a natural remedy for infections and diseases. Its cardioprotective and hypotensive effects, mediated by compounds like saponins and tannins, may also help to lower blood pressure and reduce the risk of cardiovascular disease.",
+    "constituents": [
+        {
+            "name": "anthocyanins",
+            "mentions": 15,
+            "confidence_score": 131,
+            "total_score": 1965
+        },
+        {
+            "name": "quercetin",
+            "mentions": 15,
+            "confidence_score": 115,
+            "total_score": 1725
+        },
+        {
+            "name": "mucilage",
+            "mentions": 10,
+            "confidence_score": 95,
+            "total_score": 950
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 12,
+            "confidence_score": 83,
+            "total_score": 996
+        },
+        {
+            "name": "saponins",
+            "mentions": 12,
+            "confidence_score": 66,
+            "total_score": 792
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 9,
+            "confidence_score": 64,
+            "total_score": 576
+        },
+        {
+            "name": "delphinidin",
+            "mentions": 8,
+            "confidence_score": 62,
+            "total_score": 496
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 8,
+            "confidence_score": 56,
+            "total_score": 448
+        },
+        {
+            "name": "tannins",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "malic acid",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "minerals like potassium, magnesium, and iron",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "anthocyanin",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "catechin",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "vitamin c",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "minerals (potassium, magnesium, calcium)",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "vitamins a and c",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "cyanidin",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Hibiscus sabdariffa are anthocyanins, responsible for its antioxidant and anti-inflammatory properties, quercetin, a potent flavonoid with anti-inflammatory and antiviral effects, mucilage, a thick protective gel that soothes digestive issues, kaempferol, a flavonoid with anti-inflammatory and anti-cancer properties, and saponins, compounds that exhibit anti-inflammatory, antiviral, and antibacterial activities, all of which contribute to the plant's ability to reduce inflammation, protect against oxidative stress, and promote overall health. Research has shown that Hibiscus sabdariffa extracts rich in these constituents exhibit significant bioactivity, including inhibiting the growth of cancer cells, reducing inflammation in the gut and joints, and exhibiting antimicrobial properties against a range of pathogens. The anthocyanins and quercetin in Hibiscus sabdariffa have been shown to scavenge free radicals and reduce oxidative stress, while the mucilage helps to protect and heal the mucous membranes in the digestive tract. The kaempferol and saponins in Hibiscus sabdariffa have been shown to inhibit the growth of cancer cells and exhibit anti-inflammatory effects by reducing the production of pro-inflammatory enzymes. The combination of these healing constituents makes Hibiscus sabdariffa a valuable plant for promoting overall health and well-being.",
+    "preparations": [
+        {
+            "name": "hibiscus tea",
+            "mentions": 20,
+            "confidence_score": 198,
+            "total_score": 3960
+        },
+        {
+            "name": "hibiscus syrup",
+            "mentions": 16,
+            "confidence_score": 100,
+            "total_score": 1600
+        },
+        {
+            "name": "cordial",
+            "mentions": 10,
+            "confidence_score": 76,
+            "total_score": 760
+        },
+        {
+            "name": "tisane",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "hibiscus jelly",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "hibiscus infusion",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "kombucha",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "cranberry-hibiscus juice",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "hibiscus powder",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "dried calyx",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "grenadine",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "infused water",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "rosella jam",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "hibiscus kombucha",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "decoction",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "hibiscus tisane",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "hibiscus sorbet",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "hibiscus wine",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "gummies",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "cranberry-like fruit leather",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Hibiscus sabdariffa are hibiscus tea, hibiscus syrup, and cordial, which are used for their potential diuretic and antihypertensive properties due to their high content of flavonoids, anthocyanins, and other bioactive compounds. Hibiscus tea has been traditionally used to lower blood pressure and improve lipid profiles, while hibiscus syrup and cordial are often used as sweetened alternatives for flavor and medicinal purposes. Tisane, a caffeine-free herbal infusion, is also prepared from Hibiscus sabdariffa, utilizing its flowers as a base for relaxation and stress relief. Hibiscus jelly, a sweet and tangy spread, is made from the flowers' extract, providing a concentrated source of antioxidants and potential anti-inflammatory compounds. These preparations are valued for their potential health benefits, including antioxidant, anti-inflammatory, and cardiovascular support.",
+    "side_effects": [
+        {
+            "name": "interact with blood thinners",
+            "mentions": 7,
+            "confidence_score": 59,
+            "total_score": 413
+        },
+        {
+            "name": "develop kidney stones",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "induces diarrhea",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "exacerbate diarrhea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "lead to dehydration",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "cause electrolyte imbalance",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "affects kidney function",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "causes abdominal pain",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "show allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience hypokalemia",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "triggers allergic reaction",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "increases bleeding risk",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "induce hypoglycemia",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "causes electrolyte imbalance",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "produce headaches",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Hibiscus sabdariffa improperly include interacting with blood thinners such as warfarin, leading to increased risk of bleeding due to the presence of anthocyanins that inhibit platelet aggregation. Consuming large amounts of Hibiscus sabdariffa may also lead to the development of kidney stones, as the high levels of oxalates in the herb can increase the risk of oxalate stone formation. Additionally, excessive consumption can induce vomiting and induce diarrhea in some individuals, likely due to the herb's high water content and potential irritant effects on the gastrointestinal tract. Furthermore, for those who already experience diarrhea, Hibiscus sabdariffa may exacerbate the condition due to its high fiber content and potential for gastrointestinal irritation. These side effects are often associated with excessive consumption or prolonged use, highlighting the importance of proper dosage and medical supervision when using Hibiscus sabdariffa."
+}

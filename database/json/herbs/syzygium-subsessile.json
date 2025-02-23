@@ -1,1 +1,761 @@
-{"title": "Syzygium subsessile", "herb_slug": "syzygium-subsessile", "herb_name_scientific": "Syzygium subsessile", "family_slug": "myrtaceae", "family_name": "Myrtaceae", "url": "herbs/syzygium-subsessile", "lastmod": "2025-1-15", "herb_names_common": [{"name": "water apple", "mentions": 19, "confidence_score": 164, "total_score": 3116}, {"name": "syzygium", "mentions": 14, "confidence_score": 93, "total_score": 1302}, {"name": "water pear", "mentions": 10, "confidence_score": 56, "total_score": 560}, {"name": "water guava", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "malabar apple", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "water cherry", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "malabar plum", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "wild apple", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "java apple", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "water berry", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "water plum", "mentions": 7, "confidence_score": 24, "total_score": 168}, {"name": "lilly pilly", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "australian brush cherry", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "syzygium subsessile", "mentions": 8, "confidence_score": 22, "total_score": 176}, {"name": "australian waterberry", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "syzygium fruit", "mentions": 5, "confidence_score": 17, "total_score": 85}, {"name": "jambu", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "syzygium pear", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "syzygium water apple", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "water apple tree", "mentions": 5, "confidence_score": 13, "total_score": 65}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 161, "total_score": 3220}], "what_description": "Syzygium subsessile is a species of flowering plant in the family Myrtaceae, native to Australia. It is a shrub or small tree, growing up to 4 meters in height, with a glabrous stem and elliptical-shaped leaves, 3-7 cm long and 1-2 cm wide. The leaves are alternate, with a pointed apex and a cuneate base, and are glabrous on both surfaces. The flowers are small, white, and arranged in axillary corymbose cymes, while the fruit is a red or purple drupe, 1-2 cm in diameter, with a single seed. The species has a smooth, grey bark and a fibrous inner bark.", "category_action": "antimicrobial", "ailments": [{"name": "diarrhea", "mentions": 16, "confidence_score": 130, "total_score": 2080}, {"name": "fever", "mentions": 14, "confidence_score": 116, "total_score": 1624}, {"name": "inflammation", "mentions": 13, "confidence_score": 102, "total_score": 1326}, {"name": "gastroenteritis", "mentions": 11, "confidence_score": 82, "total_score": 902}, {"name": "cough", "mentions": 8, "confidence_score": 50, "total_score": 400}, {"name": "respiratory issues", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "skin infections", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "dyspepsia", "mentions": 5, "confidence_score": 43, "total_score": 215}, {"name": "skin irritation", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "bacterial infections", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "diabetes", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "malaria", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "rheumatism", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "wound healing", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "cholera", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "digestive issues", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "cardiovascular disease", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "hypertension", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "fungal infections", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "wounds", "mentions": 3, "confidence_score": 21, "total_score": 63}], "ailments_description": "The most common ailments you can heal with Syzygium subsessile are diarrhea, which is alleviated due to its antimicrobial and anti-inflammatory properties, and fever, as it possesses compounds that inhibit the growth of pathogens. Additionally, Syzygium subsessile is used to treat inflammation, gastroenteritis, and cough by its ability to reduce mucus production and prevent bacterial adhesion. The plant's antifungal and antibacterial properties also make it effective in treating respiratory issues, skin infections, dyspepsia, skin irritation, and bacterial infections. Furthermore, studies have shown that Syzygium subsessile has antidiabetic properties, making it a potential treatment for diabetes, as well as antimalarial properties, making it effective against malaria. Syzygium subsessile has also been found to be useful in treating rheumatism, wound healing, cholera, digestive issues, cardiovascular disease, hypertension, fungal infections, wounds, and other conditions.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 165, "total_score": 3300}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 156, "total_score": 3120}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 139, "total_score": 2780}, {"name": "analgesic", "mentions": 20, "confidence_score": 99, "total_score": 1980}, {"name": "antifungal", "mentions": 12, "confidence_score": 90, "total_score": 1080}, {"name": "antipyretic", "mentions": 15, "confidence_score": 78, "total_score": 1170}, {"name": "antibacterial", "mentions": 9, "confidence_score": 70, "total_score": 630}, {"name": "cardioprotective", "mentions": 12, "confidence_score": 50, "total_score": 600}, {"name": "hepatoprotective", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "anticancer", "mentions": 9, "confidence_score": 40, "total_score": 360}, {"name": "antiviral", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "antidiarrheal", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "antidiabetic", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "hypoglycemic", "mentions": 5, "confidence_score": 16, "total_score": 80}, {"name": "antiseptic", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cytotoxic", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "antihistaminic", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "neuroprotective", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "diuretic", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "antihistamine", "mentions": 3, "confidence_score": 10, "total_score": 30}], "properties_description": "The main therapeutic properties of Syzygium subsessile are largely attributed to its antioxidant activity, which is mediated by its rich content of flavonoids and phenolic acids. The plant's antimicrobial properties, which have been demonstrated against a range of bacteria and fungi, are thought to be due to the presence of volatile oils and saponins, making it a potential candidate for the treatment of infections. Its anti-inflammatory effects, which have been shown to be comparable to those of standard anti-inflammatory agents, are believed to be a result of the synergistic action of flavonoids and other bioactive compounds. Additionally, the plant's analgesic properties, which have been demonstrated in animal studies, are thought to be mediated by the presence of alkaloids and glycosides. Furthermore, its antifungal activity, which has been demonstrated against a range of fungal pathogens, is believed to be due to the presence of saponins and other bioactive compounds that have been shown to inhibit fungal growth.", "constituents": [{"name": "quercetin", "mentions": 19, "confidence_score": 168, "total_score": 3192}, {"name": "ellagic acid", "mentions": 18, "confidence_score": 152, "total_score": 2736}, {"name": "gallic acid", "mentions": 14, "confidence_score": 111, "total_score": 1554}, {"name": "flavonoids", "mentions": 16, "confidence_score": 110, "total_score": 1760}, {"name": "phenolic acids", "mentions": 16, "confidence_score": 100, "total_score": 1600}, {"name": "tannins", "mentions": 14, "confidence_score": 88, "total_score": 1232}, {"name": "gallocatechin", "mentions": 9, "confidence_score": 64, "total_score": 576}, {"name": "kaempferol", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "coumarins", "mentions": 8, "confidence_score": 33, "total_score": 264}, {"name": "catechins", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "syringic acid", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "phenolic glycosides", "mentions": 8, "confidence_score": 28, "total_score": 224}, {"name": "syzygium subsessile flavonoids", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "anthocyanins", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "syzygium subsessile tannins", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "alkaloids", "mentions": 7, "confidence_score": 23, "total_score": 161}, {"name": "terpenoids", "mentions": 6, "confidence_score": 21, "total_score": 126}, {"name": "syzygium subsessile saponins", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "epicatechin", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "quercetin-3-o-galactoside", "mentions": 3, "confidence_score": 13, "total_score": 39}], "constituents_description": "The most important healing constituents of Syzygium subsessile are quercetin, ellagic acid, gallic acid, flavonoids, and phenolic acids. These constituents exhibit potent antioxidant and anti-inflammatory activities, which contribute to the plant's healing properties. Quercetin, a flavonoid, has been shown to possess anti-inflammatory and anti-cancer properties by inhibiting pro-inflammatory enzymes and inducing apoptosis in cancer cells. Ellagic acid, a phenolic acid, has been demonstrated to have anti-cancer and anti-inflammatory effects by scavenging free radicals and inhibiting the growth of cancer cells. Gallic acid, another phenolic acid, has been found to have anti-inflammatory, anti-bacterial, and anti-cancer properties due to its ability to inhibit pro-inflammatory enzymes and induce apoptosis in cancer cells.", "preparations": [{"name": "tea", "mentions": 18, "confidence_score": 160, "total_score": 2880}, {"name": "infusion", "mentions": 19, "confidence_score": 155, "total_score": 2945}, {"name": "tincture", "mentions": 19, "confidence_score": 118, "total_score": 2242}, {"name": "salve", "mentions": 17, "confidence_score": 74, "total_score": 1258}, {"name": "decoction", "mentions": 13, "confidence_score": 70, "total_score": 910}, {"name": "infused oil", "mentions": 6, "confidence_score": 20, "total_score": 120}, {"name": "extract", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "ointment", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "syzygium tea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "syzygium subsessile tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "syzygium subsessile decoction", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "syzygium subsessile poultice", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "syzygium subsessile infusion", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "syzygium subsessile tincture", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "syzygium subsessile oil", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "capsule", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suppository", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "syzygium subsessile salve", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "perfume", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "infusate", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Syzygium subsessile are tea, infusion, tincture, salve, and decoction. Syzygium subsessile tea is prepared by steeping the dried leaves in hot water to relieve fever and cough. Infusion is prepared by steeping the leaves in cold water to treat digestive issues and reduce inflammation. Tincture is an alcoholic extract of the leaves used to treat fever and respiratory issues. Decoction and salve are prepared from the bark and used to treat wounds and skin conditions due to their antiseptic and antibacterial properties.", "side_effects": [{"name": "experiences allergic reactions", "mentions": 5, "confidence_score": 43, "total_score": 215}, {"name": "induce vomiting", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "experiences nausea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "cause diarrhea", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "induce nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experience allergic reaction", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop skin irritation", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "suffer liver damage", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experience dizziness", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "develops diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "provoke liver damage", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experience diarrhea", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experiences dizziness", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "develops allergic reaction", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "shows cardiovascular issues", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "ingest toxic compounds", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "dies", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experience nausea", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "exhibits skin irritation", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "experiences respiratory depression", "mentions": 1, "confidence_score": 10, "total_score": 10}], "side_effects_description": "The possible side effects of using Syzygium subsessile improperly include experiencing allergic reactions, which may be due to the presence of potential allergens such as terpenes and flavonoids. Ingesting large quantities of the plant can cause vomiting, leading to dehydration and electrolyte imbalance if not treated promptly. Nausea and diarrhea are also possible side effects, as the plant's saponins and tannins can disrupt normal gut function and lead to gastrointestinal distress. Inducing nausea is another potential consequence, as the plant's volatile oils can irritate the stomach and cause vomiting. These side effects are often caused by the improper use of the plant, such as consuming it in excessive amounts or using it in combination with other medications that may interact with its bioactive compounds.", "uses": "Syzygium subsessile is reported to have various medicinal uses. The plant's leaves are used in traditional medicine to treat fever, cough, and cold. They are also used to treat skin conditions such as eczema and acne due to their antiseptic and anti-inflammatory properties. Syzygium subsessile's roots are used to treat digestive issues, including diarrhea and constipation. Additionally, the plant's leaves are used to treat respiratory issues, including bronchitis and asthma.", "taxonomy": "Syzygium subsessile belongs to the family Myrtaceae and is native to Australia. It is a species of the Syzygium genus, which consists of flowering plants with showy white, pink, or purple flowers. The genus Syzygium is part of the order Myrtales and the class Magnoliopsida. This classification places Syzygium subsessile within the broader plant kingdom. The specific classification of Syzygium subsessile is a Syzygium species within the eudicot lineage.", "benefits": "Syzygium subsessile is known for its potential health benefits, which include its antioxidant and anti-inflammatory properties. The plant may help reduce the risk of chronic diseases, such as heart disease and cancer. Its extracts have been studied for their ability to protect against cell damage and oxidative stress. Additionally, Syzygium subsessile may have antimicrobial and antifungal properties, making it a potential natural remedy for certain infections. Further research is needed to fully understand the health benefits of this plant.", "parts": "Syzygium subsessile is a plant species, but information about its specific medicinal parts is limited in my knowledge. However, I can provide general information about plants in the Syzygium genus, which are known for their medicinal properties. The bark, leaves, and fruit of various Syzygium species are used in traditional medicine. The leaves and bark are often used to treat fever, cough, and respiratory issues.", "intro": "Syzygium subsessile, also known as the water apple or water berry, is a species of flowering plant in the family Myrtaceae, native to tropical Asia. The plant is valued for its health benefits, which include its antioxidant, anti-inflammatory, and antimicrobial properties, making it a potential remedy for various ailments such as fever, diarrhea, and respiratory infections. The bioactive constituents of Syzygium subsessile include flavonoids, phenolic acids, and terpenoids, which contribute to its therapeutic properties. The plant is commonly used to make herbal preparations such as decoctions, infusions, and tinctures, often in traditional medicine systems in Asia, where it is used to treat a range of health issues."}
+{
+    "title": "Syzygium subsessile",
+    "herb_slug": "syzygium-subsessile",
+    "herb_name_scientific": "Syzygium subsessile",
+    "family_slug": "myrtaceae",
+    "family_name": "Myrtaceae",
+    "url": "herbs/syzygium-subsessile",
+    "lastmod": "2025-1-15",
+    "herb_names_common": [
+        {
+            "name": "water apple",
+            "mentions": 19,
+            "confidence_score": 164,
+            "total_score": 3116
+        },
+        {
+            "name": "syzygium",
+            "mentions": 14,
+            "confidence_score": 93,
+            "total_score": 1302
+        },
+        {
+            "name": "water pear",
+            "mentions": 10,
+            "confidence_score": 56,
+            "total_score": 560
+        },
+        {
+            "name": "water guava",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "malabar apple",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "water cherry",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "malabar plum",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "wild apple",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "java apple",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "water berry",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "water plum",
+            "mentions": 7,
+            "confidence_score": 24,
+            "total_score": 168
+        },
+        {
+            "name": "lilly pilly",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "australian brush cherry",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "syzygium subsessile",
+            "mentions": 8,
+            "confidence_score": 22,
+            "total_score": 176
+        },
+        {
+            "name": "australian waterberry",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "syzygium fruit",
+            "mentions": 5,
+            "confidence_score": 17,
+            "total_score": 85
+        },
+        {
+            "name": "jambu",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "syzygium pear",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "syzygium water apple",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "water apple tree",
+            "mentions": 5,
+            "confidence_score": 13,
+            "total_score": 65
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        }
+    ],
+    "what_description": "Syzygium subsessile is a species of flowering plant in the family Myrtaceae, native to Australia. It is a shrub or small tree, growing up to 4 meters in height, with a glabrous stem and elliptical-shaped leaves, 3-7 cm long and 1-2 cm wide. The leaves are alternate, with a pointed apex and a cuneate base, and are glabrous on both surfaces. The flowers are small, white, and arranged in axillary corymbose cymes, while the fruit is a red or purple drupe, 1-2 cm in diameter, with a single seed. The species has a smooth, grey bark and a fibrous inner bark.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "diarrhea",
+            "mentions": 16,
+            "confidence_score": 130,
+            "total_score": 2080
+        },
+        {
+            "name": "fever",
+            "mentions": 14,
+            "confidence_score": 116,
+            "total_score": 1624
+        },
+        {
+            "name": "inflammation",
+            "mentions": 13,
+            "confidence_score": 102,
+            "total_score": 1326
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 11,
+            "confidence_score": 82,
+            "total_score": 902
+        },
+        {
+            "name": "cough",
+            "mentions": 8,
+            "confidence_score": 50,
+            "total_score": 400
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "skin infections",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "dyspepsia",
+            "mentions": 5,
+            "confidence_score": 43,
+            "total_score": 215
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "bacterial infections",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "diabetes",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "malaria",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "wound healing",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "cholera",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "hypertension",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "wounds",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Syzygium subsessile are diarrhea, which is alleviated due to its antimicrobial and anti-inflammatory properties, and fever, as it possesses compounds that inhibit the growth of pathogens. Additionally, Syzygium subsessile is used to treat inflammation, gastroenteritis, and cough by its ability to reduce mucus production and prevent bacterial adhesion. The plant's antifungal and antibacterial properties also make it effective in treating respiratory issues, skin infections, dyspepsia, skin irritation, and bacterial infections. Furthermore, studies have shown that Syzygium subsessile has antidiabetic properties, making it a potential treatment for diabetes, as well as antimalarial properties, making it effective against malaria. Syzygium subsessile has also been found to be useful in treating rheumatism, wound healing, cholera, digestive issues, cardiovascular disease, hypertension, fungal infections, wounds, and other conditions.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 165,
+            "total_score": 3300
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 156,
+            "total_score": 3120
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 139,
+            "total_score": 2780
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 99,
+            "total_score": 1980
+        },
+        {
+            "name": "antifungal",
+            "mentions": 12,
+            "confidence_score": 90,
+            "total_score": 1080
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 15,
+            "confidence_score": 78,
+            "total_score": 1170
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 9,
+            "confidence_score": 70,
+            "total_score": 630
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 12,
+            "confidence_score": 50,
+            "total_score": 600
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "anticancer",
+            "mentions": 9,
+            "confidence_score": 40,
+            "total_score": 360
+        },
+        {
+            "name": "antiviral",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 5,
+            "confidence_score": 16,
+            "total_score": 80
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "diuretic",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Syzygium subsessile are largely attributed to its antioxidant activity, which is mediated by its rich content of flavonoids and phenolic acids. The plant's antimicrobial properties, which have been demonstrated against a range of bacteria and fungi, are thought to be due to the presence of volatile oils and saponins, making it a potential candidate for the treatment of infections. Its anti-inflammatory effects, which have been shown to be comparable to those of standard anti-inflammatory agents, are believed to be a result of the synergistic action of flavonoids and other bioactive compounds. Additionally, the plant's analgesic properties, which have been demonstrated in animal studies, are thought to be mediated by the presence of alkaloids and glycosides. Furthermore, its antifungal activity, which has been demonstrated against a range of fungal pathogens, is believed to be due to the presence of saponins and other bioactive compounds that have been shown to inhibit fungal growth.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 19,
+            "confidence_score": 168,
+            "total_score": 3192
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 18,
+            "confidence_score": 152,
+            "total_score": 2736
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 14,
+            "confidence_score": 111,
+            "total_score": 1554
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 16,
+            "confidence_score": 110,
+            "total_score": 1760
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 16,
+            "confidence_score": 100,
+            "total_score": 1600
+        },
+        {
+            "name": "tannins",
+            "mentions": 14,
+            "confidence_score": 88,
+            "total_score": 1232
+        },
+        {
+            "name": "gallocatechin",
+            "mentions": 9,
+            "confidence_score": 64,
+            "total_score": 576
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "coumarins",
+            "mentions": 8,
+            "confidence_score": 33,
+            "total_score": 264
+        },
+        {
+            "name": "catechins",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "syringic acid",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 8,
+            "confidence_score": 28,
+            "total_score": 224
+        },
+        {
+            "name": "syzygium subsessile flavonoids",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "anthocyanins",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "syzygium subsessile tannins",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 7,
+            "confidence_score": 23,
+            "total_score": 161
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 6,
+            "confidence_score": 21,
+            "total_score": 126
+        },
+        {
+            "name": "syzygium subsessile saponins",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "quercetin-3-o-galactoside",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Syzygium subsessile are quercetin, ellagic acid, gallic acid, flavonoids, and phenolic acids. These constituents exhibit potent antioxidant and anti-inflammatory activities, which contribute to the plant's healing properties. Quercetin, a flavonoid, has been shown to possess anti-inflammatory and anti-cancer properties by inhibiting pro-inflammatory enzymes and inducing apoptosis in cancer cells. Ellagic acid, a phenolic acid, has been demonstrated to have anti-cancer and anti-inflammatory effects by scavenging free radicals and inhibiting the growth of cancer cells. Gallic acid, another phenolic acid, has been found to have anti-inflammatory, anti-bacterial, and anti-cancer properties due to its ability to inhibit pro-inflammatory enzymes and induce apoptosis in cancer cells.",
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 18,
+            "confidence_score": 160,
+            "total_score": 2880
+        },
+        {
+            "name": "infusion",
+            "mentions": 19,
+            "confidence_score": 155,
+            "total_score": 2945
+        },
+        {
+            "name": "tincture",
+            "mentions": 19,
+            "confidence_score": 118,
+            "total_score": 2242
+        },
+        {
+            "name": "salve",
+            "mentions": 17,
+            "confidence_score": 74,
+            "total_score": 1258
+        },
+        {
+            "name": "decoction",
+            "mentions": 13,
+            "confidence_score": 70,
+            "total_score": 910
+        },
+        {
+            "name": "infused oil",
+            "mentions": 6,
+            "confidence_score": 20,
+            "total_score": 120
+        },
+        {
+            "name": "extract",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "ointment",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "syzygium tea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "syzygium subsessile tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "syzygium subsessile decoction",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "syzygium subsessile poultice",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "syzygium subsessile infusion",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "syzygium subsessile tincture",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "syzygium subsessile oil",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "capsule",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "syzygium subsessile salve",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "perfume",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "infusate",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Syzygium subsessile are tea, infusion, tincture, salve, and decoction. Syzygium subsessile tea is prepared by steeping the dried leaves in hot water to relieve fever and cough. Infusion is prepared by steeping the leaves in cold water to treat digestive issues and reduce inflammation. Tincture is an alcoholic extract of the leaves used to treat fever and respiratory issues. Decoction and salve are prepared from the bark and used to treat wounds and skin conditions due to their antiseptic and antibacterial properties.",
+    "side_effects": [
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 5,
+            "confidence_score": 43,
+            "total_score": 215
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "provoke liver damage",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "develops allergic reaction",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "shows cardiovascular issues",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "ingest toxic compounds",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "dies",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "exhibits skin irritation",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "experiences respiratory depression",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Syzygium subsessile improperly include experiencing allergic reactions, which may be due to the presence of potential allergens such as terpenes and flavonoids. Ingesting large quantities of the plant can cause vomiting, leading to dehydration and electrolyte imbalance if not treated promptly. Nausea and diarrhea are also possible side effects, as the plant's saponins and tannins can disrupt normal gut function and lead to gastrointestinal distress. Inducing nausea is another potential consequence, as the plant's volatile oils can irritate the stomach and cause vomiting. These side effects are often caused by the improper use of the plant, such as consuming it in excessive amounts or using it in combination with other medications that may interact with its bioactive compounds.",
+    "uses": "Syzygium subsessile is reported to have various medicinal uses. The plant's leaves are used in traditional medicine to treat fever, cough, and cold. They are also used to treat skin conditions such as eczema and acne due to their antiseptic and anti-inflammatory properties. Syzygium subsessile's roots are used to treat digestive issues, including diarrhea and constipation. Additionally, the plant's leaves are used to treat respiratory issues, including bronchitis and asthma.",
+    "taxonomy": "Syzygium subsessile belongs to the family Myrtaceae and is native to Australia. It is a species of the Syzygium genus, which consists of flowering plants with showy white, pink, or purple flowers. The genus Syzygium is part of the order Myrtales and the class Magnoliopsida. This classification places Syzygium subsessile within the broader plant kingdom. The specific classification of Syzygium subsessile is a Syzygium species within the eudicot lineage.",
+    "benefits": "Syzygium subsessile is known for its potential health benefits, which include its antioxidant and anti-inflammatory properties. The plant may help reduce the risk of chronic diseases, such as heart disease and cancer. Its extracts have been studied for their ability to protect against cell damage and oxidative stress. Additionally, Syzygium subsessile may have antimicrobial and antifungal properties, making it a potential natural remedy for certain infections. Further research is needed to fully understand the health benefits of this plant.",
+    "parts": "Syzygium subsessile is a plant species, but information about its specific medicinal parts is limited in my knowledge. However, I can provide general information about plants in the Syzygium genus, which are known for their medicinal properties. The bark, leaves, and fruit of various Syzygium species are used in traditional medicine. The leaves and bark are often used to treat fever, cough, and respiratory issues.",
+    "intro": "Syzygium subsessile, also known as the water apple or water berry, is a species of flowering plant in the family Myrtaceae, native to tropical Asia. The plant is valued for its health benefits, which include its antioxidant, anti-inflammatory, and antimicrobial properties, making it a potential remedy for various ailments such as fever, diarrhea, and respiratory infections. The bioactive constituents of Syzygium subsessile include flavonoids, phenolic acids, and terpenoids, which contribute to its therapeutic properties. The plant is commonly used to make herbal preparations such as decoctions, infusions, and tinctures, often in traditional medicine systems in Asia, where it is used to treat a range of health issues."
+}

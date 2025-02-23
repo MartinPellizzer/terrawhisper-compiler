@@ -1,1 +1,767 @@
-{"title": "Ipomoea coptica", "herb_slug": "ipomoea-coptica", "herb_name_scientific": "Ipomoea coptica", "family_slug": "convolvulaceae", "family_name": "Convolvulaceae", "url": "herbs/ipomoea-coptica", "lastmod": "2025-2-3", "herb_names_common": [{"name": "sweet potato", "mentions": 19, "confidence_score": 186, "total_score": 3534}, {"name": "batata", "mentions": 20, "confidence_score": 162, "total_score": 3240}, {"name": "ipomoea", "mentions": 20, "confidence_score": 94, "total_score": 1880}, {"name": "camote", "mentions": 8, "confidence_score": 65, "total_score": 520}, {"name": "yam bean", "mentions": 11, "confidence_score": 47, "total_score": 517}, {"name": "kamote", "mentions": 8, "confidence_score": 47, "total_score": 376}, {"name": "dolique", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "sweet potato vine", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "japanese sweet potato", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "sweet yam", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "batata-doce", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "rockmelon", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "kamoteng kahoy", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "batata doce", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "dioscorea", "mentions": 5, "confidence_score": 12, "total_score": 60}, {"name": "wild sweet potato", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "sweet potato plant", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "okinawan sweet potato", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "convolvulus", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "wild potato", "mentions": 2, "confidence_score": 9, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 19, "confidence_score": 164, "total_score": 3116}, {"medicine_or_poison": "poison", "mentions": 1, "confidence_score": 10, "total_score": 10}], "what_description": "Ipomoea coptica is a perennial plant belonging to the family Convolvulaceae. It is a climbing vine with a long, thin stem that can grow up to 30 meters in length, supporting itself using twining tendrils. The leaves are simple, alternate, and cordate with a heart-shaped base, measuring 5-10 cm in length and 3-5 cm in width. The flowers are showy, trumpet-shaped, and purple in color, with a diameter of 10-15 cm, and are arranged in a corymb-like inflorescence. The plant produces edible, starchy tubers that are used as a food source, particularly in Asian cuisine.", "category_action": "adaptogens", "ailments": [{"name": "diabetes", "mentions": 18, "confidence_score": 162, "total_score": 2916}, {"name": "inflammation", "mentions": 18, "confidence_score": 146, "total_score": 2628}, {"name": "hypertension", "mentions": 16, "confidence_score": 128, "total_score": 2048}, {"name": "digestive issues", "mentions": 12, "confidence_score": 78, "total_score": 936}, {"name": "cancer", "mentions": 15, "confidence_score": 75, "total_score": 1125}, {"name": "anxiety", "mentions": 11, "confidence_score": 74, "total_score": 814}, {"name": "cholesterol", "mentions": 9, "confidence_score": 71, "total_score": 639}, {"name": "arthritis", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "gastritis", "mentions": 7, "confidence_score": 49, "total_score": 343}, {"name": "depression", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "stress", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "asthma", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "obesity", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "chronic pain", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "hyperlipidemia", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "osteoporosis", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "cardiovascular disease", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "sleep disorder", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "epilepsy", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "gastrointestinal issues", "mentions": 3, "confidence_score": 18, "total_score": 54}], "ailments_description": "The most common ailments you can heal with Ipomoea coptica are diabetes, inflammation, and hypertension, as its extracts have been shown to significantly reduce blood sugar levels, inhibit pro-inflammatory cytokines, and lower blood pressure. Ipomoea coptica has also been found to alleviate digestive issues, such as gastritis, by reducing inflammation in the stomach lining and promoting the healing of gastric ulcers. Furthermore, its anti-cancer properties have been demonstrated to inhibit the growth of various cancer cells, including breast, lung, and colon cancer cells. Additionally, Ipomoea coptica has been used to treat anxiety, cholesterol, arthritis, depression, stress, asthma, obesity, chronic pain, hyperlipidemia, osteoporosis, cardiovascular disease, sleep disorder, epilepsy, and gastrointestinal issues, such as diarrhea and constipation, by regulating the gut microbiome and reducing inflammation. Regular consumption of Ipomoea coptica has been linked to improved cardiovascular health, reduced oxidative stress, and enhanced overall well-being.", "properties": [{"name": "antioxidant", "mentions": 22, "confidence_score": 188, "total_score": 4136}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 158, "total_score": 3160}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 151, "total_score": 3020}, {"name": "cardioprotective", "mentions": 18, "confidence_score": 101, "total_score": 1818}, {"name": "anticancer", "mentions": 16, "confidence_score": 85, "total_score": 1360}, {"name": "neuroprotective", "mentions": 18, "confidence_score": 85, "total_score": 1530}, {"name": "hypoglycemic", "mentions": 12, "confidence_score": 83, "total_score": 996}, {"name": "analgesic", "mentions": 15, "confidence_score": 76, "total_score": 1140}, {"name": "antispasmodic", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "antidiabetic", "mentions": 6, "confidence_score": 48, "total_score": 288}, {"name": "antiviral", "mentions": 9, "confidence_score": 38, "total_score": 342}, {"name": "hepatoprotective", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "antihypertensive", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "antipyretic", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "anticonvulsant", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "hypolipidemic", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "anti-ulcer", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "hypotensive", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "antidiarrheal", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "anxiolytic", "mentions": 2, "confidence_score": 11, "total_score": 22}], "properties_description": "The main therapeutic properties of Ipomoea coptica are its cardioprotective effects, which may be attributed to the bioactive compounds such as flavonoids, that help reduce the risk of cardiovascular diseases by preventing lipid peroxidation and improving vascular function. Additionally, Ipomoea coptica exhibits antioxidant properties, which are mediated by the presence of phenolic compounds, that protect cells from oxidative damage and contribute to its anti-inflammatory effects, which are partly due to the action of saponins that inhibit the production of pro-inflammatory cytokines. Furthermore, the plant's antimicrobial properties, which are mainly attributed to its volatile oils, enable it to inhibit the growth of various microorganisms and prevent infections. Its anti-inflammatory properties also contribute to its anticancer effects, as they may help prevent the progression of cancer by reducing inflammation in the tumor microenvironment. The bioactive compounds responsible for these medicinal properties also contribute to the plant's overall health benefits.", "constituents": [{"name": "quercetin", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "kaempferol", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "saponins", "mentions": 8, "confidence_score": 48, "total_score": 384}, {"name": "ibogaine", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "flavonoids", "mentions": 8, "confidence_score": 42, "total_score": 336}, {"name": "indole alkaloids", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "phenolic acids", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "anthocyanins", "mentions": 7, "confidence_score": 35, "total_score": 245}, {"name": "berberine", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "ipomoeic acid", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "tryptophan", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "ampelopsin", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "icariin", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "glycosides", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "ibogamine", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "ibogaline", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "catechins", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "diosgenin", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "iridoid glycosides (e.g., ipomoeic acid and asperosaponins)", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "coptisine", "mentions": 2, "confidence_score": 17, "total_score": 34}], "constituents_description": "The most important healing constituents of Ipomoea coptica are quercetin, kaempferol, saponins, ibogaine, and flavonoids. Quercetin and kaempferol exhibit anti-inflammatory and antioxidant properties, which contribute to the plant's potential in treating various conditions, including cardiovascular disease and cancer. Saponins, a type of glycoside, have been shown to possess antimicrobial and antifungal activities, which may help protect against infections. Ibogaine, a naturally occurring psychoactive compound, has been investigated for its potential in treating addiction and neurodegenerative disorders due to its ability to modulate neurotransmitter activity. Flavonoids, present in the plant, have been found to have antiviral and antidiabetic properties, further supporting the plant's potential as a therapeutic agent.", "preparations": [{"name": "ipomoea extract tincture", "mentions": 12, "confidence_score": 95, "total_score": 1140}, {"name": "convolvulus tea", "mentions": 8, "confidence_score": 68, "total_score": 544}, {"name": "phyllanthus-ipomoea decoction", "mentions": 9, "confidence_score": 56, "total_score": 504}, {"name": "infusion", "mentions": 7, "confidence_score": 39, "total_score": 273}, {"name": "kava capsules", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "kava oil", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "kava tincture", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "kava extract", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "kava tea", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "madagascar periwinkle tincture", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "konjac capsule", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "infused oil", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "ipomoea tincture", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "suppository", "mentions": 5, "confidence_score": 16, "total_score": 80}, {"name": "ocotea tincture", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "kava powder", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "konjac powder", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "convolvulus root tea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "oleuropein", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "coptidis rhizoma extract", "mentions": 1, "confidence_score": 10, "total_score": 10}], "preparations_description": "The main herbal preparations of Ipomoea coptica are derived from its leaves, stems and roots, which are rich in bioactive compounds. Ipomoea extract tincture is prepared by mixing the plant's extract with a solvent like ethanol, making it a concentrated liquid form suitable for internal use. Convolvulus tea is prepared by infusing the dried leaves in hot water, releasing its flavonoids, alkaloids and glycosides. Phyllanthus-ipomoea decoction is a combination of Ipomoea coptica and Phyllanthus niruri, decocted in water to release its saponins, flavonoids and glycosides. Kava capsules, sometimes containing Ipomoea coptica, are prepared by filling capsules with a standardized extract of the plant, often used for its anxiolytic and sleep-promoting effects.", "side_effects": [{"name": "experience nausea", "mentions": 5, "confidence_score": 45, "total_score": 225}, {"name": "suffer liver damage", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "experiences headaches", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "develops diarrhea", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "experiences nausea", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "cause abdominal pain", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "induce vomiting", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "develop respiratory depression", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "suffer from vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiencing vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experiences vomiting", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiences dizziness", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "exacerbate nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "aggravate diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experience hallucinations", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "develop diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experience seizures", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "exhibits hallucinations", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "develop hyperthermia", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effects of using Ipomoea coptica improperly include experiencing nausea, which is caused by the high concentration of aristolochic acid, a known gastrointestinal irritant. Suffering liver damage is also a possibility due to the toxic compounds present in the plant, such as aristolochic acid, which can cause hepatocellular necrosis and fibrosis. Experiencing headaches may occur due to the vasoconstrictive properties of aristolochic acid, which can lead to increased intracranial pressure. Developing diarrhea is another potential side effect, as aristolochic acid can cause irritation and inflammation of the gastrointestinal tract, leading to an imbalance of fluids and electrolytes. These side effects can occur because the toxic compounds in Ipomoea coptica can accumulate in the body and cause oxidative stress and inflammation in various organs.", "uses": "Ipomoea coptica, also known as Ipomoea aquatica or Chinese water spinach, has been traditionally used in various cultures for its medicinal properties. The plant contains antioxidants, flavonoids, and phenolic acids, which are believed to have anti-inflammatory and antimicrobial effects. It is used to treat a range of health issues, including fever, headaches, and digestive problems. In traditional Chinese medicine, Ipomoea coptica is also used to lower blood pressure and cholesterol levels. Furthermore, its leaves and stems are rich in vitamins and minerals, making it a nutritious addition to salads and other dishes.", "taxonomy": "Ipomoea coptica, also known as the sweet potato vine, belongs to the family Convolvulaceae. This family is a group of flowering plants commonly known as bindweeds or morning glories. The genus Ipomoea is a large and diverse group of plants, with Ipomoea coptica being one of its many species. Ipomoea coptica is a perennial vine native to tropical regions of Asia and Australia. It is often classified as a type of edible ornamental plant due to its edible tubers.", "benefits": "Ipomoea coptica, also known as sweet potato, has been associated with numerous health benefits. The plant is rich in antioxidants and fiber, which can help lower cholesterol levels and reduce the risk of heart disease. Sweet potatoes are also an excellent source of essential vitamins and minerals, including vitamin A, vitamin C, and potassium. They have anti-inflammatory properties, which may help alleviate symptoms of conditions such as arthritis and other inflammatory diseases. Consuming sweet potatoes regularly can also support healthy digestion and promote a balanced gut microbiome.", "parts": "Ipomoea coptica, commonly known as sweet potato vine, is a tropical plant species. The medicinal parts of Ipomoea coptica include the leaves, stems, and roots. Traditionally, these parts have been used to treat various health conditions, such as fever, rheumatism, and digestive issues. The leaves are often used in herbal teas or infusions to help reduce inflammation and promote relaxation. The roots have been used in traditional medicine to treat conditions like diabetes and high blood pressure.", "intro": "Ipomoea coptica, commonly known as Indian or Oriental arrowroot, is a perennial plant native to Asia and Australia, characterized by its tuberous roots and heart-shaped leaves. The plant has been used in traditional medicine for its various health benefits, including the treatment of digestive issues, inflammation, and respiratory problems, due to its potential anti-inflammatory, antioxidant, and antimicrobial properties. The bioactive constituents of Ipomoea coptica include starch, inulin, and various alkaloids, which are responsible for its medicinal properties. In herbal medicine, Ipomoea coptica is commonly prepared as a powder, tea, or decoction, often used to treat diarrhea, constipation, and other gastrointestinal disorders."}
+{
+    "title": "Ipomoea coptica",
+    "herb_slug": "ipomoea-coptica",
+    "herb_name_scientific": "Ipomoea coptica",
+    "family_slug": "convolvulaceae",
+    "family_name": "Convolvulaceae",
+    "url": "herbs/ipomoea-coptica",
+    "lastmod": "2025-2-3",
+    "herb_names_common": [
+        {
+            "name": "sweet potato",
+            "mentions": 19,
+            "confidence_score": 186,
+            "total_score": 3534
+        },
+        {
+            "name": "batata",
+            "mentions": 20,
+            "confidence_score": 162,
+            "total_score": 3240
+        },
+        {
+            "name": "ipomoea",
+            "mentions": 20,
+            "confidence_score": 94,
+            "total_score": 1880
+        },
+        {
+            "name": "camote",
+            "mentions": 8,
+            "confidence_score": 65,
+            "total_score": 520
+        },
+        {
+            "name": "yam bean",
+            "mentions": 11,
+            "confidence_score": 47,
+            "total_score": 517
+        },
+        {
+            "name": "kamote",
+            "mentions": 8,
+            "confidence_score": 47,
+            "total_score": 376
+        },
+        {
+            "name": "dolique",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "sweet potato vine",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "japanese sweet potato",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "sweet yam",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "batata-doce",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "rockmelon",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "kamoteng kahoy",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "batata doce",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "dioscorea",
+            "mentions": 5,
+            "confidence_score": 12,
+            "total_score": 60
+        },
+        {
+            "name": "wild sweet potato",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "sweet potato plant",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "okinawan sweet potato",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "convolvulus",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "wild potato",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 19,
+            "confidence_score": 164,
+            "total_score": 3116
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "what_description": "Ipomoea coptica is a perennial plant belonging to the family Convolvulaceae. It is a climbing vine with a long, thin stem that can grow up to 30 meters in length, supporting itself using twining tendrils. The leaves are simple, alternate, and cordate with a heart-shaped base, measuring 5-10 cm in length and 3-5 cm in width. The flowers are showy, trumpet-shaped, and purple in color, with a diameter of 10-15 cm, and are arranged in a corymb-like inflorescence. The plant produces edible, starchy tubers that are used as a food source, particularly in Asian cuisine.",
+    "category_action": "adaptogens",
+    "ailments": [
+        {
+            "name": "diabetes",
+            "mentions": 18,
+            "confidence_score": 162,
+            "total_score": 2916
+        },
+        {
+            "name": "inflammation",
+            "mentions": 18,
+            "confidence_score": 146,
+            "total_score": 2628
+        },
+        {
+            "name": "hypertension",
+            "mentions": 16,
+            "confidence_score": 128,
+            "total_score": 2048
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 12,
+            "confidence_score": 78,
+            "total_score": 936
+        },
+        {
+            "name": "cancer",
+            "mentions": 15,
+            "confidence_score": 75,
+            "total_score": 1125
+        },
+        {
+            "name": "anxiety",
+            "mentions": 11,
+            "confidence_score": 74,
+            "total_score": 814
+        },
+        {
+            "name": "cholesterol",
+            "mentions": 9,
+            "confidence_score": 71,
+            "total_score": 639
+        },
+        {
+            "name": "arthritis",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "gastritis",
+            "mentions": 7,
+            "confidence_score": 49,
+            "total_score": 343
+        },
+        {
+            "name": "depression",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "stress",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "asthma",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "obesity",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "chronic pain",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "hyperlipidemia",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "osteoporosis",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "sleep disorder",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "epilepsy",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "gastrointestinal issues",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Ipomoea coptica are diabetes, inflammation, and hypertension, as its extracts have been shown to significantly reduce blood sugar levels, inhibit pro-inflammatory cytokines, and lower blood pressure. Ipomoea coptica has also been found to alleviate digestive issues, such as gastritis, by reducing inflammation in the stomach lining and promoting the healing of gastric ulcers. Furthermore, its anti-cancer properties have been demonstrated to inhibit the growth of various cancer cells, including breast, lung, and colon cancer cells. Additionally, Ipomoea coptica has been used to treat anxiety, cholesterol, arthritis, depression, stress, asthma, obesity, chronic pain, hyperlipidemia, osteoporosis, cardiovascular disease, sleep disorder, epilepsy, and gastrointestinal issues, such as diarrhea and constipation, by regulating the gut microbiome and reducing inflammation. Regular consumption of Ipomoea coptica has been linked to improved cardiovascular health, reduced oxidative stress, and enhanced overall well-being.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 22,
+            "confidence_score": 188,
+            "total_score": 4136
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 158,
+            "total_score": 3160
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 151,
+            "total_score": 3020
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 18,
+            "confidence_score": 101,
+            "total_score": 1818
+        },
+        {
+            "name": "anticancer",
+            "mentions": 16,
+            "confidence_score": 85,
+            "total_score": 1360
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 18,
+            "confidence_score": 85,
+            "total_score": 1530
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 12,
+            "confidence_score": 83,
+            "total_score": 996
+        },
+        {
+            "name": "analgesic",
+            "mentions": 15,
+            "confidence_score": 76,
+            "total_score": 1140
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 6,
+            "confidence_score": 48,
+            "total_score": 288
+        },
+        {
+            "name": "antiviral",
+            "mentions": 9,
+            "confidence_score": 38,
+            "total_score": 342
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "anticonvulsant",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "hypolipidemic",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "anti-ulcer",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "anxiolytic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Ipomoea coptica are its cardioprotective effects, which may be attributed to the bioactive compounds such as flavonoids, that help reduce the risk of cardiovascular diseases by preventing lipid peroxidation and improving vascular function. Additionally, Ipomoea coptica exhibits antioxidant properties, which are mediated by the presence of phenolic compounds, that protect cells from oxidative damage and contribute to its anti-inflammatory effects, which are partly due to the action of saponins that inhibit the production of pro-inflammatory cytokines. Furthermore, the plant's antimicrobial properties, which are mainly attributed to its volatile oils, enable it to inhibit the growth of various microorganisms and prevent infections. Its anti-inflammatory properties also contribute to its anticancer effects, as they may help prevent the progression of cancer by reducing inflammation in the tumor microenvironment. The bioactive compounds responsible for these medicinal properties also contribute to the plant's overall health benefits.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "saponins",
+            "mentions": 8,
+            "confidence_score": 48,
+            "total_score": 384
+        },
+        {
+            "name": "ibogaine",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 8,
+            "confidence_score": 42,
+            "total_score": 336
+        },
+        {
+            "name": "indole alkaloids",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "anthocyanins",
+            "mentions": 7,
+            "confidence_score": 35,
+            "total_score": 245
+        },
+        {
+            "name": "berberine",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "ipomoeic acid",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "tryptophan",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "ampelopsin",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "icariin",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "glycosides",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "ibogamine",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "ibogaline",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "catechins",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "diosgenin",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "iridoid glycosides (e.g., ipomoeic acid and asperosaponins)",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "coptisine",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Ipomoea coptica are quercetin, kaempferol, saponins, ibogaine, and flavonoids. Quercetin and kaempferol exhibit anti-inflammatory and antioxidant properties, which contribute to the plant's potential in treating various conditions, including cardiovascular disease and cancer. Saponins, a type of glycoside, have been shown to possess antimicrobial and antifungal activities, which may help protect against infections. Ibogaine, a naturally occurring psychoactive compound, has been investigated for its potential in treating addiction and neurodegenerative disorders due to its ability to modulate neurotransmitter activity. Flavonoids, present in the plant, have been found to have antiviral and antidiabetic properties, further supporting the plant's potential as a therapeutic agent.",
+    "preparations": [
+        {
+            "name": "ipomoea extract tincture",
+            "mentions": 12,
+            "confidence_score": 95,
+            "total_score": 1140
+        },
+        {
+            "name": "convolvulus tea",
+            "mentions": 8,
+            "confidence_score": 68,
+            "total_score": 544
+        },
+        {
+            "name": "phyllanthus-ipomoea decoction",
+            "mentions": 9,
+            "confidence_score": 56,
+            "total_score": 504
+        },
+        {
+            "name": "infusion",
+            "mentions": 7,
+            "confidence_score": 39,
+            "total_score": 273
+        },
+        {
+            "name": "kava capsules",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "kava oil",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "kava tincture",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "kava extract",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "kava tea",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "madagascar periwinkle tincture",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "konjac capsule",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "ipomoea tincture",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "suppository",
+            "mentions": 5,
+            "confidence_score": 16,
+            "total_score": 80
+        },
+        {
+            "name": "ocotea tincture",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "kava powder",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "konjac powder",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "convolvulus root tea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "oleuropein",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "coptidis rhizoma extract",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Ipomoea coptica are derived from its leaves, stems and roots, which are rich in bioactive compounds. Ipomoea extract tincture is prepared by mixing the plant's extract with a solvent like ethanol, making it a concentrated liquid form suitable for internal use. Convolvulus tea is prepared by infusing the dried leaves in hot water, releasing its flavonoids, alkaloids and glycosides. Phyllanthus-ipomoea decoction is a combination of Ipomoea coptica and Phyllanthus niruri, decocted in water to release its saponins, flavonoids and glycosides. Kava capsules, sometimes containing Ipomoea coptica, are prepared by filling capsules with a standardized extract of the plant, often used for its anxiolytic and sleep-promoting effects.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 5,
+            "confidence_score": 45,
+            "total_score": 225
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "experiences headaches",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "cause abdominal pain",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "develop respiratory depression",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "suffer from vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experiences vomiting",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "exacerbate nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "aggravate diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experience hallucinations",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experience seizures",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "exhibits hallucinations",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "develop hyperthermia",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Ipomoea coptica improperly include experiencing nausea, which is caused by the high concentration of aristolochic acid, a known gastrointestinal irritant. Suffering liver damage is also a possibility due to the toxic compounds present in the plant, such as aristolochic acid, which can cause hepatocellular necrosis and fibrosis. Experiencing headaches may occur due to the vasoconstrictive properties of aristolochic acid, which can lead to increased intracranial pressure. Developing diarrhea is another potential side effect, as aristolochic acid can cause irritation and inflammation of the gastrointestinal tract, leading to an imbalance of fluids and electrolytes. These side effects can occur because the toxic compounds in Ipomoea coptica can accumulate in the body and cause oxidative stress and inflammation in various organs.",
+    "uses": "Ipomoea coptica, also known as Ipomoea aquatica or Chinese water spinach, has been traditionally used in various cultures for its medicinal properties. The plant contains antioxidants, flavonoids, and phenolic acids, which are believed to have anti-inflammatory and antimicrobial effects. It is used to treat a range of health issues, including fever, headaches, and digestive problems. In traditional Chinese medicine, Ipomoea coptica is also used to lower blood pressure and cholesterol levels. Furthermore, its leaves and stems are rich in vitamins and minerals, making it a nutritious addition to salads and other dishes.",
+    "taxonomy": "Ipomoea coptica, also known as the sweet potato vine, belongs to the family Convolvulaceae. This family is a group of flowering plants commonly known as bindweeds or morning glories. The genus Ipomoea is a large and diverse group of plants, with Ipomoea coptica being one of its many species. Ipomoea coptica is a perennial vine native to tropical regions of Asia and Australia. It is often classified as a type of edible ornamental plant due to its edible tubers.",
+    "benefits": "Ipomoea coptica, also known as sweet potato, has been associated with numerous health benefits. The plant is rich in antioxidants and fiber, which can help lower cholesterol levels and reduce the risk of heart disease. Sweet potatoes are also an excellent source of essential vitamins and minerals, including vitamin A, vitamin C, and potassium. They have anti-inflammatory properties, which may help alleviate symptoms of conditions such as arthritis and other inflammatory diseases. Consuming sweet potatoes regularly can also support healthy digestion and promote a balanced gut microbiome.",
+    "parts": "Ipomoea coptica, commonly known as sweet potato vine, is a tropical plant species. The medicinal parts of Ipomoea coptica include the leaves, stems, and roots. Traditionally, these parts have been used to treat various health conditions, such as fever, rheumatism, and digestive issues. The leaves are often used in herbal teas or infusions to help reduce inflammation and promote relaxation. The roots have been used in traditional medicine to treat conditions like diabetes and high blood pressure.",
+    "intro": "Ipomoea coptica, commonly known as Indian or Oriental arrowroot, is a perennial plant native to Asia and Australia, characterized by its tuberous roots and heart-shaped leaves. The plant has been used in traditional medicine for its various health benefits, including the treatment of digestive issues, inflammation, and respiratory problems, due to its potential anti-inflammatory, antioxidant, and antimicrobial properties. The bioactive constituents of Ipomoea coptica include starch, inulin, and various alkaloids, which are responsible for its medicinal properties. In herbal medicine, Ipomoea coptica is commonly prepared as a powder, tea, or decoction, often used to treat diarrhea, constipation, and other gastrointestinal disorders."
+}

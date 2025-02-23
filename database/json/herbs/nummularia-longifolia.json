@@ -1,1 +1,148 @@
-{"title": "Nummularia longifolia", "herb_slug": "nummularia-longifolia", "herb_name_scientific": "Nummularia longifolia", "family_slug": "primulaceae", "family_name": "Primulaceae", "url": "herbs/nummularia-longifolia", "lastmod": "2025-1-4", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 184, "total_score": 3680}], "herb_names_common": [{"name": "long-leaf nummularia", "mentions": 35, "confidence_score": 113, "total_score": 3955}, {"name": "long-leaved nummularia", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "nummularia longifolia", "mentions": 11, "confidence_score": 42, "total_score": 462}, {"name": "nummulopsis", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "nummulopsis longifolia", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "longleaf buttonwood", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "long-leafed buttonwood", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "long-leaved false mistletoe", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "sweet cassia", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "long leaf nummularia", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "water wattle", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "native plum", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "long-leafed nummularia", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cedarwood", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "long-leaved silverbell", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "australian nummularia", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "acacia longifolia", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "siberian cypress", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "river teak", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "longleaf nummularia", "mentions": 1, "confidence_score": 10, "total_score": 10}], "uses": "Nummularia longifolia, a plant species native to Australia, has been traditionally used in Indigenous Australian medicine. Its bark and leaves are used in various remedies for skin conditions, wounds, and other ailments. The plant is also believed to have antiseptic and anti-inflammatory properties, which may aid in healing and reducing pain. However, its medicinal uses and effectiveness are not extensively documented in Western scientific literature, and further research is needed to confirm its benefits. More studies are required to fully understand the plant's potential medicinal applications.", "taxonomy": "Nummularia longifolia is classified as a species of fungus, specifically belonging to the family Diatrypaceae. This fungus is native to various parts of the world, including Australia and Asia. The classification of Nummularia longifolia is based on its morphological characteristics and molecular analysis. It is a type of ascomycete, which is a group of fungi characterized by the production of ascospores. Further research may be needed to confirm its exact classification within the fungal kingdom.", "benefits": "Nummularia longifolia, also known as the 'long-leaved nummularia', has been found to have potential health benefits. However, more research is needed to confirm these benefits. Traditionally, the plant has been used in herbal remedies to treat various health issues. It is believed to possess antimicrobial properties, which may help protect against infections. Further studies are required to fully understand its medicinal properties.", "properties": "Nummularia longifolia has been found to possess various therapeutic properties, including antioxidant and anti-inflammatory activities. Its extracts have been studied for potential use in treating various health conditions, such as infections and skin diseases. The plant's leaves and stems have been traditionally used in folk medicine to treat wounds and reduce inflammation. Additionally, its antimicrobial properties make it a promising candidate for use in wound care and skin infections. Further research is needed to confirm the efficacy and safety of Nummularia longifolia for therapeutic applications.", "constituents": "Nummularia longifolia is a species of plant known to have various active constituents, although specific information on these compounds is limited in available sources. However, as a relative of the invasive species Cytospora and Cytospora canker, it is possible that it may contain similar compounds such as sesquiterpenes and other phenolic compounds. These compounds may contribute to its potential antimicrobial and antifungal properties. Further research is required to fully understand the active constituents of Nummularia longifolia. Its chemical composition may also be influenced by environmental factors and geographical location.", "parts": "Nummularia longifolia, also known as the black mangrove, is a tropical plant with a range of medicinal properties. The medicinal parts of Nummularia longifolia are primarily its leaves and bark, which are used in traditional medicine. The leaves contain various bioactive compounds, including flavonoids and terpenoids, that exhibit antioxidant and anti-inflammatory activities. The bark of the plant is also reported to have antimicrobial and antiparasitic properties. Further research is needed to fully understand the potential medicinal applications of Nummularia longifolia.", "preparations": "Nummularia longifolia is a plant species that has been utilized in various cultures for its medicinal properties. According to traditional knowledge, the plant's leaves are used to create herbal remedies, often consumed as teas or infusions. The plant is believed to possess antimicrobial and anti-inflammatory properties, which may help alleviate certain health conditions. However, further research is required to confirm the efficacy and safety of these herbal preparations. The plant's leaves may also be dried and used in traditional medicine to treat respiratory issues and other ailments.", "side_effects": "Info not available yet.", "intro": "I couldn't find any information about the plant Nummularia longifolia."}
+{
+    "title": "Nummularia longifolia",
+    "herb_slug": "nummularia-longifolia",
+    "herb_name_scientific": "Nummularia longifolia",
+    "family_slug": "primulaceae",
+    "family_name": "Primulaceae",
+    "url": "herbs/nummularia-longifolia",
+    "lastmod": "2025-1-4",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 184,
+            "total_score": 3680
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "long-leaf nummularia",
+            "mentions": 35,
+            "confidence_score": 113,
+            "total_score": 3955
+        },
+        {
+            "name": "long-leaved nummularia",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "nummularia longifolia",
+            "mentions": 11,
+            "confidence_score": 42,
+            "total_score": 462
+        },
+        {
+            "name": "nummulopsis",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "nummulopsis longifolia",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "longleaf buttonwood",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "long-leafed buttonwood",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "long-leaved false mistletoe",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "sweet cassia",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "long leaf nummularia",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "water wattle",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "native plum",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "long-leafed nummularia",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cedarwood",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "long-leaved silverbell",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "australian nummularia",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "acacia longifolia",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "siberian cypress",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "river teak",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "longleaf nummularia",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "uses": "Nummularia longifolia, a plant species native to Australia, has been traditionally used in Indigenous Australian medicine. Its bark and leaves are used in various remedies for skin conditions, wounds, and other ailments. The plant is also believed to have antiseptic and anti-inflammatory properties, which may aid in healing and reducing pain. However, its medicinal uses and effectiveness are not extensively documented in Western scientific literature, and further research is needed to confirm its benefits. More studies are required to fully understand the plant's potential medicinal applications.",
+    "taxonomy": "Nummularia longifolia is classified as a species of fungus, specifically belonging to the family Diatrypaceae. This fungus is native to various parts of the world, including Australia and Asia. The classification of Nummularia longifolia is based on its morphological characteristics and molecular analysis. It is a type of ascomycete, which is a group of fungi characterized by the production of ascospores. Further research may be needed to confirm its exact classification within the fungal kingdom.",
+    "benefits": "Nummularia longifolia, also known as the 'long-leaved nummularia', has been found to have potential health benefits. However, more research is needed to confirm these benefits. Traditionally, the plant has been used in herbal remedies to treat various health issues. It is believed to possess antimicrobial properties, which may help protect against infections. Further studies are required to fully understand its medicinal properties.",
+    "properties": "Nummularia longifolia has been found to possess various therapeutic properties, including antioxidant and anti-inflammatory activities. Its extracts have been studied for potential use in treating various health conditions, such as infections and skin diseases. The plant's leaves and stems have been traditionally used in folk medicine to treat wounds and reduce inflammation. Additionally, its antimicrobial properties make it a promising candidate for use in wound care and skin infections. Further research is needed to confirm the efficacy and safety of Nummularia longifolia for therapeutic applications.",
+    "constituents": "Nummularia longifolia is a species of plant known to have various active constituents, although specific information on these compounds is limited in available sources. However, as a relative of the invasive species Cytospora and Cytospora canker, it is possible that it may contain similar compounds such as sesquiterpenes and other phenolic compounds. These compounds may contribute to its potential antimicrobial and antifungal properties. Further research is required to fully understand the active constituents of Nummularia longifolia. Its chemical composition may also be influenced by environmental factors and geographical location.",
+    "parts": "Nummularia longifolia, also known as the black mangrove, is a tropical plant with a range of medicinal properties. The medicinal parts of Nummularia longifolia are primarily its leaves and bark, which are used in traditional medicine. The leaves contain various bioactive compounds, including flavonoids and terpenoids, that exhibit antioxidant and anti-inflammatory activities. The bark of the plant is also reported to have antimicrobial and antiparasitic properties. Further research is needed to fully understand the potential medicinal applications of Nummularia longifolia.",
+    "preparations": "Nummularia longifolia is a plant species that has been utilized in various cultures for its medicinal properties. According to traditional knowledge, the plant's leaves are used to create herbal remedies, often consumed as teas or infusions. The plant is believed to possess antimicrobial and anti-inflammatory properties, which may help alleviate certain health conditions. However, further research is required to confirm the efficacy and safety of these herbal preparations. The plant's leaves may also be dried and used in traditional medicine to treat respiratory issues and other ailments.",
+    "side_effects": "Info not available yet.",
+    "intro": "I couldn't find any information about the plant Nummularia longifolia."
+}

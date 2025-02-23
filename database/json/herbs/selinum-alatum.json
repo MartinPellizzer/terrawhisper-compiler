@@ -1,1 +1,767 @@
-{"title": "Selinum alatum", "herb_slug": "selinum-alatum", "herb_name_scientific": "Selinum alatum", "family_slug": "apiaceae", "family_name": "Apiaceae", "url": "herbs/selinum-alatum", "lastmod": "2025-1-17", "herb_names_common": [{"name": "alpine wild celery", "mentions": 24, "confidence_score": 201, "total_score": 4824}, {"name": "wild lovage", "mentions": 17, "confidence_score": 96, "total_score": 1632}, {"name": "wild parsley", "mentions": 13, "confidence_score": 84, "total_score": 1092}, {"name": "wild parsnip", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "celery-leaved parsley", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "wild carrot", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "selinum", "mentions": 7, "confidence_score": 30, "total_score": 210}, {"name": "sail-leaved parsley", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "sail leaf", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "sail-leaved celery", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "wild ligusticum", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "alpine celery", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "selago", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "sail upland celery", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "horse parsley", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "cockscomb", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "sailleaf", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "alpine lovage", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "wild lovage (selinum alatum)", "mentions": 6, "confidence_score": 11, "total_score": 66}, {"name": "wild fennel", "mentions": 2, "confidence_score": 11, "total_score": 22}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 18, "confidence_score": 150, "total_score": 2700}, {"medicine_or_poison": "poison", "mentions": 2, "confidence_score": 16, "total_score": 32}], "what_description": "Selinum alatum is an annual or biennial plant belonging to the family Apiaceae, native to Europe. It has a taproot and erect stems that can grow up to 1 meter in height, bearing compound umbels of small, white or pinkish flowers. The leaves are pinnate with 5-15 pairs of leaflets, and are alternate on the stem. The plant's fruit is a schizocarp, consisting of two mericarps that separate at maturity. The plant's habitat includes dry to moist meadows, grasslands, and roadsides.", "category_action": "antispasmodic", "ailments": [{"name": "inflammation", "mentions": 15, "confidence_score": 128, "total_score": 1920}, {"name": "fever reduction", "mentions": 12, "confidence_score": 93, "total_score": 1116}, {"name": "digestive issues", "mentions": 11, "confidence_score": 82, "total_score": 902}, {"name": "diarrhea", "mentions": 10, "confidence_score": 77, "total_score": 770}, {"name": "arthritis", "mentions": 8, "confidence_score": 58, "total_score": 464}, {"name": "gastroenteritis", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "rheumatism", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "nausea", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "respiratory problems", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "pain relief", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "flatulence", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "dyspepsia", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "colic", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "skin conditions", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "eczema", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "gout", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "respiratory issues", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "indigestion", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "eye infections", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "gastritis", "mentions": 3, "confidence_score": 21, "total_score": 63}], "ailments_description": "The most common ailments you can heal with Selinum alatum are inflammation and fever reduction, as it has been proven to have anti-inflammatory properties and reduce temperature in patients. Digestive issues such as diarrhea can also be treated with Selinum alatum, as it has been shown to possess antidiarrheal properties. Additionally, arthritis symptoms can be alleviated with the use of Selinum alatum, as it has been found to have analgesic and anti-inflammatory effects. Gastroenteritis, rheumatism, nausea, respiratory problems, pain relief, flatulence, dyspepsia, colic, skin conditions and eczema can also be treated with Selinum alatum. Further, it has been demonstrated to be effective in treating gout, respiratory issues, indigestion, eye infections and gastritis.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 148, "total_score": 2960}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 148, "total_score": 2960}, {"name": "antioxidant", "mentions": 20, "confidence_score": 147, "total_score": 2940}, {"name": "antispasmodic", "mentions": 17, "confidence_score": 110, "total_score": 1870}, {"name": "analgesic", "mentions": 20, "confidence_score": 100, "total_score": 2000}, {"name": "expectorant", "mentions": 15, "confidence_score": 77, "total_score": 1155}, {"name": "antibacterial", "mentions": 9, "confidence_score": 68, "total_score": 612}, {"name": "antifungal", "mentions": 9, "confidence_score": 60, "total_score": 540}, {"name": "antiviral", "mentions": 12, "confidence_score": 48, "total_score": 576}, {"name": "diuretic", "mentions": 8, "confidence_score": 39, "total_score": 312}, {"name": "cytotoxic", "mentions": 7, "confidence_score": 38, "total_score": 266}, {"name": "anticancer", "mentions": 8, "confidence_score": 32, "total_score": 256}, {"name": "hepatoprotective", "mentions": 6, "confidence_score": 21, "total_score": 126}, {"name": "antipyretic", "mentions": 5, "confidence_score": 18, "total_score": 90}, {"name": "antiseptic", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "antihistaminic", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "antiparasitic", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "hypotensive", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "antipruritic", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "immune-modulator", "mentions": 1, "confidence_score": 6, "total_score": 6}], "properties_description": "The main therapeutic properties of Selinum alatum are its antimicrobial activity, which is attributed to the presence of essential oils and phenolic compounds. The anti-inflammatory property of this plant is due to the presence of flavonoids and phenolic acids, which have been shown to inhibit the production of pro-inflammatory cytokines. Additionally, the antioxidant property is a result of the high content of vitamins C and E, as well as phenolic compounds, which scavenge free radicals and protect against oxidative stress. The antispasmodic effect is also observed, attributed to the presence of saponins and flavonoids, which relax smooth muscle and alleviate spasms. Furthermore, the analgesic property of Selinum alatum is attributed to the presence of flavonoids and phenolic compounds, which have been shown to inhibit the activity of pain-producing enzymes.", "constituents": [{"name": "selinene", "mentions": 20, "confidence_score": 176, "total_score": 3520}, {"name": "\u03b2-selinene oxide", "mentions": 18, "confidence_score": 123, "total_score": 2214}, {"name": "selinol", "mentions": 13, "confidence_score": 82, "total_score": 1066}, {"name": "\u03b1-selinene", "mentions": 9, "confidence_score": 74, "total_score": 666}, {"name": "selinadiol", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "\u03b1-pinene", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "selinadiene", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "\u03b2-pinene", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "selinatriol", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "selinadienol", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "caryophyllene", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "\u03b2-caryophyllene", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "selinatriene", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "dillapiole", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "bornyl acetate", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "borneol", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "selin-11-en-4-one", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "beta-selinene", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "beta-selinene epoxide", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "bicyclogermacrene", "mentions": 2, "confidence_score": 16, "total_score": 32}], "constituents_description": "The most important healing constituents of Selinum alatum are selinene, \u03b2-selinene oxide, selinol, \u03b1-selinene, and selinadiol, which are sesquiterpene compounds responsible for its medicinal properties. Selinene exhibits anti-inflammatory activity by inhibiting the production of pro-inflammatory enzymes, such as COX-2 and LOX. \u03b2-Selinene oxide has been found to possess antimicrobial properties, effective against various pathogenic bacteria and fungi. \u03b1-Selinene has been reported to exhibit cytotoxic activity against cancer cells, while selinol has been shown to possess antioxidant properties, scavenging free radicals and protecting against oxidative stress. Additionally, selinadiol has been found to possess anti-inflammatory and antioxidant activities, contributing to the overall therapeutic potential of Selinum alatum.", "preparations": [{"name": "tea infusion", "mentions": 30, "confidence_score": 228, "total_score": 6840}, {"name": "tincture", "mentions": 17, "confidence_score": 126, "total_score": 2142}, {"name": "salve", "mentions": 17, "confidence_score": 86, "total_score": 1462}, {"name": "infused oil", "mentions": 8, "confidence_score": 47, "total_score": 376}, {"name": "decoction", "mentions": 7, "confidence_score": 30, "total_score": 210}, {"name": "essential oil", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "selinum tincture", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "poultice", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "selinum tea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "selinum oil", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "selinum infusion", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "ointment", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "vaporizer blend", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "selinum extract", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "salves", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "glycoside extract", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "selinum salve", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "topical cream", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "resin", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "resinoid", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Selinum alatum are used to utilize its medicinal properties, which include tea infusion made by steeping dried leaves and flowers in hot water to treat digestive issues, tincture made by soaking the plant in a solvent to create a concentrated extract for pain relief, salve made by infusing the plant in a carrier oil to create a topical cream for skin irritations, infused oil made by steeping the plant in oil to treat muscle and joint pain, and decoction made by boiling the plant in water to treat respiratory issues. The tea infusion contains flavonoids and terpenoids, which are responsible for its medicinal effects. The tincture is often used to treat rheumatism and arthritis due to its analgesic and anti-inflammatory properties. The salve and infused oil are applied topically to treat skin conditions such as eczema and acne. Decoction is used to treat coughs and colds due to the presence of volatile oils and saponins in the plant.", "side_effects": [{"name": "induce vomiting", "mentions": 4, "confidence_score": 39, "total_score": 156}, {"name": "exacerbate asthma", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "it triggers seizures", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "cause diarrhea", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "it induces allergic reactions", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "it causes vomiting", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "experiencing diarrhea", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "induce nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "aggravate digestive issues", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "it induces vomiting", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "it causes hypotension", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "interact with medications", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "suffers kidney damage", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "cause vomiting", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "trigger diarrhea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "it increases bleeding risk", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "exhibits abdominal pain", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "produce convulsions", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "result in cardiac arrest", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "suffering headaches", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effects of using Selinum alatum improperly include inducing vomiting, exacerbating asthma, triggering seizures, causing diarrhea, and inducing allergic reactions. These adverse effects can occur due to the plant's toxic compounds, particularly sesquiterpene lactones and essential oils, which can cause gastrointestinal irritation, respiratory distress, and neurological dysfunction. The improper use of Selinum alatum may lead to an imbalance of these compounds, resulting in the aforementioned side effects. In severe cases, the consumption of large quantities of the plant can cause seizures, a potentially life-threatening condition. The individual's susceptibility to these side effects can vary depending on factors such as the plant's preparation, dosage, and individual tolerance.", "uses": "Selinum alatum, a plant native to certain regions, has been used in traditional medicine for various purposes. It is believed to possess anti-inflammatory and antimicrobial properties, which have been utilized to treat wounds and infections. The plant's extracts may also have antiseptic and antifungal effects, making it a potential remedy for skin conditions and fungal infections. Additionally, Selinum alatum has been used to treat digestive issues, such as indigestion and diarrhea, due to its carminative properties. However, more research is needed to confirm the efficacy and safety of using Selinum alatum for medicinal purposes.", "taxonomy": "Selinum alatum is classified as a species of flowering plant in the carrot family (Apiaceae). The genus Selinum belongs to the order Apiales, which is a group of plants that also includes the ash tree family (Oleaceae) and the ginseng family (Araliaceae). Further, it is a member of the subfamily Apioideae, which includes plants like celery and caraway. Selinum alatum is native to Europe and Western Asia. It is also known by its synonym, Selinum silphiatum.", "benefits": "Selinum alatum is a plant species known for its various health benefits. Its extracts have been traditionally used to treat digestive issues and alleviate symptoms of indigestion. Additionally, the plant is believed to have anti-inflammatory properties, which can help reduce swelling and pain. Some studies suggest that Selinum alatum may also have antioxidant properties, which can help protect the body against free radicals. Further research is needed to confirm the full extent of its health benefits.", "parts": "Selinum alatum, also known as winged carrot or winged celery, is a plant species used in traditional medicine. The entire plant, including its leaves, stems, and roots, has been utilized in various cultures for its medicinal properties. However, more research is needed to fully understand its potential health benefits and the specific parts used for medicinal purposes. The plant is believed to have anti-inflammatory and antioxidant properties, which may contribute to its medicinal value. Further studies are required to confirm the specific medicinal parts of Selinum alatum and their uses in traditional medicine.", "intro": "Selinum alatum, also known as prickly carrot or winged carrot, is a perennial plant species belonging to the carrot family (Apiaceae). This plant is valued for its potential health benefits, including anti-inflammatory and antioxidant properties, which may help alleviate symptoms of digestive issues, arthritis, and other inflammatory conditions. The bioactive constituents of Selinum alatum include flavonoids, sesquiterpenes, and alkaloids, which are responsible for its medicinal properties. In herbal medicine, Selinum alatum is commonly used to make teas, infusions, and tinctures, which are often employed to treat a range of health conditions, including respiratory issues and skin problems."}
+{
+    "title": "Selinum alatum",
+    "herb_slug": "selinum-alatum",
+    "herb_name_scientific": "Selinum alatum",
+    "family_slug": "apiaceae",
+    "family_name": "Apiaceae",
+    "url": "herbs/selinum-alatum",
+    "lastmod": "2025-1-17",
+    "herb_names_common": [
+        {
+            "name": "alpine wild celery",
+            "mentions": 24,
+            "confidence_score": 201,
+            "total_score": 4824
+        },
+        {
+            "name": "wild lovage",
+            "mentions": 17,
+            "confidence_score": 96,
+            "total_score": 1632
+        },
+        {
+            "name": "wild parsley",
+            "mentions": 13,
+            "confidence_score": 84,
+            "total_score": 1092
+        },
+        {
+            "name": "wild parsnip",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "celery-leaved parsley",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "wild carrot",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "selinum",
+            "mentions": 7,
+            "confidence_score": 30,
+            "total_score": 210
+        },
+        {
+            "name": "sail-leaved parsley",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "sail leaf",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "sail-leaved celery",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "wild ligusticum",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "alpine celery",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "selago",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "sail upland celery",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "horse parsley",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "cockscomb",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "sailleaf",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "alpine lovage",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "wild lovage (selinum alatum)",
+            "mentions": 6,
+            "confidence_score": 11,
+            "total_score": 66
+        },
+        {
+            "name": "wild fennel",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 18,
+            "confidence_score": 150,
+            "total_score": 2700
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "what_description": "Selinum alatum is an annual or biennial plant belonging to the family Apiaceae, native to Europe. It has a taproot and erect stems that can grow up to 1 meter in height, bearing compound umbels of small, white or pinkish flowers. The leaves are pinnate with 5-15 pairs of leaflets, and are alternate on the stem. The plant's fruit is a schizocarp, consisting of two mericarps that separate at maturity. The plant's habitat includes dry to moist meadows, grasslands, and roadsides.",
+    "category_action": "antispasmodic",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 15,
+            "confidence_score": 128,
+            "total_score": 1920
+        },
+        {
+            "name": "fever reduction",
+            "mentions": 12,
+            "confidence_score": 93,
+            "total_score": 1116
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 11,
+            "confidence_score": 82,
+            "total_score": 902
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 10,
+            "confidence_score": 77,
+            "total_score": 770
+        },
+        {
+            "name": "arthritis",
+            "mentions": 8,
+            "confidence_score": 58,
+            "total_score": 464
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "nausea",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "respiratory problems",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "pain relief",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "flatulence",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "dyspepsia",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "colic",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "eczema",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "gout",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "indigestion",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "eye infections",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "gastritis",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Selinum alatum are inflammation and fever reduction, as it has been proven to have anti-inflammatory properties and reduce temperature in patients. Digestive issues such as diarrhea can also be treated with Selinum alatum, as it has been shown to possess antidiarrheal properties. Additionally, arthritis symptoms can be alleviated with the use of Selinum alatum, as it has been found to have analgesic and anti-inflammatory effects. Gastroenteritis, rheumatism, nausea, respiratory problems, pain relief, flatulence, dyspepsia, colic, skin conditions and eczema can also be treated with Selinum alatum. Further, it has been demonstrated to be effective in treating gout, respiratory issues, indigestion, eye infections and gastritis.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 148,
+            "total_score": 2960
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 148,
+            "total_score": 2960
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 147,
+            "total_score": 2940
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 17,
+            "confidence_score": 110,
+            "total_score": 1870
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 100,
+            "total_score": 2000
+        },
+        {
+            "name": "expectorant",
+            "mentions": 15,
+            "confidence_score": 77,
+            "total_score": 1155
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 9,
+            "confidence_score": 68,
+            "total_score": 612
+        },
+        {
+            "name": "antifungal",
+            "mentions": 9,
+            "confidence_score": 60,
+            "total_score": 540
+        },
+        {
+            "name": "antiviral",
+            "mentions": 12,
+            "confidence_score": 48,
+            "total_score": 576
+        },
+        {
+            "name": "diuretic",
+            "mentions": 8,
+            "confidence_score": 39,
+            "total_score": 312
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 7,
+            "confidence_score": 38,
+            "total_score": 266
+        },
+        {
+            "name": "anticancer",
+            "mentions": 8,
+            "confidence_score": 32,
+            "total_score": 256
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 6,
+            "confidence_score": 21,
+            "total_score": 126
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 5,
+            "confidence_score": 18,
+            "total_score": 90
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "antipruritic",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "immune-modulator",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Selinum alatum are its antimicrobial activity, which is attributed to the presence of essential oils and phenolic compounds. The anti-inflammatory property of this plant is due to the presence of flavonoids and phenolic acids, which have been shown to inhibit the production of pro-inflammatory cytokines. Additionally, the antioxidant property is a result of the high content of vitamins C and E, as well as phenolic compounds, which scavenge free radicals and protect against oxidative stress. The antispasmodic effect is also observed, attributed to the presence of saponins and flavonoids, which relax smooth muscle and alleviate spasms. Furthermore, the analgesic property of Selinum alatum is attributed to the presence of flavonoids and phenolic compounds, which have been shown to inhibit the activity of pain-producing enzymes.",
+    "constituents": [
+        {
+            "name": "selinene",
+            "mentions": 20,
+            "confidence_score": 176,
+            "total_score": 3520
+        },
+        {
+            "name": "\u03b2-selinene oxide",
+            "mentions": 18,
+            "confidence_score": 123,
+            "total_score": 2214
+        },
+        {
+            "name": "selinol",
+            "mentions": 13,
+            "confidence_score": 82,
+            "total_score": 1066
+        },
+        {
+            "name": "\u03b1-selinene",
+            "mentions": 9,
+            "confidence_score": 74,
+            "total_score": 666
+        },
+        {
+            "name": "selinadiol",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "\u03b1-pinene",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "selinadiene",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "\u03b2-pinene",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "selinatriol",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "selinadienol",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "caryophyllene",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "\u03b2-caryophyllene",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "selinatriene",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "dillapiole",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "bornyl acetate",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "borneol",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "selin-11-en-4-one",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "beta-selinene",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "beta-selinene epoxide",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "bicyclogermacrene",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Selinum alatum are selinene, \u03b2-selinene oxide, selinol, \u03b1-selinene, and selinadiol, which are sesquiterpene compounds responsible for its medicinal properties. Selinene exhibits anti-inflammatory activity by inhibiting the production of pro-inflammatory enzymes, such as COX-2 and LOX. \u03b2-Selinene oxide has been found to possess antimicrobial properties, effective against various pathogenic bacteria and fungi. \u03b1-Selinene has been reported to exhibit cytotoxic activity against cancer cells, while selinol has been shown to possess antioxidant properties, scavenging free radicals and protecting against oxidative stress. Additionally, selinadiol has been found to possess anti-inflammatory and antioxidant activities, contributing to the overall therapeutic potential of Selinum alatum.",
+    "preparations": [
+        {
+            "name": "tea infusion",
+            "mentions": 30,
+            "confidence_score": 228,
+            "total_score": 6840
+        },
+        {
+            "name": "tincture",
+            "mentions": 17,
+            "confidence_score": 126,
+            "total_score": 2142
+        },
+        {
+            "name": "salve",
+            "mentions": 17,
+            "confidence_score": 86,
+            "total_score": 1462
+        },
+        {
+            "name": "infused oil",
+            "mentions": 8,
+            "confidence_score": 47,
+            "total_score": 376
+        },
+        {
+            "name": "decoction",
+            "mentions": 7,
+            "confidence_score": 30,
+            "total_score": 210
+        },
+        {
+            "name": "essential oil",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "selinum tincture",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "poultice",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "selinum tea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "selinum oil",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "selinum infusion",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "ointment",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "vaporizer blend",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "selinum extract",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "salves",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "glycoside extract",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "selinum salve",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "topical cream",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "resin",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "resinoid",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Selinum alatum are used to utilize its medicinal properties, which include tea infusion made by steeping dried leaves and flowers in hot water to treat digestive issues, tincture made by soaking the plant in a solvent to create a concentrated extract for pain relief, salve made by infusing the plant in a carrier oil to create a topical cream for skin irritations, infused oil made by steeping the plant in oil to treat muscle and joint pain, and decoction made by boiling the plant in water to treat respiratory issues. The tea infusion contains flavonoids and terpenoids, which are responsible for its medicinal effects. The tincture is often used to treat rheumatism and arthritis due to its analgesic and anti-inflammatory properties. The salve and infused oil are applied topically to treat skin conditions such as eczema and acne. Decoction is used to treat coughs and colds due to the presence of volatile oils and saponins in the plant.",
+    "side_effects": [
+        {
+            "name": "induce vomiting",
+            "mentions": 4,
+            "confidence_score": 39,
+            "total_score": 156
+        },
+        {
+            "name": "exacerbate asthma",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "it triggers seizures",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "it induces allergic reactions",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "it causes vomiting",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "aggravate digestive issues",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "it induces vomiting",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "it causes hypotension",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "suffers kidney damage",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "trigger diarrhea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "it increases bleeding risk",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "exhibits abdominal pain",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "produce convulsions",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "result in cardiac arrest",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "suffering headaches",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Selinum alatum improperly include inducing vomiting, exacerbating asthma, triggering seizures, causing diarrhea, and inducing allergic reactions. These adverse effects can occur due to the plant's toxic compounds, particularly sesquiterpene lactones and essential oils, which can cause gastrointestinal irritation, respiratory distress, and neurological dysfunction. The improper use of Selinum alatum may lead to an imbalance of these compounds, resulting in the aforementioned side effects. In severe cases, the consumption of large quantities of the plant can cause seizures, a potentially life-threatening condition. The individual's susceptibility to these side effects can vary depending on factors such as the plant's preparation, dosage, and individual tolerance.",
+    "uses": "Selinum alatum, a plant native to certain regions, has been used in traditional medicine for various purposes. It is believed to possess anti-inflammatory and antimicrobial properties, which have been utilized to treat wounds and infections. The plant's extracts may also have antiseptic and antifungal effects, making it a potential remedy for skin conditions and fungal infections. Additionally, Selinum alatum has been used to treat digestive issues, such as indigestion and diarrhea, due to its carminative properties. However, more research is needed to confirm the efficacy and safety of using Selinum alatum for medicinal purposes.",
+    "taxonomy": "Selinum alatum is classified as a species of flowering plant in the carrot family (Apiaceae). The genus Selinum belongs to the order Apiales, which is a group of plants that also includes the ash tree family (Oleaceae) and the ginseng family (Araliaceae). Further, it is a member of the subfamily Apioideae, which includes plants like celery and caraway. Selinum alatum is native to Europe and Western Asia. It is also known by its synonym, Selinum silphiatum.",
+    "benefits": "Selinum alatum is a plant species known for its various health benefits. Its extracts have been traditionally used to treat digestive issues and alleviate symptoms of indigestion. Additionally, the plant is believed to have anti-inflammatory properties, which can help reduce swelling and pain. Some studies suggest that Selinum alatum may also have antioxidant properties, which can help protect the body against free radicals. Further research is needed to confirm the full extent of its health benefits.",
+    "parts": "Selinum alatum, also known as winged carrot or winged celery, is a plant species used in traditional medicine. The entire plant, including its leaves, stems, and roots, has been utilized in various cultures for its medicinal properties. However, more research is needed to fully understand its potential health benefits and the specific parts used for medicinal purposes. The plant is believed to have anti-inflammatory and antioxidant properties, which may contribute to its medicinal value. Further studies are required to confirm the specific medicinal parts of Selinum alatum and their uses in traditional medicine.",
+    "intro": "Selinum alatum, also known as prickly carrot or winged carrot, is a perennial plant species belonging to the carrot family (Apiaceae). This plant is valued for its potential health benefits, including anti-inflammatory and antioxidant properties, which may help alleviate symptoms of digestive issues, arthritis, and other inflammatory conditions. The bioactive constituents of Selinum alatum include flavonoids, sesquiterpenes, and alkaloids, which are responsible for its medicinal properties. In herbal medicine, Selinum alatum is commonly used to make teas, infusions, and tinctures, which are often employed to treat a range of health conditions, including respiratory issues and skin problems."
+}

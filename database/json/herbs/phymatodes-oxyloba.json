@@ -1,1 +1,154 @@
-{"title": "Phymatodes oxyloba", "herb_slug": "phymatodes-oxyloba", "herb_name_scientific": "Phymatodes oxyloba", "family_slug": "dipteridaceae", "family_name": "Dipteridaceae", "url": "herbs/phymatodes-oxyloba", "lastmod": "2025-2-4", "herb_names_common": [{"name": "phymatodes oxyloba", "mentions": 39, "confidence_score": 226, "total_score": 8814}, {"name": "phymatodes", "mentions": 19, "confidence_score": 128, "total_score": 2432}, {"name": "slender phymatodes tree", "mentions": 4, "confidence_score": 40, "total_score": 160}, {"name": "slender phymatodes", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "phymatodes oxylobus", "mentions": 9, "confidence_score": 28, "total_score": 252}, {"name": "new zealand woodpecker tree", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "pinecone tree", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "twig mallow", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "wood vetch", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cutleaf bleeding heart", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cut-leaf bleeding heart", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "wood vetchling", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "phymatodes oxylobium", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "oxyloba phymatodes", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "phymatodes slender", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "none found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "twig mallow (phymatodes oxyloba)", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "purple vetch", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "mountain elm", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "texas elm", "mentions": 1, "confidence_score": 9, "total_score": 9}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 17, "confidence_score": 159, "total_score": 2703}, {"medicine_or_poison": "medicine", "mentions": 3, "confidence_score": 26, "total_score": 78}], "uses": "Phymatodes oxyloba is a plant species used in traditional medicine, particularly in the treatment of various health issues. The plant's extracts are believed to possess antimicrobial and anti-inflammatory properties, which contribute to its medicinal value. In some cultures, it is used to manage fever, colds, and flu. Additionally, Phymatodes oxyloba is sometimes used to treat digestive problems and skin conditions. However, more research is needed to fully understand its medicinal applications and potential side effects.", "taxonomy": "Phymatodes oxyloba is classified as a species of flowering plant in the family Bignonaceae. It belongs to the genus Phymatodes and is native to tropical regions. The classification of Phymatodes oxyloba is based on its botanical characteristics, including its leaf shape and flower structure. Further classification within the Bignonaceae family places it in the tribe Bignonieae. This classification system helps scientists understand the evolutionary relationships between different plant species.", "benefits": "Phymatodes oxyloba is known for its potential health benefits, which include antioxidant and anti-inflammatory properties. The plant's extracts may help in reducing oxidative stress and inflammation in the body. It is also being researched for its potential to have antimicrobial properties, which can aid in fighting off infections. Additionally, Phymatodes oxyloba may have anti-cancer properties, although more research is needed to confirm this. More studies are required to fully understand the plant's health benefits and its effects on human health.", "properties": "Phymatodes oxyloba is a plant species that has been used in traditional medicine for its potential therapeutic properties. Research on the plant suggests that it may have anti-inflammatory and antimicrobial effects, which could be beneficial for treating various health conditions. The plant's antioxidant properties may also help protect against cell damage and oxidative stress. Additionally, Phymatodes oxyloba has been studied for its potential antiviral and antibacterial activities, which could aid in the treatment of infections. More research is needed to fully understand the therapeutic potential of Phymatodes oxyloba.", "constituents": "Phymatodes oxyloba is a genus of flowering plants in the family Bignoniaceae, however, specific information about its active constituents could not be found.", "parts": "Phymatodes oxyloba, a shrub native to China, is known for its medicinal properties. The roots and stems of the plant are used in traditional medicine, particularly in the treatment of fever and digestive issues. The plant contains alkaloids and other bioactive compounds with potential anti-inflammatory and antimicrobial effects. However, more research is needed to fully understand the plant's medicinal properties and potential applications. Traditional Chinese medicine practitioners have used Phymatodes oxyloba for centuries to treat various health conditions.", "preparations": "Phymatodes oxyloba is a plant that is traditionally used in herbal medicine, particularly in Asia. However, information on specific herbal preparations made from this plant is limited. As a result, no concrete evidence exists to confirm its efficacy or safety in human use. It's essential to consult with a medical professional or a qualified herbalist for any potential health benefits or risks associated with using Phymatodes oxyloba. More research is needed to fully understand the properties and applications of this plant in herbal preparations.", "side_effects": "Info not available yet.", "intro": "There is not enough information about Phymatodes oxyloba to write a paragraph about it."}
+{
+    "title": "Phymatodes oxyloba",
+    "herb_slug": "phymatodes-oxyloba",
+    "herb_name_scientific": "Phymatodes oxyloba",
+    "family_slug": "dipteridaceae",
+    "family_name": "Dipteridaceae",
+    "url": "herbs/phymatodes-oxyloba",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "phymatodes oxyloba",
+            "mentions": 39,
+            "confidence_score": 226,
+            "total_score": 8814
+        },
+        {
+            "name": "phymatodes",
+            "mentions": 19,
+            "confidence_score": 128,
+            "total_score": 2432
+        },
+        {
+            "name": "slender phymatodes tree",
+            "mentions": 4,
+            "confidence_score": 40,
+            "total_score": 160
+        },
+        {
+            "name": "slender phymatodes",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "phymatodes oxylobus",
+            "mentions": 9,
+            "confidence_score": 28,
+            "total_score": 252
+        },
+        {
+            "name": "new zealand woodpecker tree",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "pinecone tree",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "twig mallow",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "wood vetch",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cutleaf bleeding heart",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cut-leaf bleeding heart",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "wood vetchling",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "phymatodes oxylobium",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "oxyloba phymatodes",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "phymatodes slender",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "none found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "twig mallow (phymatodes oxyloba)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "purple vetch",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "mountain elm",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "texas elm",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 17,
+            "confidence_score": 159,
+            "total_score": 2703
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        }
+    ],
+    "uses": "Phymatodes oxyloba is a plant species used in traditional medicine, particularly in the treatment of various health issues. The plant's extracts are believed to possess antimicrobial and anti-inflammatory properties, which contribute to its medicinal value. In some cultures, it is used to manage fever, colds, and flu. Additionally, Phymatodes oxyloba is sometimes used to treat digestive problems and skin conditions. However, more research is needed to fully understand its medicinal applications and potential side effects.",
+    "taxonomy": "Phymatodes oxyloba is classified as a species of flowering plant in the family Bignonaceae. It belongs to the genus Phymatodes and is native to tropical regions. The classification of Phymatodes oxyloba is based on its botanical characteristics, including its leaf shape and flower structure. Further classification within the Bignonaceae family places it in the tribe Bignonieae. This classification system helps scientists understand the evolutionary relationships between different plant species.",
+    "benefits": "Phymatodes oxyloba is known for its potential health benefits, which include antioxidant and anti-inflammatory properties. The plant's extracts may help in reducing oxidative stress and inflammation in the body. It is also being researched for its potential to have antimicrobial properties, which can aid in fighting off infections. Additionally, Phymatodes oxyloba may have anti-cancer properties, although more research is needed to confirm this. More studies are required to fully understand the plant's health benefits and its effects on human health.",
+    "properties": "Phymatodes oxyloba is a plant species that has been used in traditional medicine for its potential therapeutic properties. Research on the plant suggests that it may have anti-inflammatory and antimicrobial effects, which could be beneficial for treating various health conditions. The plant's antioxidant properties may also help protect against cell damage and oxidative stress. Additionally, Phymatodes oxyloba has been studied for its potential antiviral and antibacterial activities, which could aid in the treatment of infections. More research is needed to fully understand the therapeutic potential of Phymatodes oxyloba.",
+    "constituents": "Phymatodes oxyloba is a genus of flowering plants in the family Bignoniaceae, however, specific information about its active constituents could not be found.",
+    "parts": "Phymatodes oxyloba, a shrub native to China, is known for its medicinal properties. The roots and stems of the plant are used in traditional medicine, particularly in the treatment of fever and digestive issues. The plant contains alkaloids and other bioactive compounds with potential anti-inflammatory and antimicrobial effects. However, more research is needed to fully understand the plant's medicinal properties and potential applications. Traditional Chinese medicine practitioners have used Phymatodes oxyloba for centuries to treat various health conditions.",
+    "preparations": "Phymatodes oxyloba is a plant that is traditionally used in herbal medicine, particularly in Asia. However, information on specific herbal preparations made from this plant is limited. As a result, no concrete evidence exists to confirm its efficacy or safety in human use. It's essential to consult with a medical professional or a qualified herbalist for any potential health benefits or risks associated with using Phymatodes oxyloba. More research is needed to fully understand the properties and applications of this plant in herbal preparations.",
+    "side_effects": "Info not available yet.",
+    "intro": "There is not enough information about Phymatodes oxyloba to write a paragraph about it."
+}

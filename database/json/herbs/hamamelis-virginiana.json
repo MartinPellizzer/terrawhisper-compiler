@@ -1,1 +1,756 @@
-{"title": "Hamamelis virginiana", "herb_slug": "hamamelis-virginiana", "herb_name_scientific": "Hamamelis virginiana", "family_slug": "", "family_name": "", "url": "herbs/hamamelis-virginiana", "lastmod": "2025-1-20", "herb_names_common": [{"name": "american witch hazel", "mentions": 35, "confidence_score": 267, "total_score": 9345}, {"name": "american hazel", "mentions": 19, "confidence_score": 144, "total_score": 2736}, {"name": "virginian witch hazel", "mentions": 11, "confidence_score": 76, "total_score": 836}, {"name": "hamamelis", "mentions": 14, "confidence_score": 67, "total_score": 938}, {"name": "eastern witch hazel", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "american witch hazel tree", "mentions": 10, "confidence_score": 40, "total_score": 400}, {"name": "american hazel tree", "mentions": 9, "confidence_score": 35, "total_score": 315}, {"name": "american water witch", "mentions": 8, "confidence_score": 34, "total_score": 272}, {"name": "virginian hazel", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "common witch hazel", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "eastern american witch hazel", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "virginia witch hazel", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "american witchhazel", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "american spotted hazel", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "american witch hazel bush", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "american hazel bush", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "american hazel shrub", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "red spindle tree", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "hamamelis virginiana", "mentions": 4, "confidence_score": 11, "total_score": 44}, {"name": "eastern hazel", "mentions": 3, "confidence_score": 10, "total_score": 30}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 167, "total_score": 3340}], "what_description": "Hamamelis virginiana is a deciduous shrub or small tree in the family Hamamelidaceae, native to eastern North America. It grows up to 8 meters in height, with a broad, rounded crown and a straight or slightly curved trunk. The elliptical leaves are simple, alternate, 4-10 cm long, and 2-5 cm wide, with an entire margin and a cuneate base. The flowers are yellow, 4-6 mm in diameter, with four petals and a prominent cluster of stamens, and are borne in late winter to early spring. The plant produces a cluster of red, winged seeds, 2-3 cm long, which mature in late summer.", "category_action": "astringents", "ailments": [{"name": "diarrhea", "mentions": 19, "confidence_score": 159, "total_score": 3021}, {"name": "wounds", "mentions": 11, "confidence_score": 95, "total_score": 1045}, {"name": "fever reduction", "mentions": 14, "confidence_score": 92, "total_score": 1288}, {"name": "inflammation", "mentions": 9, "confidence_score": 75, "total_score": 675}, {"name": "rheumatism", "mentions": 9, "confidence_score": 75, "total_score": 675}, {"name": "insect bites", "mentions": 9, "confidence_score": 63, "total_score": 567}, {"name": "skin irritation", "mentions": 8, "confidence_score": 59, "total_score": 472}, {"name": "skin irritations", "mentions": 6, "confidence_score": 49, "total_score": 294}, {"name": "respiratory infections", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "cough relief", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "boils", "mentions": 7, "confidence_score": 41, "total_score": 287}, {"name": "wound healing", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "varicose veins", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "eczema", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "respiratory issues", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "mouth ulcers", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "cold sores", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "fungal infections", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "bruises", "mentions": 3, "confidence_score": 20, "total_score": 60}], "ailments_description": "The most common ailments you can heal with Hamamelis virginiana are diarrhea, wounds, fever reduction is achieved through its anti-inflammatory properties, and inflammation is reduced due to its high content of tannins and flavonoids. Diarrhea and wound healing are also promoted by its astringent properties, which help to constrict blood vessels and reduce fluid loss. Insect bites and skin irritations can be relieved through the application of a Hamamelis virginiana extract, which has anti-inflammatory and antimicrobial properties. Additionally, Hamamelis virginiana has been used to treat respiratory infections, cough relief is provided by its expectorant properties, and boils are reduced in severity due to its antibacterial properties. Its ability to improve blood circulation also makes it useful for treating varicose veins, eczema, gastroenteritis, respiratory issues, mouth ulcers, cold sores, fungal infections, and bruises.", "properties": [{"name": "anti-inflammatory", "mentions": 20, "confidence_score": 171, "total_score": 3420}, {"name": "antioxidant", "mentions": 20, "confidence_score": 169, "total_score": 3380}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 161, "total_score": 3220}, {"name": "analgesic", "mentions": 19, "confidence_score": 126, "total_score": 2394}, {"name": "antiseptic", "mentions": 15, "confidence_score": 120, "total_score": 1800}, {"name": "hemostatic", "mentions": 11, "confidence_score": 92, "total_score": 1012}, {"name": "astringent", "mentions": 8, "confidence_score": 69, "total_score": 552}, {"name": "antiviral", "mentions": 10, "confidence_score": 61, "total_score": 610}, {"name": "antipyretic", "mentions": 8, "confidence_score": 48, "total_score": 384}, {"name": "expectorant", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "antibacterial", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "diuretic", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "antihemorrhagic", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "antispasmodic", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "antifungal", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "cardioprotective", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "cicatrizant", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "anticancer", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "anti-hemorrhagic", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "sedative", "mentions": 3, "confidence_score": 14, "total_score": 42}], "properties_description": "The main therapeutic properties of Hamamelis virginiana are attributed to its ability to reduce inflammation and alleviate pain, thanks to the presence of bioactive compounds such as flavonoids and phenolic acids, which are responsible for its anti-inflammatory properties. The plant's antioxidant properties are also well-documented, with the ability to scavenge free radicals and protect against oxidative stress, a testament to its high content of phenolic acids, particularly hamamelitannin. Additionally, the antimicrobial properties of Hamamelis virginiana have been extensively studied, and its ability to inhibit the growth of various microorganisms can be attributed to the presence of saponins and other triterpenoids. The analgesic properties of the plant have also been noted, with its ability to reduce pain and discomfort likely due to the presence of glycosides and other bioactive compounds. The antiseptic properties of Hamamelis virginiana, meanwhile, are thought to be due to the presence of volatile oils, such as methyl salicylate, which have been shown to exhibit antimicrobial activity.", "constituents": [{"name": "hamamelitannin", "mentions": 16, "confidence_score": 147, "total_score": 2352}, {"name": "quercetin", "mentions": 14, "confidence_score": 105, "total_score": 1470}, {"name": "hamamelin", "mentions": 10, "confidence_score": 88, "total_score": 880}, {"name": "gallic acid", "mentions": 9, "confidence_score": 74, "total_score": 666}, {"name": "hamamelose", "mentions": 9, "confidence_score": 71, "total_score": 639}, {"name": "tannins", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "ellagic acid", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "flavonoids (quercetin, kaempferol)", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "phenolic acids (gallic acid, protocatechuic acid)", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "kaempferol", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "epicatechin", "mentions": 7, "confidence_score": 41, "total_score": 287}, {"name": "saponins", "mentions": 8, "confidence_score": 40, "total_score": 320}, {"name": "hamamelinol", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "phenolic glycosides", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "catechin", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "oleanolic acid", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "aesculetin", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "coumarins (coumarin, scopoletin)", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "ferulic acid", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "salicylic acid", "mentions": 2, "confidence_score": 18, "total_score": 36}], "constituents_description": "The most important healing constituents of Hamamelis virginiana are hamamelitannin, a tannin responsible for its astringent and anti-inflammatory properties by inhibiting the production of pro-inflammatory mediators. Quercetin, a flavonoid with antioxidant and anti-inflammatory activities, contributes to the plant's ability to soothe and calm irritated tissues. Hamamelin, a volatile oil, has antimicrobial and anti-inflammatory effects, while gallic acid, a polyphenol, exhibits antioxidant and anti-inflammatory activities. Hamamelose, a sugar molecule, has been shown to have anti-inflammatory and immunomodulatory effects by inhibiting the production of pro-inflammatory cytokines. The combination of these constituents in Hamamelis virginiana contributes to its well-documented use in treating skin conditions such as eczema, wounds, and hemorrhoids.", "preparations": [{"name": "tincture", "mentions": 13, "confidence_score": 122, "total_score": 1586}, {"name": "salve", "mentions": 12, "confidence_score": 87, "total_score": 1044}, {"name": "infusion", "mentions": 11, "confidence_score": 78, "total_score": 858}, {"name": "tea", "mentions": 12, "confidence_score": 69, "total_score": 828}, {"name": "ointment", "mentions": 10, "confidence_score": 51, "total_score": 510}, {"name": "hamamelis infusion", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "witch hazel tincture", "mentions": 3, "confidence_score": 30, "total_score": 90}, {"name": "wound salve", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "hamamelis tincture", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "hamamelis salve", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "hamamelis cream", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "infused oil", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "witch hazel salve", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "decoction", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "hamamelis extract", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "topical cream", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "hamamelis ointment", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "hamamelis vinegar", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "hamamelis decoction", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "topical tincture", "mentions": 1, "confidence_score": 10, "total_score": 10}], "preparations_description": "The main herbal preparations of Hamamelis virginiana are tincture, salve, infusion, tea, and ointment. The tincture is a concentrated liquid extract of the plant's leaves and twigs, used to treat wounds, skin irritations, and insect bites due to its astringent, anti-inflammatory, and antimicrobial properties. The salve is a topical application made from the tincture, often combined with other herbs and oils, to provide localized relief for skin conditions such as eczema and minor cuts. The infusion and tea are liquid preparations made by steeping the leaves in hot water, used to treat internal issues like digestive problems, sore throats, and colds, due to the plant's antiseptic and anti-inflammatory properties. The ointment is a semisolid preparation made from the tincture, often combined with other herbs and oils, to provide localized relief for skin conditions and wounds.", "side_effects": [{"name": "induce vomiting", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "increase bleeding risk", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "cause diarrhea", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "exacerbate diarrhea", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "experience nausea", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "exacerbate allergies", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "experience allergic reaction", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "interact with medications", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "trigger allergic reaction", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "lower blood pressure", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "cause abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "interact with warfarin", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "suffer cardiovascular issues", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "trigger headaches", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "trigger seizures", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "develop skin irritation", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "interact with blood thinners", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experience headache", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "develop diarrhea", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effects of using Hamamelis virginiana improperly include inducing vomiting, which can lead to dehydration and electrolyte imbalances, and increasing the risk of bleeding due to its anticoagulant properties, particularly when taken in large doses or with anticoagulant medications. Consuming Hamamelis virginiana can also cause diarrhea, which may exacerbate existing gastrointestinal conditions, such as irritable bowel syndrome or inflammatory bowel disease. Experiencing nausea is another possible side effect, as the plant's anthraquinone content can irritate the digestive system, leading to stomach discomfort and nausea. These side effects occur because Hamamelis virginiana's bioactive compounds interact with the body's physiological processes, affecting blood clotting, gut motility, and stomach pH regulation. Improper use of Hamamelis virginiana may also mask symptoms of underlying medical conditions, such as bleeding disorders or gastrointestinal diseases, requiring immediate medical attention."}
+{
+    "title": "Hamamelis virginiana",
+    "herb_slug": "hamamelis-virginiana",
+    "herb_name_scientific": "Hamamelis virginiana",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/hamamelis-virginiana",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "american witch hazel",
+            "mentions": 35,
+            "confidence_score": 267,
+            "total_score": 9345
+        },
+        {
+            "name": "american hazel",
+            "mentions": 19,
+            "confidence_score": 144,
+            "total_score": 2736
+        },
+        {
+            "name": "virginian witch hazel",
+            "mentions": 11,
+            "confidence_score": 76,
+            "total_score": 836
+        },
+        {
+            "name": "hamamelis",
+            "mentions": 14,
+            "confidence_score": 67,
+            "total_score": 938
+        },
+        {
+            "name": "eastern witch hazel",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "american witch hazel tree",
+            "mentions": 10,
+            "confidence_score": 40,
+            "total_score": 400
+        },
+        {
+            "name": "american hazel tree",
+            "mentions": 9,
+            "confidence_score": 35,
+            "total_score": 315
+        },
+        {
+            "name": "american water witch",
+            "mentions": 8,
+            "confidence_score": 34,
+            "total_score": 272
+        },
+        {
+            "name": "virginian hazel",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "common witch hazel",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "eastern american witch hazel",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "virginia witch hazel",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "american witchhazel",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "american spotted hazel",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "american witch hazel bush",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "american hazel bush",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "american hazel shrub",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "red spindle tree",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "hamamelis virginiana",
+            "mentions": 4,
+            "confidence_score": 11,
+            "total_score": 44
+        },
+        {
+            "name": "eastern hazel",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 167,
+            "total_score": 3340
+        }
+    ],
+    "what_description": "Hamamelis virginiana is a deciduous shrub or small tree in the family Hamamelidaceae, native to eastern North America. It grows up to 8 meters in height, with a broad, rounded crown and a straight or slightly curved trunk. The elliptical leaves are simple, alternate, 4-10 cm long, and 2-5 cm wide, with an entire margin and a cuneate base. The flowers are yellow, 4-6 mm in diameter, with four petals and a prominent cluster of stamens, and are borne in late winter to early spring. The plant produces a cluster of red, winged seeds, 2-3 cm long, which mature in late summer.",
+    "category_action": "astringents",
+    "ailments": [
+        {
+            "name": "diarrhea",
+            "mentions": 19,
+            "confidence_score": 159,
+            "total_score": 3021
+        },
+        {
+            "name": "wounds",
+            "mentions": 11,
+            "confidence_score": 95,
+            "total_score": 1045
+        },
+        {
+            "name": "fever reduction",
+            "mentions": 14,
+            "confidence_score": 92,
+            "total_score": 1288
+        },
+        {
+            "name": "inflammation",
+            "mentions": 9,
+            "confidence_score": 75,
+            "total_score": 675
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 9,
+            "confidence_score": 75,
+            "total_score": 675
+        },
+        {
+            "name": "insect bites",
+            "mentions": 9,
+            "confidence_score": 63,
+            "total_score": 567
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 8,
+            "confidence_score": 59,
+            "total_score": 472
+        },
+        {
+            "name": "skin irritations",
+            "mentions": 6,
+            "confidence_score": 49,
+            "total_score": 294
+        },
+        {
+            "name": "respiratory infections",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "cough relief",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "boils",
+            "mentions": 7,
+            "confidence_score": 41,
+            "total_score": 287
+        },
+        {
+            "name": "wound healing",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "varicose veins",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "eczema",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "mouth ulcers",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "cold sores",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "bruises",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Hamamelis virginiana are diarrhea, wounds, fever reduction is achieved through its anti-inflammatory properties, and inflammation is reduced due to its high content of tannins and flavonoids. Diarrhea and wound healing are also promoted by its astringent properties, which help to constrict blood vessels and reduce fluid loss. Insect bites and skin irritations can be relieved through the application of a Hamamelis virginiana extract, which has anti-inflammatory and antimicrobial properties. Additionally, Hamamelis virginiana has been used to treat respiratory infections, cough relief is provided by its expectorant properties, and boils are reduced in severity due to its antibacterial properties. Its ability to improve blood circulation also makes it useful for treating varicose veins, eczema, gastroenteritis, respiratory issues, mouth ulcers, cold sores, fungal infections, and bruises.",
+    "properties": [
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 171,
+            "total_score": 3420
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 169,
+            "total_score": 3380
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 126,
+            "total_score": 2394
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 15,
+            "confidence_score": 120,
+            "total_score": 1800
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 11,
+            "confidence_score": 92,
+            "total_score": 1012
+        },
+        {
+            "name": "astringent",
+            "mentions": 8,
+            "confidence_score": 69,
+            "total_score": 552
+        },
+        {
+            "name": "antiviral",
+            "mentions": 10,
+            "confidence_score": 61,
+            "total_score": 610
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 8,
+            "confidence_score": 48,
+            "total_score": 384
+        },
+        {
+            "name": "expectorant",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "diuretic",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "antihemorrhagic",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "antifungal",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "cicatrizant",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "anticancer",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "anti-hemorrhagic",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "sedative",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Hamamelis virginiana are attributed to its ability to reduce inflammation and alleviate pain, thanks to the presence of bioactive compounds such as flavonoids and phenolic acids, which are responsible for its anti-inflammatory properties. The plant's antioxidant properties are also well-documented, with the ability to scavenge free radicals and protect against oxidative stress, a testament to its high content of phenolic acids, particularly hamamelitannin. Additionally, the antimicrobial properties of Hamamelis virginiana have been extensively studied, and its ability to inhibit the growth of various microorganisms can be attributed to the presence of saponins and other triterpenoids. The analgesic properties of the plant have also been noted, with its ability to reduce pain and discomfort likely due to the presence of glycosides and other bioactive compounds. The antiseptic properties of Hamamelis virginiana, meanwhile, are thought to be due to the presence of volatile oils, such as methyl salicylate, which have been shown to exhibit antimicrobial activity.",
+    "constituents": [
+        {
+            "name": "hamamelitannin",
+            "mentions": 16,
+            "confidence_score": 147,
+            "total_score": 2352
+        },
+        {
+            "name": "quercetin",
+            "mentions": 14,
+            "confidence_score": 105,
+            "total_score": 1470
+        },
+        {
+            "name": "hamamelin",
+            "mentions": 10,
+            "confidence_score": 88,
+            "total_score": 880
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 9,
+            "confidence_score": 74,
+            "total_score": 666
+        },
+        {
+            "name": "hamamelose",
+            "mentions": 9,
+            "confidence_score": 71,
+            "total_score": 639
+        },
+        {
+            "name": "tannins",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "flavonoids (quercetin, kaempferol)",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "phenolic acids (gallic acid, protocatechuic acid)",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 7,
+            "confidence_score": 41,
+            "total_score": 287
+        },
+        {
+            "name": "saponins",
+            "mentions": 8,
+            "confidence_score": 40,
+            "total_score": 320
+        },
+        {
+            "name": "hamamelinol",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "catechin",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "aesculetin",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "coumarins (coumarin, scopoletin)",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "salicylic acid",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Hamamelis virginiana are hamamelitannin, a tannin responsible for its astringent and anti-inflammatory properties by inhibiting the production of pro-inflammatory mediators. Quercetin, a flavonoid with antioxidant and anti-inflammatory activities, contributes to the plant's ability to soothe and calm irritated tissues. Hamamelin, a volatile oil, has antimicrobial and anti-inflammatory effects, while gallic acid, a polyphenol, exhibits antioxidant and anti-inflammatory activities. Hamamelose, a sugar molecule, has been shown to have anti-inflammatory and immunomodulatory effects by inhibiting the production of pro-inflammatory cytokines. The combination of these constituents in Hamamelis virginiana contributes to its well-documented use in treating skin conditions such as eczema, wounds, and hemorrhoids.",
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 13,
+            "confidence_score": 122,
+            "total_score": 1586
+        },
+        {
+            "name": "salve",
+            "mentions": 12,
+            "confidence_score": 87,
+            "total_score": 1044
+        },
+        {
+            "name": "infusion",
+            "mentions": 11,
+            "confidence_score": 78,
+            "total_score": 858
+        },
+        {
+            "name": "tea",
+            "mentions": 12,
+            "confidence_score": 69,
+            "total_score": 828
+        },
+        {
+            "name": "ointment",
+            "mentions": 10,
+            "confidence_score": 51,
+            "total_score": 510
+        },
+        {
+            "name": "hamamelis infusion",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "witch hazel tincture",
+            "mentions": 3,
+            "confidence_score": 30,
+            "total_score": 90
+        },
+        {
+            "name": "wound salve",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "hamamelis tincture",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "hamamelis salve",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "hamamelis cream",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "witch hazel salve",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "decoction",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "hamamelis extract",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "topical cream",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "hamamelis ointment",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "hamamelis vinegar",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "hamamelis decoction",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "topical tincture",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Hamamelis virginiana are tincture, salve, infusion, tea, and ointment. The tincture is a concentrated liquid extract of the plant's leaves and twigs, used to treat wounds, skin irritations, and insect bites due to its astringent, anti-inflammatory, and antimicrobial properties. The salve is a topical application made from the tincture, often combined with other herbs and oils, to provide localized relief for skin conditions such as eczema and minor cuts. The infusion and tea are liquid preparations made by steeping the leaves in hot water, used to treat internal issues like digestive problems, sore throats, and colds, due to the plant's antiseptic and anti-inflammatory properties. The ointment is a semisolid preparation made from the tincture, often combined with other herbs and oils, to provide localized relief for skin conditions and wounds.",
+    "side_effects": [
+        {
+            "name": "induce vomiting",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "increase bleeding risk",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "exacerbate diarrhea",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "trigger allergic reaction",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "lower blood pressure",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "cause abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "interact with warfarin",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "suffer cardiovascular issues",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "interact with blood thinners",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experience headache",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Hamamelis virginiana improperly include inducing vomiting, which can lead to dehydration and electrolyte imbalances, and increasing the risk of bleeding due to its anticoagulant properties, particularly when taken in large doses or with anticoagulant medications. Consuming Hamamelis virginiana can also cause diarrhea, which may exacerbate existing gastrointestinal conditions, such as irritable bowel syndrome or inflammatory bowel disease. Experiencing nausea is another possible side effect, as the plant's anthraquinone content can irritate the digestive system, leading to stomach discomfort and nausea. These side effects occur because Hamamelis virginiana's bioactive compounds interact with the body's physiological processes, affecting blood clotting, gut motility, and stomach pH regulation. Improper use of Hamamelis virginiana may also mask symptoms of underlying medical conditions, such as bleeding disorders or gastrointestinal diseases, requiring immediate medical attention."
+}

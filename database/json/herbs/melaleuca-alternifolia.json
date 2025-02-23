@@ -1,1 +1,756 @@
-{"title": "Melaleuca alternifolia", "herb_slug": "melaleuca-alternifolia", "herb_name_scientific": "Melaleuca alternifolia", "family_slug": "", "family_name": "", "url": "herbs/melaleuca-alternifolia", "lastmod": "2025-1-20", "herb_names_common": [{"name": "tea tree", "mentions": 19, "confidence_score": 189, "total_score": 3591}, {"name": "melaleuca", "mentions": 20, "confidence_score": 164, "total_score": 3280}, {"name": "white tea tree", "mentions": 17, "confidence_score": 89, "total_score": 1513}, {"name": "paperbark tea tree", "mentions": 14, "confidence_score": 81, "total_score": 1134}, {"name": "niaouli", "mentions": 15, "confidence_score": 72, "total_score": 1080}, {"name": "melaleuca oil tree", "mentions": 12, "confidence_score": 66, "total_score": 792}, {"name": "broad leaf tea tree", "mentions": 9, "confidence_score": 41, "total_score": 369}, {"name": "swamp tea tree", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "australian tea tree", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "broad-leaved paperbark", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "broad leaf paperbark", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "paperbark tree", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "cajeput", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "melaleuca alternifolia", "mentions": 10, "confidence_score": 21, "total_score": 210}, {"name": "broad-leaf paperbark", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "cajeput tree", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "melaleuca tree", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "swamp paperbark", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "tea tree oil", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "broad leaved tea tree", "mentions": 1, "confidence_score": 8, "total_score": 8}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 186, "total_score": 3720}], "what_description": "Melaleuca alternifolia is a small shrub or tree native to eastern Australia, belonging to the family Myrtaceae. It typically grows up to 5 meters tall, with a spreading habit and a greyish-brown, fibrous bark. The leaves are lanceolate to linear, 3-13 cm long, 0.5-2 cm wide, and have a short petiole; they are a bright green color and alternate on the stem. The flowers are white, cylindrical spikes, 2-5 cm long, 0.5-1 cm in diameter, and are produced in the leaf axils, from September to November. The plant produces small, woody capsules, 4-6 mm long, containing many small, black seeds.", "category_action": "antimicrobial", "ailments": [{"name": "acne", "mentions": 19, "confidence_score": 173, "total_score": 3287}, {"name": "eczema", "mentions": 17, "confidence_score": 142, "total_score": 2414}, {"name": "psoriasis", "mentions": 16, "confidence_score": 125, "total_score": 2000}, {"name": "fungal infections", "mentions": 13, "confidence_score": 99, "total_score": 1287}, {"name": "dandruff", "mentions": 11, "confidence_score": 88, "total_score": 968}, {"name": "warts", "mentions": 10, "confidence_score": 66, "total_score": 660}, {"name": "herpes", "mentions": 9, "confidence_score": 58, "total_score": 522}, {"name": "rosacea", "mentions": 8, "confidence_score": 55, "total_score": 440}, {"name": "insect bites", "mentions": 8, "confidence_score": 52, "total_score": 416}, {"name": "cold sores", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "boils", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "ringworm", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "wounds", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "scabies", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "lice infestation", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "herpes simplex", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "burns", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "cuts", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "impetigo", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "tinea", "mentions": 2, "confidence_score": 15, "total_score": 30}], "ailments_description": "The most common ailments you can heal with Melaleuca alternifolia are acne, psoriasis, and eczema, which are all characterized by inflammation and skin irritation, and for which the plant's active compound, tea tree oil, has been shown to have potent antiseptic and anti-inflammatory properties. Additionally, its antifungal properties make it effective against fungal infections, such as ringworm, and its antiseptic and antibacterial properties make it suitable for treating wounds, cuts, and boils. Dandruff and tinea are also conditions that can be improved with the application of Melaleuca alternifolia, due to its ability to reduce fungal growth and inflammation. Furthermore, its antiviral properties have been shown to be effective against herpes simplex, cold sores, and impetigo, as well as against scabies, lice infestation, and insect bites. It also has a role in soothing and calming skin conditions like rosacea, herpes, and burns, making it a versatile natural remedy for various skin ailments.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 180, "total_score": 3600}, {"name": "antiseptic", "mentions": 19, "confidence_score": 169, "total_score": 3211}, {"name": "antifungal", "mentions": 20, "confidence_score": 162, "total_score": 3240}, {"name": "antioxidant", "mentions": 20, "confidence_score": 161, "total_score": 3220}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 160, "total_score": 3200}, {"name": "antiviral", "mentions": 20, "confidence_score": 142, "total_score": 2840}, {"name": "antibacterial", "mentions": 13, "confidence_score": 116, "total_score": 1508}, {"name": "analgesic", "mentions": 11, "confidence_score": 57, "total_score": 627}, {"name": "wound healing", "mentions": 7, "confidence_score": 55, "total_score": 385}, {"name": "immunomodulatory", "mentions": 8, "confidence_score": 50, "total_score": 400}, {"name": "antipruritic", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "skin protectant", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "immune system stimulant", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "immune system booster", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "antihistamine", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "skin soothing", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cytoprotective", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cicatrizant", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "antipyretic", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "cytotoxic to cancer cells", "mentions": 2, "confidence_score": 13, "total_score": 26}], "properties_description": "The main therapeutic properties of Melaleuca alternifolia are its antimicrobial effects, which provide protection against pathogenic microorganisms, and antiseptic properties, which prevent the growth of microorganisms on wounds. The plant's antifungal properties prevent the growth of fungi, making it effective against fungal infections. Its antioxidant activity helps to reduce oxidative stress and prevent cell damage. Additionally, Melaleuca alternifolia exhibits anti-inflammatory properties, which reduce inflammation and alleviate symptoms associated with various conditions. The bioactive compounds responsible for these medicinal properties include volatile oils, particularly tea tree oil, which contains compounds such as cineole, terpinen-4-ol, and limonene, as well as flavonoids and other polyphenolic compounds.", "constituents": [{"name": "cineole", "mentions": 14, "confidence_score": 129, "total_score": 1806}, {"name": "linalool", "mentions": 17, "confidence_score": 129, "total_score": 2193}, {"name": "\u03b1-terpineol", "mentions": 17, "confidence_score": 121, "total_score": 2057}, {"name": "limonene", "mentions": 16, "confidence_score": 102, "total_score": 1632}, {"name": "\u03b2-pinene", "mentions": 13, "confidence_score": 89, "total_score": 1157}, {"name": "\u03b1-pinene", "mentions": 13, "confidence_score": 86, "total_score": 1118}, {"name": "\u03b2-caryophyllene", "mentions": 10, "confidence_score": 62, "total_score": 620}, {"name": "cineole (eucalyptol)", "mentions": 7, "confidence_score": 61, "total_score": 427}, {"name": "terpinen-4-ol", "mentions": 6, "confidence_score": 55, "total_score": 330}, {"name": "methyl eugenol", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "borneol", "mentions": 8, "confidence_score": 44, "total_score": 352}, {"name": "viridiflorol", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "sabinene", "mentions": 9, "confidence_score": 39, "total_score": 351}, {"name": "bornyl acetate", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "pinene", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "p-cymene", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "myrcene", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "methyleugenol", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "geraniol", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "pinocamphone", "mentions": 3, "confidence_score": 15, "total_score": 45}], "constituents_description": "The most important healing constituents of Melaleuca alternifolia are primarily due to the presence of cineole, a compound known for its antimicrobial properties, with studies showing it effectively inhibits the growth of Staphylococcus aureus and Escherichia coli. Linalool has been found to exhibit anti-inflammatory and antioxidant activities, while \u03b1-terpineol demonstrates antimicrobial properties, specifically inhibiting the growth of Bacillus subtilis and Aspergillus niger. Limonene, a known monoterpene, has been shown to possess anticancer properties, while \u03b2-pinene, a sesquiterpene, exhibits antimicrobial activity, with studies indicating its ability to inhibit the growth of Candida albicans. The synergistic combination of these constituents is believed to contribute to Melaleuca alternifolia's therapeutic effects. The healing constituents of Melaleuca alternifolia work together to provide its antimicrobial, anti-inflammatory, and antioxidant properties.", "preparations": [{"name": "tea", "mentions": 20, "confidence_score": 192, "total_score": 3840}, {"name": "tincture", "mentions": 20, "confidence_score": 169, "total_score": 3380}, {"name": "salve", "mentions": 20, "confidence_score": 158, "total_score": 3160}, {"name": "essential oil", "mentions": 11, "confidence_score": 110, "total_score": 1210}, {"name": "oil", "mentions": 8, "confidence_score": 75, "total_score": 600}, {"name": "infused oil", "mentions": 7, "confidence_score": 53, "total_score": 371}, {"name": "cream", "mentions": 11, "confidence_score": 53, "total_score": 583}, {"name": "infusion", "mentions": 9, "confidence_score": 49, "total_score": 441}, {"name": "ointment", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "gel", "mentions": 8, "confidence_score": 34, "total_score": 272}, {"name": "lotion", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "soap", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "capsules", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "mouthwash", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "infused water", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "supplement", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "glycerite", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "balm", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "suppositories", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "shampoo", "mentions": 1, "confidence_score": 8, "total_score": 8}], "preparations_description": "The main herbal preparations of Melaleuca alternifolia are based on its antimicrobial properties. Tea is made by infusing the leaves in hot water to utilize its antiseptic and anti-inflammatory effects. Tincture is a concentrated liquid solution of the plant's extract in a solvent, often used for skin conditions and wound care due to its antimicrobial and antiseptic properties. Salve is a topical preparation made by infusing the leaves in a carrier oil, providing localized antimicrobial and anti-inflammatory relief. The essential oil, obtained through steam distillation, and oil, obtained through cold-pressing or solvent extraction, are also used for their antimicrobial and anti-inflammatory properties, particularly in the treatment of skin infections and wounds.", "side_effects": [{"name": "experience allergic reactions", "mentions": 7, "confidence_score": 69, "total_score": 483}, {"name": "develop skin irritation", "mentions": 6, "confidence_score": 52, "total_score": 312}, {"name": "allergic reactions", "mentions": 4, "confidence_score": 39, "total_score": 156}, {"name": "cause gastrointestinal upset", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "skin irritation", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "hypersensitivity", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "cause skin irritation", "mentions": 3, "confidence_score": 30, "total_score": 90}, {"name": "induce headaches", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "experiencing allergic reactions", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "trigger allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "developing photosensitivity", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "exhibit liver damage", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "trigger asthma attacks", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "digestive issues", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "produce photosensitivity", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "triggering liver toxicity", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "increase bleeding risk", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "inducing hormonal imbalances", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experience phototoxicity", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "interact with blood thinners", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effects of using Melaleuca alternifolia improperly include experience allergic reactions, such as anaphylaxis, hives, and itching, due to the presence of compounds like cineole and terpinen-4-ol, which can cause an immune response. Developing skin irritation, such as redness, swelling, and blistering, is also a risk due to the essential oil's high concentration of terpenes, which can cause skin inflammation. Additionally, gastrointestinal upset, including nausea, vomiting, and diarrhea, may occur due to the oil's potential to cause gastrointestinal irritation. Skin irritation may also result from the oil's high concentration of terpenes, which can cause skin dryness, cracking, and irritation. These side effects can occur when using Melaleuca alternifolia improperly, such as using high concentrations, applying it undiluted to the skin, or using it for extended periods without proper guidance."}
+{
+    "title": "Melaleuca alternifolia",
+    "herb_slug": "melaleuca-alternifolia",
+    "herb_name_scientific": "Melaleuca alternifolia",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/melaleuca-alternifolia",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "tea tree",
+            "mentions": 19,
+            "confidence_score": 189,
+            "total_score": 3591
+        },
+        {
+            "name": "melaleuca",
+            "mentions": 20,
+            "confidence_score": 164,
+            "total_score": 3280
+        },
+        {
+            "name": "white tea tree",
+            "mentions": 17,
+            "confidence_score": 89,
+            "total_score": 1513
+        },
+        {
+            "name": "paperbark tea tree",
+            "mentions": 14,
+            "confidence_score": 81,
+            "total_score": 1134
+        },
+        {
+            "name": "niaouli",
+            "mentions": 15,
+            "confidence_score": 72,
+            "total_score": 1080
+        },
+        {
+            "name": "melaleuca oil tree",
+            "mentions": 12,
+            "confidence_score": 66,
+            "total_score": 792
+        },
+        {
+            "name": "broad leaf tea tree",
+            "mentions": 9,
+            "confidence_score": 41,
+            "total_score": 369
+        },
+        {
+            "name": "swamp tea tree",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "australian tea tree",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "broad-leaved paperbark",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "broad leaf paperbark",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "paperbark tree",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "cajeput",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "melaleuca alternifolia",
+            "mentions": 10,
+            "confidence_score": 21,
+            "total_score": 210
+        },
+        {
+            "name": "broad-leaf paperbark",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "cajeput tree",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "melaleuca tree",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "swamp paperbark",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "tea tree oil",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "broad leaved tea tree",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 186,
+            "total_score": 3720
+        }
+    ],
+    "what_description": "Melaleuca alternifolia is a small shrub or tree native to eastern Australia, belonging to the family Myrtaceae. It typically grows up to 5 meters tall, with a spreading habit and a greyish-brown, fibrous bark. The leaves are lanceolate to linear, 3-13 cm long, 0.5-2 cm wide, and have a short petiole; they are a bright green color and alternate on the stem. The flowers are white, cylindrical spikes, 2-5 cm long, 0.5-1 cm in diameter, and are produced in the leaf axils, from September to November. The plant produces small, woody capsules, 4-6 mm long, containing many small, black seeds.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "acne",
+            "mentions": 19,
+            "confidence_score": 173,
+            "total_score": 3287
+        },
+        {
+            "name": "eczema",
+            "mentions": 17,
+            "confidence_score": 142,
+            "total_score": 2414
+        },
+        {
+            "name": "psoriasis",
+            "mentions": 16,
+            "confidence_score": 125,
+            "total_score": 2000
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 13,
+            "confidence_score": 99,
+            "total_score": 1287
+        },
+        {
+            "name": "dandruff",
+            "mentions": 11,
+            "confidence_score": 88,
+            "total_score": 968
+        },
+        {
+            "name": "warts",
+            "mentions": 10,
+            "confidence_score": 66,
+            "total_score": 660
+        },
+        {
+            "name": "herpes",
+            "mentions": 9,
+            "confidence_score": 58,
+            "total_score": 522
+        },
+        {
+            "name": "rosacea",
+            "mentions": 8,
+            "confidence_score": 55,
+            "total_score": 440
+        },
+        {
+            "name": "insect bites",
+            "mentions": 8,
+            "confidence_score": 52,
+            "total_score": 416
+        },
+        {
+            "name": "cold sores",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "boils",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "ringworm",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "wounds",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "scabies",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "lice infestation",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "herpes simplex",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "burns",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "cuts",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "impetigo",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "tinea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Melaleuca alternifolia are acne, psoriasis, and eczema, which are all characterized by inflammation and skin irritation, and for which the plant's active compound, tea tree oil, has been shown to have potent antiseptic and anti-inflammatory properties. Additionally, its antifungal properties make it effective against fungal infections, such as ringworm, and its antiseptic and antibacterial properties make it suitable for treating wounds, cuts, and boils. Dandruff and tinea are also conditions that can be improved with the application of Melaleuca alternifolia, due to its ability to reduce fungal growth and inflammation. Furthermore, its antiviral properties have been shown to be effective against herpes simplex, cold sores, and impetigo, as well as against scabies, lice infestation, and insect bites. It also has a role in soothing and calming skin conditions like rosacea, herpes, and burns, making it a versatile natural remedy for various skin ailments.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 180,
+            "total_score": 3600
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 19,
+            "confidence_score": 169,
+            "total_score": 3211
+        },
+        {
+            "name": "antifungal",
+            "mentions": 20,
+            "confidence_score": 162,
+            "total_score": 3240
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 160,
+            "total_score": 3200
+        },
+        {
+            "name": "antiviral",
+            "mentions": 20,
+            "confidence_score": 142,
+            "total_score": 2840
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 13,
+            "confidence_score": 116,
+            "total_score": 1508
+        },
+        {
+            "name": "analgesic",
+            "mentions": 11,
+            "confidence_score": 57,
+            "total_score": 627
+        },
+        {
+            "name": "wound healing",
+            "mentions": 7,
+            "confidence_score": 55,
+            "total_score": 385
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 8,
+            "confidence_score": 50,
+            "total_score": 400
+        },
+        {
+            "name": "antipruritic",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "skin protectant",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "immune system stimulant",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "immune system booster",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "skin soothing",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cicatrizant",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "cytotoxic to cancer cells",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Melaleuca alternifolia are its antimicrobial effects, which provide protection against pathogenic microorganisms, and antiseptic properties, which prevent the growth of microorganisms on wounds. The plant's antifungal properties prevent the growth of fungi, making it effective against fungal infections. Its antioxidant activity helps to reduce oxidative stress and prevent cell damage. Additionally, Melaleuca alternifolia exhibits anti-inflammatory properties, which reduce inflammation and alleviate symptoms associated with various conditions. The bioactive compounds responsible for these medicinal properties include volatile oils, particularly tea tree oil, which contains compounds such as cineole, terpinen-4-ol, and limonene, as well as flavonoids and other polyphenolic compounds.",
+    "constituents": [
+        {
+            "name": "cineole",
+            "mentions": 14,
+            "confidence_score": 129,
+            "total_score": 1806
+        },
+        {
+            "name": "linalool",
+            "mentions": 17,
+            "confidence_score": 129,
+            "total_score": 2193
+        },
+        {
+            "name": "\u03b1-terpineol",
+            "mentions": 17,
+            "confidence_score": 121,
+            "total_score": 2057
+        },
+        {
+            "name": "limonene",
+            "mentions": 16,
+            "confidence_score": 102,
+            "total_score": 1632
+        },
+        {
+            "name": "\u03b2-pinene",
+            "mentions": 13,
+            "confidence_score": 89,
+            "total_score": 1157
+        },
+        {
+            "name": "\u03b1-pinene",
+            "mentions": 13,
+            "confidence_score": 86,
+            "total_score": 1118
+        },
+        {
+            "name": "\u03b2-caryophyllene",
+            "mentions": 10,
+            "confidence_score": 62,
+            "total_score": 620
+        },
+        {
+            "name": "cineole (eucalyptol)",
+            "mentions": 7,
+            "confidence_score": 61,
+            "total_score": 427
+        },
+        {
+            "name": "terpinen-4-ol",
+            "mentions": 6,
+            "confidence_score": 55,
+            "total_score": 330
+        },
+        {
+            "name": "methyl eugenol",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "borneol",
+            "mentions": 8,
+            "confidence_score": 44,
+            "total_score": 352
+        },
+        {
+            "name": "viridiflorol",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "sabinene",
+            "mentions": 9,
+            "confidence_score": 39,
+            "total_score": 351
+        },
+        {
+            "name": "bornyl acetate",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "pinene",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "p-cymene",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "myrcene",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "methyleugenol",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "geraniol",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "pinocamphone",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Melaleuca alternifolia are primarily due to the presence of cineole, a compound known for its antimicrobial properties, with studies showing it effectively inhibits the growth of Staphylococcus aureus and Escherichia coli. Linalool has been found to exhibit anti-inflammatory and antioxidant activities, while \u03b1-terpineol demonstrates antimicrobial properties, specifically inhibiting the growth of Bacillus subtilis and Aspergillus niger. Limonene, a known monoterpene, has been shown to possess anticancer properties, while \u03b2-pinene, a sesquiterpene, exhibits antimicrobial activity, with studies indicating its ability to inhibit the growth of Candida albicans. The synergistic combination of these constituents is believed to contribute to Melaleuca alternifolia's therapeutic effects. The healing constituents of Melaleuca alternifolia work together to provide its antimicrobial, anti-inflammatory, and antioxidant properties.",
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 20,
+            "confidence_score": 192,
+            "total_score": 3840
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 169,
+            "total_score": 3380
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 158,
+            "total_score": 3160
+        },
+        {
+            "name": "essential oil",
+            "mentions": 11,
+            "confidence_score": 110,
+            "total_score": 1210
+        },
+        {
+            "name": "oil",
+            "mentions": 8,
+            "confidence_score": 75,
+            "total_score": 600
+        },
+        {
+            "name": "infused oil",
+            "mentions": 7,
+            "confidence_score": 53,
+            "total_score": 371
+        },
+        {
+            "name": "cream",
+            "mentions": 11,
+            "confidence_score": 53,
+            "total_score": 583
+        },
+        {
+            "name": "infusion",
+            "mentions": 9,
+            "confidence_score": 49,
+            "total_score": 441
+        },
+        {
+            "name": "ointment",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "gel",
+            "mentions": 8,
+            "confidence_score": 34,
+            "total_score": 272
+        },
+        {
+            "name": "lotion",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "soap",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "capsules",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "mouthwash",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "infused water",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "supplement",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "glycerite",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "balm",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "suppositories",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "shampoo",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Melaleuca alternifolia are based on its antimicrobial properties. Tea is made by infusing the leaves in hot water to utilize its antiseptic and anti-inflammatory effects. Tincture is a concentrated liquid solution of the plant's extract in a solvent, often used for skin conditions and wound care due to its antimicrobial and antiseptic properties. Salve is a topical preparation made by infusing the leaves in a carrier oil, providing localized antimicrobial and anti-inflammatory relief. The essential oil, obtained through steam distillation, and oil, obtained through cold-pressing or solvent extraction, are also used for their antimicrobial and anti-inflammatory properties, particularly in the treatment of skin infections and wounds.",
+    "side_effects": [
+        {
+            "name": "experience allergic reactions",
+            "mentions": 7,
+            "confidence_score": 69,
+            "total_score": 483
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "name": "allergic reactions",
+            "mentions": 4,
+            "confidence_score": 39,
+            "total_score": 156
+        },
+        {
+            "name": "cause gastrointestinal upset",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "hypersensitivity",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 3,
+            "confidence_score": 30,
+            "total_score": 90
+        },
+        {
+            "name": "induce headaches",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "experiencing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "developing photosensitivity",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "exhibit liver damage",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "trigger asthma attacks",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "produce photosensitivity",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "triggering liver toxicity",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "increase bleeding risk",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "inducing hormonal imbalances",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experience phototoxicity",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "interact with blood thinners",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Melaleuca alternifolia improperly include experience allergic reactions, such as anaphylaxis, hives, and itching, due to the presence of compounds like cineole and terpinen-4-ol, which can cause an immune response. Developing skin irritation, such as redness, swelling, and blistering, is also a risk due to the essential oil's high concentration of terpenes, which can cause skin inflammation. Additionally, gastrointestinal upset, including nausea, vomiting, and diarrhea, may occur due to the oil's potential to cause gastrointestinal irritation. Skin irritation may also result from the oil's high concentration of terpenes, which can cause skin dryness, cracking, and irritation. These side effects can occur when using Melaleuca alternifolia improperly, such as using high concentrations, applying it undiluted to the skin, or using it for extended periods without proper guidance."
+}

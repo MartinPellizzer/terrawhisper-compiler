@@ -1,1 +1,731 @@
-{"title": "Grammitis dryas", "herb_slug": "grammitis-dryas", "herb_name_scientific": "Grammitis dryas", "family_slug": "polypodiaceae", "family_name": "Polypodiaceae", "url": "herbs/grammitis-dryas", "lastmod": "2025-2-3", "herb_names_common": [{"name": "grammitis", "mentions": 21, "confidence_score": 137, "total_score": 2877}, {"name": "dryopteris", "mentions": 17, "confidence_score": 129, "total_score": 2193}, {"name": "dryopteris dryas", "mentions": 10, "confidence_score": 84, "total_score": 840}, {"name": "dryopteris dryadis", "mentions": 12, "confidence_score": 68, "total_score": 816}, {"name": "dryad fern", "mentions": 8, "confidence_score": 47, "total_score": 376}, {"name": "dryad's hair", "mentions": 8, "confidence_score": 44, "total_score": 352}, {"name": "grammitid fern", "mentions": 9, "confidence_score": 40, "total_score": 360}, {"name": "grammitis dryad", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "silver spleenwort", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "shield fern", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "rabbit's foot fern", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "dryad's fern", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "dryopterid fern", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "dryas grammitis", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "silver fern", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "dryad's sword fern", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "grammitis dryopteris", "mentions": 5, "confidence_score": 13, "total_score": 65}, {"name": "golden fern (grammitis dryas)", "mentions": 7, "confidence_score": 12, "total_score": 84}, {"name": "slender lady fern", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "dryad's sword", "mentions": 1, "confidence_score": 10, "total_score": 10}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 16, "confidence_score": 120, "total_score": 1920}, {"medicine_or_poison": "poison", "mentions": 4, "confidence_score": 36, "total_score": 144}], "what_description": "Grammitis dryas is a species of fern in the family Polypodiaceae, native to tropical regions of the Americas. It is a terrestrial fern with short rhizomes and a frond that is usually lance-shaped, measuring 20-30 cm in length. The frond has a deltoid base and a linear to lanceolate laminule with 10-20 pairs of pinnae. The sori are marginal and paraphyllodictyate, with a sporangium that contains 64 spores and a elater that is 0.5-1 mm in length. Grammitis dryas is typically found growing in shaded, humid areas with rich soil.", "category_action": "anti-inflammatory", "ailments": [{"name": "inflammation", "mentions": 16, "confidence_score": 136, "total_score": 2176}, {"name": "wound healing", "mentions": 12, "confidence_score": 96, "total_score": 1152}, {"name": "arthritis", "mentions": 9, "confidence_score": 70, "total_score": 630}, {"name": "skin irritation", "mentions": 9, "confidence_score": 66, "total_score": 594}, {"name": "fungal infections", "mentions": 9, "confidence_score": 60, "total_score": 540}, {"name": "diabetes", "mentions": 9, "confidence_score": 59, "total_score": 531}, {"name": "asthma", "mentions": 8, "confidence_score": 56, "total_score": 448}, {"name": "digestive issues", "mentions": 8, "confidence_score": 48, "total_score": 384}, {"name": "hypertension", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "eczema", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "antimicrobial", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "pain relief", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "cancer", "mentions": 7, "confidence_score": 32, "total_score": 224}, {"name": "bacterial infections", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "allergies", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "antifungal", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "antioxidant", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "anxiety", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "psoriasis", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "antiviral", "mentions": 4, "confidence_score": 22, "total_score": 88}], "ailments_description": "The most common ailments you can heal with Grammitis dryas are inflammation, which it reduces due to its anti-inflammatory compounds. Grammitis dryas accelerates wound healing by promoting tissue repair and cell proliferation. It has been shown to alleviate arthritis symptoms through its analgesic and anti-inflammatory properties, also relieving skin irritation caused by its soothing and calming effects. Additionally, its antifungal properties combat fungal infections and diabetes-related complications, such as high blood sugar levels and insulin resistance, while also providing relief for asthma symptoms by reducing inflammation in the airways and improving lung function. Its antimicrobial and antiviral properties address digestive issues by eliminating harmful bacteria, reduce hypertension through its vasodilatory effect, alleviate eczema symptoms by reducing inflammation and promoting skin health, exhibit antifungal properties, demonstrate antioxidant activity, provide anxiety relief by reducing stress, alleviate psoriasis symptoms by reducing inflammation and promoting skin cell turnover, and exhibit pain relief and antibacterial properties.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 144, "total_score": 2880}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 141, "total_score": 2820}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 129, "total_score": 2580}, {"name": "analgesic", "mentions": 17, "confidence_score": 62, "total_score": 1054}, {"name": "antifungal", "mentions": 10, "confidence_score": 60, "total_score": 600}, {"name": "hepatoprotective", "mentions": 9, "confidence_score": 55, "total_score": 495}, {"name": "antiviral", "mentions": 13, "confidence_score": 46, "total_score": 598}, {"name": "antibacterial", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "anticancer", "mentions": 10, "confidence_score": 44, "total_score": 440}, {"name": "cardioprotective", "mentions": 8, "confidence_score": 32, "total_score": 256}, {"name": "antipyretic", "mentions": 8, "confidence_score": 28, "total_score": 224}, {"name": "cytotoxic", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "neuroprotective", "mentions": 9, "confidence_score": 21, "total_score": 189}, {"name": "antiseptic", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "wound healing", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "antiparasitic", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "antihistamine", "mentions": 5, "confidence_score": 12, "total_score": 60}, {"name": "hemostatic", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "pain relief (analgesic)", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "diuretic", "mentions": 2, "confidence_score": 10, "total_score": 20}], "properties_description": "The main therapeutic properties of Grammitis dryas are its antioxidant activities, which are attributed to the presence of flavonoids and phenolic acids, these compounds being capable of neutralizing free radicals and preventing oxidative stress. The plant also exhibits antimicrobial properties, due in part to the bioactive compounds saponins and terpenoids, which have been shown to inhibit the growth of various microorganisms. Additionally, Grammitis dryas possesses anti-inflammatory properties, which can be linked to the presence of flavonoids and phenolic acids, these compounds being capable of reducing inflammation and alleviating pain. Furthermore, the plant has been found to possess analgesic properties, which can be attributed to the bioactive compounds saponins and terpenoids, these compounds being capable of reducing pain by inhibiting the production of pro-inflammatory mediators. Grammitis dryas also exhibits antifungal properties, which can be linked to the presence of volatile oils and terpenoids, these compounds being capable of inhibiting the growth of various fungal species.", "constituents": [{"name": "quercetin", "mentions": 10, "confidence_score": 85, "total_score": 850}, {"name": "kaempferol", "mentions": 10, "confidence_score": 71, "total_score": 710}, {"name": "flavonoids", "mentions": 11, "confidence_score": 63, "total_score": 693}, {"name": "phenolic acids", "mentions": 11, "confidence_score": 55, "total_score": 605}, {"name": "isorhapontigenin", "mentions": 8, "confidence_score": 50, "total_score": 400}, {"name": "triterpenoids", "mentions": 11, "confidence_score": 47, "total_score": 517}, {"name": "saponins", "mentions": 11, "confidence_score": 46, "total_score": 506}, {"name": "tannins", "mentions": 9, "confidence_score": 42, "total_score": 378}, {"name": "coumarins", "mentions": 10, "confidence_score": 37, "total_score": 370}, {"name": "alkaloids", "mentions": 8, "confidence_score": 32, "total_score": 256}, {"name": "phenolic glycosides", "mentions": 10, "confidence_score": 30, "total_score": 300}, {"name": "ellagic acid", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "quinic acid", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "ferulic acid", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "gallic acid", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "friedelin", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "b-sitosterol", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "caffeic acid", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "stigmasterol", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "fatty acids", "mentions": 3, "confidence_score": 10, "total_score": 30}], "constituents_description": "The most important healing constituents of Grammitis dryas are quercetin, kaempferol, flavonoids, phenolic acids, and isorhapontigenin, which have been identified as the primary bioactive compounds responsible for its medicinal properties. Quercetin and kaempferol, both flavonoids, have been found to exhibit potent antioxidant and anti-inflammatory activities, protecting against oxidative stress and inflammation in the body. The flavonoids present in Grammitis dryas also possess antimicrobial and antiviral properties, making it effective against a range of pathogens. Phenolic acids, such as isorhapontigenin, have been shown to have anti-cancer and anti-hyperlipidemic effects, inhibiting the growth of cancer cells and reducing lipid levels in the blood. The combination of these constituents in Grammitis dryas provides a broad spectrum of health benefits, making it a valuable medicinal plant in traditional medicine.", "preparations": [{"name": "tea", "mentions": 20, "confidence_score": 180, "total_score": 3600}, {"name": "infusion", "mentions": 20, "confidence_score": 158, "total_score": 3160}, {"name": "tincture", "mentions": 20, "confidence_score": 127, "total_score": 2540}, {"name": "salve", "mentions": 20, "confidence_score": 98, "total_score": 1960}, {"name": "decoction", "mentions": 17, "confidence_score": 74, "total_score": 1258}, {"name": "suppository", "mentions": 4, "confidence_score": 9, "total_score": 36}, {"name": "infused oil", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "poultice", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "capsule", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "ointment", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "infusinate", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "elixir", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "essence", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "extract", "mentions": 1, "confidence_score": 1, "total_score": 1}], "preparations_description": "The main herbal preparations of Grammitis dryas are typically made using its leaves due to their richness in flavonoids and phenolic acids. A tea is prepared by steeping the leaves in hot water to treat various health issues, including fever and inflammation. An infusion is also made by steeping the leaves in cold water for a longer period to obtain a higher concentration of the active compounds. A tincture is prepared by mixing the leaves with a solvent like ethanol or glycerin to create a concentrated liquid extract. A decoction of the roots and leaves can be made by boiling them in water to treat conditions such as wounds and skin irritations, while a salve is prepared by infusing the leaves in a carrier oil to create a topical application for skin issues.", "side_effects": [{"name": "experience nausea", "mentions": 5, "confidence_score": 44, "total_score": 220}, {"name": "have abdominal pain", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "experiencing nausea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "developing allergic reactions", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "experience vomiting blood", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "suffer liver damage", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "get headache", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "suffering from vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiences nausea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause nausea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experiencing abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develop skin irritation", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experiencing dizziness", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "induce seizures", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experience dizziness", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "show skin irritation", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effects of using Grammitis dryas improperly are experience nausea, have abdominal pain, experiencing nausea, developing allergic reactions, and experience vomiting blood. This is due to the plant's toxic compounds such as polyols and glycosides, which can cause gastrointestinal irritation and allergic reactions when ingested in large quantities or without proper preparation. Ingestion of Grammitis dryas can also lead to gastrointestinal upset, including vomiting and diarrhea, which may result in dehydration and electrolyte imbalance. The improper use of Grammitis dryas can also trigger severe allergic reactions, including anaphylaxis, which requires immediate medical attention. These side effects are often associated with the improper identification or handling of the plant, emphasizing the importance of proper preparation and identification before use.", "uses": "Grammitis dryas is known to have various medicinal uses. Its leaves are traditionally used in folk medicine to treat different health conditions. In some cultures, the plant is used to treat fever, rheumatism, and other inflammatory conditions. The plant's leaves are also used to make a medicinal tea that is believed to have anti-inflammatory properties. However, further research is needed to confirm the effectiveness and safety of these uses.", "taxonomy": "Grammitis dryas belongs to the family Polypodiaceae, which is a group of ferns commonly known as the polypody ferns. This family consists of over 2,000 species of ferns found worldwide. Grammitis dryas is a type of epiphytic fern, which means it grows on other plants for support. It is native to tropical Asia and is often found in humid, shaded environments. The classification of Grammitis dryas is further detailed at the genus and species level, with it being classified as a species within the genus Grammitis.", "benefits": "Grammitis dryas is known for its potential health benefits, although more research is needed to confirm them. The plant has been traditionally used in some cultures to treat various ailments, including inflammation and respiratory issues. Its leaves and stems are said to contain compounds with antioxidant and anti-inflammatory properties. Additionally, it may have antibacterial and antifungal properties, which could help prevent infections and promote wound healing. More studies are required to fully understand the health benefits of Grammitis dryas and its potential applications in medicine.", "parts": "Grammitis dryas is known to have medicinal properties, but specific information is limited. However, in general, many Grammitis species, including Grammitis dryas, are used in traditional medicine. The leaves and stems of Grammitis dryas are reportedly used in treatment. The plant is believed to have anti-inflammatory and antioxidant properties. More research is needed to fully understand the medicinal potential of Grammitis dryas.", "intro": "Grammitis dryas, also known as Drynaria, is a species of fern in the family Polypodiaceae, traditionally used in folk medicine in various parts of the world. The plant is known for its potential health benefits, including anti-inflammatory, antimicrobial, and antioxidant properties, which may aid in the treatment of conditions such as arthritis, skin infections, and cancer. The bioactive constituents of Grammitis dryas include fucoidan, a sulfated polysaccharide, as well as various flavonoids and phenolic acids, which contribute to its medicinal properties. In traditional medicine, the plant is often prepared into herbal teas, tinctures, and infusions, as well as being used in modern supplements and pharmaceutical formulations."}
+{
+    "title": "Grammitis dryas",
+    "herb_slug": "grammitis-dryas",
+    "herb_name_scientific": "Grammitis dryas",
+    "family_slug": "polypodiaceae",
+    "family_name": "Polypodiaceae",
+    "url": "herbs/grammitis-dryas",
+    "lastmod": "2025-2-3",
+    "herb_names_common": [
+        {
+            "name": "grammitis",
+            "mentions": 21,
+            "confidence_score": 137,
+            "total_score": 2877
+        },
+        {
+            "name": "dryopteris",
+            "mentions": 17,
+            "confidence_score": 129,
+            "total_score": 2193
+        },
+        {
+            "name": "dryopteris dryas",
+            "mentions": 10,
+            "confidence_score": 84,
+            "total_score": 840
+        },
+        {
+            "name": "dryopteris dryadis",
+            "mentions": 12,
+            "confidence_score": 68,
+            "total_score": 816
+        },
+        {
+            "name": "dryad fern",
+            "mentions": 8,
+            "confidence_score": 47,
+            "total_score": 376
+        },
+        {
+            "name": "dryad's hair",
+            "mentions": 8,
+            "confidence_score": 44,
+            "total_score": 352
+        },
+        {
+            "name": "grammitid fern",
+            "mentions": 9,
+            "confidence_score": 40,
+            "total_score": 360
+        },
+        {
+            "name": "grammitis dryad",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "silver spleenwort",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "shield fern",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "rabbit's foot fern",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "dryad's fern",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "dryopterid fern",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "dryas grammitis",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "silver fern",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "dryad's sword fern",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "grammitis dryopteris",
+            "mentions": 5,
+            "confidence_score": 13,
+            "total_score": 65
+        },
+        {
+            "name": "golden fern (grammitis dryas)",
+            "mentions": 7,
+            "confidence_score": 12,
+            "total_score": 84
+        },
+        {
+            "name": "slender lady fern",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "dryad's sword",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 16,
+            "confidence_score": 120,
+            "total_score": 1920
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        }
+    ],
+    "what_description": "Grammitis dryas is a species of fern in the family Polypodiaceae, native to tropical regions of the Americas. It is a terrestrial fern with short rhizomes and a frond that is usually lance-shaped, measuring 20-30 cm in length. The frond has a deltoid base and a linear to lanceolate laminule with 10-20 pairs of pinnae. The sori are marginal and paraphyllodictyate, with a sporangium that contains 64 spores and a elater that is 0.5-1 mm in length. Grammitis dryas is typically found growing in shaded, humid areas with rich soil.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 16,
+            "confidence_score": 136,
+            "total_score": 2176
+        },
+        {
+            "name": "wound healing",
+            "mentions": 12,
+            "confidence_score": 96,
+            "total_score": 1152
+        },
+        {
+            "name": "arthritis",
+            "mentions": 9,
+            "confidence_score": 70,
+            "total_score": 630
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 9,
+            "confidence_score": 66,
+            "total_score": 594
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 9,
+            "confidence_score": 60,
+            "total_score": 540
+        },
+        {
+            "name": "diabetes",
+            "mentions": 9,
+            "confidence_score": 59,
+            "total_score": 531
+        },
+        {
+            "name": "asthma",
+            "mentions": 8,
+            "confidence_score": 56,
+            "total_score": 448
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 8,
+            "confidence_score": 48,
+            "total_score": 384
+        },
+        {
+            "name": "hypertension",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "eczema",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "pain relief",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "cancer",
+            "mentions": 7,
+            "confidence_score": 32,
+            "total_score": 224
+        },
+        {
+            "name": "bacterial infections",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "allergies",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "antifungal",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "anxiety",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "psoriasis",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "antiviral",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Grammitis dryas are inflammation, which it reduces due to its anti-inflammatory compounds. Grammitis dryas accelerates wound healing by promoting tissue repair and cell proliferation. It has been shown to alleviate arthritis symptoms through its analgesic and anti-inflammatory properties, also relieving skin irritation caused by its soothing and calming effects. Additionally, its antifungal properties combat fungal infections and diabetes-related complications, such as high blood sugar levels and insulin resistance, while also providing relief for asthma symptoms by reducing inflammation in the airways and improving lung function. Its antimicrobial and antiviral properties address digestive issues by eliminating harmful bacteria, reduce hypertension through its vasodilatory effect, alleviate eczema symptoms by reducing inflammation and promoting skin health, exhibit antifungal properties, demonstrate antioxidant activity, provide anxiety relief by reducing stress, alleviate psoriasis symptoms by reducing inflammation and promoting skin cell turnover, and exhibit pain relief and antibacterial properties.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 144,
+            "total_score": 2880
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 141,
+            "total_score": 2820
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 129,
+            "total_score": 2580
+        },
+        {
+            "name": "analgesic",
+            "mentions": 17,
+            "confidence_score": 62,
+            "total_score": 1054
+        },
+        {
+            "name": "antifungal",
+            "mentions": 10,
+            "confidence_score": 60,
+            "total_score": 600
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 9,
+            "confidence_score": 55,
+            "total_score": 495
+        },
+        {
+            "name": "antiviral",
+            "mentions": 13,
+            "confidence_score": 46,
+            "total_score": 598
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "anticancer",
+            "mentions": 10,
+            "confidence_score": 44,
+            "total_score": 440
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 8,
+            "confidence_score": 32,
+            "total_score": 256
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 8,
+            "confidence_score": 28,
+            "total_score": 224
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 9,
+            "confidence_score": 21,
+            "total_score": 189
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 5,
+            "confidence_score": 12,
+            "total_score": 60
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "pain relief (analgesic)",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "diuretic",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Grammitis dryas are its antioxidant activities, which are attributed to the presence of flavonoids and phenolic acids, these compounds being capable of neutralizing free radicals and preventing oxidative stress. The plant also exhibits antimicrobial properties, due in part to the bioactive compounds saponins and terpenoids, which have been shown to inhibit the growth of various microorganisms. Additionally, Grammitis dryas possesses anti-inflammatory properties, which can be linked to the presence of flavonoids and phenolic acids, these compounds being capable of reducing inflammation and alleviating pain. Furthermore, the plant has been found to possess analgesic properties, which can be attributed to the bioactive compounds saponins and terpenoids, these compounds being capable of reducing pain by inhibiting the production of pro-inflammatory mediators. Grammitis dryas also exhibits antifungal properties, which can be linked to the presence of volatile oils and terpenoids, these compounds being capable of inhibiting the growth of various fungal species.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 10,
+            "confidence_score": 85,
+            "total_score": 850
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 10,
+            "confidence_score": 71,
+            "total_score": 710
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 11,
+            "confidence_score": 63,
+            "total_score": 693
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 11,
+            "confidence_score": 55,
+            "total_score": 605
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 8,
+            "confidence_score": 50,
+            "total_score": 400
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 11,
+            "confidence_score": 47,
+            "total_score": 517
+        },
+        {
+            "name": "saponins",
+            "mentions": 11,
+            "confidence_score": 46,
+            "total_score": 506
+        },
+        {
+            "name": "tannins",
+            "mentions": 9,
+            "confidence_score": 42,
+            "total_score": 378
+        },
+        {
+            "name": "coumarins",
+            "mentions": 10,
+            "confidence_score": 37,
+            "total_score": 370
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 8,
+            "confidence_score": 32,
+            "total_score": 256
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 10,
+            "confidence_score": 30,
+            "total_score": 300
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "friedelin",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "b-sitosterol",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "stigmasterol",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Grammitis dryas are quercetin, kaempferol, flavonoids, phenolic acids, and isorhapontigenin, which have been identified as the primary bioactive compounds responsible for its medicinal properties. Quercetin and kaempferol, both flavonoids, have been found to exhibit potent antioxidant and anti-inflammatory activities, protecting against oxidative stress and inflammation in the body. The flavonoids present in Grammitis dryas also possess antimicrobial and antiviral properties, making it effective against a range of pathogens. Phenolic acids, such as isorhapontigenin, have been shown to have anti-cancer and anti-hyperlipidemic effects, inhibiting the growth of cancer cells and reducing lipid levels in the blood. The combination of these constituents in Grammitis dryas provides a broad spectrum of health benefits, making it a valuable medicinal plant in traditional medicine.",
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 20,
+            "confidence_score": 180,
+            "total_score": 3600
+        },
+        {
+            "name": "infusion",
+            "mentions": 20,
+            "confidence_score": 158,
+            "total_score": 3160
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 127,
+            "total_score": 2540
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 98,
+            "total_score": 1960
+        },
+        {
+            "name": "decoction",
+            "mentions": 17,
+            "confidence_score": 74,
+            "total_score": 1258
+        },
+        {
+            "name": "suppository",
+            "mentions": 4,
+            "confidence_score": 9,
+            "total_score": 36
+        },
+        {
+            "name": "infused oil",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "poultice",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "capsule",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "ointment",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "infusinate",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "elixir",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "essence",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "extract",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Grammitis dryas are typically made using its leaves due to their richness in flavonoids and phenolic acids. A tea is prepared by steeping the leaves in hot water to treat various health issues, including fever and inflammation. An infusion is also made by steeping the leaves in cold water for a longer period to obtain a higher concentration of the active compounds. A tincture is prepared by mixing the leaves with a solvent like ethanol or glycerin to create a concentrated liquid extract. A decoction of the roots and leaves can be made by boiling them in water to treat conditions such as wounds and skin irritations, while a salve is prepared by infusing the leaves in a carrier oil to create a topical application for skin issues.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        },
+        {
+            "name": "have abdominal pain",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "developing allergic reactions",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "experience vomiting blood",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "get headache",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "suffering from vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "show skin irritation",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Grammitis dryas improperly are experience nausea, have abdominal pain, experiencing nausea, developing allergic reactions, and experience vomiting blood. This is due to the plant's toxic compounds such as polyols and glycosides, which can cause gastrointestinal irritation and allergic reactions when ingested in large quantities or without proper preparation. Ingestion of Grammitis dryas can also lead to gastrointestinal upset, including vomiting and diarrhea, which may result in dehydration and electrolyte imbalance. The improper use of Grammitis dryas can also trigger severe allergic reactions, including anaphylaxis, which requires immediate medical attention. These side effects are often associated with the improper identification or handling of the plant, emphasizing the importance of proper preparation and identification before use.",
+    "uses": "Grammitis dryas is known to have various medicinal uses. Its leaves are traditionally used in folk medicine to treat different health conditions. In some cultures, the plant is used to treat fever, rheumatism, and other inflammatory conditions. The plant's leaves are also used to make a medicinal tea that is believed to have anti-inflammatory properties. However, further research is needed to confirm the effectiveness and safety of these uses.",
+    "taxonomy": "Grammitis dryas belongs to the family Polypodiaceae, which is a group of ferns commonly known as the polypody ferns. This family consists of over 2,000 species of ferns found worldwide. Grammitis dryas is a type of epiphytic fern, which means it grows on other plants for support. It is native to tropical Asia and is often found in humid, shaded environments. The classification of Grammitis dryas is further detailed at the genus and species level, with it being classified as a species within the genus Grammitis.",
+    "benefits": "Grammitis dryas is known for its potential health benefits, although more research is needed to confirm them. The plant has been traditionally used in some cultures to treat various ailments, including inflammation and respiratory issues. Its leaves and stems are said to contain compounds with antioxidant and anti-inflammatory properties. Additionally, it may have antibacterial and antifungal properties, which could help prevent infections and promote wound healing. More studies are required to fully understand the health benefits of Grammitis dryas and its potential applications in medicine.",
+    "parts": "Grammitis dryas is known to have medicinal properties, but specific information is limited. However, in general, many Grammitis species, including Grammitis dryas, are used in traditional medicine. The leaves and stems of Grammitis dryas are reportedly used in treatment. The plant is believed to have anti-inflammatory and antioxidant properties. More research is needed to fully understand the medicinal potential of Grammitis dryas.",
+    "intro": "Grammitis dryas, also known as Drynaria, is a species of fern in the family Polypodiaceae, traditionally used in folk medicine in various parts of the world. The plant is known for its potential health benefits, including anti-inflammatory, antimicrobial, and antioxidant properties, which may aid in the treatment of conditions such as arthritis, skin infections, and cancer. The bioactive constituents of Grammitis dryas include fucoidan, a sulfated polysaccharide, as well as various flavonoids and phenolic acids, which contribute to its medicinal properties. In traditional medicine, the plant is often prepared into herbal teas, tinctures, and infusions, as well as being used in modern supplements and pharmaceutical formulations."
+}

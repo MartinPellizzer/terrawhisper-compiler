@@ -1,1 +1,148 @@
-{"title": "Polyplethia morrisonicola", "herb_slug": "polyplethia-morrisonicola", "herb_name_scientific": "Polyplethia morrisonicola", "url": "herbs/polyplethia-morrisonicola", "lastmod": "2024-12-28", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 196, "total_score": 3920}], "family_slug": "balanophoraceae", "family_name": "Balanophoraceae", "herb_names_common": [{"name": "morrison's polyplethia", "mentions": 85, "confidence_score": 309, "total_score": 26265}, {"name": "no common names found", "mentions": 10, "confidence_score": 79, "total_score": 790}, {"name": "no common name found", "mentions": 7, "confidence_score": 70, "total_score": 490}, {"name": "polyplethia morrisonicola", "mentions": 27, "confidence_score": 64, "total_score": 1728}, {"name": "none found", "mentions": 3, "confidence_score": 30, "total_score": 90}, {"name": "unknown", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "morrison's plant", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "polyplethia sp.", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "morrison's herb", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "morrison polyplethia", "mentions": 4, "confidence_score": 10, "total_score": 40}, {"name": "polyplethia morrisonicola is not known by a common name", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "this plant is not widely recognized", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "no english name", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "unknown english name", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "morris' polyplethia", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "polyplethia spec.", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "morrison polyplethia morrisonicola", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "morrison's polyplethia morrisonicola", "mentions": 3, "confidence_score": 6, "total_score": 18}, {"name": "polyplethia species", "mentions": 2, "confidence_score": 4, "total_score": 8}, {"name": "morrison's species", "mentions": 1, "confidence_score": 4, "total_score": 4}], "uses": "Polyplethia morrisonicola is a plant species that has been studied for its potential medicinal properties, although limited information is available on its specific uses. However, some research suggests that it may possess antioxidant and anti-inflammatory activities. Further studies are required to confirm and explore the full range of potential benefits. In traditional medicine, it has been used for various purposes, including as a treatment for fever and digestive issues. More research is needed to fully understand its medicinal uses and potential applications.", "taxonomy": "Polyplethia morrisonicola is classified as a species of flowering plant in the family Apiaceae. It is a type of parsley or carrot relative, with a specific distribution in certain regions. The exact classification of this species is still being studied by botanists and taxonomists. Polyplethia morrisonicola is believed to be native to specific parts of Asia, and its classification helps in understanding its evolutionary history and genetic relationships with other plants. Further research is needed to confirm its classification and distribution.", "benefits": "Info not available yet.", "properties": "Info not available yet.", "constituents": "Polyplethia morrisonicola, a plant species found in Southeast Asia, is known to contain various bioactive compounds, including flavonoids, terpenoids, and phenolic acids. These active constituents have been reported to exhibit antioxidant, anti-inflammatory, and antimicrobial activities. Flavonoids, in particular, are known to have neuroprotective and anti-cancer properties. The exact composition and proportions of these compounds may vary depending on the plant's habitat and growing conditions. Further research is needed to fully elucidate the bioactive properties of Polyplethia morrisonicola.", "parts": "Info not available yet.", "preparations": "Unfortunately, I don't have information about herbal preparations related to Polyplethia morrisonicola.", "side_effects": "Polyplethia morrisonicola is a plant species that is not well-researched, and as a result, there is limited information available on its side effects. However, in some cases, plant extracts or compounds may cause allergic reactions or interact with medications. The plant's effects can also vary depending on the individual, their health, and the method of preparation. It's essential to exercise caution when handling or consuming any plant species, especially if there's limited scientific data available. Further research is needed to fully understand the potential side effects of Polyplethia morrisonicola.", "intro": "Unfortunately, I can't verify any health benefits or herbal preparations of Polyplethia morrisonicola."}
+{
+    "title": "Polyplethia morrisonicola",
+    "herb_slug": "polyplethia-morrisonicola",
+    "herb_name_scientific": "Polyplethia morrisonicola",
+    "url": "herbs/polyplethia-morrisonicola",
+    "lastmod": "2024-12-28",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 196,
+            "total_score": 3920
+        }
+    ],
+    "family_slug": "balanophoraceae",
+    "family_name": "Balanophoraceae",
+    "herb_names_common": [
+        {
+            "name": "morrison's polyplethia",
+            "mentions": 85,
+            "confidence_score": 309,
+            "total_score": 26265
+        },
+        {
+            "name": "no common names found",
+            "mentions": 10,
+            "confidence_score": 79,
+            "total_score": 790
+        },
+        {
+            "name": "no common name found",
+            "mentions": 7,
+            "confidence_score": 70,
+            "total_score": 490
+        },
+        {
+            "name": "polyplethia morrisonicola",
+            "mentions": 27,
+            "confidence_score": 64,
+            "total_score": 1728
+        },
+        {
+            "name": "none found",
+            "mentions": 3,
+            "confidence_score": 30,
+            "total_score": 90
+        },
+        {
+            "name": "unknown",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "morrison's plant",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "polyplethia sp.",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "morrison's herb",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "morrison polyplethia",
+            "mentions": 4,
+            "confidence_score": 10,
+            "total_score": 40
+        },
+        {
+            "name": "polyplethia morrisonicola is not known by a common name",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "this plant is not widely recognized",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "no english name",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "unknown english name",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "morris' polyplethia",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "polyplethia spec.",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "morrison polyplethia morrisonicola",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "morrison's polyplethia morrisonicola",
+            "mentions": 3,
+            "confidence_score": 6,
+            "total_score": 18
+        },
+        {
+            "name": "polyplethia species",
+            "mentions": 2,
+            "confidence_score": 4,
+            "total_score": 8
+        },
+        {
+            "name": "morrison's species",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        }
+    ],
+    "uses": "Polyplethia morrisonicola is a plant species that has been studied for its potential medicinal properties, although limited information is available on its specific uses. However, some research suggests that it may possess antioxidant and anti-inflammatory activities. Further studies are required to confirm and explore the full range of potential benefits. In traditional medicine, it has been used for various purposes, including as a treatment for fever and digestive issues. More research is needed to fully understand its medicinal uses and potential applications.",
+    "taxonomy": "Polyplethia morrisonicola is classified as a species of flowering plant in the family Apiaceae. It is a type of parsley or carrot relative, with a specific distribution in certain regions. The exact classification of this species is still being studied by botanists and taxonomists. Polyplethia morrisonicola is believed to be native to specific parts of Asia, and its classification helps in understanding its evolutionary history and genetic relationships with other plants. Further research is needed to confirm its classification and distribution.",
+    "benefits": "Info not available yet.",
+    "properties": "Info not available yet.",
+    "constituents": "Polyplethia morrisonicola, a plant species found in Southeast Asia, is known to contain various bioactive compounds, including flavonoids, terpenoids, and phenolic acids. These active constituents have been reported to exhibit antioxidant, anti-inflammatory, and antimicrobial activities. Flavonoids, in particular, are known to have neuroprotective and anti-cancer properties. The exact composition and proportions of these compounds may vary depending on the plant's habitat and growing conditions. Further research is needed to fully elucidate the bioactive properties of Polyplethia morrisonicola.",
+    "parts": "Info not available yet.",
+    "preparations": "Unfortunately, I don't have information about herbal preparations related to Polyplethia morrisonicola.",
+    "side_effects": "Polyplethia morrisonicola is a plant species that is not well-researched, and as a result, there is limited information available on its side effects. However, in some cases, plant extracts or compounds may cause allergic reactions or interact with medications. The plant's effects can also vary depending on the individual, their health, and the method of preparation. It's essential to exercise caution when handling or consuming any plant species, especially if there's limited scientific data available. Further research is needed to fully understand the potential side effects of Polyplethia morrisonicola.",
+    "intro": "Unfortunately, I can't verify any health benefits or herbal preparations of Polyplethia morrisonicola."
+}

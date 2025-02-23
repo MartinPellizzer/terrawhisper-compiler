@@ -1,1 +1,154 @@
-{"title": "Allantoma pluriflora", "herb_slug": "allantoma-pluriflora", "herb_name_scientific": "Allantoma pluriflora", "family_slug": "lecythidaceae", "family_name": "Lecythidaceae", "url": "herbs/allantoma-pluriflora", "lastmod": "2025-1-31", "herb_names_common": [{"name": "wild allantoma pluriflora", "mentions": 22, "confidence_score": 133, "total_score": 2926}, {"name": "wild allantoma", "mentions": 26, "confidence_score": 103, "total_score": 2678}, {"name": "pluriflora", "mentions": 19, "confidence_score": 86, "total_score": 1634}, {"name": "allantoma pluriflora tree", "mentions": 7, "confidence_score": 32, "total_score": 224}, {"name": "false signal plant", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "pluriflora allantoma", "mentions": 7, "confidence_score": 20, "total_score": 140}, {"name": "allamanda", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "allantoma pluriflorum", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "false pigeonwings", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "pigeon wings", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "none found", "mentions": 10, "confidence_score": 10, "total_score": 100}, {"name": "pluriflora plant", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "cannonball tree", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "false jasmine", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "crape jasmine", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "night jasmine", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "allamanda pluriflora", "mentions": 3, "confidence_score": 8, "total_score": 24}, {"name": "cannon ball tree", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "yellow trumpet", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "pigeon wings plant", "mentions": 1, "confidence_score": 7, "total_score": 7}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 19, "confidence_score": 178, "total_score": 3382}, {"medicine_or_poison": "medicine", "mentions": 1, "confidence_score": 2, "total_score": 2}], "uses": "Allantoma pluriflora is a plant species that has been reported to have potential medicinal uses. Studies have shown that it may possess antimicrobial properties, which could be beneficial in treating various infections. Additionally, the plant has been found to have anti-inflammatory and antioxidant properties, which may help in reducing inflammation and protecting against oxidative stress. Further research is needed to fully understand the potential benefits and applications of Allantoma pluriflora in medicine. Its medicinal uses are still largely unexplored, and more studies are required to uncover its full potential.", "taxonomy": "Allantoma pluriflora is classified within the family Sapotaceae, a family of flowering plants commonly known as sapotes or soapberries. It belongs to the genus Allantoma, which is a group of flowering plants native to South America. The species Allantoma pluriflora is further categorized as a tree or shrub, growing in the tropical and subtropical regions. The classification of Allantoma pluriflora is also supported by its botanical features, such as its showy flowers and large, edible fruits. This classification helps in understanding the plant's evolutionary history and its relationships with other species within the Sapotaceae family.", "benefits": "Allantoma pluriflora is a flowering plant species that has been studied for its potential health benefits. Although limited research is available, some sources suggest that extracts from Allantoma pluriflora may have anti-inflammatory and antioxidant properties. These properties could potentially contribute to the plant's use in traditional medicine for treating various ailments, such as fever and digestive issues. However, more comprehensive studies are necessary to fully understand the plant's health benefits. Further research is required to confirm the efficacy and safety of using Allantoma pluriflora for medicinal purposes.", "properties": "Allantoma pluriflora is known to have various therapeutic properties due to its bioactive compounds. Research suggests that extracts from this plant may exhibit antioxidant, anti-inflammatory, and antimicrobial activities. These properties could potentially be beneficial in treating various health conditions, including infections, inflammation, and oxidative stress-related disorders. Furthermore, studies have also shown that Allantoma pluriflora may have antiparasitic and antimalarial effects. More research is needed to fully understand the therapeutic potential of this plant.", "constituents": "Allantoma pluriflora contains various active constituents, including flavonoids, alkaloids, and phenolic acids. These compounds contribute to the plant's medicinal properties, such as antioxidant and anti-inflammatory effects. The specific types and quantities of active constituents can vary depending on factors like the plant's habitat and growing conditions. Further research is needed to fully understand the composition and potential uses of Allantoma pluriflora's active constituents. Studies have shown that the plant's compounds may have potential applications in traditional medicine and pharmaceutical development.", "parts": "Allantoma pluriflora is a plant species native to the tropical regions of Central and South America. However, there is limited information available on its medicinal parts. I am unable to provide a specific list of medicinal parts associated with the plant. Further research is needed to determine the plant's potential medicinal uses. More studies are required to confirm its efficacy and potential applications in traditional medicine.", "preparations": "Allantoma pluriflora herbal preparations are not well-documented in mainstream literature, suggesting a lack of research on their potential benefits and uses. However, some studies have been conducted on related species, indicating potential applications in traditional medicine. Extracts from Allantoma pluriflora have been investigated for their antioxidant and antimicrobial properties. Further research is necessary to fully understand the potential of Allantoma pluriflora herbal preparations. Potential uses may include treating infections, inflammation, and other conditions, but more studies are required to confirm these findings.", "side_effects": "Info not available yet.", "intro": "There is not enough information about the Allantoma pluriflora plant."}
+{
+    "title": "Allantoma pluriflora",
+    "herb_slug": "allantoma-pluriflora",
+    "herb_name_scientific": "Allantoma pluriflora",
+    "family_slug": "lecythidaceae",
+    "family_name": "Lecythidaceae",
+    "url": "herbs/allantoma-pluriflora",
+    "lastmod": "2025-1-31",
+    "herb_names_common": [
+        {
+            "name": "wild allantoma pluriflora",
+            "mentions": 22,
+            "confidence_score": 133,
+            "total_score": 2926
+        },
+        {
+            "name": "wild allantoma",
+            "mentions": 26,
+            "confidence_score": 103,
+            "total_score": 2678
+        },
+        {
+            "name": "pluriflora",
+            "mentions": 19,
+            "confidence_score": 86,
+            "total_score": 1634
+        },
+        {
+            "name": "allantoma pluriflora tree",
+            "mentions": 7,
+            "confidence_score": 32,
+            "total_score": 224
+        },
+        {
+            "name": "false signal plant",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "pluriflora allantoma",
+            "mentions": 7,
+            "confidence_score": 20,
+            "total_score": 140
+        },
+        {
+            "name": "allamanda",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "allantoma pluriflorum",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "false pigeonwings",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "pigeon wings",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "none found",
+            "mentions": 10,
+            "confidence_score": 10,
+            "total_score": 100
+        },
+        {
+            "name": "pluriflora plant",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "cannonball tree",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "false jasmine",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "crape jasmine",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "night jasmine",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "allamanda pluriflora",
+            "mentions": 3,
+            "confidence_score": 8,
+            "total_score": 24
+        },
+        {
+            "name": "cannon ball tree",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "yellow trumpet",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "pigeon wings plant",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 19,
+            "confidence_score": 178,
+            "total_score": 3382
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "uses": "Allantoma pluriflora is a plant species that has been reported to have potential medicinal uses. Studies have shown that it may possess antimicrobial properties, which could be beneficial in treating various infections. Additionally, the plant has been found to have anti-inflammatory and antioxidant properties, which may help in reducing inflammation and protecting against oxidative stress. Further research is needed to fully understand the potential benefits and applications of Allantoma pluriflora in medicine. Its medicinal uses are still largely unexplored, and more studies are required to uncover its full potential.",
+    "taxonomy": "Allantoma pluriflora is classified within the family Sapotaceae, a family of flowering plants commonly known as sapotes or soapberries. It belongs to the genus Allantoma, which is a group of flowering plants native to South America. The species Allantoma pluriflora is further categorized as a tree or shrub, growing in the tropical and subtropical regions. The classification of Allantoma pluriflora is also supported by its botanical features, such as its showy flowers and large, edible fruits. This classification helps in understanding the plant's evolutionary history and its relationships with other species within the Sapotaceae family.",
+    "benefits": "Allantoma pluriflora is a flowering plant species that has been studied for its potential health benefits. Although limited research is available, some sources suggest that extracts from Allantoma pluriflora may have anti-inflammatory and antioxidant properties. These properties could potentially contribute to the plant's use in traditional medicine for treating various ailments, such as fever and digestive issues. However, more comprehensive studies are necessary to fully understand the plant's health benefits. Further research is required to confirm the efficacy and safety of using Allantoma pluriflora for medicinal purposes.",
+    "properties": "Allantoma pluriflora is known to have various therapeutic properties due to its bioactive compounds. Research suggests that extracts from this plant may exhibit antioxidant, anti-inflammatory, and antimicrobial activities. These properties could potentially be beneficial in treating various health conditions, including infections, inflammation, and oxidative stress-related disorders. Furthermore, studies have also shown that Allantoma pluriflora may have antiparasitic and antimalarial effects. More research is needed to fully understand the therapeutic potential of this plant.",
+    "constituents": "Allantoma pluriflora contains various active constituents, including flavonoids, alkaloids, and phenolic acids. These compounds contribute to the plant's medicinal properties, such as antioxidant and anti-inflammatory effects. The specific types and quantities of active constituents can vary depending on factors like the plant's habitat and growing conditions. Further research is needed to fully understand the composition and potential uses of Allantoma pluriflora's active constituents. Studies have shown that the plant's compounds may have potential applications in traditional medicine and pharmaceutical development.",
+    "parts": "Allantoma pluriflora is a plant species native to the tropical regions of Central and South America. However, there is limited information available on its medicinal parts. I am unable to provide a specific list of medicinal parts associated with the plant. Further research is needed to determine the plant's potential medicinal uses. More studies are required to confirm its efficacy and potential applications in traditional medicine.",
+    "preparations": "Allantoma pluriflora herbal preparations are not well-documented in mainstream literature, suggesting a lack of research on their potential benefits and uses. However, some studies have been conducted on related species, indicating potential applications in traditional medicine. Extracts from Allantoma pluriflora have been investigated for their antioxidant and antimicrobial properties. Further research is necessary to fully understand the potential of Allantoma pluriflora herbal preparations. Potential uses may include treating infections, inflammation, and other conditions, but more studies are required to confirm these findings.",
+    "side_effects": "Info not available yet.",
+    "intro": "There is not enough information about the Allantoma pluriflora plant."
+}

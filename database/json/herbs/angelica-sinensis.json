@@ -1,1 +1,756 @@
-{"title": "Angelica sinensis", "herb_slug": "angelica-sinensis", "herb_name_scientific": "Angelica sinensis", "family_slug": "", "family_name": "", "url": "herbs/angelica-sinensis", "lastmod": "2025-1-20", "herb_names_common": [{"name": "chinese angelica", "mentions": 34, "confidence_score": 248, "total_score": 8432}, {"name": "dong quai", "mentions": 21, "confidence_score": 194, "total_score": 4074}, {"name": "chinese angelica root", "mentions": 21, "confidence_score": 143, "total_score": 3003}, {"name": "tang kuei", "mentions": 18, "confidence_score": 129, "total_score": 2322}, {"name": "angelica root", "mentions": 14, "confidence_score": 86, "total_score": 1204}, {"name": "female ginseng", "mentions": 10, "confidence_score": 63, "total_score": 630}, {"name": "chinese angelic root", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "dong quai root", "mentions": 7, "confidence_score": 32, "total_score": 224}, {"name": "dang gui", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "chinese ginseng", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "tang kwei", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "ginseng of women", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "radix angelicae sinensis", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "sinensis", "mentions": 6, "confidence_score": 11, "total_score": 66}, {"name": "huang qi", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "tangkuei", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "wild angelica", "mentions": 3, "confidence_score": 7, "total_score": 21}, {"name": "maidenhair", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "tangkiu", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "female ginseng root", "mentions": 1, "confidence_score": 6, "total_score": 6}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 176, "total_score": 3520}], "what_description": "Angelica sinensis is a perennial plant native to China, belonging to the family Apiaceae. It grows up to 2 meters in height, with a single stem bearing compound leaves consisting of 3-5 leaflets, each 3-10 cm long. The leaves are dark green, lanceolate, and serrated with a prominent midrib. The plant produces small, white or greenish flowers in an umbel, which is 10-20 cm in diameter, and is rich in nectar, attracting pollinators. The roots of Angelica sinensis are harvested for medicinal use, valued for their antioxidant, anti-inflammatory, and hepatoprotective properties.", "category_action": "adaptogens", "ailments": [{"name": "fatigue", "mentions": 12, "confidence_score": 90, "total_score": 1080}, {"name": "asthma", "mentions": 10, "confidence_score": 72, "total_score": 720}, {"name": "diarrhea", "mentions": 9, "confidence_score": 65, "total_score": 585}, {"name": "hypertension", "mentions": 10, "confidence_score": 62, "total_score": 620}, {"name": "rheumatoid arthritis", "mentions": 8, "confidence_score": 56, "total_score": 448}, {"name": "anemia", "mentions": 6, "confidence_score": 52, "total_score": 312}, {"name": "menstrual disorder", "mentions": 5, "confidence_score": 49, "total_score": 245}, {"name": "inflammation", "mentions": 7, "confidence_score": 42, "total_score": 294}, {"name": "menstrual cramps", "mentions": 4, "confidence_score": 39, "total_score": 156}, {"name": "digestive issues", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "cough", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "eczema", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "menstrual issues", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "migraines", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "anxiety", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "rheumatism", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "gastroenteritis", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "fever", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "menorrhagia", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "diabetes", "mentions": 3, "confidence_score": 19, "total_score": 57}], "ailments_description": "The most common ailments you can heal with Angelica sinensis are fatigue, which is alleviated due to its high iron content and its ability to increase red blood cell count, and asthma, as it has been shown to relax bronchial muscles and reduce inflammation. Additionally, its anti-diarrheal properties can help alleviate diarrhea by regulating bowel movements and reducing fluid loss. Hypertension is also effectively managed with Angelica sinensis, as it has been proven to lower blood pressure by reducing vascular resistance and enhancing vasodilation. Furthermore, rheumatoid arthritis symptoms are reduced with the plant's anti-inflammatory and immunomodulatory properties, which can inhibit the production of pro-inflammatory cytokines. Its properties also benefit anemia, menstrual disorders, inflammation, menstrual cramps, digestive issues, cough, eczema, migraines, anxiety, rheumatism, gastroenteritis, fever, menorrhagia, diabetes.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 176, "total_score": 3520}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 167, "total_score": 3340}, {"name": "cardioprotective", "mentions": 19, "confidence_score": 142, "total_score": 2698}, {"name": "analgesic", "mentions": 20, "confidence_score": 139, "total_score": 2780}, {"name": "antimicrobial", "mentions": 18, "confidence_score": 134, "total_score": 2412}, {"name": "neuroprotective", "mentions": 17, "confidence_score": 123, "total_score": 2091}, {"name": "hepatoprotective", "mentions": 16, "confidence_score": 105, "total_score": 1680}, {"name": "immunomodulatory", "mentions": 15, "confidence_score": 99, "total_score": 1485}, {"name": "anticancer", "mentions": 13, "confidence_score": 74, "total_score": 962}, {"name": "antispasmodic", "mentions": 10, "confidence_score": 73, "total_score": 730}, {"name": "antiviral", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "antihistamine", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "antipyretic", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "antibacterial", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "antifungal", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "antidiabetic", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "cytoprotective", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "immune system modulation", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "antihypertensive", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "immune system stimulant", "mentions": 1, "confidence_score": 6, "total_score": 6}], "properties_description": "The main therapeutic properties of Angelica sinensis are its antioxidant properties, which help protect the body from oxidative stress and damage caused by free radicals. This is attributed to the presence of flavonoids and phenolic acids, such as sinensiside and ligustilide, which exhibit strong free radical scavenging activity. Furthermore, Angelica sinensis has anti-inflammatory properties, which are mainly due to the presence of saponins, including angelan and acetyl-angelan, that can modulate the inflammatory response by inhibiting the production of pro-inflammatory cytokines. Additionally, this plant has cardioprotective effects, which are likely due to its ability to inhibit platelet aggregation and improve blood lipid profiles, as well as its antioxidant properties. Its analgesic and antimicrobial properties are also notable, with volatile oils, such as bornyl acetate and eugenol, contributing to its analgesic and antimicrobial activities.", "constituents": [{"name": "ligustilide", "mentions": 17, "confidence_score": 152, "total_score": 2584}, {"name": "butylphthalide", "mentions": 18, "confidence_score": 152, "total_score": 2736}, {"name": "ferulic acid", "mentions": 14, "confidence_score": 109, "total_score": 1526}, {"name": "coumarins", "mentions": 11, "confidence_score": 73, "total_score": 803}, {"name": "phenolic acids", "mentions": 8, "confidence_score": 53, "total_score": 424}, {"name": "saponins", "mentions": 6, "confidence_score": 49, "total_score": 294}, {"name": "berberine", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "acacetin", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "polysaccharides", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "angelol b", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "senkyunolide a", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "apiol", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "n-butylphthalide", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "senkyunolide b", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "apigenin", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "oleanolic acid", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "vitamin b12", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "vitamin b6", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "angelicine", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "luteolin", "mentions": 2, "confidence_score": 14, "total_score": 28}], "constituents_description": "The most important healing constituents of Angelica sinensis are ligustilide, a sesquiterpene lactone with anti-inflammatory and antispasmodic properties, butylphthalide, a sesquiterpene with neuroprotective effects, ferulic acid, a phenolic acid with antioxidant and anti-inflammatory activities, coumarins, a class of compounds with anticoagulant and anti-inflammatory properties, and phenolic acids, including ferulic acid, which have been shown to scavenge free radicals and inhibit the production of pro-inflammatory cytokines, all of which contribute to the plant's ability to promote cardiovascular health, alleviate menopausal symptoms, and reduce inflammation and oxidative stress. Ligustilide has been found to relax smooth muscle, inhibit platelet aggregation, and reduce the production of pro-inflammatory mediators. Butylphthalide has been shown to protect against neurodegenerative diseases by reducing oxidative stress and inflammation in the brain. Ferulic acid has been found to inhibit the production of pro-inflammatory cytokines and scavenge free radicals, contributing to its antioxidant and anti-inflammatory effects. The combination of these constituents in Angelica sinensis makes it a valuable medicinal plant for promoting cardiovascular health, reducing inflammation and oxidative stress, and alleviating menopausal symptoms.", "preparations": [{"name": "dong quai tea", "mentions": 15, "confidence_score": 147, "total_score": 2205}, {"name": "dong quai capsules", "mentions": 14, "confidence_score": 100, "total_score": 1400}, {"name": "angelica sinensis tincture", "mentions": 8, "confidence_score": 63, "total_score": 504}, {"name": "angelica tincture", "mentions": 7, "confidence_score": 58, "total_score": 406}, {"name": "dong quai extract", "mentions": 8, "confidence_score": 52, "total_score": 416}, {"name": "angelica sinensis extract", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "angelica sinensis infusion", "mentions": 6, "confidence_score": 49, "total_score": 294}, {"name": "angelica sinensis capsules", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "angelica sinensis tea", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "dong quai infusion", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "angelica sinensis oil", "mentions": 8, "confidence_score": 37, "total_score": 296}, {"name": "angelica infusion", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "dong quai tincture", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "angelica extract", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "dong quai powder", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "dong quai decoction", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "angelica sinensis decoction", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "angelica oil", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "dong quai oil", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "ba zhen wan", "mentions": 1, "confidence_score": 9, "total_score": 9}], "preparations_description": "The main herbal preparations of Angelica sinensis are derived from its root and are primarily used to promote women's health and alleviate menstrual issues. Dong quai tea is a traditional preparation made by steeping the dried root in hot water, often used to ease menstrual cramps and regulate menstrual cycles. Dong quai capsules are a standardized extract of the root, typically containing 10-20% ferulic acid, which has been shown to have anti-inflammatory and antioxidant properties. Angelica sinensis tincture and angelica tincture are liquid extracts of the root, often used to treat menstrual disorders and menopausal symptoms due to their high content of isoflavones and ferulic acid. Dong quai extract is a concentrated form of the root's bioactive compounds, commonly used in pharmaceuticals and dietary supplements to alleviate menstrual irregularities and promote female reproductive health.", "side_effects": [{"name": "trigger allergic reactions", "mentions": 10, "confidence_score": 71, "total_score": 710}, {"name": "lower blood pressure", "mentions": 7, "confidence_score": 49, "total_score": 343}, {"name": "cause liver damage", "mentions": 6, "confidence_score": 48, "total_score": 288}, {"name": "interact with medications", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "interact with blood thinners", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "develops abdominal pain", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "cause nausea", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "induce nausea", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "increase bleeding risk", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "cause diarrhea", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "induce vomiting", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "suffers dizziness", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "hypotension", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "exhibits fatigue", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "cause allergic reactions", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "causes nausea", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "experiences hemorrhage", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "cause vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "gastrointestinal bleeding", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "increases bleeding risk", "mentions": 2, "confidence_score": 17, "total_score": 34}], "side_effects_description": "The possible side effects of using Angelica sinensis improperly include triggering allergic reactions, particularly in individuals with sensitivities to plants in the same family, such as the carrot and parsley family. Additionally, consuming large quantities of Angelica sinensis may cause a significant drop in blood pressure, potentially leading to dizziness, fainting, or other cardiovascular issues. Prolonged or excessive use of Angelica sinensis has been linked to liver damage, as it contains compounds that can be toxic to the liver in high concentrations. Furthermore, Angelica sinensis may interact with certain medications, including blood thinners such as warfarin, as well as other herbs and supplements, potentially increasing the risk of bleeding or other adverse effects. This is due to the plant's ability to enhance the activity of certain enzymes that metabolize these medications."}
+{
+    "title": "Angelica sinensis",
+    "herb_slug": "angelica-sinensis",
+    "herb_name_scientific": "Angelica sinensis",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/angelica-sinensis",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "chinese angelica",
+            "mentions": 34,
+            "confidence_score": 248,
+            "total_score": 8432
+        },
+        {
+            "name": "dong quai",
+            "mentions": 21,
+            "confidence_score": 194,
+            "total_score": 4074
+        },
+        {
+            "name": "chinese angelica root",
+            "mentions": 21,
+            "confidence_score": 143,
+            "total_score": 3003
+        },
+        {
+            "name": "tang kuei",
+            "mentions": 18,
+            "confidence_score": 129,
+            "total_score": 2322
+        },
+        {
+            "name": "angelica root",
+            "mentions": 14,
+            "confidence_score": 86,
+            "total_score": 1204
+        },
+        {
+            "name": "female ginseng",
+            "mentions": 10,
+            "confidence_score": 63,
+            "total_score": 630
+        },
+        {
+            "name": "chinese angelic root",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "dong quai root",
+            "mentions": 7,
+            "confidence_score": 32,
+            "total_score": 224
+        },
+        {
+            "name": "dang gui",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "chinese ginseng",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "tang kwei",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "ginseng of women",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "radix angelicae sinensis",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "sinensis",
+            "mentions": 6,
+            "confidence_score": 11,
+            "total_score": 66
+        },
+        {
+            "name": "huang qi",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "tangkuei",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "wild angelica",
+            "mentions": 3,
+            "confidence_score": 7,
+            "total_score": 21
+        },
+        {
+            "name": "maidenhair",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "tangkiu",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "female ginseng root",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 176,
+            "total_score": 3520
+        }
+    ],
+    "what_description": "Angelica sinensis is a perennial plant native to China, belonging to the family Apiaceae. It grows up to 2 meters in height, with a single stem bearing compound leaves consisting of 3-5 leaflets, each 3-10 cm long. The leaves are dark green, lanceolate, and serrated with a prominent midrib. The plant produces small, white or greenish flowers in an umbel, which is 10-20 cm in diameter, and is rich in nectar, attracting pollinators. The roots of Angelica sinensis are harvested for medicinal use, valued for their antioxidant, anti-inflammatory, and hepatoprotective properties.",
+    "category_action": "adaptogens",
+    "ailments": [
+        {
+            "name": "fatigue",
+            "mentions": 12,
+            "confidence_score": 90,
+            "total_score": 1080
+        },
+        {
+            "name": "asthma",
+            "mentions": 10,
+            "confidence_score": 72,
+            "total_score": 720
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 9,
+            "confidence_score": 65,
+            "total_score": 585
+        },
+        {
+            "name": "hypertension",
+            "mentions": 10,
+            "confidence_score": 62,
+            "total_score": 620
+        },
+        {
+            "name": "rheumatoid arthritis",
+            "mentions": 8,
+            "confidence_score": 56,
+            "total_score": 448
+        },
+        {
+            "name": "anemia",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "name": "menstrual disorder",
+            "mentions": 5,
+            "confidence_score": 49,
+            "total_score": 245
+        },
+        {
+            "name": "inflammation",
+            "mentions": 7,
+            "confidence_score": 42,
+            "total_score": 294
+        },
+        {
+            "name": "menstrual cramps",
+            "mentions": 4,
+            "confidence_score": 39,
+            "total_score": 156
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "cough",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "eczema",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "menstrual issues",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "migraines",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "anxiety",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "fever",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "menorrhagia",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "diabetes",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Angelica sinensis are fatigue, which is alleviated due to its high iron content and its ability to increase red blood cell count, and asthma, as it has been shown to relax bronchial muscles and reduce inflammation. Additionally, its anti-diarrheal properties can help alleviate diarrhea by regulating bowel movements and reducing fluid loss. Hypertension is also effectively managed with Angelica sinensis, as it has been proven to lower blood pressure by reducing vascular resistance and enhancing vasodilation. Furthermore, rheumatoid arthritis symptoms are reduced with the plant's anti-inflammatory and immunomodulatory properties, which can inhibit the production of pro-inflammatory cytokines. Its properties also benefit anemia, menstrual disorders, inflammation, menstrual cramps, digestive issues, cough, eczema, migraines, anxiety, rheumatism, gastroenteritis, fever, menorrhagia, diabetes.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 176,
+            "total_score": 3520
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 167,
+            "total_score": 3340
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 19,
+            "confidence_score": 142,
+            "total_score": 2698
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 139,
+            "total_score": 2780
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 18,
+            "confidence_score": 134,
+            "total_score": 2412
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 17,
+            "confidence_score": 123,
+            "total_score": 2091
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 16,
+            "confidence_score": 105,
+            "total_score": 1680
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 15,
+            "confidence_score": 99,
+            "total_score": 1485
+        },
+        {
+            "name": "anticancer",
+            "mentions": 13,
+            "confidence_score": 74,
+            "total_score": 962
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 10,
+            "confidence_score": 73,
+            "total_score": 730
+        },
+        {
+            "name": "antiviral",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "antifungal",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "immune system modulation",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "immune system stimulant",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Angelica sinensis are its antioxidant properties, which help protect the body from oxidative stress and damage caused by free radicals. This is attributed to the presence of flavonoids and phenolic acids, such as sinensiside and ligustilide, which exhibit strong free radical scavenging activity. Furthermore, Angelica sinensis has anti-inflammatory properties, which are mainly due to the presence of saponins, including angelan and acetyl-angelan, that can modulate the inflammatory response by inhibiting the production of pro-inflammatory cytokines. Additionally, this plant has cardioprotective effects, which are likely due to its ability to inhibit platelet aggregation and improve blood lipid profiles, as well as its antioxidant properties. Its analgesic and antimicrobial properties are also notable, with volatile oils, such as bornyl acetate and eugenol, contributing to its analgesic and antimicrobial activities.",
+    "constituents": [
+        {
+            "name": "ligustilide",
+            "mentions": 17,
+            "confidence_score": 152,
+            "total_score": 2584
+        },
+        {
+            "name": "butylphthalide",
+            "mentions": 18,
+            "confidence_score": 152,
+            "total_score": 2736
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 14,
+            "confidence_score": 109,
+            "total_score": 1526
+        },
+        {
+            "name": "coumarins",
+            "mentions": 11,
+            "confidence_score": 73,
+            "total_score": 803
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 8,
+            "confidence_score": 53,
+            "total_score": 424
+        },
+        {
+            "name": "saponins",
+            "mentions": 6,
+            "confidence_score": 49,
+            "total_score": 294
+        },
+        {
+            "name": "berberine",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "acacetin",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "polysaccharides",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "angelol b",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "senkyunolide a",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "apiol",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "n-butylphthalide",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "senkyunolide b",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "apigenin",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "vitamin b12",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "vitamin b6",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "angelicine",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "luteolin",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Angelica sinensis are ligustilide, a sesquiterpene lactone with anti-inflammatory and antispasmodic properties, butylphthalide, a sesquiterpene with neuroprotective effects, ferulic acid, a phenolic acid with antioxidant and anti-inflammatory activities, coumarins, a class of compounds with anticoagulant and anti-inflammatory properties, and phenolic acids, including ferulic acid, which have been shown to scavenge free radicals and inhibit the production of pro-inflammatory cytokines, all of which contribute to the plant's ability to promote cardiovascular health, alleviate menopausal symptoms, and reduce inflammation and oxidative stress. Ligustilide has been found to relax smooth muscle, inhibit platelet aggregation, and reduce the production of pro-inflammatory mediators. Butylphthalide has been shown to protect against neurodegenerative diseases by reducing oxidative stress and inflammation in the brain. Ferulic acid has been found to inhibit the production of pro-inflammatory cytokines and scavenge free radicals, contributing to its antioxidant and anti-inflammatory effects. The combination of these constituents in Angelica sinensis makes it a valuable medicinal plant for promoting cardiovascular health, reducing inflammation and oxidative stress, and alleviating menopausal symptoms.",
+    "preparations": [
+        {
+            "name": "dong quai tea",
+            "mentions": 15,
+            "confidence_score": 147,
+            "total_score": 2205
+        },
+        {
+            "name": "dong quai capsules",
+            "mentions": 14,
+            "confidence_score": 100,
+            "total_score": 1400
+        },
+        {
+            "name": "angelica sinensis tincture",
+            "mentions": 8,
+            "confidence_score": 63,
+            "total_score": 504
+        },
+        {
+            "name": "angelica tincture",
+            "mentions": 7,
+            "confidence_score": 58,
+            "total_score": 406
+        },
+        {
+            "name": "dong quai extract",
+            "mentions": 8,
+            "confidence_score": 52,
+            "total_score": 416
+        },
+        {
+            "name": "angelica sinensis extract",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "angelica sinensis infusion",
+            "mentions": 6,
+            "confidence_score": 49,
+            "total_score": 294
+        },
+        {
+            "name": "angelica sinensis capsules",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "angelica sinensis tea",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "dong quai infusion",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "angelica sinensis oil",
+            "mentions": 8,
+            "confidence_score": 37,
+            "total_score": 296
+        },
+        {
+            "name": "angelica infusion",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "dong quai tincture",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "angelica extract",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "dong quai powder",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "dong quai decoction",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "angelica sinensis decoction",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "angelica oil",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "dong quai oil",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "ba zhen wan",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Angelica sinensis are derived from its root and are primarily used to promote women's health and alleviate menstrual issues. Dong quai tea is a traditional preparation made by steeping the dried root in hot water, often used to ease menstrual cramps and regulate menstrual cycles. Dong quai capsules are a standardized extract of the root, typically containing 10-20% ferulic acid, which has been shown to have anti-inflammatory and antioxidant properties. Angelica sinensis tincture and angelica tincture are liquid extracts of the root, often used to treat menstrual disorders and menopausal symptoms due to their high content of isoflavones and ferulic acid. Dong quai extract is a concentrated form of the root's bioactive compounds, commonly used in pharmaceuticals and dietary supplements to alleviate menstrual irregularities and promote female reproductive health.",
+    "side_effects": [
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 10,
+            "confidence_score": 71,
+            "total_score": 710
+        },
+        {
+            "name": "lower blood pressure",
+            "mentions": 7,
+            "confidence_score": 49,
+            "total_score": 343
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 6,
+            "confidence_score": 48,
+            "total_score": 288
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "interact with blood thinners",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "develops abdominal pain",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "increase bleeding risk",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "suffers dizziness",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "hypotension",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "exhibits fatigue",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "cause allergic reactions",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "causes nausea",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "experiences hemorrhage",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "gastrointestinal bleeding",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "increases bleeding risk",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Angelica sinensis improperly include triggering allergic reactions, particularly in individuals with sensitivities to plants in the same family, such as the carrot and parsley family. Additionally, consuming large quantities of Angelica sinensis may cause a significant drop in blood pressure, potentially leading to dizziness, fainting, or other cardiovascular issues. Prolonged or excessive use of Angelica sinensis has been linked to liver damage, as it contains compounds that can be toxic to the liver in high concentrations. Furthermore, Angelica sinensis may interact with certain medications, including blood thinners such as warfarin, as well as other herbs and supplements, potentially increasing the risk of bleeding or other adverse effects. This is due to the plant's ability to enhance the activity of certain enzymes that metabolize these medications."
+}

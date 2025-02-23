@@ -1,1 +1,756 @@
-{"title": "Cinchona officinalis", "herb_slug": "cinchona-officinalis", "herb_name_scientific": "Cinchona officinalis", "family_slug": "", "family_name": "", "url": "herbs/cinchona-officinalis", "lastmod": "2025-1-20", "herb_names_common": [{"name": "cinchona", "mentions": 20, "confidence_score": 189, "total_score": 3780}, {"name": "red bark tree", "mentions": 17, "confidence_score": 139, "total_score": 2363}, {"name": "quinine tree", "mentions": 17, "confidence_score": 133, "total_score": 2261}, {"name": "peruvian bark", "mentions": 13, "confidence_score": 115, "total_score": 1495}, {"name": "cinchona tree", "mentions": 13, "confidence_score": 94, "total_score": 1222}, {"name": "quina", "mentions": 11, "confidence_score": 76, "total_score": 836}, {"name": "cinchona bark", "mentions": 10, "confidence_score": 63, "total_score": 630}, {"name": "yellow cinchona", "mentions": 12, "confidence_score": 62, "total_score": 744}, {"name": "febrifuge tree", "mentions": 9, "confidence_score": 51, "total_score": 459}, {"name": "red cinchona", "mentions": 8, "confidence_score": 47, "total_score": 376}, {"name": "jesuit's bark", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "kina", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "yellow bark", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "quinine bark", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cinchona officinalis", "mentions": 8, "confidence_score": 12, "total_score": 96}, {"name": "elder bark", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "cinchona bark tree", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "yellow cinchona bark", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "red cinchona bark", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "elder of the andes", "mentions": 2, "confidence_score": 9, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 188, "total_score": 3760}], "what_description": "Cinchona officinalis is a tropical evergreen tree native to the Andean region of South America, belonging to the family Rubiaceae. It grows up to 15 meters in height, with a broad, rounded crown and smooth, gray bark. The leaves are dark green, elliptical, and alternate, measuring 7-15 cm in length and 3-5 cm in width, with a leathery texture and entire margins. The flowers are small, white, and clustered in axillary panicles, while the fruit is a red or yellow berry, 2-3 cm in diameter, containing 2-4 seeds. The bark of Cinchona officinalis contains a high concentration of alkaloids, particularly quinine, which has been used for centuries to treat malaria.", "category_action": "cardiac", "ailments": [{"name": "malaria", "mentions": 19, "confidence_score": 190, "total_score": 3610}, {"name": "fever", "mentions": 19, "confidence_score": 164, "total_score": 3116}, {"name": "arthritis", "mentions": 17, "confidence_score": 122, "total_score": 2074}, {"name": "inflammation", "mentions": 15, "confidence_score": 114, "total_score": 1710}, {"name": "rheumatism", "mentions": 14, "confidence_score": 102, "total_score": 1428}, {"name": "diarrhea", "mentions": 9, "confidence_score": 59, "total_score": 531}, {"name": "infection", "mentions": 7, "confidence_score": 49, "total_score": 343}, {"name": "pain", "mentions": 8, "confidence_score": 48, "total_score": 384}, {"name": "chills", "mentions": 7, "confidence_score": 41, "total_score": 287}, {"name": "gout", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "headache", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "high blood pressure", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "cholera", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "cough", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "toothache", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "sore throat", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "anemia", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "swelling", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "asthma", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "gastroenteritis", "mentions": 2, "confidence_score": 15, "total_score": 30}], "ailments_description": "The most common ailments you can heal with Cinchona officinalis are malaria, which it effectively treats due to its high quinine content, fever, a symptom often alleviated by its antipyretic properties. Arthritis, caused by inflammation, is also alleviated by the plant's anti-inflammatory compounds. Inflammation, a key component of many diseases, is reduced by Cinchona officinalis's flavonoids and alkaloids. Rheumatism, a condition characterized by joint pain, is relieved by the plant's analgesic and anti-inflammatory properties, as well as diarrhea and gastroenteritis, which are often caused by bacterial infections and are treated by quinine's antimicrobial properties. Additionally, Cinchona officinalis is effective in treating pain, chills, gout, headache, high blood pressure, cholera, cough, toothache, sore throat, anemia, swelling, and asthma.", "properties": [{"name": "antimalarial", "mentions": 18, "confidence_score": 174, "total_score": 3132}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 146, "total_score": 2920}, {"name": "antipyretic", "mentions": 20, "confidence_score": 145, "total_score": 2900}, {"name": "antioxidant", "mentions": 20, "confidence_score": 125, "total_score": 2500}, {"name": "analgesic", "mentions": 19, "confidence_score": 116, "total_score": 2204}, {"name": "cardioactive", "mentions": 13, "confidence_score": 101, "total_score": 1313}, {"name": "antibacterial", "mentions": 14, "confidence_score": 78, "total_score": 1092}, {"name": "antihypertensive", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "hypotensive", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "cardioprotective", "mentions": 7, "confidence_score": 39, "total_score": 273}, {"name": "antiviral", "mentions": 8, "confidence_score": 36, "total_score": 288}, {"name": "diuretic", "mentions": 8, "confidence_score": 33, "total_score": 264}, {"name": "antimicrobial", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "antifungal", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "antiarrhythmic", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "cardiovascular protector", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "vasodilator", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "antiplatelet", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "antiplasmodial", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "cardiac stimulant", "mentions": 1, "confidence_score": 9, "total_score": 9}], "properties_description": "The main therapeutic properties of Cinchona officinalis are its antimalarial effects, which are attributed to the presence of quinine, a bioactive compound that targets the malaria parasite. The plant's anti-inflammatory properties, mediated by flavonoids and alkaloids, contribute to its ability to reduce swelling and ease pain. Additionally, Cinchona officinalis exhibits antipyretic properties, helping to lower fever, a symptom often associated with malaria and other infections. The antioxidant activity of the plant's volatile oils and phenolic compounds helps protect against oxidative stress and cell damage, while also contributing to its analgesic effects, which provide relief from pain.", "constituents": [{"name": "quinine", "mentions": 20, "confidence_score": 196, "total_score": 3920}, {"name": "quinidine", "mentions": 20, "confidence_score": 188, "total_score": 3760}, {"name": "cinchonine", "mentions": 17, "confidence_score": 154, "total_score": 2618}, {"name": "quinic acid", "mentions": 19, "confidence_score": 152, "total_score": 2888}, {"name": "cinchonidine", "mentions": 16, "confidence_score": 139, "total_score": 2224}, {"name": "quinovic acid", "mentions": 16, "confidence_score": 126, "total_score": 2016}, {"name": "cinchoninic acid", "mentions": 13, "confidence_score": 91, "total_score": 1183}, {"name": "quinovose", "mentions": 9, "confidence_score": 60, "total_score": 540}, {"name": "quinovic acid glycosides", "mentions": 7, "confidence_score": 42, "total_score": 294}, {"name": "kaempferol", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "quercetin", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "cinchonol", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "alkaloids", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "quinovic glycosides", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "quinic acid glycosides", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "quinovin", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "rubescine", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "limonene", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "quinine dihydrochloride", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "quinidine-3-glucoside", "mentions": 1, "confidence_score": 8, "total_score": 8}], "constituents_description": "The most important healing constituents of Cinchona officinalis are quinine, quinidine, cinchonine, quinic acid, and cinchonidine, which possess potent anti-inflammatory, antimicrobial, and antimalarial properties. Quinine and quinidine exhibit significant antimalarial activity by inhibiting the growth of Plasmodium parasites, while cinchonine and cinchonidine act synergistically to enhance their effects. Quinic acid, a key metabolite, contributes to the plant's bitter taste and has been shown to possess antioxidant and anti-inflammatory properties, potentially aiding in the treatment of conditions such as fever and rheumatism. Cinchonidine, in particular, has been found to exhibit stronger antimalarial activity than quinine, making it a valuable compound in the treatment of malaria. The combination of these constituents in Cinchona officinalis has been used traditionally to treat various ailments, including malaria, fever, and rheumatism, and has been the subject of extensive scientific study and validation.", "preparations": [{"name": "cinchona tincture", "mentions": 18, "confidence_score": 172, "total_score": 3096}, {"name": "cinchona extract", "mentions": 19, "confidence_score": 143, "total_score": 2717}, {"name": "cinchona infusion", "mentions": 19, "confidence_score": 142, "total_score": 2698}, {"name": "cinchona tea", "mentions": 18, "confidence_score": 142, "total_score": 2556}, {"name": "cinchona oil", "mentions": 8, "confidence_score": 37, "total_score": 296}, {"name": "cinchona decoction", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "cinchona capsules", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "cinchona elixir", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "cinchona powder", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "quinine syrup", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "quinine solution", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "quinine powder", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cinchona salve", "mentions": 5, "confidence_score": 14, "total_score": 70}, {"name": "quinine elixir", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "cinchona bark tea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "cinchona bark tincture", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "quinine tincture", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "quinine infusion", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "quinine wine", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cinchona glycoside", "mentions": 1, "confidence_score": 8, "total_score": 8}], "preparations_description": "The main herbal preparations of Cinchona officinalis are cinchona tincture, an ethanol-based liquid extract containing quinine, a glycoside responsible for its medicinal properties; cinchona extract, a standardized powder or capsule form containing quinine and other alkaloids; cinchona infusion, a liquid herbal remedy made by steeping the dried bark in hot water, used to treat malaria and fever; cinchona tea, a herbal tea brewed from dried Cinchona bark, traditionally used to prevent and treat malaria; cinchona oil, also known as cinchona bark oil, a hydrophobic liquid extract containing quinic acid, used in traditional medicine for its anti-inflammatory and analgesic properties.", "side_effects": [{"name": "exacerbate malaria", "mentions": 7, "confidence_score": 70, "total_score": 490}, {"name": "hypotension", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "nausea", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "induce tachycardia", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "vomiting", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "dizziness", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "experience dizziness", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "trigger seizures", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "overdose", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "induce nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiences tachycardia", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "abuse", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "cause dizziness", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "experience seizures", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "bradycardia", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "interact with digoxin", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop tachycardia", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develops cardiac arrest", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "increase heart rate", "mentions": 2, "confidence_score": 16, "total_score": 32}], "side_effects_description": "The possible side effects of using Cinchona officinalis improperly include exacerbating malaria due to its ability to reduce fever, causing hypotension as it lowers blood pressure, nausea and vomiting resulting from its bitter alkaloids quinine and cinchonine, and inducing tachycardia as the body attempts to compensate for the reduced blood pressure. This is because Cinchona officinalis contains alkaloids that can have a profound impact on the cardiovascular and nervous systems. The improper use of Cinchona officinalis can lead to an imbalance of these alkaloids, resulting in adverse side effects. Quinine, in particular, can cause cardiac arrhythmias and hypotension when taken in excess. Furthermore, the bitter taste and alkaloid content of Cinchona officinalis can cause gastrointestinal upset, including nausea and vomiting."}
+{
+    "title": "Cinchona officinalis",
+    "herb_slug": "cinchona-officinalis",
+    "herb_name_scientific": "Cinchona officinalis",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/cinchona-officinalis",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "cinchona",
+            "mentions": 20,
+            "confidence_score": 189,
+            "total_score": 3780
+        },
+        {
+            "name": "red bark tree",
+            "mentions": 17,
+            "confidence_score": 139,
+            "total_score": 2363
+        },
+        {
+            "name": "quinine tree",
+            "mentions": 17,
+            "confidence_score": 133,
+            "total_score": 2261
+        },
+        {
+            "name": "peruvian bark",
+            "mentions": 13,
+            "confidence_score": 115,
+            "total_score": 1495
+        },
+        {
+            "name": "cinchona tree",
+            "mentions": 13,
+            "confidence_score": 94,
+            "total_score": 1222
+        },
+        {
+            "name": "quina",
+            "mentions": 11,
+            "confidence_score": 76,
+            "total_score": 836
+        },
+        {
+            "name": "cinchona bark",
+            "mentions": 10,
+            "confidence_score": 63,
+            "total_score": 630
+        },
+        {
+            "name": "yellow cinchona",
+            "mentions": 12,
+            "confidence_score": 62,
+            "total_score": 744
+        },
+        {
+            "name": "febrifuge tree",
+            "mentions": 9,
+            "confidence_score": 51,
+            "total_score": 459
+        },
+        {
+            "name": "red cinchona",
+            "mentions": 8,
+            "confidence_score": 47,
+            "total_score": 376
+        },
+        {
+            "name": "jesuit's bark",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "kina",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "yellow bark",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "quinine bark",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cinchona officinalis",
+            "mentions": 8,
+            "confidence_score": 12,
+            "total_score": 96
+        },
+        {
+            "name": "elder bark",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "cinchona bark tree",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "yellow cinchona bark",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "red cinchona bark",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "elder of the andes",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 188,
+            "total_score": 3760
+        }
+    ],
+    "what_description": "Cinchona officinalis is a tropical evergreen tree native to the Andean region of South America, belonging to the family Rubiaceae. It grows up to 15 meters in height, with a broad, rounded crown and smooth, gray bark. The leaves are dark green, elliptical, and alternate, measuring 7-15 cm in length and 3-5 cm in width, with a leathery texture and entire margins. The flowers are small, white, and clustered in axillary panicles, while the fruit is a red or yellow berry, 2-3 cm in diameter, containing 2-4 seeds. The bark of Cinchona officinalis contains a high concentration of alkaloids, particularly quinine, which has been used for centuries to treat malaria.",
+    "category_action": "cardiac",
+    "ailments": [
+        {
+            "name": "malaria",
+            "mentions": 19,
+            "confidence_score": 190,
+            "total_score": 3610
+        },
+        {
+            "name": "fever",
+            "mentions": 19,
+            "confidence_score": 164,
+            "total_score": 3116
+        },
+        {
+            "name": "arthritis",
+            "mentions": 17,
+            "confidence_score": 122,
+            "total_score": 2074
+        },
+        {
+            "name": "inflammation",
+            "mentions": 15,
+            "confidence_score": 114,
+            "total_score": 1710
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 14,
+            "confidence_score": 102,
+            "total_score": 1428
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 9,
+            "confidence_score": 59,
+            "total_score": 531
+        },
+        {
+            "name": "infection",
+            "mentions": 7,
+            "confidence_score": 49,
+            "total_score": 343
+        },
+        {
+            "name": "pain",
+            "mentions": 8,
+            "confidence_score": 48,
+            "total_score": 384
+        },
+        {
+            "name": "chills",
+            "mentions": 7,
+            "confidence_score": 41,
+            "total_score": 287
+        },
+        {
+            "name": "gout",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "headache",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "cholera",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "cough",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "toothache",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "sore throat",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "anemia",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "swelling",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "asthma",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Cinchona officinalis are malaria, which it effectively treats due to its high quinine content, fever, a symptom often alleviated by its antipyretic properties. Arthritis, caused by inflammation, is also alleviated by the plant's anti-inflammatory compounds. Inflammation, a key component of many diseases, is reduced by Cinchona officinalis's flavonoids and alkaloids. Rheumatism, a condition characterized by joint pain, is relieved by the plant's analgesic and anti-inflammatory properties, as well as diarrhea and gastroenteritis, which are often caused by bacterial infections and are treated by quinine's antimicrobial properties. Additionally, Cinchona officinalis is effective in treating pain, chills, gout, headache, high blood pressure, cholera, cough, toothache, sore throat, anemia, swelling, and asthma.",
+    "properties": [
+        {
+            "name": "antimalarial",
+            "mentions": 18,
+            "confidence_score": 174,
+            "total_score": 3132
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 146,
+            "total_score": 2920
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 20,
+            "confidence_score": 145,
+            "total_score": 2900
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 125,
+            "total_score": 2500
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 116,
+            "total_score": 2204
+        },
+        {
+            "name": "cardioactive",
+            "mentions": 13,
+            "confidence_score": 101,
+            "total_score": 1313
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 14,
+            "confidence_score": 78,
+            "total_score": 1092
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 7,
+            "confidence_score": 39,
+            "total_score": 273
+        },
+        {
+            "name": "antiviral",
+            "mentions": 8,
+            "confidence_score": 36,
+            "total_score": 288
+        },
+        {
+            "name": "diuretic",
+            "mentions": 8,
+            "confidence_score": 33,
+            "total_score": 264
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "antifungal",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "antiarrhythmic",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "cardiovascular protector",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "vasodilator",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "antiplatelet",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "antiplasmodial",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "cardiac stimulant",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Cinchona officinalis are its antimalarial effects, which are attributed to the presence of quinine, a bioactive compound that targets the malaria parasite. The plant's anti-inflammatory properties, mediated by flavonoids and alkaloids, contribute to its ability to reduce swelling and ease pain. Additionally, Cinchona officinalis exhibits antipyretic properties, helping to lower fever, a symptom often associated with malaria and other infections. The antioxidant activity of the plant's volatile oils and phenolic compounds helps protect against oxidative stress and cell damage, while also contributing to its analgesic effects, which provide relief from pain.",
+    "constituents": [
+        {
+            "name": "quinine",
+            "mentions": 20,
+            "confidence_score": 196,
+            "total_score": 3920
+        },
+        {
+            "name": "quinidine",
+            "mentions": 20,
+            "confidence_score": 188,
+            "total_score": 3760
+        },
+        {
+            "name": "cinchonine",
+            "mentions": 17,
+            "confidence_score": 154,
+            "total_score": 2618
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 19,
+            "confidence_score": 152,
+            "total_score": 2888
+        },
+        {
+            "name": "cinchonidine",
+            "mentions": 16,
+            "confidence_score": 139,
+            "total_score": 2224
+        },
+        {
+            "name": "quinovic acid",
+            "mentions": 16,
+            "confidence_score": 126,
+            "total_score": 2016
+        },
+        {
+            "name": "cinchoninic acid",
+            "mentions": 13,
+            "confidence_score": 91,
+            "total_score": 1183
+        },
+        {
+            "name": "quinovose",
+            "mentions": 9,
+            "confidence_score": 60,
+            "total_score": 540
+        },
+        {
+            "name": "quinovic acid glycosides",
+            "mentions": 7,
+            "confidence_score": 42,
+            "total_score": 294
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "quercetin",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "cinchonol",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "quinovic glycosides",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "quinic acid glycosides",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "quinovin",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "rubescine",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "limonene",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "quinine dihydrochloride",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "quinidine-3-glucoside",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Cinchona officinalis are quinine, quinidine, cinchonine, quinic acid, and cinchonidine, which possess potent anti-inflammatory, antimicrobial, and antimalarial properties. Quinine and quinidine exhibit significant antimalarial activity by inhibiting the growth of Plasmodium parasites, while cinchonine and cinchonidine act synergistically to enhance their effects. Quinic acid, a key metabolite, contributes to the plant's bitter taste and has been shown to possess antioxidant and anti-inflammatory properties, potentially aiding in the treatment of conditions such as fever and rheumatism. Cinchonidine, in particular, has been found to exhibit stronger antimalarial activity than quinine, making it a valuable compound in the treatment of malaria. The combination of these constituents in Cinchona officinalis has been used traditionally to treat various ailments, including malaria, fever, and rheumatism, and has been the subject of extensive scientific study and validation.",
+    "preparations": [
+        {
+            "name": "cinchona tincture",
+            "mentions": 18,
+            "confidence_score": 172,
+            "total_score": 3096
+        },
+        {
+            "name": "cinchona extract",
+            "mentions": 19,
+            "confidence_score": 143,
+            "total_score": 2717
+        },
+        {
+            "name": "cinchona infusion",
+            "mentions": 19,
+            "confidence_score": 142,
+            "total_score": 2698
+        },
+        {
+            "name": "cinchona tea",
+            "mentions": 18,
+            "confidence_score": 142,
+            "total_score": 2556
+        },
+        {
+            "name": "cinchona oil",
+            "mentions": 8,
+            "confidence_score": 37,
+            "total_score": 296
+        },
+        {
+            "name": "cinchona decoction",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "cinchona capsules",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "cinchona elixir",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "cinchona powder",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "quinine syrup",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "quinine solution",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "quinine powder",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cinchona salve",
+            "mentions": 5,
+            "confidence_score": 14,
+            "total_score": 70
+        },
+        {
+            "name": "quinine elixir",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "cinchona bark tea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "cinchona bark tincture",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "quinine tincture",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "quinine infusion",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "quinine wine",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cinchona glycoside",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Cinchona officinalis are cinchona tincture, an ethanol-based liquid extract containing quinine, a glycoside responsible for its medicinal properties; cinchona extract, a standardized powder or capsule form containing quinine and other alkaloids; cinchona infusion, a liquid herbal remedy made by steeping the dried bark in hot water, used to treat malaria and fever; cinchona tea, a herbal tea brewed from dried Cinchona bark, traditionally used to prevent and treat malaria; cinchona oil, also known as cinchona bark oil, a hydrophobic liquid extract containing quinic acid, used in traditional medicine for its anti-inflammatory and analgesic properties.",
+    "side_effects": [
+        {
+            "name": "exacerbate malaria",
+            "mentions": 7,
+            "confidence_score": 70,
+            "total_score": 490
+        },
+        {
+            "name": "hypotension",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "nausea",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "induce tachycardia",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "vomiting",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "dizziness",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "overdose",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiences tachycardia",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "abuse",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "experience seizures",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "bradycardia",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "interact with digoxin",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop tachycardia",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develops cardiac arrest",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Cinchona officinalis improperly include exacerbating malaria due to its ability to reduce fever, causing hypotension as it lowers blood pressure, nausea and vomiting resulting from its bitter alkaloids quinine and cinchonine, and inducing tachycardia as the body attempts to compensate for the reduced blood pressure. This is because Cinchona officinalis contains alkaloids that can have a profound impact on the cardiovascular and nervous systems. The improper use of Cinchona officinalis can lead to an imbalance of these alkaloids, resulting in adverse side effects. Quinine, in particular, can cause cardiac arrhythmias and hypotension when taken in excess. Furthermore, the bitter taste and alkaloid content of Cinchona officinalis can cause gastrointestinal upset, including nausea and vomiting."
+}

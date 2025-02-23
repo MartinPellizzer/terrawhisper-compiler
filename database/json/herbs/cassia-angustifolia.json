@@ -1,1 +1,756 @@
-{"title": "Cassia angustifolia", "herb_slug": "cassia-angustifolia", "herb_name_scientific": "Cassia angustifolia", "family_slug": "", "family_name": "", "url": "herbs/cassia-angustifolia", "lastmod": "2025-1-20", "herb_names_common": [{"name": "senna", "mentions": 20, "confidence_score": 194, "total_score": 3880}, {"name": "tinnevelly senna", "mentions": 27, "confidence_score": 192, "total_score": 5184}, {"name": "indian senna", "mentions": 15, "confidence_score": 116, "total_score": 1740}, {"name": "senna alexandrina", "mentions": 15, "confidence_score": 74, "total_score": 1110}, {"name": "cassia", "mentions": 13, "confidence_score": 69, "total_score": 897}, {"name": "khair", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "country borage", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "tinnevelly cassia", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "kasoori methi", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "senna auriculata", "mentions": 6, "confidence_score": 23, "total_score": 138}, {"name": "country mallow", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "senna angustifolia", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "rough cassia", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "chandrasura", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "egyptian senna", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "alexandrian senna", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "yellow cassia", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "cassia senna", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "sickle bush", "mentions": 4, "confidence_score": 10, "total_score": 40}, {"name": "kassia", "mentions": 2, "confidence_score": 10, "total_score": 20}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 167, "total_score": 3340}], "what_description": "Cassia angustifolia is an annual or perennial herb belonging to the family Fabaceae. It is a shrub or small tree that grows up to 1.5 meters in height, with a smooth or slightly hairy stem. The leaves are pinnate or bipinnate, composed of 2-4 pairs of leaflets, measuring 2-5 cm in length and 0.5-1 cm in width, with a pointed tip and a rounded base. The flowers are small, yellow, and arranged in axillary racemes, producing pods that are 4-6 cm in length and 0.5-1 cm in width, containing 2-4 seeds. Cassia angustifolia is native to the Mediterranean region and is widely cultivated for its medicinal and ornamental purposes.", "category_action": "laxatives", "ailments": [{"name": "diarrhea", "mentions": 9, "confidence_score": 84, "total_score": 756}, {"name": "diabetes", "mentions": 9, "confidence_score": 82, "total_score": 738}, {"name": "constipation", "mentions": 8, "confidence_score": 72, "total_score": 576}, {"name": "anemia", "mentions": 9, "confidence_score": 67, "total_score": 603}, {"name": "fever reduction", "mentions": 8, "confidence_score": 53, "total_score": 424}, {"name": "inflammation", "mentions": 8, "confidence_score": 52, "total_score": 416}, {"name": "hypertension", "mentions": 6, "confidence_score": 52, "total_score": 312}, {"name": "asthma", "mentions": 9, "confidence_score": 46, "total_score": 414}, {"name": "digestive issues", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "gastritis", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "menorrhagia", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "skin infections", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "eczema", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "wound healing", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "kidney stones", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "respiratory issues", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "rheumatism", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "dyspepsia", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "urticaria", "mentions": 4, "confidence_score": 17, "total_score": 68}], "ailments_description": "The most common ailments you can heal with Cassia angustifolia are diarrhea, diabetes and constipation, which the plant has been shown to treat through its astringent and anti-diarrheal properties that help reduce stool frequency and moisture content. Cassia angustifolia has also been used to manage anemia, with its iron-rich leaves providing essential nutrients for red blood cell production and prevention of anemia symptoms. Furthermore, the plant's anti-inflammatory and antipyretic properties make it effective in reducing fever, alleviating inflammation, and lowering hypertension. Additionally, Cassia angustifolia has been traditionally used to alleviate symptoms of asthma, digestive issues, gastritis and menorrhagia, as well as to treat skin infections, eczema, and promote wound healing. Its astringent properties also help in treating gastroenteritis, kidney stones, respiratory issues, rheumatism, dyspepsia, and urticaria.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 173, "total_score": 3460}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 166, "total_score": 3320}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 161, "total_score": 3220}, {"name": "hepatoprotective", "mentions": 18, "confidence_score": 132, "total_score": 2376}, {"name": "analgesic", "mentions": 20, "confidence_score": 131, "total_score": 2620}, {"name": "antidiarrheal", "mentions": 15, "confidence_score": 124, "total_score": 1860}, {"name": "antispasmodic", "mentions": 16, "confidence_score": 113, "total_score": 1808}, {"name": "cardioprotective", "mentions": 16, "confidence_score": 91, "total_score": 1456}, {"name": "anticancer", "mentions": 14, "confidence_score": 66, "total_score": 924}, {"name": "antipyretic", "mentions": 8, "confidence_score": 49, "total_score": 392}, {"name": "antidiabetic", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "neuroprotective", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "cytotoxic", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "anti-ulcer", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "hemostatic", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "antiviral", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "anti-cancer", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "laxative", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "antihistamine", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "antibacterial", "mentions": 1, "confidence_score": 9, "total_score": 9}], "properties_description": "The main therapeutic properties of Cassia angustifolia are primarily related to its antioxidant activity, which is attributed to the presence of flavonoids and phenolic acids that neutralize free radicals and protect the body from oxidative stress. Additionally, the antimicrobial properties of this plant are also noteworthy, as it exhibits inhibitory effects against various pathogens, including bacteria and fungi, due to the presence of saponins and glycosides. The anti-inflammatory properties of Cassia angustifolia are also significant, as it contains compounds like terpenoids and triterpenoids that reduce inflammation and alleviate pain. Furthermore, the hepatoprotective effects of this plant are observed in its ability to protect the liver from damage caused by toxins and oxidative stress, which is attributed to the presence of alkaloids and coumarins. Its analgesic properties are also evident, as it contains bioactive compounds like volatile oils and sesquiterpenes that provide relief from pain and discomfort.", "constituents": [{"name": "saponins", "mentions": 15, "confidence_score": 134, "total_score": 2010}, {"name": "anthraquinones", "mentions": 12, "confidence_score": 109, "total_score": 1308}, {"name": "flavonoids", "mentions": 13, "confidence_score": 96, "total_score": 1248}, {"name": "aloe-emodin", "mentions": 11, "confidence_score": 83, "total_score": 913}, {"name": "alkaloids", "mentions": 12, "confidence_score": 79, "total_score": 948}, {"name": "phenolic acids", "mentions": 10, "confidence_score": 66, "total_score": 660}, {"name": "triterpenoids", "mentions": 11, "confidence_score": 61, "total_score": 671}, {"name": "glycosides", "mentions": 8, "confidence_score": 58, "total_score": 464}, {"name": "coumarins", "mentions": 10, "confidence_score": 57, "total_score": 570}, {"name": "rhein", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "quercetin", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "tannins", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "gallic acid", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "kaempferol", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "cardiac glycosides", "mentions": 7, "confidence_score": 30, "total_score": 210}, {"name": "sennosides a and b", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "chrysophanic acid", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "cassia sennoside c", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "rutin", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "ellagic acid", "mentions": 3, "confidence_score": 19, "total_score": 57}], "constituents_description": "The most important healing constituents of Cassia angustifolia are saponins, anthraquinones, flavonoids, aloe-emodin, and alkaloids, which collectively contribute to its therapeutic effects. Saponins exhibit anti-inflammatory and antioxidant properties, while anthraquinones, specifically aloe-emodin, demonstrate laxative and anti-cancer activities. Flavonoids possess antimicrobial and anti-inflammatory properties, and alkaloids have been found to exhibit anti-inflammatory and anti-diabetic activities. Aloe-emodin has been shown to inhibit cancer cell proliferation and induce apoptosis, while anthraquinones have been used in traditional medicine for their purgative and anti-inflammatory effects. The combination of these constituents in Cassia angustifolia may provide a synergistic effect, contributing to its use in traditional medicine for various health conditions.", "preparations": [{"name": "senna tea", "mentions": 12, "confidence_score": 119, "total_score": 1428}, {"name": "cassia angustifolia tincture", "mentions": 12, "confidence_score": 79, "total_score": 948}, {"name": "cassia powder", "mentions": 7, "confidence_score": 64, "total_score": 448}, {"name": "cassia angustifolia infusion", "mentions": 9, "confidence_score": 63, "total_score": 567}, {"name": "decoction", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "senna capsules", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "senna tincture", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "cassia tea", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "cassia angustifolia capsules", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "cassia extract", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "senna syrup", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "senna liquid extract", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "laxative powder", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cassia angustifolia tea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "glycoside extract", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "herbal infusion", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "senna extract", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "senna powder", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "ointment", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "senna supplement", "mentions": 1, "confidence_score": 9, "total_score": 9}], "preparations_description": "The main herbal preparations of Cassia angustifolia are used for their laxative properties due to the presence of anthraquinone glycosides. Senna tea is a popular preparation made by infusing the dried leaves and pods in hot water to stimulate bowel movements. Cassia angustifolia tincture is a concentrated liquid extract of the herb, often used in homeopathy to treat constipation and digestive issues. Cassia powder is a dried and powdered form of the herb, commonly used as a laxative in capsule or tablet form. Additionally, cassia angustifolia infusion and decoction are also used, with the former being a less concentrated liquid extract made by steeping the herb in cold water, and the latter being a more concentrated liquid extract made by boiling the herb in water.", "side_effects": [{"name": "experiencing diarrhea", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "experiencing nausea", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "induce vomiting", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "experiences nausea", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "trigger allergic reactions", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "cause diarrhea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "showing allergic reactions", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "experiencing dizziness", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "cause kidney damage", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "abuse", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "developing vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "developing abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "showing hepatotoxicity", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develops diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "lead to kidney damage", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "interfere with blood clotting", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "increases blood pressure", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "aggravate asthma", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experiencing hemolysis", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "trigger seizures", "mentions": 2, "confidence_score": 11, "total_score": 22}], "side_effects_description": "The possible side effects of using Cassia angustolide improperly include experiencing diarrhea, which can be caused by the high sennoside content that irritates the intestinal mucosa, leading to an increase in bowel movements. Nausea and vomiting can also occur due to the stimulant laxative properties, which can cause stomach discomfort and electrolyte imbalances. Additionally, Cassia angustolide can trigger allergic reactions in sensitive individuals, including skin rashes, itching, and respiratory issues. These side effects are often associated with the improper use of the plant, such as consuming excessive amounts or using it for extended periods, leading to an increase in the risk of adverse reactions. The severity of these side effects can vary depending on the individual's sensitivity, dosage, and duration of use."}
+{
+    "title": "Cassia angustifolia",
+    "herb_slug": "cassia-angustifolia",
+    "herb_name_scientific": "Cassia angustifolia",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/cassia-angustifolia",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "senna",
+            "mentions": 20,
+            "confidence_score": 194,
+            "total_score": 3880
+        },
+        {
+            "name": "tinnevelly senna",
+            "mentions": 27,
+            "confidence_score": 192,
+            "total_score": 5184
+        },
+        {
+            "name": "indian senna",
+            "mentions": 15,
+            "confidence_score": 116,
+            "total_score": 1740
+        },
+        {
+            "name": "senna alexandrina",
+            "mentions": 15,
+            "confidence_score": 74,
+            "total_score": 1110
+        },
+        {
+            "name": "cassia",
+            "mentions": 13,
+            "confidence_score": 69,
+            "total_score": 897
+        },
+        {
+            "name": "khair",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "country borage",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "tinnevelly cassia",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "kasoori methi",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "senna auriculata",
+            "mentions": 6,
+            "confidence_score": 23,
+            "total_score": 138
+        },
+        {
+            "name": "country mallow",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "senna angustifolia",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "rough cassia",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "chandrasura",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "egyptian senna",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "alexandrian senna",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "yellow cassia",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "cassia senna",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "sickle bush",
+            "mentions": 4,
+            "confidence_score": 10,
+            "total_score": 40
+        },
+        {
+            "name": "kassia",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 167,
+            "total_score": 3340
+        }
+    ],
+    "what_description": "Cassia angustifolia is an annual or perennial herb belonging to the family Fabaceae. It is a shrub or small tree that grows up to 1.5 meters in height, with a smooth or slightly hairy stem. The leaves are pinnate or bipinnate, composed of 2-4 pairs of leaflets, measuring 2-5 cm in length and 0.5-1 cm in width, with a pointed tip and a rounded base. The flowers are small, yellow, and arranged in axillary racemes, producing pods that are 4-6 cm in length and 0.5-1 cm in width, containing 2-4 seeds. Cassia angustifolia is native to the Mediterranean region and is widely cultivated for its medicinal and ornamental purposes.",
+    "category_action": "laxatives",
+    "ailments": [
+        {
+            "name": "diarrhea",
+            "mentions": 9,
+            "confidence_score": 84,
+            "total_score": 756
+        },
+        {
+            "name": "diabetes",
+            "mentions": 9,
+            "confidence_score": 82,
+            "total_score": 738
+        },
+        {
+            "name": "constipation",
+            "mentions": 8,
+            "confidence_score": 72,
+            "total_score": 576
+        },
+        {
+            "name": "anemia",
+            "mentions": 9,
+            "confidence_score": 67,
+            "total_score": 603
+        },
+        {
+            "name": "fever reduction",
+            "mentions": 8,
+            "confidence_score": 53,
+            "total_score": 424
+        },
+        {
+            "name": "inflammation",
+            "mentions": 8,
+            "confidence_score": 52,
+            "total_score": 416
+        },
+        {
+            "name": "hypertension",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "name": "asthma",
+            "mentions": 9,
+            "confidence_score": 46,
+            "total_score": 414
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "gastritis",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "menorrhagia",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "skin infections",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "eczema",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "wound healing",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "kidney stones",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "dyspepsia",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "urticaria",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Cassia angustifolia are diarrhea, diabetes and constipation, which the plant has been shown to treat through its astringent and anti-diarrheal properties that help reduce stool frequency and moisture content. Cassia angustifolia has also been used to manage anemia, with its iron-rich leaves providing essential nutrients for red blood cell production and prevention of anemia symptoms. Furthermore, the plant's anti-inflammatory and antipyretic properties make it effective in reducing fever, alleviating inflammation, and lowering hypertension. Additionally, Cassia angustifolia has been traditionally used to alleviate symptoms of asthma, digestive issues, gastritis and menorrhagia, as well as to treat skin infections, eczema, and promote wound healing. Its astringent properties also help in treating gastroenteritis, kidney stones, respiratory issues, rheumatism, dyspepsia, and urticaria.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 173,
+            "total_score": 3460
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 166,
+            "total_score": 3320
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 18,
+            "confidence_score": 132,
+            "total_score": 2376
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 131,
+            "total_score": 2620
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 15,
+            "confidence_score": 124,
+            "total_score": 1860
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 16,
+            "confidence_score": 113,
+            "total_score": 1808
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 16,
+            "confidence_score": 91,
+            "total_score": 1456
+        },
+        {
+            "name": "anticancer",
+            "mentions": 14,
+            "confidence_score": 66,
+            "total_score": 924
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 8,
+            "confidence_score": 49,
+            "total_score": 392
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "anti-ulcer",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "antiviral",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "anti-cancer",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "laxative",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Cassia angustifolia are primarily related to its antioxidant activity, which is attributed to the presence of flavonoids and phenolic acids that neutralize free radicals and protect the body from oxidative stress. Additionally, the antimicrobial properties of this plant are also noteworthy, as it exhibits inhibitory effects against various pathogens, including bacteria and fungi, due to the presence of saponins and glycosides. The anti-inflammatory properties of Cassia angustifolia are also significant, as it contains compounds like terpenoids and triterpenoids that reduce inflammation and alleviate pain. Furthermore, the hepatoprotective effects of this plant are observed in its ability to protect the liver from damage caused by toxins and oxidative stress, which is attributed to the presence of alkaloids and coumarins. Its analgesic properties are also evident, as it contains bioactive compounds like volatile oils and sesquiterpenes that provide relief from pain and discomfort.",
+    "constituents": [
+        {
+            "name": "saponins",
+            "mentions": 15,
+            "confidence_score": 134,
+            "total_score": 2010
+        },
+        {
+            "name": "anthraquinones",
+            "mentions": 12,
+            "confidence_score": 109,
+            "total_score": 1308
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 13,
+            "confidence_score": 96,
+            "total_score": 1248
+        },
+        {
+            "name": "aloe-emodin",
+            "mentions": 11,
+            "confidence_score": 83,
+            "total_score": 913
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 12,
+            "confidence_score": 79,
+            "total_score": 948
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 10,
+            "confidence_score": 66,
+            "total_score": 660
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 11,
+            "confidence_score": 61,
+            "total_score": 671
+        },
+        {
+            "name": "glycosides",
+            "mentions": 8,
+            "confidence_score": 58,
+            "total_score": 464
+        },
+        {
+            "name": "coumarins",
+            "mentions": 10,
+            "confidence_score": 57,
+            "total_score": 570
+        },
+        {
+            "name": "rhein",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "quercetin",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "tannins",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "cardiac glycosides",
+            "mentions": 7,
+            "confidence_score": 30,
+            "total_score": 210
+        },
+        {
+            "name": "sennosides a and b",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "chrysophanic acid",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "cassia sennoside c",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "rutin",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Cassia angustifolia are saponins, anthraquinones, flavonoids, aloe-emodin, and alkaloids, which collectively contribute to its therapeutic effects. Saponins exhibit anti-inflammatory and antioxidant properties, while anthraquinones, specifically aloe-emodin, demonstrate laxative and anti-cancer activities. Flavonoids possess antimicrobial and anti-inflammatory properties, and alkaloids have been found to exhibit anti-inflammatory and anti-diabetic activities. Aloe-emodin has been shown to inhibit cancer cell proliferation and induce apoptosis, while anthraquinones have been used in traditional medicine for their purgative and anti-inflammatory effects. The combination of these constituents in Cassia angustifolia may provide a synergistic effect, contributing to its use in traditional medicine for various health conditions.",
+    "preparations": [
+        {
+            "name": "senna tea",
+            "mentions": 12,
+            "confidence_score": 119,
+            "total_score": 1428
+        },
+        {
+            "name": "cassia angustifolia tincture",
+            "mentions": 12,
+            "confidence_score": 79,
+            "total_score": 948
+        },
+        {
+            "name": "cassia powder",
+            "mentions": 7,
+            "confidence_score": 64,
+            "total_score": 448
+        },
+        {
+            "name": "cassia angustifolia infusion",
+            "mentions": 9,
+            "confidence_score": 63,
+            "total_score": 567
+        },
+        {
+            "name": "decoction",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "senna capsules",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "senna tincture",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "cassia tea",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "cassia angustifolia capsules",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "cassia extract",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "senna syrup",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "senna liquid extract",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "laxative powder",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cassia angustifolia tea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "glycoside extract",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "herbal infusion",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "senna extract",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "senna powder",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "ointment",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "senna supplement",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Cassia angustifolia are used for their laxative properties due to the presence of anthraquinone glycosides. Senna tea is a popular preparation made by infusing the dried leaves and pods in hot water to stimulate bowel movements. Cassia angustifolia tincture is a concentrated liquid extract of the herb, often used in homeopathy to treat constipation and digestive issues. Cassia powder is a dried and powdered form of the herb, commonly used as a laxative in capsule or tablet form. Additionally, cassia angustifolia infusion and decoction are also used, with the former being a less concentrated liquid extract made by steeping the herb in cold water, and the latter being a more concentrated liquid extract made by boiling the herb in water.",
+    "side_effects": [
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "showing allergic reactions",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "cause kidney damage",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "abuse",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "developing vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "developing abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "showing hepatotoxicity",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "lead to kidney damage",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "interfere with blood clotting",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "increases blood pressure",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "aggravate asthma",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experiencing hemolysis",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Cassia angustolide improperly include experiencing diarrhea, which can be caused by the high sennoside content that irritates the intestinal mucosa, leading to an increase in bowel movements. Nausea and vomiting can also occur due to the stimulant laxative properties, which can cause stomach discomfort and electrolyte imbalances. Additionally, Cassia angustolide can trigger allergic reactions in sensitive individuals, including skin rashes, itching, and respiratory issues. These side effects are often associated with the improper use of the plant, such as consuming excessive amounts or using it for extended periods, leading to an increase in the risk of adverse reactions. The severity of these side effects can vary depending on the individual's sensitivity, dosage, and duration of use."
+}

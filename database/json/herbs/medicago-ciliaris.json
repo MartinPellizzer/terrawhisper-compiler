@@ -1,1 +1,713 @@
-{"title": "Medicago ciliaris", "herb_slug": "medicago-ciliaris", "herb_name_scientific": "Medicago ciliaris", "family_slug": "fabaceae", "family_name": "Fabaceae", "url": "herbs/medicago-ciliaris", "lastmod": "2025-2-4", "herb_names_common": [{"name": "button medick", "mentions": 24, "confidence_score": 164, "total_score": 3936}, {"name": "hairy medick", "mentions": 13, "confidence_score": 105, "total_score": 1365}, {"name": "hairy medic", "mentions": 13, "confidence_score": 87, "total_score": 1131}, {"name": "button clover", "mentions": 9, "confidence_score": 72, "total_score": 648}, {"name": "hairy clover", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "horned burr clover", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "bird's foot clover", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "hairy lucerne", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "small bird's-foot trefoil", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "hairy button medick", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "horned medick", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "hairy button clover", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "small bird's foot clover", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "ciliated medick", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "small medick", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "little french clover", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "hairy medic clover", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "hairy trefoil", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "burr medic", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "bur clover", "mentions": 2, "confidence_score": 11, "total_score": 22}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 168, "total_score": 3360}], "what_description": "Medicago ciliaris is a perennial herb native to the Mediterranean region, belonging to the family Fabaceae. It has a prostrate or ascending habit, with a maximum height of 50 cm, and a maximum leaf span of 10 cm. The leaves are trifoliate, with leaflets 2-4 cm long and 1-2 cm wide, having a serrated margin and a stipule at the base. The plant produces purple flowers in a raceme, with a corolla 10-12 mm long and 6-8 mm wide, and a fruit that is a legume, 10-15 mm long and 5-7 mm wide. The plant's roots contain nodules that are home to Rhizobia bacteria, facilitating nitrogen fixation.", "category_action": "alteratives", "ailments": [{"name": "diabetes", "mentions": 18, "confidence_score": 157, "total_score": 2826}, {"name": "inflammation", "mentions": 15, "confidence_score": 127, "total_score": 1905}, {"name": "hypertension", "mentions": 13, "confidence_score": 101, "total_score": 1313}, {"name": "arthritis", "mentions": 14, "confidence_score": 99, "total_score": 1386}, {"name": "digestive issues", "mentions": 11, "confidence_score": 73, "total_score": 803}, {"name": "anemia", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "gastritis", "mentions": 8, "confidence_score": 47, "total_score": 376}, {"name": "cancer prevention", "mentions": 8, "confidence_score": 45, "total_score": 360}, {"name": "cardiovascular disease", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "cancer", "mentions": 9, "confidence_score": 42, "total_score": 378}, {"name": "hyperlipidemia", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "gastroenteritis", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "high blood pressure", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "asthma", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "osteoporosis", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "gout", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "atherosclerosis", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "high cholesterol", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "rheumatism", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "cholesterol", "mentions": 3, "confidence_score": 21, "total_score": 63}], "ailments_description": "The most common ailments you can heal with Medicago ciliaris are diabetes, hypertension, arthritis, and inflammatory conditions. Medicago ciliaris has been proven to reduce inflammation by suppressing pro-inflammatory cytokines and enzymes, and its flavonoids have been shown to improve insulin sensitivity and glucose metabolism in diabetic patients. Its isoflavones have also been found to lower blood pressure in hypertensive individuals and alleviate symptoms of arthritis, such as joint pain and swelling. Additionally, Medicago ciliaris has been used to treat digestive issues, anemia, gastritis, and gastroenteritis by reducing oxidative stress, improving nutrient absorption, and enhancing the production of red blood cells. Furthermore, its flavonoids have been shown to prevent cancer, cardiovascular disease, hyperlipidemia, and atherosclerosis by inhibiting the growth of cancer cells, improving blood lipid profiles, and preventing the formation of plaque in blood vessels.", "properties": [{"name": "antioxidant", "mentions": 21, "confidence_score": 156, "total_score": 3276}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 141, "total_score": 2820}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 127, "total_score": 2540}, {"name": "antibacterial", "mentions": 10, "confidence_score": 72, "total_score": 720}, {"name": "cardioprotective", "mentions": 14, "confidence_score": 69, "total_score": 966}, {"name": "antifungal", "mentions": 11, "confidence_score": 69, "total_score": 759}, {"name": "hypoglycemic", "mentions": 11, "confidence_score": 51, "total_score": 561}, {"name": "hemostatic", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "hepatoprotective", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "immunomodulatory", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "analgesic", "mentions": 8, "confidence_score": 30, "total_score": 240}, {"name": "antihypertensive", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "anticancer", "mentions": 7, "confidence_score": 21, "total_score": 147}, {"name": "antidiabetic", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "antiseptic", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "wound healing", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "antidiarrheal", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "neuroprotective", "mentions": 5, "confidence_score": 13, "total_score": 65}, {"name": "antiviral", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "antispasmodic", "mentions": 3, "confidence_score": 12, "total_score": 36}], "properties_description": "The main therapeutic properties of Medicago ciliaris are its antioxidant activity, which is attributed to the flavonoids present in the plant. Additionally, Medicago ciliaris exhibits antimicrobial properties, inhibiting the growth of various pathogens, including bacteria and fungi, which is due to the presence of saponins and volatile oils in the plant. The anti-inflammatory properties of Medicago ciliaris are also well-documented, with its ability to reduce inflammation and alleviate conditions such as arthritis, which is a result of the plant's content of phenolic acids and flavonoids. Furthermore, Medicago ciliaris possesses antibacterial properties, demonstrating the ability to inhibit the growth of certain bacterial strains, including Escherichia coli and Staphylococcus aureus, which is due to the presence of saponins and alkaloids in the plant. Medicago ciliaris also exhibits cardioprotective properties, with its ability to protect against cardiovascular disease and improve heart health, which is attributed to the plant's content of flavonoids, phenolic acids, and saponins.", "constituents": [{"name": "saponins", "mentions": 17, "confidence_score": 134, "total_score": 2278}, {"name": "flavonoids", "mentions": 16, "confidence_score": 115, "total_score": 1840}, {"name": "phenolic acids", "mentions": 14, "confidence_score": 91, "total_score": 1274}, {"name": "triterpenoids", "mentions": 17, "confidence_score": 90, "total_score": 1530}, {"name": "alkaloids", "mentions": 16, "confidence_score": 72, "total_score": 1152}, {"name": "coumarins", "mentions": 14, "confidence_score": 65, "total_score": 910}, {"name": "glycosides", "mentions": 11, "confidence_score": 62, "total_score": 682}, {"name": "isoflavones", "mentions": 10, "confidence_score": 57, "total_score": 570}, {"name": "amino acids", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "medicagenin", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "fatty acids", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "tannins", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "phytosterols", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "minerals", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "medicagenone", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "phytoestrogens", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "carotenoids", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "medicago ciliaris flavonoids", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "sterols", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "phenolic glycosides", "mentions": 3, "confidence_score": 10, "total_score": 30}], "constituents_description": "The most important healing constituents of Medicago ciliaris are saponins, flavonoids, phenolic acids, triterpenoids, and alkaloids. Saponins in Medicago ciliaris exhibit anti-inflammatory and antioxidant properties due to their ability to scavenge free radicals and inhibit pro-inflammatory enzymes. Flavonoids present in the plant have been shown to possess antimicrobial and antiviral activities, whereas phenolic acids have been found to exert antioxidant and anti-inflammatory effects. Triterpenoids, including compounds like ursolic acid and oleanolic acid, have been reported to exhibit anti-inflammatory and immunomodulatory activities in Medicago ciliaris. Alkaloids, such as medicagoine and medicagol, have been found to possess antimicrobial and antitumor properties, contributing to the plant's overall medicinal value.", "preparations": [{"name": "infusion", "mentions": 20, "confidence_score": 169, "total_score": 3380}, {"name": "tea", "mentions": 19, "confidence_score": 141, "total_score": 2679}, {"name": "tincture", "mentions": 20, "confidence_score": 119, "total_score": 2380}, {"name": "salve", "mentions": 20, "confidence_score": 84, "total_score": 1680}, {"name": "decoction", "mentions": 15, "confidence_score": 78, "total_score": 1170}, {"name": "ointment", "mentions": 6, "confidence_score": 19, "total_score": 114}, {"name": "extract", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "capsule", "mentions": 6, "confidence_score": 12, "total_score": 72}, {"name": "poultice", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "suppository", "mentions": 3, "confidence_score": 7, "total_score": 21}, {"name": "infused oil", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "powder", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Medicago ciliaris are infusion, decoction, tea, tincture, and salve. Infusion is made by steeping dried Medicago ciliaris flowers in hot water to create a tea-like drink used for its expectorant properties. Decoction involves boiling the roots and stems in water to create a liquid extract rich in alkaloids, used for treating respiratory issues. Tincture is made by soaking the plant in a solvent such as ethanol or glycerin to create a concentrated liquid used for treating coughs and sore throats. Medicago ciliaris salve, made by infusing the plant in oil, is used topically for its anti-inflammatory and antimicrobial properties.", "side_effects": [{"name": "induce diarrhea", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "experiencing nausea", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "experiencing allergic reactions", "mentions": 3, "confidence_score": 30, "total_score": 90}, {"name": "developing skin irritation", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "cause liver damage", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "experiences allergic reactions", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "showing allergic reactions", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "vomits", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause vomiting", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "diarrheas", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develop skin irritation", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "triggers seizures", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "suffer from diarrhea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "trigger allergic reactions", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "trigger respiratory issues", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "lead to hypotension", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "experiencing dizziness", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "exacerbate", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffer allergic reaction", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "develop kidney damage", "mentions": 2, "confidence_score": 10, "total_score": 20}], "side_effects_description": "The possible side effects of using Medicago ciliaris improperly include inducing diarrhea due to its high saponin content which can cause gastrointestinal disturbances, experiencing nausea as a result of its emetic properties, experiencing allergic reactions such as skin irritation due to the presence of allergenic proteins, and in rare cases developing liver damage due to the toxic compounds present in the plant. This is because Medicago ciliaris contains bioactive compounds such as isoflavonoids and saponins that can have adverse effects on the body when ingested in large quantities or for extended periods. Additionally, the improper use of Medicago ciliaris can lead to interactions with other medications, exacerbating the risk of adverse reactions. The severity of these side effects can vary depending on the individual's sensitivity and the amount of the plant consumed. Furthermore, the lack of standardization and regulation in the use of Medicago ciliaris can also contribute to the risk of adverse reactions.", "uses": "Medicago ciliaris is known for its potential medicinal uses, particularly in traditional medicine. Its extracts have been studied for their antioxidant, anti-inflammatory, and antimicrobial properties. The plant's bioactive compounds may have applications in treating various health conditions, including gastrointestinal issues and skin diseases. Further research is needed to fully understand the plant's medicinal value and potential therapeutic uses. Some studies suggest that Medicago ciliaris may also have antidiabetic properties.", "taxonomy": "Medicago ciliaris is a species of flowering plant in the pea family Fabaceae. It belongs to the genus Medicago, which consists of annual and perennial legume species. The genus Medicago is further classified under the subfamily Faboideae, and the family Fabaceae is part of the order Fabales. This classification indicates the evolutionary relationships and characteristics of Medicago ciliaris within the plant kingdom. By understanding the classification of Medicago ciliaris, researchers can better comprehend its growth habits, distribution, and potential applications.", "benefits": "Medicago ciliaris, also known as button medick, is a plant species that has been traditionally used for its medicinal properties. It is known to have anti-inflammatory and antioxidant effects, which may help to protect against cell damage and reduce the risk of chronic diseases. The plant is also rich in isoflavones, which may help to support cardiovascular health by lowering cholesterol levels and blood pressure. Additionally, Medicago ciliaris has been traditionally used to treat digestive issues, such as diarrhea and constipation. Further research is needed to fully understand the health benefits of Medicago ciliaris.", "parts": "Medicago ciliaris is also known as button medick or bird's foot trefoil. The leaves, flowers, and roots of Medicago ciliaris are used in traditional medicine. These parts are believed to have anti-inflammatory, antibacterial, and antifungal properties. They are used to treat various health issues, including digestive problems and skin conditions. In addition, the plant is used as a natural remedy for fever and respiratory issues.", "intro": "Medicago ciliaris, also known as button clover or button medic, is a perennial legume plant native to the Mediterranean region and parts of Asia. The health benefits of Medicago ciliaris include its potential to lower cholesterol levels, improve digestion, and exhibit anti-inflammatory properties. The bioactive constituents of this plant include isoflavones, saponins, and phenolic acids, which contribute to its medicinal properties. Medicago ciliaris is commonly used in herbal preparations such as teas, infusions, and tinctures, which are traditionally used to support cardiovascular health and alleviate symptoms of menopause."}
+{
+    "title": "Medicago ciliaris",
+    "herb_slug": "medicago-ciliaris",
+    "herb_name_scientific": "Medicago ciliaris",
+    "family_slug": "fabaceae",
+    "family_name": "Fabaceae",
+    "url": "herbs/medicago-ciliaris",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "button medick",
+            "mentions": 24,
+            "confidence_score": 164,
+            "total_score": 3936
+        },
+        {
+            "name": "hairy medick",
+            "mentions": 13,
+            "confidence_score": 105,
+            "total_score": 1365
+        },
+        {
+            "name": "hairy medic",
+            "mentions": 13,
+            "confidence_score": 87,
+            "total_score": 1131
+        },
+        {
+            "name": "button clover",
+            "mentions": 9,
+            "confidence_score": 72,
+            "total_score": 648
+        },
+        {
+            "name": "hairy clover",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "horned burr clover",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "bird's foot clover",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "hairy lucerne",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "small bird's-foot trefoil",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "hairy button medick",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "horned medick",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "hairy button clover",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "small bird's foot clover",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "ciliated medick",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "small medick",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "little french clover",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "hairy medic clover",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "hairy trefoil",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "burr medic",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "bur clover",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 168,
+            "total_score": 3360
+        }
+    ],
+    "what_description": "Medicago ciliaris is a perennial herb native to the Mediterranean region, belonging to the family Fabaceae. It has a prostrate or ascending habit, with a maximum height of 50 cm, and a maximum leaf span of 10 cm. The leaves are trifoliate, with leaflets 2-4 cm long and 1-2 cm wide, having a serrated margin and a stipule at the base. The plant produces purple flowers in a raceme, with a corolla 10-12 mm long and 6-8 mm wide, and a fruit that is a legume, 10-15 mm long and 5-7 mm wide. The plant's roots contain nodules that are home to Rhizobia bacteria, facilitating nitrogen fixation.",
+    "category_action": "alteratives",
+    "ailments": [
+        {
+            "name": "diabetes",
+            "mentions": 18,
+            "confidence_score": 157,
+            "total_score": 2826
+        },
+        {
+            "name": "inflammation",
+            "mentions": 15,
+            "confidence_score": 127,
+            "total_score": 1905
+        },
+        {
+            "name": "hypertension",
+            "mentions": 13,
+            "confidence_score": 101,
+            "total_score": 1313
+        },
+        {
+            "name": "arthritis",
+            "mentions": 14,
+            "confidence_score": 99,
+            "total_score": 1386
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 11,
+            "confidence_score": 73,
+            "total_score": 803
+        },
+        {
+            "name": "anemia",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "gastritis",
+            "mentions": 8,
+            "confidence_score": 47,
+            "total_score": 376
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 8,
+            "confidence_score": 45,
+            "total_score": 360
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "cancer",
+            "mentions": 9,
+            "confidence_score": 42,
+            "total_score": 378
+        },
+        {
+            "name": "hyperlipidemia",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "asthma",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "osteoporosis",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "gout",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "atherosclerosis",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "high cholesterol",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "cholesterol",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Medicago ciliaris are diabetes, hypertension, arthritis, and inflammatory conditions. Medicago ciliaris has been proven to reduce inflammation by suppressing pro-inflammatory cytokines and enzymes, and its flavonoids have been shown to improve insulin sensitivity and glucose metabolism in diabetic patients. Its isoflavones have also been found to lower blood pressure in hypertensive individuals and alleviate symptoms of arthritis, such as joint pain and swelling. Additionally, Medicago ciliaris has been used to treat digestive issues, anemia, gastritis, and gastroenteritis by reducing oxidative stress, improving nutrient absorption, and enhancing the production of red blood cells. Furthermore, its flavonoids have been shown to prevent cancer, cardiovascular disease, hyperlipidemia, and atherosclerosis by inhibiting the growth of cancer cells, improving blood lipid profiles, and preventing the formation of plaque in blood vessels.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 21,
+            "confidence_score": 156,
+            "total_score": 3276
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 141,
+            "total_score": 2820
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 127,
+            "total_score": 2540
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 10,
+            "confidence_score": 72,
+            "total_score": 720
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 14,
+            "confidence_score": 69,
+            "total_score": 966
+        },
+        {
+            "name": "antifungal",
+            "mentions": 11,
+            "confidence_score": 69,
+            "total_score": 759
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 11,
+            "confidence_score": 51,
+            "total_score": 561
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "analgesic",
+            "mentions": 8,
+            "confidence_score": 30,
+            "total_score": 240
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "anticancer",
+            "mentions": 7,
+            "confidence_score": 21,
+            "total_score": 147
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 5,
+            "confidence_score": 13,
+            "total_score": 65
+        },
+        {
+            "name": "antiviral",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Medicago ciliaris are its antioxidant activity, which is attributed to the flavonoids present in the plant. Additionally, Medicago ciliaris exhibits antimicrobial properties, inhibiting the growth of various pathogens, including bacteria and fungi, which is due to the presence of saponins and volatile oils in the plant. The anti-inflammatory properties of Medicago ciliaris are also well-documented, with its ability to reduce inflammation and alleviate conditions such as arthritis, which is a result of the plant's content of phenolic acids and flavonoids. Furthermore, Medicago ciliaris possesses antibacterial properties, demonstrating the ability to inhibit the growth of certain bacterial strains, including Escherichia coli and Staphylococcus aureus, which is due to the presence of saponins and alkaloids in the plant. Medicago ciliaris also exhibits cardioprotective properties, with its ability to protect against cardiovascular disease and improve heart health, which is attributed to the plant's content of flavonoids, phenolic acids, and saponins.",
+    "constituents": [
+        {
+            "name": "saponins",
+            "mentions": 17,
+            "confidence_score": 134,
+            "total_score": 2278
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 16,
+            "confidence_score": 115,
+            "total_score": 1840
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 14,
+            "confidence_score": 91,
+            "total_score": 1274
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 17,
+            "confidence_score": 90,
+            "total_score": 1530
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 16,
+            "confidence_score": 72,
+            "total_score": 1152
+        },
+        {
+            "name": "coumarins",
+            "mentions": 14,
+            "confidence_score": 65,
+            "total_score": 910
+        },
+        {
+            "name": "glycosides",
+            "mentions": 11,
+            "confidence_score": 62,
+            "total_score": 682
+        },
+        {
+            "name": "isoflavones",
+            "mentions": 10,
+            "confidence_score": 57,
+            "total_score": 570
+        },
+        {
+            "name": "amino acids",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "medicagenin",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "tannins",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "phytosterols",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "minerals",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "medicagenone",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "phytoestrogens",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "carotenoids",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "medicago ciliaris flavonoids",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "sterols",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Medicago ciliaris are saponins, flavonoids, phenolic acids, triterpenoids, and alkaloids. Saponins in Medicago ciliaris exhibit anti-inflammatory and antioxidant properties due to their ability to scavenge free radicals and inhibit pro-inflammatory enzymes. Flavonoids present in the plant have been shown to possess antimicrobial and antiviral activities, whereas phenolic acids have been found to exert antioxidant and anti-inflammatory effects. Triterpenoids, including compounds like ursolic acid and oleanolic acid, have been reported to exhibit anti-inflammatory and immunomodulatory activities in Medicago ciliaris. Alkaloids, such as medicagoine and medicagol, have been found to possess antimicrobial and antitumor properties, contributing to the plant's overall medicinal value.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 20,
+            "confidence_score": 169,
+            "total_score": 3380
+        },
+        {
+            "name": "tea",
+            "mentions": 19,
+            "confidence_score": 141,
+            "total_score": 2679
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 119,
+            "total_score": 2380
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 84,
+            "total_score": 1680
+        },
+        {
+            "name": "decoction",
+            "mentions": 15,
+            "confidence_score": 78,
+            "total_score": 1170
+        },
+        {
+            "name": "ointment",
+            "mentions": 6,
+            "confidence_score": 19,
+            "total_score": 114
+        },
+        {
+            "name": "extract",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "capsule",
+            "mentions": 6,
+            "confidence_score": 12,
+            "total_score": 72
+        },
+        {
+            "name": "poultice",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "suppository",
+            "mentions": 3,
+            "confidence_score": 7,
+            "total_score": 21
+        },
+        {
+            "name": "infused oil",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "powder",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Medicago ciliaris are infusion, decoction, tea, tincture, and salve. Infusion is made by steeping dried Medicago ciliaris flowers in hot water to create a tea-like drink used for its expectorant properties. Decoction involves boiling the roots and stems in water to create a liquid extract rich in alkaloids, used for treating respiratory issues. Tincture is made by soaking the plant in a solvent such as ethanol or glycerin to create a concentrated liquid used for treating coughs and sore throats. Medicago ciliaris salve, made by infusing the plant in oil, is used topically for its anti-inflammatory and antimicrobial properties.",
+    "side_effects": [
+        {
+            "name": "induce diarrhea",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "experiencing allergic reactions",
+            "mentions": 3,
+            "confidence_score": 30,
+            "total_score": 90
+        },
+        {
+            "name": "developing skin irritation",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "showing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "vomits",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "diarrheas",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "triggers seizures",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "suffer from diarrhea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "trigger respiratory issues",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "lead to hypotension",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "exacerbate",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffer allergic reaction",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "develop kidney damage",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Medicago ciliaris improperly include inducing diarrhea due to its high saponin content which can cause gastrointestinal disturbances, experiencing nausea as a result of its emetic properties, experiencing allergic reactions such as skin irritation due to the presence of allergenic proteins, and in rare cases developing liver damage due to the toxic compounds present in the plant. This is because Medicago ciliaris contains bioactive compounds such as isoflavonoids and saponins that can have adverse effects on the body when ingested in large quantities or for extended periods. Additionally, the improper use of Medicago ciliaris can lead to interactions with other medications, exacerbating the risk of adverse reactions. The severity of these side effects can vary depending on the individual's sensitivity and the amount of the plant consumed. Furthermore, the lack of standardization and regulation in the use of Medicago ciliaris can also contribute to the risk of adverse reactions.",
+    "uses": "Medicago ciliaris is known for its potential medicinal uses, particularly in traditional medicine. Its extracts have been studied for their antioxidant, anti-inflammatory, and antimicrobial properties. The plant's bioactive compounds may have applications in treating various health conditions, including gastrointestinal issues and skin diseases. Further research is needed to fully understand the plant's medicinal value and potential therapeutic uses. Some studies suggest that Medicago ciliaris may also have antidiabetic properties.",
+    "taxonomy": "Medicago ciliaris is a species of flowering plant in the pea family Fabaceae. It belongs to the genus Medicago, which consists of annual and perennial legume species. The genus Medicago is further classified under the subfamily Faboideae, and the family Fabaceae is part of the order Fabales. This classification indicates the evolutionary relationships and characteristics of Medicago ciliaris within the plant kingdom. By understanding the classification of Medicago ciliaris, researchers can better comprehend its growth habits, distribution, and potential applications.",
+    "benefits": "Medicago ciliaris, also known as button medick, is a plant species that has been traditionally used for its medicinal properties. It is known to have anti-inflammatory and antioxidant effects, which may help to protect against cell damage and reduce the risk of chronic diseases. The plant is also rich in isoflavones, which may help to support cardiovascular health by lowering cholesterol levels and blood pressure. Additionally, Medicago ciliaris has been traditionally used to treat digestive issues, such as diarrhea and constipation. Further research is needed to fully understand the health benefits of Medicago ciliaris.",
+    "parts": "Medicago ciliaris is also known as button medick or bird's foot trefoil. The leaves, flowers, and roots of Medicago ciliaris are used in traditional medicine. These parts are believed to have anti-inflammatory, antibacterial, and antifungal properties. They are used to treat various health issues, including digestive problems and skin conditions. In addition, the plant is used as a natural remedy for fever and respiratory issues.",
+    "intro": "Medicago ciliaris, also known as button clover or button medic, is a perennial legume plant native to the Mediterranean region and parts of Asia. The health benefits of Medicago ciliaris include its potential to lower cholesterol levels, improve digestion, and exhibit anti-inflammatory properties. The bioactive constituents of this plant include isoflavones, saponins, and phenolic acids, which contribute to its medicinal properties. Medicago ciliaris is commonly used in herbal preparations such as teas, infusions, and tinctures, which are traditionally used to support cardiovascular health and alleviate symptoms of menopause."
+}

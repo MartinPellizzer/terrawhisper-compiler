@@ -1,1 +1,148 @@
-{"title": "Peripleura arida", "herb_slug": "peripleura-arida", "herb_name_scientific": "Peripleura arida", "family_slug": "asteraceae", "family_name": "Asteraceae", "url": "herbs/peripleura-arida", "lastmod": "2025-1-31", "herb_names_common": [{"name": "desert peavine", "mentions": 9, "confidence_score": 90, "total_score": 810}, {"name": "peripleura", "mentions": 12, "confidence_score": 60, "total_score": 720}, {"name": "no common names found for the given botanical name", "mentions": 5, "confidence_score": 48, "total_score": 240}, {"name": "dry peripleura arida", "mentions": 15, "confidence_score": 44, "total_score": 660}, {"name": "dry peripleura", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "desert peripleura (unknown)", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "arida", "mentions": 5, "confidence_score": 13, "total_score": 65}, {"name": "desert peripleura", "mentions": 5, "confidence_score": 13, "total_score": 65}, {"name": "arid peripleura", "mentions": 4, "confidence_score": 11, "total_score": 44}, {"name": "none found", "mentions": 30, "confidence_score": 10, "total_score": 300}, {"name": "no information found", "mentions": 11, "confidence_score": 10, "total_score": 110}, {"name": "no common name found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "desert pea bush", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "not found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "dry stem", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "arctotis arida", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "peripleura arida var. arida", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "arctotis arida (l.f.) dc.", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "arctotis arida l.f.", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "peripleura arida l.f.", "mentions": 1, "confidence_score": 7, "total_score": 7}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 131, "total_score": 2620}], "uses": "Peripleura arida is reportedly used in traditional medicine, although not much information is available on its specific applications. Some sources suggest that the plant has been used to treat various health issues, including fever and respiratory problems. The exact mechanisms of its medicinal properties are not well understood, and more research is needed to confirm its effectiveness. Peripleura arida is believed to have anti-inflammatory and antimicrobial properties, which may contribute to its potential health benefits. However, the plant's medicinal uses require further study to determine its safety and efficacy in treating specific health conditions.", "taxonomy": "Peripleura arida is classified within the family Fabaceae, which is a large and diverse group of flowering plants commonly known as legumes. This classification is based on the plant's characteristics, such as its fruit and flower structure, which are typical of Fabaceae species. Within the family Fabaceae, Peripleura arida is further classified as a member of the subfamily Faboideae. The genus Peripleura is also a part of the Fabaceae family, and it is likely that further classification would involve the species being placed within a particular tribe or section within the family. Further research is needed to determine the exact classification of Peripleura arida within the Fabaceae family.", "benefits": "Peripleura arida has been reported to have several health benefits due to its antimicrobial, antioxidant, and anti-inflammatory properties. It has been traditionally used to treat various ailments, including fever, sore throats, and respiratory issues. The plant's extracts have shown potential in inhibiting the growth of certain bacteria and fungi, making it a promising natural remedy for infections. Additionally, Peripleura arida may help to reduce inflammation and alleviate pain, which could be beneficial for conditions such as arthritis. However, more research is needed to fully understand the plant's therapeutic potential and potential side effects.", "properties": "Peripleura arida has been reported to possess anti-inflammatory and antimicrobial properties, which contribute to its potential therapeutic applications. The plant's extracts have been studied for their ability to inhibit the growth of certain microorganisms and reduce inflammation in animal models. However, more research is needed to fully understand the therapeutic potential of Peripleura arida. The anti-inflammatory properties of the plant may be useful in the treatment of various conditions, including wounds and infections. Further studies are necessary to confirm the efficacy and safety of Peripleura arida as a medicinal agent.", "constituents": "Peripleura arida contains flavonoids and phenolic compounds as its active constituents, which contribute to its potential medicinal properties. These compounds have been reported to exhibit antioxidant and anti-inflammatory activities. The flavonoids present in Peripleura arida may also have antimicrobial properties, helping to protect against infections. Further research is necessary to fully understand the extent of its active constituents and their effects on human health. The specific types and quantities of these compounds can vary depending on the plant's growth conditions and harvesting methods.", "parts": "Peripleura arida is a plant species, but unfortunately, I do not have information about its medicinal parts.", "preparations": "Peripleura arida is not a commonly known plant species, therefore I don't have information on its herbal preparations.", "side_effects": "Info not available yet.", "intro": "There is not enough information available about the plant Peripleura arida to write an accurate paragraph."}
+{
+    "title": "Peripleura arida",
+    "herb_slug": "peripleura-arida",
+    "herb_name_scientific": "Peripleura arida",
+    "family_slug": "asteraceae",
+    "family_name": "Asteraceae",
+    "url": "herbs/peripleura-arida",
+    "lastmod": "2025-1-31",
+    "herb_names_common": [
+        {
+            "name": "desert peavine",
+            "mentions": 9,
+            "confidence_score": 90,
+            "total_score": 810
+        },
+        {
+            "name": "peripleura",
+            "mentions": 12,
+            "confidence_score": 60,
+            "total_score": 720
+        },
+        {
+            "name": "no common names found for the given botanical name",
+            "mentions": 5,
+            "confidence_score": 48,
+            "total_score": 240
+        },
+        {
+            "name": "dry peripleura arida",
+            "mentions": 15,
+            "confidence_score": 44,
+            "total_score": 660
+        },
+        {
+            "name": "dry peripleura",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "desert peripleura (unknown)",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "arida",
+            "mentions": 5,
+            "confidence_score": 13,
+            "total_score": 65
+        },
+        {
+            "name": "desert peripleura",
+            "mentions": 5,
+            "confidence_score": 13,
+            "total_score": 65
+        },
+        {
+            "name": "arid peripleura",
+            "mentions": 4,
+            "confidence_score": 11,
+            "total_score": 44
+        },
+        {
+            "name": "none found",
+            "mentions": 30,
+            "confidence_score": 10,
+            "total_score": 300
+        },
+        {
+            "name": "no information found",
+            "mentions": 11,
+            "confidence_score": 10,
+            "total_score": 110
+        },
+        {
+            "name": "no common name found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "desert pea bush",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "not found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "dry stem",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "arctotis arida",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "peripleura arida var. arida",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "arctotis arida (l.f.) dc.",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "arctotis arida l.f.",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "peripleura arida l.f.",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 131,
+            "total_score": 2620
+        }
+    ],
+    "uses": "Peripleura arida is reportedly used in traditional medicine, although not much information is available on its specific applications. Some sources suggest that the plant has been used to treat various health issues, including fever and respiratory problems. The exact mechanisms of its medicinal properties are not well understood, and more research is needed to confirm its effectiveness. Peripleura arida is believed to have anti-inflammatory and antimicrobial properties, which may contribute to its potential health benefits. However, the plant's medicinal uses require further study to determine its safety and efficacy in treating specific health conditions.",
+    "taxonomy": "Peripleura arida is classified within the family Fabaceae, which is a large and diverse group of flowering plants commonly known as legumes. This classification is based on the plant's characteristics, such as its fruit and flower structure, which are typical of Fabaceae species. Within the family Fabaceae, Peripleura arida is further classified as a member of the subfamily Faboideae. The genus Peripleura is also a part of the Fabaceae family, and it is likely that further classification would involve the species being placed within a particular tribe or section within the family. Further research is needed to determine the exact classification of Peripleura arida within the Fabaceae family.",
+    "benefits": "Peripleura arida has been reported to have several health benefits due to its antimicrobial, antioxidant, and anti-inflammatory properties. It has been traditionally used to treat various ailments, including fever, sore throats, and respiratory issues. The plant's extracts have shown potential in inhibiting the growth of certain bacteria and fungi, making it a promising natural remedy for infections. Additionally, Peripleura arida may help to reduce inflammation and alleviate pain, which could be beneficial for conditions such as arthritis. However, more research is needed to fully understand the plant's therapeutic potential and potential side effects.",
+    "properties": "Peripleura arida has been reported to possess anti-inflammatory and antimicrobial properties, which contribute to its potential therapeutic applications. The plant's extracts have been studied for their ability to inhibit the growth of certain microorganisms and reduce inflammation in animal models. However, more research is needed to fully understand the therapeutic potential of Peripleura arida. The anti-inflammatory properties of the plant may be useful in the treatment of various conditions, including wounds and infections. Further studies are necessary to confirm the efficacy and safety of Peripleura arida as a medicinal agent.",
+    "constituents": "Peripleura arida contains flavonoids and phenolic compounds as its active constituents, which contribute to its potential medicinal properties. These compounds have been reported to exhibit antioxidant and anti-inflammatory activities. The flavonoids present in Peripleura arida may also have antimicrobial properties, helping to protect against infections. Further research is necessary to fully understand the extent of its active constituents and their effects on human health. The specific types and quantities of these compounds can vary depending on the plant's growth conditions and harvesting methods.",
+    "parts": "Peripleura arida is a plant species, but unfortunately, I do not have information about its medicinal parts.",
+    "preparations": "Peripleura arida is not a commonly known plant species, therefore I don't have information on its herbal preparations.",
+    "side_effects": "Info not available yet.",
+    "intro": "There is not enough information available about the plant Peripleura arida to write an accurate paragraph."
+}

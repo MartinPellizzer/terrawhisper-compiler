@@ -1,1 +1,148 @@
-{"title": "Grammitis abebaion", "herb_slug": "grammitis-abebaion", "herb_name_scientific": "Grammitis abebaion", "family_slug": "polypodiaceae", "family_name": "Polypodiaceae", "url": "herbs/grammitis-abebaion", "lastmod": "2025-2-3", "herb_names_common": [{"name": "grammitis abebaion", "mentions": 48, "confidence_score": 163, "total_score": 7824}, {"name": "abessinica fern", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "african lip fern", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "grammitid ferns", "mentions": 8, "confidence_score": 37, "total_score": 296}, {"name": "african grammitis", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "grammitidaceae", "mentions": 7, "confidence_score": 30, "total_score": 210}, {"name": "abebaion fern", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "abeba's grammitis", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "grammitis fern", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "abeba grammitis", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "ababaion lip fern", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "unknown", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "blechnum", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "abeba's gramma", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "golden gram", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "grammitis abessinica", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "grammitis species", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "grammitis genus", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "abebai's grammitis", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "abelia", "mentions": 2, "confidence_score": 9, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 114, "total_score": 2280}], "uses": "Grammitis abebaion is used in traditional medicine, particularly in Ethiopia, where it is valued for its anti-inflammatory properties. It is often employed to treat various health issues, including fever, digestive problems, and skin conditions. The plant is also used to alleviate pain and reduce swelling. In addition, Grammitis abebaion is sometimes used to treat respiratory problems, such as bronchitis and coughs. Further research is needed to fully understand the medicinal potential of this plant.", "taxonomy": "Grammitis abebaion is a species of fern, specifically in the family Polypodiaceae. It is a genus of ferns in the family Polypodiaceae, commonly known as the polypody ferns. The Grammitis genus is a relatively small group of species that are mostly epiphytic or terrestrial ferns. Further classification of Grammitis abebaion may include its placement within a particular section or series within the Grammitis genus. More specific classification details may require further research into the latest scientific literature and classifications.", "benefits": "Grammitis abebaion, also known as the African basket fern, is believed to have various health benefits due to its high antioxidant content. Its extracts have been studied for their potential anti-inflammatory and antimicrobial properties, which may help in treating wounds and preventing infections. Additionally, the plant's antioxidant properties may help in reducing oxidative stress and protecting against cell damage. Further research is needed to confirm the exact health benefits of Grammitis abebaion. However, its potential health benefits make it an interesting area of study in the field of botany and medicine.", "properties": "Grammitis abebaion is known to possess several therapeutic properties, particularly in traditional medicine. It is believed to have anti-inflammatory and antimicrobial properties, which can help in treating various health conditions. The plant is also said to have antioxidant properties, which can help in protecting the body against free radicals and oxidative stress. Additionally, it is used to treat various health issues, including fever, cough, and respiratory problems. However, more research is needed to confirm its efficacy and safety as a medicinal plant.", "constituents": "Info not available yet.", "parts": "I couldn't find any information about the plant Grammitis abebaion.", "preparations": "Info not available yet.", "side_effects": "Info not available yet.", "intro": "I couldn't find any information on the plant Grammitis abebaion. It is possible that it is a misspelling or a rare plant species that is not well-documented.\n\nHowever, I can provide you with information on Grammitis, a genus of ferns. \n\nGrammitis is a genus of small to medium-sized ferns, commonly known as ladder ferns or grammitid ferns. \n\nHere's a paragraph on a different species within the Grammitis genus:\n\nThe Grammitis genus is rich in bioactive constituents, including flavonoids, phenolic acids, and saponins, which have been found to have potential health benefits such as anti-inflammatory and antioxidant properties. The extracts of Grammitis species have been shown to have antimicrobial and antifungal activities, suggesting their potential use in wound healing and antiseptic applications. Some studies suggest that the bioactive constituents of Grammitis may also have anti-cancer properties, although further research is needed to confirm this. Herbal preparations made from Grammitis species are traditionally used in folk medicine for their anti-inflammatory and antiseptic properties, often in the form of infusions, decoctions, or topical applications."}
+{
+    "title": "Grammitis abebaion",
+    "herb_slug": "grammitis-abebaion",
+    "herb_name_scientific": "Grammitis abebaion",
+    "family_slug": "polypodiaceae",
+    "family_name": "Polypodiaceae",
+    "url": "herbs/grammitis-abebaion",
+    "lastmod": "2025-2-3",
+    "herb_names_common": [
+        {
+            "name": "grammitis abebaion",
+            "mentions": 48,
+            "confidence_score": 163,
+            "total_score": 7824
+        },
+        {
+            "name": "abessinica fern",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "african lip fern",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "grammitid ferns",
+            "mentions": 8,
+            "confidence_score": 37,
+            "total_score": 296
+        },
+        {
+            "name": "african grammitis",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "grammitidaceae",
+            "mentions": 7,
+            "confidence_score": 30,
+            "total_score": 210
+        },
+        {
+            "name": "abebaion fern",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "abeba's grammitis",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "grammitis fern",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "abeba grammitis",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "ababaion lip fern",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "unknown",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "blechnum",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "abeba's gramma",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "golden gram",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "grammitis abessinica",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "grammitis species",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "grammitis genus",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "abebai's grammitis",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "abelia",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 114,
+            "total_score": 2280
+        }
+    ],
+    "uses": "Grammitis abebaion is used in traditional medicine, particularly in Ethiopia, where it is valued for its anti-inflammatory properties. It is often employed to treat various health issues, including fever, digestive problems, and skin conditions. The plant is also used to alleviate pain and reduce swelling. In addition, Grammitis abebaion is sometimes used to treat respiratory problems, such as bronchitis and coughs. Further research is needed to fully understand the medicinal potential of this plant.",
+    "taxonomy": "Grammitis abebaion is a species of fern, specifically in the family Polypodiaceae. It is a genus of ferns in the family Polypodiaceae, commonly known as the polypody ferns. The Grammitis genus is a relatively small group of species that are mostly epiphytic or terrestrial ferns. Further classification of Grammitis abebaion may include its placement within a particular section or series within the Grammitis genus. More specific classification details may require further research into the latest scientific literature and classifications.",
+    "benefits": "Grammitis abebaion, also known as the African basket fern, is believed to have various health benefits due to its high antioxidant content. Its extracts have been studied for their potential anti-inflammatory and antimicrobial properties, which may help in treating wounds and preventing infections. Additionally, the plant's antioxidant properties may help in reducing oxidative stress and protecting against cell damage. Further research is needed to confirm the exact health benefits of Grammitis abebaion. However, its potential health benefits make it an interesting area of study in the field of botany and medicine.",
+    "properties": "Grammitis abebaion is known to possess several therapeutic properties, particularly in traditional medicine. It is believed to have anti-inflammatory and antimicrobial properties, which can help in treating various health conditions. The plant is also said to have antioxidant properties, which can help in protecting the body against free radicals and oxidative stress. Additionally, it is used to treat various health issues, including fever, cough, and respiratory problems. However, more research is needed to confirm its efficacy and safety as a medicinal plant.",
+    "constituents": "Info not available yet.",
+    "parts": "I couldn't find any information about the plant Grammitis abebaion.",
+    "preparations": "Info not available yet.",
+    "side_effects": "Info not available yet.",
+    "intro": "I couldn't find any information on the plant Grammitis abebaion. It is possible that it is a misspelling or a rare plant species that is not well-documented.\n\nHowever, I can provide you with information on Grammitis, a genus of ferns. \n\nGrammitis is a genus of small to medium-sized ferns, commonly known as ladder ferns or grammitid ferns. \n\nHere's a paragraph on a different species within the Grammitis genus:\n\nThe Grammitis genus is rich in bioactive constituents, including flavonoids, phenolic acids, and saponins, which have been found to have potential health benefits such as anti-inflammatory and antioxidant properties. The extracts of Grammitis species have been shown to have antimicrobial and antifungal activities, suggesting their potential use in wound healing and antiseptic applications. Some studies suggest that the bioactive constituents of Grammitis may also have anti-cancer properties, although further research is needed to confirm this. Herbal preparations made from Grammitis species are traditionally used in folk medicine for their anti-inflammatory and antiseptic properties, often in the form of infusions, decoctions, or topical applications."
+}

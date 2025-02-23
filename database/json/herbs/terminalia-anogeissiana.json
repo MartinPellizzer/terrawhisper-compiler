@@ -1,1 +1,761 @@
-{"title": "Terminalia anogeissiana", "herb_slug": "terminalia-anogeissiana", "herb_name_scientific": "Terminalia anogeissiana", "family_slug": "combretaceae", "family_name": "Combretaceae", "url": "herbs/terminalia-anogeissiana", "lastmod": "2025-2-1", "herb_names_common": [{"name": "terminalia anogeissiana", "mentions": 42, "confidence_score": 256, "total_score": 10752}, {"name": "anogeissus", "mentions": 21, "confidence_score": 153, "total_score": 3213}, {"name": "kulu", "mentions": 9, "confidence_score": 64, "total_score": 576}, {"name": "african blackwood", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "anogeissus latifolia", "mentions": 9, "confidence_score": 33, "total_score": 297}, {"name": "african black ironwood", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "tulsi siwak", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "terminalia anogeissiana tree", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "australian silver leaf", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "yellow padauk", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "african birch", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "giricidia", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "gambhar tree", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "terminalia anogeissus", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "anogeissus latifolius", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "anogeissus leiocarpa", "mentions": 5, "confidence_score": 10, "total_score": 50}, {"name": "african cork tree", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "guilandina", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "gorom", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "anogeissus sericeus", "mentions": 3, "confidence_score": 9, "total_score": 27}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 155, "total_score": 3100}], "what_description": "Terminalia anogeissiana is a species of plant in the family Combretaceae, native to Australia. It is a tree that grows up to 15 meters in height, with a broad, spreading canopy and a straight, columnar trunk with a smooth, grey bark. The leaves are simple, alternate, and elliptical in shape, measuring up to 15 cm in length and 5 cm in width, with a rounded base and a pointed apex. The flowers are small, greenish-yellow in color, and arranged in axillary clusters, while the fruit is a woody drupe, 1-2 cm in length, with a single seed enclosed in a fleshy, edible pulp. The species has a broad distribution across northern Australia, where it grows in a variety of habitats, including tropical savannas and open forests.", "category_action": "anti-inflammatory", "ailments": [{"name": "inflammation", "mentions": 19, "confidence_score": 158, "total_score": 3002}, {"name": "diabetes", "mentions": 18, "confidence_score": 145, "total_score": 2610}, {"name": "hypertension", "mentions": 15, "confidence_score": 125, "total_score": 1875}, {"name": "arthritis", "mentions": 11, "confidence_score": 79, "total_score": 869}, {"name": "cancer", "mentions": 13, "confidence_score": 73, "total_score": 949}, {"name": "cardiovascular disease", "mentions": 9, "confidence_score": 72, "total_score": 648}, {"name": "gastritis", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "digestive issues", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "fever", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "gastrointestinal issues", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "skin conditions", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "antimicrobial infections", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "respiratory issues", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "pain relief", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "cancer prevention", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "asthma", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "atherosclerosis", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "liver disease", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "diarrhea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "antioxidant", "mentions": 2, "confidence_score": 18, "total_score": 36}], "ailments_description": "The most common ailments you can heal with Terminalia anogeissiana are inflammation, which it reduces by inhibiting pro-inflammatory enzymes; diabetes, by lowering blood glucose levels and improving insulin sensitivity; hypertension, due to its ability to relax blood vessels and reduce blood pressure; arthritis, through its anti-inflammatory and analgesic properties. Additionally, Terminalia anogeissiana has shown to inhibit cancer cell growth, reduce cardiovascular disease risk by lowering cholesterol and triglyceride levels, and alleviate gastritis symptoms by protecting the stomach lining and promoting digestion. It also exhibits antioxidant properties, which help prevent gastrointestinal issues, such as diarrhea, and skin conditions, like eczema, by neutralizing free radicals and promoting tissue repair. Furthermore, Terminalia anogeissiana has antimicrobial effects that combat respiratory issues, including asthma, by reducing inflammation and oxidative stress in the airways, and it has been shown to reduce liver disease risk by protecting liver cells from damage. Its antioxidant and anti-inflammatory properties also contribute to pain relief and atherosclerosis prevention by reducing inflammation and oxidative stress in the cardiovascular system.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 170, "total_score": 3400}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 154, "total_score": 3080}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 149, "total_score": 2980}, {"name": "cardioprotective", "mentions": 16, "confidence_score": 93, "total_score": 1488}, {"name": "analgesic", "mentions": 18, "confidence_score": 88, "total_score": 1584}, {"name": "antifungal", "mentions": 10, "confidence_score": 61, "total_score": 610}, {"name": "antibacterial", "mentions": 7, "confidence_score": 55, "total_score": 385}, {"name": "antiviral", "mentions": 12, "confidence_score": 54, "total_score": 648}, {"name": "neuroprotective", "mentions": 11, "confidence_score": 52, "total_score": 572}, {"name": "anticancer", "mentions": 8, "confidence_score": 45, "total_score": 360}, {"name": "antidiabetic", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "hepatoprotective", "mentions": 8, "confidence_score": 34, "total_score": 272}, {"name": "antipyretic", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "antidiarrheal", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "hypotensive", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "hypoglycemic", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "antihypertensive", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "antioxidant enzyme activator", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "antioxidant in lipid peroxidation", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cardiovascular protector", "mentions": 2, "confidence_score": 9, "total_score": 18}], "properties_description": "The main therapeutic properties of Terminalia anogeissiana are its antioxidant properties, which are attributed to the plant's flavonoids and phenolic acids, enabling it to protect cells from oxidative damage and potentially contributing to the prevention of chronic diseases. Additionally, the plant exhibits antimicrobial properties, including antibacterial and antifungal activities, primarily due to its saponins and volatile oils, which can inhibit the growth of various pathogens and prevent infections. The anti-inflammatory properties of Terminalia anogeissiana are also noteworthy, as they are linked to the plant's ability to modulate the immune response and reduce inflammation, thereby alleviating conditions such as arthritis and other inflammatory disorders. Furthermore, the plant has been found to possess cardioprotective properties, which can be attributed to its flavonoids and other bioactive compounds that help to protect the cardiovascular system, lower blood pressure, and improve lipid profiles. The analgesic properties of Terminalia anogeissiana are also significant, as they are associated with the plant's ability to reduce pain and discomfort, likely due to its flavonoids and other bioactive compounds that interact with the nervous system to produce analgesic effects.", "constituents": [{"name": "quercetin", "mentions": 16, "confidence_score": 135, "total_score": 2160}, {"name": "ellagic acid", "mentions": 15, "confidence_score": 111, "total_score": 1665}, {"name": "gallic acid", "mentions": 13, "confidence_score": 89, "total_score": 1157}, {"name": "tannins", "mentions": 10, "confidence_score": 74, "total_score": 740}, {"name": "flavonoids", "mentions": 10, "confidence_score": 73, "total_score": 730}, {"name": "kaempferol", "mentions": 9, "confidence_score": 63, "total_score": 567}, {"name": "phenolic acids", "mentions": 9, "confidence_score": 60, "total_score": 540}, {"name": "anogeissoside", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "catechin", "mentions": 8, "confidence_score": 41, "total_score": 328}, {"name": "epicatechin", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "alkaloids", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "terpenoids", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "quinic acid", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "glycosides", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "terflavonoid", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "gallocatechin", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "saponins", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "coumarins", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "anogeissoside c", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "isoquercetin", "mentions": 2, "confidence_score": 12, "total_score": 24}], "constituents_description": "The most important healing constituents of Terminalia anogeissiana are quercetin, ellagic acid, gallic acid, tannins, and flavonoids, which are responsible for its antioxidant, anti-inflammatory, and antimicrobial properties. Quercetin, a flavonoid, has been shown to exhibit anti-inflammatory activity by inhibiting the production of pro-inflammatory enzymes, while ellagic acid, a polyphenol, has been found to have antioxidant and anti-cancer properties due to its ability to scavenge free radicals and inhibit cancer cell growth. Gallic acid, another polyphenol, has been demonstrated to possess antimicrobial activity against a range of bacteria and fungi, as well as anti-inflammatory properties by inhibiting the production of pro-inflammatory cytokines. Tannins, a class of polyphenolic compounds, have been found to have antimicrobial and anti-inflammatory properties, as well as the ability to bind to and neutralize toxins. The combination of these constituents in Terminalia anogeissiana makes it a valuable plant for the treatment of various diseases and conditions, including inflammation, infections, and cancer.", "preparations": [{"name": "infusion", "mentions": 17, "confidence_score": 141, "total_score": 2397}, {"name": "tincture", "mentions": 19, "confidence_score": 140, "total_score": 2660}, {"name": "decoction", "mentions": 19, "confidence_score": 112, "total_score": 2128}, {"name": "tea", "mentions": 8, "confidence_score": 59, "total_score": 472}, {"name": "salve", "mentions": 9, "confidence_score": 33, "total_score": 297}, {"name": "suppository", "mentions": 8, "confidence_score": 25, "total_score": 200}, {"name": "infused oil", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "terminalia tea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "oil", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "glycoside extract", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "capsule", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "ointment", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "terminalia tonic", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "anogeissus tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "anogeissoside extract", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "anogeissus tincture", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "powder", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "poultice", "mentions": 3, "confidence_score": 6, "total_score": 18}, {"name": "anogeissoside syrup", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "anogeissus infusion", "mentions": 1, "confidence_score": 6, "total_score": 6}], "preparations_description": "The main herbal preparations of Terminalia anogeissiana are infusion, tincture, decoction, tea, and salve. Infusion is a liquid preparation made by steeping the bark in hot water, commonly used for its antimalarial properties. Tincture is a concentrated liquid extract of the bark in a solvent such as ethanol or glycerin, often used for its antimicrobial properties. Decoction is a liquid preparation made by boiling the bark in water, traditionally used for its antipyretic and anti-inflammatory properties. Salve is a topical preparation made by infusing the bark in a carrier oil, commonly used for its wound-healing and anti-inflammatory properties.", "side_effects": [{"name": "cause liver damage", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "induce nausea", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "trigger allergic reactions", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "increase blood pressure", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "interact with medications", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "cause allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induce allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "cause vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "impair kidney function", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develops hypotension", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develop allergic reactions", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "exacerbate diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "induce diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "exhibits skin irritation", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "show liver damage", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "develop kidney problems", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "experiences gastrointestinal issues", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "aggravate diabetic complications", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "exacerbate kidney issues", "mentions": 1, "confidence_score": 10, "total_score": 10}], "side_effects_description": "The possible side effects of using Terminalia anogeissiana improperly include causing liver damage due to the high concentration of flavonoids and saponins, which can lead to liver enzyme elevation and cirrhosis in severe cases. Using Terminalia anogeissiana can also induce nausea and stomach upset due to the presence of saponins, which can cause gastrointestinal irritation. Additionally, Terminalia anogeissiana may trigger allergic reactions, including skin rashes and respiratory issues, in individuals with sensitivities. Moreover, Terminalia anogeissiana may increase blood pressure due to its potential to stimulate the sympathetic nervous system and cause vasoconstriction. Furthermore, Terminalia anogeissiana may interact with medications such as blood thinners and diabetes medications, reducing their efficacy or increasing the risk of adverse effects.", "uses": "Terminalia anogeissiana is a plant species known for its potential medicinal properties. It has been traditionally used to treat various health conditions, including fever, rheumatism, and digestive issues. The plant's extracts are believed to possess anti-inflammatory and antioxidant properties, which may contribute to its medicinal benefits. Additionally, it may have antimicrobial and antifungal properties, making it a potential candidate for treating infections. However, further research is needed to fully understand and confirm the medicinal uses of Terminalia anogeissiana.", "taxonomy": "Terminalia anogeissiana is classified as a species of tree in the family Combretaceae, commonly known as the anogeissus tree. It is a part of the genus Terminalia, which consists of about 185 species of trees and shrubs. The species Terminalia anogeissiana is native to Africa, specifically the savannas and dry woodlands of sub-Saharan regions. Within the Combretaceae family, Terminalia anogeissiana is closely related to other species such as Terminalia avicennioides and Terminalia macroptera. The classification of Terminalia anogeissiana is based on its unique characteristics, such as its distinctive leaves and bark.", "benefits": "Terminalia anogeissiana, also known as the Anogeissus, has been traditionally used in various cultures for its medicinal properties. The plant is believed to have anti-inflammatory, antimicrobial, and antioxidant properties, which may help in reducing inflammation and fighting infections. It has been used to treat various health conditions, including fever, diarrhea, and skin disorders. The plant's extracts have been studied for their potential in treating certain types of cancer and as an antiviral agent. Further research is needed to fully understand the health benefits of Terminalia anogeissiana.", "parts": "Terminalia anogeissiana is a species of flowering plant, and its medicinal parts are primarily the bark and leaves. The bark is valued for its medicinal properties and is used to treat various ailments. The leaves of the plant are also used in traditional medicine to treat fever and other health issues. However, more research is needed to fully understand the medicinal properties of the plant. The use of Terminalia anogeissiana in traditional medicine highlights its potential as a valuable source of natural remedies.", "intro": "Terminalia anogeissiana, commonly known as the Australian myrtle or yellow myrtle, is a plant species native to Australia, belonging to the family Combretaceae. This plant has been traditionally used in Ayurvedic medicine, exhibiting various health benefits, including antimicrobial, anti-inflammatory, and antioxidant properties, which may help to alleviate symptoms of respiratory infections, wounds, and digestive issues. The bioactive constituents of Terminalia anogeissiana include flavonoids, phenolic acids, and tannins, which are responsible for its medicinal properties. In traditional herbal medicine, the plant is often prepared as a decoction, tincture, or tea, and is also used in topical applications to support skin health and wound healing."}
+{
+    "title": "Terminalia anogeissiana",
+    "herb_slug": "terminalia-anogeissiana",
+    "herb_name_scientific": "Terminalia anogeissiana",
+    "family_slug": "combretaceae",
+    "family_name": "Combretaceae",
+    "url": "herbs/terminalia-anogeissiana",
+    "lastmod": "2025-2-1",
+    "herb_names_common": [
+        {
+            "name": "terminalia anogeissiana",
+            "mentions": 42,
+            "confidence_score": 256,
+            "total_score": 10752
+        },
+        {
+            "name": "anogeissus",
+            "mentions": 21,
+            "confidence_score": 153,
+            "total_score": 3213
+        },
+        {
+            "name": "kulu",
+            "mentions": 9,
+            "confidence_score": 64,
+            "total_score": 576
+        },
+        {
+            "name": "african blackwood",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "anogeissus latifolia",
+            "mentions": 9,
+            "confidence_score": 33,
+            "total_score": 297
+        },
+        {
+            "name": "african black ironwood",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "tulsi siwak",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "terminalia anogeissiana tree",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "australian silver leaf",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "yellow padauk",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "african birch",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "giricidia",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "gambhar tree",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "terminalia anogeissus",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "anogeissus latifolius",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "anogeissus leiocarpa",
+            "mentions": 5,
+            "confidence_score": 10,
+            "total_score": 50
+        },
+        {
+            "name": "african cork tree",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "guilandina",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "gorom",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "anogeissus sericeus",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 155,
+            "total_score": 3100
+        }
+    ],
+    "what_description": "Terminalia anogeissiana is a species of plant in the family Combretaceae, native to Australia. It is a tree that grows up to 15 meters in height, with a broad, spreading canopy and a straight, columnar trunk with a smooth, grey bark. The leaves are simple, alternate, and elliptical in shape, measuring up to 15 cm in length and 5 cm in width, with a rounded base and a pointed apex. The flowers are small, greenish-yellow in color, and arranged in axillary clusters, while the fruit is a woody drupe, 1-2 cm in length, with a single seed enclosed in a fleshy, edible pulp. The species has a broad distribution across northern Australia, where it grows in a variety of habitats, including tropical savannas and open forests.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 19,
+            "confidence_score": 158,
+            "total_score": 3002
+        },
+        {
+            "name": "diabetes",
+            "mentions": 18,
+            "confidence_score": 145,
+            "total_score": 2610
+        },
+        {
+            "name": "hypertension",
+            "mentions": 15,
+            "confidence_score": 125,
+            "total_score": 1875
+        },
+        {
+            "name": "arthritis",
+            "mentions": 11,
+            "confidence_score": 79,
+            "total_score": 869
+        },
+        {
+            "name": "cancer",
+            "mentions": 13,
+            "confidence_score": 73,
+            "total_score": 949
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 9,
+            "confidence_score": 72,
+            "total_score": 648
+        },
+        {
+            "name": "gastritis",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "fever",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "gastrointestinal issues",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "antimicrobial infections",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "pain relief",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "asthma",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "atherosclerosis",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "liver disease",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Terminalia anogeissiana are inflammation, which it reduces by inhibiting pro-inflammatory enzymes; diabetes, by lowering blood glucose levels and improving insulin sensitivity; hypertension, due to its ability to relax blood vessels and reduce blood pressure; arthritis, through its anti-inflammatory and analgesic properties. Additionally, Terminalia anogeissiana has shown to inhibit cancer cell growth, reduce cardiovascular disease risk by lowering cholesterol and triglyceride levels, and alleviate gastritis symptoms by protecting the stomach lining and promoting digestion. It also exhibits antioxidant properties, which help prevent gastrointestinal issues, such as diarrhea, and skin conditions, like eczema, by neutralizing free radicals and promoting tissue repair. Furthermore, Terminalia anogeissiana has antimicrobial effects that combat respiratory issues, including asthma, by reducing inflammation and oxidative stress in the airways, and it has been shown to reduce liver disease risk by protecting liver cells from damage. Its antioxidant and anti-inflammatory properties also contribute to pain relief and atherosclerosis prevention by reducing inflammation and oxidative stress in the cardiovascular system.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 170,
+            "total_score": 3400
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 154,
+            "total_score": 3080
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 149,
+            "total_score": 2980
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 16,
+            "confidence_score": 93,
+            "total_score": 1488
+        },
+        {
+            "name": "analgesic",
+            "mentions": 18,
+            "confidence_score": 88,
+            "total_score": 1584
+        },
+        {
+            "name": "antifungal",
+            "mentions": 10,
+            "confidence_score": 61,
+            "total_score": 610
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 7,
+            "confidence_score": 55,
+            "total_score": 385
+        },
+        {
+            "name": "antiviral",
+            "mentions": 12,
+            "confidence_score": 54,
+            "total_score": 648
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 11,
+            "confidence_score": 52,
+            "total_score": 572
+        },
+        {
+            "name": "anticancer",
+            "mentions": 8,
+            "confidence_score": 45,
+            "total_score": 360
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 8,
+            "confidence_score": 34,
+            "total_score": 272
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "antioxidant enzyme activator",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "antioxidant in lipid peroxidation",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cardiovascular protector",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Terminalia anogeissiana are its antioxidant properties, which are attributed to the plant's flavonoids and phenolic acids, enabling it to protect cells from oxidative damage and potentially contributing to the prevention of chronic diseases. Additionally, the plant exhibits antimicrobial properties, including antibacterial and antifungal activities, primarily due to its saponins and volatile oils, which can inhibit the growth of various pathogens and prevent infections. The anti-inflammatory properties of Terminalia anogeissiana are also noteworthy, as they are linked to the plant's ability to modulate the immune response and reduce inflammation, thereby alleviating conditions such as arthritis and other inflammatory disorders. Furthermore, the plant has been found to possess cardioprotective properties, which can be attributed to its flavonoids and other bioactive compounds that help to protect the cardiovascular system, lower blood pressure, and improve lipid profiles. The analgesic properties of Terminalia anogeissiana are also significant, as they are associated with the plant's ability to reduce pain and discomfort, likely due to its flavonoids and other bioactive compounds that interact with the nervous system to produce analgesic effects.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 16,
+            "confidence_score": 135,
+            "total_score": 2160
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 15,
+            "confidence_score": 111,
+            "total_score": 1665
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 13,
+            "confidence_score": 89,
+            "total_score": 1157
+        },
+        {
+            "name": "tannins",
+            "mentions": 10,
+            "confidence_score": 74,
+            "total_score": 740
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 10,
+            "confidence_score": 73,
+            "total_score": 730
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 9,
+            "confidence_score": 63,
+            "total_score": 567
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 9,
+            "confidence_score": 60,
+            "total_score": 540
+        },
+        {
+            "name": "anogeissoside",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "catechin",
+            "mentions": 8,
+            "confidence_score": 41,
+            "total_score": 328
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "glycosides",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "terflavonoid",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "gallocatechin",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "saponins",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "coumarins",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "anogeissoside c",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "isoquercetin",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Terminalia anogeissiana are quercetin, ellagic acid, gallic acid, tannins, and flavonoids, which are responsible for its antioxidant, anti-inflammatory, and antimicrobial properties. Quercetin, a flavonoid, has been shown to exhibit anti-inflammatory activity by inhibiting the production of pro-inflammatory enzymes, while ellagic acid, a polyphenol, has been found to have antioxidant and anti-cancer properties due to its ability to scavenge free radicals and inhibit cancer cell growth. Gallic acid, another polyphenol, has been demonstrated to possess antimicrobial activity against a range of bacteria and fungi, as well as anti-inflammatory properties by inhibiting the production of pro-inflammatory cytokines. Tannins, a class of polyphenolic compounds, have been found to have antimicrobial and anti-inflammatory properties, as well as the ability to bind to and neutralize toxins. The combination of these constituents in Terminalia anogeissiana makes it a valuable plant for the treatment of various diseases and conditions, including inflammation, infections, and cancer.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 17,
+            "confidence_score": 141,
+            "total_score": 2397
+        },
+        {
+            "name": "tincture",
+            "mentions": 19,
+            "confidence_score": 140,
+            "total_score": 2660
+        },
+        {
+            "name": "decoction",
+            "mentions": 19,
+            "confidence_score": 112,
+            "total_score": 2128
+        },
+        {
+            "name": "tea",
+            "mentions": 8,
+            "confidence_score": 59,
+            "total_score": 472
+        },
+        {
+            "name": "salve",
+            "mentions": 9,
+            "confidence_score": 33,
+            "total_score": 297
+        },
+        {
+            "name": "suppository",
+            "mentions": 8,
+            "confidence_score": 25,
+            "total_score": 200
+        },
+        {
+            "name": "infused oil",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "terminalia tea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "oil",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "glycoside extract",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "capsule",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "ointment",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "terminalia tonic",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "anogeissus tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "anogeissoside extract",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "anogeissus tincture",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "powder",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "poultice",
+            "mentions": 3,
+            "confidence_score": 6,
+            "total_score": 18
+        },
+        {
+            "name": "anogeissoside syrup",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "anogeissus infusion",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Terminalia anogeissiana are infusion, tincture, decoction, tea, and salve. Infusion is a liquid preparation made by steeping the bark in hot water, commonly used for its antimalarial properties. Tincture is a concentrated liquid extract of the bark in a solvent such as ethanol or glycerin, often used for its antimicrobial properties. Decoction is a liquid preparation made by boiling the bark in water, traditionally used for its antipyretic and anti-inflammatory properties. Salve is a topical preparation made by infusing the bark in a carrier oil, commonly used for its wound-healing and anti-inflammatory properties.",
+    "side_effects": [
+        {
+            "name": "cause liver damage",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "cause allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induce allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "impair kidney function",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develops hypotension",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develop allergic reactions",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "exacerbate diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "exhibits skin irritation",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "show liver damage",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "develop kidney problems",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "experiences gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "aggravate diabetic complications",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "exacerbate kidney issues",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Terminalia anogeissiana improperly include causing liver damage due to the high concentration of flavonoids and saponins, which can lead to liver enzyme elevation and cirrhosis in severe cases. Using Terminalia anogeissiana can also induce nausea and stomach upset due to the presence of saponins, which can cause gastrointestinal irritation. Additionally, Terminalia anogeissiana may trigger allergic reactions, including skin rashes and respiratory issues, in individuals with sensitivities. Moreover, Terminalia anogeissiana may increase blood pressure due to its potential to stimulate the sympathetic nervous system and cause vasoconstriction. Furthermore, Terminalia anogeissiana may interact with medications such as blood thinners and diabetes medications, reducing their efficacy or increasing the risk of adverse effects.",
+    "uses": "Terminalia anogeissiana is a plant species known for its potential medicinal properties. It has been traditionally used to treat various health conditions, including fever, rheumatism, and digestive issues. The plant's extracts are believed to possess anti-inflammatory and antioxidant properties, which may contribute to its medicinal benefits. Additionally, it may have antimicrobial and antifungal properties, making it a potential candidate for treating infections. However, further research is needed to fully understand and confirm the medicinal uses of Terminalia anogeissiana.",
+    "taxonomy": "Terminalia anogeissiana is classified as a species of tree in the family Combretaceae, commonly known as the anogeissus tree. It is a part of the genus Terminalia, which consists of about 185 species of trees and shrubs. The species Terminalia anogeissiana is native to Africa, specifically the savannas and dry woodlands of sub-Saharan regions. Within the Combretaceae family, Terminalia anogeissiana is closely related to other species such as Terminalia avicennioides and Terminalia macroptera. The classification of Terminalia anogeissiana is based on its unique characteristics, such as its distinctive leaves and bark.",
+    "benefits": "Terminalia anogeissiana, also known as the Anogeissus, has been traditionally used in various cultures for its medicinal properties. The plant is believed to have anti-inflammatory, antimicrobial, and antioxidant properties, which may help in reducing inflammation and fighting infections. It has been used to treat various health conditions, including fever, diarrhea, and skin disorders. The plant's extracts have been studied for their potential in treating certain types of cancer and as an antiviral agent. Further research is needed to fully understand the health benefits of Terminalia anogeissiana.",
+    "parts": "Terminalia anogeissiana is a species of flowering plant, and its medicinal parts are primarily the bark and leaves. The bark is valued for its medicinal properties and is used to treat various ailments. The leaves of the plant are also used in traditional medicine to treat fever and other health issues. However, more research is needed to fully understand the medicinal properties of the plant. The use of Terminalia anogeissiana in traditional medicine highlights its potential as a valuable source of natural remedies.",
+    "intro": "Terminalia anogeissiana, commonly known as the Australian myrtle or yellow myrtle, is a plant species native to Australia, belonging to the family Combretaceae. This plant has been traditionally used in Ayurvedic medicine, exhibiting various health benefits, including antimicrobial, anti-inflammatory, and antioxidant properties, which may help to alleviate symptoms of respiratory infections, wounds, and digestive issues. The bioactive constituents of Terminalia anogeissiana include flavonoids, phenolic acids, and tannins, which are responsible for its medicinal properties. In traditional herbal medicine, the plant is often prepared as a decoction, tincture, or tea, and is also used in topical applications to support skin health and wound healing."
+}

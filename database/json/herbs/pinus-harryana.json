@@ -1,1 +1,154 @@
-{"title": "Pinus harryana", "herb_slug": "pinus-harryana", "herb_name_scientific": "Pinus harryana", "url": "herbs/pinus-harryana", "lastmod": "2024-12-28", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 14, "confidence_score": 136, "total_score": 1904}, {"medicine_or_poison": "medicine", "mentions": 6, "confidence_score": 54, "total_score": 324}], "family_slug": "pinaceae", "family_name": "Pinaceae", "herb_names_common": [{"name": "harry graham pine", "mentions": 20, "confidence_score": 133, "total_score": 2660}, {"name": "chilgoza pine", "mentions": 9, "confidence_score": 72, "total_score": 648}, {"name": "chir pine", "mentions": 11, "confidence_score": 69, "total_score": 759}, {"name": "harryana pine", "mentions": 8, "confidence_score": 49, "total_score": 392}, {"name": "pinyon pine", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "himalayan pine", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "harry's pinyon", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "himalayan white pine", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "chir pine tree", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "chilka pine", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "harry graham's pine", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "harry's pine", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "chilghoza pine", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "chir tree", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "pinus harryana", "mentions": 10, "confidence_score": 16, "total_score": 160}, {"name": "blue pine", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "pakistani pine", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "tibetan white pine", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "two-needle pinyon", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "harry pine tree", "mentions": 3, "confidence_score": 11, "total_score": 33}], "uses": "Pinus harryana, also known as the Himalayan white pine, has been used in traditional medicine for various purposes. The plant's bark, needles, and resin are said to possess antimicrobial and anti-inflammatory properties. In traditional Ayurvedic medicine, Pinus harryana is used to treat respiratory issues, such as bronchitis and asthma, due to its expectorant and anti-inflammatory properties. The plant's resin is also used to treat wounds and skin conditions, including eczema and acne. Additionally, Pinus harryana is believed to have antiseptic and antioxidant properties, which may help protect against infections and oxidative stress.", "taxonomy": "Pinus harryana is classified as a species of coniferous tree within the genus Pinus and is further classified within the family Pinaceae. It is native to the Himalayan region. Pinus harryana is known as the Kashmir pine. The species is also classified as a member of the order Pinales. This classification places Pinus harryana within the larger group of coniferous plants.", "benefits": "Pinus harryana is native to the Himalayas and is considered to have various health benefits. It is known to have antioxidant properties, which can help protect the body from damage caused by free radicals. The resin of Pinus harryana has been traditionally used in Ayurvedic medicine to treat various ailments, including fever and skin conditions. The plant is also said to have anti-inflammatory properties, which can help reduce swelling and pain. Additionally, its essential oils may have antimicrobial properties, helping to prevent the growth of harmful bacteria and fungi.", "properties": "Pinus harryana has been found to possess various therapeutic properties, including anti-inflammatory and antimicrobial activities. Its extracts have shown potential in treating wounds and skin infections due to their ability to promote tissue repair and reduce inflammation. Additionally, Pinus harryana has been studied for its antioxidant properties, which can help protect against cell damage and oxidative stress. The plant's essential oils have also been found to exhibit antifungal and insecticidal properties, making it a potential natural remedy for various health issues. Further research is needed to fully understand the therapeutic potential of Pinus harryana.", "constituents": "Pinus harryana is a species of pine native to the Himalayas. It contains several active constituents, including flavonoids, phenolic acids, and terpenoids, which contribute to its medicinal and antioxidant properties. The flavonoids present in Pinus harryana may exhibit anti-inflammatory and antimicrobial activities, while the phenolic acids have been shown to possess antioxidant and anti-cancer properties. The terpenoids in Pinus harryana may have anti-inflammatory and antifungal effects. Further research is needed to fully understand the active constituents of Pinus harryana and their potential applications.", "parts": "Pinus harryana, a species of pine tree, is native to the Western Himalayas. Unfortunately, information on Pinus harryana's medicinal parts is scarce, and I could not find any reliable sources confirming its medicinal uses. However, in general, the resin, bark, and needles of pine trees have been used in traditional medicine to treat various ailments. The resin is often used to treat skin conditions and wounds, while the bark and needles are used to treat digestive issues. Further research is needed to determine the specific medicinal properties of Pinus harryana.", "preparations": "Pinus harryana is a species of pine tree native to the Himalayas, and there is limited information available on its traditional herbal preparations. However, some studies suggest that extracts from Pinus species have been used in traditional medicine for their anti-inflammatory and antioxidant properties. The exact herbal preparations and their uses for Pinus harryana are not well documented. Further research is needed to understand the potential benefits and applications of this species in herbal medicine. More studies are required to confirm the efficacy and safety of any herbal preparations derived from Pinus harryana.", "side_effects": "Info not available yet.", "intro": "Pinus harryana, also known as Harry's pine, is a species of coniferous tree in the family Pinaceae. The plant has been traditionally used in herbal medicine to treat various health conditions, including fever, cough, and respiratory issues, due to its anti-inflammatory and antimicrobial properties, which provide health benefits such as relieving congestion and reducing oxidative stress. The bioactive constituents of Pinus harryana include flavonoids, phenolic acids, and terpenoids, including pinene, limonene, and sesquiterpenes, which contribute to its medicinal properties. The most common herbal preparations made with Pinus harryana include essential oils, extracts, and tea, which are often used in traditional medicine to treat respiratory issues and promote overall well-being."}
+{
+    "title": "Pinus harryana",
+    "herb_slug": "pinus-harryana",
+    "herb_name_scientific": "Pinus harryana",
+    "url": "herbs/pinus-harryana",
+    "lastmod": "2024-12-28",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 14,
+            "confidence_score": 136,
+            "total_score": 1904
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 6,
+            "confidence_score": 54,
+            "total_score": 324
+        }
+    ],
+    "family_slug": "pinaceae",
+    "family_name": "Pinaceae",
+    "herb_names_common": [
+        {
+            "name": "harry graham pine",
+            "mentions": 20,
+            "confidence_score": 133,
+            "total_score": 2660
+        },
+        {
+            "name": "chilgoza pine",
+            "mentions": 9,
+            "confidence_score": 72,
+            "total_score": 648
+        },
+        {
+            "name": "chir pine",
+            "mentions": 11,
+            "confidence_score": 69,
+            "total_score": 759
+        },
+        {
+            "name": "harryana pine",
+            "mentions": 8,
+            "confidence_score": 49,
+            "total_score": 392
+        },
+        {
+            "name": "pinyon pine",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "himalayan pine",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "harry's pinyon",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "himalayan white pine",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "chir pine tree",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "chilka pine",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "harry graham's pine",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "harry's pine",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "chilghoza pine",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "chir tree",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "pinus harryana",
+            "mentions": 10,
+            "confidence_score": 16,
+            "total_score": 160
+        },
+        {
+            "name": "blue pine",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "pakistani pine",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "tibetan white pine",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "two-needle pinyon",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "harry pine tree",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        }
+    ],
+    "uses": "Pinus harryana, also known as the Himalayan white pine, has been used in traditional medicine for various purposes. The plant's bark, needles, and resin are said to possess antimicrobial and anti-inflammatory properties. In traditional Ayurvedic medicine, Pinus harryana is used to treat respiratory issues, such as bronchitis and asthma, due to its expectorant and anti-inflammatory properties. The plant's resin is also used to treat wounds and skin conditions, including eczema and acne. Additionally, Pinus harryana is believed to have antiseptic and antioxidant properties, which may help protect against infections and oxidative stress.",
+    "taxonomy": "Pinus harryana is classified as a species of coniferous tree within the genus Pinus and is further classified within the family Pinaceae. It is native to the Himalayan region. Pinus harryana is known as the Kashmir pine. The species is also classified as a member of the order Pinales. This classification places Pinus harryana within the larger group of coniferous plants.",
+    "benefits": "Pinus harryana is native to the Himalayas and is considered to have various health benefits. It is known to have antioxidant properties, which can help protect the body from damage caused by free radicals. The resin of Pinus harryana has been traditionally used in Ayurvedic medicine to treat various ailments, including fever and skin conditions. The plant is also said to have anti-inflammatory properties, which can help reduce swelling and pain. Additionally, its essential oils may have antimicrobial properties, helping to prevent the growth of harmful bacteria and fungi.",
+    "properties": "Pinus harryana has been found to possess various therapeutic properties, including anti-inflammatory and antimicrobial activities. Its extracts have shown potential in treating wounds and skin infections due to their ability to promote tissue repair and reduce inflammation. Additionally, Pinus harryana has been studied for its antioxidant properties, which can help protect against cell damage and oxidative stress. The plant's essential oils have also been found to exhibit antifungal and insecticidal properties, making it a potential natural remedy for various health issues. Further research is needed to fully understand the therapeutic potential of Pinus harryana.",
+    "constituents": "Pinus harryana is a species of pine native to the Himalayas. It contains several active constituents, including flavonoids, phenolic acids, and terpenoids, which contribute to its medicinal and antioxidant properties. The flavonoids present in Pinus harryana may exhibit anti-inflammatory and antimicrobial activities, while the phenolic acids have been shown to possess antioxidant and anti-cancer properties. The terpenoids in Pinus harryana may have anti-inflammatory and antifungal effects. Further research is needed to fully understand the active constituents of Pinus harryana and their potential applications.",
+    "parts": "Pinus harryana, a species of pine tree, is native to the Western Himalayas. Unfortunately, information on Pinus harryana's medicinal parts is scarce, and I could not find any reliable sources confirming its medicinal uses. However, in general, the resin, bark, and needles of pine trees have been used in traditional medicine to treat various ailments. The resin is often used to treat skin conditions and wounds, while the bark and needles are used to treat digestive issues. Further research is needed to determine the specific medicinal properties of Pinus harryana.",
+    "preparations": "Pinus harryana is a species of pine tree native to the Himalayas, and there is limited information available on its traditional herbal preparations. However, some studies suggest that extracts from Pinus species have been used in traditional medicine for their anti-inflammatory and antioxidant properties. The exact herbal preparations and their uses for Pinus harryana are not well documented. Further research is needed to understand the potential benefits and applications of this species in herbal medicine. More studies are required to confirm the efficacy and safety of any herbal preparations derived from Pinus harryana.",
+    "side_effects": "Info not available yet.",
+    "intro": "Pinus harryana, also known as Harry's pine, is a species of coniferous tree in the family Pinaceae. The plant has been traditionally used in herbal medicine to treat various health conditions, including fever, cough, and respiratory issues, due to its anti-inflammatory and antimicrobial properties, which provide health benefits such as relieving congestion and reducing oxidative stress. The bioactive constituents of Pinus harryana include flavonoids, phenolic acids, and terpenoids, including pinene, limonene, and sesquiterpenes, which contribute to its medicinal properties. The most common herbal preparations made with Pinus harryana include essential oils, extracts, and tea, which are often used in traditional medicine to treat respiratory issues and promote overall well-being."
+}

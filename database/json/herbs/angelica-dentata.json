@@ -1,1 +1,761 @@
-{"title": "Angelica dentata", "herb_slug": "angelica-dentata", "herb_name_scientific": "Angelica dentata", "family_slug": "apiaceae", "family_name": "Apiaceae", "url": "herbs/angelica-dentata", "lastmod": "2025-1-11", "herb_names_common": [{"name": "toothed angelica", "mentions": 19, "confidence_score": 139, "total_score": 2641}, {"name": "dentate angelica", "mentions": 18, "confidence_score": 113, "total_score": 2034}, {"name": "asian angelica", "mentions": 14, "confidence_score": 96, "total_score": 1344}, {"name": "angelica", "mentions": 12, "confidence_score": 81, "total_score": 972}, {"name": "japanese angelica", "mentions": 14, "confidence_score": 76, "total_score": 1064}, {"name": "chinese angelica", "mentions": 9, "confidence_score": 61, "total_score": 549}, {"name": "toothed wild angelica", "mentions": 10, "confidence_score": 48, "total_score": 480}, {"name": "toothed wild celery", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "dentata", "mentions": 8, "confidence_score": 23, "total_score": 184}, {"name": "dong quai", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "tall angelica", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "asian wild celery", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "angelica sinensis", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "dentata angelica", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "giant angelica", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "chinese angelica root", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "toothed snakeroot", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "east indian angelica", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "tooth-leaved angelica", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "japanese angelica root", "mentions": 2, "confidence_score": 10, "total_score": 20}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 166, "total_score": 3320}], "what_description": "Angelica dentata is a perennial plant that belongs to the family Apiaceae. It is characterized by its deeply divided, toothed leaves, typically 3-5 pinnate, with leaflets that are linear-lanceolate in shape. The plant can grow up to 1.5 meters tall, with a stout, hairy stem and a taproot. It produces small, white or yellowish flowers in umbrella-like umbels, which are 2-3 cm in diameter, from June to August. The plant is native to China and Japan, and is also found in parts of Eastern Asia, where it grows in moist, mountainous regions.", "category_action": "antimicrobial", "ailments": [{"name": "inflammation", "mentions": 18, "confidence_score": 157, "total_score": 2826}, {"name": "fever", "mentions": 13, "confidence_score": 97, "total_score": 1261}, {"name": "diarrhea", "mentions": 11, "confidence_score": 85, "total_score": 935}, {"name": "cough", "mentions": 12, "confidence_score": 74, "total_score": 888}, {"name": "menstrual cramps", "mentions": 9, "confidence_score": 72, "total_score": 648}, {"name": "rheumatism", "mentions": 9, "confidence_score": 66, "total_score": 594}, {"name": "digestive issues", "mentions": 7, "confidence_score": 53, "total_score": 371}, {"name": "nausea", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "arthritis", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "skin irritation", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "respiratory issues", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "gastritis", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "pain relief", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "migraines", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "infection", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "bronchitis", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "anxiety", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "cold", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "pain", "mentions": 3, "confidence_score": 23, "total_score": 69}], "ailments_description": "The most common ailments you can heal with Angelica dentata are inflammation, fever, and digestive issues, due to its anti-inflammatory and antipyretic properties. It also helps alleviate diarrhea and gastritis through its prebiotic and antimicrobial effects. Additionally, Angelica dentata is used to treat cough, menstrual cramps, and rheumatism, as well as provide pain relief and gastroenteritis management. Furthermore, it offers relief from skin irritation, respiratory issues, and bronchitis, while also being effective against nausea, arthritis, and migraines. Its antimicrobial and anti-inflammatory properties also make it useful for treating infections, colds, and anxiety.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 154, "total_score": 3080}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 152, "total_score": 3040}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 144, "total_score": 2880}, {"name": "hepatoprotective", "mentions": 16, "confidence_score": 100, "total_score": 1600}, {"name": "analgesic", "mentions": 17, "confidence_score": 86, "total_score": 1462}, {"name": "antipyretic", "mentions": 13, "confidence_score": 63, "total_score": 819}, {"name": "antiviral", "mentions": 14, "confidence_score": 56, "total_score": 784}, {"name": "cardioprotective", "mentions": 11, "confidence_score": 56, "total_score": 616}, {"name": "antispasmodic", "mentions": 10, "confidence_score": 56, "total_score": 560}, {"name": "anticancer", "mentions": 10, "confidence_score": 52, "total_score": 520}, {"name": "antibacterial", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "cytotoxic", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "neuroprotective", "mentions": 7, "confidence_score": 25, "total_score": 175}, {"name": "expectorant", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "antifungal", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "antihistamine", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "diuretic", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "digestive aid", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "antidiarrheal", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "antidiabetic", "mentions": 2, "confidence_score": 11, "total_score": 22}], "properties_description": "The main therapeutic properties of Angelica dentata are its antioxidant capacity, which is attributed to the presence of flavonoids and phenolic acids. This plant also exhibits antimicrobial activity, inhibiting the growth of various pathogens due to the bioactive compounds saponins and volatile oils. Anti-inflammatory effects of Angelica dentata are thought to be mediated by sesquiterpenes and phenolic compounds, reducing inflammation and alleviating associated symptoms. Additionally, the hepatoprotective properties of this plant are attributed to its ability to scavenge free radicals and modulate liver enzymes, protecting liver cells from damage. The analgesic properties of Angelica dentata are likely due to the presence of sesquiterpenes and phenolic compounds, which may help alleviate pain by inhibiting the release of pro-inflammatory mediators.", "constituents": [{"name": "ligustilide", "mentions": 15, "confidence_score": 135, "total_score": 2025}, {"name": "butylphthalide", "mentions": 14, "confidence_score": 113, "total_score": 1582}, {"name": "angelan", "mentions": 9, "confidence_score": 65, "total_score": 585}, {"name": "angelol", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "coumarins", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "ferulic acid", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "phthalides", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "phenolic acids (including ferulic acid and caffeic acid)", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "apigenin", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "flavonoids", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "flavonoids (such as kaempferol and quercetin)", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "quercetin", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "oleanolic acid", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "coumarin", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "saponins", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "falcarinol", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "volatile oils (containing limonene, pinene, and other terpenes)", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "phytosterols (including beta-sitosterol and stigmasterol)", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "acacetin", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "falcarinene", "mentions": 2, "confidence_score": 16, "total_score": 32}], "constituents_description": "The most important healing constituents of Angelica dentata are ligustilide, butylphthalide, angelan, angelol, and coumarins. Ligustilide has been shown to possess anti-inflammatory and antioxidant properties, reducing inflammation and oxidative stress in various diseases. Butylphthalide has been demonstrated to have neuroprotective effects, improving cognitive function and reducing neurodegeneration. Angelan and angelol have been found to have antibacterial and anti-inflammatory properties, inhibiting the growth of certain pathogens and reducing inflammation in wounds. Coumarins, specifically angelicin, have been reported to exhibit anti-inflammatory and antioxidant activities, scavenging free radicals and reducing inflammation in various conditions.", "preparations": [{"name": "tincture", "mentions": 14, "confidence_score": 114, "total_score": 1596}, {"name": "tea", "mentions": 12, "confidence_score": 104, "total_score": 1248}, {"name": "infusion", "mentions": 10, "confidence_score": 77, "total_score": 770}, {"name": "salve", "mentions": 14, "confidence_score": 70, "total_score": 980}, {"name": "decoction", "mentions": 12, "confidence_score": 60, "total_score": 720}, {"name": "infused oil", "mentions": 8, "confidence_score": 54, "total_score": 432}, {"name": "angelica tincture", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "angelica infusion", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "essential oil", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "infused vinegar", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "suppository", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "angelica decoction", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "glycerite", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "angelica oil", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "ointment", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "angelica salve", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "dentata tincture", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "angelica root tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "dentata tea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "dried root tea", "mentions": 1, "confidence_score": 8, "total_score": 8}], "preparations_description": "The main herbal preparations of Angelica dentata are tincture, tea, infusion, salve, and decoction. Tincture is a concentrated liquid extract used to treat digestive issues and colds, typically prepared by steeping the dried root in a solvent like ethanol. Tea is made by infusing the dried root in hot water, often consumed to alleviate menstrual cramps and as a diuretic. Infusion involves steeping the root in cold water to create a calming tea, used for anxiety and insomnia relief. Decoction, a boiling method, is used to extract the root's active compounds, commonly employed to treat arthritis and rheumatism due to its anti-inflammatory properties.", "side_effects": [{"name": "experiences nausea", "mentions": 4, "confidence_score": 37, "total_score": 148}, {"name": "experiences allergic reactions", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "induce nausea", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "cause diarrhea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "develops diarrhea", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "increase blood pressure", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "induce seizures", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "experiences vomiting", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "exacerbate kidney damage", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develops allergic reactions", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "diarrhea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "develops respiratory issues", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "trigger allergic reactions", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "affect blood pressure", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "hypotension", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "allergic reaction", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "increasing blood pressure", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "experiences dizziness", "mentions": 2, "confidence_score": 10, "total_score": 20}], "side_effects_description": "The possible side effect of using Angelica dentata are gastrointestinal issues, such as nausea and diarrhea, due to the presence of sesquiterpene lactones and angelan, which can irritate the stomach lining and induce gastrointestinal upset. Allergic reactions to Angelica dentata can also occur, leading to symptoms like hives, itching, and difficulty breathing, particularly in individuals with pre-existing allergies. The improper use of Angelica dentata may also cause nausea due to the emetic properties of its sesquiterpene lactones, which can stimulate the vomiting center in the brain. Developing diarrhea is another possible side effect, as the angelan in Angelica dentata can alter the balance of gut bacteria and disrupt normal bowel function. Prolonged or excessive use of Angelica dentata can exacerbate these side effects and lead to more severe health issues.", "uses": "Angelica dentata, a species of angelica native to China, has been used in traditional medicine for various purposes. The plant is rich in bioactive compounds, including coumarins, lignans, and volatile oils, which contribute to its medicinal properties. It has been traditionally used to treat fever, rheumatism, and digestive issues, as well as to relieve pain and inflammation. The plant's roots and rhizomes are often used in herbal remedies due to their high concentration of bioactive compounds. Further research is needed to fully understand the efficacy and potential side effects of using Angelica dentata for medicinal purposes.", "taxonomy": "Angelica dentata is classified as a member of the carrot family (Apiaceae), within the genus Angelica. This plant is native to Asia and is also known as Japanese angelica or Tohon. It is further classified as Angelica dentata within the species. Angelica dentata is often divided into two subspecies: A. d. dentata and A. d. tsukusimana. The classification is based on its botanical characteristics and distribution.", "benefits": "Angelica dentata, also known as toothed angelica, has been used in traditional medicine for its potential health benefits. The plant is rich in vitamins, minerals, and antioxidants, which may help to boost the immune system and reduce inflammation. Its roots and leaves have been used to treat various ailments, including digestive issues, fever, and respiratory problems. Some studies suggest that Angelica dentata may have anti-inflammatory, antimicrobial, and antiviral properties. However, more research is needed to confirm its full range of health benefits and potential interactions with medications.", "parts": "Angelica dentata, also known as Toyo-shiksa or Japanese angelica, is a plant native to East Asia. The medicinal parts of Angelica dentata include the root and rhizome, which are commonly used in traditional medicine. The root and rhizome contain compounds like ferulic acid, which is believed to have anti-inflammatory properties. In traditional Chinese medicine, the plant is used to treat various health conditions, including fever, cough, and digestive issues. The plant's medicinal properties are also attributed to its ability to stimulate blood circulation and reduce swelling.", "intro": "Angelica dentata, also known as Chinese Angelica or Dong Quai, is a perennial plant native to China, belonging to the carrot family (Apiaceae). The plant is valued for its medicinal properties, particularly for its ability to promote digestion, reduce menstrual cramps, and alleviate symptoms of menopause, such as hot flashes and night sweats. The bioactive constituents of Angelica dentata include ligustilide, butylphthalide, and ferulic acid, which contribute to its therapeutic effects. The most common herbal preparations made with Angelica dentata include teas, capsules, and tinctures, which are often used to support women's health and relieve various symptoms associated with PMS and menopause."}
+{
+    "title": "Angelica dentata",
+    "herb_slug": "angelica-dentata",
+    "herb_name_scientific": "Angelica dentata",
+    "family_slug": "apiaceae",
+    "family_name": "Apiaceae",
+    "url": "herbs/angelica-dentata",
+    "lastmod": "2025-1-11",
+    "herb_names_common": [
+        {
+            "name": "toothed angelica",
+            "mentions": 19,
+            "confidence_score": 139,
+            "total_score": 2641
+        },
+        {
+            "name": "dentate angelica",
+            "mentions": 18,
+            "confidence_score": 113,
+            "total_score": 2034
+        },
+        {
+            "name": "asian angelica",
+            "mentions": 14,
+            "confidence_score": 96,
+            "total_score": 1344
+        },
+        {
+            "name": "angelica",
+            "mentions": 12,
+            "confidence_score": 81,
+            "total_score": 972
+        },
+        {
+            "name": "japanese angelica",
+            "mentions": 14,
+            "confidence_score": 76,
+            "total_score": 1064
+        },
+        {
+            "name": "chinese angelica",
+            "mentions": 9,
+            "confidence_score": 61,
+            "total_score": 549
+        },
+        {
+            "name": "toothed wild angelica",
+            "mentions": 10,
+            "confidence_score": 48,
+            "total_score": 480
+        },
+        {
+            "name": "toothed wild celery",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "dentata",
+            "mentions": 8,
+            "confidence_score": 23,
+            "total_score": 184
+        },
+        {
+            "name": "dong quai",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "tall angelica",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "asian wild celery",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "angelica sinensis",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "dentata angelica",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "giant angelica",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "chinese angelica root",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "toothed snakeroot",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "east indian angelica",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "tooth-leaved angelica",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "japanese angelica root",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 166,
+            "total_score": 3320
+        }
+    ],
+    "what_description": "Angelica dentata is a perennial plant that belongs to the family Apiaceae. It is characterized by its deeply divided, toothed leaves, typically 3-5 pinnate, with leaflets that are linear-lanceolate in shape. The plant can grow up to 1.5 meters tall, with a stout, hairy stem and a taproot. It produces small, white or yellowish flowers in umbrella-like umbels, which are 2-3 cm in diameter, from June to August. The plant is native to China and Japan, and is also found in parts of Eastern Asia, where it grows in moist, mountainous regions.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 18,
+            "confidence_score": 157,
+            "total_score": 2826
+        },
+        {
+            "name": "fever",
+            "mentions": 13,
+            "confidence_score": 97,
+            "total_score": 1261
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 11,
+            "confidence_score": 85,
+            "total_score": 935
+        },
+        {
+            "name": "cough",
+            "mentions": 12,
+            "confidence_score": 74,
+            "total_score": 888
+        },
+        {
+            "name": "menstrual cramps",
+            "mentions": 9,
+            "confidence_score": 72,
+            "total_score": 648
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 9,
+            "confidence_score": 66,
+            "total_score": 594
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 7,
+            "confidence_score": 53,
+            "total_score": 371
+        },
+        {
+            "name": "nausea",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "arthritis",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "gastritis",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "pain relief",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "migraines",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "infection",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "bronchitis",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "anxiety",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "cold",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "pain",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Angelica dentata are inflammation, fever, and digestive issues, due to its anti-inflammatory and antipyretic properties. It also helps alleviate diarrhea and gastritis through its prebiotic and antimicrobial effects. Additionally, Angelica dentata is used to treat cough, menstrual cramps, and rheumatism, as well as provide pain relief and gastroenteritis management. Furthermore, it offers relief from skin irritation, respiratory issues, and bronchitis, while also being effective against nausea, arthritis, and migraines. Its antimicrobial and anti-inflammatory properties also make it useful for treating infections, colds, and anxiety.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 154,
+            "total_score": 3080
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 152,
+            "total_score": 3040
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 144,
+            "total_score": 2880
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 16,
+            "confidence_score": 100,
+            "total_score": 1600
+        },
+        {
+            "name": "analgesic",
+            "mentions": 17,
+            "confidence_score": 86,
+            "total_score": 1462
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 13,
+            "confidence_score": 63,
+            "total_score": 819
+        },
+        {
+            "name": "antiviral",
+            "mentions": 14,
+            "confidence_score": 56,
+            "total_score": 784
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 11,
+            "confidence_score": 56,
+            "total_score": 616
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 10,
+            "confidence_score": 56,
+            "total_score": 560
+        },
+        {
+            "name": "anticancer",
+            "mentions": 10,
+            "confidence_score": 52,
+            "total_score": 520
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 7,
+            "confidence_score": 25,
+            "total_score": 175
+        },
+        {
+            "name": "expectorant",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "antifungal",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "diuretic",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "digestive aid",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Angelica dentata are its antioxidant capacity, which is attributed to the presence of flavonoids and phenolic acids. This plant also exhibits antimicrobial activity, inhibiting the growth of various pathogens due to the bioactive compounds saponins and volatile oils. Anti-inflammatory effects of Angelica dentata are thought to be mediated by sesquiterpenes and phenolic compounds, reducing inflammation and alleviating associated symptoms. Additionally, the hepatoprotective properties of this plant are attributed to its ability to scavenge free radicals and modulate liver enzymes, protecting liver cells from damage. The analgesic properties of Angelica dentata are likely due to the presence of sesquiterpenes and phenolic compounds, which may help alleviate pain by inhibiting the release of pro-inflammatory mediators.",
+    "constituents": [
+        {
+            "name": "ligustilide",
+            "mentions": 15,
+            "confidence_score": 135,
+            "total_score": 2025
+        },
+        {
+            "name": "butylphthalide",
+            "mentions": 14,
+            "confidence_score": 113,
+            "total_score": 1582
+        },
+        {
+            "name": "angelan",
+            "mentions": 9,
+            "confidence_score": 65,
+            "total_score": 585
+        },
+        {
+            "name": "angelol",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "coumarins",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "phthalides",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "phenolic acids (including ferulic acid and caffeic acid)",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "apigenin",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "flavonoids (such as kaempferol and quercetin)",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "quercetin",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "coumarin",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "saponins",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "falcarinol",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "volatile oils (containing limonene, pinene, and other terpenes)",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "phytosterols (including beta-sitosterol and stigmasterol)",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "acacetin",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "falcarinene",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Angelica dentata are ligustilide, butylphthalide, angelan, angelol, and coumarins. Ligustilide has been shown to possess anti-inflammatory and antioxidant properties, reducing inflammation and oxidative stress in various diseases. Butylphthalide has been demonstrated to have neuroprotective effects, improving cognitive function and reducing neurodegeneration. Angelan and angelol have been found to have antibacterial and anti-inflammatory properties, inhibiting the growth of certain pathogens and reducing inflammation in wounds. Coumarins, specifically angelicin, have been reported to exhibit anti-inflammatory and antioxidant activities, scavenging free radicals and reducing inflammation in various conditions.",
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 14,
+            "confidence_score": 114,
+            "total_score": 1596
+        },
+        {
+            "name": "tea",
+            "mentions": 12,
+            "confidence_score": 104,
+            "total_score": 1248
+        },
+        {
+            "name": "infusion",
+            "mentions": 10,
+            "confidence_score": 77,
+            "total_score": 770
+        },
+        {
+            "name": "salve",
+            "mentions": 14,
+            "confidence_score": 70,
+            "total_score": 980
+        },
+        {
+            "name": "decoction",
+            "mentions": 12,
+            "confidence_score": 60,
+            "total_score": 720
+        },
+        {
+            "name": "infused oil",
+            "mentions": 8,
+            "confidence_score": 54,
+            "total_score": 432
+        },
+        {
+            "name": "angelica tincture",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "angelica infusion",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "essential oil",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "infused vinegar",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "suppository",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "angelica decoction",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "glycerite",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "angelica oil",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "ointment",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "angelica salve",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "dentata tincture",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "angelica root tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "dentata tea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "dried root tea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Angelica dentata are tincture, tea, infusion, salve, and decoction. Tincture is a concentrated liquid extract used to treat digestive issues and colds, typically prepared by steeping the dried root in a solvent like ethanol. Tea is made by infusing the dried root in hot water, often consumed to alleviate menstrual cramps and as a diuretic. Infusion involves steeping the root in cold water to create a calming tea, used for anxiety and insomnia relief. Decoction, a boiling method, is used to extract the root's active compounds, commonly employed to treat arthritis and rheumatism due to its anti-inflammatory properties.",
+    "side_effects": [
+        {
+            "name": "experiences nausea",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "experiences vomiting",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "exacerbate kidney damage",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develops allergic reactions",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "develops respiratory issues",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "affect blood pressure",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "hypotension",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "allergic reaction",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "increasing blood pressure",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "side_effects_description": "The possible side effect of using Angelica dentata are gastrointestinal issues, such as nausea and diarrhea, due to the presence of sesquiterpene lactones and angelan, which can irritate the stomach lining and induce gastrointestinal upset. Allergic reactions to Angelica dentata can also occur, leading to symptoms like hives, itching, and difficulty breathing, particularly in individuals with pre-existing allergies. The improper use of Angelica dentata may also cause nausea due to the emetic properties of its sesquiterpene lactones, which can stimulate the vomiting center in the brain. Developing diarrhea is another possible side effect, as the angelan in Angelica dentata can alter the balance of gut bacteria and disrupt normal bowel function. Prolonged or excessive use of Angelica dentata can exacerbate these side effects and lead to more severe health issues.",
+    "uses": "Angelica dentata, a species of angelica native to China, has been used in traditional medicine for various purposes. The plant is rich in bioactive compounds, including coumarins, lignans, and volatile oils, which contribute to its medicinal properties. It has been traditionally used to treat fever, rheumatism, and digestive issues, as well as to relieve pain and inflammation. The plant's roots and rhizomes are often used in herbal remedies due to their high concentration of bioactive compounds. Further research is needed to fully understand the efficacy and potential side effects of using Angelica dentata for medicinal purposes.",
+    "taxonomy": "Angelica dentata is classified as a member of the carrot family (Apiaceae), within the genus Angelica. This plant is native to Asia and is also known as Japanese angelica or Tohon. It is further classified as Angelica dentata within the species. Angelica dentata is often divided into two subspecies: A. d. dentata and A. d. tsukusimana. The classification is based on its botanical characteristics and distribution.",
+    "benefits": "Angelica dentata, also known as toothed angelica, has been used in traditional medicine for its potential health benefits. The plant is rich in vitamins, minerals, and antioxidants, which may help to boost the immune system and reduce inflammation. Its roots and leaves have been used to treat various ailments, including digestive issues, fever, and respiratory problems. Some studies suggest that Angelica dentata may have anti-inflammatory, antimicrobial, and antiviral properties. However, more research is needed to confirm its full range of health benefits and potential interactions with medications.",
+    "parts": "Angelica dentata, also known as Toyo-shiksa or Japanese angelica, is a plant native to East Asia. The medicinal parts of Angelica dentata include the root and rhizome, which are commonly used in traditional medicine. The root and rhizome contain compounds like ferulic acid, which is believed to have anti-inflammatory properties. In traditional Chinese medicine, the plant is used to treat various health conditions, including fever, cough, and digestive issues. The plant's medicinal properties are also attributed to its ability to stimulate blood circulation and reduce swelling.",
+    "intro": "Angelica dentata, also known as Chinese Angelica or Dong Quai, is a perennial plant native to China, belonging to the carrot family (Apiaceae). The plant is valued for its medicinal properties, particularly for its ability to promote digestion, reduce menstrual cramps, and alleviate symptoms of menopause, such as hot flashes and night sweats. The bioactive constituents of Angelica dentata include ligustilide, butylphthalide, and ferulic acid, which contribute to its therapeutic effects. The most common herbal preparations made with Angelica dentata include teas, capsules, and tinctures, which are often used to support women's health and relieve various symptoms associated with PMS and menopause."
+}

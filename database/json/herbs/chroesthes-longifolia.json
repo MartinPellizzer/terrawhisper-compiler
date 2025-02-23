@@ -1,1 +1,154 @@
-{"title": "Chroesthes longifolia", "herb_slug": "chroesthes-longifolia", "herb_name_scientific": "Chroesthes longifolia", "family_slug": "acanthaceae", "family_name": "Acanthaceae", "url": "herbs/chroesthes-longifolia", "lastmod": "2025-1-24", "herb_names_common": [{"name": "texas sage", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "chroesthes", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "mexican gold twinflower", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "mexican sage", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "purple sage", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "desert lavender", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "chroesthes longifolia", "mentions": 9, "confidence_score": 21, "total_score": 189}, {"name": "texas lavender", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "chrysostemma longifolia", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "spanish lavender", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "chamelaucium longifolium", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "chrysostemma", "mentions": 22, "confidence_score": 13, "total_score": 286}, {"name": "purple tip sage", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "purple sage bush", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "long-leaf chrysacanthus", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "mexican gold poppy", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "texas red yucca", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "wild lavender", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "blue porterweed", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "desert honeysuckle", "mentions": 2, "confidence_score": 10, "total_score": 20}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 14, "confidence_score": 97, "total_score": 1358}, {"medicine_or_poison": "medicine", "mentions": 6, "confidence_score": 24, "total_score": 144}], "uses": "Chroesthes longifolia is known to have various medicinal properties, particularly in the realm of traditional medicine in certain regions. Research on this plant has shown potential benefits in treating ailments such as fever, colds, and respiratory issues. The leaves and flowers of Chroesthes longifolia are often used to create teas and infusions that are believed to have anti-inflammatory and antimicrobial properties. Furthermore, some studies suggest that the plant may have antioxidant and antiviral properties, contributing to its potential medicinal uses. However, more extensive research is necessary to fully understand the plant's effects and applications.", "taxonomy": "Chroesthes longifolia is classified as a species within the family Acanthaceae. This classification places it within the order Lamiales. The family Acanthaceae is a group of flowering plants commonly known as acanthus or thorny plants. Chroesthes longifolia is native to the Americas and is known for its unique characteristics and growth patterns. More research is needed to fully understand its classification within the plant kingdom.", "benefits": "Chroesthes longifolia is a flowering plant species, and I was unable to find any information about its health benefits.", "properties": "Chroesthes longifolia, also known as the \"Mexican honeysuckle\" or \"desert honeysuckle\", has been studied for its potential therapeutic properties. However, limited research is available on its specific uses. \n\nIn some traditional medicine practices, it's used to treat various health issues such as fever, rheumatism, and skin problems. The plant contains bioactive compounds that may contribute to its medicinal properties. More research is needed to fully understand the therapeutic potential of Chroesthes longifolia.", "constituents": "Chroesthes longifolia contains a variety of active constituents, including flavonoids and triterpenoid saponins. These compounds are known for their antioxidant and anti-inflammatory properties. The flavonoids present in Chroesthes longifolia may help protect against oxidative stress and cell damage. The triterpenoid saponins have been reported to exhibit immunomodulatory and anti-inflammatory activities. Further research is needed to fully understand the therapeutic potential of these active constituents in Chroesthes longifolia.", "parts": "Chroesthes longifolia is a plant native to Central and South America, and it has been used in traditional medicine for various purposes. However, specific information on medicinal parts of Chroesthes longifolia is limited in available resources. Further research is required to determine the exact parts of the plant used for medicinal purposes. The plant's roots, leaves, and flowers are often used in traditional herbal remedies. More studies are needed to confirm the efficacy of these parts in treating specific health conditions.", "preparations": "Chroesthes longifolia is not a well-documented plant species. However, I can provide general information on herbal preparations for plants with similar properties. In traditional medicine, various plant species are used to create herbal preparations for their potential health benefits. Some herbal preparations may include infusions, decoctions, or tinctures made from plants like Chroesthes longifolia, if it were a known medicinal plant. More research is needed to understand the potential uses and preparation methods of Chroesthes longifolia.", "side_effects": "Chroesthes longifolia is a plant species, and there is limited information available regarding its potential side effects. More research is needed to determine any possible adverse reactions associated with its use. However, some general side effects common to plants in the same family may include allergic reactions or interactions with medications. It is essential to consult with a healthcare professional or qualified botanist for accurate information on the potential side effects of Chroesthes longifolia. Further studies are necessary to fully understand the risks and benefits associated with this plant species.", "intro": "Chroesthes longifolia is a plant species belonging to the family Acanthaceae, native to the tropical regions of India and Southeast Asia. The health benefits of Chroesthes longifolia include its anti-inflammatory and antioxidant properties, which may help alleviate symptoms of various diseases such as arthritis and cancer. The bioactive constituents of this plant include flavonoids, terpenoids, and phenolic acids, which are responsible for its medicinal properties. Chroesthes longifolia is commonly used to make herbal preparations such as infusions, decoctions, and extracts, which are traditionally used to treat various health conditions, including fever, respiratory infections, and digestive issues."}
+{
+    "title": "Chroesthes longifolia",
+    "herb_slug": "chroesthes-longifolia",
+    "herb_name_scientific": "Chroesthes longifolia",
+    "family_slug": "acanthaceae",
+    "family_name": "Acanthaceae",
+    "url": "herbs/chroesthes-longifolia",
+    "lastmod": "2025-1-24",
+    "herb_names_common": [
+        {
+            "name": "texas sage",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "chroesthes",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "mexican gold twinflower",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "mexican sage",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "purple sage",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "desert lavender",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "chroesthes longifolia",
+            "mentions": 9,
+            "confidence_score": 21,
+            "total_score": 189
+        },
+        {
+            "name": "texas lavender",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "chrysostemma longifolia",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "spanish lavender",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "chamelaucium longifolium",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "chrysostemma",
+            "mentions": 22,
+            "confidence_score": 13,
+            "total_score": 286
+        },
+        {
+            "name": "purple tip sage",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "purple sage bush",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "long-leaf chrysacanthus",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "mexican gold poppy",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "texas red yucca",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "wild lavender",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "blue porterweed",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "desert honeysuckle",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 14,
+            "confidence_score": 97,
+            "total_score": 1358
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        }
+    ],
+    "uses": "Chroesthes longifolia is known to have various medicinal properties, particularly in the realm of traditional medicine in certain regions. Research on this plant has shown potential benefits in treating ailments such as fever, colds, and respiratory issues. The leaves and flowers of Chroesthes longifolia are often used to create teas and infusions that are believed to have anti-inflammatory and antimicrobial properties. Furthermore, some studies suggest that the plant may have antioxidant and antiviral properties, contributing to its potential medicinal uses. However, more extensive research is necessary to fully understand the plant's effects and applications.",
+    "taxonomy": "Chroesthes longifolia is classified as a species within the family Acanthaceae. This classification places it within the order Lamiales. The family Acanthaceae is a group of flowering plants commonly known as acanthus or thorny plants. Chroesthes longifolia is native to the Americas and is known for its unique characteristics and growth patterns. More research is needed to fully understand its classification within the plant kingdom.",
+    "benefits": "Chroesthes longifolia is a flowering plant species, and I was unable to find any information about its health benefits.",
+    "properties": "Chroesthes longifolia, also known as the \"Mexican honeysuckle\" or \"desert honeysuckle\", has been studied for its potential therapeutic properties. However, limited research is available on its specific uses. \n\nIn some traditional medicine practices, it's used to treat various health issues such as fever, rheumatism, and skin problems. The plant contains bioactive compounds that may contribute to its medicinal properties. More research is needed to fully understand the therapeutic potential of Chroesthes longifolia.",
+    "constituents": "Chroesthes longifolia contains a variety of active constituents, including flavonoids and triterpenoid saponins. These compounds are known for their antioxidant and anti-inflammatory properties. The flavonoids present in Chroesthes longifolia may help protect against oxidative stress and cell damage. The triterpenoid saponins have been reported to exhibit immunomodulatory and anti-inflammatory activities. Further research is needed to fully understand the therapeutic potential of these active constituents in Chroesthes longifolia.",
+    "parts": "Chroesthes longifolia is a plant native to Central and South America, and it has been used in traditional medicine for various purposes. However, specific information on medicinal parts of Chroesthes longifolia is limited in available resources. Further research is required to determine the exact parts of the plant used for medicinal purposes. The plant's roots, leaves, and flowers are often used in traditional herbal remedies. More studies are needed to confirm the efficacy of these parts in treating specific health conditions.",
+    "preparations": "Chroesthes longifolia is not a well-documented plant species. However, I can provide general information on herbal preparations for plants with similar properties. In traditional medicine, various plant species are used to create herbal preparations for their potential health benefits. Some herbal preparations may include infusions, decoctions, or tinctures made from plants like Chroesthes longifolia, if it were a known medicinal plant. More research is needed to understand the potential uses and preparation methods of Chroesthes longifolia.",
+    "side_effects": "Chroesthes longifolia is a plant species, and there is limited information available regarding its potential side effects. More research is needed to determine any possible adverse reactions associated with its use. However, some general side effects common to plants in the same family may include allergic reactions or interactions with medications. It is essential to consult with a healthcare professional or qualified botanist for accurate information on the potential side effects of Chroesthes longifolia. Further studies are necessary to fully understand the risks and benefits associated with this plant species.",
+    "intro": "Chroesthes longifolia is a plant species belonging to the family Acanthaceae, native to the tropical regions of India and Southeast Asia. The health benefits of Chroesthes longifolia include its anti-inflammatory and antioxidant properties, which may help alleviate symptoms of various diseases such as arthritis and cancer. The bioactive constituents of this plant include flavonoids, terpenoids, and phenolic acids, which are responsible for its medicinal properties. Chroesthes longifolia is commonly used to make herbal preparations such as infusions, decoctions, and extracts, which are traditionally used to treat various health conditions, including fever, respiratory infections, and digestive issues."
+}

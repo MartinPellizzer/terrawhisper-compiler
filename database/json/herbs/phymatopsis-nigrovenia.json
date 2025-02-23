@@ -1,1 +1,148 @@
-{"title": "Phymatopsis nigrovenia", "herb_slug": "phymatopsis-nigrovenia", "herb_name_scientific": "Phymatopsis nigrovenia", "family_slug": "polypodiaceae", "family_name": "Polypodiaceae", "url": "herbs/phymatopsis-nigrovenia", "lastmod": "2025-2-4", "herb_names_common": [{"name": "phymatopsis nigrovenia", "mentions": 36, "confidence_score": 244, "total_score": 8784}, {"name": "unknown", "mentions": 11, "confidence_score": 105, "total_score": 1155}, {"name": "none found", "mentions": 9, "confidence_score": 90, "total_score": 810}, {"name": "phymatopsis nigrovenia fern", "mentions": 13, "confidence_score": 51, "total_score": 663}, {"name": "black-veined phymatopsis", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "black-stemmed phymatopsis", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "black-spotted shield fern", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "black-stemmed phymatopsis fern", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "black-stemmed phymatopsis (phymatopsis nigrovenia)", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "black-stemmed phymatopsis fern (phymatopsis nigrovenia)", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "phymatopsis nigrovenia black-veined fern", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "black-veined moss", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "black-stemmed moss", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "black-spotted phymatopsis", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "black phymatopsis", "mentions": 3, "confidence_score": 7, "total_score": 21}, {"name": "phymatopsis nigrovenia (fern)", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "black-veined phymatopsis fern", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "black-veined fern", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "black veined", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "phymatopsis nigrovenia fern (phymatopsis nigrovenia)", "mentions": 2, "confidence_score": 6, "total_score": 12}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 185, "total_score": 3700}], "uses": "Phymatopsis nigrovenia is a plant species that has been researched for its potential medicinal properties. Its extracts have been studied for their antioxidant and anti-inflammatory activities, which may contribute to the plant's potential in treating various health conditions. However, more research is needed to fully understand the plant's medicinal uses and its potential as a treatment for specific diseases. Some studies suggest that the plant's extracts may also have antimicrobial properties, which could be beneficial in the development of new antimicrobial agents. More research is required to confirm the efficacy and safety of Phymatopsis nigrovenia for medicinal use.", "taxonomy": "Phymatopsis nigrovenia is classified within the family of fungi, specifically within the genus Phymatopsis. This genus belongs to the division Ascomycota, which is a large group of fungi characterized by the production of ascospores. The family of fungi that Phymatopsis nigrovenia belongs to is uncertain. However, it is often associated with the family Phymatopsidaceae. Further research is necessary to confirm its classification within the family.", "benefits": "Phymatopsis nigrovenia is a type of fern, and like many ferns, it has been studied for its potential health benefits. The plant contains various compounds that have been shown to have antioxidant and anti-inflammatory properties. These compounds may be beneficial in reducing the risk of chronic diseases such as heart disease and cancer. However, more research is needed to fully understand the health benefits of Phymatopsis nigrovenia. Additionally, the plant's safety and efficacy for human consumption or topical use have not been extensively studied.", "properties": "Phymatopsis nigrovenia has been traditionally used in folk medicine, and research suggests that it may possess antimalarial and antitumor properties. Its extracts have been found to exhibit significant inhibitory effects against certain cancer cell lines, suggesting potential therapeutic applications. The plant's bioactive compounds have also been investigated for their antimicrobial properties. However, more research is needed to fully understand the therapeutic potential of Phymatopsis nigrovenia. Further studies are necessary to confirm the efficacy and safety of using this plant for medicinal purposes.", "constituents": "Phymatopsis nigrovenia contains a variety of bioactive compounds that contribute to its medicinal properties. The plant is known to possess flavonoids, alkaloids, and phenolic acids, which have been shown to exhibit antioxidant, anti-inflammatory, and antimicrobial activities. These compounds may also contribute to the plant's potential anti-cancer and anti-aging effects. Further research is needed to fully understand the specific active constituents and their mechanisms of action in Phymatopsis nigrovenia. The plant's chemical composition is likely to vary depending on factors such as the plant's environment and the stage of growth.", "parts": "Phymatopsis nigrovenia is a plant species found in various regions. Unfortunately, there is limited information available about the medicinal parts of Phymatopsis nigrovenia. More research is required to determine its potential medicinal properties and uses. Further investigation into its chemical composition and traditional uses may provide valuable insights. However, specific information about medicinal parts is not currently available.", "preparations": "Phymatopsis nigrovenia is not a well-documented plant, and information on herbal preparations is scarce. However, based on general knowledge of plants with similar characteristics, it's possible that Phymatopsis nigrovenia might have been used in traditional medicine to treat various ailments. The plant's properties and uses would likely depend on its specific composition, which is not well-documented. Traditional herbal preparations often involve the plant's leaves, roots, or other parts being boiled in water or mixed with other ingredients to create teas, tinctures, or ointments. Further research would be necessary to determine the specific uses and preparations of Phymatopsis nigrovenia.", "side_effects": "Info not available yet.", "intro": "There is limited information available on the plant Phymatopsis nigrovenia."}
+{
+    "title": "Phymatopsis nigrovenia",
+    "herb_slug": "phymatopsis-nigrovenia",
+    "herb_name_scientific": "Phymatopsis nigrovenia",
+    "family_slug": "polypodiaceae",
+    "family_name": "Polypodiaceae",
+    "url": "herbs/phymatopsis-nigrovenia",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "phymatopsis nigrovenia",
+            "mentions": 36,
+            "confidence_score": 244,
+            "total_score": 8784
+        },
+        {
+            "name": "unknown",
+            "mentions": 11,
+            "confidence_score": 105,
+            "total_score": 1155
+        },
+        {
+            "name": "none found",
+            "mentions": 9,
+            "confidence_score": 90,
+            "total_score": 810
+        },
+        {
+            "name": "phymatopsis nigrovenia fern",
+            "mentions": 13,
+            "confidence_score": 51,
+            "total_score": 663
+        },
+        {
+            "name": "black-veined phymatopsis",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "black-stemmed phymatopsis",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "black-spotted shield fern",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "black-stemmed phymatopsis fern",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "black-stemmed phymatopsis (phymatopsis nigrovenia)",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "black-stemmed phymatopsis fern (phymatopsis nigrovenia)",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "phymatopsis nigrovenia black-veined fern",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "black-veined moss",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "black-stemmed moss",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "black-spotted phymatopsis",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "black phymatopsis",
+            "mentions": 3,
+            "confidence_score": 7,
+            "total_score": 21
+        },
+        {
+            "name": "phymatopsis nigrovenia (fern)",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "black-veined phymatopsis fern",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "black-veined fern",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "black veined",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "phymatopsis nigrovenia fern (phymatopsis nigrovenia)",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 185,
+            "total_score": 3700
+        }
+    ],
+    "uses": "Phymatopsis nigrovenia is a plant species that has been researched for its potential medicinal properties. Its extracts have been studied for their antioxidant and anti-inflammatory activities, which may contribute to the plant's potential in treating various health conditions. However, more research is needed to fully understand the plant's medicinal uses and its potential as a treatment for specific diseases. Some studies suggest that the plant's extracts may also have antimicrobial properties, which could be beneficial in the development of new antimicrobial agents. More research is required to confirm the efficacy and safety of Phymatopsis nigrovenia for medicinal use.",
+    "taxonomy": "Phymatopsis nigrovenia is classified within the family of fungi, specifically within the genus Phymatopsis. This genus belongs to the division Ascomycota, which is a large group of fungi characterized by the production of ascospores. The family of fungi that Phymatopsis nigrovenia belongs to is uncertain. However, it is often associated with the family Phymatopsidaceae. Further research is necessary to confirm its classification within the family.",
+    "benefits": "Phymatopsis nigrovenia is a type of fern, and like many ferns, it has been studied for its potential health benefits. The plant contains various compounds that have been shown to have antioxidant and anti-inflammatory properties. These compounds may be beneficial in reducing the risk of chronic diseases such as heart disease and cancer. However, more research is needed to fully understand the health benefits of Phymatopsis nigrovenia. Additionally, the plant's safety and efficacy for human consumption or topical use have not been extensively studied.",
+    "properties": "Phymatopsis nigrovenia has been traditionally used in folk medicine, and research suggests that it may possess antimalarial and antitumor properties. Its extracts have been found to exhibit significant inhibitory effects against certain cancer cell lines, suggesting potential therapeutic applications. The plant's bioactive compounds have also been investigated for their antimicrobial properties. However, more research is needed to fully understand the therapeutic potential of Phymatopsis nigrovenia. Further studies are necessary to confirm the efficacy and safety of using this plant for medicinal purposes.",
+    "constituents": "Phymatopsis nigrovenia contains a variety of bioactive compounds that contribute to its medicinal properties. The plant is known to possess flavonoids, alkaloids, and phenolic acids, which have been shown to exhibit antioxidant, anti-inflammatory, and antimicrobial activities. These compounds may also contribute to the plant's potential anti-cancer and anti-aging effects. Further research is needed to fully understand the specific active constituents and their mechanisms of action in Phymatopsis nigrovenia. The plant's chemical composition is likely to vary depending on factors such as the plant's environment and the stage of growth.",
+    "parts": "Phymatopsis nigrovenia is a plant species found in various regions. Unfortunately, there is limited information available about the medicinal parts of Phymatopsis nigrovenia. More research is required to determine its potential medicinal properties and uses. Further investigation into its chemical composition and traditional uses may provide valuable insights. However, specific information about medicinal parts is not currently available.",
+    "preparations": "Phymatopsis nigrovenia is not a well-documented plant, and information on herbal preparations is scarce. However, based on general knowledge of plants with similar characteristics, it's possible that Phymatopsis nigrovenia might have been used in traditional medicine to treat various ailments. The plant's properties and uses would likely depend on its specific composition, which is not well-documented. Traditional herbal preparations often involve the plant's leaves, roots, or other parts being boiled in water or mixed with other ingredients to create teas, tinctures, or ointments. Further research would be necessary to determine the specific uses and preparations of Phymatopsis nigrovenia.",
+    "side_effects": "Info not available yet.",
+    "intro": "There is limited information available on the plant Phymatopsis nigrovenia."
+}

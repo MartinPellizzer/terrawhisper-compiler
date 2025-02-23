@@ -1,1 +1,756 @@
-{"title": "Trifolium pratense", "herb_slug": "trifolium-pratense", "herb_name_scientific": "Trifolium pratense", "family_slug": "", "family_name": "", "url": "herbs/trifolium-pratense", "lastmod": "2025-1-20", "herb_names_common": [{"name": "red clover", "mentions": 36, "confidence_score": 296, "total_score": 10656}, {"name": "purple clover", "mentions": 19, "confidence_score": 129, "total_score": 2451}, {"name": "wild clover", "mentions": 19, "confidence_score": 127, "total_score": 2413}, {"name": "red trefoil", "mentions": 15, "confidence_score": 120, "total_score": 1800}, {"name": "white clover", "mentions": 18, "confidence_score": 75, "total_score": 1350}, {"name": "trifolium", "mentions": 17, "confidence_score": 53, "total_score": 901}, {"name": "purple trefoil", "mentions": 7, "confidence_score": 34, "total_score": 238}, {"name": "field clover", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "red cow clover", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "red clover weed", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "common clover", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "wild red clover", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "trailing clover", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "lucky clover", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "pratense clover", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "redclover", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "dutch clover", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "three-leaf clover", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "milkvetch", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "milkwort", "mentions": 2, "confidence_score": 6, "total_score": 12}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 188, "total_score": 3760}], "what_description": "Trifolium pratense is a perennial legume native to Europe, Western Asia, and North Africa. It belongs to the family Fabaceae, subfamily Faboideae. The plant grows 20-60 cm tall, with trifoliate leaves consisting of three leaflets, each 1-3 cm long, and a raceme of pink or purple flowers, 8-12 mm long, in axillary clusters. The flowers are 4-merous, with a standard petal 6-8 mm long, two lateral petals, and two smaller keel petals. The fruit is a dehiscent pod, 6-12 mm long, containing 3-5 seeds, each 3-5 mm long.", "category_action": "alteratives", "ailments": [{"name": "diabetes", "mentions": 19, "confidence_score": 162, "total_score": 3078}, {"name": "anemia", "mentions": 13, "confidence_score": 119, "total_score": 1547}, {"name": "hypertension", "mentions": 14, "confidence_score": 116, "total_score": 1624}, {"name": "arthritis", "mentions": 14, "confidence_score": 110, "total_score": 1540}, {"name": "inflammation", "mentions": 13, "confidence_score": 104, "total_score": 1352}, {"name": "digestive issues", "mentions": 14, "confidence_score": 101, "total_score": 1414}, {"name": "cardiovascular disease", "mentions": 12, "confidence_score": 95, "total_score": 1140}, {"name": "high blood pressure", "mentions": 6, "confidence_score": 54, "total_score": 324}, {"name": "gastrointestinal disorders", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "urinary tract infections", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "cancer", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "gout", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "osteoporosis", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "menopausal symptoms", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "kidney stones", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "menstrual cramps", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "cancer prevention", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "asthma", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "gastritis", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "hypothyroidism", "mentions": 3, "confidence_score": 19, "total_score": 57}], "ailments_description": "The most common ailments you can heal with Trifolium pratense are diabetes, which is alleviated by its ability to lower blood glucose levels due to its high isoflavone content, and anemia, which is treated by increasing iron absorption. Additionally, hypertension is reduced by the herb's ability to relax blood vessels and lower blood pressure, while also alleviating arthritis through its anti-inflammatory properties. Trifolium pratense has been shown to reduce inflammation by inhibiting pro-inflammatory enzymes, and it is also beneficial in treating digestive issues such as gastritis and gastrointestinal disorders by protecting the stomach lining. Furthermore, Trifolium pratense has been found to have a positive effect on cardiovascular disease, high blood pressure, and urinary tract infections, and it also exhibits anti-gout and osteoporosis-preventing properties. It also prevents menstrual cramps and cancer, and it has been used to alleviate menopausal symptoms, asthma, and hypothyroidism.", "properties": [{"name": "antioxidant", "mentions": 21, "confidence_score": 184, "total_score": 3864}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 163, "total_score": 3260}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 161, "total_score": 3220}, {"name": "cardioprotective", "mentions": 17, "confidence_score": 120, "total_score": 2040}, {"name": "neuroprotective", "mentions": 15, "confidence_score": 79, "total_score": 1185}, {"name": "analgesic", "mentions": 12, "confidence_score": 78, "total_score": 936}, {"name": "antispasmodic", "mentions": 10, "confidence_score": 66, "total_score": 660}, {"name": "hypoglycemic", "mentions": 10, "confidence_score": 65, "total_score": 650}, {"name": "antidiabetic", "mentions": 9, "confidence_score": 62, "total_score": 558}, {"name": "antihypertensive", "mentions": 8, "confidence_score": 50, "total_score": 400}, {"name": "hypotensive", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "hepatoprotective", "mentions": 7, "confidence_score": 34, "total_score": 238}, {"name": "anticancer", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "immunomodulatory", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "antiviral", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "antibacterial", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "antifungal", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "hypocholesterolemic", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "antioxidant flavonoids", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "antipyretic", "mentions": 2, "confidence_score": 9, "total_score": 18}], "properties_description": "The main therapeutic properties of Trifolium pratense are numerous, with its antioxidant properties attributed to the flavonoids and phenolic acids present in the plant, which neutralize free radicals and prevent oxidative damage. The anti-inflammatory effects of Trifolium pratense are associated with the saponins and isoflavones, which inhibit the production of pro-inflammatory cytokines and enzymes, thereby reducing inflammation and alleviating conditions such as arthritis. Additionally, the antimicrobial properties of Trifolium pratense are attributed to the terpenoids and phenolic acids, which exhibit antibacterial and antifungal activities, preventing the growth of microorganisms and reducing the risk of infections. Furthermore, the cardioprotective effects of Trifolium pratense are linked to the isoflavones and saponins, which improve cardiovascular health by lowering blood pressure, reducing triglycerides, and preventing the formation of blood clots. Moreover, the neuroprotective properties of Trifolium pratense are due to the flavonoids and isoflavones, which have neurotrophic and neuroprotective effects, promoting the survival of neurons and reducing the risk of neurodegenerative diseases.", "constituents": [{"name": "flavonoids (notably quercetin and kaempferol)", "mentions": 23, "confidence_score": 169, "total_score": 3887}, {"name": "genistein", "mentions": 11, "confidence_score": 95, "total_score": 1045}, {"name": "formononetin", "mentions": 10, "confidence_score": 78, "total_score": 780}, {"name": "biochanin a", "mentions": 9, "confidence_score": 73, "total_score": 657}, {"name": "daidzein", "mentions": 9, "confidence_score": 72, "total_score": 648}, {"name": "saponins", "mentions": 9, "confidence_score": 69, "total_score": 621}, {"name": "isoflavones", "mentions": 6, "confidence_score": 55, "total_score": 330}, {"name": "coumarins", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "flavonoids", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "luteolin", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "phenolic acids", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "folinic acid", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "apigenin", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "fatty acids", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "triterpenoids", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "saponin glycosides", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "phytoestrogens", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "rutin", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "triterpenoid saponins", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "alkaloids", "mentions": 4, "confidence_score": 13, "total_score": 52}], "constituents_description": "The most important healing constituents of Trifolium pratense are flavonoids such as quercetin and kaempferol, which have anti-inflammatory and antioxidant properties, as well as isoflavones like genistein, formononetin, biochanin A, and daidzein, which have been shown to inhibit the growth of breast cancer cells, reduce estrogen levels, and exhibit estrogenic and anti-estrogenic activities. Quercetin has been demonstrated to have anti-inflammatory effects by inhibiting the production of pro-inflammatory enzymes, while kaempferol has been shown to have anti-cancer properties by inducing apoptosis in cancer cells. Biochanin A has been found to have estrogenic activity, which may contribute to its potential health benefits, particularly in postmenopausal women. Genistein has been shown to inhibit the activity of tyrosine kinases, which play a role in cell signaling pathways, and formononetin has been found to have anti-inflammatory and antioxidant properties. Daidzein has been demonstrated to have estrogenic activity and may play a role in reducing the risk of osteoporosis in postmenopausal women.", "preparations": [{"name": "red clover tea", "mentions": 15, "confidence_score": 136, "total_score": 2040}, {"name": "red clover infusion", "mentions": 11, "confidence_score": 93, "total_score": 1023}, {"name": "trifolium pratense tincture", "mentions": 10, "confidence_score": 82, "total_score": 820}, {"name": "red clover tincture", "mentions": 8, "confidence_score": 63, "total_score": 504}, {"name": "red clover oil", "mentions": 9, "confidence_score": 55, "total_score": 495}, {"name": "trifolium pratense capsules", "mentions": 9, "confidence_score": 53, "total_score": 477}, {"name": "red clover extract", "mentions": 7, "confidence_score": 38, "total_score": 266}, {"name": "red clover capsules", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "trifolium pratense infusion", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "red clover salve", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "trifolium pratense tea", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "salve", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "trifolium tincture", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "trifolium infusion", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "trifolium pratense ointment", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "trifolium pratense extract", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "trifolium pratense oil", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "herbal tea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "topical cream", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "trifolium pratense salve", "mentions": 2, "confidence_score": 8, "total_score": 16}], "preparations_description": "The main herbal preparations of Trifolium pratense are red clover tea, made by steeping dried flowers in boiling water, rich in isoflavones and phenolic acids, which may aid in menopausal symptoms and cardiovascular health; red clover infusion, a longer steeping process to extract more isoflavones and saponins, used for its antispasmodic and anti-inflammatory properties; trifolium pratense tincture, a liquid extract of the plant, often standardized to 40% isoflavones, used for its estrogenic and anti-inflammatory effects; red clover tincture, another term for trifolium pratense tincture, highlighting its estrogenic properties and potential benefits for menopausal women; red clover oil, an extract of the plant's flowers, rich in isoflavones and fatty acids, used topically for its anti-inflammatory and skin-soothing effects.", "side_effects": [{"name": "experience allergic reaction", "mentions": 3, "confidence_score": 30, "total_score": 90}, {"name": "experience vomiting", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "develop insomnia", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "cause hypoglycemia", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "trigger headaches", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "experience allergic reactions", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experience nausea", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "lead to overdose", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop hemolytic anemia", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induce nephrotoxicity", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "provoke allergic reactions", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "inhibit blood clotting", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "respiratory depression", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experience diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "interact with medications", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause nausea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "suffer kidney damage", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "develops diarrhea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experiences nausea", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "get headaches", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effects of using Trifolium pratense improperly include experiencing allergic reactions, which can be severe and may involve symptoms such as hives, itching, and difficulty breathing, due to the presence of isoflavones and saponins that can cause an immune response. Taking high doses of Trifolium pratense can also cause vomiting due to its gastrointestinal irritant properties, leading to stomach upset and potential dehydration. Furthermore, using Trifolium pratense excessively can lead to insomnia due to its stimulatory effects on the nervous system, which can interfere with sleep patterns. Additionally, consuming large amounts of Trifolium pratense may cause hypoglycemia, or low blood sugar, due to its ability to stimulate insulin secretion and lower blood glucose levels. Lastly, Trifolium pratense can trigger headaches, possibly due to its vasoactive properties, which can cause blood vessels to dilate and lead to pain and discomfort."}
+{
+    "title": "Trifolium pratense",
+    "herb_slug": "trifolium-pratense",
+    "herb_name_scientific": "Trifolium pratense",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/trifolium-pratense",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "red clover",
+            "mentions": 36,
+            "confidence_score": 296,
+            "total_score": 10656
+        },
+        {
+            "name": "purple clover",
+            "mentions": 19,
+            "confidence_score": 129,
+            "total_score": 2451
+        },
+        {
+            "name": "wild clover",
+            "mentions": 19,
+            "confidence_score": 127,
+            "total_score": 2413
+        },
+        {
+            "name": "red trefoil",
+            "mentions": 15,
+            "confidence_score": 120,
+            "total_score": 1800
+        },
+        {
+            "name": "white clover",
+            "mentions": 18,
+            "confidence_score": 75,
+            "total_score": 1350
+        },
+        {
+            "name": "trifolium",
+            "mentions": 17,
+            "confidence_score": 53,
+            "total_score": 901
+        },
+        {
+            "name": "purple trefoil",
+            "mentions": 7,
+            "confidence_score": 34,
+            "total_score": 238
+        },
+        {
+            "name": "field clover",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "red cow clover",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "red clover weed",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "common clover",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "wild red clover",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "trailing clover",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "lucky clover",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "pratense clover",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "redclover",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "dutch clover",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "three-leaf clover",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "milkvetch",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "milkwort",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 188,
+            "total_score": 3760
+        }
+    ],
+    "what_description": "Trifolium pratense is a perennial legume native to Europe, Western Asia, and North Africa. It belongs to the family Fabaceae, subfamily Faboideae. The plant grows 20-60 cm tall, with trifoliate leaves consisting of three leaflets, each 1-3 cm long, and a raceme of pink or purple flowers, 8-12 mm long, in axillary clusters. The flowers are 4-merous, with a standard petal 6-8 mm long, two lateral petals, and two smaller keel petals. The fruit is a dehiscent pod, 6-12 mm long, containing 3-5 seeds, each 3-5 mm long.",
+    "category_action": "alteratives",
+    "ailments": [
+        {
+            "name": "diabetes",
+            "mentions": 19,
+            "confidence_score": 162,
+            "total_score": 3078
+        },
+        {
+            "name": "anemia",
+            "mentions": 13,
+            "confidence_score": 119,
+            "total_score": 1547
+        },
+        {
+            "name": "hypertension",
+            "mentions": 14,
+            "confidence_score": 116,
+            "total_score": 1624
+        },
+        {
+            "name": "arthritis",
+            "mentions": 14,
+            "confidence_score": 110,
+            "total_score": 1540
+        },
+        {
+            "name": "inflammation",
+            "mentions": 13,
+            "confidence_score": 104,
+            "total_score": 1352
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 14,
+            "confidence_score": 101,
+            "total_score": 1414
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 12,
+            "confidence_score": 95,
+            "total_score": 1140
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 6,
+            "confidence_score": 54,
+            "total_score": 324
+        },
+        {
+            "name": "gastrointestinal disorders",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "urinary tract infections",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "cancer",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "gout",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "osteoporosis",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "menopausal symptoms",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "kidney stones",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "menstrual cramps",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "asthma",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "gastritis",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "hypothyroidism",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Trifolium pratense are diabetes, which is alleviated by its ability to lower blood glucose levels due to its high isoflavone content, and anemia, which is treated by increasing iron absorption. Additionally, hypertension is reduced by the herb's ability to relax blood vessels and lower blood pressure, while also alleviating arthritis through its anti-inflammatory properties. Trifolium pratense has been shown to reduce inflammation by inhibiting pro-inflammatory enzymes, and it is also beneficial in treating digestive issues such as gastritis and gastrointestinal disorders by protecting the stomach lining. Furthermore, Trifolium pratense has been found to have a positive effect on cardiovascular disease, high blood pressure, and urinary tract infections, and it also exhibits anti-gout and osteoporosis-preventing properties. It also prevents menstrual cramps and cancer, and it has been used to alleviate menopausal symptoms, asthma, and hypothyroidism.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 21,
+            "confidence_score": 184,
+            "total_score": 3864
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 163,
+            "total_score": 3260
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 17,
+            "confidence_score": 120,
+            "total_score": 2040
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 15,
+            "confidence_score": 79,
+            "total_score": 1185
+        },
+        {
+            "name": "analgesic",
+            "mentions": 12,
+            "confidence_score": 78,
+            "total_score": 936
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 10,
+            "confidence_score": 66,
+            "total_score": 660
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 10,
+            "confidence_score": 65,
+            "total_score": 650
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 9,
+            "confidence_score": 62,
+            "total_score": 558
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 8,
+            "confidence_score": 50,
+            "total_score": 400
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 7,
+            "confidence_score": 34,
+            "total_score": 238
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "antiviral",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "antifungal",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "hypocholesterolemic",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "antioxidant flavonoids",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Trifolium pratense are numerous, with its antioxidant properties attributed to the flavonoids and phenolic acids present in the plant, which neutralize free radicals and prevent oxidative damage. The anti-inflammatory effects of Trifolium pratense are associated with the saponins and isoflavones, which inhibit the production of pro-inflammatory cytokines and enzymes, thereby reducing inflammation and alleviating conditions such as arthritis. Additionally, the antimicrobial properties of Trifolium pratense are attributed to the terpenoids and phenolic acids, which exhibit antibacterial and antifungal activities, preventing the growth of microorganisms and reducing the risk of infections. Furthermore, the cardioprotective effects of Trifolium pratense are linked to the isoflavones and saponins, which improve cardiovascular health by lowering blood pressure, reducing triglycerides, and preventing the formation of blood clots. Moreover, the neuroprotective properties of Trifolium pratense are due to the flavonoids and isoflavones, which have neurotrophic and neuroprotective effects, promoting the survival of neurons and reducing the risk of neurodegenerative diseases.",
+    "constituents": [
+        {
+            "name": "flavonoids (notably quercetin and kaempferol)",
+            "mentions": 23,
+            "confidence_score": 169,
+            "total_score": 3887
+        },
+        {
+            "name": "genistein",
+            "mentions": 11,
+            "confidence_score": 95,
+            "total_score": 1045
+        },
+        {
+            "name": "formononetin",
+            "mentions": 10,
+            "confidence_score": 78,
+            "total_score": 780
+        },
+        {
+            "name": "biochanin a",
+            "mentions": 9,
+            "confidence_score": 73,
+            "total_score": 657
+        },
+        {
+            "name": "daidzein",
+            "mentions": 9,
+            "confidence_score": 72,
+            "total_score": 648
+        },
+        {
+            "name": "saponins",
+            "mentions": 9,
+            "confidence_score": 69,
+            "total_score": 621
+        },
+        {
+            "name": "isoflavones",
+            "mentions": 6,
+            "confidence_score": 55,
+            "total_score": 330
+        },
+        {
+            "name": "coumarins",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "luteolin",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "folinic acid",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "apigenin",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "saponin glycosides",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "phytoestrogens",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "rutin",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "triterpenoid saponins",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Trifolium pratense are flavonoids such as quercetin and kaempferol, which have anti-inflammatory and antioxidant properties, as well as isoflavones like genistein, formononetin, biochanin A, and daidzein, which have been shown to inhibit the growth of breast cancer cells, reduce estrogen levels, and exhibit estrogenic and anti-estrogenic activities. Quercetin has been demonstrated to have anti-inflammatory effects by inhibiting the production of pro-inflammatory enzymes, while kaempferol has been shown to have anti-cancer properties by inducing apoptosis in cancer cells. Biochanin A has been found to have estrogenic activity, which may contribute to its potential health benefits, particularly in postmenopausal women. Genistein has been shown to inhibit the activity of tyrosine kinases, which play a role in cell signaling pathways, and formononetin has been found to have anti-inflammatory and antioxidant properties. Daidzein has been demonstrated to have estrogenic activity and may play a role in reducing the risk of osteoporosis in postmenopausal women.",
+    "preparations": [
+        {
+            "name": "red clover tea",
+            "mentions": 15,
+            "confidence_score": 136,
+            "total_score": 2040
+        },
+        {
+            "name": "red clover infusion",
+            "mentions": 11,
+            "confidence_score": 93,
+            "total_score": 1023
+        },
+        {
+            "name": "trifolium pratense tincture",
+            "mentions": 10,
+            "confidence_score": 82,
+            "total_score": 820
+        },
+        {
+            "name": "red clover tincture",
+            "mentions": 8,
+            "confidence_score": 63,
+            "total_score": 504
+        },
+        {
+            "name": "red clover oil",
+            "mentions": 9,
+            "confidence_score": 55,
+            "total_score": 495
+        },
+        {
+            "name": "trifolium pratense capsules",
+            "mentions": 9,
+            "confidence_score": 53,
+            "total_score": 477
+        },
+        {
+            "name": "red clover extract",
+            "mentions": 7,
+            "confidence_score": 38,
+            "total_score": 266
+        },
+        {
+            "name": "red clover capsules",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "trifolium pratense infusion",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "red clover salve",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "trifolium pratense tea",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "salve",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "trifolium tincture",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "trifolium infusion",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "trifolium pratense ointment",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "trifolium pratense extract",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "trifolium pratense oil",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "herbal tea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "topical cream",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "trifolium pratense salve",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Trifolium pratense are red clover tea, made by steeping dried flowers in boiling water, rich in isoflavones and phenolic acids, which may aid in menopausal symptoms and cardiovascular health; red clover infusion, a longer steeping process to extract more isoflavones and saponins, used for its antispasmodic and anti-inflammatory properties; trifolium pratense tincture, a liquid extract of the plant, often standardized to 40% isoflavones, used for its estrogenic and anti-inflammatory effects; red clover tincture, another term for trifolium pratense tincture, highlighting its estrogenic properties and potential benefits for menopausal women; red clover oil, an extract of the plant's flowers, rich in isoflavones and fatty acids, used topically for its anti-inflammatory and skin-soothing effects.",
+    "side_effects": [
+        {
+            "name": "experience allergic reaction",
+            "mentions": 3,
+            "confidence_score": 30,
+            "total_score": 90
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "develop insomnia",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "cause hypoglycemia",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "experience allergic reactions",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "lead to overdose",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop hemolytic anemia",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induce nephrotoxicity",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "provoke allergic reactions",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "inhibit blood clotting",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "respiratory depression",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "suffer kidney damage",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "get headaches",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Trifolium pratense improperly include experiencing allergic reactions, which can be severe and may involve symptoms such as hives, itching, and difficulty breathing, due to the presence of isoflavones and saponins that can cause an immune response. Taking high doses of Trifolium pratense can also cause vomiting due to its gastrointestinal irritant properties, leading to stomach upset and potential dehydration. Furthermore, using Trifolium pratense excessively can lead to insomnia due to its stimulatory effects on the nervous system, which can interfere with sleep patterns. Additionally, consuming large amounts of Trifolium pratense may cause hypoglycemia, or low blood sugar, due to its ability to stimulate insulin secretion and lower blood glucose levels. Lastly, Trifolium pratense can trigger headaches, possibly due to its vasoactive properties, which can cause blood vessels to dilate and lead to pain and discomfort."
+}

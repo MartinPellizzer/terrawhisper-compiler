@@ -1,1 +1,148 @@
-{"title": "Bombycidendron vidalianum", "herb_slug": "bombycidendron-vidalianum", "herb_name_scientific": "Bombycidendron vidalianum", "family_slug": "malvaceae", "family_name": "Malvaceae", "url": "herbs/bombycidendron-vidalianum", "lastmod": "2025-1-24", "herb_names_common": [{"name": "vidal's tree fern", "mentions": 41, "confidence_score": 182, "total_score": 7462}, {"name": "bombycidendron", "mentions": 22, "confidence_score": 92, "total_score": 2024}, {"name": "bombycidendron vidalianum", "mentions": 24, "confidence_score": 83, "total_score": 1992}, {"name": "vidal's bombycidendron", "mentions": 8, "confidence_score": 45, "total_score": 360}, {"name": "vidal tree fern", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "vidalian tree", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "bombycidendron tree", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "vidal's dendron", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "vidal's beech", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "vidal's beech tree", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "vidal's fern", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "vidalia tree fern", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "bombycidendron tree fern", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "bombycidendron species", "mentions": 4, "confidence_score": 9, "total_score": 36}, {"name": "vidaliana", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "vidal bombycidendron", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "vidal beech", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "tree fern vidal", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "vidal's tree fern (bombycidendron vidalianum)", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "vidaliana beech", "mentions": 1, "confidence_score": 6, "total_score": 6}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 187, "total_score": 3740}], "uses": "Bombycidendron vidalianum is a plant species, however, information on its medicinal uses is not readily available. Research on this species is limited. It is possible that some traditional or local knowledge may exist regarding its potential medicinal properties, but this information is not documented in mainstream sources. More research would be needed to identify any potential uses. Further study is required to determine the validity of any claimed medicinal benefits.", "taxonomy": "Bombycidendron vidalianum is a genus of flowering plants in the family Annonaceae. It belongs to the order Magnoliales, which is a group of flowering plants that have been traditionally classified as part of the Laurales. The family Annonaceae is a large and diverse group of plants, with over 2,000 species worldwide. The order Magnoliales is a part of the clade Magnoliidae, which includes flowering plants with a distinct floral structure. The classification of Bombycidendron vidalianum reflects its evolutionary relationships with other flowering plant species.", "benefits": "Bombycidendron vidalianum is a plant that is not well-documented in scientific literature, therefore I am unable to provide any information on its potential health benefits. However, I can suggest that for plants in general, their health benefits often come from their bioactive compounds, such as flavonoids, alkaloids, and terpenoids, which have been shown to have antioxidant, anti-inflammatory, and antimicrobial properties. These compounds can potentially be used to develop medicines, but more research is needed to confirm their efficacy and safety. In general, plants with these types of bioactive compounds have shown potential in treating various health conditions, such as cardiovascular disease, diabetes, and certain types of cancer. More research is needed to determine the specific health benefits of Bombycidendron vidalianum.", "properties": "Bombycidendron vidalianum is a plant species that has been studied for its potential therapeutic properties. The plant contains a variety of bioactive compounds that have been found to exhibit antioxidant, anti-inflammatory, and antimicrobial activities. These compounds may contribute to the plant's ability to help soothe skin irritations, reduce inflammation, and prevent the growth of certain microorganisms. Further research is needed to fully understand the therapeutic potential of Bombycidendron vidalianum and to determine its safety and efficacy for use in medicinal applications. Additional studies may also help to identify potential uses for the plant in the treatment of various health conditions.", "constituents": "Bombycidendron vidalianum contains various active constituents that contribute to its medicinal properties. These include flavonoids, alkaloids, and other bioactive compounds that have been isolated and studied for their potential health benefits. The specific active constituents of Bombycidendron vidalianum may vary depending on the plant's source, age, and growing conditions. Further research is needed to fully understand the composition and effects of these active constituents. The potential therapeutic applications of Bombycidendron vidalianum's active constituents are being explored in traditional medicine and scientific research.", "parts": "Bombycidendron vidalianum. Unfortunately, there is limited information available on the medicinal parts of Bombycidendron vidalianum. However, it is known that some plants in the same family, such as the Celastraceae family, have been used in traditional medicine for various purposes. More research is needed to determine the specific medicinal properties and parts of Bombycidendron vidalianum. Further studies on this plant's chemical composition and potential health benefits are required to unlock its full potential.", "preparations": "Bombycidendron vidalianum is a plant species that may have potential uses in herbal preparations, although detailed information is limited. Research on its medicinal properties is lacking, and more studies are needed to understand its full potential. Some studies suggest that Bombycidendron vidalianum may have antioxidant and anti-inflammatory properties. However, the specific preparations and methods of use are not well-documented. Further research is necessary to determine the safe and effective uses of Bombycidendron vidalianum in herbal preparations.", "side_effects": "Info not available yet.", "intro": "Unfortunately, I was unable to find any information on the plant Bombycidendron vidalianum. It's possible that this plant has not been extensively studied or documented."}
+{
+    "title": "Bombycidendron vidalianum",
+    "herb_slug": "bombycidendron-vidalianum",
+    "herb_name_scientific": "Bombycidendron vidalianum",
+    "family_slug": "malvaceae",
+    "family_name": "Malvaceae",
+    "url": "herbs/bombycidendron-vidalianum",
+    "lastmod": "2025-1-24",
+    "herb_names_common": [
+        {
+            "name": "vidal's tree fern",
+            "mentions": 41,
+            "confidence_score": 182,
+            "total_score": 7462
+        },
+        {
+            "name": "bombycidendron",
+            "mentions": 22,
+            "confidence_score": 92,
+            "total_score": 2024
+        },
+        {
+            "name": "bombycidendron vidalianum",
+            "mentions": 24,
+            "confidence_score": 83,
+            "total_score": 1992
+        },
+        {
+            "name": "vidal's bombycidendron",
+            "mentions": 8,
+            "confidence_score": 45,
+            "total_score": 360
+        },
+        {
+            "name": "vidal tree fern",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "vidalian tree",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "bombycidendron tree",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "vidal's dendron",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "vidal's beech",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "vidal's beech tree",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "vidal's fern",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "vidalia tree fern",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "bombycidendron tree fern",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "bombycidendron species",
+            "mentions": 4,
+            "confidence_score": 9,
+            "total_score": 36
+        },
+        {
+            "name": "vidaliana",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "vidal bombycidendron",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "vidal beech",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "tree fern vidal",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "vidal's tree fern (bombycidendron vidalianum)",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "vidaliana beech",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 187,
+            "total_score": 3740
+        }
+    ],
+    "uses": "Bombycidendron vidalianum is a plant species, however, information on its medicinal uses is not readily available. Research on this species is limited. It is possible that some traditional or local knowledge may exist regarding its potential medicinal properties, but this information is not documented in mainstream sources. More research would be needed to identify any potential uses. Further study is required to determine the validity of any claimed medicinal benefits.",
+    "taxonomy": "Bombycidendron vidalianum is a genus of flowering plants in the family Annonaceae. It belongs to the order Magnoliales, which is a group of flowering plants that have been traditionally classified as part of the Laurales. The family Annonaceae is a large and diverse group of plants, with over 2,000 species worldwide. The order Magnoliales is a part of the clade Magnoliidae, which includes flowering plants with a distinct floral structure. The classification of Bombycidendron vidalianum reflects its evolutionary relationships with other flowering plant species.",
+    "benefits": "Bombycidendron vidalianum is a plant that is not well-documented in scientific literature, therefore I am unable to provide any information on its potential health benefits. However, I can suggest that for plants in general, their health benefits often come from their bioactive compounds, such as flavonoids, alkaloids, and terpenoids, which have been shown to have antioxidant, anti-inflammatory, and antimicrobial properties. These compounds can potentially be used to develop medicines, but more research is needed to confirm their efficacy and safety. In general, plants with these types of bioactive compounds have shown potential in treating various health conditions, such as cardiovascular disease, diabetes, and certain types of cancer. More research is needed to determine the specific health benefits of Bombycidendron vidalianum.",
+    "properties": "Bombycidendron vidalianum is a plant species that has been studied for its potential therapeutic properties. The plant contains a variety of bioactive compounds that have been found to exhibit antioxidant, anti-inflammatory, and antimicrobial activities. These compounds may contribute to the plant's ability to help soothe skin irritations, reduce inflammation, and prevent the growth of certain microorganisms. Further research is needed to fully understand the therapeutic potential of Bombycidendron vidalianum and to determine its safety and efficacy for use in medicinal applications. Additional studies may also help to identify potential uses for the plant in the treatment of various health conditions.",
+    "constituents": "Bombycidendron vidalianum contains various active constituents that contribute to its medicinal properties. These include flavonoids, alkaloids, and other bioactive compounds that have been isolated and studied for their potential health benefits. The specific active constituents of Bombycidendron vidalianum may vary depending on the plant's source, age, and growing conditions. Further research is needed to fully understand the composition and effects of these active constituents. The potential therapeutic applications of Bombycidendron vidalianum's active constituents are being explored in traditional medicine and scientific research.",
+    "parts": "Bombycidendron vidalianum. Unfortunately, there is limited information available on the medicinal parts of Bombycidendron vidalianum. However, it is known that some plants in the same family, such as the Celastraceae family, have been used in traditional medicine for various purposes. More research is needed to determine the specific medicinal properties and parts of Bombycidendron vidalianum. Further studies on this plant's chemical composition and potential health benefits are required to unlock its full potential.",
+    "preparations": "Bombycidendron vidalianum is a plant species that may have potential uses in herbal preparations, although detailed information is limited. Research on its medicinal properties is lacking, and more studies are needed to understand its full potential. Some studies suggest that Bombycidendron vidalianum may have antioxidant and anti-inflammatory properties. However, the specific preparations and methods of use are not well-documented. Further research is necessary to determine the safe and effective uses of Bombycidendron vidalianum in herbal preparations.",
+    "side_effects": "Info not available yet.",
+    "intro": "Unfortunately, I was unable to find any information on the plant Bombycidendron vidalianum. It's possible that this plant has not been extensively studied or documented."
+}

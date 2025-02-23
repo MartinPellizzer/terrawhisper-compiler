@@ -1,1 +1,154 @@
-{"title": "Malaxis javesiae", "herb_slug": "malaxis-javesiae", "herb_name_scientific": "Malaxis javesiae", "family_slug": "orchidaceae", "family_name": "Orchidaceae", "url": "herbs/malaxis-javesiae", "lastmod": "2025-1-12", "herb_names_common": [{"name": "jave's malaxis", "mentions": 22, "confidence_score": 141, "total_score": 3102}, {"name": "malaxis javesia", "mentions": 14, "confidence_score": 62, "total_score": 868}, {"name": "purple crested malaxis", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "javes' malaxis", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "jav's malaxis", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "javes orchid", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "malaxis javesiae", "mentions": 11, "confidence_score": 29, "total_score": 319}, {"name": "yellow fringed orchid", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "javas orchid", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "jave's malaxis orchid", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "jave's adder's-mouth orchid", "mentions": 6, "confidence_score": 22, "total_score": 132}, {"name": "javes' orchid", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "javea orchid", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "jave's orchid", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "javasca orchid", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "javez's malaxis", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "javaria", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "jave orchid", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "yellow fringed malaxis", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "purple crest orchid", "mentions": 2, "confidence_score": 16, "total_score": 32}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 12, "confidence_score": 108, "total_score": 1296}, {"medicine_or_poison": "medicine", "mentions": 8, "confidence_score": 66, "total_score": 528}], "uses": "Malaxis javesiae has been traditionally used in folk medicine, although its use is not well-documented. It is believed to possess anti-inflammatory and antiseptic properties. Some studies suggest that extracts from this plant may have potential in treating various health conditions. However, further research is needed to confirm its efficacy and safety for medicinal use. Traditional healers often use it to treat skin irritations and wounds, but its effectiveness is largely anecdotal.", "taxonomy": "Malaxis javesiae is classified under the family Orchidaceae, commonly known as the orchid family. This classification is based on the plant's unique characteristics and its botanical features. Malaxis javesiae is further classified under the subfamily Orchidoideae, which includes the majority of the orchid family. Within the subfamily, it belongs to the tribe Cranichideae, and the genus Malaxis. The classification of Malaxis javesiae is a crucial aspect of its identification and understanding of its evolutionary history.", "benefits": "Malaxis javesiae, a species of orchid, is known to have various health benefits. The plant is traditionally used in medicine to treat various ailments, including fever, cough, and respiratory issues. Its extracts are believed to possess anti-inflammatory and antimicrobial properties, which may contribute to its potential health benefits. The plant is also thought to have antioxidant properties, which could help protect against cell damage and oxidative stress. However, further research is needed to fully understand the health benefits of Malaxis javesiae and its potential applications in medicine.", "properties": "Malaxis javesiae is a species of orchid, but unfortunately, specific information on its therapeutic properties could not be found in available sources. However, various species within the Malaxis genus are known to have been used in traditional medicine for their potential health benefits. Further research is needed to determine the exact therapeutic properties and uses of Malaxis javesiae specifically. Traditional uses of orchids in general may include treating respiratory issues, skin conditions, and other health concerns. More studies are required to confirm the effectiveness of Malaxis javesiae for medicinal purposes.", "constituents": "Malaxis javesiae contains various active constituents, including flavonoids, phenolic acids, and terpenoids. These compounds may contribute to its potential medicinal properties and pharmacological activities. Research has shown that flavonoids present in Malaxis javesiae possess antioxidant, anti-inflammatory, and antimicrobial properties. The exact composition and effects of these active constituents may vary depending on the specific plant source and growing conditions. Further studies are needed to fully understand the active constituents and potential applications of Malaxis javesiae.", "parts": "Malaxis javesiae is a type of orchid, and the medicinal parts of the plant that are typically used are the leaves and roots. The leaves of Malaxis javesiae contain bioactive compounds with potential medicinal properties. The roots of the plant may possess antimicrobial and anti-inflammatory properties. However, further research is needed to confirm the exact medicinal uses and benefits of the plant. Additionally, the plant should be used with caution and under the guidance of a medical professional.", "preparations": "Malaxis javesiae has been reported to have potential medicinal properties, with herbal preparations often used to treat various health issues. However, there is limited scientific research on the effectiveness of these preparations. In some traditional medicine practices, Malaxis javesiae is used to treat conditions such as fever and respiratory problems. Further studies are needed to fully understand its potential benefits and risks. More research is required to validate the claims associated with Malaxis javesiae herbal preparations.", "side_effects": "Info not available yet.", "intro": "Malaxis javesiae, also known as the Jave's Spiranthes or Jave's Ladies' Tresses, is a species of orchid native to the tropical regions of Central and South America. This plant has been traditionally used in folk medicine for its health benefits, which include treating various respiratory issues such as bronchitis and asthma, as well as its anti-inflammatory and antiseptic properties, which can aid in wound healing and reduce fever. The bioactive constituents of Malaxis javesiae include flavonoids, alkaloids, and terpenoids, which are responsible for its medicinal properties. In traditional herbal medicine, Malaxis javesiae is often prepared as a tea or tincture, and it is also used in the production of infusions and decoctions to treat a range of health conditions."}
+{
+    "title": "Malaxis javesiae",
+    "herb_slug": "malaxis-javesiae",
+    "herb_name_scientific": "Malaxis javesiae",
+    "family_slug": "orchidaceae",
+    "family_name": "Orchidaceae",
+    "url": "herbs/malaxis-javesiae",
+    "lastmod": "2025-1-12",
+    "herb_names_common": [
+        {
+            "name": "jave's malaxis",
+            "mentions": 22,
+            "confidence_score": 141,
+            "total_score": 3102
+        },
+        {
+            "name": "malaxis javesia",
+            "mentions": 14,
+            "confidence_score": 62,
+            "total_score": 868
+        },
+        {
+            "name": "purple crested malaxis",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "javes' malaxis",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "jav's malaxis",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "javes orchid",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "malaxis javesiae",
+            "mentions": 11,
+            "confidence_score": 29,
+            "total_score": 319
+        },
+        {
+            "name": "yellow fringed orchid",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "javas orchid",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "jave's malaxis orchid",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "jave's adder's-mouth orchid",
+            "mentions": 6,
+            "confidence_score": 22,
+            "total_score": 132
+        },
+        {
+            "name": "javes' orchid",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "javea orchid",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "jave's orchid",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "javasca orchid",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "javez's malaxis",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "javaria",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "jave orchid",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "yellow fringed malaxis",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "purple crest orchid",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 12,
+            "confidence_score": 108,
+            "total_score": 1296
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 8,
+            "confidence_score": 66,
+            "total_score": 528
+        }
+    ],
+    "uses": "Malaxis javesiae has been traditionally used in folk medicine, although its use is not well-documented. It is believed to possess anti-inflammatory and antiseptic properties. Some studies suggest that extracts from this plant may have potential in treating various health conditions. However, further research is needed to confirm its efficacy and safety for medicinal use. Traditional healers often use it to treat skin irritations and wounds, but its effectiveness is largely anecdotal.",
+    "taxonomy": "Malaxis javesiae is classified under the family Orchidaceae, commonly known as the orchid family. This classification is based on the plant's unique characteristics and its botanical features. Malaxis javesiae is further classified under the subfamily Orchidoideae, which includes the majority of the orchid family. Within the subfamily, it belongs to the tribe Cranichideae, and the genus Malaxis. The classification of Malaxis javesiae is a crucial aspect of its identification and understanding of its evolutionary history.",
+    "benefits": "Malaxis javesiae, a species of orchid, is known to have various health benefits. The plant is traditionally used in medicine to treat various ailments, including fever, cough, and respiratory issues. Its extracts are believed to possess anti-inflammatory and antimicrobial properties, which may contribute to its potential health benefits. The plant is also thought to have antioxidant properties, which could help protect against cell damage and oxidative stress. However, further research is needed to fully understand the health benefits of Malaxis javesiae and its potential applications in medicine.",
+    "properties": "Malaxis javesiae is a species of orchid, but unfortunately, specific information on its therapeutic properties could not be found in available sources. However, various species within the Malaxis genus are known to have been used in traditional medicine for their potential health benefits. Further research is needed to determine the exact therapeutic properties and uses of Malaxis javesiae specifically. Traditional uses of orchids in general may include treating respiratory issues, skin conditions, and other health concerns. More studies are required to confirm the effectiveness of Malaxis javesiae for medicinal purposes.",
+    "constituents": "Malaxis javesiae contains various active constituents, including flavonoids, phenolic acids, and terpenoids. These compounds may contribute to its potential medicinal properties and pharmacological activities. Research has shown that flavonoids present in Malaxis javesiae possess antioxidant, anti-inflammatory, and antimicrobial properties. The exact composition and effects of these active constituents may vary depending on the specific plant source and growing conditions. Further studies are needed to fully understand the active constituents and potential applications of Malaxis javesiae.",
+    "parts": "Malaxis javesiae is a type of orchid, and the medicinal parts of the plant that are typically used are the leaves and roots. The leaves of Malaxis javesiae contain bioactive compounds with potential medicinal properties. The roots of the plant may possess antimicrobial and anti-inflammatory properties. However, further research is needed to confirm the exact medicinal uses and benefits of the plant. Additionally, the plant should be used with caution and under the guidance of a medical professional.",
+    "preparations": "Malaxis javesiae has been reported to have potential medicinal properties, with herbal preparations often used to treat various health issues. However, there is limited scientific research on the effectiveness of these preparations. In some traditional medicine practices, Malaxis javesiae is used to treat conditions such as fever and respiratory problems. Further studies are needed to fully understand its potential benefits and risks. More research is required to validate the claims associated with Malaxis javesiae herbal preparations.",
+    "side_effects": "Info not available yet.",
+    "intro": "Malaxis javesiae, also known as the Jave's Spiranthes or Jave's Ladies' Tresses, is a species of orchid native to the tropical regions of Central and South America. This plant has been traditionally used in folk medicine for its health benefits, which include treating various respiratory issues such as bronchitis and asthma, as well as its anti-inflammatory and antiseptic properties, which can aid in wound healing and reduce fever. The bioactive constituents of Malaxis javesiae include flavonoids, alkaloids, and terpenoids, which are responsible for its medicinal properties. In traditional herbal medicine, Malaxis javesiae is often prepared as a tea or tincture, and it is also used in the production of infusions and decoctions to treat a range of health conditions."
+}

@@ -1,1 +1,148 @@
-{"title": "Cymbalariella scothophila", "herb_slug": "cymbalariella-scothophila", "herb_name_scientific": "Cymbalariella scothophila", "family_slug": "saxifragaceae", "family_name": "Saxifragaceae", "url": "herbs/cymbalariella-scothophila", "lastmod": "2025-2-4", "herb_names_common": [{"name": "unknown", "mentions": 10, "confidence_score": 100, "total_score": 1000}, {"name": "none found", "mentions": 30, "confidence_score": 100, "total_score": 3000}, {"name": "scotch moss", "mentions": 8, "confidence_score": 67, "total_score": 536}, {"name": "scoparia", "mentions": 6, "confidence_score": 54, "total_score": 324}, {"name": "cymbalaria", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "no matching results found for cymbalariella scothophila.", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "scots moss", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "scot's moss (synonym)", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "false navelwort", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "small spike loosestrife", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "false navelwort liverwort", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "cushion moss (c. scotophila)", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "not found", "mentions": 30, "confidence_score": 10, "total_score": 300}, {"name": "no information available", "mentions": 10, "confidence_score": 10, "total_score": 100}, {"name": "toadflax", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "false navel wart", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cushion moss", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "scotch broom", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "small-spike loosestrife", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "dwarf scots moss", "mentions": 1, "confidence_score": 8, "total_score": 8}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 153, "total_score": 3060}], "taxonomy": "Unfortunately, I was unable to find any information on a plant species called \"Cymbalariella scothophila.\" However, there is a plant species called Cymbalaria muralis, which is a member of the family Plantaginaceae and is also known as \"Toadflax.\" This family is a group of flowering plants that also includes plants like Plantago and Veronica. The family Plantaginaceae is a part of the order Lamiales, which is a larger group of flowering plants.", "uses": "Unfortunately, I don't have information on the medicinal uses of Cymbalariella scothophila.", "benefits": "Info not available yet.", "properties": "Info not available yet.", "constituents": "Info not available yet.", "parts": "Info not available yet.", "preparations": "Info not available yet.", "side_effects": "Info not available yet.", "intro": "I couldn't find any information on the plant Cymbalariella scothophila."}
+{
+    "title": "Cymbalariella scothophila",
+    "herb_slug": "cymbalariella-scothophila",
+    "herb_name_scientific": "Cymbalariella scothophila",
+    "family_slug": "saxifragaceae",
+    "family_name": "Saxifragaceae",
+    "url": "herbs/cymbalariella-scothophila",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "unknown",
+            "mentions": 10,
+            "confidence_score": 100,
+            "total_score": 1000
+        },
+        {
+            "name": "none found",
+            "mentions": 30,
+            "confidence_score": 100,
+            "total_score": 3000
+        },
+        {
+            "name": "scotch moss",
+            "mentions": 8,
+            "confidence_score": 67,
+            "total_score": 536
+        },
+        {
+            "name": "scoparia",
+            "mentions": 6,
+            "confidence_score": 54,
+            "total_score": 324
+        },
+        {
+            "name": "cymbalaria",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "no matching results found for cymbalariella scothophila.",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "scots moss",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "scot's moss (synonym)",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "false navelwort",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "small spike loosestrife",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "false navelwort liverwort",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "cushion moss (c. scotophila)",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "not found",
+            "mentions": 30,
+            "confidence_score": 10,
+            "total_score": 300
+        },
+        {
+            "name": "no information available",
+            "mentions": 10,
+            "confidence_score": 10,
+            "total_score": 100
+        },
+        {
+            "name": "toadflax",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "false navel wart",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cushion moss",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "scotch broom",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "small-spike loosestrife",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "dwarf scots moss",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 153,
+            "total_score": 3060
+        }
+    ],
+    "taxonomy": "Unfortunately, I was unable to find any information on a plant species called \"Cymbalariella scothophila.\" However, there is a plant species called Cymbalaria muralis, which is a member of the family Plantaginaceae and is also known as \"Toadflax.\" This family is a group of flowering plants that also includes plants like Plantago and Veronica. The family Plantaginaceae is a part of the order Lamiales, which is a larger group of flowering plants.",
+    "uses": "Unfortunately, I don't have information on the medicinal uses of Cymbalariella scothophila.",
+    "benefits": "Info not available yet.",
+    "properties": "Info not available yet.",
+    "constituents": "Info not available yet.",
+    "parts": "Info not available yet.",
+    "preparations": "Info not available yet.",
+    "side_effects": "Info not available yet.",
+    "intro": "I couldn't find any information on the plant Cymbalariella scothophila."
+}

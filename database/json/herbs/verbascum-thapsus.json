@@ -1,1 +1,756 @@
-{"title": "Verbascum thapsus", "herb_slug": "verbascum-thapsus", "herb_name_scientific": "Verbascum thapsus", "family_slug": "", "family_name": "", "url": "herbs/verbascum-thapsus", "lastmod": "2025-1-20", "herb_names_common": [{"name": "great mullein", "mentions": 36, "confidence_score": 315, "total_score": 11340}, {"name": "common mullein", "mentions": 19, "confidence_score": 177, "total_score": 3363}, {"name": "velvet plant", "mentions": 18, "confidence_score": 124, "total_score": 2232}, {"name": "aaron's rod", "mentions": 15, "confidence_score": 115, "total_score": 1725}, {"name": "wild mullein", "mentions": 11, "confidence_score": 79, "total_score": 869}, {"name": "hare's beard", "mentions": 10, "confidence_score": 59, "total_score": 590}, {"name": "flannel plant", "mentions": 9, "confidence_score": 57, "total_score": 513}, {"name": "verbascum", "mentions": 10, "confidence_score": 56, "total_score": 560}, {"name": "woolly mullein", "mentions": 8, "confidence_score": 48, "total_score": 384}, {"name": "flannel flower", "mentions": 5, "confidence_score": 43, "total_score": 215}, {"name": "mullein weed", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "mullein flower", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "flaxweed", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "tall mullein", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "flower of gold", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "velvet dock", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "adam's flax", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "white mullein", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "woolly mullein plant", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "jupiter's beard", "mentions": 2, "confidence_score": 9, "total_score": 18}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 170, "total_score": 3400}], "what_description": "Verbascum thapsus is a biennial plant native to Europe and Western Asia, belonging to the family Scrophulariaceae. It grows to 2-3 meters in height, with a stout stem and large, woolly leaves that are 20-30 centimeters long and 10-15 centimeters wide. The plant produces a large number of small, yellow flowers in a dense spike, each 2-3 centimeters long and 1-2 centimeters wide, in the second year of growth. The flowers are pollinated by bees and other insects, and the plant produces a seed head that contains numerous small seeds. The seeds are dispersed by wind and water, allowing the plant to spread quickly in suitable habitats.", "category_action": "anti-inflammatory", "ailments": [{"name": "inflammation", "mentions": 16, "confidence_score": 123, "total_score": 1968}, {"name": "fever", "mentions": 16, "confidence_score": 106, "total_score": 1696}, {"name": "wounds", "mentions": 13, "confidence_score": 94, "total_score": 1222}, {"name": "bronchitis", "mentions": 13, "confidence_score": 94, "total_score": 1222}, {"name": "diarrhea", "mentions": 14, "confidence_score": 88, "total_score": 1232}, {"name": "cough", "mentions": 10, "confidence_score": 82, "total_score": 820}, {"name": "asthma", "mentions": 9, "confidence_score": 58, "total_score": 522}, {"name": "skin irritation", "mentions": 10, "confidence_score": 55, "total_score": 550}, {"name": "rheumatism", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "sore throat", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "respiratory issues", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "coughs", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "eczema", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "bruises", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "allergies", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "insect bites", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "mucus", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "sore throats", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "gastroenteritis", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "burns", "mentions": 3, "confidence_score": 23, "total_score": 69}], "ailments_description": "The most common ailments you can heal with Verbascum thapsus are inflammation, wounds, and fever, which are alleviated by its anti-inflammatory properties and mucilaginous sap. Verbascum thapsus is also effective in treating bronchitis due to its expectorant properties, helping to remove mucus and other debris from the lungs. Additionally, it has been used to treat diarrhea, cough, and respiratory issues, including asthma, by soothing and protecting the mucous membranes. Verbascum thapsus has also been used to alleviate skin irritation and eczema, as well as rheumatism, sore throat, and gastroenteritis, through its anti-inflammatory and antimicrobial properties. Furthermore, it can be used to treat burns, bruises, allergies, and insect bites due to its soothing and protective effects on the skin.", "properties": [{"name": "anti-inflammatory", "mentions": 20, "confidence_score": 161, "total_score": 3220}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 158, "total_score": 3160}, {"name": "antioxidant", "mentions": 20, "confidence_score": 157, "total_score": 3140}, {"name": "expectorant", "mentions": 17, "confidence_score": 140, "total_score": 2380}, {"name": "analgesic", "mentions": 15, "confidence_score": 87, "total_score": 1305}, {"name": "antispasmodic", "mentions": 11, "confidence_score": 73, "total_score": 803}, {"name": "antibacterial", "mentions": 7, "confidence_score": 52, "total_score": 364}, {"name": "antifungal", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "antiviral", "mentions": 10, "confidence_score": 48, "total_score": 480}, {"name": "hepatoprotective", "mentions": 10, "confidence_score": 46, "total_score": 460}, {"name": "antiseptic", "mentions": 6, "confidence_score": 46, "total_score": 276}, {"name": "antihistamine", "mentions": 7, "confidence_score": 42, "total_score": 294}, {"name": "hemostatic", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "sedative", "mentions": 6, "confidence_score": 27, "total_score": 162}, {"name": "anticancer", "mentions": 6, "confidence_score": 23, "total_score": 138}, {"name": "antipyretic", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "cardioprotective", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "wound-healing", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "wound healing", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "antihistaminic", "mentions": 2, "confidence_score": 12, "total_score": 24}], "properties_description": "The main therapeutic properties of Verbascum thapsus are its anti-inflammatory effects, which are attributed to the bioactive compounds such as flavonoids and volatile oils present in the plant. This plant exhibits antimicrobial properties, effectively inhibiting the growth of various microorganisms, including bacteria and fungi, due to the presence of saponins and phenolic compounds. The antioxidant properties of Verbascum thapsus are responsible for neutralizing free radicals and protecting cells from oxidative damage, which can contribute to chronic diseases. The expectorant properties of the plant help to relieve respiratory issues, such as bronchitis and coughs, by increasing the production of mucus, making it easier to expel. Additionally, the analgesic properties of Verbascum thapsus provide relief from pain, attributed to the presence of sesquiterpenes and other bioactive compounds.", "constituents": [{"name": "verbascoside", "mentions": 18, "confidence_score": 164, "total_score": 2952}, {"name": "iridoid glycosides", "mentions": 15, "confidence_score": 98, "total_score": 1470}, {"name": "quercetin", "mentions": 11, "confidence_score": 87, "total_score": 957}, {"name": "flavonoids", "mentions": 10, "confidence_score": 61, "total_score": 610}, {"name": "oleanolic acid", "mentions": 9, "confidence_score": 61, "total_score": 549}, {"name": "saponins", "mentions": 10, "confidence_score": 59, "total_score": 590}, {"name": "triterpenoids", "mentions": 10, "confidence_score": 56, "total_score": 560}, {"name": "ursolic acid", "mentions": 7, "confidence_score": 49, "total_score": 343}, {"name": "isorhapontigenin", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "kaempferol", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "phenolic acids", "mentions": 7, "confidence_score": 41, "total_score": 287}, {"name": "aesculetin", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "phenolic acids (including caffeic acid and ferulic acid)", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "coumarins", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "beta-sitosterol", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "fatty acids", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "tannins", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "rosmarinic acid", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "apigenin", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "luteolin", "mentions": 3, "confidence_score": 18, "total_score": 54}], "constituents_description": "The most important healing constituents of Verbascum thapsus are verbascoside, iridoid glycosides, quercetin, flavonoids, and oleanolic acid. Verbascoside has been shown to possess anti-inflammatory and antioxidant properties, contributing to its wound-healing and antimicrobial effects. Iridoid glycosides exhibit significant antispasmodic activity, which may be beneficial in treating respiratory and gastrointestinal disorders. Quercetin, a flavonoid, has been reported to possess antiviral, anti-inflammatory, and antioxidant properties, while flavonoids in general have been shown to exhibit antioxidant and anti-inflammatory activities. Oleanolic acid, a triterpenoid saponin, has been found to possess anti-inflammatory, antiviral, and antioxidant properties, as well as inhibiting the proliferation of cancer cells.", "preparations": [{"name": "tincture", "mentions": 14, "confidence_score": 120, "total_score": 1680}, {"name": "infusion", "mentions": 14, "confidence_score": 119, "total_score": 1666}, {"name": "salve", "mentions": 15, "confidence_score": 92, "total_score": 1380}, {"name": "tea", "mentions": 10, "confidence_score": 70, "total_score": 700}, {"name": "verbascum decoction", "mentions": 10, "confidence_score": 58, "total_score": 580}, {"name": "verbascum tincture", "mentions": 6, "confidence_score": 53, "total_score": 318}, {"name": "infused oil", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "ointment", "mentions": 10, "confidence_score": 47, "total_score": 470}, {"name": "verbascum tea", "mentions": 5, "confidence_score": 44, "total_score": 220}, {"name": "verbascum infusion", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "verbascum salve", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "verbascum oil", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "poultice", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "verbascum ointment", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "extract", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "verbascum poultice", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "resin", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "glycerite", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "verbascum cream", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suppository", "mentions": 1, "confidence_score": 4, "total_score": 4}], "preparations_description": "The main herbal preparations of Verbascum thapsus are used for its medicinal properties, which include the production of a tincture, made by extracting the plant's roots and leaves with a solvent to create a concentrated liquid, used to treat respiratory issues and skin conditions. An infusion is created by steeping the plant's leaves in hot water, which is then used to treat coughs, colds, and other respiratory issues. A salve is made by infusing the plant's leaves in oil, resulting in a topical remedy for skin conditions, such as wounds and burns. The plant can also be made into a tea, by steeping the leaves in hot water, which is used to treat coughs, colds, and respiratory issues. Verbascum decoction is a concentrated liquid made by simmering the plant's roots and leaves in water, which is used to treat digestive issues and skin conditions.", "side_effects": [{"name": "causes diarrhea", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "induces vomiting", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "interact with medications", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "triggers allergic reactions", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "induce nausea", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "induces nausea", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "increases heart rate", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "interferes with blood clotting", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "exacerbate allergies", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "induce allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "causes dizziness", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "exacerbate asthma", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "suffering vomiting", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "lowers blood pressure", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "triggers diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "triggers seizures", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "induce diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "affects liver function", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "induces coma", "mentions": 2, "confidence_score": 13, "total_score": 26}], "side_effects_description": "The possible side effects of using Verbascum thapsus improperly include causing diarrhea due to its anthraquinone glycosides content, which can irritate the gastrointestinal tract and lead to gastrointestinal disturbances. Furthermore, Verbascum thapsus can induce vomiting due to its emetic properties, making it potentially toxic in large doses. Additionally, its bioactive compounds may interact with certain medications, such as blood thinners and diuretics, which can lead to adverse health outcomes. Verbascum thapsus may also trigger allergic reactions, including skin irritation and respiratory problems, in some individuals due to its saponin content. Inducing nausea is another potential side effect of Verbascum thapsus, particularly if it is ingested in large quantities or without proper preparation."}
+{
+    "title": "Verbascum thapsus",
+    "herb_slug": "verbascum-thapsus",
+    "herb_name_scientific": "Verbascum thapsus",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/verbascum-thapsus",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "great mullein",
+            "mentions": 36,
+            "confidence_score": 315,
+            "total_score": 11340
+        },
+        {
+            "name": "common mullein",
+            "mentions": 19,
+            "confidence_score": 177,
+            "total_score": 3363
+        },
+        {
+            "name": "velvet plant",
+            "mentions": 18,
+            "confidence_score": 124,
+            "total_score": 2232
+        },
+        {
+            "name": "aaron's rod",
+            "mentions": 15,
+            "confidence_score": 115,
+            "total_score": 1725
+        },
+        {
+            "name": "wild mullein",
+            "mentions": 11,
+            "confidence_score": 79,
+            "total_score": 869
+        },
+        {
+            "name": "hare's beard",
+            "mentions": 10,
+            "confidence_score": 59,
+            "total_score": 590
+        },
+        {
+            "name": "flannel plant",
+            "mentions": 9,
+            "confidence_score": 57,
+            "total_score": 513
+        },
+        {
+            "name": "verbascum",
+            "mentions": 10,
+            "confidence_score": 56,
+            "total_score": 560
+        },
+        {
+            "name": "woolly mullein",
+            "mentions": 8,
+            "confidence_score": 48,
+            "total_score": 384
+        },
+        {
+            "name": "flannel flower",
+            "mentions": 5,
+            "confidence_score": 43,
+            "total_score": 215
+        },
+        {
+            "name": "mullein weed",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "mullein flower",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "flaxweed",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "tall mullein",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "flower of gold",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "velvet dock",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "adam's flax",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "white mullein",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "woolly mullein plant",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "jupiter's beard",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 170,
+            "total_score": 3400
+        }
+    ],
+    "what_description": "Verbascum thapsus is a biennial plant native to Europe and Western Asia, belonging to the family Scrophulariaceae. It grows to 2-3 meters in height, with a stout stem and large, woolly leaves that are 20-30 centimeters long and 10-15 centimeters wide. The plant produces a large number of small, yellow flowers in a dense spike, each 2-3 centimeters long and 1-2 centimeters wide, in the second year of growth. The flowers are pollinated by bees and other insects, and the plant produces a seed head that contains numerous small seeds. The seeds are dispersed by wind and water, allowing the plant to spread quickly in suitable habitats.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 16,
+            "confidence_score": 123,
+            "total_score": 1968
+        },
+        {
+            "name": "fever",
+            "mentions": 16,
+            "confidence_score": 106,
+            "total_score": 1696
+        },
+        {
+            "name": "wounds",
+            "mentions": 13,
+            "confidence_score": 94,
+            "total_score": 1222
+        },
+        {
+            "name": "bronchitis",
+            "mentions": 13,
+            "confidence_score": 94,
+            "total_score": 1222
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 14,
+            "confidence_score": 88,
+            "total_score": 1232
+        },
+        {
+            "name": "cough",
+            "mentions": 10,
+            "confidence_score": 82,
+            "total_score": 820
+        },
+        {
+            "name": "asthma",
+            "mentions": 9,
+            "confidence_score": 58,
+            "total_score": 522
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 10,
+            "confidence_score": 55,
+            "total_score": 550
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "sore throat",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "coughs",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "eczema",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "bruises",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "allergies",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "insect bites",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "mucus",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "sore throats",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "burns",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Verbascum thapsus are inflammation, wounds, and fever, which are alleviated by its anti-inflammatory properties and mucilaginous sap. Verbascum thapsus is also effective in treating bronchitis due to its expectorant properties, helping to remove mucus and other debris from the lungs. Additionally, it has been used to treat diarrhea, cough, and respiratory issues, including asthma, by soothing and protecting the mucous membranes. Verbascum thapsus has also been used to alleviate skin irritation and eczema, as well as rheumatism, sore throat, and gastroenteritis, through its anti-inflammatory and antimicrobial properties. Furthermore, it can be used to treat burns, bruises, allergies, and insect bites due to its soothing and protective effects on the skin.",
+    "properties": [
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 158,
+            "total_score": 3160
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 157,
+            "total_score": 3140
+        },
+        {
+            "name": "expectorant",
+            "mentions": 17,
+            "confidence_score": 140,
+            "total_score": 2380
+        },
+        {
+            "name": "analgesic",
+            "mentions": 15,
+            "confidence_score": 87,
+            "total_score": 1305
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 11,
+            "confidence_score": 73,
+            "total_score": 803
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 7,
+            "confidence_score": 52,
+            "total_score": 364
+        },
+        {
+            "name": "antifungal",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "antiviral",
+            "mentions": 10,
+            "confidence_score": 48,
+            "total_score": 480
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 10,
+            "confidence_score": 46,
+            "total_score": 460
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 6,
+            "confidence_score": 46,
+            "total_score": 276
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 7,
+            "confidence_score": 42,
+            "total_score": 294
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "sedative",
+            "mentions": 6,
+            "confidence_score": 27,
+            "total_score": 162
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 23,
+            "total_score": 138
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "wound-healing",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Verbascum thapsus are its anti-inflammatory effects, which are attributed to the bioactive compounds such as flavonoids and volatile oils present in the plant. This plant exhibits antimicrobial properties, effectively inhibiting the growth of various microorganisms, including bacteria and fungi, due to the presence of saponins and phenolic compounds. The antioxidant properties of Verbascum thapsus are responsible for neutralizing free radicals and protecting cells from oxidative damage, which can contribute to chronic diseases. The expectorant properties of the plant help to relieve respiratory issues, such as bronchitis and coughs, by increasing the production of mucus, making it easier to expel. Additionally, the analgesic properties of Verbascum thapsus provide relief from pain, attributed to the presence of sesquiterpenes and other bioactive compounds.",
+    "constituents": [
+        {
+            "name": "verbascoside",
+            "mentions": 18,
+            "confidence_score": 164,
+            "total_score": 2952
+        },
+        {
+            "name": "iridoid glycosides",
+            "mentions": 15,
+            "confidence_score": 98,
+            "total_score": 1470
+        },
+        {
+            "name": "quercetin",
+            "mentions": 11,
+            "confidence_score": 87,
+            "total_score": 957
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 10,
+            "confidence_score": 61,
+            "total_score": 610
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 9,
+            "confidence_score": 61,
+            "total_score": 549
+        },
+        {
+            "name": "saponins",
+            "mentions": 10,
+            "confidence_score": 59,
+            "total_score": 590
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 10,
+            "confidence_score": 56,
+            "total_score": 560
+        },
+        {
+            "name": "ursolic acid",
+            "mentions": 7,
+            "confidence_score": 49,
+            "total_score": 343
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 7,
+            "confidence_score": 41,
+            "total_score": 287
+        },
+        {
+            "name": "aesculetin",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "phenolic acids (including caffeic acid and ferulic acid)",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "coumarins",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "beta-sitosterol",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "tannins",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "rosmarinic acid",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "apigenin",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "luteolin",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Verbascum thapsus are verbascoside, iridoid glycosides, quercetin, flavonoids, and oleanolic acid. Verbascoside has been shown to possess anti-inflammatory and antioxidant properties, contributing to its wound-healing and antimicrobial effects. Iridoid glycosides exhibit significant antispasmodic activity, which may be beneficial in treating respiratory and gastrointestinal disorders. Quercetin, a flavonoid, has been reported to possess antiviral, anti-inflammatory, and antioxidant properties, while flavonoids in general have been shown to exhibit antioxidant and anti-inflammatory activities. Oleanolic acid, a triterpenoid saponin, has been found to possess anti-inflammatory, antiviral, and antioxidant properties, as well as inhibiting the proliferation of cancer cells.",
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 14,
+            "confidence_score": 120,
+            "total_score": 1680
+        },
+        {
+            "name": "infusion",
+            "mentions": 14,
+            "confidence_score": 119,
+            "total_score": 1666
+        },
+        {
+            "name": "salve",
+            "mentions": 15,
+            "confidence_score": 92,
+            "total_score": 1380
+        },
+        {
+            "name": "tea",
+            "mentions": 10,
+            "confidence_score": 70,
+            "total_score": 700
+        },
+        {
+            "name": "verbascum decoction",
+            "mentions": 10,
+            "confidence_score": 58,
+            "total_score": 580
+        },
+        {
+            "name": "verbascum tincture",
+            "mentions": 6,
+            "confidence_score": 53,
+            "total_score": 318
+        },
+        {
+            "name": "infused oil",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "ointment",
+            "mentions": 10,
+            "confidence_score": 47,
+            "total_score": 470
+        },
+        {
+            "name": "verbascum tea",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        },
+        {
+            "name": "verbascum infusion",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "verbascum salve",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "verbascum oil",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "poultice",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "verbascum ointment",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "extract",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "verbascum poultice",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "resin",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "verbascum cream",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Verbascum thapsus are used for its medicinal properties, which include the production of a tincture, made by extracting the plant's roots and leaves with a solvent to create a concentrated liquid, used to treat respiratory issues and skin conditions. An infusion is created by steeping the plant's leaves in hot water, which is then used to treat coughs, colds, and other respiratory issues. A salve is made by infusing the plant's leaves in oil, resulting in a topical remedy for skin conditions, such as wounds and burns. The plant can also be made into a tea, by steeping the leaves in hot water, which is used to treat coughs, colds, and respiratory issues. Verbascum decoction is a concentrated liquid made by simmering the plant's roots and leaves in water, which is used to treat digestive issues and skin conditions.",
+    "side_effects": [
+        {
+            "name": "causes diarrhea",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "induces vomiting",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "triggers allergic reactions",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "induces nausea",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "increases heart rate",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "interferes with blood clotting",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "induce allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "causes dizziness",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "exacerbate asthma",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "suffering vomiting",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "lowers blood pressure",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "triggers diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "triggers seizures",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "affects liver function",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "induces coma",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Verbascum thapsus improperly include causing diarrhea due to its anthraquinone glycosides content, which can irritate the gastrointestinal tract and lead to gastrointestinal disturbances. Furthermore, Verbascum thapsus can induce vomiting due to its emetic properties, making it potentially toxic in large doses. Additionally, its bioactive compounds may interact with certain medications, such as blood thinners and diuretics, which can lead to adverse health outcomes. Verbascum thapsus may also trigger allergic reactions, including skin irritation and respiratory problems, in some individuals due to its saponin content. Inducing nausea is another potential side effect of Verbascum thapsus, particularly if it is ingested in large quantities or without proper preparation."
+}

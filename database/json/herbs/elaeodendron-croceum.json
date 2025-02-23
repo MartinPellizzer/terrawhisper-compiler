@@ -1,1 +1,154 @@
-{"title": "Elaeodendron croceum", "herb_slug": "elaeodendron-croceum", "herb_name_scientific": "Elaeodendron croceum", "family_slug": "celastraceae", "family_name": "Celastraceae", "url": "herbs/elaeodendron-croceum", "lastmod": "2025-1-13", "herb_names_common": [{"name": "yellow birdwood", "mentions": 24, "confidence_score": 153, "total_score": 3672}, {"name": "yellow birdwood tree", "mentions": 15, "confidence_score": 90, "total_score": 1350}, {"name": "yellowwood", "mentions": 8, "confidence_score": 56, "total_score": 448}, {"name": "yellow birdwood bush", "mentions": 11, "confidence_score": 48, "total_score": 528}, {"name": "yellow bird of paradise", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "yellow wood", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "yellowwood tree", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "elaeodendron yellow birdwood", "mentions": 10, "confidence_score": 27, "total_score": 270}, {"name": "yellow wood tree", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "golden fire tree", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "yellow birdwood tree (elaeodendron croceum)", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "golden yellowwood", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "yellow birdwood (elaeodendron croceum)", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "yellow bird wing", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "elaeodendron croceum", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "yellow ironwood", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "yellow-wood", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "yellow bird's wing", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "yellow bells", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "yellow-wood tree", "mentions": 3, "confidence_score": 13, "total_score": 39}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 13, "confidence_score": 114, "total_score": 1482}, {"medicine_or_poison": "medicine", "mentions": 7, "confidence_score": 58, "total_score": 406}], "uses": "Elaeodendron croceum is a plant that is native to Madagascar, but information on its specific medicinal uses is limited. However, the plant is part of the family Celastraceae and some plants in this family have been used in traditional medicine for various purposes. Further research is needed to determine the specific medicinal properties and uses of Elaeodendron croceum. Some plants in the Celastraceae family have been found to have anti-inflammatory and antioxidant properties. The potential medicinal uses of Elaeodendron croceum are currently not well-documented and require further scientific study.", "taxonomy": "Elaeodendron croceum is classified as a species of flowering plant in the family Celastraceae. This family is commonly known as the staff vine or bittersweet family. Elaeodendron croceum is native to Australia and is also known as the Yellow Wood or Lemonwood. The plant is a part of the order Celastrales and the class Magnoliopsida. The classification of Elaeodendron croceum is further supported by its unique characteristics and physical attributes.", "benefits": "Elaeodendron croceum has been used in traditional medicine to treat various ailments due to its potential health benefits. The plant is believed to possess antimicrobial properties, which can help in fighting off infections. Additionally, it may possess antioxidant properties, which can help in protecting the body from oxidative stress. However, further research is needed to confirm its effectiveness in treating specific health conditions. More studies are necessary to fully understand the health benefits of Elaeodendron croceum.", "properties": "Elaeodendron croceum is a plant species native to Madagascar, but specific information regarding its therapeutic properties is limited or not well-documented. However, some studies suggest that certain species within the Elaeodendron genus may possess antioxidant, anti-inflammatory, and antimicrobial properties. These properties could potentially be beneficial for various health issues, including wound healing and infections. Further research is needed to confirm the therapeutic properties of Elaeodendron croceum specifically. The plant's therapeutic potential might be worth exploring in the future through more extensive studies.", "constituents": "Elaeodendron croceum contains flavonoids, which are a type of compound found in many plants and have been known to have various health benefits. These flavonoids are often associated with antioxidant and anti-inflammatory properties. The specific flavonoids present in Elaeodendron croceum are not well-documented, but it is believed to contain a range of different compounds. Further research is needed to fully understand the active constituents of Elaeodendron croceum. More studies are required to identify the specific compounds responsible for its potential medicinal properties.", "parts": "Elaeodendron croceum is a plant species native to Australia, but information on its medicinal parts is limited in available sources.  However, some species within the same genus have been found to contain potential medicinal properties.  The bark and roots of certain plant species in the Elaeodendron genus have been used in traditional medicine for various purposes, such as treating fever and other ailments.  More research is necessary to determine the potential medicinal properties of Elaeodendron croceum.  The plant's leaves and stems may also be of interest for further study in this regard.", "preparations": "Elaeodendron croceum is a plant species native to Madagascar, but information on its herbal preparations is limited. However, traditional medicine in Madagascar utilizes various plant species for their medicinal properties. There is a lack of research on the specific uses of Elaeodendron croceum in herbal preparations. As a result, no concrete information is available on the traditional or modern uses of this plant in herbal medicine. More research is needed to explore the potential medicinal properties of Elaeodendron croceum.", "side_effects": "Info not available yet.", "intro": "Elaeodendron croceum, commonly known as the yellow silk bush, is a plant species native to tropical Africa, belonging to the family Celastraceae. The yellow silk bush is valued for its medicinal properties, which include anti-inflammatory and antimicrobial activities, making it a potential remedy for various health conditions such as wound healing, fever reduction, and gastrointestinal issues. Bioactive constituents of Elaeodendron croceum include flavonoids, alkaloids, and terpenoids, which contribute to its medicinal properties. Traditionally, the plant is used to prepare herbal remedies, including teas, infusions, and extracts, which are often used to treat infections, fever, and gastrointestinal problems."}
+{
+    "title": "Elaeodendron croceum",
+    "herb_slug": "elaeodendron-croceum",
+    "herb_name_scientific": "Elaeodendron croceum",
+    "family_slug": "celastraceae",
+    "family_name": "Celastraceae",
+    "url": "herbs/elaeodendron-croceum",
+    "lastmod": "2025-1-13",
+    "herb_names_common": [
+        {
+            "name": "yellow birdwood",
+            "mentions": 24,
+            "confidence_score": 153,
+            "total_score": 3672
+        },
+        {
+            "name": "yellow birdwood tree",
+            "mentions": 15,
+            "confidence_score": 90,
+            "total_score": 1350
+        },
+        {
+            "name": "yellowwood",
+            "mentions": 8,
+            "confidence_score": 56,
+            "total_score": 448
+        },
+        {
+            "name": "yellow birdwood bush",
+            "mentions": 11,
+            "confidence_score": 48,
+            "total_score": 528
+        },
+        {
+            "name": "yellow bird of paradise",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "yellow wood",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "yellowwood tree",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "elaeodendron yellow birdwood",
+            "mentions": 10,
+            "confidence_score": 27,
+            "total_score": 270
+        },
+        {
+            "name": "yellow wood tree",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "golden fire tree",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "yellow birdwood tree (elaeodendron croceum)",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "golden yellowwood",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "yellow birdwood (elaeodendron croceum)",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "yellow bird wing",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "elaeodendron croceum",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "yellow ironwood",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "yellow-wood",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "yellow bird's wing",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "yellow bells",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "yellow-wood tree",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 13,
+            "confidence_score": 114,
+            "total_score": 1482
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 7,
+            "confidence_score": 58,
+            "total_score": 406
+        }
+    ],
+    "uses": "Elaeodendron croceum is a plant that is native to Madagascar, but information on its specific medicinal uses is limited. However, the plant is part of the family Celastraceae and some plants in this family have been used in traditional medicine for various purposes. Further research is needed to determine the specific medicinal properties and uses of Elaeodendron croceum. Some plants in the Celastraceae family have been found to have anti-inflammatory and antioxidant properties. The potential medicinal uses of Elaeodendron croceum are currently not well-documented and require further scientific study.",
+    "taxonomy": "Elaeodendron croceum is classified as a species of flowering plant in the family Celastraceae. This family is commonly known as the staff vine or bittersweet family. Elaeodendron croceum is native to Australia and is also known as the Yellow Wood or Lemonwood. The plant is a part of the order Celastrales and the class Magnoliopsida. The classification of Elaeodendron croceum is further supported by its unique characteristics and physical attributes.",
+    "benefits": "Elaeodendron croceum has been used in traditional medicine to treat various ailments due to its potential health benefits. The plant is believed to possess antimicrobial properties, which can help in fighting off infections. Additionally, it may possess antioxidant properties, which can help in protecting the body from oxidative stress. However, further research is needed to confirm its effectiveness in treating specific health conditions. More studies are necessary to fully understand the health benefits of Elaeodendron croceum.",
+    "properties": "Elaeodendron croceum is a plant species native to Madagascar, but specific information regarding its therapeutic properties is limited or not well-documented. However, some studies suggest that certain species within the Elaeodendron genus may possess antioxidant, anti-inflammatory, and antimicrobial properties. These properties could potentially be beneficial for various health issues, including wound healing and infections. Further research is needed to confirm the therapeutic properties of Elaeodendron croceum specifically. The plant's therapeutic potential might be worth exploring in the future through more extensive studies.",
+    "constituents": "Elaeodendron croceum contains flavonoids, which are a type of compound found in many plants and have been known to have various health benefits. These flavonoids are often associated with antioxidant and anti-inflammatory properties. The specific flavonoids present in Elaeodendron croceum are not well-documented, but it is believed to contain a range of different compounds. Further research is needed to fully understand the active constituents of Elaeodendron croceum. More studies are required to identify the specific compounds responsible for its potential medicinal properties.",
+    "parts": "Elaeodendron croceum is a plant species native to Australia, but information on its medicinal parts is limited in available sources.  However, some species within the same genus have been found to contain potential medicinal properties.  The bark and roots of certain plant species in the Elaeodendron genus have been used in traditional medicine for various purposes, such as treating fever and other ailments.  More research is necessary to determine the potential medicinal properties of Elaeodendron croceum.  The plant's leaves and stems may also be of interest for further study in this regard.",
+    "preparations": "Elaeodendron croceum is a plant species native to Madagascar, but information on its herbal preparations is limited. However, traditional medicine in Madagascar utilizes various plant species for their medicinal properties. There is a lack of research on the specific uses of Elaeodendron croceum in herbal preparations. As a result, no concrete information is available on the traditional or modern uses of this plant in herbal medicine. More research is needed to explore the potential medicinal properties of Elaeodendron croceum.",
+    "side_effects": "Info not available yet.",
+    "intro": "Elaeodendron croceum, commonly known as the yellow silk bush, is a plant species native to tropical Africa, belonging to the family Celastraceae. The yellow silk bush is valued for its medicinal properties, which include anti-inflammatory and antimicrobial activities, making it a potential remedy for various health conditions such as wound healing, fever reduction, and gastrointestinal issues. Bioactive constituents of Elaeodendron croceum include flavonoids, alkaloids, and terpenoids, which contribute to its medicinal properties. Traditionally, the plant is used to prepare herbal remedies, including teas, infusions, and extracts, which are often used to treat infections, fever, and gastrointestinal problems."
+}

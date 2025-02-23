@@ -1,1 +1,1596 @@
-{"title": "Petastoma poeppigii", "herb_slug": "petastoma-poeppigii", "herb_name_scientific": "Petastoma poeppigii", "url": "herbs/petastoma-poeppigii", "lastmod": "2024-12-29", "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 17, "confidence_score": 127, "total_score": 2159}, {"medicine_or_poison": "poison", "mentions": 3, "confidence_score": 26, "total_score": 78}], "ailments": [{"name": "inflammation", "mentions": 11, "confidence_score": 89, "total_score": 979}, {"name": "fever", "mentions": 8, "confidence_score": 54, "total_score": 432}, {"name": "diarrhea", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "hypertension", "mentions": 6, "confidence_score": 45, "total_score": 270}, {"name": "asthma", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "diabetes", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "skin infections", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "fungal infections", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "digestive issues", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "eczema", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "insect bites", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "skin irritation", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "rheumatism", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "wounds", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "arthritis", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "skin conditions", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "burns", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "respiratory issues", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "allergies", "mentions": 6, "confidence_score": 24, "total_score": 144}], "ailments_description": "The most common ailments you can heal with Petastoma poeppigii are fever, bronchitis is caused by its antiviral properties, reducing inflammation associated with rheumatoid arthritis, and respiratory infections such as pneumonia are alleviated due to its expectorant properties, as well as gastrointestinal issues like diarrhea are treated with its anti-inflammatory compounds. Petastoma poeppigii's antiviral properties have been shown to be effective against viruses responsible for fever and bronchitis. Studies have demonstrated that its anti-inflammatory compounds can reduce inflammation associated with rheumatoid arthritis. Furthermore, its expectorant properties have been proven to alleviate respiratory infections like pneumonia by facilitating the expulsion of mucus from the lungs. Additionally, its anti-inflammatory compounds have been used to treat gastrointestinal issues like diarrhea.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 152, "total_score": 3040}, {"name": "antioxidant", "mentions": 20, "confidence_score": 151, "total_score": 3020}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 136, "total_score": 2720}, {"name": "analgesic", "mentions": 16, "confidence_score": 76, "total_score": 1216}, {"name": "antifungal", "mentions": 9, "confidence_score": 59, "total_score": 531}, {"name": "antiviral", "mentions": 16, "confidence_score": 57, "total_score": 912}, {"name": "cardioprotective", "mentions": 10, "confidence_score": 48, "total_score": 480}, {"name": "antiseptic", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "hepatoprotective", "mentions": 9, "confidence_score": 42, "total_score": 378}, {"name": "antispasmodic", "mentions": 7, "confidence_score": 38, "total_score": 266}, {"name": "hypoglycemic", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "antihemorrhagic", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "anticancer", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "antiparasitic", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "hypotensive", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "cytotoxic", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "cardioactive", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "expectorant", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "antidiarrheal", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "diuretic", "mentions": 3, "confidence_score": 16, "total_score": 48}], "properties_description": "The main therapeutic properties of Petastoma poeppigii are its antioxidant and anti-inflammatory effects, which have been attributed to the presence of flavonoids and saponins in the plant. The antiseptic properties of Petastoma poeppigii make it effective in wound healing and tissue repair, due to the antimicrobial activity of its volatile oils. Additionally, the plant's ability to inhibit platelet aggregation and blood coagulation contributes to its antithrombotic property, which can help prevent cardiovascular diseases. The antiparasitic activity of Petastoma poeppigii has been linked to its ability to disrupt the life cycle of certain parasites, making it a potential treatment for parasitic infections. The analgesic and anti-nociceptive properties of the plant, resulting from its bioactive compounds such as alkaloids and terpenoids, provide relief from pain and discomfort.", "constituents": [{"name": "flavonoids", "mentions": 11, "confidence_score": 81, "total_score": 891}, {"name": "saponins", "mentions": 11, "confidence_score": 66, "total_score": 726}, {"name": "alkaloids", "mentions": 11, "confidence_score": 63, "total_score": 693}, {"name": "phenolic acids", "mentions": 11, "confidence_score": 61, "total_score": 671}, {"name": "petasol", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "glycosides", "mentions": 9, "confidence_score": 49, "total_score": 441}, {"name": "quercetin", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "tannins", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "petasin", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "caffeic acid", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "coumarins", "mentions": 10, "confidence_score": 31, "total_score": 310}, {"name": "kaempferol", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "terpenoids", "mentions": 7, "confidence_score": 26, "total_score": 182}, {"name": "isopetasin", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "triterpenoids", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "phenolic glycosides", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "petasillin", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "petasins", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "iridoid glycosides", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "petasitin", "mentions": 2, "confidence_score": 15, "total_score": 30}], "constituents_description": "The most important healing constituents of Petastoma poeppigii are iridoid glycosides, particularly petasinoside A, which has been shown to have anti-inflammatory properties, and aucubin, an iridoid glycoside with antimicrobial activity. Additionally, the plant contains phenolic acids, including caffeic acid and ferulic acid, which have antioxidant and anti-inflammatory effects. The flavonoids present in Petastoma poeppigii, such as kaempferol and quercetin, have been found to possess anti-inflammatory and antioxidant properties. The sesquiterpenes and diterpenes in Petastoma poeppigii have been reported to exhibit antimicrobial and anti-inflammatory activities. These bioactive compounds contribute to the plant's potential therapeutic applications in treating various health conditions.", "herb_names_common": [{"name": "poeppig's petastoma", "mentions": 16, "confidence_score": 97, "total_score": 1552}, {"name": "poeppigia", "mentions": 18, "confidence_score": 68, "total_score": 1224}, {"name": "petastoma", "mentions": 16, "confidence_score": 36, "total_score": 576}, {"name": "petastoma poeppigii", "mentions": 12, "confidence_score": 36, "total_score": 432}, {"name": "poeppig's indian hemp", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "butterbur", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "petasites", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "petasites poeppigii", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "false pennyroyal", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "estramoni", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "poeppig's petasites", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "false unicorn root", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "poeppig's castor plant", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "poeppig's estralmonia", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "petasites p.", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "poeppig's petastome", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "plectranthus poeppigii", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "poeppig's butterbur", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "poeppig's indian tobacco", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "poeppig's indian paintbrush", "mentions": 2, "confidence_score": 13, "total_score": 26}], "preparations": [{"name": "tea", "mentions": 18, "confidence_score": 165, "total_score": 2970}, {"name": "infusion", "mentions": 20, "confidence_score": 162, "total_score": 3240}, {"name": "tincture", "mentions": 20, "confidence_score": 137, "total_score": 2740}, {"name": "decoction", "mentions": 18, "confidence_score": 109, "total_score": 1962}, {"name": "salve", "mentions": 20, "confidence_score": 92, "total_score": 1840}, {"name": "ointment", "mentions": 7, "confidence_score": 32, "total_score": 224}, {"name": "extract", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "poultice", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "suppository", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "infused oil", "mentions": 4, "confidence_score": 11, "total_score": 44}, {"name": "capsule", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "essential oil", "mentions": 2, "confidence_score": 4, "total_score": 8}, {"name": "suppositories", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "supplement", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "resin", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Petastoma poeppigii are derived from its roots and leaves, primarily used for medicinal purposes. Tea is prepared by steeping dried Petastoma poeppigii roots or leaves in hot water to treat various health issues, including fever and respiratory problems. Infusion is another method, where the roots or leaves are steeped in cold water to make a soothing drink for digestive issues. A decoction is made by boiling the roots or leaves in water to create a stronger extract for treating infections and wounds. A tincture is prepared by soaking the roots or leaves in a solvent, such as ethanol or glycerin, to create a concentrated liquid for topical applications, including making a salve that can be used to treat skin conditions.", "side_effects": [{"name": "suffering vomiting", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "experience nausea", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "experiencing nausea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "experiencing dizziness", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "develop diarrhea", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "experiencing abdominal pain", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "experience vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "suffering diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experience diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "suffer abdominal pain", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiences nephrotoxicity", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "induce nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop nausea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develop skin irritation", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experiencing headache", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "induce allergic reaction", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "decrease blood pressure", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "suffering fatigue", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "cause hypotension", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "get headache", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "increase blood pressure", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experience allergic reaction", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "experiencing fatigue", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "trigger respiratory issues", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "experience allergic reactions", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "produces hemolysis", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "develop skin rash", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "induces miscarriage", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "exacerbate allergic reactions", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffered vomiting", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "lead to overdose", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "cause neurological symptoms", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "exacerbate inflammation", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "aggravate gastrointestinal issues", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "experience dizziness", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "develops hepatotoxicity", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "get dehydration", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce respiratory issues", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause cardiovascular problems", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "produce toxic metabolites", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "leads to acute kidney injury", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "triggers allergic reaction", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "cause liver damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "show increased blood pressure", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "developed diarrhea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "suffered fatigue", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce liver damage", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "induce skin irritation", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "exhibit vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause neurological impairment", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "get fatigue", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer vomiting", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops respiratory distress", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "get allergic reaction", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "exacerbate allergies", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause fungal infections", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "develops acute liver failure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "triggers respiratory depression", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "induces nephrotoxicity", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cause renal failure", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "suffer from headache", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing cardiac issues", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "showing nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "experienced nausea", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "exhibited abdominal pain", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "exacerbate allergy", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "elevate liver enzymes", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "feel dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "induces vomiting", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "suffer dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "develop kidney failure", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "causes gastrointestinal bleeding", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "causes severe anemia", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "trigger headaches", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "get dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "get abdominal pain", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "experienced dizziness", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "showing abdominal pain", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "affect kidney function", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "show abdominal pain", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffer hypotension", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "displays cardiotoxicity", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "show signs of allergic reaction", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "induces severe hypertension", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "causes gastrointestinal distress", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "trigger respiratory depression", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "increase heart rate", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffer from diarrhea", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "showing hypotension", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "showed hypotension", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "elicit hypersensitivity", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "elicit neurological symptoms", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "cause stomach upset", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suffer headache", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "provoke cardiac arrhythmia", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffer allergic reaction", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "causes gastritis", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop high blood pressure", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "aggravate skin conditions", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "increases cardiac arrhythmia risk", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "disrupts thyroid function", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "trigger seizure", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "provoke respiratory issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "develop respiratory distress", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "developing headache", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "itching", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "developed headache", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "showing headache", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "provoke allergic reactions", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "lead to cardiovascular issues", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suffering allergic reaction", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "have dizziness", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "trigger respiratory failure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience respiratory depression", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffer respiratory failure", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "exhibits neurotoxicity", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experience fatigue", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "trigger hypersensitivity", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "triggers seizures", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "affects cardiovascular function", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "provoke cardiovascular instability", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "affect liver function", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "showed allergic reaction", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "suffering insomnia", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "aggravate kidney function", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "experiencing liver damage", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "induce renal insufficiency", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop cardiac arrhythmia", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop tachycardia", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experiences allergic reaction", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "develop infection", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "get hallucinations", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "provoke gastrointestinal distress", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "produces severe allergic reactions", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "leads to neurotoxicity", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cause nausea", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "show cardiac issues", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffering anaphylaxis", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "exhibited seizure", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "experiencing anxiety", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "provoke eye problems", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suffering respiratory failure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "show cardiovascular issues", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "get seizure", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "experience cardiac arrest", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "causes convulsions", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "show seizure activity", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "lead to neurological impairment", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "disrupts endocrine system function", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "increases risk of hemorrhage", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "induce diarrhea", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "cause skin irritation", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "showing hypertension", "mentions": 1, "confidence_score": 2, "total_score": 2}, {"name": "develop respiratory depression", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "induce seizures", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "experience coma", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "result in kidney damage", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "triggers acute respiratory failure", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "provoke psychosis", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "lead to seizures", "mentions": 1, "confidence_score": 1, "total_score": 1}, {"name": "worsen liver condition", "mentions": 1, "confidence_score": 1, "total_score": 1}], "side_effects_description": "The possible side effects of using Petastoma poeppigii improperly include suffering from vomiting, experience nausea, experiencing dizziness, and developing diarrhea. These adverse reactions are due to the plant's toxic compounds, such as glycosides and alkaloids, which can cause gastrointestinal distress and affect the central nervous system. Ingesting large quantities or using the plant inappropriately can lead to an imbalance of these compounds in the body, resulting in the aforementioned side effects. The symptoms can range from mild to severe and may persist for several hours or days after exposure. It is essential to handle and use Petastoma poeppigii with caution and under the guidance of a medical professional or experienced practitioner to minimize the risk of adverse effects.", "category-action": "antimicrobial", "category_action": "anti-inflammatory", "family_slug": "bignoniaceae", "family_name": "Bignoniaceae", "what_description": "Petastoma poeppigii is a species of flowering plant in the family Bignoniaceae. It is a woody climber with a woody stem that can grow up to 2 meters in length. The plant has compound leaves with 2-4 pairs of leaflets that are lance-shaped, elliptical or ovate in shape, and have a length of 6-25 centimeters. The inflorescence is a terminal spike of yellow or greenish flowers with a corolla tube that is 4-6 centimeters long and has five lobes. The plant produces a capsule fruit that is 10-20 centimeters long and contains numerous seeds.", "uses": "Petastoma poeppigii is a plant species that has been used in traditional medicine in various parts of the world. The plant's extracts have been reported to have antimicrobial and anti-inflammatory properties, which are useful in treating various health conditions. In some cultures, the plant is used to treat fever, wounds, and skin infections due to its antiseptic and antibacterial properties. Petastoma poeppigii is also used to treat respiratory problems such as coughs and colds, and its extracts have been shown to have expectorant properties. Further research is needed to fully understand the medicinal uses and potential benefits of Petastoma poeppigii.", "taxonomy": "Petastoma poeppigii is a species of flowering plant in the family Gesneriaceae. It belongs to the genus Petastoma, which is a genus of flowering plants native to Central and South America. Petastoma poeppigii is further classified as a member of the subfamily Gesnerioideae, which comprises a diverse group of flowering plants. The plant is known to be endemic to the Andes mountain range, where it grows in the wild. Petastoma poeppigii is typically found in shaded, humid environments with rich soil.", "benefits": "Petastoma poeppigii has been traditionally used in medicine, and its leaves are said to have potential health benefits. They are believed to have antimicrobial properties, which may help in treating various infections. The plant is also thought to possess antioxidant properties, which could aid in reducing oxidative stress and inflammation in the body. Furthermore, Petastoma poeppigii may have anti-inflammatory properties, helping to alleviate symptoms of conditions such as arthritis. However, more research is needed to confirm the effectiveness and safety of using Petastoma poeppigii as a medicinal plant.", "parts": "Unfortunately, I do not have information about the medicinal parts of Petastoma poeppigii.", "intro": "Petastoma poeppigii, also known as Petastoma, is a plant species native to South America, belonging to the Apocynaceae family. The plant is valued for its potential health benefits, including anti-inflammatory and antimicrobial properties, which can aid in the treatment of various health conditions, such as wounds and digestive issues. Petastoma poeppigii contains bioactive constituents like alkaloids, glycosides, and saponins, which contribute to its medicinal properties. The plant is commonly used in herbal preparations, including teas, tinctures, and infusions, which are often used to promote wound healing, reduce inflammation, and support digestive health."}
+{
+    "title": "Petastoma poeppigii",
+    "herb_slug": "petastoma-poeppigii",
+    "herb_name_scientific": "Petastoma poeppigii",
+    "url": "herbs/petastoma-poeppigii",
+    "lastmod": "2024-12-29",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 17,
+            "confidence_score": 127,
+            "total_score": 2159
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        }
+    ],
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 11,
+            "confidence_score": 89,
+            "total_score": 979
+        },
+        {
+            "name": "fever",
+            "mentions": 8,
+            "confidence_score": 54,
+            "total_score": 432
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "hypertension",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "name": "asthma",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "diabetes",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "skin infections",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "eczema",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "insect bites",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "wounds",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "arthritis",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "burns",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "allergies",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Petastoma poeppigii are fever, bronchitis is caused by its antiviral properties, reducing inflammation associated with rheumatoid arthritis, and respiratory infections such as pneumonia are alleviated due to its expectorant properties, as well as gastrointestinal issues like diarrhea are treated with its anti-inflammatory compounds. Petastoma poeppigii's antiviral properties have been shown to be effective against viruses responsible for fever and bronchitis. Studies have demonstrated that its anti-inflammatory compounds can reduce inflammation associated with rheumatoid arthritis. Furthermore, its expectorant properties have been proven to alleviate respiratory infections like pneumonia by facilitating the expulsion of mucus from the lungs. Additionally, its anti-inflammatory compounds have been used to treat gastrointestinal issues like diarrhea.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 152,
+            "total_score": 3040
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 151,
+            "total_score": 3020
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 136,
+            "total_score": 2720
+        },
+        {
+            "name": "analgesic",
+            "mentions": 16,
+            "confidence_score": 76,
+            "total_score": 1216
+        },
+        {
+            "name": "antifungal",
+            "mentions": 9,
+            "confidence_score": 59,
+            "total_score": 531
+        },
+        {
+            "name": "antiviral",
+            "mentions": 16,
+            "confidence_score": 57,
+            "total_score": 912
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 10,
+            "confidence_score": 48,
+            "total_score": 480
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 9,
+            "confidence_score": 42,
+            "total_score": 378
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 7,
+            "confidence_score": 38,
+            "total_score": 266
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "antihemorrhagic",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "anticancer",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "cardioactive",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "expectorant",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "diuretic",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Petastoma poeppigii are its antioxidant and anti-inflammatory effects, which have been attributed to the presence of flavonoids and saponins in the plant. The antiseptic properties of Petastoma poeppigii make it effective in wound healing and tissue repair, due to the antimicrobial activity of its volatile oils. Additionally, the plant's ability to inhibit platelet aggregation and blood coagulation contributes to its antithrombotic property, which can help prevent cardiovascular diseases. The antiparasitic activity of Petastoma poeppigii has been linked to its ability to disrupt the life cycle of certain parasites, making it a potential treatment for parasitic infections. The analgesic and anti-nociceptive properties of the plant, resulting from its bioactive compounds such as alkaloids and terpenoids, provide relief from pain and discomfort.",
+    "constituents": [
+        {
+            "name": "flavonoids",
+            "mentions": 11,
+            "confidence_score": 81,
+            "total_score": 891
+        },
+        {
+            "name": "saponins",
+            "mentions": 11,
+            "confidence_score": 66,
+            "total_score": 726
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 11,
+            "confidence_score": 63,
+            "total_score": 693
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 11,
+            "confidence_score": 61,
+            "total_score": 671
+        },
+        {
+            "name": "petasol",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "glycosides",
+            "mentions": 9,
+            "confidence_score": 49,
+            "total_score": 441
+        },
+        {
+            "name": "quercetin",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "tannins",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "petasin",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "coumarins",
+            "mentions": 10,
+            "confidence_score": 31,
+            "total_score": 310
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 7,
+            "confidence_score": 26,
+            "total_score": 182
+        },
+        {
+            "name": "isopetasin",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "petasillin",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "petasins",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "iridoid glycosides",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "petasitin",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Petastoma poeppigii are iridoid glycosides, particularly petasinoside A, which has been shown to have anti-inflammatory properties, and aucubin, an iridoid glycoside with antimicrobial activity. Additionally, the plant contains phenolic acids, including caffeic acid and ferulic acid, which have antioxidant and anti-inflammatory effects. The flavonoids present in Petastoma poeppigii, such as kaempferol and quercetin, have been found to possess anti-inflammatory and antioxidant properties. The sesquiterpenes and diterpenes in Petastoma poeppigii have been reported to exhibit antimicrobial and anti-inflammatory activities. These bioactive compounds contribute to the plant's potential therapeutic applications in treating various health conditions.",
+    "herb_names_common": [
+        {
+            "name": "poeppig's petastoma",
+            "mentions": 16,
+            "confidence_score": 97,
+            "total_score": 1552
+        },
+        {
+            "name": "poeppigia",
+            "mentions": 18,
+            "confidence_score": 68,
+            "total_score": 1224
+        },
+        {
+            "name": "petastoma",
+            "mentions": 16,
+            "confidence_score": 36,
+            "total_score": 576
+        },
+        {
+            "name": "petastoma poeppigii",
+            "mentions": 12,
+            "confidence_score": 36,
+            "total_score": 432
+        },
+        {
+            "name": "poeppig's indian hemp",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "butterbur",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "petasites",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "petasites poeppigii",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "false pennyroyal",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "estramoni",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "poeppig's petasites",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "false unicorn root",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "poeppig's castor plant",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "poeppig's estralmonia",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "petasites p.",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "poeppig's petastome",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "plectranthus poeppigii",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "poeppig's butterbur",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "poeppig's indian tobacco",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "poeppig's indian paintbrush",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "preparations": [
+        {
+            "name": "tea",
+            "mentions": 18,
+            "confidence_score": 165,
+            "total_score": 2970
+        },
+        {
+            "name": "infusion",
+            "mentions": 20,
+            "confidence_score": 162,
+            "total_score": 3240
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 137,
+            "total_score": 2740
+        },
+        {
+            "name": "decoction",
+            "mentions": 18,
+            "confidence_score": 109,
+            "total_score": 1962
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 92,
+            "total_score": 1840
+        },
+        {
+            "name": "ointment",
+            "mentions": 7,
+            "confidence_score": 32,
+            "total_score": 224
+        },
+        {
+            "name": "extract",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "poultice",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "suppository",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "infused oil",
+            "mentions": 4,
+            "confidence_score": 11,
+            "total_score": 44
+        },
+        {
+            "name": "capsule",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "essential oil",
+            "mentions": 2,
+            "confidence_score": 4,
+            "total_score": 8
+        },
+        {
+            "name": "suppositories",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "supplement",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "resin",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Petastoma poeppigii are derived from its roots and leaves, primarily used for medicinal purposes. Tea is prepared by steeping dried Petastoma poeppigii roots or leaves in hot water to treat various health issues, including fever and respiratory problems. Infusion is another method, where the roots or leaves are steeped in cold water to make a soothing drink for digestive issues. A decoction is made by boiling the roots or leaves in water to create a stronger extract for treating infections and wounds. A tincture is prepared by soaking the roots or leaves in a solvent, such as ethanol or glycerin, to create a concentrated liquid for topical applications, including making a salve that can be used to treat skin conditions.",
+    "side_effects": [
+        {
+            "name": "suffering vomiting",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "suffering diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experience diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "suffer abdominal pain",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiences nephrotoxicity",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop nausea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experiencing headache",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "induce allergic reaction",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "decrease blood pressure",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "suffering fatigue",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "cause hypotension",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "get headache",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "increase blood pressure",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experience allergic reaction",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "experiencing fatigue",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "trigger respiratory issues",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "experience allergic reactions",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "produces hemolysis",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "develop skin rash",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "induces miscarriage",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "exacerbate allergic reactions",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffered vomiting",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "lead to overdose",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "cause neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "exacerbate inflammation",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "aggravate gastrointestinal issues",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "develops hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "get dehydration",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce respiratory issues",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause cardiovascular problems",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "produce toxic metabolites",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "leads to acute kidney injury",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "triggers allergic reaction",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "show increased blood pressure",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "developed diarrhea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "suffered fatigue",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce liver damage",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "induce skin irritation",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "exhibit vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause neurological impairment",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "get fatigue",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer vomiting",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops respiratory distress",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "get allergic reaction",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause fungal infections",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "develops acute liver failure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "triggers respiratory depression",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "induces nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cause renal failure",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "suffer from headache",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing cardiac issues",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "showing nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "experienced nausea",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "exhibited abdominal pain",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "exacerbate allergy",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "elevate liver enzymes",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "induces vomiting",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "suffer dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "develop kidney failure",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "causes gastrointestinal bleeding",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "causes severe anemia",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "get dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "get abdominal pain",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "experienced dizziness",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "showing abdominal pain",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "affect kidney function",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "show abdominal pain",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffer hypotension",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "displays cardiotoxicity",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "show signs of allergic reaction",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "induces severe hypertension",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "causes gastrointestinal distress",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "trigger respiratory depression",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffer from diarrhea",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "showing hypotension",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "showed hypotension",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "elicit hypersensitivity",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "elicit neurological symptoms",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "cause stomach upset",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suffer headache",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "provoke cardiac arrhythmia",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffer allergic reaction",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "causes gastritis",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop high blood pressure",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "aggravate skin conditions",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "increases cardiac arrhythmia risk",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "disrupts thyroid function",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "trigger seizure",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "provoke respiratory issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "develop respiratory distress",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "developing headache",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "itching",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "developed headache",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "showing headache",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "provoke allergic reactions",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "lead to cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suffering allergic reaction",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "have dizziness",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "trigger respiratory failure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience respiratory depression",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffer respiratory failure",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "exhibits neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experience fatigue",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "trigger hypersensitivity",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "triggers seizures",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "affects cardiovascular function",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "provoke cardiovascular instability",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "affect liver function",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "showed allergic reaction",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "suffering insomnia",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "aggravate kidney function",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "experiencing liver damage",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "induce renal insufficiency",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop cardiac arrhythmia",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop tachycardia",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experiences allergic reaction",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "develop infection",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "get hallucinations",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "provoke gastrointestinal distress",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "produces severe allergic reactions",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "leads to neurotoxicity",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "show cardiac issues",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffering anaphylaxis",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "exhibited seizure",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "experiencing anxiety",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "provoke eye problems",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suffering respiratory failure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "show cardiovascular issues",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "get seizure",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "experience cardiac arrest",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "causes convulsions",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "show seizure activity",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "lead to neurological impairment",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "disrupts endocrine system function",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "increases risk of hemorrhage",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "showing hypertension",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        },
+        {
+            "name": "develop respiratory depression",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "experience coma",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "result in kidney damage",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "triggers acute respiratory failure",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "provoke psychosis",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "lead to seizures",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        },
+        {
+            "name": "worsen liver condition",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Petastoma poeppigii improperly include suffering from vomiting, experience nausea, experiencing dizziness, and developing diarrhea. These adverse reactions are due to the plant's toxic compounds, such as glycosides and alkaloids, which can cause gastrointestinal distress and affect the central nervous system. Ingesting large quantities or using the plant inappropriately can lead to an imbalance of these compounds in the body, resulting in the aforementioned side effects. The symptoms can range from mild to severe and may persist for several hours or days after exposure. It is essential to handle and use Petastoma poeppigii with caution and under the guidance of a medical professional or experienced practitioner to minimize the risk of adverse effects.",
+    "category-action": "antimicrobial",
+    "category_action": "anti-inflammatory",
+    "family_slug": "bignoniaceae",
+    "family_name": "Bignoniaceae",
+    "what_description": "Petastoma poeppigii is a species of flowering plant in the family Bignoniaceae. It is a woody climber with a woody stem that can grow up to 2 meters in length. The plant has compound leaves with 2-4 pairs of leaflets that are lance-shaped, elliptical or ovate in shape, and have a length of 6-25 centimeters. The inflorescence is a terminal spike of yellow or greenish flowers with a corolla tube that is 4-6 centimeters long and has five lobes. The plant produces a capsule fruit that is 10-20 centimeters long and contains numerous seeds.",
+    "uses": "Petastoma poeppigii is a plant species that has been used in traditional medicine in various parts of the world. The plant's extracts have been reported to have antimicrobial and anti-inflammatory properties, which are useful in treating various health conditions. In some cultures, the plant is used to treat fever, wounds, and skin infections due to its antiseptic and antibacterial properties. Petastoma poeppigii is also used to treat respiratory problems such as coughs and colds, and its extracts have been shown to have expectorant properties. Further research is needed to fully understand the medicinal uses and potential benefits of Petastoma poeppigii.",
+    "taxonomy": "Petastoma poeppigii is a species of flowering plant in the family Gesneriaceae. It belongs to the genus Petastoma, which is a genus of flowering plants native to Central and South America. Petastoma poeppigii is further classified as a member of the subfamily Gesnerioideae, which comprises a diverse group of flowering plants. The plant is known to be endemic to the Andes mountain range, where it grows in the wild. Petastoma poeppigii is typically found in shaded, humid environments with rich soil.",
+    "benefits": "Petastoma poeppigii has been traditionally used in medicine, and its leaves are said to have potential health benefits. They are believed to have antimicrobial properties, which may help in treating various infections. The plant is also thought to possess antioxidant properties, which could aid in reducing oxidative stress and inflammation in the body. Furthermore, Petastoma poeppigii may have anti-inflammatory properties, helping to alleviate symptoms of conditions such as arthritis. However, more research is needed to confirm the effectiveness and safety of using Petastoma poeppigii as a medicinal plant.",
+    "parts": "Unfortunately, I do not have information about the medicinal parts of Petastoma poeppigii.",
+    "intro": "Petastoma poeppigii, also known as Petastoma, is a plant species native to South America, belonging to the Apocynaceae family. The plant is valued for its potential health benefits, including anti-inflammatory and antimicrobial properties, which can aid in the treatment of various health conditions, such as wounds and digestive issues. Petastoma poeppigii contains bioactive constituents like alkaloids, glycosides, and saponins, which contribute to its medicinal properties. The plant is commonly used in herbal preparations, including teas, tinctures, and infusions, which are often used to promote wound healing, reduce inflammation, and support digestive health."
+}

@@ -1,1 +1,154 @@
-{"title": "Solenandra myrtifolia", "herb_slug": "solenandra-myrtifolia", "herb_name_scientific": "Solenandra myrtifolia", "family_slug": "rubiaceae", "family_name": "Rubiaceae", "url": "herbs/solenandra-myrtifolia", "lastmod": "2025-2-1", "herb_names_common": [{"name": "solenandra", "mentions": 37, "confidence_score": 266, "total_score": 9842}, {"name": "solenandra myrtifolia", "mentions": 48, "confidence_score": 245, "total_score": 11760}, {"name": "myrtle", "mentions": 9, "confidence_score": 59, "total_score": 531}, {"name": "false myrtle", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "myrtle-leaf solenandra", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "myrtleaf solanandra", "mentions": 8, "confidence_score": 23, "total_score": 184}, {"name": "solenandra myrtle", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "mountain myrtle", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "solenandras", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "solenandra myrtifolium", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "blue myrtle", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "myrtle leaf", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "solenandra myrtifoliae", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "white solenandra", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "myrtle bush", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "solenandra myrtle tree", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "myrtle-leaved solenandra", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "solenandra spp.", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "s. myrtifolia", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "cuban myrtle", "mentions": 1, "confidence_score": 8, "total_score": 8}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 14, "confidence_score": 127, "total_score": 1778}, {"medicine_or_poison": "medicine", "mentions": 6, "confidence_score": 35, "total_score": 210}], "uses": "Solenandra myrtifolia, a plant native to certain regions, has been found to possess potential medicinal properties, including anti-inflammatory and antimicrobial activities. The plant's extracts have been traditionally used to treat various health issues, such as fever, digestive problems, and skin infections. Some studies suggest that Solenandra myrtifolia may also exhibit antioxidant and antifungal properties, contributing to its potential health benefits. However, more research is needed to fully understand the plant's medicinal uses and their effects on human health. Further investigation into the plant's properties and applications is necessary to unlock its full potential.", "taxonomy": "Solenandra myrtifolia is classified in the plant kingdom as a member of the family Bignoniaceae. This family includes various species of flowering plants, commonly known as the bignoniacae or trumpet vine family. The genus Solenandra is further classified within the Bignoniaceae family. Solenandra myrtifolia is a species of flowering plant that is native to Mexico. It is a climbing shrub with distinctive flowers and growth habits.", "benefits": "Solenandra myrtifolia, also known as the \"myrtle-leaf solenandra,\" has been researched for its potential health benefits. The plant is said to have anti-inflammatory properties, which may help alleviate symptoms of various health conditions. It is also believed to possess antimicrobial properties, making it a potential remedy for infections and wounds. Some studies suggest that Solenandra myrtifolia may have antioxidant effects, which could protect against cell damage and oxidative stress. Further research is needed to confirm the full scope of the plant's health benefits.", "properties": "Solenandra myrtifolia has been studied for its potential therapeutic properties, including its antioxidant and anti-inflammatory activities. It may help protect against cell damage and reduce inflammation in the body. Additionally, its flavonoids and phenolic acids are believed to have antimicrobial properties, which could aid in wound healing and fighting off infections. However, more research is needed to fully understand the plant's therapeutic potential. Further studies are required to confirm its efficacy and potential uses in medicine.", "constituents": "Solenandra myrtifolia contains triterpenoid saponins as its active constituents. These saponins are responsible for the plant's medicinal properties. However, further research is necessary to fully understand the range of active constituents present in Solenandra myrtifolia. The exact composition of the plant's active constituents can vary depending on factors such as the plant's environment and processing methods. More studies are required to confirm the specific active constituents of this plant.", "parts": "Solenandra myrtifolia is a plant species, but information on its medicinal parts is limited. However, based on some available data, the plant's leaves and roots might be used for medicinal purposes. These parts are often utilized in traditional medicine, though more research is needed to confirm their efficacy and safety. The plant's leaves and roots may contain various bioactive compounds that contribute to their medicinal properties. Further studies are required to fully understand the potential medicinal uses of Solenandra myrtifolia.", "preparations": "Solenandra myrtifolia. Unfortunately, limited information is available on herbal preparations of Solenandra myrtifolia. However, the plant is known for its potential medicinal properties. Some sources suggest that it may be used in traditional medicine to treat various ailments, although further research is needed to confirm its efficacy and safety. More studies are required to understand the full potential of Solenandra myrtifolia in herbal preparations.", "side_effects": "Info not available yet.", "intro": "Solenandra myrtifolia, also known as the myrtle-leaved solenandra, is a plant species belonging to the family Apocynaceae. It has been traditionally used in various cultures for its medicinal properties, offering potential health benefits such as anti-inflammatory and antimicrobial effects, which may aid in the treatment of various ailments, including wounds and respiratory issues. The bioactive constituents of Solenandra myrtifolia include alkaloids, glycosides, and flavonoids, which are responsible for its therapeutic properties. In herbal medicine, Solenandra myrtifolia is commonly used to prepare infusions, decoctions, and tinctures, which are used to treat a range of health conditions."}
+{
+    "title": "Solenandra myrtifolia",
+    "herb_slug": "solenandra-myrtifolia",
+    "herb_name_scientific": "Solenandra myrtifolia",
+    "family_slug": "rubiaceae",
+    "family_name": "Rubiaceae",
+    "url": "herbs/solenandra-myrtifolia",
+    "lastmod": "2025-2-1",
+    "herb_names_common": [
+        {
+            "name": "solenandra",
+            "mentions": 37,
+            "confidence_score": 266,
+            "total_score": 9842
+        },
+        {
+            "name": "solenandra myrtifolia",
+            "mentions": 48,
+            "confidence_score": 245,
+            "total_score": 11760
+        },
+        {
+            "name": "myrtle",
+            "mentions": 9,
+            "confidence_score": 59,
+            "total_score": 531
+        },
+        {
+            "name": "false myrtle",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "myrtle-leaf solenandra",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "myrtleaf solanandra",
+            "mentions": 8,
+            "confidence_score": 23,
+            "total_score": 184
+        },
+        {
+            "name": "solenandra myrtle",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "mountain myrtle",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "solenandras",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "solenandra myrtifolium",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "blue myrtle",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "myrtle leaf",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "solenandra myrtifoliae",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "white solenandra",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "myrtle bush",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "solenandra myrtle tree",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "myrtle-leaved solenandra",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "solenandra spp.",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "s. myrtifolia",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "cuban myrtle",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 14,
+            "confidence_score": 127,
+            "total_score": 1778
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        }
+    ],
+    "uses": "Solenandra myrtifolia, a plant native to certain regions, has been found to possess potential medicinal properties, including anti-inflammatory and antimicrobial activities. The plant's extracts have been traditionally used to treat various health issues, such as fever, digestive problems, and skin infections. Some studies suggest that Solenandra myrtifolia may also exhibit antioxidant and antifungal properties, contributing to its potential health benefits. However, more research is needed to fully understand the plant's medicinal uses and their effects on human health. Further investigation into the plant's properties and applications is necessary to unlock its full potential.",
+    "taxonomy": "Solenandra myrtifolia is classified in the plant kingdom as a member of the family Bignoniaceae. This family includes various species of flowering plants, commonly known as the bignoniacae or trumpet vine family. The genus Solenandra is further classified within the Bignoniaceae family. Solenandra myrtifolia is a species of flowering plant that is native to Mexico. It is a climbing shrub with distinctive flowers and growth habits.",
+    "benefits": "Solenandra myrtifolia, also known as the \"myrtle-leaf solenandra,\" has been researched for its potential health benefits. The plant is said to have anti-inflammatory properties, which may help alleviate symptoms of various health conditions. It is also believed to possess antimicrobial properties, making it a potential remedy for infections and wounds. Some studies suggest that Solenandra myrtifolia may have antioxidant effects, which could protect against cell damage and oxidative stress. Further research is needed to confirm the full scope of the plant's health benefits.",
+    "properties": "Solenandra myrtifolia has been studied for its potential therapeutic properties, including its antioxidant and anti-inflammatory activities. It may help protect against cell damage and reduce inflammation in the body. Additionally, its flavonoids and phenolic acids are believed to have antimicrobial properties, which could aid in wound healing and fighting off infections. However, more research is needed to fully understand the plant's therapeutic potential. Further studies are required to confirm its efficacy and potential uses in medicine.",
+    "constituents": "Solenandra myrtifolia contains triterpenoid saponins as its active constituents. These saponins are responsible for the plant's medicinal properties. However, further research is necessary to fully understand the range of active constituents present in Solenandra myrtifolia. The exact composition of the plant's active constituents can vary depending on factors such as the plant's environment and processing methods. More studies are required to confirm the specific active constituents of this plant.",
+    "parts": "Solenandra myrtifolia is a plant species, but information on its medicinal parts is limited. However, based on some available data, the plant's leaves and roots might be used for medicinal purposes. These parts are often utilized in traditional medicine, though more research is needed to confirm their efficacy and safety. The plant's leaves and roots may contain various bioactive compounds that contribute to their medicinal properties. Further studies are required to fully understand the potential medicinal uses of Solenandra myrtifolia.",
+    "preparations": "Solenandra myrtifolia. Unfortunately, limited information is available on herbal preparations of Solenandra myrtifolia. However, the plant is known for its potential medicinal properties. Some sources suggest that it may be used in traditional medicine to treat various ailments, although further research is needed to confirm its efficacy and safety. More studies are required to understand the full potential of Solenandra myrtifolia in herbal preparations.",
+    "side_effects": "Info not available yet.",
+    "intro": "Solenandra myrtifolia, also known as the myrtle-leaved solenandra, is a plant species belonging to the family Apocynaceae. It has been traditionally used in various cultures for its medicinal properties, offering potential health benefits such as anti-inflammatory and antimicrobial effects, which may aid in the treatment of various ailments, including wounds and respiratory issues. The bioactive constituents of Solenandra myrtifolia include alkaloids, glycosides, and flavonoids, which are responsible for its therapeutic properties. In herbal medicine, Solenandra myrtifolia is commonly used to prepare infusions, decoctions, and tinctures, which are used to treat a range of health conditions."
+}

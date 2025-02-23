@@ -1,1 +1,725 @@
-{"title": "Restio secundus", "herb_slug": "restio-secundus", "herb_name_scientific": "Restio secundus", "family_slug": "restionaceae", "family_name": "Restionaceae", "url": "herbs/restio-secundus", "lastmod": "2025-2-3", "herb_names_common": [{"name": "restio", "mentions": 19, "confidence_score": 151, "total_score": 2869}, {"name": "restio secundus", "mentions": 12, "confidence_score": 45, "total_score": 540}, {"name": "cape bearded wire rush", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "false papyrus", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "river restio", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "grasveld reed", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "cape restio", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "umzimbe", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "secundus restio", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "false papyrus sedge", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "grasveld restio", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cape reed", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "restios", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "bulrush", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "false papyrus reed", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "false papyrus grass", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "sword restio grass", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "cape rush", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cape thatching grass", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "water restio", "mentions": 2, "confidence_score": 10, "total_score": 20}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 19, "confidence_score": 161, "total_score": 3059}, {"medicine_or_poison": "poison", "mentions": 1, "confidence_score": 8, "total_score": 8}], "what_description": "Restio secundus is a species of flowering plant in the family Restionaceae. It is a rhizomatous, perennial herb, typically growing to a height of 50-150 cm, with a tufted habit and slender culms. The leaves are linear, often keeled, and 2-5 mm wide, while the inflorescence is a spike-like raceme of brownish, 1-2 mm long spikelets, each containing 2-4 florets. Restio secundus is endemic to South Africa, where it occurs in sandy soils, often in wetlands and grasslands. The plant flowers from June to August, and the fruit is a dehiscent capsule that splits to release the seeds.", "category_action": "anti-inflammatory", "ailments": [{"name": "diabetes", "mentions": 14, "confidence_score": 104, "total_score": 1456}, {"name": "inflammation", "mentions": 13, "confidence_score": 101, "total_score": 1313}, {"name": "asthma", "mentions": 11, "confidence_score": 80, "total_score": 880}, {"name": "arthritis", "mentions": 11, "confidence_score": 79, "total_score": 869}, {"name": "hypertension", "mentions": 9, "confidence_score": 72, "total_score": 648}, {"name": "digestive issues", "mentions": 11, "confidence_score": 71, "total_score": 781}, {"name": "skin irritation", "mentions": 8, "confidence_score": 51, "total_score": 408}, {"name": "allergies", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "gout", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "eczema", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "high blood pressure", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "skin conditions", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "rheumatism", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "inflammatory bowel disease", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "respiratory problems", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "diarrhea", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "bacterial infections", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "cardiovascular disease", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "respiratory infections", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "cancer prevention", "mentions": 4, "confidence_score": 18, "total_score": 72}], "ailments_description": "The most common ailments you can heal with Restio secundus are diabetes, with its anti-diabetic properties reducing blood sugar levels, and inflammation, due to the plant's anti-inflammatory compounds that inhibit the production of inflammatory cytokines. Restio secundus also exhibits antispasmodic and bronchodilatory effects, making it an effective treatment for asthma and respiratory infections. Arthritis symptoms can be alleviated by the plant's anti-inflammatory and analgesic properties, while hypertension can be managed through its vasodilatory effects, reducing blood pressure and heart rate. Furthermore, Restio secundus has been shown to alleviate digestive issues such as diarrhea and inflammatory bowel disease by regulating gut motility and reducing inflammation, as well as skin irritation and eczema by its anti-allergic and anti-inflammatory properties. Additionally, the plant's antioxidant and antimicrobial properties prevent bacterial infections, cardiovascular disease, and cancer, while its anti-inflammatory and immunomodulatory effects also treat rheumatism, gout, high blood pressure, and skin conditions.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 152, "total_score": 3040}, {"name": "antioxidant", "mentions": 20, "confidence_score": 136, "total_score": 2720}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 127, "total_score": 2540}, {"name": "antifungal", "mentions": 16, "confidence_score": 94, "total_score": 1504}, {"name": "antibacterial", "mentions": 11, "confidence_score": 85, "total_score": 935}, {"name": "analgesic", "mentions": 16, "confidence_score": 62, "total_score": 992}, {"name": "wound healing", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "cardioprotective", "mentions": 10, "confidence_score": 32, "total_score": 320}, {"name": "antiviral", "mentions": 11, "confidence_score": 29, "total_score": 319}, {"name": "antidiabetic", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "hepatoprotective", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "antiparasitic", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "diuretic", "mentions": 5, "confidence_score": 18, "total_score": 90}, {"name": "hemostatic", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "hypoglycemic", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "anticancer", "mentions": 6, "confidence_score": 15, "total_score": 90}, {"name": "antipyretic", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "immunomodulatory", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "sedative", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "hypotensive", "mentions": 3, "confidence_score": 10, "total_score": 30}], "properties_description": "The main therapeutic properties of Restio secundus are its ability to inhibit the growth of various microorganisms, attributed to the presence of bioactive compounds such as flavonoids and phenolic acids. These compounds, specifically, contribute to the plant's antioxidant activity, helping to neutralize free radicals and protect cells from oxidative damage. The anti-inflammatory properties of Restio secundus are also noteworthy, as they help to reduce swelling and alleviate pain in affected areas, which can be attributed to the presence of saponins and volatile oils. Furthermore, the plant's antifungal properties are due to the presence of terpenoids and other secondary metabolites that inhibit the growth of fungi and yeast. Additionally, Restio secundus exhibits antibacterial properties, which can be attributed to the presence of alkaloids and other bioactive compounds that inhibit the growth of bacteria.", "constituents": [{"name": "flavonoids", "mentions": 15, "confidence_score": 104, "total_score": 1560}, {"name": "saponins", "mentions": 14, "confidence_score": 93, "total_score": 1302}, {"name": "tannins", "mentions": 12, "confidence_score": 73, "total_score": 876}, {"name": "phenolic acids", "mentions": 12, "confidence_score": 64, "total_score": 768}, {"name": "glycosides", "mentions": 13, "confidence_score": 49, "total_score": 637}, {"name": "terpenoids", "mentions": 12, "confidence_score": 43, "total_score": 516}, {"name": "quercetin", "mentions": 5, "confidence_score": 43, "total_score": 215}, {"name": "fatty acids", "mentions": 10, "confidence_score": 42, "total_score": 420}, {"name": "alkaloids", "mentions": 15, "confidence_score": 40, "total_score": 600}, {"name": "kaempferol", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "sterols", "mentions": 10, "confidence_score": 34, "total_score": 340}, {"name": "coumarins", "mentions": 6, "confidence_score": 25, "total_score": 150}, {"name": "ferulic acid", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "naringenin", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "caffeic acid", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "friedelane triterpenoids", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "apigenin", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "phenolic compounds", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "gallic acid", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "isorhapontigenin", "mentions": 2, "confidence_score": 11, "total_score": 22}], "constituents_description": "The most important healing constituents of Restio secundus are flavonoids, saponins, tannins, phenolic acids, and glycosides. These compounds have been identified as the primary bioactive molecules responsible for the plant's medicinal properties. Flavonoids, particularly quercetin and kaempferol, exhibit anti-inflammatory and antioxidant activities, contributing to the plant's potential in treating conditions such as arthritis and improving cardiovascular health. Saponins, including aescin and glycosides, have been found to possess anti-inflammatory and wound-healing properties, which could be beneficial in treating skin conditions and promoting tissue repair. The presence of phenolic acids, including caffeic and ferulic acids, and tannins, such as epicatechin and gallocatechin, further enhances the plant's antioxidant and anti-inflammatory potential, making Restio secundus a valuable resource in traditional medicine.", "preparations": [{"name": "infusion", "mentions": 20, "confidence_score": 185, "total_score": 3700}, {"name": "tincture", "mentions": 20, "confidence_score": 140, "total_score": 2800}, {"name": "decoction", "mentions": 20, "confidence_score": 130, "total_score": 2600}, {"name": "tea", "mentions": 18, "confidence_score": 128, "total_score": 2304}, {"name": "salve", "mentions": 19, "confidence_score": 87, "total_score": 1653}, {"name": "ointment", "mentions": 8, "confidence_score": 24, "total_score": 192}, {"name": "poultice", "mentions": 6, "confidence_score": 20, "total_score": 120}, {"name": "infused oil", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "restio tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "essence", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "suppository", "mentions": 2, "confidence_score": 4, "total_score": 8}, {"name": "extract", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "glycerite", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Restio secundus are infusion, tincture, decoction, tea, and salve. Infusion is made by steeping the leaves in hot water to treat fever and rheumatism, while tincture is a concentrated liquid extract of the plant used for digestive issues. Decoction is a method of extracting the roots, which are used to treat urinary problems, and tea is a mild preparation used for its diuretic properties. Salve is a topical application of the plant's extracts, used to treat skin conditions and wounds. These preparations are based on the plant's traditional use in folk medicine, particularly in South African culture.", "side_effects": [{"name": "induce vomiting", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "cause diarrhea", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "causes diarrhea", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "triggers allergic reactions", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "experience nausea", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "induces vomiting", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "experiences allergic reactions", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "increases heart rate", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "experience vomiting", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "experiencing nausea", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "experiences respiratory distress", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "experiencing vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induces nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "triggers seizures", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "developing diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "develop skin irritation", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "hypotension", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "dies", "mentions": 2, "confidence_score": 11, "total_score": 22}], "side_effects_description": "The possible side effects of using Restio secundus improperly include inducing vomiting, causing diarrhea, which can lead to dehydration and electrolyte imbalance. This is due to the high toxicity of the plant's leaves and stems, which contain saponins and other compounds that can cause gastrointestinal irritation. Additionally, Restio secundus can trigger allergic reactions, such as hives, itching, and difficulty breathing, in some individuals. Experience of nausea is also common, as the plant's toxic compounds can cause stomach upset and discomfort. Furthermore, improper use of Restio secundus can lead to more severe health complications, such as respiratory failure and cardiac arrest, which can be fatal if not treated promptly.", "uses": "Restio secundus is traditionally used in South African folk medicine, where its leaves and stems are utilized to treat various ailments. It is believed to have anti-inflammatory and antimicrobial properties, making it useful for wound care and skin conditions. The plant is also used to treat digestive issues, such as diarrhea and stomach pain. Some studies suggest that Restio secundus may have antiviral properties, which could be beneficial in the treatment of certain viral infections. Additionally, the plant is used as a natural remedy for fever reduction and to boost the immune system.", "taxonomy": "Restio secundus is classified within the family Restionaceae, commonly known as the restio or rushes. This family is part of the order Poales, which includes various types of grasses and sedges. Restionaceae is an evergreen family, comprising plants that are mostly found in the Southern Hemisphere. They are typically found in well-drained areas, often in coastal regions. Restio secundus is a member of the genus Restio, which is endemic to Australia and New Zealand.", "benefits": "Restio secundus, a type of reed found in southern Africa, has been traditionally used in folk medicine to treat various health conditions. Its roots and leaves are said to have anti-inflammatory properties, which may help alleviate symptoms of arthritis and other inflammatory diseases. Additionally, Restio secundus is believed to possess antimicrobial properties, making it a potential treatment for infections and wounds. The plant's extracts may also have antioxidant properties, which could help protect against cell damage and oxidative stress. Further research is needed to confirm the efficacy and safety of using Restio secundus for medicinal purposes.", "parts": "Restio secundus is a species of restio, a type of grass-like plant native to southern Africa. The medicinal parts of Restio secundus are not well-documented, but like other restio species, they may be used in traditional medicine. However, it is essential to note that the use of restios for medicinal purposes should be approached with caution and under the guidance of a healthcare professional. Research on the plant's medicinal properties is limited, and more studies are needed to fully understand its potential benefits and risks. Further investigation into the plant's chemical composition and traditional uses may provide more information on its medicinal parts.", "intro": "Restio secundus, also known as the \"sickle Restio\", is a type of restio, a genus of tufted grass-like plants native to southern Africa. The plant has been traditionally used in folk medicine to treat various ailments, including respiratory issues, such as bronchitis and asthma, due to its anti-inflammatory and expectorant properties. The bioactive constituents of Restio secundus include flavonoids, phenolic acids, and terpenoids, which contribute to its medicinal properties. Traditionally, the plant is used to make herbal preparations such as infusions, decoctions, and tinctures, as well as being smoked for its therapeutic benefits."}
+{
+    "title": "Restio secundus",
+    "herb_slug": "restio-secundus",
+    "herb_name_scientific": "Restio secundus",
+    "family_slug": "restionaceae",
+    "family_name": "Restionaceae",
+    "url": "herbs/restio-secundus",
+    "lastmod": "2025-2-3",
+    "herb_names_common": [
+        {
+            "name": "restio",
+            "mentions": 19,
+            "confidence_score": 151,
+            "total_score": 2869
+        },
+        {
+            "name": "restio secundus",
+            "mentions": 12,
+            "confidence_score": 45,
+            "total_score": 540
+        },
+        {
+            "name": "cape bearded wire rush",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "false papyrus",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "river restio",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "grasveld reed",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "cape restio",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "umzimbe",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "secundus restio",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "false papyrus sedge",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "grasveld restio",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cape reed",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "restios",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "bulrush",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "false papyrus reed",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "false papyrus grass",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "sword restio grass",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "cape rush",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cape thatching grass",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "water restio",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 19,
+            "confidence_score": 161,
+            "total_score": 3059
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "what_description": "Restio secundus is a species of flowering plant in the family Restionaceae. It is a rhizomatous, perennial herb, typically growing to a height of 50-150 cm, with a tufted habit and slender culms. The leaves are linear, often keeled, and 2-5 mm wide, while the inflorescence is a spike-like raceme of brownish, 1-2 mm long spikelets, each containing 2-4 florets. Restio secundus is endemic to South Africa, where it occurs in sandy soils, often in wetlands and grasslands. The plant flowers from June to August, and the fruit is a dehiscent capsule that splits to release the seeds.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "diabetes",
+            "mentions": 14,
+            "confidence_score": 104,
+            "total_score": 1456
+        },
+        {
+            "name": "inflammation",
+            "mentions": 13,
+            "confidence_score": 101,
+            "total_score": 1313
+        },
+        {
+            "name": "asthma",
+            "mentions": 11,
+            "confidence_score": 80,
+            "total_score": 880
+        },
+        {
+            "name": "arthritis",
+            "mentions": 11,
+            "confidence_score": 79,
+            "total_score": 869
+        },
+        {
+            "name": "hypertension",
+            "mentions": 9,
+            "confidence_score": 72,
+            "total_score": 648
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 11,
+            "confidence_score": 71,
+            "total_score": 781
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 8,
+            "confidence_score": 51,
+            "total_score": 408
+        },
+        {
+            "name": "allergies",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "gout",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "eczema",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "inflammatory bowel disease",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "respiratory problems",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "bacterial infections",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "respiratory infections",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Restio secundus are diabetes, with its anti-diabetic properties reducing blood sugar levels, and inflammation, due to the plant's anti-inflammatory compounds that inhibit the production of inflammatory cytokines. Restio secundus also exhibits antispasmodic and bronchodilatory effects, making it an effective treatment for asthma and respiratory infections. Arthritis symptoms can be alleviated by the plant's anti-inflammatory and analgesic properties, while hypertension can be managed through its vasodilatory effects, reducing blood pressure and heart rate. Furthermore, Restio secundus has been shown to alleviate digestive issues such as diarrhea and inflammatory bowel disease by regulating gut motility and reducing inflammation, as well as skin irritation and eczema by its anti-allergic and anti-inflammatory properties. Additionally, the plant's antioxidant and antimicrobial properties prevent bacterial infections, cardiovascular disease, and cancer, while its anti-inflammatory and immunomodulatory effects also treat rheumatism, gout, high blood pressure, and skin conditions.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 152,
+            "total_score": 3040
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 136,
+            "total_score": 2720
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 127,
+            "total_score": 2540
+        },
+        {
+            "name": "antifungal",
+            "mentions": 16,
+            "confidence_score": 94,
+            "total_score": 1504
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 11,
+            "confidence_score": 85,
+            "total_score": 935
+        },
+        {
+            "name": "analgesic",
+            "mentions": 16,
+            "confidence_score": 62,
+            "total_score": 992
+        },
+        {
+            "name": "wound healing",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 10,
+            "confidence_score": 32,
+            "total_score": 320
+        },
+        {
+            "name": "antiviral",
+            "mentions": 11,
+            "confidence_score": 29,
+            "total_score": 319
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "diuretic",
+            "mentions": 5,
+            "confidence_score": 18,
+            "total_score": 90
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 15,
+            "total_score": 90
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "sedative",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Restio secundus are its ability to inhibit the growth of various microorganisms, attributed to the presence of bioactive compounds such as flavonoids and phenolic acids. These compounds, specifically, contribute to the plant's antioxidant activity, helping to neutralize free radicals and protect cells from oxidative damage. The anti-inflammatory properties of Restio secundus are also noteworthy, as they help to reduce swelling and alleviate pain in affected areas, which can be attributed to the presence of saponins and volatile oils. Furthermore, the plant's antifungal properties are due to the presence of terpenoids and other secondary metabolites that inhibit the growth of fungi and yeast. Additionally, Restio secundus exhibits antibacterial properties, which can be attributed to the presence of alkaloids and other bioactive compounds that inhibit the growth of bacteria.",
+    "constituents": [
+        {
+            "name": "flavonoids",
+            "mentions": 15,
+            "confidence_score": 104,
+            "total_score": 1560
+        },
+        {
+            "name": "saponins",
+            "mentions": 14,
+            "confidence_score": 93,
+            "total_score": 1302
+        },
+        {
+            "name": "tannins",
+            "mentions": 12,
+            "confidence_score": 73,
+            "total_score": 876
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 12,
+            "confidence_score": 64,
+            "total_score": 768
+        },
+        {
+            "name": "glycosides",
+            "mentions": 13,
+            "confidence_score": 49,
+            "total_score": 637
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 12,
+            "confidence_score": 43,
+            "total_score": 516
+        },
+        {
+            "name": "quercetin",
+            "mentions": 5,
+            "confidence_score": 43,
+            "total_score": 215
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 10,
+            "confidence_score": 42,
+            "total_score": 420
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 15,
+            "confidence_score": 40,
+            "total_score": 600
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "sterols",
+            "mentions": 10,
+            "confidence_score": 34,
+            "total_score": 340
+        },
+        {
+            "name": "coumarins",
+            "mentions": 6,
+            "confidence_score": 25,
+            "total_score": 150
+        },
+        {
+            "name": "ferulic acid",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "naringenin",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "friedelane triterpenoids",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "apigenin",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "phenolic compounds",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Restio secundus are flavonoids, saponins, tannins, phenolic acids, and glycosides. These compounds have been identified as the primary bioactive molecules responsible for the plant's medicinal properties. Flavonoids, particularly quercetin and kaempferol, exhibit anti-inflammatory and antioxidant activities, contributing to the plant's potential in treating conditions such as arthritis and improving cardiovascular health. Saponins, including aescin and glycosides, have been found to possess anti-inflammatory and wound-healing properties, which could be beneficial in treating skin conditions and promoting tissue repair. The presence of phenolic acids, including caffeic and ferulic acids, and tannins, such as epicatechin and gallocatechin, further enhances the plant's antioxidant and anti-inflammatory potential, making Restio secundus a valuable resource in traditional medicine.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 20,
+            "confidence_score": 185,
+            "total_score": 3700
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 140,
+            "total_score": 2800
+        },
+        {
+            "name": "decoction",
+            "mentions": 20,
+            "confidence_score": 130,
+            "total_score": 2600
+        },
+        {
+            "name": "tea",
+            "mentions": 18,
+            "confidence_score": 128,
+            "total_score": 2304
+        },
+        {
+            "name": "salve",
+            "mentions": 19,
+            "confidence_score": 87,
+            "total_score": 1653
+        },
+        {
+            "name": "ointment",
+            "mentions": 8,
+            "confidence_score": 24,
+            "total_score": 192
+        },
+        {
+            "name": "poultice",
+            "mentions": 6,
+            "confidence_score": 20,
+            "total_score": 120
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "restio tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "essence",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 4,
+            "total_score": 8
+        },
+        {
+            "name": "extract",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Restio secundus are infusion, tincture, decoction, tea, and salve. Infusion is made by steeping the leaves in hot water to treat fever and rheumatism, while tincture is a concentrated liquid extract of the plant used for digestive issues. Decoction is a method of extracting the roots, which are used to treat urinary problems, and tea is a mild preparation used for its diuretic properties. Salve is a topical application of the plant's extracts, used to treat skin conditions and wounds. These preparations are based on the plant's traditional use in folk medicine, particularly in South African culture.",
+    "side_effects": [
+        {
+            "name": "induce vomiting",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "causes diarrhea",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "triggers allergic reactions",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "induces vomiting",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "increases heart rate",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "experiences respiratory distress",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induces nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "triggers seizures",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "developing diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "hypotension",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "dies",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Restio secundus improperly include inducing vomiting, causing diarrhea, which can lead to dehydration and electrolyte imbalance. This is due to the high toxicity of the plant's leaves and stems, which contain saponins and other compounds that can cause gastrointestinal irritation. Additionally, Restio secundus can trigger allergic reactions, such as hives, itching, and difficulty breathing, in some individuals. Experience of nausea is also common, as the plant's toxic compounds can cause stomach upset and discomfort. Furthermore, improper use of Restio secundus can lead to more severe health complications, such as respiratory failure and cardiac arrest, which can be fatal if not treated promptly.",
+    "uses": "Restio secundus is traditionally used in South African folk medicine, where its leaves and stems are utilized to treat various ailments. It is believed to have anti-inflammatory and antimicrobial properties, making it useful for wound care and skin conditions. The plant is also used to treat digestive issues, such as diarrhea and stomach pain. Some studies suggest that Restio secundus may have antiviral properties, which could be beneficial in the treatment of certain viral infections. Additionally, the plant is used as a natural remedy for fever reduction and to boost the immune system.",
+    "taxonomy": "Restio secundus is classified within the family Restionaceae, commonly known as the restio or rushes. This family is part of the order Poales, which includes various types of grasses and sedges. Restionaceae is an evergreen family, comprising plants that are mostly found in the Southern Hemisphere. They are typically found in well-drained areas, often in coastal regions. Restio secundus is a member of the genus Restio, which is endemic to Australia and New Zealand.",
+    "benefits": "Restio secundus, a type of reed found in southern Africa, has been traditionally used in folk medicine to treat various health conditions. Its roots and leaves are said to have anti-inflammatory properties, which may help alleviate symptoms of arthritis and other inflammatory diseases. Additionally, Restio secundus is believed to possess antimicrobial properties, making it a potential treatment for infections and wounds. The plant's extracts may also have antioxidant properties, which could help protect against cell damage and oxidative stress. Further research is needed to confirm the efficacy and safety of using Restio secundus for medicinal purposes.",
+    "parts": "Restio secundus is a species of restio, a type of grass-like plant native to southern Africa. The medicinal parts of Restio secundus are not well-documented, but like other restio species, they may be used in traditional medicine. However, it is essential to note that the use of restios for medicinal purposes should be approached with caution and under the guidance of a healthcare professional. Research on the plant's medicinal properties is limited, and more studies are needed to fully understand its potential benefits and risks. Further investigation into the plant's chemical composition and traditional uses may provide more information on its medicinal parts.",
+    "intro": "Restio secundus, also known as the \"sickle Restio\", is a type of restio, a genus of tufted grass-like plants native to southern Africa. The plant has been traditionally used in folk medicine to treat various ailments, including respiratory issues, such as bronchitis and asthma, due to its anti-inflammatory and expectorant properties. The bioactive constituents of Restio secundus include flavonoids, phenolic acids, and terpenoids, which contribute to its medicinal properties. Traditionally, the plant is used to make herbal preparations such as infusions, decoctions, and tinctures, as well as being smoked for its therapeutic benefits."
+}

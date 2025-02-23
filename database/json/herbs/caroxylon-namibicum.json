@@ -1,1 +1,743 @@
-{"title": "Caroxylon namibicum", "herb_slug": "caroxylon-namibicum", "herb_name_scientific": "Caroxylon namibicum", "family_slug": "amaranthaceae", "family_name": "Amaranthaceae", "url": "herbs/caroxylon-namibicum", "lastmod": "2025-1-15", "herb_names_common": [{"name": "namib thorn", "mentions": 20, "confidence_score": 151, "total_score": 3020}, {"name": "namib thorn bush", "mentions": 20, "confidence_score": 95, "total_score": 1900}, {"name": "namib thorn tree", "mentions": 14, "confidence_score": 56, "total_score": 784}, {"name": "namibian thorn bush", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "namibian thorn", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "nara plant", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "caroxylon", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "namib thornbush", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "bushman saltbush", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "namibian saltbush", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "kokerboom", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "quiver tree", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "dune thorn", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "nara thorn", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "namibian spiny saltbush", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "namib date palm", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "red bush saltbush", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "namibian salt bush", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "kannu", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "namibian saltwort", "mentions": 2, "confidence_score": 12, "total_score": 24}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 19, "confidence_score": 132, "total_score": 2508}, {"medicine_or_poison": "poison", "mentions": 1, "confidence_score": 8, "total_score": 8}], "what_description": "Caroxylon namibicum is a succulent plant species belonging to the family Amaranthaceae. It is characterized by its erect stems, which can grow up to 1.5 meters tall, and its leaves, which are linear, entire, and glabrous. The leaves are often crowded at the base of the stem and are up to 30 centimeters long. The plant produces small, greenish-yellow flowers in axillary clusters, which are followed by winged seeds. Caroxylon namibicum is native to southern Africa and is often found in rocky outcrops and sandy areas.", "category_action": "anti-inflammatory", "ailments": [{"name": "inflammation", "mentions": 16, "confidence_score": 135, "total_score": 2160}, {"name": "diabetes", "mentions": 9, "confidence_score": 69, "total_score": 621}, {"name": "diarrhea", "mentions": 8, "confidence_score": 68, "total_score": 544}, {"name": "skin irritation", "mentions": 8, "confidence_score": 58, "total_score": 464}, {"name": "wound healing", "mentions": 6, "confidence_score": 55, "total_score": 330}, {"name": "hypertension", "mentions": 6, "confidence_score": 50, "total_score": 300}, {"name": "fungal infections", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "rheumatism", "mentions": 8, "confidence_score": 40, "total_score": 320}, {"name": "arthritis", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "digestive issues", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "fever", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "cardiovascular disease", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "skin infections", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "gastrointestinal issues", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "cuts", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "antioxidant activity", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "gastroenteritis", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "malaria", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "ulcers", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "antibacterial properties", "mentions": 3, "confidence_score": 23, "total_score": 69}], "ailments_description": "The most common ailments you can heal with Caroxylon namibicum are inflammation, which it reduces through its anti-inflammatory activity, diabetes, where it has been shown to decrease blood sugar levels, diarrhea, alleviated by its astringent properties, skin irritation, treated by its antiseptic and anti-inflammatory properties. Additionally, Caroxylon namibicum aids in wound healing, accelerates skin healing, and promotes tissue repair through its antioxidant activity, and also helps in reducing hypertension by inhibiting the angiotensin-converting enzyme. Furthermore, it exhibits antibacterial properties, which combat fungal infections, rheumatism, and arthritis by reducing inflammation and pain, and also addresses digestive issues, fever, and cardiovascular disease by lowering cholesterol levels and triglycerides. Its antioxidant activity also treats skin infections, gastrointestinal issues, and gastroenteritis, while its antibacterial properties combat cuts, ulcers, and bacterial infections, and the plant's antioxidant activity also demonstrates anti-malarial properties.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 148, "total_score": 2960}, {"name": "antioxidant", "mentions": 20, "confidence_score": 148, "total_score": 2960}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 131, "total_score": 2620}, {"name": "antifungal", "mentions": 15, "confidence_score": 106, "total_score": 1590}, {"name": "analgesic", "mentions": 19, "confidence_score": 79, "total_score": 1501}, {"name": "antibacterial", "mentions": 9, "confidence_score": 68, "total_score": 612}, {"name": "hypoglycemic", "mentions": 10, "confidence_score": 53, "total_score": 530}, {"name": "antiviral", "mentions": 14, "confidence_score": 51, "total_score": 714}, {"name": "antiseptic", "mentions": 6, "confidence_score": 42, "total_score": 252}, {"name": "antidiabetic", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "cardioprotective", "mentions": 7, "confidence_score": 22, "total_score": 154}, {"name": "cytotoxic", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "hypotensive", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "wound healing", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "neuroprotective", "mentions": 5, "confidence_score": 14, "total_score": 70}, {"name": "antihistaminic", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "antidiarrheal", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "diuretic", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "hypocholesterolemic", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "antispasmodic", "mentions": 2, "confidence_score": 11, "total_score": 22}], "properties_description": "The main therapeutic properties of Caroxylon namibicum are attributed to its antimicrobial action, which inhibits the growth of harmful microorganisms, thereby preventing infections and diseases. The antioxidant properties of the plant help in neutralizing free radicals, thereby protecting the body from oxidative stress and cell damage. Additionally, its anti-inflammatory properties reduce swelling and pain by suppressing the production of pro-inflammatory enzymes. The antifungal properties of Caroxylon namibicum prevent the growth of fungi and yeast, thereby preventing fungal infections. The analgesic properties of the plant provide relief from pain and discomfort by inhibiting the production of pain-causing neurotransmitters, which are mediated by bioactive compounds such as flavonoids, saponins, and volatile oils.", "constituents": [{"name": "flavonoids", "mentions": 20, "confidence_score": 140, "total_score": 2800}, {"name": "phenolic acids", "mentions": 20, "confidence_score": 136, "total_score": 2720}, {"name": "saponins", "mentions": 20, "confidence_score": 123, "total_score": 2460}, {"name": "tannins", "mentions": 19, "confidence_score": 121, "total_score": 2299}, {"name": "terpenoids", "mentions": 18, "confidence_score": 89, "total_score": 1602}, {"name": "alkaloids", "mentions": 18, "confidence_score": 79, "total_score": 1422}, {"name": "glycosides", "mentions": 18, "confidence_score": 76, "total_score": 1368}, {"name": "coumarins", "mentions": 16, "confidence_score": 45, "total_score": 720}, {"name": "sterols", "mentions": 14, "confidence_score": 36, "total_score": 504}, {"name": "fatty acids", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "phenolic glycosides", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "cardiac glycosides", "mentions": 7, "confidence_score": 19, "total_score": 133}, {"name": "quercetin", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "kaempferol", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "amino acids", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "proteins", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "anthraquinones", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "fiber", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "minerals", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "vitamins", "mentions": 2, "confidence_score": 8, "total_score": 16}], "constituents_description": "The most important healing constituents of Caroxylon namibicum are flavonoids which have been shown to possess antioxidant properties and anti-inflammatory activity. Phenolic acids such as ferulic acid and sinapic acid, have been isolated from the plant and have been found to exhibit antimicrobial and anti-cancer properties. Saponins present in Caroxylon namibicum have been found to have anti-inflammatory and antioxidant effects, which can help to protect against oxidative stress and inflammation. Tannins, including gallic acid and ellagic acid, have been reported to possess antimicrobial and anti-cancer properties, as well as the ability to modulate the immune system. Terpenoids, including carnosic acid and ursolic acid, have been isolated from the plant and have been found to exhibit antioxidant and anti-inflammatory activity.", "preparations": [{"name": "infusion", "mentions": 20, "confidence_score": 172, "total_score": 3440}, {"name": "tea", "mentions": 18, "confidence_score": 146, "total_score": 2628}, {"name": "tincture", "mentions": 20, "confidence_score": 133, "total_score": 2660}, {"name": "decoction", "mentions": 18, "confidence_score": 118, "total_score": 2124}, {"name": "salve", "mentions": 20, "confidence_score": 89, "total_score": 1780}, {"name": "ointment", "mentions": 9, "confidence_score": 36, "total_score": 324}, {"name": "essential oil", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "poultice", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "resin", "mentions": 3, "confidence_score": 7, "total_score": 21}, {"name": "infused water", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "bath oil", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "capsule", "mentions": 2, "confidence_score": 4, "total_score": 8}, {"name": "infused oil", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "wine", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "balm", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "glycerite", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Caroxylon namibicum are infusion, tea, tincture, decoction, and salve. Infusion and tea preparations involve steeping the dried leaves in hot water to release its bioactive compounds, such as flavonoids and alkaloids, which have antimicrobial and anti-inflammatory properties. Tincture preparation involves soaking the leaves in a solvent like ethanol to create a concentrated extract, which can be used to treat various health issues, including fever and skin conditions. Decoction involves boiling the plant material in water to release its constituents, particularly its fiber content, which can be used to treat digestive issues and wounds. Salve preparation involves mixing the tincture or infusion with a carrier oil to create a topical remedy for skin conditions, such as eczema and acne.", "side_effects": [{"name": "experience hypotension", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induce diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "induce nausea", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "experiences respiratory failure", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "develops allergic reaction", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cause skin irritation", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experience allergic reactions", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "elevate blood pressure", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "increase heart rate", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "develop skin irritation", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "trigger asthma attack", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "cause nephrotoxicity", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "experience seizures", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "experienced cardiac problems", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "suffer from diarrhea", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "experiencing abdominal pain", "mentions": 1, "confidence_score": 10, "total_score": 10}], "side_effects_description": "The possible side effect of using Caroxylon namibicum are experiencing hypotension due to its vasodilatory properties, inducing or causing diarrhea due to its anthraquinone glycosides, developing an allergic reaction due to the presence of sesquiterpene lactones and other compounds, and causing nausea due to its emetic properties. These effects are attributed to the plant's bioactive compounds, including flavonoids, alkaloids, and saponins, which can interact with the body's physiological systems and cause adverse reactions. The improper use of Caroxylon namibicum can lead to these side effects, particularly when consumed in large quantities or without proper medical supervision. This is because the plant's bioactive compounds can be potent and interact with the body's systems in unpredictable ways, leading to a range of adverse effects. As a result, it is essential to use Caroxylon namibicum with caution and under the guidance of a medical professional.", "uses": "Caroxylon namibicum, commonly known as the \"Namibian saltwort,\" has been found to possess various medicinal properties. The plant's extracts have been traditionally used to treat various ailments, including fever, rheumatism, and gastrointestinal issues. In traditional medicine, the plant's leaves and stems are used to prepare teas and infusions that are believed to have anti-inflammatory and antiseptic properties. Further studies are needed to confirm the efficacy of Caroxylon namibicum's medicinal uses, but its traditional uses suggest potential applications in the treatment of various health conditions. The plant's leaves also contain high levels of antioxidants, which may contribute to its potential health benefits.", "taxonomy": "Caroxylon namibicum is a species of tree that belongs to the family Amaranthaceae. It is a type of succulent tree native to southern Africa, specifically in the Namib Desert. This classification places it within the order Caryophyllales and the class Magnoliopsida. The plant's unique characteristics and adaptations enable it to thrive in the arid conditions of its native habitat. Through further classification, Caroxylon namibicum is also identified as a member of the genus Caroxylon.", "benefits": "Caroxylon namibicum, also known as the Namib thorn, has been traditionally used for its medicinal properties. The plant's leaves, roots, and stems are said to have anti-inflammatory and antibacterial properties, making it potentially useful for treating various health issues. Its extracts have been studied for their potential in managing oxidative stress and improving overall well-being. Additionally, the plant may have antifungal properties, which could be beneficial for treating fungal infections. However, more research is needed to confirm the health benefits of Caroxylon namibicum.", "parts": "Caroxylon namibicum is a plant species native to Namibia and has been used in traditional medicine. The leaves of the Caroxylon namibicum plant are often used for medicinal purposes, particularly to treat wounds and skin irritations. The plant's leaves contain various compounds with anti-inflammatory and antimicrobial properties, making it useful for treating a range of health issues. The Caroxylon namibicum's leaves can be applied topically to the affected area, providing relief from pain and inflammation. However, further research is needed to confirm the efficacy and safety of using Caroxylon namibicum for medicinal purposes.", "intro": "Caroxylon namibicum, also known as the Namib thorn or kokerboom, is a tree species native to southern Africa, characterized by its unique, thorny branches. The plant has been traditionally used in folk medicine for its numerous health benefits, including anti-inflammatory, antimicrobial, and antioxidant properties, which aid in the treatment of various conditions such as fever, cough, and sore throats. The bioactive constituents of Caroxylon namibicum include flavonoids, alkaloids, and tannins, which contribute to its medicinal properties. In traditional herbal medicine, the plant is often prepared as a tea or infusion, and it is also used to make extracts and tinctures, which are used to treat various health issues."}
+{
+    "title": "Caroxylon namibicum",
+    "herb_slug": "caroxylon-namibicum",
+    "herb_name_scientific": "Caroxylon namibicum",
+    "family_slug": "amaranthaceae",
+    "family_name": "Amaranthaceae",
+    "url": "herbs/caroxylon-namibicum",
+    "lastmod": "2025-1-15",
+    "herb_names_common": [
+        {
+            "name": "namib thorn",
+            "mentions": 20,
+            "confidence_score": 151,
+            "total_score": 3020
+        },
+        {
+            "name": "namib thorn bush",
+            "mentions": 20,
+            "confidence_score": 95,
+            "total_score": 1900
+        },
+        {
+            "name": "namib thorn tree",
+            "mentions": 14,
+            "confidence_score": 56,
+            "total_score": 784
+        },
+        {
+            "name": "namibian thorn bush",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "namibian thorn",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "nara plant",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "caroxylon",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "namib thornbush",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "bushman saltbush",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "namibian saltbush",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "kokerboom",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "quiver tree",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "dune thorn",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "nara thorn",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "namibian spiny saltbush",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "namib date palm",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "red bush saltbush",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "namibian salt bush",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "kannu",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "namibian saltwort",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 19,
+            "confidence_score": 132,
+            "total_score": 2508
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "what_description": "Caroxylon namibicum is a succulent plant species belonging to the family Amaranthaceae. It is characterized by its erect stems, which can grow up to 1.5 meters tall, and its leaves, which are linear, entire, and glabrous. The leaves are often crowded at the base of the stem and are up to 30 centimeters long. The plant produces small, greenish-yellow flowers in axillary clusters, which are followed by winged seeds. Caroxylon namibicum is native to southern Africa and is often found in rocky outcrops and sandy areas.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 16,
+            "confidence_score": 135,
+            "total_score": 2160
+        },
+        {
+            "name": "diabetes",
+            "mentions": 9,
+            "confidence_score": 69,
+            "total_score": 621
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 8,
+            "confidence_score": 68,
+            "total_score": 544
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 8,
+            "confidence_score": 58,
+            "total_score": 464
+        },
+        {
+            "name": "wound healing",
+            "mentions": 6,
+            "confidence_score": 55,
+            "total_score": 330
+        },
+        {
+            "name": "hypertension",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 8,
+            "confidence_score": 40,
+            "total_score": 320
+        },
+        {
+            "name": "arthritis",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "fever",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "skin infections",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "gastrointestinal issues",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "cuts",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "antioxidant activity",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "malaria",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "ulcers",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "antibacterial properties",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Caroxylon namibicum are inflammation, which it reduces through its anti-inflammatory activity, diabetes, where it has been shown to decrease blood sugar levels, diarrhea, alleviated by its astringent properties, skin irritation, treated by its antiseptic and anti-inflammatory properties. Additionally, Caroxylon namibicum aids in wound healing, accelerates skin healing, and promotes tissue repair through its antioxidant activity, and also helps in reducing hypertension by inhibiting the angiotensin-converting enzyme. Furthermore, it exhibits antibacterial properties, which combat fungal infections, rheumatism, and arthritis by reducing inflammation and pain, and also addresses digestive issues, fever, and cardiovascular disease by lowering cholesterol levels and triglycerides. Its antioxidant activity also treats skin infections, gastrointestinal issues, and gastroenteritis, while its antibacterial properties combat cuts, ulcers, and bacterial infections, and the plant's antioxidant activity also demonstrates anti-malarial properties.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 148,
+            "total_score": 2960
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 148,
+            "total_score": 2960
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 131,
+            "total_score": 2620
+        },
+        {
+            "name": "antifungal",
+            "mentions": 15,
+            "confidence_score": 106,
+            "total_score": 1590
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 79,
+            "total_score": 1501
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 9,
+            "confidence_score": 68,
+            "total_score": 612
+        },
+        {
+            "name": "hypoglycemic",
+            "mentions": 10,
+            "confidence_score": 53,
+            "total_score": 530
+        },
+        {
+            "name": "antiviral",
+            "mentions": 14,
+            "confidence_score": 51,
+            "total_score": 714
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 6,
+            "confidence_score": 42,
+            "total_score": 252
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 7,
+            "confidence_score": 22,
+            "total_score": 154
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "wound healing",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 5,
+            "confidence_score": 14,
+            "total_score": 70
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "diuretic",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "hypocholesterolemic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Caroxylon namibicum are attributed to its antimicrobial action, which inhibits the growth of harmful microorganisms, thereby preventing infections and diseases. The antioxidant properties of the plant help in neutralizing free radicals, thereby protecting the body from oxidative stress and cell damage. Additionally, its anti-inflammatory properties reduce swelling and pain by suppressing the production of pro-inflammatory enzymes. The antifungal properties of Caroxylon namibicum prevent the growth of fungi and yeast, thereby preventing fungal infections. The analgesic properties of the plant provide relief from pain and discomfort by inhibiting the production of pain-causing neurotransmitters, which are mediated by bioactive compounds such as flavonoids, saponins, and volatile oils.",
+    "constituents": [
+        {
+            "name": "flavonoids",
+            "mentions": 20,
+            "confidence_score": 140,
+            "total_score": 2800
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 20,
+            "confidence_score": 136,
+            "total_score": 2720
+        },
+        {
+            "name": "saponins",
+            "mentions": 20,
+            "confidence_score": 123,
+            "total_score": 2460
+        },
+        {
+            "name": "tannins",
+            "mentions": 19,
+            "confidence_score": 121,
+            "total_score": 2299
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 18,
+            "confidence_score": 89,
+            "total_score": 1602
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 18,
+            "confidence_score": 79,
+            "total_score": 1422
+        },
+        {
+            "name": "glycosides",
+            "mentions": 18,
+            "confidence_score": 76,
+            "total_score": 1368
+        },
+        {
+            "name": "coumarins",
+            "mentions": 16,
+            "confidence_score": 45,
+            "total_score": 720
+        },
+        {
+            "name": "sterols",
+            "mentions": 14,
+            "confidence_score": 36,
+            "total_score": 504
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "phenolic glycosides",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "cardiac glycosides",
+            "mentions": 7,
+            "confidence_score": 19,
+            "total_score": 133
+        },
+        {
+            "name": "quercetin",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "amino acids",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "proteins",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "anthraquinones",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "fiber",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "minerals",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "vitamins",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Caroxylon namibicum are flavonoids which have been shown to possess antioxidant properties and anti-inflammatory activity. Phenolic acids such as ferulic acid and sinapic acid, have been isolated from the plant and have been found to exhibit antimicrobial and anti-cancer properties. Saponins present in Caroxylon namibicum have been found to have anti-inflammatory and antioxidant effects, which can help to protect against oxidative stress and inflammation. Tannins, including gallic acid and ellagic acid, have been reported to possess antimicrobial and anti-cancer properties, as well as the ability to modulate the immune system. Terpenoids, including carnosic acid and ursolic acid, have been isolated from the plant and have been found to exhibit antioxidant and anti-inflammatory activity.",
+    "preparations": [
+        {
+            "name": "infusion",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        },
+        {
+            "name": "tea",
+            "mentions": 18,
+            "confidence_score": 146,
+            "total_score": 2628
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 133,
+            "total_score": 2660
+        },
+        {
+            "name": "decoction",
+            "mentions": 18,
+            "confidence_score": 118,
+            "total_score": 2124
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 89,
+            "total_score": 1780
+        },
+        {
+            "name": "ointment",
+            "mentions": 9,
+            "confidence_score": 36,
+            "total_score": 324
+        },
+        {
+            "name": "essential oil",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "poultice",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "resin",
+            "mentions": 3,
+            "confidence_score": 7,
+            "total_score": 21
+        },
+        {
+            "name": "infused water",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "bath oil",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "capsule",
+            "mentions": 2,
+            "confidence_score": 4,
+            "total_score": 8
+        },
+        {
+            "name": "infused oil",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "wine",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "balm",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Caroxylon namibicum are infusion, tea, tincture, decoction, and salve. Infusion and tea preparations involve steeping the dried leaves in hot water to release its bioactive compounds, such as flavonoids and alkaloids, which have antimicrobial and anti-inflammatory properties. Tincture preparation involves soaking the leaves in a solvent like ethanol to create a concentrated extract, which can be used to treat various health issues, including fever and skin conditions. Decoction involves boiling the plant material in water to release its constituents, particularly its fiber content, which can be used to treat digestive issues and wounds. Salve preparation involves mixing the tincture or infusion with a carrier oil to create a topical remedy for skin conditions, such as eczema and acne.",
+    "side_effects": [
+        {
+            "name": "experience hypotension",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "experiences respiratory failure",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "develops allergic reaction",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experience allergic reactions",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "trigger asthma attack",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "cause nephrotoxicity",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "experience seizures",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "experienced cardiac problems",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "suffer from diarrhea",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "experiencing abdominal pain",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "side_effects_description": "The possible side effect of using Caroxylon namibicum are experiencing hypotension due to its vasodilatory properties, inducing or causing diarrhea due to its anthraquinone glycosides, developing an allergic reaction due to the presence of sesquiterpene lactones and other compounds, and causing nausea due to its emetic properties. These effects are attributed to the plant's bioactive compounds, including flavonoids, alkaloids, and saponins, which can interact with the body's physiological systems and cause adverse reactions. The improper use of Caroxylon namibicum can lead to these side effects, particularly when consumed in large quantities or without proper medical supervision. This is because the plant's bioactive compounds can be potent and interact with the body's systems in unpredictable ways, leading to a range of adverse effects. As a result, it is essential to use Caroxylon namibicum with caution and under the guidance of a medical professional.",
+    "uses": "Caroxylon namibicum, commonly known as the \"Namibian saltwort,\" has been found to possess various medicinal properties. The plant's extracts have been traditionally used to treat various ailments, including fever, rheumatism, and gastrointestinal issues. In traditional medicine, the plant's leaves and stems are used to prepare teas and infusions that are believed to have anti-inflammatory and antiseptic properties. Further studies are needed to confirm the efficacy of Caroxylon namibicum's medicinal uses, but its traditional uses suggest potential applications in the treatment of various health conditions. The plant's leaves also contain high levels of antioxidants, which may contribute to its potential health benefits.",
+    "taxonomy": "Caroxylon namibicum is a species of tree that belongs to the family Amaranthaceae. It is a type of succulent tree native to southern Africa, specifically in the Namib Desert. This classification places it within the order Caryophyllales and the class Magnoliopsida. The plant's unique characteristics and adaptations enable it to thrive in the arid conditions of its native habitat. Through further classification, Caroxylon namibicum is also identified as a member of the genus Caroxylon.",
+    "benefits": "Caroxylon namibicum, also known as the Namib thorn, has been traditionally used for its medicinal properties. The plant's leaves, roots, and stems are said to have anti-inflammatory and antibacterial properties, making it potentially useful for treating various health issues. Its extracts have been studied for their potential in managing oxidative stress and improving overall well-being. Additionally, the plant may have antifungal properties, which could be beneficial for treating fungal infections. However, more research is needed to confirm the health benefits of Caroxylon namibicum.",
+    "parts": "Caroxylon namibicum is a plant species native to Namibia and has been used in traditional medicine. The leaves of the Caroxylon namibicum plant are often used for medicinal purposes, particularly to treat wounds and skin irritations. The plant's leaves contain various compounds with anti-inflammatory and antimicrobial properties, making it useful for treating a range of health issues. The Caroxylon namibicum's leaves can be applied topically to the affected area, providing relief from pain and inflammation. However, further research is needed to confirm the efficacy and safety of using Caroxylon namibicum for medicinal purposes.",
+    "intro": "Caroxylon namibicum, also known as the Namib thorn or kokerboom, is a tree species native to southern Africa, characterized by its unique, thorny branches. The plant has been traditionally used in folk medicine for its numerous health benefits, including anti-inflammatory, antimicrobial, and antioxidant properties, which aid in the treatment of various conditions such as fever, cough, and sore throats. The bioactive constituents of Caroxylon namibicum include flavonoids, alkaloids, and tannins, which contribute to its medicinal properties. In traditional herbal medicine, the plant is often prepared as a tea or infusion, and it is also used to make extracts and tinctures, which are used to treat various health issues."
+}

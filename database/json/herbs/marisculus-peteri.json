@@ -1,1 +1,148 @@
-{"title": "Marisculus peteri", "herb_slug": "marisculus-peteri", "herb_name_scientific": "Marisculus peteri", "family_slug": "cyperaceae", "family_name": "Cyperaceae", "url": "herbs/marisculus-peteri", "lastmod": "2025-1-8", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 179, "total_score": 3580}], "herb_names_common": [{"name": "mariscus", "mentions": 22, "confidence_score": 80, "total_score": 1760}, {"name": "peter's mariscule", "mentions": 10, "confidence_score": 73, "total_score": 730}, {"name": "peter's mariscus", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "mariscus peteri", "mentions": 11, "confidence_score": 46, "total_score": 506}, {"name": "peter's club rush", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "peter's waterwort", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "peter's winter's savory", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "peter winter savory", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "peter's mariscle", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "peter's rockcress (mariscus peteri)", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "peter's herb", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "peter's mariscus (undocumented)", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "peter's marshwort", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "peter mariscule", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "peter's clubrush", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "peter's marisculus", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "pteris", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "no information found for the given botanical name.", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "undocumented mariscus (unresolved)", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "peter's rockcress", "mentions": 1, "confidence_score": 10, "total_score": 10}], "uses": "Marisculus peteri  is a plant species native to certain regions, although limited information is available regarding its uses.  However, in traditional medicine, various plant species in the same genus as Marisculus peteri have been found to have properties with potential medicinal applications. Some species have been used to treat various health conditions, including inflammation and infection. More research is needed to confirm the efficacy and safety of using Marisculus peteri for medicinal purposes. If proven, its medicinal properties could provide new opportunities for the treatment of certain diseases.", "taxonomy": "I don't have information about the plant Marisculus peteri's classification.", "benefits": "Info not available yet.", "properties": "Info not available yet.", "constituents": "Marisculus peteri is a plant species, but unfortunately, I couldn't find any specific information on its active constituents. It's possible that research on this topic is limited or not readily available. Marisculus peteri is a plant in the family Cephalotaceae, commonly found in Australia. Further studies are needed to determine the active constituents of Marisculus peteri. More research is required to understand its potential uses and properties.", "parts": "Marisculus peteri is a genus of lichen-forming fungi, and as such, it does not have distinct medicinal parts like plants do. However, some species within this genus have been studied for their potential bioactive compounds. These compounds have been found to have various biological activities, such as antimicrobial and antioxidant properties. But more research is needed to fully understand the medicinal potential of Marisculus peteri. As a result, it is not yet clear which parts of the organism are used for medicinal purposes, if any.", "preparations": "Info not available yet.", "side_effects": "Info not available yet.", "intro": "There is limited information on the plant Marisculus peteri. However, I can provide general information about plants in the same family (Apiaceae) as Marisculus peteri.\n\nMarisculus peteri is a plant species that belongs to the family Apiaceae. It is a plant with medicinal properties, but more research is needed to confirm its exact effects on human health. The plant from the same family, like Angelica sinensis, has been reported to have potential health benefits such as anti-inflammatory and antioxidant effects. The bioactive constituents of these plants typically include volatile oils, flavonoids, and phenolic compounds. Common herbal preparations made with plants from the same family include teas, tinctures, and infusions that are used to treat various health issues, including digestive problems and stress relief."}
+{
+    "title": "Marisculus peteri",
+    "herb_slug": "marisculus-peteri",
+    "herb_name_scientific": "Marisculus peteri",
+    "family_slug": "cyperaceae",
+    "family_name": "Cyperaceae",
+    "url": "herbs/marisculus-peteri",
+    "lastmod": "2025-1-8",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 179,
+            "total_score": 3580
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "mariscus",
+            "mentions": 22,
+            "confidence_score": 80,
+            "total_score": 1760
+        },
+        {
+            "name": "peter's mariscule",
+            "mentions": 10,
+            "confidence_score": 73,
+            "total_score": 730
+        },
+        {
+            "name": "peter's mariscus",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "mariscus peteri",
+            "mentions": 11,
+            "confidence_score": 46,
+            "total_score": 506
+        },
+        {
+            "name": "peter's club rush",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "peter's waterwort",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "peter's winter's savory",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "peter winter savory",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "peter's mariscle",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "peter's rockcress (mariscus peteri)",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "peter's herb",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "peter's mariscus (undocumented)",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "peter's marshwort",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "peter mariscule",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "peter's clubrush",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "peter's marisculus",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "pteris",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "no information found for the given botanical name.",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "undocumented mariscus (unresolved)",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "peter's rockcress",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "uses": "Marisculus peteri  is a plant species native to certain regions, although limited information is available regarding its uses.  However, in traditional medicine, various plant species in the same genus as Marisculus peteri have been found to have properties with potential medicinal applications. Some species have been used to treat various health conditions, including inflammation and infection. More research is needed to confirm the efficacy and safety of using Marisculus peteri for medicinal purposes. If proven, its medicinal properties could provide new opportunities for the treatment of certain diseases.",
+    "taxonomy": "I don't have information about the plant Marisculus peteri's classification.",
+    "benefits": "Info not available yet.",
+    "properties": "Info not available yet.",
+    "constituents": "Marisculus peteri is a plant species, but unfortunately, I couldn't find any specific information on its active constituents. It's possible that research on this topic is limited or not readily available. Marisculus peteri is a plant in the family Cephalotaceae, commonly found in Australia. Further studies are needed to determine the active constituents of Marisculus peteri. More research is required to understand its potential uses and properties.",
+    "parts": "Marisculus peteri is a genus of lichen-forming fungi, and as such, it does not have distinct medicinal parts like plants do. However, some species within this genus have been studied for their potential bioactive compounds. These compounds have been found to have various biological activities, such as antimicrobial and antioxidant properties. But more research is needed to fully understand the medicinal potential of Marisculus peteri. As a result, it is not yet clear which parts of the organism are used for medicinal purposes, if any.",
+    "preparations": "Info not available yet.",
+    "side_effects": "Info not available yet.",
+    "intro": "There is limited information on the plant Marisculus peteri. However, I can provide general information about plants in the same family (Apiaceae) as Marisculus peteri.\n\nMarisculus peteri is a plant species that belongs to the family Apiaceae. It is a plant with medicinal properties, but more research is needed to confirm its exact effects on human health. The plant from the same family, like Angelica sinensis, has been reported to have potential health benefits such as anti-inflammatory and antioxidant effects. The bioactive constituents of these plants typically include volatile oils, flavonoids, and phenolic compounds. Common herbal preparations made with plants from the same family include teas, tinctures, and infusions that are used to treat various health issues, including digestive problems and stress relief."
+}

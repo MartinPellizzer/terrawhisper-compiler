@@ -1,1 +1,719 @@
-{"title": "Pavonia venusta", "herb_slug": "pavonia-venusta", "herb_name_scientific": "Pavonia venusta", "family_slug": "malvaceae", "family_name": "Malvaceae", "url": "herbs/pavonia-venusta", "lastmod": "2025-1-21", "herb_names_common": [{"name": "pavonia", "mentions": 21, "confidence_score": 180, "total_score": 3780}, {"name": "rock rose", "mentions": 14, "confidence_score": 109, "total_score": 1526}, {"name": "rockrose", "mentions": 10, "confidence_score": 82, "total_score": 820}, {"name": "mexican rose mallow", "mentions": 14, "confidence_score": 79, "total_score": 1106}, {"name": "pavonia venusta", "mentions": 16, "confidence_score": 66, "total_score": 1056}, {"name": "slipper flower", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "wild mallow", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "slipper rose", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "rockrose pavonia", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "rock mallow", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "rock hibiscus", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "rockrose mallow", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "rock rose pavonia", "mentions": 4, "confidence_score": 15, "total_score": 60}, {"name": "rock pavonia", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "mexican rosemallow", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "butterfly flower", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "butterfly bush", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "venusta pavonia", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "velvet hawkweed", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "slipper orchid", "mentions": 2, "confidence_score": 10, "total_score": 20}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 164, "total_score": 3280}], "what_description": "Pavonia venusta is a flowering plant species within the family Malvaceae. It is a shrubby perennial with simple, alternate, and elliptical-shaped leaves that are 2-5 cm long and 1-2.5 cm wide, with a green, glabrous upper surface and a green, pubescent lower surface. The plant produces small, solitary, and axillary flowers that are 2.5-3.5 cm in diameter, with five petals that are pink to purple in color, and numerous stamens. The flowers are followed by five-ribbed, green, and glabrous capsules that are 5-7 cm long, containing numerous seeds. Pavonia venusta is native to the southwestern United States and northern Mexico, where it grows in dry, rocky areas and woodlands.", "category_action": "anticatarrhal", "ailments": [{"name": "wound healing", "mentions": 15, "confidence_score": 133, "total_score": 1995}, {"name": "inflammation", "mentions": 17, "confidence_score": 133, "total_score": 2261}, {"name": "fungal infections", "mentions": 10, "confidence_score": 63, "total_score": 630}, {"name": "skin irritation", "mentions": 8, "confidence_score": 61, "total_score": 488}, {"name": "diabetes", "mentions": 7, "confidence_score": 53, "total_score": 371}, {"name": "skin infections", "mentions": 8, "confidence_score": 52, "total_score": 416}, {"name": "diarrhea", "mentions": 8, "confidence_score": 50, "total_score": 400}, {"name": "fever reduction", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "eczema", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "psoriasis", "mentions": 5, "confidence_score": 29, "total_score": 145}, {"name": "antibacterial", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "gastrointestinal issues", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "bacterial infections", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "antiviral", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "cancer", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "chronic pain", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "skin conditions", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "burns", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "antioxidant", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "asthma", "mentions": 3, "confidence_score": 18, "total_score": 54}], "ailments_description": "The most common ailments you can heal with Pavonia venusta are wound healing, which is accelerated by its high content of flavonoids and phenolic compounds that promote tissue regeneration and collagen synthesis. Pavonia venusta also exhibits potent anti-inflammatory properties, reducing inflammation associated with conditions like arthritis. Fungal infections are inhibited by the plant's saponin and triterpenoid content, while skin irritation is alleviated by its soothing and calming effects. The plant's antidiabetic properties help manage diabetes by reducing blood sugar levels and improving insulin sensitivity. Additionally, its antibacterial and antifungal properties make it effective in treating skin infections, diarrhea, and gastrointestinal issues, while its antiviral properties help reduce fever and alleviate symptoms of eczema and psoriasis.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 151, "total_score": 3020}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 150, "total_score": 3000}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 132, "total_score": 2640}, {"name": "analgesic", "mentions": 20, "confidence_score": 85, "total_score": 1700}, {"name": "cardioprotective", "mentions": 9, "confidence_score": 46, "total_score": 414}, {"name": "hepatoprotective", "mentions": 8, "confidence_score": 43, "total_score": 344}, {"name": "antibacterial", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "antiseptic", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "antiviral", "mentions": 9, "confidence_score": 37, "total_score": 333}, {"name": "antifungal", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "antipyretic", "mentions": 9, "confidence_score": 33, "total_score": 297}, {"name": "hypotensive", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "cytotoxic", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "anticancer", "mentions": 7, "confidence_score": 28, "total_score": 196}, {"name": "cytoprotective", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "antiparasitic", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "wound healing", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "wound-healing", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "antimutagenic", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "antidiarrheal", "mentions": 3, "confidence_score": 13, "total_score": 39}], "properties_description": "The main therapeutic properties of Pavonia venusta are attributed to its antioxidant activity, which can mitigate oxidative stress and protect against cellular damage. The plant's antimicrobial properties have been demonstrated through its ability to inhibit the growth of various microorganisms, including bacteria and fungi, highlighting its potential in treating infections. Additionally, Pavonia venusta's anti-inflammatory effects have been linked to the reduction of inflammation in various models of disease, suggesting its potential in managing conditions characterized by chronic inflammation. The plant's analgesic properties have been attributed to its ability to modulate pain perception, providing relief from discomfort and pain. Furthermore, Pavonia venusta's cardioprotective effects have been associated with its ability to reduce lipid peroxidation and improve cardiovascular function, suggesting its potential in preventing heart disease.", "constituents": [{"name": "quercetin", "mentions": 18, "confidence_score": 155, "total_score": 2790}, {"name": "kaempferol", "mentions": 16, "confidence_score": 120, "total_score": 1920}, {"name": "gallic acid", "mentions": 11, "confidence_score": 76, "total_score": 836}, {"name": "flavonoids", "mentions": 11, "confidence_score": 71, "total_score": 781}, {"name": "ellagic acid", "mentions": 8, "confidence_score": 58, "total_score": 464}, {"name": "saponins", "mentions": 11, "confidence_score": 56, "total_score": 616}, {"name": "tannins", "mentions": 9, "confidence_score": 53, "total_score": 477}, {"name": "phenolic acids", "mentions": 10, "confidence_score": 49, "total_score": 490}, {"name": "isorhapontigenin", "mentions": 7, "confidence_score": 42, "total_score": 294}, {"name": "catechins", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "rutin", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "alkaloids", "mentions": 9, "confidence_score": 35, "total_score": 315}, {"name": "epicatechin", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "quinic acid", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "triterpenoids", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "anthocyanins", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "terpenoids", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "icariin", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "glycosides", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "rhaponticin", "mentions": 2, "confidence_score": 14, "total_score": 28}], "constituents_description": "The most important healing constituents of Pavonia venusta are quercetin, kaempferol, gallic acid, flavonoids, and ellagic acid. These compounds have been isolated from Pavonia venusta through various studies and have been found to possess anti-inflammatory, antioxidant, and antimicrobial properties. Quercetin and kaempferol, both flavonoids, are known to inhibit the production of pro-inflammatory enzymes and cytokines, while gallic acid has been shown to exhibit antimicrobial activity against a range of microorganisms. Flavonoids, a broader class of compounds that includes quercetin and kaempferol, have been found to have antioxidant properties, helping to protect against cell damage and oxidative stress. Ellagic acid, a polyphenol present in Pavonia venusta, has been shown to have antiviral and anticancer properties, inhibiting the growth of cancer cells and reducing the severity of viral infections.", "preparations": [{"name": "pavonia tea", "mentions": 20, "confidence_score": 170, "total_score": 3400}, {"name": "infusion", "mentions": 20, "confidence_score": 154, "total_score": 3080}, {"name": "tincture", "mentions": 20, "confidence_score": 141, "total_score": 2820}, {"name": "salve", "mentions": 20, "confidence_score": 102, "total_score": 2040}, {"name": "decoction", "mentions": 12, "confidence_score": 57, "total_score": 684}, {"name": "infused oil", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "ointment", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "poultice", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "extract", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "glycerite", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "oil infusion", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suppository", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "glycoside", "mentions": 1, "confidence_score": 2, "total_score": 2}], "preparations_description": "The main herbal preparations of Pavonia venusta are derived from its leaves and flowers, which are rich in flavonoids, phenolic acids, and other bioactive compounds. Pavonia tea is prepared by steeping the dried leaves and flowers in hot water, while pavonia infusion involves steeping the plant material in cold water for an extended period. A tincture of Pavonia venusta is made by extracting the plant's bioactive compounds with a solvent, such as ethanol or glycerin, which is then diluted with water. A salve is prepared by infusing the plant material in a carrier oil, such as coconut or olive oil, to create a topical ointment. Decoction is a preparation method that involves boiling the plant material in water to release its bioactive compounds, which is particularly useful for preparing a medicinal tea or infusion from the plant's woody parts.", "side_effects": [{"name": "experience allergic reactions", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "experiences nausea", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "develops diarrhea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "develop skin irritation", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "experiences allergic reaction", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "elevate blood pressure", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiencing diarrhea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develops skin irritation", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause vomiting", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experience nausea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "exacerbate allergies", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "cause diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "get diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "experience dizziness", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "exhibits allergic reaction", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "produce allergic reactions", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "get headaches", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "cause hemolysis", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "provoke skin irritation", "mentions": 2, "confidence_score": 11, "total_score": 22}], "side_effects_description": "The possible side effects of using Pavonia venusta improperly include experiencing allergic reactions such as hives, itching, and difficulty breathing due to the plant's high concentration of saponins and tannins. This can also lead to nausea and diarrhea as the body tries to eliminate the toxins. In addition, prolonged exposure to the plant can cause skin irritation and allergic reactions, including redness, swelling, and blistering. This is because Pavonia venusta contains compounds that can cause an immune system response and trigger an allergic reaction. These side effects are often the result of mishandling or misidentification of the plant, highlighting the importance of proper handling and identification procedures.", "uses": "Pavonia venusta is a plant species that has been studied for its potential medicinal uses. Research on Pavonia venusta has shown that it may possess anti-inflammatory and antioxidant properties, which could be beneficial in treating various health conditions. The plant's extracts have been found to exhibit antimicrobial and antifungal activities, making it a potential candidate for developing new treatments. Furthermore, Pavonia venusta has been traditionally used in folk medicine to treat various ailments, including fever and skin conditions. However, further research is needed to confirm its effectiveness and safety for human use.", "taxonomy": "Pavonia venusta is classified as a species of flowering plant in the mallow family (Malvaceae). The genus Pavonia is a part of the larger family and is native to the Americas, with many species found in tropical and subtropical regions. Pavonia venusta is likely a member of the tribe Malveae, which is a group of plants that includes mallows and related species. Further classification may include the plant's order (Malvales) and class (Magnoliopsida). This classification provides insight into the plant's evolutionary history and relationships with other organisms.", "benefits": "Pavonia venusta is known to be a medicinal plant in traditional medicine, but detailed scientific information is limited. However, based on its family, Malvaceae, similar plants in this family have shown potential health benefits. For example, they may have antioxidant, anti-inflammatory, and antimicrobial properties. Research suggests that some plants in this family might be used to treat various health issues, such as wounds, skin conditions, and respiratory problems. More studies are needed to confirm the specific health benefits of Pavonia venusta.", "parts": "Pavonia venusta is a plant species in the Malvaceae family, but information about its specific medicinal parts is not readily available. However, many plants in the Pavonia genus have been used in traditional medicine, and it's possible that Pavonia venusta may have similar medicinal properties. In general, various plant parts such as leaves, stems, and roots have been used for medicinal purposes in different species. More research is needed to determine the specific medicinal parts of Pavonia venusta. Additional studies would also be required to confirm its potential health benefits and safety for human use.", "intro": "Pavonia venusta, also known as the velvet mallow or Pavonia, is a flowering plant species that belongs to the Malvaceae family. This plant has been traditionally used for its medicinal properties, with health benefits including anti-inflammatory and antibacterial effects, which can aid in wound healing and the treatment of various infections. The bioactive constituents of Pavonia venusta include flavonoids, saponins, and alkaloids, which contribute to its therapeutic properties. The most common herbal preparations made from this plant include decoctions, infusions, and tinctures, which are often used to treat skin conditions, fever, and respiratory issues."}
+{
+    "title": "Pavonia venusta",
+    "herb_slug": "pavonia-venusta",
+    "herb_name_scientific": "Pavonia venusta",
+    "family_slug": "malvaceae",
+    "family_name": "Malvaceae",
+    "url": "herbs/pavonia-venusta",
+    "lastmod": "2025-1-21",
+    "herb_names_common": [
+        {
+            "name": "pavonia",
+            "mentions": 21,
+            "confidence_score": 180,
+            "total_score": 3780
+        },
+        {
+            "name": "rock rose",
+            "mentions": 14,
+            "confidence_score": 109,
+            "total_score": 1526
+        },
+        {
+            "name": "rockrose",
+            "mentions": 10,
+            "confidence_score": 82,
+            "total_score": 820
+        },
+        {
+            "name": "mexican rose mallow",
+            "mentions": 14,
+            "confidence_score": 79,
+            "total_score": 1106
+        },
+        {
+            "name": "pavonia venusta",
+            "mentions": 16,
+            "confidence_score": 66,
+            "total_score": 1056
+        },
+        {
+            "name": "slipper flower",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "wild mallow",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "slipper rose",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "rockrose pavonia",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "rock mallow",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "rock hibiscus",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "rockrose mallow",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "rock rose pavonia",
+            "mentions": 4,
+            "confidence_score": 15,
+            "total_score": 60
+        },
+        {
+            "name": "rock pavonia",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "mexican rosemallow",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "butterfly flower",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "butterfly bush",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "venusta pavonia",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "velvet hawkweed",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "slipper orchid",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 164,
+            "total_score": 3280
+        }
+    ],
+    "what_description": "Pavonia venusta is a flowering plant species within the family Malvaceae. It is a shrubby perennial with simple, alternate, and elliptical-shaped leaves that are 2-5 cm long and 1-2.5 cm wide, with a green, glabrous upper surface and a green, pubescent lower surface. The plant produces small, solitary, and axillary flowers that are 2.5-3.5 cm in diameter, with five petals that are pink to purple in color, and numerous stamens. The flowers are followed by five-ribbed, green, and glabrous capsules that are 5-7 cm long, containing numerous seeds. Pavonia venusta is native to the southwestern United States and northern Mexico, where it grows in dry, rocky areas and woodlands.",
+    "category_action": "anticatarrhal",
+    "ailments": [
+        {
+            "name": "wound healing",
+            "mentions": 15,
+            "confidence_score": 133,
+            "total_score": 1995
+        },
+        {
+            "name": "inflammation",
+            "mentions": 17,
+            "confidence_score": 133,
+            "total_score": 2261
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 10,
+            "confidence_score": 63,
+            "total_score": 630
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 8,
+            "confidence_score": 61,
+            "total_score": 488
+        },
+        {
+            "name": "diabetes",
+            "mentions": 7,
+            "confidence_score": 53,
+            "total_score": 371
+        },
+        {
+            "name": "skin infections",
+            "mentions": 8,
+            "confidence_score": 52,
+            "total_score": 416
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 8,
+            "confidence_score": 50,
+            "total_score": 400
+        },
+        {
+            "name": "fever reduction",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "eczema",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "psoriasis",
+            "mentions": 5,
+            "confidence_score": 29,
+            "total_score": 145
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "gastrointestinal issues",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "bacterial infections",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "antiviral",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "cancer",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "chronic pain",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "burns",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "asthma",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Pavonia venusta are wound healing, which is accelerated by its high content of flavonoids and phenolic compounds that promote tissue regeneration and collagen synthesis. Pavonia venusta also exhibits potent anti-inflammatory properties, reducing inflammation associated with conditions like arthritis. Fungal infections are inhibited by the plant's saponin and triterpenoid content, while skin irritation is alleviated by its soothing and calming effects. The plant's antidiabetic properties help manage diabetes by reducing blood sugar levels and improving insulin sensitivity. Additionally, its antibacterial and antifungal properties make it effective in treating skin infections, diarrhea, and gastrointestinal issues, while its antiviral properties help reduce fever and alleviate symptoms of eczema and psoriasis.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 151,
+            "total_score": 3020
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 150,
+            "total_score": 3000
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 132,
+            "total_score": 2640
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 85,
+            "total_score": 1700
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 9,
+            "confidence_score": 46,
+            "total_score": 414
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 8,
+            "confidence_score": 43,
+            "total_score": 344
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "antiviral",
+            "mentions": 9,
+            "confidence_score": 37,
+            "total_score": 333
+        },
+        {
+            "name": "antifungal",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 9,
+            "confidence_score": 33,
+            "total_score": 297
+        },
+        {
+            "name": "hypotensive",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "anticancer",
+            "mentions": 7,
+            "confidence_score": 28,
+            "total_score": 196
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "wound healing",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "wound-healing",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "antimutagenic",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Pavonia venusta are attributed to its antioxidant activity, which can mitigate oxidative stress and protect against cellular damage. The plant's antimicrobial properties have been demonstrated through its ability to inhibit the growth of various microorganisms, including bacteria and fungi, highlighting its potential in treating infections. Additionally, Pavonia venusta's anti-inflammatory effects have been linked to the reduction of inflammation in various models of disease, suggesting its potential in managing conditions characterized by chronic inflammation. The plant's analgesic properties have been attributed to its ability to modulate pain perception, providing relief from discomfort and pain. Furthermore, Pavonia venusta's cardioprotective effects have been associated with its ability to reduce lipid peroxidation and improve cardiovascular function, suggesting its potential in preventing heart disease.",
+    "constituents": [
+        {
+            "name": "quercetin",
+            "mentions": 18,
+            "confidence_score": 155,
+            "total_score": 2790
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 16,
+            "confidence_score": 120,
+            "total_score": 1920
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 11,
+            "confidence_score": 76,
+            "total_score": 836
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 11,
+            "confidence_score": 71,
+            "total_score": 781
+        },
+        {
+            "name": "ellagic acid",
+            "mentions": 8,
+            "confidence_score": 58,
+            "total_score": 464
+        },
+        {
+            "name": "saponins",
+            "mentions": 11,
+            "confidence_score": 56,
+            "total_score": 616
+        },
+        {
+            "name": "tannins",
+            "mentions": 9,
+            "confidence_score": 53,
+            "total_score": 477
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 10,
+            "confidence_score": 49,
+            "total_score": 490
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 7,
+            "confidence_score": 42,
+            "total_score": 294
+        },
+        {
+            "name": "catechins",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "rutin",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 9,
+            "confidence_score": 35,
+            "total_score": 315
+        },
+        {
+            "name": "epicatechin",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "anthocyanins",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "terpenoids",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "icariin",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "glycosides",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "rhaponticin",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Pavonia venusta are quercetin, kaempferol, gallic acid, flavonoids, and ellagic acid. These compounds have been isolated from Pavonia venusta through various studies and have been found to possess anti-inflammatory, antioxidant, and antimicrobial properties. Quercetin and kaempferol, both flavonoids, are known to inhibit the production of pro-inflammatory enzymes and cytokines, while gallic acid has been shown to exhibit antimicrobial activity against a range of microorganisms. Flavonoids, a broader class of compounds that includes quercetin and kaempferol, have been found to have antioxidant properties, helping to protect against cell damage and oxidative stress. Ellagic acid, a polyphenol present in Pavonia venusta, has been shown to have antiviral and anticancer properties, inhibiting the growth of cancer cells and reducing the severity of viral infections.",
+    "preparations": [
+        {
+            "name": "pavonia tea",
+            "mentions": 20,
+            "confidence_score": 170,
+            "total_score": 3400
+        },
+        {
+            "name": "infusion",
+            "mentions": 20,
+            "confidence_score": 154,
+            "total_score": 3080
+        },
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 141,
+            "total_score": 2820
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 102,
+            "total_score": 2040
+        },
+        {
+            "name": "decoction",
+            "mentions": 12,
+            "confidence_score": 57,
+            "total_score": 684
+        },
+        {
+            "name": "infused oil",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "ointment",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "poultice",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "extract",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "oil infusion",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "glycoside",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Pavonia venusta are derived from its leaves and flowers, which are rich in flavonoids, phenolic acids, and other bioactive compounds. Pavonia tea is prepared by steeping the dried leaves and flowers in hot water, while pavonia infusion involves steeping the plant material in cold water for an extended period. A tincture of Pavonia venusta is made by extracting the plant's bioactive compounds with a solvent, such as ethanol or glycerin, which is then diluted with water. A salve is prepared by infusing the plant material in a carrier oil, such as coconut or olive oil, to create a topical ointment. Decoction is a preparation method that involves boiling the plant material in water to release its bioactive compounds, which is particularly useful for preparing a medicinal tea or infusion from the plant's woody parts.",
+    "side_effects": [
+        {
+            "name": "experience allergic reactions",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "develops diarrhea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "develop skin irritation",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "experiences allergic reaction",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiencing diarrhea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develops skin irritation",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause vomiting",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "get diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "exhibits allergic reaction",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "produce allergic reactions",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "get headaches",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "cause hemolysis",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "provoke skin irritation",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Pavonia venusta improperly include experiencing allergic reactions such as hives, itching, and difficulty breathing due to the plant's high concentration of saponins and tannins. This can also lead to nausea and diarrhea as the body tries to eliminate the toxins. In addition, prolonged exposure to the plant can cause skin irritation and allergic reactions, including redness, swelling, and blistering. This is because Pavonia venusta contains compounds that can cause an immune system response and trigger an allergic reaction. These side effects are often the result of mishandling or misidentification of the plant, highlighting the importance of proper handling and identification procedures.",
+    "uses": "Pavonia venusta is a plant species that has been studied for its potential medicinal uses. Research on Pavonia venusta has shown that it may possess anti-inflammatory and antioxidant properties, which could be beneficial in treating various health conditions. The plant's extracts have been found to exhibit antimicrobial and antifungal activities, making it a potential candidate for developing new treatments. Furthermore, Pavonia venusta has been traditionally used in folk medicine to treat various ailments, including fever and skin conditions. However, further research is needed to confirm its effectiveness and safety for human use.",
+    "taxonomy": "Pavonia venusta is classified as a species of flowering plant in the mallow family (Malvaceae). The genus Pavonia is a part of the larger family and is native to the Americas, with many species found in tropical and subtropical regions. Pavonia venusta is likely a member of the tribe Malveae, which is a group of plants that includes mallows and related species. Further classification may include the plant's order (Malvales) and class (Magnoliopsida). This classification provides insight into the plant's evolutionary history and relationships with other organisms.",
+    "benefits": "Pavonia venusta is known to be a medicinal plant in traditional medicine, but detailed scientific information is limited. However, based on its family, Malvaceae, similar plants in this family have shown potential health benefits. For example, they may have antioxidant, anti-inflammatory, and antimicrobial properties. Research suggests that some plants in this family might be used to treat various health issues, such as wounds, skin conditions, and respiratory problems. More studies are needed to confirm the specific health benefits of Pavonia venusta.",
+    "parts": "Pavonia venusta is a plant species in the Malvaceae family, but information about its specific medicinal parts is not readily available. However, many plants in the Pavonia genus have been used in traditional medicine, and it's possible that Pavonia venusta may have similar medicinal properties. In general, various plant parts such as leaves, stems, and roots have been used for medicinal purposes in different species. More research is needed to determine the specific medicinal parts of Pavonia venusta. Additional studies would also be required to confirm its potential health benefits and safety for human use.",
+    "intro": "Pavonia venusta, also known as the velvet mallow or Pavonia, is a flowering plant species that belongs to the Malvaceae family. This plant has been traditionally used for its medicinal properties, with health benefits including anti-inflammatory and antibacterial effects, which can aid in wound healing and the treatment of various infections. The bioactive constituents of Pavonia venusta include flavonoids, saponins, and alkaloids, which contribute to its therapeutic properties. The most common herbal preparations made from this plant include decoctions, infusions, and tinctures, which are often used to treat skin conditions, fever, and respiratory issues."
+}

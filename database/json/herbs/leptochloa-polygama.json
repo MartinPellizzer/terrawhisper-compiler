@@ -1,1 +1,154 @@
-{"title": "Leptochloa polygama", "herb_slug": "leptochloa-polygama", "herb_name_scientific": "Leptochloa polygama", "url": "herbs/leptochloa-polygama", "lastmod": "2024-12-29", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 18, "confidence_score": 167, "total_score": 3006}, {"medicine_or_poison": "medicine", "mentions": 2, "confidence_score": 18, "total_score": 36}], "family_slug": "poaceae", "family_name": "Poaceae", "herb_names_common": [{"name": "wire grass", "mentions": 30, "confidence_score": 212, "total_score": 6360}, {"name": "wiregrass", "mentions": 13, "confidence_score": 101, "total_score": 1313}, {"name": "wireseed grass", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "wire grass (leptochloa)", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "bambara grass", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "wire grass (leptochloa polygama)", "mentions": 8, "confidence_score": 34, "total_score": 272}, {"name": "grassy panic grass", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "leptochloa", "mentions": 7, "confidence_score": 23, "total_score": 161}, {"name": "slender wire grass", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "gamba grass", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "wire grasses", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "finger grass", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "mud grass", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "slender wiregrass", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "pangola grass", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "wire-stem grass", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "river grass", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "grassy wire grass", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "grain beard grass", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "moor grass", "mentions": 1, "confidence_score": 9, "total_score": 9}], "uses": "Leptochloa polygama, also known as bush grass or wire grass, has been traditionally used in various cultures for its medicinal properties. Its roots and leaves are used to treat various ailments such as fever, rheumatism, and skin conditions. The plant's extracts are believed to have anti-inflammatory, antioxidant, and antimicrobial properties, which contribute to its medicinal uses. In some parts of the world, Leptochloa polygama is used to treat gastrointestinal issues and respiratory problems. However, further research is needed to confirm the efficacy and safety of its medicinal uses.", "taxonomy": "Leptochloa polygama is classified as a species of grass in the family Poaceae. It belongs to the genus Leptochloa, which comprises various species of grasses commonly found in wet environments. Leptochloa polygama is a perennial grass native to tropical and subtropical regions. This species is often found growing in areas with full sun to partial shade, and it thrives in a variety of soil types. As a member of the Poaceae family, Leptochloa polygama is closely related to other grass species within this family.", "benefits": "Leptochloa polygama, commonly known as wiregrass, has been studied for its potential health benefits. The plant contains various bioactive compounds, including flavonoids and phenolic acids, which may exhibit antioxidant and anti-inflammatory properties. These properties could potentially help protect against oxidative stress and inflammation-related diseases. However, more research is needed to fully understand the health benefits of Leptochloa polygama. Traditional medicine has used the plant to treat various ailments, including fever and respiratory issues.", "properties": "Leptochloa polygama, a plant native to certain regions, has been studied for its potential therapeutic properties. Its leaves and roots are believed to possess antioxidant, anti-inflammatory, and antimicrobial properties. The plant's extracts have been investigated for their ability to inhibit the growth of certain bacteria and fungi. Additionally, Leptochloa polygama may have potential in the development of natural remedies for various health conditions. More research is needed to fully understand the plant's therapeutic properties and their applications.", "constituents": "Leptochloa polygama, also known as speargrass, contains various active constituents that contribute to its medicinal properties. These constituents include flavonoids, phenolic acids, and saponins. Flavonoids in speargrass may exhibit antioxidant and anti-inflammatory activities. The phenolic acids present in the plant may have antimicrobial and anti-cancer properties. Furthermore, the saponins in speargrass may have potential applications in traditional medicine for treating various health conditions.", "parts": "Leptochloa polygama is known to be used in traditional medicine, specifically the roots and leaves of the plant are used. The roots are considered to have anti-inflammatory properties, while the leaves are believed to have antimicrobial properties. In some regions, the plant is used to treat various health conditions, including fever and digestive issues. The exact mechanisms and effectiveness of these medicinal properties are still being studied and require further research. The use of Leptochloa polygama in medicine is largely based on traditional knowledge and has not been extensively scientifically validated.", "preparations": "Leptochloa polygama has been traditionally used in herbal preparations in various cultures. The plant is said to have medicinal properties, although specific uses can vary depending on the region and tradition. In some parts of the world, Leptochloa polygama is used to treat respiratory issues, such as coughs and colds. The plant's leaves and seeds are often used in infusions or decoctions. However, the effectiveness and safety of using Leptochloa polygama in herbal preparations have not been extensively scientifically studied.", "side_effects": "Info not available yet.", "intro": "Leptochloa polygama, also known as Leptochloa grass or as Leptochloa, is a type of plant species in the family Poaceae. The plant is traditionally used for its medicinal properties, with reported health benefits including its anti-inflammatory, antioxidant, and antimicrobial activities, which can help to alleviate symptoms of various diseases. Leptochloa polygama contains bioactive constituents such as flavonoids, phenolic acids, and alkaloids, which contribute to its therapeutic properties. In traditional herbal medicine, Leptochloa is often prepared as a decoction or infusion, and is commonly used to make teas, tinctures, and dried extracts that are used to treat a range of health conditions."}
+{
+    "title": "Leptochloa polygama",
+    "herb_slug": "leptochloa-polygama",
+    "herb_name_scientific": "Leptochloa polygama",
+    "url": "herbs/leptochloa-polygama",
+    "lastmod": "2024-12-29",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 18,
+            "confidence_score": 167,
+            "total_score": 3006
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "family_slug": "poaceae",
+    "family_name": "Poaceae",
+    "herb_names_common": [
+        {
+            "name": "wire grass",
+            "mentions": 30,
+            "confidence_score": 212,
+            "total_score": 6360
+        },
+        {
+            "name": "wiregrass",
+            "mentions": 13,
+            "confidence_score": 101,
+            "total_score": 1313
+        },
+        {
+            "name": "wireseed grass",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "wire grass (leptochloa)",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "bambara grass",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "wire grass (leptochloa polygama)",
+            "mentions": 8,
+            "confidence_score": 34,
+            "total_score": 272
+        },
+        {
+            "name": "grassy panic grass",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "leptochloa",
+            "mentions": 7,
+            "confidence_score": 23,
+            "total_score": 161
+        },
+        {
+            "name": "slender wire grass",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "gamba grass",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "wire grasses",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "finger grass",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "mud grass",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "slender wiregrass",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "pangola grass",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "wire-stem grass",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "river grass",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "grassy wire grass",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "grain beard grass",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "moor grass",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "uses": "Leptochloa polygama, also known as bush grass or wire grass, has been traditionally used in various cultures for its medicinal properties. Its roots and leaves are used to treat various ailments such as fever, rheumatism, and skin conditions. The plant's extracts are believed to have anti-inflammatory, antioxidant, and antimicrobial properties, which contribute to its medicinal uses. In some parts of the world, Leptochloa polygama is used to treat gastrointestinal issues and respiratory problems. However, further research is needed to confirm the efficacy and safety of its medicinal uses.",
+    "taxonomy": "Leptochloa polygama is classified as a species of grass in the family Poaceae. It belongs to the genus Leptochloa, which comprises various species of grasses commonly found in wet environments. Leptochloa polygama is a perennial grass native to tropical and subtropical regions. This species is often found growing in areas with full sun to partial shade, and it thrives in a variety of soil types. As a member of the Poaceae family, Leptochloa polygama is closely related to other grass species within this family.",
+    "benefits": "Leptochloa polygama, commonly known as wiregrass, has been studied for its potential health benefits. The plant contains various bioactive compounds, including flavonoids and phenolic acids, which may exhibit antioxidant and anti-inflammatory properties. These properties could potentially help protect against oxidative stress and inflammation-related diseases. However, more research is needed to fully understand the health benefits of Leptochloa polygama. Traditional medicine has used the plant to treat various ailments, including fever and respiratory issues.",
+    "properties": "Leptochloa polygama, a plant native to certain regions, has been studied for its potential therapeutic properties. Its leaves and roots are believed to possess antioxidant, anti-inflammatory, and antimicrobial properties. The plant's extracts have been investigated for their ability to inhibit the growth of certain bacteria and fungi. Additionally, Leptochloa polygama may have potential in the development of natural remedies for various health conditions. More research is needed to fully understand the plant's therapeutic properties and their applications.",
+    "constituents": "Leptochloa polygama, also known as speargrass, contains various active constituents that contribute to its medicinal properties. These constituents include flavonoids, phenolic acids, and saponins. Flavonoids in speargrass may exhibit antioxidant and anti-inflammatory activities. The phenolic acids present in the plant may have antimicrobial and anti-cancer properties. Furthermore, the saponins in speargrass may have potential applications in traditional medicine for treating various health conditions.",
+    "parts": "Leptochloa polygama is known to be used in traditional medicine, specifically the roots and leaves of the plant are used. The roots are considered to have anti-inflammatory properties, while the leaves are believed to have antimicrobial properties. In some regions, the plant is used to treat various health conditions, including fever and digestive issues. The exact mechanisms and effectiveness of these medicinal properties are still being studied and require further research. The use of Leptochloa polygama in medicine is largely based on traditional knowledge and has not been extensively scientifically validated.",
+    "preparations": "Leptochloa polygama has been traditionally used in herbal preparations in various cultures. The plant is said to have medicinal properties, although specific uses can vary depending on the region and tradition. In some parts of the world, Leptochloa polygama is used to treat respiratory issues, such as coughs and colds. The plant's leaves and seeds are often used in infusions or decoctions. However, the effectiveness and safety of using Leptochloa polygama in herbal preparations have not been extensively scientifically studied.",
+    "side_effects": "Info not available yet.",
+    "intro": "Leptochloa polygama, also known as Leptochloa grass or as Leptochloa, is a type of plant species in the family Poaceae. The plant is traditionally used for its medicinal properties, with reported health benefits including its anti-inflammatory, antioxidant, and antimicrobial activities, which can help to alleviate symptoms of various diseases. Leptochloa polygama contains bioactive constituents such as flavonoids, phenolic acids, and alkaloids, which contribute to its therapeutic properties. In traditional herbal medicine, Leptochloa is often prepared as a decoction or infusion, and is commonly used to make teas, tinctures, and dried extracts that are used to treat a range of health conditions."
+}

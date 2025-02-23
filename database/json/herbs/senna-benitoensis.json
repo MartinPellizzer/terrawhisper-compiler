@@ -1,1 +1,755 @@
-{"title": "Senna benitoensis", "herb_slug": "senna-benitoensis", "herb_name_scientific": "Senna benitoensis", "family_slug": "fabaceae", "family_name": "Fabaceae", "url": "herbs/senna-benitoensis", "lastmod": "2025-1-14", "herb_names_common": [{"name": "benito senna", "mentions": 65, "confidence_score": 488, "total_score": 31720}, {"name": "benito senna bush", "mentions": 14, "confidence_score": 58, "total_score": 812}, {"name": "cassia", "mentions": 8, "confidence_score": 37, "total_score": 296}, {"name": "benito bush", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "benito cassia", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "benito senna plant", "mentions": 12, "confidence_score": 33, "total_score": 396}, {"name": "benito senna shrub", "mentions": 10, "confidence_score": 31, "total_score": 310}, {"name": "senna benito", "mentions": 8, "confidence_score": 31, "total_score": 248}, {"name": "sickle bush", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "benito senna tree", "mentions": 11, "confidence_score": 29, "total_score": 319}, {"name": "wild senna", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "benito's senna", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "senna benitoense", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "sickle bush senna", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "cassia benitoensis", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "sickle pod", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "sicklepod", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "senna benitoensis", "mentions": 4, "confidence_score": 8, "total_score": 32}, {"name": "sicklepod senna", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "benito senna (tree)", "mentions": 1, "confidence_score": 8, "total_score": 8}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 169, "total_score": 3380}], "what_description": "Senna benitoensis is a perennial plant that belongs to the family Fabaceae. It is characterized by its small, yellow flowers that are arranged in axillary racemes, and its flat, elliptical leaflets that are 5-10 cm long and have a crenate margin. The plant grows up to 1.5 meters in height, with a woody base and a spiny stem. The leaves are compound, with 4-8 pairs of leaflets, and are glabrous on the upper surface but pubescent on the lower surface. Senna benitoensis is native to the Baja California Peninsula in Mexico.", "category_action": "laxatives", "ailments": [{"name": "diarrhea", "mentions": 20, "confidence_score": 193, "total_score": 3860}, {"name": "constipation", "mentions": 20, "confidence_score": 179, "total_score": 3580}, {"name": "hemorrhoids", "mentions": 11, "confidence_score": 78, "total_score": 858}, {"name": "irritable bowel syndrome", "mentions": 10, "confidence_score": 76, "total_score": 760}, {"name": "gastroenteritis", "mentions": 12, "confidence_score": 72, "total_score": 864}, {"name": "inflammation", "mentions": 9, "confidence_score": 64, "total_score": 576}, {"name": "skin irritation", "mentions": 8, "confidence_score": 47, "total_score": 376}, {"name": "inflammatory bowel disease", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "bloating", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "fever", "mentions": 7, "confidence_score": 35, "total_score": 245}, {"name": "digestive issues", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "anxiety", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "bleeding", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "itching", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "gastroesophageal reflux disease", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "bacterial infections", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "indigestion", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "parasites", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "flatulence", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "nausea", "mentions": 3, "confidence_score": 15, "total_score": 45}], "ailments_description": "The most common ailments you can heal with Senna benitoensis are diarrhea, constipation, hemorrhoids, and gastroenteritis, which is effectively treated by its laxative properties. Irritable bowel syndrome is alleviated by the plant's soothing effect on the digestive tract. Senna benitoensis reduces inflammation by its anti-inflammatory properties, and skin irritation is treated by its emollient properties. Inflammatory bowel disease and bloating are relieved by its ability to regulate bowel movements. Additionally, Senna benitoensis is used to treat fever, digestive issues, anxiety, bleeding, itching, gastroesophageal reflux disease, bacterial infections, indigestion, parasites, flatulence, and nausea.", "properties": [{"name": "antimicrobial", "mentions": 19, "confidence_score": 137, "total_score": 2603}, {"name": "laxative", "mentions": 14, "confidence_score": 129, "total_score": 1806}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 113, "total_score": 2260}, {"name": "antioxidant", "mentions": 20, "confidence_score": 107, "total_score": 2140}, {"name": "diuretic", "mentions": 9, "confidence_score": 62, "total_score": 558}, {"name": "purgative", "mentions": 6, "confidence_score": 55, "total_score": 330}, {"name": "analgesic", "mentions": 13, "confidence_score": 49, "total_score": 637}, {"name": "astringent", "mentions": 6, "confidence_score": 48, "total_score": 288}, {"name": "antispasmodic", "mentions": 8, "confidence_score": 42, "total_score": 336}, {"name": "anthelmintic", "mentions": 5, "confidence_score": 38, "total_score": 190}, {"name": "emetic", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "cytotoxic", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "hepatoprotective", "mentions": 7, "confidence_score": 28, "total_score": 196}, {"name": "hemostatic", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "anti-diarrheal", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "antipyretic", "mentions": 6, "confidence_score": 20, "total_score": 120}, {"name": "antiseptic", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "antiparasitic", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "cathartic", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "antibacterial", "mentions": 3, "confidence_score": 16, "total_score": 48}], "properties_description": "The main therapeutic properties of Senna benitoensis are its antimicrobial effects, which have been attributed to the presence of flavonoids and saponins, that inhibit the growth of various pathogens. Senna benitoensis is also used as a laxative due to its high concentration of anthraquinone glycosides, which stimulate bowel movements and relieve constipation. Additionally, its anti-inflammatory properties have been linked to the presence of volatile oils, such as benitoic acid, that exhibit analgesic and anti-edematous activities, providing relief from pain and swelling. Moreover, the antioxidant capacity of Senna benitoensis, which can be attributed to the presence of flavonoids and phenolic acids, protects against oxidative stress and cell damage. Its diuretic properties, resulting from the action of anthraquinone glycosides, increase urine production and help to eliminate excess fluids from the body.", "constituents": [{"name": "sennoside a", "mentions": 19, "confidence_score": 172, "total_score": 3268}, {"name": "sennoside b", "mentions": 19, "confidence_score": 171, "total_score": 3249}, {"name": "sennoside c", "mentions": 19, "confidence_score": 158, "total_score": 3002}, {"name": "emodin", "mentions": 16, "confidence_score": 126, "total_score": 2016}, {"name": "sennoside d", "mentions": 15, "confidence_score": 119, "total_score": 1785}, {"name": "aloe-emodin", "mentions": 15, "confidence_score": 107, "total_score": 1605}, {"name": "sennoside e", "mentions": 13, "confidence_score": 91, "total_score": 1183}, {"name": "chrysophanic acid", "mentions": 14, "confidence_score": 90, "total_score": 1260}, {"name": "sennoside f", "mentions": 12, "confidence_score": 76, "total_score": 912}, {"name": "rhein", "mentions": 9, "confidence_score": 66, "total_score": 594}, {"name": "anthraquinone", "mentions": 12, "confidence_score": 62, "total_score": 744}, {"name": "sennoside g", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "isoalantolactone", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "quercetin", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "sennoside h", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "anthraquinone glycosides (such as sennoside a and sennoside b)", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "glycoside", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "physcion", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "anthraquinones", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "gallic acid", "mentions": 1, "confidence_score": 6, "total_score": 6}], "constituents_description": "The most important healing constituents of Senna benitoensis are anthraquinone glycosides sennoside A, sennoside B, sennoside C, and sennoside D, which are responsible for its purgative properties, and anthraquinone aglycon emodin, which contributes to its laxative and anti-inflammatory effects. Sennosides A, B, C, and D are anthraquinone glycosides that are hydrolyzed to emodin in the body, emodin has been shown to have anti-inflammatory and laxative effects. The anthraquinone glycosides are not absorbed in the digestive tract, but are instead hydrolyzed by intestinal bacteria to release the active anthraquinone aglycons, including emodin. Emodin has been reported to have anti-inflammatory and immunomodulatory effects, and is responsible for the laxative effects of Senna benitoensis. The laxative and anti-inflammatory properties of Senna benitoensis make it a useful treatment for constipation and certain gastrointestinal disorders.", "preparations": [{"name": "senna tea", "mentions": 20, "confidence_score": 195, "total_score": 3900}, {"name": "senna tincture", "mentions": 20, "confidence_score": 140, "total_score": 2800}, {"name": "senna infusion", "mentions": 17, "confidence_score": 122, "total_score": 2074}, {"name": "senna capsules", "mentions": 16, "confidence_score": 101, "total_score": 1616}, {"name": "senna extract", "mentions": 12, "confidence_score": 74, "total_score": 888}, {"name": "senna decoction", "mentions": 11, "confidence_score": 51, "total_score": 561}, {"name": "senna powder", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "senna syrup", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "senna salve", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "senna glycoside", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "infused oil", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "suppository", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "senna oil extract", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "senna poultice", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "senna glycerite", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "senna infusions", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "senna oil", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "glycerite", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "suppositories", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Senna benitoensis are derived from its leaves and pods, which contain anthraquinone glycosides. Senna tea, a popular preparation, is made by infusing the leaves and pods in hot water to release these compounds, which act as a laxative. Senna tincture is a concentrated liquid extract of Senna benitoensis, often used in homeopathic medicine to stimulate bowel movements. Senna infusion is similar to tea but often uses a higher ratio of plant material to water, resulting in a stronger laxative effect. Senna capsules and extract are also available, typically standardized to contain a specific amount of anthraquinones, providing a convenient and controlled dosage of the herb's active compounds.", "side_effects": [{"name": "experience diarrhea", "mentions": 8, "confidence_score": 73, "total_score": 584}, {"name": "experience vomiting", "mentions": 7, "confidence_score": 58, "total_score": 406}, {"name": "get dehydration", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "diarrhea", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "electrolyte imbalance", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "get headaches", "mentions": 6, "confidence_score": 35, "total_score": 210}, {"name": "develop abdominal pain", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "suffer nausea", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "abuse", "mentions": 3, "confidence_score": 30, "total_score": 90}, {"name": "dehydration", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "experiences diarrhea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "develops abdominal pain", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "develop electrolyte imbalance", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "have electrolyte imbalance", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "nausea", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "develop nausea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "hypokalemia", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "feel dizziness", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "develops electrolyte imbalance", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "suffer abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}], "side_effects_description": "The possible side effects of using Senna benitoensis improperly include experiencing diarrhea due to the laxative properties of the plant, which can lead to dehydration if not properly managed. This dehydration can cause electrolyte imbalance as the body loses essential minerals like potassium and sodium. Vomiting may also occur as a result of the intense purging effect of Senna benitoensis, exacerbating dehydration and electrolyte imbalance. Prolonged use of Senna benitoensis can lead to dependence on the plant's laxative properties, causing the body to become accustomed to the stimulant effects. If not addressed, these side effects can result in severe health complications, making proper use and medical supervision essential.", "uses": "Senna benitoensis is reportedly used in traditional medicine, particularly in Mexico. It is believed to have various medicinal properties and is used to treat different health issues, including digestive problems. The plant's roots and leaves are used in the treatment, which are said to have antiseptic and anti-inflammatory effects. However, more research is needed to confirm its efficacy and safety as a medicinal plant. More studies are required to fully understand the potential benefits and risks of using Senna benitoensis for medicinal purposes.", "taxonomy": "Senna benitoensis is a species of flowering plant in the pea family, Fabaceae. It belongs to the genus Senna, which comprises about 250 species of flowering plants. The genus Senna is further divided into several subgenera, with Senna benitoensis being part of the subgenus Chamaesenna. Senna benitoensis is native to Mexico and is a relatively rare plant species. Further classification may involve its tribe, which is Cassieae.", "benefits": "Senna benitoensis has been used in traditional medicine for its potential health benefits, including treating digestive issues and skin problems. The plant is believed to have anti-inflammatory properties, which may help reduce swelling and alleviate pain. Its leaves and pods are rich in antioxidants, which can help protect the body against free radicals and oxidative stress. Senna benitoensis is also thought to have antimicrobial properties, which may help prevent infections and promote wound healing. Further research is needed to fully understand the health benefits of Senna benitoensis and to confirm its effectiveness in treating various health conditions.", "parts": "Senna benitoensis is a plant species known for its medicinal properties, particularly in traditional medicine. The plant's medicinal parts include its leaves and pods, which are used in various herbal remedies. The leaves are rich in sennosides, a group of anthraquinone glycosides that have been used to treat constipation. The pods, on the other hand, contain a higher concentration of these sennosides and are often used to prepare medicinal teas. The plant's medicinal properties are still being studied, and its use is mostly limited to traditional and local applications.", "intro": "Senna benitoensis is a plant species within the legume family, known for its medicinal and ornamental values. The plant is rich in bioactive constituents, including flavonoids, alkaloids, and saponins, which have been attributed to its health benefits, such as anti-inflammatory, antioxidant, and antimicrobial properties. These constituents may help to protect against oxidative stress, reduce inflammation, and exhibit potential therapeutic effects against various diseases. Senna benitoensis is commonly used to make herbal preparations, including teas, infusions, and extracts, which are traditionally used to treat gastrointestinal issues and promote digestive health."}
+{
+    "title": "Senna benitoensis",
+    "herb_slug": "senna-benitoensis",
+    "herb_name_scientific": "Senna benitoensis",
+    "family_slug": "fabaceae",
+    "family_name": "Fabaceae",
+    "url": "herbs/senna-benitoensis",
+    "lastmod": "2025-1-14",
+    "herb_names_common": [
+        {
+            "name": "benito senna",
+            "mentions": 65,
+            "confidence_score": 488,
+            "total_score": 31720
+        },
+        {
+            "name": "benito senna bush",
+            "mentions": 14,
+            "confidence_score": 58,
+            "total_score": 812
+        },
+        {
+            "name": "cassia",
+            "mentions": 8,
+            "confidence_score": 37,
+            "total_score": 296
+        },
+        {
+            "name": "benito bush",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "benito cassia",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "benito senna plant",
+            "mentions": 12,
+            "confidence_score": 33,
+            "total_score": 396
+        },
+        {
+            "name": "benito senna shrub",
+            "mentions": 10,
+            "confidence_score": 31,
+            "total_score": 310
+        },
+        {
+            "name": "senna benito",
+            "mentions": 8,
+            "confidence_score": 31,
+            "total_score": 248
+        },
+        {
+            "name": "sickle bush",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "benito senna tree",
+            "mentions": 11,
+            "confidence_score": 29,
+            "total_score": 319
+        },
+        {
+            "name": "wild senna",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "benito's senna",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "senna benitoense",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "sickle bush senna",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "cassia benitoensis",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "sickle pod",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "sicklepod",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "senna benitoensis",
+            "mentions": 4,
+            "confidence_score": 8,
+            "total_score": 32
+        },
+        {
+            "name": "sicklepod senna",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "benito senna (tree)",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 169,
+            "total_score": 3380
+        }
+    ],
+    "what_description": "Senna benitoensis is a perennial plant that belongs to the family Fabaceae. It is characterized by its small, yellow flowers that are arranged in axillary racemes, and its flat, elliptical leaflets that are 5-10 cm long and have a crenate margin. The plant grows up to 1.5 meters in height, with a woody base and a spiny stem. The leaves are compound, with 4-8 pairs of leaflets, and are glabrous on the upper surface but pubescent on the lower surface. Senna benitoensis is native to the Baja California Peninsula in Mexico.",
+    "category_action": "laxatives",
+    "ailments": [
+        {
+            "name": "diarrhea",
+            "mentions": 20,
+            "confidence_score": 193,
+            "total_score": 3860
+        },
+        {
+            "name": "constipation",
+            "mentions": 20,
+            "confidence_score": 179,
+            "total_score": 3580
+        },
+        {
+            "name": "hemorrhoids",
+            "mentions": 11,
+            "confidence_score": 78,
+            "total_score": 858
+        },
+        {
+            "name": "irritable bowel syndrome",
+            "mentions": 10,
+            "confidence_score": 76,
+            "total_score": 760
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 12,
+            "confidence_score": 72,
+            "total_score": 864
+        },
+        {
+            "name": "inflammation",
+            "mentions": 9,
+            "confidence_score": 64,
+            "total_score": 576
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 8,
+            "confidence_score": 47,
+            "total_score": 376
+        },
+        {
+            "name": "inflammatory bowel disease",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "bloating",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "fever",
+            "mentions": 7,
+            "confidence_score": 35,
+            "total_score": 245
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "anxiety",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "bleeding",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "itching",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "gastroesophageal reflux disease",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "bacterial infections",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "indigestion",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "parasites",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "flatulence",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "nausea",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Senna benitoensis are diarrhea, constipation, hemorrhoids, and gastroenteritis, which is effectively treated by its laxative properties. Irritable bowel syndrome is alleviated by the plant's soothing effect on the digestive tract. Senna benitoensis reduces inflammation by its anti-inflammatory properties, and skin irritation is treated by its emollient properties. Inflammatory bowel disease and bloating are relieved by its ability to regulate bowel movements. Additionally, Senna benitoensis is used to treat fever, digestive issues, anxiety, bleeding, itching, gastroesophageal reflux disease, bacterial infections, indigestion, parasites, flatulence, and nausea.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 19,
+            "confidence_score": 137,
+            "total_score": 2603
+        },
+        {
+            "name": "laxative",
+            "mentions": 14,
+            "confidence_score": 129,
+            "total_score": 1806
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 113,
+            "total_score": 2260
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 107,
+            "total_score": 2140
+        },
+        {
+            "name": "diuretic",
+            "mentions": 9,
+            "confidence_score": 62,
+            "total_score": 558
+        },
+        {
+            "name": "purgative",
+            "mentions": 6,
+            "confidence_score": 55,
+            "total_score": 330
+        },
+        {
+            "name": "analgesic",
+            "mentions": 13,
+            "confidence_score": 49,
+            "total_score": 637
+        },
+        {
+            "name": "astringent",
+            "mentions": 6,
+            "confidence_score": 48,
+            "total_score": 288
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 8,
+            "confidence_score": 42,
+            "total_score": 336
+        },
+        {
+            "name": "anthelmintic",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        },
+        {
+            "name": "emetic",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 7,
+            "confidence_score": 28,
+            "total_score": 196
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "anti-diarrheal",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 6,
+            "confidence_score": 20,
+            "total_score": 120
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "cathartic",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Senna benitoensis are its antimicrobial effects, which have been attributed to the presence of flavonoids and saponins, that inhibit the growth of various pathogens. Senna benitoensis is also used as a laxative due to its high concentration of anthraquinone glycosides, which stimulate bowel movements and relieve constipation. Additionally, its anti-inflammatory properties have been linked to the presence of volatile oils, such as benitoic acid, that exhibit analgesic and anti-edematous activities, providing relief from pain and swelling. Moreover, the antioxidant capacity of Senna benitoensis, which can be attributed to the presence of flavonoids and phenolic acids, protects against oxidative stress and cell damage. Its diuretic properties, resulting from the action of anthraquinone glycosides, increase urine production and help to eliminate excess fluids from the body.",
+    "constituents": [
+        {
+            "name": "sennoside a",
+            "mentions": 19,
+            "confidence_score": 172,
+            "total_score": 3268
+        },
+        {
+            "name": "sennoside b",
+            "mentions": 19,
+            "confidence_score": 171,
+            "total_score": 3249
+        },
+        {
+            "name": "sennoside c",
+            "mentions": 19,
+            "confidence_score": 158,
+            "total_score": 3002
+        },
+        {
+            "name": "emodin",
+            "mentions": 16,
+            "confidence_score": 126,
+            "total_score": 2016
+        },
+        {
+            "name": "sennoside d",
+            "mentions": 15,
+            "confidence_score": 119,
+            "total_score": 1785
+        },
+        {
+            "name": "aloe-emodin",
+            "mentions": 15,
+            "confidence_score": 107,
+            "total_score": 1605
+        },
+        {
+            "name": "sennoside e",
+            "mentions": 13,
+            "confidence_score": 91,
+            "total_score": 1183
+        },
+        {
+            "name": "chrysophanic acid",
+            "mentions": 14,
+            "confidence_score": 90,
+            "total_score": 1260
+        },
+        {
+            "name": "sennoside f",
+            "mentions": 12,
+            "confidence_score": 76,
+            "total_score": 912
+        },
+        {
+            "name": "rhein",
+            "mentions": 9,
+            "confidence_score": 66,
+            "total_score": 594
+        },
+        {
+            "name": "anthraquinone",
+            "mentions": 12,
+            "confidence_score": 62,
+            "total_score": 744
+        },
+        {
+            "name": "sennoside g",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "isoalantolactone",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "quercetin",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "sennoside h",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "anthraquinone glycosides (such as sennoside a and sennoside b)",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "glycoside",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "physcion",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "anthraquinones",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "gallic acid",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Senna benitoensis are anthraquinone glycosides sennoside A, sennoside B, sennoside C, and sennoside D, which are responsible for its purgative properties, and anthraquinone aglycon emodin, which contributes to its laxative and anti-inflammatory effects. Sennosides A, B, C, and D are anthraquinone glycosides that are hydrolyzed to emodin in the body, emodin has been shown to have anti-inflammatory and laxative effects. The anthraquinone glycosides are not absorbed in the digestive tract, but are instead hydrolyzed by intestinal bacteria to release the active anthraquinone aglycons, including emodin. Emodin has been reported to have anti-inflammatory and immunomodulatory effects, and is responsible for the laxative effects of Senna benitoensis. The laxative and anti-inflammatory properties of Senna benitoensis make it a useful treatment for constipation and certain gastrointestinal disorders.",
+    "preparations": [
+        {
+            "name": "senna tea",
+            "mentions": 20,
+            "confidence_score": 195,
+            "total_score": 3900
+        },
+        {
+            "name": "senna tincture",
+            "mentions": 20,
+            "confidence_score": 140,
+            "total_score": 2800
+        },
+        {
+            "name": "senna infusion",
+            "mentions": 17,
+            "confidence_score": 122,
+            "total_score": 2074
+        },
+        {
+            "name": "senna capsules",
+            "mentions": 16,
+            "confidence_score": 101,
+            "total_score": 1616
+        },
+        {
+            "name": "senna extract",
+            "mentions": 12,
+            "confidence_score": 74,
+            "total_score": 888
+        },
+        {
+            "name": "senna decoction",
+            "mentions": 11,
+            "confidence_score": 51,
+            "total_score": 561
+        },
+        {
+            "name": "senna powder",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "senna syrup",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "senna salve",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "senna glycoside",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "infused oil",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "senna oil extract",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "senna poultice",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "senna glycerite",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "senna infusions",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "senna oil",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "glycerite",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "suppositories",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Senna benitoensis are derived from its leaves and pods, which contain anthraquinone glycosides. Senna tea, a popular preparation, is made by infusing the leaves and pods in hot water to release these compounds, which act as a laxative. Senna tincture is a concentrated liquid extract of Senna benitoensis, often used in homeopathic medicine to stimulate bowel movements. Senna infusion is similar to tea but often uses a higher ratio of plant material to water, resulting in a stronger laxative effect. Senna capsules and extract are also available, typically standardized to contain a specific amount of anthraquinones, providing a convenient and controlled dosage of the herb's active compounds.",
+    "side_effects": [
+        {
+            "name": "experience diarrhea",
+            "mentions": 8,
+            "confidence_score": 73,
+            "total_score": 584
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 7,
+            "confidence_score": 58,
+            "total_score": 406
+        },
+        {
+            "name": "get dehydration",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "electrolyte imbalance",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "get headaches",
+            "mentions": 6,
+            "confidence_score": 35,
+            "total_score": 210
+        },
+        {
+            "name": "develop abdominal pain",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "suffer nausea",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "abuse",
+            "mentions": 3,
+            "confidence_score": 30,
+            "total_score": 90
+        },
+        {
+            "name": "dehydration",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "experiences diarrhea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "develops abdominal pain",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "develop electrolyte imbalance",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "have electrolyte imbalance",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "nausea",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "develop nausea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "hypokalemia",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "feel dizziness",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "develops electrolyte imbalance",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "suffer abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Senna benitoensis improperly include experiencing diarrhea due to the laxative properties of the plant, which can lead to dehydration if not properly managed. This dehydration can cause electrolyte imbalance as the body loses essential minerals like potassium and sodium. Vomiting may also occur as a result of the intense purging effect of Senna benitoensis, exacerbating dehydration and electrolyte imbalance. Prolonged use of Senna benitoensis can lead to dependence on the plant's laxative properties, causing the body to become accustomed to the stimulant effects. If not addressed, these side effects can result in severe health complications, making proper use and medical supervision essential.",
+    "uses": "Senna benitoensis is reportedly used in traditional medicine, particularly in Mexico. It is believed to have various medicinal properties and is used to treat different health issues, including digestive problems. The plant's roots and leaves are used in the treatment, which are said to have antiseptic and anti-inflammatory effects. However, more research is needed to confirm its efficacy and safety as a medicinal plant. More studies are required to fully understand the potential benefits and risks of using Senna benitoensis for medicinal purposes.",
+    "taxonomy": "Senna benitoensis is a species of flowering plant in the pea family, Fabaceae. It belongs to the genus Senna, which comprises about 250 species of flowering plants. The genus Senna is further divided into several subgenera, with Senna benitoensis being part of the subgenus Chamaesenna. Senna benitoensis is native to Mexico and is a relatively rare plant species. Further classification may involve its tribe, which is Cassieae.",
+    "benefits": "Senna benitoensis has been used in traditional medicine for its potential health benefits, including treating digestive issues and skin problems. The plant is believed to have anti-inflammatory properties, which may help reduce swelling and alleviate pain. Its leaves and pods are rich in antioxidants, which can help protect the body against free radicals and oxidative stress. Senna benitoensis is also thought to have antimicrobial properties, which may help prevent infections and promote wound healing. Further research is needed to fully understand the health benefits of Senna benitoensis and to confirm its effectiveness in treating various health conditions.",
+    "parts": "Senna benitoensis is a plant species known for its medicinal properties, particularly in traditional medicine. The plant's medicinal parts include its leaves and pods, which are used in various herbal remedies. The leaves are rich in sennosides, a group of anthraquinone glycosides that have been used to treat constipation. The pods, on the other hand, contain a higher concentration of these sennosides and are often used to prepare medicinal teas. The plant's medicinal properties are still being studied, and its use is mostly limited to traditional and local applications.",
+    "intro": "Senna benitoensis is a plant species within the legume family, known for its medicinal and ornamental values. The plant is rich in bioactive constituents, including flavonoids, alkaloids, and saponins, which have been attributed to its health benefits, such as anti-inflammatory, antioxidant, and antimicrobial properties. These constituents may help to protect against oxidative stress, reduce inflammation, and exhibit potential therapeutic effects against various diseases. Senna benitoensis is commonly used to make herbal preparations, including teas, infusions, and extracts, which are traditionally used to treat gastrointestinal issues and promote digestive health."
+}

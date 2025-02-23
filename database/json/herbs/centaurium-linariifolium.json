@@ -1,1 +1,719 @@
-{"title": "Centaurium linariifolium", "herb_slug": "centaurium-linariifolium", "herb_name_scientific": "Centaurium linariifolium", "family_slug": "gentianaceae", "family_name": "Gentianaceae", "url": "herbs/centaurium-linariifolium", "lastmod": "2025-2-4", "herb_names_common": [{"name": "red mountain centaury", "mentions": 27, "confidence_score": 190, "total_score": 5130}, {"name": "red centaury", "mentions": 10, "confidence_score": 75, "total_score": 750}, {"name": "wild centaury", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "candyroot", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "mountain bluet", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "red valerian", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "cordial weed", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "candy root", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "mountain cordial", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "klein's gentian", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "mountain red centaury", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "garden centaury", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "cataria", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "centaure", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "centaurium", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "knee-high centaury", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "red mountain candyroot", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "rock centaury", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "catananche", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "small centaury", "mentions": 2, "confidence_score": 10, "total_score": 20}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 167, "total_score": 3340}], "what_description": "Centaurium linariifolium is a perennial herbaceous plant that belongs to the family Gentianaceae, native to Europe and Western Asia. It grows up to 30-60 cm in height, with a rosette of linear, lanceolate leaves that are 3-6 cm long and 0.5-1.5 cm wide. The plant produces a terminal inflorescence with many small, yellow flowers, each 1-2 cm long, that are arranged in whorls around the stem. The flowers have a distinctive shape, with five-lobed corolla and five-lobed calyx, and are in bloom from June to September. The plant prefers well-drained soils and full sun to partial shade, and is often found in rocky outcrops and dry meadows.", "category_action": "anticatarrhal", "ailments": [{"name": "urinary tract infections", "mentions": 15, "confidence_score": 114, "total_score": 1710}, {"name": "kidney stones", "mentions": 15, "confidence_score": 93, "total_score": 1395}, {"name": "diabetes", "mentions": 8, "confidence_score": 72, "total_score": 576}, {"name": "hypertension", "mentions": 7, "confidence_score": 58, "total_score": 406}, {"name": "inflammation", "mentions": 7, "confidence_score": 57, "total_score": 399}, {"name": "diarrhea", "mentions": 8, "confidence_score": 57, "total_score": 456}, {"name": "digestive issues", "mentions": 6, "confidence_score": 47, "total_score": 282}, {"name": "prostate issues", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "gastritis", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "eczema", "mentions": 7, "confidence_score": 31, "total_score": 217}, {"name": "hemorrhoids", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "arthritis", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "rheumatism", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "anemia", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "asthma", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "incontinence", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "gout", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "fever", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "respiratory issues", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "cancer prevention", "mentions": 3, "confidence_score": 20, "total_score": 60}], "ailments_description": "The most common ailments you can heal with Centaurium linariifolium are urinary tract infections, which can be treated with its antibacterial properties. Additionally, it has been used to alleviate kidney stones by reducing inflammation and promoting the expulsion of stones. Centaurium linariifolium also exhibits antidiabetic properties, helping to regulate blood sugar levels in diabetes patients. Furthermore, its vasodilatory effects have been shown to lower blood pressure in hypertension cases, while its anti-inflammatory properties alleviate digestive issues, such as gastritis. Its antiseptic properties are also beneficial in treating hemorrhoids, eczema, and incontinence, as well as reducing the risk of gout, fever, respiratory issues, and cancer.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 150, "total_score": 3000}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 149, "total_score": 2980}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 137, "total_score": 2740}, {"name": "analgesic", "mentions": 18, "confidence_score": 95, "total_score": 1710}, {"name": "antispasmodic", "mentions": 16, "confidence_score": 94, "total_score": 1504}, {"name": "hepatoprotective", "mentions": 11, "confidence_score": 62, "total_score": 682}, {"name": "cardioprotective", "mentions": 11, "confidence_score": 54, "total_score": 594}, {"name": "diuretic", "mentions": 7, "confidence_score": 41, "total_score": 287}, {"name": "antiviral", "mentions": 12, "confidence_score": 39, "total_score": 468}, {"name": "antibacterial", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "antifungal", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "sedative", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "expectorant", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "neuroprotective", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "cytotoxic", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "anticancer", "mentions": 6, "confidence_score": 18, "total_score": 108}, {"name": "cardiotonic", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "antihypertensive", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "antipyretic", "mentions": 3, "confidence_score": 9, "total_score": 27}, {"name": "vasodilatory", "mentions": 1, "confidence_score": 9, "total_score": 9}], "properties_description": "The main therapeutic properties of Centaurium linariifolium are its antioxidant properties, which are attributed to the presence of flavonoids and phenolic acids, allowing it to neutralize free radicals and prevent oxidative stress. This plant also exhibits antimicrobial properties, effectively inhibiting the growth of various microorganisms, including bacteria and fungi, due to the presence of triterpenoids and saponins. Centaurium linariifolium's anti-inflammatory properties are a result of its ability to suppress the production of pro-inflammatory cytokines, reducing inflammation and alleviating symptoms associated with various conditions. Furthermore, the plant's analgesic properties allow it to provide relief from pain, likely due to the presence of alkaloids and glycosides, which interact with opioid receptors in the brain. Additionally, Centaurium linariifolium's antispasmodic properties make it effective in treating muscle spasms, possibly due to the relaxation of smooth muscle tissue caused by the bioactive compounds present in the plant.", "constituents": [{"name": "iridoid glycosides", "mentions": 19, "confidence_score": 131, "total_score": 2489}, {"name": "flavonoids", "mentions": 13, "confidence_score": 91, "total_score": 1183}, {"name": "phenolic acids", "mentions": 13, "confidence_score": 87, "total_score": 1131}, {"name": "quercetin", "mentions": 9, "confidence_score": 71, "total_score": 639}, {"name": "kaempferol", "mentions": 9, "confidence_score": 66, "total_score": 594}, {"name": "saponins", "mentions": 13, "confidence_score": 63, "total_score": 819}, {"name": "tannins", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "apigenin", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "rosmarinic acid", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "alkaloids", "mentions": 8, "confidence_score": 34, "total_score": 272}, {"name": "coumarins", "mentions": 10, "confidence_score": 33, "total_score": 330}, {"name": "luteolin", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "terpenoids (e.g. borneol)", "mentions": 7, "confidence_score": 26, "total_score": 182}, {"name": "naringenin", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "iridoid glycosides (e.g. centaurin and centaureidin)", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "triterpenoids", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "caffeic acid", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "isorhapontigenin", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "triterpenes", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "amino acids", "mentions": 4, "confidence_score": 10, "total_score": 40}], "constituents_description": "The most important healing constituents of Centaurium linariifolium are iridoid glycosides, flavonoids, phenolic acids, which are responsible for its medicinal properties. Iridoids, such as centaurin, are known for their anti-inflammatory, antimicrobial, and antioxidant activities. Flavonoids, including quercetin and kaempferol, exhibit significant antioxidant and anti-inflammatory effects, which contribute to the plant's ability to soothe digestive issues and reduce inflammation. Quercetin, a powerful flavonoid, has been shown to inhibit the production of pro-inflammatory enzymes and molecules, while kaempferol has been found to have antimicrobial and anti-cancer properties. Phenolic acids, such as caffeic acid, are also present in Centaurium linariifolium and have been found to have antioxidant and anti-inflammatory effects, further contributing to the plant's healing properties.", "preparations": [{"name": "tincture", "mentions": 20, "confidence_score": 175, "total_score": 3500}, {"name": "tea", "mentions": 19, "confidence_score": 137, "total_score": 2603}, {"name": "infusion", "mentions": 16, "confidence_score": 129, "total_score": 2064}, {"name": "salve", "mentions": 20, "confidence_score": 100, "total_score": 2000}, {"name": "decoction", "mentions": 10, "confidence_score": 49, "total_score": 490}, {"name": "infused oil", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "ointment", "mentions": 7, "confidence_score": 33, "total_score": 231}, {"name": "extract", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "capsules", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "glycerite", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "poultice", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "suppository", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "tisane", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "The main herbal preparations of Centaurium linariifolium are tincture, tea, infusion, salve, and decoction. Tincture is made by soaking the plant in a solvent like ethanol or glycerin, allowing the bioactive compounds to be extracted. Tea and infusion are made by steeping the plant material in hot water, releasing its volatile oils and flavonoids. Salve is prepared by mixing the plant material with a carrier oil, like coconut or olive oil, to create a topical cream for skin issues. Decoction is a method of extracting the plant's bioactive compounds by boiling the plant material in water, allowing for a more concentrated extract.", "side_effects": [{"name": "induce nausea", "mentions": 5, "confidence_score": 44, "total_score": 220}, {"name": "induce allergic reactions", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "interact with medications", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "cause diarrhea", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "exacerbate allergy", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "trigger seizures", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "elevate blood pressure", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "prolong bleeding time", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "induce hypoglycemia", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "aggravate diabetes", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "develop allergic reactions", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experience nausea", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "cause renal failure", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "increase heart rate", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "cause liver damage", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "suffer diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "provoke respiratory distress", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "cause respiratory failure", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effects of using Centaurium linariifolium improperly include inducing nausea due to its bitter compounds, which may cause stomach irritation and discomfort in some individuals. Additionally, Centaurium linariifolium can induce allergic reactions in people with sensitivities or allergies to plants within the Gentianaceae family. Furthermore, using Centaurium linariifolium improperly may lead to interactions with medications, particularly those metabolized by the liver, due to its potential to alter enzyme activity. Centaurium linariifolium may also cause diarrhea in some individuals, possibly due to its bitter compounds and potential gastrointestinal irritation. Exacerbation of allergies is also a possible side effect, particularly in individuals with pre-existing conditions, as Centaurium linariifolium may trigger or worsen allergic reactions in sensitive individuals.", "uses": "Centaurium linariifolium is known to have various medicinal uses. It has been traditionally used to treat digestive issues and as a diuretic to help with urinary problems. The plant has also been used to treat fever, inflammation, and respiratory issues. Additionally, it has been used as a treatment for menstrual cramps and other gynecological issues. Its medicinal properties are attributed to its flavonoid and phenolic compounds, which have antioxidant and anti-inflammatory effects.", "taxonomy": "Centaurium linariifolium is classified as a flowering plant, specifically a member of the family Gentianaceae. It belongs to the order Gentianales and the class Magnoliopsida. Within the family Gentianaceae, Centaurium linariifolium is part of the genus Centaurium. The plant's classification is further broken down into the kingdom Plantae and the phylum Angiospermophyta. At the most specific level, it is classified as Centaurium linariifolium, being a single species within the genus.", "benefits": "Centaurium linariifolium is a plant species with potential health benefits, particularly in its anti-inflammatory and antimicrobial properties. Studies have suggested that it may help to reduce inflammation and alleviate symptoms associated with conditions such as arthritis. Additionally, its antimicrobial properties may contribute to the prevention of infections and the promotion of wound healing. The plant is also believed to have antioxidant properties, which can help to protect cells from damage caused by free radicals. Further research is needed to confirm the effectiveness and safety of Centaurium linariifolium as a therapeutic agent.", "parts": "Centaurium linariifolium is a plant species used in traditional medicine, and its medicinal parts are typically the leaves and flowers. The leaves are often used to prepare infusions or teas for medicinal purposes, while the flowers are used fresh or dried. The plant's medicinal properties are believed to have anti-inflammatory and antioxidant effects. The leaves and flowers of Centaurium linariifolium are also used in some herbal remedies to treat digestive issues and promote wound healing. In traditional medicine, the plant's parts are often used in combination with other herbs to enhance their medicinal effects.", "intro": "Centaurium linariifolium, also known as mountain centaury, is a perennial herbaceous plant belonging to the gentian family (Gentianaceae). The plant is valued for its potential health benefits, including anti-inflammatory and antimicrobial properties, which may help to soothe digestive issues and alleviate symptoms of respiratory infections. The bioactive constituents of Centaurium linariifolium include gentiopicroside, isogentiopicroside, and gentiogenin, which are responsible for its medicinal properties. In herbal medicine, Centaurium linariifolium is commonly prepared as a tincture, infusion, or dried extract, often used to treat digestive disorders and respiratory conditions, such as bronchitis and coughs."}
+{
+    "title": "Centaurium linariifolium",
+    "herb_slug": "centaurium-linariifolium",
+    "herb_name_scientific": "Centaurium linariifolium",
+    "family_slug": "gentianaceae",
+    "family_name": "Gentianaceae",
+    "url": "herbs/centaurium-linariifolium",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "red mountain centaury",
+            "mentions": 27,
+            "confidence_score": 190,
+            "total_score": 5130
+        },
+        {
+            "name": "red centaury",
+            "mentions": 10,
+            "confidence_score": 75,
+            "total_score": 750
+        },
+        {
+            "name": "wild centaury",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "candyroot",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "mountain bluet",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "red valerian",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "cordial weed",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "candy root",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "mountain cordial",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "klein's gentian",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "mountain red centaury",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "garden centaury",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "cataria",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "centaure",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "centaurium",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "knee-high centaury",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "red mountain candyroot",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "rock centaury",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "catananche",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "small centaury",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 167,
+            "total_score": 3340
+        }
+    ],
+    "what_description": "Centaurium linariifolium is a perennial herbaceous plant that belongs to the family Gentianaceae, native to Europe and Western Asia. It grows up to 30-60 cm in height, with a rosette of linear, lanceolate leaves that are 3-6 cm long and 0.5-1.5 cm wide. The plant produces a terminal inflorescence with many small, yellow flowers, each 1-2 cm long, that are arranged in whorls around the stem. The flowers have a distinctive shape, with five-lobed corolla and five-lobed calyx, and are in bloom from June to September. The plant prefers well-drained soils and full sun to partial shade, and is often found in rocky outcrops and dry meadows.",
+    "category_action": "anticatarrhal",
+    "ailments": [
+        {
+            "name": "urinary tract infections",
+            "mentions": 15,
+            "confidence_score": 114,
+            "total_score": 1710
+        },
+        {
+            "name": "kidney stones",
+            "mentions": 15,
+            "confidence_score": 93,
+            "total_score": 1395
+        },
+        {
+            "name": "diabetes",
+            "mentions": 8,
+            "confidence_score": 72,
+            "total_score": 576
+        },
+        {
+            "name": "hypertension",
+            "mentions": 7,
+            "confidence_score": 58,
+            "total_score": 406
+        },
+        {
+            "name": "inflammation",
+            "mentions": 7,
+            "confidence_score": 57,
+            "total_score": 399
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 8,
+            "confidence_score": 57,
+            "total_score": 456
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 6,
+            "confidence_score": 47,
+            "total_score": 282
+        },
+        {
+            "name": "prostate issues",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "gastritis",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "eczema",
+            "mentions": 7,
+            "confidence_score": 31,
+            "total_score": 217
+        },
+        {
+            "name": "hemorrhoids",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "arthritis",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "anemia",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "asthma",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "incontinence",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "gout",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "fever",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Centaurium linariifolium are urinary tract infections, which can be treated with its antibacterial properties. Additionally, it has been used to alleviate kidney stones by reducing inflammation and promoting the expulsion of stones. Centaurium linariifolium also exhibits antidiabetic properties, helping to regulate blood sugar levels in diabetes patients. Furthermore, its vasodilatory effects have been shown to lower blood pressure in hypertension cases, while its anti-inflammatory properties alleviate digestive issues, such as gastritis. Its antiseptic properties are also beneficial in treating hemorrhoids, eczema, and incontinence, as well as reducing the risk of gout, fever, respiratory issues, and cancer.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 150,
+            "total_score": 3000
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 149,
+            "total_score": 2980
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 137,
+            "total_score": 2740
+        },
+        {
+            "name": "analgesic",
+            "mentions": 18,
+            "confidence_score": 95,
+            "total_score": 1710
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 16,
+            "confidence_score": 94,
+            "total_score": 1504
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 11,
+            "confidence_score": 62,
+            "total_score": 682
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 11,
+            "confidence_score": 54,
+            "total_score": 594
+        },
+        {
+            "name": "diuretic",
+            "mentions": 7,
+            "confidence_score": 41,
+            "total_score": 287
+        },
+        {
+            "name": "antiviral",
+            "mentions": 12,
+            "confidence_score": 39,
+            "total_score": 468
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "antifungal",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "sedative",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "expectorant",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 18,
+            "total_score": 108
+        },
+        {
+            "name": "cardiotonic",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "antihypertensive",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        },
+        {
+            "name": "vasodilatory",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Centaurium linariifolium are its antioxidant properties, which are attributed to the presence of flavonoids and phenolic acids, allowing it to neutralize free radicals and prevent oxidative stress. This plant also exhibits antimicrobial properties, effectively inhibiting the growth of various microorganisms, including bacteria and fungi, due to the presence of triterpenoids and saponins. Centaurium linariifolium's anti-inflammatory properties are a result of its ability to suppress the production of pro-inflammatory cytokines, reducing inflammation and alleviating symptoms associated with various conditions. Furthermore, the plant's analgesic properties allow it to provide relief from pain, likely due to the presence of alkaloids and glycosides, which interact with opioid receptors in the brain. Additionally, Centaurium linariifolium's antispasmodic properties make it effective in treating muscle spasms, possibly due to the relaxation of smooth muscle tissue caused by the bioactive compounds present in the plant.",
+    "constituents": [
+        {
+            "name": "iridoid glycosides",
+            "mentions": 19,
+            "confidence_score": 131,
+            "total_score": 2489
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 13,
+            "confidence_score": 91,
+            "total_score": 1183
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 13,
+            "confidence_score": 87,
+            "total_score": 1131
+        },
+        {
+            "name": "quercetin",
+            "mentions": 9,
+            "confidence_score": 71,
+            "total_score": 639
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 9,
+            "confidence_score": 66,
+            "total_score": 594
+        },
+        {
+            "name": "saponins",
+            "mentions": 13,
+            "confidence_score": 63,
+            "total_score": 819
+        },
+        {
+            "name": "tannins",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "apigenin",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "rosmarinic acid",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 8,
+            "confidence_score": 34,
+            "total_score": 272
+        },
+        {
+            "name": "coumarins",
+            "mentions": 10,
+            "confidence_score": 33,
+            "total_score": 330
+        },
+        {
+            "name": "luteolin",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "terpenoids (e.g. borneol)",
+            "mentions": 7,
+            "confidence_score": 26,
+            "total_score": 182
+        },
+        {
+            "name": "naringenin",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "iridoid glycosides (e.g. centaurin and centaureidin)",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "triterpenes",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "amino acids",
+            "mentions": 4,
+            "confidence_score": 10,
+            "total_score": 40
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Centaurium linariifolium are iridoid glycosides, flavonoids, phenolic acids, which are responsible for its medicinal properties. Iridoids, such as centaurin, are known for their anti-inflammatory, antimicrobial, and antioxidant activities. Flavonoids, including quercetin and kaempferol, exhibit significant antioxidant and anti-inflammatory effects, which contribute to the plant's ability to soothe digestive issues and reduce inflammation. Quercetin, a powerful flavonoid, has been shown to inhibit the production of pro-inflammatory enzymes and molecules, while kaempferol has been found to have antimicrobial and anti-cancer properties. Phenolic acids, such as caffeic acid, are also present in Centaurium linariifolium and have been found to have antioxidant and anti-inflammatory effects, further contributing to the plant's healing properties.",
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 20,
+            "confidence_score": 175,
+            "total_score": 3500
+        },
+        {
+            "name": "tea",
+            "mentions": 19,
+            "confidence_score": 137,
+            "total_score": 2603
+        },
+        {
+            "name": "infusion",
+            "mentions": 16,
+            "confidence_score": 129,
+            "total_score": 2064
+        },
+        {
+            "name": "salve",
+            "mentions": 20,
+            "confidence_score": 100,
+            "total_score": 2000
+        },
+        {
+            "name": "decoction",
+            "mentions": 10,
+            "confidence_score": 49,
+            "total_score": 490
+        },
+        {
+            "name": "infused oil",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "ointment",
+            "mentions": 7,
+            "confidence_score": 33,
+            "total_score": 231
+        },
+        {
+            "name": "extract",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "capsules",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "glycerite",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "poultice",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "suppository",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "tisane",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Centaurium linariifolium are tincture, tea, infusion, salve, and decoction. Tincture is made by soaking the plant in a solvent like ethanol or glycerin, allowing the bioactive compounds to be extracted. Tea and infusion are made by steeping the plant material in hot water, releasing its volatile oils and flavonoids. Salve is prepared by mixing the plant material with a carrier oil, like coconut or olive oil, to create a topical cream for skin issues. Decoction is a method of extracting the plant's bioactive compounds by boiling the plant material in water, allowing for a more concentrated extract.",
+    "side_effects": [
+        {
+            "name": "induce nausea",
+            "mentions": 5,
+            "confidence_score": 44,
+            "total_score": 220
+        },
+        {
+            "name": "induce allergic reactions",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "exacerbate allergy",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "prolong bleeding time",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "induce hypoglycemia",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "aggravate diabetes",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "develop allergic reactions",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "cause renal failure",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "suffer diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "provoke respiratory distress",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "cause respiratory failure",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Centaurium linariifolium improperly include inducing nausea due to its bitter compounds, which may cause stomach irritation and discomfort in some individuals. Additionally, Centaurium linariifolium can induce allergic reactions in people with sensitivities or allergies to plants within the Gentianaceae family. Furthermore, using Centaurium linariifolium improperly may lead to interactions with medications, particularly those metabolized by the liver, due to its potential to alter enzyme activity. Centaurium linariifolium may also cause diarrhea in some individuals, possibly due to its bitter compounds and potential gastrointestinal irritation. Exacerbation of allergies is also a possible side effect, particularly in individuals with pre-existing conditions, as Centaurium linariifolium may trigger or worsen allergic reactions in sensitive individuals.",
+    "uses": "Centaurium linariifolium is known to have various medicinal uses. It has been traditionally used to treat digestive issues and as a diuretic to help with urinary problems. The plant has also been used to treat fever, inflammation, and respiratory issues. Additionally, it has been used as a treatment for menstrual cramps and other gynecological issues. Its medicinal properties are attributed to its flavonoid and phenolic compounds, which have antioxidant and anti-inflammatory effects.",
+    "taxonomy": "Centaurium linariifolium is classified as a flowering plant, specifically a member of the family Gentianaceae. It belongs to the order Gentianales and the class Magnoliopsida. Within the family Gentianaceae, Centaurium linariifolium is part of the genus Centaurium. The plant's classification is further broken down into the kingdom Plantae and the phylum Angiospermophyta. At the most specific level, it is classified as Centaurium linariifolium, being a single species within the genus.",
+    "benefits": "Centaurium linariifolium is a plant species with potential health benefits, particularly in its anti-inflammatory and antimicrobial properties. Studies have suggested that it may help to reduce inflammation and alleviate symptoms associated with conditions such as arthritis. Additionally, its antimicrobial properties may contribute to the prevention of infections and the promotion of wound healing. The plant is also believed to have antioxidant properties, which can help to protect cells from damage caused by free radicals. Further research is needed to confirm the effectiveness and safety of Centaurium linariifolium as a therapeutic agent.",
+    "parts": "Centaurium linariifolium is a plant species used in traditional medicine, and its medicinal parts are typically the leaves and flowers. The leaves are often used to prepare infusions or teas for medicinal purposes, while the flowers are used fresh or dried. The plant's medicinal properties are believed to have anti-inflammatory and antioxidant effects. The leaves and flowers of Centaurium linariifolium are also used in some herbal remedies to treat digestive issues and promote wound healing. In traditional medicine, the plant's parts are often used in combination with other herbs to enhance their medicinal effects.",
+    "intro": "Centaurium linariifolium, also known as mountain centaury, is a perennial herbaceous plant belonging to the gentian family (Gentianaceae). The plant is valued for its potential health benefits, including anti-inflammatory and antimicrobial properties, which may help to soothe digestive issues and alleviate symptoms of respiratory infections. The bioactive constituents of Centaurium linariifolium include gentiopicroside, isogentiopicroside, and gentiogenin, which are responsible for its medicinal properties. In herbal medicine, Centaurium linariifolium is commonly prepared as a tincture, infusion, or dried extract, often used to treat digestive disorders and respiratory conditions, such as bronchitis and coughs."
+}

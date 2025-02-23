@@ -1,1 +1,154 @@
-{"title": "Sampera pastoensis", "herb_slug": "sampera-pastoensis", "herb_name_scientific": "Sampera pastoensis", "family_slug": "asteraceae", "family_name": "Asteraceae", "url": "herbs/sampera-pastoensis", "lastmod": "2025-1-31", "herb_names_common": [{"name": "sampera pastoensis", "mentions": 101, "confidence_score": 120, "total_score": 12120}, {"name": "none", "mentions": 7, "confidence_score": 70, "total_score": 490}, {"name": "no common names found", "mentions": 4, "confidence_score": 40, "total_score": 160}, {"name": "unknown", "mentions": 4, "confidence_score": 40, "total_score": 160}, {"name": "none found", "mentions": 4, "confidence_score": 40, "total_score": 160}, {"name": "sampera pastoensis is a synonym for puya pastoensis", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "pasto sampera", "mentions": 7, "confidence_score": 25, "total_score": 175}, {"name": "sampera pastoensis is known as androsace pastoensis", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "this plant is not found in my database", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "cordia pastoensis", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "sampera pastoensis is not a commonly known plant", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "no common names available", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "androsace pastoensis is not found in my database", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "no common name found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "no information available", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "puya (plant)", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "colombian sampera", "mentions": 4, "confidence_score": 7, "total_score": 28}, {"name": "puya (genus)", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "puya pastoensis (sampera pastoensis)", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "pasto rock jasmine", "mentions": 1, "confidence_score": 5, "total_score": 5}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 12, "confidence_score": 118, "total_score": 1416}, {"medicine_or_poison": "medicine", "mentions": 8, "confidence_score": 33, "total_score": 264}], "uses": "Sampera pastoensis, also known as the Sampera plant, has been traditionally used for its medicinal properties, particularly in the Andean region of South America. The plant is said to have anti-inflammatory and antiseptic properties, making it useful for treating wounds and skin irritations. Additionally, it is believed to have antimicrobial properties, which may help to combat infections. More research is needed to fully understand the medicinal uses of Sampera pastoensis, but it has been traditionally used to treat a range of health issues. The plant is often used in folk medicine, but its effectiveness and safety have not been extensively scientifically studied.", "taxonomy": "Sampera pastoensis is classified in the plant kingdom. It belongs to the family of plants known as Asteraceae. Sampera pastoensis is a species of flowering plant that is native to the Andean region. The genus Sampera is a small group of plants that are found in the tropical regions of South America. Sampera pastoensis is closely related to other species in the same genus and family.", "benefits": "Sampera pastoensis is a plant species found in the Andean region. Sampera pastoensis has been traditionally used in medicine due to its potential health benefits, including anti-inflammatory and antioxidant properties. The plant is believed to help in reducing stress and promoting overall well-being. Its extracts may also have antimicrobial properties, which can aid in fighting infections. Further research is needed to confirm the full extent of its health benefits and potential applications.", "properties": "Sampera pastoensis is a plant species native to Colombia, and while there is limited information available, it is said to have potential therapeutic properties. Sampera pastoensis is believed to have anti-inflammatory and antioxidant properties, which may contribute to its potential health benefits. The plant's extracts have been studied for their ability to protect against oxidative stress and inflammation in various cell cultures. Further research is needed to fully understand the therapeutic properties of Sampera pastoensis and its potential applications in medicine. Its traditional use in folk medicine in Colombia suggests that it may have valuable properties waiting to be explored.", "constituents": "Sampera pastoensis, it is a plant species found in Colombia, but unfortunately, I do not have specific information on its active constituents.", "parts": "Sampera pastoensis is a plant species native to the Andean region, and its medicinal parts are primarily used for their therapeutic properties. The leaves and stems of this plant are typically used in traditional medicine. Sampera pastoensis contains compounds with anti-inflammatory and antioxidant properties, which contribute to its medicinal value. The plant is also used to treat various health issues, including fever, digestive problems, and skin conditions. Further research is necessary to fully understand the medicinal properties and potential uses of Sampera pastoensis.", "preparations": "Sampera pastoensis is a plant species native to Colombia, and its herbal preparations are used in traditional medicine. The plant's leaves and roots are typically used to make infusions and decoctions, which are believed to have anti-inflammatory and antioxidant properties. These herbal preparations are often used to treat various health conditions, including fever, cough, and respiratory issues. In addition, Sampera pastoensis is also used to make topical applications for skin conditions and wounds. More research is needed to confirm the efficacy and safety of these herbal preparations.", "side_effects": "Info not available yet.", "intro": "Sampera pastoensis, also known as Sampera, is a plant species native to the Andean region of South America, belonging to the family Asteraceae. The plant is valued for its medicinal properties, which include anti-inflammatory, antioxidant, and antimicrobial activities, offering potential health benefits for the treatment of various ailments such as fever, cough, and digestive issues. The bioactive constituents of Sampera pastoensis include flavonoids, terpenoids, and sesquiterpenes, which are responsible for its medicinal properties. Traditionally, Sampera is used to prepare herbal teas, infusions, and decoctions, which are among the most common herbal preparations made with this plant, often used to treat respiratory and gastrointestinal conditions."}
+{
+    "title": "Sampera pastoensis",
+    "herb_slug": "sampera-pastoensis",
+    "herb_name_scientific": "Sampera pastoensis",
+    "family_slug": "asteraceae",
+    "family_name": "Asteraceae",
+    "url": "herbs/sampera-pastoensis",
+    "lastmod": "2025-1-31",
+    "herb_names_common": [
+        {
+            "name": "sampera pastoensis",
+            "mentions": 101,
+            "confidence_score": 120,
+            "total_score": 12120
+        },
+        {
+            "name": "none",
+            "mentions": 7,
+            "confidence_score": 70,
+            "total_score": 490
+        },
+        {
+            "name": "no common names found",
+            "mentions": 4,
+            "confidence_score": 40,
+            "total_score": 160
+        },
+        {
+            "name": "unknown",
+            "mentions": 4,
+            "confidence_score": 40,
+            "total_score": 160
+        },
+        {
+            "name": "none found",
+            "mentions": 4,
+            "confidence_score": 40,
+            "total_score": 160
+        },
+        {
+            "name": "sampera pastoensis is a synonym for puya pastoensis",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "pasto sampera",
+            "mentions": 7,
+            "confidence_score": 25,
+            "total_score": 175
+        },
+        {
+            "name": "sampera pastoensis is known as androsace pastoensis",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "this plant is not found in my database",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "cordia pastoensis",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "sampera pastoensis is not a commonly known plant",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "no common names available",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "androsace pastoensis is not found in my database",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "no common name found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "no information available",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "puya (plant)",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "colombian sampera",
+            "mentions": 4,
+            "confidence_score": 7,
+            "total_score": 28
+        },
+        {
+            "name": "puya (genus)",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "puya pastoensis (sampera pastoensis)",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "pasto rock jasmine",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 12,
+            "confidence_score": 118,
+            "total_score": 1416
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 8,
+            "confidence_score": 33,
+            "total_score": 264
+        }
+    ],
+    "uses": "Sampera pastoensis, also known as the Sampera plant, has been traditionally used for its medicinal properties, particularly in the Andean region of South America. The plant is said to have anti-inflammatory and antiseptic properties, making it useful for treating wounds and skin irritations. Additionally, it is believed to have antimicrobial properties, which may help to combat infections. More research is needed to fully understand the medicinal uses of Sampera pastoensis, but it has been traditionally used to treat a range of health issues. The plant is often used in folk medicine, but its effectiveness and safety have not been extensively scientifically studied.",
+    "taxonomy": "Sampera pastoensis is classified in the plant kingdom. It belongs to the family of plants known as Asteraceae. Sampera pastoensis is a species of flowering plant that is native to the Andean region. The genus Sampera is a small group of plants that are found in the tropical regions of South America. Sampera pastoensis is closely related to other species in the same genus and family.",
+    "benefits": "Sampera pastoensis is a plant species found in the Andean region. Sampera pastoensis has been traditionally used in medicine due to its potential health benefits, including anti-inflammatory and antioxidant properties. The plant is believed to help in reducing stress and promoting overall well-being. Its extracts may also have antimicrobial properties, which can aid in fighting infections. Further research is needed to confirm the full extent of its health benefits and potential applications.",
+    "properties": "Sampera pastoensis is a plant species native to Colombia, and while there is limited information available, it is said to have potential therapeutic properties. Sampera pastoensis is believed to have anti-inflammatory and antioxidant properties, which may contribute to its potential health benefits. The plant's extracts have been studied for their ability to protect against oxidative stress and inflammation in various cell cultures. Further research is needed to fully understand the therapeutic properties of Sampera pastoensis and its potential applications in medicine. Its traditional use in folk medicine in Colombia suggests that it may have valuable properties waiting to be explored.",
+    "constituents": "Sampera pastoensis, it is a plant species found in Colombia, but unfortunately, I do not have specific information on its active constituents.",
+    "parts": "Sampera pastoensis is a plant species native to the Andean region, and its medicinal parts are primarily used for their therapeutic properties. The leaves and stems of this plant are typically used in traditional medicine. Sampera pastoensis contains compounds with anti-inflammatory and antioxidant properties, which contribute to its medicinal value. The plant is also used to treat various health issues, including fever, digestive problems, and skin conditions. Further research is necessary to fully understand the medicinal properties and potential uses of Sampera pastoensis.",
+    "preparations": "Sampera pastoensis is a plant species native to Colombia, and its herbal preparations are used in traditional medicine. The plant's leaves and roots are typically used to make infusions and decoctions, which are believed to have anti-inflammatory and antioxidant properties. These herbal preparations are often used to treat various health conditions, including fever, cough, and respiratory issues. In addition, Sampera pastoensis is also used to make topical applications for skin conditions and wounds. More research is needed to confirm the efficacy and safety of these herbal preparations.",
+    "side_effects": "Info not available yet.",
+    "intro": "Sampera pastoensis, also known as Sampera, is a plant species native to the Andean region of South America, belonging to the family Asteraceae. The plant is valued for its medicinal properties, which include anti-inflammatory, antioxidant, and antimicrobial activities, offering potential health benefits for the treatment of various ailments such as fever, cough, and digestive issues. The bioactive constituents of Sampera pastoensis include flavonoids, terpenoids, and sesquiterpenes, which are responsible for its medicinal properties. Traditionally, Sampera is used to prepare herbal teas, infusions, and decoctions, which are among the most common herbal preparations made with this plant, often used to treat respiratory and gastrointestinal conditions."
+}

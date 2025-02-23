@@ -1,1 +1,761 @@
-{"title": "Leucanthemum alpinum", "herb_slug": "leucanthemum-alpinum", "herb_name_scientific": "Leucanthemum alpinum", "family_slug": "asteraceae", "family_name": "Asteraceae", "url": "herbs/leucanthemum-alpinum", "lastmod": "2025-2-4", "herb_names_common": [{"name": "alpine daisy", "mentions": 28, "confidence_score": 234, "total_score": 6552}, {"name": "alpine white daisy", "mentions": 32, "confidence_score": 191, "total_score": 6112}, {"name": "mountain daisy", "mentions": 13, "confidence_score": 102, "total_score": 1326}, {"name": "white alpine daisy", "mentions": 9, "confidence_score": 51, "total_score": 459}, {"name": "edelweiss", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "alpine leucanthemum", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "alpen-l\u00f6wenzahn", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "alpine daisies", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "alpine white clover", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "alpenwei\u00df", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "alpenl\u00f6wenzahn", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "white mountain daisy", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "white edelweiss", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "alpine edelweiss", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "alpenlieb", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "alpen-dahlie", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "alpine daisy leucanthemum", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "alpenliebe", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "edelweiss daisy", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "alpen-kleeblatt", "mentions": 2, "confidence_score": 11, "total_score": 22}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 172, "total_score": 3440}], "what_description": "Leucanthemum alpinum is a perennial herbaceous plant native to the mountainous regions of Europe. It belongs to the family Asteraceae and is commonly known as alpine daisy or alpine white daisy. The plant has a height range of 10-40 cm and a leaf width of 1-3 cm, with linear, lanceolate, and entire leaf margins. The inflorescence is a corymb with 10-20 white or pinkish flowers, each 3-4 cm in diameter, with 20-30 florets, and a tubular corolla with 5 lobes. The plant's stem is hairy, and its roots are fibrous and horizontal, with a taproot present at the base.", "category_action": "anti-inflammatory", "ailments": [{"name": "inflammation", "mentions": 15, "confidence_score": 131, "total_score": 1965}, {"name": "wound healing", "mentions": 12, "confidence_score": 91, "total_score": 1092}, {"name": "skin irritation", "mentions": 13, "confidence_score": 84, "total_score": 1092}, {"name": "arthritis", "mentions": 7, "confidence_score": 50, "total_score": 350}, {"name": "infection", "mentions": 5, "confidence_score": 43, "total_score": 215}, {"name": "fever", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "digestive issues", "mentions": 8, "confidence_score": 40, "total_score": 320}, {"name": "anxiety", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "diabetes", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "diarrhea", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "allergies", "mentions": 6, "confidence_score": 29, "total_score": 174}, {"name": "cardiovascular disease", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "fungal infections", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "stress", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "pain relief", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "hypertension", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "cancer", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "gastrointestinal disorders", "mentions": 4, "confidence_score": 23, "total_score": 92}, {"name": "rheumatism", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "insect bites", "mentions": 3, "confidence_score": 21, "total_score": 63}], "ailments_description": "The most common ailments you can heal with Leucanthemum alpinum are inflammation caused by its anti-inflammatory flavonoids and sesquiterpenes, wound healing due to its ability to stimulate collagen synthesis and cell proliferation, skin irritation reduced by its antioxidant and anti-inflammatory properties, and arthritis symptoms alleviated by its anti-inflammatory and immunomodulatory effects. Leucanthemum alpinum also exhibits antibacterial properties that combat infections, and its antipyretic flavonoids help reduce fever. Additionally, it has been shown to alleviate digestive issues such as diarrhea by stabilizing gut permeability and modulating gut microbiota. Furthermore, Leucanthemum alpinum has been found to exhibit anxiolytic and anti-diabetic effects, suggesting its potential in managing anxiety and diabetes. Its anti-hypertensive and analgesic properties also make it a potential treatment for hypertension and pain relief.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 161, "total_score": 3220}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 149, "total_score": 2980}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 134, "total_score": 2680}, {"name": "analgesic", "mentions": 18, "confidence_score": 77, "total_score": 1386}, {"name": "cardioprotective", "mentions": 11, "confidence_score": 65, "total_score": 715}, {"name": "antifungal", "mentions": 10, "confidence_score": 54, "total_score": 540}, {"name": "antibacterial", "mentions": 9, "confidence_score": 54, "total_score": 486}, {"name": "antiviral", "mentions": 15, "confidence_score": 47, "total_score": 705}, {"name": "hepatoprotective", "mentions": 7, "confidence_score": 37, "total_score": 259}, {"name": "anticancer", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "immunomodulatory", "mentions": 7, "confidence_score": 25, "total_score": 175}, {"name": "wound healing", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "neuroprotective", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "cytotoxic", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "antispasmodic", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "antipyretic", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "antiseptic", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "antitumor", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "antihistamine", "mentions": 4, "confidence_score": 13, "total_score": 52}, {"name": "diuretic", "mentions": 4, "confidence_score": 12, "total_score": 48}], "properties_description": "The main therapeutic properties of Leucanthemum alpinum are its antioxidant effects, which protect cells from oxidative damage and contribute to its cardioprotective properties by improving cardiovascular health. The anti-inflammatory activity of this plant helps alleviate pain and discomfort associated with various conditions, making it analgesic in nature. Additionally, its antimicrobial properties enable it to combat bacterial and fungal infections, further highlighting its medicinal value. The bioactive compounds responsible for these properties include flavonoids, volatile oils, and other phytochemicals, such as saponins, which are known to contribute to the plant's therapeutic effects. The antioxidant and anti-inflammatory activities of Leucanthemum alpinum are also responsible for its ability to inhibit the growth of microorganisms, reinforcing its antimicrobial properties.", "constituents": [{"name": "flavonoids", "mentions": 15, "confidence_score": 126, "total_score": 1890}, {"name": "phenolic acids", "mentions": 15, "confidence_score": 110, "total_score": 1650}, {"name": "tannins", "mentions": 16, "confidence_score": 89, "total_score": 1424}, {"name": "saponins", "mentions": 15, "confidence_score": 75, "total_score": 1125}, {"name": "cardiac glycosides", "mentions": 14, "confidence_score": 61, "total_score": 854}, {"name": "triterpenoids", "mentions": 9, "confidence_score": 57, "total_score": 513}, {"name": "coumarins", "mentions": 11, "confidence_score": 50, "total_score": 550}, {"name": "alkaloids", "mentions": 12, "confidence_score": 36, "total_score": 432}, {"name": "quercetin", "mentions": 5, "confidence_score": 36, "total_score": 180}, {"name": "apigenin", "mentions": 5, "confidence_score": 33, "total_score": 165}, {"name": "luteolin", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "essential oils", "mentions": 6, "confidence_score": 27, "total_score": 162}, {"name": "rosmarinic acid", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "kaempferol", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "leucanthemum alpinum flavonoids", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "sterols", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "sesquiterpenes", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "triterpenes", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "leucanthemum alpinum contains volatile oils", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "sesquiterpene lactones", "mentions": 2, "confidence_score": 18, "total_score": 36}], "constituents_description": "The most important healing constituents of Leucanthemum alpinum are flavonoids including apigenin and luteolin which have antioxidant and anti-inflammatory properties. Additionally, phenolic acids such as ferulic acid and sinapic acid possess antimicrobial and antiseptic activities. Tannins present in the plant have astringent and anti-inflammatory effects due to their ability to bind to proteins and inhibit the growth of microorganisms. Saponins like leucanthemunol have been shown to exhibit antimicrobial and anti-inflammatory activities by disrupting cell membranes and inhibiting the release of pro-inflammatory mediators. Cardiac glycosides such as leucoside C have been identified and their mechanism of action is related to the inhibition of the sodium-potassium pump.", "preparations": [{"name": "leucanthemum tincture", "mentions": 20, "confidence_score": 158, "total_score": 3160}, {"name": "leucanthemum tea", "mentions": 16, "confidence_score": 128, "total_score": 2048}, {"name": "infusion", "mentions": 14, "confidence_score": 118, "total_score": 1652}, {"name": "leucanthemum salve", "mentions": 20, "confidence_score": 104, "total_score": 2080}, {"name": "decoction", "mentions": 8, "confidence_score": 32, "total_score": 256}, {"name": "ointment", "mentions": 7, "confidence_score": 29, "total_score": 203}, {"name": "infused oil", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "leucanthemum infusion", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "leucanthemum oil", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "extract", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "glycerite", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "leucanthemum syrup", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "alpine daisy tea", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "oil infusion", "mentions": 1, "confidence_score": 7, "total_score": 7}, {"name": "essential oil", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "suppository", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "alpine daisy extract", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "resin", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "leucanthemum cream", "mentions": 1, "confidence_score": 3, "total_score": 3}, {"name": "cold extract", "mentions": 1, "confidence_score": 3, "total_score": 3}], "preparations_description": "", "side_effects": [{"name": "induce allergic reaction", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "induce nausea", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "exacerbate allergies", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "interact with medications", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "cause allergic reaction", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "trigger headaches", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "cause diarrhea", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "trigger hypersensitivity", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "cause skin irritation", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "trigger seizures", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "induce allergic reactions", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "trigger respiratory distress", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause gastrointestinal upset", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "produce hepatotoxicity", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "produce photosensitivity", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "elevate blood pressure", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "cause dizziness", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "it induces allergic reactions", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "induce skin irritation", "mentions": 2, "confidence_score": 14, "total_score": 28}], "side_effects_description": "The possible side effects of using Leucanthemum alpinum improperly include inducing allergic reactions in individuals who are sensitive to its plant compounds, especially those who are prone to hay fever or have a history of allergies, as it can exacerbate existing allergies and trigger reactions such as hives, itching, and difficulty breathing. Using Leucanthemum alpinum improperly may also induce nausea and stomach upset in some individuals, particularly if ingested in large quantities. Additionally, it can interact with certain medications, such as blood thinners and diabetes medications, which may lead to adverse effects or decreased efficacy of the medication. Furthermore, applying Leucanthemum alpinum to the skin can cause an allergic reaction in some individuals, which may manifest as redness, itching, and swelling. Overall, improper use of Leucanthemum alpinum can have serious side effects and should be used under the guidance of a medical professional or an experienced herbalist.", "uses": "Leucanthemum alpinum, also known as the alpine daisy, has been used in traditional medicine for its potential anti-inflammatory and antimicrobial properties. The plant's extracts have been studied for their ability to inhibit the growth of certain microorganisms and reduce inflammation. However, further research is needed to confirm its effectiveness and safety for human use. In some cultures, Leucanthemum alpinum is used to treat digestive issues and skin conditions. The plant's medicinal properties are thought to be due to its high concentration of flavonoids and other bioactive compounds.", "taxonomy": "Leucanthemum alpinum is classified within the family Asteraceae. This family is commonly known as the daisy or aster family and consists of flowering plants. Within the Asteraceae family, Leucanthemum alpinum is further classified into the genus Leucanthemum, which comprises several species of daisies. Leucanthemum alpinum is native to the mountainous regions of Central and Eastern Europe and Asia. Its classification as a species within the daisy family reflects its characteristic daisy-like flowers.", "benefits": "Leucanthemum alpinum is known for its potential health benefits, which include anti-inflammatory and antioxidant properties. It may help to reduce inflammation and alleviate symptoms associated with conditions such as arthritis and other inflammatory diseases. The plant's bioactive compounds may also have antimicrobial effects, helping to prevent the growth of bacteria and other microorganisms. Additionally, Leucanthemum alpinum may have anti-cancer properties, although more research is needed to confirm its effectiveness. Further studies are necessary to fully understand the plant's medicinal properties and potential health benefits.", "parts": "Leucanthemum alpinum, also known as the alpine daisy, has traditionally been used in herbal medicine, with its medicinal properties attributed to various parts of the plant. Leucanthemum alpinum is believed to have anti-inflammatory and antiseptic properties, which may contribute to its potential uses in wound healing and skin conditions. The plant's roots, leaves, and flowers have been used in folk medicine to treat a range of ailments, including fever and digestive issues. Leucanthemum alpinum's medicinal properties are thought to be due to the presence of flavonoids and other bioactive compounds. However, further research is needed to confirm the plant's efficacy and safety for medicinal use.", "intro": "Leucanthemum alpinum, also known as Alpine Daisy or Edelweiss, is a perennial plant native to the mountainous regions of Europe, characterized by its white or pinkish flowers and silvery-gray foliage. The plant is valued for its potential health benefits, including its anti-inflammatory, antimicrobial, and antioxidant properties, which may help to soothe skin irritations, reduce fever, and protect against oxidative stress. The bioactive constituents of Leucanthemum alpinum include flavonoids, phenolic acids, and terpenoids, which contribute to its medicinal properties. Traditionally, the plant is used to make herbal preparations such as teas, infusions, and tinctures, which are used to treat various ailments, including respiratory issues and gastrointestinal problems."}
+{
+    "title": "Leucanthemum alpinum",
+    "herb_slug": "leucanthemum-alpinum",
+    "herb_name_scientific": "Leucanthemum alpinum",
+    "family_slug": "asteraceae",
+    "family_name": "Asteraceae",
+    "url": "herbs/leucanthemum-alpinum",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "alpine daisy",
+            "mentions": 28,
+            "confidence_score": 234,
+            "total_score": 6552
+        },
+        {
+            "name": "alpine white daisy",
+            "mentions": 32,
+            "confidence_score": 191,
+            "total_score": 6112
+        },
+        {
+            "name": "mountain daisy",
+            "mentions": 13,
+            "confidence_score": 102,
+            "total_score": 1326
+        },
+        {
+            "name": "white alpine daisy",
+            "mentions": 9,
+            "confidence_score": 51,
+            "total_score": 459
+        },
+        {
+            "name": "edelweiss",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "alpine leucanthemum",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "alpen-l\u00f6wenzahn",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "alpine daisies",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "alpine white clover",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "alpenwei\u00df",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "alpenl\u00f6wenzahn",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "white mountain daisy",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "white edelweiss",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "alpine edelweiss",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "alpenlieb",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "alpen-dahlie",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "alpine daisy leucanthemum",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "alpenliebe",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "edelweiss daisy",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "alpen-kleeblatt",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        }
+    ],
+    "what_description": "Leucanthemum alpinum is a perennial herbaceous plant native to the mountainous regions of Europe. It belongs to the family Asteraceae and is commonly known as alpine daisy or alpine white daisy. The plant has a height range of 10-40 cm and a leaf width of 1-3 cm, with linear, lanceolate, and entire leaf margins. The inflorescence is a corymb with 10-20 white or pinkish flowers, each 3-4 cm in diameter, with 20-30 florets, and a tubular corolla with 5 lobes. The plant's stem is hairy, and its roots are fibrous and horizontal, with a taproot present at the base.",
+    "category_action": "anti-inflammatory",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 15,
+            "confidence_score": 131,
+            "total_score": 1965
+        },
+        {
+            "name": "wound healing",
+            "mentions": 12,
+            "confidence_score": 91,
+            "total_score": 1092
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 13,
+            "confidence_score": 84,
+            "total_score": 1092
+        },
+        {
+            "name": "arthritis",
+            "mentions": 7,
+            "confidence_score": 50,
+            "total_score": 350
+        },
+        {
+            "name": "infection",
+            "mentions": 5,
+            "confidence_score": 43,
+            "total_score": 215
+        },
+        {
+            "name": "fever",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 8,
+            "confidence_score": 40,
+            "total_score": 320
+        },
+        {
+            "name": "anxiety",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "diabetes",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "allergies",
+            "mentions": 6,
+            "confidence_score": 29,
+            "total_score": 174
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "stress",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "pain relief",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "hypertension",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "cancer",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "gastrointestinal disorders",
+            "mentions": 4,
+            "confidence_score": 23,
+            "total_score": 92
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "insect bites",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Leucanthemum alpinum are inflammation caused by its anti-inflammatory flavonoids and sesquiterpenes, wound healing due to its ability to stimulate collagen synthesis and cell proliferation, skin irritation reduced by its antioxidant and anti-inflammatory properties, and arthritis symptoms alleviated by its anti-inflammatory and immunomodulatory effects. Leucanthemum alpinum also exhibits antibacterial properties that combat infections, and its antipyretic flavonoids help reduce fever. Additionally, it has been shown to alleviate digestive issues such as diarrhea by stabilizing gut permeability and modulating gut microbiota. Furthermore, Leucanthemum alpinum has been found to exhibit anxiolytic and anti-diabetic effects, suggesting its potential in managing anxiety and diabetes. Its anti-hypertensive and analgesic properties also make it a potential treatment for hypertension and pain relief.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 161,
+            "total_score": 3220
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 149,
+            "total_score": 2980
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 134,
+            "total_score": 2680
+        },
+        {
+            "name": "analgesic",
+            "mentions": 18,
+            "confidence_score": 77,
+            "total_score": 1386
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 11,
+            "confidence_score": 65,
+            "total_score": 715
+        },
+        {
+            "name": "antifungal",
+            "mentions": 10,
+            "confidence_score": 54,
+            "total_score": 540
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 9,
+            "confidence_score": 54,
+            "total_score": 486
+        },
+        {
+            "name": "antiviral",
+            "mentions": 15,
+            "confidence_score": 47,
+            "total_score": 705
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 7,
+            "confidence_score": 37,
+            "total_score": 259
+        },
+        {
+            "name": "anticancer",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 7,
+            "confidence_score": 25,
+            "total_score": 175
+        },
+        {
+            "name": "wound healing",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "antitumor",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 4,
+            "confidence_score": 13,
+            "total_score": 52
+        },
+        {
+            "name": "diuretic",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Leucanthemum alpinum are its antioxidant effects, which protect cells from oxidative damage and contribute to its cardioprotective properties by improving cardiovascular health. The anti-inflammatory activity of this plant helps alleviate pain and discomfort associated with various conditions, making it analgesic in nature. Additionally, its antimicrobial properties enable it to combat bacterial and fungal infections, further highlighting its medicinal value. The bioactive compounds responsible for these properties include flavonoids, volatile oils, and other phytochemicals, such as saponins, which are known to contribute to the plant's therapeutic effects. The antioxidant and anti-inflammatory activities of Leucanthemum alpinum are also responsible for its ability to inhibit the growth of microorganisms, reinforcing its antimicrobial properties.",
+    "constituents": [
+        {
+            "name": "flavonoids",
+            "mentions": 15,
+            "confidence_score": 126,
+            "total_score": 1890
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 15,
+            "confidence_score": 110,
+            "total_score": 1650
+        },
+        {
+            "name": "tannins",
+            "mentions": 16,
+            "confidence_score": 89,
+            "total_score": 1424
+        },
+        {
+            "name": "saponins",
+            "mentions": 15,
+            "confidence_score": 75,
+            "total_score": 1125
+        },
+        {
+            "name": "cardiac glycosides",
+            "mentions": 14,
+            "confidence_score": 61,
+            "total_score": 854
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 9,
+            "confidence_score": 57,
+            "total_score": 513
+        },
+        {
+            "name": "coumarins",
+            "mentions": 11,
+            "confidence_score": 50,
+            "total_score": 550
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 12,
+            "confidence_score": 36,
+            "total_score": 432
+        },
+        {
+            "name": "quercetin",
+            "mentions": 5,
+            "confidence_score": 36,
+            "total_score": 180
+        },
+        {
+            "name": "apigenin",
+            "mentions": 5,
+            "confidence_score": 33,
+            "total_score": 165
+        },
+        {
+            "name": "luteolin",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "essential oils",
+            "mentions": 6,
+            "confidence_score": 27,
+            "total_score": 162
+        },
+        {
+            "name": "rosmarinic acid",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "leucanthemum alpinum flavonoids",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "sterols",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "sesquiterpenes",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "triterpenes",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "leucanthemum alpinum contains volatile oils",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "sesquiterpene lactones",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Leucanthemum alpinum are flavonoids including apigenin and luteolin which have antioxidant and anti-inflammatory properties. Additionally, phenolic acids such as ferulic acid and sinapic acid possess antimicrobial and antiseptic activities. Tannins present in the plant have astringent and anti-inflammatory effects due to their ability to bind to proteins and inhibit the growth of microorganisms. Saponins like leucanthemunol have been shown to exhibit antimicrobial and anti-inflammatory activities by disrupting cell membranes and inhibiting the release of pro-inflammatory mediators. Cardiac glycosides such as leucoside C have been identified and their mechanism of action is related to the inhibition of the sodium-potassium pump.",
+    "preparations": [
+        {
+            "name": "leucanthemum tincture",
+            "mentions": 20,
+            "confidence_score": 158,
+            "total_score": 3160
+        },
+        {
+            "name": "leucanthemum tea",
+            "mentions": 16,
+            "confidence_score": 128,
+            "total_score": 2048
+        },
+        {
+            "name": "infusion",
+            "mentions": 14,
+            "confidence_score": 118,
+            "total_score": 1652
+        },
+        {
+            "name": "leucanthemum salve",
+            "mentions": 20,
+            "confidence_score": 104,
+            "total_score": 2080
+        },
+        {
+            "name": "decoction",
+            "mentions": 8,
+            "confidence_score": 32,
+            "total_score": 256
+        },
+        {
+            "name": "ointment",
+            "mentions": 7,
+            "confidence_score": 29,
+            "total_score": 203
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "leucanthemum infusion",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "leucanthemum oil",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "extract",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "glycerite",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "leucanthemum syrup",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "alpine daisy tea",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "oil infusion",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        },
+        {
+            "name": "essential oil",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "alpine daisy extract",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "resin",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "leucanthemum cream",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        },
+        {
+            "name": "cold extract",
+            "mentions": 1,
+            "confidence_score": 3,
+            "total_score": 3
+        }
+    ],
+    "preparations_description": "",
+    "side_effects": [
+        {
+            "name": "induce allergic reaction",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "induce nausea",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "exacerbate allergies",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "cause allergic reaction",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "trigger headaches",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "trigger hypersensitivity",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "cause skin irritation",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "induce allergic reactions",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "trigger respiratory distress",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause gastrointestinal upset",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "produce hepatotoxicity",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "produce photosensitivity",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "elevate blood pressure",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "cause dizziness",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "it induces allergic reactions",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "induce skin irritation",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Leucanthemum alpinum improperly include inducing allergic reactions in individuals who are sensitive to its plant compounds, especially those who are prone to hay fever or have a history of allergies, as it can exacerbate existing allergies and trigger reactions such as hives, itching, and difficulty breathing. Using Leucanthemum alpinum improperly may also induce nausea and stomach upset in some individuals, particularly if ingested in large quantities. Additionally, it can interact with certain medications, such as blood thinners and diabetes medications, which may lead to adverse effects or decreased efficacy of the medication. Furthermore, applying Leucanthemum alpinum to the skin can cause an allergic reaction in some individuals, which may manifest as redness, itching, and swelling. Overall, improper use of Leucanthemum alpinum can have serious side effects and should be used under the guidance of a medical professional or an experienced herbalist.",
+    "uses": "Leucanthemum alpinum, also known as the alpine daisy, has been used in traditional medicine for its potential anti-inflammatory and antimicrobial properties. The plant's extracts have been studied for their ability to inhibit the growth of certain microorganisms and reduce inflammation. However, further research is needed to confirm its effectiveness and safety for human use. In some cultures, Leucanthemum alpinum is used to treat digestive issues and skin conditions. The plant's medicinal properties are thought to be due to its high concentration of flavonoids and other bioactive compounds.",
+    "taxonomy": "Leucanthemum alpinum is classified within the family Asteraceae. This family is commonly known as the daisy or aster family and consists of flowering plants. Within the Asteraceae family, Leucanthemum alpinum is further classified into the genus Leucanthemum, which comprises several species of daisies. Leucanthemum alpinum is native to the mountainous regions of Central and Eastern Europe and Asia. Its classification as a species within the daisy family reflects its characteristic daisy-like flowers.",
+    "benefits": "Leucanthemum alpinum is known for its potential health benefits, which include anti-inflammatory and antioxidant properties. It may help to reduce inflammation and alleviate symptoms associated with conditions such as arthritis and other inflammatory diseases. The plant's bioactive compounds may also have antimicrobial effects, helping to prevent the growth of bacteria and other microorganisms. Additionally, Leucanthemum alpinum may have anti-cancer properties, although more research is needed to confirm its effectiveness. Further studies are necessary to fully understand the plant's medicinal properties and potential health benefits.",
+    "parts": "Leucanthemum alpinum, also known as the alpine daisy, has traditionally been used in herbal medicine, with its medicinal properties attributed to various parts of the plant. Leucanthemum alpinum is believed to have anti-inflammatory and antiseptic properties, which may contribute to its potential uses in wound healing and skin conditions. The plant's roots, leaves, and flowers have been used in folk medicine to treat a range of ailments, including fever and digestive issues. Leucanthemum alpinum's medicinal properties are thought to be due to the presence of flavonoids and other bioactive compounds. However, further research is needed to confirm the plant's efficacy and safety for medicinal use.",
+    "intro": "Leucanthemum alpinum, also known as Alpine Daisy or Edelweiss, is a perennial plant native to the mountainous regions of Europe, characterized by its white or pinkish flowers and silvery-gray foliage. The plant is valued for its potential health benefits, including its anti-inflammatory, antimicrobial, and antioxidant properties, which may help to soothe skin irritations, reduce fever, and protect against oxidative stress. The bioactive constituents of Leucanthemum alpinum include flavonoids, phenolic acids, and terpenoids, which contribute to its medicinal properties. Traditionally, the plant is used to make herbal preparations such as teas, infusions, and tinctures, which are used to treat various ailments, including respiratory issues and gastrointestinal problems."
+}

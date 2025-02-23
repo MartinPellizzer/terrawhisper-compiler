@@ -1,1 +1,154 @@
-{"title": "Virgulus novae-angliae", "herb_slug": "virgulus-novae-angliae", "herb_name_scientific": "Virgulus novae-angliae", "family_slug": "asteraceae", "family_name": "Asteraceae", "url": "herbs/virgulus-novae-angliae", "lastmod": "2025-2-4", "herb_names_common": [{"name": "new england virgulus", "mentions": 24, "confidence_score": 215, "total_score": 5160}, {"name": "wood sorrel", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "northern bayberry", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "new england virgin's bower", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "new england gallberry", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "arrowleaf tearthumb", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "eastern sweet goldenrod", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "wild mignonette", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "american virgin's bower", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "new england hair grass", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "new england fern moss", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "northern sweet bayberry", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "witch hazel", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "american virgin's bower vine", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "wild sorrel", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "american winterberry", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "elderberry", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "goose foot", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "goosefoot", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "new england cress", "mentions": 2, "confidence_score": 13, "total_score": 26}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 11, "confidence_score": 104, "total_score": 1144}, {"medicine_or_poison": "medicine", "mentions": 9, "confidence_score": 77, "total_score": 693}], "taxonomy": "Virgulus novae-angliae belongs to the family Cornaceae and is classified as a species of flowering plant. The genus Virgulus is a group of shrubs that are native to the northeastern part of North America. Virgulus novae-angliae is also known as the New England arrowwood. This plant is closely related to the other species in the genus Virgulus, which include V. brevipes and V. simplex. The classification of Virgulus novae-angliae is further supported by its distinctive characteristics, such as its white flowers and red berries.", "uses": "Virgulus novae-angliae is known for its potential medicinal uses, particularly in traditional medicine. The plant has been studied for its anti-inflammatory and antioxidant properties, which may aid in reducing swelling and protecting against cell damage. Research suggests that extracts from Virgulus novae-angliae may have antimicrobial and antifungal effects, making it a potential candidate for wound healing and infection prevention. However, more studies are needed to fully understand the plant's medicinal applications and potential side effects. Further research may uncover more benefits and uses for this plant in the medical field.", "benefits": "Info not available yet.", "properties": "Info not available yet.", "constituents": "Info not available yet.", "parts": "Info not available yet.", "preparations": "Virgulus novae-angliae herbal preparations are not well-documented, but it is known that plants from the same family, the saxifrage family, have been used in traditional medicine. The roots, leaves, and stems of Virgulus novae-angliae plants may be used to make teas, infusions, or tinctures for medicinal purposes. However, the effectiveness and safety of these preparations have not been scientifically proven. More research is needed to understand the potential health benefits and risks of using Virgulus novae-angliae in herbal remedies. In some cultures, the plant is used to treat various ailments, including digestive issues and skin conditions.", "side_effects": "Info not available yet.", "intro": "I couldn't find any information about a plant called Virgulus novae-angliae. It is possible that this plant does not exist or is not widely recognized."}
+{
+    "title": "Virgulus novae-angliae",
+    "herb_slug": "virgulus-novae-angliae",
+    "herb_name_scientific": "Virgulus novae-angliae",
+    "family_slug": "asteraceae",
+    "family_name": "Asteraceae",
+    "url": "herbs/virgulus-novae-angliae",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "new england virgulus",
+            "mentions": 24,
+            "confidence_score": 215,
+            "total_score": 5160
+        },
+        {
+            "name": "wood sorrel",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "northern bayberry",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "new england virgin's bower",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "new england gallberry",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "arrowleaf tearthumb",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "eastern sweet goldenrod",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "wild mignonette",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "american virgin's bower",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "new england hair grass",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "new england fern moss",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "northern sweet bayberry",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "witch hazel",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "american virgin's bower vine",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "wild sorrel",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "american winterberry",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "elderberry",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "goose foot",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "goosefoot",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "new england cress",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 11,
+            "confidence_score": 104,
+            "total_score": 1144
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 9,
+            "confidence_score": 77,
+            "total_score": 693
+        }
+    ],
+    "taxonomy": "Virgulus novae-angliae belongs to the family Cornaceae and is classified as a species of flowering plant. The genus Virgulus is a group of shrubs that are native to the northeastern part of North America. Virgulus novae-angliae is also known as the New England arrowwood. This plant is closely related to the other species in the genus Virgulus, which include V. brevipes and V. simplex. The classification of Virgulus novae-angliae is further supported by its distinctive characteristics, such as its white flowers and red berries.",
+    "uses": "Virgulus novae-angliae is known for its potential medicinal uses, particularly in traditional medicine. The plant has been studied for its anti-inflammatory and antioxidant properties, which may aid in reducing swelling and protecting against cell damage. Research suggests that extracts from Virgulus novae-angliae may have antimicrobial and antifungal effects, making it a potential candidate for wound healing and infection prevention. However, more studies are needed to fully understand the plant's medicinal applications and potential side effects. Further research may uncover more benefits and uses for this plant in the medical field.",
+    "benefits": "Info not available yet.",
+    "properties": "Info not available yet.",
+    "constituents": "Info not available yet.",
+    "parts": "Info not available yet.",
+    "preparations": "Virgulus novae-angliae herbal preparations are not well-documented, but it is known that plants from the same family, the saxifrage family, have been used in traditional medicine. The roots, leaves, and stems of Virgulus novae-angliae plants may be used to make teas, infusions, or tinctures for medicinal purposes. However, the effectiveness and safety of these preparations have not been scientifically proven. More research is needed to understand the potential health benefits and risks of using Virgulus novae-angliae in herbal remedies. In some cultures, the plant is used to treat various ailments, including digestive issues and skin conditions.",
+    "side_effects": "Info not available yet.",
+    "intro": "I couldn't find any information about a plant called Virgulus novae-angliae. It is possible that this plant does not exist or is not widely recognized."
+}

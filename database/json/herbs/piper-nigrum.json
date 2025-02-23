@@ -1,1 +1,756 @@
-{"title": "Piper nigrum", "herb_slug": "piper-nigrum", "herb_name_scientific": "Piper nigrum", "family_slug": "", "family_name": "", "url": "herbs/piper-nigrum", "lastmod": "2025-1-20", "herb_names_common": [{"name": "black pepper", "mentions": 43, "confidence_score": 376, "total_score": 16168}, {"name": "long pepper", "mentions": 16, "confidence_score": 84, "total_score": 1344}, {"name": "pippali", "mentions": 10, "confidence_score": 75, "total_score": 750}, {"name": "black piper", "mentions": 14, "confidence_score": 70, "total_score": 980}, {"name": "kali mirch", "mentions": 9, "confidence_score": 47, "total_score": 423}, {"name": "peppercorn", "mentions": 5, "confidence_score": 46, "total_score": 230}, {"name": "black indian pepper", "mentions": 9, "confidence_score": 41, "total_score": 369}, {"name": "black pepper plant", "mentions": 6, "confidence_score": 41, "total_score": 246}, {"name": "pipali", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "kali miri", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "black pepper vine", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "nigella", "mentions": 6, "confidence_score": 18, "total_score": 108}, {"name": "pipper", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "pipernigrum", "mentions": 5, "confidence_score": 17, "total_score": 85}, {"name": "black seed", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "poivre noir", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "nirum", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "pimienta negra", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "pepe nero", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "java pepper", "mentions": 2, "confidence_score": 10, "total_score": 20}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 191, "total_score": 3820}], "what_description": "Piper nigrum is a flowering plant that belongs to the family Piperaceae. It is an evergreen vine that grows up to 10 meters in length, with dark green, glossy leaves that are lanceolate in shape and 5-10 cm in length. The plant produces small, greenish-white flowers that are clustered in panicles, followed by red berries that are 6-10 mm in diameter. The berries contain a single seed, which is the source of black pepper, a popular spice obtained through drying and processing. The plant is native to India and is widely cultivated in tropical regions for its fruit and essential oil.", "category_action": "antimicrobial", "ailments": [{"name": "inflammation", "mentions": 19, "confidence_score": 166, "total_score": 3154}, {"name": "diabetes", "mentions": 18, "confidence_score": 141, "total_score": 2538}, {"name": "cancer prevention", "mentions": 17, "confidence_score": 123, "total_score": 2091}, {"name": "digestive issues", "mentions": 13, "confidence_score": 104, "total_score": 1352}, {"name": "arthritis", "mentions": 10, "confidence_score": 74, "total_score": 740}, {"name": "pain relief", "mentions": 8, "confidence_score": 63, "total_score": 504}, {"name": "asthma", "mentions": 7, "confidence_score": 48, "total_score": 336}, {"name": "anxiety", "mentions": 7, "confidence_score": 43, "total_score": 301}, {"name": "stomach ulcers", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "antioxidant", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "high blood pressure", "mentions": 4, "confidence_score": 36, "total_score": 144}, {"name": "antibacterial", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "cardiovascular", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "cardiovascular disease", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "skin infections", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "gastroenteritis", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "eczema", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "infection prevention", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "parasitic infections", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "gout", "mentions": 2, "confidence_score": 16, "total_score": 32}], "ailments_description": "The most common ailments you can heal with Piper nigrum are inflammation and digestive issues, which are effectively reduced by its anti-inflammatory properties. Piper nigrum has been shown to improve insulin sensitivity and glucose metabolism, making it beneficial for diabetes management. Its antioxidant properties also play a crucial role in cancer prevention by neutralizing free radicals and inhibiting tumor growth. Additionally, it has been used to alleviate arthritis symptoms and provide pain relief due to its ability to inhibit the production of pro-inflammatory enzymes. Furthermore, Piper nigrum has been found to exhibit antibacterial properties, which aid in the prevention of infections such as skin infections, gastroenteritis, and parasitic infections, while also lowering blood pressure and reducing the risk of cardiovascular disease and cardiovascular complications, including high blood pressure, asthma, anxiety, stomach ulcers, eczema, and gout.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 171, "total_score": 3420}, {"name": "antimicrobial", "mentions": 20, "confidence_score": 170, "total_score": 3400}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 152, "total_score": 3040}, {"name": "analgesic", "mentions": 20, "confidence_score": 121, "total_score": 2420}, {"name": "antifungal", "mentions": 13, "confidence_score": 105, "total_score": 1365}, {"name": "cardioprotective", "mentions": 16, "confidence_score": 97, "total_score": 1552}, {"name": "anticancer", "mentions": 15, "confidence_score": 78, "total_score": 1170}, {"name": "neuroprotective", "mentions": 14, "confidence_score": 74, "total_score": 1036}, {"name": "antibacterial", "mentions": 7, "confidence_score": 59, "total_score": 413}, {"name": "antiviral", "mentions": 9, "confidence_score": 53, "total_score": 477}, {"name": "antiseptic", "mentions": 6, "confidence_score": 52, "total_score": 312}, {"name": "antipyretic", "mentions": 7, "confidence_score": 40, "total_score": 280}, {"name": "expectorant", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "antiparasitic", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "cyclooxygenase inhibitor", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "immunomodulatory", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "antihistaminic", "mentions": 2, "confidence_score": 9, "total_score": 18}, {"name": "cytotoxic", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "antihistamine", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "digestive aid", "mentions": 1, "confidence_score": 8, "total_score": 8}], "properties_description": "The main therapeutic properties of Piper nigrum are its antioxidant activity, which helps protect cells from damage, its antimicrobial properties, which inhibit the growth of microorganisms, and its anti-inflammatory effects, which reduce swelling and pain. The analgesic properties of Piper nigrum are due to its ability to block the production of pain-causing chemicals in the body, providing relief from pain. The bioactive compounds responsible for these properties include flavonoids, alkaloids, and volatile oils, such as piperine and piperonal, which have been isolated from the plant. These compounds have been shown to exhibit antifungal activity, inhibiting the growth of fungi such as Aspergillus and Candida. The unique combination and concentration of these bioactive compounds in Piper nigrum contribute to its medicinal properties.", "constituents": [{"name": "piperine", "mentions": 20, "confidence_score": 198, "total_score": 3960}, {"name": "\u03b2-caryophyllene", "mentions": 18, "confidence_score": 128, "total_score": 2304}, {"name": "\u03b1-pinene", "mentions": 18, "confidence_score": 122, "total_score": 2196}, {"name": "safrole", "mentions": 14, "confidence_score": 105, "total_score": 1470}, {"name": "eugenol", "mentions": 13, "confidence_score": 98, "total_score": 1274}, {"name": "limonene", "mentions": 16, "confidence_score": 89, "total_score": 1424}, {"name": "piperonal", "mentions": 9, "confidence_score": 71, "total_score": 639}, {"name": "\u03b2-pinene", "mentions": 9, "confidence_score": 59, "total_score": 531}, {"name": "beta-caryophyllene", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "sabinene", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "chavicol", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "myristicin", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "vitamin e", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "vitamin c", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "camphene", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "elemicin", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "potassium", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "\u03b2-selinene", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "myrcene", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "beta-phellandrene", "mentions": 2, "confidence_score": 11, "total_score": 22}], "constituents_description": "The most important healing constituents of Piper nigrum are piperine, \u03b2-caryophyllene, \u03b1-pinene, safrole, and eugenol, which contribute to its medicinal properties. Piperine, a bioavailability enhancer, has been shown to exhibit anti-inflammatory and antioxidant activities. \u03b2-Caryophyllene, a sesquiterpene, has been found to possess anti-inflammatory, antimicrobial, and anticancer properties, while \u03b1-pinene, a monoterpene, has been reported to have antioxidant and anti-inflammatory effects. Safrole, an allylbenzene, has been demonstrated to exhibit antiseptic and anti-inflammatory activities, but its use is limited due to potential carcinogenic properties. Eugenol, a phenolic compound, has been found to possess analgesic, anti-inflammatory, and antimicrobial properties, making it a key component in pain relief and wound healing.", "preparations": [{"name": "black pepper oil", "mentions": 15, "confidence_score": 142, "total_score": 2130}, {"name": "black pepper tincture", "mentions": 18, "confidence_score": 134, "total_score": 2412}, {"name": "black pepper tea", "mentions": 11, "confidence_score": 88, "total_score": 968}, {"name": "piperine capsules", "mentions": 8, "confidence_score": 67, "total_score": 536}, {"name": "black pepper extract", "mentions": 9, "confidence_score": 48, "total_score": 432}, {"name": "black pepper infusion", "mentions": 10, "confidence_score": 46, "total_score": 460}, {"name": "peppercorn tea", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "black pepper powder", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "piperine oil", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "peppercorn oil", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "piper nigrum infusion", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "peppercorn infusion", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "pepper capsules", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "peppercorn powder", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "piper nigrum tea", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "piper nigrum powder", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "piperine powder", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "black pepper salve", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "piper nigrum extract", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "black pepper syrup", "mentions": 3, "confidence_score": 9, "total_score": 27}], "preparations_description": "The main herbal preparations of Piper nigrum are derived from its fruit, which is rich in piperine, a bioactive compound. Black pepper oil is extracted from the fruit's pericarp using solvent extraction or cold pressing, and is used in aromatherapy for its analgesic and anti-inflammatory properties. Black pepper tincture is a liquid extract prepared by soaking the fruit in a solvent, such as ethanol, which is used to treat digestive issues and arthritis due to its antioxidant and anti-inflammatory activities. Piperine capsules are dietary supplements containing the concentrated extract of Piper nigrum, often used to enhance bioavailability of nutrients and medications. Black pepper extract and black pepper tea are also consumed for their potential health benefits, including anti-inflammatory, antioxidant, and antimicrobial properties, which are attributed to the high concentration of piperine in these preparations.", "side_effects": [{"name": "experiencing allergic reactions", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "suffer liver damage", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "increases heart rate", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "induces nausea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "produce abdominal pain", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "trigger diarrhea", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experience abdominal pain", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "trigger cardiac arrhythmias", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cause hypotension", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "inducing respiratory failure", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "cause headaches", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "experiencing dizziness", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "trigger seizures", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "exhibits abdominal pain", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "showing hepatotoxicity", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "aggravate", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "exacerbates ulcers", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "induce allergic reactions", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "cause gastrointestinal problems", "mentions": 1, "confidence_score": 10, "total_score": 10}], "side_effects_description": "The possible side effects of using Piper nigrum improperly include experiencing allergic reactions, such as hives and itching, due to its active compound piperine causing histamine release. Suffering liver damage is also a concern, as piperine can increase the risk of liver toxicity, particularly when taken in high doses or combined with other hepatotoxic substances. Inducing vomiting is another potential side effect, as piperine can irritate the stomach and cause gastrointestinal upset. Additionally, consuming excessive amounts of Piper nigrum can increase heart rate and induce nausea, as the body's response to the compound's stimulatory effects can lead to cardiovascular and gastrointestinal distress. These side effects are often associated with the improper use of Piper nigrum, such as excessive consumption or combining it with other medications."}
+{
+    "title": "Piper nigrum",
+    "herb_slug": "piper-nigrum",
+    "herb_name_scientific": "Piper nigrum",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/piper-nigrum",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "black pepper",
+            "mentions": 43,
+            "confidence_score": 376,
+            "total_score": 16168
+        },
+        {
+            "name": "long pepper",
+            "mentions": 16,
+            "confidence_score": 84,
+            "total_score": 1344
+        },
+        {
+            "name": "pippali",
+            "mentions": 10,
+            "confidence_score": 75,
+            "total_score": 750
+        },
+        {
+            "name": "black piper",
+            "mentions": 14,
+            "confidence_score": 70,
+            "total_score": 980
+        },
+        {
+            "name": "kali mirch",
+            "mentions": 9,
+            "confidence_score": 47,
+            "total_score": 423
+        },
+        {
+            "name": "peppercorn",
+            "mentions": 5,
+            "confidence_score": 46,
+            "total_score": 230
+        },
+        {
+            "name": "black indian pepper",
+            "mentions": 9,
+            "confidence_score": 41,
+            "total_score": 369
+        },
+        {
+            "name": "black pepper plant",
+            "mentions": 6,
+            "confidence_score": 41,
+            "total_score": 246
+        },
+        {
+            "name": "pipali",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "kali miri",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "black pepper vine",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "nigella",
+            "mentions": 6,
+            "confidence_score": 18,
+            "total_score": 108
+        },
+        {
+            "name": "pipper",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "pipernigrum",
+            "mentions": 5,
+            "confidence_score": 17,
+            "total_score": 85
+        },
+        {
+            "name": "black seed",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "poivre noir",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "nirum",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "pimienta negra",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "pepe nero",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "java pepper",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 191,
+            "total_score": 3820
+        }
+    ],
+    "what_description": "Piper nigrum is a flowering plant that belongs to the family Piperaceae. It is an evergreen vine that grows up to 10 meters in length, with dark green, glossy leaves that are lanceolate in shape and 5-10 cm in length. The plant produces small, greenish-white flowers that are clustered in panicles, followed by red berries that are 6-10 mm in diameter. The berries contain a single seed, which is the source of black pepper, a popular spice obtained through drying and processing. The plant is native to India and is widely cultivated in tropical regions for its fruit and essential oil.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 19,
+            "confidence_score": 166,
+            "total_score": 3154
+        },
+        {
+            "name": "diabetes",
+            "mentions": 18,
+            "confidence_score": 141,
+            "total_score": 2538
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 17,
+            "confidence_score": 123,
+            "total_score": 2091
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 13,
+            "confidence_score": 104,
+            "total_score": 1352
+        },
+        {
+            "name": "arthritis",
+            "mentions": 10,
+            "confidence_score": 74,
+            "total_score": 740
+        },
+        {
+            "name": "pain relief",
+            "mentions": 8,
+            "confidence_score": 63,
+            "total_score": 504
+        },
+        {
+            "name": "asthma",
+            "mentions": 7,
+            "confidence_score": 48,
+            "total_score": 336
+        },
+        {
+            "name": "anxiety",
+            "mentions": 7,
+            "confidence_score": 43,
+            "total_score": 301
+        },
+        {
+            "name": "stomach ulcers",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 4,
+            "confidence_score": 36,
+            "total_score": 144
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "cardiovascular",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "skin infections",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "eczema",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "infection prevention",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "parasitic infections",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "gout",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Piper nigrum are inflammation and digestive issues, which are effectively reduced by its anti-inflammatory properties. Piper nigrum has been shown to improve insulin sensitivity and glucose metabolism, making it beneficial for diabetes management. Its antioxidant properties also play a crucial role in cancer prevention by neutralizing free radicals and inhibiting tumor growth. Additionally, it has been used to alleviate arthritis symptoms and provide pain relief due to its ability to inhibit the production of pro-inflammatory enzymes. Furthermore, Piper nigrum has been found to exhibit antibacterial properties, which aid in the prevention of infections such as skin infections, gastroenteritis, and parasitic infections, while also lowering blood pressure and reducing the risk of cardiovascular disease and cardiovascular complications, including high blood pressure, asthma, anxiety, stomach ulcers, eczema, and gout.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 171,
+            "total_score": 3420
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 170,
+            "total_score": 3400
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 152,
+            "total_score": 3040
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 121,
+            "total_score": 2420
+        },
+        {
+            "name": "antifungal",
+            "mentions": 13,
+            "confidence_score": 105,
+            "total_score": 1365
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 16,
+            "confidence_score": 97,
+            "total_score": 1552
+        },
+        {
+            "name": "anticancer",
+            "mentions": 15,
+            "confidence_score": 78,
+            "total_score": 1170
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 14,
+            "confidence_score": 74,
+            "total_score": 1036
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 7,
+            "confidence_score": 59,
+            "total_score": 413
+        },
+        {
+            "name": "antiviral",
+            "mentions": 9,
+            "confidence_score": 53,
+            "total_score": 477
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 7,
+            "confidence_score": 40,
+            "total_score": 280
+        },
+        {
+            "name": "expectorant",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "cyclooxygenase inhibitor",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "antihistaminic",
+            "mentions": 2,
+            "confidence_score": 9,
+            "total_score": 18
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "digestive aid",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Piper nigrum are its antioxidant activity, which helps protect cells from damage, its antimicrobial properties, which inhibit the growth of microorganisms, and its anti-inflammatory effects, which reduce swelling and pain. The analgesic properties of Piper nigrum are due to its ability to block the production of pain-causing chemicals in the body, providing relief from pain. The bioactive compounds responsible for these properties include flavonoids, alkaloids, and volatile oils, such as piperine and piperonal, which have been isolated from the plant. These compounds have been shown to exhibit antifungal activity, inhibiting the growth of fungi such as Aspergillus and Candida. The unique combination and concentration of these bioactive compounds in Piper nigrum contribute to its medicinal properties.",
+    "constituents": [
+        {
+            "name": "piperine",
+            "mentions": 20,
+            "confidence_score": 198,
+            "total_score": 3960
+        },
+        {
+            "name": "\u03b2-caryophyllene",
+            "mentions": 18,
+            "confidence_score": 128,
+            "total_score": 2304
+        },
+        {
+            "name": "\u03b1-pinene",
+            "mentions": 18,
+            "confidence_score": 122,
+            "total_score": 2196
+        },
+        {
+            "name": "safrole",
+            "mentions": 14,
+            "confidence_score": 105,
+            "total_score": 1470
+        },
+        {
+            "name": "eugenol",
+            "mentions": 13,
+            "confidence_score": 98,
+            "total_score": 1274
+        },
+        {
+            "name": "limonene",
+            "mentions": 16,
+            "confidence_score": 89,
+            "total_score": 1424
+        },
+        {
+            "name": "piperonal",
+            "mentions": 9,
+            "confidence_score": 71,
+            "total_score": 639
+        },
+        {
+            "name": "\u03b2-pinene",
+            "mentions": 9,
+            "confidence_score": 59,
+            "total_score": 531
+        },
+        {
+            "name": "beta-caryophyllene",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "sabinene",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "chavicol",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "myristicin",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "vitamin e",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "vitamin c",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "camphene",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "elemicin",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "potassium",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "\u03b2-selinene",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "myrcene",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "beta-phellandrene",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Piper nigrum are piperine, \u03b2-caryophyllene, \u03b1-pinene, safrole, and eugenol, which contribute to its medicinal properties. Piperine, a bioavailability enhancer, has been shown to exhibit anti-inflammatory and antioxidant activities. \u03b2-Caryophyllene, a sesquiterpene, has been found to possess anti-inflammatory, antimicrobial, and anticancer properties, while \u03b1-pinene, a monoterpene, has been reported to have antioxidant and anti-inflammatory effects. Safrole, an allylbenzene, has been demonstrated to exhibit antiseptic and anti-inflammatory activities, but its use is limited due to potential carcinogenic properties. Eugenol, a phenolic compound, has been found to possess analgesic, anti-inflammatory, and antimicrobial properties, making it a key component in pain relief and wound healing.",
+    "preparations": [
+        {
+            "name": "black pepper oil",
+            "mentions": 15,
+            "confidence_score": 142,
+            "total_score": 2130
+        },
+        {
+            "name": "black pepper tincture",
+            "mentions": 18,
+            "confidence_score": 134,
+            "total_score": 2412
+        },
+        {
+            "name": "black pepper tea",
+            "mentions": 11,
+            "confidence_score": 88,
+            "total_score": 968
+        },
+        {
+            "name": "piperine capsules",
+            "mentions": 8,
+            "confidence_score": 67,
+            "total_score": 536
+        },
+        {
+            "name": "black pepper extract",
+            "mentions": 9,
+            "confidence_score": 48,
+            "total_score": 432
+        },
+        {
+            "name": "black pepper infusion",
+            "mentions": 10,
+            "confidence_score": 46,
+            "total_score": 460
+        },
+        {
+            "name": "peppercorn tea",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "black pepper powder",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "piperine oil",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "peppercorn oil",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "piper nigrum infusion",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "peppercorn infusion",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "pepper capsules",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "peppercorn powder",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "piper nigrum tea",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "piper nigrum powder",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "piperine powder",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "black pepper salve",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "piper nigrum extract",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "black pepper syrup",
+            "mentions": 3,
+            "confidence_score": 9,
+            "total_score": 27
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Piper nigrum are derived from its fruit, which is rich in piperine, a bioactive compound. Black pepper oil is extracted from the fruit's pericarp using solvent extraction or cold pressing, and is used in aromatherapy for its analgesic and anti-inflammatory properties. Black pepper tincture is a liquid extract prepared by soaking the fruit in a solvent, such as ethanol, which is used to treat digestive issues and arthritis due to its antioxidant and anti-inflammatory activities. Piperine capsules are dietary supplements containing the concentrated extract of Piper nigrum, often used to enhance bioavailability of nutrients and medications. Black pepper extract and black pepper tea are also consumed for their potential health benefits, including anti-inflammatory, antioxidant, and antimicrobial properties, which are attributed to the high concentration of piperine in these preparations.",
+    "side_effects": [
+        {
+            "name": "experiencing allergic reactions",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "increases heart rate",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "induces nausea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "produce abdominal pain",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "trigger diarrhea",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "trigger cardiac arrhythmias",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cause hypotension",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "inducing respiratory failure",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "cause headaches",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "exhibits abdominal pain",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "showing hepatotoxicity",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "aggravate",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "exacerbates ulcers",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "induce allergic reactions",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "cause gastrointestinal problems",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Piper nigrum improperly include experiencing allergic reactions, such as hives and itching, due to its active compound piperine causing histamine release. Suffering liver damage is also a concern, as piperine can increase the risk of liver toxicity, particularly when taken in high doses or combined with other hepatotoxic substances. Inducing vomiting is another potential side effect, as piperine can irritate the stomach and cause gastrointestinal upset. Additionally, consuming excessive amounts of Piper nigrum can increase heart rate and induce nausea, as the body's response to the compound's stimulatory effects can lead to cardiovascular and gastrointestinal distress. These side effects are often associated with the improper use of Piper nigrum, such as excessive consumption or combining it with other medications."
+}

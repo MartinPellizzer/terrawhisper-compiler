@@ -1,1 +1,762 @@
-{"title": "Artemisia absinthium", "herb_slug": "artemisia-absinthium", "herb_name_scientific": "Artemisia absinthium", "family_slug": "", "family_name": "", "url": "herbs/artemisia-absinthium", "lastmod": "2025-1-20", "herb_names_common": [{"name": "absinthe", "mentions": 23, "confidence_score": 212, "total_score": 4876}, {"name": "wormwood", "mentions": 20, "confidence_score": 197, "total_score": 3940}, {"name": "mugwort", "mentions": 17, "confidence_score": 71, "total_score": 1207}, {"name": "artemisia", "mentions": 13, "confidence_score": 68, "total_score": 884}, {"name": "green ginger", "mentions": 19, "confidence_score": 64, "total_score": 1216}, {"name": "wormwood herb", "mentions": 8, "confidence_score": 58, "total_score": 464}, {"name": "european wormwood", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "common wormwood", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "absinthium", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "old woman", "mentions": 11, "confidence_score": 29, "total_score": 319}, {"name": "absinthe herb", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "wormwood sage", "mentions": 6, "confidence_score": 21, "total_score": 126}, {"name": "grand wormwood", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "southernwood", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "wormwood plant", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "absinthe wormwood", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "american wormwood", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "sweet annie", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "absinthe plant", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "wormwood weed", "mentions": 4, "confidence_score": 12, "total_score": 48}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 19, "confidence_score": 161, "total_score": 3059}, {"medicine_or_poison": "poison", "mentions": 1, "confidence_score": 8, "total_score": 8}], "what_description": "Artemisia absinthium is a perennial herbaceous plant belonging to the family Asteraceae. It grows to be 60-100 cm tall, with a woody base and a branched stem, bearing lanceolate leaves that are 2-5 cm long, 1-2 cm wide, and have a silvery-gray color due to their dense pubescence. The leaves are highly aromatic, with a bitter and slightly sweet taste. The plant produces yellow or yellow-green flowers in a panicle, 5-10 cm long, which are hermaphroditic and unisexual, with achenes 1-2 mm long and 1-2 mm wide, containing a single seed. Artemisia absinthium is native to Europe, but has been naturalized in many other parts of the world, and is often used in traditional medicine and as a flavoring agent.", "category_action": "antimicrobial", "ailments": [{"name": "fever", "mentions": 14, "confidence_score": 98, "total_score": 1372}, {"name": "digestive issues", "mentions": 12, "confidence_score": 91, "total_score": 1092}, {"name": "anxiety", "mentions": 10, "confidence_score": 91, "total_score": 910}, {"name": "migraines", "mentions": 11, "confidence_score": 80, "total_score": 880}, {"name": "insect bites", "mentions": 13, "confidence_score": 78, "total_score": 1014}, {"name": "skin conditions", "mentions": 10, "confidence_score": 67, "total_score": 670}, {"name": "fungal infections", "mentions": 7, "confidence_score": 55, "total_score": 385}, {"name": "inflammation", "mentions": 6, "confidence_score": 54, "total_score": 324}, {"name": "menstrual cramps", "mentions": 9, "confidence_score": 49, "total_score": 441}, {"name": "rheumatism", "mentions": 7, "confidence_score": 45, "total_score": 315}, {"name": "diarrhea", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "skin irritations", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "eczema", "mentions": 5, "confidence_score": 31, "total_score": 155}, {"name": "gastroenteritis", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "gastrointestinal issues", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "cholera", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "parasitic infections", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "worms", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "respiratory issues", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "malaria", "mentions": 3, "confidence_score": 19, "total_score": 57}], "ailments_description": "The most common ailments you can heal with Artemisia absinthium are fever, digestive issues, and anxiety, which it helps alleviate by inducing sweating and reducing inflammation. It has also been traditionally used to treat migraines, insect bites, and skin conditions by applying the plant's essential oil or using it in a poultice. Furthermore, it has been employed to combat fungal infections, inflammation, menstrual cramps, and rheumatism by using its extracts in medicinal preparations. Additionally, it can be used to treat diarrhea, skin irritations, eczema, gastroenteritis, gastrointestinal issues, cholera, parasitic infections, and worms by administering it in a decoction. Artemisia absinthium has also been used to alleviate respiratory issues and malaria by inhaling its essential oil or drinking tea made from the plant.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 169, "total_score": 3380}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 165, "total_score": 3300}, {"name": "antioxidant", "mentions": 20, "confidence_score": 157, "total_score": 3140}, {"name": "antiviral", "mentions": 17, "confidence_score": 95, "total_score": 1615}, {"name": "analgesic", "mentions": 16, "confidence_score": 94, "total_score": 1504}, {"name": "antispasmodic", "mentions": 13, "confidence_score": 92, "total_score": 1196}, {"name": "antiseptic", "mentions": 10, "confidence_score": 77, "total_score": 770}, {"name": "antifungal", "mentions": 10, "confidence_score": 73, "total_score": 730}, {"name": "hepatoprotective", "mentions": 9, "confidence_score": 61, "total_score": 549}, {"name": "antibacterial", "mentions": 7, "confidence_score": 59, "total_score": 413}, {"name": "anticancer", "mentions": 10, "confidence_score": 48, "total_score": 480}, {"name": "antiparasitic", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "digestive aid", "mentions": 8, "confidence_score": 36, "total_score": 288}, {"name": "cytotoxic", "mentions": 6, "confidence_score": 33, "total_score": 198}, {"name": "antihistamine", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "anxiolytic", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "antipyretic", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "neuroprotective", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "diuretic", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "uterine stimulant", "mentions": 2, "confidence_score": 8, "total_score": 16}], "properties_description": "The main therapeutic properties of Artemisia absinthium are its antimicrobial activity, which is attributed to the presence of volatile oils like thujone and sabinene, allowing it to inhibit the growth of various bacteria and fungi. Additionally, the anti-inflammatory properties of this plant are due to the action of flavonoids such as luteolin and apigenin, which can reduce inflammation and alleviate conditions like arthritis. Moreover, the antioxidant capacity of Artemisia absinthium is a result of the presence of sesquiterpenes and phenolic acids, which can scavenge free radicals and protect against oxidative stress. Furthermore, the antiviral activity of this plant is linked to the action of flavonoids and phenolic acids, which can inhibit the replication of viruses and prevent the development of viral infections. The analgesic properties of Artemisia absinthium can be attributed to the presence of volatile oils and sesquiterpenes, which can reduce pain and alleviate conditions like headaches and migraines.", "constituents": [{"name": "thujone", "mentions": 20, "confidence_score": 185, "total_score": 3700}, {"name": "bornyl acetate", "mentions": 18, "confidence_score": 132, "total_score": 2376}, {"name": "artabsin", "mentions": 11, "confidence_score": 84, "total_score": 924}, {"name": "caryophyllene oxide", "mentions": 9, "confidence_score": 62, "total_score": 558}, {"name": "sesquiterpenes", "mentions": 9, "confidence_score": 59, "total_score": 531}, {"name": "thujyl acetate", "mentions": 9, "confidence_score": 58, "total_score": 522}, {"name": "flavonoids", "mentions": 8, "confidence_score": 47, "total_score": 376}, {"name": "coumarins", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "camphor", "mentions": 7, "confidence_score": 46, "total_score": 322}, {"name": "absinthin", "mentions": 5, "confidence_score": 41, "total_score": 205}, {"name": "artemisinin", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "bornol", "mentions": 5, "confidence_score": 35, "total_score": 175}, {"name": "sesquiterpene alcohols", "mentions": 5, "confidence_score": 32, "total_score": 160}, {"name": "\u03b2-thujone", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "sesquiterpene lactones", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "cineole", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "phytosterols", "mentions": 5, "confidence_score": 25, "total_score": 125}, {"name": "borneol", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "\u03b1-thujone", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "volatile oils", "mentions": 3, "confidence_score": 19, "total_score": 57}], "constituents_description": "The most important healing constituents of Artemisia absinthium are thujone, bornyl acetate, artabsin, caryophyllene oxide, and sesquiterpenes. Thujone, a sesquiterpene ketone, exhibits antimicrobial and anti-inflammatory properties due to its ability to inhibit the growth of microorganisms and reduce inflammation by interacting with neurotransmitters. Bornyl acetate, a sesquiterpene ester, has been shown to possess analgesic and anti-inflammatory properties by inhibiting the production of pro-inflammatory enzymes. Artabsin, a sesquiterpene lactone, has been found to have antimicrobial and antifungal activities by disrupting the cell membrane of microorganisms and inhibiting the synthesis of essential fatty acids. Caryophyllene oxide, a sesquiterpene oxide, has been reported to exhibit anti-inflammatory and antioxidant properties by inhibiting the production of pro-inflammatory cytokines and scavenging free radicals, while sesquiterpenes in general have been found to have a wide range of biological activities, including antimicrobial, anti-inflammatory, and antioxidant effects.", "preparations": [{"name": "absinthe", "mentions": 20, "confidence_score": 195, "total_score": 3900}, {"name": "wormwood tincture", "mentions": 19, "confidence_score": 157, "total_score": 2983}, {"name": "wormwood infusion", "mentions": 15, "confidence_score": 94, "total_score": 1410}, {"name": "salve", "mentions": 15, "confidence_score": 79, "total_score": 1185}, {"name": "tea", "mentions": 11, "confidence_score": 72, "total_score": 792}, {"name": "wormwood tea", "mentions": 8, "confidence_score": 69, "total_score": 552}, {"name": "essential oil", "mentions": 10, "confidence_score": 50, "total_score": 500}, {"name": "infused oil", "mentions": 6, "confidence_score": 26, "total_score": 156}, {"name": "wormwood oil", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "ointment", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "poultice", "mentions": 3, "confidence_score": 11, "total_score": 33}, {"name": "wine", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "tisane", "mentions": 3, "confidence_score": 10, "total_score": 30}, {"name": "glycerite", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "absinthium tincture", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "infused vodka", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "resin", "mentions": 3, "confidence_score": 7, "total_score": 21}, {"name": "artemisia extract", "mentions": 1, "confidence_score": 6, "total_score": 6}, {"name": "wormwood decoction", "mentions": 2, "confidence_score": 6, "total_score": 12}, {"name": "infused honey", "mentions": 1, "confidence_score": 4, "total_score": 4}], "preparations_description": "The main herbal preparations of Artemisia absinthium are derived from its leaves and flowers, and include absinthe, a potent spirit infused with the plant's oils and flavonoids, traditionally used as a stimulant and antispasmodic; wormwood tincture, a concentrated liquid extract used to treat digestive issues and as a vermifuge; wormwood infusion, a tea made by steeping the plant's leaves in hot water, traditionally used to calm digestive issues and as an anthelmintic; wormwood salve, a topical preparation used to treat wounds and skin conditions due to its antimicrobial and anti-inflammatory properties; and wormwood tea, a herbal tea used to treat digestive issues, reduce fever, and as an antihelmintic due to its anthelmintic and anti-inflammatory compounds.", "side_effects": [{"name": "trigger psychosis", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "experiences hallucinations", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "induce hallucinations", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "increase heart rate", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "triggers psychosis", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "suffers nausea", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "aggravate anxiety", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "induces seizures", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induce liver damage", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induce vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induce seizures", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "cause seizures", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develops headache", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "shows liver damage", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develops hallucinations", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "raises blood pressure", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "provoke seizures", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "provoke hallucinations", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cause liver damage", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "worsen insomnia", "mentions": 2, "confidence_score": 14, "total_score": 28}], "side_effects_description": "The possible side effects of using Artemisia absinthium improperly include inducing hallucinations, triggering psychosis, and increasing heart rate due to the presence of thujone, a neurotoxin that can affect the central nervous system and heart rate. This is because thujone can interfere with the normal functioning of GABA receptors in the brain, leading to overexcitation and potentially causing hallucinations, psychosis, and tachycardia. Additionally, long-term consumption of Artemisia absinthium can lead to physical dependence and withdrawal symptoms when attempting to stop use. The increased heart rate can also lead to cardiovascular issues, including arrhythmias and high blood pressure. It is essential to use Artemisia absinthium under the guidance of a healthcare professional to minimize the risk of these side effects."}
+{
+    "title": "Artemisia absinthium",
+    "herb_slug": "artemisia-absinthium",
+    "herb_name_scientific": "Artemisia absinthium",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/artemisia-absinthium",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "absinthe",
+            "mentions": 23,
+            "confidence_score": 212,
+            "total_score": 4876
+        },
+        {
+            "name": "wormwood",
+            "mentions": 20,
+            "confidence_score": 197,
+            "total_score": 3940
+        },
+        {
+            "name": "mugwort",
+            "mentions": 17,
+            "confidence_score": 71,
+            "total_score": 1207
+        },
+        {
+            "name": "artemisia",
+            "mentions": 13,
+            "confidence_score": 68,
+            "total_score": 884
+        },
+        {
+            "name": "green ginger",
+            "mentions": 19,
+            "confidence_score": 64,
+            "total_score": 1216
+        },
+        {
+            "name": "wormwood herb",
+            "mentions": 8,
+            "confidence_score": 58,
+            "total_score": 464
+        },
+        {
+            "name": "european wormwood",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "common wormwood",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "absinthium",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "old woman",
+            "mentions": 11,
+            "confidence_score": 29,
+            "total_score": 319
+        },
+        {
+            "name": "absinthe herb",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "wormwood sage",
+            "mentions": 6,
+            "confidence_score": 21,
+            "total_score": 126
+        },
+        {
+            "name": "grand wormwood",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "southernwood",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "wormwood plant",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "absinthe wormwood",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "american wormwood",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "sweet annie",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "absinthe plant",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "wormwood weed",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 19,
+            "confidence_score": 161,
+            "total_score": 3059
+        },
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "what_description": "Artemisia absinthium is a perennial herbaceous plant belonging to the family Asteraceae. It grows to be 60-100 cm tall, with a woody base and a branched stem, bearing lanceolate leaves that are 2-5 cm long, 1-2 cm wide, and have a silvery-gray color due to their dense pubescence. The leaves are highly aromatic, with a bitter and slightly sweet taste. The plant produces yellow or yellow-green flowers in a panicle, 5-10 cm long, which are hermaphroditic and unisexual, with achenes 1-2 mm long and 1-2 mm wide, containing a single seed. Artemisia absinthium is native to Europe, but has been naturalized in many other parts of the world, and is often used in traditional medicine and as a flavoring agent.",
+    "category_action": "antimicrobial",
+    "ailments": [
+        {
+            "name": "fever",
+            "mentions": 14,
+            "confidence_score": 98,
+            "total_score": 1372
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 12,
+            "confidence_score": 91,
+            "total_score": 1092
+        },
+        {
+            "name": "anxiety",
+            "mentions": 10,
+            "confidence_score": 91,
+            "total_score": 910
+        },
+        {
+            "name": "migraines",
+            "mentions": 11,
+            "confidence_score": 80,
+            "total_score": 880
+        },
+        {
+            "name": "insect bites",
+            "mentions": 13,
+            "confidence_score": 78,
+            "total_score": 1014
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 10,
+            "confidence_score": 67,
+            "total_score": 670
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 7,
+            "confidence_score": 55,
+            "total_score": 385
+        },
+        {
+            "name": "inflammation",
+            "mentions": 6,
+            "confidence_score": 54,
+            "total_score": 324
+        },
+        {
+            "name": "menstrual cramps",
+            "mentions": 9,
+            "confidence_score": 49,
+            "total_score": 441
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 7,
+            "confidence_score": 45,
+            "total_score": 315
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "skin irritations",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "eczema",
+            "mentions": 5,
+            "confidence_score": 31,
+            "total_score": 155
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "gastrointestinal issues",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "cholera",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "parasitic infections",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "worms",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "malaria",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Artemisia absinthium are fever, digestive issues, and anxiety, which it helps alleviate by inducing sweating and reducing inflammation. It has also been traditionally used to treat migraines, insect bites, and skin conditions by applying the plant's essential oil or using it in a poultice. Furthermore, it has been employed to combat fungal infections, inflammation, menstrual cramps, and rheumatism by using its extracts in medicinal preparations. Additionally, it can be used to treat diarrhea, skin irritations, eczema, gastroenteritis, gastrointestinal issues, cholera, parasitic infections, and worms by administering it in a decoction. Artemisia absinthium has also been used to alleviate respiratory issues and malaria by inhaling its essential oil or drinking tea made from the plant.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 169,
+            "total_score": 3380
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 165,
+            "total_score": 3300
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 157,
+            "total_score": 3140
+        },
+        {
+            "name": "antiviral",
+            "mentions": 17,
+            "confidence_score": 95,
+            "total_score": 1615
+        },
+        {
+            "name": "analgesic",
+            "mentions": 16,
+            "confidence_score": 94,
+            "total_score": 1504
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 13,
+            "confidence_score": 92,
+            "total_score": 1196
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 10,
+            "confidence_score": 77,
+            "total_score": 770
+        },
+        {
+            "name": "antifungal",
+            "mentions": 10,
+            "confidence_score": 73,
+            "total_score": 730
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 9,
+            "confidence_score": 61,
+            "total_score": 549
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 7,
+            "confidence_score": 59,
+            "total_score": 413
+        },
+        {
+            "name": "anticancer",
+            "mentions": 10,
+            "confidence_score": 48,
+            "total_score": 480
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "digestive aid",
+            "mentions": 8,
+            "confidence_score": 36,
+            "total_score": 288
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 6,
+            "confidence_score": 33,
+            "total_score": 198
+        },
+        {
+            "name": "antihistamine",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "anxiolytic",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "diuretic",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "uterine stimulant",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Artemisia absinthium are its antimicrobial activity, which is attributed to the presence of volatile oils like thujone and sabinene, allowing it to inhibit the growth of various bacteria and fungi. Additionally, the anti-inflammatory properties of this plant are due to the action of flavonoids such as luteolin and apigenin, which can reduce inflammation and alleviate conditions like arthritis. Moreover, the antioxidant capacity of Artemisia absinthium is a result of the presence of sesquiterpenes and phenolic acids, which can scavenge free radicals and protect against oxidative stress. Furthermore, the antiviral activity of this plant is linked to the action of flavonoids and phenolic acids, which can inhibit the replication of viruses and prevent the development of viral infections. The analgesic properties of Artemisia absinthium can be attributed to the presence of volatile oils and sesquiterpenes, which can reduce pain and alleviate conditions like headaches and migraines.",
+    "constituents": [
+        {
+            "name": "thujone",
+            "mentions": 20,
+            "confidence_score": 185,
+            "total_score": 3700
+        },
+        {
+            "name": "bornyl acetate",
+            "mentions": 18,
+            "confidence_score": 132,
+            "total_score": 2376
+        },
+        {
+            "name": "artabsin",
+            "mentions": 11,
+            "confidence_score": 84,
+            "total_score": 924
+        },
+        {
+            "name": "caryophyllene oxide",
+            "mentions": 9,
+            "confidence_score": 62,
+            "total_score": 558
+        },
+        {
+            "name": "sesquiterpenes",
+            "mentions": 9,
+            "confidence_score": 59,
+            "total_score": 531
+        },
+        {
+            "name": "thujyl acetate",
+            "mentions": 9,
+            "confidence_score": 58,
+            "total_score": 522
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 8,
+            "confidence_score": 47,
+            "total_score": 376
+        },
+        {
+            "name": "coumarins",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "camphor",
+            "mentions": 7,
+            "confidence_score": 46,
+            "total_score": 322
+        },
+        {
+            "name": "absinthin",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "name": "artemisinin",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "bornol",
+            "mentions": 5,
+            "confidence_score": 35,
+            "total_score": 175
+        },
+        {
+            "name": "sesquiterpene alcohols",
+            "mentions": 5,
+            "confidence_score": 32,
+            "total_score": 160
+        },
+        {
+            "name": "\u03b2-thujone",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "sesquiterpene lactones",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "cineole",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "phytosterols",
+            "mentions": 5,
+            "confidence_score": 25,
+            "total_score": 125
+        },
+        {
+            "name": "borneol",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "\u03b1-thujone",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "volatile oils",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Artemisia absinthium are thujone, bornyl acetate, artabsin, caryophyllene oxide, and sesquiterpenes. Thujone, a sesquiterpene ketone, exhibits antimicrobial and anti-inflammatory properties due to its ability to inhibit the growth of microorganisms and reduce inflammation by interacting with neurotransmitters. Bornyl acetate, a sesquiterpene ester, has been shown to possess analgesic and anti-inflammatory properties by inhibiting the production of pro-inflammatory enzymes. Artabsin, a sesquiterpene lactone, has been found to have antimicrobial and antifungal activities by disrupting the cell membrane of microorganisms and inhibiting the synthesis of essential fatty acids. Caryophyllene oxide, a sesquiterpene oxide, has been reported to exhibit anti-inflammatory and antioxidant properties by inhibiting the production of pro-inflammatory cytokines and scavenging free radicals, while sesquiterpenes in general have been found to have a wide range of biological activities, including antimicrobial, anti-inflammatory, and antioxidant effects.",
+    "preparations": [
+        {
+            "name": "absinthe",
+            "mentions": 20,
+            "confidence_score": 195,
+            "total_score": 3900
+        },
+        {
+            "name": "wormwood tincture",
+            "mentions": 19,
+            "confidence_score": 157,
+            "total_score": 2983
+        },
+        {
+            "name": "wormwood infusion",
+            "mentions": 15,
+            "confidence_score": 94,
+            "total_score": 1410
+        },
+        {
+            "name": "salve",
+            "mentions": 15,
+            "confidence_score": 79,
+            "total_score": 1185
+        },
+        {
+            "name": "tea",
+            "mentions": 11,
+            "confidence_score": 72,
+            "total_score": 792
+        },
+        {
+            "name": "wormwood tea",
+            "mentions": 8,
+            "confidence_score": 69,
+            "total_score": 552
+        },
+        {
+            "name": "essential oil",
+            "mentions": 10,
+            "confidence_score": 50,
+            "total_score": 500
+        },
+        {
+            "name": "infused oil",
+            "mentions": 6,
+            "confidence_score": 26,
+            "total_score": 156
+        },
+        {
+            "name": "wormwood oil",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "ointment",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "poultice",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        },
+        {
+            "name": "wine",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "tisane",
+            "mentions": 3,
+            "confidence_score": 10,
+            "total_score": 30
+        },
+        {
+            "name": "glycerite",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "absinthium tincture",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "infused vodka",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "resin",
+            "mentions": 3,
+            "confidence_score": 7,
+            "total_score": 21
+        },
+        {
+            "name": "artemisia extract",
+            "mentions": 1,
+            "confidence_score": 6,
+            "total_score": 6
+        },
+        {
+            "name": "wormwood decoction",
+            "mentions": 2,
+            "confidence_score": 6,
+            "total_score": 12
+        },
+        {
+            "name": "infused honey",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Artemisia absinthium are derived from its leaves and flowers, and include absinthe, a potent spirit infused with the plant's oils and flavonoids, traditionally used as a stimulant and antispasmodic; wormwood tincture, a concentrated liquid extract used to treat digestive issues and as a vermifuge; wormwood infusion, a tea made by steeping the plant's leaves in hot water, traditionally used to calm digestive issues and as an anthelmintic; wormwood salve, a topical preparation used to treat wounds and skin conditions due to its antimicrobial and anti-inflammatory properties; and wormwood tea, a herbal tea used to treat digestive issues, reduce fever, and as an antihelmintic due to its anthelmintic and anti-inflammatory compounds.",
+    "side_effects": [
+        {
+            "name": "trigger psychosis",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "experiences hallucinations",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "induce hallucinations",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "increase heart rate",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "triggers psychosis",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "suffers nausea",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "aggravate anxiety",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "induces seizures",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induce liver damage",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induce seizures",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "cause seizures",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develops headache",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "shows liver damage",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develops hallucinations",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "raises blood pressure",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "provoke seizures",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "provoke hallucinations",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "worsen insomnia",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Artemisia absinthium improperly include inducing hallucinations, triggering psychosis, and increasing heart rate due to the presence of thujone, a neurotoxin that can affect the central nervous system and heart rate. This is because thujone can interfere with the normal functioning of GABA receptors in the brain, leading to overexcitation and potentially causing hallucinations, psychosis, and tachycardia. Additionally, long-term consumption of Artemisia absinthium can lead to physical dependence and withdrawal symptoms when attempting to stop use. The increased heart rate can also lead to cardiovascular issues, including arrhythmias and high blood pressure. It is essential to use Artemisia absinthium under the guidance of a healthcare professional to minimize the risk of these side effects."
+}

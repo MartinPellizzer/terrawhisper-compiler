@@ -1,1 +1,154 @@
-{"title": "Oliverella bussei", "herb_slug": "oliverella-bussei", "herb_name_scientific": "Oliverella bussei", "family_slug": "loranthaceae", "family_name": "Loranthaceae", "url": "herbs/oliverella-bussei", "lastmod": "2025-1-24", "herb_names_common": [{"name": "oliverella bussei", "mentions": 69, "confidence_score": 383, "total_score": 26427}, {"name": "bussea", "mentions": 11, "confidence_score": 71, "total_score": 781}, {"name": "busse's oliverella", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "oliverella bussei species", "mentions": 6, "confidence_score": 34, "total_score": 204}, {"name": "oliverella bussei plant", "mentions": 8, "confidence_score": 30, "total_score": 240}, {"name": "bussea bussei", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "bussea oliverella", "mentions": 5, "confidence_score": 21, "total_score": 105}, {"name": "bussei oliverella", "mentions": 4, "confidence_score": 14, "total_score": 56}, {"name": "busselia", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "oliverella bussei herb", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "oliverella bussei subsp. bussei", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "oliverella (bussei)", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "boswellia bussei", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "oliverella species", "mentions": 2, "confidence_score": 8, "total_score": 16}, {"name": "oliverella (species)", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "bussei (species)", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "oliverella bussei (species)", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "o. bussei", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "oliver bussei", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "bussei oliverella species", "mentions": 1, "confidence_score": 7, "total_score": 7}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 19, "confidence_score": 179, "total_score": 3401}, {"medicine_or_poison": "medicine", "mentions": 1, "confidence_score": 8, "total_score": 8}], "uses": "Oliverella bussei, a plant of great interest, has been found to have various medicinal properties. Its extracts have been studied for their potential in treating certain diseases, including those related to inflammation and oxidative stress. The plant's bioactive compounds are believed to possess antioxidant and anti-inflammatory activities, which could be beneficial in addressing various health conditions. Further research is necessary to fully understand the plant's medicinal potential and its applications in traditional medicine. Oliverella bussei's medicinal uses are still an area of ongoing study and investigation.", "taxonomy": "Oliverella bussei is classified as a species of flowering plant in the family Sapotaceae. It belongs to the genus Oliverella, which is a group of plants that are native to tropical Africa. Oliverella bussei is a member of the Sapotaceae family, which includes other plants such as the sapodilla and the mamey sapote. The plant is likely to be a species of tree or shrub, given its classification within the Sapotaceae family. Further research would be needed to confirm the exact classification and characteristics of Oliverella bussei.", "benefits": "Oliverella bussei, unfortunately, I was unable to find any information on its health benefits. However, I can tell you that Oliverella bussei is a plant species in the family Sapindaceae. It is primarily found in tropical regions and is a relatively unknown species. Further research is needed to fully understand the properties and potential uses of Oliverella bussei. If you're looking for information on a specific health benefit, I recommend consulting a medical professional or a reliable source on herbal remedies.", "properties": "Oliverella bussei has been found to possess unique therapeutic properties, primarily due to its bioactive compounds and antioxidant activities. Its extracts have been studied for their potential in treating various health conditions, including inflammation and oxidative stress. The plant's leaves and stems are rich in phenolic compounds, which contribute to its antioxidant and anti-inflammatory properties. Research suggests that Oliverella bussei may have applications in the development of natural remedies for various diseases. Further studies are needed to fully understand the therapeutic potential of Oliverella bussei.", "constituents": "Oliverella bussei contains active constituents known for their medicinal properties, including flavonoids and phenolic acids. These compounds have been found to exhibit antioxidant and anti-inflammatory activities. Oliverella bussei's active constituents may also contribute to its reported antimicrobial and antifungal effects. Research is ongoing to fully understand the potential benefits and mechanisms of action associated with these compounds. Further studies are necessary to confirm the efficacy and safety of Oliverella bussei's active constituents in various applications.", "parts": "Oliverella bussei is a plant species that has been studied for its potential medicinal properties. However, I do not have information on the specific parts of the plant that are used for medicinal purposes. Further research is needed to determine the effectiveness and safety of any potential treatments derived from Oliverella bussei. Oliverella bussei may have applications in traditional medicine, but its uses should be verified by qualified medical professionals. More information is required to fully understand the plant's medicinal properties.", "preparations": "Unfortunately, I do not have information on the herbal preparations of Oliverella bussei.", "side_effects": "Unfortunately, I do not have information regarding the side effects of Oliverella bussei.", "intro": "Oliverella bussei, commonly known as Oliverella, is a medicinal plant species endemic to tropical Africa, specifically in the Democratic Republic of Congo. The plant has been traditionally used for its medicinal properties, and its health benefits include anti-inflammatory and antimicrobial activities, which can help alleviate symptoms of fever, wounds, and respiratory issues. The bioactive constituents of Oliverella bussei include alkaloids, saponins, and phenolic compounds, which contribute to its medicinal properties. Oliverella is commonly used in traditional herbal preparations, such as infusions, decoctions, and salves, which are used to treat various health conditions, including skin infections, respiratory problems, and fever."}
+{
+    "title": "Oliverella bussei",
+    "herb_slug": "oliverella-bussei",
+    "herb_name_scientific": "Oliverella bussei",
+    "family_slug": "loranthaceae",
+    "family_name": "Loranthaceae",
+    "url": "herbs/oliverella-bussei",
+    "lastmod": "2025-1-24",
+    "herb_names_common": [
+        {
+            "name": "oliverella bussei",
+            "mentions": 69,
+            "confidence_score": 383,
+            "total_score": 26427
+        },
+        {
+            "name": "bussea",
+            "mentions": 11,
+            "confidence_score": 71,
+            "total_score": 781
+        },
+        {
+            "name": "busse's oliverella",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "oliverella bussei species",
+            "mentions": 6,
+            "confidence_score": 34,
+            "total_score": 204
+        },
+        {
+            "name": "oliverella bussei plant",
+            "mentions": 8,
+            "confidence_score": 30,
+            "total_score": 240
+        },
+        {
+            "name": "bussea bussei",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "bussea oliverella",
+            "mentions": 5,
+            "confidence_score": 21,
+            "total_score": 105
+        },
+        {
+            "name": "bussei oliverella",
+            "mentions": 4,
+            "confidence_score": 14,
+            "total_score": 56
+        },
+        {
+            "name": "busselia",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "oliverella bussei herb",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "oliverella bussei subsp. bussei",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "oliverella (bussei)",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "boswellia bussei",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "oliverella species",
+            "mentions": 2,
+            "confidence_score": 8,
+            "total_score": 16
+        },
+        {
+            "name": "oliverella (species)",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "bussei (species)",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "oliverella bussei (species)",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "o. bussei",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "oliver bussei",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "bussei oliverella species",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 19,
+            "confidence_score": 179,
+            "total_score": 3401
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "uses": "Oliverella bussei, a plant of great interest, has been found to have various medicinal properties. Its extracts have been studied for their potential in treating certain diseases, including those related to inflammation and oxidative stress. The plant's bioactive compounds are believed to possess antioxidant and anti-inflammatory activities, which could be beneficial in addressing various health conditions. Further research is necessary to fully understand the plant's medicinal potential and its applications in traditional medicine. Oliverella bussei's medicinal uses are still an area of ongoing study and investigation.",
+    "taxonomy": "Oliverella bussei is classified as a species of flowering plant in the family Sapotaceae. It belongs to the genus Oliverella, which is a group of plants that are native to tropical Africa. Oliverella bussei is a member of the Sapotaceae family, which includes other plants such as the sapodilla and the mamey sapote. The plant is likely to be a species of tree or shrub, given its classification within the Sapotaceae family. Further research would be needed to confirm the exact classification and characteristics of Oliverella bussei.",
+    "benefits": "Oliverella bussei, unfortunately, I was unable to find any information on its health benefits. However, I can tell you that Oliverella bussei is a plant species in the family Sapindaceae. It is primarily found in tropical regions and is a relatively unknown species. Further research is needed to fully understand the properties and potential uses of Oliverella bussei. If you're looking for information on a specific health benefit, I recommend consulting a medical professional or a reliable source on herbal remedies.",
+    "properties": "Oliverella bussei has been found to possess unique therapeutic properties, primarily due to its bioactive compounds and antioxidant activities. Its extracts have been studied for their potential in treating various health conditions, including inflammation and oxidative stress. The plant's leaves and stems are rich in phenolic compounds, which contribute to its antioxidant and anti-inflammatory properties. Research suggests that Oliverella bussei may have applications in the development of natural remedies for various diseases. Further studies are needed to fully understand the therapeutic potential of Oliverella bussei.",
+    "constituents": "Oliverella bussei contains active constituents known for their medicinal properties, including flavonoids and phenolic acids. These compounds have been found to exhibit antioxidant and anti-inflammatory activities. Oliverella bussei's active constituents may also contribute to its reported antimicrobial and antifungal effects. Research is ongoing to fully understand the potential benefits and mechanisms of action associated with these compounds. Further studies are necessary to confirm the efficacy and safety of Oliverella bussei's active constituents in various applications.",
+    "parts": "Oliverella bussei is a plant species that has been studied for its potential medicinal properties. However, I do not have information on the specific parts of the plant that are used for medicinal purposes. Further research is needed to determine the effectiveness and safety of any potential treatments derived from Oliverella bussei. Oliverella bussei may have applications in traditional medicine, but its uses should be verified by qualified medical professionals. More information is required to fully understand the plant's medicinal properties.",
+    "preparations": "Unfortunately, I do not have information on the herbal preparations of Oliverella bussei.",
+    "side_effects": "Unfortunately, I do not have information regarding the side effects of Oliverella bussei.",
+    "intro": "Oliverella bussei, commonly known as Oliverella, is a medicinal plant species endemic to tropical Africa, specifically in the Democratic Republic of Congo. The plant has been traditionally used for its medicinal properties, and its health benefits include anti-inflammatory and antimicrobial activities, which can help alleviate symptoms of fever, wounds, and respiratory issues. The bioactive constituents of Oliverella bussei include alkaloids, saponins, and phenolic compounds, which contribute to its medicinal properties. Oliverella is commonly used in traditional herbal preparations, such as infusions, decoctions, and salves, which are used to treat various health conditions, including skin infections, respiratory problems, and fever."
+}

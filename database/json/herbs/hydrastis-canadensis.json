@@ -1,1 +1,756 @@
-{"title": "Hydrastis canadensis", "herb_slug": "hydrastis-canadensis", "herb_name_scientific": "Hydrastis canadensis", "family_slug": "", "family_name": "", "url": "herbs/hydrastis-canadensis", "lastmod": "2025-1-20", "herb_names_common": [{"name": "goldenseal", "mentions": 20, "confidence_score": 191, "total_score": 3820}, {"name": "american goldenseal", "mentions": 20, "confidence_score": 131, "total_score": 2620}, {"name": "orangeroot", "mentions": 16, "confidence_score": 123, "total_score": 1968}, {"name": "yellow root", "mentions": 12, "confidence_score": 93, "total_score": 1116}, {"name": "yellowroot", "mentions": 11, "confidence_score": 85, "total_score": 935}, {"name": "wild goldenseal", "mentions": 18, "confidence_score": 85, "total_score": 1530}, {"name": "hydrastis", "mentions": 15, "confidence_score": 78, "total_score": 1170}, {"name": "canadian goldenseal", "mentions": 11, "confidence_score": 55, "total_score": 605}, {"name": "american goldenseal root", "mentions": 7, "confidence_score": 31, "total_score": 217}, {"name": "indian cinnamon", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "golden seal", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "golden root", "mentions": 5, "confidence_score": 18, "total_score": 90}, {"name": "colic root", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "yellow puccoon", "mentions": 5, "confidence_score": 15, "total_score": 75}, {"name": "orpine", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "ramping goldenseal", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "american hydrastis", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "hydrange", "mentions": 4, "confidence_score": 12, "total_score": 48}, {"name": "goldenroot", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "hydrange root", "mentions": 2, "confidence_score": 10, "total_score": 20}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 178, "total_score": 3560}], "what_description": "Hydrastis canadensis is a perennial herbaceous plant native to eastern North America. It belongs to the family Hydrastaceae and is commonly known as goldenseal. The plant has a thick, rhizomatous stem, 10-30 cm tall, with 2-3 lobed leaves that are 3-15 cm long and elliptical in shape. The leaves are opposite, simple, and have an entire margin, while the flowers are small, greenish-white, and appear in late spring. The plant's root is the part used medicinally, containing berberine, hydrastine, and hydrastinine, which are responsible for its antimicrobial properties.", "category_action": "alteratives", "ailments": [{"name": "urinary tract infections", "mentions": 16, "confidence_score": 125, "total_score": 2000}, {"name": "diarrhea", "mentions": 14, "confidence_score": 119, "total_score": 1666}, {"name": "digestive issues", "mentions": 12, "confidence_score": 96, "total_score": 1152}, {"name": "fungal infections", "mentions": 13, "confidence_score": 77, "total_score": 1001}, {"name": "gastrointestinal inflammation", "mentions": 8, "confidence_score": 64, "total_score": 512}, {"name": "respiratory infections", "mentions": 8, "confidence_score": 59, "total_score": 472}, {"name": "gastroenteritis", "mentions": 7, "confidence_score": 52, "total_score": 364}, {"name": "skin infections", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "skin conditions", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "skin ulcers", "mentions": 4, "confidence_score": 30, "total_score": 120}, {"name": "gastritis", "mentions": 3, "confidence_score": 29, "total_score": 87}, {"name": "skin irritation", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "inflammatory bowel disease", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "inflammatory conditions", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "respiratory issues", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "gastrointestinal disorders", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "skin wounds", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "cough", "mentions": 4, "confidence_score": 21, "total_score": 84}, {"name": "sore throat", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "viral hepatitis", "mentions": 3, "confidence_score": 17, "total_score": 51}], "ailments_description": "The most common ailments you can heal with Hydrastis canadensis are urinary tract infections, which have been treated with its antiseptic and antibacterial properties. Diarrhea and digestive issues are also commonly alleviated with this plant, due to its ability to regulate gut flora and reduce inflammation. Fungal infections, gastrointestinal inflammation, and gastroenteritis have been effectively managed with its antifungal and anti-inflammatory properties. Additionally, Hydrastis canadensis has been used to treat respiratory infections, such as pneumonia, and skin infections, including skin ulcers and skin wounds, by promoting tissue repair and reducing inflammation. Its anti-inflammatory properties also make it effective in treating inflammatory bowel disease, gastritis, inflammatory conditions, respiratory issues, gastrointestinal disorders, skin irritation, and viral hepatitis.", "properties": [{"name": "antimicrobial", "mentions": 20, "confidence_score": 171, "total_score": 3420}, {"name": "antioxidant", "mentions": 20, "confidence_score": 166, "total_score": 3320}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 159, "total_score": 3180}, {"name": "antiviral", "mentions": 19, "confidence_score": 125, "total_score": 2375}, {"name": "antifungal", "mentions": 15, "confidence_score": 117, "total_score": 1755}, {"name": "antibacterial", "mentions": 10, "confidence_score": 83, "total_score": 830}, {"name": "antiseptic", "mentions": 10, "confidence_score": 81, "total_score": 810}, {"name": "immunomodulatory", "mentions": 13, "confidence_score": 79, "total_score": 1027}, {"name": "analgesic", "mentions": 10, "confidence_score": 56, "total_score": 560}, {"name": "digestive aid", "mentions": 7, "confidence_score": 44, "total_score": 308}, {"name": "anticancer", "mentions": 8, "confidence_score": 38, "total_score": 304}, {"name": "hepatoprotective", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "antimutagenic", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "expectorant", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "cytotoxic", "mentions": 5, "confidence_score": 22, "total_score": 110}, {"name": "antidiarrheal", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "antipyretic", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "antiparasitic", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "neuroprotective", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "astringent", "mentions": 2, "confidence_score": 11, "total_score": 22}], "properties_description": "The main therapeutic properties of Hydrastis canadensis are largely attributed to its ability to exhibit antimicrobial effects, inhibiting the growth of various pathogens. The presence of bioactive compounds such as berberine, a benzylisoquinoline alkaloid, contributes to its antioxidant properties, scavenging free radicals and protecting against oxidative stress. Additionally, the anti-inflammatory properties of this plant are associated with the presence of hydrastine and berberine, which have been shown to reduce inflammation and alleviate pain. Berberine has also been found to possess antiviral activity, inhibiting the replication of certain viruses and preventing the spread of infection. Furthermore, the antifungal properties of Hydrastis canadensis are attributed to the presence of other bioactive compounds, including berberine and hydrastine, which have been shown to inhibit the growth of fungal pathogens.", "constituents": [{"name": "berberine", "mentions": 19, "confidence_score": 182, "total_score": 3458}, {"name": "hydrastine", "mentions": 18, "confidence_score": 151, "total_score": 2718}, {"name": "alkaloid berbamine", "mentions": 10, "confidence_score": 78, "total_score": 780}, {"name": "alkaloid canadine", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "oleanolic acid", "mentions": 6, "confidence_score": 40, "total_score": 240}, {"name": "alkaloids", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "vasconine", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "alkaloid berberine", "mentions": 5, "confidence_score": 27, "total_score": 135}, {"name": "flavonoid quercetin", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "alkaloid berberastine", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "hydrastinine", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "ursolic acid", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "quinic acid", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "betulinic acid", "mentions": 4, "confidence_score": 19, "total_score": 76}, {"name": "canthine", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "oleuropein", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "hydroquinone", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "caffeic acid", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "hydrastidin", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "hydrastic acid", "mentions": 2, "confidence_score": 16, "total_score": 32}], "constituents_description": "The most important healing constituents of Hydrastis canadensis are berberine, hydrastine, alkaloid berbamine, alkaloid canadine, and oleanolic acid. These compounds have been identified as the primary bioactive molecules responsible for the medicinal properties of goldenseal, a plant-based remedy derived from Hydrastis canadensis. Berberine, a benzylisoquinoline alkaloid, has been shown to exhibit antibacterial, anti-inflammatory, and anti-diarrheal activities, while hydrastine, another alkaloid, has been found to possess antimicrobial and anti-inflammatory properties. Alkaloid berbamine and canadine have been reported to have anti-inflammatory and immunomodulatory effects, with berbamine also demonstrating antioxidant activity. Oleanolic acid, a triterpenoid saponin, has been shown to possess anti-inflammatory, antioxidant, and hepatoprotective properties, contributing to the overall therapeutic efficacy of goldenseal.", "preparations": [{"name": "tincture", "mentions": 17, "confidence_score": 169, "total_score": 2873}, {"name": "tea", "mentions": 14, "confidence_score": 108, "total_score": 1512}, {"name": "salve", "mentions": 16, "confidence_score": 98, "total_score": 1568}, {"name": "infusion", "mentions": 13, "confidence_score": 86, "total_score": 1118}, {"name": "capsules", "mentions": 11, "confidence_score": 82, "total_score": 902}, {"name": "extract", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "hydrastis tincture", "mentions": 3, "confidence_score": 30, "total_score": 90}, {"name": "capsule", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "ointment", "mentions": 5, "confidence_score": 24, "total_score": 120}, {"name": "hydrastis infusion", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "hydrastis extract", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "hydrastis salve", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "topical cream", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "infused oil", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "suppository", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "hydrastis tea", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "suppositories", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "hydrastis oil", "mentions": 2, "confidence_score": 7, "total_score": 14}, {"name": "topical oil", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "hydrastis capsules", "mentions": 1, "confidence_score": 5, "total_score": 5}], "preparations_description": "The main herbal preparations of Hydrastis canadensis are used to standardize and enhance its bioavailability. Hydrastis tincture is made by steeping the root in a solvent like ethanol to extract its active compounds, such as berberine and hydrastine, which exhibit antimicrobial and anti-inflammatory properties. Herbal teas are prepared by steeping the dried root in hot water, releasing volatile oils and alkaloids that may aid digestion and alleviate gastrointestinal issues. Topical preparations like salves and infusions are used to treat skin conditions, such as wounds and ulcers, by applying the extract directly to the affected area, while capsules contain the standardized extract in a controlled dosage for oral consumption. These preparations are effective due to the plant's rich content of berberine, which has been extensively studied for its medicinal properties.", "side_effects": [{"name": "induce nausea", "mentions": 4, "confidence_score": 35, "total_score": 140}, {"name": "experience nausea", "mentions": 3, "confidence_score": 28, "total_score": 84}, {"name": "developing diarrhea", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "experiences nausea", "mentions": 3, "confidence_score": 25, "total_score": 75}, {"name": "experiencing nausea", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "develop liver damage", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "cause diarrhea", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "trigger allergic reactions", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "induce diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "experience vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "exacerbate kidney issues", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "suffering abdominal pain", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "interact with medications", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "trigger seizures", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "experiencing vomiting", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "experiences dizziness", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "suffer diarrhea", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "overdose", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "hypertension", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "interact with blood thinners", "mentions": 1, "confidence_score": 10, "total_score": 10}], "side_effects_description": "The possible side effects of using Hydrastis canadensis improperly include inducing nausea, which can be caused by consuming high doses of the plant's extracts. Experience nausea is also a common complaint among individuals who have ingested the plant without medical guidance. Developing diarrhea is another possible side effect, as the saponins present in Hydrastis canadensis can irritate the digestive system. The root of the issue lies in the plant's bioactive compounds, which can interact with other medications and exacerbate underlying health conditions. Experiencing nausea is a recurring theme among those who have used Hydrastis canadensis without proper medical supervision, often due to its potent and unpredictable effects."}
+{
+    "title": "Hydrastis canadensis",
+    "herb_slug": "hydrastis-canadensis",
+    "herb_name_scientific": "Hydrastis canadensis",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/hydrastis-canadensis",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "goldenseal",
+            "mentions": 20,
+            "confidence_score": 191,
+            "total_score": 3820
+        },
+        {
+            "name": "american goldenseal",
+            "mentions": 20,
+            "confidence_score": 131,
+            "total_score": 2620
+        },
+        {
+            "name": "orangeroot",
+            "mentions": 16,
+            "confidence_score": 123,
+            "total_score": 1968
+        },
+        {
+            "name": "yellow root",
+            "mentions": 12,
+            "confidence_score": 93,
+            "total_score": 1116
+        },
+        {
+            "name": "yellowroot",
+            "mentions": 11,
+            "confidence_score": 85,
+            "total_score": 935
+        },
+        {
+            "name": "wild goldenseal",
+            "mentions": 18,
+            "confidence_score": 85,
+            "total_score": 1530
+        },
+        {
+            "name": "hydrastis",
+            "mentions": 15,
+            "confidence_score": 78,
+            "total_score": 1170
+        },
+        {
+            "name": "canadian goldenseal",
+            "mentions": 11,
+            "confidence_score": 55,
+            "total_score": 605
+        },
+        {
+            "name": "american goldenseal root",
+            "mentions": 7,
+            "confidence_score": 31,
+            "total_score": 217
+        },
+        {
+            "name": "indian cinnamon",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "golden seal",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "golden root",
+            "mentions": 5,
+            "confidence_score": 18,
+            "total_score": 90
+        },
+        {
+            "name": "colic root",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "yellow puccoon",
+            "mentions": 5,
+            "confidence_score": 15,
+            "total_score": 75
+        },
+        {
+            "name": "orpine",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "ramping goldenseal",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "american hydrastis",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "hydrange",
+            "mentions": 4,
+            "confidence_score": 12,
+            "total_score": 48
+        },
+        {
+            "name": "goldenroot",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "hydrange root",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 178,
+            "total_score": 3560
+        }
+    ],
+    "what_description": "Hydrastis canadensis is a perennial herbaceous plant native to eastern North America. It belongs to the family Hydrastaceae and is commonly known as goldenseal. The plant has a thick, rhizomatous stem, 10-30 cm tall, with 2-3 lobed leaves that are 3-15 cm long and elliptical in shape. The leaves are opposite, simple, and have an entire margin, while the flowers are small, greenish-white, and appear in late spring. The plant's root is the part used medicinally, containing berberine, hydrastine, and hydrastinine, which are responsible for its antimicrobial properties.",
+    "category_action": "alteratives",
+    "ailments": [
+        {
+            "name": "urinary tract infections",
+            "mentions": 16,
+            "confidence_score": 125,
+            "total_score": 2000
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 14,
+            "confidence_score": 119,
+            "total_score": 1666
+        },
+        {
+            "name": "digestive issues",
+            "mentions": 12,
+            "confidence_score": 96,
+            "total_score": 1152
+        },
+        {
+            "name": "fungal infections",
+            "mentions": 13,
+            "confidence_score": 77,
+            "total_score": 1001
+        },
+        {
+            "name": "gastrointestinal inflammation",
+            "mentions": 8,
+            "confidence_score": 64,
+            "total_score": 512
+        },
+        {
+            "name": "respiratory infections",
+            "mentions": 8,
+            "confidence_score": 59,
+            "total_score": 472
+        },
+        {
+            "name": "gastroenteritis",
+            "mentions": 7,
+            "confidence_score": 52,
+            "total_score": 364
+        },
+        {
+            "name": "skin infections",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "skin ulcers",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        },
+        {
+            "name": "gastritis",
+            "mentions": 3,
+            "confidence_score": 29,
+            "total_score": 87
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "inflammatory bowel disease",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "inflammatory conditions",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "respiratory issues",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "gastrointestinal disorders",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "skin wounds",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "cough",
+            "mentions": 4,
+            "confidence_score": 21,
+            "total_score": 84
+        },
+        {
+            "name": "sore throat",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "viral hepatitis",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Hydrastis canadensis are urinary tract infections, which have been treated with its antiseptic and antibacterial properties. Diarrhea and digestive issues are also commonly alleviated with this plant, due to its ability to regulate gut flora and reduce inflammation. Fungal infections, gastrointestinal inflammation, and gastroenteritis have been effectively managed with its antifungal and anti-inflammatory properties. Additionally, Hydrastis canadensis has been used to treat respiratory infections, such as pneumonia, and skin infections, including skin ulcers and skin wounds, by promoting tissue repair and reducing inflammation. Its anti-inflammatory properties also make it effective in treating inflammatory bowel disease, gastritis, inflammatory conditions, respiratory issues, gastrointestinal disorders, skin irritation, and viral hepatitis.",
+    "properties": [
+        {
+            "name": "antimicrobial",
+            "mentions": 20,
+            "confidence_score": 171,
+            "total_score": 3420
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 166,
+            "total_score": 3320
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 159,
+            "total_score": 3180
+        },
+        {
+            "name": "antiviral",
+            "mentions": 19,
+            "confidence_score": 125,
+            "total_score": 2375
+        },
+        {
+            "name": "antifungal",
+            "mentions": 15,
+            "confidence_score": 117,
+            "total_score": 1755
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 10,
+            "confidence_score": 83,
+            "total_score": 830
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 10,
+            "confidence_score": 81,
+            "total_score": 810
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 13,
+            "confidence_score": 79,
+            "total_score": 1027
+        },
+        {
+            "name": "analgesic",
+            "mentions": 10,
+            "confidence_score": 56,
+            "total_score": 560
+        },
+        {
+            "name": "digestive aid",
+            "mentions": 7,
+            "confidence_score": 44,
+            "total_score": 308
+        },
+        {
+            "name": "anticancer",
+            "mentions": 8,
+            "confidence_score": 38,
+            "total_score": 304
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "antimutagenic",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "expectorant",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "cytotoxic",
+            "mentions": 5,
+            "confidence_score": 22,
+            "total_score": 110
+        },
+        {
+            "name": "antidiarrheal",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "antipyretic",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "antiparasitic",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "astringent",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Hydrastis canadensis are largely attributed to its ability to exhibit antimicrobial effects, inhibiting the growth of various pathogens. The presence of bioactive compounds such as berberine, a benzylisoquinoline alkaloid, contributes to its antioxidant properties, scavenging free radicals and protecting against oxidative stress. Additionally, the anti-inflammatory properties of this plant are associated with the presence of hydrastine and berberine, which have been shown to reduce inflammation and alleviate pain. Berberine has also been found to possess antiviral activity, inhibiting the replication of certain viruses and preventing the spread of infection. Furthermore, the antifungal properties of Hydrastis canadensis are attributed to the presence of other bioactive compounds, including berberine and hydrastine, which have been shown to inhibit the growth of fungal pathogens.",
+    "constituents": [
+        {
+            "name": "berberine",
+            "mentions": 19,
+            "confidence_score": 182,
+            "total_score": 3458
+        },
+        {
+            "name": "hydrastine",
+            "mentions": 18,
+            "confidence_score": 151,
+            "total_score": 2718
+        },
+        {
+            "name": "alkaloid berbamine",
+            "mentions": 10,
+            "confidence_score": 78,
+            "total_score": 780
+        },
+        {
+            "name": "alkaloid canadine",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 6,
+            "confidence_score": 40,
+            "total_score": 240
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "vasconine",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "alkaloid berberine",
+            "mentions": 5,
+            "confidence_score": 27,
+            "total_score": 135
+        },
+        {
+            "name": "flavonoid quercetin",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "alkaloid berberastine",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "hydrastinine",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "ursolic acid",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "quinic acid",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "betulinic acid",
+            "mentions": 4,
+            "confidence_score": 19,
+            "total_score": 76
+        },
+        {
+            "name": "canthine",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "oleuropein",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "hydroquinone",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "caffeic acid",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "hydrastidin",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "hydrastic acid",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Hydrastis canadensis are berberine, hydrastine, alkaloid berbamine, alkaloid canadine, and oleanolic acid. These compounds have been identified as the primary bioactive molecules responsible for the medicinal properties of goldenseal, a plant-based remedy derived from Hydrastis canadensis. Berberine, a benzylisoquinoline alkaloid, has been shown to exhibit antibacterial, anti-inflammatory, and anti-diarrheal activities, while hydrastine, another alkaloid, has been found to possess antimicrobial and anti-inflammatory properties. Alkaloid berbamine and canadine have been reported to have anti-inflammatory and immunomodulatory effects, with berbamine also demonstrating antioxidant activity. Oleanolic acid, a triterpenoid saponin, has been shown to possess anti-inflammatory, antioxidant, and hepatoprotective properties, contributing to the overall therapeutic efficacy of goldenseal.",
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 17,
+            "confidence_score": 169,
+            "total_score": 2873
+        },
+        {
+            "name": "tea",
+            "mentions": 14,
+            "confidence_score": 108,
+            "total_score": 1512
+        },
+        {
+            "name": "salve",
+            "mentions": 16,
+            "confidence_score": 98,
+            "total_score": 1568
+        },
+        {
+            "name": "infusion",
+            "mentions": 13,
+            "confidence_score": 86,
+            "total_score": 1118
+        },
+        {
+            "name": "capsules",
+            "mentions": 11,
+            "confidence_score": 82,
+            "total_score": 902
+        },
+        {
+            "name": "extract",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "hydrastis tincture",
+            "mentions": 3,
+            "confidence_score": 30,
+            "total_score": 90
+        },
+        {
+            "name": "capsule",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "ointment",
+            "mentions": 5,
+            "confidence_score": 24,
+            "total_score": 120
+        },
+        {
+            "name": "hydrastis infusion",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "hydrastis extract",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "hydrastis salve",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "topical cream",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "infused oil",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "suppository",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "hydrastis tea",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "suppositories",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "hydrastis oil",
+            "mentions": 2,
+            "confidence_score": 7,
+            "total_score": 14
+        },
+        {
+            "name": "topical oil",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "hydrastis capsules",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Hydrastis canadensis are used to standardize and enhance its bioavailability. Hydrastis tincture is made by steeping the root in a solvent like ethanol to extract its active compounds, such as berberine and hydrastine, which exhibit antimicrobial and anti-inflammatory properties. Herbal teas are prepared by steeping the dried root in hot water, releasing volatile oils and alkaloids that may aid digestion and alleviate gastrointestinal issues. Topical preparations like salves and infusions are used to treat skin conditions, such as wounds and ulcers, by applying the extract directly to the affected area, while capsules contain the standardized extract in a controlled dosage for oral consumption. These preparations are effective due to the plant's rich content of berberine, which has been extensively studied for its medicinal properties.",
+    "side_effects": [
+        {
+            "name": "induce nausea",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        },
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 28,
+            "total_score": 84
+        },
+        {
+            "name": "developing diarrhea",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "experiences nausea",
+            "mentions": 3,
+            "confidence_score": 25,
+            "total_score": 75
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "develop liver damage",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "cause diarrhea",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "trigger allergic reactions",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "induce diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "experience vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "exacerbate kidney issues",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "suffering abdominal pain",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "interact with medications",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "trigger seizures",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "experiencing vomiting",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "experiences dizziness",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "suffer diarrhea",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "overdose",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "hypertension",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "interact with blood thinners",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Hydrastis canadensis improperly include inducing nausea, which can be caused by consuming high doses of the plant's extracts. Experience nausea is also a common complaint among individuals who have ingested the plant without medical guidance. Developing diarrhea is another possible side effect, as the saponins present in Hydrastis canadensis can irritate the digestive system. The root of the issue lies in the plant's bioactive compounds, which can interact with other medications and exacerbate underlying health conditions. Experiencing nausea is a recurring theme among those who have used Hydrastis canadensis without proper medical supervision, often due to its potent and unpredictable effects."
+}

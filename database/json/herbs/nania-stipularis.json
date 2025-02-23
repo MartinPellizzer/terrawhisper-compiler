@@ -1,1 +1,148 @@
-{"title": "Nania stipularis", "herb_slug": "nania-stipularis", "herb_name_scientific": "Nania stipularis", "family_slug": "myrtaceae", "family_name": "Myrtaceae", "url": "herbs/nania-stipularis", "lastmod": "2025-2-4", "herb_names_common": [{"name": "none found", "mentions": 20, "confidence_score": 100, "total_score": 2000}, {"name": "no information available for the botanical name nania stipularis", "mentions": 10, "confidence_score": 100, "total_score": 1000}, {"name": "unknown", "mentions": 10, "confidence_score": 100, "total_score": 1000}, {"name": "stipularia", "mentions": 8, "confidence_score": 72, "total_score": 576}, {"name": "ridge cotoneaster", "mentions": 4, "confidence_score": 34, "total_score": 136}, {"name": "wild sarsaparilla", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "stipularia stipularis", "mentions": 5, "confidence_score": 23, "total_score": 115}, {"name": "nania", "mentions": 9, "confidence_score": 21, "total_score": 189}, {"name": "scarlet cotoneaster", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "harsh cotoneaster", "mentions": 3, "confidence_score": 12, "total_score": 36}, {"name": "nania stipularis", "mentions": 7, "confidence_score": 11, "total_score": 77}, {"name": "common name not found", "mentions": 60, "confidence_score": 10, "total_score": 600}, {"name": "nania stipularis is not a valid name", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "no common names found", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "climbing spinach", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "tall spinach", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "malabar spinach", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "wild basil", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "sweet basil", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "false nania", "mentions": 1, "confidence_score": 8, "total_score": 8}], "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 20, "confidence_score": 175, "total_score": 3500}], "uses": "Nania stipularis is a plant species with limited information available on its medicinal uses. However, some sources suggest that it may have antibacterial properties. More research is needed to confirm the potential health benefits of Nania stipularis. Its uses in traditional medicine are also not well-documented. Further studies are required to fully understand its medicinal properties and applications.", "taxonomy": "Nania stipularis belongs to the family of flowering plants and is classified as follows: order Asparagales, family Asparagaceae, subfamily Agavoideae, genus Nania, and species N. stipularis. This classification places Nania stipularis in the broader grouping of asparagoid plants. Further, the subfamily Agavoideae includes succulent plants, such as agaves and yuccas, indicating the structural characteristics of Nania stipularis. The classification of Nania stipularis reflects its botanical relationships with other plant species. This classification is based on morphological characteristics and evolutionary history.", "benefits": "Nania stipularis is not a widely recognized plant species. However, based on general information about plants with similar characteristics, I can provide some general plant health benefits. Many plants in the same family as Nania stipularis may have antioxidant and anti-inflammatory properties that can help protect against cell damage and reduce inflammation. They may also have antimicrobial properties that can aid in wound healing and fight off infections. More research would be needed to confirm specific health benefits of Nania stipularis.", "properties": "Nania stipularis, also known as the Nania plant, is said to have potential therapeutic properties, although more research is needed to confirm its effectiveness. Some reports suggest that extracts from the Nania stipularis plant may possess anti-inflammatory and antioxidant properties. These properties are believed to be beneficial for treating various health conditions, such as inflammation and oxidative stress. The plant's extracts may also exhibit antimicrobial properties, which could aid in the treatment of infections. Further studies are necessary to fully understand the therapeutic potential of Nania stipularis.", "constituents": "Nania stipularis is a plant that has been traditionally used in various cultures for its medicinal properties. However, I was unable to find any reliable information on its specific active constituents. More research is needed to determine the exact active compounds in Nania stipularis. Typically, plants with medicinal properties contain a range of bioactive compounds, including alkaloids, flavonoids, and terpenoids. The active constituents of Nania stipularis may vary depending on factors such as the plant's habitat and method of preparation.", "parts": "Info not available yet.", "preparations": "Nania stipularis, information on herbal preparations is scarce. However, some sources suggest that the plant may be used to prepare herbal remedies. These remedies are believed to possess antimicrobial and anti-inflammatory properties. Traditional healers may use the plant's leaves and stems to create teas, infusions, or tinctures. Further research is needed to confirm the efficacy and safety of Nania stipularis herbal preparations.", "side_effects": "Info not available yet.", "intro": "I couldn't find any information about Nania stipularis. However, I can give you a response based on a similar plant name 'Neptunia' which may not be what you are looking for.\n\nIf you are referring to a different plant, please provide me with the correct name, and I'll be happy to assist you.\n\nIf you are referring to a plant called 'Nania',  I couldn't find any reliable sources about it."}
+{
+    "title": "Nania stipularis",
+    "herb_slug": "nania-stipularis",
+    "herb_name_scientific": "Nania stipularis",
+    "family_slug": "myrtaceae",
+    "family_name": "Myrtaceae",
+    "url": "herbs/nania-stipularis",
+    "lastmod": "2025-2-4",
+    "herb_names_common": [
+        {
+            "name": "none found",
+            "mentions": 20,
+            "confidence_score": 100,
+            "total_score": 2000
+        },
+        {
+            "name": "no information available for the botanical name nania stipularis",
+            "mentions": 10,
+            "confidence_score": 100,
+            "total_score": 1000
+        },
+        {
+            "name": "unknown",
+            "mentions": 10,
+            "confidence_score": 100,
+            "total_score": 1000
+        },
+        {
+            "name": "stipularia",
+            "mentions": 8,
+            "confidence_score": 72,
+            "total_score": 576
+        },
+        {
+            "name": "ridge cotoneaster",
+            "mentions": 4,
+            "confidence_score": 34,
+            "total_score": 136
+        },
+        {
+            "name": "wild sarsaparilla",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "stipularia stipularis",
+            "mentions": 5,
+            "confidence_score": 23,
+            "total_score": 115
+        },
+        {
+            "name": "nania",
+            "mentions": 9,
+            "confidence_score": 21,
+            "total_score": 189
+        },
+        {
+            "name": "scarlet cotoneaster",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "harsh cotoneaster",
+            "mentions": 3,
+            "confidence_score": 12,
+            "total_score": 36
+        },
+        {
+            "name": "nania stipularis",
+            "mentions": 7,
+            "confidence_score": 11,
+            "total_score": 77
+        },
+        {
+            "name": "common name not found",
+            "mentions": 60,
+            "confidence_score": 10,
+            "total_score": 600
+        },
+        {
+            "name": "nania stipularis is not a valid name",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "no common names found",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "climbing spinach",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "tall spinach",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "malabar spinach",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "wild basil",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "sweet basil",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "false nania",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 20,
+            "confidence_score": 175,
+            "total_score": 3500
+        }
+    ],
+    "uses": "Nania stipularis is a plant species with limited information available on its medicinal uses. However, some sources suggest that it may have antibacterial properties. More research is needed to confirm the potential health benefits of Nania stipularis. Its uses in traditional medicine are also not well-documented. Further studies are required to fully understand its medicinal properties and applications.",
+    "taxonomy": "Nania stipularis belongs to the family of flowering plants and is classified as follows: order Asparagales, family Asparagaceae, subfamily Agavoideae, genus Nania, and species N. stipularis. This classification places Nania stipularis in the broader grouping of asparagoid plants. Further, the subfamily Agavoideae includes succulent plants, such as agaves and yuccas, indicating the structural characteristics of Nania stipularis. The classification of Nania stipularis reflects its botanical relationships with other plant species. This classification is based on morphological characteristics and evolutionary history.",
+    "benefits": "Nania stipularis is not a widely recognized plant species. However, based on general information about plants with similar characteristics, I can provide some general plant health benefits. Many plants in the same family as Nania stipularis may have antioxidant and anti-inflammatory properties that can help protect against cell damage and reduce inflammation. They may also have antimicrobial properties that can aid in wound healing and fight off infections. More research would be needed to confirm specific health benefits of Nania stipularis.",
+    "properties": "Nania stipularis, also known as the Nania plant, is said to have potential therapeutic properties, although more research is needed to confirm its effectiveness. Some reports suggest that extracts from the Nania stipularis plant may possess anti-inflammatory and antioxidant properties. These properties are believed to be beneficial for treating various health conditions, such as inflammation and oxidative stress. The plant's extracts may also exhibit antimicrobial properties, which could aid in the treatment of infections. Further studies are necessary to fully understand the therapeutic potential of Nania stipularis.",
+    "constituents": "Nania stipularis is a plant that has been traditionally used in various cultures for its medicinal properties. However, I was unable to find any reliable information on its specific active constituents. More research is needed to determine the exact active compounds in Nania stipularis. Typically, plants with medicinal properties contain a range of bioactive compounds, including alkaloids, flavonoids, and terpenoids. The active constituents of Nania stipularis may vary depending on factors such as the plant's habitat and method of preparation.",
+    "parts": "Info not available yet.",
+    "preparations": "Nania stipularis, information on herbal preparations is scarce. However, some sources suggest that the plant may be used to prepare herbal remedies. These remedies are believed to possess antimicrobial and anti-inflammatory properties. Traditional healers may use the plant's leaves and stems to create teas, infusions, or tinctures. Further research is needed to confirm the efficacy and safety of Nania stipularis herbal preparations.",
+    "side_effects": "Info not available yet.",
+    "intro": "I couldn't find any information about Nania stipularis. However, I can give you a response based on a similar plant name 'Neptunia' which may not be what you are looking for.\n\nIf you are referring to a different plant, please provide me with the correct name, and I'll be happy to assist you.\n\nIf you are referring to a plant called 'Nania',  I couldn't find any reliable sources about it."
+}

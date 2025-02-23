@@ -1,1 +1,756 @@
-{"title": "Symphytum officinale", "herb_slug": "symphytum-officinale", "herb_name_scientific": "Symphytum officinale", "family_slug": "", "family_name": "", "url": "herbs/symphytum-officinale", "lastmod": "2025-1-20", "herb_names_common": [{"name": "comfrey", "mentions": 20, "confidence_score": 197, "total_score": 3940}, {"name": "knitbone", "mentions": 18, "confidence_score": 151, "total_score": 2718}, {"name": "common comfrey", "mentions": 18, "confidence_score": 134, "total_score": 2412}, {"name": "boneset", "mentions": 16, "confidence_score": 107, "total_score": 1712}, {"name": "bruisewort", "mentions": 13, "confidence_score": 94, "total_score": 1222}, {"name": "symphytum", "mentions": 11, "confidence_score": 67, "total_score": 737}, {"name": "blackwort", "mentions": 7, "confidence_score": 31, "total_score": 217}, {"name": "woundwort", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "fenugreek of the alps", "mentions": 9, "confidence_score": 21, "total_score": 189}, {"name": "velvet dock", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "knit grass", "mentions": 5, "confidence_score": 20, "total_score": 100}, {"name": "sickleweed", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "knitback", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "velvet plant", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "consolida", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "consolation", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "scurvy grass", "mentions": 2, "confidence_score": 11, "total_score": 22}, {"name": "blue vervain", "mentions": 4, "confidence_score": 10, "total_score": 40}, {"name": "wild comfrey", "mentions": 2, "confidence_score": 10, "total_score": 20}, {"name": "european comfrey", "mentions": 1, "confidence_score": 9, "total_score": 9}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 175, "total_score": 3500}], "what_description": "Symphytum officinale is a perennial herb native to Europe, Western Asia, and North Africa. It belongs to the family Boraginaceae, commonly known as the borage family. This plant grows to a height of 1-3 meters, with a stout stem, lanceolate leaves that are 10-20 cm long and 2-5 cm wide, and blue or purple flowers that are 5-7 mm in diameter and arranged in a raceme. The leaves and stems of Symphytum officinale contain mucilage, which is a complex mixture of polysaccharides and glycoproteins that give the plant its medicinal properties. The plant's roots and leaves have been used in traditional medicine for centuries to treat various ailments, including wounds, inflammation, and respiratory conditions.", "category_action": "demulcents", "ailments": [{"name": "sprains", "mentions": 20, "confidence_score": 172, "total_score": 3440}, {"name": "bruises", "mentions": 18, "confidence_score": 150, "total_score": 2700}, {"name": "inflammation", "mentions": 18, "confidence_score": 146, "total_score": 2628}, {"name": "arthritis", "mentions": 17, "confidence_score": 133, "total_score": 2261}, {"name": "tendinitis", "mentions": 16, "confidence_score": 120, "total_score": 1920}, {"name": "wounds", "mentions": 14, "confidence_score": 106, "total_score": 1484}, {"name": "gout", "mentions": 13, "confidence_score": 96, "total_score": 1248}, {"name": "burns", "mentions": 11, "confidence_score": 77, "total_score": 847}, {"name": "bursitis", "mentions": 9, "confidence_score": 61, "total_score": 549}, {"name": "rheumatism", "mentions": 7, "confidence_score": 51, "total_score": 357}, {"name": "muscle spasms", "mentions": 6, "confidence_score": 43, "total_score": 258}, {"name": "wound healing", "mentions": 4, "confidence_score": 38, "total_score": 152}, {"name": "muscle pain", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "pain relief", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "joint pain", "mentions": 3, "confidence_score": 26, "total_score": 78}, {"name": "cuts", "mentions": 3, "confidence_score": 22, "total_score": 66}, {"name": "bruising", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "tendonsitis", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "skin irritation", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "eczema", "mentions": 2, "confidence_score": 12, "total_score": 24}], "ailments_description": "The most common ailments you can heal with Symphytum officinale are sprains, which are relieved by its anti-inflammatory and analgesic properties, as well as bruises and wounds, which are accelerated in healing due to its mucilaginous and soothing effects. It is also effective in treating inflammation, arthritis, and tendinitis, as the plant contains allantoin, a compound that promotes cell regeneration and collagen synthesis. Additionally, it is used to treat gout, bursitis, and rheumatism, as its anti-inflammatory and pain-relieving properties help reduce swelling and alleviate joint pain. Furthermore, Symphytum officinale has been found to be beneficial in treating muscle spasms, wound healing, muscle pain, and cuts, due to its ability to reduce inflammation and promote tissue repair. Its anti-inflammatory and antiseptic properties also make it effective in treating burns and skin irritation, such as eczema, by reducing redness and promoting wound healing.", "properties": [{"name": "anti-inflammatory", "mentions": 20, "confidence_score": 180, "total_score": 3600}, {"name": "analgesic", "mentions": 20, "confidence_score": 152, "total_score": 3040}, {"name": "antioxidant", "mentions": 20, "confidence_score": 140, "total_score": 2800}, {"name": "antimicrobial", "mentions": 19, "confidence_score": 124, "total_score": 2356}, {"name": "wound healing", "mentions": 13, "confidence_score": 108, "total_score": 1404}, {"name": "wound-healing", "mentions": 7, "confidence_score": 61, "total_score": 427}, {"name": "hemostatic", "mentions": 8, "confidence_score": 46, "total_score": 368}, {"name": "sedative", "mentions": 8, "confidence_score": 39, "total_score": 312}, {"name": "antispasmodic", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "antiseptic", "mentions": 6, "confidence_score": 38, "total_score": 228}, {"name": "expectorant", "mentions": 8, "confidence_score": 35, "total_score": 280}, {"name": "antitussive", "mentions": 7, "confidence_score": 31, "total_score": 217}, {"name": "anti-allergic", "mentions": 6, "confidence_score": 28, "total_score": 168}, {"name": "antibacterial", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "anti-arthritic", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "cytoprotective", "mentions": 5, "confidence_score": 26, "total_score": 130}, {"name": "soothing", "mentions": 4, "confidence_score": 24, "total_score": 96}, {"name": "immunomodulatory", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "mucolytic", "mentions": 4, "confidence_score": 17, "total_score": 68}, {"name": "anti-rheumatic", "mentions": 2, "confidence_score": 15, "total_score": 30}], "properties_description": "The main therapeutic properties of Symphytum officinale are its anti-inflammatory activity, which is attributed to the presence of saponins that inhibit the production of pro-inflammatory cytokines and enzymes. Additionally, the plant exhibits analgesic properties due to the action of volatile oils, such as borneol and bornyl acetate, which have been shown to have a direct effect on the nervous system to reduce pain perception. The antioxidant properties of Symphytum officinale are largely attributed to flavonoids, which scavenge free radicals and protect against oxidative stress. Furthermore, the plant's antimicrobial properties are attributed to the presence of sesquiterpenes and phenolic acids, which have been shown to inhibit the growth of a wide range of microorganisms. The plant's ability to promote wound healing is also attributed to the presence of flavonoids and saponins, which stimulate collagen synthesis and tissue repair, respectively.", "constituents": [{"name": "allantoin", "mentions": 14, "confidence_score": 132, "total_score": 1848}, {"name": "saponins", "mentions": 18, "confidence_score": 129, "total_score": 2322}, {"name": "flavonoids", "mentions": 15, "confidence_score": 104, "total_score": 1560}, {"name": "phenolic acids", "mentions": 15, "confidence_score": 97, "total_score": 1455}, {"name": "tannins", "mentions": 14, "confidence_score": 84, "total_score": 1176}, {"name": "alkaloids", "mentions": 13, "confidence_score": 77, "total_score": 1001}, {"name": "coumarins", "mentions": 11, "confidence_score": 53, "total_score": 583}, {"name": "glycosides", "mentions": 9, "confidence_score": 48, "total_score": 432}, {"name": "sterols", "mentions": 7, "confidence_score": 42, "total_score": 294}, {"name": "quercetin", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "saponin glycosides", "mentions": 5, "confidence_score": 37, "total_score": 185}, {"name": "volatile oils", "mentions": 6, "confidence_score": 32, "total_score": 192}, {"name": "symphytine", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "flavonoids (e.g. quercetin and kaempferol)", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "amino acids (including glutamic acid)", "mentions": 6, "confidence_score": 27, "total_score": 162}, {"name": "triterpenoids", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "oleanolic acid", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "mucilages", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "aesculetin", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "fatty acids", "mentions": 3, "confidence_score": 15, "total_score": 45}], "constituents_description": "The most important healing constituents of Symphytum officinale are allantoin which promotes tissue repair and wound healing by stimulating collagen synthesis and cell proliferation, saponins that exhibit anti-inflammatory activity by inhibiting the production of pro-inflammatory cytokines, flavonoids such as quercetin and kaempferol that display antioxidant properties by scavenging free radicals and modulating the activity of various enzymes, phenolic acids including caffeic and ferulic acids that possess anti-inflammatory and antimicrobial activities, and tannins which have astringent properties that help to reduce inflammation and promote wound healing by protecting the wound from infection and promoting tissue repair.", "preparations": [{"name": "tincture", "mentions": 15, "confidence_score": 141, "total_score": 2115}, {"name": "infusion", "mentions": 14, "confidence_score": 120, "total_score": 1680}, {"name": "salve", "mentions": 15, "confidence_score": 119, "total_score": 1785}, {"name": "ointment", "mentions": 14, "confidence_score": 86, "total_score": 1204}, {"name": "tea", "mentions": 9, "confidence_score": 52, "total_score": 468}, {"name": "poultice", "mentions": 8, "confidence_score": 38, "total_score": 304}, {"name": "topical cream", "mentions": 7, "confidence_score": 36, "total_score": 252}, {"name": "infused oil", "mentions": 5, "confidence_score": 34, "total_score": 170}, {"name": "symphytum tincture", "mentions": 4, "confidence_score": 32, "total_score": 128}, {"name": "comfrey salve", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "suppository", "mentions": 5, "confidence_score": 19, "total_score": 95}, {"name": "comfrey oil", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "symphytum oil", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "comfrey cream", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "symphytum ointment", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "symphytum infusion", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "comfrey tea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "symphytum cream", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "symphytum tea", "mentions": 3, "confidence_score": 13, "total_score": 39}, {"name": "comfrey ointment", "mentions": 2, "confidence_score": 13, "total_score": 26}], "preparations_description": "The main herbal preparations of Symphytum officinale are tincture, infusion, salve, ointment, and tea, which are derived from the plant's leaves and roots. Tincture is a concentrated liquid extract used for internal consumption, typically taken sublingually or added to food and drinks. Infusion, also known as herbal tea, involves steeping the dried leaves in hot water to produce a soothing drink. Topical preparations, such as salve and ointment, are made by mixing the plant's extract with a carrier oil or other ingredients to create a healing balm for skin conditions like eczema and burns. These preparations are used to leverage the plant's anti-inflammatory, antiseptic, and soothing properties, which are attributed to its high concentration of mucilages and other bioactive compounds.", "side_effects": [{"name": "experience nausea", "mentions": 6, "confidence_score": 55, "total_score": 330}, {"name": "nauseate", "mentions": 5, "confidence_score": 42, "total_score": 210}, {"name": "abdominal pain", "mentions": 4, "confidence_score": 31, "total_score": 124}, {"name": "allergic reactions", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "diarrhea", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "induce vomiting", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "anaphylaxis", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "cause liver damage", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "develop vomiting", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "vomit", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experience gastrointestinal issues", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "affect kidney function", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "develops allergic reactions", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "respiratory depression", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "cause nausea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "get diarrhea", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "get headache", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "kidney damage", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "cause allergic reactions", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effects of using Symphytum officinale improperly include experience nausea and nauseate due to its emetic properties which can cause vomiting when taken in high doses. Abdominal pain is also a potential side effect as the plant contains saponins and other compounds that can irritate the digestive tract. Allergic reactions such as hives, itching, and difficulty breathing can occur in individuals who are sensitive to the plant's allergenic compounds. Furthermore, diarrhea is a possible side effect due to the plant's ability to increase gut motility and stimulate bowel movements. The improper use of Symphytum officinale can lead to these side effects because it is often used in herbal preparations without adequate quality control and standardized dosing."}
+{
+    "title": "Symphytum officinale",
+    "herb_slug": "symphytum-officinale",
+    "herb_name_scientific": "Symphytum officinale",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/symphytum-officinale",
+    "lastmod": "2025-1-20",
+    "herb_names_common": [
+        {
+            "name": "comfrey",
+            "mentions": 20,
+            "confidence_score": 197,
+            "total_score": 3940
+        },
+        {
+            "name": "knitbone",
+            "mentions": 18,
+            "confidence_score": 151,
+            "total_score": 2718
+        },
+        {
+            "name": "common comfrey",
+            "mentions": 18,
+            "confidence_score": 134,
+            "total_score": 2412
+        },
+        {
+            "name": "boneset",
+            "mentions": 16,
+            "confidence_score": 107,
+            "total_score": 1712
+        },
+        {
+            "name": "bruisewort",
+            "mentions": 13,
+            "confidence_score": 94,
+            "total_score": 1222
+        },
+        {
+            "name": "symphytum",
+            "mentions": 11,
+            "confidence_score": 67,
+            "total_score": 737
+        },
+        {
+            "name": "blackwort",
+            "mentions": 7,
+            "confidence_score": 31,
+            "total_score": 217
+        },
+        {
+            "name": "woundwort",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "fenugreek of the alps",
+            "mentions": 9,
+            "confidence_score": 21,
+            "total_score": 189
+        },
+        {
+            "name": "velvet dock",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "knit grass",
+            "mentions": 5,
+            "confidence_score": 20,
+            "total_score": 100
+        },
+        {
+            "name": "sickleweed",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "knitback",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "velvet plant",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "consolida",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "consolation",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "scurvy grass",
+            "mentions": 2,
+            "confidence_score": 11,
+            "total_score": 22
+        },
+        {
+            "name": "blue vervain",
+            "mentions": 4,
+            "confidence_score": 10,
+            "total_score": 40
+        },
+        {
+            "name": "wild comfrey",
+            "mentions": 2,
+            "confidence_score": 10,
+            "total_score": 20
+        },
+        {
+            "name": "european comfrey",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 175,
+            "total_score": 3500
+        }
+    ],
+    "what_description": "Symphytum officinale is a perennial herb native to Europe, Western Asia, and North Africa. It belongs to the family Boraginaceae, commonly known as the borage family. This plant grows to a height of 1-3 meters, with a stout stem, lanceolate leaves that are 10-20 cm long and 2-5 cm wide, and blue or purple flowers that are 5-7 mm in diameter and arranged in a raceme. The leaves and stems of Symphytum officinale contain mucilage, which is a complex mixture of polysaccharides and glycoproteins that give the plant its medicinal properties. The plant's roots and leaves have been used in traditional medicine for centuries to treat various ailments, including wounds, inflammation, and respiratory conditions.",
+    "category_action": "demulcents",
+    "ailments": [
+        {
+            "name": "sprains",
+            "mentions": 20,
+            "confidence_score": 172,
+            "total_score": 3440
+        },
+        {
+            "name": "bruises",
+            "mentions": 18,
+            "confidence_score": 150,
+            "total_score": 2700
+        },
+        {
+            "name": "inflammation",
+            "mentions": 18,
+            "confidence_score": 146,
+            "total_score": 2628
+        },
+        {
+            "name": "arthritis",
+            "mentions": 17,
+            "confidence_score": 133,
+            "total_score": 2261
+        },
+        {
+            "name": "tendinitis",
+            "mentions": 16,
+            "confidence_score": 120,
+            "total_score": 1920
+        },
+        {
+            "name": "wounds",
+            "mentions": 14,
+            "confidence_score": 106,
+            "total_score": 1484
+        },
+        {
+            "name": "gout",
+            "mentions": 13,
+            "confidence_score": 96,
+            "total_score": 1248
+        },
+        {
+            "name": "burns",
+            "mentions": 11,
+            "confidence_score": 77,
+            "total_score": 847
+        },
+        {
+            "name": "bursitis",
+            "mentions": 9,
+            "confidence_score": 61,
+            "total_score": 549
+        },
+        {
+            "name": "rheumatism",
+            "mentions": 7,
+            "confidence_score": 51,
+            "total_score": 357
+        },
+        {
+            "name": "muscle spasms",
+            "mentions": 6,
+            "confidence_score": 43,
+            "total_score": 258
+        },
+        {
+            "name": "wound healing",
+            "mentions": 4,
+            "confidence_score": 38,
+            "total_score": 152
+        },
+        {
+            "name": "muscle pain",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "pain relief",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "joint pain",
+            "mentions": 3,
+            "confidence_score": 26,
+            "total_score": 78
+        },
+        {
+            "name": "cuts",
+            "mentions": 3,
+            "confidence_score": 22,
+            "total_score": 66
+        },
+        {
+            "name": "bruising",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "tendonsitis",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "skin irritation",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "eczema",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Symphytum officinale are sprains, which are relieved by its anti-inflammatory and analgesic properties, as well as bruises and wounds, which are accelerated in healing due to its mucilaginous and soothing effects. It is also effective in treating inflammation, arthritis, and tendinitis, as the plant contains allantoin, a compound that promotes cell regeneration and collagen synthesis. Additionally, it is used to treat gout, bursitis, and rheumatism, as its anti-inflammatory and pain-relieving properties help reduce swelling and alleviate joint pain. Furthermore, Symphytum officinale has been found to be beneficial in treating muscle spasms, wound healing, muscle pain, and cuts, due to its ability to reduce inflammation and promote tissue repair. Its anti-inflammatory and antiseptic properties also make it effective in treating burns and skin irritation, such as eczema, by reducing redness and promoting wound healing.",
+    "properties": [
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 180,
+            "total_score": 3600
+        },
+        {
+            "name": "analgesic",
+            "mentions": 20,
+            "confidence_score": 152,
+            "total_score": 3040
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 140,
+            "total_score": 2800
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 19,
+            "confidence_score": 124,
+            "total_score": 2356
+        },
+        {
+            "name": "wound healing",
+            "mentions": 13,
+            "confidence_score": 108,
+            "total_score": 1404
+        },
+        {
+            "name": "wound-healing",
+            "mentions": 7,
+            "confidence_score": 61,
+            "total_score": 427
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 8,
+            "confidence_score": 46,
+            "total_score": 368
+        },
+        {
+            "name": "sedative",
+            "mentions": 8,
+            "confidence_score": 39,
+            "total_score": 312
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 6,
+            "confidence_score": 38,
+            "total_score": 228
+        },
+        {
+            "name": "expectorant",
+            "mentions": 8,
+            "confidence_score": 35,
+            "total_score": 280
+        },
+        {
+            "name": "antitussive",
+            "mentions": 7,
+            "confidence_score": 31,
+            "total_score": 217
+        },
+        {
+            "name": "anti-allergic",
+            "mentions": 6,
+            "confidence_score": 28,
+            "total_score": 168
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "anti-arthritic",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "cytoprotective",
+            "mentions": 5,
+            "confidence_score": 26,
+            "total_score": 130
+        },
+        {
+            "name": "soothing",
+            "mentions": 4,
+            "confidence_score": 24,
+            "total_score": 96
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "mucolytic",
+            "mentions": 4,
+            "confidence_score": 17,
+            "total_score": 68
+        },
+        {
+            "name": "anti-rheumatic",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Symphytum officinale are its anti-inflammatory activity, which is attributed to the presence of saponins that inhibit the production of pro-inflammatory cytokines and enzymes. Additionally, the plant exhibits analgesic properties due to the action of volatile oils, such as borneol and bornyl acetate, which have been shown to have a direct effect on the nervous system to reduce pain perception. The antioxidant properties of Symphytum officinale are largely attributed to flavonoids, which scavenge free radicals and protect against oxidative stress. Furthermore, the plant's antimicrobial properties are attributed to the presence of sesquiterpenes and phenolic acids, which have been shown to inhibit the growth of a wide range of microorganisms. The plant's ability to promote wound healing is also attributed to the presence of flavonoids and saponins, which stimulate collagen synthesis and tissue repair, respectively.",
+    "constituents": [
+        {
+            "name": "allantoin",
+            "mentions": 14,
+            "confidence_score": 132,
+            "total_score": 1848
+        },
+        {
+            "name": "saponins",
+            "mentions": 18,
+            "confidence_score": 129,
+            "total_score": 2322
+        },
+        {
+            "name": "flavonoids",
+            "mentions": 15,
+            "confidence_score": 104,
+            "total_score": 1560
+        },
+        {
+            "name": "phenolic acids",
+            "mentions": 15,
+            "confidence_score": 97,
+            "total_score": 1455
+        },
+        {
+            "name": "tannins",
+            "mentions": 14,
+            "confidence_score": 84,
+            "total_score": 1176
+        },
+        {
+            "name": "alkaloids",
+            "mentions": 13,
+            "confidence_score": 77,
+            "total_score": 1001
+        },
+        {
+            "name": "coumarins",
+            "mentions": 11,
+            "confidence_score": 53,
+            "total_score": 583
+        },
+        {
+            "name": "glycosides",
+            "mentions": 9,
+            "confidence_score": 48,
+            "total_score": 432
+        },
+        {
+            "name": "sterols",
+            "mentions": 7,
+            "confidence_score": 42,
+            "total_score": 294
+        },
+        {
+            "name": "quercetin",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "saponin glycosides",
+            "mentions": 5,
+            "confidence_score": 37,
+            "total_score": 185
+        },
+        {
+            "name": "volatile oils",
+            "mentions": 6,
+            "confidence_score": 32,
+            "total_score": 192
+        },
+        {
+            "name": "symphytine",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "flavonoids (e.g. quercetin and kaempferol)",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "amino acids (including glutamic acid)",
+            "mentions": 6,
+            "confidence_score": 27,
+            "total_score": 162
+        },
+        {
+            "name": "triterpenoids",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "oleanolic acid",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "mucilages",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "aesculetin",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "fatty acids",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Symphytum officinale are allantoin which promotes tissue repair and wound healing by stimulating collagen synthesis and cell proliferation, saponins that exhibit anti-inflammatory activity by inhibiting the production of pro-inflammatory cytokines, flavonoids such as quercetin and kaempferol that display antioxidant properties by scavenging free radicals and modulating the activity of various enzymes, phenolic acids including caffeic and ferulic acids that possess anti-inflammatory and antimicrobial activities, and tannins which have astringent properties that help to reduce inflammation and promote wound healing by protecting the wound from infection and promoting tissue repair.",
+    "preparations": [
+        {
+            "name": "tincture",
+            "mentions": 15,
+            "confidence_score": 141,
+            "total_score": 2115
+        },
+        {
+            "name": "infusion",
+            "mentions": 14,
+            "confidence_score": 120,
+            "total_score": 1680
+        },
+        {
+            "name": "salve",
+            "mentions": 15,
+            "confidence_score": 119,
+            "total_score": 1785
+        },
+        {
+            "name": "ointment",
+            "mentions": 14,
+            "confidence_score": 86,
+            "total_score": 1204
+        },
+        {
+            "name": "tea",
+            "mentions": 9,
+            "confidence_score": 52,
+            "total_score": 468
+        },
+        {
+            "name": "poultice",
+            "mentions": 8,
+            "confidence_score": 38,
+            "total_score": 304
+        },
+        {
+            "name": "topical cream",
+            "mentions": 7,
+            "confidence_score": 36,
+            "total_score": 252
+        },
+        {
+            "name": "infused oil",
+            "mentions": 5,
+            "confidence_score": 34,
+            "total_score": 170
+        },
+        {
+            "name": "symphytum tincture",
+            "mentions": 4,
+            "confidence_score": 32,
+            "total_score": 128
+        },
+        {
+            "name": "comfrey salve",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "suppository",
+            "mentions": 5,
+            "confidence_score": 19,
+            "total_score": 95
+        },
+        {
+            "name": "comfrey oil",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "symphytum oil",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "comfrey cream",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "symphytum ointment",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "symphytum infusion",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "comfrey tea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "symphytum cream",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "symphytum tea",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        },
+        {
+            "name": "comfrey ointment",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Symphytum officinale are tincture, infusion, salve, ointment, and tea, which are derived from the plant's leaves and roots. Tincture is a concentrated liquid extract used for internal consumption, typically taken sublingually or added to food and drinks. Infusion, also known as herbal tea, involves steeping the dried leaves in hot water to produce a soothing drink. Topical preparations, such as salve and ointment, are made by mixing the plant's extract with a carrier oil or other ingredients to create a healing balm for skin conditions like eczema and burns. These preparations are used to leverage the plant's anti-inflammatory, antiseptic, and soothing properties, which are attributed to its high concentration of mucilages and other bioactive compounds.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 6,
+            "confidence_score": 55,
+            "total_score": 330
+        },
+        {
+            "name": "nauseate",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "name": "abdominal pain",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        },
+        {
+            "name": "allergic reactions",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "diarrhea",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "induce vomiting",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "anaphylaxis",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "cause liver damage",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "develop vomiting",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "vomit",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experience gastrointestinal issues",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "affect kidney function",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "develops allergic reactions",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "respiratory depression",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "cause nausea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "get diarrhea",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "get headache",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "kidney damage",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "cause allergic reactions",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Symphytum officinale improperly include experience nausea and nauseate due to its emetic properties which can cause vomiting when taken in high doses. Abdominal pain is also a potential side effect as the plant contains saponins and other compounds that can irritate the digestive tract. Allergic reactions such as hives, itching, and difficulty breathing can occur in individuals who are sensitive to the plant's allergenic compounds. Furthermore, diarrhea is a possible side effect due to the plant's ability to increase gut motility and stimulate bowel movements. The improper use of Symphytum officinale can lead to these side effects because it is often used in herbal preparations without adequate quality control and standardized dosing."
+}

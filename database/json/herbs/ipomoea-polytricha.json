@@ -1,1 +1,154 @@
-{"title": "Ipomoea polytricha", "herb_slug": "ipomoea-polytricha", "herb_name_scientific": "Ipomoea polytricha", "family_slug": "convolvulaceae", "family_name": "Convolvulaceae", "url": "herbs/ipomoea-polytricha", "lastmod": "2025-1-2", "medicine_or_poison": [{"medicine_or_poison": "poison", "mentions": 11, "confidence_score": 102, "total_score": 1122}, {"medicine_or_poison": "medicine", "mentions": 9, "confidence_score": 72, "total_score": 648}], "herb_names_common": [{"name": "mexican morning glory", "mentions": 21, "confidence_score": 143, "total_score": 3003}, {"name": "ipomoea", "mentions": 16, "confidence_score": 96, "total_score": 1536}, {"name": "purple morning glory", "mentions": 9, "confidence_score": 59, "total_score": 531}, {"name": "morning glory vine", "mentions": 8, "confidence_score": 38, "total_score": 304}, {"name": "purple bindweed", "mentions": 8, "confidence_score": 38, "total_score": 304}, {"name": "purple ipomoea", "mentions": 5, "confidence_score": 28, "total_score": 140}, {"name": "wild potato vine", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "mexican blue morning glory", "mentions": 6, "confidence_score": 24, "total_score": 144}, {"name": "wild morning glory", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "moonflower", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "cape honeysuckle", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "tall morning glory", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "purpleback morning glory", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "morning glory plant", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "hairy morning glory", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "ivory leaf morning glory", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "hedge bindweed", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "polytricha", "mentions": 6, "confidence_score": 13, "total_score": 78}, {"name": "japanese morning glory", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "purple convolvulus", "mentions": 3, "confidence_score": 13, "total_score": 39}], "uses": "Ipomoea polytricha, a species of morning glory, has been traditionally used in folk medicine in various parts of the world. Its roots and leaves are used to treat various ailments, including fever, rheumatism, and skin conditions. The plant is believed to possess anti-inflammatory and antimicrobial properties, which contribute to its medicinal uses. In some cultures, it is also used to treat digestive issues and as a diuretic. However, more research is needed to fully understand the extent of its medicinal properties and potential side effects.", "taxonomy": "Ipomoea polytricha belongs to the family Convolvulaceae, which is a group of flowering plants commonly known as morning glories. This plant is classified within the order Solanales, and its genus Ipomoea is a large and diverse group of plants. The species I. polytricha is further classified into several varieties based on its leaf shape, size, and growth habits. Ipomoea polytricha is a climbing plant native to tropical regions, and its classification reflects its unique characteristics and adaptations. Within the Convolvulaceae family, I. polytricha is a distinct species with its own set of botanical features.", "benefits": "Ipomoea polytricha is known to have potential health benefits, although more research is needed to confirm its effects. It is traditionally used in some parts of the world to treat various ailments such as fever, rheumatism, and skin conditions. The plant is said to possess anti-inflammatory and antimicrobial properties, which may contribute to its potential health benefits. Ipomoea polytricha is also believed to have antioxidant properties, which can help protect the body from oxidative stress and damage. Further studies are necessary to fully understand the health benefits and potential uses of Ipomoea polytricha.", "properties": "Ipomoea polytricha has been traditionally used for its therapeutic properties, particularly in the treatment of various gastrointestinal issues. The plant is known to possess anti-inflammatory and antioxidant properties, which may help in reducing inflammation and protecting against cell damage. Its extracts have been studied for their potential in treating conditions such as ulcers and gastritis. However, more research is needed to fully understand the effects of Ipomoea polytricha on human health. Traditional medicine practitioners have used the plant for centuries, and modern studies are working to validate its therapeutic potential.", "constituents": "Ipomoea polytricha, also known as the hairy morning glory, contains several active constituents, including alkaloids and flavonoids. These compounds may be responsible for its potential medicinal properties. The exact composition of Ipomoea polytricha's active constituents can vary depending on the source and preparation of the plant. Further research is needed to fully understand the effects of these constituents. Some studies suggest that Ipomoea polytricha may have antioxidant and anti-inflammatory properties.", "parts": "I could not find the answer in my available databases.", "preparations": "Ipomoea polytricha is a plant species used in traditional medicine, and herbal preparations are made from its roots, leaves, and stems. The plant's roots are rich in saponins, which are believed to have anti-inflammatory and antiseptic properties. In herbal medicine, Ipomoea polytricha is used to treat various health conditions, including fever, cough, and skin infections. The plant is also used to reduce inflammation and promote wound healing. However, more research is needed to fully understand the safety and efficacy of Ipomoea polytricha herbal preparations.", "side_effects": "I don't have enough information to provide a response about the side effects of the plant Ipomoea polytricha.", "intro": "Ipomoea polytricha, also known as the tropical bindweed, is a perennial vine native to the tropical regions of Asia and the Pacific Islands. This plant has been traditionally used in herbal medicine for its anti-inflammatory, antimicrobial, and antioxidant properties, offering potential health benefits in treating fever, respiratory issues, and skin conditions. The bioactive constituents of Ipomoea polytricha include flavonoids, glycosides, and alkaloids, which contribute to its medicinal properties. The most common herbal preparations made with this plant include teas, infusions, and tinctures, which are used to harness its therapeutic benefits in traditional medicine."}
+{
+    "title": "Ipomoea polytricha",
+    "herb_slug": "ipomoea-polytricha",
+    "herb_name_scientific": "Ipomoea polytricha",
+    "family_slug": "convolvulaceae",
+    "family_name": "Convolvulaceae",
+    "url": "herbs/ipomoea-polytricha",
+    "lastmod": "2025-1-2",
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "poison",
+            "mentions": 11,
+            "confidence_score": 102,
+            "total_score": 1122
+        },
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 9,
+            "confidence_score": 72,
+            "total_score": 648
+        }
+    ],
+    "herb_names_common": [
+        {
+            "name": "mexican morning glory",
+            "mentions": 21,
+            "confidence_score": 143,
+            "total_score": 3003
+        },
+        {
+            "name": "ipomoea",
+            "mentions": 16,
+            "confidence_score": 96,
+            "total_score": 1536
+        },
+        {
+            "name": "purple morning glory",
+            "mentions": 9,
+            "confidence_score": 59,
+            "total_score": 531
+        },
+        {
+            "name": "morning glory vine",
+            "mentions": 8,
+            "confidence_score": 38,
+            "total_score": 304
+        },
+        {
+            "name": "purple bindweed",
+            "mentions": 8,
+            "confidence_score": 38,
+            "total_score": 304
+        },
+        {
+            "name": "purple ipomoea",
+            "mentions": 5,
+            "confidence_score": 28,
+            "total_score": 140
+        },
+        {
+            "name": "wild potato vine",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "mexican blue morning glory",
+            "mentions": 6,
+            "confidence_score": 24,
+            "total_score": 144
+        },
+        {
+            "name": "wild morning glory",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "moonflower",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "cape honeysuckle",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "tall morning glory",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "purpleback morning glory",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "morning glory plant",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "hairy morning glory",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "ivory leaf morning glory",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "hedge bindweed",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "polytricha",
+            "mentions": 6,
+            "confidence_score": 13,
+            "total_score": 78
+        },
+        {
+            "name": "japanese morning glory",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "purple convolvulus",
+            "mentions": 3,
+            "confidence_score": 13,
+            "total_score": 39
+        }
+    ],
+    "uses": "Ipomoea polytricha, a species of morning glory, has been traditionally used in folk medicine in various parts of the world. Its roots and leaves are used to treat various ailments, including fever, rheumatism, and skin conditions. The plant is believed to possess anti-inflammatory and antimicrobial properties, which contribute to its medicinal uses. In some cultures, it is also used to treat digestive issues and as a diuretic. However, more research is needed to fully understand the extent of its medicinal properties and potential side effects.",
+    "taxonomy": "Ipomoea polytricha belongs to the family Convolvulaceae, which is a group of flowering plants commonly known as morning glories. This plant is classified within the order Solanales, and its genus Ipomoea is a large and diverse group of plants. The species I. polytricha is further classified into several varieties based on its leaf shape, size, and growth habits. Ipomoea polytricha is a climbing plant native to tropical regions, and its classification reflects its unique characteristics and adaptations. Within the Convolvulaceae family, I. polytricha is a distinct species with its own set of botanical features.",
+    "benefits": "Ipomoea polytricha is known to have potential health benefits, although more research is needed to confirm its effects. It is traditionally used in some parts of the world to treat various ailments such as fever, rheumatism, and skin conditions. The plant is said to possess anti-inflammatory and antimicrobial properties, which may contribute to its potential health benefits. Ipomoea polytricha is also believed to have antioxidant properties, which can help protect the body from oxidative stress and damage. Further studies are necessary to fully understand the health benefits and potential uses of Ipomoea polytricha.",
+    "properties": "Ipomoea polytricha has been traditionally used for its therapeutic properties, particularly in the treatment of various gastrointestinal issues. The plant is known to possess anti-inflammatory and antioxidant properties, which may help in reducing inflammation and protecting against cell damage. Its extracts have been studied for their potential in treating conditions such as ulcers and gastritis. However, more research is needed to fully understand the effects of Ipomoea polytricha on human health. Traditional medicine practitioners have used the plant for centuries, and modern studies are working to validate its therapeutic potential.",
+    "constituents": "Ipomoea polytricha, also known as the hairy morning glory, contains several active constituents, including alkaloids and flavonoids. These compounds may be responsible for its potential medicinal properties. The exact composition of Ipomoea polytricha's active constituents can vary depending on the source and preparation of the plant. Further research is needed to fully understand the effects of these constituents. Some studies suggest that Ipomoea polytricha may have antioxidant and anti-inflammatory properties.",
+    "parts": "I could not find the answer in my available databases.",
+    "preparations": "Ipomoea polytricha is a plant species used in traditional medicine, and herbal preparations are made from its roots, leaves, and stems. The plant's roots are rich in saponins, which are believed to have anti-inflammatory and antiseptic properties. In herbal medicine, Ipomoea polytricha is used to treat various health conditions, including fever, cough, and skin infections. The plant is also used to reduce inflammation and promote wound healing. However, more research is needed to fully understand the safety and efficacy of Ipomoea polytricha herbal preparations.",
+    "side_effects": "I don't have enough information to provide a response about the side effects of the plant Ipomoea polytricha.",
+    "intro": "Ipomoea polytricha, also known as the tropical bindweed, is a perennial vine native to the tropical regions of Asia and the Pacific Islands. This plant has been traditionally used in herbal medicine for its anti-inflammatory, antimicrobial, and antioxidant properties, offering potential health benefits in treating fever, respiratory issues, and skin conditions. The bioactive constituents of Ipomoea polytricha include flavonoids, glycosides, and alkaloids, which contribute to its medicinal properties. The most common herbal preparations made with this plant include teas, infusions, and tinctures, which are used to harness its therapeutic benefits in traditional medicine."
+}

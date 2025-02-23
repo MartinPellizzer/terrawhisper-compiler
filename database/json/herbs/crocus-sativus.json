@@ -1,1 +1,738 @@
-{"title": "Crocus sativus", "herb_slug": "crocus-sativus", "herb_name_scientific": "Crocus sativus", "family_slug": "", "family_name": "", "url": "herbs/crocus-sativus", "lastmod": "2025-1-21", "herb_names_common": [{"name": "saffron", "mentions": 19, "confidence_score": 185, "total_score": 3515}, {"name": "saffron crocus", "mentions": 22, "confidence_score": 162, "total_score": 3564}, {"name": "autumn crocus", "mentions": 8, "confidence_score": 49, "total_score": 392}, {"name": "saffron flower", "mentions": 7, "confidence_score": 47, "total_score": 329}, {"name": "kesar", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "purple crocus", "mentions": 6, "confidence_score": 31, "total_score": 186}, {"name": "azafran", "mentions": 5, "confidence_score": 30, "total_score": 150}, {"name": "red gold", "mentions": 4, "confidence_score": 22, "total_score": 88}, {"name": "zafferane", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "wild saffron", "mentions": 3, "confidence_score": 20, "total_score": 60}, {"name": "flower of kings", "mentions": 7, "confidence_score": 20, "total_score": 140}, {"name": "saffron crocus sativus", "mentions": 4, "confidence_score": 18, "total_score": 72}, {"name": "golden crocus", "mentions": 3, "confidence_score": 18, "total_score": 54}, {"name": "safed mool", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "golden threads", "mentions": 4, "confidence_score": 16, "total_score": 64}, {"name": "za'faran", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "red saffron", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "saffran", "mentions": 3, "confidence_score": 14, "total_score": 42}, {"name": "saffron bulb", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "meat flower", "mentions": 2, "confidence_score": 12, "total_score": 24}], "medicine_or_poison": [{"medicine_or_poison": "medicine", "mentions": 20, "confidence_score": 174, "total_score": 3480}], "what_description": "Crocus sativus is a species of flowering plant in the family Iridaceae, native to the Mediterranean region. It is a perennial herb with narrow, linear leaves and produces funnel-shaped flowers in shades of purple and white, often with a yellow center. The flowers are arranged in umbels at the base of the plant and are followed by three-angled seed capsules containing three to four seeds. The plant grows from 10 to 20 centimeters tall and has a cormous growth habit, with the underground storage organ being a key factor in its survival. The seeds of Crocus sativus are harvested for their stigmas, which are used as a spice, commonly known as saffron.", "category_action": "nervines", "ailments": [{"name": "inflammation", "mentions": 20, "confidence_score": 187, "total_score": 3740}, {"name": "diabetes", "mentions": 16, "confidence_score": 115, "total_score": 1840}, {"name": "cancer", "mentions": 9, "confidence_score": 72, "total_score": 648}, {"name": "cardiovascular disease", "mentions": 9, "confidence_score": 68, "total_score": 612}, {"name": "wound healing", "mentions": 8, "confidence_score": 65, "total_score": 520}, {"name": "antioxidant", "mentions": 7, "confidence_score": 65, "total_score": 455}, {"name": "pain", "mentions": 7, "confidence_score": 54, "total_score": 378}, {"name": "osteoarthritis", "mentions": 6, "confidence_score": 54, "total_score": 324}, {"name": "eczema", "mentions": 6, "confidence_score": 49, "total_score": 294}, {"name": "antibacterial properties", "mentions": 5, "confidence_score": 43, "total_score": 215}, {"name": "antimicrobial", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "gastritis", "mentions": 5, "confidence_score": 40, "total_score": 200}, {"name": "cancer prevention", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "antiviral properties", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "neuroprotection", "mentions": 6, "confidence_score": 36, "total_score": 216}, {"name": "high blood pressure", "mentions": 4, "confidence_score": 33, "total_score": 132}, {"name": "skin conditions", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "anxiety", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "anti-inflammatory", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "antifungal", "mentions": 4, "confidence_score": 26, "total_score": 104}], "ailments_description": "The most common ailments you can heal with Crocus sativus are inflammation, which it reduces by inhibiting pro-inflammatory enzymes and cytokines, diabetes, as its flavonoids and anthocyanins have been shown to decrease glucose uptake and improve insulin sensitivity. Research also indicates that Crocus sativus has potential in cancer prevention and treatment, possibly due to its ability to induce apoptosis and inhibit cancer cell proliferation. Cardiovascular disease is another condition that Crocus sativus may help alleviate, through its antioxidant and anti-inflammatory properties, which reduce oxidative stress and inflammation in the cardiovascular system. Additionally, its wound-healing properties, including the promotion of collagen synthesis and tissue repair, make it a useful remedy for wound healing, while its antibacterial and antifungal properties combat infections. Furthermore, Crocus sativus has been found to exhibit antiviral, antifungal, and antimicrobial activities, as well as antiviral, antifungal, and antifungal properties against various pathogens.", "properties": [{"name": "antioxidant", "mentions": 20, "confidence_score": 180, "total_score": 3600}, {"name": "anti-inflammatory", "mentions": 20, "confidence_score": 165, "total_score": 3300}, {"name": "neuroprotective", "mentions": 19, "confidence_score": 142, "total_score": 2698}, {"name": "antimicrobial", "mentions": 19, "confidence_score": 138, "total_score": 2622}, {"name": "analgesic", "mentions": 19, "confidence_score": 123, "total_score": 2337}, {"name": "cardioprotective", "mentions": 15, "confidence_score": 103, "total_score": 1545}, {"name": "antiviral", "mentions": 14, "confidence_score": 78, "total_score": 1092}, {"name": "anticonvulsant", "mentions": 9, "confidence_score": 50, "total_score": 450}, {"name": "antibacterial", "mentions": 6, "confidence_score": 44, "total_score": 264}, {"name": "antifungal", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "anticancer", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "hepatoprotective", "mentions": 4, "confidence_score": 26, "total_score": 104}, {"name": "immunomodulatory", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "antiseptic", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "antitumor", "mentions": 3, "confidence_score": 21, "total_score": 63}, {"name": "antispasmodic", "mentions": 3, "confidence_score": 19, "total_score": 57}, {"name": "anti-cancer", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "hemostatic", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "antidiabetic", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "cardiovascular protector", "mentions": 2, "confidence_score": 14, "total_score": 28}], "properties_description": "The main therapeutic properties of Crocus sativus are attributed to its antioxidant activity, which helps mitigate oxidative stress and cell damage. The bioactive compounds responsible for these properties include crocin and safranal, which exhibit anti-inflammatory effects, reducing inflammation and alleviating conditions such as arthritis. These compounds also possess neuroprotective properties, protecting neurons from damage and promoting neuroregeneration, particularly in the context of neurodegenerative diseases. Furthermore, the antimicrobial properties of Crocus sativus, mediated by flavonoids and saponins, inhibit the growth of bacteria and fungi, making it a potential natural preservative. Additionally, the analgesic properties of this plant, attributed to the presence of crocetin and safranal, provide relief from pain and discomfort, making it a valuable natural remedy for pain management.", "constituents": [{"name": "crocin", "mentions": 20, "confidence_score": 192, "total_score": 3840}, {"name": "crocetin", "mentions": 19, "confidence_score": 180, "total_score": 3420}, {"name": "picrocrocin", "mentions": 9, "confidence_score": 75, "total_score": 675}, {"name": "saffranal", "mentions": 8, "confidence_score": 70, "total_score": 560}, {"name": "safranal", "mentions": 7, "confidence_score": 62, "total_score": 434}, {"name": "crocin glycosides", "mentions": 5, "confidence_score": 39, "total_score": 195}, {"name": "crocetin glycosides", "mentions": 6, "confidence_score": 39, "total_score": 234}, {"name": "quercetin", "mentions": 6, "confidence_score": 37, "total_score": 222}, {"name": "potassium", "mentions": 4, "confidence_score": 29, "total_score": 116}, {"name": "kaempferol", "mentions": 4, "confidence_score": 28, "total_score": 112}, {"name": "manganese", "mentions": 4, "confidence_score": 27, "total_score": 108}, {"name": "isorhapontigenin", "mentions": 4, "confidence_score": 25, "total_score": 100}, {"name": "saffronine", "mentions": 3, "confidence_score": 23, "total_score": 69}, {"name": "methyl crocetin chalcone", "mentions": 3, "confidence_score": 17, "total_score": 51}, {"name": "zeaxanthin", "mentions": 3, "confidence_score": 16, "total_score": 48}, {"name": "beta-cryptoxanthin", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "crocin-1", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "magnesium", "mentions": 2, "confidence_score": 15, "total_score": 30}, {"name": "isoorientin", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "vitamin c", "mentions": 2, "confidence_score": 14, "total_score": 28}], "constituents_description": "The most important healing constituents of Crocus sativus are crocin, crocetin, picrocrocin, saffranal, and safranal. These constituents have been identified as the primary bioactive compounds responsible for the medicinal properties of saffron, with crocin and crocetin exhibiting potent antioxidant and anti-inflammatory activities, while picrocrocin is a carotenoid responsible for the characteristic yellow to orange color and has been shown to possess anti-depressant properties. Saffranal, a volatile oil, has been found to possess anti-oxidant, anti-inflammatory, and anti-microbial activities, and has been shown to have a positive effect on cardiovascular health. Safranal has also been demonstrated to have a sedative effect and has been used to treat anxiety and insomnia. The combined effects of these constituents contribute to the therapeutic potential of Crocus sativus in the treatment of a variety of diseases and conditions, including depression, inflammation, and cardiovascular disease.", "preparations": [{"name": "saffron tea", "mentions": 20, "confidence_score": 175, "total_score": 3500}, {"name": "saffron oil", "mentions": 19, "confidence_score": 153, "total_score": 2907}, {"name": "saffron tincture", "mentions": 20, "confidence_score": 129, "total_score": 2580}, {"name": "saffron infusion", "mentions": 14, "confidence_score": 98, "total_score": 1372}, {"name": "saffron capsules", "mentions": 19, "confidence_score": 91, "total_score": 1729}, {"name": "saffron extract", "mentions": 12, "confidence_score": 59, "total_score": 708}, {"name": "saffron syrup", "mentions": 4, "confidence_score": 20, "total_score": 80}, {"name": "saffron infused honey", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "saffron powder", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "crocetin extract", "mentions": 1, "confidence_score": 10, "total_score": 10}, {"name": "saffron infused oil", "mentions": 1, "confidence_score": 9, "total_score": 9}, {"name": "saffron sugar", "mentions": 1, "confidence_score": 8, "total_score": 8}, {"name": "saffron infused water", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "saffron cream", "mentions": 2, "confidence_score": 5, "total_score": 10}, {"name": "saffron salve", "mentions": 1, "confidence_score": 5, "total_score": 5}, {"name": "saffron butter", "mentions": 1, "confidence_score": 4, "total_score": 4}, {"name": "saffron granule", "mentions": 1, "confidence_score": 1, "total_score": 1}], "preparations_description": "The main herbal preparations of Crocus sativus are saffron tea, saffron oil, saffron tincture, saffron infusion, and saffron capsules, all of which are used to harness its medicinal properties. Saffron tea is made by infusing saffron threads in hot water, often used to alleviate symptoms of anxiety and depression. Saffron oil is extracted through solvent extraction or cold-pressing, used topically to reduce inflammation and improve skin health. Saffron tincture, saffron infusion, and saffron capsules are also prepared from the dried stigmas, used for their antioxidant and anti-inflammatory properties, including improving cognitive function and reducing symptoms of PMS. These preparations are used due to the high concentration of crocin and crocetin in the stigmas, which are responsible for saffron's medicinal and therapeutic effects.", "side_effects": [{"name": "experience nausea", "mentions": 3, "confidence_score": 27, "total_score": 81}, {"name": "experiencing dizziness", "mentions": 3, "confidence_score": 24, "total_score": 72}, {"name": "experiencing nausea", "mentions": 2, "confidence_score": 20, "total_score": 40}, {"name": "experiences allergic reactions", "mentions": 2, "confidence_score": 19, "total_score": 38}, {"name": "developing diarrhea", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "exacerbate allergy", "mentions": 2, "confidence_score": 18, "total_score": 36}, {"name": "induce dizziness", "mentions": 2, "confidence_score": 17, "total_score": 34}, {"name": "experiences allergic reaction", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develop allergic reaction", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "develop headache", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experience allergic reactions", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "suffer liver damage", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "developing allergic reactions", "mentions": 2, "confidence_score": 16, "total_score": 32}, {"name": "experience dizziness", "mentions": 3, "confidence_score": 15, "total_score": 45}, {"name": "experience abdominal pain", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "develop respiratory issues", "mentions": 2, "confidence_score": 14, "total_score": 28}, {"name": "worsen hypoglycemia", "mentions": 2, "confidence_score": 13, "total_score": 26}, {"name": "trigger headache", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "aggravate bleeding", "mentions": 2, "confidence_score": 12, "total_score": 24}, {"name": "experiencing insomnia", "mentions": 2, "confidence_score": 12, "total_score": 24}], "side_effects_description": "The possible side effects of using Crocus sativus improperly include experiencing nausea and dizziness due to its stimulatory properties on the nervous system, which may lead to gastrointestinal issues and imbalance. Allergic reactions can also occur in some individuals, manifesting as skin rashes, itching, or swelling, potentially due to the presence of allergenic compounds like flavonoids and alkaloids. Additionally, improper use of Crocus sativus may cause gastrointestinal disturbances, such as developing diarrhea, as a result of its emetic and purgative properties. This is often associated with Crocus sativus's historical use in traditional medicine as an emetic and purgative agent. Furthermore, improper dosage or individual sensitivity can exacerbate these side effects, making it essential to follow recommended guidelines for use."}
+{
+    "title": "Crocus sativus",
+    "herb_slug": "crocus-sativus",
+    "herb_name_scientific": "Crocus sativus",
+    "family_slug": "",
+    "family_name": "",
+    "url": "herbs/crocus-sativus",
+    "lastmod": "2025-1-21",
+    "herb_names_common": [
+        {
+            "name": "saffron",
+            "mentions": 19,
+            "confidence_score": 185,
+            "total_score": 3515
+        },
+        {
+            "name": "saffron crocus",
+            "mentions": 22,
+            "confidence_score": 162,
+            "total_score": 3564
+        },
+        {
+            "name": "autumn crocus",
+            "mentions": 8,
+            "confidence_score": 49,
+            "total_score": 392
+        },
+        {
+            "name": "saffron flower",
+            "mentions": 7,
+            "confidence_score": 47,
+            "total_score": 329
+        },
+        {
+            "name": "kesar",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "purple crocus",
+            "mentions": 6,
+            "confidence_score": 31,
+            "total_score": 186
+        },
+        {
+            "name": "azafran",
+            "mentions": 5,
+            "confidence_score": 30,
+            "total_score": 150
+        },
+        {
+            "name": "red gold",
+            "mentions": 4,
+            "confidence_score": 22,
+            "total_score": 88
+        },
+        {
+            "name": "zafferane",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "wild saffron",
+            "mentions": 3,
+            "confidence_score": 20,
+            "total_score": 60
+        },
+        {
+            "name": "flower of kings",
+            "mentions": 7,
+            "confidence_score": 20,
+            "total_score": 140
+        },
+        {
+            "name": "saffron crocus sativus",
+            "mentions": 4,
+            "confidence_score": 18,
+            "total_score": 72
+        },
+        {
+            "name": "golden crocus",
+            "mentions": 3,
+            "confidence_score": 18,
+            "total_score": 54
+        },
+        {
+            "name": "safed mool",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "golden threads",
+            "mentions": 4,
+            "confidence_score": 16,
+            "total_score": 64
+        },
+        {
+            "name": "za'faran",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "red saffron",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "saffran",
+            "mentions": 3,
+            "confidence_score": 14,
+            "total_score": 42
+        },
+        {
+            "name": "saffron bulb",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "meat flower",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "medicine_or_poison": [
+        {
+            "medicine_or_poison": "medicine",
+            "mentions": 20,
+            "confidence_score": 174,
+            "total_score": 3480
+        }
+    ],
+    "what_description": "Crocus sativus is a species of flowering plant in the family Iridaceae, native to the Mediterranean region. It is a perennial herb with narrow, linear leaves and produces funnel-shaped flowers in shades of purple and white, often with a yellow center. The flowers are arranged in umbels at the base of the plant and are followed by three-angled seed capsules containing three to four seeds. The plant grows from 10 to 20 centimeters tall and has a cormous growth habit, with the underground storage organ being a key factor in its survival. The seeds of Crocus sativus are harvested for their stigmas, which are used as a spice, commonly known as saffron.",
+    "category_action": "nervines",
+    "ailments": [
+        {
+            "name": "inflammation",
+            "mentions": 20,
+            "confidence_score": 187,
+            "total_score": 3740
+        },
+        {
+            "name": "diabetes",
+            "mentions": 16,
+            "confidence_score": 115,
+            "total_score": 1840
+        },
+        {
+            "name": "cancer",
+            "mentions": 9,
+            "confidence_score": 72,
+            "total_score": 648
+        },
+        {
+            "name": "cardiovascular disease",
+            "mentions": 9,
+            "confidence_score": 68,
+            "total_score": 612
+        },
+        {
+            "name": "wound healing",
+            "mentions": 8,
+            "confidence_score": 65,
+            "total_score": 520
+        },
+        {
+            "name": "antioxidant",
+            "mentions": 7,
+            "confidence_score": 65,
+            "total_score": 455
+        },
+        {
+            "name": "pain",
+            "mentions": 7,
+            "confidence_score": 54,
+            "total_score": 378
+        },
+        {
+            "name": "osteoarthritis",
+            "mentions": 6,
+            "confidence_score": 54,
+            "total_score": 324
+        },
+        {
+            "name": "eczema",
+            "mentions": 6,
+            "confidence_score": 49,
+            "total_score": 294
+        },
+        {
+            "name": "antibacterial properties",
+            "mentions": 5,
+            "confidence_score": 43,
+            "total_score": 215
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "gastritis",
+            "mentions": 5,
+            "confidence_score": 40,
+            "total_score": 200
+        },
+        {
+            "name": "cancer prevention",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "antiviral properties",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "neuroprotection",
+            "mentions": 6,
+            "confidence_score": 36,
+            "total_score": 216
+        },
+        {
+            "name": "high blood pressure",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        },
+        {
+            "name": "skin conditions",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "anxiety",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "antifungal",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        }
+    ],
+    "ailments_description": "The most common ailments you can heal with Crocus sativus are inflammation, which it reduces by inhibiting pro-inflammatory enzymes and cytokines, diabetes, as its flavonoids and anthocyanins have been shown to decrease glucose uptake and improve insulin sensitivity. Research also indicates that Crocus sativus has potential in cancer prevention and treatment, possibly due to its ability to induce apoptosis and inhibit cancer cell proliferation. Cardiovascular disease is another condition that Crocus sativus may help alleviate, through its antioxidant and anti-inflammatory properties, which reduce oxidative stress and inflammation in the cardiovascular system. Additionally, its wound-healing properties, including the promotion of collagen synthesis and tissue repair, make it a useful remedy for wound healing, while its antibacterial and antifungal properties combat infections. Furthermore, Crocus sativus has been found to exhibit antiviral, antifungal, and antimicrobial activities, as well as antiviral, antifungal, and antifungal properties against various pathogens.",
+    "properties": [
+        {
+            "name": "antioxidant",
+            "mentions": 20,
+            "confidence_score": 180,
+            "total_score": 3600
+        },
+        {
+            "name": "anti-inflammatory",
+            "mentions": 20,
+            "confidence_score": 165,
+            "total_score": 3300
+        },
+        {
+            "name": "neuroprotective",
+            "mentions": 19,
+            "confidence_score": 142,
+            "total_score": 2698
+        },
+        {
+            "name": "antimicrobial",
+            "mentions": 19,
+            "confidence_score": 138,
+            "total_score": 2622
+        },
+        {
+            "name": "analgesic",
+            "mentions": 19,
+            "confidence_score": 123,
+            "total_score": 2337
+        },
+        {
+            "name": "cardioprotective",
+            "mentions": 15,
+            "confidence_score": 103,
+            "total_score": 1545
+        },
+        {
+            "name": "antiviral",
+            "mentions": 14,
+            "confidence_score": 78,
+            "total_score": 1092
+        },
+        {
+            "name": "anticonvulsant",
+            "mentions": 9,
+            "confidence_score": 50,
+            "total_score": 450
+        },
+        {
+            "name": "antibacterial",
+            "mentions": 6,
+            "confidence_score": 44,
+            "total_score": 264
+        },
+        {
+            "name": "antifungal",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "anticancer",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "hepatoprotective",
+            "mentions": 4,
+            "confidence_score": 26,
+            "total_score": 104
+        },
+        {
+            "name": "immunomodulatory",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "antiseptic",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "antitumor",
+            "mentions": 3,
+            "confidence_score": 21,
+            "total_score": 63
+        },
+        {
+            "name": "antispasmodic",
+            "mentions": 3,
+            "confidence_score": 19,
+            "total_score": 57
+        },
+        {
+            "name": "anti-cancer",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "hemostatic",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "antidiabetic",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "cardiovascular protector",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "properties_description": "The main therapeutic properties of Crocus sativus are attributed to its antioxidant activity, which helps mitigate oxidative stress and cell damage. The bioactive compounds responsible for these properties include crocin and safranal, which exhibit anti-inflammatory effects, reducing inflammation and alleviating conditions such as arthritis. These compounds also possess neuroprotective properties, protecting neurons from damage and promoting neuroregeneration, particularly in the context of neurodegenerative diseases. Furthermore, the antimicrobial properties of Crocus sativus, mediated by flavonoids and saponins, inhibit the growth of bacteria and fungi, making it a potential natural preservative. Additionally, the analgesic properties of this plant, attributed to the presence of crocetin and safranal, provide relief from pain and discomfort, making it a valuable natural remedy for pain management.",
+    "constituents": [
+        {
+            "name": "crocin",
+            "mentions": 20,
+            "confidence_score": 192,
+            "total_score": 3840
+        },
+        {
+            "name": "crocetin",
+            "mentions": 19,
+            "confidence_score": 180,
+            "total_score": 3420
+        },
+        {
+            "name": "picrocrocin",
+            "mentions": 9,
+            "confidence_score": 75,
+            "total_score": 675
+        },
+        {
+            "name": "saffranal",
+            "mentions": 8,
+            "confidence_score": 70,
+            "total_score": 560
+        },
+        {
+            "name": "safranal",
+            "mentions": 7,
+            "confidence_score": 62,
+            "total_score": 434
+        },
+        {
+            "name": "crocin glycosides",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        },
+        {
+            "name": "crocetin glycosides",
+            "mentions": 6,
+            "confidence_score": 39,
+            "total_score": 234
+        },
+        {
+            "name": "quercetin",
+            "mentions": 6,
+            "confidence_score": 37,
+            "total_score": 222
+        },
+        {
+            "name": "potassium",
+            "mentions": 4,
+            "confidence_score": 29,
+            "total_score": 116
+        },
+        {
+            "name": "kaempferol",
+            "mentions": 4,
+            "confidence_score": 28,
+            "total_score": 112
+        },
+        {
+            "name": "manganese",
+            "mentions": 4,
+            "confidence_score": 27,
+            "total_score": 108
+        },
+        {
+            "name": "isorhapontigenin",
+            "mentions": 4,
+            "confidence_score": 25,
+            "total_score": 100
+        },
+        {
+            "name": "saffronine",
+            "mentions": 3,
+            "confidence_score": 23,
+            "total_score": 69
+        },
+        {
+            "name": "methyl crocetin chalcone",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "name": "zeaxanthin",
+            "mentions": 3,
+            "confidence_score": 16,
+            "total_score": 48
+        },
+        {
+            "name": "beta-cryptoxanthin",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "crocin-1",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "magnesium",
+            "mentions": 2,
+            "confidence_score": 15,
+            "total_score": 30
+        },
+        {
+            "name": "isoorientin",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "vitamin c",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        }
+    ],
+    "constituents_description": "The most important healing constituents of Crocus sativus are crocin, crocetin, picrocrocin, saffranal, and safranal. These constituents have been identified as the primary bioactive compounds responsible for the medicinal properties of saffron, with crocin and crocetin exhibiting potent antioxidant and anti-inflammatory activities, while picrocrocin is a carotenoid responsible for the characteristic yellow to orange color and has been shown to possess anti-depressant properties. Saffranal, a volatile oil, has been found to possess anti-oxidant, anti-inflammatory, and anti-microbial activities, and has been shown to have a positive effect on cardiovascular health. Safranal has also been demonstrated to have a sedative effect and has been used to treat anxiety and insomnia. The combined effects of these constituents contribute to the therapeutic potential of Crocus sativus in the treatment of a variety of diseases and conditions, including depression, inflammation, and cardiovascular disease.",
+    "preparations": [
+        {
+            "name": "saffron tea",
+            "mentions": 20,
+            "confidence_score": 175,
+            "total_score": 3500
+        },
+        {
+            "name": "saffron oil",
+            "mentions": 19,
+            "confidence_score": 153,
+            "total_score": 2907
+        },
+        {
+            "name": "saffron tincture",
+            "mentions": 20,
+            "confidence_score": 129,
+            "total_score": 2580
+        },
+        {
+            "name": "saffron infusion",
+            "mentions": 14,
+            "confidence_score": 98,
+            "total_score": 1372
+        },
+        {
+            "name": "saffron capsules",
+            "mentions": 19,
+            "confidence_score": 91,
+            "total_score": 1729
+        },
+        {
+            "name": "saffron extract",
+            "mentions": 12,
+            "confidence_score": 59,
+            "total_score": 708
+        },
+        {
+            "name": "saffron syrup",
+            "mentions": 4,
+            "confidence_score": 20,
+            "total_score": 80
+        },
+        {
+            "name": "saffron infused honey",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "saffron powder",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "crocetin extract",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "name": "saffron infused oil",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        },
+        {
+            "name": "saffron sugar",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        },
+        {
+            "name": "saffron infused water",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "saffron cream",
+            "mentions": 2,
+            "confidence_score": 5,
+            "total_score": 10
+        },
+        {
+            "name": "saffron salve",
+            "mentions": 1,
+            "confidence_score": 5,
+            "total_score": 5
+        },
+        {
+            "name": "saffron butter",
+            "mentions": 1,
+            "confidence_score": 4,
+            "total_score": 4
+        },
+        {
+            "name": "saffron granule",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "preparations_description": "The main herbal preparations of Crocus sativus are saffron tea, saffron oil, saffron tincture, saffron infusion, and saffron capsules, all of which are used to harness its medicinal properties. Saffron tea is made by infusing saffron threads in hot water, often used to alleviate symptoms of anxiety and depression. Saffron oil is extracted through solvent extraction or cold-pressing, used topically to reduce inflammation and improve skin health. Saffron tincture, saffron infusion, and saffron capsules are also prepared from the dried stigmas, used for their antioxidant and anti-inflammatory properties, including improving cognitive function and reducing symptoms of PMS. These preparations are used due to the high concentration of crocin and crocetin in the stigmas, which are responsible for saffron's medicinal and therapeutic effects.",
+    "side_effects": [
+        {
+            "name": "experience nausea",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        },
+        {
+            "name": "experiencing dizziness",
+            "mentions": 3,
+            "confidence_score": 24,
+            "total_score": 72
+        },
+        {
+            "name": "experiencing nausea",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "name": "experiences allergic reactions",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        },
+        {
+            "name": "developing diarrhea",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "exacerbate allergy",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        },
+        {
+            "name": "induce dizziness",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        },
+        {
+            "name": "experiences allergic reaction",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develop allergic reaction",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "develop headache",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experience allergic reactions",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "suffer liver damage",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "developing allergic reactions",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        },
+        {
+            "name": "experience dizziness",
+            "mentions": 3,
+            "confidence_score": 15,
+            "total_score": 45
+        },
+        {
+            "name": "experience abdominal pain",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "develop respiratory issues",
+            "mentions": 2,
+            "confidence_score": 14,
+            "total_score": 28
+        },
+        {
+            "name": "worsen hypoglycemia",
+            "mentions": 2,
+            "confidence_score": 13,
+            "total_score": 26
+        },
+        {
+            "name": "trigger headache",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "aggravate bleeding",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        },
+        {
+            "name": "experiencing insomnia",
+            "mentions": 2,
+            "confidence_score": 12,
+            "total_score": 24
+        }
+    ],
+    "side_effects_description": "The possible side effects of using Crocus sativus improperly include experiencing nausea and dizziness due to its stimulatory properties on the nervous system, which may lead to gastrointestinal issues and imbalance. Allergic reactions can also occur in some individuals, manifesting as skin rashes, itching, or swelling, potentially due to the presence of allergenic compounds like flavonoids and alkaloids. Additionally, improper use of Crocus sativus may cause gastrointestinal disturbances, such as developing diarrhea, as a result of its emetic and purgative properties. This is often associated with Crocus sativus's historical use in traditional medicine as an emetic and purgative agent. Furthermore, improper dosage or individual sensitivity can exacerbate these side effects, making it essential to follow recommended guidelines for use."
+}
