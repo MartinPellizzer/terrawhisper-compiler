@@ -38,6 +38,13 @@ body {
     padding-right: 2.4rem;
 }
 
+.container-lg {
+    max-width: 99.2rem;
+    margin: 0 auto;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+}
+
 .container-md {
     max-width: 76.8rem;
     margin: 0 auto;
@@ -141,11 +148,11 @@ p {
     max-width: 128.0rem;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3.2rem;
-    margin-bottom: 3.2rem;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
     padding-left: 2.4rem;
     padding-right: 2.4rem;
-    padding-bottom: 2.4rem;
+    margin-bottom: 3.2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -595,10 +602,12 @@ p {
 }
 
 .menu-item:hover {
+    /*
     border: 0;
     border-bottom-width: 2px;
     border-style: solid;
     border-color: #c2410c;
+    */
     color: #c2410c;
 }
 

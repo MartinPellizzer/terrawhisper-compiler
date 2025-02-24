@@ -367,6 +367,37 @@ if 0:
         </header>
     '''
 
+header_html_2 = f'''
+    <header style="position: sticky; top: 0px;">
+        <section style="background-color: #101010; padding: 8px 0;">
+            <div class="container-xl">
+                <div style="text-align: center;">
+                    <span style="display: inline-block; color: #ffffff;">Free: How to dry herbs in 7 minutes or less</span>
+                    <a style="display: inline-block; color: #101010; background-color: #ffffff; text-decoration: none; padding: 4px 16px; border-radius: 9999px; margin-left: 8px;">Download Cheatsheet</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div style="background-color: #ffffff;" class="header">
+                <a class="text-black no-underline text-16 menu-item" href="/herbs.html">TERRAWHISPER</a>
+                <nav class="header-nav">
+                    <a class="text-black no-underline text-16 menu-item" href="/herbs.html">HERBS</a>
+                    <a class="text-black no-underline text-16 menu-item" href="/remedies.html">REMEDIES</a>
+                    <a class="text-black no-underline text-16 menu-item" href="/equipments.html">EQUIPMENTS</a>
+                </nav>
+            </div>
+        </section>
+    </header>
+'''
+
+sidebar_html_2 = f'''
+    <section>
+        <div style="position: sticky; top: 144px;">
+            <h2>Table of Contents</h2>
+        </div>
+    </section>
+'''
+
 footer_html = f'''
     <footer class="footer">
         <span>© TerraWhisper.com 2024 | All Rights Reserved</span>
@@ -2383,44 +2414,45 @@ def articles_preparations(preparation_slug):
                             step_5,
                         ]
                         json_write(json_filepath, data)
-        # remedies (amazon)
-        for remedy_i, obj in enumerate(data['remedies']):
-            print(f'{ailment_i}/{len(ailments)} - {remedy_i} - {preparation_name} - {obj}')
-            key = 'remedy_amazon'
-            if key not in obj: obj[key] = ''
-            # obj[key] = ''
-            if obj[key] == '':
-                plant_slug = obj['herb_name_scientific'].lower().strip().replace(' ', '-')
-                # ;amazon
-                products_jsons_folderpath = f'{vault}/amazon/{preparation_slug}/json/{plant_slug}' 
-                if not os.path.exists(products_jsons_folderpath): continue
-                products_jsons_filepaths = [
-                    f'{products_jsons_folderpath}/{x}' 
-                    for x in os.listdir(products_jsons_folderpath)
-                ]
-                # order filepaths by popularity
-                products_jsons = []
-                for i, product_json_filepath in enumerate(products_jsons_filepaths):
-                    product_data = json_read(product_json_filepath)
-                    product_asin = product_json_filepath.split('/')[-1].replace('.json', '')
-                    reviews_score_total = float(product_data['reviews_score_total'])
-                    products_jsons.append({'product_asin': product_asin, 'reviews_score_total': reviews_score_total})
-                products_jsons_ordered = sorted(products_jsons, key=lambda x: x['reviews_score_total'], reverse=True)
-                products_jsons_filepaths_ordered = []
-                for product_json in products_jsons_ordered:
-                    product_asin = product_json['product_asin']
-                    product_filepath = f'{products_jsons_folderpath}/{product_asin}.json'
-                    products_jsons_filepaths_ordered.append(product_filepath)
-                products_jsons_filepaths_ordered = products_jsons_filepaths_ordered
-                product_json_filepath = products_jsons_filepaths_ordered[0]
-                json_product = json_read(product_json_filepath)
-                affiliate_product = {
-                    'url': json_product['url'],
-                    'affiliate_link': json_product['affiliate_link'],
-                    'title': json_product['title'],
-                }
-                obj[key] = affiliate_product
-                json_write(json_filepath, data)
+        if 0: # TODO: remove if condition
+            # remedies (amazon)
+            for remedy_i, obj in enumerate(data['remedies']):
+                print(f'{ailment_i}/{len(ailments)} - {remedy_i} - {preparation_name} - {obj}')
+                key = 'remedy_amazon'
+                if key not in obj: obj[key] = ''
+                # obj[key] = ''
+                if obj[key] == '':
+                    plant_slug = obj['herb_name_scientific'].lower().strip().replace(' ', '-')
+                    # ;amazon
+                    products_jsons_folderpath = f'{vault}/amazon/{preparation_slug}/json/{plant_slug}' 
+                    if not os.path.exists(products_jsons_folderpath): continue
+                    products_jsons_filepaths = [
+                        f'{products_jsons_folderpath}/{x}' 
+                        for x in os.listdir(products_jsons_folderpath)
+                    ]
+                    # order filepaths by popularity
+                    products_jsons = []
+                    for i, product_json_filepath in enumerate(products_jsons_filepaths):
+                        product_data = json_read(product_json_filepath)
+                        product_asin = product_json_filepath.split('/')[-1].replace('.json', '')
+                        reviews_score_total = float(product_data['reviews_score_total'])
+                        products_jsons.append({'product_asin': product_asin, 'reviews_score_total': reviews_score_total})
+                    products_jsons_ordered = sorted(products_jsons, key=lambda x: x['reviews_score_total'], reverse=True)
+                    products_jsons_filepaths_ordered = []
+                    for product_json in products_jsons_ordered:
+                        product_asin = product_json['product_asin']
+                        product_filepath = f'{products_jsons_folderpath}/{product_asin}.json'
+                        products_jsons_filepaths_ordered.append(product_filepath)
+                    products_jsons_filepaths_ordered = products_jsons_filepaths_ordered
+                    product_json_filepath = products_jsons_filepaths_ordered[0]
+                    json_product = json_read(product_json_filepath)
+                    affiliate_product = {
+                        'url': json_product['url'],
+                        'affiliate_link': json_product['affiliate_link'],
+                        'title': json_product['title'],
+                    }
+                    obj[key] = affiliate_product
+                    json_write(json_filepath, data)
 
         # ;intro (desc)
         key = 'intro_desc'
@@ -2585,18 +2617,16 @@ def articles_preparations(preparation_slug):
         popular_blocks_html = html_article_popular_blocks(sidebar_populars)
         popular_html = html_article_popular(f'{system_slug} system', popular_blocks_html)
         sidebar_html = html_article_sidebar(popular_html, social_html)
-        sidebar_html = ''
         related_html = html_article_related(related_blocks_html)
         related_html = ''
         main_html = html_article_main(meta_html, article_html, related_html)
-        layout_html = html_article_layout(main_html, sidebar_html)
+        layout_html = html_article_layout(main_html, '')
         html = f'''
             <!DOCTYPE html>
             <html lang="en">
             {head_html}
             <body>
                 {header_html}
-                {breadcrumbs_html}
                 {layout_html}
                 <div class="mt-64"></div>
                 {footer_html}
@@ -7754,10 +7784,11 @@ if 0:
         p_taxonomy_order(vertex_order)
     p_taxonomy_families()
 
-if 0:
+if 1:
     # ;herbs
     a_herbs_popular()
     a_herbs_wcvp()
+    quit()
 
 if 0:
     p_herbs()

@@ -19,6 +19,7 @@ import data_csv
 import util
 import util_data
 
+from oliark_io import csv_read_rows_to_json
 from oliark_io import json_write, json_read
 
 vault = '/home/ubuntu/vault'
@@ -32,196 +33,220 @@ driver = webdriver.Firefox()
 driver.get('https://www.google.com')
 driver.maximize_window()
 
+jsons_folderpath = f'{vault}/amazon/{product_category}/json/{product_slug}'
 
+done_products_folderpath = f'{vault}/amazon/teas/json'
+done_products_slugs = os.listdir(done_products_folderpath)
+print(done_products_slugs)
 
-product_slug = 'zingiber-officinale'
-product_category = 'teas'
-# product_query = 'herbalist stirring device' >> at the moment search manually
+csv_teas_filepath = f'{vault}/amazon/teas.csv'
+json_teas = csv_read_rows_to_json(csv_teas_filepath)
+for tea in json_teas:
+    tea_slug = tea['plant_slug']
+    tea_name_amazon = tea['plant_name_amazon']
+    if tea_slug in done_products_slugs: continue
+    if tea_name_amazon.strip() == '': continue
+    
+    print(tea_slug, '|', tea_name_amazon)
+    
+    driver.get('https://www.amazon.com')
+    time.sleep(10)
+    
+    e = driver.find_element(By.XPATH, '//input[@aria-label="Search Amazon"]')
+    e.clear()
+    time.sleep(1)
+    e.send_keys(f'{tea_name_amazon} tea')
+    time.sleep(3)
+    e.send_keys(Keys.RETURN);
+    time.sleep(10)
+    
+    product_slug = tea_slug
+    product_category = 'teas'
 
-# search results
-elements = driver.find_elements(By.XPATH, '//*[@role="listitem"]')
-rows = []
-asins_done = []
-for element in elements:
-    link = element.find_element(By.XPATH, './/a').get_attribute('href')
-    link_no_ref = link.split('/ref=')[0]
-    if 'sspa' in link_no_ref: continue
-    if '/dp/' not in link_no_ref: continue
-    asin = link_no_ref.split('/')[-1]
-    print(asin)
-    if asin in asins_done: continue
-    else: asins_done.append(asin)
-    print(link_no_ref)
-    row = [link_no_ref]
-    rows.append(row)
-
-with open(f'{vault}/amazon/{product_category}/csvs/{product_slug}-links.csv', 'w') as f:
-    writer = csv.writer(f, delimiter='\\')
-    writer.writerows(rows)
-
-##############################################################################
-# PRODUCTS PAGES
-##############################################################################
-
-assets_folderpath = f'{vault}/amazon/{product_category}/json/{product_slug}'
-
-rows = []
-with open(f'{vault}/amazon/{product_category}/csvs/{product_slug}-links.csv', newline='') as f:
-    reader = csv.reader(f, delimiter='\\')
-    for row in reader:
+    # search results
+    elements = driver.find_elements(By.XPATH, '//*[@role="listitem"]')
+    rows = []
+    asins_done = []
+    for element in elements:
+        link = element.find_element(By.XPATH, './/a').get_attribute('href')
+        link_no_ref = link.split('/ref=')[0]
+        if 'sspa' in link_no_ref: continue
+        if '/dp/' not in link_no_ref: continue
+        asin = link_no_ref.split('/')[-1]
+        print(asin)
+        if asin in asins_done: continue
+        else: asins_done.append(asin)
+        print(link_no_ref)
+        row = [link_no_ref]
         rows.append(row)
 
-urls = [row[0] for row in rows]
-    
-for i, url in enumerate(urls):
-    print(url)
-    
-    asin = url.split('/')[-1]
-    print(f'{i}/{len(urls)} - {asin}')
-    
-    # if asin in os.listdir(f'equipments/jsons/{product_slug}'): continue
-    
-    json_filepath = f'{assets_folderpath}/{asin}.json'
-    
-    data = json_read(json_filepath, create=True)
-    
-    if (
-        'url' in data and 
-        'title' in data and 
-        'description' in data and 
-        'price' in data and 
-        'reviews_num' in data and 
-        'reviews_score' in data and 
-        'reviews_5s' in data and 
-        'reviews_1s' in data
-    ):
-        continue
-    
-    driver.get(url)
-    time.sleep(10)
-    
+    with open(f'{vault}/amazon/{product_category}/csvs/{product_slug}-links.csv', 'w') as f:
+        writer = csv.writer(f, delimiter='\\')
+        writer.writerows(rows)
+
+    ##############################################################################
+    # PRODUCTS PAGES
+    ##############################################################################
+
+
+    rows = []
+    with open(f'{vault}/amazon/{product_category}/csvs/{product_slug}-links.csv', newline='') as f:
+        reader = csv.reader(f, delimiter='\\')
+        for row in reader:
+            rows.append(row)
+
+    urls = [row[0] for row in rows]
         
-    #########################################################
-    # url
-    #########################################################
-    data['url'] = url 
-    json_write(json_filepath, data)
-    
-    #########################################################
-    # affiliate link
-    #########################################################
-    affiliate_elements = driver.find_element(By.XPATH, '//button[contains(text(), "Get Link")]')
-    affiliate_elements.click()
-    time.sleep(10)
-    affiliate_link = driver.find_element(By.XPATH, '//textarea[@id="amzn-ss-text-shortlink-textarea"]').text
-    print(affiliate_link)
-    data['affiliate_link'] = affiliate_link 
-    json_write(json_filepath, data)
+    for i, url in enumerate(urls):
+        print(url)
         
-    #########################################################
-    # title
-    #########################################################
-    title = driver.find_element(By.XPATH, '//h1/span').text
-    print(title)
-    data['title'] = title 
-    json_write(json_filepath, data)
-
-    #########################################################
-    # description
-    #########################################################
-    description = driver.find_element(By.XPATH, '//div[@id="feature-bullets"]').text
-    print(description)
-    data['description'] = description 
-    json_write(json_filepath, data)
-
-    #########################################################
-    # price
-    #########################################################
-    price = driver.find_element(By.XPATH, '//span[@class="a-price-whole"]').text
-    print(price)
-    data['price'] = price 
-    json_write(json_filepath, data)
-    
-    #########################################################
-    # reviews num
-    #########################################################
-    reviews_num = '0'
-    try:
-        reviews_num = driver.find_element(By.XPATH, '//span[@id="acrCustomerReviewText"]').text
-        reviews_num = reviews_num.replace('ratings', '').replace(',', '').strip()
-        print(reviews_num)
-        data['reviews_num'] = reviews_num 
-        json_write(json_filepath, data)
-    except:
-        data['reviews_num'] = '0' 
-        json_write(json_filepath, data)
-
-    #########################################################
-    # reviews score
-    #########################################################
-    reviews_score = '0'
-    try:
-        reviews_score = driver.find_element(By.XPATH, '//span[@data-action="acrStarsLink-click-metrics"]').text
-        print(reviews_score)
-        data['reviews_score'] = reviews_score 
-        json_write(json_filepath, data)
-    except:
-        data['reviews_score'] = '0' 
-        json_write(json_filepath, data)
-
-    #########################################################
-    # reviews score total
-    #########################################################
-    try:
-        reviews_score_total = str(float(reviews_score) * int(reviews_num))
-        print(reviews_score_total)
-        data['reviews_score_total'] = reviews_score_total 
-        json_write(json_filepath, data)
-    except:
-        data['reviews_score_total'] = '0' 
-        json_write(json_filepath, data)
-    
-    #########################################################
-    # reviews
-    #########################################################
-    customer_reviews_container = driver.find_element(By.XPATH, '//h2[contains(text(), "Customer reviews")]/../..')
-    try:
-        stars_5 = customer_reviews_container.find_element(By.XPATH, './/a[contains(@aria-label, "5 stars")]')
-        stars_5.click()
+        asin = url.split('/')[-1]
+        print(f'{i}/{len(urls)} - {asin}')
+        
+        # if asin in os.listdir(f'equipments/jsons/{product_slug}'): continue
+        
+        json_filepath = f'{jsons_folderpath}/{asin}.json'
+        
+        data = json_read(json_filepath, create=True)
+        
+        if (
+            'url' in data and 
+            'title' in data and 
+            'description' in data and 
+            'price' in data and 
+            'reviews_num' in data and 
+            'reviews_score' in data and 
+            'reviews_5s' in data and 
+            'reviews_1s' in data
+        ):
+            continue
+        
+        driver.get(url)
         time.sleep(10)
-        reviews = driver.find_elements(By.XPATH, '//span[@data-hook="review-body"]')
-        export_text = ''
-        for review in reviews: 
-            content = review.text
-            print(content)
-            export_text += content
-        data['reviews_5s'] = export_text
+        
+            
+        #########################################################
+        # url
+        #########################################################
+        data['url'] = url 
         json_write(json_filepath, data)
-    except:
-        data['reviews_5s'] = ''
-        json_write(json_filepath, data)
-
-    customer_reviews_container = driver.find_element(By.XPATH, '//h2[contains(text(), "Customer reviews")]/../..')
-    try:
-        stars_1 = customer_reviews_container.find_element(By.XPATH, './/a[contains(@aria-label, "1 stars")]')
-        stars_1.click()
+        
+        #########################################################
+        # affiliate link
+        #########################################################
+        affiliate_elements = driver.find_element(By.XPATH, '//button[contains(text(), "Get Link")]')
+        affiliate_elements.click()
         time.sleep(10)
-        reviews = driver.find_elements(By.XPATH, '//span[@data-hook="review-body"]')
-        export_text = ''
-        for review in reviews: 
-            content = review.text
-            print(content)
-            export_text += content
-        data['reviews_1s'] = export_text
+        affiliate_link = driver.find_element(By.XPATH, '//textarea[@id="amzn-ss-text-shortlink-textarea"]').text
+        print(affiliate_link)
+        data['affiliate_link'] = affiliate_link 
         json_write(json_filepath, data)
-    except:
-        data['reviews_1s'] = ''
+            
+        #########################################################
+        # title
+        #########################################################
+        title = driver.find_element(By.XPATH, '//h1/span').text
+        print(title)
+        data['title'] = title 
         json_write(json_filepath, data)
-        
 
+        #########################################################
+        # description
+        #########################################################
+        description = driver.find_element(By.XPATH, '//div[@id="feature-bullets"]').text
+        print(description)
+        data['description'] = description 
+        json_write(json_filepath, data)
+
+        #########################################################
+        # price
+        #########################################################
+        price = driver.find_element(By.XPATH, '//span[@class="a-price-whole"]').text
+        print(price)
+        data['price'] = price 
+        json_write(json_filepath, data)
         
+        #########################################################
+        # reviews num
+        #########################################################
+        reviews_num = '0'
+        try:
+            reviews_num = driver.find_element(By.XPATH, '//span[@id="acrCustomerReviewText"]').text
+            reviews_num = reviews_num.replace('ratings', '').replace(',', '').strip()
+            print(reviews_num)
+            data['reviews_num'] = reviews_num 
+            json_write(json_filepath, data)
+        except:
+            data['reviews_num'] = '0' 
+            json_write(json_filepath, data)
+
+        #########################################################
+        # reviews score
+        #########################################################
+        reviews_score = '0'
+        try:
+            reviews_score = driver.find_element(By.XPATH, '//span[@data-action="acrStarsLink-click-metrics"]').text
+            print(reviews_score)
+            data['reviews_score'] = reviews_score 
+            json_write(json_filepath, data)
+        except:
+            data['reviews_score'] = '0' 
+            json_write(json_filepath, data)
+
+        #########################################################
+        # reviews score total
+        #########################################################
+        try:
+            reviews_score_total = str(float(reviews_score) * int(reviews_num))
+            print(reviews_score_total)
+            data['reviews_score_total'] = reviews_score_total 
+            json_write(json_filepath, data)
+        except:
+            data['reviews_score_total'] = '0' 
+            json_write(json_filepath, data)
         
-        
+        #########################################################
+        # reviews
+        #########################################################
+        customer_reviews_container = driver.find_element(By.XPATH, '//h2[contains(text(), "Customer reviews")]/../..')
+        try:
+            stars_5 = customer_reviews_container.find_element(By.XPATH, './/a[contains(@aria-label, "5 stars")]')
+            stars_5.click()
+            time.sleep(10)
+            reviews = driver.find_elements(By.XPATH, '//span[@data-hook="review-body"]')
+            export_text = ''
+            for review in reviews: 
+                content = review.text
+                print(content)
+                export_text += content
+            data['reviews_5s'] = export_text
+            json_write(json_filepath, data)
+        except:
+            data['reviews_5s'] = ''
+            json_write(json_filepath, data)
+
+        customer_reviews_container = driver.find_element(By.XPATH, '//h2[contains(text(), "Customer reviews")]/../..')
+        try:
+            stars_1 = customer_reviews_container.find_element(By.XPATH, './/a[contains(@aria-label, "1 stars")]')
+            stars_1.click()
+            time.sleep(10)
+            reviews = driver.find_elements(By.XPATH, '//span[@data-hook="review-body"]')
+            export_text = ''
+            for review in reviews: 
+                content = review.text
+                print(content)
+                export_text += content
+            data['reviews_1s'] = export_text
+            json_write(json_filepath, data)
+        except:
+            data['reviews_1s'] = ''
+            json_write(json_filepath, data)
+
+    time.sleep(3600)
+
+            
+            
+            
         
         
         
@@ -315,7 +340,7 @@ if 0:
         json_filepath = f'equipments/jsons/{product_slug}.json'
         
         found = False
-        for filename in os.listdir(assets_folderpath):
+        for filename in os.listdir(jsons_folderpath):
             if asin in filename:
                 found = True
                 break
@@ -334,7 +359,7 @@ if 0:
         #########################################################
         title = driver.find_element(By.XPATH, '//h1/span').text
         print(title)
-        output_filepath = f'{assets_folderpath}/{asin}-title.txt'
+        output_filepath = f'{jsons_folderpath}/{asin}-title.txt'
         with open(output_filepath, 'w') as f: f.write(title)
 
         #########################################################
@@ -342,7 +367,7 @@ if 0:
         #########################################################
         description = driver.find_element(By.XPATH, '//div[@id="feature-bullets"]').text
         print(description)
-        output_filepath = f'{assets_folderpath}/{asin}-description.txt'
+        output_filepath = f'{jsons_folderpath}/{asin}-description.txt'
         with open(output_filepath, 'w') as f: f.write(description)
 
         #########################################################
@@ -359,9 +384,9 @@ if 0:
                 content = review.text
                 print(content)
                 export_text += content
-            with open(f'{assets_folderpath}/{asin}-reviews-5star.txt', 'w') as f: f.write(export_text)
+            with open(f'{jsons_folderpath}/{asin}-reviews-5star.txt', 'w') as f: f.write(export_text)
         except:
-            with open(f'{assets_folderpath}/{asin}-reviews-5star.txt', 'w') as f: f.write('')
+            with open(f'{jsons_folderpath}/{asin}-reviews-5star.txt', 'w') as f: f.write('')
 
         customer_reviews_container = driver.find_element(By.XPATH, '//h2[contains(text(), "Customer reviews")]/../..')
         try:
@@ -374,9 +399,9 @@ if 0:
                 content = review.text
                 print(content)
                 export_text += content
-            with open(f'{assets_folderpath}/{asin}-reviews-1star.txt', 'w') as f: f.write(export_text)
+            with open(f'{jsons_folderpath}/{asin}-reviews-1star.txt', 'w') as f: f.write(export_text)
         except:
-            with open(f'{assets_folderpath}/{asin}-reviews-1star.txt', 'w') as f: f.write('')
+            with open(f'{jsons_folderpath}/{asin}-reviews-1star.txt', 'w') as f: f.write('')
 
 
 #####################################################
