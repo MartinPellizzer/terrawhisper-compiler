@@ -27,7 +27,7 @@ import g
 ##########################################################################
 
 ads_manual = False
-HERBS_TO_GEN_NUM = 1000000
+HERBS_TO_GEN_NUM = 100000
 
 vault = '/home/ubuntu/vault'
 vault_tmp = '/home/ubuntu/vault-tmp'
@@ -367,6 +367,7 @@ if 0:
         </header>
     '''
 
+# ;jump
 header_html_2 = f'''
     <header style="position: sticky; top: 0px;">
         <section style="background-color: #101010; padding: 8px 0;">
@@ -2630,6 +2631,478 @@ def articles_preparations(preparation_slug):
                 {layout_html}
                 <div class="mt-64"></div>
                 {footer_html}
+            </body>
+            </html>
+        '''
+        with open(html_filepath, 'w') as f: f.write(html)
+        print(f'\n')
+        print(html_filepath)
+        # quit()
+
+def articles_preparations_2(preparation_slug):
+    preparation_name = preparation_slug.replace('-', ' ')
+    ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
+    for ailment_i, ailment in enumerate(ailments):
+        print(f'\n>> {ailment_i}/{len(ailments)} - preparation: {preparation_name}')
+        print(f'    >> {ailment}')
+        system_slug = ailment['system_slug']
+        organ_slug = ailment['organ_slug']
+        ailment_slug = ailment['ailment_slug']
+        ailment_name = ailment['ailment_name']
+        url = f'remedies/{system_slug}-system/{ailment_slug}/{preparation_slug}'
+        json_filepath = f'database/json/{url}.json'
+        html_filepath = f'{website_folderpath}/{url}.html'
+        print(f'    >> JSON: {json_filepath}')
+        print(f'    >> HTML: {html_filepath}')
+        if not os.path.exists(f'{website_folderpath}/remedies'): 
+            os.mkdir(f'{website_folderpath}/remedies')
+        if not os.path.exists(f'{website_folderpath}/remedies/{system_slug}-system'): 
+            os.mkdir(f'{website_folderpath}/remedies/{system_slug}-system')
+        if not os.path.exists(f'{website_folderpath}/remedies/{system_slug}-system/{ailment_slug}'): 
+            os.mkdir(f'{website_folderpath}/remedies/{system_slug}-system/{ailment_slug}')
+        # if os.path.exists(json_filepath): os.remove(json_filepath)
+        # continue
+
+        ################################################################################
+        # ;json
+        ################################################################################
+        data = json_read(json_filepath, create=True)
+        data['ailment_slug'] = ailment_slug
+        data['ailment_name'] = ailment_name
+        data['system_slug'] = system_slug
+        data['organ_slug'] = organ_slug
+        data['preparation_slug'] = preparation_slug
+        data['preparation_name'] = preparation_name
+        data['url'] = url
+        if 'lastmod' not in data: data['lastmod'] = today()
+        if 'remedies_num' not in data: data['remedies_num'] = ''
+        # data['remedies_num'] = ''
+        if data['remedies_num'] == '': data['remedies_num'] = random.choice(7, 9, 11)
+        remedies_num = data['remedies_num']
+        if 'title_2' not in data: data['title_2'] = data['title']
+        data['title'] = f'{remedies_num} herbal {preparation_name} for {ailment_name}'.title()
+        json_write(json_filepath, data)
+
+        # ;remedies
+        # generate herbs for article
+        key = 'remedies'
+        if key not in data: data[key] = []
+        # data[key] = []
+        if data[key] == []:
+            output_plants = []
+            for i in range(10):
+                print(f'{ailment_i}/{len(ailments)} - {i}: {ailment}')
+                prompt = f'''
+                    List the 15 best herbs to make herbal {preparation_name} to relieve {ailment_name} for {data["audience"]}.
+                    Also, for each herb name give a confidence score from 1 to 10, indicating how sure you are that herbal {preparation_name} made with that herb is effective to relieve {ailment_name}.
+                    Write only the scientific names (botanical names) of the plants used for the preparation, don't add descriptions or common names.
+                    Write the names of the plants using as few words as possible.
+                    Don't write fluff, only proven facts.
+                    Don't allucinate.
+                    Reply in the following JSON format: 
+                    [
+                        {{"herb_name_scientific": "scientific name of herb 1 used for preparation", "confidence_score": "10"}}, 
+                        {{"herb_name_scientific": "scientific name of herb 2 used for preparation", "confidence_score": "5"}}, 
+                        {{"herb_name_scientific": "scientific name of herb 3 used for preparation", "confidence_score": "7"}} 
+                    ]
+                    Only reply with the JSON, don't add additional info.
+                '''
+                reply = llm_reply(prompt, model).strip()
+                json_data = {}
+                try: json_data = json.loads(reply)
+                except: pass 
+                if json_data != {}:
+                    names_scientific = []
+                    for item in json_data:
+                        try: line = item['herb_name_scientific']
+                        except: continue
+                        try: score = item['confidence_score']
+                        except: continue
+                        print(line)
+                        for plant in plants_wcvp:
+                            name_scientific = plant['scientfiicname']
+                            if name_scientific.lower().strip() in line.lower().strip():
+                                if len(name_scientific.split(' ')) > 1:
+                                    print('++++++++++++++++++++++++++++++++++++++++')
+                                    print(name_scientific)
+                                    print('++++++++++++++++++++++++++++++++++++++++')
+                                    names_scientific.append({
+                                        "name": name_scientific, 
+                                        "score": score,
+                                    })
+                                    break
+                        ## exceptions
+                        if line.lower().strip() == 'mentha piperita':
+                                names_scientific.append({"name": 'Mentha x piperita', "score": score})
+                    for obj in names_scientific:
+                        name = obj['name']
+                        score = obj['score']
+                        found = False
+                        for output_plant in output_plants:
+                            print(output_plant)
+                            print(name, '->', output_plant['herb_name_scientific'])
+                            if name in output_plant['herb_name_scientific']: 
+                                output_plant['herb_mentions'] += 1
+                                output_plant['herb_confidence_score'] += int(score)
+                                found = True
+                                break
+                        if not found:
+                            output_plants.append({
+                                'herb_name_scientific': name, 
+                                'herb_mentions': 1, 
+                                'herb_confidence_score': int(score), 
+                            })
+                output_plants_final = []
+                for output_plant in output_plants:
+                    output_plants_final.append({
+                        'herb_name_scientific': output_plant['herb_name_scientific'],
+                        'herb_mentions': int(output_plant['herb_mentions']),
+                        'herb_confidence_score': int(output_plant['herb_confidence_score']),
+                        'herb_total_score': int(output_plant['herb_mentions']) * int(output_plant['herb_confidence_score']),
+                    })
+                output_plants_final = sorted(output_plants_final, key=lambda x: x['herb_confidence_score'], reverse=True)
+                print('***********************')
+                print('***********************')
+                print('***********************')
+                for output_plant in output_plants_final:
+                    print(output_plant)
+                print('***********************')
+                print('***********************')
+                print('***********************')
+                data[key] = output_plants_final[:remedies_num]
+                json_write(json_filepath, data)
+        # ;remedies (desc)
+        for remedy_i, obj in enumerate(data['remedies']):
+            print(f'{ailment_i}/{len(ailments)} - {remedy_i} - {preparation_name} - {obj}')
+            key = 'remedy_desc'
+            if key not in obj: obj[key] = ''
+            # obj[key] = ''
+            if obj[key] == '':
+                herb_name = obj['herb_name_scientific']
+                prompt = f'''
+                    Write a 5-sentence paragraph explaining why {herb_name} {preparation_name} is good for {ailment_name}.
+                    Include the boiactive constituents and the properties that help with this problem.
+                    Don't include words that communicate the feeling that the data you provide is not proven, like "can", "may", "might" and "is believed to". 
+                    Use simple and short words, and a simple writing style.
+                    Use a conversational and fluid writing style.
+                    Don't write fluff.
+                    Don't allucinate.
+                    Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+                    Start with the following words: {herb_name} {preparation_name} contains .
+                '''
+                reply = llm_reply(prompt).strip().replace('\n', ' ').replace('  ', ' ')
+                obj[key] = reply
+                json_write(json_filepath, data)
+        # remedies (procedure)
+        for remedy_i, obj in enumerate(data['remedies']):
+            print(f'{ailment_i}/{len(ailments)} - {remedy_i} - {preparation_name} - {obj}')
+            key = 'remedy_procedure'
+            if key not in obj: obj[key] = ''
+            # obj[key] = ''
+            if obj[key] == '':
+                herb_name = obj['herb_name_scientific']
+                prompt = f'''
+                    Write a 5-step procedure on how to make {herb_name} {preparation_name} for {ailment_name}.
+                    Make the procedure easy to do and actionable.
+                    Use simple and short words, and a simple writing style.
+                    Write short and concise steps.
+                    Use tablespoon, cup of, etc. as unit of measure.
+                    Don't write fluff.
+                    Don't allucinate.
+                    Reply in the following JSON format: 
+                    {{
+                        "step_1": "write step 1 here", 
+                        "step_2": "write step 2 here", 
+                        "step_3": "write step 3 here",
+                        "step_4": "write step 4 here",
+                        "step_5": "write step 5 here"
+                    }} 
+                    Only reply with the JSON, don't add additional info.
+                '''
+                reply = llm_reply(prompt, model).strip()
+                json_data = {}
+                try: json_data = json.loads(reply)
+                except: pass 
+                if json_data != {}:
+                    try: step_1 = json_data['step_1']
+                    except: step_1 = ''
+                    try: step_2 = json_data['step_2']
+                    except: step_2 = ''
+                    try: step_3 = json_data['step_3']
+                    except: step_3 = ''
+                    try: step_4 = json_data['step_4']
+                    except: step_4 = ''
+                    try: step_5 = json_data['step_5']
+                    except: step_5 = ''
+                    if step_1 != '' and step_2 != '' and step_3 != '' and step_4 != '' and step_5 != '':
+                        obj[key] = [
+                            step_1,
+                            step_2,
+                            step_3,
+                            step_4,
+                            step_5,
+                        ]
+                        json_write(json_filepath, data)
+        if 0: # TODO: remove if condition
+            # remedies (amazon)
+            for remedy_i, obj in enumerate(data['remedies']):
+                print(f'{ailment_i}/{len(ailments)} - {remedy_i} - {preparation_name} - {obj}')
+                key = 'remedy_amazon'
+                if key not in obj: obj[key] = ''
+                # obj[key] = ''
+                if obj[key] == '':
+                    plant_slug = obj['herb_name_scientific'].lower().strip().replace(' ', '-')
+                    # ;amazon
+                    products_jsons_folderpath = f'{vault}/amazon/{preparation_slug}/json/{plant_slug}' 
+                    if not os.path.exists(products_jsons_folderpath): continue
+                    products_jsons_filepaths = [
+                        f'{products_jsons_folderpath}/{x}' 
+                        for x in os.listdir(products_jsons_folderpath)
+                    ]
+                    # order filepaths by popularity
+                    products_jsons = []
+                    for i, product_json_filepath in enumerate(products_jsons_filepaths):
+                        product_data = json_read(product_json_filepath)
+                        product_asin = product_json_filepath.split('/')[-1].replace('.json', '')
+                        reviews_score_total = float(product_data['reviews_score_total'])
+                        products_jsons.append({'product_asin': product_asin, 'reviews_score_total': reviews_score_total})
+                    products_jsons_ordered = sorted(products_jsons, key=lambda x: x['reviews_score_total'], reverse=True)
+                    products_jsons_filepaths_ordered = []
+                    for product_json in products_jsons_ordered:
+                        product_asin = product_json['product_asin']
+                        product_filepath = f'{products_jsons_folderpath}/{product_asin}.json'
+                        products_jsons_filepaths_ordered.append(product_filepath)
+                    products_jsons_filepaths_ordered = products_jsons_filepaths_ordered
+                    product_json_filepath = products_jsons_filepaths_ordered[0]
+                    json_product = json_read(product_json_filepath)
+                    affiliate_product = {
+                        'url': json_product['url'],
+                        'affiliate_link': json_product['affiliate_link'],
+                        'title': json_product['title'],
+                    }
+                    obj[key] = affiliate_product
+                    json_write(json_filepath, data)
+
+        # ;intro (desc)
+        key = 'intro_desc'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            herbs_names = [x['herb_name_scientific'] for x in data['remedies']]
+            herbs_names_prompt = ', '.join(herbs_names[:3])
+            prompt = f'''
+                Write a detailed paragraph about: herbal {data["preparation_name"]} for {data["ailment_name"]}.
+                Explaining why herbal teas relieve {data["ailment_name"]} and what benefits this brings to your life.
+                Mention the following herbs as an example: {herbs_names_prompt}.
+                Use simple and short words, and a simple writing style.
+                Use a conversational and fluid writing style.
+                Don't write fluff.
+                Don't allucinate.
+                Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+            '''
+            reply = llm_reply(prompt).strip()
+            reply = [line.strip() for line in reply.split('\n')]
+            reply = ' '.join(reply)
+            data[key] = reply
+            json_write(json_filepath, data)
+        ## ------------------------------------
+        ## ;faq
+        ## ------------------------------------
+        faqs = [
+            {'key': 'faq_prevent', 'question': f'Can drinking herbal tea prevent {ailment_name} from forming?',},
+            {'key': 'faq_safe', 'question': f'Is it safe to consume herbal teas for {ailment_name} every day?',},
+            {'key': 'faq_timeline', 'question': f'How long does it take for herbal teas to show results in {ailment_name}?',},
+            {'key': 'faq_time', 'question': f'What time of day is best to drink herbal tea for {ailment_name}?',},
+            {'key': 'faq_time', 'question': f'What time of day is best to drink herbal tea for {ailment_name}?',},
+            {'key': 'faq_interaction', 'question': f'Can herbal teas interact with prescription medications for {ailment_name}?',},
+            {'key': 'faq_pregnant', 'question': f'Is it safe to cunsume herbal teas for {ailment_name} while pregnant?',},
+            {'key': 'faq_breastfeeding', 'question': f'Is it safe to cunsume herbal teas for {ailment_name} while breastfeeding?',},
+        ]
+        for faq in faqs:
+            key = faq['key']
+            question = faq['question']
+            if key not in data: data[key] = ''
+            # data[key] = ''
+            if data[key] == '':
+                prompt = f'''
+                    Write a short paragraph in less than 60 words that answer the following question: {question}
+                    Use simple and short words, and a simple writing style.
+                    Use a conversational and fluid writing style.
+                    Don't write lists.
+                    Don't write fluff.
+                    Don't allucinate.
+                    Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+                    Don't mention consulting a doctor, healthcare professional or similar.
+                '''
+                reply = llm_reply(prompt).strip()
+                reply = [line.strip() for line in reply.split('\n')]
+                reply = ' '.join(reply)
+                data[key] = reply
+                json_write(json_filepath, data)
+
+        ########################################
+        # ;html
+        ########################################
+        # ;article
+        title = data['title']
+        article_html = ''
+        article_html += f'<h1>{title}</h1>\n'
+        src = data['intro_image_src']
+        alt = data['intro_image_alt']
+        article_html += f'<img class="article-img" src="{src}" alt="{alt}">\n'
+        article_html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
+        if ads_manual:
+            ad_html = f'''
+                <div class="mb-48">
+                    {GOOGLE_ADSENSE_DISPLAY_AD_SQUARE}
+                </div>
+            '''
+        else:
+            ad_html = ''
+        article_html += f'{ad_html}\n'
+        # article_html += '[checklist]\n'
+        article_html += '[toc]\n'
+        for remedy_i, remedy in enumerate(data['remedies']):
+            article_html += f'<h2>{remedy_i+1}. {remedy["herb_name_scientific"]}</h2>\n'
+            src = remedy['image_src']
+            alt = remedy['image_alt']
+            article_html += f'<img class="article-img" src="{src}" alt="{alt}">\n'
+            article_html += f'{util.text_format_1N1_html(remedy["remedy_desc"])}\n'
+            article_html += f'<ol>\n'
+            for step in remedy['remedy_procedure']:
+                article_html += f'<li>\n'
+                article_html += f'{step}\n'
+                article_html += f'</li>\n'
+            article_html += f'</ol>\n'
+            # amazon affiliate card (if exists)
+            if 'remedy_amazon' in remedy and remedy['remedy_amazon'] != '':
+                herb_name_scientific = remedy['herb_name_scientific']
+                aff_link_url = remedy['remedy_amazon']['affiliate_link']
+                aff_link_title = remedy['remedy_amazon']['title']
+                _html = gen_aff_html(aff_link_url, aff_link_title, herb_name_scientific)
+                article_html += _html
+        # ;other
+        related_blocks_html = ''
+        sidebar_populars = []
+        if 0:
+            article_html += f'<h2>FAQ</h2>\n'
+            faqs = faqs[:random.randint(3, 4)]
+            for faq in faqs:
+                key = faq['key']
+                question = faq['question']
+                article_html += f'<h3>{question.capitalize()}</h3>\n'
+                article_html += f'{util.text_format_1N1_html(data[key])}\n'
+            
+            ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
+            ailments_slugs = []
+            for ailment in ailments:
+                _system_slug = ailment['system_slug']
+                _ailment_slug = ailment['ailment_slug']
+                if _system_slug == system_slug:
+                    ailments_slugs.append(_ailment_slug)
+            random.shuffle(ailments_slugs)
+            for _ailment_slug in ailments_slugs[6:9]:
+                _url = f'remedies/{system_slug}-system/{_ailment_slug}'
+                _json_filepath = f'database/json/{_url}.json'
+                _html_filepath = f'{website_folderpath}/{_url}.html'
+                _data = json_read(_json_filepath)
+                _ailment_name = _data['ailment_name']
+                _title = _data['title']
+                _src = f'/images/ailments/{_ailment_slug}-herbal-remedies.jpg'
+                _alt = f'herbal remedies for {_ailment_name}'
+                sidebar_populars.append({
+                    'src': _src,
+                    'title': _title,
+                    'href': f'/{_url}.html',
+                })
+            for _ailment_slug in ailments_slugs[:6]:
+                _url = f'remedies/{system_slug}-system/{_ailment_slug}'
+                _json_filepath = f'database/json/{_url}.json'
+                _html_filepath = f'{website_folderpath}/{_url}.html'
+                _data = json_read(_json_filepath)
+                _ailment_name = _data['ailment_name']
+                _title = _data['title']
+                _src = f'/images/ailments/{_ailment_slug}-herbal-remedies.jpg'
+                _alt = f'herbal remedies for {_ailment_name}'
+                _href = f'/{_url}.html'
+                related_blocks_html += f'''
+                    <a class="no-underline text-black" href="{_href}">
+                        <div>
+                            <img src="{_src}" alt="{_alt}">
+                            <h3 class="h3-plain hover-orange text-14 mt-16">{_title}<h3>
+                        </div>
+                    </a>
+                '''
+        breadcrumbs_html_filepath = f'{url}.html'
+        breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
+        meta_html = gen_meta(article_html, data["lastmod"])
+        # article_html = components.table_of_contents(article_html)
+        article_html, json_toc = components.toc(article_html)
+        html_toc_article = components.toc_json_to_html_article(json_toc)
+        html_toc_sidebar = components.toc_json_to_html_sidebar(json_toc)
+
+        article_html = article_html.replace('[toc]', html_toc_article)
+        # checklist
+        with open('assets/newsletter/sign-in-form.txt') as f: sign_in_form_html = f.read()
+        _html = checklist_gen(sign_in_form_html)
+        article_html = article_html.replace('[checklist]', _html)
+        head_html = head_html_generate(data['title'], '/style.css')
+        social_html = html_article_social()
+        popular_blocks_html = html_article_popular_blocks(sidebar_populars)
+        popular_html = html_article_popular(f'{system_slug} system', popular_blocks_html)
+        sidebar_html = html_article_sidebar(popular_html, social_html)
+        related_html = html_article_related(related_blocks_html)
+        related_html = ''
+        main_html = html_article_main(meta_html, article_html, related_html)
+        layout_html = html_article_layout(main_html, '')
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+            {head_html}
+            <body>
+                {header_html}
+                {layout_html}
+                <div class="mt-64"></div>
+                {footer_html}
+            </body>
+            </html>
+        '''
+        # ;jump
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+            {head_html}
+            <body>
+                <div style="position: sticky; top: 0; z-index: 1000;">
+                    <section style="background-color: #101010; padding: 8px 0;">
+                        <div class="container-xl">
+                            <div style="text-align: center;">
+                                <span style="display: inline-block; color: #ffffff;">Free: How to dry herbs in 7 minutes or less</span>
+                                <a style="display: inline-block; color: #101010; background-color: #ffffff; text-decoration: none; padding: 4px 16px; border-radius: 9999px; margin-left: 8px;">Download Cheatsheet</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div style="background-color: #ffffff;" class="header">
+                            <a class="text-black no-underline text-16 menu-item" href="/herbs.html">TERRAWHISPER</a>
+                            <nav class="header-nav">
+                                <a class="text-black no-underline text-16 menu-item" href="/herbs.html">HERBS</a>
+                                <a class="text-black no-underline text-16 menu-item" href="/remedies.html">REMEDIES</a>
+                                <a class="text-black no-underline text-16 menu-item" href="/equipments.html">EQUIPMENTS</a>
+                            </nav>
+                        </div>
+                    </section>
+                </div>
+                <div class="container-xl" style="display: flex; gap: 32px;">
+                    <div style="flex: 1; position: sticky; top: 152px; z-index: 999; align-self: flex-start; overflow: auto; height: 100vh;">
+                    </div>
+                    <div style="flex: 3;">
+                        {article_html}
+                    </div>
+                    <div style="flex: 1; position: sticky; top: 152px; z-index: 999; align-self: flex-start; overflow: auto; height: 100vh;">
+                        {html_toc_sidebar}
+                    </div>
+                </div>
             </body>
             </html>
         '''
@@ -6273,7 +6746,6 @@ def a_equipment(equipment_slug):
             data['intro_desc'] = reply
             json_write(json_filepath, data)
 
-    # ;jump
     # products
     products_jsons_filepaths = [f'{products_jsons_folderpath}/{x}' for x in os.listdir(products_jsons_folderpath)]
     # order filepaths by popularity
@@ -7784,7 +8256,7 @@ if 0:
         p_taxonomy_order(vertex_order)
     p_taxonomy_families()
 
-if 1:
+if 0:
     # ;herbs
     a_herbs_popular()
     a_herbs_wcvp()
@@ -7813,7 +8285,8 @@ if 0:
 
 if 1:
     # remedies -> ailments -> preparations
-    articles_preparations('teas')
+    # articles_preparations('teas')
+    articles_preparations_2('teas')
     quit()
     articles_preparations('tinctures')
     articles_preparations('creams')

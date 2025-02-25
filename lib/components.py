@@ -131,76 +131,58 @@ def table_of_contents(content_html):
         content_html_formatted += line
     return content_html_formatted
 
-def table_of_contents_2(content_html):
-    table_of_contents_html = ''
-    headers = []
-    content_html_with_ids = ''
-    current_id = 0
-    for line in content_html.split('\n'):
-        if '<h2>' in line:
-            headers.append(line)
-            content_html_with_ids += (line.replace('<h2>', f'<h2 id="{current_id}">'))
-            current_id +=1
-        elif '<h3>' in line:
-            headers.append(line)
-            content_html_with_ids += (line.replace('<h3>', f'<h3 id="{current_id}">'))
-            current_id +=1
-        elif '<h4>' in line:
-            headers.append(line)
-            content_html_with_ids += (line.replace('<h4>', f'<h4 id="{current_id}">'))
-            current_id +=1
-        elif '<h5>' in line:
-            headers.append(line)
-            content_html_with_ids += (line.replace('<h5>', f'<h5 id="{current_id}">'))
-            current_id +=1
-        elif '<h6>' in line:
-            headers.append(line)
-            content_html_with_ids += (line.replace('<h6>', f'<h6 id="{current_id}">'))
-            current_id +=1
-        else:
-            content_html_with_ids += (line)
-        content_html_with_ids += '\n'
-    toc_li = []
-    table_of_contents_html += '<div class="toc">'
-    table_of_contents_html += '<p class="toc-title">Table of Contents</p>'
-    table_of_contents_html += '<ul>'
-    last_header = '<h2>'
-    for i, line in enumerate(headers):
-        insert_open_ul = False
-        insert_close_ul = False
-        if '<h2>' in line: 
-            if last_header != '<h2>': 
-                if int('<h2>'[2]) > int(last_header[2]): insert_open_ul = True
-                else: insert_close_ul = True
-            last_header = '<h2>'
-            line = line.replace('<h2>', '').replace('</h2>', '')
-        elif '<h3>' in line:
-            if last_header != '<h3>':
-                if int('<h3>'[2]) > int(last_header[2]): insert_open_ul = True
-                else: insert_close_ul = True
-            last_header = '<h3>'
-            line = line.replace('<h3>', '').replace('</h3>', '')
-        if insert_open_ul: table_of_contents_html += f'<ul>'
-        if insert_close_ul: table_of_contents_html += f'</ul>'
-        table_of_contents_html += f'<li><a href="#{i}">{line}</a></li>'
-    table_of_contents_html += '</ul>'
-    table_of_contents_html += '</div>'
-    return table_of_contents_html
-    print(table_of_contents_html)
-    quit()
+def toc(html_in):
+    html_out = ''
+    json_toc = []
+    index = 0
+    for line in html_in.split('\n'):
+        line = line.strip()
+        if line.startswith('<h2'):
+            json_toc.append({
+                'tag': 'h2',
+                'index': index,
+                'headline': line.split('>')[1].split('<')[0],
+            })
+            line = (line.replace('<h2', f'<h2 id="{index}"'))
+            index +=1
+        html_out += line
+        html_out += '\n'
+    return html_out, json_toc
 
+def toc_json_to_html_article(json_toc):
+    html_toc = ''
+    html_toc += '<ul>'
+    for item_toc in json_toc:
+        index = item_toc['index']
+        headline = item_toc['headline']
+        html_toc += f'<li><a href="#{index}">{headline}</a></li>'
+    html_toc += '</ul>'
+    return html_toc
 
-    content_html_formatted = ''
-    toc_inserted = False
-    for line in content_html_with_ids.split('\n'):
-        if not toc_inserted:
-            if '<h2' in line:
-                toc_inserted = True
-                content_html_formatted += table_of_contents_html
-                content_html_formatted += line
-                continue
-        content_html_formatted += line
-    return content_html_formatted
+def toc_json_to_html_sidebar(json_toc):
+    html_toc_list = ''
+    html_toc_list += '<ul>'
+    for item_toc in json_toc:
+        index = item_toc['index']
+        headline = item_toc['headline']
+        html_toc_list += f'''
+            <li><a href="#{index}">{headline}</a></li>
+        '''
+    html_toc_list += '</ul>'
+    html_toc = ''
+    html_toc += f'''
+        <div class="sidebar-toc">
+            <div class="sidebar-toc-header">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                </svg>
+                <p>On this page</p>
+            </div>
+                {html_toc_list}
+            </ul>
+        </div>
+    '''
+    return html_toc
 
 def meta(content, lastmod):
     year = lastmod.split('-')[0]
