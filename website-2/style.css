@@ -1138,3 +1138,60 @@ SIDEBAR TOC
     color: #c2410c;
 }
 
+@media screen and (max-width: 992px) {
+    aside {
+        display: none;
+    }
+}
+
+
+/**********************************************
+BREADCRUMBS
+**********************************************/
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.breadcrumbs svg {
+    height: 24px;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #171717;
+}
+
+.breadcrumbs span {
+    color: #171717;
+}
+
+.breadcrumbs a:hover {
+    color: #c2410c;
+}
+
+@media screen and (max-width: 576px) {
+    .breadcrumbs a {
+        font-size: 12px;
+    }
+    .breadcrumbs span {
+        font-size: 12px;
+    }
+}
+
+/**********************************************
+ARTICLE
+**********************************************/
+.article h1 {
+    font-size: 56px;
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 576px) {
+    .article h1 {
+        font-size: 48px;
+        margin-top: 16px;
+    }
+}
+

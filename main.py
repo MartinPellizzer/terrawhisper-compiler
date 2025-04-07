@@ -19,8 +19,16 @@ from oliark import img_resize
 
 from lib import components
 from lib import templates
+from lib import pages
+
+from art_plant import gen_art_plant
+from art_ailments_preparations import art_ailments_preparations_gen
+from page_home import page_home_gen
+from page_guides_tinctures import page_guides_tinctures_gen
+from page_guides_teas_shopping_list import page_guides_teas_shopping_list_gen
 
 import g
+# import utils
 
 ##########################################################################
 # FLAGS
@@ -32,7 +40,6 @@ HERBS_TO_GEN_NUM = 100000
 vault = '/home/ubuntu/vault'
 vault_tmp = '/home/ubuntu/vault-tmp'
 website_folderpath = f'{vault}/terrawhisper/website/terrawhisper'
-website_folderpath = f'website-2'
 
 model_8b = f'/home/ubuntu/vault-tmp/llms/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf'
 model_validator_filepath = f'llms/Llama-3-Partonus-Lynx-8B-Instruct-Q4_K_M.gguf'
@@ -43,12 +50,14 @@ AUTHOR_NAME = 'Leen Randell'
 AUTHOR_SLUG = AUTHOR_NAME.strip().lower().replace(' ', '-')
 
 plants_wcvp = []
+'''
 if plants_wcvp == []:
     plants_wcvp = csv_read_rows_to_json(f'{vault_tmp}/terrawhisper/wcvp_taxon.csv', delimiter = '|')
     plants_wcvp = [plant for plant in plants_wcvp if ('var.' not in plant['scientfiicname'] and 'f.' not in plant['scientfiicname'] and 'subsp.' not in plant['scientfiicname'] and 'proles' not in plant['scientfiicname']  and 'stirps' not in plant['scientfiicname'] and 'monstr.' not in plant['scientfiicname'])]
 # for plant in plants_wcvp[:100]:
     # print(plant['scientfiicname'])
 # quit()
+'''
 
 vertices_plants = json_read(f'{vault}/herbalism/vertices-plants.json')
 vertices_divisions = json_read(f'{vault}/herbalism/vertices-divisions.json')
@@ -513,33 +522,6 @@ def html_article_popular(category, sidebar_blocks_html):
     '''
     return html
         
-def html_article_social():
-    html = f'''
-        <div class="border-0 border-b-4 border-solid border-black mb-24">
-            <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Stay Connected</h2>
-        </div>
-        <div class="flex flex-col">
-            <div class="flex flex-col gap-16">
-                <p class="">Follow Terrawhisper on the social medias below to get daily tips on how to use herbal remedies to improve your health.</p>
-                <a href="https://www.pinterest.com/terrawhisper" target="_blank" class="inline-block flex items-center justify-between gap-16 no-underline">
-                    <div class="flex items-center gap-8">
-                        <img class="social-icon" src="/images-static/pinterest.png">
-                        <p class="mb-0">@terrawhisper</p>
-                    </div>
-                    <p class="mb-0 hover-orange helvetica-bold">Follow</p>
-                </a>
-                <a href="https://www.x.com/terrawhisperx" target="_blank" class="inline-block flex items-center gap-16 justify-between no-underline">
-                    <div class="flex items-center gap-8">
-                        <img class="social-icon" src="/images-static/twitter.png">
-                        <p class="mb-0">@terrawhisperx</p>
-                    </div>
-                    <p class="mb-0 hover-orange helvetica-bold">Follow</p>
-                </a>
-            </div>
-        </div>
-    '''
-    return html
-
 def html_article_sidebar(popular_html, social_html):
     if ads_manual:
         ad_html = f'''
@@ -4849,34 +4831,6 @@ def p_herbs_action_var(category_action_name):
         page_i += 1
 
 
-def herb_to_html_card(herb_data):
-    herb_name_scientific = herb_data['herb_name_scientific']
-    herb_slug = herb_data['herb_slug']
-    herb_url = f'/herbs/{herb_slug}.html'
-
-    src = f'/images/ailments/herbs/{herb_slug}.jpg'
-    alt = f'{herb_name_scientific}'.lower()
-    filepath_in = f'{vault}/terrawhisper/images/realistic/herbs/1x1/{herb_slug}.jpg'
-    filepath_out = f'{website_folderpath}/images/herbs/{herb_slug}.jpg'
-
-    # if not os.path.exists(filepath_out):
-    if True:
-        if os.path.exists(filepath_in):
-            image = Image.open(filepath_in)
-            image = img_resize(image)
-            image.save(filepath_out)
-
-    card_html = f'''
-        <div>
-            <a class="inline-block mb-48 no-underline" href="/herbs/{herb_slug}.html">
-                <img src="{src}">
-                <h2 class="mt-16 text-20 text-black">{herb_name_scientific.capitalize()}</h2>
-            </a>
-        </div>
-    '''
-
-    return card_html
-
 def p_herbs():
     popular_herbs = get_popular_herbs_from_teas_articles()
     cards_html = ''
@@ -4983,470 +4937,6 @@ def p_herbs():
     '''
     with open(html_filepath, 'w') as f: f.write(html)
 
-def page_home():
-    ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
-    random.shuffle(ailments)
-    teas_blocks_data = []
-    for ailment_i, ailment in enumerate(ailments[:]):
-        preparation_slug = 'teas'
-        system_slug = ailment['system_slug']
-        organ_slug = ailment['organ_slug']
-        ailment_slug = ailment['ailment_slug']
-        ailment_name = ailment['ailment_name']
-        url = f'remedies/{system_slug}-system/{ailment_slug}/{preparation_slug}'
-        json_filepath = f'database/json/{url}.json'
-        html_filepath = f'{website_folderpath}/{url}.html'
-        data = json_read(json_filepath)
-        image_url = data['intro_image_src']
-        title = data['title'].title()
-        intro_desc = ' '.join(data['intro_desc'].split(' ')[:32])
-        teas_blocks_data.append({
-            'href': f'/{url}.html',
-            'url': f'{image_url}',
-            'title': f'{title}',
-            'intro_desc': f'{intro_desc}',
-        })
-    tinctures_blocks_data = []
-    for ailment_i, ailment in enumerate(ailments[:]):
-        preparation_slug = 'tinctures'
-        system_slug = ailment['system_slug']
-        organ_slug = ailment['organ_slug']
-        ailment_slug = ailment['ailment_slug']
-        ailment_name = ailment['ailment_name']
-        url = f'remedies/{system_slug}-system/{ailment_slug}/{preparation_slug}'
-        json_filepath = f'database/json/{url}.json'
-        html_filepath = f'{website_folderpath}/{url}.html'
-        data = json_read(json_filepath)
-        image_url = data['intro_image_src']
-        title = data['title'].title()
-        intro_desc = ' '.join(data['intro_desc'].split(' ')[:32])
-        tinctures_blocks_data.append({
-            'href': f'/{url}.html',
-            'url': f'{image_url}',
-            'title': f'{title}',
-            'intro_desc': f'{intro_desc}',
-        })
-    creams_blocks_data = []
-    for ailment_i, ailment in enumerate(ailments[:]):
-        preparation_slug = 'creams'
-        system_slug = ailment['system_slug']
-        organ_slug = ailment['organ_slug']
-        ailment_slug = ailment['ailment_slug']
-        ailment_name = ailment['ailment_name']
-        url = f'remedies/{system_slug}-system/{ailment_slug}/{preparation_slug}'
-        json_filepath = f'database/json/{url}.json'
-        html_filepath = f'{website_folderpath}/{url}.html'
-        data = json_read(json_filepath)
-        image_url = data['intro_image_src']
-        title = data['title'].title()
-        creams_blocks_data.append({
-            'href': f'/{url}.html',
-            'url': f'{image_url}',
-            'title': f'{title}',
-        })
-    essential_oils_blocks_data = []
-    for ailment_i, ailment in enumerate(ailments[:]):
-        preparation_slug = 'essential-oils'
-        system_slug = ailment['system_slug']
-        organ_slug = ailment['organ_slug']
-        ailment_slug = ailment['ailment_slug']
-        ailment_name = ailment['ailment_name']
-        url = f'remedies/{system_slug}-system/{ailment_slug}/{preparation_slug}'
-        json_filepath = f'database/json/{url}.json'
-        html_filepath = f'{website_folderpath}/{url}.html'
-        data = json_read(json_filepath)
-        image_url = data['intro_image_src']
-        title = data['title'].title()
-        essential_oils_blocks_data.append({
-            'href': f'/{url}.html',
-            'url': f'{image_url}',
-            'title': f'{title}',
-        })
-
-    herbs = get_popular_herbs_from_teas_articles()
-    cards_html = ''
-    for herb_i, herb in enumerate(herbs[:4]):
-        herb_name_scientific = herb['herb_name_scientific']
-        herb_slug = herb_name_scientific.strip().lower().replace(' ', '-').replace('.', '')
-        title = herb_name_scientific
-        url = f'herbs/{herb_slug}'
-        json_filepath = f'database/json/{url}.json'
-        herb_data = json_read(json_filepath)
-        card_html = herb_to_html_card(herb_data)
-        cards_html += card_html
-    section_herbs = f'''
-        <section class="mt-96">
-            <div class="container-xl">
-                <div class="mob-flex justify-between items-center">
-                    <div>
-                        <h2 class="mt-0">Herbs</h2>
-                    </div>
-                    <div>
-                        <a href="/herbs.html">See All Herbs</a>
-                    </div>
-                </div>
-                <div class="grid grid-4 gap-16">
-                    {cards_html}
-                </div>
-            </div>
-        </section>
-    '''
-
-
-    section_1 = f'''
-        <section class="container-xl grid-container mb-48">
-            <a class="no-underline bg-center bg-cover card-wide card-tall flex items-end pl-16 pb-16 pr-48" href="{teas_blocks_data[0]['href']}" style="background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url({teas_blocks_data[0]['url']})">
-                <div>
-                    <span class="inline-block text-12 text-white bg-black uppercase mb-16 pl-8 pr-8 pt-4 pb-4">
-                        PREPARATIONS
-                    </span>
-                    <h2 class="h2-plain text-white text-24 mb-16">
-                        {teas_blocks_data[0]['title']}
-                    </h2>
-                    <p class="text-white">
-                        Terrawhisper - 2024/10/14
-                    </p>
-                </div>
-            </a>
-            <a class="no-underline bg-center bg-cover card-wide flex items-end pl-16 pb-16 pr-48" href="{tinctures_blocks_data[1]['href']}" style="background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url({tinctures_blocks_data[1]['url']})">
-                <div>
-                    <span class="inline-block text-12 text-white bg-black uppercase mb-16 pl-8 pr-8 pt-4 pb-4">
-                        PREPARATIONS
-                    </span>
-                    <h2 class="h2-plain text-white text-24 mb-16">
-                        {tinctures_blocks_data[1]['title']}
-                    </h2>
-                </div>
-            </a>
-            <a class="no-underline bg-center bg-cover flex items-end pl-16 pb-16 pr-48" href="{creams_blocks_data[2]['href']}" style="background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url({creams_blocks_data[2]['url']})">
-                <div>
-                    <span class="inline-block text-12 text-white bg-black uppercase mb-16 pl-8 pr-8 pt-4 pb-4">
-                        PREPARATIONS
-                    </span>
-                    <h2 class="h2-plain text-white text-16 mb-16">
-                        {creams_blocks_data[2]['title']}
-                    </h2>
-                </div>
-            </a>
-            <a class="no-underline bg-center bg-cover flex items-end pl-16 pb-16 pr-48" href="{essential_oils_blocks_data[3]['href']}" style="background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url({essential_oils_blocks_data[3]['url']})">
-                <div>
-                    <span class="inline-block text-12 text-white bg-black uppercase mb-16 pl-8 pr-8 pt-4 pb-4">
-                        PREPARATIONS
-                    </span>
-                    <h2 class="h2-plain text-white text-16 mb-16">
-                        {essential_oils_blocks_data[4]['title']}
-                    </h2>
-                </div>
-            </a>
-        </section>
-    '''
-
-    cards_html = ''
-    for i in range(4):
-        cards_html += f'''
-            <a class="article-card no-underline text-black" href="{teas_blocks_data[i+5]['href']}">
-                <div class="flex gap-16">
-                    <div class="flex-2">
-                        <img class="object-cover" height="80" src="{teas_blocks_data[i+5]['url']}">
-                    </div>
-                    <div class="flex-5">
-                        <h3 class="h3-plain text-14 mb-8">
-                            {teas_blocks_data[i+5]['title']}
-                        </h3>
-                        <p class="text-12">
-                            2024/10/14
-                        </p>
-                    </div>
-                </div>
-            </a>
-        '''
-
-    
-    social_html = html_article_social()
-    section_2 = f'''
-        <section>
-            <div class="container-xl flex mob-flex-col mb-48 gap-48">
-                <div class="flex-2">
-                    <div class="border-0 border-b-4 border-solid border-black mb-24">
-                        <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Teas</h2>
-                    </div>
-                    <div class="flex mob-flex-col gap-48">
-                        <div class="flex-1">
-                            <a class="article-card no-underline text-black" href="{teas_blocks_data[4]['href']}">
-                                <div class="relative mb-16">
-                                    <img class="object-cover" height="240" src="{teas_blocks_data[4]['url']}">
-                                </div>
-                                <h3 class="h3-plain text-20 font-normal mb-8">
-                                    {teas_blocks_data[4]['title']}
-                                </h3>
-                                <p class="text-12 mb-16">
-                                    <span class="font-bold text-black">Terrawhisper</span> - 2024/10/12
-                                </p>
-                                <p class="text-14 mb-0">
-                                    {teas_blocks_data[4]['intro_desc']}
-                                </p>
-                            </a>
-                        </div>
-                        <div class="flex-1 flex flex-col gap-24">
-                            {cards_html}
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1">
-                    {social_html}
-                </div>
-            </div>
-        </section>
-    '''
-
-    section_3 = f'''
-        <section>
-            <div class="container-xl flex mob-flex-col mb-48 gap-48">
-                <div class="flex-2">
-                    <div class="border-0 border-b-4 border-solid border-black mb-24">
-                        <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Tinctures</h2>
-                    </div>
-                    <div class="flex mob-flex-col gap-48">
-                        <div class="flex-1 flex flex-col gap-24">
-                            <div class="">
-                                <a class="article-card no-underline text-black" href="{tinctures_blocks_data[4]['href']}">
-                                    <div class="relative mb-16">
-                                        <img class="object-cover" height="240" src="{tinctures_blocks_data[4]['url']}">
-                                        <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">tincture</p>
-                                    </div>
-                                    <h3 class="h3-plain text-20 font-normal mb-8">
-                                        {tinctures_blocks_data[4]['title']}
-                                    </h3>
-                                    <p class="text-12 mb-16">
-                                        <span class="font-bold text-black">Terrawhisper</span> - 2024/10/12
-                                    </p>
-                                    <p class="text-14 mb-0">
-                                        {tinctures_blocks_data[4]['intro_desc']}
-                                    </p>
-                                </a>
-                            </div>
-                            <div class="flex-1 flex flex-col gap-24">
-                                <a class="article-card no-underline text-black" href="{tinctures_blocks_data[5]['href']}">
-                                    <div class="flex gap-16">
-                                        <div class="flex-2">
-                                            <img class="object-cover" height="80" src="{tinctures_blocks_data[5]['url']}">
-                                        </div>
-                                        <div class="flex-5">
-                                            <h3 class="h3-plain text-14 mb-8">
-                                                {tinctures_blocks_data[5]['title']}
-                                            </h3>
-                                            <p class="text-12">2024/08/21</p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a class="article-card no-underline text-black" href="{tinctures_blocks_data[6]['href']}">
-                                    <div class="flex gap-16">
-                                        <div class="flex-2">
-                                            <img class="object-cover" height="80" src="{tinctures_blocks_data[6]['url']}">
-                                        </div>
-                                        <div class="flex-5">
-                                            <h3 class="h3-plain text-14 mb-8">
-                                                {tinctures_blocks_data[6]['title']}
-                                            </h3>
-                                            <p class="text-12">2024/08/21</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="flex-1 flex flex-col gap-24">
-                            <div class="">
-                                <a class="article-card no-underline text-black" href="{tinctures_blocks_data[7]['href']}">
-                                    <div class="relative mb-16">
-                                        <img class="object-cover" height="240" src="{tinctures_blocks_data[7]['url']}">
-                                        <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">tincture</p>
-                                    </div>
-                                    <h3 class="h3-plain text-20 font-normal mb-8">
-                                        {tinctures_blocks_data[7]['title']}
-                                    </h3>
-                                    <p class="text-12 mb-16">
-                                        <span class="font-bold text-black">Terrawhisper</span> - 2024/10/12
-                                    </p>
-                                    <p class="text-14 mb-0">
-                                        {tinctures_blocks_data[7]['intro_desc']}
-                                    </p>
-                                </a>
-                            </div>
-                            <div class="flex-1 flex flex-col gap-24">
-                                <a class="article-card no-underline text-black" href="{tinctures_blocks_data[8]['href']}">
-                                    <div class="flex gap-16">
-                                        <div class="flex-2">
-                                            <img class="object-cover" height="80" src="{tinctures_blocks_data[8]['url']}">
-                                        </div>
-                                        <div class="flex-5">
-                                            <h3 class="h3-plain text-14 mb-8">
-                                                {tinctures_blocks_data[8]['title']}
-                                            </h3>
-                                            <p class="text-12">2024/08/21</p>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a class="article-card no-underline text-black" href="{tinctures_blocks_data[9]['href']}">
-                                    <div class="flex gap-16">
-                                        <div class="flex-2">
-                                            <img class="object-cover" height="80" src="{tinctures_blocks_data[9]['url']}">
-                                        </div>
-                                        <div class="flex-5">
-                                            <h3 class="h3-plain text-14 mb-8">
-                                                {tinctures_blocks_data[9]['title']}
-                                            </h3>
-                                            <p class="text-12">2024/08/21</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1">
-                    <div>
-                        <div class="border-0 border-b-4 border-solid border-black mb-24">
-                            <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">creams</h2>
-                        </div>
-                        <div class="flex flex-col gap-24">
-                            <div class="flex mob-flex-col gap-24">
-                                <a class="article-card no-underline flex-1 flex flex-col gap-24 text-black" href="{creams_blocks_data[4]['href']}">
-                                    <div class="">
-                                        <div class="relative mb-16">
-                                            <img class="object-cover" height="180" src="{creams_blocks_data[4]['url']}">
-                                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">creams</p>
-                                        </div>
-                                        <h3 class="h3-plain text-14 mb-8">
-                                            {creams_blocks_data[4]['title']}
-                                        </h3>
-                                    </div>
-                                </a>
-                                <a class="article-card no-underline flex-1 flex flex-col gap-24 text-black" href="{creams_blocks_data[5]['href']}">
-                                    <div class="">
-                                        <div class="relative mb-16">
-                                            <img class="object-cover" height="180" src="{creams_blocks_data[5]['url']}">
-                                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">creams</p>
-                                        </div>
-                                        <h3 class="h3-plain text-14 mb-8">
-                                            {creams_blocks_data[5]['title']}
-                                        </h3>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="flex mob-flex-col gap-24">
-                                <a class="article-card no-underline flex-1 flex flex-col gap-24 text-black" href="{creams_blocks_data[6]['href']}">
-                                    <div class="">
-                                        <div class="relative mb-16">
-                                            <img class="object-cover" height="180" src="{creams_blocks_data[6]['url']}">
-                                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">creams</p>
-                                        </div>
-                                        <h3 class="h3-plain text-14 mb-8">
-                                            {creams_blocks_data[6]['title']}
-                                        </h3>
-                                    </div>
-                                </a>
-                                <a class="article-card no-underline flex-1 flex flex-col gap-24 text-black" href="{creams_blocks_data[7]['href']}">
-                                    <div class="">
-                                        <div class="relative mb-16">
-                                            <img class="object-cover" height="180" src="{creams_blocks_data[7]['url']}">
-                                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">creams</p>
-                                        </div>
-                                        <h3 class="h3-plain text-14 mb-8">
-                                            {creams_blocks_data[7]['title']}
-                                        </h3>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    '''
-
-    section_4 = f'''
-        <section>
-            <div class="container-xl mob-flex mb-48 gap-48">
-                <div class="flex-2">
-                    <div class="border-0 border-b-4 border-solid border-black mb-24">
-                        <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Essential Oils</h2>
-                    </div>
-                    <div class="flex mob-flex-col gap-24">
-                        <a class="article-card no-underline flex-1 flex flex-col gap-24 text-black" href="{essential_oils_blocks_data[4]['href']}">
-                            <div class="">
-                                <div class="relative mb-16">
-                                    <img class="object-cover" height="180" src="{essential_oils_blocks_data[4]['url']}">
-                                    <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">essential oils</p>
-                                </div>
-                                <h3 class="h3-plain text-14 mb-8">
-                                    {essential_oils_blocks_data[4]['title']}
-                                </h3>
-                            </div>
-                        </a>
-                        <a class="article-card no-underline flex-1 flex flex-col gap-24 text-black" href="{essential_oils_blocks_data[5]['href']}">
-                            <div class="">
-                                <div class="relative mb-16">
-                                    <img class="object-cover" height="180" src="{essential_oils_blocks_data[5]['url']}">
-                                    <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">essential oils</p>
-                                </div>
-                                <h3 class="h3-plain text-14 mb-8">
-                                    {essential_oils_blocks_data[5]['title']}
-                                </h3>
-                            </div>
-                        </a>
-                        <a class="article-card no-underline flex-1 flex flex-col gap-24 text-black" href="{essential_oils_blocks_data[6]['href']}">
-                            <div class="">
-                                <div class="relative mb-16">
-                                    <img class="object-cover" height="180" src="{essential_oils_blocks_data[6]['url']}">
-                                    <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">essential oils</p>
-                                </div>
-                                <h3 class="h3-plain text-14 mb-8">
-                                    {essential_oils_blocks_data[6]['title']}
-                                </h3>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="flex-1">
-                </div>
-            </div>
-        </section>
-    '''
-
-    html_hero = f'''
-        <section class="container-xl grid-2 gap-64 items-center">
-            <div>
-                <h1>Use Medicinal Plants To Improve Your Health</h1>
-                <p>Biggest archive of healing herbs from Terrawhisper to help herbalists cure ailments.</p>
-                <a style="display: inline-block; text-decoration: none; background-color: #c2410c; color: #ffffff; padding: 12px 24px;" href="/herbs.html">Browse Herbs</a>
-            </div>
-            <img src="/images-static/medicinal-plants.jpg" alt="medicinal plants">
-        </section>
-    '''
-
-    head_html = head_html_generate('improve your health with medicinal plants', '/style.css')
-    html = f'''
-        <!DOCTYPE html>
-        <html lang="en">
-        {head_html}
-        <body>
-            {header_html}
-            <main>
-                {html_hero}
-                {section_herbs}
-                {section_1}
-                {section_2}
-                {section_3}
-                {section_4}
-            </main>
-            <div class="mt-64"></div>
-            {footer_html}
-        </body>
-        </html>
-    '''
-    html_filepath = f'{website_folderpath}/index.html'
-    with open(html_filepath, 'w') as f: f.write(html)
-
 def page_contacts():
     section_1 = f'''
         <section>
@@ -5511,49 +5001,6 @@ def page_products():
     breadcrumbs_html_filepath = f'products.html'
     breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
     head_html = head_html_generate('ebook', '/style.css')
-    html = f'''
-        <!DOCTYPE html>
-        <html lang="en">
-        {head_html}
-        <body>
-            {header_html}
-            {breadcrumbs_html}
-            <main>
-                {section_1}
-            </main>
-            {footer_html}
-        </body>
-        </html>
-    '''
-    with open(html_filepath, 'w') as f: f.write(html)
-
-def page_guides():
-    cards = []
-    card = f'''
-        <a class="article-card no-underline text-black" href="/guides/checklist-dry-herbs.html">
-            <div class="">
-                <img class="mb-16" src="/images-static/checklist-dry-herbs.jpg" alt="herb drying checklist">
-                <h2 class="h2-plain text-18 mb-12">The Ultimate Herb Drying Checklist</h2>
-            </div>
-        </a>
-    '''
-    cards.append(card)
-    cards = ''.join(cards)
-
-    section_1 = f'''
-        <section class="mt-48 mb-48">
-            <div class="container-md">
-                <div class="grid grid-3 gap-16">
-                    {cards}
-                </div>
-            </div>
-        </section>
-    '''
-
-    html_filepath = f'{website_folderpath}/guides.html'
-    breadcrumbs_html_filepath = f'guides.html'
-    breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
-    head_html = head_html_generate('guides on herbalism and herbal remedies', '/style.css')
     html = f'''
         <!DOCTYPE html>
         <html lang="en">
@@ -8231,13 +7678,18 @@ def p_taxonomy_families():
         except: pass
         with open(html_article_filepath, 'w') as f: f.write(html)
 
-shutil.copy2('style.css', f'{website_folderpath}/style.css')
-shutil.copy2('style-article.css', f'{website_folderpath}/style-article.css')
+shutil.copy2('style.css', f'{g.WEBSITE_FOLDERPATH}/style.css')
+shutil.copy2('style-article.css', f'{g.WEBSITE_FOLDERPATH}/style-article.css')
 
+if 1:
+    page_home_gen()
 
-if 0:
+if 1:
     # ;guides
-    page_guides()
+    pages.page_guides()
+    page_guides_tinctures_gen()
+    page_guides_teas_shopping_list_gen()
+
     page_lead_magnet_1()
     page_lead_magnet_1_congratulation()
     page_lead_magnet_1_download()
@@ -8257,14 +7709,30 @@ if 0:
     p_taxonomy_families()
 
 if 0:
-    # ;herbs
     a_herbs_popular()
     a_herbs_wcvp()
     quit()
 
 if 0:
     p_herbs()
-    p_herbs_popular()
+    if 1:
+        popular_herbs = get_popular_herbs_from_teas_articles()
+        _vertices_plants = []
+        for vertex_plant in vertices_plants:
+            found = False
+            for popular_herb in popular_herbs:
+                if popular_herb['herb_name_scientific'].lower().strip() == vertex_plant['plant_name_scientific'].lower().strip():
+                    found = True
+                    break
+            if found:
+                print(f'FOUND: {vertex_plant["plant_slug"]}')
+                gen_art_plant(vertex_plant)
+    if 1:
+        for i, vertex_plant in enumerate(vertices_plants[:HERBS_TO_GEN_NUM]):
+            print(f'{i}/{len(vertices_plants[:HERBS_TO_GEN_NUM])}')
+            gen_art_plant(vertex_plant)
+    # p_herbs_popular()
+    quit()
     p_herbs_actions()
     actions = get_category_action()
     for action in actions:
@@ -8283,10 +7751,12 @@ if 0:
     p_preparations_teas()
     p_preparations()
 
-if 1:
+# remedies
+if 0:
     # remedies -> ailments -> preparations
     # articles_preparations('teas')
-    articles_preparations_2('teas')
+    # articles_preparations_2('teas')
+    art_ailments_preparations_gen('teas')
     quit()
     articles_preparations('tinctures')
     articles_preparations('creams')
@@ -8308,4 +7778,3 @@ if 0:
 
     page_contacts()
     page_about_2()
-    page_home()

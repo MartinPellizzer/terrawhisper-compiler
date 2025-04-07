@@ -131,7 +131,6 @@ for line in lines:
         title_y_off = 8
         item_pl = rectangle_size + pl + 32
 
-
     # calc 
     cell_h = rectangle_size + py + font_size * (len(item_lines)-1)
     x1 = x_cur

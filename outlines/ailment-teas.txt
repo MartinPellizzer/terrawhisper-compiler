@@ -1,0 +1,37 @@
+INTO
+
+NUM_LIST:
+    medicinal properties (antiseptic, anti-inflammatory, etc.)
+    how help with [ailment] (reduces bacterial growth, etc.)
+    active compounds (eucalyptol, etc.)
+    clinical studies
+    benefits for [ailment] (relief from swelling and pain, etc.)
+    usage in preventing [ailment]
+    synergy with other herbs/treatments for enhanced effectiveness
+    preparation
+        dosage
+        method
+        procedure
+        how often to drink
+    other forms of [plant] for [ailment]
+        oil
+        mouthwash
+        lozenges
+    precautions and side effects
+        potential allergic reactions
+        toxicity in large amounts
+        contraindications (childre, pregnant women, etc.)
+
+NUM_LIST SUMMARY:
+    x image
+    x properties
+    x constituents
+    x mechanism
+    x studies
+    x benefits
+    ? usage
+    combination with other natural remedies
+    x preparation
+    - side effects
+    precautions
+

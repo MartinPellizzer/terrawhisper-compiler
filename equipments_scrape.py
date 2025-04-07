@@ -33,13 +33,14 @@ driver = webdriver.Firefox()
 driver.get('https://www.google.com')
 driver.maximize_window()
 
-jsons_folderpath = f'{vault}/amazon/{product_category}/json/{product_slug}'
 
-done_products_folderpath = f'{vault}/amazon/teas/json'
+product_category = 'teas'
+
+done_products_folderpath = f'{vault}/amazon/{product_category}/json'
 done_products_slugs = os.listdir(done_products_folderpath)
 print(done_products_slugs)
 
-csv_teas_filepath = f'{vault}/amazon/teas.csv'
+csv_teas_filepath = f'{vault}/amazon/{product_category}.csv'
 json_teas = csv_read_rows_to_json(csv_teas_filepath)
 for tea in json_teas:
     tea_slug = tea['plant_slug']
@@ -60,8 +61,6 @@ for tea in json_teas:
     e.send_keys(Keys.RETURN);
     time.sleep(10)
     
-    product_slug = tea_slug
-    product_category = 'teas'
 
     # search results
     elements = driver.find_elements(By.XPATH, '//*[@role="listitem"]')
@@ -80,6 +79,7 @@ for tea in json_teas:
         row = [link_no_ref]
         rows.append(row)
 
+    product_slug = tea_slug
     with open(f'{vault}/amazon/{product_category}/csvs/{product_slug}-links.csv', 'w') as f:
         writer = csv.writer(f, delimiter='\\')
         writer.writerows(rows)
@@ -88,6 +88,7 @@ for tea in json_teas:
     # PRODUCTS PAGES
     ##############################################################################
 
+    jsons_folderpath = f'{vault}/amazon/{product_category}/json/{product_slug}'
 
     rows = []
     with open(f'{vault}/amazon/{product_category}/csvs/{product_slug}-links.csv', newline='') as f:
@@ -153,7 +154,8 @@ for tea in json_teas:
         #########################################################
         # description
         #########################################################
-        description = driver.find_element(By.XPATH, '//div[@id="feature-bullets"]').text
+        try: description = driver.find_element(By.XPATH, '//div[@id="feature-bullets"]').text
+        except: description = ''
         print(description)
         data['description'] = description 
         json_write(json_filepath, data)
@@ -161,8 +163,8 @@ for tea in json_teas:
         #########################################################
         # price
         #########################################################
-        price = driver.find_element(By.XPATH, '//span[@class="a-price-whole"]').text
-        print(price)
+        try: price = driver.find_element(By.XPATH, '//span[@class="a-price-whole"]').text
+        except: print(price)
         data['price'] = price 
         json_write(json_filepath, data)
         

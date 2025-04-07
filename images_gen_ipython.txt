@@ -1,0 +1,34 @@
+import torch
+from diffusers import DiffusionPipeline
+from diffusers import StableDiffusionXLPipeline
+from diffusers import DPMSolverMultistepScheduler
+
+import g
+
+checkpoint_filepath = f'{g.VAULT}/stable-diffusion/checkpoints/xl/juggernautXL_juggXIByRundiffusion.safetensors'
+pipe = None
+def pipe_init():
+    global pipe
+    if pipe == None:
+        pipe = StableDiffusionXLPipeline.from_single_file(
+            checkpoint_filepath, 
+            torch_dtype=torch.float16, 
+            use_safetensors=True, 
+            variant="fp16"
+        ).to('cuda')
+        pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
+
+image_filepath = f'{g.WEBSITE_FOLDERPATH}/images-static/terrawhisper-logo.png'
+image_w = 1024
+image_h = 1024
+with open('images_gen_ipython_prompt.txt') as f: positive_prompt = f.read()
+
+negative_prompt = f'''
+	text, watermark 
+'''
+print(positive_prompt)
+pipe_init()
+image = pipe(prompt=positive_prompt, negative_prompt=negative_prompt, width=image_w, height=image_h, num_inference_steps=30, guidance_scale=7.0).images[0]
+# image = img_resize(image, w=1216, h=832)
+image.save(image_filepath)
+print(image_filepath)

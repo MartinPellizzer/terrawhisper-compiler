@@ -1,26 +1,33 @@
 ARTICLES_NUM = 100
+WEBSITE_FOLDERPATH = f'/home/ubuntu/vault/terrawhisper/website/terrawhisper'
+VAULT = f'/home/ubuntu/vault'
 
 
 ART_NUM = 30
 HERBS_ART_NUM = 5
 
 
+with open('assets/scripts/google-adsense.txt') as f: GOOGLE_ADSENSE_TAG = f.read()
+with open('assets/scripts/google-adsense-ad-auto.txt') as f: GOOGLE_ADSENSE_AD_AUTO_TAG = f.read()
+with open('assets/scripts/google-adsense-display-ad-square.txt') as f: GOOGLE_ADSENSE_DISPLAY_AD_SQUARE = f.read()
+with open('assets/scripts/google-analytics.txt') as f: GOOGLE_ANALYTICS = f.read()
+
 # BY
 AUTHOR_NAME = 'Leen Randell'
-AUTHOR_NAME = 'Martin Pellizzer'
 
 # META
-GOOGLE_TAG = '''
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9086LN3SRR"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+if 0:
+    GOOGLE_TAG = '''
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9086LN3SRR"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-9086LN3SRR');
-    </script>
-'''
+        gtag('config', 'G-9086LN3SRR');
+        </script>
+    '''
 
 COOKIE_CONSENT = '''
     <div class="cookie-box">

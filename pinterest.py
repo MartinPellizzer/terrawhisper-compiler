@@ -25,8 +25,8 @@ import util_data
 
 from oliark_io import json_write, json_read
 
-username = 'leenrandell@gmail.com'
-password = 'Newoliark1'
+with open('/home/ubuntu/vault/terrawhisper/accounts/pinterest-username.txt') as f: username = f.read().strip()
+with open('/home/ubuntu/vault/terrawhisper/accounts/pinterest-password.txt') as f: password = f.read().strip()
 
 vault = '/home/ubuntu/vault'
 vault_tmp = '/home/ubuntu/vault-tmp'

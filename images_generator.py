@@ -610,8 +610,8 @@ def a_equipments_intro(images_num=1):
                 image = img_resize(image, w=768, h=768)
                 image.save(tmp_filepath)
 
-p_equipments_intro()
-a_equipments_intro(10)
+# p_equipments_intro()
+# a_equipments_intro(10)
 
 def get_popular_herbs_from_teas_articles():
     output = []
@@ -901,3 +901,18 @@ def remedies_ailments_preparations():
                 remedy['image_src'] = src
                 remedy['image_alt'] = alt
                 json_write(json_filepath, data)
+
+def home_hero_gen():
+    positive_prompt = f'''
+        desert
+    '''
+    negative_prompt = f'''
+        text, watermark 
+    '''
+    print(positive_prompt)
+    pipe_init()
+    image = pipe(prompt=positive_prompt, negative_prompt=negative_prompt, width=1216, height=832, num_inference_steps=30, guidance_scale=7.0).images[0]
+    # image = img_resize(image, w=1216, h=832)
+    image.save(f'{g.WEBSITE_FOLDERPATH}/images-static/medicinal-plants.jpg')
+
+home_hero_gen()
