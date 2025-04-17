@@ -73,6 +73,10 @@ redirects = [
         'url_old': 'https://terrawhisper.com/herbalism/tea/integumentary-system/fungal-infection.html',
         'url_new': 'https://terrawhisper.com/remedies/integumentary-system/fungal-skin-infection/teas.html',
     },
+    {
+        'url_old': 'https://terrawhisper.com/herbalism/tea/reproductive-system/female-libido.html',
+        'url_new': 'https://terrawhisper.com/remedies/nervous-system/loss-female-libido/teas.html',
+    },
 ]
 
 for redirect in redirects:

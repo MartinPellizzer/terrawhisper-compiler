@@ -12,11 +12,13 @@ def ai_paragraph_gen(filepath, data, obj, key, prompt, reply_start='', regen=Fal
         if print_prompt: print(prompt)
         reply = llm_reply(prompt)
         if reply.strip() != '':
-            if reply.strip().startswith('I can\'t'): reply = 'N/A'
-            elif reply.strip().startswith('I couldn\'t'): reply = 'N/A'
-            elif 'cannot' in reply.strip(): reply = 'N/A'
-            elif 'N/A' in reply: reply = 'N/A'
-            if reply_start != '':
-                if not reply.strip().startswith(reply_start): reply = ''
+            if reply.strip().startswith('I can\'t'): reply = 'CANT'
+            elif reply.strip().startswith('I couldn\'t'): reply = 'CANT'
+            elif 'cannot' in reply.strip(): reply = 'CANT'
+            elif reply_start != '':
+                if not reply.strip().startswith(reply_start): 
+                    print(f'TARGET REPLY START: {reply_start}')
+                    print(f'REPLY:              {reply.strip()[:40]}')
+                    reply = 'WRONG START'
             obj[key] = reply
             json_write(filepath, data)

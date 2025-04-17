@@ -1,11 +1,10 @@
 import os
-import requests
+import shutil
 import base64
-
-from PIL import Image
 
 import g
 import util
+import utils
 import data_csv
 
 import torch
@@ -471,7 +470,7 @@ def get_popular_teas():
     output = sorted(output, key=lambda x: x['herb_total_score'], reverse=True)
     return output
 
-def gen_images_teas():
+def teas_gen():
     teas = get_popular_teas()
     for tea in teas:
         herb_name_scientific = tea['herb_name_scientific']
@@ -484,8 +483,8 @@ def gen_images_teas():
             'side-effects',
         ]
         for image_var in images_vars:
-            output_filepath_1 = f"{website_folderpath}/images-tmp/preparations/teas/{herb_slug}-{image_var}.jpg"
-            output_filepath_2 = f"{website_folderpath}/images/teas/{herb_slug}-{image_var}.jpg"
+            output_filepath_1 = f"/assets/images/tmp.jpg"
+            output_filepath_2 = f"{g.WEBSITE_FOLDERPATH}/images/teas/{herb_slug}-{image_var}.jpg"
             if os.path.exists(output_filepath_1): continue
             if os.path.exists(output_filepath_2): continue
             prompt = f'''
@@ -902,6 +901,33 @@ def remedies_ailments_preparations():
                 remedy['image_alt'] = alt
                 json_write(json_filepath, data)
 
+def remedies_ailments_preparations_featured_gen():
+    preparations_slugs = [
+        'teas',
+    ]
+    for preparation_slug in preparations_slugs:
+        preparation_name = preparation_slug.replace('-', ' ')
+        ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
+        for ailment_i, ailment in enumerate(ailments):
+            system_slug = ailment['system_slug']
+            organ_slug = ailment['organ_slug']
+            ailment_slug = ailment['ailment_slug']
+            ailment_name = ailment['ailment_name']
+            article_url = f'remedies/{system_slug}-system/{ailment_slug}/{preparation_slug}'
+            json_article_filepath = f'database/pages/{article_url}.json'
+            html_article_filepath = f'{g.WEBSITE_FOLDERPATH}/{article_url}.html'
+
+            json_article = json_read(json_article_filepath)
+            featured_herb_name_scientific = json_article['preparations'][4]['herb_name_scientific']
+            featured_herb_slug = utils.sluggify(featured_herb_name_scientific)
+
+            image_input_filepath = f'{g.WEBSITE_FOLDERPATH}/images/preparations/{preparation_slug}/{featured_herb_slug}-herbal-{preparation_slug}.jpg'
+            image_output_filepath = f'{g.WEBSITE_FOLDERPATH}/images/preparations/{ailment_slug}-herbal-{preparation_slug}.jpg'
+
+            if not os.path.exists(image_output_filepath):
+                shutil.copy2(image_input_filepath, image_output_filepath)
+
+
 def home_hero_gen():
     positive_prompt = f'''
         desert
@@ -915,4 +941,6 @@ def home_hero_gen():
     # image = img_resize(image, w=1216, h=832)
     image.save(f'{g.WEBSITE_FOLDERPATH}/images-static/medicinal-plants.jpg')
 
-home_hero_gen()
+# home_hero_gen()
+teas_gen()
+remedies_ailments_preparations_featured_gen()

@@ -21,11 +21,9 @@ from lib import components
 from lib import templates
 from lib import pages
 
-from art_plant import gen_art_plant
+from art_plant import art_plant_gen
 from art_ailments_preparations import art_ailments_preparations_gen
 from page_home import page_home_gen
-from page_guides_tinctures import page_guides_tinctures_gen
-from page_guides_teas_shopping_list import page_guides_teas_shopping_list_gen
 
 import g
 # import utils
@@ -35,7 +33,8 @@ import g
 ##########################################################################
 
 ads_manual = False
-HERBS_TO_GEN_NUM = 100000
+HERBS_TO_GEN_START_NUM = 100000
+HERBS_TO_GEN_END_NUM = 200000
 
 vault = '/home/ubuntu/vault'
 vault_tmp = '/home/ubuntu/vault-tmp'
@@ -7681,20 +7680,6 @@ def p_taxonomy_families():
 shutil.copy2('style.css', f'{g.WEBSITE_FOLDERPATH}/style.css')
 shutil.copy2('style-article.css', f'{g.WEBSITE_FOLDERPATH}/style-article.css')
 
-if 1:
-    page_home_gen()
-
-if 1:
-    # ;guides
-    pages.page_guides()
-    page_guides_tinctures_gen()
-    page_guides_teas_shopping_list_gen()
-
-    page_lead_magnet_1()
-    page_lead_magnet_1_congratulation()
-    page_lead_magnet_1_download()
-    p_guides_infusion_checklist()
-
 if 0:
     p_taxonomy()
     p_taxonomy_kingdom(kingdom_slug='plantae')
@@ -7714,8 +7699,8 @@ if 0:
     quit()
 
 if 0:
-    p_herbs()
-    if 1:
+    # p_herbs()
+    if 0:
         popular_herbs = get_popular_herbs_from_teas_articles()
         _vertices_plants = []
         for vertex_plant in vertices_plants:
@@ -7726,11 +7711,11 @@ if 0:
                     break
             if found:
                 print(f'FOUND: {vertex_plant["plant_slug"]}')
-                gen_art_plant(vertex_plant)
+                art_plant_gen(vertex_plant)
     if 1:
-        for i, vertex_plant in enumerate(vertices_plants[:HERBS_TO_GEN_NUM]):
-            print(f'{i}/{len(vertices_plants[:HERBS_TO_GEN_NUM])}')
-            gen_art_plant(vertex_plant)
+        for i, vertex_plant in enumerate(vertices_plants[HERBS_TO_GEN_START_NUM:HERBS_TO_GEN_END_NUM]):
+            print(f'{i}/{len(vertices_plants[:HERBS_TO_GEN_END_NUM])}')
+            art_plant_gen(vertex_plant)
     # p_herbs_popular()
     quit()
     p_herbs_actions()
@@ -7771,10 +7756,24 @@ if 0:
     page_remedies()
     page_systems()
 
-
     page_privacy_policy()
     page_cookie_policy()
     sitemap_2.sitemap_all()
 
     page_contacts()
     page_about_2()
+
+if 1:
+    # ;guides
+    pages.page_guides()
+    pages.page_guides_tinctures_gen()
+    pages.page_guides_teas_shopping_list_download_gen()
+
+    page_lead_magnet_1()
+    page_lead_magnet_1_congratulation()
+    page_lead_magnet_1_download()
+    p_guides_infusion_checklist()
+
+if 1:
+    page_home_gen()
+

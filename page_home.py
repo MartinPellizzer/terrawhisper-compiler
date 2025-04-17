@@ -1,5 +1,6 @@
 import os
 import random
+import shutil
 
 from PIL import Image, ImageFont, ImageDraw
 
@@ -11,7 +12,6 @@ import g
 import lib_plants
 import components
 
-import shutil
 
 def herb_to_html_card(herb_data):
     herb_name_scientific = herb_data['herb_name_scientific']
@@ -502,7 +502,7 @@ def page_home_gen():
         <html lang="en">
         {components.html_head(page_title)}
         <body>
-            {components.html_header()}
+            {components.html_header_2()}
             <main>
                 {html_hero}
                 {html_business_definition}
@@ -521,5 +521,5 @@ def page_home_gen():
     with open(html_filepath, 'w') as f: f.write(html)
 
 
-shutil.copy2('style.css', f'{g.WEBSITE_FOLDERPATH}/style.css')
-page_home_gen()
+# shutil.copy2('style.css', f'{g.WEBSITE_FOLDERPATH}/style.css')
+# page_home_gen()
