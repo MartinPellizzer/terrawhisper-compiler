@@ -1,0 +1,24 @@
+{
+    "url": "herbs/caltha-palustris",
+    "herb_slug": "caltha-palustris",
+    "herb_name_scientific": "caltha palustris",
+    "lastmod": "2025-5-31",
+    "benefits_num": 13,
+    "benefits_title": "13 Best Health Benefits Of Caltha Palustris",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 6,
+            "confidence_score": 52,
+            "total_score": 312
+        },
+        {
+            "answer": "medicine",
+            "mentions": 4,
+            "confidence_score": 31,
+            "total_score": 124
+        }
+    ],
+    "constituents_num": 13,
+    "side_effects_num": 11
+}

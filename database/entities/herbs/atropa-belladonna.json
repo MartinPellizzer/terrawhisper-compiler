@@ -1,0 +1,18 @@
+{
+    "url": "herbs/atropa-belladonna",
+    "herb_slug": "atropa-belladonna",
+    "herb_name_scientific": "atropa belladonna",
+    "lastmod": "2025-5-31",
+    "benefits_num": 11,
+    "benefits_title": "11 Best Health Benefits Of Atropa Belladonna",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 10,
+            "confidence_score": 99,
+            "total_score": 990
+        }
+    ],
+    "constituents_num": 7,
+    "side_effects_num": 7
+}

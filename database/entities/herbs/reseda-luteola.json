@@ -1,0 +1,24 @@
+{
+    "url": "herbs/reseda-luteola",
+    "herb_slug": "reseda-luteola",
+    "herb_name_scientific": "reseda luteola",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Reseda Luteola",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 8,
+            "confidence_score": 64,
+            "total_score": 512
+        },
+        {
+            "answer": "medicine",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "constituents_num": 13,
+    "side_effects_num": 11
+}

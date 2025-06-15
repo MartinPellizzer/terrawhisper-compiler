@@ -1,0 +1,251 @@
+{
+    "url": "ailments/gastroenteritis/teas",
+    "ailment_slug": "gastroenteritis",
+    "ailment_name": "gastroenteritis",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Teas For Gastroenteritis",
+    "intro": "Herbal teas for Gastroenteritis are natural remedies made from plant extracts that help alleviate the symptoms of gastroenteritis, a condition characterized by inflammation of the stomach and intestines. These herbal teas have been used for centuries to treat gastroenteritis due to their antiviral, antibacterial, and anti-inflammatory properties, which help to soothe the digestive system and reduce symptoms such as diarrhea, nausea, and abdominal pain. Some examples of herbal teas that can be used to treat gastroenteritis include peppermint tea, which helps to calm the digestive system and reduce nausea; ginger tea, which has anti-inflammatory properties and can help to alleviate abdominal pain; chamomile tea, which has a calming effect on the digestive system and can help to reduce stress and anxiety; licorice root tea, which has anti-inflammatory properties and can help to soothe the stomach and intestines; and slippery elm tea, which can help to protect the mucous membranes in the digestive tract and reduce inflammation. Overall, herbal teas can be a safe and effective way to treat gastroenteritis, especially when used in combination with other natural remedies and a healthy diet.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 20,
+            "herb_confidence_score": 173,
+            "herb_total_score": 3460,
+            "preparation_desc": "Zingiber officinale teas, commonly known as ginger tea, have been traditionally used to treat gastroenteritis due to its anti-inflammatory and carminative properties. The bioactive constituents, including gingerols and shogaols, present in ginger tea help to alleviate symptoms of nausea, vomiting, and abdominal pain associated with gastroenteritis. Ginger tea's ability to reduce inflammation and modulate gut motility also contributes to its effectiveness in treating this ailment. Regular consumption of ginger tea has been shown to provide relief from gastroenteritis symptoms and support overall digestive health.",
+            "preparation_study": "According to the study, Zingiber officinale teas for gastroenteritis, specifically chemotherapy-induced diarrhea, have been shown to relieve symptoms through different mechanisms, including directly decreasing local drug exposure, anti-inflammation, inhibiting epithelial apoptosis, or promoting epithelium stem cell regeneration.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 20,
+            "herb_confidence_score": 154,
+            "herb_total_score": 3080,
+            "preparation_desc": "Glycyrrhiza glabra teas, also known as licorice root tea, have been traditionally used to treat gastroenteritis due to its anti-inflammatory and antimicrobial properties. The bioactive constituents, such as glycyrrhizin, flavonoids, and phenolic acids, help to soothe the stomach lining, reduce inflammation, and prevent bacterial overgrowth, thereby alleviating symptoms of gastroenteritis. The anti-inflammatory properties of glycyrrhizin also help to reduce gastric acid secretion, which can contribute to the development of gastroenteritis. Regular consumption of Glycyrrhiza glabra teas has been found to provide relief from nausea, vomiting, and diarrhea associated with gastroenteritis, making it a valuable herbal remedy for this ailment.",
+            "preparation_study": "According to the study, Glycyrrhiza glabra teas, which is a liquorice root, may be used for treating or preventing peptic ulcers due to its potential anti-ulcer activity.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 16,
+            "herb_confidence_score": 134,
+            "herb_total_score": 2144,
+            "preparation_desc": "Curcuma longa teas have been traditionally used to treat gastroenteritis, an inflammatory condition affecting the digestive system, due to their anti-inflammatory and antioxidant properties. The curcuminoids present in Curcuma longa teas, particularly curcumin, have been shown to inhibit the production of pro-inflammatory enzymes and cytokines, which contribute to the development of gastroenteritis. By modulating the gut microbiome and reducing inflammation, Curcuma longa teas help alleviate symptoms such as diarrhea, nausea, and abdominal pain associated with gastroenteritis. The bioactive constituents of Curcuma longa teas, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, have been identified as key players in the treatment of gastroenteritis, offering benefits such as reduced morbidity and mortality rates, improved gut health, and enhanced overall well-being.",
+            "preparation_study": "According to the study in \"Biological trace element research\", Curcuma longa teas for gastroenteritis may be effective due to their highest concentration of antioxidants and inhibitory action against most bacterial strains.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 16,
+            "herb_confidence_score": 117,
+            "herb_total_score": 1872,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to treat gastroenteritis, an inflammation of the gastrointestinal tract, due to their anti-inflammatory and antimicrobial properties. The bioactive constituents, including alkylamides, glycoproteins, and polyphenols, help to modulate the immune system and reduce inflammation in the gut. By acting as a natural immunomodulator, Echinacea purpurea teas aid in the treatment of gastroenteritis by enhancing the body's natural defense mechanisms against pathogens and promoting the healing of the gut lining. The benefits of using Echinacea purpurea teas to treat gastroenteritis include reduced symptoms, accelerated recovery, and a lower risk of complications, making it a popular herbal remedy for this ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 19,
+            "herb_confidence_score": 116,
+            "herb_total_score": 2204,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat gastroenteritis, a condition characterized by inflammation of the stomach and intestines. The bioactive constituents of Ginkgo biloba teas, including flavonoids and terpenoids, have anti-inflammatory and antioxidant properties that help to soothe and protect the gastrointestinal tract. By reducing inflammation and promoting healing, Ginkgo biloba teas can help to alleviate symptoms such as diarrhea, nausea, and abdominal pain associated with gastroenteritis. The benefits of using Ginkgo biloba teas to treat gastroenteritis include reduced severity and duration of symptoms, improved gut health, and a lower risk of complications, making it a valuable natural remedy for this common ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 13,
+            "herb_confidence_score": 108,
+            "herb_total_score": 1404,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been used for centuries to treat gastroenteritis, an inflammation of the stomach and intestines. The tea's anti-inflammatory and antioxidant properties help to reduce inflammation and protect the gastrointestinal tract from further damage. The bioactive constituents, including silymarin and flavonoids, have been shown to improve liver function and reduce oxidative stress, which can help to alleviate symptoms of gastroenteritis. The benefits of using Silybum marianum teas to treat gastroenteritis include reduced inflammation, improved digestion, and a faster recovery time, making it a popular natural remedy for this ailment.",
+            "preparation_study": "According to \"Journal de pharmacie de Belgique\", Silybum marianum teas, which contain silymarine, have shown curative activity in treating liver damage caused by various toxins, including those that may be associated with gastroenteritis, and have a general safety pattern comparable to placebo.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 15,
+            "herb_confidence_score": 105,
+            "herb_total_score": 1575,
+            "preparation_desc": "Cinchona officinalis teas have been used traditionally to treat gastroenteritis due to their anti-inflammatory, antiseptic, and antimicrobial properties. These properties help to reduce inflammation and alleviate symptoms such as nausea, vomiting, and diarrhea, making it easier to manage the condition. The bioactive constituents of Cinchona officinalis teas, including quinine and quinidine, exhibit anti-diarrheal and anti-emetic effects, which contribute to its therapeutic benefits. The benefits of using Cinchona officinalis teas to treat gastroenteritis include reducing the severity and duration of symptoms, promoting faster recovery, and providing a natural and non-invasive treatment option.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 11,
+            "herb_confidence_score": 87,
+            "herb_total_score": 957,
+            "preparation_desc": "Foeniculum vulgare teas, also known as anise or fennel tea, have been used for centuries to treat gastroenteritis, a condition characterized by inflammation of the stomach and intestines. The properties of this herbal preparation, including its anti-inflammatory, antispasmodic, and carminative effects, help to soothe and calm the digestive system, reducing symptoms such as nausea, vomiting, and abdominal pain. The bioactive constituents of Foeniculum vulgare, including anethole, limonene, and flavonoids, have been shown to inhibit the growth of bacteria and viruses that cause gastroenteritis, while also modulating gut motility and reducing inflammation. The benefits of using Foeniculum vulgare teas to treat gastroenteritis include rapid relief from symptoms, reduced risk of dehydration, and promotion of overall gut health, making it a popular natural remedy for this common ailment.",
+            "preparation_study": "According to the provided study, Foeniculum vulgare teas for gastroenteritis is not directly mentioned, but Fennel seed oil has been shown to reduce intestinal spasms and increase motility of the small intestine, which may be beneficial in reducing symptoms of gastroenteritis, but further research is needed to confirm its effectiveness in this specific condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/HANDPICK-Caffeine-Natural-Premium-Eco-Conscious/dp/B0BFHKDK88",
+                "affiliate_link": "https://amzn.to/42bRtPt",
+                "title": "HANDPICK, Fennel Tea Bags (100 Herbal Tea Bags) Caffeine Free, Gluten Free & Non GMO | Round Eco Conscious Teabags | Smooth & Sweet"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 13,
+            "herb_confidence_score": 78,
+            "herb_total_score": 1014,
+            "preparation_desc": "Lavandula angustifolia teas, also known as lavender tea, have been traditionally used to treat gastroenteritis due to their anti-inflammatory and soothing properties. The bioactive constituents of this herbal preparation, including linalool and linalyl acetate, help to calm the digestive system and reduce inflammation in the gastrointestinal tract. Lavandula angustifolia teas have been shown to help treat gastroenteritis by reducing symptoms such as nausea, vomiting, and diarrhea, as well as alleviating abdominal pain and discomfort. The benefits of using Lavandula angustifolia teas to treat gastroenteritis include their ability to promote relaxation, ease digestion, and provide relief from symptoms, making them a popular natural remedy for this condition.",
+            "preparation_study": "According to the available information, Lavandula angustifolia teas may exhibit potential in preventing or treating digestive problems such as gastroenteritis, possibly due to its phytochemical composition, although further research is needed for comprehensive evaluation.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 10,
+            "herb_confidence_score": 73,
+            "herb_total_score": 730,
+            "preparation_desc": "Mentha x piperita teas, also known as peppermint tea, have been traditionally used to treat gastroenteritis due to their calming and soothing properties. This herbal preparation helps to treat the ailment by reducing inflammation, relaxing the muscles in the digestive tract, and alleviating nausea and vomiting. The bioactive constituents of peppermint tea, including menthol, menthone, and limonene, contribute to its therapeutic effects by inhibiting spasms, improving digestion, and reducing bacterial growth. By consuming peppermint tea, individuals can benefit from its ability to alleviate symptoms of gastroenteritis, such as diarrhea, abdominal cramps, and fever, promoting a faster recovery and improved overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 12,
+            "herb_confidence_score": 70,
+            "herb_total_score": 840,
+            "preparation_desc": "Taraxacum officinale teas have been traditionally used to treat gastroenteritis, an inflammation of the gastrointestinal tract, due to their anti-inflammatory and antimicrobial properties. The bioactive constituents of Taraxacum officinale, including flavonoids, phenolic acids, and sesquiterpene lactones, help to reduce inflammation, alleviate symptoms, and combat infections that contribute to gastroenteritis. By modulating the immune system and soothing the gut lining, Taraxacum officinale teas facilitate the recovery process and help to restore balance to the digestive system. The benefits of using Taraxacum officinale teas to treat gastroenteritis include reduced inflammation, faster recovery, and prevention of dehydration, making them a valuable herbal remedy for this common ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Roasted-Dandelion-Eco-Conscious-FGO/dp/B07Z7FTFNX",
+                "affiliate_link": "https://amzn.to/4j70AbI",
+                "title": "FGO Organic Roasted Dandelion Root Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 66,
+            "herb_total_score": 726,
+            "preparation_desc": "Rosmarinus officinalis teas have been traditionally used to treat gastroenteritis, an inflammatory condition of the gastrointestinal tract. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce inflammation and combat bacterial or viral infections that cause gastroenteritis. The bioactive constituents of Rosmarinus officinalis, including carnosic acid, rosmarinic acid, and camphor, possess antioxidant and antimicrobial activities that aid in the treatment of this ailment. By promoting digestion, reducing inflammation, and fighting off infections, Rosmarinus officinalis teas can provide relief from the symptoms of gastroenteritis, making it a beneficial herbal remedy for this condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 9,
+            "herb_confidence_score": 62,
+            "herb_total_score": 558,
+            "preparation_desc": "Achillea millefolium teas have been traditionally used to treat gastroenteritis, an inflammation of the gastrointestinal tract, due to their anti-inflammatory and antispasmodic properties. The herbal preparation helps to treat this ailment by soothing the digestive tract, reducing inflammation and pain, and promoting the elimination of toxins. The bioactive constituents of Achillea millefolium, including sesquiterpene lactones and flavonoids, are responsible for its therapeutic effects, which include reducing the severity and duration of gastroenteritis symptoms. The benefits of using Achillea millefolium teas to treat gastroenteritis include reducing the risk of dehydration, promoting a faster recovery, and preventing the development of secondary infections, making it a popular natural remedy for this condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Soursop-Leaves-Bags-Teabags/dp/B0C69P5FV9",
+                "affiliate_link": "https://amzn.to/4i1QY0D",
+                "title": "FullChea- Soursop Leaves Tea Bags, 40 Teabags, 1.5g/Bag - Premium Soursop Graviola Leaves Tea - Hojas De Guanabana Tea - Non-GMO - Caffeine-Free - Improve Digestion, Support Healthy Skin & Sleep"
+            }
+        },
+        {
+            "herb_name_scientific": "Artemisia absinthium",
+            "herb_mentions": 11,
+            "herb_confidence_score": 56,
+            "herb_total_score": 616,
+            "preparation_desc": "Artemisia absinthium teas, also known as wormwood tea, have been traditionally used to treat gastroenteritis, a common ailment characterized by inflammation of the gastrointestinal tract. The properties of this herbal preparation help to treat gastroenteritis by reducing inflammation, killing bacteria, and regulating bowel movements, thereby alleviating symptoms such as diarrhea, abdominal pain, and nausea. The bioactive constituents of Artemisia absinthium tea, including thujone, borneol, and camphor, possess antispasmodic, antibacterial, and anti-inflammatory properties that contribute to its therapeutic effects against gastroenteritis. The benefits of using Artemisia absinthium teas to treat gastroenteritis include its ability to promote digestion, reduce inflammation, and provide relief from symptoms, making it a popular natural remedy for this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 54,
+            "herb_total_score": 378,
+            "preparation_desc": "Aloe barbadensis teas have been traditionally used to treat gastroenteritis, an ailment characterized by inflammation of the stomach and intestines, due to its anti-inflammatory and soothing properties. The herbal preparation helps to treat this ailment by reducing inflammation, soothing the digestive tract, and promoting the healing of damaged tissues. The bioactive constituents present in Aloe barbadensis teas, including aloin, aloe-emodin, and vitamins A, C, and E, contribute to its therapeutic effects by exhibiting anti-inflammatory, antimicrobial, and antioxidant activities. The benefits of using Aloe barbadensis teas to treat gastroenteritis include quick relief from symptoms, reduced risk of complications, and a natural, non-invasive approach to recovery.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Spearmint-Eco-Conscious-Lined-FGO/dp/B07ND418HR",
+                "affiliate_link": "https://amzn.to/42s2qOg",
+                "title": "FGO Organic Spearmint Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 8,
+            "herb_confidence_score": 52,
+            "herb_total_score": 416,
+            "preparation_desc": "Sambucus nigra teas, also known as elderberry tea, have been traditionally used to treat gastroenteritis, an inflammation of the gastrointestinal tract. The bioactive constituents of Sambucus nigra, including anthocyanins, flavonoids, and phenolic acids, have anti-inflammatory and antioxidant properties that help to reduce inflammation and alleviate symptoms of gastroenteritis. By acting as a natural antimicrobial agent, Sambucus nigra teas can help to combat bacterial and viral infections that often cause gastroenteritis, ultimately reducing the severity and duration of symptoms. The benefits of using Sambucus nigra teas to treat gastroenteritis include rapid relief from diarrhea, vomiting, and stomach cramps, as well as a reduced risk of complications and a faster recovery time.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Elderberry-Eco-Conscious-Kraft-FGO/dp/B09HDFQ4JX",
+                "affiliate_link": "https://amzn.to/42aR3ZN",
+                "title": "FGO Organic Elderberry Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealabel Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 7,
+            "herb_confidence_score": 42,
+            "herb_total_score": 294,
+            "preparation_desc": "Urtica dioica teas, derived from the leaves of the stinging nettle plant, have been traditionally used to treat gastroenteritis due to their anti-inflammatory and antimicrobial properties. The herbal preparation helps to treat this ailment by soothing the digestive tract, reducing inflammation, and promoting the elimination of toxins. The bioactive constituents of Urtica dioica teas, such as flavonoids, phenolic acids, and saponins, play a key role in treating gastroenteritis by inhibiting the growth of pathogens and reducing oxidative stress. The benefits of using Urtica dioica teas to treat gastroenteritis include reduced symptoms, faster recovery, and improved overall gut health, making it a popular natural remedy for digestive issues.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Nettle-Eco-Conscious-Bulgaria-FGO/dp/B07ND3ZT9C",
+                "affiliate_link": "https://amzn.to/3QUwzPU",
+                "title": "FGO Organic Nettle Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zanthoxylum bungeanum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 42,
+            "herb_total_score": 294,
+            "preparation_desc": "Zanthoxylum bungeanum teas have been traditionally used to treat gastroenteritis, an inflammation of the gastrointestinal tract. The antispasmodic, anti-inflammatory, and antioxidant properties of this herbal preparation help to treat this ailment by reducing inflammation, alleviating abdominal pain, and preventing oxidative stress. The bioactive constituents of Zanthoxylum bungeanum teas, including flavonoids, alkaloids, and terpenoids, contribute to its therapeutic effects by inhibiting pro-inflammatory enzymes and modulating the gut microbiota. The benefits of using Zanthoxylum bungeanum teas to treat gastroenteritis include rapid recovery, reduced risk of complications, and improved overall gut health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinnamomum verum",
+            "herb_mentions": 5,
+            "herb_confidence_score": 41,
+            "herb_total_score": 205,
+            "preparation_desc": "Cinnamomum verum teas have been traditionally used to treat gastroenteritis, an inflammation of the gastrointestinal tract, due to their anti-inflammatory, antimicrobial, and carminative properties. The bioactive constituents of Cinnamomum verum teas, including cinnamaldehyde, eugenol, and linalool, help to soothe the digestive system and reduce inflammation, thereby alleviating symptoms such as diarrhea, nausea, and vomiting. These teas also exhibit spasmolytic activity, which helps to relax the muscles in the digestive tract and improve gut motility, further contributing to their gastroenteritis-relieving effects. The benefits of using Cinnamomum verum teas to treat gastroenteritis include rapid relief from symptoms, reduced risk of dehydration, and a lower likelihood of developing complications such as bacterial overgrowth or malabsorption.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Celestial-Seasonings-Herbal-Cinnamon-Apple/dp/B000E65OII",
+                "affiliate_link": "https://amzn.to/3G3S3aR",
+                "title": "Celestial Seasonings Cinnamon Apple Spice Herbal Tea, Caffeine Free, 20 Tea Bags Box (Pack of 6)"
+            }
+        },
+        {
+            "herb_name_scientific": "Astragalus membranaceus",
+            "herb_mentions": 6,
+            "herb_confidence_score": 38,
+            "herb_total_score": 228,
+            "preparation_desc": "Astragalus membranaceus teas have been traditionally used to treat gastroenteritis, an inflammation of the gastrointestinal tract, due to their anti-inflammatory and immunomodulatory properties. The bioactive constituents of Astragalus membranaceus, such as flavonoids, saponins, and polysaccharides, help to reduce inflammation, modulate the immune system, and improve gut health. By reducing inflammation and modulating the immune system, Astragalus membranaceus teas can help to alleviate symptoms of gastroenteritis, such as diarrhea, vomiting, and abdominal pain. The benefits of using Astragalus membranaceus teas to treat gastroenteritis include reduced inflammation, improved gut health, and a faster recovery time, making it a popular herbal remedy for this condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FreshDrinkUS-Premium-Astragalus-Material-Caffeine/dp/B0DG4WGMKQ",
+                "affiliate_link": "https://amzn.to/3XVf5a6",
+                "title": "FreshDrinkUS, Premium 75 Astragalus Root Tea Bags, 100% Natural & Pure from Astragalus Root. Astragalus Root Herbal Tea. Made with Natural Material Tea Bags. No Sugar, No Caffeine, No Gluten, Vegan."
+            }
+        }
+    ],
+    "intro_study": "According to \"European journal of translational myology\", teas for gastroenteritis, specifically green tea consumption, have been shown to effectively improve diarrhea and reduce hospital stay in children suffering from viral gastroenteritis."
+}

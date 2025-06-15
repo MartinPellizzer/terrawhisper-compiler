@@ -1,0 +1,532 @@
+{
+    "url": "herbs/nicotiana-tabacum",
+    "herb_slug": "nicotiana-tabacum",
+    "herb_name_scientific": "nicotiana tabacum",
+    "lastmod": "2025-5-31",
+    "benefits_num": 7,
+    "benefits_title": "7 Best Health Benefits Of Nicotiana Tabacum",
+    "medicine_or_poison": [
+        {
+            "answer": "medicine",
+            "mentions": 10,
+            "confidence_score": 94,
+            "total_score": 940
+        }
+    ],
+    "benefits": [
+        {
+            "answer": "Prevents Cancer Growth",
+            "mentions": 1,
+            "score": 10,
+            "grade": 10
+        },
+        {
+            "answer": "Fights Off Infections",
+            "mentions": 1,
+            "score": 10,
+            "grade": 10
+        },
+        {
+            "answer": "Kills Bacteria Cells",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Heals Wounds Faster",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Fights Off Tumors Now",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Treats Ulcers Sores",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Treats Skin Cancer",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Reduces Allergy Reaction",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Reduces Blood Pressure",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Treats Asthma Symptoms",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "Prevents Osteoporosis Bones",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "Reduces Inflammation Fast",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "Relieves Arthritis Pain",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "Reduces Fatigue Symptoms",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "Relieves Migraine Pain",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "Treats Digestive Issues",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "Fights Off Viruses Now",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        },
+        {
+            "answer": "Prevents Kidney Stones",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        },
+        {
+            "answer": "Prevents Blood Clots Form",
+            "mentions": 1,
+            "score": 3,
+            "grade": 3
+        },
+        {
+            "answer": "Relieves Epilepsy Seizures",
+            "mentions": 1,
+            "score": 3,
+            "grade": 3
+        }
+    ],
+    "constituents": [
+        {
+            "answer": "carbohydrates",
+            "mentions": 1,
+            "score": 10,
+            "grade": 10
+        },
+        {
+            "answer": "nicotine",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "solanine",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "tannins",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "lignin",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "anabasine",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "choline",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "polyphenols",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "fatty acids",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "anatabine",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "betanidin",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "saponins",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "anhydroanabasine",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "betanidine",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "triterpenoids",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "stigmasterol",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "sitosterol",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "campesterol",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "sterols",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "caffeine",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        }
+    ],
+    "parts": [
+        {
+            "answer": "leaf",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "stem",
+            "mentions": 1,
+            "score": 3,
+            "grade": 3
+        },
+        {
+            "answer": "root",
+            "mentions": 1,
+            "score": 2,
+            "grade": 2
+        },
+        {
+            "answer": "flower",
+            "mentions": 1,
+            "score": 1,
+            "grade": 1
+        },
+        {
+            "answer": "fruit",
+            "mentions": 1,
+            "score": 1,
+            "grade": 1
+        },
+        {
+            "answer": "seed",
+            "mentions": 1,
+            "score": 1,
+            "grade": 1
+        }
+    ],
+    "preparations": [
+        {
+            "answer": "tinctures",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "mucillages",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "teas",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "decoctions",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "capsules",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "lozenges",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "poultices",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "creams",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "syrups",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "linctuses",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "oinments",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "liniments",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "oils",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "juices",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "baths",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "gargles",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "suppositories",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        },
+        {
+            "answer": "essential olis",
+            "mentions": 1,
+            "score": 3,
+            "grade": 3
+        }
+    ],
+    "side_effects": [
+        {
+            "answer": "causes coughing fits",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "promotes lung damage",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "causes addiction",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "leads to breathing issues",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "results in nausea",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "induces throat irritation",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "triggers heart palpitations",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "causes mouth ulcers",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "triggers headaches",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "causes stomach pain",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "promotes anxiety",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "leads to respiratory infections",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "leads to gum disease",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "induces skin irritation",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "results in dizziness",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "leads to fatigue",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "induces sleeplessness",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "results in bad breath",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "induces mouth odor",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "triggers depression",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        }
+    ],
+    "constituents_num": 11,
+    "side_effects_num": 7
+}

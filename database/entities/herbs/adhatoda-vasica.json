@@ -1,0 +1,508 @@
+{
+    "url": "herbs/adhatoda-vasica",
+    "herb_slug": "adhatoda-vasica",
+    "herb_name_scientific": "adhatoda vasica",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Adhatoda Vasica",
+    "medicine_or_poison": [
+        {
+            "answer": "medicine",
+            "mentions": 10,
+            "confidence_score": 90,
+            "total_score": 900
+        }
+    ],
+    "benefits": [
+        {
+            "answer": "Eases bronchitis symptoms",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Fights respiratory infections",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Relaxes bronchial muscles",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Relieves asthma attacks",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Treats cough effectively",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Soothes sore throats",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Relieves congestion rapidly",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Treats bronchitis naturally",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Reduces fever quickly",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "Cures respiratory issues",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "Treats pneumonia effectively",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "Reduces mucus production",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "Cures respiratory problems",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "Eases allergic reactions",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "Eases cold symptoms",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "Fights flu viruses",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "Eases sinusitis symptoms",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "Prevents respiratory diseases",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "Cures tuberculosis slowly",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        },
+        {
+            "answer": "Treats pleurisy effectively",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        }
+    ],
+    "constituents": [
+        {
+            "answer": "phenolic glycosides",
+            "mentions": 2,
+            "score": 18,
+            "grade": 36
+        },
+        {
+            "answer": "triterpenoids",
+            "mentions": 2,
+            "score": 13,
+            "grade": 26
+        },
+        {
+            "answer": "alkaloids",
+            "mentions": 1,
+            "score": 10,
+            "grade": 10
+        },
+        {
+            "answer": "vasicinone",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "vasiconine",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "saponins",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "coumarins",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "flavonoids",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "tannins",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "phytosterols",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "phenolic acids",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "sterols",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "polysaccharides",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "fatty acids",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "vitamins",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "carotenoids",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        }
+    ],
+    "parts": [
+        {
+            "answer": "leaf",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "stem",
+            "mentions": 1,
+            "score": 3,
+            "grade": 3
+        },
+        {
+            "answer": "root",
+            "mentions": 1,
+            "score": 2,
+            "grade": 2
+        },
+        {
+            "answer": "flower",
+            "mentions": 1,
+            "score": 1,
+            "grade": 1
+        },
+        {
+            "answer": "fruit",
+            "mentions": 1,
+            "score": 1,
+            "grade": 1
+        },
+        {
+            "answer": "seed",
+            "mentions": 1,
+            "score": 1,
+            "grade": 1
+        }
+    ],
+    "preparations": [
+        {
+            "answer": "teas",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "decoctions",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "tinctures",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "mucillages",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "lozenges",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "syrups",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "linctuses",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "capsules",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "gargles",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "oils",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "creams",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "baths",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "oinments",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "liniments",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "poultices",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "juices",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        },
+        {
+            "answer": "essential olis",
+            "mentions": 1,
+            "score": 3,
+            "grade": 3
+        },
+        {
+            "answer": "suppositories",
+            "mentions": 1,
+            "score": 3,
+            "grade": 3
+        }
+    ],
+    "side_effects": [
+        {
+            "answer": "causes stomach upset",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "induces skin rash",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "brings on coughing",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "causes mouth ulcers",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "leads to nausea",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "triggers diarrhea",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "may cause dizziness",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "induces throat irritation",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "leads to allergic reaction",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "leads to increased urination",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "may cause vomiting",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "leads to itching",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "results in headache",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "may lead to dryness",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "may result in swelling",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "can cause heart palpitations",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "may cause gastrointestinal discomfort",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "brings on digestive issues",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "can cause fatigue",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "triggers respiratory issues",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        }
+    ],
+    "constituents_num": 11,
+    "side_effects_num": 7
+}

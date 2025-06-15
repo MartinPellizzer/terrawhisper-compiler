@@ -1,0 +1,255 @@
+{
+    "url": "ailments/eye-pain/teas",
+    "ailment_slug": "eye-pain",
+    "ailment_name": "eye pain",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Teas For Eye Pain",
+    "intro": "Herbal teas for Eye pain are a natural remedy used to treat and alleviate discomfort associated with ocular conditions such as conjunctivitis, dry eyes, and eye strain. These teas offer numerous benefits, including anti-inflammatory properties, antioxidant effects, and soothing qualities that can help to reduce eye pain and promote healing. Examples of herbal teas that can be used to treat eye pain include peppermint tea, which can help to relax the eyes and reduce inflammation, chamomile tea, which has anti-inflammatory and calming properties, and calendula tea, which can help to soothe and protect the eyes. Additionally, other herbal teas such as eyebright tea, licorice root tea, and ginkgo biloba tea may also be used to treat eye pain due to their anti-inflammatory and antioxidant properties, which can help to reduce swelling and promote healthy vision.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 19,
+            "herb_confidence_score": 151,
+            "herb_total_score": 2869,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat eye pain ailments such as conjunctivitis and dry eye syndrome due to their anti-inflammatory and antioxidant properties. The flavonoids and terpenoids present in Ginkgo biloba teas, particularly quercetin and bilobalide, help to reduce inflammation and promote healing in the eyes. By reducing oxidative stress and improving blood flow to the eyes, Ginkgo biloba teas can alleviate symptoms such as redness, itching, and blurred vision associated with eye pain ailments. The benefits of using Ginkgo biloba teas to treat eye pain ailments include reduced inflammation, improved eye health, and a decrease in the risk of complications such as vision loss.",
+            "preparation_study": "According to \"Journal of ocular pharmacology and therapeutics : the official journal of the Association for Ocular Pharmacology and Therapeutics\", Ginkgo biloba teas for eye pain may be beneficial due to the ability of Ginkgo biloba extract to significantly increase end diastolic velocity in the ophthalmic artery, potentially improving ocular blood flow.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 20,
+            "herb_confidence_score": 148,
+            "herb_total_score": 2960,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to treat eye pain ailments, such as conjunctivitis and blepharitis, due to their anti-inflammatory and antioxidant properties. The bioactive constituents, including alkylamides, caffeic acid, and echinacoside, help to reduce inflammation and oxidative stress in the eyes, thereby alleviating pain and discomfort. The flavonoids present in Echinacea purpurea teas also exhibit antimicrobial properties, which aid in combating infections that may be causing eye pain. Regular consumption of Echinacea purpurea teas has been found to provide relief from eye pain and promote overall eye health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 16,
+            "herb_confidence_score": 137,
+            "herb_total_score": 2192,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat eye pain, particularly in cases of glaucoma and eye strain, due to their anti-inflammatory and analgesic properties. The bioactive constituents, including quinine and other alkaloids, help to reduce eye pressure and alleviate pain by constricting blood vessels and reducing inflammation. The benefits of Cinchona officinalis teas include their ability to improve vision, reduce eye fatigue, and promote overall eye health. By utilizing these teas, individuals can experience relief from eye pain and discomfort, making them a valuable natural remedy for those suffering from ocular ailments.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 16,
+            "herb_confidence_score": 113,
+            "herb_total_score": 1808,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to treat the eye pain ailment known as conjunctivitis or eye inflammation. The anti-inflammatory and antiseptic properties of this herbal preparation help to reduce swelling and prevent infection in the eyes. The bioactive constituents of Lavandula angustifolia, such as linalool and linalyl acetate, possess antimicrobial and anti-inflammatory properties that contribute to its therapeutic effects. Regular consumption of Lavandula angustifolia teas has been found to provide relief from eye pain and inflammation, promoting overall eye health and well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 14,
+            "herb_confidence_score": 111,
+            "herb_total_score": 1554,
+            "preparation_desc": "Achillea millefolium teas, also known as yarrow teas, have been traditionally used to treat eye pain and inflammation associated with conditions such as conjunctivitis and blepharitis. The anti-inflammatory and antiseptic properties of this herbal preparation help to reduce swelling, prevent infection, and promote healing in the affected area. The bioactive constituents, including flavonoids, terpenoids, and sesquiterpenes, present in Achillea millefolium teas, contribute to their therapeutic effects by inhibiting the production of pro-inflammatory mediators and promoting antioxidant activity. The benefits of using Achillea millefolium teas to treat eye pain include reduced inflammation, improved eye health, and a natural alternative to conventional treatments.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Soursop-Leaves-Bags-Teabags/dp/B0C69P5FV9",
+                "affiliate_link": "https://amzn.to/4i1QY0D",
+                "title": "FullChea- Soursop Leaves Tea Bags, 40 Teabags, 1.5g/Bag - Premium Soursop Graviola Leaves Tea - Hojas De Guanabana Tea - Non-GMO - Caffeine-Free - Improve Digestion, Support Healthy Skin & Sleep"
+            }
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 14,
+            "herb_confidence_score": 108,
+            "herb_total_score": 1512,
+            "preparation_desc": "Aloe barbadensis teas have been traditionally used to treat eye pain ailments such as conjunctivitis and conjunctival ulcers due to their anti-inflammatory, antimicrobial, and soothing properties. The bioactive constituents of Aloe barbadensis, including aloin, aloe-emodin, and acemannan, help to reduce inflammation, combat bacterial and fungal infections, and promote tissue repair, thereby alleviating eye pain. The benefits of Aloe barbadensis teas in treating eye pain ailments include reduced swelling, improved wound healing, and decreased risk of complications. Regular consumption of Aloe barbadensis teas has been found to be a safe and effective remedy for managing eye pain and promoting overall eye health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Spearmint-Eco-Conscious-Lined-FGO/dp/B07ND418HR",
+                "affiliate_link": "https://amzn.to/42s2qOg",
+                "title": "FGO Organic Spearmint Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 14,
+            "herb_confidence_score": 103,
+            "herb_total_score": 1442,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger tea, have been traditionally used to treat eye pain and related ailments. The anti-inflammatory and analgesic properties of ginger tea help to reduce pain and swelling in the eyes, providing relief from conditions such as conjunctivitis and dry eye syndrome. The bioactive constituents of ginger tea, including gingerols and shogaols, have been shown to inhibit the production of pro-inflammatory enzymes, thereby reducing inflammation and pain in the eyes. The benefits of ginger tea in treating eye pain include its ability to reduce discomfort, improve vision, and promote overall eye health, making it a popular natural remedy for eye-related issues.",
+            "preparation_study": "According to \"Pakistan journal of pharmaceutical sciences\", Zingiber officinale teas may be beneficial for eye pain due to its high antioxidant activity, particularly with DPPH (222.30mg/TE/g DW) and FRAP (98.04mg/TE/g DW) values, which could potentially help alleviate symptoms associated with eye pain.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 88,
+            "herb_total_score": 1144,
+            "preparation_desc": "Calendula officinalis teas have been traditionally used to treat eye pain, particularly conjunctivitis, due to their anti-inflammatory and antimicrobial properties. The flavonoids and triterpenoids present in Calendula officinalis teas, such as quercetin and calendol, help to reduce inflammation and combat bacterial infections, thereby alleviating eye pain and promoting healing. Calendula officinalis teas also exhibit antioxidant properties, which help to protect the eyes from oxidative stress and promote the recovery of the affected tissues. The benefits of using Calendula officinalis teas to treat eye pain include reduced inflammation, accelerated healing, and prevention of further complications, making it a popular herbal remedy for this condition.",
+            "preparation_study": "According to \"Journal of ethnopharmacology\", Calendula officinalis teas for eye pain have been found to be effective, as it was one of the most cited plants for ophthalmological problems in the study, suggesting its potential therapeutic application in treating eye-related issues.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Twinings-Individually-Naturally-Caffeine-Free-Packaging/dp/B09RC41QGJ",
+                "affiliate_link": "https://amzn.to/42mjHYe",
+                "title": "Twinings Lemon & Ginger Herbal Tea Individually Wrapped Bags, 100 Count (Pack of 1), Tangy Lemon, Spicy Ginger, Naturally Caffeine-Free, Enjoy Hot or Iced | Packaging May Vary"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 12,
+            "herb_confidence_score": 88,
+            "herb_total_score": 1056,
+            "preparation_desc": "Melissa officinalis teas, also known as lemon balm tea, have been traditionally used to treat eye pain ailments such as conjunctivitis and dry eye syndrome. The anti-inflammatory and antiviral properties of this herbal preparation help to reduce inflammation and combat the underlying infection, providing relief from eye pain and discomfort. The bioactive constituents of Melissa officinalis, including rosmarinic acid, apigenin, and luteolin, contribute to its therapeutic effects by inhibiting the production of pro-inflammatory cytokines and promoting antioxidant defenses, which in turn help to alleviate eye pain. Regular consumption of Melissa officinalis teas has been found to provide long-term benefits in treating eye pain ailments, including improved eye health and reduced risk of complications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 11,
+            "herb_confidence_score": 86,
+            "herb_total_score": 946,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been traditionally used to treat eye pain associated with conjunctivitis and other eye infections due to their anti-inflammatory and antioxidant properties. The flavonoids and saponins present in this herbal preparation help to reduce inflammation, soothe the eyes, and promote healing, thereby alleviating eye pain and discomfort. The bioactive constituents, including silibinin, silidianin, and silicristin, have been shown to exhibit antimicrobial and antiviral activity, which helps to combat the underlying infection causing eye pain. Regular consumption of Silybum marianum teas may also help to reduce oxidative stress and promote overall eye health, making it a beneficial herbal remedy for treating eye pain and promoting eye well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Euphrasia officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 76,
+            "herb_total_score": 684,
+            "preparation_desc": "Euphrasia officinalis teas, also known as eye bright, have been traditionally used to treat eye pain and related ailments, such as conjunctivitis and photophobia. The anti-inflammatory and antiseptic properties of this herbal preparation help to soothe and calm the eyes, reducing redness and discomfort. The bioactive constituents of Euphrasia officinalis, including flavonoids and iridoid glycosides, have been found to exhibit anti-inflammatory and antioxidant activities, which contribute to its therapeutic effects. By using Euphrasia officinalis teas, individuals can benefit from reduced eye pain and inflammation, as well as improved eye health and protection from further irritation.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 70,
+            "herb_total_score": 770,
+            "preparation_desc": "Rosmarinus officinalis teas, also known as rosemary tea, have been traditionally used to treat eye pain ailments such as conjunctivitis and blepharitis. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce swelling and alleviate pain in the eyes. The bioactive constituents of rosemary tea, including carnosic acid and rosmarinic acid, exhibit potent antimicrobial and anti-inflammatory activities that help to treat eye infections and inflammation. The benefits of rosemary tea in treating eye pain ailments include its ability to reduce inflammation, kill bacteria, and promote healing, making it a popular natural remedy for eye health issues.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 10,
+            "herb_confidence_score": 65,
+            "herb_total_score": 650,
+            "preparation_desc": "Sambucus nigra teas have been traditionally used to treat eye pain and other eye-related issues due to their anti-inflammatory and analgesic properties. The bioactive constituents of Sambucus nigra, including flavonoids, phenolic acids, and saponins, help to reduce inflammation and alleviate pain associated with eye conditions. By reducing swelling and pain, Sambucus nigra teas can provide relief from eye strain, conjunctivitis, and other eye irritations, making it a beneficial herbal preparation for treating eye pain. The benefits of Sambucus nigra teas in treating eye pain include reduced inflammation, alleviated pain, and improved eye health, making it a valuable natural remedy for eye care.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Elderberry-Eco-Conscious-Kraft-FGO/dp/B09HDFQ4JX",
+                "affiliate_link": "https://amzn.to/42aR3ZN",
+                "title": "FGO Organic Elderberry Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealabel Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 10,
+            "herb_confidence_score": 63,
+            "herb_total_score": 630,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort, have been traditionally used to treat eye pain ailments such as photophobia and eye irritation. The anti-inflammatory and antiseptic properties of this herbal preparation help to reduce swelling and prevent infection in the eyes, thereby alleviating pain and discomfort. The bioactive constituents of Hypericum perforatum, including hyperforin and hypericin, have been found to exhibit analgesic and anti-inflammatory effects that contribute to its pain-relieving properties. The benefits of using Hypericum perforatum teas to treat eye pain ailments include reduced inflammation, improved eye comfort, and a natural alternative to conventional medications.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 8,
+            "herb_confidence_score": 62,
+            "herb_total_score": 496,
+            "preparation_desc": "Eucalyptus globulus teas have been traditionally used to treat eye pain, particularly in cases of conjunctivitis and other inflammatory eye conditions. The anti-inflammatory properties of this herbal preparation help to reduce swelling and ease pain, while its antimicrobial properties combat bacterial and viral infections that can cause eye pain. The bioactive constituents of Eucalyptus globulus teas, including eucalyptol, flavonoids, and phenolic acids, contribute to its therapeutic effects by reducing inflammation, fighting off infections, and protecting the eyes from oxidative stress. Regular consumption of Eucalyptus globulus teas has been shown to provide relief from eye pain, promote healing, and prevent complications associated with eye infections, making it a valuable herbal remedy for treating this ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Herbal-Tea-Caffeine-Relaxer-Non-GMO/dp/B00ECOSODU",
+                "affiliate_link": "https://amzn.to/4caik3b",
+                "title": "Tiesta Tea - Palm Beach Punch | Loose Leaf | Fruit Punch Herbal Tea | Caffeine-Free Tropical Blend with Apple and Orange | Brew Hot or Iced | Resealable Pouch | 25 Cups | 2 Ounce"
+            }
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 60,
+            "herb_total_score": 480,
+            "preparation_desc": "Valeriana officinalis teas, also known as valerian root tea, have been traditionally used to treat eye pain ailments such as conjunctivitis and dry eye syndrome. The antiseptic and anti-inflammatory properties of valerian root tea help to soothe and calm the eyes, reducing pain and discomfort. The bioactive constituents present in valerian root tea, including valerenic acid, isovaleric acid, and valerenol, work synergistically to reduce inflammation and promote healing in the eyes. The benefits of using valerian root tea to treat eye pain ailments include its ability to reduce symptoms, promote relaxation, and provide a natural and non-invasive treatment option.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 8,
+            "herb_confidence_score": 57,
+            "herb_total_score": 456,
+            "preparation_desc": "Glycyrrhiza glabra teas, also known as licorice root tea, have been traditionally used to treat eye pain and inflammation associated with conditions such as conjunctivitis and uveitis. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce eye pain and swelling by inhibiting the production of pro-inflammatory enzymes and neutralizing free radicals. The bioactive constituents present in Glycyrrhiza glabra teas, including glycyrrhizin, flavonoids, and saponins, contribute to its therapeutic effects by modulating the immune response and protecting the ocular tissues from damage. Drinking Glycyrrhiza glabra teas regularly may help alleviate eye pain and promote overall eye health, making it a beneficial herbal remedy for individuals experiencing ocular discomfort.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 7,
+            "herb_confidence_score": 54,
+            "herb_total_score": 378,
+            "preparation_desc": "Curcuma longa teas, made from the rhizomes of the turmeric plant, have been traditionally used to treat eye pain associated with conditions such as conjunctivitis and dry eye syndrome. The anti-inflammatory properties of Curcuma longa teas, primarily attributed to the bioactive constituent curcumin, help to reduce inflammation and alleviate pain in the eyes. Curcumin, a polyphenolic compound found in Curcuma longa teas, has potent antioxidant and anti-inflammatory effects that contribute to its therapeutic benefits in treating eye pain. The regular consumption of Curcuma longa teas may help to reduce eye inflammation, promote healing, and provide relief from eye pain, making it a beneficial herbal preparation for treating this ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 8,
+            "herb_confidence_score": 52,
+            "herb_total_score": 416,
+            "preparation_desc": "Urtica dioica teas have been used to treat eye pain ailments, such as conjunctivitis and dry eyes, due to their anti-inflammatory and antioxidant properties. This herbal preparation helps to treat eye pain by reducing swelling and redness in the eyes, as well as soothing and moisturizing the ocular surface. The bioactive constituents of Urtica dioica teas, including flavonoids, phenolic acids, and saponins, contribute to their therapeutic effects by modulating the immune response, reducing oxidative stress, and inhibiting the production of pro-inflammatory cytokines. The benefits of using Urtica dioica teas to treat eye pain include improved eye comfort, reduced inflammation, and enhanced ocular health, making it a natural and effective remedy for this common condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Nettle-Eco-Conscious-Bulgaria-FGO/dp/B07ND3ZT9C",
+                "affiliate_link": "https://amzn.to/3QUwzPU",
+                "title": "FGO Organic Nettle Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Vaccinium macrocarpon",
+            "herb_mentions": 9,
+            "herb_confidence_score": 48,
+            "herb_total_score": 432,
+            "preparation_desc": "Vaccinium macrocarpon teas, also known as cranberry teas, have been traditionally used to treat eye pain and other ocular issues. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce swelling and alleviate pain in the eyes. The bioactive constituents, including flavonoids and phenolic acids, present in Vaccinium macrocarpon teas have been found to have a soothing effect on the eyes, reducing irritation and discomfort. The benefits of using Vaccinium macrocarpon teas to treat eye pain include reduced inflammation, improved vision, and a natural alternative to conventional treatments.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to the study, teas for eye pain may be effectively treated with green tea, which possesses antinociceptive effects and anti-inflammatory properties due to its antioxidant and anti-inflammatory properties."
+}

@@ -1,0 +1,526 @@
+{
+    "url": "herbs/ribes-rubrum",
+    "herb_slug": "ribes-rubrum",
+    "herb_name_scientific": "ribes rubrum",
+    "lastmod": "2025-5-31",
+    "benefits_num": 13,
+    "benefits_title": "13 Best Health Benefits Of Ribes Rubrum",
+    "medicine_or_poison": [
+        {
+            "answer": "medicine",
+            "mentions": 10,
+            "confidence_score": 82,
+            "total_score": 820
+        }
+    ],
+    "benefits": [
+        {
+            "answer": "Boosts Immune System",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Treats Arthritis Pain",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Reduces Stress Levels",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Eases Anxiety Symptoms",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Eases Respiratory Issues",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Soothes Allergies Symptoms",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Soothes Digestive Issues",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "Supports Cardiovascular Health",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "Eases Muscle Spasms",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "Reduces Inflammation Pains",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "Eases Headaches Migraines",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "Fights Viral Infections",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "Fights Bacterial Infections",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "Fights Cancer Cells",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        },
+        {
+            "answer": "Soothes Menstrual Cramps",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        },
+        {
+            "answer": "Fights Fungal Infections",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        },
+        {
+            "answer": "Treats Skin Conditions",
+            "mentions": 1,
+            "score": 3,
+            "grade": 3
+        },
+        {
+            "answer": "Reduces Fever Quickly",
+            "mentions": 1,
+            "score": 2,
+            "grade": 2
+        },
+        {
+            "answer": "Treats Epilepsy Attacks",
+            "mentions": 1,
+            "score": 2,
+            "grade": 2
+        }
+    ],
+    "constituents": [
+        {
+            "answer": "ellagic acid",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "anthocyanins",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "fatty acids",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "minerals",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "quercetin",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "tannins",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "phenolic acids",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "proteins",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "vitamins",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "flavonols",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "phytosterols",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "phenolic glycosides",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "astragalin",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "saponins",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "glycosides",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "catechins",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "terpenes",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "coumarins",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "carotenoids",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "pigments",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        }
+    ],
+    "parts": [
+        {
+            "answer": "leaf",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "root",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "fruit",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "stem",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "seed",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        },
+        {
+            "answer": "flower",
+            "mentions": 1,
+            "score": 3,
+            "grade": 3
+        }
+    ],
+    "preparations": [
+        {
+            "answer": "teas",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "decoctions",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "tinctures",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "mucillages",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "creams",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "syrups",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "capsules",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "lozenges",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "oinments",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "oils",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "poultices",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "juices",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "linctuses",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "liniments",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "gargles",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "baths",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        },
+        {
+            "answer": "suppositories",
+            "mentions": 1,
+            "score": 3,
+            "grade": 3
+        },
+        {
+            "answer": "essential olis",
+            "mentions": 1,
+            "score": 2,
+            "grade": 2
+        }
+    ],
+    "side_effects": [
+        {
+            "answer": "throat irritate",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "headaches occur",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "stomach pain",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "allergies trigger",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "mouth burns",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "lungs inflame",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "skin rash",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "skin itch",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "nausea occurs",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "diarrhea occurs",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "respiratory issues",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "lungs irritate",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "stomach upset",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "nose bleed",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "eyes water",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "vomiting occurs",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "skin blister",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "mouth ulcers",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "skin reacts",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        },
+        {
+            "answer": "eyes swell",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 13
+}

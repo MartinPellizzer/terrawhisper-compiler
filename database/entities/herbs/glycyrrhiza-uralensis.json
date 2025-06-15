@@ -1,0 +1,502 @@
+{
+    "url": "herbs/glycyrrhiza-uralensis",
+    "herb_slug": "glycyrrhiza-uralensis",
+    "herb_name_scientific": "glycyrrhiza uralensis",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Glycyrrhiza Uralensis",
+    "medicine_or_poison": [
+        {
+            "answer": "medicine",
+            "mentions": 10,
+            "confidence_score": 93,
+            "total_score": 930
+        }
+    ],
+    "benefits": [
+        {
+            "answer": "Treats Digestive Issues",
+            "mentions": 1,
+            "score": 10,
+            "grade": 10
+        },
+        {
+            "answer": "Treats Gastrointestinal Issues",
+            "mentions": 1,
+            "score": 10,
+            "grade": 10
+        },
+        {
+            "answer": "Reduces Inflammation",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Fights Bacterial Infections",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Supports Liver Health",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Has Anti Cancer Properties",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Reduces Inflammatory Cytokines",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Improves Immune Function",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "Prevents Oxidative Stress",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Has Anti Viral Effects",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Treats Skin Allergies",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Has Anti Diabetic Properties",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "Eases Joint Pain",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "Has Anti Aging Effects",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "Improves Skin Condition",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "Reduces Blood Pressure",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "Has Anti Anxiety Effects",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "Improves Sleep Quality",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        }
+    ],
+    "constituents": [
+        {
+            "answer": "liquorice acid",
+            "mentions": 1,
+            "score": 10,
+            "grade": 10
+        },
+        {
+            "answer": "glycyrrhizin",
+            "mentions": 1,
+            "score": 10,
+            "grade": 10
+        },
+        {
+            "answer": "saponins",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "liquiritin",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "carbohydrates",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "triterpene saponins",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "triterpene alcohols",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "flavonoids",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "triterpenoids",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "fatty acids",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "flavonoid glycosides",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "bitter compounds",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "phenolic acids",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "phenolic glycosides",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "coumarins",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "steroids",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "sesquiterpenoids",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "coumarin glycosides",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "isoflavones",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "furanocoumarins",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        }
+    ],
+    "parts": [
+        {
+            "answer": "root",
+            "mentions": 1,
+            "score": 10,
+            "grade": 10
+        },
+        {
+            "answer": "leaf",
+            "mentions": 1,
+            "score": 3,
+            "grade": 3
+        },
+        {
+            "answer": "stem",
+            "mentions": 1,
+            "score": 2,
+            "grade": 2
+        },
+        {
+            "answer": "flower",
+            "mentions": 1,
+            "score": 1,
+            "grade": 1
+        },
+        {
+            "answer": "fruit",
+            "mentions": 1,
+            "score": 1,
+            "grade": 1
+        },
+        {
+            "answer": "seed",
+            "mentions": 1,
+            "score": 1,
+            "grade": 1
+        }
+    ],
+    "preparations": [
+        {
+            "answer": "teas",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "decoctions",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "tinctures",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "capsules",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "lozenges",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "creams",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "syrups",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "mucillages",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "oinments",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "oils",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "linctuses",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "liniments",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "gargles",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "poultices",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "juices",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "baths",
+            "mentions": 1,
+            "score": 5,
+            "grade": 5
+        },
+        {
+            "answer": "suppositories",
+            "mentions": 1,
+            "score": 4,
+            "grade": 4
+        },
+        {
+            "answer": "essential olis",
+            "mentions": 1,
+            "score": 2,
+            "grade": 2
+        }
+    ],
+    "side_effects": [
+        {
+            "answer": "leads to hypertension",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "leads to sodium retention",
+            "mentions": 1,
+            "score": 9,
+            "grade": 9
+        },
+        {
+            "answer": "causes fluid retention",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "induces potassium loss",
+            "mentions": 1,
+            "score": 8,
+            "grade": 8
+        },
+        {
+            "answer": "may cause stomach ulcers",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "may trigger heart palpitations",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "can cause adrenal suppression",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "might cause digestive upset",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "may result in fatigue",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "can lead to weight gain",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "might result in nausea",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "may cause dizziness",
+            "mentions": 1,
+            "score": 7,
+            "grade": 7
+        },
+        {
+            "answer": "may result in insomnia",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "can lead to headaches",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "might cause muscle weakness",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "may cause mood changes",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        },
+        {
+            "answer": "can trigger anxiety",
+            "mentions": 1,
+            "score": 6,
+            "grade": 6
+        }
+    ],
+    "constituents_num": 13,
+    "side_effects_num": 13
+}

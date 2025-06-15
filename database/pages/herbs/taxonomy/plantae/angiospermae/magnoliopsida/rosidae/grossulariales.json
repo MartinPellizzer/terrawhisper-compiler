@@ -1,0 +1,15 @@
+{
+    "title": "grossulariales",
+    "lastmod": "2025-2-22",
+    "intro": "The rank Grossulariales is an order of flowering plants, which is a taxonomic rank used to group families with shared characteristics and evolutionary relationships. It consists of multiple families, including Grossulariaceae, which is the only family currently recognized in this order, but examples of other families that might fit into a broader order like this one could be Orchidaceae, Euphorbiaceae, or Cyperaceae. These families are generally defined by their unique morphological features, such as fruit or flower structure, and are thought to have diverged from a common ancestor. Further research is needed to confirm the boundaries and relationships within the Grossulariales order.",
+    "families": [
+        {
+            "family_slug": "francoaceae",
+            "family_desc": "Francoaceae is a family of flowering plants, commonly known as the Francoa family, which includes about 5 species of shrubs and perennials native to South America."
+        },
+        {
+            "family_slug": "sphenocleaceae",
+            "family_desc": "Sphenocleaceae is a small family of flowering plants consisting of two genera, Sphenoclea and Droseroides."
+        }
+    ]
+}

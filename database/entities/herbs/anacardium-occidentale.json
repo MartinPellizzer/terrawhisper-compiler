@@ -1,0 +1,24 @@
+{
+    "url": "herbs/anacardium-occidentale",
+    "herb_slug": "anacardium-occidentale",
+    "herb_name_scientific": "anacardium occidentale",
+    "lastmod": "2025-5-31",
+    "benefits_num": 13,
+    "benefits_title": "13 Best Health Benefits Of Anacardium Occidentale",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 8,
+            "confidence_score": 71,
+            "total_score": 568
+        },
+        {
+            "answer": "medicine",
+            "mentions": 2,
+            "confidence_score": 18,
+            "total_score": 36
+        }
+    ],
+    "constituents_num": 11,
+    "side_effects_num": 9
+}

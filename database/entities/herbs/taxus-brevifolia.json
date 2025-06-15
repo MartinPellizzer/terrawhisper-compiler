@@ -1,0 +1,18 @@
+{
+    "url": "herbs/taxus-brevifolia",
+    "herb_slug": "taxus-brevifolia",
+    "herb_name_scientific": "taxus brevifolia",
+    "lastmod": "2025-5-31",
+    "benefits_num": 13,
+    "benefits_title": "13 Best Health Benefits Of Taxus Brevifolia",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 10,
+            "confidence_score": 98,
+            "total_score": 980
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 7
+}

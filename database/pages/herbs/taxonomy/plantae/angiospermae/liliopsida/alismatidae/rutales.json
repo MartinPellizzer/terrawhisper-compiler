@@ -1,0 +1,15 @@
+{
+    "title": "rutales",
+    "lastmod": "2025-2-22",
+    "intro": "The rank of Rutales is an order of flowering plants, characterized by the presence of net-veined leaves and often, a distinctive arrangement of flowers. This order includes a diverse group of plants with various growth habits and adaptations. Some examples of families within the Rutales order include the Orchidaceae, known for their showy and often fragrant flowers, the Euphorbiaceae, which includes plants like the poinsettia and spurge, and the Cyperaceae, a family of sedge-like plants. The Rutales order encompasses a wide range of plant species, each with unique characteristics and ecological roles.",
+    "families": [
+        {
+            "family_slug": "anacampserotaceae",
+            "family_desc": "Anacampserotaceae is a family of succulent plants in the order Caryophyllales, commonly known as the mesembs or living stones."
+        },
+        {
+            "family_slug": "cymodoceaceae",
+            "family_desc": "Cymodoceaceae is a family of marine angiosperms commonly known as seagrasses."
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "data": [
+        {
+            "method": "Hiring a herbalist to create custom formulas",
+            "time": "Variable, but potentially significant",
+            "cost": "$500-$5,000 or more per formula",
+            "challenges": "Difficulty in finding a qualified herbalist, high cost, and potential intellectual property issues",
+            "emotions": "Anxious about finding a reliable and skilled herbalist, and worried about the cost and potential risks",
+            "score": 9,
+            "why": "Hiring a herbalist can be a significant investment, and there is a risk of not finding a qualified professional or encountering intellectual property issues"
+        },
+        {
+            "method": "Purchasing a proprietary herbal formula library",
+            "time": "Minimal",
+            "cost": "$1,000-$5,000 or more",
+            "challenges": "Difficulty in finding a reliable and trustworthy provider, potential regulatory issues, and limited customization options",
+            "emotions": "Concerned about the quality and efficacy of pre-formulated products and worried about regulatory issues",
+            "score": 9,
+            "why": "Purchasing a proprietary herbal formula library can be a significant investment, and there is a risk of not finding a reliable and trustworthy provider or encountering regulatory issues"
+        },
+        {
+            "method": "Attending herbalism conferences and workshops",
+            "time": "5-10 days per year",
+            "cost": "$500-$2,000 per conference",
+            "challenges": "Difficulty in finding relevant and high-quality information, lack of hands-on experience, time-consuming and costly",
+            "emotions": "Overwhelmed, frustrated, and anxious about missing important information or making mistakes",
+            "score": 8,
+            "why": "While attending conferences and workshops can be valuable for networking and learning, the time and cost investment can be significant, and the information may not be immediately applicable to their business"
+        },
+        {
+            "method": "Using a pre-verified library of high-quality suppliers and pre-formulated herbal products",
+            "time": "Minimal",
+            "cost": "$500-$2,000 or more per year",
+            "challenges": "Difficulty in finding a reliable and trustworthy provider, potential regulatory issues, and limited customization options",
+            "emotions": "Concerned about the quality and efficacy of pre-formulated products and worried about regulatory issues",
+            "score": 8,
+            "why": "Using a pre-verified library of high-quality suppliers and pre-formulated herbal products can be a convenient option, but there is a risk of not finding a reliable and trustworthy provider or encountering regulatory issues"
+        },
+        {
+            "method": "Partnering with a herbal supplement company",
+            "time": "Variable, but potentially significant",
+            "cost": "$500-$5,000 or more per year",
+            "challenges": "Difficulty in finding a reliable and trustworthy partner, potential regulatory issues, and loss of control over product development",
+            "emotions": "Anxious about finding a reliable partner and worried about losing control over product development",
+            "score": 7,
+            "why": "Partnering with a herbal supplement company can be a significant investment, and there is a risk of not finding a reliable partner or encountering regulatory issues"
+        },
+        {
+            "method": "Using online resources and webinars",
+            "time": "Variable, but potentially significant",
+            "cost": "Free to $500 or more per year",
+            "challenges": "Difficulty in finding reliable and high-quality information, potential bias or inaccuracies, and time-consuming",
+            "emotions": "Overwhelmed, frustrated, and anxious about finding reliable information and making mistakes",
+            "score": 6,
+            "why": "While online resources and webinars can be valuable for learning, the time and cost investment can be significant, and the information may not be immediately applicable to their business"
+        },
+        {
+            "method": "Using pre-made herbal supplement blends",
+            "time": "Minimal",
+            "cost": "$50-$500 or more per month",
+            "challenges": "Difficulty in ensuring quality and efficacy, potential regulatory issues, and limited customization options",
+            "emotions": "Concerned about the quality and efficacy of pre-made blends and worried about regulatory issues",
+            "score": 5,
+            "why": "Using pre-made herbal supplement blends can be a convenient option, but there is a risk of not ensuring quality and efficacy or encountering regulatory issues"
+        },
+        {
+            "method": "Creating their own herbal formulas from scratch",
+            "time": "Significant time investment, potentially 10-20 hours per formula",
+            "cost": "Variable, but potentially high costs for ingredients and testing",
+            "challenges": "Difficulty in ensuring quality and efficacy, potential regulatory issues, and time-consuming",
+            "emotions": "Overwhelmed, frustrated, and anxious about making mistakes or missing important information",
+            "score": 4,
+            "why": "Creating their own herbal formulas from scratch can be a significant time and cost investment, and there is a risk of not meeting regulatory requirements or ensuring quality and efficacy"
+        },
+        {
+            "method": "Creating their own herbal products using pre-verified suppliers",
+            "time": "Significant time investment, potentially 5-10 hours per product",
+            "cost": "Variable, but potentially high costs for ingredients and testing",
+            "challenges": "Difficulty in ensuring quality and efficacy, potential regulatory issues, and time-consuming",
+            "emotions": "Overwhelmed, frustrated, and anxious about making mistakes or missing important information",
+            "score": 3,
+            "why": "Creating their own herbal products using pre-verified suppliers can be a significant time and cost investment, and there is a risk of not meeting regulatory requirements or ensuring quality and efficacy"
+        },
+        {
+            "method": "Developing and marketing their own unique herbal product line",
+            "time": "Significant time investment, potentially 10-20 hours per product",
+            "cost": "Variable, but potentially high costs for ingredients, testing, and marketing",
+            "challenges": "Difficulty in ensuring quality and efficacy, potential regulatory issues, and time-consuming",
+            "emotions": "Overwhelmed, frustrated, and anxious about making mistakes or missing important information",
+            "score": 2,
+            "why": "Developing and marketing their own unique herbal product line can be a significant time and cost investment, and there is a risk of not meeting regulatory requirements or ensuring quality and efficacy"
+        },
+        {
+            "method": "Creating their own herbal products using a combination of methods",
+            "time": "Significant time investment, potentially 10-20 hours per product",
+            "cost": "Variable, but potentially high costs for ingredients, testing, and marketing",
+            "challenges": "Difficulty in ensuring quality and efficacy, potential regulatory issues, and time-consuming",
+            "emotions": "Overwhelmed, frustrated, and anxious about making mistakes or missing important information",
+            "score": 1,
+            "why": "Creating their own herbal products using a combination of methods can be a significant time and cost investment, and there is a risk of not meeting regulatory requirements or ensuring quality and efficacy"
+        }
+    ]
+}

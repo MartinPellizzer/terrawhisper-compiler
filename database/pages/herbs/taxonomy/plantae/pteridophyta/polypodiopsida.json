@@ -1,0 +1,23 @@
+{
+    "title": "polypodiopsida",
+    "lastmod": "2025-2-22",
+    "intro": "The rank Polypodiopsida is a division of plants that includes the ferns and their allies. It is a group of vascular plants characterized by the presence of true leaves and a distinctive life cycle involving two generations of plants, known as sporophytes and gametophytes. The Polypodiopsida division encompasses a wide range of fern species, from the small, delicate maidenhair ferns to the large, tree-like horsetails. Other divisions of plants that belong to different ranks include the Commelinidae (monocots with three-veined leaves), the Rosidae (dicots with a rose-like flower structure), and the Asteridae (dicots with a daisy-like flower structure).",
+    "subclasses": [
+        {
+            "subclass_slug": "oleosane",
+            "subclass_desc": "Oleosane is a subclass of flowering plants within the class Magnoliopsida."
+        },
+        {
+            "subclass_slug": "polypodiidae",
+            "subclass_desc": "Polypodiidae is a subclass of ferns that includes about 6,000 species of ferns, divided into two orders: Osmundales and Polypodiales."
+        },
+        {
+            "subclass_slug": "oleosanginae",
+            "subclass_desc": "Oleosanginae is a subtribe of flowering plants in the family Apocynaceae, commonly known as the dogbane or oleander family."
+        },
+        {
+            "subclass_slug": "poliopodiidae",
+            "subclass_desc": "Poliopodiidae is a subfamily of ferns, specifically the family Polypodiaceae, commonly known as the maidenhair ferns."
+        }
+    ]
+}

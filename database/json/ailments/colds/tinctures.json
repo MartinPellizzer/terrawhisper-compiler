@@ -1,0 +1,181 @@
+{
+    "url": "ailments/colds/tinctures",
+    "ailment_slug": "colds",
+    "ailment_name": "colds",
+    "preparation_slug": "tinctures",
+    "preparation_name": "tinctures",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Tinctures For Colds",
+    "intro": "Herbal tinctures for Colds are concentrated liquid extracts made from plants, roots, and herbs, used to treat and alleviate cold and flu symptoms. These natural remedies offer numerous benefits, including reducing fever, soothing sore throats, and boosting the immune system. Examples of effective herbal tinctures for colds include Echinacea, which is known for its immune-boosting properties, Eucalyptus, which helps relieve congestion, and Ginger, which reduces inflammation and soothes a sore throat. Other herbal tinctures like Peppermint, Thyme, and Elderberry are also used to treat colds, with Peppermint and Thyme providing decongestant properties and Elderberry helping to reduce the severity and duration of colds.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 22,
+            "herb_confidence_score": 194,
+            "herb_total_score": 4268,
+            "preparation_desc": "Echinacea purpurea tinctures have been used for centuries to treat colds and flu symptoms, thanks to their anti-inflammatory and immunomodulatory properties that help to boost the body's immune system and reduce the severity of symptoms. The bioactive constituents of Echinacea purpurea, including alkylamides, glycoproteins, and polysaccharides, have been shown to have antimicrobial and antioxidant effects that help to combat the underlying causes of illness. By stimulating the production of white blood cells and increasing the activity of natural killer cells, Echinacea purpurea tinctures help to treat colds by reducing the duration and severity of symptoms, such as fever, cough, and fatigue. The benefits of using Echinacea purpurea tinctures to treat colds include reduced incidence of complications, improved quality of life, and a shorter recovery time.",
+            "preparation_study": "According to the research study, Echinacea purpurea tinctures for colds have been shown to reduce the total number of cold episodes, days with colds, and cold episodes requiring additional medication over a 4-month duration.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 20,
+            "herb_confidence_score": 173,
+            "herb_total_score": 3460,
+            "preparation_desc": "Eucalyptus globulus tinctures have been traditionally used to treat the common cold and flu due to their decongestant and anti-inflammatory properties. The tincture helps to treat this ailment by relieving congestion, reducing fever, and soothing coughs, making it easier to breathe and recover. The bioactive constituents of Eucalyptus globulus, including eucalyptol, cineole, and globulol, are responsible for its medicinal effects, which help to open airways, reduce inflammation, and combat bacterial infections. The benefits of using Eucalyptus globulus tinctures to treat colds include rapid relief from symptoms, improved respiratory health, and a reduced risk of complications, making it a popular natural remedy for many people.",
+            "preparation_study": "According to \"Pharmaceuticals (Basel, Switzerland)\", Eucalyptus globulus tinctures may be used as a complementary self-treatment to relieve symptoms of the common cold.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 21,
+            "herb_confidence_score": 166,
+            "herb_total_score": 3486,
+            "preparation_desc": "Sambucus nigra tinctures are a popular herbal remedy used to treat colds and flu-like symptoms due to their immunomodulatory, antiviral, and anti-inflammatory properties. These properties help to soothe sore throats, reduce fever, and alleviate congestion by modulating the immune system's response to the infection. The bioactive constituents of Sambucus nigra, such as flavonoids and phenolic acids, have been shown to inhibit the replication of viral particles and reduce the production of pro-inflammatory cytokines, thereby helping to alleviate cold symptoms. The benefits of using Sambucus nigra tinctures to treat colds include rapid relief from symptoms, reduced duration of illness, and a boost to the immune system, making it a valuable addition to any natural remedy toolkit.",
+            "preparation_study": "According to \"The Israel Medical Association journal : IMAJ\", Sambucus nigra tinctures for colds may have immunostimulatory properties due to increased production of five cytokines, including inflammatory and anti-inflammatory cytokines, by activating the healthy immune system.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 20,
+            "herb_confidence_score": 156,
+            "herb_total_score": 3120,
+            "preparation_desc": "Zingiber officinale tinctures, derived from the rhizome of the ginger plant, possess anti-inflammatory and antimicrobial properties that help to treat the common cold. The bioactive constituents, including gingerols and shogaols, have been shown to reduce inflammation and alleviate symptoms such as congestion and cough. By acting as an expectorant, Zingiber officinale tinctures help to loosen and clear mucus from the respiratory tract, providing relief from cold symptoms. Regular use of Zingiber officinale tinctures has been associated with benefits including reduced severity and duration of colds, as well as improved overall immune function.",
+            "preparation_study": "According to \"Pharmaceuticals (Basel, Switzerland)\", Zingiber officinale tinctures for colds are mentioned as one of the medicinal plant specialties that can be used as therapy or as complementary self-treatment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea angustifolia",
+            "herb_mentions": 17,
+            "herb_confidence_score": 148,
+            "herb_total_score": 2516,
+            "preparation_desc": "Echinacea angustifolia tinctures have been traditionally used to treat colds by leveraging their immunomodulatory, anti-inflammatory, and antiviral properties. This herbal preparation helps to treat the colds ailment by stimulating the production of white blood cells, which fight off infections, and by reducing the severity of symptoms such as fever and congestion. The bioactive constituents of Echinacea angustifolia tinctures, including alkylamides, caffeic acid derivatives, and phenolic acids, contribute to its therapeutic effects by modulating the immune response and inhibiting the replication of viruses. By using Echinacea angustifolia tinctures, individuals may experience benefits such as reduced duration and severity of colds, improved immune function, and enhanced overall well-being.",
+            "preparation_study": "According to \"The Cochrane database of systematic reviews\", Echinacea angustifolia tinctures for colds may be better than a placebo, although there is not enough evidence to recommend a specific product.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 20,
+            "herb_confidence_score": 138,
+            "herb_total_score": 2760,
+            "preparation_desc": "Glycyrrhiza glabra tinctures have been traditionally used to treat colds due to their anti-inflammatory and expectorant properties, which help to relieve congestion and soothe a sore throat. The bioactive constituents, including glycyrrhizin, flavonoids, and saponins, in Glycyrrhiza glabra tinctures exhibit antimicrobial and antiviral activities that help to combat the underlying infection causing the cold. By reducing inflammation and promoting the clearance of mucus, Glycyrrhiza glabra tinctures can help to alleviate symptoms such as coughing, sneezing, and sinus pressure. The benefits of using Glycyrrhiza glabra tinctures to treat colds include natural and non-addictive relief, reduced risk of antibiotic resistance, and the potential to boost the immune system and prevent future illnesses.",
+            "preparation_study": "According to \"Mini reviews in medicinal chemistry\", Glycyrrhiza glabra tinctures for colds have been shown to modulate the immune system, inhibit virus growth, produce anti-inflammatory activity, and inactivate viruses.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 19,
+            "herb_confidence_score": 124,
+            "herb_total_score": 2356,
+            "preparation_desc": "Ginkgo biloba tinctures have been traditionally used to help alleviate the symptoms of colds and flu due to their anti-inflammatory, antioxidant, and immunomodulatory properties. The bioactive constituents of ginkgo biloba, including flavonoids, terpenoids, and bilobalide, have been shown to help reduce inflammation, relieve congestion, and boost the immune system, making it easier to recover from colds and flu. By using ginkgo biloba tinctures, individuals can potentially reduce the severity and duration of cold symptoms, such as runny nose, sore throat, and fatigue, and may even help to prevent future episodes. The benefits of ginkgo biloba tinctures in treating colds and flu include reduced inflammation, improved immune function, and enhanced overall well-being, making it a popular natural remedy for cold and flu season.",
+            "preparation_study": "According to \"American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists\", Ginkgo biloba tinctures for colds are among the potentially safe herbal therapies.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea pallida",
+            "herb_mentions": 13,
+            "herb_confidence_score": 106,
+            "herb_total_score": 1378,
+            "preparation_desc": "Echinacea pallida tinctures have been traditionally used to treat colds and flu due to their immunomodulatory properties, which help to stimulate the immune system and reduce the severity and duration of symptoms. The bioactive constituents of Echinacea pallida, including alkylamides, caffeic acid derivatives, and polysaccharides, are responsible for its medicinal properties, which help to inhibit the production of pro-inflammatory cytokines and promote the production of anti-inflammatory cytokines. By using Echinacea pallida tinctures, individuals can potentially experience reduced symptoms of colds and flu, such as fever, cough, and fatigue, as well as improved immune function and reduced risk of complications. The benefits of using Echinacea pallida tinctures to treat colds and flu include its natural and non-invasive approach, low risk of side effects, and potential for long-term immune system health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 94,
+            "herb_total_score": 1222,
+            "preparation_desc": "Cinchona officinalis tinctures have been traditionally used to treat colds and flu due to their antipyretic and anti-inflammatory properties, which help to reduce fever and alleviate congestion. The tannins and alkaloids present in Cinchona officinalis, such as quinine and cinchonine, are responsible for its medicinal effects, including its ability to relieve symptoms associated with colds and flu. By acting as a natural antihistamine and decongestant, Cinchona officinalis tinctures help to ease nasal congestion, coughs, and sore throats, providing relief from the discomfort of colds and flu. The benefits of using Cinchona officinalis tinctures to treat colds and flu include their natural and non-invasive approach, which can help to boost the immune system and promote overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_mentions": 12,
+            "herb_confidence_score": 90,
+            "herb_total_score": 1080,
+            "preparation_desc": "Thymus vulgaris tinctures have been traditionally used to treat colds and other respiratory issues due to their antimicrobial, anti-inflammatory, and expectorant properties. The bioactive constituents present in thyme, including thymol and carvacrol, help to combat bacterial and viral infections, reduce congestion, and ease coughs, thereby alleviating the symptoms of colds. Thymus vulgaris tinctures work by creating an environment that is inhospitable to the growth of pathogens, while also loosening and expelling mucus, making it easier to breathe and recover from illness. The benefits of using thymus vulgaris tinctures to treat colds include rapid relief from symptoms, improved immune function, and a reduced risk of complications from respiratory infections.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 14,
+            "herb_confidence_score": 86,
+            "herb_total_score": 1204,
+            "preparation_desc": "Lavandula angustifolia tinctures have been traditionally used to treat colds due to their antimicrobial, anti-inflammatory, and antiviral properties. The bioactive constituents, including linalool and linalyl acetate, in these tinctures help to combat the underlying infection, reduce congestion, and ease symptoms such as coughing and sore throats. By using Lavandula angustifolia tinctures, individuals can experience relief from cold-related symptoms, including fever reduction and improved respiratory function, thereby promoting overall well-being. Regular use of these tinctures may also help to boost the immune system and prevent future occurrences of colds, making them a valuable natural remedy for maintaining respiratory health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Astragalus membranaceus",
+            "herb_mentions": 9,
+            "herb_confidence_score": 68,
+            "herb_total_score": 612,
+            "preparation_desc": "Astragalus membranaceus tinctures have been traditionally used to treat colds and other respiratory ailments due to their immunomodulatory and anti-inflammatory properties. This herbal preparation helps to treat colds by stimulating the immune system, reducing inflammation, and promoting the production of antibodies to fight off infections. The bioactive constituents of Astragalus membranaceus, including saponins, flavonoids, and polysaccharides, are responsible for its immunomodulatory and anti-inflammatory effects, which help to alleviate symptoms of colds such as congestion and coughing. The benefits of using Astragalus membranaceus tinctures to treat colds include reduced duration and severity of symptoms, improved immune function, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 68,
+            "herb_total_score": 748,
+            "preparation_desc": "Rosmarinus officinalis tinctures have been traditionally used to treat colds and related respiratory issues due to their decongestant, expectorant, and antimicrobial properties. The bioactive constituents of Rosmarinus officinalis, including camphor, borneol, and rosmarinic acid, help to break down mucus and reduce inflammation in the nasal passages and airways, making it easier to breathe. By reducing congestion and fighting off underlying infections, Rosmarinus officinalis tinctures provide relief from cold symptoms such as coughing, sneezing, and runny nose. The benefits of using Rosmarinus officinalis tinctures to treat colds include natural and non-addictive relief, reduced risk of antibiotic resistance, and improved overall immune function.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hydrastis canadensis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 59,
+            "herb_total_score": 472,
+            "preparation_desc": "Hydrastis canadensis tinctures, also known as goldenseal, have been used in traditional medicine to treat colds and respiratory ailments due to its anti-inflammatory and antimicrobial properties. The tincture's ability to reduce congestion and soothe the throat makes it an effective remedy for symptoms associated with the common cold, such as a runny nose and cough. The bioactive constituents, including berberine and hydrastine, have been shown to possess antimicrobial properties that help combat viral and bacterial infections, while also exhibiting anti-inflammatory effects that alleviate congestion and discomfort. The benefits of using Hydrastis canadensis tinctures to treat colds include rapid relief from symptoms, reduced risk of complications, and a natural, non-pharmacological approach to managing respiratory health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 9,
+            "herb_confidence_score": 57,
+            "herb_total_score": 513,
+            "preparation_desc": "Achillea millefolium tinctures are herbal preparations derived from the plant's leaves and flowers, which contain bioactive constituents such as flavonoids, phenolic acids, and sesquiterpenes that help to alleviate symptoms of colds and flu. The tinctures' anti-inflammatory, antiviral, and immune-boosting properties help to reduce fever, soothe a sore throat, and ease congestion, making it a beneficial remedy for treating colds and flu. The sesquiterpenes in Achillea millefolium tinctures, particularly achillin and alantolactone, have been shown to exhibit antimicrobial and antiviral activities that help to combat infections and promote recovery. Regular use of Achillea millefolium tinctures can provide relief from cold and flu symptoms, reduce the duration of illness, and support overall immune function, making it a valuable natural remedy for maintaining health and well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 52,
+            "herb_total_score": 364,
+            "preparation_desc": "Melissa officinalis tinctures have been traditionally used to treat the common cold due to their anti-inflammatory, antimicrobial, and antiviral properties. The herbal preparation helps to alleviate symptoms of the cold by reducing congestion, relieving coughs, and soothing a sore throat. The bioactive constituents of Melissa officinalis, including rosmarinic acid and melissic acid, exhibit antiviral activity against the rhinovirus, which is a primary cause of the common cold. The benefits of using Melissa officinalis tinctures to treat colds include reduced severity and duration of symptoms, as well as enhanced immune function and overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 45,
+            "herb_total_score": 270,
+            "preparation_desc": "Silybum marianum tinctures have been traditionally used to treat the common cold and flu due to their anti-inflammatory and immunomodulatory properties. The saponins present in these tinctures, particularly silymarin, help to stimulate the immune system, reduce inflammation, and alleviate symptoms associated with the common cold. The antiviral and antimicrobial properties of silymarin and other bioactive constituents, such as flavonoids and phenolic acids, also contribute to the treatment of this ailment by inhibiting the growth of viruses and bacteria. Regular use of Silybum marianum tinctures may help to reduce the severity and duration of cold and flu symptoms, promoting overall health and well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 8,
+            "herb_confidence_score": 42,
+            "herb_total_score": 336,
+            "preparation_desc": "Taraxacum officinale tinctures, derived from the dandelion plant, are a natural remedy for treating colds due to their antimicrobial, anti-inflammatory, and expectorant properties. These properties help to combat the underlying viral or bacterial infection causing the cold, reduce inflammation and congestion, and promote the expulsion of mucus from the respiratory tract. The bioactive constituents of Taraxacum officinale tinctures, including taraxasterol, inulin, and sesquiterpene lactones, contribute to its therapeutic effects by modulating the immune system, reducing oxidative stress, and inhibiting the growth of pathogens. By using Taraxacum officinale tinctures, individuals can experience relief from cold symptoms, such as coughing, sneezing, and congestion, and may even prevent the development of more severe respiratory infections.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Thymus serpyllum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 42,
+            "herb_total_score": 252,
+            "preparation_desc": "Thymus serpyllum tinctures have been traditionally used to treat the common cold and its related symptoms, such as congestion and coughing, due to their expectorant and antimicrobial properties. The bioactive constituents present in Thymus serpyllum tinctures, including thymol and carvacrol, help to break down mucus and reduce inflammation in the respiratory tract, making it easier to expel excess mucus and relieve congestion. Thymus serpyllum tinctures also exhibit antimicrobial properties, which can help to combat viral and bacterial infections that contribute to the development of the common cold. By using Thymus serpyllum tinctures, individuals can experience relief from cold-related symptoms and potentially reduce the duration of the illness.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Verbascum thapsus",
+            "herb_mentions": 7,
+            "herb_confidence_score": 39,
+            "herb_total_score": 273,
+            "preparation_desc": "Verbascum thapsus tinctures have been traditionally used to treat colds due to their antiviral and anti-inflammatory properties. The bioactive constituents, such as flavonoids, phenolic acids, and saponins, in these tinctures help to reduce congestion, soothe a sore throat, and alleviate symptoms associated with the common cold. By reducing inflammation and modulating the immune system, Verbascum thapsus tinctures provide relief from cold-related symptoms, including fever, cough, and fatigue. Regular use of these tinctures may also help to boost the immune system and prevent future colds, making them a beneficial herbal preparation for maintaining overall respiratory health.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Wiadomosci lekarskie (Warsaw, Poland : 1960)\", tinctures for colds that combine extracts of thyme, primrose, and thymol can be effective in alleviating cough and dyspnea, and shortening the length of the disease, comparable to synthetic ambroxol in terms of efficacy."
+}

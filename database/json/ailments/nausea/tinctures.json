@@ -1,0 +1,181 @@
+{
+    "url": "ailments/nausea/tinctures",
+    "ailment_slug": "nausea",
+    "ailment_name": "nausea",
+    "preparation_slug": "tinctures",
+    "preparation_name": "tinctures",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Tinctures For Nausea",
+    "intro": "Herbal tinctures for nausea are concentrated liquid extracts derived from plants, used to alleviate symptoms of nausea and vomiting. These natural remedies offer numerous benefits, including quick absorption, minimal side effects, and the ability to be taken sublingually or added to food and drinks. Examples of herbal tinctures used to treat nausea include Ginger (Zingiber officinale), Peppermint (Mentha piperita), and Lavender (Lavandula angustifolia), which have anti-inflammatory and soothing properties that help calm the stomach. Other herbal tinctures, such as Chamomile (Matricaria chamomilla), Fennel (Foeniculum vulgare), and Licorice Root (Glycyrrhiza glabra), also help to regulate digestion and reduce nausea, making them popular alternatives to conventional medications.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 19,
+            "herb_confidence_score": 176,
+            "herb_total_score": 3344,
+            "preparation_desc": "Zingiber officinale tinctures, derived from the rhizome of the ginger plant, have been traditionally used to treat nausea due to their anti-inflammatory and carminative properties, which help to soothe the stomach and alleviate digestive discomfort. The bioactive constituents of Zingiber officinale tinctures, including gingerols and shogaols, possess anti-emetic and anti-inflammatory properties that help to reduce nausea and vomiting. By inhibiting the production of pro-inflammatory mediators and blocking the action of neurotransmitters that trigger nausea, Zingiber officinale tinctures provide relief from nausea and its associated symptoms. The benefits of using Zingiber officinale tinctures to treat nausea include rapid relief from symptoms, reduced risk of complications, and a natural, non-pharmacological approach to managing digestive health.",
+            "preparation_study": "According to the \"British journal of anaesthesia\", Zingiber officinale tinctures for nausea may be beneficial, as several studies suggest that ginger is superior to placebo in reducing nausea, particularly in cases of postoperative nausea and vomiting, seasickness, morning sickness, and chemotherapy-induced nausea.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 21,
+            "herb_confidence_score": 174,
+            "herb_total_score": 3654,
+            "preparation_desc": "Ginkgo biloba tinctures are a herbal preparation used to treat nausea, a common symptom associated with various health conditions. The properties of Ginkgo biloba tinctures that help to treat nausea include its anti-inflammatory and antioxidant properties, which help to soothe the digestive system and alleviate symptoms of nausea. The bioactive constituents of Ginkgo biloba tinctures, such as flavonoids and terpenoids, work together to reduce inflammation and stabilize the stomach, ultimately helping to treat nausea. The benefits of Ginkgo biloba tinctures in treating nausea include fast relief, reduced frequency and severity of symptoms, and a natural and non-invasive approach to managing nausea.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 16,
+            "herb_confidence_score": 133,
+            "herb_total_score": 2128,
+            "preparation_desc": "Glycyrrhiza glabra tinctures, derived from the roots of the licorice plant, are a popular herbal remedy used to treat nausea and related gastrointestinal issues. The anti-inflammatory and anti-emetic properties of glycyrrhizin, a bioactive constituent present in Glycyrrhiza glabra, help to soothe the stomach and alleviate nausea. By reducing inflammation in the digestive tract and regulating bowel movements, Glycyrrhiza glabra tinctures help to treat nausea and prevent its recurrence. The benefits of using Glycyrrhiza glabra tinctures to treat nausea include reduced frequency and severity of episodes, improved digestion, and enhanced overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 15,
+            "herb_confidence_score": 114,
+            "herb_total_score": 1710,
+            "preparation_desc": "Cinchona officinalis tinctures have been traditionally used to treat nausea due to their anti-inflammatory and antispasmodic properties, which help to soothe digestive issues and alleviate symptoms. The herbal preparation's ability to relax the smooth muscles in the digestive tract and reduce inflammation helps to calm the stomach and alleviate nausea. The bioactive constituents, including quinine, quinidine, and tannins, play a crucial role in treating nausea by inhibiting the release of histamine and other neurotransmitters that contribute to nausea. By using Cinchona officinalis tinctures, individuals may experience relief from nausea and its associated symptoms, making it a beneficial herbal remedy for those suffering from this condition.",
+            "preparation_study": "According to \"Phytotherapy research : PTR\", Cinchona officinalis tinctures for nausea have not been specifically mentioned in the study, but it does mention the review of several herbal medicines, including Zingiber officinale, Mentha spicata, Scutellaria baicalensis, Persumac, and Rikkunshito, for their potential effects on decreasing chemotherapy-induced nausea and vomiting (CINV), suggesting the need for more research on herbal medicines, including Cinchona officinalis, to alleviate CINV in cancer patients.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 14,
+            "herb_confidence_score": 104,
+            "herb_total_score": 1456,
+            "preparation_desc": "Foeniculum vulgare tinctures, derived from the seeds of the common fennel plant, have been traditionally used to treat nausea and other gastrointestinal issues. The active properties of these tinctures, including anethole and fenchone, help to relax the smooth muscles in the digestive tract, reducing spasms and cramping that can lead to nausea. By alleviating digestive discomfort and promoting a sense of calm, fennel tinctures help to treat nausea and related symptoms, providing relief from morning sickness, motion sickness, and other forms of nausea. The bioactive constituents of fennel tinctures, such as anethole and limonene, work together to soothe the digestive system and provide a natural remedy for nausea, making it a beneficial herbal preparation for those seeking a holistic approach to managing this ailment.",
+            "preparation_study": "According to \"International journal of gynaecology and obstetrics: the official organ of the International Federation of Gynaecology and Obstetrics\", Foeniculum vulgare tinctures for nausea showed a relief rate of 63.3% among women experiencing menstrual cramps, indicating its potential effectiveness in alleviating this symptom.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 9,
+            "herb_confidence_score": 79,
+            "herb_total_score": 711,
+            "preparation_desc": "Curcuma longa tinctures, derived from the rhizomes of the turmeric plant, have been traditionally used to treat nausea and other gastrointestinal issues. The bioactive constituents present in Curcuma longa tinctures, including curcuminoids and polyphenols, help to alleviate nausea by reducing inflammation, modulating gut motility, and exhibiting antioxidant properties. These properties enable Curcuma longa tinctures to effectively treat nausea by soothing the stomach, reducing symptoms of vomiting and abdominal discomfort, and promoting overall digestive health. The benefits of using Curcuma longa tinctures to treat nausea include rapid relief from symptoms, reduced risk of complications, and a natural, non-invasive approach to managing this common ailment.",
+            "preparation_study": "According to \"Open life sciences\", Curcuma longa tinctures for nausea contain the compound curcumin, which constitutes one of the main active substances within this plant, showing potential in alleviating digestive discomfort and pain.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 12,
+            "herb_confidence_score": 74,
+            "herb_total_score": 888,
+            "preparation_desc": "Lavandula angustifolia tinctures have been traditionally used to treat nausea due to their anti-inflammatory and antispasmodic properties, which help to soothe the digestive system and reduce stomach discomfort. The bioactive constituents, including linalool and linalyl acetate, in these tinctures work together to calm the nervous system and alleviate nausea. By reducing inflammation and promoting relaxation, Lavandula angustifolia tinctures help to alleviate nausea and provide relief from its symptoms. The benefits of using these tinctures to treat nausea include rapid relief, reduced risk of medication side effects, and a natural approach to managing digestive health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 10,
+            "herb_confidence_score": 74,
+            "herb_total_score": 740,
+            "preparation_desc": "Mentha x piperita tinctures, derived from the peppermint plant, have been traditionally used to treat nausea due to their ability to relax the muscles in the stomach and alleviate digestive discomfort. The properties of this herbal preparation, including its analgesic, anti-inflammatory, and antispasmodic properties, help to ease nausea and vomiting by reducing muscle spasms and inflammation in the gastrointestinal tract. Bioactive constituents such as menthol, menthone, and limonene in Mentha x piperita tinctures work together to provide fast relief from nausea by reducing inflammation, relaxing muscles, and improving digestion. The benefits of using Mentha x piperita tinctures to treat nausea include rapid relief, reduced nausea and vomiting, and improved overall digestive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 10,
+            "herb_confidence_score": 68,
+            "herb_total_score": 680,
+            "preparation_desc": "Silybum marianum tinctures, derived from the milk thistle plant, have been traditionally used to treat nausea and its associated symptoms. The tincture's anti-inflammatory and antioxidant properties help to soothe the digestive system and alleviate nausea. The bioactive constituents, particularly silymarin, flavonoids, and terpenoids, are responsible for its therapeutic effects, as they have been shown to protect the liver and reduce inflammation in the digestive tract. The benefits of Silybum marianum tinctures for treating nausea include reduced frequency and severity of episodes, improved digestion, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Piper nigrum",
+            "herb_mentions": 8,
+            "herb_confidence_score": 64,
+            "herb_total_score": 512,
+            "preparation_desc": "Piper nigrum tinctures, derived from the black peppercorn, have been used traditionally to alleviate nausea, a common symptom of various health conditions. This herbal preparation contains bioactive constituents such as piperine, which has been shown to have anti-inflammatory and antioxidant properties that help to reduce nausea. The piperine in Piper nigrum tinctures also helps to increase the bioavailability of digestive enzymes and enhance gut motility, thereby relieving nausea and discomfort. The benefits of using Piper nigrum tinctures to treat nausea include reduced symptoms, improved digestion, and a natural approach to managing nausea without the side effects of conventional medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 59,
+            "herb_total_score": 472,
+            "preparation_desc": "Valeriana officinalis tinctures have been traditionally used to treat nausea, a debilitating condition characterized by a feeling of unease and discomfort in the stomach. The antispasmodic and anti-inflammatory properties of Valeriana officinalis tinctures help to alleviate nausea by soothing the muscles in the stomach and reducing inflammation. The bioactive constituents, including valepotriates and valeoptirates, in this herbal preparation help to regulate gut function and reduce the severity of nausea. By using Valeriana officinalis tinctures, individuals can benefit from a natural and effective treatment for nausea, reducing discomfort and improving overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zanthoxylum bungeanum",
+            "herb_mentions": 9,
+            "herb_confidence_score": 56,
+            "herb_total_score": 504,
+            "preparation_desc": "Zanthoxylum bungeanum tinctures have been traditionally used to treat nausea, a symptom often associated with various health conditions, including pregnancy, motion sickness, and chemotherapy side effects. The properties of this herbal preparation that help to treat nausea include its ability to inhibit nausea-inducing neurotransmitters and its anti-inflammatory properties, which can help to alleviate discomfort and reduce nausea symptoms. The bioactive constituents of Zanthoxylum bungeanum tinctures, such as gingerol and zanthoxylin, have been found to contribute to its anti-nausea effects by blocking the action of serotonin receptors in the brain, which are involved in nausea regulation. By using Zanthoxylum bungeanum tinctures, individuals can experience relief from nausea symptoms and other related issues, such as vomiting and stomach discomfort, making it a beneficial herbal preparation for treating nausea.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Piper methysticum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 54,
+            "herb_total_score": 378,
+            "preparation_desc": "Piper methysticum tinctures have been traditionally used to treat nausea, an ailment often associated with various health conditions. This herbal preparation's properties, including its anti-inflammatory and antioxidant properties, help to treat nausea by reducing inflammation and neutralizing free radicals in the body. The bioactive constituents of Piper methysticum tinctures, such as kavalactones, including kavalactone, desmethoxyyangonin, and yangonin, contribute to its nausea-relieving effects by interacting with the nervous system and regulating the body's response to nausea-inducing stimuli. The benefits of using Piper methysticum tinctures to treat nausea include reduced frequency and severity of nausea episodes, improved overall well-being, and a natural, non-pharmacological approach to managing this common health issue.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinnamomum verum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 54,
+            "herb_total_score": 378,
+            "preparation_desc": "Cinnamomum verum tinctures have been traditionally used to treat nausea due to their anti-inflammatory and carminative properties. The bioactive constituents of Cinnamomum verum, including cinnamaldehyde and eugenol, help to reduce nausea by alleviating stomach irritation and relieving gastrointestinal spasms. This herbal preparation helps to treat nausea by promoting digestion, reducing inflammation in the digestive tract, and improving gut motility, ultimately providing relief from nausea and vomiting. The benefits of Cinnamomum verum tinctures in treating nausea include rapid relief from symptoms, improved digestive health, and a reduction in the need for conventional medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Paeonia lactiflora",
+            "herb_mentions": 8,
+            "herb_confidence_score": 53,
+            "herb_total_score": 424,
+            "preparation_desc": "Paeonia lactiflora tinctures have been traditionally used to treat nausea, a common symptom of various health conditions, due to their anti-inflammatory and antispasmodic properties. The bioactive constituents, including paeonol and paeoniflorin, in these tinctures help to calm the digestive system and reduce inflammation, thereby alleviating nausea. Paeonia lactiflora tinctures work by relaxing the smooth muscles in the digestive tract, reducing spasms and cramping, and promoting a sense of calmness, which in turn helps to alleviate nausea. The benefits of using Paeonia lactiflora tinctures to treat nausea include reduced discomfort, improved digestion, and a decrease in the frequency and severity of nausea episodes.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Astragalus membranaceus",
+            "herb_mentions": 7,
+            "herb_confidence_score": 50,
+            "herb_total_score": 350,
+            "preparation_desc": "Astragalus membranaceus tinctures have been traditionally used to treat nausea, a common symptom of various gastrointestinal disorders. The anti-inflammatory and antispasmodic properties of this herbal preparation help to soothe the stomach and reduce nausea. Bioactive constituents such as flavonoids, saponins, and polysaccharides in Astragalus membranaceus tinctures are believed to contribute to its anti-nausea effects by modulating the gut-brain axis and reducing inflammation. The benefits of using Astragalus membranaceus tinctures to treat nausea include improved symptoms, reduced frequency and severity of episodes, and a natural and non-invasive approach to managing this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Citrus reticulata",
+            "herb_mentions": 7,
+            "herb_confidence_score": 45,
+            "herb_total_score": 315,
+            "preparation_desc": "Citrus reticulata tinctures, derived from the peel of the mandarin orange, have been traditionally used to alleviate nausea and its associated symptoms. The properties of this herbal preparation help to treat nausea by regulating digestive enzymes and soothing the stomach lining, thereby reducing inflammation and alleviating discomfort. The bioactive constituents present in Citrus reticulata tinctures, including limonene and hesperidin, exhibit anti-inflammatory and antioxidant properties that contribute to its therapeutic effects. The benefits of using Citrus reticulata tinctures to treat nausea include rapid relief from symptoms, improved digestion, and reduced risk of complications associated with prolonged nausea.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Angelica sinensis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 39,
+            "herb_total_score": 234,
+            "preparation_desc": "Angelica sinensis tinctures, also known as dong quai, are herbal preparations traditionally used to treat nausea and other gastrointestinal issues. The properties of Angelica sinensis tinctures that help to treat nausea include its antispasmodic, anti-inflammatory, and expectorant properties, which help to calm the digestive system and relieve symptoms of nausea. The bioactive constituents of Angelica sinensis tinctures, such as ferulic acid and ligustilide, are believed to contribute to its therapeutic effects by inhibiting the activity of digestive enzymes and reducing inflammation in the digestive tract. By using Angelica sinensis tinctures, individuals may experience relief from nausea and other digestive issues due to their potential to regulate digestion, reduce inflammation, and promote overall gut health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Pimpinella anisum",
+            "herb_mentions": 5,
+            "herb_confidence_score": 37,
+            "herb_total_score": 185,
+            "preparation_desc": "Pimpinella anisum tinctures have been used traditionally to treat nausea, and its properties as an antiemetic and carminative help to alleviate this ailment. The herbal preparation works by soothing the digestive system, reducing inflammation, and promoting relaxation, which helps to alleviate nausea symptoms. The bioactive constituents of Pimpinella anisum tinctures, including limonene and anethole, contribute to its antiemetic properties by reducing stomach contractions and calming the nervous system. The benefits of using Pimpinella anisum tinctures to treat nausea include its natural and non-invasive approach, making it a suitable option for those seeking alternative remedies to manage this common health issue.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_mentions": 5,
+            "herb_confidence_score": 36,
+            "herb_total_score": 180,
+            "preparation_desc": "Schisandra chinensis tinctures have been traditionally used to treat nausea and other gastrointestinal issues due to their adaptogenic and anti-inflammatory properties. The bioactive constituents of Schisandra chinensis, including lignans, phenolic acids, and polysaccharides, help to soothe the stomach and reduce inflammation, thereby alleviating nausea symptoms. By promoting digestion and reducing stress on the gastrointestinal system, Schisandra chinensis tinctures can help to alleviate nausea and restore balance to the body. The benefits of using Schisandra chinensis tinctures to treat nausea include improved digestion, reduced inflammation, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to the study on ginger syrup for nausea relief, tinctures or syrups made from ginger may be an effective remedy for the relief of nausea and vomiting in the first trimester of pregnancy, as subjects who ingested ginger syrup experienced a significant improvement in nausea and vomiting symptoms."
+}

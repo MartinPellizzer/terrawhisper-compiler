@@ -1,0 +1,55 @@
+{
+    "title": "asparagales",
+    "lastmod": "2025-2-22",
+    "intro": "Asparagales is an order of flowering plants, characterized by their unique floral structure and typically consisting of a single whorl of three petals and three sepals. This order includes a diverse range of families, such as Orchidaceae, which comprises orchids, Euphorbiaceae, a family of plants that includes the spurge and poinsettia, and Cyperaceae, a family of grass-like plants commonly known as sedges. Many plants within the Asparagales order are known for their distinctive, often showy flowers and ability to thrive in a variety of environments. The Asparagales order encompasses over 20,000 species, showcasing an incredible range of diversity within this group of flowering plants.",
+    "families": [
+        {
+            "family_slug": "orchidaceae",
+            "family_desc": "Orchidaceae is a family of flowering plants commonly known as orchids, characterized by showy, exotic, and highly diverse flowers."
+        },
+        {
+            "family_slug": "amaryllidaceae",
+            "family_desc": "Amaryllidaceae is a family of flowering plants commonly known as the amaryllis or bellflower family, characterized by showy, funnel-shaped flowers and narrow, strap-like leaves."
+        },
+        {
+            "family_slug": "asparagaceae",
+            "family_desc": "Asparagaceae is a family of flowering plants that includes asparagus, hyacinths, lilies, and other ornamental and edible species."
+        },
+        {
+            "family_slug": "asphodelaceae",
+            "family_desc": "Asphodelaceae is a family of flowering plants commonly known as asphodels or asphodel irises, which includes species such as asparagus and lilyturf."
+        },
+        {
+            "family_slug": "alstroemeriaceae",
+            "family_desc": "Alstroemeriaceae is a family of flowering plants, commonly known as the glory lily or parrot's beak, native to the Americas."
+        },
+        {
+            "family_slug": "hypoxidaceae",
+            "family_desc": "Hypoxidaceae is a family of flowering plants in the order Asparagales, commonly known as the starflowers or hypoxis family."
+        },
+        {
+            "family_slug": "ixioliriaceae",
+            "family_desc": "Ixioliriaceae is a small family of flowering plants in the order Asterales, commonly known as the snake flowers."
+        },
+        {
+            "family_slug": "asteliaceae",
+            "family_desc": "Asteliaceae is a small family of flowering plants in the order Asparagales, native to New Zealand and southern South America."
+        },
+        {
+            "family_slug": "blandfordiaceae",
+            "family_desc": "Blandfordiaceae is a family of epiphytic orchids, commonly known as the Blandfordia or Christmas bells."
+        },
+        {
+            "family_slug": "tecophilaeaceae",
+            "family_desc": "Tecophilaeaceae is a small family of flowering plants commonly known as the bloodroot or red-lobe families."
+        },
+        {
+            "family_slug": "doryanthaceae",
+            "family_desc": "Doryanthaceae is a family of flowering plants, commonly known as the Midge Orchids, native to eastern Australia."
+        },
+        {
+            "family_slug": "petermanniaceae",
+            "family_desc": "Petermanniaceae is a family of flowering plants in the order Poales, commonly known as grasses or sedges."
+        }
+    ]
+}

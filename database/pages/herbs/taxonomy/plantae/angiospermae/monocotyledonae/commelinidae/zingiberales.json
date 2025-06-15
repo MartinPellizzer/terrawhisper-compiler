@@ -1,0 +1,31 @@
+{
+    "title": "zingiberales",
+    "lastmod": "2025-2-22",
+    "intro": "The taxonomical rank of zingiberales refers to an order of flowering plants characterized by a distinct inflorescence and often associated with tropical or subtropical regions. Within this order, several families can be found, including the ginger family (Zingiberaceae), which is the namesake of the order. Other notable families within the zingiberales order include the orchid family (Orchidaceae) and the family Euphorbiaceae, although they are not typically associated with this order. The family Cyperaceae, commonly known as the sedge family, also belongs to the zingiberales order.",
+    "families": [
+        {
+            "family_slug": "marantaceae",
+            "family_desc": "Marantaceae is a family of flowering plants commonly known as the prayer plant family, which comprises approximately 31 genera and over 700 species of tropical plants."
+        },
+        {
+            "family_slug": "arecaceae",
+            "family_desc": "Arecaceae is a family of flowering plants commonly known as palm trees."
+        },
+        {
+            "family_slug": "zingiberaceae",
+            "family_desc": "Zingiberaceae is a family of flowering plants commonly known as ginger family, consisting of over 50 genera and 1,600 species of herbs, shrubs, and climbers native to tropical and subtropical regions."
+        },
+        {
+            "family_slug": "musaceae",
+            "family_desc": "Musaceae is a family of flowering plants commonly known as bananas and plantains."
+        },
+        {
+            "family_slug": "costaceae",
+            "family_desc": "Costaceae is a family of flowering plants in the order Zingiberales, commonly known as the arrowroot family."
+        },
+        {
+            "family_slug": "strelitziaceae",
+            "family_desc": "Strelitziaceae is a family of flowering plants in the order Zingiberales, commonly known as the bird of paradise plants."
+        }
+    ]
+}

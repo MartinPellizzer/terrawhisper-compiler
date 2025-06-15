@@ -1,0 +1,55 @@
+{
+    "title": "celastrales",
+    "lastmod": "2025-2-22",
+    "intro": "The Celastrales is an order of flowering plants, characterized by its diverse array of species, including shrubs, vines, and trees. This order is defined by its unique characteristics such as simple, alternate leaves and small, often four- or five-merous flowers. Celastrales includes a variety of plant families, such as Celastraceae, which is its namesake, as well as some species within the families Orchidaceae, Euphorbiaceae, and Cyperaceae. These diverse families within the Celastrales order showcase the complexity and diversity of plant life.",
+    "families": [
+        {
+            "family_slug": "urticaceae",
+            "family_desc": "Urticaceae is a family of flowering plants commonly known as the nettle family, which includes stinging nettles, dock, and sorrel."
+        },
+        {
+            "family_slug": "celastraceae",
+            "family_desc": "Celastraceae, a family of flowering plants commonly known as the bittersweet or staff vine family, comprises approximately 70 genera and 1000 species of deciduous or evergreen shrubs and vines."
+        },
+        {
+            "family_slug": "sabiaceae",
+            "family_desc": "Sabiaceae is a family of flowering plants commonly known as the soapberry or sabiaceae family."
+        },
+        {
+            "family_slug": "grossulariaceae",
+            "family_desc": "Grossulariaceae is a family of flowering plants in the order Rosales, commonly known as currants and gooseberries."
+        },
+        {
+            "family_slug": "apodanthaceae",
+            "family_desc": "Apodanthaceae is a small family of parasitic flowering plants found in tropical regions, particularly in the Americas."
+        },
+        {
+            "family_slug": "ancistrocladaceae",
+            "family_desc": "Ancistrocladaceae is a family of flowering plants in the order Polygalales, commonly known as the threadvines or elephant's tusk plants."
+        },
+        {
+            "family_slug": "anisophylleaceae",
+            "family_desc": "Anisophylleaceae is a family of flowering plants in the order Celastrales, commonly known as the Anisophylleaceae family or the Anisophyllaceae family, with species found in tropical regions of Asia and the Pacific."
+        },
+        {
+            "family_slug": "tetramelaceae",
+            "family_desc": "Tetramelaceae is a family of flowering plants in the order Celastrales, commonly known as the tetrameles or warty-stemmed trees."
+        },
+        {
+            "family_slug": "goupiaceae",
+            "family_desc": "Goupiaceae is a small family of flowering plants in the order Ericales, commonly known as the wolfberry or goupi family."
+        },
+        {
+            "family_slug": "eucommiaceae",
+            "family_desc": "Eucommiaceae is a small family of flowering plants, commonly known as the tung oil tree family."
+        },
+        {
+            "family_slug": "dirachmaceae",
+            "family_desc": "Dirachmaceae is a family of flowering plants in the order Rosales, characterized by thorny shrubs or small trees with small, inconspicuous flowers."
+        },
+        {
+            "family_slug": "peridiscaceae",
+            "family_desc": "Peridiscaceae is a family of flowering plants in the order Saxifragales."
+        }
+    ]
+}

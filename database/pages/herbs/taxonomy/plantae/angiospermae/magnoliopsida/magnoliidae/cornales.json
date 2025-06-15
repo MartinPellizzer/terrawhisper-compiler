@@ -1,0 +1,15 @@
+{
+    "title": "cornales",
+    "lastmod": "2025-2-22",
+    "intro": "The rank Cornales is an order of flowering plants, characterized by having showy or fragrant flowers, and often producing berries or drupes. This order comprises a diverse group of plants, including the families Cornaceae, Hydrangeaceae, and Alangiaceae. Some notable exceptions to this order include the families Orchidaceae, which is actually part of the order Asparagales, the family Euphorbiaceae, which is part of the order Malpighiales, and the family Cyperaceae, which is part of the order Poales. The Cornales order includes around 2,500 species, ranging from small shrubs to large trees.",
+    "families": [
+        {
+            "family_slug": "heliconiaceae",
+            "family_desc": "Heliconiaceae is a family of flowering plants in the order Zingiberales, commonly known as the heliconia or lobster claw family."
+        },
+        {
+            "family_slug": "hydrangeaceae",
+            "family_desc": "Hydrangeaceae is a family of flowering plants commonly known as hydrangeas, which includes around 100 species of shrubs and climbers found in tropical and temperate regions worldwide."
+        }
+    ]
+}

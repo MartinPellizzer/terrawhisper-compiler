@@ -1,0 +1,203 @@
+{
+    "url": "herbs/angelica-archangelica",
+    "herb_slug": "angelica-archangelica",
+    "herb_name_scientific": "angelica archangelica",
+    "lastmod": "2025-5-31",
+    "title": "Angelica Archangelica Uses, Benefits, And Remedies",
+    "intro": "Angelica archangelica, commonly known as angelica, is a biennial herb native to Europe and Asia, belonging to the carrot family. It is valued for its aromatic roots and leaves, which are used in traditional medicine and culinary applications. The herb offers various health benefits, including aiding digestion, reducing inflammation, and supporting respiratory health. Its therapeutic actions are attributed to bioactive constituents such as essential oils, flavonoids, and volatile compounds like phellandrene and limonene. Angelica can be prepared as an infusion, tincture, or decoction, making it versatile for herbal remedies and culinary uses.",
+    "benefits": "[SENTENCE NUM] Angelica archangelica boosts immune system by stimulating the production of white blood cells, which are essential for fighting off infections and diseases. This herb is rich in antioxidants and essential oils that help the body defend against pathogens, making it a valuable natural remedy during cold and flu seasons. In addition to its immune-boosting properties, angelica archangelica is known to heal digestive issues by reducing inflammation in the gastrointestinal tract and promoting healthy digestion. It can alleviate symptoms such as bloating, indigestion, and stomach cramps, making it beneficial for those with digestive disorders. Furthermore, angelica archangelica aids respiratory health by acting as a natural expectorant, helping to clear mucus from the lungs and ease breathing in individuals with conditions like bronchitis or asthma. It also treats nausea symptoms by soothing the stomach and reducing the sensation of queasiness, making it useful for those experiencing motion sickness or morning sickness. Overall, angelica archangelica offers a range of health benefits that support the body's natural defenses and promote overall well-being.",
+    "constituents": "Angelica archangelica ferulic acid is a key medicinal constituent known for its potent antioxidant and anti-inflammatory properties. This compound helps neutralize free radicals in the body, thereby reducing oxidative stress and supporting overall cellular health. Ferulic acid also plays a role in protecting the skin from damage caused by UV radiation and environmental pollutants. In addition to ferulic acid, Angelica archangelica contains ascorbic acid, which is another form of vitamin C that boosts immunity and promotes collagen synthesis. Coumarin, another compound found in this herb, acts as a natural anticoagulant and may help improve blood circulation. Phenolic acids, which are also present, contribute to the herb\u2019s anti-inflammatory and antimicrobial effects. Together, these constituents make Angelica archangelica a valuable herb in traditional and modern medicine for its diverse therapeutic benefits.",
+    "parts": "Angelica archangelica root is one of the most valued medicinal parts of this herb, known for its rich content of volatile oils, alkaloids, and other bioactive compounds. It has been traditionally used in herbal medicine to support digestive health, alleviate respiratory issues, and promote circulation. The root's aromatic compounds, such as phellandrene and limonene, contribute to its expectorant and antispasmodic properties, making it useful for treating coughs and bronchial congestion. Additionally, the root is believed to have adaptogenic qualities, helping the body manage stress and enhance vitality. While the leaves of Angelica archangelica are also used, they are typically less prominent in traditional medicine compared to the root, though they may provide some similar benefits in smaller quantities.",
+    "preparations": "Angelica archangelica teas are a popular method of consuming this potent herb, often prepared by steeping dried roots or leaves in hot water to extract its aromatic and medicinal properties. These teas are known for their warming effects and are frequently used to support digestion, alleviate respiratory congestion, and promote circulation. In addition to teas, Angelica archangelica can be made into tinctures, which involve soaking the herb in alcohol to create a concentrated liquid form for internal or external use. Decoctions, which involve boiling the root for a longer period, are commonly used for more robust medicinal applications, while syrups and mucillages are favored for their soothing effects on the throat and digestive tract. Capsules, oils, creams, and poultices offer alternative forms of administration, allowing for targeted relief in conditions such as muscle pain, skin irritations, or respiratory ailments. Each preparation method leverages the unique properties of Angelica archangelica to provide therapeutic benefits, making it a versatile herb in traditional and modern herbal medicine.",
+    "side_effects": "Angelica archangelica induces headaches, which can range from mild to severe, often accompanied by other neurological symptoms. This herb may also cause nausea, leading to a feeling of queasiness or an urge to vomit, particularly when consumed in high doses. Additionally, it can lead to drowsiness, affecting alertness and coordination, and may even provoke vomiting in some individuals. Stomach pain and digestive discomfort are also common side effects, as the herb can irritate the gastrointestinal tract. Furthermore, angelica archangelica may trigger anxiety or palpitations in sensitive individuals, and in rare cases, it can cause skin rashes or dizziness. These side effects highlight the importance of using the herb cautiously and consulting a healthcare professional before incorporating it into one's regimen, especially for those with pre-existing medical conditions or who are taking other medications.",
+    "benefits_num": 9,
+    "benefits_list": [
+        {
+            "name": "boosts immune system",
+            "description": "Angelica archangelica contains compounds that may enhance the body's immune response, helping to defend against infections and illnesses."
+        },
+        {
+            "name": "heals digestive issues",
+            "description": "It can soothe the digestive tract and may help alleviate symptoms of indigestion, bloating, and other gastrointestinal discomforts."
+        },
+        {
+            "name": "aids respiratory health",
+            "description": "The herb is believed to help ease symptoms of respiratory conditions such as coughs, bronchitis, and asthma by reducing inflammation and clearing airways."
+        },
+        {
+            "name": "treats nausea symptoms",
+            "description": "Angelica archangelica is traditionally used to relieve nausea, including morning sickness and motion sickness, due to its calming and anti-emetic properties."
+        },
+        {
+            "name": "treats skin infections",
+            "description": "Its antimicrobial properties may help treat skin infections and promote healing of wounds and rashes."
+        },
+        {
+            "name": "aids liver function",
+            "description": "It is thought to support liver health by aiding in detoxification processes and improving the function of the liver."
+        },
+        {
+            "name": "aids reproductive health",
+            "description": "Angelica archangelica has been historically used to support reproductive health, including menstrual regulation and fertility support."
+        },
+        {
+            "name": "reduces inflammation",
+            "description": "The herb contains anti-inflammatory compounds that may help reduce inflammation in various parts of the body, including joints and tissues."
+        },
+        {
+            "name": "fights bacterial infections",
+            "description": "Angelica archangelica exhibits antimicrobial properties that can help combat bacterial infections and support overall infection prevention."
+        }
+    ],
+    "constituents_num": 11,
+    "constituents_list": [
+        {
+            "name": "ferulic acid",
+            "description": "A potent antioxidant that helps protect cells from damage caused by free radicals, and may support skin health and reduce inflammation."
+        },
+        {
+            "name": "ascorbic acid",
+            "description": "Also known as vitamin C, it is an essential nutrient that supports immune function, skin health, and the absorption of iron."
+        },
+        {
+            "name": "coumarin",
+            "description": "A natural compound with anticoagulant properties, used in traditional medicine for its potential to improve blood flow and reduce inflammation."
+        },
+        {
+            "name": "phenolic acids",
+            "description": "A group of antioxidants that help neutralize free radicals, reduce inflammation, and may support cardiovascular health."
+        },
+        {
+            "name": "polyphenols",
+            "description": "A class of bioactive compounds with strong antioxidant properties, known to reduce oxidative stress and support overall health."
+        },
+        {
+            "name": "angelol",
+            "description": "A unique compound found in Angelica archangelica, believed to have anti-inflammatory and immune-modulating properties."
+        },
+        {
+            "name": "beta-pinene",
+            "description": "A terpene with mild sedative and anti-inflammatory effects, often used in aromatherapy and traditional medicine."
+        },
+        {
+            "name": "fatty acids",
+            "description": "Essential fats that play a role in cell membrane structure, hormone production, and overall metabolic processes."
+        },
+        {
+            "name": "flavonoids",
+            "description": "A diverse group of plant compounds with antioxidant, anti-inflammatory, and neuroprotective properties."
+        },
+        {
+            "name": "foeniculin",
+            "description": "A compound with antimicrobial and anti-inflammatory properties, used traditionally to treat respiratory and digestive issues."
+        },
+        {
+            "name": "glucuronic acid",
+            "description": "A compound involved in detoxification processes in the liver, helping to remove toxins and metabolic waste from the body."
+        }
+    ],
+    "parts_num": 2,
+    "parts_list": "",
+    "side_effects_num": 11,
+    "side_effects_list": [
+        {
+            "name": "induces headaches",
+            "description": "Angelica archangelica may cause headaches in some individuals, possibly due to its stimulating effects on the nervous system."
+        },
+        {
+            "name": "causes nausea",
+            "description": "Consuming Angelica archangelica can lead to nausea, especially when taken in high doses or on an empty stomach."
+        },
+        {
+            "name": "may cause fatigue",
+            "description": "The herb may cause fatigue in some people, possibly due to its impact on the body's energy levels and metabolism."
+        },
+        {
+            "name": "induces stomach pain",
+            "description": "Angelica archangelica may irritate the stomach lining, leading to discomfort or pain in some individuals."
+        },
+        {
+            "name": "causes skin rashes",
+            "description": "Some people may experience skin rashes or allergic reactions due to the compounds present in Angelica archangelica."
+        },
+        {
+            "name": "leads to nausea",
+            "description": "The herb can lead to nausea, potentially due to its effects on the digestive system and gastrointestinal tract."
+        },
+        {
+            "name": "leads to drowsiness",
+            "description": "Angelica archangelica may cause drowsiness as it has mild sedative properties that can affect the central nervous system."
+        },
+        {
+            "name": "provokes vomiting",
+            "description": "In some cases, Angelica archangelica can provoke vomiting, especially when consumed in large quantities."
+        },
+        {
+            "name": "leads to dizziness",
+            "description": "The herb may cause dizziness due to its potential effects on blood pressure and the nervous system."
+        },
+        {
+            "name": "triggers anxiety",
+            "description": "Angelica archangelica may trigger anxiety in some individuals, possibly due to its impact on neurotransmitter activity."
+        },
+        {
+            "name": "induces palpitations",
+            "description": "The herb may induce palpitations, potentially due to its effects on heart rate and blood pressure."
+        }
+    ],
+    "preparations_num": 13,
+    "preparations_list": [
+        {
+            "name": "teas",
+            "description": "Angelica archangelica tea is used to support digestion, relieve respiratory congestion, and promote circulation due to its warming properties."
+        },
+        {
+            "name": "tinctures",
+            "description": "Angelica tinctures are utilized for their stimulating effects on the nervous system and to treat respiratory and digestive ailments."
+        },
+        {
+            "name": "decoctions",
+            "description": "Angelica decoctions are employed to treat colds, coughs, and digestive issues, leveraging the herb's warming and antispasmodic properties."
+        },
+        {
+            "name": "syrups",
+            "description": "Angelica syrups are commonly used to soothe coughs and bronchial issues, thanks to their expectorant and antispasmodic effects."
+        },
+        {
+            "name": "mucillages",
+            "description": "Angelica mucillages are used to soothe irritated mucous membranes, particularly in the respiratory and digestive tracts."
+        },
+        {
+            "name": "capsules",
+            "description": "Angelica capsules are taken to support digestive health, relieve nausea, and enhance overall vitality due to their stimulating properties."
+        },
+        {
+            "name": "oils",
+            "description": "Angelica oils are applied topically to relieve muscle pain, improve circulation, and support skin health due to their warming and anti-inflammatory properties."
+        },
+        {
+            "name": "creams",
+            "description": "Angelica creams are used to reduce inflammation, soothe skin irritations, and promote healing of minor wounds and rashes."
+        },
+        {
+            "name": "linctuses",
+            "description": "Angelica linctuses are used to relieve coughs and soothe irritated throats, thanks to their expectorant and antispasmodic properties."
+        },
+        {
+            "name": "lozenges",
+            "description": "Angelica lozenges are used to alleviate sore throats and coughs, providing a soothing effect on the mucous membranes."
+        },
+        {
+            "name": "oinments",
+            "description": "Angelica ointments are applied externally to relieve joint pain, muscle aches, and skin conditions due to their warming and anti-inflammatory properties."
+        },
+        {
+            "name": "liniments",
+            "description": "Angelica liniments are used to relieve muscle and joint pain, improve circulation, and reduce inflammation when applied topically."
+        },
+        {
+            "name": "poultices",
+            "description": "Angelica poultices are used to treat wounds, reduce inflammation, and promote healing by applying the herb directly to the affected area."
+        }
+    ]
+}

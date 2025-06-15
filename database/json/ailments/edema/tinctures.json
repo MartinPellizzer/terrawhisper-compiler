@@ -1,0 +1,181 @@
+{
+    "url": "ailments/edema/tinctures",
+    "ailment_slug": "edema",
+    "ailment_name": "edema",
+    "preparation_slug": "tinctures",
+    "preparation_name": "tinctures",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Tinctures For Edema",
+    "intro": "Herbal tinctures for Edema are liquid extracts made from plant materials that are used to treat the swelling of body tissues due to excess fluid accumulation. These herbal remedies offer several benefits, including reducing inflammation, promoting lymphatic drainage, and enhancing circulation, which can help alleviate the symptoms of Edema. Some examples of herbal tinctures used to treat Edema include Dandelion root tincture, which helps remove excess fluids from the body, Burdock root tincture, which reduces inflammation and promotes circulation, and Cleavers tincture, which enhances lymphatic drainage and reduces swelling. Additionally, herbal tinctures such as Juniper berry, Uva Ursi, and Witch Hazel are also used to treat Edema due to their diuretic and anti-inflammatory properties, which help to reduce swelling and promote overall well-being.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 18,
+            "herb_confidence_score": 137,
+            "herb_total_score": 2466,
+            "preparation_desc": "Glycyrrhiza glabra tinctures have been traditionally used to treat edema, a condition characterized by the accumulation of fluid in the body's tissues, causing swelling and discomfort. The antiedemic properties of Glycyrrhiza glabra tinctures can be attributed to the presence of bioactive constituents such as glycyrrhizin, a triterpenoid saponin that helps to reduce inflammation and promote the removal of excess fluid from the body. By inhibiting the activity of the enzyme 11-beta-hydroxysteroid dehydrogenase, glycyrrhizin helps to reduce the levels of aldosterone, a hormone that can contribute to fluid retention and edema. The benefits of using Glycyrrhiza glabra tinctures to treat edema include reduced swelling, improved circulation, and a decrease in the risk of complications associated with fluid buildup.",
+            "preparation_study": "According to \"Journal of pharmacobio-dynamics\", Glycyrrhiza glabra tinctures for edema show anti-inflammatory activity, particularly with doses of glycyrrhizic acid 3.0 and 30.0 mg/kg p.o., which are almost equivalent to the quantities contained in the extracts of Glycyrrhizae Radix, 18.0 and 180.0 mg/kg, respectively.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Astragalus membranaceus",
+            "herb_mentions": 15,
+            "herb_confidence_score": 128,
+            "herb_total_score": 1920,
+            "preparation_desc": "Astragalus membranaceus tinctures have been used in traditional medicine to treat edema, a condition characterized by swelling due to excess fluid accumulation in the body. The diuretic properties of Astragalus membranaceus tinctures help to reduce fluid retention and alleviate swelling by increasing urine production and promoting the excretion of excess fluids. The bioactive constituents, including flavonoids, saponins, and polysaccharides, in Astragalus membranaceus tinctures contribute to its diuretic and anti-inflammatory effects, which aid in the treatment of edema. Regular use of Astragalus membranaceus tinctures has been shown to provide relief from edema symptoms, promote overall well-being, and reduce the risk of complications associated with this condition.",
+            "preparation_study": "According to \"Plastic and reconstructive surgery. Global open\", Astragalus membranaceus tinctures for edema showed a significant improvement in appearance and symptom scores, as assessed with the LYMQOL questionnaire, among patients with post-mastectomy lymphedema, however, there was no significant reduction in limb volume.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 16,
+            "herb_confidence_score": 112,
+            "herb_total_score": 1792,
+            "preparation_desc": "Ginkgo biloba tinctures have been traditionally used to treat edema, a condition characterized by swelling in the body due to excess fluid retention. The properties of Ginkgo biloba tinctures, including their anti-inflammatory and diuretic properties, help to alleviate the symptoms of edema by reducing swelling and promoting fluid drainage. The bioactive constituents of Ginkgo biloba tinctures, such as flavonoids and terpenoids, play a crucial role in their therapeutic effects, helping to improve blood circulation, reduce oxidative stress, and modulate the immune response. By using Ginkgo biloba tinctures, individuals can benefit from their ability to reduce edema, alleviate pain and discomfort, and improve overall well-being.",
+            "preparation_study": "According to \"Zhongguo Zhong yao za zhi = Zhongguo zhongyao zazhi = China journal of Chinese materia medica\", Ginkgo biloba tinctures may help alleviate inflammation and eliminate edema in the treatment of various cerebral diseases, including those caused by chronic cerebral hypoperfusion.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 12,
+            "herb_confidence_score": 96,
+            "herb_total_score": 1152,
+            "preparation_desc": "Curcuma longa tinctures have been traditionally used to treat edema, a condition characterized by swelling due to fluid accumulation in the body. The bioactive constituents of Curcuma longa, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, possess anti-inflammatory and antioxidant properties that help to reduce inflammation and alleviate swelling associated with edema. These bioactive constituents inhibit the production of pro-inflammatory enzymes and cytokines, thereby reducing the severity of edema and promoting healing. The benefits of using Curcuma longa tinctures to treat edema include reduced inflammation, improved circulation, and enhanced overall well-being, making it a valuable herbal preparation for managing this common ailment.",
+            "preparation_study": "According to \"Veterinary research communications\", Curcuma longa tinctures for edema may be beneficial as the encapsulation of Curcuma longa extracts in Ethosome resulted in improved wound healing and resolution at the cellular level.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 12,
+            "herb_confidence_score": 94,
+            "herb_total_score": 1128,
+            "preparation_desc": "Silybum marianum tinctures have been traditionally used to treat edema, a condition characterized by swelling due to excess fluid retention. The anti-inflammatory and diuretic properties of this herbal preparation help to alleviate the symptoms of edema, reducing swelling and promoting the removal of excess fluids from the body. The bioactive constituents, including flavonoids, terpenoids, and silymarin, play a crucial role in treating edema by inhibiting the activity of pro-inflammatory enzymes and improving kidney function. By using Silybum marianum tinctures, individuals can benefit from a natural and effective treatment for edema, reducing the risk of complications such as hypertension and heart disease.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ruscus aculeatus",
+            "herb_mentions": 13,
+            "herb_confidence_score": 89,
+            "herb_total_score": 1157,
+            "preparation_desc": "Ruscus aculeatus tinctures have been traditionally used to treat edema, a condition characterized by swelling caused by excess fluid retention. The herbal preparation contains bioactive constituents such as flavonoids, alkaloids, and saponins that help to treat edema by promoting diuresis, reducing inflammation, and enhancing lymphatic circulation. By increasing urine production and reducing water retention, Ruscus aculeatus tinctures help to alleviate swelling and discomfort associated with edema. The benefits of using Ruscus aculeatus tinctures to treat edema include reduced swelling, improved circulation, and relief from pain and discomfort, making it a popular natural remedy for this condition.",
+            "preparation_study": "According to \"Arzneimittel-Forschung\", Ruscus aculeatus tinctures for edema have been found to be effective in reducing leg volume changes and alleviating symptoms of chronic venous insufficiency in patients, as demonstrated by a significant decrease in leg volume and improved subjective symptoms in a multi-center, double-blind, randomized, placebo-controlled trial.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 12,
+            "herb_confidence_score": 87,
+            "herb_total_score": 1044,
+            "preparation_desc": "Zingiber officinale tinctures have been traditionally used to treat edema due to their anti-inflammatory and diuretic properties, which help to reduce swelling and excess fluid accumulation in the body. The bioactive constituents of Zingiber officinale, including gingerols and shogaols, exhibit potent anti-inflammatory and antioxidant activities that contribute to its therapeutic effects. These compounds help to improve circulation, reduce oxidative stress, and inhibit the activity of pro-inflammatory enzymes, ultimately leading to a reduction in edema symptoms. By using Zingiber officinale tinctures, individuals may experience relief from edema-related discomfort and improve their overall well-being.",
+            "preparation_study": "According to \"Phytomedicine : international journal of phytotherapy and phytopharmacology\", Zingiber officinale tinctures for edema were found to be effective in reducing rat paw and skin edema induced by carrageenan, compound 48/80, serotonin, and were also found to have an antagonistic effect on the serotonin receptor.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 12,
+            "herb_confidence_score": 85,
+            "herb_total_score": 1020,
+            "preparation_desc": "Taraxacum officinale tinctures have been traditionally used to treat edema, a condition characterized by swelling caused by excess fluid retention. The herbal preparation's anti-inflammatory properties, which are attributed to its bioactive constituents such as flavonoids, sesquiterpenes, and phenolic acids, help to reduce swelling and alleviate discomfort. The diuretic properties of Taraxacum officinale tinctures also contribute to its effectiveness in treating edema by promoting the removal of excess fluid from the body. By reducing inflammation and promoting diuresis, Taraxacum officinale tinctures provide relief from edema and its associated symptoms, offering a natural alternative to conventional treatments.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 10,
+            "herb_confidence_score": 81,
+            "herb_total_score": 810,
+            "preparation_desc": "Urtica dioica tinctures have been traditionally used to treat edema, a condition characterized by swelling due to excess fluid retention. The anti-inflammatory and antispasmodic properties of this herbal preparation help to reduce swelling and ease discomfort associated with edema. The bioactive constituents of Urtica dioica tinctures, including flavonoids, phenolic acids, and saponins, contribute to its therapeutic effects by inhibiting the activity of pro-inflammatory enzymes and improving lymphatic drainage. Regular use of Urtica dioica tinctures has been found to provide relief from edema symptoms, including reduced swelling, pain, and improved mobility, making it a beneficial herbal remedy for this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Angelica sinensis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 78,
+            "herb_total_score": 780,
+            "preparation_desc": "Angelica sinensis tinctures, a traditional herbal remedy, have been used to treat edema due to their anti-inflammatory, antispasmodic, and diuretic properties. These properties help to reduce swelling, relax muscles, and increase urine production, thereby alleviating edema symptoms. The bioactive constituents of Angelica sinensis, including ferulic acid, polysaccharides, and volatile oils, contribute to its therapeutic effects by modulating the body's inflammatory response and promoting fluid drainage. The benefits of using Angelica sinensis tinctures to treat edema include improved circulation, reduced pain and discomfort, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 14,
+            "herb_confidence_score": 76,
+            "herb_total_score": 1064,
+            "preparation_desc": "Lavandula angustifolia tinctures have been traditionally used to treat edema due to their anti-inflammatory and antispasmodic properties, which help to reduce swelling and alleviate discomfort. The bioactive constituents of Lavandula angustifolia, including linalool and linalyl acetate, contribute to its therapeutic effects by modulating the body's response to inflammation and promoting relaxation. By reducing inflammation and promoting blood circulation, Lavandula angustifolia tinctures help to alleviate edema symptoms and promote overall well-being. Regular use of Lavandula angustifolia tinctures has been reported to provide relief from edema symptoms, improve circulation, and reduce the risk of complications associated with this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Equisetum arvense",
+            "herb_mentions": 10,
+            "herb_confidence_score": 70,
+            "herb_total_score": 700,
+            "preparation_desc": "Equisetum arvense tinctures have been traditionally used to treat edema due to their diuretic, anti-inflammatory, and antioxidant properties. The bioactive constituents, such as flavonoids and saponins, help to reduce fluid retention and alleviate swelling by improving lymphatic circulation and promoting the removal of excess fluids from the body. By increasing urine production and reducing inflammation, Equisetum arvense tinctures can help to relieve the symptoms of edema, including swelling and pain. The benefits of using Equisetum arvense tinctures to treat edema include reduced inflammation, improved circulation, and a decrease in the severity of symptoms, making it a potential natural remedy for managing this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 69,
+            "herb_total_score": 690,
+            "preparation_desc": "Cinchona officinalis tinctures have been traditionally used to treat edema, a condition characterized by swelling due to excess fluid in the body. The herbal preparation exhibits diuretic and anti-inflammatory properties, which help to reduce swelling and alleviate symptoms associated with edema. The bioactive constituents, including quinine and alkaloids, have been found to promote urine production and reduce inflammation, thereby contributing to the treatment of edema. The benefits of using Cinchona officinalis tinctures to treat edema include reduced swelling, improved circulation, and relief from pain and discomfort associated with this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cynara scolymus",
+            "herb_mentions": 9,
+            "herb_confidence_score": 60,
+            "herb_total_score": 540,
+            "preparation_desc": "Cynara scolymus tinctures have been traditionally used to treat edema, a condition characterized by swelling due to fluid retention. The properties of Cynara scolymus tinctures, including its diuretic and anti-inflammatory properties, help to reduce fluid accumulation and alleviate symptoms associated with edema. The bioactive constituents present in Cynara scolymus tinctures, such as flavonoids, phenolic acids, and saponins, are believed to contribute to its therapeutic effects by promoting diuresis and reducing inflammation. The benefits of using Cynara scolymus tinctures to treat edema include reduced swelling, improved circulation, and relief from discomfort associated with this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 8,
+            "herb_confidence_score": 59,
+            "herb_total_score": 472,
+            "preparation_desc": "Echinacea purpurea tinctures have been traditionally used to treat edema due to their anti-inflammatory and antioxidant properties, which help to reduce swelling and alleviate symptoms. The bioactive constituents, including alkylamides and caffeic acid derivatives, in Echinacea purpurea tinctures are responsible for their therapeutic effects, as they inhibit the production of pro-inflammatory enzymes and cytokines that contribute to edema. By reducing inflammation and promoting tissue repair, Echinacea purpurea tinctures can help to alleviate edema symptoms, such as swelling and pain, and improve overall health. The benefits of using Echinacea purpurea tinctures to treat edema include reduced inflammation, improved circulation, and enhanced immune function, making it a valuable herbal preparation for managing this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Paeonia lactiflora",
+            "herb_mentions": 7,
+            "herb_confidence_score": 56,
+            "herb_total_score": 392,
+            "preparation_desc": "Paeonia lactiflora tinctures have been traditionally used to treat edema, a condition characterized by swelling due to excess fluid retention. The properties of this herbal preparation, including its anti-inflammatory, diuretic, and vasodilatory effects, help to alleviate edema by reducing fluid accumulation and improving blood circulation. The bioactive constituents of Paeonia lactiflora, such as paeonol and paeoniflorin, play a crucial role in modulating the body's response to inflammation and promoting the removal of excess fluids. The use of Paeonia lactiflora tinctures to treat edema is beneficial due to its ability to provide rapid relief from swelling and discomfort, making it a popular natural remedy for this common condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Althaea officinalis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 46,
+            "herb_total_score": 276,
+            "preparation_desc": "Althaea officinalis tinctures have been traditionally used to treat edema, a condition characterized by the accumulation of fluid in the body's tissues, due to their anti-inflammatory and diuretic properties. The mucilages present in Althaea officinalis tinctures, such as gallic acid and mucilage, help to reduce inflammation and promote the removal of excess fluid from the body, thereby alleviating edema. By reducing inflammation and improving lymphatic drainage, Althaea officinalis tinctures help to treat edema by decreasing swelling and promoting the return of fluid to the circulatory system. The benefits of using Althaea officinalis tinctures to treat edema include reduced swelling, improved circulation, and a decrease in the risk of complications associated with fluid buildup.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Centella asiatica",
+            "herb_mentions": 5,
+            "herb_confidence_score": 45,
+            "herb_total_score": 225,
+            "preparation_desc": "Centella asiatica tinctures are a herbal preparation used to treat edema, a condition characterized by swelling in various parts of the body. The properties of this herbal preparation, including its anti-inflammatory and antioxidant properties, help to reduce swelling and alleviate discomfort associated with edema. The bioactive constituents of Centella asiatica tinctures, such as asiatic acid and madecassic acid, have been shown to improve blood circulation and lymphatic drainage, which helps to reduce fluid buildup in the affected areas. The benefits of using Centella asiatica tinctures to treat edema include rapid reduction in swelling, improved circulation, and enhanced overall well-being, making it a popular natural remedy for this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 6,
+            "herb_confidence_score": 45,
+            "herb_total_score": 270,
+            "preparation_desc": "Achillea millefolium tinctures have been traditionally used to treat edema, a condition characterized by swelling caused by excess fluid accumulation in the body. The herbal preparation exhibits anti-inflammatory, diuretic, and antioxidant properties, which help to reduce swelling, improve circulation, and protect the body from oxidative stress. The bioactive constituents, including sesquiterpenes, flavonoids, and phenolic acids, work synergistically to modulate the immune response, reduce inflammation, and promote the removal of excess fluids from the body. By using Achillea millefolium tinctures, individuals can benefit from reduced swelling, improved circulation, and a lower risk of complications associated with edema.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 43,
+            "herb_total_score": 301,
+            "preparation_desc": "Rosmarinus officinalis tinctures are a herbal preparation used to treat edema, a condition characterized by swelling due to excess fluid retention. The tinctures contain bioactive constituents such as carnosic acid, rosmarinic acid, and ursolic acid, which have anti-inflammatory and antioxidant properties that help to reduce swelling and alleviate pain. By reducing inflammation and improving circulation, Rosmarinus officinalis tinctures can help to treat edema by promoting the removal of excess fluids from the affected area. The benefits of using Rosmarinus officinalis tinctures to treat edema include natural pain relief, reduced swelling, and improved overall well-being, making it a popular alternative remedy for this common condition.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Nihon yakurigaku zasshi. Folia pharmacologica Japonica\", tinctures for edema made from the Tinospora crispa plant have shown a 38% inhibition of carrageenin-induced foot pad edema in rats when administered orally at a dose of 10 mg/kg."
+}

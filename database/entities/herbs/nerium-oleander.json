@@ -1,0 +1,18 @@
+{
+    "url": "herbs/nerium-oleander",
+    "herb_slug": "nerium-oleander",
+    "herb_name_scientific": "nerium oleander",
+    "lastmod": "2025-5-31",
+    "benefits_num": 11,
+    "benefits_title": "11 Best Health Benefits Of Nerium Oleander",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 10,
+            "confidence_score": 100,
+            "total_score": 1000
+        }
+    ],
+    "constituents_num": 13,
+    "side_effects_num": 7
+}

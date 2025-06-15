@@ -1,0 +1,24 @@
+{
+    "url": "herbs/anemone-nemorosa",
+    "herb_slug": "anemone-nemorosa",
+    "herb_name_scientific": "anemone nemorosa",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Anemone Nemorosa",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 6,
+            "confidence_score": 50,
+            "total_score": 300
+        },
+        {
+            "answer": "medicine",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        }
+    ],
+    "constituents_num": 11,
+    "side_effects_num": 11
+}

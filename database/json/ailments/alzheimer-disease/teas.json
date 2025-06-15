@@ -1,0 +1,243 @@
+{
+    "url": "ailments/alzheimer-disease/teas",
+    "ailment_slug": "alzheimer-disease",
+    "ailment_name": "alzheimer\u2019s disease",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 13,
+    "title": "13 Best Herbal Teas For Alzheimer\u2019S Disease",
+    "intro": "Herbal teas for Alzheimer\u2019s disease are a natural and holistic approach to treating the symptoms of this neurodegenerative disorder. These teas are made from a variety of herbs, plants, and flowers that are believed to have antioxidant, anti-inflammatory, and cognitive-boosting properties, which can help alleviate memory loss, confusion, and other cognitive impairments associated with Alzheimer\u2019s. Some examples of herbal teas that have shown promise in treating Alzheimer\u2019s disease include ginkgo biloba, which improves blood flow to the brain and enhances cognitive function; Bacopa monnieri, which enhances memory and cognitive processing speed; lavender, which reduces anxiety and stress; green tea, which has high levels of antioxidants and may help slow down the progression of the disease; peppermint, which improves memory and focus; passionflower, which reduces anxiety and stress; and turmeric, which has anti-inflammatory properties that may help reduce neuroinflammation. By incorporating these herbal teas into their daily routine, individuals with Alzheimer\u2019s disease may experience improved cognitive function, reduced symptoms, and enhanced overall well-being.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 22,
+            "herb_confidence_score": 181,
+            "herb_total_score": 3982,
+            "preparation_desc": "Ginkgo biloba teas have been studied for their potential to treat Alzheimer's disease, a progressive neurological disorder. The properties of this herbal preparation, particularly its antioxidant and anti-inflammatory properties, help to protect brain cells from oxidative damage and inflammation, which are key factors in the progression of Alzheimer's disease. The bioactive constituents of Ginkgo biloba teas, including flavonoids, terpenoids, and bilobalide, have been shown to improve cognitive function and memory by increasing blood flow to the brain and preventing the formation of amyloid plaques, a hallmark of Alzheimer's disease. The benefits of Ginkgo biloba teas in treating Alzheimer's disease include improved memory and cognitive function, reduced risk of dementia, and enhanced quality of life for individuals with this debilitating condition.",
+            "preparation_study": "According to \"Archives of neurology\", Ginkgo biloba teas for alzheimer\u2019s disease show a small but significant effect of 3- to 6-month treatment with 120 to 240 mg of G. biloba extract on objective measures of cognitive function, translating into a 3% difference in the Alzheimer Disease Assessment Scale-cognitive subtest.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 19,
+            "herb_confidence_score": 146,
+            "herb_total_score": 2774,
+            "preparation_desc": "Curcuma longa teas have been studied for their potential in treating Alzheimer's disease, a progressive neurological disorder characterized by memory loss and cognitive decline. The bioactive constituents, particularly curcumin and demethoxycurcumin, possess anti-inflammatory and antioxidant properties that may help reduce the progression of neurodegenerative changes and improve memory and cognitive function. By inhibiting the formation of amyloid plaques and tau tangles, the key pathological features of Alzheimer's disease, Curcuma longa teas may help alleviate symptoms and improve the quality of life for patients. The benefits of using Curcuma longa teas to treat Alzheimer's disease include improved memory and cognitive function, reduced inflammation and oxidative stress, and a potential delay in the progression of the disease.",
+            "preparation_study": "According to the study, Curcuma longa teas for Alzheimer's disease exhibit anti-inflammatory and antioxidant effects, potentially mitigating neuroinflammation and oxidative stress due to its curcumin content.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Bacopa monnieri",
+            "herb_mentions": 16,
+            "herb_confidence_score": 140,
+            "herb_total_score": 2240,
+            "preparation_desc": "Bacopa monnieri teas have been traditionally used to treat Alzheimer's disease due to their potential neuroprotective and cognitive-enhancing properties. The herbal preparation is believed to help treat this ailment by improving memory and cognitive function through the enhancement of acetylcholine levels in the brain and reduction of oxidative stress and inflammation. The bioactive constituents of Bacopa monnieri, including bacosides A and B, as well as saponins and alkaloids, have been shown to possess neuroprotective and anti-inflammatory properties that may contribute to its potential therapeutic benefits. Regular consumption of Bacopa monnieri teas may help to slow down the progression of Alzheimer's disease and improve quality of life for individuals affected by this condition.",
+            "preparation_study": "According to \"Journal of ethnopharmacology\", Bacopa monnieri teas may be beneficial for Alzheimer\u2019s disease as they inhibit the release of pro-inflammatory cytokines from microglial cells and enzymes associated with inflammation in the brain, which are involved in the development of the disease.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Centella asiatica",
+            "herb_mentions": 17,
+            "herb_confidence_score": 125,
+            "herb_total_score": 2125,
+            "preparation_desc": "Centella asiatica teas have been traditionally used to treat Alzheimer's disease due to their antioxidant, anti-inflammatory, and neuroprotective properties. The bioactive constituents of Centella asiatica, including asiatic acid, madecassic acid, and asiaticoside, help to improve memory and cognitive function by reducing oxidative stress and inflammation in the brain, thereby slowing down the progression of the disease. These bioactive constituents also promote the growth of new neurons and improve blood flow to the brain, which helps to alleviate symptoms of Alzheimer's disease, such as memory loss and cognitive decline. Overall, Centella asiatica teas may be beneficial in treating Alzheimer's disease by improving cognitive function, reducing inflammation, and promoting neuronal health.",
+            "preparation_study": "According to \"Basic and clinical neuroscience\", Centella asiatica teas for Alzheimer's disease have been shown to improve working memory deficit and prevent neuronal loss in the hippocampus, indicating potential therapeutic benefits for neurodegenerative disorders.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 20,
+            "herb_confidence_score": 117,
+            "herb_total_score": 2340,
+            "preparation_desc": "Zingiber officinale teas, derived from the root of the ginger plant, have been studied for their potential in treating Alzheimer's disease due to their anti-inflammatory and antioxidant properties. The bioactive constituents of this herbal preparation, including gingerols and shogaols, have been shown to help reduce inflammation and oxidative stress in the brain, which are associated with the progression of Alzheimer's disease. The benefits of Zingiber officinale teas in treating this ailment include improved cognitive function, reduced symptoms of dementia, and enhanced overall brain health. Additionally, the anti-inflammatory properties of ginger have been found to help reduce the formation of amyloid plaques, a hallmark of Alzheimer's disease, making Zingiber officinale teas a promising natural remedy for this condition.",
+            "preparation_study": "According to \"Hormone molecular biology and clinical investigation\", Zingiber officinale teas may be beneficial in improving memory and reducing oxidative stress associated with Alzheimer's disease, as it has been shown to reduce markers of oxidative stress and improve memory in a diabetes-induced model in rats.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 15,
+            "herb_confidence_score": 114,
+            "herb_total_score": 1710,
+            "preparation_desc": "Panax ginseng teas have been studied for their potential benefits in treating Alzheimer's disease, a progressive neurological disorder characterized by memory loss and cognitive decline. The bioactive constituents of Panax ginseng, including ginsenosides and polysaccharides, have been shown to have neuroprotective effects, reducing oxidative stress and inflammation in the brain. By modulating the activity of neurotransmitters and improving blood flow to the brain, Panax ginseng teas may help to alleviate symptoms of Alzheimer's disease, such as memory loss and confusion. The benefits of Panax ginseng teas in treating Alzheimer's disease include improved cognitive function, enhanced memory, and reduced risk of dementia, making them a promising herbal preparation for the management of this condition.",
+            "preparation_study": "According to \"Molecules (Basel, Switzerland)\", Panax ginseng teas for alzheimer\u2019s disease have been found to have potential as a neuroprotective agent, with its main active ingredient, ginsenoside, showing evidence of preventing neurodegenerative diseases, including Alzheimer's.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Honey-Ginseng-Eco-Conscious-FGO/dp/B09Z37KVJM",
+                "affiliate_link": "https://amzn.to/43IctzX",
+                "title": "FGO Organic Honey Ginseng Green Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 18,
+            "herb_confidence_score": 105,
+            "herb_total_score": 1890,
+            "preparation_desc": "Rosmarinus officinalis teas, derived from the leaves of the rosemary plant, have been traditionally used to help alleviate the symptoms of Alzheimer's disease. The anti-inflammatory and antioxidant properties of this herbal preparation, including rosmarinic acid, carnosic acid, and caffeic acid, help to reduce oxidative stress and inflammation in the brain, which are known to contribute to the progression of Alzheimer's disease. By modulating the activity of key enzymes and neurotransmitters involved in the disease, Rosmarinus officinalis teas may help to improve cognitive function and memory in individuals with Alzheimer's disease. The benefits of this herbal preparation include improved memory and cognitive function, reduced risk of neurodegeneration, and enhanced overall brain health, making it a potential complementary therapy for managing Alzheimer's disease.",
+            "preparation_study": "According to \"Plants (Basel, Switzerland)\", Rosmarinus officinalis teas may provide some potential benefits for Alzheimer's disease as the ethyl-acetate extract exhibited significant inhibitory effects against acetylcholinesterase with an inhibition of 75%, comparable to the standard inhibitor galanthamine.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Withania somnifera",
+            "herb_mentions": 11,
+            "herb_confidence_score": 89,
+            "herb_total_score": 979,
+            "preparation_desc": "Withania somnifera teas have been studied for their potential to treat Alzheimer's disease, a neurodegenerative condition characterized by memory loss and cognitive decline. The bioactive constituents of Withania somnifera, such as withanolides, withaferin A, and withanosides, exhibit antioxidant, anti-inflammatory, and neuroprotective properties that help to mitigate oxidative stress and inflammation in the brain, contributing to the progression of Alzheimer's disease. The herbal preparation is believed to help treat Alzheimer's disease by enhancing cognitive function, improving memory, and promoting neuroregeneration, thereby alleviating symptoms associated with the condition. The benefits of Withania somnifera teas in treating Alzheimer's disease include improved cognitive function, enhanced memory, and a reduced risk of neurodegeneration, making it a potential adjunctive therapy for managing this debilitating condition.",
+            "preparation_study": "According to the study, Withania somnifera teas have shown neuroprotective properties against Alzheimer's disease through mechanisms such as restoring mitochondrial and endothelial function, mitigating apoptosis, inflammation, and oxidative stress.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ashwagandha-Eco-Conscious-Kraft-FGO/dp/B08VYF87P3",
+                "affiliate_link": "https://amzn.to/4dbJc3q",
+                "title": "FGO Organic Ashwagandha Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 16,
+            "herb_confidence_score": 88,
+            "herb_total_score": 1408,
+            "preparation_desc": "Melissa officinalis teas, also known as lemon balm tea, have been studied for their potential in treating Alzheimer's disease due to their antioxidant, anti-inflammatory, and neuroprotective properties. The tea's bioactive constituents, including rosmarinic acid, melissic acid, and luteolin, help to inhibit the formation of amyloid plaques and improve cognitive function. Drinking Melissa officinalis tea may help to reduce symptoms of Alzheimer's disease, such as memory loss and confusion, by promoting neuroregeneration and improving neuronal communication. The benefits of Melissa officinalis tea in treating Alzheimer's disease include improved cognitive function, reduced stress and anxiety, and enhanced overall brain health.",
+            "preparation_study": "According to the study, Melissa officinalis teas showed significant positive effects on Alzheimer's disease when used alone or in combination with other natural remedies.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 14,
+            "herb_confidence_score": 82,
+            "herb_total_score": 1148,
+            "preparation_desc": "Passiflora incarnata teas, also known as passionflower tea, have been studied for their potential in treating Alzheimer's disease due to their anxiolytic and antispasmodic properties. The herbal preparation's ability to reduce anxiety and promote relaxation may help alleviate symptoms associated with the disease, such as agitation and aggression. Bioactive constituents like flavonoids, alkaloids, and glycosides in Passiflora incarnata teas may contribute to their therapeutic effects, including the inhibition of acetylcholinesterase and the modulation of neurotransmitters. Regular consumption of Passiflora incarnata teas may provide benefits in managing Alzheimer's disease symptoms, improving cognitive function, and enhancing overall quality of life.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Certified-Wrapped/dp/B000YTCSLQ",
+                "affiliate_link": "https://amzn.to/3FU2zS4",
+                "title": "Traditional Medicinals Organic Nighty Night with Passionflower Herbal Tea, Promotes a Good Night\u2019s Sleep, (Pack of 1) - 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 82,
+            "herb_total_score": 902,
+            "preparation_desc": "Valeriana officinalis teas have been studied for their potential to treat Alzheimer's disease due to their anti-inflammatory, antioxidant, and neuroprotective properties. The flavonoids and phenolic acids present in this herbal preparation have been shown to inhibit the progression of neurodegenerative diseases by reducing oxidative stress and improving memory and cognitive function. The bioactive constituents of Valeriana officinalis, including valerenic acid, isovaleric acid, and valepotriates, have been found to modulate neurotransmitter activity and promote the growth of new neurons, thereby helping to alleviate symptoms of Alzheimer's disease. Regular consumption of Valeriana officinalis teas may provide benefits in slowing down the progression of Alzheimer's disease and improving the quality of life for patients suffering from this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 16,
+            "herb_confidence_score": 78,
+            "herb_total_score": 1248,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to treat Alzheimer's disease due to their neuroprotective and anti-inflammatory properties, which help to reduce oxidative stress and inflammation in the brain. The bioactive constituents of lavender tea, including linalool and linalyl acetate, have been shown to possess cholinergic activity, which helps to improve memory and cognitive function. By reducing inflammation and promoting the growth of new neurons, lavender tea may help to alleviate some of the symptoms associated with Alzheimer's disease, including memory loss and cognitive decline. Overall, the benefits of using Lavandula angustifolia teas to treat Alzheimer's disease include improved memory and cognitive function, reduced inflammation and oxidative stress, and a potential reduction in the progression of the disease.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 13,
+            "herb_confidence_score": 76,
+            "herb_total_score": 988,
+            "preparation_desc": "Avena sativa teas have been traditionally used as a natural remedy to help alleviate symptoms associated with Alzheimer's disease. The herbal preparation contains properties such as flavonoids, phenolic acids, and avenacosides, which have been found to have neuroprotective and anti-inflammatory effects, helping to reduce oxidative stress and inflammation in the brain. The bioactive constituents of Avena sativa, including avenanthramides and avenacosides, have been shown to promote the growth of new neurons, improve cognitive function, and reduce the progression of neurodegenerative diseases like Alzheimer's. Overall, Avena sativa teas offer a potential natural approach to managing Alzheimer's symptoms, with benefits including improved memory and cognitive function, reduced anxiety and stress, and enhanced overall brain health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Chamomile-Eco-Conscious-Lined-FGO/dp/B07N2F8718",
+                "affiliate_link": "https://amzn.to/3EaZYm9",
+                "title": "FGO Organic Chamomile Tea, 100 Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Salvia miltiorrhiza",
+            "herb_mentions": 9,
+            "herb_confidence_score": 72,
+            "herb_total_score": 648,
+            "preparation_desc": "Salvia miltiorrhiza teas, also known as danshen, have been traditionally used to treat various health conditions, including Alzheimer's disease. The properties of this herbal preparation that help to treat this ailment include its antioxidant, anti-inflammatory, and neuroprotective effects. The bioactive constituents of Salvia miltiorrhiza, such as tanshinones and salvianolic acids, have been shown to improve cognitive function, reduce oxidative stress, and prevent neuronal damage, ultimately helping to alleviate symptoms of Alzheimer's disease. The benefits of using Salvia miltiorrhiza teas to treat Alzheimer's disease include improved memory and cognitive function, reduced risk of neurodegeneration, and enhanced overall brain health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 11,
+            "herb_confidence_score": 65,
+            "herb_total_score": 715,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort, have been studied for their potential to treat Alzheimer's disease due to their anti-inflammatory, antioxidant, and neuroprotective properties. The bioactive constituents of this herbal preparation, including hyperforin and hypericin, have been shown to inhibit the production of amyloid-beta, a key contributor to the progression of Alzheimer's disease. These constituents help to reduce oxidative stress and inflammation in the brain, thereby slowing down the progression of the disease. By consuming Hypericum perforatum teas, individuals may experience improved cognitive function, reduced symptoms of anxiety and depression, and a slower decline in memory and cognitive abilities associated with Alzheimer's disease.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        },
+        {
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 56,
+            "herb_total_score": 448,
+            "preparation_desc": "Salvia officinalis teas have been explored for their potential in treating Alzheimer's disease due to their rich antioxidant and anti-inflammatory properties. The rosmarinic acid present in Salvia officinalis teas may help to reduce oxidative stress and inflammation in the brain, which are associated with the progression of Alzheimer's disease. The bioactive constituents of Salvia officinalis teas, including rosmarinic acid and carnosic acid, may also have neuroprotective effects, helping to prevent the degeneration of neurons and improve cognitive function. Drinking Salvia officinalis teas may have benefits in slowing down the progression of Alzheimer's disease and improving the quality of life for patients, although more research is needed to confirm its efficacy.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Taylors-Harrogate-Green-Jasmine-Teabags/dp/B000MN69CS",
+                "affiliate_link": "https://amzn.to/4iXf0ei",
+                "title": "Taylors of Harrogate Green Tea with Jasmine, 50 Teabags"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 8,
+            "herb_confidence_score": 55,
+            "herb_total_score": 440,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle teas, have been studied for their potential to treat Alzheimer's disease due to their anti-inflammatory and neuroprotective properties. The silymarin, a bioactive constituent of Silybum marianum teas, has been shown to help reduce oxidative stress and inflammation in the brain, which are contributing factors to the development and progression of Alzheimer's disease. By reducing the levels of beta-amyloid plaques and neurofibrillary tangles, Silybum marianum teas may help improve cognitive function and slow down the progression of the disease. The benefits of using Silybum marianum teas to treat Alzheimer's disease include improved memory and cognitive function, reduced inflammation, and a potential delay in the onset of symptoms.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Scutellaria baicalensis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 48,
+            "herb_total_score": 288,
+            "preparation_desc": "Scutellaria baicalensis teas, also known as Baikal skullcap, have been studied for their potential in treating Alzheimer's disease due to their antioxidant, anti-inflammatory, and neuroprotective properties. This herbal preparation contains bioactive constituents such as baicalein and baicalin, which have been shown to inhibit the formation of amyloid plaques, a hallmark of Alzheimer's disease. The neuroprotective effects of Scutellaria baicalensis teas may help to reduce oxidative stress and inflammation in the brain, thereby slowing down the progression of the disease. The benefits of using this herbal preparation to treat Alzheimer's disease include improved cognitive function, reduced risk of dementia, and enhanced overall brain health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Crocus sativus",
+            "herb_mentions": 8,
+            "herb_confidence_score": 43,
+            "herb_total_score": 344,
+            "preparation_desc": "Crocus sativus teas have been gaining attention for their potential in treating Alzheimer's disease due to their rich content of bioactive constituents, including crocin and safranal, which have been shown to have antioxidant, anti-inflammatory, and neuroprotective properties. These properties help to reduce oxidative stress and inflammation in the brain, which are contributing factors to the progression of Alzheimer's disease. The bioactive constituents in Crocus sativus teas may also help to improve memory and cognitive function by promoting the growth of new neurons and preventing the death of existing ones. By reducing inflammation and oxidative stress, and promoting neuroprotection, Crocus sativus teas may offer a promising natural approach to treating Alzheimer's disease.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Panax quinquefolius",
+            "herb_mentions": 6,
+            "herb_confidence_score": 41,
+            "herb_total_score": 246,
+            "preparation_desc": "Panax quinquefolius teas, also known as American ginseng, have been traditionally used to treat various health conditions, including Alzheimer's disease. The herbal preparation's properties, such as its anti-inflammatory and antioxidant effects, help to reduce cognitive decline and improve memory in individuals with Alzheimer's. The bioactive constituents, including ginsenosides and polyphenols, play a crucial role in treating the ailment by inhibiting the production of amyloid beta plaques and promoting neuroprotection. The benefits of Panax quinquefolius teas in treating Alzheimer's disease include improved cognitive function, enhanced memory, and a reduced risk of neurodegeneration, making it a potential natural remedy for this debilitating condition.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Advances in experimental medicine and biology\", teas for Alzheimer\u2019s disease, particularly green tea, have been identified as having anti-amyloidogenic activity due to its polyphenolic constituents, which may provide measurable cognitive benefits in the aging process."
+}

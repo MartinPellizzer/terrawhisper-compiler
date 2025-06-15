@@ -1,0 +1,24 @@
+{
+    "url": "herbs/marsdenia-reichenbachii",
+    "herb_slug": "marsdenia-reichenbachii",
+    "herb_name_scientific": "marsdenia reichenbachii",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Marsdenia Reichenbachii",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 9,
+            "confidence_score": 76,
+            "total_score": 684
+        },
+        {
+            "answer": "medicine",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "constituents_num": 7,
+    "side_effects_num": 13
+}

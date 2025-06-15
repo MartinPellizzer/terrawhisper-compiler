@@ -1,0 +1,18 @@
+{
+    "url": "herbs/lilium-lancifolium",
+    "herb_slug": "lilium-lancifolium",
+    "herb_name_scientific": "lilium lancifolium",
+    "lastmod": "2025-5-31",
+    "benefits_num": 7,
+    "benefits_title": "7 Best Health Benefits Of Lilium Lancifolium",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 10,
+            "confidence_score": 90,
+            "total_score": 900
+        }
+    ],
+    "constituents_num": 13,
+    "side_effects_num": 7
+}

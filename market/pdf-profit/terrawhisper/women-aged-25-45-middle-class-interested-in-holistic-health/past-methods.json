@@ -1,0 +1,84 @@
+{
+    "data": [
+        {
+            "method": "Seeking out herbalism mentors or coaches",
+            "time": "1-2 hours/month",
+            "cost": "$50-$100/month",
+            "outcome": "Some guidance and support, but often expensive and inaccessible",
+            "score": 8,
+            "why": "While these mentors or coaches can provide valuable guidance and support, they often require a significant financial investment and can be inaccessible."
+        },
+        {
+            "method": "Consulting with herbalism practitioners",
+            "time": "1-2 hours/month",
+            "cost": "$50-$100/month",
+            "outcome": "Some guidance and support, but often expensive and inaccessible",
+            "score": 7,
+            "why": "While these practitioners can provide valuable guidance and support, they often require a significant financial investment and can be inaccessible."
+        },
+        {
+            "method": "Taking online herbalism courses",
+            "time": "10-20 hours/month",
+            "cost": "$500-$1,000/course",
+            "outcome": "Some knowledge gained, but often scattered and hard to apply",
+            "score": 6,
+            "why": "While these courses can be helpful, they often require a significant time investment and can be expensive."
+        },
+        {
+            "method": "Creating my own herbalism recipes and remedies",
+            "time": "5-10 hours/month",
+            "cost": "Free",
+            "outcome": "Some knowledge gained, but often lacking in accuracy and efficacy",
+            "score": 6,
+            "why": "While this approach can be empowering, it often requires a significant time investment and can be lacking in accuracy and efficacy."
+        },
+        {
+            "method": "Reading herbalism books",
+            "time": "5-10 hours/month",
+            "cost": "$20-$50/book",
+            "outcome": "Some knowledge gained, but often outdated or incomplete",
+            "score": 5,
+            "why": "While books can be a valuable resource, they often require a significant time investment and can be outdated or incomplete."
+        },
+        {
+            "method": "Using herbalism apps and software",
+            "time": "1-2 hours/week",
+            "cost": "$10-$30/month",
+            "outcome": "Some convenience and organization, but often lacking in depth and accuracy",
+            "score": 5,
+            "why": "While these tools can be helpful, they often lack the depth and accuracy needed for confident herbalism practice."
+        },
+        {
+            "method": "Following herbalism blogs and social media",
+            "time": "1-2 hours/week",
+            "cost": "Free",
+            "outcome": "Some inspiration and ideas, but often lacking in depth and accuracy",
+            "score": 4,
+            "why": "While these sources can be motivating, they often lack the depth and accuracy needed for confident herbalism practice."
+        },
+        {
+            "method": "Watching herbalism YouTube videos",
+            "time": "1-2 hours/week",
+            "cost": "Free",
+            "outcome": "Some inspiration and ideas, but often lacking in depth and accuracy",
+            "score": 4,
+            "why": "While these videos can be motivating, they often lack the depth and accuracy needed for confident herbalism practice."
+        },
+        {
+            "method": "Joining herbalism online communities",
+            "time": "1-2 hours/week",
+            "cost": "Free",
+            "outcome": "Some support and connection, but often lacking in expertise and guidance",
+            "score": 3,
+            "why": "While these communities can provide some support and connection, they often lack the expertise and guidance needed for confident herbalism practice."
+        },
+        {
+            "method": "Purchasing herbalism products online",
+            "time": "1-2 hours/month",
+            "cost": "$20-$50/month",
+            "outcome": "Some products gained, but often of unknown quality and efficacy",
+            "score": 2,
+            "why": "While these products can be convenient, they often lack quality and efficacy, and can be expensive."
+        }
+    ]
+}

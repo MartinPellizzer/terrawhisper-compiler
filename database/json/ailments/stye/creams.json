@@ -1,0 +1,181 @@
+{
+    "url": "ailments/stye/creams",
+    "ailment_slug": "stye",
+    "ailment_name": "stye",
+    "preparation_slug": "creams",
+    "preparation_name": "creams",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Creams For Stye",
+    "intro": "Herbal creams for Stye are topical preparations made from plant extracts that are used to treat styes, which are painful, pus-filled bumps on the eyelids caused by bacterial or viral infections. The benefits of using herbal creams to treat styes include their ability to reduce inflammation, soothe the affected area, and promote healing. Examples of herbal creams that can be used to treat styes include tea tree oil cream, which has antibacterial properties that help combat infections, aloe vera cream, which has anti-inflammatory properties that reduce swelling and promote healing, chamomile cream, which has calming effects that soothe the affected area, and lavender oil cream, which has antiseptic properties that help prevent further infection. By using these herbal creams, individuals can avoid the harsh chemicals found in over-the-counter treatments and promote a faster recovery from the stye ailment.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 19,
+            "herb_confidence_score": 168,
+            "herb_total_score": 3192,
+            "preparation_desc": "Calendula officinalis creams are a popular herbal preparation used to treat styes, which are painful and often unsightly infections of the eyelid or oil glands on the eyelid. The anti-inflammatory and antimicrobial properties of Calendula officinalis creams help to reduce swelling, redness, and pain associated with styes, while also preventing the spread of infection. The bioactive constituents of Calendula officinalis, including triterpenoids, carotenoids, and flavonoids, have been shown to exhibit potent anti-inflammatory and antimicrobial activities that contribute to the treatment of styes. By applying Calendula officinalis creams to the affected area, individuals can experience a reduction in symptoms and promote faster healing, making it a safe and effective herbal remedy for treating styes.",
+            "preparation_study": "According to \"Life (Basel, Switzerland)\", Calendula officinalis creams for stye have anti-inflammatory and wound-healing properties that can help to reduce the severity and duration of stye, an inflammatory condition caused by bacterial or viral infections.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 19,
+            "herb_confidence_score": 125,
+            "herb_total_score": 2375,
+            "preparation_desc": "Echinacea purpurea creams have been traditionally used to treat the stye ailment due to their anti-inflammatory and antimicrobial properties. The bioactive constituents, such as alkylamides and caffeic acid, in Echinacea purpurea creams help to reduce inflammation and fight off bacterial infections that cause the stye. This herbal preparation helps to treat the stye by promoting the healing of the affected area, reducing pain and discomfort, and preventing the formation of pus. The benefits of using Echinacea purpurea creams to treat the stye include reduced risk of scarring, faster recovery time, and a lower likelihood of recurring infections.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 14,
+            "herb_confidence_score": 124,
+            "herb_total_score": 1736,
+            "preparation_desc": "Aloe barbadensis creams have been used for centuries to treat the stye ailment, utilizing its soothing and anti-inflammatory properties to reduce redness and swelling. The herbal preparation contains bioactive constituents such as aloin, aloe-emodin, and acemannan, which help to combat bacterial infections and promote wound healing. By applying aloe barbadensis creams to the affected area, it helps to reduce the size of the stye, alleviate pain and discomfort, and promote the body's natural healing process. The benefits of using aloe barbadensis creams to treat the stye ailment include reduced risk of scarring, faster recovery times, and a decrease in the likelihood of recurring infections.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 17,
+            "herb_confidence_score": 116,
+            "herb_total_score": 1972,
+            "preparation_desc": "Hypericum perforatum creams, derived from the St. John's Wort plant, have been traditionally used to treat stye, a bacterial infection of the eyelid. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce swelling and prevent the spread of infection, making it an effective treatment for stye. The bioactive constituents of Hypericum perforatum, including hyperforin and hypericin, have been shown to exhibit potent antimicrobial and anti-inflammatory activities, which contribute to its therapeutic effects in treating stye. The benefits of using Hypericum perforatum creams to treat stye include reduced pain and swelling, faster healing, and prevention of scarring, making it a popular herbal remedy for this common ailment.",
+            "preparation_study": "According to \"BMC veterinary research\", Hypericum perforatum creams may be beneficial for treating stye due to its antibacterial and antifungal effects, including against antibiotic-resistant bacteria, which can help alleviate the infection and promote healing.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melaleuca alternifolia",
+            "herb_mentions": 13,
+            "herb_confidence_score": 106,
+            "herb_total_score": 1378,
+            "preparation_desc": "Melaleuca alternifolia creams, derived from the leaves of the tea tree, have been traditionally used to treat styes due to their anti-inflammatory and antimicrobial properties. The bioactive constituents, including terpinen-4-ol and cineole, help to reduce swelling and combat bacterial infections that can cause styes. These creams work by soothing the affected area, reducing redness and pain, and promoting the healing process, ultimately helping to resolve the stye. The benefits of using Melaleuca alternifolia creams for stye treatment include reduced risk of scarring, faster recovery, and a natural alternative to conventional treatments.",
+            "preparation_study": "According to the study, Melaleuca alternifolia creams, specifically the oil from the plant, has antifungal, antiviral, antibacterial and acaricidal activity which can be beneficial in treating skin infections such as stye.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 14,
+            "herb_confidence_score": 99,
+            "herb_total_score": 1386,
+            "preparation_desc": "Lavandula angustifolia creams, derived from the fragrant flowers of the lavender plant, have been traditionally used to treat stye, a painful and often unsightly bacterial infection of the eyelid. The anti-inflammatory and antimicrobial properties of these creams help to reduce swelling and combat the bacterial infection that causes the stye, promoting healing and preventing further complications. The bioactive constituents of Lavandula angustifolia, including linalool and linalyl acetate, exhibit potent antimicrobial and anti-inflammatory activities, making them effective in treating stye. The benefits of using Lavandula angustifolia creams to treat stye include reduced pain and swelling, accelerated healing, and prevention of scarring and further infections.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 13,
+            "herb_confidence_score": 91,
+            "herb_total_score": 1183,
+            "preparation_desc": "Eucalyptus globulus creams, derived from the leaves of the Eucalyptus globulus tree, possess anti-inflammatory, antimicrobial, and antioxidant properties that help to treat the stye ailment. These creams help to treat stye by reducing inflammation, preventing bacterial infections, and promoting wound healing, ultimately leading to the resolution of the stye. The bioactive constituents of Eucalyptus globulus creams, including eucalyptol, camphor, and alpha-pinene, have been shown to exhibit antimicrobial and anti-inflammatory activities that aid in the treatment of stye. The benefits of using Eucalyptus globulus creams to treat stye include reduced pain and swelling, improved wound healing, and a lower risk of infection, making it a popular natural remedy for this common eye condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 13,
+            "herb_confidence_score": 82,
+            "herb_total_score": 1066,
+            "preparation_desc": "Silybum marianum creams have been traditionally used to treat stye, a bacterial infection of the eyelid. The anti-inflammatory and antimicrobial properties of Silybum marianum creams help to reduce swelling, redness, and pain associated with stye. Bioactive constituents such as flavonoids, alkaloids, and saponins present in Silybum marianum creams have been found to exhibit antibacterial and antifungal activities, which aid in the treatment of stye. The benefits of using Silybum marianum creams to treat stye include reduced recovery time, minimized risk of complications, and a natural alternative to conventional antibiotics.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 11,
+            "herb_confidence_score": 63,
+            "herb_total_score": 693,
+            "preparation_desc": "Urtica dioica creams, derived from the stinging nettle plant, have been used to treat stye, a painful and often unsightly bacterial infection of the eyelid or eyebrow area. The anti-inflammatory and antibacterial properties of this herbal preparation help to reduce swelling and combat infection, providing relief from the discomfort and pain associated with a stye. The bioactive constituents, including flavonoids, phenolic acids, and saponins, contribute to its therapeutic effects by inhibiting the growth of bacteria and reducing inflammation. By promoting a faster healing process and reducing the risk of scarring, Urtica dioica creams offer a natural and effective solution to treat stye, making them a valuable alternative to conventional treatments.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Symphytum officinale",
+            "herb_mentions": 8,
+            "herb_confidence_score": 62,
+            "herb_total_score": 496,
+            "preparation_desc": "Symphytum officinale creams, derived from the plant Symphytum officinale, have been used to treat stye, a painful and often unsightly infection of the eyelid. The anti-inflammatory and antimicrobial properties of this herbal preparation help to treat the stye ailment by reducing swelling and preventing bacterial growth. The bioactive constituents of Symphytum officinale creams, including allantoin and mucilage, aid in soothing and protecting the affected area, promoting a faster recovery. The benefits of using Symphytum officinale creams to treat stye include reduced inflammation, accelerated healing, and a lower risk of complications, making it a popular natural remedy for this common eye condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 9,
+            "herb_confidence_score": 61,
+            "herb_total_score": 549,
+            "preparation_desc": "Glycyrrhiza glabra creams have been traditionally used to treat stye, a bacterial infection of the eyelid, due to their anti-inflammatory and antimicrobial properties. These creams help to treat stye by reducing the swelling and pain associated with the infection, promoting a speedy recovery. The bioactive constituents of Glycyrrhiza glabra, including glycyrrhizin, flavonoids, and saponins, contribute to its therapeutic effects by inhibiting the growth of bacteria and reducing inflammation. The benefits of using Glycyrrhiza glabra creams to treat stye include reduced risk of complications, faster healing, and minimal side effects, making it a popular herbal remedy for this common eye condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 8,
+            "herb_confidence_score": 58,
+            "herb_total_score": 464,
+            "preparation_desc": "Achillea millefolium creams, derived from the plant's leaves and flowers, have been traditionally used to treat stye, a painful and swollen lump on the eyelid. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce the swelling and combat bacterial infections that cause the stye. The bioactive constituents, including sesquiterpene lactones, flavonoids, and essential oils, in Achillea millefolium creams exhibit their therapeutic effects by inhibiting the growth of bacteria and reducing inflammation. Regular application of Achillea millefolium creams can help to alleviate the symptoms of stye, promote healing, and prevent future occurrences, making it a beneficial natural remedy for this common eye condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Chamomilla recutita",
+            "herb_mentions": 7,
+            "herb_confidence_score": 57,
+            "herb_total_score": 399,
+            "preparation_desc": "Chamomilla recutita creams have been traditionally used to treat stye, an inflammatory condition caused by a bacterial or viral infection of the eyelid. The anti-inflammatory and antibacterial properties of Chamomilla recutita creams help to soothe and calm the affected area, reducing swelling and pain associated with the stye. The bioactive constituents, such as flavonoids and terpenoids, present in Chamomilla recutita creams have been found to inhibit the growth of bacteria and reduce inflammation, thereby aiding in the treatment of stye. The benefits of using Chamomilla recutita creams to treat stye include reduced pain and discomfort, faster healing, and prevention of further infections, making it a popular herbal remedy for this common ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Saponaria officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 57,
+            "herb_total_score": 741,
+            "preparation_desc": "Saponaria officinalis creams, derived from the Saponaria officinalis plant, have been traditionally used to treat the stye ailment due to its anti-inflammatory and antimicrobial properties. These properties help to reduce swelling and fight off infections that cause styes, making it easier for the body to heal. The bioactive constituents present in Saponaria officinalis creams, including saponins and flavonoids, contribute to its therapeutic effects by inhibiting bacterial growth and reducing inflammation. By using Saponaria officinalis creams, individuals can benefit from its ability to soothe and calm the affected area, promoting a faster recovery from stye.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe vera",
+            "herb_mentions": 6,
+            "herb_confidence_score": 51,
+            "herb_total_score": 306,
+            "preparation_desc": "Aloe vera creams have long been used as a natural remedy to treat stye, a painful and often unsightly bacterial infection of the eyelid. The anti-inflammatory and antibacterial properties of aloe vera help to reduce swelling and fight off the infection, making it easier to treat the stye. The bioactive constituents of aloe vera, including aloin, aloe-emodin, and vitamins A and E, work together to soothe and calm the affected area, promoting healing and reducing the risk of scarring. By using aloe vera creams to treat stye, individuals can experience the benefits of a natural and effective remedy that reduces pain, inflammation, and the risk of complications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 49,
+            "herb_total_score": 343,
+            "preparation_desc": "Melissa officinalis creams have been traditionally used to treat stye, a painful and often recurrent bacterial infection of the eyelid. The antiseptic and anti-inflammatory properties of Melissa officinalis creams help to soothe and calm the affected area, reducing redness and swelling. The bioactive constituents of Melissa officinalis creams, including linalool and limonene, have antimicrobial and anti-inflammatory effects that help to combat the underlying bacterial infection and promote healing. Regular use of Melissa officinalis creams can help to prevent the recurrence of stye, promote overall eye health, and provide relief from discomfort and pain associated with this ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 12,
+            "herb_confidence_score": 49,
+            "herb_total_score": 588,
+            "preparation_desc": "Taraxacum officinale creams have been traditionally used to treat stye, a bacterial infection of the eyelid or eyelash. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce swelling and combat the underlying bacterial infection. The bioactive constituents, including flavonoids and sesquiterpenes, in Taraxacum officinale creams contribute to their therapeutic effects, fighting off the bacteria and promoting healing. This herbal preparation is beneficial in treating stye as it is non-toxic, easily available, and can be applied topically to the affected area.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 48,
+            "herb_total_score": 432,
+            "preparation_desc": "Rosmarinus officinalis creams, derived from the leaves of the rosemary plant, have been used to treat stye, a bacterial infection of the eyelid. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce swelling and combat bacterial growth, thereby alleviating the symptoms of stye. The bioactive constituents, including camphor, borneol, and rosmarinic acid, possess antibacterial and anti-inflammatory activities, which contribute to the treatment of stye. The benefits of using Rosmarinus officinalis creams for stye include reduced pain and swelling, accelerated healing, and prevention of future infections.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Plantago major",
+            "herb_mentions": 8,
+            "herb_confidence_score": 47,
+            "herb_total_score": 376,
+            "preparation_desc": "Plantago major creams have been used traditionally to treat the stye ailment, a bacterial infection of the eyelid gland. The antiseptic and anti-inflammatory properties of Plantago major help to reduce inflammation and prevent the spread of the infection, promoting a speedy recovery. The bioactive constituents, including flavonoids and phenolic acids, exhibit antimicrobial activity, inhibiting the growth of bacteria that cause the stye. By applying Plantago major creams, individuals can benefit from the natural anti-inflammatory and antibacterial properties, reducing the risk of complications and promoting a faster healing process.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Teucrium chamaedrys",
+            "herb_mentions": 7,
+            "herb_confidence_score": 42,
+            "herb_total_score": 294,
+            "preparation_desc": "Teucrium chamaedrys creams have been traditionally used to treat styes due to their anti-inflammatory and antimicrobial properties, which help to reduce swelling and prevent infection. The bioactive constituents present in Teucrium chamaedrys creams, including flavonoids and diterpenes, possess antioxidant and anti-inflammatory activities that aid in the healing process of styes. By applying Teucrium chamaedrys creams to the affected area, individuals can experience relief from the pain and discomfort associated with styes, as well as a reduction in the duration of the illness. The benefits of using Teucrium chamaedrys creams to treat styes include a faster recovery time, reduced scarring, and a lower risk of recurrent infections.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to the study in \"Drug development and industrial pharmacy\", creams for stye can be formulated with Garlic oil and Eruca oil, which have excellent antimicrobial activity, to effectively treat stye with no skin irritation."
+}

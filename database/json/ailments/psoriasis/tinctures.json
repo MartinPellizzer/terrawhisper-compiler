@@ -1,0 +1,183 @@
+{
+    "url": "ailments/psoriasis/tinctures",
+    "ailment_slug": "psoriasis",
+    "ailment_name": "psoriasis",
+    "preparation_slug": "tinctures",
+    "preparation_name": "tinctures",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Tinctures For Psoriasis",
+    "intro": "Herbal tinctures for Psoriasis are concentrated liquid extracts made from plants, used to treat this chronic skin condition by reducing inflammation and promoting healing. These tinctures offer numerous benefits, including reducing scaling, redness, and itching associated with Psoriasis, as well as promoting overall skin health. Various herbal tinctures have been found effective in treating Psoriasis, such as Aloe Vera tincture which soothes and calms the skin, Turmeric tincture which reduces inflammation and oxidative stress, and St. John's Wort tincture which promotes wound healing and skin regeneration. Additionally, other herbal tinctures like Calendula, Tea Tree, and Ginger have also been used to treat Psoriasis due to their antiseptic, anti-inflammatory, and antioxidant properties.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 19,
+            "herb_confidence_score": 153,
+            "herb_total_score": 2907,
+            "preparation_desc": "Silybum marianum tinctures have been used in traditional medicine to treat psoriasis due to their anti-inflammatory and antioxidant properties. The tinctures are believed to help treat psoriasis by reducing inflammation and promoting the healing of skin lesions. The bioactive constituents of Silybum marianum, including flavonoids and saponins, are thought to contribute to its therapeutic effects by modulating immune responses and reducing oxidative stress. By utilizing Silybum marianum tinctures, individuals may experience benefits such as improved skin health, reduced itching and scaling, and enhanced overall well-being.",
+            "preparation_study": "According to \"American journal of clinical dermatology\", Silybum marianum tinctures for psoriasis are not mentioned in the study, however, some plant-derived substances like dithranol and methoxsalen (8-methoxypsoralen) [in combination with UVA] are already accepted as standard treatments in psoriasis; but it is suggested that Mahonia and Capsicum (capsaicin) are the next candidates, implying that Silybum marianum tinctures are not yet considered a standard treatment, but may have potential for use in psoriasis.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 19,
+            "herb_confidence_score": 147,
+            "herb_total_score": 2793,
+            "preparation_desc": "Urtica dioica tinctures, derived from the stinging nettle plant, have been traditionally used to treat psoriasis due to their anti-inflammatory and immunomodulatory properties. The tannins, flavonoids, and phenolic acids present in this herbal preparation help to reduce inflammation and modulate the immune system, which is beneficial in treating psoriasis. The tannins in Urtica dioica tinctures also help to reduce the proliferation of skin cells, thereby reducing the scaly patches associated with psoriasis. By reducing inflammation and modulating the immune system, Urtica dioica tinctures can provide relief from the symptoms of psoriasis, such as redness, itching, and scaling, making it a potential natural remedy for this condition.",
+            "preparation_study": "According to \"American journal of clinical dermatology\", Urtica dioica tinctures for psoriasis may be considered alongside dithranol and methoxsalen (8-methoxypsoralen) in combination with UVA as they are already accepted as standard treatments in psoriasis.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 19,
+            "herb_confidence_score": 141,
+            "herb_total_score": 2679,
+            "preparation_desc": "Hypericum perforatum tinctures, also known as St. John's Wort, have been used to treat psoriasis due to its anti-inflammatory and immunomodulatory properties. The tincture helps to reduce inflammation and modulate the immune system, which can help to alleviate symptoms of psoriasis such as redness and scaling. The bioactive constituents of Hypericum perforatum, including hyperforin and hypericin, have been shown to inhibit the production of pro-inflammatory cytokines and promote the production of anti-inflammatory cytokines, which can help to reduce inflammation and promote healing. Regular use of Hypericum perforatum tinctures may help to reduce the severity and frequency of psoriasis symptoms, providing relief and improving the quality of life for individuals suffering from this condition.",
+            "preparation_study": "According to the study, Hypericum perforatum tinctures for psoriasis may be used as a potential therapeutic adjuvant, either alone or in combination with other treatments, to improve the quality of life of patients with plaque psoriasis.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 17,
+            "herb_confidence_score": 135,
+            "herb_total_score": 2295,
+            "preparation_desc": "Calendula officinalis tinctures have been traditionally used to treat the symptoms of psoriasis, a chronic inflammatory skin condition characterized by red, scaly patches. The anti-inflammatory and antimicrobial properties of calendula, particularly its sesquiterpenes, flavonoids, and triterpenoids, help to reduce inflammation and prevent infection, thereby alleviating symptoms of psoriasis. By promoting wound healing, reducing redness and itching, and inhibiting the growth of skin cells, calendula tinctures can help to improve the appearance and comfort of affected skin, providing relief from the discomfort and distress associated with psoriasis. The benefits of using calendula tinctures to treat psoriasis include reduced inflammation, improved skin integrity, and enhanced overall skin health, making it a valuable natural remedy for managing this condition.",
+            "preparation_study": "According to the study, Calendula officinalis tinctures for psoriasis may be used as a potential therapeutic adjuvant to improve the quality of life of patients.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe vera",
+            "herb_mentions": 14,
+            "herb_confidence_score": 121,
+            "herb_total_score": 1694,
+            "preparation_desc": "Aloe vera tinctures have been traditionally used to treat psoriasis, a chronic skin condition characterized by red, scaly patches. The anti-inflammatory and soothing properties of aloe vera tinctures help to calm and reduce inflammation in the affected skin, providing relief from itching and discomfort. The bioactive constituents of aloe vera, such as aloin, aloe-emodin, and acemannan, have been shown to possess potent anti-inflammatory and immunomodulatory effects, which help to reduce the severity of psoriasis symptoms. By using aloe vera tinctures, individuals with psoriasis may experience reduced redness, scaling, and itching, as well as improved skin texture and overall skin health.",
+            "preparation_study": "According to \"Tropical medicine & international health : TM & IH\", Aloe vera tinctures for psoriasis showed a significant clinical efficacy in curing patients with psoriasis vulgaris, with 83.3% (25/30 patients) of those treated with 0.5% Aloe vera extract in a hydrophilic cream showing a cured response.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 14,
+            "herb_confidence_score": 102,
+            "herb_total_score": 1428,
+            "preparation_desc": "Echinacea purpurea tinctures have been traditionally used to treat psoriasis due to their anti-inflammatory and immunomodulatory properties, which help to reduce the severity of symptoms and promote skin health. The bioactive constituents of Echinacea purpurea, including alkylamides, caffeic acid derivatives, and polysaccharides, contribute to its therapeutic effects by modulating the immune response and reducing inflammation. By using Echinacea purpurea tinctures, individuals with psoriasis may experience reduced redness, itching, and scaling, as well as improved skin hydration and elasticity. Overall, Echinacea purpurea tinctures offer a natural and holistic approach to managing psoriasis symptoms and promoting overall skin well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 15,
+            "herb_confidence_score": 101,
+            "herb_total_score": 1515,
+            "preparation_desc": "Cinchona officinalis tinctures have been traditionally used to treat psoriasis due to their anti-inflammatory and antiseptic properties, which help to reduce redness and inflammation associated with the condition. The tannins and quinovic acids present in Cinchona officinalis tinctures exhibit their therapeutic effects by reducing the severity of psoriasis symptoms and promoting wound healing. These bioactive constituents also exhibit antioxidant and antimicrobial activities, which aid in the treatment of psoriasis by reducing oxidative stress and preventing the growth of pathogenic microorganisms that can exacerbate the condition. The benefits of using Cinchona officinalis tinctures to treat psoriasis include reduced scaling and flaking, improved skin texture, and enhanced overall skin health, making it a potential natural remedy for managing this chronic skin condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 15,
+            "herb_confidence_score": 99,
+            "herb_total_score": 1485,
+            "preparation_desc": "Glycyrrhiza glabra tinctures have been used as a natural remedy to treat psoriasis, an autoimmune skin condition characterized by red, itchy, and scaly patches. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce inflammation and prevent further irritation, thereby alleviating the symptoms of psoriasis. The bioactive constituents, including glycyrrhizin and flavonoids, in Glycyrrhiza glabra tinctures have been shown to inhibit the production of pro-inflammatory cytokines and promote the healing of damaged skin tissues. By using Glycyrrhiza glabra tinctures, individuals with psoriasis may experience relief from symptoms, reduced inflammation, and improved skin health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 11,
+            "herb_confidence_score": 98,
+            "herb_total_score": 1078,
+            "preparation_desc": "Curcuma longa tinctures have been traditionally used to treat psoriasis due to its anti-inflammatory and antioxidant properties, which help to reduce inflammation and alleviate symptoms associated with the ailment. The bioactive constituents present in Curcuma longa tinctures, such as curcumin and demethoxycurcumin, have potent anti-inflammatory and antiproliferative effects, which help to inhibit the growth of skin cells and reduce the severity of psoriasis lesions. The tincture's ability to modulate the immune system and reduce oxidative stress also contributes to its therapeutic benefits in treating psoriasis. Regular use of Curcuma longa tinctures has been shown to improve the overall quality of life for individuals suffering from psoriasis by reducing the severity of symptoms and promoting healthy skin regeneration.",
+            "preparation_study": "According to \"Indian journal of dermatology, venereology and leprology\", Curcuma longa tinctures may have potential in improving the quality of life of patients with psoriasis, as part of a comprehensive review of herbal treatments for plaque psoriasis.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 88,
+            "herb_total_score": 1144,
+            "preparation_desc": "Melissa officinalis tinctures have been traditionally used to treat psoriasis due to their anti-inflammatory and antiseptic properties, which help to soothe and calm the skin. This herbal preparation helps to treat psoriasis by reducing redness, itching, and scaling, promoting a healthy skin environment. The bioactive constituents of Melissa officinalis tinctures, including rosmarinic acid, linalool, and limonene, contribute to its therapeutic effects by inhibiting inflammatory mediators and modulating immune responses. The benefits of using Melissa officinalis tinctures to treat psoriasis include reduced symptoms, improved skin texture, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 12,
+            "herb_confidence_score": 87,
+            "herb_total_score": 1044,
+            "preparation_desc": "Zingiber officinale tinctures have been traditionally used to treat psoriasis due to their anti-inflammatory and antioxidant properties, which help to reduce redness and itching associated with the ailment. The bioactive constituents, such as gingerols and shogaols, present in Zingiber officinale tinctures, possess potent anti-inflammatory and immunomodulatory effects, helping to soothe and calm the skin affected by psoriasis. By reducing inflammation and modulating the immune response, Zingiber officinale tinctures can help to alleviate the symptoms of psoriasis, promoting healthier skin and improved overall well-being. The benefits of using Zingiber officinale tinctures to treat psoriasis include reduced inflammation, improved skin texture, and a decrease in the severity of symptoms, making it a promising natural remedy for managing this chronic condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 16,
+            "herb_confidence_score": 86,
+            "herb_total_score": 1376,
+            "preparation_desc": "Ginkgo biloba tinctures have been traditionally used to treat psoriasis due to their anti-inflammatory and antioxidant properties, which help to soothe and calm the skin. This herbal preparation is thought to reduce the severity of psoriasis symptoms by promoting blood flow to the skin, reducing inflammation, and protecting against oxidative stress. The bioactive constituents of Ginkgo biloba, including flavonoids, terpenoids, and bilobalide, are believed to contribute to its therapeutic effects, helping to regulate the immune response and reduce the production of pro-inflammatory cytokines. The benefits of using Ginkgo biloba tinctures to treat psoriasis include improved skin health, reduced symptoms of redness and scaling, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Equisetum arvense",
+            "herb_mentions": 14,
+            "herb_confidence_score": 82,
+            "herb_total_score": 1148,
+            "preparation_desc": "Equisetum arvense tinctures have been traditionally used to treat psoriasis due to their anti-inflammatory and antiseptic properties, which help to soothe and calm irritated skin. The tincture's ability to reduce inflammation and promote wound healing makes it effective in treating the red, scaly patches associated with psoriasis. The bioactive constituents, such as isoflavonoids and flavonoids, present in Equisetum arvense tinctures, are believed to contribute to its therapeutic effects by modulating the immune response and reducing oxidative stress. Regular use of Equisetum arvense tinctures may help alleviate symptoms of psoriasis, promoting healthier and more even skin.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 14,
+            "herb_confidence_score": 77,
+            "herb_total_score": 1078,
+            "preparation_desc": "Taraxacum officinale tinctures, derived from the dandelion plant, have been used to treat psoriasis due to its anti-inflammatory and antioxidant properties. The bioactive constituents, including flavonoids, sesquiterpenes, and phenolic acids, help to reduce inflammation and oxidative stress associated with psoriasis, thereby alleviating symptoms. The tinctures' ability to modulate the immune response and promote the healing of skin lesions make it a beneficial remedy for treating psoriasis. By using Taraxacum officinale tinctures, individuals with psoriasis may experience reduced redness, itching, and scaling, leading to improved overall skin health and quality of life.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 11,
+            "herb_confidence_score": 74,
+            "herb_total_score": 814,
+            "preparation_desc": "Avena sativa tinctures are a natural herbal preparation that has been traditionally used to treat psoriasis, an inflammatory skin condition characterized by red, scaly patches. The tinctures contain bioactive constituents such as avenalumic acid, avenacoside, and avenasterol, which have anti-inflammatory, antioxidant, and soothing properties that help to reduce inflammation and promote skin health. By reducing inflammation and promoting skin regeneration, Avena sativa tinctures can help to alleviate the symptoms of psoriasis, such as redness, itching, and scaling. The benefits of using Avena sativa tinctures to treat psoriasis include reduced inflammation, improved skin health, and a reduction in the frequency and severity of psoriasis flare-ups.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 10,
+            "herb_confidence_score": 73,
+            "herb_total_score": 730,
+            "preparation_desc": "Lavandula angustifolia tinctures have been found to be effective in treating psoriasis due to their anti-inflammatory and antiseptic properties, which help to reduce redness and swelling associated with the condition. The tinctures can help to treat psoriasis by promoting wound healing, reducing scarring, and soothing the skin, thereby alleviating symptoms such as itching, scaling, and dryness. The bioactive constituents of Lavandula angustifolia tinctures, including linalool and linalyl acetate, have been shown to possess anti-inflammatory and antioxidant properties, which contribute to their therapeutic effects. The benefits of using Lavandula angustifolia tinctures to treat psoriasis include reduced severity of symptoms, improved skin health, and a potential reduction in the need for conventional treatments.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 67,
+            "herb_total_score": 536,
+            "preparation_desc": "Aloe barbadensis tinctures have been traditionally used to treat psoriasis, a chronic inflammatory skin condition characterized by red, scaly patches. The anti-inflammatory, soothing, and moisturizing properties of Aloe barbadensis tinctures help to reduce skin inflammation, promote wound healing, and regulate skin cell growth, ultimately alleviating the symptoms of psoriasis. The bioactive constituents of Aloe barbadensis tinctures, including aloin, aloe-emodin, and acemannan, have been shown to exhibit potent anti-inflammatory and immunomodulatory effects, which contribute to its therapeutic benefits in treating psoriasis. The regular use of Aloe barbadensis tinctures has been found to provide relief from psoriasis symptoms, including reduced itching, scaling, and erythema, as well as improved skin elasticity and texture.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 9,
+            "herb_confidence_score": 53,
+            "herb_total_score": 477,
+            "preparation_desc": "Sambucus nigra tinctures have been used traditionally to treat psoriasis, an inflammatory skin condition characterized by red, scaly patches. The anti-inflammatory and antiseptic properties of Sambucus nigra tinctures help to reduce inflammation and prevent infection in the affected skin, promoting healing and soothing of the skin lesions. The bioactive constituents of Sambucus nigra tinctures, including flavonoids, phenolic acids, and terpenoids, have been shown to exhibit antioxidant and anti-inflammatory activities that contribute to their therapeutic effects on psoriasis. The benefits of using Sambucus nigra tinctures to treat psoriasis include reduced redness, itching, and scaling, as well as improved skin hydration and reduced risk of skin infections.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 7,
+            "herb_confidence_score": 51,
+            "herb_total_score": 357,
+            "preparation_desc": "Achillea millefolium tinctures have been traditionally used to treat psoriasis due to their anti-inflammatory and antiseptic properties, which help to soothe and calm the skin. The herbal preparation helps to treat psoriasis by reducing inflammation and promoting healing, while also inhibiting the growth of bacteria and fungi that can exacerbate the condition. The bioactive constituents of Achillea millefolium tinctures, including sesquiterpene lactones and flavonoids, are responsible for their therapeutic effects, with sesquiterpene lactones exhibiting anti-inflammatory and antioxidant activities. By using Achillea millefolium tinctures, individuals with psoriasis may experience benefits such as reduced redness and scaling, improved skin clarity, and a decrease in the frequency and severity of flare-ups.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Vaccinium myrtillus",
+            "herb_mentions": 8,
+            "herb_confidence_score": 45,
+            "herb_total_score": 360,
+            "preparation_desc": "Vaccinium myrtillus tinctures, derived from the bilberry plant, have been studied for their potential in treating psoriasis, a chronic skin condition characterized by inflammation and scaly skin lesions. The anti-inflammatory and antioxidant properties of Vaccinium myrtillus tinctures help to reduce inflammation and oxidative stress, which are key factors in the development and progression of psoriasis. The bioactive constituents, including anthocyanins and flavonoids, in Vaccinium myrtillus tinctures have been shown to inhibit the production of pro-inflammatory cytokines and to promote the healing of skin lesions. By reducing inflammation and promoting healing, Vaccinium myrtillus tinctures may help to alleviate symptoms and improve quality of life for individuals with psoriasis.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Molecules (Basel, Switzerland)\", tinctures for psoriasis may be effective in controlling symptoms and reducing oxidative stress conditions, which are key factors in the development and progression of the disease."
+}

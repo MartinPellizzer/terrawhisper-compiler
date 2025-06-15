@@ -1,0 +1,199 @@
+{
+    "url": "herbs/prunus-domestica",
+    "herb_slug": "prunus-domestica",
+    "herb_name_scientific": "prunus domestica",
+    "lastmod": "2025-5-31",
+    "title": "Prunus Domestica Uses, Benefits, And Remedies",
+    "intro": "Prunus domestica, commonly known as the European or common cherry, is a deciduous tree native to Europe and parts of Asia, known for its edible fruits and medicinal uses. This herb refers to the dried parts of the tree, including its bark, leaves, and berries, which have been used in traditional medicine for centuries. The health benefits of Prunus domestica include antimicrobial, anti-inflammatory, and antioxidant properties, which may support digestive health and immune function. Its therapeutic actions are attributed to bioactive constituents such as flavonoids, tannins, and polyphenols. Herbal preparations like infusions, tinctures, and decoctions can be made from the dried leaves and bark to harness its medicinal properties.",
+    "benefits": "[SENTENCE NUM] Prunus domestica lower blood pressure by promoting vasodilation and reducing oxidative stress in the cardiovascular system. The herb contains bioactive compounds like anthocyanins and flavonoids, which help relax blood vessels and improve blood flow. These properties make Prunus domestica a natural remedy for managing hypertension. In addition to lowering blood pressure, Prunus domestica has antimicrobial properties that can kill bacterial infections by inhibiting the growth of harmful pathogens. It also aids in lowering cholesterol levels by reducing low-density lipoprotein (LDL) and increasing high-density lipoprotein (HDL), thus supporting heart health. Furthermore, the herb is known for its anti-inflammatory effects, which can alleviate symptoms of chronic inflammatory conditions such as arthritis and digestive disorders. With its multifaceted health benefits, Prunus domestica stands out as a valuable natural supplement for overall wellness.",
+    "constituents": "Prunus domestica flavonoids, such as quercetin and kaempferol, are known for their potent antioxidant and anti-inflammatory properties, which contribute to the health benefits of the fruit. These compounds help neutralize free radicals in the body, reducing oxidative stress and potentially lowering the risk of chronic diseases like heart disease and cancer. Additionally, the tannins present in Prunus domestica play a significant role in its medicinal value by providing astringent effects and aiding in the treatment of gastrointestinal issues. The high carbohydrate content in the fruit provides a valuable energy source, while the dietary fiber supports digestive health and helps regulate blood sugar levels. Together, these constituents make Prunus domestica a valuable herb in traditional and modern medicine, offering a range of therapeutic benefits from improved cardiovascular health to enhanced gut function.",
+    "parts": "Prunus domestica fruit, commonly known as the European blackcurrant, is a nutrient-rich part of the plant that has been used for centuries in traditional medicine. The fruit is particularly valued for its high content of antioxidants, vitamins, and polyphenols, which contribute to its anti-inflammatory and immune-boosting properties. In herbal medicine, it is often used to support respiratory health, alleviate symptoms of colds and coughs, and promote overall wellness. The berries are also known to have a mild diuretic effect and may aid in detoxification processes within the body. Additionally, the fruit is sometimes used in combination with other herbs to treat conditions such as diabetes and cardiovascular issues, due to its potential to regulate blood sugar and cholesterol levels. While the fruit is the most commonly utilized part, the seed of Prunus domestica also holds medicinal value, containing oils and compounds that may support digestive health and skin regeneration.",
+    "preparations": "Prunus domestica teas are one of the most common and accessible ways to consume this versatile herb, often prepared by steeping dried berries or leaves in hot water, allowing the release of beneficial compounds such as antioxidants and flavonoids. These teas are valued for their potential digestive and immune-boosting properties, making them a popular choice for general wellness. Decoctions, which involve boiling the herb for a longer period, are used for more potent extracts, especially when dealing with tougher plant parts. Tinctures, made by soaking the herb in alcohol or glycerin, offer concentrated doses of active compounds and are often used for specific therapeutic purposes. In addition to teas, Prunus domestica is also used in the form of creams, syrups, and ointments to address skin conditions and sore throats, showcasing its wide range of applications in traditional and modern herbal medicine.",
+    "side_effects": "Prunus domestica triggers allergic reaction due to the presence of certain proteins and allergens that can be recognized by the immune system, leading to symptoms such as hives, itching, and in severe cases, anaphylaxis. Prunus domestica causes stomach upset because it contains compounds that may irritate the gastrointestinal tract, especially in individuals with sensitive digestion or existing gastrointestinal conditions. Prunus domestica causes bloating as its high fiber content can slow down digestion and lead to gas buildup in the intestines. Prunus domestica causes skin rashes due to the potential for skin contact with its sap or allergens, which can provoke an inflammatory response in susceptible individuals.",
+    "benefits_num": 7,
+    "benefits_list": [
+        {
+            "name": "lower blood pressure",
+            "description": "Prunus domestica contains compounds that help relax blood vessels, improving blood flow and reducing blood pressure levels."
+        },
+        {
+            "name": "kill bacterial infections",
+            "description": "The herb possesses antimicrobial properties that can inhibit the growth of harmful bacteria, aiding in the treatment of bacterial infections."
+        },
+        {
+            "name": "lower cholesterol levels",
+            "description": "Prunus domestica helps reduce low-density lipoprotein (LDL) cholesterol, often referred to as 'bad' cholesterol, thereby promoting heart health."
+        },
+        {
+            "name": "fight inflammation",
+            "description": "It contains anti-inflammatory compounds that help reduce inflammation in the body, which can alleviate symptoms of various inflammatory conditions."
+        },
+        {
+            "name": "regulate blood sugar",
+            "description": "Prunus domestica may improve insulin sensitivity and help regulate blood sugar levels, making it beneficial for individuals with diabetes."
+        },
+        {
+            "name": "prevent heart disease",
+            "description": "By reducing cholesterol, blood pressure, and inflammation, Prunus domestica contributes to the prevention of cardiovascular diseases."
+        },
+        {
+            "name": "fight off viruses",
+            "description": "The herb exhibits antiviral properties that can help the body combat viral infections and enhance immune response."
+        }
+    ],
+    "constituents_num": 9,
+    "constituents_list": [
+        {
+            "name": "flavonoids",
+            "description": "Flavonoids are plant compounds known for their antioxidant properties, which help protect cells from damage caused by free radicals."
+        },
+        {
+            "name": "tannins",
+            "description": "Tannins are a type of polyphenol that have astringent properties and are known for their antimicrobial and antioxidant effects."
+        },
+        {
+            "name": "carbohydrates",
+            "description": "Carbohydrates are a primary source of energy and are essential for the proper functioning of the body's cells and systems."
+        },
+        {
+            "name": "fiber",
+            "description": "Fiber aids in digestion, promotes a healthy gut, and helps regulate blood sugar and cholesterol levels."
+        },
+        {
+            "name": "catechins",
+            "description": "Catechins are a type of flavonoid with strong antioxidant properties, known to support heart health and reduce inflammation."
+        },
+        {
+            "name": "ellagic acid",
+            "description": "Ellagic acid is a polyphenolic compound with antioxidant and anti-cancer properties, known to support detoxification processes."
+        },
+        {
+            "name": "pectin",
+            "description": "Pectin is a soluble fiber that helps lower cholesterol levels and improve digestive health."
+        },
+        {
+            "name": "fatty acids",
+            "description": "Fatty acids are essential nutrients that provide energy, support cell function, and help absorb fat-soluble vitamins."
+        },
+        {
+            "name": "amygdalin",
+            "description": "Amygdalin is a glycoside compound found in the seeds of Prunus species, known for its potential anti-cancer properties and use in traditional medicine."
+        }
+    ],
+    "parts_num": 2,
+    "parts_list": "",
+    "side_effects_num": 13,
+    "side_effects_list": [
+        {
+            "name": "triggers allergic reaction",
+            "description": "Some individuals may experience an allergic reaction to Prunus domestica, which can manifest as symptoms like hives, difficulty breathing, or anaphylaxis in severe cases."
+        },
+        {
+            "name": "causes stomach upset",
+            "description": "Consuming Prunus domestica may lead to stomach upset, characterized by discomfort, cramping, or a feeling of fullness in the abdomen."
+        },
+        {
+            "name": "causes bloating",
+            "description": "Prunus domestica can cause bloating, which is a sensation of fullness and swelling in the abdomen, often due to gas accumulation."
+        },
+        {
+            "name": "causes skin rashes",
+            "description": "In some cases, Prunus domestica may cause skin rashes, which are red, itchy patches on the skin that may appear after contact or ingestion."
+        },
+        {
+            "name": "causes gastrointestinal discomfort",
+            "description": "Prunus domestica can cause general gastrointestinal discomfort, including feelings of nausea, gas, or a burning sensation in the stomach."
+        },
+        {
+            "name": "leads to diarrhea",
+            "description": "Excessive consumption of Prunus domestica may lead to diarrhea, which is characterized by frequent, loose, and watery stools."
+        },
+        {
+            "name": "results in nausea",
+            "description": "Prunus domestica may result in nausea, which is a feeling of sickness or the urge to vomit, often accompanied by a lack of appetite."
+        },
+        {
+            "name": "induces heartburn",
+            "description": "Prunus domestica can induce heartburn, which is a burning sensation in the chest caused by stomach acid reflux into the esophagus."
+        },
+        {
+            "name": "induces throat irritation",
+            "description": "Consuming Prunus domestica may irritate the throat, leading to a sore, scratchy, or inflamed sensation in the throat area."
+        },
+        {
+            "name": "leads to itching",
+            "description": "Prunus domestica may lead to itching, which is an uncomfortable tingling or burning sensation on the skin, often associated with allergic reactions."
+        },
+        {
+            "name": "leads to swelling",
+            "description": "In some cases, Prunus domestica may cause swelling, which is an increase in the size of body tissues, often due to inflammation or allergic reactions."
+        },
+        {
+            "name": "induces mouth irritation",
+            "description": "Prunus domestica can induce mouth irritation, which may cause a burning, stinging, or sore feeling in the mouth or on the lips."
+        },
+        {
+            "name": "leads to digestive issues",
+            "description": "Prunus domestica may lead to digestive issues, such as indigestion, constipation, or other gastrointestinal disturbances, depending on individual tolerance and consumption levels."
+        }
+    ],
+    "preparations_num": 14,
+    "preparations_list": [
+        {
+            "name": "teas",
+            "description": "Prunus domestica tea is used to aid digestion, soothe the stomach, and promote respiratory health due to its mild astringent properties."
+        },
+        {
+            "name": "decoctions",
+            "description": "Prunus domestica decoctions are valued for their ability to reduce inflammation, support digestive health, and alleviate symptoms of respiratory conditions."
+        },
+        {
+            "name": "tinctures",
+            "description": "Prunus domestica tinctures are used to support digestive health, reduce inflammation, and provide antioxidant benefits due to their concentrated active compounds."
+        },
+        {
+            "name": "creams",
+            "description": "Prunus domestica creams are applied topically to soothe skin irritations, reduce inflammation, and promote healing of minor wounds and skin conditions."
+        },
+        {
+            "name": "syrups",
+            "description": "Prunus domestica syrups are used to relieve coughs, soothe sore throats, and support respiratory health due to their expectorant and mild antiseptic properties."
+        },
+        {
+            "name": "mucillages",
+            "description": "Prunus domestica mucillages are used to soothe digestive tract irritation, promote bowel regularity, and provide a protective coating for the gastrointestinal lining."
+        },
+        {
+            "name": "capsules",
+            "description": "Prunus domestica capsules are taken to support digestive health, reduce inflammation, and provide antioxidant benefits in a convenient and standardized form."
+        },
+        {
+            "name": "lozenges",
+            "description": "Prunus domestica lozenges are used to relieve sore throats, reduce coughing, and soothe oral mucous membranes due to their mild astringent and antiseptic properties."
+        },
+        {
+            "name": "oinments",
+            "description": "Prunus domestica ointments are applied externally to treat skin conditions, reduce inflammation, and provide a protective barrier for minor wounds and irritations."
+        },
+        {
+            "name": "oils",
+            "description": "Prunus domestica oils are used to support skin health, reduce inflammation, and promote healing due to their nourishing and antioxidant properties."
+        },
+        {
+            "name": "juices",
+            "description": "Prunus domestica juices are consumed to support digestion, provide antioxidants, and promote overall health due to their rich nutrient content."
+        },
+        {
+            "name": "linctuses",
+            "description": "Prunus domestica linctuses are used to soothe coughs, relieve throat irritation, and provide a mild expectorant effect."
+        },
+        {
+            "name": "liniments",
+            "description": "Prunus domestica liniments are applied topically to reduce pain, inflammation, and muscle soreness due to their anti-inflammatory and analgesic properties."
+        },
+        {
+            "name": "poultices",
+            "description": "Prunus domestica poultices are used to treat skin conditions, reduce inflammation, and promote healing by applying a paste of the herb to the affected area."
+        }
+    ]
+}

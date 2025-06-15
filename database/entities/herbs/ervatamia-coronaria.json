@@ -1,0 +1,24 @@
+{
+    "url": "herbs/ervatamia-coronaria",
+    "herb_slug": "ervatamia-coronaria",
+    "herb_name_scientific": "ervatamia coronaria",
+    "lastmod": "2025-5-31",
+    "benefits_num": 11,
+    "benefits_title": "11 Best Health Benefits Of Ervatamia Coronaria",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 9,
+            "confidence_score": 73,
+            "total_score": 657
+        },
+        {
+            "answer": "medicine",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "constituents_num": 13,
+    "side_effects_num": 13
+}

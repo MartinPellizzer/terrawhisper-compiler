@@ -1,0 +1,349 @@
+status_id\status_name\organ_id\organ_name
+201\headaches\-1\head
+202\one side headache\-1\head
+57\sinus headache\-1\head
+203\migraine\-1\head
+33\hangover\-1\head
+
+158\dandruff\-1\scalp
+159\dry scalp\-1\scalp
+160\itchy scalp\-1\scalp
+161\lice\-1\scalp
+
+152\dry hair\-1\hair
+156\oily hair\-1\hair
+153\frizzy hair\-1\hair
+154\grey hair\-1\hair
+155\hair fall\-1\hair
+307\baldness\-1\hair
+
+227\sleep deprivation\-1\brain
+206\anxiety\-1\brain
+207\stress\-1\brain
+216\dizziness\-1\brain
+204\insomnia\-1\brain
+208\depression\-1\brain
+210\jet lag\-1\brain
+225\brain fog\-1\brain
+226\fatigue\-1\brain
+235\fever\-1\brain
+268\premenstrual syndrome\-1\brain
+303\altitude sickness\-1\brain
+304\alzheimer’s disease\-1\brain
+328\speech difficulty\-1\brain
+339\feverish feeling\-1\brain
+
+129\acne\-1\face
+141\open pores\-1\face
+143\pimples\-1\face
+162\oily face\-1\face
+
+133\dry skin\-1\skin
+194\oily skin\-1\skin
+136\glowing skin\-1\skin
+302\aging\-1\skin
+128\itchy skin\-1\skin
+137\insect bites\-1\skin
+130\bee sting\-1\skin
+139\jellyfish sting\-1\skin
+131\boils\-1\skin
+132\chickenpox\-1\skin
+135\fungal infection\-1\skin
+138\ingrown hair\-1\skin
+142\open wounds\-1\skin
+144\hyperpigmentation\-1\skin
+145\ringworm\-1\skin
+147\sunburn\-1\skin
+313\burns\-1\skin
+311\bruises\-1\skin
+146\rashes\-1\skin
+148\eczema\-1\skin
+149\psoriasis\-1\skin
+150\dermatitis\-1\skin
+219\shingles\-1\skin
+242\fungal skin infection\-1\skin\**************
+245\infection\-1\skin
+281\hot flashes\-1\skin
+
+34\jaundice\-1\eye
+163\dark circles\-1\eye
+125\eye twitching\-1\eye
+164\dry eyes\-1\eye
+165\puffy eyes\-1\eye
+166\itchy eyes\-1\eye
+167\red eyes\-1\eye
+168\stye\-1\eye
+169\eye bags\-1\eye
+170\eye infection\-1\eye
+171\eye stye\-1\eye
+172\eye irritation\-1\eye
+173\eye swelling\-1\eye
+211\eye pain\-1\eye
+212\eye strain\-1\eye
+213\pink eye\-1\eye
+214\sore eyes\-1\eye
+230\eye floaters\-1\eye
+
+78\colds\-1\nose
+234\allergies\-1\nose
+53\hay fever\-1\nose
+54\blocked nose\-1\nose
+55\runny nose\-1\nose
+56\post nasal drip\-1\nose
+80\nasal congestion\-1\nose
+86\nose bleeding\-1\nose
+325\dry nose\-1\nose
+58\sinusitis\-1\nose
+
+174\itchy ears\-1\ear
+215\tinnitus\-1\ear
+217\ear blockage\-1\ear
+218\motion sickness\-1\ear
+228\ear infection\-1\ear
+229\earache\-1\ear
+
+120\chapped lips\-1\lips
+187\dry lips\-1\lips
+177\cold sore\-1\lip
+188\dark lips\-1\lips
+189\fever blister on lip\-1\lips
+
+2\bad breath\-1\mouth
+3\dry mouth\-1\mouth
+4\mouth ulcers\-1\mouth
+61\snoring\-1\mouth
+326\inflamed mouth\-1\mouth
+330\white patches in month\-1\mouth
+332\reddened corners in mouth\-1\mouth
+335\bleeding spots in mouth\-1\mouth
+343\sour taste in mouth\-1\mouth
+344\bitter taste in mouth\-1\mouth
+253\dehydration\-1\mouth
+320\white tongue\-1\mouth
+321\bad taste\-1\mouth
+322\taste changes\-1\mouth
+331\taste loss\-1\mouth
+
+6\periodontal disease\-1\gums
+175\bleeding gums\-1\gums
+176\gum pain\-1\gums
+178\gum swelling\-1\gums
+179\gum infection\-1\gums
+182\swollen gums\-1\gums
+319\inflamed gums\-1\gums
+
+191\toothache\-1\teeth
+324\tooth decay\-1\teeth
+323\dental plaque\-1\teeth
+
+122\jaw pain\-1\jaw
+123\jaw lock\-1\jaw
+124\jaw clenching\-1\jaw
+327\difficulty chewing\-1\jaw
+333\difficulty eating\-1\jaw
+
+109\stiff neck\-1\neck
+110\neck pain\-1\neck
+329\lymph node swelling\-1\neck
+
+5\oral thrush\-1\throat
+8\throat pain\-1\throat
+59\sore throat\-1\throat
+60\dry throat\-1\throat
+79\mucus in throat\-1\throat
+220\strep throat\-1\throat
+334\painful swallowing\-1\throat
+336\dry cough\-1\throat
+337\throat congestion\-1\throat
+340\tickling throat\-1\throat
+341\throat redness\-1\throat
+342\throat irritation\-1\throat
+
+62\laryngitis\-1\larynx
+65\tonsillitis\-1\tonsils
+
+63\hoarse voice\-1\vocal cords
+64\lost voice\-1\vocal cords
+338\difficult speaking\-1\vocal cords
+
+282\hypothyroidism\-1\thyroid
+283\hyperthyroidism\-1\thyroid
+
+9\heartburn\-1\esophagus
+10\acid reflux\-1\esophagus
+11\gerd\-1\esophagus
+318\difficulty swallowing\-1\esophagus
+
+13\indigestion\-1\stomach
+14\stomach pain\-1\stomach
+15\stomach cramps\-1\stomach
+16\hyperacidity\-1\stomach
+18\gastritis\-1\stomach
+19\mucus in stomach\-1\stomach
+20\peptic ulcers\-1\stomach
+22\gastroparesis\-1\stomach
+23\hiatus hernia\-1\stomach
+24\queasy stomach\-1\stomach
+25\upset stomach\-1\stomach
+26\nausea\-1\stomach
+27\vomiting\-1\stomach
+29\gas in stomach\-1\stomach
+31\overeating\-1\stomach
+221\nausea\-1\stomach
+260\morning sickness\-1\stomach
+317\loss of appetite\-1\stomach
+345\burping\-1\stomach
+347\stomach discomfort\-1\stomach
+349\stomach growling\-1\stomach
+
+21\gastroenteritis\-1\intestine
+44\inflammatory bowel disease\-1\intestine
+45\constipation\-1\intestine
+46\diarrhea\-1\intestine
+48\irritable bowel syndrome\-1\intestine
+50\diverticulitis\-1\intestine
+350\upper abdominal pain\-1\intestine
+30\bloating\-1\intestine
+40\abdominal pain\-1\intestine
+
+35\chronic hepatitis\-1\liver
+36\viral hepatitis\-1\liver
+37\cirrhosis\-1\liver
+
+38\gallstones\-1\gallbladder
+39\cholecystitis\-1\gallbladder
+
+47\flatulence\-1\anus
+52\hemorrhoids\-1\anus
+
+81\high blood pressure\-1\heart
+82\low blood pressure\-1\heart
+84\high cholesterol\-1\heart
+83\heart pain\-1\heart
+87\palpitation\-1\heart
+89\arteriosclerosis\-1\heart
+90\congestive heart failure\-1\heart
+233\grief\-1\heart
+305\angina\-1\heart
+
+66\cough\-1\lungs
+68\chest congestion\-1\lungs
+70\asthma\-1\lungs
+69\bronchitis\-1\lungs
+71\phlegm\-1\lungs
+72\acute bronchitis\-1\lungs
+73\chronic bronchitis\-1\lungs
+74\pertussis\-1\lungs
+75\emphysema\-1\lungs
+314\wheezing\-1\lungs
+315\shortness of breath\-1\lungs
+348\coughing fits\-1\lungs
+
+236\inflammation\-1\joints
+99\arthritis\-1\joints
+100\joint pain\-1\joints
+101\joint stiffness\-1\joints
+102\osteoarthritis\-1\joints
+103\rheumatoid arthritis\-1\joints
+
+127\cramps\-1\muscless
+97\muscle pain\-1\muscles
+
+252\bladder pain\-1\bladder
+246\overactive bladder\-1\bladder
+248\cystitis\-1\bladder
+308\bladder infection\-1\bladder
+
+76\hiccups\-1\diaphragm
+
+91\peripheral arterial occlusive disease\-1\leg
+92\varicose veins\-1\leg
+113\leg cramps\-1\leg
+114\leg pain\-1\leg
+115\restless leg syndrome\-1\leg
+251\edema\-1\leg
+254\fluid retention\-1\leg
+
+116\knee pain\-1\knee
+117\knee swelling\-1\knee
+
+88\swollen feet\-1\foot
+223\burning feet\-1\foot
+118\foot pain\-1\foot
+183\athlete's foot\-1\foot
+185\foot odor\-1\foot
+
+119\plantar fasciitis\-1\heel
+184\cracked heels\-1\heel
+
+106\gout\-1\toe
+186\ingrown toenail\-1\toe
+312\bunion\-1\toe
+
+96\hypertension\-1\kidney
+249\urinary calculus\-1\kidney
+250\hematuria\-1\kidney
+
+98\osteoporosis\-1\bone
+126\bone health\-1\bone
+
+107\back pain\-1\back
+
+108\lower back pain\-1\lower back
+
+193\jock itch\-1\groin
+275\endometriosis pain\-1\pelvis
+
+199\neuritis\-1\nerve
+200\nerve pain\-1\nerve
+
+111\frozen shoulder\-1\shoulder
+134\excessive sweating\-1\underarm
+309\body odor\-1\underarm
+104\bursitis\-1\elbow
+105\tendinitis\-1\elbow
+222\numbness in hands\-1\hand
+112\jammed finger\-1\finger
+151\nail fungus\-1\nail
+
+238\postoperative recovery\-1\wound
+
+247\dysuria\-1\urethra
+
+280\hormonal imbalance\-1\reproductive system
+
+240\prostatitis\-1\prostate
+265\prostate inflammation\-1\prostate
+274\benign prostatic hypertrophy\-1\prostate
+
+257\erectile dysfunction\-1\penis
+264\premature ejaculation\-1\penis
+
+258\low sperm count\-1\testes
+
+256\breastfeeding breast pain\-1\breast
+273\fibrocystic breast disease\-1\breast
+
+192\nipple pain during breastfeeding\-1\nipple
+
+239\vaginitis\-1\vagina
+
+259\menstrual cramps\-1\uterus
+262\over bleeding during periods\-1\uterus
+263\period cramps\-1\uterus
+267\amenorrhea\-1\uterus
+271\uterine fibroids\-1\uterus
+272\endometriosis\-1\uterus
+
+261\ovulation pain\-1\ovary
+269\menopause\-1\ovary
+
+286\adrenal fatigue\-1\adrenal glands
+
+301\enlarged spleen\-1\spleen
+
+306\ankylosing spondylitis\-1\spine
+
+316\chills\-1\body
+
+67\flu\-1\respiratory system

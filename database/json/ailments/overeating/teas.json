@@ -1,0 +1,239 @@
+{
+    "url": "ailments/overeating/teas",
+    "ailment_slug": "overeating",
+    "ailment_name": "overeating",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Teas For Overeating",
+    "intro": "Herbal teas for overeating are a type of natural remedy that aims to help individuals manage and overcome excessive eating habits. These teas typically contain a blend of herbs, such as peppermint, chamomile, and dandelion root, which are believed to promote digestion, reduce cravings, and improve overall well-being. The benefits of herbal teas for overeating include reducing bloating and discomfort, calming the mind and body, and providing a sense of fullness and satisfaction. Examples of herbal teas that can be used to treat overeating include lemon balm, which helps to calm the nervous system and reduce stress eating, ginger, which aids in digestion and reduces nausea, and licorice root, which soothes the stomach and promotes relaxation.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Gymnema sylvestre",
+            "herb_mentions": 17,
+            "herb_confidence_score": 154,
+            "herb_total_score": 2618,
+            "preparation_desc": "Gymnema sylvestre teas have been used for centuries to treat the overeating ailment by helping to suppress the taste of sweetness and reduce cravings for sugary foods. This herbal preparation contains bioactive constituents such as gymnemic acid, which has been shown to inhibit the absorption of glucose in the gut, thereby reducing blood sugar levels and decreasing the desire to overeat. The benefits of using Gymnema sylvestre teas to treat overeating include weight loss, improved insulin sensitivity, and reduced risk of developing insulin resistance and type 2 diabetes. Additionally, this herbal preparation has been found to promote feelings of fullness and satisfaction, making it easier to stick to a healthy diet and maintain a balanced weight.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 17,
+            "herb_confidence_score": 134,
+            "herb_total_score": 2278,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger tea, have been traditionally used to treat the overeating ailment due to their properties of reducing nausea and inflammation. This herbal preparation helps to treat overeating by alleviating symptoms of indigestion, bloating, and discomfort, making it easier for individuals to manage their eating habits. The bioactive constituents of ginger tea, including gingerols and shogaols, have anti-inflammatory and antioxidant properties that contribute to its therapeutic effects. The benefits of ginger tea in treating overeating include improved digestion, reduced inflammation, and enhanced overall well-being, making it a popular natural remedy for those struggling with overeating.",
+            "preparation_study": "According to \"World journal of gastroenterology\", Zingiber officinale teas were found to be effective in the management of obesity, specifically showing a significant decrease in body weight.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 16,
+            "herb_confidence_score": 129,
+            "herb_total_score": 2064,
+            "preparation_desc": "Curcuma longa teas, derived from the rhizomes of the turmeric plant, have been traditionally used to treat overeating ailments. The properties of this herbal preparation, including its anti-inflammatory and antioxidant properties, help to alleviate digestive discomfort and reduce the urge to overeat. The bioactive constituents of curcuma longa teas, such as curcumin and demethoxycurcumin, have been found to inhibit the growth of bacteria that can contribute to digestive issues and modulate gut hormones to regulate appetite. The benefits of this herbal preparation include improved digestion, reduced bloating, and enhanced weight management, making it a promising natural remedy for treating overeating ailments.",
+            "preparation_study": "According to \"Current medicinal chemistry\", Curcuma longa teas for overeating may be beneficial due to the presence of curcumin, a major metabolite that exhibits anti-inflammatory properties and helps regulate inflammatory reactions which are evoked in overweight patients, ultimately aiding in weight loss.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 20,
+            "herb_confidence_score": 124,
+            "herb_total_score": 2480,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to help treat overeating ailments due to their ability to improve digestion and reduce cravings for unhealthy foods. The herbal preparation's properties, including flavonoids and terpenoids, help to regulate appetite and metabolism by increasing the production of digestive enzymes and improving gut health. Bioactive constituents such as bilobalide and ginkgolides in Ginkgo biloba teas are believed to play a crucial role in reducing inflammation and oxidative stress in the body, which can contribute to overeating. Regular consumption of Ginkgo biloba teas may help individuals manage their appetite, reduce binge eating, and achieve a healthier weight.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 16,
+            "herb_confidence_score": 103,
+            "herb_total_score": 1648,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle teas, have been traditionally used to treat ailments related to overeating, such as digestive issues and liver damage. The properties of this herbal preparation that help to treat these issues include its anti-inflammatory and antioxidant properties, which aid in reducing inflammation and promoting liver health. The bioactive constituents of milk thistle tea, including silymarin, flavonoids, and phenolic acids, help to protect the liver from damage, reduce oxidative stress, and improve digestion. The benefits of using Silybum marianum teas to treat overeating-related ailments include improved liver function, reduced inflammation, and enhanced overall digestive health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cassia auriculata",
+            "herb_mentions": 17,
+            "herb_confidence_score": 101,
+            "herb_total_score": 1717,
+            "preparation_desc": "Cassia auriculata teas have been traditionally used to treat overeating ailments due to their anti-inflammatory and antioxidant properties, which help to regulate digestive system functions and reduce excessive appetite. The bioactive constituents of this herbal preparation, such as flavonoids and phenolic acids, contribute to its therapeutic effects by modulating gut microbiota and alleviating symptoms of overeating. By reducing stress and anxiety, Cassia auriculata teas also help to curb overeating habits, promoting a balanced diet and regular eating patterns. The regular consumption of Cassia auriculata teas has been found to provide numerous benefits, including improved digestion, reduced weight gain, and enhanced overall well-being in individuals struggling with overeating ailments.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 13,
+            "herb_confidence_score": 87,
+            "herb_total_score": 1131,
+            "preparation_desc": "Glycyrrhiza glabra teas, also known as licorice root tea, have been traditionally used to treat overeating ailments due to their unique properties that help regulate appetite and digestion. The tea's bioactive constituents, including glycyrrhizin and flavonoids, have been shown to possess anti-inflammatory and antioxidant properties, which can help soothe digestive issues and reduce cravings for unhealthy foods. By consuming Glycyrrhiza glabra teas, individuals can experience a decrease in overeating behaviors, improved digestion, and enhanced overall well-being. The benefits of this herbal preparation include reduced stress and anxiety, improved gut health, and a natural approach to managing overeating habits.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 83,
+            "herb_total_score": 830,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat the overeating ailment due to their properties that help regulate appetite and improve digestion. The bioactive constituents of Cinchona officinalis, such as quinine and alkaloids, are believed to stimulate digestive enzymes and increase the absorption of nutrients, which helps alleviate symptoms of overeating. By regulating appetite and improving digestion, Cinchona officinalis teas help reduce the frequency and intensity of overeating episodes, promoting a healthier relationship with food. The benefits of using Cinchona officinalis teas to treat overeating include improved digestion, reduced cravings, and increased feelings of fullness and satisfaction.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Piper nigrum",
+            "herb_mentions": 11,
+            "herb_confidence_score": 79,
+            "herb_total_score": 869,
+            "preparation_desc": "Piper nigrum teas, derived from the Piper nigrum plant, have been traditionally used to treat overeating ailments due to their carminative and anti-inflammatory properties. The bioactive constituents of this herbal preparation, including gingerol and pipernine, help to reduce inflammation in the digestive tract and alleviate symptoms of overeating, such as nausea and indigestion. By regulating digestion and reducing inflammation, Piper nigrum teas promote a sense of fullness and satisfaction, making it easier to manage overeating habits. The benefits of using Piper nigrum teas to treat overeating ailments include improved digestive health, reduced symptoms of nausea and indigestion, and a healthier approach to eating.",
+            "preparation_study": "According to \"Evidence-based complementary and alternative medicine : eCAM\", Piper nigrum teas for overeating may help prevent weight gain and possess cardioprotective activity with a strong antioxidant activity.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Astragalus membranaceus",
+            "herb_mentions": 12,
+            "herb_confidence_score": 77,
+            "herb_total_score": 924,
+            "preparation_desc": "Astragalus membranaceus teas have been traditionally used to treat the overeating ailment, which is also known as overeating disorder or bulimia nervosa. The herbal preparation possesses anti-inflammatory and antioxidant properties, which help to reduce inflammation and oxidative stress associated with overeating. The bioactive constituents, including flavonoids, saponins, and polysaccharides, help to regulate appetite and improve digestion, thereby reducing overeating behavior. By consuming Astragalus membranaceus teas, individuals can experience benefits such as reduced food cravings, improved gut health, and enhanced weight management, ultimately leading to a healthier relationship with food.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FreshDrinkUS-Premium-Astragalus-Material-Caffeine/dp/B0DG4WGMKQ",
+                "affiliate_link": "https://amzn.to/3XVf5a6",
+                "title": "FreshDrinkUS, Premium 75 Astragalus Root Tea Bags, 100% Natural & Pure from Astragalus Root. Astragalus Root Herbal Tea. Made with Natural Material Tea Bags. No Sugar, No Caffeine, No Gluten, Vegan."
+            }
+        },
+        {
+            "herb_name_scientific": "Camellia sinensis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 66,
+            "herb_total_score": 594,
+            "preparation_desc": "Camellia sinensis teas, derived from the leaves of the Camellia sinensis plant, have been used to treat overeating and related ailments due to their properties that help to reduce appetite and improve digestion. The herbal preparation contains bioactive constituents such as theaflavins and thearubigins, which have been shown to slow down the digestion of carbohydrates and reduce the absorption of glucose, thereby helping to regulate blood sugar levels and alleviate overeating symptoms. The benefits of Camellia sinensis teas in treating overeating include improved weight management, reduced food cravings, and enhanced overall well-being. Regular consumption of Camellia sinensis teas may also help to normalize gut bacteria, further contributing to its effectiveness in addressing overeating and related health issues.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Green-Eco-Conscious-Lined-FGO/dp/B07ND4GD5S",
+                "affiliate_link": "https://amzn.to/3Gk6JT6",
+                "title": "FGO Organic Green Tea, 100 Count Eco-Conscious Tea Bags, Caffeinated, Resealable Pouch, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 12,
+            "herb_confidence_score": 66,
+            "herb_total_score": 792,
+            "preparation_desc": "Lavandula angustifolia teas, also known as English lavender tea, have been traditionally used to treat the overeating ailment. The calming and digestive properties of this herbal preparation help to regulate appetite and alleviate symptoms of overeating, making it a potential natural remedy for this condition. The bioactive constituents, including linalool and linalyl acetate, in Lavandula angustifolia teas have been found to have a soothing effect on the digestive system and promote relaxation, which can help to reduce overeating. The benefits of using Lavandula angustifolia teas to treat overeating include reduced anxiety, improved digestion, and a decrease in food cravings, leading to a healthier relationship with food.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 8,
+            "herb_confidence_score": 63,
+            "herb_total_score": 504,
+            "preparation_desc": "Panax ginseng teas have been traditionally used to treat the overeating ailment by promoting digestive balance and appetite regulation. The herbal preparation's properties, including its adaptogenic and antioxidant properties, help to alleviate symptoms such as bloating and indigestion associated with overeating. The bioactive constituents of Panax ginseng teas, including ginsenosides and panaxans, play a crucial role in modulating the body's response to stress and improving gut health, thereby reducing the likelihood of overeating. Regular consumption of Panax ginseng teas has been found to provide benefits such as improved appetite control, reduced cravings, and enhanced overall digestive well-being, making it a potential natural remedy for managing overeating.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Honey-Ginseng-Eco-Conscious-FGO/dp/B09Z37KVJM",
+                "affiliate_link": "https://amzn.to/43IctzX",
+                "title": "FGO Organic Honey Ginseng Green Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Rauvolfia serpentina",
+            "herb_mentions": 10,
+            "herb_confidence_score": 58,
+            "herb_total_score": 580,
+            "preparation_desc": "Rauvolfia serpentina teas have been traditionally used to treat the overeating ailment, particularly in Ayurvedic medicine, due to their ability to act as a natural appetite suppressant and promote weight management. This herbal preparation contains bioactive constituents such as reserpine, serpentine, and yohimbine, which help to reduce stress and anxiety, thereby decreasing the tendency to overeat. The sedative and anti-anxiety properties of Rauvolfia serpentina teas also contribute to their effectiveness in treating overeating by reducing emotional eating and promoting a sense of calmness. By incorporating Rauvolfia serpentina teas into one's diet, individuals can experience benefits such as improved weight management, reduced stress levels, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 54,
+            "herb_total_score": 378,
+            "preparation_desc": "Melissa officinalis teas have been traditionally used to treat the overeating ailment, also known as hyperphagia, by promoting relaxation and reducing stress levels. The herbal preparation's sedative and anxiolytic properties help to calm the mind and body, thereby reducing the urge to overeat. The bioactive constituents of Melissa officinalis, including luteolin, apigenin, and rosmarinic acid, contribute to its therapeutic effects by modulating the gut-brain axis and improving digestion. Regular consumption of Melissa officinalis teas can lead to a reduction in overeating episodes, improved appetite regulation, and a healthier relationship with food.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 9,
+            "herb_confidence_score": 54,
+            "herb_total_score": 486,
+            "preparation_desc": "Foeniculum vulgare teas, also known as fennel tea, have been used for centuries to treat overeating ailments due to their carminative and anti-inflammatory properties. The bioactive constituents of fennel tea, including anethole, fenchone, and limonene, help to stimulate digestive enzymes, reduce bloating, and ease discomfort associated with overeating. By promoting digestion and reducing inflammation in the digestive tract, fennel tea helps to alleviate symptoms of overeating, including indigestion, nausea, and abdominal cramps. The benefits of fennel tea in treating overeating ailments include improved digestion, reduced bloating, and a sense of relief from discomfort, making it a popular natural remedy for those struggling with overeating.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/HANDPICK-Caffeine-Natural-Premium-Eco-Conscious/dp/B0BFHKDK88",
+                "affiliate_link": "https://amzn.to/42bRtPt",
+                "title": "HANDPICK, Fennel Tea Bags (100 Herbal Tea Bags) Caffeine Free, Gluten Free & Non GMO | Round Eco Conscious Teabags | Smooth & Sweet"
+            }
+        },
+        {
+            "herb_name_scientific": "Gardenia jasminoides",
+            "herb_mentions": 9,
+            "herb_confidence_score": 51,
+            "herb_total_score": 459,
+            "preparation_desc": "Gardenia jasminoides teas have been used in traditional medicine to treat overeating ailments due to their calming and soothing properties, which help to reduce stress and anxiety that may lead to overindulgence. This herbal preparation has been found to exert its effects by slowing down the digestion process and reducing the sensation of hunger, thereby promoting weight loss and improved appetite regulation. The bioactive constituents of Gardenia jasminoides teas, including geniposide, genipin, and corilagin, have been identified as key contributors to their therapeutic effects, which help to reduce inflammation and improve metabolic function. The benefits of using Gardenia jasminoides teas to treat overeating ailments include improved weight management, reduced risk of chronic diseases, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 41,
+            "herb_total_score": 246,
+            "preparation_desc": "Valeriana officinalis teas have been traditionally used to treat the overeating ailment due to their calming and sedative properties, which help to regulate appetite and reduce emotional eating. The valerenic acid and valeranone in Valeriana officinalis teas are bioactive constituents that contribute to its anxiolytic and anti-inflammatory effects, promoting a sense of fullness and reducing cravings. By modulating the gut-brain axis and influencing the hypothalamic-pituitary-adrenal axis, Valeriana officinalis teas help to normalize eating habits and reduce binge eating episodes. The benefits of using Valeriana officinalis teas to treat overeating include improved mood, reduced stress levels, and enhanced overall well-being, making it a natural and holistic approach to managing this complex condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 41,
+            "herb_total_score": 246,
+            "preparation_desc": "Schisandra chinensis teas have been traditionally used to treat the overeating ailment, known as polyphagia or hyperphagia, due to their appetite-suppressing properties. This herbal preparation helps to treat overeating by regulating digestive function, reducing inflammation in the digestive system, and promoting satiety. The bioactive constituents of Schisandra chinensis teas, including schisandrins, lignans, and polysaccharides, are responsible for its therapeutic effects, which include antioxidant, anti-inflammatory, and antidiabetic activities. The benefits of Schisandra chinensis teas in treating overeating include reduced food cravings, improved glucose metabolism, and enhanced overall digestive health.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-EveryDay-Detox/dp/B0009F3PHQ",
+                "affiliate_link": "https://amzn.to/4d2gq5d",
+                "title": "Traditional Medicinals Tea, Organic EveryDay Detox Schisandra Berry, Supports Healthy Liver Function, Detox, 96 Tea Bags (6 Pack)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cynara scolymus",
+            "herb_mentions": 6,
+            "herb_confidence_score": 39,
+            "herb_total_score": 234,
+            "preparation_desc": "Cynara scolymus teas, also known as artichoke leaf tea, have been traditionally used to treat the overeating ailment due to its ability to aid digestion and reduce appetite. This herbal preparation contains bioactive constituents such as cynarin and inulin, which help to stimulate digestive enzymes and improve gut health, thereby reducing overeating. By promoting feelings of fullness and reducing food cravings, Cynara scolymus teas help to treat overeating by regulating appetite and improving overall digestive function. The benefits of using this herbal preparation to treat overeating include reduced caloric intake, improved weight management, and a decrease in symptoms associated with digestive disorders.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to the International Journal of Obesity and Related Metabolic Disorders, teas for overeating may be beneficial, specifically oolong tea, which has been found to prevent obesity and fatty liver induced by a high-fat diet due to the enhancing effect of caffeine on noradrenaline-induced lipolysis and the inhibitory action of some other substance on pancreatic lipase activity."
+}

@@ -1,0 +1,187 @@
+{
+    "url": "ailments/infection/essential-oils",
+    "ailment_slug": "infection",
+    "ailment_name": "infection",
+    "preparation_slug": "essential-oils",
+    "preparation_name": "essential oils",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 13,
+    "title": "13 Best Herbal Essential Oils For Infection",
+    "intro": "Herbal essential oils for infection are highly concentrated plant extracts used to promote healing and reduce the severity of infectious ailments. These oils have been shown to possess antimicrobial properties, making them effective in fighting off bacteria, viruses, and fungi that cause infections. Some of the most beneficial herbal essential oils for infection include Tea Tree oil, which is known for its antiseptic properties and ability to combat acne-causing bacteria, while Lavender oil has anti-inflammatory properties that aid in soothing wounds and reducing pain. Additionally, Geranium oil has antimicrobial properties that help combat fungal infections, while Eucalyptus oil has decongestant properties that aid in relieving respiratory infections, and Oregano oil has antiviral properties that help combat viral infections.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Melaleuca alternifolia",
+            "herb_mentions": 19,
+            "herb_confidence_score": 176,
+            "herb_total_score": 3344,
+            "preparation_desc": "Melaleuca alternifolia essential oils, also known as tea tree oil, have been traditionally used to treat various infections due to their antimicrobial and antifungal properties. The terpenes and cineole present in this oil help to inhibit the growth of pathogens, thereby reducing the risk of infection. The bioactive constituents, including eucalyptol and alpha-pinene, play a crucial role in combating bacterial, viral, and fungal infections, making it an effective natural remedy for wound healing and skin infections. The benefits of using Melaleuca alternifolia essential oils include reducing inflammation, preventing the spread of infection, and promoting a speedy recovery, making it a popular choice for treating infections naturally.",
+            "preparation_study": "According to \"Phytotherapy research : PTR\", Melaleuca alternifolia essential oils, specifically 1,8-cineol, terpinen-4-ol, and methyl eugenol, have been reported to possess effective antibacterial and antifungal properties in vitro, making them useful for treating infections.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 19,
+            "herb_confidence_score": 165,
+            "herb_total_score": 3135,
+            "preparation_desc": "Eucalyptus globulus essential oils, derived from the leaves of the Eucalyptus globulus tree, possess antimicrobial and anti-inflammatory properties that make them an effective treatment for various infections. This herbal preparation helps to treat infections by inhibiting the growth of microorganisms, reducing inflammation, and promoting the healing process. The bioactive constituents of Eucalyptus globulus essential oils, including cineole and eucalyptol, play a crucial role in its antimicrobial activity, helping to combat bacterial, fungal, and viral infections. The benefits of using Eucalyptus globulus essential oils to treat infections include its ability to reduce symptoms, prevent the spread of infection, and promote a rapid recovery, making it a popular natural remedy for respiratory and skin infections.",
+            "preparation_study": "According to the study, Eucalyptus globulus essential oils, particularly certain phloroglucinol--sesquiterpene-coupled constituents, showed antibacterial activity against oral pathogenic microorganisms with MIC values ranging from 0.20 micrograms/mL to 6.25 micrograms/mL.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_mentions": 19,
+            "herb_confidence_score": 151,
+            "herb_total_score": 2869,
+            "preparation_desc": "Thymus vulgaris essential oils, also known as thyme oil, have been traditionally used to treat infections due to their antimicrobial and antiseptic properties. The bioactive constituents of thyme oil, including carvacrol and thymol, help to inhibit the growth of bacteria, fungi, and viruses, thereby reducing the severity of infections. The antibacterial properties of thyme oil help to combat infections by disrupting the cell membranes of microorganisms, ultimately leading to their death. Regular use of thyme oil can help to prevent the development of antibiotic-resistant bacteria, making it a valuable herbal preparation in the treatment of infections.",
+            "preparation_study": "According to \"Wiadomosci lekarskie (Warsaw, Poland : 1960)\", Thymus vulgaris essential oils for infection have shown antimicrobial, anti-inflammatory, immunomodulatory, and antioxidant properties, which can contribute to alleviating symptoms and supporting the immune system in cases of upper respiratory tract infections.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 20,
+            "herb_confidence_score": 147,
+            "herb_total_score": 2940,
+            "preparation_desc": "Lavandula angustifolia essential oils have been traditionally used to treat various infections, including bacterial and fungal infections, due to their antimicrobial properties. The herbal preparation's ability to inhibit the growth of pathogens and reduce inflammation makes it effective in treating infections. The bioactive constituents, including linalool and linalyl acetate, contribute to its antimicrobial and anti-inflammatory properties, helping to combat infection. The benefits of using Lavandula angustifolia essential oils to treat infections include reduced risk of antibiotic resistance and fewer side effects compared to conventional antibiotics.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 19,
+            "herb_confidence_score": 129,
+            "herb_total_score": 2451,
+            "preparation_desc": "Rosmarinus officinalis essential oils have been traditionally used to treat infection ailments due to their antimicrobial and antiseptic properties. These properties help to inhibit the growth of bacteria, viruses, and fungi, thereby reducing the severity of the infection. The bioactive constituents of Rosmarinus officinalis essential oils, including camphor, borneol, and pinene, contribute to its antimicrobial effects by disrupting the cell membranes of microorganisms and preventing their replication. The benefits of using Rosmarinus officinalis essential oils to treat infection ailments include reduced inflammation, improved wound healing, and a decreased risk of developing antibiotic-resistant microorganisms.",
+            "preparation_study": "According to \"International journal of microbiology\", Rosmarinus officinalis essential oils for infection showed inhibitory zones ranging between 8 and 23 mm against E. coli, and its MIC (minimum inhibitory concentration) was between 12.5 and 50 mg/ml.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 17,
+            "herb_confidence_score": 123,
+            "herb_total_score": 2091,
+            "preparation_desc": "Echinacea purpurea essential oils have been traditionally used to treat various infections due to their antimicrobial and anti-inflammatory properties. The bioactive constituents, including alkylamides, caffeic acid, and echinacoside, have been found to inhibit the growth of pathogens and reduce inflammation, thereby helping to alleviate infection-related symptoms. By stimulating the immune system and increasing the production of white blood cells, Echinacea purpurea essential oils can help to combat infections more effectively. The benefits of using Echinacea purpurea essential oils to treat infections include reduced severity and duration of symptoms, improved immune function, and a lower risk of complications.",
+            "preparation_study": "According to \"The Cochrane database of systematic reviews\", Echinacea purpurea essential oils for infection may have some benefits, as suggested by the results of 16 included trials, with the majority reporting positive outcomes, but a specific product or preparation cannot be recommended.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cymbopogon citratus",
+            "herb_mentions": 16,
+            "herb_confidence_score": 115,
+            "herb_total_score": 1840,
+            "preparation_desc": "Cymbopogon citratus essential oils, also known as lemongrass oil, have been traditionally used to treat infections due to its antimicrobial properties. This herbal preparation contains bioactive constituents such as citral, geraniol, and limonene, which help to inhibit the growth of bacteria, viruses, and fungi, thereby reducing the severity of infections. The antimicrobial properties of Cymbopogon citratus essential oils help to treat infections by reducing inflammation, preventing the spread of pathogens, and promoting wound healing. The benefits of using Cymbopogon citratus essential oils to treat infections include reduced risk of complications, faster recovery time, and a lower risk of developing antibiotic-resistant bacteria.",
+            "preparation_study": "According to \"African health sciences\", Cymbopogon citratus essential oils have inhibitory activities against certain pathogenic organisms, including those causing male reproductive infections, and may be a potential source for antibacterial compounds for their treatment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 16,
+            "herb_confidence_score": 95,
+            "herb_total_score": 1520,
+            "preparation_desc": "Zingiber officinale essential oils, extracted from the rhizome of the ginger plant, have been traditionally used to treat various infections due to their antimicrobial properties. This herbal preparation helps to treat infections by inhibiting the growth of pathogenic bacteria, fungi, and viruses, thus reducing the severity of symptoms such as inflammation and pain. The bioactive constituents of Zingiber officinale essential oils, including gingerols and shogaols, are responsible for their antimicrobial and anti-inflammatory activities, which help to alleviate infection-related ailments. The benefits of using Zingiber officinale essential oils to treat infections include reduced inflammation, pain relief, and improved immune function, making it a valuable natural remedy for treating various infection-related conditions.",
+            "preparation_study": "According to \"Journal of ethnopharmacology\", Zingiber officinale essential oils for infection show potential as an efflux pump inhibitor, specifically through the compound lariciresinol, which can enhance the antimicrobial potency of berberine and lead to effective killing of drug-resistant Salmonella typhimurium at lower minimum inhibitory concentrations.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 83,
+            "herb_total_score": 1079,
+            "preparation_desc": "Salvia officinalis essential oils, derived from the leaves of the sage plant, possess antimicrobial and anti-inflammatory properties that aid in treating infections. The herbal preparation's ability to inhibit the growth of bacteria and fungi helps to combat infection, reducing symptoms such as pain, redness, and swelling. The bioactive constituents of Salvia officinalis essential oils, including camphor, borneol, and thujone, contribute to its antimicrobial and anti-inflammatory effects, making it an effective treatment for various infections. Regular use of Salvia officinalis essential oils has been shown to promote wound healing, reduce inflammation, and prevent the spread of infection, providing a natural and effective remedy for this ailment.",
+            "preparation_study": "According to the scientific study, Salvia officinalis essential oils for infection showed effective antimicrobial activity against various microorganisms, including Staphylococcus aureus, Staphylococcus epidermidis, Streptococcus mutans, and Candida species, with no observed cytotoxic effect.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Origanum vulgare",
+            "herb_mentions": 11,
+            "herb_confidence_score": 79,
+            "herb_total_score": 869,
+            "preparation_desc": "Origanum vulgare essential oils, extracted from the leaves of the wild marjoram plant, possess antibacterial and antifungal properties that help to treat infections effectively. The bioactive constituents of Origanum vulgare essential oils, including carvacrol and thymol, exhibit potent antimicrobial activity, inhibiting the growth of pathogens and reducing the severity of infections. These properties help to treat infections by reducing inflammation, preventing the spread of disease, and promoting wound healing. The benefits of using Origanum vulgare essential oils to treat infections include accelerated recovery, reduced risk of complications, and a natural approach to combating bacterial and fungal infections.",
+            "preparation_study": "According to \"Future science OA\", Origanum vulgare essential oils for infection exhibit synergistic antibacterial properties against Staphylococcus aureus, particularly when combined with Hypericum perforatum or its active components carvacrol and hypericin.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 14,
+            "herb_confidence_score": 72,
+            "herb_total_score": 1008,
+            "preparation_desc": "Calendula officinalis essential oils are a natural remedy used to treat various infections, including wounds, cuts, and minor injuries, due to their anti-inflammatory, antimicrobial, and antiseptic properties. This herbal preparation helps to treat infections by promoting wound healing, reducing inflammation, and preventing the growth of bacteria and other microorganisms. The bioactive constituents of Calendula officinalis, including triterpenoid saponins, carotenoids, and flavonoids, contribute to its therapeutic effects by exhibiting antioxidant and anti-inflammatory activities. The benefits of using Calendula officinalis essential oils to treat infections include reduced risk of infection, faster healing times, and minimized scarring.",
+            "preparation_study": "According to \"Heliyon\", Calendula officinalis essential oils show the best antibacterial activity against <i>Staphylococcus aureus</i> and <i>Escherichia coli</i>, indicating potential use in treating infections caused by these bacteria.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hyssopus officinalis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 63,
+            "herb_total_score": 693,
+            "preparation_desc": "Hyssopus officinalis essential oils, derived from the leaves and flowers of the hyssop plant, possess antimicrobial and anti-inflammatory properties that help to treat respiratory infections, such as bronchitis and pneumonia. The bioactive constituents of this herbal preparation, including camphor, borneol, and tannins, contribute to its ability to combat infection by inhibiting the growth of bacteria and viruses. Hyssopus officinalis essential oils also help to reduce inflammation and congestion in the respiratory tract, making it easier to breathe and recover from illness. The benefits of using this herbal preparation to treat infections include its natural and non-toxic properties, making it a safe and effective alternative to traditional antibiotics.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinnamomum verum",
+            "herb_mentions": 8,
+            "herb_confidence_score": 56,
+            "herb_total_score": 448,
+            "preparation_desc": "Cinnamomum verum essential oils have been traditionally used to treat infections by leveraging its antimicrobial, anti-inflammatory, and antiseptic properties. The active constituents, including cinnamaldehyde, cinnamene, and linalool, help to inhibit the growth of bacteria, fungi, and viruses, thereby aiding in the treatment of infections. By reducing inflammation and promoting wound healing, Cinnamomum verum essential oils help to prevent the spread of infection and promote a faster recovery. The benefits of using Cinnamomum verum essential oils to treat infections include reduced risk of complications, faster wound healing, and improved overall immune function.",
+            "preparation_study": "According to \"Fitoterapia\", Cinnamomum verum essential oils for infection showed the highest and broadest antibacterial activity against locally prevalent pathogenic bacteria strains.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 8,
+            "herb_confidence_score": 54,
+            "herb_total_score": 432,
+            "preparation_desc": "Curcuma longa essential oils have been traditionally used to treat various infection ailments due to their antimicrobial and anti-inflammatory properties. The active compounds present in these essential oils, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, help to combat bacterial and fungal infections by inhibiting their growth and reproduction. These bioactive constituents also possess antioxidant properties, which aid in reducing inflammation and promoting wound healing. The benefits of using Curcuma longa essential oils to treat infection ailments include reduced risk of antibiotic resistance, minimized scarring, and accelerated recovery.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 10,
+            "herb_confidence_score": 46,
+            "herb_total_score": 460,
+            "preparation_desc": "Ginkgo biloba essential oils have been traditionally used to treat infections due to their antiseptic and antibacterial properties. The bioactive constituents, such as flavonoids and terpenoids, in this herbal preparation help to inhibit the growth of bacteria and fungi, thereby reducing the severity of infections. By promoting blood circulation and reducing inflammation, Ginkgo biloba essential oils aid in the healing process and alleviate symptoms associated with infections, making it a potential natural remedy for treating various ailments. The benefits of using Ginkgo biloba essential oils to treat infections include reduced risk of antibiotic resistance, fewer side effects, and improved overall health and well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Pelargonium graveolens",
+            "herb_mentions": 8,
+            "herb_confidence_score": 45,
+            "herb_total_score": 360,
+            "preparation_desc": "Pelargonium graveolens essential oils, extracted from the leaves of the Geranium plant, possess antimicrobial and antifungal properties that help to treat infections effectively. These properties enable the oil to inhibit the growth of bacteria and fungi, thereby reducing the severity of the infection and promoting a speedy recovery. The bioactive constituents of Pelargonium graveolens essential oils, including geraniol, linalool, and citronellol, contribute to its antimicrobial activity, helping to combat infections and alleviate associated symptoms. The benefits of using Pelargonium graveolens essential oils to treat infections include reduced inflammation, accelerated wound healing, and a lower risk of developing antibiotic-resistant bacteria.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cymbopogon nardus",
+            "herb_mentions": 5,
+            "herb_confidence_score": 37,
+            "herb_total_score": 185,
+            "preparation_desc": "Cymbopogon nardus essential oils, also known as citronella essential oil, have been traditionally used to treat various infections due to its antimicrobial properties. The oil's ability to inhibit the growth of bacteria, fungi, and viruses helps to combat infections, making it an effective herbal preparation for treating ailments such as wounds, cuts, and skin infections. The bioactive constituents of citronella essential oil, including geranial and neral, have been shown to possess strong antimicrobial activity, which contributes to its therapeutic effects. The benefits of using citronella essential oil to treat infections include its ability to promote wound healing, reduce inflammation, and prevent the spread of infection, making it a valuable natural remedy for various health issues.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 6,
+            "herb_confidence_score": 35,
+            "herb_total_score": 210,
+            "preparation_desc": "Achillea millefolium essential oils have been traditionally used to treat infections due to their antimicrobial and anti-inflammatory properties. The herbal preparation's bioactive constituents, such as sesquiterpenes and flavonoids, help to inhibit the growth of pathogens and reduce inflammation in the affected area. By reducing inflammation and preventing the spread of infection, this herbal preparation helps to alleviate symptoms and promote healing. The benefits of using Achillea millefolium essential oils to treat infections include their non-toxic and non-irritating nature, making them a gentle yet effective treatment option.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 32,
+            "herb_total_score": 192,
+            "preparation_desc": "Silybum marianum essential oils have been traditionally used to treat infection ailments due to their anti-inflammatory and antimicrobial properties. The sesquiterpenes and flavonoids present in Silybum marianum essential oils help to inhibit the growth of pathogens, thereby reducing the severity of infection. The anti-inflammatory properties of these bioactive constituents help to soothe and calm the affected area, promoting faster recovery. Regular use of Silybum marianum essential oils has been found to be beneficial in treating infection ailments, reducing symptoms such as pain, redness, and swelling.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Boswellia serrata",
+            "herb_mentions": 4,
+            "herb_confidence_score": 29,
+            "herb_total_score": 116,
+            "preparation_desc": "Boswellia serrata essential oils, derived from the bark of the Boswellia serrata tree, have been widely used to treat the infection ailment, known as pyelonephritis. The anti-inflammatory and antimicrobial properties of this herbal preparation help to treat this ailment by reducing inflammation and preventing the growth of bacteria in the urinary tract. The bioactive constituents of Boswellia serrata essential oils, including boswellic acids, alpha-pinene, and beta-pinene, play a crucial role in treating pyelonephritis by inhibiting the production of pro-inflammatory enzymes and killing the bacteria that cause the infection. The benefits of using Boswellia serrata essential oils to treat pyelonephritis include reduced symptoms, improved immune function, and a lower risk of complications associated with the infection.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Forschende Komplementarmedizin (2006)\", essential oils derived from aromatic medicinal plants have been reported to exhibit exceptionally good antimicrobial effects against bacteria, yeasts, filamentous fungi, and viruses."
+}

@@ -1,0 +1,24 @@
+{
+    "url": "herbs/salsola-kali",
+    "herb_slug": "salsola-kali",
+    "herb_name_scientific": "salsola kali",
+    "lastmod": "2025-5-31",
+    "benefits_num": 13,
+    "benefits_title": "13 Best Health Benefits Of Salsola Kali",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 7,
+            "confidence_score": 60,
+            "total_score": 420
+        },
+        {
+            "answer": "medicine",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        }
+    ],
+    "constituents_num": 7,
+    "side_effects_num": 13
+}

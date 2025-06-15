@@ -1,0 +1,24 @@
+{
+    "url": "herbs/gelsemium-sempervirens",
+    "herb_slug": "gelsemium-sempervirens",
+    "herb_name_scientific": "gelsemium sempervirens",
+    "lastmod": "2025-5-31",
+    "benefits_num": 13,
+    "benefits_title": "13 Best Health Benefits Of Gelsemium Sempervirens",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 8,
+            "confidence_score": 70,
+            "total_score": 560
+        },
+        {
+            "answer": "medicine",
+            "mentions": 2,
+            "confidence_score": 19,
+            "total_score": 38
+        }
+    ],
+    "constituents_num": 11,
+    "side_effects_num": 13
+}

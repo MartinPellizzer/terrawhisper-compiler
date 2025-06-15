@@ -1,0 +1,30 @@
+{
+    "url": "herbs/haronga-madagascariensis",
+    "herb_slug": "haronga-madagascariensis",
+    "herb_name_scientific": "haronga madagascariensis",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Haronga Madagascariensis",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 8,
+            "confidence_score": 15,
+            "total_score": 120
+        },
+        {
+            "answer": "inert",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        },
+        {
+            "answer": "medicine",
+            "mentions": 1,
+            "confidence_score": 2,
+            "total_score": 2
+        }
+    ],
+    "constituents_num": 7,
+    "side_effects_num": 13
+}

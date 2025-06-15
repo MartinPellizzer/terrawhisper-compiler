@@ -1,0 +1,183 @@
+{
+    "url": "ailments/depression/tinctures",
+    "ailment_slug": "depression",
+    "ailment_name": "depression",
+    "preparation_slug": "tinctures",
+    "preparation_name": "tinctures",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Tinctures For Depression",
+    "intro": "Herbal tinctures for Depression are concentrated plant extracts used to treat symptoms of depression, anxiety, and mood disorders. These natural remedies offer a range of benefits, including reduced stress, improved sleep, and increased energy levels. Popular herbal tinctures used to treat depression include St. John's Wort, which has been shown to have a positive effect on mood by regulating neurotransmitters; Ashwagandha, which helps reduce stress and anxiety by balancing the body's response to stress; and Passionflower, which has a calming effect on the nervous system and can help alleviate symptoms of anxiety. Additionally, other herbal tinctures such as Ginkgo Biloba, which improves mood and cognitive function; Lavender, which promotes relaxation and reduces anxiety; and Omega-3 rich Bladderwrack, which supports the brain's ability to regulate mood, are also used to treat depression.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 21,
+            "herb_confidence_score": 183,
+            "herb_total_score": 3843,
+            "preparation_desc": "Hypericum perforatum tinctures, also known as St. John's Wort tinctures, have been traditionally used to treat mild to moderate depression due to their antidepressant properties. The tinctures contain bioactive constituents such as hyperforin and hypericin, which help to inhibit the reuptake of serotonin and norepinephrine, thereby improving mood and reducing symptoms of depression. The benefits of using Hypericum perforatum tinctures to treat depression include reduced symptoms of anxiety and insomnia, improved sleep quality, and enhanced overall mental well-being. By increasing the levels of neurotransmitters that regulate mood, Hypericum perforatum tinctures can help to alleviate the symptoms of depression and promote a sense of calm and well-being.",
+            "preparation_study": "According to \"Alternative medicine review : a journal of clinical therapeutic\", Hypericum perforatum tinctures for depression have been shown to be an effective treatment for mild to moderate depression, with standardized solid extracts of 0.3% hypericin (300 mg three times a day) being a commonly used dosage.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 20,
+            "herb_confidence_score": 171,
+            "herb_total_score": 3420,
+            "preparation_desc": "Passiflora incarnata tinctures have been traditionally used to treat depression due to their sedative and anxiolytic properties, which help to reduce anxiety and promote relaxation. The bioactive constituents of Passiflora incarnata, including flavonoids, alkaloids, and glycosides, interact with the brain's neurotransmitters to regulate mood and emotional response. By modulating the activity of serotonin and dopamine, Passiflora incarnata tinctures can help alleviate symptoms of depression, such as irritability, restlessness, and mood swings. Regular use of Passiflora incarnata tinctures may also promote better sleep, reduced stress, and improved overall mental well-being.",
+            "preparation_study": "According to \"Planta medica\", Passiflora incarnata tinctures have been found to have antidepressant properties and have been shown to have an ameliorative role in depression associated with epilepsy.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 20,
+            "herb_confidence_score": 168,
+            "herb_total_score": 3360,
+            "preparation_desc": "Valeriana officinalis tinctures have been traditionally used to treat depression due to their anxiolytic and sedative properties, which help to reduce stress and anxiety levels. The herbal preparation contains bioactive constituents such as valerenic acid, valeranone, and isovaleric acid, which interact with the GABA receptor to enhance the calming effect of the neurotransmitter and alleviate symptoms of depression. By promoting relaxation and reducing restlessness, Valeriana officinalis tinctures help to treat depression by regulating mood and improving sleep quality. The benefits of using Valeriana officinalis tinctures to treat depression include reduced symptoms of anxiety and improved overall well-being, making it a popular natural remedy for individuals seeking alternative treatments.",
+            "preparation_study": "According to \"Frontiers in pharmacology\", Valeriana officinalis tinctures have been reported to have antidepressant effects, among other pharmacological properties, due to the presence of various compounds with neuroprotective and anti-inflammatory activities.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 20,
+            "herb_confidence_score": 138,
+            "herb_total_score": 2760,
+            "preparation_desc": "Ginkgo biloba tinctures have been traditionally used to treat depression by exerting a mild anxiolytic and antidepressant effect on the nervous system. This herbal preparation contains bioactive constituents such as flavonoids, bilobalide, and ginkgolides, which are thought to contribute to its therapeutic effects by modulating neurotransmitter levels and improving mood. The flavonoids present in Ginkgo biloba tinctures, particularly quercetin and kaempferol, have been shown to have a neuroprotective effect and may help alleviate symptoms of depression by reducing inflammation and oxidative stress in the brain. Regular use of Ginkgo biloba tinctures may help alleviate depression symptoms by improving mood, reducing anxiety, and enhancing overall mental well-being.",
+            "preparation_study": "According to \"Pharmacopsychiatry\", Ginkgo biloba tinctures for depression may improve sleep continuity and enhance Non-REM sleep due to a weakening of CRH-activity, suggesting a potential new treatment strategy for the depressive syndrome with sleep disturbance.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 20,
+            "herb_confidence_score": 137,
+            "herb_total_score": 2740,
+            "preparation_desc": "Lavandula angustifolia tinctures have been traditionally used to treat depression by leveraging their calming and anxiolytic properties. The herbal preparation helps to alleviate symptoms of depression by promoting relaxation, reducing anxiety, and improving mood. The bioactive constituents, including linalool and linalyl acetate, exert their antidepressant effects by interacting with neurotransmitters such as serotonin and GABA, thereby modulating mood and emotional response. The benefits of using Lavandula angustifolia tinctures to treat depression include reduced symptoms of anxiety and depression, improved sleep quality, and enhanced overall well-being.",
+            "preparation_study": "According to \"Pharmaceutical biology\", Lavandula angustifolia tinctures may be effective in reducing symptoms of depression, as the aerial parts hydro alcoholic extract of Lavandula officinalis (likely a reference to Lavandula angustifolia) was found to reduce immobility time in a dose-dependent manner in scopolamine-induced depression-like behaviour in male NMRI rats.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 20,
+            "herb_confidence_score": 132,
+            "herb_total_score": 2640,
+            "preparation_desc": "Avena sativa tinctures have been traditionally used to treat depression due to their anxiolytic, sedative, and adaptogenic properties. The herbal preparation helps to treat depression by reducing anxiety and stress levels, promoting relaxation, and regulating the body's response to emotional stimuli. Avena sativa tinctures contain bioactive constituents such as avenacoside, avenanthramides, and ferulic acid, which are responsible for their antidepressant effects by modulating neurotransmitter activity and improving mood regulation. The benefits of Avena sativa tinctures in treating depression include improved mood stability, reduced anxiety and stress levels, and enhanced overall well-being, making it a potential complementary therapy for managing depressive symptoms.",
+            "preparation_study": "According to \"Comprehensive psychiatry\", Avena sativa tinctures for depression may be a treatment option to reduce symptoms in patients not suffering from full-blown depressive disorder.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 16,
+            "herb_confidence_score": 112,
+            "herb_total_score": 1792,
+            "preparation_desc": "Melissa officinalis tinctures are herbal preparations that have been traditionally used to treat depression due to their anxiolytic and antidepressant properties. The bioactive constituents of Melissa officinalis, including rosmarinic acid, melissic acid, and linalool, help to modulate neurotransmitter activity, reduce inflammation, and promote relaxation, which in turn alleviate symptoms of depression. By enhancing GABA and serotonin levels, Melissa officinalis tinctures help to calm the nervous system and reduce feelings of anxiety and sadness associated with depression. The benefits of using Melissa officinalis tinctures to treat depression include improved mood, reduced stress and anxiety, and enhanced sleep quality, making it a promising natural remedy for managing this complex condition.",
+            "preparation_study": "According to \"BMC complementary medicine and therapies\", Melissa officinalis tinctures for depression showed a significant decrease in depression severity and anxiety in patients with type 2 diabetes, with a statistically significant mean change of depression and anxiety scores compared to the placebo group after a 12-week double-blind clinical trial.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 17,
+            "herb_confidence_score": 95,
+            "herb_total_score": 1615,
+            "preparation_desc": "Zingiber officinale tinctures, derived from the rhizomes of the ginger plant, have been traditionally used to treat depression due to their adaptogenic and anti-inflammatory properties. The bioactive constituents, including gingerols and shogaols, have been shown to modulate neurotransmitter levels and reduce inflammation in the brain, contributing to their antidepressant effects. By modulating the hypothalamic-pituitary-adrenal axis and reducing stress-induced cortisol levels, Zingiber officinale tinctures help alleviate symptoms of depression, including mood swings and loss of motivation. The benefits of using Zingiber officinale tinctures to treat depression include their potential to induce a sense of calm, improve sleep quality, and enhance overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 80,
+            "herb_total_score": 1040,
+            "preparation_desc": "Schisandra chinensis tinctures have been traditionally used to treat depression by virtue of their adaptogenic, anti-inflammatory, and antioxidant properties. The bioactive constituents present in these tinctures, including schisandrins, lignans, and polysaccharides, help to modulate the body's stress response and promote a sense of well-being. By reducing inflammation and oxidative stress in the brain, Schisandra chinensis tinctures may help alleviate symptoms of depression, such as mood swings and fatigue. The benefits of using these tinctures to treat depression include improved mood, enhanced cognitive function, and increased resilience to stress, making it a promising natural remedy for individuals struggling with this ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Corydalis yanhusuo",
+            "herb_mentions": 10,
+            "herb_confidence_score": 74,
+            "herb_total_score": 740,
+            "preparation_desc": "Corydalis yanhusuo tinctures have been traditionally used to treat depression due to their sedative and anxiolytic properties, which help to reduce anxiety and promote relaxation. The bioactive constituents of Corydalis yanhusuo, including tetrahydropalmatine (THP) and tetrahydroprotoberberine (THPB), play a crucial role in alleviating symptoms of depression by regulating neurotransmitter levels and modulating the central nervous system. By promoting GABA receptor activity and inhibiting the reuptake of serotonin and dopamine, Corydalis yanhusuo tinctures help to improve mood and reduce symptoms of depression. The benefits of using Corydalis yanhusuo tinctures to treat depression include reduced anxiety and improved sleep quality, making it a potential natural remedy for individuals suffering from this common mental health disorder.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Bacopa monnieri",
+            "herb_mentions": 11,
+            "herb_confidence_score": 68,
+            "herb_total_score": 748,
+            "preparation_desc": "Bacopa monnieri tinctures have been traditionally used to treat depression by exhibiting adaptogenic and anxiolytic properties, which help to reduce stress and anxiety levels in individuals. The herbal preparation contains bioactive constituents such as bacosides and saponins that have been shown to improve cognitive function and enhance the production of neurotransmitters like serotonin and dopamine, which play a crucial role in regulating mood. By promoting the growth of new neurons and enhancing the communication between neurons, Bacopa monnieri tinctures can help alleviate symptoms of depression and improve overall mental well-being. The benefits of using Bacopa monnieri tinctures to treat depression include reduced anxiety and stress levels, improved mood, and enhanced cognitive function, making it a promising natural remedy for this common ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 12,
+            "herb_confidence_score": 65,
+            "herb_total_score": 780,
+            "preparation_desc": "Silybum marianum tinctures, derived from the milk thistle plant, have been traditionally used to treat depression due to its adaptogenic and antioxidant properties. The herbal preparation helps to alleviate symptoms of depression by reducing inflammation, modulating the gut-brain axis, and promoting the production of neurotransmitters such as serotonin and dopamine. The bioactive constituents of Silybum marianum tinctures, including silymarin and flavonoids, are responsible for its antidepressant effects, which help to regulate mood and reduce stress. The benefits of using Silybum marianum tinctures to treat depression include improved mood, reduced anxiety, and increased resilience to stress, making it a potential natural remedy for this debilitating ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 11,
+            "herb_confidence_score": 65,
+            "herb_total_score": 715,
+            "preparation_desc": "Curcuma longa tinctures have been traditionally used to treat depression due to their anti-inflammatory and antioxidant properties, which help to regulate mood and reduce symptoms of anxiety. The bioactive constituents of Curcuma longa, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, have been shown to have antidepressant effects by influencing neurotransmitter levels and promoting neural plasticity. Curcuma longa tinctures may help to alleviate symptoms of depression by reducing inflammation, modulating the gut-brain axis, and promoting the growth of new neurons. The benefits of using Curcuma longa tinctures to treat depression include improved mood, reduced symptoms of anxiety, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Withania somnifera",
+            "herb_mentions": 7,
+            "herb_confidence_score": 58,
+            "herb_total_score": 406,
+            "preparation_desc": "Withania somnifera tinctures have been traditionally used to treat depression due to their adaptogenic properties, which help the body to adapt to stress and promote balance in the nervous system. The bioactive constituents of Withania somnifera, including withanolides and alkaloids, have been shown to exhibit antidepressant effects by modulating neurotransmitters such as serotonin and dopamine. By modulating these neurotransmitters, Withania somnifera tinctures help to reduce symptoms of depression, including anxiety and fatigue, and promote a sense of well-being and calmness. The benefits of using Withania somnifera tinctures for depression include reduced symptoms of anxiety and depression, improved mood, and enhanced overall quality of life.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 7,
+            "herb_confidence_score": 52,
+            "herb_total_score": 364,
+            "preparation_desc": "Panax ginseng tinctures have been traditionally used to treat depression, an ailment characterized by feelings of sadness and loss of interest in activities. The properties of this herbal preparation, including its adaptogenic and neuroprotective effects, help to alleviate symptoms of depression by promoting relaxation, reducing stress, and enhancing mood. The bioactive constituents of Panax ginseng tinctures, such as ginsenosides, panaxans, and ginsenol, play a crucial role in treating depression by modulating neurotransmitter activity, improving cognitive function, and regulating the body's response to stress. By incorporating Panax ginseng tinctures into a treatment plan, individuals may experience benefits including improved mood, reduced symptoms of anxiety and depression, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 10,
+            "herb_confidence_score": 47,
+            "herb_total_score": 470,
+            "preparation_desc": "Glycyrrhiza glabra tinctures, derived from the roots of the licorice plant, have been traditionally used to treat depression due to its adaptogenic properties and ability to balance the body's stress response. The tinctures contain bioactive constituents such as glycyrrhizin, flavonoids, and phenolic acids, which have been shown to exhibit anxiolytic and antidepressant effects by modulating the activity of neurotransmitters like serotonin and dopamine. By reducing inflammation and oxidative stress, Glycyrrhiza glabra tinctures may help alleviate symptoms of depression, such as mood disturbances and fatigue, and promote a sense of calm and well-being. The benefits of using Glycyrrhiza glabra tinctures to treat depression include reduced anxiety, improved mood, and enhanced overall quality of life, making it a promising natural remedy for this complex condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 43,
+            "herb_total_score": 387,
+            "preparation_desc": "Rosmarinus officinalis tinctures have been studied for their potential to treat depression, with properties that include anti-inflammatory, antioxidant, and anxiolytic effects. This herbal preparation helps to treat depression by promoting relaxation, reducing stress levels, and enhancing mood, which are achieved through the modulation of neurotransmitters such as serotonin and dopamine. The bioactive constituents of Rosmarinus officinalis tinctures, including carnosic acid, rosmarinic acid, and camphor, contribute to its antidepressant effects by inhibiting the activity of pro-inflammatory enzymes and promoting the expression of genes involved in mood regulation. Regular use of Rosmarinus officinalis tinctures has been shown to provide benefits in treating depression, including improved sleep quality, reduced anxiety levels, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Camellia sinensis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 42,
+            "herb_total_score": 336,
+            "preparation_desc": "Camellia sinensis tinctures, derived from the leaves of the tea plant, have been used traditionally to treat depression due to their adaptogenic and anxiolytic properties. The bioactive constituents present in these tinctures, including theaflavins and thearubigins, help to regulate mood and reduce stress levels by interacting with the brain's neurotransmitters, such as serotonin and dopamine. By promoting a sense of calm and well-being, Camellia sinensis tinctures can help alleviate symptoms of depression, including anxiety and irritability. The benefits of using these tinctures to treat depression include improved mood stability, reduced stress and anxiety, and enhanced overall quality of life.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 5,
+            "herb_confidence_score": 30,
+            "herb_total_score": 150,
+            "preparation_desc": "Cinchona officinalis tinctures have been traditionally used to treat depression due to their adaptogenic and anti-anxiety properties, which help to balance the body's response to stress and promote a sense of calm. The bioactive constituents quinine, quinidine, and alkaloids in Cinchona officinalis tinctures contribute to their antidepressant effects by interacting with neurotransmitter receptors and modulating mood-regulating chemicals in the brain. By stimulating the release of serotonin and norepinephrine, these tinctures help to alleviate symptoms of depression, such as feelings of sadness and hopelessness, and promote improved mood and emotional well-being. The benefits of using Cinchona officinalis tinctures to treat depression include their ability to provide a natural, non-pharmacological approach to managing symptoms, reducing reliance on conventional medications, and promoting overall mental health and resilience.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 6,
+            "herb_confidence_score": 27,
+            "herb_total_score": 162,
+            "preparation_desc": "Foeniculum vulgare tinctures, derived from the seeds of the fennel plant, have been traditionally used to treat depression due to their anxiolytic and anti-inflammatory properties. The herbal preparation is believed to help alleviate symptoms of depression by promoting relaxation, reducing anxiety, and improving sleep quality. The bioactive constituents of fennel seed tinctures, including anethole, fenchone, and limonene, are thought to contribute to their antidepressant effects by modulating neurotransmitter activity and reducing inflammation. Regular use of fennel seed tinctures may provide benefits in managing depression by promoting emotional balance, reducing symptoms of anxiety, and improving overall well-being.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Praxis\", tinctures for depression, specifically those made from St.-John's wort, are a useful option for treating mild to moderate depression due to their low rate of adverse effects."
+}

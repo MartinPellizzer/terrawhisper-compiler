@@ -1,0 +1,249 @@
+{
+    "url": "ailments/dandruff/teas",
+    "ailment_slug": "dandruff",
+    "ailment_name": "dandruff",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 11,
+    "title": "11 Best Herbal Teas For Dandruff",
+    "intro": "Herbal teas for dandruff are natural remedies made from various plant extracts, such as leaves, flowers, and roots, that are consumed to help alleviate the symptoms of dandruff, a scalp condition characterized by flaking skin and itchiness. The benefits of using herbal teas for dandruff include their ability to reduce inflammation, soothe itchy scalps, and promote healthy hair growth. Examples of herbal teas that can help treat dandruff include peppermint tea, which cools the scalp and reduces flaking, chamomile tea, which calms and soothes the scalp, and tea tree oil-infused tea, which has antifungal properties that combat scalp infections. Additionally, other herbal teas such as lavender tea, rosemary tea, and sage tea have also been known to help treat dandruff due to their antifungal, antibacterial, and anti-inflammatory properties.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 22,
+            "herb_confidence_score": 175,
+            "herb_total_score": 3850,
+            "preparation_desc": "Rosmarinus officinalis teas have been traditionally used to treat dandruff due to their anti-inflammatory, antifungal, and antibacterial properties. The herbal preparation helps to treat dandruff by reducing inflammation and soothing the scalp, while also inhibiting the growth of fungal and bacterial strains that contribute to the condition. The bioactive constituents of Rosmarinus officinalis, including carnosic acid and rosmarinic acid, possess potent antioxidant and antimicrobial properties that help to combat dandruff-causing pathogens. Regular consumption of Rosmarinus officinalis teas may help to alleviate dandruff symptoms, promote a healthy scalp, and provide relief from associated itching and flaking.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Melaleuca alternifolia",
+            "herb_mentions": 17,
+            "herb_confidence_score": 152,
+            "herb_total_score": 2584,
+            "preparation_desc": "Melaleuca alternifolia teas, also known as tea tree oil infusions, have been used to treat dandruff due to their antifungal and antibacterial properties, which help to control the growth of yeast and other microorganisms that contribute to this condition. The herbal preparation's anti-inflammatory properties also help to soothe and calm the scalp, reducing irritation and flaking. The bioactive constituents of Melaleuca alternifolia teas, including terpinen-4-ol and cineole, have been shown to have antifungal and antibacterial effects, making it an effective treatment for dandruff. By using Melaleuca alternifolia teas as a treatment, individuals can experience a reduction in flaking, itching, and redness associated with dandruff, promoting a healthier and more balanced scalp.",
+            "preparation_study": "According to \"Current topics in medicinal chemistry\", Melaleuca alternifolia teas for dandruff may exhibit anti-dandruff activity by disrupting the microbial growth associated with dandruff formation, particularly those caused by pathogens such as Staphylococcus, Propionibacterium, Malassezia, and Candida.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 19,
+            "herb_confidence_score": 127,
+            "herb_total_score": 2413,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to treat dandruff due to their antifungal and anti-inflammatory properties, which help to soothe and calm the scalp. The bioactive constituents of this herbal preparation, including linalool and linalyl acetate, have been found to inhibit the growth of fungi that cause dandruff, such as Malassezia. By reducing inflammation and preventing fungal overgrowth, Lavandula angustifolia teas can help to alleviate symptoms of dandruff, including itchiness and flaking. The benefits of using Lavandula angustifolia teas to treat dandruff include their natural and non-irritating properties, making them a gentle and effective alternative to conventional treatments.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 14,
+            "herb_confidence_score": 118,
+            "herb_total_score": 1652,
+            "preparation_desc": "Aloe barbadensis teas have been widely used as a natural remedy to treat dandruff, an itchy and flaky scalp condition. The anti-inflammatory and antifungal properties of this herbal preparation help to soothe and calm the scalp, reducing irritation and inflammation associated with dandruff. Aloe vera contains bioactive constituents such as aloin, aloe-emodin, and vitamin E, which possess antifungal and antioxidant properties that help to combat fungal infections and promote healthy scalp growth, reducing dandruff and promoting a healthy scalp. The benefits of using Aloe barbadensis teas to treat dandruff include reduced scaling and flaking, a decrease in scalp irritation, and a promotion of healthy scalp growth, making it a popular natural remedy for dandruff sufferers.",
+            "preparation_study": "According to \"Current topics in medicinal chemistry\", Aloe barbadensis teas for dandruff have been reported to demonstrate anti-dandruff activity by disrupting the microbial growth associated with dandruff formation.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Spearmint-Eco-Conscious-Lined-FGO/dp/B07ND418HR",
+                "affiliate_link": "https://amzn.to/42s2qOg",
+                "title": "FGO Organic Spearmint Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cymbopogon citratus",
+            "herb_mentions": 16,
+            "herb_confidence_score": 112,
+            "herb_total_score": 1792,
+            "preparation_desc": "Cymbopogon citratus teas, also known as lemongrass tea, have been traditionally used to treat dandruff due to its antifungal and anti-inflammatory properties that help to soothe and calm the scalp. The bioactive constituents of lemongrass tea, including citral and geraniol, possess antimicrobial properties that help to inhibit the growth of fungi and yeast that can contribute to dandruff. By reducing inflammation and preventing fungal overgrowth, lemongrass tea helps to treat dandruff by promoting a healthy scalp and reducing flaking and itchiness. The benefits of lemongrass tea in treating dandruff include its natural and non-irritating properties, making it a suitable alternative to synthetic treatments and promoting a balanced scalp ecosystem.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/4ideKqe",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 13,
+            "herb_confidence_score": 97,
+            "herb_total_score": 1261,
+            "preparation_desc": "Eucalyptus globulus teas have been traditionally used to treat dandruff due to their antifungal, antibacterial, and anti-inflammatory properties. The bioactive constituents present in Eucalyptus globulus teas, such as eucalyptol and limonene, help to soothe and calm the scalp, reducing inflammation and promoting a healthy environment for hair growth. The tea's antifungal properties also help to control the growth of Malassezia, a fungus that can contribute to dandruff. By promoting a balanced scalp and reducing flaking, Eucalyptus globulus teas offer a natural and effective treatment for dandruff, providing relief and promoting overall scalp health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Herbal-Tea-Caffeine-Relaxer-Non-GMO/dp/B00ECOSODU",
+                "affiliate_link": "https://amzn.to/4caik3b",
+                "title": "Tiesta Tea - Palm Beach Punch | Loose Leaf | Fruit Punch Herbal Tea | Caffeine-Free Tropical Blend with Apple and Orange | Brew Hot or Iced | Resealable Pouch | 25 Cups | 2 Ounce"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 13,
+            "herb_confidence_score": 95,
+            "herb_total_score": 1235,
+            "preparation_desc": "Curcuma longa teas, derived from the turmeric plant, have been traditionally used to treat dandruff due to their potent antifungal and anti-inflammatory properties. The bioactive constituents, including curcumin and turmerone, help to soothe the scalp, reduce inflammation, and inhibit the growth of fungal pathogens that contribute to dandruff. By reducing inflammation and preventing fungal overgrowth, Curcuma longa teas can help to alleviate symptoms of dandruff, such as itching and flaking, promoting a healthy scalp and hair growth. The benefits of using Curcuma longa teas to treat dandruff include reduced symptoms, improved scalp health, and a natural, non-irritating treatment option that avoids harsh chemicals and artificial additives.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 12,
+            "herb_confidence_score": 83,
+            "herb_total_score": 996,
+            "preparation_desc": "Zingiber officinale teas, derived from the rhizome of the ginger plant, have been traditionally used to treat dandruff due to its anti-inflammatory and antifungal properties. The herbal preparation helps to treat dandruff by reducing inflammation and soothing the scalp, thereby promoting a healthy environment for hair growth. The bioactive constituents of Zingiber officinale, including gingerol and shogaol, exhibit potent antifungal activity against Malassezia yeast, a common culprit behind dandruff. The benefits of using Zingiber officinale teas to treat dandruff include reduced flaking, improved scalp health, and a soothing, calming effect that promotes overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 13,
+            "herb_confidence_score": 80,
+            "herb_total_score": 1040,
+            "preparation_desc": "Urtica dioica teas, also known as nettle tea, have been traditionally used to treat dandruff due to its anti-inflammatory and antifungal properties. The herbal preparation helps to treat dandruff by reducing inflammation and promoting a healthy scalp environment, which in turn alleviates symptoms such as itching and flaking. The bioactive constituents of Urtica dioica tea, including flavonoids and phenolic acids, have been shown to exhibit antifungal and antioxidant activities that contribute to its therapeutic effects. The benefits of using Urtica dioica tea to treat dandruff include its ability to soothe and calm the scalp, reduce the appearance of flakes, and promote a balanced scalp microbiome.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Nettle-Eco-Conscious-Bulgaria-FGO/dp/B07ND3ZT9C",
+                "affiliate_link": "https://amzn.to/3QUwzPU",
+                "title": "FGO Organic Nettle Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 16,
+            "herb_confidence_score": 60,
+            "herb_total_score": 960,
+            "preparation_desc": "Ginkgo biloba teas are a traditional herbal preparation that has been used to treat various ailments, including dandruff. The anti-inflammatory and antifungal properties of Ginkgo biloba teas help to soothe and calm the scalp, reducing irritation and flaking associated with dandruff. The bioactive constituents of Ginkgo biloba teas, including flavonoids and terpenoids, have been shown to exhibit antifungal and antibacterial activities, which can help to control the growth of fungi and bacteria that contribute to dandruff. By reducing inflammation and controlling fungal and bacterial growth, Ginkgo biloba teas can help to alleviate the symptoms of dandruff, promoting a healthy and balanced scalp.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_mentions": 8,
+            "herb_confidence_score": 57,
+            "herb_total_score": 456,
+            "preparation_desc": "Thymus vulgaris teas, derived from the herb thyme, have been used to treat dandruff due to their antifungal and anti-inflammatory properties. The herbal preparation helps to treat this ailment by reducing the growth of yeast-like fungus on the scalp, which is a primary cause of dandruff, and soothing irritated skin. The bioactive constituents of thyme, including thymol and carvacrol, contribute to its antifungal and antimicrobial properties, making it effective in controlling the symptoms of dandruff. The benefits of using Thymus vulgaris teas to treat dandruff include reduced flaking, itching, and inflammation, promoting a healthy and balanced scalp.",
+            "preparation_study": "According to \"Current topics in medicinal chemistry\", Thymus vulgaris teas for dandruff have been reported to demonstrate anti-dandruff activity by disrupting the microbial growth associated with dandruff formation.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Throat-Coat/dp/B000SR62ZC",
+                "affiliate_link": "https://amzn.to/3FRzx5k",
+                "title": "Traditional Medicinals Tea, Organic Throat Coat, Supports Throat Health, 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Thymus serpyllum",
+            "herb_mentions": 8,
+            "herb_confidence_score": 53,
+            "herb_total_score": 424,
+            "preparation_desc": "Thymus serpyllum teas have been traditionally used to treat dandruff due to their antifungal and antibacterial properties. The herbal preparation helps to treat this ailment by reducing the growth of fungi and bacteria that cause flaking and itching on the scalp. Thymus serpyllum teas contain bioactive constituents such as thymol, carvacrol, and borneol, which have antimicrobial and anti-inflammatory properties that help to soothe and calm the scalp, reducing symptoms of dandruff. Regular use of Thymus serpyllum teas can provide relief from dandruff, promote healthy scalp, and prevent further infection, making it a beneficial herbal remedy for treating this common scalp condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Camellia sinensis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 49,
+            "herb_total_score": 441,
+            "preparation_desc": "Camellia sinensis teas, derived from the leaves of the Camellia sinensis plant, have been used for centuries to treat various ailments, including dandruff. The antimicrobial and anti-inflammatory properties of these teas help to treat dandruff by reducing the growth of fungal organisms and soothing irritated scalps. The bioactive constituents, including flavonoids and phenolic acids, present in Camellia sinensis teas have been found to exhibit antifungal and antioxidant activities, contributing to their effectiveness in treating dandruff. Regular consumption of Camellia sinensis teas has been found to provide benefits in treating dandruff, including reduced flaking, improved scalp health, and a decrease in fungal infections.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Green-Eco-Conscious-Lined-FGO/dp/B07ND4GD5S",
+                "affiliate_link": "https://amzn.to/3Gk6JT6",
+                "title": "FGO Organic Green Tea, 100 Count Eco-Conscious Tea Bags, Caffeinated, Resealable Pouch, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 49,
+            "herb_total_score": 441,
+            "preparation_desc": "Calendula officinalis teas have been traditionally used to treat dandruff due to their anti-inflammatory and antifungal properties, which help soothe and calm the scalp. The bioactive constituents, including triterpenoid saponins and flavonoids, present in Calendula officinalis teas, have been found to exhibit antifungal activity, thereby inhibiting the growth of fungi that can cause dandruff. This herbal preparation helps to treat dandruff by reducing inflammation, promoting a healthy scalp, and preventing the accumulation of dead skin cells, thereby alleviating symptoms such as itching and flaking. The benefits of using Calendula officinalis teas to treat dandruff include a reduction in symptoms, promotion of a healthy scalp, and a natural alternative to conventional treatments, making it a popular choice for those seeking a holistic approach to managing dandruff.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Twinings-Individually-Naturally-Caffeine-Free-Packaging/dp/B09RC41QGJ",
+                "affiliate_link": "https://amzn.to/42mjHYe",
+                "title": "Twinings Lemon & Ginger Herbal Tea Individually Wrapped Bags, 100 Count (Pack of 1), Tangy Lemon, Spicy Ginger, Naturally Caffeine-Free, Enjoy Hot or Iced | Packaging May Vary"
+            }
+        },
+        {
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 47,
+            "herb_total_score": 329,
+            "preparation_desc": "Salvia officinalis teas have been traditionally used to treat dandruff due to their anti-inflammatory and antifungal properties, which help to soothe and calm the scalp. The bioactive constituents, such as thymol and carvacrol, present in Salvia officinalis teas, possess antiseptic and antimicrobial properties that help to reduce the growth of fungi and bacteria that contribute to dandruff. By using Salvia officinalis teas, individuals can experience relief from the symptoms of dandruff, including itching, redness, and flakiness, and promote a healthy scalp environment. The benefits of using Salvia officinalis teas to treat dandruff include reduced scalp irritation, improved scalp health, and a decrease in the frequency and severity of dandruff flare-ups.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Taylors-Harrogate-Green-Jasmine-Teabags/dp/B000MN69CS",
+                "affiliate_link": "https://amzn.to/4iXf0ei",
+                "title": "Taylors of Harrogate Green Tea with Jasmine, 50 Teabags"
+            }
+        },
+        {
+            "herb_name_scientific": "Saponaria officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 46,
+            "herb_total_score": 368,
+            "preparation_desc": "Saponaria officinalis teas have been traditionally used to treat dandruff, a common scalp condition characterized by flaking skin and itching. The antifungal and antibacterial properties of Saponaria officinalis teas help to treat dandruff by reducing the growth of pathogens that contribute to the condition. The bioactive constituents of Saponaria officinalis teas, including saponins and flavonoids, have been shown to exhibit anti-inflammatory and antioxidant activities, which aid in soothing and calming the scalp, reducing inflammation and promoting healthy skin cell growth. Regular consumption of Saponaria officinalis teas may help to alleviate dandruff symptoms, promoting a healthier and balanced scalp ecosystem.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 8,
+            "herb_confidence_score": 43,
+            "herb_total_score": 344,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to treat dandruff due to their anti-inflammatory and antifungal properties, which help to soothe and calm the scalp. The bioactive constituents of Echinacea purpurea, such as alkylamides and glycosides, have been shown to exhibit antimicrobial activity, which helps to reduce the growth of yeast and other microorganisms that can contribute to dandruff. By reducing inflammation and preventing the overgrowth of yeast, Echinacea purpurea teas can help to alleviate symptoms of dandruff, including itchiness and flaking. The benefits of using Echinacea purpurea teas to treat dandruff include a reduction in scalp irritation, an improvement in scalp health, and a decrease in the frequency and severity of dandruff symptoms.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 9,
+            "herb_confidence_score": 42,
+            "herb_total_score": 378,
+            "preparation_desc": "Glycyrrhiza glabra teas, derived from the root of the licorice plant, have been traditionally used to treat dandruff due to their anti-inflammatory and antifungal properties. These properties help to soothe the scalp, reduce irritation, and prevent the growth of fungal infections that contribute to dandruff. The bioactive constituents present in Glycyrrhiza glabra teas, including glycyrrhizin and flavonoids, have been found to have antiseptic and anti-inflammatory effects, making them effective in treating dandruff. The benefits of using Glycyrrhiza glabra teas to treat dandruff include a reduction in flaking, itching, and redness, promoting a healthy and balanced scalp.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 8,
+            "herb_confidence_score": 40,
+            "herb_total_score": 320,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been traditionally used to treat dandruff due to their anti-inflammatory and antifungal properties. This herbal preparation helps to treat dandruff by soothing the scalp, reducing inflammation, and preventing the growth of fungi that can contribute to the condition. The bioactive constituents of Silybum marianum teas, including silymarin and flavonoids, play a crucial role in their therapeutic effects, helping to calm the scalp and reduce flaking. The benefits of using Silybum marianum teas to treat dandruff include a reduction in symptoms, improved scalp health, and a natural and non-invasive approach to managing the condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ocimum basilicum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 39,
+            "herb_total_score": 273,
+            "preparation_desc": "Ocimum basilicum teas, made from the leaves of the sweet basil plant, have been used to treat dandruff due to their antifungal and anti-inflammatory properties. The antifungal properties of Ocimum basilicum teas help to control the growth of yeast on the scalp, a common cause of dandruff, while its anti-inflammatory properties soothe and calm the scalp, reducing flaking and itchiness. The bioactive constituents of Ocimum basilicum teas, including eugenol, linalool, and beta-caryophyllene, contribute to their therapeutic effects, exhibiting antifungal and anti-inflammatory activities that help to treat dandruff. The benefits of Ocimum basilicum teas in treating dandruff include reduced flaking, itchiness, and inflammation, as well as improved scalp health and a reduction in the risk of further infections.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to the study on dandruff and herbal treatments, teas for dandruff are based on herbal extracts that offer better effectiveness and fewer side effects compared to traditional chemical treatments."
+}

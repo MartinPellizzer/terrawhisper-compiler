@@ -1,0 +1,94 @@
+{
+    "data": [
+        {
+            "method": "Consulting with a naturopathic doctor or herbalist",
+            "time": "30 minutes to 1 hour",
+            "cost": "$75-$150",
+            "challenges": "Difficulty in finding a qualified and reputable naturopathic doctor or herbalist, lack of time during the consultation to discuss herbal remedies in depth, and the cost of multiple consultations",
+            "emotions": "Anxiety and stress about finding a qualified practitioner, feeling overwhelmed by the complexity of herbalism",
+            "score": 9,
+            "why": "The difficulty in finding a qualified practitioner and navigating the complexity of herbalism is a significant challenge for women interested in herbalism."
+        },
+        {
+            "method": "Consulting with a healthcare practitioner or doctor",
+            "time": "30 minutes to 1 hour",
+            "cost": "$50-$100",
+            "challenges": "Difficulty in finding a practitioner who understands and supports herbalism, lack of time during the consultation to discuss herbal remedies in depth, and the cost of multiple consultations",
+            "emotions": "Anxiety and stress about navigating the healthcare system, feeling overwhelmed by the complexity of modern Western medicine",
+            "score": 8,
+            "why": "The frustration of navigating the healthcare system and feeling overwhelmed by its complexity is a significant challenge for women interested in herbalism."
+        },
+        {
+            "method": "Online herbalism courses or certifications",
+            "time": "10-20 hours",
+            "cost": "$200-$1,000",
+            "challenges": "Difficulty in finding a reputable and comprehensive course, lack of time to complete the course, and the cost of certification",
+            "emotions": "Anxiety and stress about finding a course that meets their needs, feeling overwhelmed by the complexity of herbalism",
+            "score": 8,
+            "why": "Online courses can be a convenient option, but the cost and time investment can be a barrier for some women."
+        },
+        {
+            "method": "Growing and preparing own herbal remedies",
+            "time": "1-2 hours",
+            "cost": "$10-$50",
+            "challenges": "Difficulty in finding high-quality seeds or herbs, lack of time to prepare remedies, and the cost of equipment and supplies",
+            "emotions": "Anxiety and stress about finding high-quality herbs, feeling overwhelmed by the complexity of herbalism",
+            "score": 7,
+            "why": "Growing and preparing own herbal remedies can be a rewarding experience, but it requires time and investment."
+        },
+        {
+            "method": "Joining online herbalism communities or forums",
+            "time": "10-30 minutes",
+            "cost": "Free or $10-$30",
+            "challenges": "Difficulty in finding a supportive and knowledgeable community, lack of time to participate in discussions, and the cost of membership or subscriptions",
+            "emotions": "Anxiety and stress about finding a supportive community, feeling overwhelmed by the complexity of herbalism",
+            "score": 7,
+            "why": "Joining online communities can be a great way to connect with others, but it requires time and investment."
+        },
+        {
+            "method": "Practicing yoga or meditation for stress relief",
+            "time": "30-60 minutes",
+            "cost": "$10-$30",
+            "challenges": "Difficulty in finding a yoga or meditation class that incorporates herbalism, lack of time to practice regularly, and the cost of classes or online courses",
+            "emotions": "Anxiety and stress about finding a class that meets their needs, feeling overwhelmed by the complexity of herbalism",
+            "score": 6,
+            "why": "While yoga and meditation can be beneficial for stress relief, they may not address the underlying issues related to herbalism."
+        },
+        {
+            "method": "Reading herbalism books or blogs",
+            "time": "1-2 hours",
+            "cost": "$10-$30",
+            "challenges": "Difficulty in finding reliable and accurate information, lack of time to read and process information, and the cost of books or subscriptions",
+            "emotions": "Anxiety and stress about finding reliable information, feeling overwhelmed by the complexity of herbalism",
+            "score": 6,
+            "why": "While reading books and blogs can be helpful, it may not address the underlying issues related to herbalism."
+        },
+        {
+            "method": "Keeping a food diary or tracking symptoms",
+            "time": "10-30 minutes",
+            "cost": "Free or $10-$30",
+            "challenges": "Difficulty in tracking symptoms and food intake accurately, lack of time to record data, and the cost of a food diary or app",
+            "emotions": "Anxiety and stress about tracking symptoms and food intake, feeling overwhelmed by the complexity of herbalism",
+            "score": 5,
+            "why": "While tracking symptoms and food intake can be helpful, it may not address the underlying issues related to herbalism."
+        },
+        {
+            "method": "Using essential oils for aromatherapy",
+            "time": "5-10 minutes",
+            "cost": "$10-$50",
+            "challenges": "Difficulty in finding high-quality essential oils, lack of time to use aromatherapy regularly, and the cost of oils and equipment",
+            "emotions": "Anxiety and stress about finding high-quality oils, feeling overwhelmed by the complexity of herbalism",
+            "score": 5,
+            "why": "Aromatherapy can be a quick and easy option, but it may not address the underlying issues related to herbalism."
+        },
+        {
+            "method": "Using over-the-counter herbal supplements",
+            "time": "5-10 minutes",
+            "cost": "$10-$50",
+            "challenges": "Difficulty in finding high-quality supplements, lack of time to research and compare products, and the cost of supplements",
+            "emotions": "Anxiety and stress about finding high-quality supplements, feeling overwhelmed by the complexity of herbalism",
+            "score": 5,
+            "why": "While over-the-counter supplements can be convenient, they may not address the underlying issues related to herbalism."
+        }
+    ]
+}

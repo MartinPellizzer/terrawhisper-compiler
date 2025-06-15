@@ -1,0 +1,245 @@
+{
+    "url": "ailments/altitude-sickness/teas",
+    "ailment_slug": "altitude-sickness",
+    "ailment_name": "altitude sickness",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Teas For Altitude Sickness",
+    "intro": "Herbal teas for Altitude sickness are a natural remedy used to alleviate the symptoms of altitude sickness, a condition that occurs when the body is unable to adapt to high elevations, leading to headaches, nausea, and fatigue. These herbal teas work by promoting blood flow, reducing inflammation, and improving oxygenation of the body, providing relief from the discomfort and pain associated with altitude sickness. Examples of herbal teas that can be used to treat altitude sickness include Ginger tea, which helps to reduce nausea and improve circulation, Peppermint tea, which eases headaches and promotes digestion, and Echinacea tea, which boosts the immune system and reduces inflammation. Additionally, other herbal teas such as Eleuthero tea, Licorice root tea, and Yarrow tea have also been found to be effective in treating altitude sickness due to their ability to improve circulation, reduce oxidative stress, and promote overall well-being.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 20,
+            "herb_confidence_score": 159,
+            "herb_total_score": 3180,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger tea, have been traditionally used to treat altitude sickness due to their anti-inflammatory and antioxidant properties. The bioactive constituents of ginger tea, including gingerols and shogaols, help to alleviate symptoms of altitude sickness such as nausea, headaches, and fatigue by reducing inflammation and improving blood circulation. Drinking ginger tea can help to alleviate altitude sickness by reducing the severity of symptoms and promoting a faster recovery. The benefits of ginger tea in treating altitude sickness include reducing the risk of altitude-related illnesses, improving overall well-being, and allowing individuals to adapt to high altitudes more quickly.",
+            "preparation_study": "According to \"Pakistan journal of pharmaceutical sciences\", Zingiber officinale teas contain significant antioxidant activity, particularly with DPPH (222.30mg/TE/g DW) and FRAP (98.04mg/TE/g DW) values, which may help alleviate symptoms associated with altitude sickness.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 21,
+            "herb_confidence_score": 147,
+            "herb_total_score": 3087,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat altitude sickness, a condition characterized by headaches, nausea, and fatigue at high elevations. The herbal preparation's anti-inflammatory and antioxidant properties help to reduce inflammation and oxidative stress, which contribute to the symptoms of altitude sickness. The bioactive constituents of Ginkgo biloba, including flavonoids, terpenoids, and bilobalide, work together to improve blood flow, reduce inflammation, and protect against oxidative damage, making it easier for the body to adapt to high altitudes. By using Ginkgo biloba teas, individuals may experience reduced symptoms of altitude sickness, improved respiratory function, and enhanced overall well-being, making it a popular natural remedy for travelers and adventurers.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Astragalus membranaceus",
+            "herb_mentions": 18,
+            "herb_confidence_score": 145,
+            "herb_total_score": 2610,
+            "preparation_desc": "Astragalus membranaceus teas have been traditionally used to treat altitude sickness due to their adaptogenic properties, which help to reduce stress and fatigue caused by high altitudes. This herbal preparation helps to treat altitude sickness by increasing red blood cell count, improving oxygen delivery to tissues, and enhancing the body's ability to adapt to high altitude conditions. The bioactive constituents of Astragalus membranaceus teas, including polysaccharides, flavonoids, and saponins, play a crucial role in treating altitude sickness by increasing antioxidant levels, improving cardiovascular function, and modulating the immune system. The benefits of Astragalus membranaceus teas in treating altitude sickness include reduced symptoms of headache, fatigue, and nausea, as well as improved physical performance and overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FreshDrinkUS-Premium-Astragalus-Material-Caffeine/dp/B0DG4WGMKQ",
+                "affiliate_link": "https://amzn.to/3XVf5a6",
+                "title": "FreshDrinkUS, Premium 75 Astragalus Root Tea Bags, 100% Natural & Pure from Astragalus Root. Astragalus Root Herbal Tea. Made with Natural Material Tea Bags. No Sugar, No Caffeine, No Gluten, Vegan."
+            }
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 13,
+            "herb_confidence_score": 104,
+            "herb_total_score": 1352,
+            "preparation_desc": "Panax ginseng teas have been traditionally used to treat altitude sickness, a condition characterized by headaches, nausea, and fatigue at high elevations. The anti-inflammatory and antioxidant properties of Panax ginseng teas help to alleviate the symptoms of altitude sickness by reducing inflammation and improving blood circulation. The bioactive constituents of Panax ginseng, including ginsenosides and panaxans, work together to improve cardiovascular function, enhance oxygen delivery to tissues, and boost the immune system. Regular consumption of Panax ginseng teas can help to acclimate the body to high altitudes, reducing the risk of altitude sickness and promoting overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Honey-Ginseng-Eco-Conscious-FGO/dp/B09Z37KVJM",
+                "affiliate_link": "https://amzn.to/43IctzX",
+                "title": "FGO Organic Honey Ginseng Green Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 103,
+            "herb_total_score": 1133,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat altitude sickness, also known as acute mountain sickness (AMS), due to their ability to help alleviate symptoms such as headaches, nausea, and fatigue. The bioactive constituents, including quinine and quinidine, possess vasodilatory properties that help to increase blood flow and oxygen delivery to the body's tissues, thus reducing the severity of AMS. This herbal preparation works by countering the negative effects of high altitude on the body's cardiovascular system, allowing the body to adapt more efficiently to the lower oxygen levels. The benefits of using Cinchona officinalis teas to treat altitude sickness include a faster recovery time, reduced risk of AMS-related complications, and a more comfortable experience for travelers and climbers.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 12,
+            "herb_confidence_score": 98,
+            "herb_total_score": 1176,
+            "preparation_desc": "Curcuma longa teas have been traditionally used to treat altitude sickness, an ailment caused by high elevation, due to their adaptogenic and anti-inflammatory properties. The bioactive constituents of Curcuma longa, including curcumin, turmerone, and ar-turmerone, help to alleviate symptoms such as nausea, headaches, and fatigue. These constituents possess antioxidant and anti-inflammatory properties that help to reduce oxidative stress and inflammation, which contribute to altitude sickness. The benefits of using Curcuma longa teas to treat altitude sickness include improved oxygenation, reduced inflammation, and enhanced overall well-being, making it a potential natural remedy for this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 84,
+            "herb_total_score": 924,
+            "preparation_desc": "Schisandra chinensis teas have been traditionally used to alleviate the symptoms of altitude sickness, a condition often encountered by travelers and climbers at high elevations. The adaptogenic properties of this herbal preparation help to treat altitude sickness by promoting physiological balance and enhancing the body's ability to adapt to high-altitude conditions. The bioactive constituents, including schisandrins, lignans, and polyphenols, play a crucial role in mitigating the effects of altitude sickness by improving cardiovascular function, reducing oxidative stress, and stabilizing blood pressure. Regular consumption of Schisandra chinensis teas has been shown to provide relief from altitude sickness symptoms, allowing individuals to recover more quickly and comfortably from high-altitude excursions.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-EveryDay-Detox/dp/B0009F3PHQ",
+                "affiliate_link": "https://amzn.to/4d2gq5d",
+                "title": "Traditional Medicinals Tea, Organic EveryDay Detox Schisandra Berry, Supports Healthy Liver Function, Detox, 96 Tea Bags (6 Pack)"
+            }
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 78,
+            "herb_total_score": 780,
+            "preparation_desc": "Valeriana officinalis teas have been traditionally used to treat altitude sickness due to their sedative and anti-anxiety properties. The herbal preparation helps to alleviate the symptoms of altitude sickness, such as headaches, fatigue, and insomnia, by promoting relaxation and reducing stress levels. Valeriana officinalis teas contain bioactive constituents like valepotriates and valerenic acid, which have been shown to have a sedative effect and help to regulate the body's response to high altitudes. The benefits of Valeriana officinalis teas in treating altitude sickness include improved sleep quality, reduced anxiety and stress, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 13,
+            "herb_confidence_score": 77,
+            "herb_total_score": 1001,
+            "preparation_desc": "Glycyrrhiza glabra teas have been traditionally used to treat altitude sickness due to their adaptogenic and anti-inflammatory properties. The flavonoids and saponins present in these teas help to increase oxygen supply to the body, reduce oxidative stress, and alleviate symptoms such as headaches and nausea associated with altitude sickness. The bioactive constituents, including glycyrrhizin and licoricidin, aid in stabilizing blood pressure and electrolyte balance, which can become imbalanced at high altitudes. Regular consumption of Glycyrrhiza glabra teas can provide relief from altitude sickness symptoms and promote overall well-being, making it a valuable herbal remedy for individuals living or traveling at high elevations.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 12,
+            "herb_confidence_score": 74,
+            "herb_total_score": 888,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to alleviate symptoms of altitude sickness, a condition that occurs when the body is unable to adapt to high elevations. The anti-inflammatory and antioxidant properties of these teas help to treat altitude sickness by reducing inflammation and oxidative stress in the body. Bioactive constituents such as alkylamides, caffeic acid, and rosmarinic acid, present in Echinacea purpurea teas, contribute to their therapeutic effects by enhancing immune function and protecting against high-altitude-related damage. Regular consumption of Echinacea purpurea teas has been shown to provide benefits in reducing the severity and duration of altitude sickness symptoms, making it a valuable herbal remedy for individuals who frequently travel to high-altitude areas.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Panax quinquefolius",
+            "herb_mentions": 9,
+            "herb_confidence_score": 69,
+            "herb_total_score": 621,
+            "preparation_desc": "Panax quinquefolius teas, also known as American ginseng tea, have been traditionally used to treat altitude sickness due to its adaptogenic properties that help the body adapt to high elevations. This herbal preparation helps to treat altitude sickness by improving circulation, reducing inflammation, and enhancing oxygen delivery to the body's tissues. The bioactive constituents of Panax quinquefolius, including ginsenosides and saponins, play a crucial role in alleviating altitude sickness symptoms, such as headaches and fatigue. By consuming Panax quinquefolius teas, individuals can experience benefits such as improved acclimatization, reduced risk of high-altitude pulmonary edema, and enhanced overall well-being during high-altitude travel.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Angelica sinensis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 63,
+            "herb_total_score": 567,
+            "preparation_desc": "Angelica sinensis teas, also known as dong quai, have been traditionally used to treat altitude sickness due to their adaptogenic and anti-inflammatory properties. The herbal preparation helps to alleviate this ailment by improving blood circulation, reducing oxidative stress, and preventing fluid buildup in the body. Bioactive constituents such as ferulic acid, baicalein, and ferulic acid derivatives contribute to its therapeutic effects, which include vasodilation, anti-inflammatory activity, and antioxidant properties. The benefits of using Angelica sinensis teas to treat altitude sickness include reduced symptoms of headache, nausea, and fatigue, allowing individuals to acclimate to high altitudes more effectively.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natural-Menopause-Supplements-Women-120CT/dp/B0B7Y5F6DP",
+                "affiliate_link": "https://amzn.to/4jFdWw3",
+                "title": "Complete Herbal Menopause Supplement for Women - Female Hormone Balance Capsules for Night Sweats, Hot Flashes & Mood Swings with Dong Quai, Chaste Berry & Black Cohosh Root - 120 Count Pack"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 57,
+            "herb_total_score": 570,
+            "preparation_desc": "Rosmarinus officinalis teas, also known as rosemary tea, have been traditionally used to treat altitude sickness due to their adaptogenic and antioxidant properties. The herbal preparation helps to treat altitude sickness by improving circulation, reducing inflammation, and promoting oxygenation of the body, thereby alleviating symptoms such as headaches and fatigue. The bioactive constituents of rosemary tea, including carnosic acid and rosmarinic acid, have been shown to possess potent antioxidant and anti-inflammatory properties that contribute to its therapeutic effects. Regular consumption of rosemary tea has been found to provide benefits in treating altitude sickness, including reduced symptoms, improved physical performance, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 9,
+            "herb_confidence_score": 54,
+            "herb_total_score": 486,
+            "preparation_desc": "Lavandula angustifolia teas, also known as English lavender tea, have been traditionally used to treat altitude sickness due to their calming and anti-inflammatory properties. The herbal preparation helps to alleviate symptoms of altitude sickness by reducing stress and anxiety, promoting relaxation, and improving sleep quality, which can help the body adapt to high altitudes. The bioactive constituents of Lavandula angustifolia teas, including linalool and linalyl acetate, have been shown to have anti-inflammatory and antioxidant effects, which can help to reduce the severity of altitude sickness symptoms. By consuming Lavandula angustifolia teas, individuals can benefit from reduced risk of altitude sickness, improved physical performance, and enhanced overall well-being while traveling to high-altitude areas.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Paeonia lactiflora",
+            "herb_mentions": 8,
+            "herb_confidence_score": 47,
+            "herb_total_score": 376,
+            "preparation_desc": "Paeonia lactiflora teas, also known as peony tea, have been traditionally used to treat altitude sickness due to their anti-inflammatory and vasodilatory properties. The herbal preparation helps to alleviate symptoms of altitude sickness by reducing inflammation and improving blood flow, making it easier for the body to adapt to high elevations. The bioactive constituents of Paeonia lactiflora, including isoflavones and coumarins, play a crucial role in its therapeutic effects by reducing oxidative stress and promoting vasodilation. Drinking Paeonia lactiflora teas can help alleviate symptoms of altitude sickness, such as headaches and fatigue, and improve overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Davidsons-Tea-White-Peony-16-Ounce/dp/B000SARJFG",
+                "affiliate_link": "https://amzn.to/4jD6HVc",
+                "title": "Davidson's Tea Bulk, White Peony, 16-Ounce Bag"
+            }
+        },
+        {
+            "herb_name_scientific": "Rheum palmatum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 46,
+            "herb_total_score": 276,
+            "preparation_desc": "Rheum palmatum teas have been traditionally used to treat altitude sickness due to their diuretic and anti-inflammatory properties, which help to alleviate symptoms such as headaches and fatigue. The herbal preparation helps to treat altitude sickness by reducing fluid retention in the body, which can exacerbate the condition, and by providing antioxidant and anti-inflammatory effects that soothe the body and mind. Bioactive constituents of Rheum palmatum teas, including rhein, emodin, and flavonoids, contribute to their therapeutic effects by reducing inflammation, improving blood circulation, and regulating body temperature. The benefits of using Rheum palmatum teas to treat altitude sickness include relief from symptoms, improved oxygenation, and enhanced overall well-being, making it a valuable natural remedy for travelers and adventurers.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Withania somnifera",
+            "herb_mentions": 6,
+            "herb_confidence_score": 45,
+            "herb_total_score": 270,
+            "preparation_desc": "Withania somnifera teas have been traditionally used to treat altitude sickness, a condition characterized by headaches, nausea, and fatigue that occurs when the body is unable to adapt to high elevations. The adaptogenic properties of Withania somnifera teas help to mitigate the effects of altitude sickness by enhancing the body's ability to adapt to stress and promoting balance in the body's physiological processes. The bioactive constituents of Withania somnifera teas, including withanolides and withaferins, play a crucial role in alleviating the symptoms of altitude sickness by reducing inflammation, improving circulation, and enhancing oxygen delivery to the body's tissues. Regular consumption of Withania somnifera teas can help to alleviate the symptoms of altitude sickness, making it a popular herbal remedy among trekkers and travelers to high-altitude regions.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ashwagandha-Eco-Conscious-Kraft-FGO/dp/B08VYF87P3",
+                "affiliate_link": "https://amzn.to/4dbJc3q",
+                "title": "FGO Organic Ashwagandha Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 42,
+            "herb_total_score": 252,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been traditionally used to treat altitude sickness due to their anti-inflammatory and antioxidant properties. The flavonoids, particularly silymarin, present in this herbal preparation help to reduce oxidative stress and inflammation in the body, thereby alleviating the symptoms of altitude sickness. Silymarin also has a protective effect on the liver, which is often affected by high altitude exposure. The benefits of using Silybum marianum teas to treat altitude sickness include reduced risk of liver damage, improved oxygen delivery to the body, and alleviation of symptoms such as headaches and fatigue.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Rheum officinale",
+            "herb_mentions": 5,
+            "herb_confidence_score": 39,
+            "herb_total_score": 195,
+            "preparation_desc": "Rheum officinale teas have been traditionally used to treat altitude sickness due to their properties of diuresis and vasodilation, which help to alleviate symptoms such as headaches and fatigue. This herbal preparation helps to treat altitude sickness by increasing blood flow to the brain, reducing blood pressure, and promoting the elimination of excess fluids. The bioactive constituents of Rheum officinale teas, including rhein, emodin, and anthraquinones, contribute to their therapeutic effects by acting as vasodilators and diuretics. The benefits of using Rheum officinale teas to treat altitude sickness include rapid relief from symptoms, improved oxygenation of the body, and a reduced risk of complications associated with altitude sickness.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ligusticum wallichii",
+            "herb_mentions": 5,
+            "herb_confidence_score": 38,
+            "herb_total_score": 190,
+            "preparation_desc": "Ligusticum wallichii teas, also known as Chuanxiong or Thunder of the East, have been used in traditional Chinese medicine to treat altitude sickness. The anti-inflammatory and vasodilatory properties of this herbal preparation help to alleviate symptoms such as headaches and dizziness by improving blood circulation and reducing inflammation in the body. The bioactive constituents, including ferulic acid, ligustilide, and senkyunolide, are responsible for its therapeutic effects by inhibiting pro-inflammatory cytokines and promoting vasodilation. Drinking Ligusticum wallichii teas has been found to effectively reduce the severity and duration of altitude sickness, making it a beneficial herbal remedy for travelers and climbers.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "N/A"
+}

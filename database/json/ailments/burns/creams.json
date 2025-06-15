@@ -1,0 +1,187 @@
+{
+    "url": "ailments/burns/creams",
+    "ailment_slug": "burns",
+    "ailment_name": "burns",
+    "preparation_slug": "creams",
+    "preparation_name": "creams",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 13,
+    "title": "13 Best Herbal Creams For Burns",
+    "intro": "Herbal creams for burns are topical treatments made from various plant-based extracts, such as aloe vera, tea tree oil, and chamomile, designed to soothe and promote healing of burnt skin. These creams offer numerous benefits, including reducing pain and inflammation, promoting wound closure, and preventing infection, making them an effective alternative to conventional treatments. Examples of herbal creams used to treat burns include aloe vera gel, which helps to reduce inflammation and promote healing, as well as tea tree oil, which has antimicrobial properties to prevent infection. Other herbal creams, such as calendula cream and comfrey cream, are also commonly used to treat burns due to their anti-inflammatory and wound-healing properties, while coconut oil and olive oil are used for their moisturizing and protective qualities.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 20,
+            "herb_confidence_score": 181,
+            "herb_total_score": 3620,
+            "preparation_desc": "Calendula officinalis creams are a popular herbal preparation used to treat burns and promote wound healing. The anti-inflammatory and antimicrobial properties of Calendula officinalis help to reduce pain, prevent infection, and promote tissue repair. The bioactive constituents of Calendula officinalis, including triterpenoids, flavonoids, and carotenoids, have been shown to have antioxidant, anti-inflammatory, and antimicrobial effects that aid in wound healing. By using Calendula officinalis creams, individuals can benefit from accelerated wound healing, reduced scarring, and improved skin regeneration, making it an effective and natural remedy for treating burns.",
+            "preparation_study": "According to \"Life (Basel, Switzerland)\", Calendula officinalis creams for burns have been effectively employed in the treatment of wounds due to their considerable pharmacological properties, which facilitate the wound healing process and minimize the onset of infections.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 16,
+            "herb_confidence_score": 158,
+            "herb_total_score": 2528,
+            "preparation_desc": "Aloe barbadensis creams, derived from the Aloe vera plant, have been widely used to treat burns and related ailments due to their soothing, anti-inflammatory, and antimicrobial properties. These herbal preparations help to treat burns by promoting wound healing, reducing inflammation, and preventing infection, thereby alleviating pain and promoting tissue repair. The bioactive constituents, including aloin, aloe-emodin, and vitamins A, C, and E, contribute to the wound-healing properties of Aloe barbadensis creams, making them an effective remedy for burn treatment. The benefits of using Aloe barbadensis creams to treat burns include reduced scarring, accelerated healing, and minimized risk of infection, making them a popular choice among healthcare professionals and individuals alike.",
+            "preparation_study": "According to \"Brazilian journal of biology = Revista brasleira de biologia\", Aloe barbadensis creams for burns have been shown to accelerate wound healing by promoting proliferation and cell migration of human skin fibroblasts and keratinocytes, and also possess antioxidant effects and a protective effect against oxidative stress.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 19,
+            "herb_confidence_score": 149,
+            "herb_total_score": 2831,
+            "preparation_desc": "Hypericum perforatum creams, derived from the St. John's Wort plant, have been traditionally used to treat burns and promote wound healing. The anti-inflammatory, antimicrobial, and antioxidant properties of this herbal preparation help to reduce pain, prevent infection, and promote tissue repair. The bioactive constituents of Hypericum perforatum, including hyperforin, hypericin, and flavonoids, contribute to its therapeutic effects by inhibiting pro-inflammatory enzymes, reducing oxidative stress, and promoting collagen synthesis. By using Hypericum perforatum creams, individuals can experience the benefits of accelerated wound healing, reduced scarring, and improved skin integrity, ultimately promoting faster recovery from burns.",
+            "preparation_study": "According to \"Evidence-based complementary and alternative medicine : eCAM\", Hypericum perforatum creams for burns have been found to be effective in wound healing of second-degree burn wounds in rats, showing similar healing properties as curcumin.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Symphytum officinale",
+            "herb_mentions": 19,
+            "herb_confidence_score": 141,
+            "herb_total_score": 2679,
+            "preparation_desc": "Symphytum officinale creams have been traditionally used to treat burns, offering relief from pain, inflammation, and promoting tissue repair. The herbal preparation contains bioactive constituents such as allantoin, mucilage, and flavonoids, which help to soothe and protect the affected skin, reducing the risk of infection and promoting healing. The mucilaginous properties of Symphytum officinale creams form a protective barrier on the skin's surface, shielding it from further irritation and promoting the growth of new tissue, while the flavonoids have anti-inflammatory properties that help to reduce swelling and pain. The benefits of using Symphytum officinale creams to treat burns include faster wound healing, reduced risk of scarring, and improved overall skin health, making it a popular natural remedy for burn injuries.",
+            "preparation_study": "According to \"Chemistry & biodiversity\", Symphytum officinale creams for burns have been found to be effective in wound healing, as it was the most cited plant with healing actions in southern Brazil and has been scientifically demonstrated to have wound-healing effects.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Arnica montana",
+            "herb_mentions": 17,
+            "herb_confidence_score": 138,
+            "herb_total_score": 2346,
+            "preparation_desc": "Arnica montana creams have been used for centuries to treat burns and promote wound healing due to their anti-inflammatory and antimicrobial properties. The bioactive constituents of Arnica montana creams, including flavonoids, sesquiterpenes, and triterpenoids, help to reduce inflammation, prevent infection, and promote tissue repair. These properties help to treat burns by soothing the affected area, reducing pain and swelling, and promoting the growth of new tissue. The benefits of using Arnica montana creams to treat burns include reduced healing time, improved wound closure, and a lower risk of scarring and infection.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 17,
+            "herb_confidence_score": 113,
+            "herb_total_score": 1921,
+            "preparation_desc": "Echinacea purpurea creams have been used to treat burns due to their anti-inflammatory, antimicrobial, and antioxidant properties. These properties help to reduce the risk of infection, promote wound healing, and alleviate pain and discomfort associated with burns. The bioactive constituents of Echinacea purpurea, including alkylamides, glycoproteins, and polyphenols, contribute to its therapeutic effects by modulating the immune response, reducing inflammation, and protecting against oxidative stress. By using Echinacea purpurea creams, individuals can benefit from accelerated wound healing, reduced scarring, and a lower risk of complications, making it a potentially valuable adjunctive treatment for burns.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Plantago major",
+            "herb_mentions": 13,
+            "herb_confidence_score": 94,
+            "herb_total_score": 1222,
+            "preparation_desc": "Plantago major creams are a herbal preparation used to treat burns, utilizing the anti-inflammatory and antimicrobial properties of the plant to promote wound healing. The gel-like substance of the Plantago major plant contains bioactive constituents such as aucubin, plantamajoside, and phenolic acids, which help to reduce inflammation, prevent infection, and accelerate the healing process. By applying these creams to burns, individuals can experience reduced pain, improved wound closure, and reduced scarring. The benefits of using Plantago major creams to treat burns include rapid wound healing, reduced risk of infection, and minimal scarring, making it an effective and natural remedy for burn care.",
+            "preparation_study": "According to the study, Plantago major creams for burns have been found to be effective due to the confirmation of traditional use by in vitro and/or in vivo studies.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 14,
+            "herb_confidence_score": 84,
+            "herb_total_score": 1176,
+            "preparation_desc": "Urtica dioica creams, derived from the leaves of the stinging nettle plant, have been traditionally used to treat burns and promote wound healing. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce pain and inflammation, promoting a conducive environment for wound healing. The bioactive constituents, including flavonoids and triterpenoids, in Urtica dioica creams have been shown to exhibit antimicrobial and anti-inflammatory activities, which aid in the treatment of burns. The benefits of using Urtica dioica creams to treat burns include reduced healing time, minimized risk of infection, and enhanced tissue regeneration.",
+            "preparation_study": "According to \"Molecules (Basel, Switzerland)\", Urtica dioica creams for burns have been shown to enhance wound healing by increasing cell proliferation, cell migration, and reducing inflammation, resulting in faster healing times compared to untreated wounds.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 13,
+            "herb_confidence_score": 79,
+            "herb_total_score": 1027,
+            "preparation_desc": "Glycyrrhiza glabra creams have been traditionally used to treat burns due to their anti-inflammatory and soothing properties. The bioactive constituents, including glycyrrhizin and flavonoids, help to reduce pain, inflammation, and promote wound healing. These creams aid in the treatment of burns by providing a protective barrier, reducing the risk of infection, and promoting tissue repair. The benefits of using Glycyrrhiza glabra creams for burns include reduced scarring, faster healing times, and improved skin integrity.",
+            "preparation_study": "According to the \"Journal of pharmacy & bioallied sciences\", Glycyrrhiza glabra creams for burns may have potential benefits due to its ability to increase the healing process of cell lines by 23.33% compared to controlled cell lines, as demonstrated by the in vitro scratch assay.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 12,
+            "herb_confidence_score": 64,
+            "herb_total_score": 768,
+            "preparation_desc": "Cinchona officinalis creams, derived from the bark of the Cinchona tree, have been used to treat burns and their associated symptoms due to their anti-inflammatory and antimicrobial properties. The creams help to treat burns by reducing pain, inflammation, and the risk of infection, ultimately promoting faster healing and tissue repair. The bioactive constituents of Cinchona officinalis, including quinine and alkaloids, contribute to its therapeutic effects by reducing inflammation and inhibiting the growth of bacteria and other pathogens. The benefits of using Cinchona officinalis creams to treat burns include reduced scarring, faster recovery, and minimized risk of complications, making it a valuable natural remedy for burn management.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 15,
+            "herb_confidence_score": 61,
+            "herb_total_score": 915,
+            "preparation_desc": "Taraxacum officinale creams have been used to treat burns by leveraging the anti-inflammatory and antimicrobial properties of this herbal preparation. The creams help to treat burns by reducing the risk of infection, promoting wound healing, and alleviating pain. The bioactive constituents of Taraxacum officinale creams, including flavonoids, saponins, and phenolic acids, contribute to their therapeutic effects by modulating the inflammatory response and exhibiting antioxidant activity. By harnessing the benefits of this herbal preparation, individuals can experience reduced scarring, faster healing times, and improved overall recovery from burns.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 11,
+            "herb_confidence_score": 59,
+            "herb_total_score": 649,
+            "preparation_desc": "Lavandula angustifolia creams have been traditionally used to treat burns due to their anti-inflammatory, antimicrobial, and antioxidant properties. These creams help to treat burns by promoting wound healing, reducing pain and inflammation, and preventing infection. The bioactive constituents of Lavandula angustifolia, including linalool and linalyl acetate, contribute to its therapeutic effects by modulating the immune response, reducing oxidative stress, and exhibiting antimicrobial activity. The benefits of using Lavandula angustifolia creams to treat burns include faster wound healing, reduced risk of infection, and improved pain management, making it a valuable natural remedy for burn care.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe vera",
+            "herb_mentions": 6,
+            "herb_confidence_score": 56,
+            "herb_total_score": 336,
+            "preparation_desc": "Aloe vera creams have been widely used to treat burns due to their soothing and moisturizing properties, which help to calm and protect the affected skin. The anti-inflammatory and antimicrobial properties of aloe vera creams also aid in reducing pain, preventing infection, and promoting faster healing of the burn wounds. The bioactive constituents of aloe vera creams, such as aloin, aloe-emodin, and acemannan, play a crucial role in treating burns by promoting collagen synthesis, enhancing tissue repair, and reducing inflammation. The benefits of using aloe vera creams to treat burns include reduced risk of scarring, accelerated wound healing, and minimized risk of infection, making it a popular and effective herbal remedy for burn treatment.",
+            "preparation_study": "According to \"Brazilian journal of biology = Revista brasleira de biologia\", Aloe vera creams for burns have been shown to accelerate wound healing, promote cell proliferation and migration, and provide antioxidant effects, with some studies suggesting a higher healing speed and shorter hospital stay compared to conventional treatments.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Vaccinium myrtillus",
+            "herb_mentions": 11,
+            "herb_confidence_score": 54,
+            "herb_total_score": 594,
+            "preparation_desc": "Vaccinium myrtillus creams, derived from the bilberry plant, have been used to treat burns and promote wound healing. The antimicrobial and anti-inflammatory properties of Vaccinium myrtillus creams help to reduce the risk of infection and alleviate pain, promoting a more comfortable recovery. The bioactive constituents of Vaccinium myrtillus creams, including anthocyanins and flavonoids, have been shown to aid in the healing process by reducing inflammation and promoting collagen synthesis. By applying Vaccinium myrtillus creams to burns, individuals can benefit from accelerated wound healing, reduced scarring, and improved tissue regeneration.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 10,
+            "herb_confidence_score": 51,
+            "herb_total_score": 510,
+            "preparation_desc": "Ginkgo biloba creams have been traditionally used to treat burns and promote wound healing due to their anti-inflammatory and antioxidant properties. The bioactive constituents present in Ginkgo biloba creams, such as flavonoids and bilobalide, help to reduce inflammation and promote tissue repair by enhancing blood flow to the affected area. The antioxidant properties of Ginkgo biloba creams also help to protect the skin from further damage, promoting a faster healing process and reducing the risk of complications such as scarring and infection. The benefits of using Ginkgo biloba creams to treat burns include reduced pain and discomfort, improved wound healing, and a lower risk of complications, making it a promising herbal remedy for burn treatment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 10,
+            "herb_confidence_score": 49,
+            "herb_total_score": 490,
+            "preparation_desc": "Mentha x piperita creams, derived from the peppermint plant, have been used to treat burns due to their soothing and anti-inflammatory properties. The herbal preparation helps to treat burns by reducing pain and inflammation, promoting wound healing, and preventing infection. The bioactive constituents, including menthol, menthone, and limonene, in Mentha x piperita creams help to treat burns by cooling the skin, reducing oxidative stress, and modulating the immune response. The benefits of using Mentha x piperita creams to treat burns include accelerated wound healing, reduced risk of infection, and alleviation of pain and discomfort.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 49,
+            "herb_total_score": 441,
+            "preparation_desc": "Melissa officinalis creams have been traditionally used to treat burns, thanks to their soothing and anti-inflammatory properties. The herbal preparation's ability to calm the skin and reduce redness helps to alleviate the discomfort associated with burns, promoting faster healing. The bioactive constituents, including citral, geraniol, and linalool, exhibit antioxidant and antimicrobial activities, further aiding in the treatment of burns. The benefits of using Melissa officinalis creams to treat burns include reduced pain, faster wound closure, and a lower risk of infection, making it a valuable natural remedy for this common ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Plantago lanceolata",
+            "herb_mentions": 6,
+            "herb_confidence_score": 46,
+            "herb_total_score": 276,
+            "preparation_desc": "Plantago lanceolata creams are a natural herbal preparation that effectively helps to treat burns, providing relief from pain and promoting wound healing. The creams possess anti-inflammatory and antimicrobial properties that aid in reducing inflammation and preventing infection in burn wounds. The bioactive constituents of Plantago lanceolata, such as flavonoids, phenolic acids, and saponins, help to accelerate the healing process, reduce oxidative stress, and promote tissue regeneration. By using Plantago lanceolata creams, individuals can benefit from a reduced risk of complications, accelerated wound healing, and minimal scarring, making it a valuable natural remedy for burns treatment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosa rubiginosa",
+            "herb_mentions": 8,
+            "herb_confidence_score": 46,
+            "herb_total_score": 368,
+            "preparation_desc": "Rosa rubiginosa creams have been traditionally used to treat burns and aid in the healing process due to their anti-inflammatory, antiseptic, and antioxidant properties. These properties help to reduce pain, prevent infection, and promote tissue repair, ultimately accelerating the healing process. The bioactive constituents present in Rosa rubiginosa creams, such as flavonoids and phenolic acids, possess potent antioxidant and anti-inflammatory activities, which contribute to their therapeutic effects. The benefits of using Rosa rubiginosa creams to treat burns include reduced risk of infection, accelerated wound healing, and alleviated pain, making it a valuable herbal preparation for burn victims.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Vitis vinifera",
+            "herb_mentions": 9,
+            "herb_confidence_score": 42,
+            "herb_total_score": 378,
+            "preparation_desc": "Vitis vinifera creams, derived from the extract of grape (Vitis vinifera) vines, have been used to treat burns and promote wound healing. The anti-inflammatory and antioxidant properties of this herbal preparation help to soothe and calm the affected skin, reducing redness and pain. The bioactive constituents, including resveratrol and quercetin, exhibit their wound-healing properties by promoting collagen synthesis, enhancing tissue regeneration, and protecting the skin from oxidative damage. The benefits of using Vitis vinifera creams to treat burns include accelerated wound healing, reduced scarring, and improved skin texture, making it a valuable natural remedy for burn victims.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Journal of ethnopharmacology\", creams for burns, Avicenna's Canon of Medicine suggests using Arnebia euchroma (AE) ointment (AEO) as effective for burn healing, which was shown to have a shorter healing time and fewer side effects compared to silver sulfadiazine cream (SSD)."
+}

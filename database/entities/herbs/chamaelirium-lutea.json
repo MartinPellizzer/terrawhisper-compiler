@@ -1,0 +1,24 @@
+{
+    "url": "herbs/chamaelirium-lutea",
+    "herb_slug": "chamaelirium-lutea",
+    "herb_name_scientific": "chamaelirium lutea",
+    "lastmod": "2025-5-31",
+    "benefits_num": 13,
+    "benefits_title": "13 Best Health Benefits Of Chamaelirium Lutea",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 6,
+            "confidence_score": 53,
+            "total_score": 318
+        },
+        {
+            "answer": "medicine",
+            "mentions": 4,
+            "confidence_score": 33,
+            "total_score": 132
+        }
+    ],
+    "constituents_num": 13,
+    "side_effects_num": 13
+}

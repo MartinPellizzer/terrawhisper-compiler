@@ -1,0 +1,249 @@
+{
+    "url": "ailments/allergies/teas",
+    "ailment_slug": "allergies",
+    "ailment_name": "allergies",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Teas For Allergies",
+    "intro": "Herbal teas for Allergies are a natural remedy made from various plant extracts that help alleviate symptoms associated with allergic reactions. These teas are beneficial in treating allergies as they contain anti-inflammatory properties that reduce swelling and ease congestion. Some popular herbal teas used to treat allergies include Nettle leaf tea, which reduces histamine levels; Chamomile tea, which soothes and calms the body; Echinacea tea, which boosts the immune system; Ginger tea, which aids in digestion and reduces inflammation; Peppermint tea, which eases congestion and opens airways; and Quercetin-rich teas like Sage, Thyme, and Oat straw, which are natural antihistamines. By incorporating these herbal teas into your daily routine, you can effectively manage allergy symptoms and enjoy a healthier, more comfortable life.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 20,
+            "herb_confidence_score": 172,
+            "herb_total_score": 3440,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to alleviate allergy symptoms by providing relief from congestion, sneezing, and itchy eyes. The anti-inflammatory properties of this herbal preparation help to treat allergies by reducing histamine release and modulating the immune response. Echinacea purpurea teas contain bioactive constituents such as alkylamides, caffeic acid derivatives, and polysaccharides that contribute to its therapeutic effects, including the stimulation of cytokine production and the enhancement of antibody responses. The benefits of this herbal preparation in treating allergies include reduced severity of symptoms, improved quality of life, and a potential reduction in the reliance on conventional medications.",
+            "preparation_study": "According to \"Molecular nutrition & food research\", Echinacea purpurea teas for allergies appear to have a low potential to generate drug interactions and may be considered safe for consumers.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 17,
+            "herb_confidence_score": 157,
+            "herb_total_score": 2669,
+            "preparation_desc": "Eucalyptus globulus teas have been traditionally used to treat allergies due to their decongestant and anti-inflammatory properties. The bioactive constituents, including eucalyptol, flavonoids, and tannins, help to reduce inflammation and alleviate symptoms such as congestion and itching. This herbal preparation works by inhibiting the release of histamine, a chemical responsible for allergic reactions, and by modulating the immune system to reduce the production of pro-inflammatory cytokines. The benefits of Eucalyptus globulus teas include relief from allergy symptoms, improved respiratory function, and enhanced overall well-being.",
+            "preparation_study": "According to \"African journal of traditional, complementary, and alternative medicines : AJTCAM\", Eucalyptus globulus teas are one of the most important species used by Togolese traditional healers to treat asthma.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Herbal-Tea-Caffeine-Relaxer-Non-GMO/dp/B00ECOSODU",
+                "affiliate_link": "https://amzn.to/4caik3b",
+                "title": "Tiesta Tea - Palm Beach Punch | Loose Leaf | Fruit Punch Herbal Tea | Caffeine-Free Tropical Blend with Apple and Orange | Brew Hot or Iced | Resealable Pouch | 25 Cups | 2 Ounce"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 19,
+            "herb_confidence_score": 137,
+            "herb_total_score": 2603,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to treat various health issues, including allergies, due to their anti-inflammatory, antihistamine, and antioxidant properties. The bioactive constituents of this herbal preparation, such as linalool and linalyl acetate, help to reduce inflammation and alleviate symptoms associated with allergies, such as congestion and itching. By consuming Lavandula angustifolia teas, individuals can experience relief from allergy symptoms, including reduced histamine release and improved immune function. The benefits of using Lavandula angustifolia teas to treat allergies include reduced reliance on conventional medications and a more natural approach to managing symptoms.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 19,
+            "herb_confidence_score": 131,
+            "herb_total_score": 2489,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat allergies due to their anti-inflammatory and antioxidant properties, which help to alleviate symptoms such as congestion and itching. The flavonoids and terpenoids present in Ginkgo biloba teas, including quercetin and bilobalide, work together to reduce inflammation and modulate the immune response, thereby providing relief from allergy symptoms. The bioactive constituents of Ginkgo biloba teas, such as flavonoids and terpenoids, help to treat allergies by inhibiting the release of histamine and other chemical mediators, which contribute to allergic reactions. Regular consumption of Ginkgo biloba teas has been associated with benefits such as reduced nasal congestion, improved respiratory function, and a decrease in the severity of allergy symptoms.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 16,
+            "herb_confidence_score": 121,
+            "herb_total_score": 1936,
+            "preparation_desc": "Sambucus nigra teas have been traditionally used to treat allergies, particularly those caused by pollen and other environmental factors, due to their anti-inflammatory and antihistamine properties. This herbal preparation helps to alleviate allergy symptoms by reducing inflammation and blocking the release of histamine, a chemical that contributes to allergic reactions. The bioactive constituents of Sambucus nigra, including flavonoids, phenolic acids, and sesquiterpenes, play a key role in its therapeutic effects, helping to calm the immune system and reduce the severity of allergy symptoms. By consuming Sambucus nigra teas, individuals can benefit from its ability to provide quick relief from allergy symptoms, reduce congestion, and promote overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Elderberry-Eco-Conscious-Kraft-FGO/dp/B09HDFQ4JX",
+                "affiliate_link": "https://amzn.to/42aR3ZN",
+                "title": "FGO Organic Elderberry Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealabel Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 16,
+            "herb_confidence_score": 115,
+            "herb_total_score": 1840,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger tea, have been traditionally used to treat allergies and alleviate symptoms such as congestion, itching, and sneezing. The anti-inflammatory and antihistamine properties of this herbal preparation help to reduce inflammation and alleviate allergic reactions. Bioactive constituents like gingerol, shogaol, and zingerone present in Zingiber officinale teas exhibit antioxidant, anti-inflammatory, and antihistamine activities, making it an effective remedy for allergies. Regular consumption of Zingiber officinale teas can help to relieve symptoms of allergies, reduce the frequency of allergic reactions, and promote overall well-being.",
+            "preparation_study": "According to \"Recent patents on biotechnology\", Zingiber officinale teas for allergies have been found to exhibit potential as an adjuvant symptomatic therapy in respiratory conditions, such as allergic reactions and respiratory allergies, due to the presence of bioactive compounds in the plant.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 15,
+            "herb_confidence_score": 100,
+            "herb_total_score": 1500,
+            "preparation_desc": "Achillea millefolium teas, also known as yarrow tea, have been traditionally used to alleviate allergy symptoms due to their anti-inflammatory and antihistamine properties. The bioactive constituents of yarrow tea, including flavonoids, sesquiterpenes, and polyacetylenes, help to reduce inflammation and alleviate allergic reactions. Drinking yarrow tea may help to treat allergy symptoms by reducing the production of histamine and other allergic mediators, thereby providing relief from symptoms such as itching, sneezing, and congestion. Regular consumption of yarrow tea may also have additional benefits, including reducing inflammation, improving immune function, and promoting overall well-being.",
+            "preparation_study": "According to \"The Journal of asthma : official journal of the Association for the Care of Asthma\", Achillea millefolium teas may provide relief for allergies by improving symptoms, such as histamine-induced reactions like rhinorrhea, sneezing, and itching, although specific study results for this herb are not mentioned in the provided study.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Soursop-Leaves-Bags-Teabags/dp/B0C69P5FV9",
+                "affiliate_link": "https://amzn.to/4i1QY0D",
+                "title": "FullChea- Soursop Leaves Tea Bags, 40 Teabags, 1.5g/Bag - Premium Soursop Graviola Leaves Tea - Hojas De Guanabana Tea - Non-GMO - Caffeine-Free - Improve Digestion, Support Healthy Skin & Sleep"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 83,
+            "herb_total_score": 1079,
+            "preparation_desc": "Rosmarinus officinalis teas, derived from the fragrant herb rosemary, have been traditionally used to alleviate allergy symptoms, particularly those related to respiratory issues such as congestion and coughing. The anti-inflammatory and antimicrobial properties of rosemary tea help to reduce inflammation in the airways and eliminate pathogens that may be exacerbating the condition. The bioactive constituents, including carnosic acid and rosmarinic acid, possess antioxidant and anti-allergic properties that help to neutralize free radicals and reduce the production of histamine, a key mediator of allergic reactions. By consuming rosemary tea, individuals can experience relief from allergy symptoms, including improved respiratory function, reduced congestion, and a decrease in the frequency and severity of allergic reactions.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Thymus serpyllum",
+            "herb_mentions": 11,
+            "herb_confidence_score": 77,
+            "herb_total_score": 847,
+            "preparation_desc": "Thymus serpyllum teas, also known as wild thyme tea, have been traditionally used to alleviate allergy symptoms due to their anti-inflammatory and antihistamine properties. This herbal preparation helps to treat allergies by reducing the production of histamine, a chemical released during allergic reactions, and by soothing irritated mucous membranes, providing relief from congestion and itching. The bioactive constituents of Thymus serpyllum, including flavonoids and phenolic acids, contribute to its therapeutic effects, helping to modulate the immune response and reduce inflammation. Regular consumption of Thymus serpyllum teas has been found to provide benefits in treating allergies, including reduced symptoms of hay fever, improved respiratory function, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 76,
+            "herb_total_score": 684,
+            "preparation_desc": "Melissa officinalis teas, also known as lemon balm tea, have been used to treat allergy-related ailments due to their anti-inflammatory and antihistamine properties. The herbal preparation helps to treat allergies by reducing inflammation, soothing irritated tissues, and modulating the immune system response. The bioactive constituents of Melissa officinalis tea, including rosmarinic acid, apigenin, and linalool, have been shown to possess potent anti-allergic and anti-inflammatory effects. Regular consumption of Melissa officinalis tea has been found to provide relief from allergy symptoms, improve respiratory function, and enhance overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 13,
+            "herb_confidence_score": 73,
+            "herb_total_score": 949,
+            "preparation_desc": "Taraxacum officinale teas, derived from the dandelion plant, have been traditionally used to treat various allergies-related ailments. The anti-inflammatory and antihistamine properties of this herbal preparation help to alleviate symptoms such as itching, sneezing, and congestion. The bioactive constituents, including flavonoids and sesquiterpenes, in Taraxacum officinale teas help to reduce inflammation and modulate the immune system, thereby providing relief from allergic reactions. The benefits of using Taraxacum officinale teas to treat allergies include reduced symptoms, improved respiratory function, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Roasted-Dandelion-Eco-Conscious-FGO/dp/B07Z7FTFNX",
+                "affiliate_link": "https://amzn.to/4j70AbI",
+                "title": "FGO Organic Roasted Dandelion Root Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 12,
+            "herb_confidence_score": 68,
+            "herb_total_score": 816,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat allergies due to their anti-inflammatory and antihistamine properties. The quinine content in Cinchona officinalis teas helps to reduce inflammation and alleviate symptoms associated with allergies, such as itching, sneezing, and congestion. The bioactive constituents of this herbal preparation, including quinine and quinidine, act as natural antihistamines to block the release of histamine, a chemical responsible for triggering allergic reactions. By consuming Cinchona officinalis teas, individuals can experience relief from allergy symptoms and enjoy the benefits of reduced inflammation and improved respiratory health.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 10,
+            "herb_confidence_score": 63,
+            "herb_total_score": 630,
+            "preparation_desc": "Glycyrrhiza glabra teas have been traditionally used to treat various allergic conditions, including hay fever and allergies caused by environmental factors. The anti-inflammatory and antihistamine properties of this herbal preparation help to reduce symptoms such as itching, sneezing, and congestion, making it an effective treatment for allergies. The bioactive constituents of Glycyrrhiza glabra, including flavonoids, phenolic acids, and saponins, have been shown to inhibit the release of histamine and other chemical mediators that contribute to allergic reactions. By consuming Glycyrrhiza glabra teas regularly, individuals can experience relief from allergy symptoms and improve their overall respiratory health.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 9,
+            "herb_confidence_score": 63,
+            "herb_total_score": 567,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been used to treat allergies due to their anti-inflammatory and antioxidant properties. The bioactive constituents, particularly silymarin, flavonoids, and polyphenols, help to reduce inflammation and oxidative stress, alleviating allergy symptoms such as itching, sneezing, and congestion. These constituents also exhibit immunomodulatory effects, helping to regulate the immune system and reduce the production of allergic chemicals, thereby providing relief from allergy symptoms. The benefits of using Silybum marianum teas to treat allergies include reduced severity of symptoms, improved respiratory function, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_mentions": 8,
+            "herb_confidence_score": 62,
+            "herb_total_score": 496,
+            "preparation_desc": "Thymus vulgaris teas, also known as thyme tea, have been traditionally used to alleviate symptoms of allergies due to their anti-inflammatory and antihistamine properties. The active compounds present in thyme tea, such as thymol and carvacrol, help to reduce the production of histamine, a chemical responsible for allergic reactions, thereby providing relief from symptoms such as itching, sneezing, and congestion. The bioactive constituents of thyme tea, including flavonoids and phenolic acids, also exhibit antioxidant and anti-inflammatory activities, further contributing to its therapeutic effects. Regular consumption of thyme tea has been found to provide benefits in treating allergies by reducing inflammation, modulating immune response, and promoting overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Throat-Coat/dp/B000SR62ZC",
+                "affiliate_link": "https://amzn.to/3FRzx5k",
+                "title": "Traditional Medicinals Tea, Organic Throat Coat, Supports Throat Health, 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Artemisia absinthium",
+            "herb_mentions": 9,
+            "herb_confidence_score": 58,
+            "herb_total_score": 522,
+            "preparation_desc": "Artemisia absinthium teas have been traditionally used to treat allergies due to their anti-inflammatory and antihistamine properties. These properties help to reduce the symptoms of allergies by inhibiting the release of histamine, a chemical responsible for allergic reactions. The bioactive constituents of Artemisia absinthium, including thujone, borneol, and camphor, contribute to its therapeutic effects by modulating the immune system and reducing inflammation. Drinking Artemisia absinthium teas may help alleviate symptoms of allergies, such as sneezing, itching, and congestion, providing relief to those affected by this common ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 7,
+            "herb_confidence_score": 53,
+            "herb_total_score": 371,
+            "preparation_desc": "Curcuma longa teas, a herbal preparation derived from the plant Curcuma longa, have been traditionally used to treat allergies due to their anti-inflammatory and antioxidant properties. The bioactive constituents of Curcuma longa teas, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, help to reduce inflammation and modulate the immune system, thus alleviating allergy symptoms. By inhibiting the production of pro-inflammatory enzymes and cytokines, Curcuma longa teas can help to relieve symptoms such as itching, sneezing, and congestion associated with allergies. The benefits of using Curcuma longa teas to treat allergies include reduced reliance on pharmaceutical medications, improved immune function, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Matricaria chamomilla",
+            "herb_mentions": 6,
+            "herb_confidence_score": 46,
+            "herb_total_score": 276,
+            "preparation_desc": "Matricaria chamomilla teas have been used for centuries to treat various ailments, including allergies, due to their anti-inflammatory, antihistamine, and soothing properties. The herbal preparation helps to treat allergies by reducing inflammation and alleviating symptoms such as itching, sneezing, and congestion. The bioactive constituents of Matricaria chamomilla teas, including apigenin, luteolin, and chamazulene, play a crucial role in treating allergies by inhibiting the release of histamine and other chemical mediators involved in the allergic response. The benefits of Matricaria chamomilla teas in treating allergies include reduced severity of symptoms, improved sleep quality, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 5,
+            "herb_confidence_score": 45,
+            "herb_total_score": 225,
+            "preparation_desc": "Urtica dioica teas, also known as nettle tea, have been traditionally used to treat allergy-related symptoms. This herbal preparation contains anti-inflammatory and antihistamine properties that help to soothe and calm the body's reaction to allergens. The bioactive constituents, including flavonoids, carotenoids, and phenolic acids, work together to inhibit the release of histamine and reduce inflammation, providing relief from symptoms such as itching, sneezing, and congestion. Regular consumption of Urtica dioica teas has been shown to benefit individuals with allergies by reducing the severity and frequency of symptoms, making it a natural and effective remedy for those seeking a holistic approach to managing allergies.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Nettle-Eco-Conscious-Bulgaria-FGO/dp/B07ND3ZT9C",
+                "affiliate_link": "https://amzn.to/3QUwzPU",
+                "title": "FGO Organic Nettle Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 44,
+            "herb_total_score": 264,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort tea, have been traditionally used to treat allergic reactions and alleviate symptoms associated with allergies. This herbal preparation contains bioactive constituents such as flavonoids, phenolic acids, and hyperforin, which help to reduce inflammation and modulate the immune response. The properties of Hypericum perforatum teas that help to treat this ailment include its antihistamine and anti-inflammatory effects, which can help to alleviate symptoms such as itching, sneezing, and congestion. The benefits of using Hypericum perforatum teas to treat allergies include reducing the severity of symptoms, promoting relaxation, and supporting overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        }
+    ],
+    "intro_study": "According to \"Anti-inflammatory & anti-allergy agents in medicinal chemistry\", teas for allergies may be beneficial due to the anti-histaminic and antiallergic properties found in various herbs such as Azadirachta indica, Aloe vera, and Tinospora cordifolia, which can help prevent mast cells from releasing histamine into the blood."
+}

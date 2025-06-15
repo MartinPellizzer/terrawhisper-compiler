@@ -1,0 +1,183 @@
+{
+    "url": "ailments/vomiting/tinctures",
+    "ailment_slug": "vomiting",
+    "ailment_name": "vomiting",
+    "preparation_slug": "tinctures",
+    "preparation_name": "tinctures",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Tinctures For Vomiting",
+    "intro": "Herbal tinctures for vomiting are liquid extracts made from various plants, herbs, and flowers that are used to treat and prevent nausea and vomiting. These natural remedies have been used for centuries to alleviate symptoms of vomiting, offering numerous benefits such as reducing inflammation, soothing the stomach, and promoting digestion. Some popular herbal tinctures used to treat vomiting include Ginger, Peppermint, and Chamomile, which are known for their anti-inflammatory properties and ability to calm the digestive system; Fennel, which helps to relax the muscles in the stomach and reduce spasms; and Licorice root, which soothes the stomach lining and reduces inflammation. Additionally, other herbal tinctures like Dill, Caraway, and Angelica root can also be used to treat vomiting due to their carminative properties, which help to release trapped gas and reduce nausea.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 16,
+            "herb_confidence_score": 135,
+            "herb_total_score": 2160,
+            "preparation_desc": "Zingiber officinale tinctures, derived from the rhizome of the ginger plant, have been traditionally used to treat nausea and vomiting due to its anti-inflammatory and antispasmodic properties. The bioactive constituents, including gingerols and shogaols, have been found to help alleviate vomiting by reducing inflammation and modulating digestive enzymes, thereby alleviating gastrointestinal discomfort. The benefits of using Zingiber officinale tinctures to treat vomiting include its rapid onset of action, ease of use, and low risk of side effects, making it a popular herbal remedy for nausea and vomiting. Regular consumption of Zingiber officinale tinctures has been shown to provide sustained relief from vomiting and promote overall digestive health.",
+            "preparation_study": "According to the British Journal of Anaesthesia, Zingiber officinale tinctures for vomiting may be effective, with studies suggesting that ginger is superior to placebo or equally effective as metoclopramide in reducing postoperative nausea and vomiting.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 16,
+            "herb_confidence_score": 131,
+            "herb_total_score": 2096,
+            "preparation_desc": "Cinchona officinalis tinctures have been traditionally used to treat various gastrointestinal issues, including vomiting, due to their anti-inflammatory and antispasmodic properties. The bioactive constituents present in Cinchona officinalis, such as quinine and quinidine, help to alleviate vomiting by reducing inflammation in the stomach and intestines, as well as modulating the nervous system to calm excessive gut contractions. By inhibiting the release of histamine and other gut irritants, these tinctures help to soothe the stomach and intestines, reducing the frequency and severity of vomiting episodes. The benefits of using Cinchona officinalis tinctures to treat vomiting include a reduction in discomfort, nausea, and anxiety, allowing for a faster recovery and improved overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 16,
+            "herb_confidence_score": 128,
+            "herb_total_score": 2048,
+            "preparation_desc": "Glycyrrhiza glabra tinctures have been traditionally used to treat various ailments, including vomiting, due to their anti-inflammatory and soothing properties. The bioactive constituents of Glycyrrhiza glabra, such as glycyrrhizin and flavonoids, help to treat vomiting by reducing inflammation in the gastrointestinal tract and stabilizing the stomach lining. The anti-inflammatory properties of Glycyrrhiza glabra tinctures also help to reduce nausea and alleviate vomiting by calming the digestive system. The benefits of using Glycyrrhiza glabra tinctures to treat vomiting include reduced severity and frequency of episodes, improved overall digestive health, and a decrease in the risk of dehydration.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 16,
+            "herb_confidence_score": 106,
+            "herb_total_score": 1696,
+            "preparation_desc": "Ginkgo biloba tinctures have been traditionally used to treat vomiting and nausea due to their anti-inflammatory and antioxidant properties. The bioactive constituents, including flavonoids and terpenoids, help to stabilize the stomach and reduce inflammation, thereby alleviating symptoms of vomiting. The tinctures are believed to work by enhancing blood flow to the stomach, reducing nausea, and promoting a sense of calm, making it easier to manage vomiting episodes. The benefits of using Ginkgo biloba tinctures to treat vomiting include reduced frequency and severity of episodes, improved overall digestive health, and enhanced overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 10,
+            "herb_confidence_score": 82,
+            "herb_total_score": 820,
+            "preparation_desc": "Curcuma longa tinctures, derived from the turmeric plant, possess anti-inflammatory and carminative properties that help to treat the vomiting ailment. These properties aid in soothing the digestive system, reducing inflammation, and alleviating nausea, thereby providing relief from vomiting. The bioactive constituents responsible for these effects include curcumin, a polyphenolic compound with potent anti-inflammatory and antioxidant properties, as well as volatile oils that exhibit carminative and antiemetic actions. Regular use of Curcuma longa tinctures has been shown to be beneficial in treating vomiting, as it helps to regulate digestive function, reduce inflammation, and promote overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zanthoxylum bungeanum",
+            "herb_mentions": 14,
+            "herb_confidence_score": 81,
+            "herb_total_score": 1134,
+            "preparation_desc": "Zanthoxylum bungeanum tinctures have been traditionally used to treat vomiting ailments, exhibiting anti-emetic properties that help to alleviate symptoms. This herbal preparation is believed to help treat vomiting by reducing nausea and alleviating gastrointestinal discomfort, promoting a sense of calm and relaxation in the body. The bioactive constituents of Zanthoxylum bungeanum, including volatile oils and alkaloids, are thought to contribute to its therapeutic effects, acting as natural relaxants and anti-inflammatory agents. The benefits of using Zanthoxylum bungeanum tinctures to treat vomiting include a reduction in frequency and severity of episodes, as well as improved overall well-being and quality of life.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Piper nigrum",
+            "herb_mentions": 9,
+            "herb_confidence_score": 71,
+            "herb_total_score": 639,
+            "preparation_desc": "Piper nigrum tinctures have been traditionally used to treat vomiting ailments due to their anti-inflammatory and carminative properties, which help to soothe the digestive system and reduce nausea. The bioactive constituents, including piperine, limonene, and beta-carophyllene, in Piper nigrum tinctures have been found to have a sedative effect on the stomach and intestines, thereby reducing the frequency and severity of vomiting episodes. By reducing inflammation and promoting digestion, Piper nigrum tinctures help to alleviate the underlying causes of vomiting, such as gastroenteritis or food poisoning, and provide relief from symptoms like abdominal pain and diarrhea. The benefits of using Piper nigrum tinctures to treat vomiting include reduced recovery time, fewer hospitalizations, and improved overall health outcomes, making it a valuable natural remedy for this common ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Astragalus membranaceus",
+            "herb_mentions": 11,
+            "herb_confidence_score": 65,
+            "herb_total_score": 715,
+            "preparation_desc": "Astragalus membranaceus tinctures have been traditionally used to treat the vomiting ailment due to their anti-inflammatory and antispasmodic properties, which help to soothe the digestive system and reduce nausea. The herbal preparation contains bioactive constituents such as flavonoids and phenolic acids, which have been shown to have antiemetic effects, helping to alleviate vomiting and alleviate the discomfort associated with it. Astragalus membranaceus tinctures work by regulating the autonomic nervous system and improving gastrointestinal motility, thereby reducing the frequency and severity of vomiting episodes. The benefits of using Astragalus membranaceus tinctures to treat vomiting include rapid relief from symptoms, improved digestive health, and reduced reliance on conventional medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 9,
+            "herb_confidence_score": 60,
+            "herb_total_score": 540,
+            "preparation_desc": "Panax ginseng tinctures have been traditionally used to treat vomiting ailments due to their adaptogenic and anti-inflammatory properties. The ginsenosides present in Panax ginseng tinctures help to modulate the body's response to stress, thereby reducing the frequency and severity of vomiting episodes. The bioactive constituents of Panax ginseng tinctures, including ginsenosides Rg1, Rb1, and Rg3, have been shown to have anti-emetic effects, making it a potential treatment option for individuals experiencing persistent vomiting. By using Panax ginseng tinctures, individuals may experience reduced symptoms of vomiting and improved overall well-being due to their ability to regulate digestive function and alleviate nausea.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 8,
+            "herb_confidence_score": 59,
+            "herb_total_score": 472,
+            "preparation_desc": "Foeniculum vulgare tinctures, derived from the seeds of the fennel plant, have been traditionally used to treat vomiting and related ailments due to their carminative and antispasmodic properties. The bioactive constituents of fennel tinctures, including anethole and fenchone, help to alleviate vomiting by relaxing the digestive tract and reducing muscle spasms. By soothing the digestive system and reducing inflammation, fennel tinctures provide relief from vomiting and associated discomfort. The benefits of using fennel tinctures to treat vomiting include natural and non-invasive relief, reduced risk of adverse effects, and a gentle yet effective approach to managing digestive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Paeonia lactiflora",
+            "herb_mentions": 10,
+            "herb_confidence_score": 58,
+            "herb_total_score": 580,
+            "preparation_desc": "Paeonia lactiflora tinctures, derived from the roots of the peony plant, are a traditional herbal remedy used to treat vomiting ailments. The tinctures possess anti-inflammatory and antispasmodic properties, which help to calm the digestive system and alleviate nausea. The bioactive constituents, including flavonoids, alkaloids, and phenolic acids, work synergistically to reduce inflammation and modulate gut motility, thereby providing relief from vomiting. By utilizing Paeonia lactiflora tinctures, individuals can benefit from a natural and effective remedy to alleviate vomiting, promoting overall digestive health and well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona pubescens",
+            "herb_mentions": 6,
+            "herb_confidence_score": 51,
+            "herb_total_score": 306,
+            "preparation_desc": "Cinchona pubescens tinctures have been traditionally used to treat the vomiting ailment, known as nausea and vomiting, particularly in cases caused by altitude sickness or gastrointestinal issues. The properties of this herbal preparation, including its bitter compounds and alkaloids, help to treat this ailment by stimulating digestive enzymes, reducing inflammation, and promoting the contraction of the stomach muscles. The bioactive constituents of Cinchona pubescens tinctures, such as quinine and quinidine, play a crucial role in treating the vomiting ailment by exerting anti-inflammatory and antispasmodic effects, which help to alleviate nausea and vomiting. The benefits of using Cinchona pubescens tinctures to treat the vomiting ailment include rapid relief from symptoms, improved digestion, and reduced risk of dehydration, making it a valuable natural remedy for those seeking alternative treatments.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 48,
+            "herb_total_score": 288,
+            "preparation_desc": "Silybum marianum tinctures have been traditionally used to treat vomiting ailments due to their emetic and anti-inflammatory properties. These properties help to stimulate vomiting and relieve digestive discomfort, making it an effective remedy for treating conditions such as food poisoning and stomach flu. The bioactive constituents present in Silybum marianum tinctures, including flavonoids, alkaloids, and sesquiterpenes, contribute to its anti-inflammatory and antioxidant effects, which aid in reducing inflammation and oxidative stress associated with vomiting. The benefits of using Silybum marianum tinctures include quick relief from vomiting, reduced risk of dehydration, and improved overall digestive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Angelica sinensis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 46,
+            "herb_total_score": 322,
+            "preparation_desc": "Angelica sinensis tinctures are a traditional herbal remedy used to treat the vomiting ailment, known as nausea and vomiting. This tincture contains properties such as anti-inflammatory and antispasmodic effects, which help to soothe the stomach and alleviate vomiting symptoms. The bioactive constituents of Angelica sinensis, including ferulic acid, sinensetin, and ligustilide, play a crucial role in treating this ailment by modulating the gastrointestinal system and reducing inflammation. The benefits of using Angelica sinensis tinctures include rapid relief from nausea and vomiting, reduced stomach discomfort, and improved overall well-being, making it a popular natural remedy for individuals experiencing this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ligusticum chuanxiong",
+            "herb_mentions": 5,
+            "herb_confidence_score": 40,
+            "herb_total_score": 200,
+            "preparation_desc": "Ligusticum chuanxiong tinctures, a traditional Chinese herbal preparation, have been used to treat nausea and vomiting due to its carminative and antiemetic properties. The bioactive constituents of this tincture, including ferulic acid and ligustilide, help to alleviate digestive issues by reducing inflammation and modulating the gut-brain axis. By reducing inflammation and stabilizing gut motility, Ligusticum chuanxiong tinctures can help to alleviate the symptoms of vomiting, including nausea and abdominal discomfort. Regular use of this herbal preparation has been associated with reduced frequency and severity of vomiting episodes, as well as improved overall digestive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe vera",
+            "herb_mentions": 5,
+            "herb_confidence_score": 38,
+            "herb_total_score": 190,
+            "preparation_desc": "Aloe vera tinctures have been traditionally used to treat vomiting, a common symptom of various gastrointestinal disorders. The anti-inflammatory and soothing properties of aloe vera tinctures help to calm the digestive system and reduce inflammation, thereby alleviating vomiting. The bioactive constituents, including aloin, aloe-emodin, and acemannan, have been found to have anti-inflammatory, antibacterial, and antiviral properties that help to soothe and heal the digestive tract. The benefits of using aloe vera tinctures to treat vomiting include rapid relief from symptoms, reduced risk of dehydration, and a natural and non-invasive approach to managing gastrointestinal health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_mentions": 5,
+            "herb_confidence_score": 36,
+            "herb_total_score": 180,
+            "preparation_desc": "Schisandra chinensis tinctures have been traditionally used to treat various health issues, including vomiting, due to their unique properties. The herbal preparation contains bioactive constituents such as schisandrins, lignans, and polysaccharides, which have been shown to possess anti-inflammatory and antioxidant properties that help to alleviate vomiting symptoms. By modulating the gut-brain axis and enhancing the body's natural defenses, Schisandra chinensis tinctures can help to reduce nausea and vomiting, providing relief to individuals affected by this debilitating condition. The benefits of using Schisandra chinensis tinctures to treat vomiting include improved digestive health, reduced inflammation, and enhanced overall well-being, making it a valuable natural remedy for this common ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinnamomum verum",
+            "herb_mentions": 5,
+            "herb_confidence_score": 36,
+            "herb_total_score": 180,
+            "preparation_desc": "Cinnamomum verum tinctures have been traditionally used to treat vomiting due to their anti-inflammatory and carminative properties, which help to soothe the stomach and alleviate nausea. The bioactive constituents present in Cinnamomum verum, such as cinnamaldehyde and eugenol, possess antispasmodic and antioxidant properties that aid in reducing vomiting episodes. These properties help to calm the digestive system, reduce inflammation, and promote the expulsion of gas, thereby providing relief from vomiting. Regular use of Cinnamomum verum tinctures may help to alleviate vomiting symptoms, promoting a sense of well-being and improved digestive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 5,
+            "herb_confidence_score": 35,
+            "herb_total_score": 175,
+            "preparation_desc": "Valeriana officinalis tinctures have been traditionally used to treat vomiting ailments due to their sedative, anti-inflammatory, and antispasmodic properties. The antispasmodic properties of Valeriana officinalis tinctures help to relax the stomach muscles and reduce nausea, while the sedative properties promote relaxation and reduce anxiety-related vomiting. The bioactive constituents of Valeriana officinalis tinctures, including valerenic acid, valerenal, and isovalerenol, contribute to its therapeutic effects by interacting with the body's GABA receptors and reducing inflammation. Regular use of Valeriana officinalis tinctures can help to alleviate vomiting symptoms, promote digestive health, and provide relief from anxiety and stress-related conditions.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 5,
+            "herb_confidence_score": 35,
+            "herb_total_score": 175,
+            "preparation_desc": "Mentha x piperita tinctures, derived from the peppermint plant, have been traditionally used to treat vomiting ailments due to their carminative and antiemetic properties. The tincture helps to treat vomiting by soothing the digestive system and relieving nausea, ultimately reducing the frequency and severity of episodes. The bioactive constituents responsible for this effect include menthol, menthone, and limonene, which have been shown to inhibit the vomiting center in the brain and relax the muscles in the digestive tract. Regular use of Mentha x piperita tinctures has been found to provide benefits in alleviating vomiting symptoms and promoting overall digestive health.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to the British Journal of Anaesthesia, tinctures for vomiting using ginger may be beneficial, as two out of three studies on postoperative nausea and vomiting suggested that ginger was superior to a placebo."
+}

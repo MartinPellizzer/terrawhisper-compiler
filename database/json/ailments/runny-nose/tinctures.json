@@ -1,0 +1,185 @@
+{
+    "url": "ailments/runny-nose/tinctures",
+    "ailment_slug": "runny-nose",
+    "ailment_name": "runny nose",
+    "preparation_slug": "tinctures",
+    "preparation_name": "tinctures",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 11,
+    "title": "11 Best Herbal Tinctures For Runny Nose",
+    "intro": "Herbal tinctures for Runny nose are liquid extracts made from various herbs and plants that are used to treat congestion and nasal discharge. These natural remedies offer several benefits, including reducing inflammation, soothing irritated nasal passages, and providing relief from excessive mucus production. Some popular herbal tinctures used to treat runny nose include Echinacea, which boosts the immune system and fights off infections; Eucalyptus, which helps to clear mucus and ease congestion; Peppermint, which cools and calms the nasal passages; Ginger, which reduces inflammation and soothes the throat; Sage, which helps to dry up mucus and reduce congestion; and Licorice root, which has anti-inflammatory properties and aids in soothing a sore throat. By incorporating these herbal tinctures into your treatment plan, you can find natural relief from the symptoms of a runny nose and promote overall health and well-being.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 20,
+            "herb_confidence_score": 189,
+            "herb_total_score": 3780,
+            "preparation_desc": "Eucalyptus globulus tinctures have been traditionally used to treat the runny nose ailment due to their decongestant and anti-inflammatory properties, which help to relieve nasal congestion and reduce the production of mucus. This herbal preparation works by opening up airways, allowing for easier breathing and reducing the severity of symptoms associated with a runny nose. Eucalyptus globulus contains bioactive constituents such as eucalyptol, camphor, and cineole, which are responsible for its therapeutic effects, including its ability to break down and clear out excess mucus. The benefits of using eucalyptus globulus tinctures to treat a runny nose include natural relief from congestion and sinus pressure, as well as reduced reliance on over-the-counter medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 20,
+            "herb_confidence_score": 176,
+            "herb_total_score": 3520,
+            "preparation_desc": "Echinacea purpurea tinctures have been traditionally used to treat a runny nose due to their anti-inflammatory and antiviral properties. The bioactive constituents, including alkylamides, glycosides, and phenolic acids, help to modulate the immune system and reduce the severity of cold and flu symptoms. By increasing the production of white blood cells and activating the natural killer cells, Echinacea purpurea tinctures can help to alleviate a runny nose and promote overall respiratory health. The benefits of using Echinacea purpurea tinctures include reduced congestion, fewer sniffles, and a shorter duration of illness, making it a popular natural remedy for cold and flu season.",
+            "preparation_study": "According to \"The Cochrane database of systematic reviews\", Echinacea purpurea tinctures for runny nose may be better than a placebo, but there is not enough evidence to recommend them as a treatment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 20,
+            "herb_confidence_score": 150,
+            "herb_total_score": 3000,
+            "preparation_desc": "Zingiber officinale tinctures, derived from the rhizome of the ginger plant, have been traditionally used to alleviate the symptoms of a runny nose. The anti-inflammatory and expectorant properties of this herbal preparation help to reduce nasal congestion and promote the clearance of excess mucus. The bioactive constituents, including gingerols and shogaols, exhibit potent anti-inflammatory and antioxidant activities, which contribute to their therapeutic effects in treating a runny nose. By reducing inflammation and promoting the drainage of mucus, Zingiber officinale tinctures provide relief from the discomfort and inconvenience associated with this common ailment.",
+            "preparation_study": "According to \"Journal of ethnopharmacology\", Zingiber officinale tinctures may not be directly mentioned for treating runny nose, but the study suggests that it has anti-inflammatory and antimicrobial properties, and its active compound lariciresinol could potentially be used to inhibit bacterial efflux pumps, which might be beneficial in treating infections that cause runny nose.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 18,
+            "herb_confidence_score": 133,
+            "herb_total_score": 2394,
+            "preparation_desc": "Sambucus nigra tinctures are a popular herbal remedy used to treat runny nose and other upper respiratory issues. The antiviral and anti-inflammatory properties of this preparation help to reduce nasal congestion and alleviate symptoms associated with runny nose. The bioactive constituents, such as flavonoids, alkaloids, and anthocyanins, found in Sambucus nigra tinctures, work together to inhibit the replication of viruses and reduce inflammation in the nasal passages, thereby helping to treat this ailment. By utilizing Sambucus nigra tinctures, individuals can benefit from its soothing and decongestant effects, leading to a faster recovery and reduced reliance on over-the-counter medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea angustifolia",
+            "herb_mentions": 14,
+            "herb_confidence_score": 117,
+            "herb_total_score": 1638,
+            "preparation_desc": "Echinacea angustifolia tinctures, made from the roots of the coneflower plant, have been traditionally used to treat runny nose and other upper respiratory issues. The anti-inflammatory and immunomodulatory properties of this herbal preparation help to reduce congestion and alleviate symptoms associated with runny nose. The bioactive constituents, including alkylamides, caffeic acid derivatives, and polysaccharides, in Echinacea angustifolia tinctures work together to enhance the body's natural defenses and alleviate inflammation, thus providing relief from runny nose. By supporting the immune system and reducing inflammation, Echinacea angustifolia tinctures offer a natural and effective way to treat runny nose and promote overall respiratory health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 18,
+            "herb_confidence_score": 116,
+            "herb_total_score": 2088,
+            "preparation_desc": "Ginkgo biloba tinctures have been traditionally used to treat the runny nose ailment due to their potent anti-inflammatory and antihistamine properties, which help to reduce nasal congestion and relieve discomfort. The bioactive constituents of Ginkgo biloba, including flavonoids and terpenoids, work together to inhibit the release of histamine and other inflammatory mediators, thereby alleviating symptoms of runny nose. By reducing inflammation and modulating the immune response, Ginkgo biloba tinctures help to alleviate nasal congestion, sneezing, and watery discharge associated with this condition. The benefits of using Ginkgo biloba tinctures to treat runny nose include rapid relief from symptoms, improved respiratory function, and enhanced overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 17,
+            "herb_confidence_score": 100,
+            "herb_total_score": 1700,
+            "preparation_desc": "Glycyrrhiza glabra tinctures, derived from the roots of the licorice plant, have been used to treat the common ailment of a runny nose due to their anti-inflammatory and decongestant properties. The bioactive constituents responsible for these effects include glycyrrhizin and flavonoids, which help to reduce nasal congestion and soothe the mucous membranes. By reducing inflammation and promoting drainage, Glycyrrhiza glabra tinctures provide relief from a runny nose, making it easier to breathe and alleviate discomfort. The benefits of using these tinctures to treat a runny nose include natural and non-addictive relief, making them a popular alternative to over-the-counter medications.",
+            "preparation_study": "According to \"Turkish archives of otorhinolaryngology\", Glycyrrhiza glabra tinctures were found to have lower absolute post-treatment scores and better relative improvement for rhinorrhea (runny nose) compared to mometasone furoate nasal spray in patients with acute postviral rhinosinusitis.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 95,
+            "herb_total_score": 1235,
+            "preparation_desc": "Cinchona officinalis tinctures have been traditionally used to treat the runny nose ailment due to their vasoconstrictive and anti-inflammatory properties, which help to reduce nasal congestion and alleviate symptoms. The bioactive constituents present in Cinchona officinalis tinctures, including quinine and alkaloids, contribute to its ability to constrict blood vessels and reduce mucus production, thereby providing relief from a runny nose. The benefits of using Cinchona officinalis tinctures to treat this ailment include the potential to reduce the severity and frequency of episodes, as well as the natural and non-invasive nature of the treatment. Additionally, Cinchona officinalis tinctures may help to address underlying issues contributing to the runny nose, such as allergies or sinus infections.",
+            "preparation_study": "According to the Turkish archives of otorhinolaryngology, Cinchona officinalis, which is one of the five medicinal plants contained in Sinulan forte, may help in reducing rhinorrhea (runny nose) as the study showed that patients receiving this herbal preparation had lower absolute post-treatment scores and better relative improvement for rhinorrhea compared to the intranasal corticosteroid spray therapy.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 17,
+            "herb_confidence_score": 94,
+            "herb_total_score": 1598,
+            "preparation_desc": "Lavandula angustifolia tinctures have been traditionally used to treat runny nose due to their anti-inflammatory and antiseptic properties, which help to reduce nasal congestion and combat underlying infections. The bioactive constituents present in these tinctures, including linalool and linalyl acetate, exhibit analgesic and expectorant properties, making them effective in alleviating symptoms of runny nose. By reducing inflammation and promoting relaxation, Lavandula angustifolia tinctures help to treat runny nose by soothing the nasal passages and reducing the production of mucus. The benefits of using these tinctures to treat runny nose include their natural and non-invasive approach, making them a popular alternative to conventional medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 14,
+            "herb_confidence_score": 88,
+            "herb_total_score": 1232,
+            "preparation_desc": "Rosmarinus officinalis tinctures have been traditionally used to treat runny nose, a common symptom of colds and allergies, due to their antitussive, anti-inflammatory, and decongestant properties. The bioactive constituents, including rosmarinic acid and carnosic acid, help to reduce inflammation and congestion in the nasal passages, thereby alleviating the symptoms of runny nose. By inhibiting the production of pro-inflammatory enzymes and cytokines, Rosmarinus officinalis tinctures help to reduce nasal discharge and promote a sense of relief. The benefits of using Rosmarinus officinalis tinctures to treat runny nose include a natural and non-invasive approach to managing symptoms, reducing the need for over-the-counter medications and promoting overall respiratory health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ephedra sinica",
+            "herb_mentions": 11,
+            "herb_confidence_score": 68,
+            "herb_total_score": 748,
+            "preparation_desc": "Ephedra sinica tinctures are a traditional herbal preparation used to treat the runny nose ailment, also known as rhinitis. The properties of Ephedra sinica tinctures that help to treat this ailment include its decongestant and anti-inflammatory properties, which help to reduce nasal congestion and swelling. The bioactive constituents of Ephedra sinica tinctures, such as ephedrine and pseudoephedrine, help to stimulate the nasal mucosa and increase blood flow, thereby reducing nasal congestion and runny nose. The benefits of using Ephedra sinica tinctures to treat runny nose include quick relief from nasal congestion, reduced nasal discharge, and improved breathing, making it a popular natural remedy for this common ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 9,
+            "herb_confidence_score": 66,
+            "herb_total_score": 594,
+            "preparation_desc": "Curcuma longa tinctures, derived from the Turmeric plant, have been traditionally used to treat runny nose, a common symptom of cold and allergies. The bioactive constituents of Curcuma longa, including curcuminoids and volatile oils, exhibit potent anti-inflammatory and antihistamine properties that help to alleviate nasal congestion and discharge. These properties help to reduce the production of mucus and histamine, thereby providing relief from runny nose and promoting a healthier respiratory system. The benefits of using Curcuma longa tinctures to treat runny nose include its natural and non-addictive properties, making it a safe and effective alternative to conventional medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Thymus serpyllum",
+            "herb_mentions": 10,
+            "herb_confidence_score": 66,
+            "herb_total_score": 660,
+            "preparation_desc": "Thymus serpyllum tinctures have been traditionally used to treat the runny nose ailment due to their anti-inflammatory and antiseptic properties, which help to reduce nasal congestion and alleviate sinus pressure. The bioactive constituents of Thymus serpyllum, including thymol and carvacrol, possess antimicrobial and decongestant properties that help to combat infections and clear out excess mucus, thus providing relief from the runny nose. The benefits of using Thymus serpyllum tinctures to treat this ailment include its natural and non-invasive approach, which makes it an attractive alternative to conventional medications. By using Thymus serpyllum tinctures, individuals can effectively manage their symptoms and regain a sense of relief and comfort.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 8,
+            "herb_confidence_score": 61,
+            "herb_total_score": 488,
+            "preparation_desc": "Mentha x piperita tinctures, also known as peppermint tinctures, have been traditionally used to treat the runny nose ailment, also known as rhinitis, due to their decongestant and anti-inflammatory properties. The menthol content in these tinctures helps to thin mucus, making it easier to expel, while the eugenol and limonene properties reduce nasal congestion and inflammation. The bioactive constituents of mentha x piperita tinctures, including menthone, menthol, and limonene, contribute to their analgesic, anti-inflammatory, and antiseptic properties, which help to alleviate symptoms of rhinitis. By using mentha x piperita tinctures, individuals can experience relief from runny nose symptoms, improved breathing, and a reduction in nasal congestion, making it a beneficial herbal preparation for treating this common ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hydrastis canadensis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 57,
+            "herb_total_score": 456,
+            "preparation_desc": "Hydrastis canadensis tinctures, derived from the goldenseal plant, have been traditionally used to treat runny nose and other respiratory issues due to their antimicrobial and anti-inflammatory properties. The herbal preparation helps to treat this ailment by reducing nasal congestion and soothing the mucous membranes, making it easier to breathe. The bioactive constituents of hydrastis canadensis, including berberine, hydrastine, and canadine, contribute to its therapeutic effects by inhibiting the growth of pathogens and reducing inflammation. The benefits of using hydrastis canadensis tinctures to treat runny nose include natural relief from symptoms, reduced reliance on over-the-counter medications, and potential long-term immune system support.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 57,
+            "herb_total_score": 456,
+            "preparation_desc": "Salvia officinalis tinctures have been traditionally used to treat runny nose due to their decongestant and anti-inflammatory properties. The herbal preparation helps to alleviate this ailment by reducing nasal congestion and promoting a clear respiratory passage. Salvia officinalis tinctures contain bioactive constituents such as rosmarinic acid, which possesses antioxidant and anti-inflammatory properties that contribute to its therapeutic effects. The benefits of using Salvia officinalis tinctures to treat runny nose include natural relief from nasal congestion, improved breathing, and enhanced overall respiratory health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_mentions": 7,
+            "herb_confidence_score": 52,
+            "herb_total_score": 364,
+            "preparation_desc": "Thymus vulgaris tinctures, derived from the leaves of the thyme plant, offer a natural remedy to alleviate the symptoms of a runny nose. The properties of this herbal preparation, which include its antimicrobial and anti-inflammatory properties, help to soothe and calm the nasal passages, reducing congestion and promoting drainage. The bioactive constituents, such as thymol and carvacrol, found in Thymus vulgaris tinctures, have been shown to help combat the underlying causes of a runny nose, including infection and inflammation. By using Thymus vulgaris tinctures, individuals can benefit from their decongestant and expectorant properties, which help to clear mucus and promote a sense of relief from nasal congestion.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Pelargonium sidoides",
+            "herb_mentions": 5,
+            "herb_confidence_score": 42,
+            "herb_total_score": 210,
+            "preparation_desc": "Pelargonium sidoides tinctures have been traditionally used to treat the runny nose ailment, commonly known as the common cold. The properties of this herbal preparation, including its anti-inflammatory and antimicrobial properties, help to reduce nasal congestion and alleviate symptoms associated with the common cold. The bioactive constituents of Pelargonium sidoides tinctures, such as ursolic acid and rosmarinic acid, contribute to its therapeutic effects, acting as natural decongestants and antihistamines to soothe the nasal passages and reduce mucus production. By using Pelargonium sidoides tinctures, individuals can benefit from its natural and non-invasive approach to treating the common cold, reducing the severity and duration of symptoms, and promoting overall respiratory health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea pallida",
+            "herb_mentions": 5,
+            "herb_confidence_score": 41,
+            "herb_total_score": 205,
+            "preparation_desc": "Echinacea pallida tinctures have been traditionally used to treat runny nose and other respiratory issues due to their anti-inflammatory and antiviral properties. The tincture helps to treat runny nose by reducing congestion and alleviating symptoms associated with colds and flu, such as nasal discharge and stuffiness. The bioactive constituents of Echinacea pallida, including alkylamides, caffeic acid derivatives, and polyacetylenes, contribute to its therapeutic effects by modulating the immune system and inhibiting the replication of viruses. Regular use of Echinacea pallida tinctures can provide relief from runny nose and other respiratory issues, promoting a speedy recovery and reducing the risk of complications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Piper nigrum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 40,
+            "herb_total_score": 240,
+            "preparation_desc": "Piper nigrum tinctures have been traditionally used to treat runny nose due to their decongestant and anti-inflammatory properties, which help to reduce nasal congestion and alleviate sinus pressure. The bioactive constituents of piper nigrum tinctures, including piperine and limonene, have been shown to exhibit expectorant and bronchodilatory effects, making it easier to breathe and expel mucus. The benefits of using piper nigrum tinctures to treat runny nose include their natural and non-addictive nature, as well as their ability to provide rapid relief from symptoms. Regular use of piper nigrum tinctures may also help to reduce the frequency and severity of runny nose episodes, promoting overall respiratory health and well-being.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Pharmaceuticals (Basel, Switzerland)\", tinctures for runny nose can be used as a local treatment to clear the airways and relieve nasal congestion, as part of the symptomatic treatment of the common cold."
+}

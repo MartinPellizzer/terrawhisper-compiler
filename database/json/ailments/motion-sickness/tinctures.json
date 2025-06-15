@@ -1,0 +1,181 @@
+{
+    "url": "ailments/motion-sickness/tinctures",
+    "ailment_slug": "motion-sickness",
+    "ailment_name": "motion sickness",
+    "preparation_slug": "tinctures",
+    "preparation_name": "tinctures",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Tinctures For Motion Sickness",
+    "intro": "Herbal tinctures for motion sickness are a natural and effective remedy made by infusing herbs in a solvent, such as alcohol or glycerin, to create a concentrated liquid extract. These tinctures have gained popularity as a treatment for motion sickness due to their benefits, including reducing nausea and vomiting, and promoting relaxation. Examples of herbal tinctures that can help alleviate motion sickness include ginger, peppermint, and lavender, which have anti-inflammatory and calming properties that can soothe the digestive system and reduce anxiety. Other herbs like ashwagandha, passionflower, and valerian root are also commonly used to treat motion sickness, as they help to regulate the nervous system and promote a sense of balance and well-being.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 20,
+            "herb_confidence_score": 168,
+            "herb_total_score": 3360,
+            "preparation_desc": "Zingiber officinale tinctures have been traditionally used to treat motion sickness due to their anti-inflammatory and antispasmodic properties, which help to alleviate nausea and vomiting associated with this ailment. The bioactive constituents of Zingiber officinale, including gingerols and shogaols, have been shown to have a positive effect on the digestive system, reducing the symptoms of motion sickness. By inhibiting the release of serotonin, a neurotransmitter responsible for nausea, Zingiber officinale tinctures can help to alleviate the discomfort and distress associated with motion sickness. The benefits of using Zingiber officinale tinctures to treat motion sickness include reduced nausea and vomiting, improved digestion, and a decrease in overall discomfort.",
+            "preparation_study": "According to the study, Zingiber officinale tinctures for motion sickness have been well documented and proved beyond doubt in numerous high-quality clinical studies to prevent nausea, dizziness, and vomiting.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 19,
+            "herb_confidence_score": 142,
+            "herb_total_score": 2698,
+            "preparation_desc": "Ginkgo biloba tinctures have been traditionally used to treat motion sickness due to their anti-inflammatory, antioxidant, and adaptogenic properties. The bioactive constituents responsible for this effect include flavonoids, terpenoids, and bilobalide, which help to stabilize the blood vessels and improve blood flow to the inner ear, thereby reducing nausea and dizziness. Ginkgo biloba tinctures work by blocking the action of acetylcholine, a neurotransmitter involved in the vomiting reflex, and by reducing the sensitivity of the inner ear to motion. The benefits of using Ginkgo biloba tinctures to treat motion sickness include natural relief from nausea and vomiting, reduced risk of dehydration, and a sense of calm and well-being during travel.",
+            "preparation_study": "According to \"American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists\", Ginkgo biloba tinctures for motion sickness are considered a potentially safe herbal therapy.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 16,
+            "herb_confidence_score": 122,
+            "herb_total_score": 1952,
+            "preparation_desc": "Valeriana officinalis tinctures have been traditionally used to treat motion sickness due to their sedative and anti-emetic properties, which help to alleviate symptoms such as nausea and vomiting. The herbal preparation's ability to calm the nervous system and reduce anxiety contributes to its effectiveness in treating motion sickness. The bioactive constituents responsible for these effects include valerenic acid, isovaltrate, and valepotriates, which have been shown to interact with GABA receptors and reduce the excitability of the nervous system. Regular use of Valeriana officinalis tinctures may help to reduce the severity and frequency of motion sickness episodes, making it a beneficial natural remedy for individuals prone to this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 15,
+            "herb_confidence_score": 121,
+            "herb_total_score": 1815,
+            "preparation_desc": "Passiflora incarnata tinctures have been traditionally used to treat motion sickness due to their sedative and anti-anxiety properties, which help to calm the nervous system and reduce the symptoms of nausea and vomiting associated with this ailment. The bioactive constituents of Passiflora incarnata, including flavonoids, alkaloids, and glycosides, contribute to its therapeutic effects by modulating neurotransmitter activity and reducing inflammation in the gut. By modulating the activity of serotonin and other neurotransmitters, Passiflora incarnata tinctures help to regulate the body's response to motion and alleviate the discomfort and distress associated with motion sickness. The benefits of using Passiflora incarnata tinctures to treat motion sickness include reduced frequency and severity of episodes, improved quality of life, and a natural alternative to conventional medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 15,
+            "herb_confidence_score": 112,
+            "herb_total_score": 1680,
+            "preparation_desc": "Cinchona officinalis tinctures have been traditionally used to treat motion sickness due to their antiemetic and adaptogenic properties, which help to regulate the body's response to motion and reduce nausea and vomiting. The tannins and alkaloids present in Cinchona officinalis tinctures, particularly quinine and cinchonidine, are responsible for its therapeutic effects, as they have been shown to stabilize the stomach and alleviate symptoms of motion sickness. The benefits of using Cinchona officinalis tinctures to treat motion sickness include rapid relief from nausea and vomiting, reduced risk of dehydration, and improved overall well-being during travel or other activities that may trigger motion sickness. By using Cinchona officinalis tinctures, individuals can effectively manage their symptoms and enjoy a smoother and more comfortable journey.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 18,
+            "herb_confidence_score": 101,
+            "herb_total_score": 1818,
+            "preparation_desc": "Glycyrrhiza glabra tinctures, derived from the root of the licorice plant, have been traditionally used to treat motion sickness due to their anti-emetic properties. This herbal preparation helps to alleviate symptoms of motion sickness by regulating the balance of stomach acid and reducing nausea and vomiting. The bioactive constituents, such as glycyrrhetinic acid and flavonoids, in Glycyrrhiza glabra tinctures are responsible for their therapeutic effects, as they have been shown to inhibit the release of serotonin, a key neurotransmitter involved in the regulation of nausea. The benefits of using Glycyrrhiza glabra tinctures to treat motion sickness include their natural and non-invasive approach, making them a popular alternative to conventional medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Piper nigrum",
+            "herb_mentions": 15,
+            "herb_confidence_score": 98,
+            "herb_total_score": 1470,
+            "preparation_desc": "Piper nigrum tinctures have been traditionally used to treat motion sickness due to their anti-emetic and carminative properties. The herbal preparation helps to alleviate nausea and vomiting associated with motion sickness by soothing the digestive system and reducing inflammation. The bioactive constituents of Piper nigrum tinctures, including eugenol and piperine, have been found to inhibit the release of serotonin and histamine, which are neurotransmitters involved in the regulation of nausea and vomiting. Regular use of Piper nigrum tinctures has been reported to provide relief from motion sickness, making it a popular natural remedy for individuals prone to nausea and vomiting during travel or other forms of motion.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 14,
+            "herb_confidence_score": 91,
+            "herb_total_score": 1274,
+            "preparation_desc": "Lavandula angustifolia tinctures have been traditionally used to treat motion sickness due to their calming and anti-inflammatory properties, which help to soothe the digestive system and reduce nausea. The bioactive constituents of this herbal preparation, including linalool and linalyl acetate, work together to calm the nervous system and alleviate symptoms of motion sickness. By reducing anxiety and promoting relaxation, Lavandula angustifolia tinctures can help to prevent and treat motion sickness, making it a popular natural remedy among travelers and individuals prone to motion sickness. The benefits of using Lavandula angustifolia tinctures to treat motion sickness include reduced nausea, dizziness, and discomfort, allowing individuals to travel and engage in activities without the debilitating effects of this ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 15,
+            "herb_confidence_score": 72,
+            "herb_total_score": 1080,
+            "preparation_desc": "Foeniculum vulgare tinctures have been traditionally used to treat motion sickness due to their carminative and antiemetic properties, which help to alleviate nausea and vomiting associated with this condition. The bioactive constituents present in Foeniculum vulgare, such as anethole and limonene, contribute to its therapeutic effects by reducing inflammation and modulating the gastrointestinal system. By using Foeniculum vulgare tinctures, individuals can experience relief from motion sickness symptoms, making it a beneficial herbal preparation for travel and motion-related discomfort. The benefits of Foeniculum vulgare tinctures in treating motion sickness include reduced nausea, vomiting, and dizziness, allowing individuals to enjoy travel and daily activities with greater comfort and confidence.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 8,
+            "herb_confidence_score": 69,
+            "herb_total_score": 552,
+            "preparation_desc": "Curcuma longa tinctures, derived from the turmeric plant, have been traditionally used to alleviate motion sickness symptoms. The properties of this herbal preparation, such as its anti-inflammatory and antioxidant properties, help to calm the digestive system and reduce nausea. The bioactive constituents, including curcumin, a polyphenol compound, play a crucial role in treating motion sickness by inhibiting the production of pro-inflammatory enzymes and stabilizing the gut. By using Curcuma longa tinctures, individuals can benefit from reduced nausea, vomiting, and dizziness associated with motion sickness, making it a potential natural remedy for this common travel-related ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 9,
+            "herb_confidence_score": 67,
+            "herb_total_score": 603,
+            "preparation_desc": "Avena sativa tinctures have been traditionally used to treat motion sickness due to their calming and sedative properties, which help to alleviate nausea and vomiting associated with this ailment. The herbal preparation works by reducing anxiety and promoting relaxation, making it easier for individuals to manage the symptoms of motion sickness. Avena sativa tinctures contain bioactive constituents such as isovitexin, avenacoside B, and avenalumic acid, which are responsible for their anti-nausea and anti-inflammatory effects. The benefits of using Avena sativa tinctures to treat motion sickness include natural relief from symptoms, reduced risk of adverse effects associated with pharmaceuticals, and a non-addictive alternative to conventional treatments.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zanthoxylum bungeanum",
+            "herb_mentions": 10,
+            "herb_confidence_score": 65,
+            "herb_total_score": 650,
+            "preparation_desc": "Zanthoxylum bungeanum tinctures have been traditionally used to treat motion sickness due to their carminative and antiemetic properties, which help to alleviate nausea and vomiting associated with the ailment. This herbal preparation works by stimulating digestion, relieving abdominal discomfort, and soothing the stomach, thereby reducing the severity of motion sickness symptoms. The bioactive constituents present in Zanthoxylum bungeanum tinctures, including volatile oils and alkaloids, are responsible for its therapeutic effects, as they exhibit anti-inflammatory and antioxidant properties that help to calm the stomach and prevent vomiting. The benefits of using Zanthoxylum bungeanum tinctures to treat motion sickness include rapid relief from symptoms, reduced frequency of vomiting, and a decrease in the risk of dehydration and electrolyte imbalances associated with prolonged motion sickness.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 9,
+            "herb_confidence_score": 59,
+            "herb_total_score": 531,
+            "preparation_desc": "Panax ginseng tinctures have been used as a natural remedy to help alleviate the symptoms of motion sickness, a common condition characterized by nausea, vomiting, and dizziness. The bioactive constituents of Panax ginseng, such as ginsenosides and panaxans, have been found to possess adaptogenic properties that help to regulate the body's response to stress and anxiety, which are often underlying factors contributing to motion sickness. By promoting balance and equilibrium in the body, Panax ginseng tinctures can help to reduce the incidence of nausea and vomiting associated with motion sickness, making it a potential alternative to conventional treatments. The benefits of using Panax ginseng tinctures to treat motion sickness include reduced symptoms, improved overall well-being, and a lower risk of side effects compared to pharmaceutical medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 9,
+            "herb_confidence_score": 58,
+            "herb_total_score": 522,
+            "preparation_desc": "Mentha x piperita tinctures, commonly known as peppermint oil, have long been used to treat motion sickness due to their anti-inflammatory and antispasmodic properties. The bioactive constituents, including menthol and menthone, help to alleviate nausea and vomiting associated with motion sickness by reducing inflammation and relaxing the stomach muscles. The benefits of using Mentha x piperita tinctures to treat motion sickness include rapid relief from symptoms, reduced risk of dehydration, and a natural alternative to conventional medications. Additionally, the calming effects of menthol can also help to reduce anxiety and stress related to motion sickness.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 57,
+            "herb_total_score": 513,
+            "preparation_desc": "Rosmarinus officinalis tinctures have been traditionally used to treat motion sickness due to their carminative and anti-emetic properties, which help to alleviate nausea and vomiting associated with this ailment. The bioactive constituents, including rosmarinic acid and camphor, in this herbal preparation contribute to its therapeutic effects by inhibiting the release of serotonin and other neurotransmitters that trigger nausea. By reducing the symptoms of motion sickness, Rosmarinus officinalis tinctures offer a natural and non-invasive approach to alleviating discomfort and promoting a sense of well-being during travel. The benefits of using Rosmarinus officinalis tinctures to treat motion sickness include improved tolerance for travel, reduced anxiety, and enhanced overall quality of life.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Scutellaria baicalensis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 51,
+            "herb_total_score": 357,
+            "preparation_desc": "Scutellaria baicalensis tinctures have been used to treat motion sickness due to their anti-inflammatory, antispasmodic, and adaptogenic properties. These properties help to alleviate symptoms of motion sickness by reducing nausea, vomiting, and dizziness, thereby providing relief to individuals experiencing travel-related discomfort. The bioactive constituents of Scutellaria baicalensis, including baicalin and wogonin, have been found to contribute to its therapeutic effects, particularly in reducing inflammation and modulating the body's stress response. By using Scutellaria baicalensis tinctures, individuals can benefit from a natural and effective remedy that not only treats motion sickness but also promotes overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 45,
+            "herb_total_score": 315,
+            "preparation_desc": "Silybum marianum tinctures have been traditionally used to treat motion sickness, a condition characterized by nausea, dizziness, and vomiting triggered by movement. The anti-emetic properties of Silybum marianum tinctures help to alleviate the symptoms of motion sickness, making it a popular natural remedy among travelers and individuals prone to motion sickness. The bioactive constituents of Silybum marianum, such as flavonoids and silymarin, are responsible for its therapeutic effects, as they help to stabilize the membranes of the stomach and alleviate nausea and vomiting. The benefits of Silybum marianum tinctures in treating motion sickness include its non-habit-forming nature, lack of side effects, and ability to provide quick relief from symptoms, making it a valuable natural remedy for individuals suffering from motion sickness.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Elettaria cardamomum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 45,
+            "herb_total_score": 315,
+            "preparation_desc": "Elettaria cardamomum tinctures, derived from the seeds of the green cardamom plant, have been traditionally used to treat motion sickness due to their carminative and anti-emetic properties. The tincture helps to alleviate nausea and vomiting associated with motion sickness by reducing stomach spasms and soothing the digestive system. The bioactive constituents responsible for these benefits include limonene and linalool, which possess anti-inflammatory and antioxidant properties that aid in calming the stomach and reducing nausea. Regular use of Elettaria cardamomum tinctures can provide relief from motion sickness symptoms, making it a potential natural remedy for individuals prone to motion sickness.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Centella asiatica",
+            "herb_mentions": 5,
+            "herb_confidence_score": 40,
+            "herb_total_score": 200,
+            "preparation_desc": "Centella asiatica tinctures have been traditionally used to treat motion sickness due to their anti-inflammatory and antispasmodic properties, which help to calm the digestive system and reduce nausea. The bioactive constituents present in Centella asiatica, such as asiatic acid, madecassic acid, and brahmoside, have been found to have a positive effect on the nervous system, reducing the symptoms associated with motion sickness. By reducing inflammation and promoting relaxation, Centella asiatica tinctures can help to alleviate the discomfort and nausea associated with motion sickness, making it a potential natural remedy for this common ailment. Regular use of Centella asiatica tinctures has been reported to provide benefits such as improved digestion, reduced anxiety, and enhanced overall well-being, making it a valuable addition to a natural health regimen.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Piper methysticum",
+            "herb_mentions": 5,
+            "herb_confidence_score": 40,
+            "herb_total_score": 200,
+            "preparation_desc": "Piper methysticum tinctures have been traditionally used to treat motion sickness due to their calming and anti-inflammatory properties, which help to alleviate symptoms such as nausea and dizziness. The bioactive constituents present in Piper methysticum tinctures, including pipermethystine and kawain, are believed to contribute to their efficacy in treating motion sickness by promoting relaxation and reducing anxiety. The tinctures work by exerting a sedative effect on the central nervous system, which helps to calm the stomach and alleviate the discomfort associated with motion sickness. Overall, Piper methysticum tinctures offer a natural and effective alternative to conventional treatments for motion sickness, providing relief from symptoms without the risk of side effects associated with pharmaceuticals.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Clinical gastroenterology and hepatology : the official clinical practice journal of the American Gastroenterological Association\", tinctures for motion sickness using ginger appeared to be effective in relieving nausea and vomiting."
+}

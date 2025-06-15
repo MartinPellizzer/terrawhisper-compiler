@@ -1,0 +1,191 @@
+{
+    "url": "herbs/jasminum-grandiflorum",
+    "herb_slug": "jasminum-grandiflorum",
+    "herb_name_scientific": "jasminum grandiflorum",
+    "lastmod": "2025-5-31",
+    "title": "Jasminum Grandiflorum Uses, Benefits, And Remedies",
+    "intro": "Jasminum grandiflorum, commonly known as the common jasmine, is a flowering plant renowned for its fragrant white flowers and medicinal properties. This herb is widely used in traditional medicine for its calming and therapeutic effects. The health benefits of Jasminum grandiflorum include stress relief, improved sleep, and antioxidant support. Its bioactive constituents, such as flavonoids, alkaloids, and essential oils, contribute to its therapeutic actions. Herbal preparations like infusions, tinctures, and essential oils can be made from this herb to harness its beneficial properties.",
+    "benefits": "[SENTENCE NUM] Jasminum grandiflorum reduce stress levels through its calming properties, which help promote relaxation and ease tension in both the mind and body. The herb contains compounds like linalool and benzyl acetate that have been shown to interact with the nervous system, reducing the production of stress hormones such as cortisol. In addition to stress relief, jasmine is known to improve sleep quality by fostering a sense of tranquility and aiding in the transition to restful sleep. Its soothing aroma can also help lower anxiety triggers, making it a valuable natural remedy for individuals dealing with anxiety or insomnia. Furthermore, research suggests that jasmine may have anti-inflammatory properties, which can help reduce inflammation quickly and support overall immune function. These combined health benefits make Jasminum grandiflorum a versatile and effective herbal remedy for enhancing both mental and physical well-being.",
+    "constituents": "Jasminum grandiflorum flavonoids are a group of bioactive compounds known for their antioxidant, anti-inflammatory, and antimicrobial properties, contributing significantly to the therapeutic potential of jasmine essential oil and its extracts. These flavonoids, such as apigenin and luteolin, help in neutralizing free radicals, thereby protecting cells from oxidative damage and supporting overall health. In addition to flavonoids, Jasminum grandiflorum contains phenolic acids, which also exhibit strong antioxidant activity and may aid in reducing inflammation and enhancing immune function. The herb is also rich in carbohydrates, which serve as a source of energy and may contribute to its overall nutritional profile. Furthermore, volatile oils extracted from Jasminum grandiflorum are highly valued for their aromatic and therapeutic properties, often used in aromatherapy and traditional medicine for their calming and mood-enhancing effects. These medicinal constituents collectively make Jasminum grandiflorum a valuable plant in both traditional and modern pharmacological applications.",
+    "parts": "Jasminum grandiflorum flower is the most widely utilized medicinal part of the plant, known for its aromatic properties and therapeutic benefits. The flowers are commonly used in traditional medicine to treat respiratory conditions such as coughs, colds, and bronchitis due to their expectorant and antispasmodic effects. They are also employed in herbal remedies for their calming properties, helping to reduce anxiety and promote relaxation. The essential oil extracted from the flowers is valued for its ability to alleviate symptoms of depression and enhance mental clarity. Additionally, the flowers are often incorporated into skincare products for their soothing and anti-inflammatory properties, making them a versatile component in both internal and external medicinal applications.",
+    "preparations": "Jasminum grandiflorum teas are a popular herbal preparation made by steeping dried flowers in hot water, often used for their calming and aromatic properties. These teas are known to promote relaxation, aid in sleep, and soothe digestive discomfort due to the presence of compounds like flavonoids and essential oils. Decoctions, which involve boiling the plant material for a longer period, are used for more potent extracts, particularly for addressing respiratory issues or skin conditions. Tinctures, made by soaking the herb in alcohol or glycerin, offer a concentrated form that can be taken orally or applied topically for various therapeutic benefits. Essential oils derived from Jasminum grandiflorum are highly valued in aromatherapy for their ability to reduce stress, uplift mood, and enhance mental clarity, making them versatile in both traditional and modern wellness practices.",
+    "side_effects": "Jasminum grandiflorum leads to allergic reaction in some individuals, particularly those with sensitivities to its essential oils or pollen. The herb can cause skin irritation, manifesting as redness, burning, or a tingling sensation upon contact with the skin. Exposure to its pollen or extracts may also induce eye irritation, resulting in redness, watering, and a gritty feeling. Additionally, it can trigger respiratory issues, such as throat irritation, coughing, and sneezing, especially in people with asthma or allergies. Prolonged exposure may lead to skin rash, itching, and dryness, making it important for those with sensitive skin or respiratory conditions to use the herb with caution. While Jasminum grandiflorum is commonly used in aromatherapy and cosmetics, its potential to cause these adverse effects underscores the need for proper handling and awareness of individual sensitivities.",
+    "benefits_num": 13,
+    "benefits_list": [
+        {
+            "name": "reduce stress levels",
+            "description": "Jasminum grandiflorum herb is known to promote relaxation and calmness, helping to reduce overall stress levels in the body."
+        },
+        {
+            "name": "improve sleep quality",
+            "description": "The herb has calming properties that can enhance sleep quality by promoting relaxation and reducing insomnia symptoms."
+        },
+        {
+            "name": "reduce inflammation quickly",
+            "description": "It contains compounds that may help reduce inflammation in the body, supporting faster recovery from inflammatory conditions."
+        },
+        {
+            "name": "lower anxiety triggers",
+            "description": "The herb is believed to have anxiolytic properties that can help lower anxiety triggers and promote emotional stability."
+        },
+        {
+            "name": "lower blood pressure",
+            "description": "Jasminum grandiflorum may help lower blood pressure by relaxing blood vessels and improving cardiovascular health."
+        },
+        {
+            "name": "relieve pain symptoms",
+            "description": "It has analgesic properties that can help relieve various types of pain, such as headaches and muscle aches."
+        },
+        {
+            "name": "lower cholesterol levels",
+            "description": "The herb may assist in lowering cholesterol levels by improving lipid metabolism and reducing bad cholesterol."
+        },
+        {
+            "name": "ease digestive issues",
+            "description": "It can help ease digestive problems like indigestion and bloating due to its soothing and carminative properties."
+        },
+        {
+            "name": "relieve skin conditions",
+            "description": "The herb is often used topically to relieve skin conditions such as eczema and acne due to its anti-inflammatory and antimicrobial properties."
+        },
+        {
+            "name": "ease menstrual cramps",
+            "description": "It may help ease menstrual cramps by relaxing the uterine muscles and reducing associated discomfort."
+        },
+        {
+            "name": "relieve arthritis symptoms",
+            "description": "The anti-inflammatory properties of Jasminum grandiflorum can help relieve arthritis symptoms by reducing joint pain and swelling."
+        },
+        {
+            "name": "ease anxiety attacks",
+            "description": "The herb can help ease anxiety attacks by calming the nervous system and reducing symptoms of panic and fear."
+        },
+        {
+            "name": "antioxidant properties exist",
+            "description": "Jasminum grandiflorum contains antioxidants that help neutralize free radicals, protecting the body from oxidative stress and damage."
+        }
+    ],
+    "constituents_num": 9,
+    "constituents_list": [
+        {
+            "name": "flavonoids",
+            "description": "Flavonoids are a group of plant secondary metabolites with antioxidant properties that may help reduce inflammation and protect cells from oxidative stress."
+        },
+        {
+            "name": "phenolic acids",
+            "description": "Phenolic acids are organic compounds with antioxidant properties that may help neutralize free radicals and reduce inflammation in the body."
+        },
+        {
+            "name": "carbohydrates",
+            "description": "Carbohydrates are a primary energy source for the body and are involved in various metabolic processes, including cellular function and immune response."
+        },
+        {
+            "name": "volatile oils",
+            "description": "Volatile oils are aromatic compounds responsible for the fragrance of the plant and may have antimicrobial and anti-inflammatory properties."
+        },
+        {
+            "name": "saponins",
+            "description": "Saponins are natural compounds that may have antimicrobial, anti-inflammatory, and immune-modulating effects."
+        },
+        {
+            "name": "terpenoids",
+            "description": "Terpenoids are a diverse group of organic compounds with various biological activities, including antioxidant, anti-inflammatory, and antiviral properties."
+        },
+        {
+            "name": "glycosides",
+            "description": "Glycosides are compounds composed of a sugar molecule bound to another compound, often having medicinal properties such as cardiovascular and antimicrobial effects."
+        },
+        {
+            "name": "tannins",
+            "description": "Tannins are polyphenolic compounds that may have astringent properties and are known for their antioxidant and antimicrobial effects."
+        },
+        {
+            "name": "monoterpenes",
+            "description": "Monoterpenes are a class of volatile organic compounds often found in essential oils, which may have antimicrobial, anti-inflammatory, and antioxidant properties."
+        }
+    ],
+    "parts_num": 2,
+    "parts_list": "",
+    "side_effects_num": 11,
+    "side_effects_list": [
+        {
+            "name": "leads to allergic reaction",
+            "description": "Some individuals may experience an allergic reaction to Jasminum grandiflorum, which can manifest as hives, swelling, or difficulty breathing."
+        },
+        {
+            "name": "causes skin irritation",
+            "description": "Direct contact with the herb can cause skin irritation, leading to redness, itching, or a burning sensation on the skin."
+        },
+        {
+            "name": "induces eye irritation",
+            "description": "Exposure to the herb may irritate the eyes, causing redness, tearing, or a gritty sensation."
+        },
+        {
+            "name": "induces skin rash",
+            "description": "Prolonged contact with Jasminum grandiflorum can result in a skin rash, characterized by red, itchy, and inflamed patches on the skin."
+        },
+        {
+            "name": "leads to itching",
+            "description": "The herb may cause an itchy sensation on the skin, often as a reaction to its compounds or allergens."
+        },
+        {
+            "name": "causes dryness",
+            "description": "Repeated exposure to the herb may lead to dryness of the skin, as it can strip away natural oils and moisture."
+        },
+        {
+            "name": "triggers respiratory issues",
+            "description": "Inhalation of Jasminum grandiflorum particles may trigger respiratory issues, such as wheezing or shortness of breath in sensitive individuals."
+        },
+        {
+            "name": "causes throat irritation",
+            "description": "Inhaling the herb's pollen or particles may irritate the throat, leading to a sore or scratchy sensation."
+        },
+        {
+            "name": "leads to coughing",
+            "description": "Exposure to the herb may cause coughing, especially in individuals with respiratory sensitivities or allergies."
+        },
+        {
+            "name": "triggers sneezing",
+            "description": "Inhalation of Jasminum grandiflorum can trigger sneezing in some people, particularly those with allergies or sensitivities."
+        },
+        {
+            "name": "causes eye redness",
+            "description": "Contact with the herb may cause eye redness due to irritation or allergic reactions affecting the conjunctiva."
+        }
+    ],
+    "preparations_num": 8,
+    "preparations_list": [
+        {
+            "name": "teas",
+            "description": "Jasminum grandiflorum tea is used to soothe the nervous system, promote relaxation, and aid in stress relief due to its calming properties."
+        },
+        {
+            "name": "decoctions",
+            "description": "Jasminum grandiflorum decoctions are used to support respiratory health, alleviate coughs, and reduce inflammation in the airways."
+        },
+        {
+            "name": "tinctures",
+            "description": "Jasminum grandiflorum tinctures are valued for their ability to calm anxiety, improve mood, and support emotional well-being."
+        },
+        {
+            "name": "essential oils",
+            "description": "Jasminum grandiflorum essential oils are used in aromatherapy to reduce stress, enhance mood, and promote a sense of calm and relaxation."
+        },
+        {
+            "name": "syrups",
+            "description": "Jasminum grandiflorum syrups are used to soothe sore throats, relieve coughs, and support respiratory health."
+        },
+        {
+            "name": "capsules",
+            "description": "Jasminum grandiflorum capsules provide a convenient way to consume the herb for its calming effects and support for emotional balance."
+        },
+        {
+            "name": "lozenges",
+            "description": "Jasminum grandiflorum lozenges are used to relieve throat irritation, reduce coughing, and soothe sore throats."
+        },
+        {
+            "name": "oils",
+            "description": "Jasminum grandiflorum oils are used topically to promote skin health, reduce inflammation, and provide a calming effect when applied to the skin."
+        }
+    ]
+}

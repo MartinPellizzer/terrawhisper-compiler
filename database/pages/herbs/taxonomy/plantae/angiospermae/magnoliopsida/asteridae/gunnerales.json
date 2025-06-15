@@ -1,0 +1,15 @@
+{
+    "title": "gunnerales",
+    "lastmod": "2025-2-22",
+    "intro": "Gunnerales is an order of flowering plants, characterized by the presence of trimerous flowers and an unusual, often aquatic or wetland habitat. This order includes a relatively small number of families, including the Gunneraceae family. The Gunneraceae family is further divided into several genera, one of which is Gunnera. Other examples of families within the Gunnerales order are not as well-represented, with the Orchidaceae, Euphorbiaceae, and Cyperaceae families actually belonging to different orders, such as Asparagales, Malpighiales, and Poales respectively.",
+    "families": [
+        {
+            "family_slug": "gunneraceae",
+            "family_desc": "Gunneraceae is a family of flowering plants, commonly known as tasselworts, that are native to tropical and subtropical regions of the world."
+        },
+        {
+            "family_slug": "myrothamnaceae",
+            "family_desc": "Myrothamnaceae is a family of flowering plants in the order Myrothamnales, commonly known as resurrection plants due to their ability to survive under extreme conditions of dehydration."
+        }
+    ]
+}

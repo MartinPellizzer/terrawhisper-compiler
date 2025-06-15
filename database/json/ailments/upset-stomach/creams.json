@@ -1,0 +1,187 @@
+{
+    "url": "ailments/upset-stomach/creams",
+    "ailment_slug": "upset-stomach",
+    "ailment_name": "upset stomach",
+    "preparation_slug": "creams",
+    "preparation_name": "creams",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 13,
+    "title": "13 Best Herbal Creams For Upset Stomach",
+    "intro": "Herbal creams for Upset stomach are topical ointments that combine natural herbs with soothing ingredients to provide relief from stomach discomfort. These creams typically contain a combination of herbs such as peppermint, ginger, and chamomile, which have anti-inflammatory and calming properties that help to ease digestive issues. Examples of herbal creams used to treat upset stomach include products infused with the extracts of licorice root, aloe vera, and marshmallow root, as they are known to provide quick relief from symptoms such as nausea and heartburn, while also promoting digestion. By using these creams, individuals can benefit from a natural and non-invasive approach to treating stomach upset, without the risk of side effects associated with medication.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 20,
+            "herb_confidence_score": 177,
+            "herb_total_score": 3540,
+            "preparation_desc": "Zingiber officinale creams, derived from the rhizome of the ginger plant, have been traditionally used to treat upset stomach ailments due to their anti-inflammatory, carminative, and antispasmodic properties. The bioactive constituents of ginger, including gingerols and shogaols, help to soothe the digestive system, reduce nausea and vomiting, and alleviate symptoms of irritable bowel syndrome. The anti-inflammatory properties of ginger creams also help to reduce inflammation in the stomach and intestines, promoting healing and preventing further irritation. The benefits of using Zingiber officinale creams to treat upset stomach ailments include rapid relief from nausea and vomiting, reduced inflammation, and improved digestive health, making it a popular natural remedy for stomach discomfort.",
+            "preparation_study": "According to \"Phytotherapy research : PTR\", Zingiber officinale creams for upset stomach show antiemetic mechanisms, specifically 5-HT, NK-1 receptor, and muscarinic antagonist activity, which may help alleviate chemotherapy-induced nausea and vomiting.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 19,
+            "herb_confidence_score": 158,
+            "herb_total_score": 3002,
+            "preparation_desc": "Glycyrrhiza glabra creams, derived from the root of the licorice plant, have been traditionally used to treat various gastrointestinal disorders, including upset stomach. The anti-inflammatory and soothing properties of this herbal preparation help to calm digestive issues and alleviate stomach discomfort. The bioactive constituents, such as glycyrrhizin and flavonoids, possess anti-inflammatory and antioxidant properties that contribute to their therapeutic effects in treating upset stomach. By reducing inflammation and promoting relaxation of the digestive tract, Glycyrrhiza glabra creams provide relief from stomach upset and promote overall digestive health.",
+            "preparation_study": "According to \"Current drug discovery technologies\", Glycyrrhiza glabra creams for upset stomach may be beneficial in reducing inflammation and irritation in the mucosal lining of the stomach, as it is one of the natural herbs with potential anti-ulcer activity, as per the study.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 17,
+            "herb_confidence_score": 138,
+            "herb_total_score": 2346,
+            "preparation_desc": "Mentha x piperita creams, derived from the peppermint plant, have been used to treat upset stomach ailments due to their carminative and anti-inflammatory properties. These creams help to treat the ailment by soothing the stomach, reducing nausea and vomiting, and alleviating abdominal pain and discomfort. The bioactive constituents of Mentha x piperita creams, including menthol and menthone, have been found to have a calming effect on the stomach muscles, reducing spasms and inflammation. The benefits of using Mentha x piperita creams to treat upset stomach ailments include quick relief from symptoms, reduced risk of dehydration, and a natural alternative to pharmaceutical medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 19,
+            "herb_confidence_score": 137,
+            "herb_total_score": 2603,
+            "preparation_desc": "Foeniculum vulgare creams, derived from the seeds of the common fennel plant, have been traditionally used to treat upset stomach ailments due to their carminative and anti-inflammatory properties. The bioactive constituents, including anethole and fenchone, help to relax the muscles in the stomach, reduce inflammation, and alleviate symptoms such as bloating and cramps. By reducing inflammation and relaxing the stomach muscles, Foeniculum vulgare creams provide relief from nausea, vomiting, and abdominal pain associated with digestive issues. The benefits of using Foeniculum vulgare creams include quick relief from symptoms, improved digestion, and a reduced risk of complications from prolonged digestive issues.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 16,
+            "herb_confidence_score": 134,
+            "herb_total_score": 2144,
+            "preparation_desc": "Curcuma longa creams are a popular herbal preparation used to treat upset stomach ailments due to their anti-inflammatory and antioxidant properties. The bioactive constituents of Curcuma longa, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, help to reduce inflammation and alleviate symptoms of an upset stomach. By inhibiting the production of pro-inflammatory enzymes and cytokines, Curcuma longa creams help to soothe the stomach lining and promote healing. The benefits of using Curcuma longa creams to treat upset stomach ailments include reduced symptoms of nausea, vomiting, and abdominal pain, as well as improved digestion and overall gut health.",
+            "preparation_study": "According to the study on Curcuma longa, creams for upset stomach may be effective due to its high concentration of antioxidants and inhibitory action against most bacterial strains, which can help in healing gastrointestinal infections.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 17,
+            "herb_confidence_score": 132,
+            "herb_total_score": 2244,
+            "preparation_desc": "Silybum marianum creams, derived from the milk thistle plant, have been traditionally used to treat upset stomach ailments due to their anti-inflammatory and antioxidant properties. These properties help to soothe and protect the stomach lining, reducing inflammation and promoting healing. The bioactive constituents of silymarin, a flavonoid complex found in the plant, are responsible for its therapeutic effects, including its ability to inhibit the production of pro-inflammatory cytokines and enhance the production of antioxidant enzymes. The benefits of using Silybum marianum creams to treat upset stomach ailments include reduced inflammation, improved digestion, and a faster recovery time, making it a popular natural remedy for this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 109,
+            "herb_total_score": 1417,
+            "preparation_desc": "Aloe barbadensis creams have been traditionally used to treat upset stomach ailments due to their soothing and anti-inflammatory properties. The bioactive constituents present in Aloe barbadensis, such as aloin and aloe-emodin, help to reduce inflammation and alleviate digestive discomfort. By forming a protective barrier on the stomach lining, Aloe barbadensis creams can help to treat upset stomach ailments by reducing irritation and promoting healing. The benefits of using Aloe barbadensis creams to treat upset stomach ailments include reduced inflammation, improved digestion, and faster recovery from stomach issues.",
+            "preparation_study": "According to the given study, Aloe barbadensis creams for upset stomach are derived from the plant Aloe vera, which is listed as one of the notable examples of medicinal plants that exhibit potential in preventing or treating digestive diseases.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 14,
+            "herb_confidence_score": 101,
+            "herb_total_score": 1414,
+            "preparation_desc": "Cinchona officinalis creams are a natural herbal preparation used to treat the upset stomach ailment, primarily due to its antispasmodic and anti-inflammatory properties, which help to soothe and calm the digestive system. This herbal preparation helps to treat upset stomach by reducing inflammation and alleviating spasms in the gastrointestinal tract, thus providing relief from nausea and vomiting. The bioactive constituents of Cinchona officinalis, including quinine and alkaloids, contribute to its efficacy in treating upset stomach by reducing inflammation and modulating the digestive system. The benefits of using Cinchona officinalis creams to treat upset stomach include faster recovery, reduced risk of complications, and a natural approach to alleviating symptoms without the side effects associated with conventional medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 14,
+            "herb_confidence_score": 87,
+            "herb_total_score": 1218,
+            "preparation_desc": "Lavandula angustifolia creams, derived from the Lavender plant, have been traditionally used to treat upset stomach ailments due to their soothing and calming properties. The calming effects of these creams are attributed to their ability to reduce inflammation and relax the digestive muscles, providing relief from stomach discomfort. The bioactive constituents, including linalool and linalyl acetate, present in Lavandula angustifolia creams, contribute to their therapeutic effects, helping to reduce nausea and alleviate stomach cramps. The benefits of using Lavandula angustifolia creams for upset stomach ailments include reduced symptoms, improved digestion, and a sense of overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 15,
+            "herb_confidence_score": 74,
+            "herb_total_score": 1110,
+            "preparation_desc": "Ginkgo biloba creams are a herbal preparation that offers relief from upset stomach ailments due to their anti-inflammatory and antioxidant properties. The flavonoids and terpenoids present in Ginkgo biloba creams help to soothe the digestive system, reduce inflammation, and promote the healing of the stomach lining, thus providing relief from stomach upset. The bioactive constituents, including bilobalide and ginkgolides, play a crucial role in reducing inflammation and promoting the healing process, making Ginkgo biloba creams an effective treatment for stomach ailments. By using Ginkgo biloba creams, individuals can experience the benefits of improved digestion, reduced inflammation, and enhanced overall well-being, making it a popular natural remedy for stomach upset.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Peumus boldus",
+            "herb_mentions": 7,
+            "herb_confidence_score": 57,
+            "herb_total_score": 399,
+            "preparation_desc": "Peumus boldus creams, also known as boldo creams, are a traditional herbal preparation used to treat upset stomach ailments, such as indigestion and nausea. The properties of boldo creams, including its anti-inflammatory and carminative properties, help to soothe the stomach and reduce discomfort. The bioactive constituents of boldo, including boldine and scopoletin, have been shown to have a protective effect on the gastric mucosa, reducing inflammation and promoting healing. By using Peumus boldus creams, individuals can benefit from relief from stomach upset, reduced inflammation, and improved overall digestive health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 51,
+            "herb_total_score": 408,
+            "preparation_desc": "Rosmarinus officinalis creams are herbal preparations derived from the leaves of the rosemary plant, which have been traditionally used to treat upset stomach ailments due to their anti-inflammatory and carminative properties. These properties help to reduce inflammation in the stomach and intestines, alleviate cramps, and relieve gas and bloating, thereby providing relief from stomach upset. The bioactive constituents of Rosmarinus officinalis creams, including rosmarinic acid and camphor, contribute to their therapeutic effects by inhibiting the production of stomach acids and improving digestion. The benefits of using Rosmarinus officinalis creams to treat upset stomach ailments include reduced symptoms, faster recovery, and improved overall gut health, making it a natural and effective remedy for stomach issues.",
+            "preparation_study": "According to the study, Rosmarinus officinalis creams for upset stomach may alleviate pain and discomfort in patients due to the presence of phytochemicals such as flavonoids and phenolics that can enhance the digestive system.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Artemisia absinthium",
+            "herb_mentions": 10,
+            "herb_confidence_score": 50,
+            "herb_total_score": 500,
+            "preparation_desc": "Artemisia absinthium creams have been traditionally used to treat upset stomach ailments due to their carminative and anti-inflammatory properties, which help to soothe and calm the digestive system. The bioactive constituents present in these creams, such as thujone, bornyl acetate, and artabsin, possess analgesic and anti-spasmodic properties that aid in relieving stomach cramps and discomfort. By reducing inflammation and modulating the digestive processes, Artemisia absinthium creams help to alleviate symptoms associated with upset stomach, including nausea, vomiting, and bloating. The benefits of using these creams include natural relief from stomach discomfort, reduced risk of side effects, and a potential reduction in the need for pharmaceutical medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 10,
+            "herb_confidence_score": 48,
+            "herb_total_score": 480,
+            "preparation_desc": "Taraxacum officinale creams, derived from the dandelion plant, have been used to treat the upset stomach ailment due to their anti-inflammatory and soothing properties that help to calm the digestive system and reduce discomfort. The bioactive constituents present in these creams, including sesquiterpene lactones and flavonoids, have been shown to have a positive effect on the stomach and intestines, reducing inflammation and promoting healing. By applying these creams topically, they can help to relieve symptoms such as bloating, cramps, and diarrhea associated with an upset stomach, providing quick and effective relief. The benefits of using Taraxacum officinale creams to treat the upset stomach ailment include reduced inflammation, improved digestion, and a decrease in the risk of complications associated with prolonged stomach discomfort.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 47,
+            "herb_total_score": 376,
+            "preparation_desc": "Valeriana officinalis creams have been traditionally used to treat the upset stomach ailment due to their anti-inflammatory and carminative properties, which help to soothe and calm the digestive system. The herbal preparation helps to treat this ailment by reducing inflammation and spasms in the stomach, promoting relaxation and reducing digestive discomfort. The bioactive constituents of Valeriana officinalis, including valepotriates and valerenic acid, have been shown to have a sedative effect on the digestive system, helping to alleviate symptoms of upset stomach. The benefits of using Valeriana officinalis creams to treat upset stomach include reduced digestive discomfort, improved digestion, and a sense of relaxation and calmness.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 40,
+            "herb_total_score": 240,
+            "preparation_desc": "Melissa officinalis creams have been traditionally used to treat the upset stomach ailment due to their anti-inflammatory and antispasmodic properties, which help to soothe and calm the digestive system. The bioactive constituents present in Melissa officinalis creams, such as citral and linalool, exhibit carminative effects, which help to reduce gas and alleviate nausea, thereby providing relief from stomach discomfort. The herbal preparation's ability to reduce inflammation and modulate digestive function makes it an effective treatment for upset stomach, allowing individuals to find relief from symptoms such as bloating and indigestion. By using Melissa officinalis creams, individuals can experience the benefits of natural relief from stomach upset, promoting a sense of well-being and comfort.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Pimpinella anisum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 39,
+            "herb_total_score": 234,
+            "preparation_desc": "Pimpinella anisum creams have been traditionally used to treat upset stomach ailments due to their carminative and anti-inflammatory properties, which help to ease digestive discomfort and reduce inflammation in the stomach. The bioactive constituents of this herbal preparation, including anethole, limonene, and sesquiterpenes, contribute to its therapeutic effects by relaxing the muscles in the stomach and reducing spasms. The benefits of using Pimpinella anisum creams to treat upset stomach ailments include reduced nausea and vomiting, improved digestion, and a decrease in symptoms of irritable bowel syndrome. Additionally, Pimpinella anisum creams may also help to soothe the stomach lining, reducing the risk of stomach ulcers and other digestive complications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 6,
+            "herb_confidence_score": 38,
+            "herb_total_score": 228,
+            "preparation_desc": "Echinacea purpurea creams have been traditionally used to treat an upset stomach, leveraging the anti-inflammatory properties of this herbal preparation to soothe and calm digestive issues. The bioactive constituents of Echinacea purpurea, including alkylamides and caffeic acid derivatives, help to reduce inflammation and alleviate symptoms associated with an upset stomach. By modulating the immune response and reducing oxidative stress, Echinacea purpurea creams can help to treat an upset stomach and promote overall digestive health. The benefits of using Echinacea purpurea creams to treat an upset stomach include reduced inflammation, improved digestion, and a faster recovery time.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 5,
+            "herb_confidence_score": 36,
+            "herb_total_score": 180,
+            "preparation_desc": "Achillea millefolium creams, derived from the leaves and flowers of the yarrow plant, have been used to treat various gastrointestinal issues, including upset stomach. The anti-inflammatory properties of yarrow help to soothe and calm the digestive tract, reducing inflammation and discomfort associated with an upset stomach. The bioactive constituents, including flavonoids, phenolic acids, and essential oils, have been shown to possess carminative and antispasmodic properties, which aid in relieving gas, bloating, and cramps. Regular use of Achillea millefolium creams can provide relief from an upset stomach, promoting a sense of calm and well-being, making it a popular natural remedy for digestive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinnamomum verum",
+            "herb_mentions": 5,
+            "herb_confidence_score": 35,
+            "herb_total_score": 175,
+            "preparation_desc": "Cinnamomum verum creams, derived from the bark of the Ceylon cinnamon tree, are a popular herbal preparation used to treat upset stomach ailments. The antispasmodic and anti-inflammatory properties of Cinnamomum verum creams help to soothe and calm the digestive system, reducing inflammation and alleviating symptoms of nausea and stomach cramps. The bioactive constituents of Cinnamomum verum creams, including cinnamaldehyde and cinnamic acid, have been shown to have gastroprotective effects, helping to protect the stomach lining and prevent further irritation. The benefits of using Cinnamomum verum creams to treat upset stomach ailments include rapid relief from symptoms, improved digestion, and a reduction in the risk of complications such as ulcers and gastritis.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to the \"Journal of ethnopharmacology\", creams for upset stomach may be derived from Ya-hom, a Thai traditional recipe, which has been shown to inhibit gastric acid, pepsin, and mucus secretions in a dose-dependent manner."
+}

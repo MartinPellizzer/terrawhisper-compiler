@@ -1,0 +1,24 @@
+{
+    "url": "herbs/euphorbia-australis",
+    "herb_slug": "euphorbia-australis",
+    "herb_name_scientific": "euphorbia australis",
+    "lastmod": "2025-5-31",
+    "benefits_num": 11,
+    "benefits_title": "11 Best Health Benefits Of Euphorbia Australis",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 9,
+            "confidence_score": 71,
+            "total_score": 639
+        },
+        {
+            "answer": "medicine",
+            "mentions": 1,
+            "confidence_score": 7,
+            "total_score": 7
+        }
+    ],
+    "constituents_num": 7,
+    "side_effects_num": 11
+}

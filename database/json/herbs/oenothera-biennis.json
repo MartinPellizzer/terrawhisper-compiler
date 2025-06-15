@@ -1,0 +1,195 @@
+{
+    "url": "herbs/oenothera-biennis",
+    "herb_slug": "oenothera-biennis",
+    "herb_name_scientific": "oenothera biennis",
+    "lastmod": "2025-5-31",
+    "title": "Oenothera Biennis Uses, Benefits, And Remedies",
+    "intro": "Oenothera biennis, commonly known as evening primrose, is an herb native to North America, known for its distinctive yellow flowers that open in the evening. This herb is rich in essential fatty acids, particularly gamma-linolenic acid (GLA), which contributes to its therapeutic properties. Health benefits include supporting skin health, reducing inflammation, and aiding in hormonal balance. Herbal preparations such as infusions, tinctures, and capsules can be made from its seeds or oil to harness its medicinal effects.",
+    "benefits": "Oenothera biennis fights cancer cells by containing compounds such as flavonoids and terpenoids, which have been shown to inhibit the growth of cancerous cells and induce apoptosis, or programmed cell death, in malignant tissues. This herb also has the ability to heal wounds faster due to its rich content of essential nutrients and antioxidants that promote tissue regeneration and enhance the body's natural healing processes. Additionally, Oenothera biennis boosts the immune system by stimulating the production of white blood cells and enhancing the body's defenses against infections and diseases. Its anti-inflammatory properties help reduce inflammation markers such as C-reactive protein and interleukin-6, which are often elevated in chronic inflammatory conditions. Overall, Oenothera biennis offers a range of health benefits that make it a valuable natural remedy for improving overall well-being and supporting the body's healing mechanisms.",
+    "constituents": "[WRONG START] Oenothera biennis, commonly known as evening primrose, contains several medicinal constituents that contribute to its therapeutic properties, including quercetin, phenolic acids, sterols, and terpenes. Quercetin, a flavonoid, is known for its antioxidant and anti-inflammatory effects, helping to reduce oxidative stress and support immune function. Phenolic acids, such as caffeic acid and ferulic acid, also exhibit strong antioxidant properties, which may help protect cells from damage caused by free radicals. Sterols, like stigmasterol and campesterol, are plant compounds that may support cardiovascular health and have anti-inflammatory effects. Terpenes, including \u03b1- and \u03b2-sitosterol, contribute to the herb's anti-inflammatory and immunomodulatory activities, making it beneficial for conditions such as eczema and rheumatoid arthritis. These compounds work synergistically to enhance the overall therapeutic value of Oenothera biennis, making it a valuable herb in both traditional and modern medicine.",
+    "parts": "Oenothera biennis flower, also known as evening primrose, is a significant medicinal part of this plant, widely used for its therapeutic properties. The flower contains essential fatty acids, particularly gamma-linolenic acid (GLA), which is known for its anti-inflammatory and skin-repairing benefits. It is commonly used in the treatment of conditions such as eczema, psoriasis, and premenstrual syndrome due to its ability to regulate hormonal imbalances. The flower is also utilized in topical applications for its soothing effect on irritated skin and its potential to improve skin hydration. Additionally, the flower contributes to the overall nutritional profile of the plant, making it a valuable component in herbal formulations aimed at supporting skin health and reducing inflammation.",
+    "preparations": "Oenothera biennis tinctures are commonly used for their potential anti-inflammatory and skin-soothing properties, often made by soaking the dried plant material in alcohol or a combination of alcohol and water. These tinctures can be applied topically to treat skin conditions such as eczema or psoriasis, or taken internally in small doses to support respiratory health and reduce inflammation. In addition to tinctures, Oenothera biennis is also used to make teas, which are brewed from the dried flowers and leaves, offering a calming effect and supporting digestive health. Capsules and decoctions provide convenient oral consumption options, while mucillages and oils are used in creams and ointments for their soothing and moisturizing benefits. These various preparations highlight the versatility of Oenothera biennis in both traditional and modern herbal medicine, making it a valuable plant in natural health practices.",
+    "side_effects": "Oenothera biennis skin develops rash due to an allergic reaction triggered by the plant's compounds, which can irritate the skin's immune system. Oenothera biennis skin shows itching as a result of histamine release, a common response to allergens that causes inflammation and discomfort. Oenothera biennis eyes become red because the allergens can cause conjunctival irritation, leading to redness and swelling. Oenothera biennis mood becomes anxious due to the potential impact of the herb on the central nervous system, which may disrupt normal neurotransmitter activity.",
+    "benefits_num": 11,
+    "benefits_list": [
+        {
+            "name": "fights cancer cells",
+            "description": "Oenothera biennis contains compounds that may inhibit the growth of cancer cells and induce apoptosis, helping to prevent the spread of malignant tumors."
+        },
+        {
+            "name": "heals wounds faster",
+            "description": "The herb promotes tissue regeneration and accelerates the healing process by stimulating the production of collagen and enhancing cellular repair mechanisms."
+        },
+        {
+            "name": "boosts immune system",
+            "description": "Oenothera biennis contains bioactive compounds that enhance immune function by stimulating the production of white blood cells and improving the body's defense against pathogens."
+        },
+        {
+            "name": "reduces inflammation markers",
+            "description": "It helps lower levels of inflammatory biomarkers such as cytokines, thereby reducing systemic inflammation and supporting overall health."
+        },
+        {
+            "name": "eases inflammation",
+            "description": "The herb possesses anti-inflammatory properties that can alleviate symptoms associated with inflammatory conditions like arthritis and skin irritations."
+        },
+        {
+            "name": "protects against infections",
+            "description": "Its antimicrobial properties help combat bacterial and viral infections, supporting the body's natural defenses against pathogens."
+        },
+        {
+            "name": "reduces oxidative stress",
+            "description": "Oenothera biennis is rich in antioxidants that neutralize free radicals, reducing oxidative stress and preventing cellular damage."
+        },
+        {
+            "name": "fights off bacteria",
+            "description": "The herb exhibits antibacterial properties that can inhibit the growth of harmful bacteria, reducing the risk of infections."
+        },
+        {
+            "name": "supports bone density",
+            "description": "It contains compounds that may promote bone health by enhancing calcium absorption and supporting the formation of strong bone tissue."
+        },
+        {
+            "name": "soothes skin irritations",
+            "description": "Topical application of Oenothera biennis can relieve skin irritations, redness, and inflammation due to its soothing and anti-inflammatory effects."
+        },
+        {
+            "name": "supports digestive health",
+            "description": "The herb may aid digestion by reducing gastrointestinal inflammation and promoting the healthy function of the digestive tract."
+        }
+    ],
+    "constituents_num": 11,
+    "constituents_list": [
+        {
+            "name": "quercetin",
+            "description": "A flavonoid with antioxidant and anti-inflammatory properties, known to support cardiovascular health and immune function."
+        },
+        {
+            "name": "phenolic acids",
+            "description": "Natural compounds with antioxidant properties that help neutralize free radicals and reduce oxidative stress in the body."
+        },
+        {
+            "name": "sterols",
+            "description": "Lipid compounds that may help lower cholesterol levels and support skin health due to their anti-inflammatory and moisturizing properties."
+        },
+        {
+            "name": "terpenes",
+            "description": "A diverse class of organic compounds with antioxidant, anti-inflammatory, and antimicrobial properties, often used for their therapeutic effects."
+        },
+        {
+            "name": "fatty acids",
+            "description": "Essential lipids that play a crucial role in cellular function, inflammation regulation, and the maintenance of healthy skin and nerves."
+        },
+        {
+            "name": "kaempferol",
+            "description": "A flavonoid with strong antioxidant and anti-inflammatory properties, known to support heart health and reduce the risk of chronic diseases."
+        },
+        {
+            "name": "flavonoids",
+            "description": "A group of plant compounds with antioxidant, anti-inflammatory, and vasodilatory effects, contributing to overall health and disease prevention."
+        },
+        {
+            "name": "triterpenoids",
+            "description": "A class of compounds with anti-inflammatory, immunomodulatory, and antitumor properties, often used in herbal medicine for their therapeutic benefits."
+        },
+        {
+            "name": "phytosterols",
+            "description": "Plant-derived compounds that may help lower cholesterol levels and support skin health by reducing inflammation and promoting hydration."
+        },
+        {
+            "name": "carotenoids",
+            "description": "Antioxidant pigments found in plants that support eye health, skin protection, and immune function by neutralizing free radicals."
+        },
+        {
+            "name": "rutin",
+            "description": "A flavonoid with antioxidant and anti-inflammatory properties, known to strengthen blood vessels and support cardiovascular health."
+        }
+    ],
+    "parts_num": 2,
+    "parts_list": "",
+    "side_effects_num": 9,
+    "side_effects_list": [
+        {
+            "name": "skin develops rash",
+            "description": "A skin rash may appear as a reaction to the herb, indicating an allergic or irritant response."
+        },
+        {
+            "name": "skin shows itching",
+            "description": "Itching of the skin can occur as a side effect, often associated with an allergic reaction to the herb."
+        },
+        {
+            "name": "eyes become red",
+            "description": "Redness in the eyes may result from an allergic reaction or irritation caused by the herb."
+        },
+        {
+            "name": "mood becomes anxious",
+            "description": "Anxiety may develop as a psychological side effect, possibly due to the herb's impact on the nervous system."
+        },
+        {
+            "name": "vision becomes blurry",
+            "description": "Blurred vision can occur as a side effect, possibly due to the herb's effect on the nervous system or eyes."
+        },
+        {
+            "name": "stomach feels upset",
+            "description": "Upset stomach may result from gastrointestinal irritation or sensitivity to the herb."
+        },
+        {
+            "name": "liver shows damage",
+            "description": "Prolonged use may lead to liver damage, indicating potential toxicity to the hepatic system."
+        },
+        {
+            "name": "nervous system reacts",
+            "description": "The nervous system may exhibit reactions such as dizziness or tremors due to the herb's effects."
+        },
+        {
+            "name": "blood pressure rises",
+            "description": "Elevated blood pressure may occur as a side effect, possibly due to the herb's impact on vascular function."
+        }
+    ],
+    "preparations_num": 11,
+    "preparations_list": [
+        {
+            "name": "tinctures",
+            "description": "Tinctures of Oenothera biennis are used to support skin health, reduce inflammation, and promote wound healing due to their anti-inflammatory and antioxidant properties."
+        },
+        {
+            "name": "teas",
+            "description": "Teas made from Oenothera biennis are traditionally used to support respiratory health, alleviate symptoms of coughs and colds, and promote relaxation."
+        },
+        {
+            "name": "capsules",
+            "description": "Capsules of Oenothera biennis are used to support skin health, reduce inflammation, and aid in the treatment of minor skin conditions due to their healing properties."
+        },
+        {
+            "name": "decoctions",
+            "description": "Decoctions of Oenothera biennis are used to support digestive health, reduce inflammation, and promote overall wellness due to their mild laxative and anti-inflammatory effects."
+        },
+        {
+            "name": "mucillages",
+            "description": "Mucillages from Oenothera biennis are used to soothe irritated skin, protect mucous membranes, and promote hydration due to their thick, gel-like consistency."
+        },
+        {
+            "name": "oils",
+            "description": "Oils extracted from Oenothera biennis are used for topical application to nourish the skin, reduce inflammation, and promote healing of minor wounds and skin irritations."
+        },
+        {
+            "name": "creams",
+            "description": "Creams containing Oenothera biennis are used to moisturize the skin, reduce inflammation, and aid in the treatment of minor skin conditions due to their soothing properties."
+        },
+        {
+            "name": "lozenges",
+            "description": "Lozenges made from Oenothera biennis are used to soothe sore throats, reduce inflammation in the throat, and support respiratory health."
+        },
+        {
+            "name": "oinments",
+            "description": "Oinments of Oenothera biennis are used topically to treat skin conditions, reduce inflammation, and promote healing of minor wounds and irritations."
+        },
+        {
+            "name": "liniments",
+            "description": "Liniments containing Oenothera biennis are used to relieve muscle pain, reduce inflammation, and promote circulation when applied topically to the skin."
+        },
+        {
+            "name": "poultices",
+            "description": "Poultices made from Oenothera biennis are used to treat skin irritations, reduce inflammation, and promote healing of wounds by applying the herb directly to the affected area."
+        }
+    ]
+}

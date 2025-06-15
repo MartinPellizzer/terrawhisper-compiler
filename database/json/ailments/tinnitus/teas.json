@@ -1,0 +1,259 @@
+{
+    "url": "ailments/tinnitus/teas",
+    "ailment_slug": "tinnitus",
+    "ailment_name": "tinnitus",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 13,
+    "title": "13 Best Herbal Teas For Tinnitus",
+    "intro": "Herbal teas for tinnitus are a natural remedy that has gained popularity in recent years, defined as a type of tea made from various herbs and plants that help alleviate the symptoms of tinnitus, a condition characterized by ringing, buzzing, or other sounds in the ear. The benefits of using herbal teas to treat tinnitus include reducing stress and anxiety, improving sleep quality, and promoting relaxation, which can help alleviate the symptoms of this condition. Some examples of herbal teas that have been used to treat tinnitus include Ginkgo biloba, which improves blood flow to the ears and reduces inflammation; Passionflower, which calms the nervous system and reduces anxiety; Lavender, which promotes relaxation and improves sleep quality; Peppermint, which reduces inflammation and eases tension; and Ginger, which has anti-inflammatory properties and improves circulation. Additionally, herbal teas like Chamomile, Valerian root, and Rosemary have also been used to treat tinnitus, as they have anti-inflammatory and antioxidant properties that help reduce inflammation and promote healing in the ears.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 19,
+            "herb_confidence_score": 161,
+            "herb_total_score": 3059,
+            "preparation_desc": "Valeriana officinalis teas have been traditionally used to treat tinnitus, an ear condition characterized by ringing or other sounds in the ears. The sedative and anxiolytic properties of this herbal preparation help to calm the nervous system, reducing stress and anxiety that can exacerbate tinnitus symptoms. The bioactive constituents, including valerenic acid, valepotriates, and isovaleric acid, have been found to have a relaxant effect on the nervous system and may help to alleviate tinnitus symptoms by reducing inflammation and promoting sleep. Regular consumption of Valeriana officinalis teas has been reported to provide relief from tinnitus, improved sleep quality, and reduced symptoms of anxiety and stress.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 20,
+            "herb_confidence_score": 159,
+            "herb_total_score": 3180,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat the tinnitus ailment, which is characterized by ringing or other sounds in the ears. The antihistamine and anti-inflammatory properties of this herbal preparation help to reduce inflammation in the ear and improve blood flow, thereby alleviating tinnitus symptoms. The bioactive constituents of Ginkgo biloba teas, including flavonoids and terpenoids, have been found to possess antioxidant and anti-inflammatory effects, which contribute to their tinnitus-relieving properties. By using Ginkgo biloba teas, individuals may experience relief from tinnitus symptoms and improved hearing, making it a promising natural remedy for this condition.",
+            "preparation_study": "According to \"The international tinnitus journal\", Ginkgo biloba teas for tinnitus may somewhat improve symptoms, but results vary widely and individualized treatment based on cause and dosage is recommended.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 20,
+            "herb_confidence_score": 150,
+            "herb_total_score": 3000,
+            "preparation_desc": "Melissa officinalis teas, also known as lemon balm tea, have been used for centuries to treat tinnitus, a condition characterized by ringing or other sounds in the ears. The antispasmodic and anti-inflammatory properties of this herbal preparation help to alleviate the symptoms of tinnitus by reducing anxiety and stress, which are often triggers for this condition. The bioactive constituents of Melissa officinalis, including rosmarinic acid, apigenin, and luteolin, have been found to possess antioxidant and anti-inflammatory effects, which contribute to their therapeutic benefits. By consuming Melissa officinalis teas, individuals with tinnitus may experience improved sleep quality, reduced anxiety levels, and a decrease in the intensity of tinnitus symptoms, ultimately leading to a better quality of life.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 21,
+            "herb_confidence_score": 148,
+            "herb_total_score": 3108,
+            "preparation_desc": "Zingiber officinale teas, derived from the root of the ginger plant, have been traditionally used to treat tinnitus, a condition characterized by ringing or other sounds in the ears. The anti-inflammatory and antioxidant properties of these teas are believed to help alleviate tinnitus symptoms by reducing inflammation and oxidative stress in the auditory system. The bioactive constituents of Zingiber officinale, including gingerols and shogaols, have been shown to possess analgesic and anti-inflammatory properties that may help to reduce tinnitus-related discomfort and alleviate symptoms. By incorporating Zingiber officinale teas into one's daily routine, individuals may experience relief from tinnitus symptoms and improve overall hearing health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 20,
+            "herb_confidence_score": 135,
+            "herb_total_score": 2700,
+            "preparation_desc": "Lavandula angustifolia teas have been studied for their potential to alleviate tinnitus symptoms due to their soothing properties and ability to calm the nervous system. The herbal preparation's anxiolytic and sedative effects help to reduce stress and anxiety, common contributors to tinnitus. Bioactive constituents such as linalool and linalyl acetate in Lavandula angustifolia teas are believed to contribute to their therapeutic effects, modulating neurotransmitter activity and promoting relaxation. Drinking Lavandula angustifolia teas may provide relief from tinnitus symptoms by promoting relaxation, reducing anxiety, and improving sleep quality.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 15,
+            "herb_confidence_score": 97,
+            "herb_total_score": 1455,
+            "preparation_desc": "Avena sativa teas have been traditionally used to treat tinnitus due to their calming and sedative properties, which help to reduce stress and anxiety that can exacerbate the condition. The herbal preparation contains bioactive constituents such as avenalumic acid, avenacoside, and avenasterol, which have been shown to have antioxidant and anti-inflammatory effects that can help to reduce inflammation and oxidative stress in the auditory system. These properties help to alleviate the symptoms of tinnitus by promoting relaxation, improving sleep quality, and reducing auditory fatigue. Regular consumption of Avena sativa teas has been found to provide relief from tinnitus symptoms, making it a popular natural remedy for individuals seeking alternative treatments.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Chamomile-Eco-Conscious-Lined-FGO/dp/B07N2F8718",
+                "affiliate_link": "https://amzn.to/3EaZYm9",
+                "title": "FGO Organic Chamomile Tea, 100 Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 16,
+            "herb_confidence_score": 94,
+            "herb_total_score": 1504,
+            "preparation_desc": "Silybum marianum teas have been traditionally used to treat tinnitus, a condition characterized by ringing or other sounds in the ears, due to their anti-inflammatory and antioxidant properties. The bioactive constituents of Silybum marianum, such as flavonoids and silymarin, help to reduce inflammation and oxidative stress in the auditory system, thereby alleviating tinnitus symptoms. This herbal preparation also helps to improve blood flow and reduce noise-induced damage in the ear, promoting overall ear health and mitigating tinnitus episodes. The benefits of using Silybum marianum teas to treat tinnitus include reduced symptoms, improved sleep quality, and enhanced overall well-being, making it a potential natural remedy for this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 14,
+            "herb_confidence_score": 86,
+            "herb_total_score": 1204,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to treat tinnitus, a condition characterized by ringing or buzzing sounds in the ears, due to their anti-inflammatory and antioxidant properties. The bioactive constituents of Echinacea purpurea, including alkylamides, caffeic acid derivatives, and polysaccharides, help to modulate the immune response and reduce inflammation in the ear, thereby alleviating tinnitus symptoms. Drinking Echinacea purpurea teas may also help to improve hearing by protecting the hair cells in the inner ear from damage caused by oxidative stress. Regular consumption of Echinacea purpurea teas may provide relief from tinnitus symptoms and promote overall ear health, making it a potentially beneficial herbal remedy for this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 11,
+            "herb_confidence_score": 79,
+            "herb_total_score": 869,
+            "preparation_desc": "Curcuma longa teas have been explored for their potential in treating tinnitus due to their anti-inflammatory and antioxidant properties. The bioactive constituents, including curcumin, turmeric oil, and polyphenols, help to reduce inflammation and oxidative stress, which are often associated with tinnitus. By mitigating these underlying causes, Curcuma longa teas may help alleviate symptoms of tinnitus, such as ringing or buzzing in the ears. The benefits of using Curcuma longa teas to treat tinnitus include reduced inflammation, improved ear health, and a potential decrease in tinnitus-related anxiety and stress.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 12,
+            "herb_confidence_score": 76,
+            "herb_total_score": 912,
+            "preparation_desc": "Passiflora incarnata teas have been traditionally used to treat tinnitus, an auditory disorder characterized by ringing, buzzing, or other sounds in the ear. The properties of this herbal preparation, including its sedative and anxiolytic effects, help to alleviate the stress and anxiety that often accompany tinnitus. The bioactive constituents of Passiflora incarnata, such as flavonoids, alkaloids, and glycosides, have been shown to modulate the auditory system and reduce inflammation in the ear, contributing to its therapeutic effects. By promoting relaxation, reducing anxiety, and soothing the auditory system, Passiflora incarnata teas may help to alleviate tinnitus symptoms and improve overall quality of life.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Certified-Wrapped/dp/B000YTCSLQ",
+                "affiliate_link": "https://amzn.to/3FU2zS4",
+                "title": "Traditional Medicinals Organic Nighty Night with Passionflower Herbal Tea, Promotes a Good Night\u2019s Sleep, (Pack of 1) - 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 10,
+            "herb_confidence_score": 74,
+            "herb_total_score": 740,
+            "preparation_desc": "Panax ginseng teas have been traditionally used as a natural remedy to treat tinnitus, a condition characterized by ringing or noise in the ears. The bioactive constituents of Panax ginseng, such as ginsenosides and saponins, are believed to possess anti-inflammatory and antioxidant properties that help to alleviate tinnitus symptoms. These bioactive compounds may also help to improve blood circulation to the ears and reduce oxidative stress, thereby reducing the severity of tinnitus. The benefits of using Panax ginseng teas to treat tinnitus include reduced ringing or noise in the ears, improved hearing, and a decrease in anxiety and stress associated with this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Honey-Ginseng-Eco-Conscious-FGO/dp/B09Z37KVJM",
+                "affiliate_link": "https://amzn.to/43IctzX",
+                "title": "FGO Organic Honey Ginseng Green Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 66,
+            "herb_total_score": 594,
+            "preparation_desc": "Cinchona officinalis teas have been used as a traditional remedy to treat tinnitus, a condition characterized by ringing or other sounds in the ears. The antihistamine and anti-inflammatory properties of this herbal preparation help to reduce inflammation and alleviate symptoms associated with tinnitus. The bioactive constituents, including quinine and quinidine, exhibit their therapeutic effects by modulating neurotransmitter activity and improving blood flow to the ears, which in turn helps to reduce the perception of ringing or other sounds. The benefits of using Cinchona officinalis teas to treat tinnitus include its potential to reduce symptoms, improve sleep quality, and promote overall well-being, making it a popular natural remedy for individuals seeking an alternative to conventional treatments.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 11,
+            "herb_confidence_score": 62,
+            "herb_total_score": 682,
+            "preparation_desc": "Glycyrrhiza glabra teas have been traditionally used to treat tinnitus, a condition characterized by ringing or other sounds in the ears. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce inflammation and oxidative stress in the inner ear, which are often associated with tinnitus. The bioactive constituents of Glycyrrhiza glabra teas, including flavonoids, saponins, and glycyrrhizin, have been shown to have a positive effect on reducing tinnitus symptoms by improving blood flow and reducing inflammation in the ear. By consuming Glycyrrhiza glabra teas, individuals may experience relief from tinnitus symptoms, improved hearing, and enhanced overall ear health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 56,
+            "herb_total_score": 560,
+            "preparation_desc": "Schisandra chinensis teas have been traditionally used in Chinese medicine to treat various health conditions, including tinnitus. The properties of this herbal preparation, such as its antioxidant and anti-inflammatory properties, help to reduce oxidative stress and inflammation in the auditory system, which can contribute to tinnitus. The bioactive constituents of Schisandra chinensis teas, including schisandrins, lignans, and polysaccharides, have been shown to have neuroprotective and anti-apoptotic effects, helping to protect the auditory nerves and reduce noise-induced damage. By consuming Schisandra chinensis teas, individuals with tinnitus may experience reduced symptoms and improved auditory function, highlighting the potential benefits of this herbal preparation in treating this debilitating condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-EveryDay-Detox/dp/B0009F3PHQ",
+                "affiliate_link": "https://amzn.to/4d2gq5d",
+                "title": "Traditional Medicinals Tea, Organic EveryDay Detox Schisandra Berry, Supports Healthy Liver Function, Detox, 96 Tea Bags (6 Pack)"
+            }
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 51,
+            "herb_total_score": 357,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort tea, have been traditionally used to treat tinnitus, a common auditory disorder characterized by ringing or buzzing in the ears. The bioactive constituents of this herbal preparation, including hyperforin and hypericin, have antioxidant and anti-inflammatory properties that help to reduce inflammation and oxidative stress in the auditory system, thereby alleviating tinnitus symptoms. The flavonoids and phenolic acids present in St. John's Wort tea also contribute to its therapeutic effects by modulating neurotransmitter activity and improving blood flow to the ears, which can help to reduce tinnitus-related discomfort and improve overall hearing health. Regular consumption of Hypericum perforatum teas has been found to provide relief from tinnitus symptoms and promote overall auditory well-being, making it a popular natural remedy for this condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 45,
+            "herb_total_score": 315,
+            "preparation_desc": "Rosmarinus officinalis teas have been studied for their potential in treating tinnitus, a condition characterized by ringing or other noises in the ear. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce inflammation and oxidative stress in the ear, which can contribute to the development of tinnitus. The bioactive constituents of Rosmarinus officinalis teas, including carnosic acid, ursolic acid, and camphor, have been shown to have anti-inflammatory and neuroprotective effects, which may help to alleviate tinnitus symptoms. By reducing inflammation and oxidative stress, and promoting neuroprotection, Rosmarinus officinalis teas may help to provide relief from tinnitus symptoms and improve overall ear health.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Camellia sinensis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 44,
+            "herb_total_score": 308,
+            "preparation_desc": "Camellia sinensis teas, derived from the leaves of the Camellia sinensis plant, have been traditionally used to treat tinnitus, an ailment characterized by ringing or other sounds in the ears. The anti-inflammatory and antioxidant properties of Camellia sinensis teas help to reduce inflammation and oxidative stress in the auditory system, thereby alleviating tinnitus symptoms. The bioactive constituents of Camellia sinensis teas, including flavonoids, phenolic acids, and theaflavins, have been shown to possess neuroprotective and anti-inflammatory effects, which contribute to its potential in treating tinnitus. Regular consumption of Camellia sinensis teas has been found to benefit individuals suffering from tinnitus by reducing the severity and frequency of symptoms, improving sleep quality, and enhancing overall auditory well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Green-Eco-Conscious-Lined-FGO/dp/B07ND4GD5S",
+                "affiliate_link": "https://amzn.to/3Gk6JT6",
+                "title": "FGO Organic Green Tea, 100 Count Eco-Conscious Tea Bags, Caffeinated, Resealable Pouch, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Vitex agnus-castus",
+            "herb_mentions": 8,
+            "herb_confidence_score": 41,
+            "herb_total_score": 328,
+            "preparation_desc": "Vitex agnus-castus teas have been traditionally used to treat tinnitus, an auditory disorder characterized by ringing or other noises in the ear. The bioactive constituents of this herbal preparation, including flavonoids, saponins, and iridoids, help to reduce inflammation and oxidative stress in the ear, thereby alleviating tinnitus symptoms. The anti-inflammatory and antioxidant properties of Vitex agnus-castus teas contribute to their therapeutic effects, promoting overall ear health and well-being. By consuming Vitex agnus-castus teas, individuals may experience relief from tinnitus symptoms, improved hearing, and a reduced risk of associated conditions such as hearing loss and ear infections.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Moringa-Eco-Conscious-Kraft-FGO/dp/B07XYJBXLJ",
+                "affiliate_link": "https://amzn.to/3YtNNYu",
+                "title": "FGO Organic Moringa Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Piper nigrum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 30,
+            "herb_total_score": 180,
+            "preparation_desc": "Piper nigrum teas, also known as black pepper tea, have been traditionally used to treat tinnitus, a condition characterized by ringing or buzzing in the ears. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce inflammation in the auditory nerve and improve blood circulation to the ears, thereby alleviating the symptoms of tinnitus. The bioactive constituents of Piper nigrum, including piperine and beta-caryophyllene, have been found to exhibit analgesic and anti-inflammatory activities, which contribute to its therapeutic effects in treating tinnitus. The benefits of using Piper nigrum teas to treat tinnitus include reduced ringing and buzzing in the ears, improved hearing, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Thymus serpyllum",
+            "herb_mentions": 4,
+            "herb_confidence_score": 27,
+            "herb_total_score": 108,
+            "preparation_desc": "Thymus serpyllum teas, also known as wild thyme tea, have been traditionally used to treat tinnitus due to their anti-inflammatory and antioxidant properties. The bioactive constituents of this herbal preparation, including flavonoids and terpenoids, help to reduce inflammation in the ears and promote healing of the auditory system, thereby alleviating tinnitus symptoms. The antioxidants present in Thymus serpyllum teas also help to protect the auditory nerves from oxidative damage, which is often associated with tinnitus. By reducing inflammation and oxidative stress, Thymus serpyllum teas offer a natural and effective way to manage tinnitus symptoms and promote overall ear health.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to the study, teas for tinnitus may be beneficial as Ginkgo biloba, which is frequently reported for tinnitus treatment, is a plant that can be consumed as a tea."
+}

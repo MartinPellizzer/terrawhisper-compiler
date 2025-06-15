@@ -1,0 +1,253 @@
+{
+    "url": "ailments/stye/teas",
+    "ailment_slug": "stye",
+    "ailment_name": "stye",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Teas For Stye",
+    "intro": "Herbal teas for Stye are a natural and non-invasive remedy used to treat the painful and contagious bacterial infection known as a stye. These herbal teas have been used for centuries to combat the infection and alleviate the discomfort associated with a stye, offering several benefits such as reducing inflammation, promoting healing, and preventing the spread of the infection. Some of the herbal teas used to treat stye include calendula tea, which has antibacterial properties that help combat the infection, chamomile tea, which reduces inflammation and soothes the eye, and echinacea tea, which boosts the immune system and fights off the infection. Other herbal teas such as green tea, peppermint tea, and licorice root tea are also used due to their anti-inflammatory properties and ability to promote healing and reduce pain.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 19,
+            "herb_confidence_score": 162,
+            "herb_total_score": 3078,
+            "preparation_desc": "Calendula officinalis teas have been traditionally used to treat stye, a bacterial or viral infection of the eyelid or eyelash. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce swelling and combat bacterial growth, thereby facilitating the healing process. The bioactive constituents of Calendula officinalis, including flavonoids and triterpenoids, are responsible for its therapeutic effects, which aid in soothing the affected area and promoting the resolution of the stye. The benefits of using Calendula officinalis teas to treat stye include reduced pain and discomfort, accelerated healing, and a lower risk of complications, making it a popular natural remedy for this common eye condition.",
+            "preparation_study": "According to the study, Calendula officinalis teas have a relative dermatologic importance of 57.78, indicating its potential use in treating conditions such as stye.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Twinings-Individually-Naturally-Caffeine-Free-Packaging/dp/B09RC41QGJ",
+                "affiliate_link": "https://amzn.to/42mjHYe",
+                "title": "Twinings Lemon & Ginger Herbal Tea Individually Wrapped Bags, 100 Count (Pack of 1), Tangy Lemon, Spicy Ginger, Naturally Caffeine-Free, Enjoy Hot or Iced | Packaging May Vary"
+            }
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 18,
+            "herb_confidence_score": 135,
+            "herb_total_score": 2430,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to treat stye, an inflammation of the eyelid, due to their anti-inflammatory and antimicrobial properties. The herbal preparation contains bioactive constituents such as alkylamides, glycosides, and phenolic acids, which help to reduce swelling, fight off bacterial infections, and promote healing. The anti-inflammatory properties of Echinacea purpurea teas help to alleviate the pain and discomfort associated with stye, while the antimicrobial properties prevent the infection from spreading. The benefits of using Echinacea purpurea teas to treat stye include reduced inflammation, faster healing, and prevention of further infections, making it a popular natural remedy for this common ailment.",
+            "preparation_study": "According to \"Molecular nutrition & food research\", Echinacea purpurea teas for stye appear to have a low potential to generate adverse effects due to their low risk of drug-herb interactions, particularly with cytochrome P450 enzymes.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 14,
+            "herb_confidence_score": 116,
+            "herb_total_score": 1624,
+            "preparation_desc": "Aloe barbadensis teas have been traditionally used to treat stye, a bacterial infection of the eyelid. The anti-inflammatory and antimicrobial properties of aloe barbadensis teas help to reduce pain, swelling, and redness associated with stye. The bioactive constituents, such as aloin, aloe-emodin, and vitamins A and E, in aloe barbadensis teas work together to inhibit the growth of bacteria and promote healing of the infected area. By drinking aloe barbadensis teas, individuals can benefit from its ability to soothe and calm the affected area, reducing the risk of complications and promoting a faster recovery from stye.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Spearmint-Eco-Conscious-Lined-FGO/dp/B07ND418HR",
+                "affiliate_link": "https://amzn.to/42s2qOg",
+                "title": "FGO Organic Spearmint Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 14,
+            "herb_confidence_score": 108,
+            "herb_total_score": 1512,
+            "preparation_desc": "Achillea millefolium teas, also known as yarrow tea, have been traditionally used to treat stye, an eye infection characterized by a painful lump on the eyelid. The anti-inflammatory and antimicrobial properties of yarrow tea help to reduce swelling and fight bacterial infections that cause stye. The bioactive constituents, including flavonoids, phenolic acids, and sesquiterpene lactones, in yarrow tea contribute to its therapeutic effects by inhibiting bacterial growth and reducing inflammation. Drinking yarrow tea may provide relief from stye symptoms by reducing pain, swelling, and the risk of infection, making it a natural and effective remedy for this common eye ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Soursop-Leaves-Bags-Teabags/dp/B0C69P5FV9",
+                "affiliate_link": "https://amzn.to/4i1QY0D",
+                "title": "FullChea- Soursop Leaves Tea Bags, 40 Teabags, 1.5g/Bag - Premium Soursop Graviola Leaves Tea - Hojas De Guanabana Tea - Non-GMO - Caffeine-Free - Improve Digestion, Support Healthy Skin & Sleep"
+            }
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 15,
+            "herb_confidence_score": 105,
+            "herb_total_score": 1575,
+            "preparation_desc": "Urtica dioica teas, also known as nettle leaf tea, have been used to treat stye, a painful and pus-filled bump on the eyelid. The anti-inflammatory properties of Urtica dioica teas help to reduce swelling and soothe the affected area, making it easier to treat the stye. The bioactive constituents, including flavonoids, carotenoids, and phenolic acids, in Urtica dioica teas have antimicrobial and antioxidant properties that help to combat bacterial and fungal infections, ultimately promoting healing and reducing the risk of further complications. By consuming Urtica dioica teas, individuals can benefit from a natural and effective treatment option for stye, reducing the need for antibiotics and other harsh medications.",
+            "preparation_study": "According to \"Molecules (Basel, Switzerland)\", Urtica dioica teas, derived from an extract of the plant Urtica dioica L., have been shown to increase cell proliferation and migration, exhibit anti-inflammatory and moderate antioxidant properties, and accelerate wound healing, which may also be beneficial for treating stye.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Nettle-Eco-Conscious-Bulgaria-FGO/dp/B07ND3ZT9C",
+                "affiliate_link": "https://amzn.to/3QUwzPU",
+                "title": "FGO Organic Nettle Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 15,
+            "herb_confidence_score": 104,
+            "herb_total_score": 1560,
+            "preparation_desc": "Lavandula angustifolia teas, also known as lavender tea, have been traditionally used to treat stye, a painful and often unsightly infection of the eyelid. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce swelling, soothe the affected area, and prevent the spread of infection. The bioactive constituents, including linalool and linalyl acetate, possess potent antimicrobial properties that help to combat bacterial infections causing the stye. Regular consumption of Lavandula angustifolia teas may help to alleviate symptoms associated with stye, promoting a faster recovery and reducing the risk of complications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 13,
+            "herb_confidence_score": 93,
+            "herb_total_score": 1209,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort teas, have been traditionally used to treat stye, a painful and infected eyelid condition. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce pain and inflammation, as well as combat bacterial and fungal infections that cause the stye. The bioactive constituents, such as hyperforin and hypericin, possess potent antioxidant and antiseptic properties that contribute to the treatment of stye by fighting off the infection and promoting wound healing. The benefits of using Hypericum perforatum teas to treat stye include reduced pain and swelling, accelerated healing, and prevention of further infections, making it a popular natural remedy for this common eye condition.",
+            "preparation_study": "According to \"BMC veterinary research\", Hypericum perforatum teas may be beneficial for stye due to its antibacterial and antifungal effects, which can help alleviate infections associated with the condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 14,
+            "herb_confidence_score": 88,
+            "herb_total_score": 1232,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle teas, have been traditionally used to treat the stye ailment due to their anti-inflammatory and antimicrobial properties. The bioactive constituents of milk thistle teas, such as silymarin and flavonoids, help to reduce swelling and combat bacterial infections that cause styes. These properties help to treat the stye ailment by reducing redness and inflammation, promoting the healing of the affected area, and preventing the spread of infection. The benefits of using milk thistle teas to treat styes include reduced risk of scarring, faster healing times, and a decrease in the severity of symptoms.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 10,
+            "herb_confidence_score": 83,
+            "herb_total_score": 830,
+            "preparation_desc": "Eucalyptus globulus teas have been traditionally used to treat stye, a painful and often unsightly eye infection. The antiseptic and anti-inflammatory properties of eucalyptus globulus teas help to reduce swelling and fight off bacterial infections that cause sty. The bioactive constituents, including eucalyptol and alpha-pinene, in eucalyptus globulus teas have been found to exhibit antimicrobial and anti-inflammatory activities, making it an effective remedy for stye. The benefits of using eucalyptus globulus teas to treat stye include reduced pain and swelling, improved healing time, and prevention of further infections, making it a natural and effective alternative to conventional treatments.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Herbal-Tea-Caffeine-Relaxer-Non-GMO/dp/B00ECOSODU",
+                "affiliate_link": "https://amzn.to/4caik3b",
+                "title": "Tiesta Tea - Palm Beach Punch | Loose Leaf | Fruit Punch Herbal Tea | Caffeine-Free Tropical Blend with Apple and Orange | Brew Hot or Iced | Resealable Pouch | 25 Cups | 2 Ounce"
+            }
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 17,
+            "herb_confidence_score": 81,
+            "herb_total_score": 1377,
+            "preparation_desc": "Taraxacum officinale teas have been traditionally used to treat stye, a painful and often unsightly bacterial infection of the eyelid. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce swelling and combat bacterial growth, thereby alleviating symptoms of stye. The bioactive constituents, including flavonoids and sesquiterpenes, in Taraxacum officinale teas contribute to their therapeutic effects, while also providing antioxidant and immune-boosting benefits. Regular consumption of Taraxacum officinale teas may help to treat stye by reducing pain and promoting healing, making it a popular natural remedy for this common ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Roasted-Dandelion-Eco-Conscious-FGO/dp/B07Z7FTFNX",
+                "affiliate_link": "https://amzn.to/4j70AbI",
+                "title": "FGO Organic Roasted Dandelion Root Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 11,
+            "herb_confidence_score": 80,
+            "herb_total_score": 880,
+            "preparation_desc": "Zingiber officinale teas, derived from the rhizomes of the ginger plant, have been traditionally used to treat stye, a bacterial infection of the eyelid. The anti-inflammatory and antimicrobial properties of Zingiber officinale teas help to reduce swelling and combat the bacterial infection that causes the stye. The bioactive constituents, including gingerols and shogaols, possess potent antibacterial and anti-inflammatory activities that aid in the treatment of stye. The benefits of using Zingiber officinale teas to treat stye include reduced inflammation, accelerated healing, and prevention of complications such as eyelid scarring.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Melaleuca alternifolia",
+            "herb_mentions": 8,
+            "herb_confidence_score": 72,
+            "herb_total_score": 576,
+            "preparation_desc": "Melaleuca alternifolia teas, also known as tea tree tea, have been traditionally used to treat stye, a painful and contagious bacterial infection of the eyelid. The antimicrobial and anti-inflammatory properties of this herbal preparation help to treat the stye ailment by reducing the bacterial load and inflammation associated with it. The bioactive constituents of Melaleuca alternifolia, including terpinen-4-ol, cineole, and limonene, have been found to exhibit antimicrobial and anti-inflammatory activities that contribute to its effectiveness in treating stye. The benefits of using Melaleuca alternifolia teas to treat stye include reduced pain and inflammation, prevention of bacterial spread, and promotion of wound healing.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 68,
+            "herb_total_score": 680,
+            "preparation_desc": "Salvia officinalis teas, also known as sage tea, have been traditionally used to treat stye, a painful and sometimes contagious bacterial infection of the eyelid or eyelash. The anti-inflammatory and antibacterial properties of this herbal preparation help to reduce swelling, fight off the underlying infection, and promote healing. The bioactive constituents of Salvia officinalis teas, including rosmarinic acid and carnosic acid, exhibit potent antioxidant and antimicrobial activities, which contribute to their therapeutic effects. The benefits of using Salvia officinalis teas to treat stye include reduced discomfort, accelerated healing, and prevention of further infection, making it a popular natural remedy for this common eye ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Taylors-Harrogate-Green-Jasmine-Teabags/dp/B000MN69CS",
+                "affiliate_link": "https://amzn.to/4iXf0ei",
+                "title": "Taylors of Harrogate Green Tea with Jasmine, 50 Teabags"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 65,
+            "herb_total_score": 585,
+            "preparation_desc": "Melissa officinalis teas have been used traditionally to treat the stye ailment due to their anti-inflammatory and antimicrobial properties. The herbal preparation helps to treat this ailment by reducing swelling and promoting the healing of the affected area, while also preventing the spread of infection. The bioactive constituents of Melissa officinalis teas, such as limonene and beta-pinene, have been found to possess antibacterial and antiseptic properties that help to combat bacterial infections associated with stye. The benefits of using Melissa officinalis teas to treat stye include reduced inflammation, accelerated healing, and prevention of further infections.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 12,
+            "herb_confidence_score": 65,
+            "herb_total_score": 780,
+            "preparation_desc": "Glycyrrhiza glabra teas, also known as licorice root tea, have been traditionally used to treat stye due to their anti-inflammatory and antimicrobial properties. The bioactive constituents, such as glycyrrhizin, flavonoids, and phenolic acids, in this herbal preparation help to reduce inflammation and combat bacterial infections that cause stye. By using licorice root tea, individuals can experience relief from the symptoms of stye, including redness, swelling, and pain, as it helps to soothe and calm the affected area. The benefits of using Glycyrrhiza glabra teas to treat stye include reduced recovery time, prevention of further infection, and promotion of overall eye health.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 54,
+            "herb_total_score": 540,
+            "preparation_desc": "Rosmarinus officinalis teas, also known as rosemary tea, have been traditionally used to treat various eye infections, including styes. The antimicrobial and anti-inflammatory properties of this herbal preparation help to reduce the severity of the stye by fighting off the bacterial infection and reducing swelling. The bioactive constituents of rosemary tea, such as carnosic acid and rosmarinic acid, exhibit potent antimicrobial and antioxidant activities that contribute to its therapeutic effects. Drinking rosemary tea may help to alleviate symptoms of the stye, including redness, swelling, and pain, by promoting a speedy recovery and minimizing the risk of complications.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 11,
+            "herb_confidence_score": 53,
+            "herb_total_score": 583,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat stye, a painful and often unsightly eye infection, due to its anti-inflammatory and antimicrobial properties. The bioactive constituents of Ginkgo biloba, including flavonoids and terpenoids, help to reduce inflammation and combat bacterial and fungal infections that cause stye. By reducing inflammation and preventing the spread of infection, Ginkgo biloba teas can help to alleviate symptoms such as redness, swelling, and pain associated with stye. The benefits of using Ginkgo biloba teas to treat stye include faster healing times, reduced risk of scarring, and a decreased likelihood of recurring infections.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 7,
+            "herb_confidence_score": 49,
+            "herb_total_score": 343,
+            "preparation_desc": "Sambucus nigra teas, derived from the elderberry plant, have been traditionally used to treat various eye infections, including the stye ailment. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce swelling, relieve pain, and combat bacterial infections that cause sty. The bioactive constituents, such as flavonoids, anthocyanins, and phenolic acids, found in Sambucus nigra teas contribute to their therapeutic effects by exhibiting antioxidant, antiviral, and antibacterial activities. The benefits of using Sambucus nigra teas to treat the stye ailment include reducing the risk of complications, promoting faster healing, and minimizing the need for antibiotics or other medications.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Elderberry-Eco-Conscious-Kraft-FGO/dp/B09HDFQ4JX",
+                "affiliate_link": "https://amzn.to/42aR3ZN",
+                "title": "FGO Organic Elderberry Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealabel Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 48,
+            "herb_total_score": 432,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat styes, a painful and often unsightly bacterial infection of the eyelid, due to their anti-inflammatory and antimicrobial properties. The bioactive constituents present in Cinchona officinalis teas, including quinine, alkaloids, and flavonoids, help to reduce inflammation, fight off bacterial infections, and promote wound healing. By reducing inflammation and bacterial load, Cinchona officinalis teas can help to alleviate the symptoms of styes, including redness, swelling, and pain. The benefits of using Cinchona officinalis teas to treat styes include a reduction in the risk of complications, such as eyelid scarring or vision loss, and a faster recovery time compared to conventional treatments.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Plantago lanceolata",
+            "herb_mentions": 10,
+            "herb_confidence_score": 48,
+            "herb_total_score": 480,
+            "preparation_desc": "Plantago lanceolata teas have been traditionally used to treat the stye ailment due to their anti-inflammatory and antimicrobial properties, which help to reduce swelling and combat bacterial infections. The bioactive constituents, including flavonoids and phenolic acids, in this herbal preparation have been shown to possess wound-healing properties and exhibit strong antioxidant activity, making it effective in treating stye. By reducing inflammation and preventing bacterial growth, Plantago lanceolata teas can help to alleviate symptoms associated with stye, such as pain and redness. The benefits of using Plantago lanceolata teas to treat stye include natural and non-invasive treatment options, reduced risk of side effects, and potential long-term prevention of recurring stye infections.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Die Pharmazie\", teas for stye, particularly those containing Australian tea tree oil or manuka oil, may be effective in treating bacterial infections, with the Australian tea tree oil showing highest activity against a variety of bacteria including Staphylococcus species."
+}

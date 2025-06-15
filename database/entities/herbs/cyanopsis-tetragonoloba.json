@@ -1,0 +1,30 @@
+{
+    "url": "herbs/cyanopsis-tetragonoloba",
+    "herb_slug": "cyanopsis-tetragonoloba",
+    "herb_name_scientific": "cyanopsis tetragonoloba",
+    "lastmod": "2025-5-31",
+    "benefits_num": 11,
+    "benefits_title": "11 Best Health Benefits Of Cyanopsis Tetragonoloba",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        },
+        {
+            "answer": "inert",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        },
+        {
+            "answer": "medicine",
+            "mentions": 3,
+            "confidence_score": 11,
+            "total_score": 33
+        }
+    ],
+    "constituents_num": 7,
+    "side_effects_num": 7
+}

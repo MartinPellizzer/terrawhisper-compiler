@@ -1,0 +1,233 @@
+{
+    "url": "ailments/diarrhea/teas",
+    "ailment_slug": "diarrhea",
+    "ailment_name": "diarrhea",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Teas For Diarrhea",
+    "intro": "Herbal teas for Diarrhea are a natural remedy used to treat gastrointestinal issues characterized by loose, watery stools and frequent bowel movements. These teas offer several benefits, including soothing the digestive system, reducing inflammation, and replenishing essential nutrients. Examples of herbal teas that can help alleviate diarrhea include Peppermint tea, which helps relax the muscles in the digestive tract and reduce cramps; Ginger tea, which has anti-inflammatory properties and can help calm the stomach; Fennel tea, which contains compounds that can slow down bowel movements and reduce gas; Chamomile tea, which can help calm the digestive system and promote relaxation; and Licorice root tea, which has anti-inflammatory properties and can help soothe the stomach lining. By incorporating these herbal teas into one's diet, individuals can find natural relief from the symptoms of diarrhea and promote overall digestive health.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 18,
+            "herb_confidence_score": 154,
+            "herb_total_score": 2772,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger tea, have been traditionally used to treat diarrhea due to their anti-inflammatory and antispasmodic properties. The bioactive constituents, including gingerols and shogaols, help to reduce inflammation and alleviate symptoms such as cramping and abdominal pain associated with diarrhea. These compounds work by inhibiting the release of acetylcholine, a neurotransmitter that stimulates bowel movements, thereby reducing the frequency and urgency of diarrhea. The benefits of using ginger tea to treat diarrhea include its natural and non-invasive approach, making it a popular alternative to conventional treatments for this ailment.",
+            "preparation_study": "According to the study, Zingiber officinale teas for diarrhea have been shown to relieve chemotherapy-induced diarrhea through mechanisms such as directly decreasing local drug exposure, anti-inflammation, inhibiting epithelial apoptosis, or promoting epithelium stem cell regeneration, making them a potential adjuvant treatment for gastrointestinal toxicities induced by chemotherapy.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 18,
+            "herb_confidence_score": 142,
+            "herb_total_score": 2556,
+            "preparation_desc": "Glycyrrhiza glabra teas, also known as licorice root tea, have been traditionally used to treat diarrhea due to their anti-inflammatory and anti-diarrheal properties. The bioactive constituents, such as glycyrrhizin and flavonoids, help to reduce inflammation in the gut and alleviate symptoms of diarrhea. By soothing the mucous membranes in the digestive tract and increasing the absorption of water and electrolytes, Glycyrrhiza glabra teas help to treat diarrhea by replacing lost fluids and electrolytes. The benefits of using Glycyrrhiza glabra teas to treat diarrhea include a rapid reduction in symptoms, improved gut health, and a decrease in the risk of dehydration.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 16,
+            "herb_confidence_score": 137,
+            "herb_total_score": 2192,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat diarrhea due to their antidiarrheal and astringent properties. The bioactive constituents, including quinine and quinidine, help to reduce inflammation and alleviate diarrhea by slowing down bowel movements. By reducing the frequency and severity of diarrhea episodes, Cinchona officinalis teas provide relief from dehydration, electrolyte imbalances, and other complications associated with this ailment. The benefits of using Cinchona officinalis teas for treating diarrhea include reduced symptoms, faster recovery, and a lower risk of developing long-term complications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 14,
+            "herb_confidence_score": 123,
+            "herb_total_score": 1722,
+            "preparation_desc": "Curcuma longa teas, derived from the rhizomes of the turmeric plant, have been traditionally used to treat diarrhea due to their anti-inflammatory and antimicrobial properties. The bioactive constituents of this herbal preparation, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, help to treat diarrhea by inhibiting the growth of pathogenic bacteria and reducing inflammation in the gastrointestinal tract. The benefits of Curcuma longa teas in treating diarrhea include reduced frequency and severity of episodes, as well as improved gut health and reduced symptoms of irritable bowel syndrome. By alleviating the symptoms of diarrhea and promoting overall gut well-being, Curcuma longa teas offer a natural and effective alternative to conventional treatments for this common ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 17,
+            "herb_confidence_score": 122,
+            "herb_total_score": 2074,
+            "preparation_desc": "Foeniculum vulgare teas, also known as fennel teas, have been traditionally used to treat diarrhea due to their carminative and anti-inflammatory properties. The bioactive constituents of fennel teas, including anethole, fenchone, and limonene, help to soothe the digestive tract and reduce inflammation, thereby alleviating symptoms of diarrhea. The antispasmodic and antacid properties of fennel teas also help to calm the digestive system and prevent further irritation, making them an effective herbal remedy for treating diarrhea. Regular consumption of fennel teas has been shown to provide relief from diarrhea and promote overall digestive health, making it a beneficial herbal preparation for those suffering from this ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/HANDPICK-Caffeine-Natural-Premium-Eco-Conscious/dp/B0BFHKDK88",
+                "affiliate_link": "https://amzn.to/42bRtPt",
+                "title": "HANDPICK, Fennel Tea Bags (100 Herbal Tea Bags) Caffeine Free, Gluten Free & Non GMO | Round Eco Conscious Teabags | Smooth & Sweet"
+            }
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 11,
+            "herb_confidence_score": 89,
+            "herb_total_score": 979,
+            "preparation_desc": "Mentha x piperita teas, commonly known as peppermint tea, have been traditionally used to treat diarrhea due to its soothing and calming properties. The herbal preparation helps to treat this ailment by providing relief from digestive discomfort, reducing inflammation in the gastrointestinal tract, and promoting a sense of calmness. The bioactive constituents of Mentha x piperita teas, including menthol, menthone, and limonene, contribute to its anti-inflammatory and antispasmodic effects, which help to slow down bowel movements and reduce the frequency of diarrhea. The benefits of using Mentha x piperita teas to treat diarrhea include its natural and non-invasive approach, making it a safe and effective alternative to pharmaceutical medications for many individuals.",
+            "preparation_study": "According to \"Frontiers in pharmacology\", Mentha x piperita teas for diarrhea may be considered a complementary option that has shown promise in reducing the duration of diarrhea, particularly when used concurrently with conventional therapies.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 10,
+            "herb_confidence_score": 74,
+            "herb_total_score": 740,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been traditionally used to treat diarrhea due to its anti-inflammatory and antioxidant properties. The flavonoids and silymarin present in this herbal preparation help to soothe and protect the gastrointestinal tract, reducing inflammation and promoting healing. The bioactive constituents, including isosilybin A and isosilybin B, work together to reduce oxidative stress and improve digestion, thereby alleviating symptoms of diarrhea. The benefits of Silybum marianum teas in treating diarrhea include reduced frequency and severity of episodes, improved gut health, and enhanced overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 14,
+            "herb_confidence_score": 73,
+            "herb_total_score": 1022,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat diarrhea due to their soothing and anti-inflammatory properties, which help to calm the digestive system and reduce inflammation in the gut. The flavonoids and terpenoids present in Ginkgo biloba teas, such as bilobalide and ginkgolides, have been shown to have a protective effect on the intestinal lining, reducing the frequency and severity of diarrhea. The anti-inflammatory and antioxidant properties of Ginkgo biloba teas also help to reduce oxidative stress and inflammation in the gut, promoting a healthy balance of gut bacteria and normalizing bowel movements. By consuming Ginkgo biloba teas, individuals can experience relief from diarrhea and enjoy the numerous benefits of this herbal preparation, including reduced inflammation, improved gut health, and a sense of overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Peumus boldus",
+            "herb_mentions": 8,
+            "herb_confidence_score": 72,
+            "herb_total_score": 576,
+            "preparation_desc": "Peumus boldus teas, also known as boldo tea, have been traditionally used to treat diarrhea due to its antispasmodic, anti-inflammatory, and antioxidant properties. The herbal preparation helps to treat diarrhea by soothing the digestive tract, reducing inflammation, and modulating gut motility, thereby alleviating symptoms of diarrhea. The bioactive constituents of boldo tea, including flavonoids, phenolic acids, and terpenoids, have been found to contribute to its therapeutic effects. The benefits of using boldo tea to treat diarrhea include rapid relief from symptoms, reduced risk of dehydration, and potential prevention of complications associated with prolonged diarrhea.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 11,
+            "herb_confidence_score": 69,
+            "herb_total_score": 759,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to treat diarrhea due to their antispasmodic, anti-inflammatory, and antimicrobial properties. The bioactive constituents of Lavandula angustifolia, including linalool and linalyl acetate, help to soothe the digestive tract, reduce inflammation, and eliminate harmful bacteria that can cause diarrhea. By consuming Lavandula angustifolia teas, individuals can experience relief from diarrhea symptoms, including reduced frequency and severity of episodes, and improved overall gut health. The benefits of using Lavandula angustifolia teas to treat diarrhea include a natural and non-invasive approach, reduced risk of side effects, and improved quality of life.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Artemisia absinthium",
+            "herb_mentions": 10,
+            "herb_confidence_score": 67,
+            "herb_total_score": 670,
+            "preparation_desc": "Artemisia absinthium teas have been traditionally used to treat diarrhea due to their antispasmodic, anti-inflammatory, and antimicrobial properties. The bioactive constituents present in these teas, such as thujone, borneol, and artabin, help to reduce inflammation in the gastrointestinal tract, soothe the intestinal lining, and inhibit the growth of harmful bacteria that can cause diarrhea. By reducing inflammation, soothing the intestinal lining, and inhibiting bacterial growth, Artemisia absinthium teas can help to alleviate symptoms of diarrhea, such as abdominal cramps, bloating, and frequent bowel movements. The benefits of using Artemisia absinthium teas to treat diarrhea include a reduction in the frequency and severity of episodes, improved digestion, and a lower risk of complications associated with chronic diarrhea.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cassia auriculata",
+            "herb_mentions": 11,
+            "herb_confidence_score": 67,
+            "herb_total_score": 737,
+            "preparation_desc": "Cassia auriculata teas have been traditionally used to treat diarrhea due to their anti-inflammatory and antimicrobial properties, which help to soothe the digestive system and prevent the growth of harmful bacteria. The bioactive constituents present in Cassia auriculata teas, including flavonoids and alkaloids, help to reduce inflammation and alleviate symptoms of diarrhea, such as abdominal pain and frequent bowel movements. By reducing inflammation and antimicrobial activity, Cassia auriculata teas can help to treat diarrhea by promoting a balance of gut microbiota and reducing the severity of symptoms. The benefits of using Cassia auriculata teas to treat diarrhea include reduced risk of dehydration, decreased frequency of bowel movements, and improved overall digestive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rheum palmatum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 60,
+            "herb_total_score": 420,
+            "preparation_desc": "Rheum palmatum teas, also known as Chinese rhubarb tea, have been traditionally used to treat diarrhea due to their ability to regulate bowel movements and alleviate symptoms. The properties of this herbal preparation, including its anti-inflammatory and antimicrobial properties, help to soothe the digestive system and reduce inflammation in the gut. The bioactive constituents of Rheum palmatum, such as anthraquinones and flavonoids, have been shown to slow down bowel movements and increase water absorption, thereby reducing the frequency and urgency of diarrhea. The benefits of using Rheum palmatum teas to treat diarrhea include its natural and non-habit-forming properties, making it a popular alternative to conventional medications for managing digestive issues.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 9,
+            "herb_confidence_score": 55,
+            "herb_total_score": 495,
+            "preparation_desc": "Taraxacum officinale teas, also known as dandelion tea, have been traditionally used to treat diarrhea due to its anti-inflammatory and antimicrobial properties. The bioactive constituents present in this herbal preparation, such as flavonoids, terpenoids, and phenolic acids, help to reduce inflammation in the gastrointestinal tract and alleviate diarrhea symptoms. By regulating bowel movements and improving gut health, Taraxacum officinale teas help to treat diarrhea by promoting the absorption of water and electrolytes, thereby reducing the frequency and severity of diarrhea episodes. The benefits of using Taraxacum officinale teas to treat diarrhea include reduced symptoms, improved gut health, and a natural alternative to conventional treatments.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Roasted-Dandelion-Eco-Conscious-FGO/dp/B07Z7FTFNX",
+                "affiliate_link": "https://amzn.to/4j70AbI",
+                "title": "FGO Organic Roasted Dandelion Root Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cassia angustifolia",
+            "herb_mentions": 7,
+            "herb_confidence_score": 53,
+            "herb_total_score": 371,
+            "preparation_desc": "Cassia angustifolia teas have been traditionally used to treat diarrhea due to their astringent and anti-inflammatory properties, which help to reduce the frequency and severity of diarrhea episodes. The bioactive constituents, including anthraquinones and saponins, possess strong anti-diarrheal properties that help to treat this ailment by slowing down bowel movements and reducing fluid loss. Cassia angustifolia teas also exhibit antimicrobial properties, which can help to eliminate the underlying cause of diarrhea, such as bacterial or viral infections. The benefits of using Cassia angustifolia teas to treat diarrhea include reduced symptoms, improved gut health, and a decrease in the risk of dehydration.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 52,
+            "herb_total_score": 312,
+            "preparation_desc": "Aloe barbadensis teas have been traditionally used to treat diarrhea due to their soothing and anti-inflammatory properties. The gel extracted from the aloe vera plant helps to treat diarrhea by reducing inflammation in the gut, calming the digestive system, and promoting the growth of beneficial gut bacteria. The bioactive constituents of aloe barbadensis teas, including aloin and aloe-emodin, have been shown to have antimicrobial and anti-inflammatory effects, which help to reduce the severity and frequency of diarrhea. The benefits of using aloe barbadensis teas to treat diarrhea include quick relief from symptoms, reduced inflammation and irritation in the gut, and a natural and non-habit-forming solution to this common ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Spearmint-Eco-Conscious-Lined-FGO/dp/B07ND418HR",
+                "affiliate_link": "https://amzn.to/42s2qOg",
+                "title": "FGO Organic Spearmint Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Aloe vera",
+            "herb_mentions": 5,
+            "herb_confidence_score": 43,
+            "herb_total_score": 215,
+            "preparation_desc": "Aloe vera teas have been traditionally used to treat diarrhea, a common gastrointestinal disorder, due to their soothing and anti-inflammatory properties that help to calm the digestive system and reduce inflammation. The bioactive constituents present in aloe vera teas, including aloin, aloe-emodin, and acemannan, have been found to exhibit antimicrobial and anti-inflammatory activities, which contribute to their therapeutic effects. By reducing inflammation and modulating the gut microbiota, aloe vera teas can help to alleviate the symptoms of diarrhea, such as abdominal pain, bloating, and frequent bowel movements. The benefits of using aloe vera teas to treat diarrhea include reduced inflammation, improved gut health, and faster recovery time, making them a popular natural remedy for this common ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Twinings-Individually-Naturally-Caffeine-Free-Packaging/dp/B09RC41QGJ",
+                "affiliate_link": "https://amzn.to/42UxuoV",
+                "title": "Twinings Lemon & Ginger Herbal Tea Individually Wrapped Bags, 100 Count (Pack of 1), Tangy Lemon, Spicy Ginger, Naturally Caffeine-Free, Enjoy Hot or Iced | Packaging May Vary"
+            }
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 6,
+            "herb_confidence_score": 43,
+            "herb_total_score": 258,
+            "preparation_desc": "Urtica dioica teas, also known as nettle teas, have been used for centuries to treat various gastrointestinal issues, including diarrhea. The anti-inflammatory and soothing properties of this herbal preparation help to treat diarrhea by reducing inflammation in the digestive tract and calming the gut. The bioactive constituents of Urtica dioica teas, such as flavonoids, phenolic acids, and saponins, exhibit antimicrobial, antioxidant, and anti-inflammatory activities that help to inhibit the growth of pathogenic bacteria and reduce inflammation in the gut, thereby alleviating diarrhea. The benefits of Urtica dioica teas in treating diarrhea include reduced symptoms, improved gut health, and a faster recovery time, making it a popular natural remedy for this common ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Nettle-Eco-Conscious-Bulgaria-FGO/dp/B07ND3ZT9C",
+                "affiliate_link": "https://amzn.to/3QUwzPU",
+                "title": "FGO Organic Nettle Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Angelica sinensis",
+            "herb_mentions": 5,
+            "herb_confidence_score": 39,
+            "herb_total_score": 195,
+            "preparation_desc": "Angelica sinensis teas have been traditionally used to treat diarrhea due to their anti-inflammatory and antimicrobial properties. The polysaccharides, flavonoids, and coumarins present in this herbal preparation help to soothe the gastrointestinal tract, reduce inflammation, and inhibit the growth of pathogens that cause diarrhea. By modulating the gut microbiota and enhancing the intestinal barrier function, Angelica sinensis teas help to alleviate symptoms of diarrhea, such as abdominal pain, frequency, and urgency. Regular consumption of this herbal preparation has been shown to provide benefits in treating diarrhea, including improved gut health, reduced inflammation, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natural-Menopause-Supplements-Women-120CT/dp/B0B7Y5F6DP",
+                "affiliate_link": "https://amzn.to/4jFdWw3",
+                "title": "Complete Herbal Menopause Supplement for Women - Female Hormone Balance Capsules for Night Sweats, Hot Flashes & Mood Swings with Dong Quai, Chaste Berry & Black Cohosh Root - 120 Count Pack"
+            }
+        },
+        {
+            "herb_name_scientific": "Pimpinella anisum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 38,
+            "herb_total_score": 266,
+            "preparation_desc": "Pimpinella anisum teas have been traditionally used to treat diarrhea due to their soothing and anti-inflammatory properties. The herbal preparation helps to treat this ailment by reducing inflammation in the gastrointestinal tract and alleviating symptoms such as abdominal pain and cramping. The bioactive constituents of Pimpinella anisum, including limonene and anethole, have been found to exhibit anti-diarrheal and anti-spasmodic activities, which contribute to its therapeutic effects. The benefits of Pimpinella anisum teas in treating diarrhea include rapid relief from symptoms, reduced risk of dehydration, and a natural and non-invasive approach to managing gastrointestinal health.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Journal of evidence-based complementary & alternative medicine\", teas for diarrhea showed a possible antidiarrheal effect in pediatric patients with acute nonbacterial diarrhea when combined with standard treatment."
+}

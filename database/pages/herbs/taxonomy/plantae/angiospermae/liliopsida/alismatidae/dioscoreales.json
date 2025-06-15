@@ -1,0 +1,15 @@
+{
+    "title": "dioscoreales",
+    "lastmod": "2025-2-22",
+    "intro": "The dioscoreales rank is an order of flowering plants, characterized by its unique characteristics and evolutionary history. This order includes families such as Orchidaceae, which comprises orchids, and Euphorbiaceae, which comprises spurge and poinsettia. The dioscoreales order also encompasses the family Cyperaceae, which includes sedges and rushes. The diversity within the dioscoreales order showcases its distinct features and adaptations among its various plant species.",
+    "families": [
+        {
+            "family_slug": "dioscoreaceae",
+            "family_desc": "Dioscoreaceae is a family of flowering plants commonly known as yam family, characterized by its tubers and climbing or twining habit."
+        },
+        {
+            "family_slug": "nartheciaceae",
+            "family_desc": "Nartheciaceae, a family of flowering plants commonly known as bog springs and violets."
+        }
+    ]
+}

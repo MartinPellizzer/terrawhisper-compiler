@@ -1,0 +1,24 @@
+{
+    "url": "herbs/aralia-elata",
+    "herb_slug": "aralia-elata",
+    "herb_name_scientific": "aralia elata",
+    "lastmod": "2025-5-31",
+    "benefits_num": 7,
+    "benefits_title": "7 Best Health Benefits Of Aralia Elata",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 5,
+            "confidence_score": 43,
+            "total_score": 215
+        },
+        {
+            "answer": "medicine",
+            "mentions": 5,
+            "confidence_score": 39,
+            "total_score": 195
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 9
+}

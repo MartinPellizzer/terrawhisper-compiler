@@ -1,0 +1,59 @@
+{
+    "title": "caryophyllales",
+    "lastmod": "2025-2-22",
+    "intro": "The caryophyllales rank is an order of flowering plants, characterized by the presence of a specific type of floral structure known as a perigynous ovary, where the ovary is positioned above a ring of tissue called the receptacle. This order is one of the largest and most diverse in the plant kingdom, comprising over 33,000 species. Examples of families within the caryophyllales order include the Orchidaceae, which includes orchids, and the Euphorbiaceae, which includes spurge and poinsettia. Another example of a family within this order is the Cyperaceae, which includes sedges and rushes, but the family cyperaceae does not belong to caryophyllales.",
+    "families": [
+        {
+            "family_slug": "cactaceae",
+            "family_desc": "Cactaceae is a family of flowering plants that are primarily succulent and adapted to life in dry, arid environments."
+        },
+        {
+            "family_slug": "aizoaceae",
+            "family_desc": "Aizoaceae is a family of succulent plants commonly known as carpetweeds or purslane family, native to southern Africa."
+        },
+        {
+            "family_slug": "caryophyllaceae",
+            "family_desc": "Caryophyllaceae is a family of flowering plants commonly known as the pink or carnation family, which includes species such as carnations, carnation clover, and sweet William."
+        },
+        {
+            "family_slug": "amaranthaceae",
+            "family_desc": "Amaranthaceae is a family of flowering plants commonly known as the amaranth family or pigweed family."
+        },
+        {
+            "family_slug": "polygonaceae",
+            "family_desc": "Polygonaceae is a family of flowering plants commonly known as buckwheat or knotweed families, characterized by their typically dioecious or polygamous flowers and often rhizomatous or taprooted growth habits."
+        },
+        {
+            "family_slug": "nyctaginaceae",
+            "family_desc": "Nyctaginaceae is a family of flowering plants commonly known as four o'clock flowers, pigworts, and related species, characterized by their trumpet-shaped flowers and distinctive leaf structures."
+        },
+        {
+            "family_slug": "basellaceae",
+            "family_desc": "Basellaceae is a family of flowering plants in the order Caryophyllales, commonly known as the pigweed or amaranth family."
+        },
+        {
+            "family_slug": "tamaricaceae",
+            "family_desc": "Tamaricaceae is a family of flowering plants commonly known as tamarisks or athel trees, characterized by their shrubby or small tree growth habit and scale-like leaves."
+        },
+        {
+            "family_slug": "portulacaceae",
+            "family_desc": "Portulacaceae is a family of flowering plants commonly known as purslane or moss roses, characterized by small, often succulent leaves and funnel-shaped flowers."
+        },
+        {
+            "family_slug": "talinaceae",
+            "family_desc": "Talinaceae is a family of flowering plants commonly known as the borage or wallflowers."
+        },
+        {
+            "family_slug": "molluginaceae",
+            "family_desc": "Molluginaceae is a family of flowering plants in the order Caryophyllales, native to tropical and subtropical regions of Africa and southern Asia."
+        },
+        {
+            "family_slug": "gisekiaceae",
+            "family_desc": "Gisekiaceae is a family of flowering plants in the order Caryophyllales, commonly known as the \"rock roses\" or \"rock-jumpseed\"."
+        },
+        {
+            "family_slug": "gyrostemonaceae",
+            "family_desc": "Gyrostemonaceae is a family of flowering plants in the order Brassicales, native to Australia and Southeast Asia."
+        }
+    ]
+}

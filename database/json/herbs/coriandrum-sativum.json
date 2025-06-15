@@ -1,0 +1,243 @@
+{
+    "url": "herbs/coriandrum-sativum",
+    "herb_slug": "coriandrum-sativum",
+    "herb_name_scientific": "coriandrum sativum",
+    "lastmod": "2025-5-31",
+    "title": "Coriandrum Sativum Uses, Benefits, And Remedies",
+    "intro": "Coriandrum sativum, commonly known as cilantro, is an annual herb native to the Mediterranean region and widely used in global cuisines. It is valued for its aromatic leaves and seeds, which are rich in bioactive constituents such as flavonoids, phenolic acids, and essential oils. The herb offers various health benefits, including anti-inflammatory, antioxidant, and antimicrobial properties, which may support digestive and immune health. It can be prepared as an infusion, decoction, or tincture, making it a versatile ingredient in both culinary and herbal applications.",
+    "benefits": "[SENTENCE NUM] Coriandrum sativum helps lower blood pressure by promoting vasodilation and improving circulation, which reduces the strain on the cardiovascular system. This herb is also known to reduce inflammation and pain, making it beneficial for individuals suffering from conditions like arthritis or chronic inflammatory disorders. Its anti-inflammatory properties are attributed to compounds such as linalool and quercetin, which inhibit inflammatory pathways in the body. Additionally, coriander boosts the immune system by enhancing the production of white blood cells and antioxidants, which help fight off infections and diseases. It can also ease joint pains by reducing swelling and stiffness, offering natural relief for those with joint-related issues. Overall, coriandrum sativum is a versatile herb that supports multiple aspects of health, making it a valuable addition to a balanced diet and wellness routine.",
+    "constituents": "[WRONG START] Coriandrum sativum, commonly known as cilantro or coriander, contains several bioactive compounds that contribute to its medicinal properties, with linalool being one of the most prominent. Linalool, a monoterpene alcohol, is known for its calming effects and is often used in aromatherapy to reduce stress and anxiety. In addition to linalool, Coriandrum sativum also contains luteolin, a flavonoid with strong antioxidant and anti-inflammatory properties that may help protect cells from damage. Phytol, another constituent found in the herb, acts as a precursor to vitamin E and supports skin health by combating oxidative stress. Lastly, coriandrin, a unique compound in this herb, has shown potential in inhibiting the growth of certain cancer cells and may play a role in cancer prevention. Together, these medicinal constituents make Coriandrum sativum a valuable plant in traditional and modern medicine, offering a range of therapeutic benefits.",
+    "parts": "Coriandrum sativum seed, commonly known as cumin, is one of the most widely used medicinal parts of the herb, valued for its aromatic and therapeutic properties. The seeds are rich in essential oils, including cuminaldehyde, which contribute to their anti-inflammatory, antimicrobial, and digestive benefits. In traditional medicine, cumin seeds are used to alleviate gastrointestinal issues such as bloating, indigestion, and flatulence due to their carminative effects. They are also believed to support respiratory health by helping to relieve coughs and congestion. Additionally, cumin seeds have been studied for their potential role in managing blood sugar levels and improving metabolic function, making them a valuable component in holistic health practices.",
+    "preparations": "Coriandrum sativum teas are a popular and soothing way to harness the herb's aromatic and medicinal properties, often made by steeping dried seeds or leaves in hot water. These teas are known for their calming effects, aiding digestion and reducing nausea, and are frequently used in traditional herbal medicine. Decoctions, which involve boiling the seeds for a longer period, are another method to extract more potent compounds, especially for addressing digestive issues or respiratory ailments. Tinctures and essential oils derived from coriander offer concentrated forms of its essential compounds, making them effective for topical applications or aromatherapy. Additionally, coriander can be found in syrups, capsules, and lozenges, providing convenient options for those seeking its benefits in daily wellness routines. These various preparations highlight the versatility of coriandrum sativum, allowing individuals to choose the most suitable form based on their health needs and preferences. Whether used in culinary or medicinal contexts, coriander remains a valuable herb with a wide range of applications.",
+    "side_effects": "Coriandrum sativum triggers allergic reactions in some individuals, particularly those with sensitivities to related plants in the Apiaceae family, which can manifest as hives, itching, or even anaphylaxis in severe cases. It may also lead to nausea, especially when consumed in large quantities or by individuals with sensitive stomachs, causing discomfort and a loss of appetite. The herb can result in gas and bloating due to its fiber content and certain compounds that affect gastrointestinal motility. Additionally, coriandrum sativum can induce heartburn and stomach cramps by relaxing the lower esophageal sphincter or irritating the digestive tract. Some people may experience sweating, headaches, or dry mouth as a result of its mild stimulant properties or its interaction with the body's metabolic processes. Furthermore, it may cause skin irritation or a rash in those with sensitive skin, and in rare cases, it can lead to dizziness or insomnia, possibly due to its mild sedative or stimulant effects depending on the individual's physiology. While generally safe for most people, these side effects highlight the importance of moderation and awareness when using coriandrum sativum as a dietary or medicinal supplement.",
+    "benefits_num": 13,
+    "benefits_list": [
+        {
+            "name": "helps lower blood",
+            "description": "Coriander seeds contain compounds that may help reduce blood pressure by relaxing blood vessels and improving circulation."
+        },
+        {
+            "name": "reduces inflammation pains",
+            "description": "The anti-inflammatory properties of coriander can help reduce inflammation and alleviate pain in conditions like arthritis."
+        },
+        {
+            "name": "boosts immune system",
+            "description": "Coriander is rich in antioxidants and vitamins that support the immune system, helping the body fight off infections more effectively."
+        },
+        {
+            "name": "eases joint pains",
+            "description": "The anti-inflammatory and analgesic properties of coriander can help reduce joint pain and stiffness associated with inflammatory conditions."
+        },
+        {
+            "name": "eases cold symptoms",
+            "description": "Coriander has decongestant properties that can help relieve nasal congestion and reduce symptoms of the common cold."
+        },
+        {
+            "name": "eases digestive issues",
+            "description": "Coriander aids digestion by stimulating the production of digestive enzymes and can help alleviate bloating, gas, and indigestion."
+        },
+        {
+            "name": "alleviates menstrual cramps",
+            "description": "The anti-spasmodic properties of coriander can help reduce menstrual cramps and discomfort during menstruation."
+        },
+        {
+            "name": "fights off bacterial",
+            "description": "Coriander contains compounds with antibacterial properties that can help combat harmful bacteria and prevent infections."
+        },
+        {
+            "name": "helps lower cholesterol",
+            "description": "Regular consumption of coriander may help lower LDL cholesterol levels, reducing the risk of heart disease."
+        },
+        {
+            "name": "reduces anxiety levels",
+            "description": "Coriander has calming effects on the nervous system, which can help reduce anxiety and promote relaxation."
+        },
+        {
+            "name": "fights off infections",
+            "description": "The antimicrobial properties of coriander make it effective in fighting off various types of infections, including fungal and bacterial."
+        },
+        {
+            "name": "reduces stress levels",
+            "description": "Coriander contains compounds that can help reduce stress by regulating the body's stress response and promoting a sense of calm."
+        },
+        {
+            "name": "fights off viral",
+            "description": "Coriander has antiviral properties that can help the body defend against viral infections and reduce their severity."
+        }
+    ],
+    "constituents_num": 13,
+    "constituents_list": [
+        {
+            "name": "linalool",
+            "description": "A monoterpene alcohol with calming and sedative properties, commonly used in aromatherapy and for its anti-inflammatory effects."
+        },
+        {
+            "name": "luteolin",
+            "description": "A flavonoid with antioxidant, anti-inflammatory, and neuroprotective properties, known for its potential health benefits."
+        },
+        {
+            "name": "phytol",
+            "description": "A cyclic monoterpene with antimicrobial and antifungal properties, also showing anti-inflammatory effects."
+        },
+        {
+            "name": "coriandrin",
+            "description": "An alkaloid found in coriander, known for its potential antioxidant and anti-inflammatory properties."
+        },
+        {
+            "name": "apigenin",
+            "description": "A flavonoid with antioxidant, anti-inflammatory, and antitumor properties, also exhibiting sedative effects."
+        },
+        {
+            "name": "terpinolene",
+            "description": "A monoterpene with antimicrobial, antifungal, and possibly anti-inflammatory properties."
+        },
+        {
+            "name": "coumarins",
+            "description": "A group of organic compounds with anticoagulant, antimicrobial, and anti-inflammatory properties."
+        },
+        {
+            "name": "phenolic acids",
+            "description": "A class of compounds with antioxidant and anti-inflammatory properties, contributing to the herb's therapeutic effects."
+        },
+        {
+            "name": "limonene",
+            "description": "A terpene with antioxidant, anti-inflammatory, and potential anticancer properties, also used in aromatherapy."
+        },
+        {
+            "name": "kaempferol",
+            "description": "A flavonoid with antioxidant, anti-inflammatory, and antitumor properties, known for its protective effects."
+        },
+        {
+            "name": "bornyl acetate",
+            "description": "A monoterpene ester with antimicrobial, antifungal, and anti-inflammatory properties."
+        },
+        {
+            "name": "sterols",
+            "description": "A group of compounds with anti-inflammatory and immune-modulating effects, often found in plant oils."
+        },
+        {
+            "name": "beta-pinene",
+            "description": "A monoterpene with antimicrobial, anti-inflammatory, and potential analgesic properties."
+        }
+    ],
+    "parts_num": 3,
+    "parts_list": "",
+    "side_effects_num": 13,
+    "side_effects_list": [
+        {
+            "name": "triggers allergic reactions",
+            "description": "Some individuals may experience allergic reactions such as rash, itching, or swelling when exposed to Coriandrum sativum."
+        },
+        {
+            "name": "leads to nausea",
+            "description": "Excessive consumption of Coriandrum sativum may cause nausea and an upset stomach in some people."
+        },
+        {
+            "name": "results in gas",
+            "description": "The herb can cause gastrointestinal gas due to its compounds that affect digestion."
+        },
+        {
+            "name": "causes heartburn",
+            "description": "Coriandrum sativum may lead to heartburn in individuals with sensitive stomachs or digestive issues."
+        },
+        {
+            "name": "induces stomach cramps",
+            "description": "Consuming large amounts of Coriandrum sativum can result in stomach cramps due to its effect on the digestive system."
+        },
+        {
+            "name": "induces sweating",
+            "description": "The herb may stimulate sweating as a side effect due to its potential influence on the body's thermoregulation."
+        },
+        {
+            "name": "may cause bloating",
+            "description": "Coriandrum sativum can cause bloating in some individuals due to its impact on digestion and gas production."
+        },
+        {
+            "name": "may lead to diarrhea",
+            "description": "Overconsumption of Coriandrum sativum may lead to diarrhea in sensitive individuals."
+        },
+        {
+            "name": "leads to headaches",
+            "description": "Some people may experience headaches as a side effect of Coriandrum sativum due to its potential effects on the nervous system."
+        },
+        {
+            "name": "leads to dry mouth",
+            "description": "Coriandrum sativum may cause dry mouth due to its diuretic properties or its effect on saliva production."
+        },
+        {
+            "name": "causes skin irritation",
+            "description": "Direct contact with Coriandrum sativum may cause skin irritation or allergic reactions in some individuals."
+        },
+        {
+            "name": "may cause dizziness",
+            "description": "The herb may cause dizziness in some people due to its potential effects on the central nervous system."
+        },
+        {
+            "name": "may cause insomnia",
+            "description": "Coriandrum sativum may interfere with sleep patterns and lead to insomnia in sensitive individuals."
+        }
+    ],
+    "preparations_num": 15,
+    "preparations_list": [
+        {
+            "name": "teas",
+            "description": "Coriander tea is used to aid digestion, reduce bloating, and relieve nausea. It also has calming properties that can help with stress and anxiety."
+        },
+        {
+            "name": "decoctions",
+            "description": "Coriander decoctions are used to support digestive health, reduce inflammation, and promote detoxification by stimulating liver function."
+        },
+        {
+            "name": "tinctures",
+            "description": "Coriander tinctures are valued for their ability to support respiratory health, reduce inflammation, and act as a mild sedative for stress relief."
+        },
+        {
+            "name": "essential oils",
+            "description": "Coriander essential oil is used aromatically to relieve stress, improve mood, and support respiratory health. It also has antiseptic properties."
+        },
+        {
+            "name": "syrups",
+            "description": "Coriander syrups are used to soothe coughs, ease respiratory congestion, and support immune health due to their antimicrobial properties."
+        },
+        {
+            "name": "capsules",
+            "description": "Coriander capsules are used to support digestion, reduce gas and bloating, and promote overall digestive wellness due to their carminative properties."
+        },
+        {
+            "name": "lozenges",
+            "description": "Coriander lozenges are used to soothe sore throats, reduce inflammation, and relieve symptoms of respiratory infections."
+        },
+        {
+            "name": "oils",
+            "description": "Coriander oils are used topically to relieve muscle pain, reduce inflammation, and promote skin health due to their antiseptic and analgesic properties."
+        },
+        {
+            "name": "creams",
+            "description": "Coriander creams are used to soothe skin irritations, reduce inflammation, and provide relief for minor skin conditions due to their anti-inflammatory properties."
+        },
+        {
+            "name": "juices",
+            "description": "Coriander juice is used to support digestion, detoxify the body, and provide a natural source of antioxidants and nutrients."
+        },
+        {
+            "name": "linctuses",
+            "description": "Coriander linctuses are used to relieve coughs and soothe the throat, often containing a mix of herbs and honey for added comfort."
+        },
+        {
+            "name": "oinments",
+            "description": "Coriander ointments are used topically to relieve muscle pain, reduce inflammation, and promote skin healing due to their soothing properties."
+        },
+        {
+            "name": "liniments",
+            "description": "Coriander liniments are used to relieve joint and muscle pain, reduce inflammation, and improve circulation when applied externally."
+        },
+        {
+            "name": "gargles",
+            "description": "Coriander gargles are used to soothe sore throats, reduce inflammation, and eliminate bacteria in the mouth and throat."
+        },
+        {
+            "name": "poultices",
+            "description": "Coriander poultices are used to reduce inflammation, soothe pain, and promote healing for skin conditions or minor injuries when applied externally."
+        }
+    ]
+}

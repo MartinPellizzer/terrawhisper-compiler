@@ -1,0 +1,187 @@
+{
+    "url": "ailments/heart-pain/tinctures",
+    "ailment_slug": "heart-pain",
+    "ailment_name": "heart pain",
+    "preparation_slug": "tinctures",
+    "preparation_name": "tinctures",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 13,
+    "title": "13 Best Herbal Tinctures For Heart Pain",
+    "intro": "Herbal tinctures for heart pain are concentrated liquid extracts derived from plants, which are used to alleviate chest pain and discomfort. The benefits of using herbal tinctures to treat heart pain include reduced inflammation, improved circulation, and a decrease in anxiety and stress levels. Examples of herbal tinctures that can help treat heart pain include Hawthorn, which improves blood flow and strengthens the heart muscle, Ginkgo biloba, which enhances circulation and reduces inflammation, and Ashwagandha, which reduces stress and anxiety levels. Additionally, other herbal tinctures such as Passionflower, which calms the nervous system, and Ginger, which reduces inflammation and improves circulation, can also provide relief from heart pain.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 19,
+            "herb_confidence_score": 150,
+            "herb_total_score": 2850,
+            "preparation_desc": "Ginkgo biloba tinctures have been used to treat heart pain, also known as angina, due to their anti-inflammatory and vasodilatory properties, which help to improve blood flow and reduce oxidative stress. The bioactive constituents, such as flavonoids and terpenoids, found in Ginkgo biloba tinctures play a crucial role in dilating blood vessels and reducing the risk of blood clots, thereby alleviating heart pain symptoms. By improving circulation and reducing inflammation, Ginkgo biloba tinctures can help to prevent episodes of angina and promote overall cardiovascular health. The benefits of using Ginkgo biloba tinctures to treat heart pain include reduced risk of heart attack and stroke, improved exercise tolerance, and enhanced overall well-being.",
+            "preparation_study": "According to \"Presse medicale (Paris, France : 1983)\", Ginkgo biloba tinctures showed significant pain relief and improved walking tolerance in patients with arteritis after 6 months of treatment, and this improvement continued for the duration of the study.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 16,
+            "herb_confidence_score": 125,
+            "herb_total_score": 2000,
+            "preparation_desc": "Panax ginseng tinctures have been used to treat heart pain ailments, such as angina pectoris, due to their adaptogenic and vasodilatory properties. These properties help to reduce blood pressure, improve circulation, and increase oxygen delivery to the heart muscle, thereby alleviating heart pain. The bioactive constituents of Panax ginseng, including ginsenosides, panaxans, and ginsenol, are responsible for these effects, as they have been shown to inhibit platelet aggregation, improve cardiac function, and reduce inflammation. Overall, the use of Panax ginseng tinctures may provide benefits in treating heart pain ailments, including improved cardiovascular health, reduced risk of heart attack, and enhanced overall well-being.",
+            "preparation_study": "According to \"Journal of ethnopharmacology\", Panax ginseng tinctures may help alleviate heart pain by inhibiting vascular intimal hyperplasia, which is a condition that can lead to heart pain, through the reduction of the SDF-1\u03b1/CXCR4, SCF/c-kit and FKN/CX3CR1 axes.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 19,
+            "herb_confidence_score": 120,
+            "herb_total_score": 2280,
+            "preparation_desc": "Zingiber officinale tinctures have been used to treat heart pain, also known as angina pectoris, due to their anti-inflammatory and vasodilatory properties, which help to alleviate pain and improve blood flow to the heart. The bioactive constituents, including gingerols and shogaols, present in these tinctures, contribute to their therapeutic effects by inhibiting the production of inflammatory mediators and relaxing blood vessels, thereby reducing cardiac workload and improving oxygen delivery to the heart. The benefits of using Zingiber officinale tinctures to treat heart pain include reduced frequency and severity of angina attacks, improved exercise tolerance, and a decrease in the overall risk of cardiovascular complications. Regular consumption of these tinctures may also help to reduce the reliance on conventional medications and promote overall cardiovascular health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 14,
+            "herb_confidence_score": 107,
+            "herb_total_score": 1498,
+            "preparation_desc": "Valeriana officinalis tinctures have been traditionally used to treat heart pain ailments, such as angina and myocardial infarction, due to their vasodilatory and anti-inflammatory properties. The herbal preparation helps to alleviate heart pain by reducing inflammation and promoting blood flow to the heart muscle, thus reducing the workload on the heart and preventing further damage. The bioactive constituents of Valeriana officinalis, including valepotriates, isovaleramate, and valerenic acid, contribute to its therapeutic effects by exerting a sedative and anxiolytic action, which in turn helps to reduce stress and anxiety that can trigger heart pain. The benefits of using Valeriana officinalis tinctures to treat heart pain include reduced symptoms of anxiety and stress, improved sleep quality, and a decrease in the frequency and severity of heart pain episodes.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Digitalis purpurea",
+            "herb_mentions": 12,
+            "herb_confidence_score": 102,
+            "herb_total_score": 1224,
+            "preparation_desc": "Digitalis purpurea tinctures are a herbal preparation used to treat heart pain and related conditions, such as atrial fibrillation and congestive heart failure. The properties of this tincture, including its cardiotonic and vasodilatory effects, help to treat heart pain by increasing cardiac output and reducing congestion in the heart. Bioactive constituents like digoxin, digitoxin, and digitonin in Digitalis purpurea tinctures help to strengthen heart contractions, reduce fluid accumulation, and regulate heart rhythm, thereby alleviating symptoms of heart pain. The benefits of using Digitalis purpurea tinctures include improved heart function, increased energy, and enhanced overall well-being, making it a popular natural remedy for heart-related ailments.",
+            "preparation_study": "According to \"Basic research in cardiology\", Digitalis purpurea tinctures for heart pain are recommended for patients with atrial fibrillation with a fast ventricular rate or atrial flutter, and in patients with systolic dysfunction, large hearts, and symptomatic failure class NYHA III and IV.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 16,
+            "herb_confidence_score": 98,
+            "herb_total_score": 1568,
+            "preparation_desc": "Rosmarinus officinalis tinctures have been traditionally used to treat heart pain ailments, such as angina pectoris and myocardial infarction, due to their vasodilatory and anti-inflammatory properties. The herbal preparation helps to treat this ailment by reducing blood pressure, improving circulation, and preventing platelet aggregation, which in turn reduces the strain on the heart and alleviates pain. Rosmarinus officinalis tinctures contain bioactive constituents such as carnosic acid, rosmarinic acid, and camphor, which contribute to their therapeutic effects, including antioxidant and anti-inflammatory activities. The benefits of using Rosmarinus officinalis tinctures to treat heart pain include reduced risk of cardiovascular complications, improved quality of life, and a potential decrease in the need for pharmaceutical medications.",
+            "preparation_study": "According to the study, Rosmarinus officinalis tinctures, containing rosmarinic acid, may be beneficial in minimizing heart pain caused by doxorubicin-induced cardiotoxicity due to its antioxidant, anti-inflammatory, and cardioprotective effects.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Crataegus monogyna",
+            "herb_mentions": 12,
+            "herb_confidence_score": 97,
+            "herb_total_score": 1164,
+            "preparation_desc": "Crataegus monogyna tinctures have been used for centuries to treat various heart-related ailments, including heart pain, due to their cardioprotective and vasodilatory properties. The bioactive constituents present in this herbal preparation, such as flavonoids, triterpenoids, and oligomeric proanthocyanidins, help to improve blood flow and reduce inflammation in the cardiovascular system. These properties enable Crataegus monogyna tinctures to alleviate heart pain by reducing oxidative stress and improving cardiac function. The benefits of using Crataegus monogyna tinctures to treat heart pain include reduced risk of cardiac arrhythmias, improved exercise tolerance, and enhanced overall cardiovascular health.",
+            "preparation_study": "According to \"Fortschritte der Medizin\", Crataegus monogyna tinctures have been shown to have a cardiotropic and vasodilatory action, which may be beneficial in alleviating heart pain.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 17,
+            "herb_confidence_score": 91,
+            "herb_total_score": 1547,
+            "preparation_desc": "Lavandula angustifolia tinctures, also known as English lavender, have been traditionally used to treat heart pain ailments, such as angina and palpitations, due to their soothing and calming properties. The bioactive constituents of Lavandula angustifolia, including linalool and linalyl acetate, help to reduce inflammation and relax the cardiovascular system, thereby alleviating heart pain. By promoting relaxation and reducing anxiety, Lavandula angustifolia tinctures help to decrease the frequency and severity of heart pain episodes. The benefits of using Lavandula angustifolia tinctures to treat heart pain include reduced symptoms, improved sleep quality, and a decrease in the risk of cardiovascular disease.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Astragalus membranaceus",
+            "herb_mentions": 12,
+            "herb_confidence_score": 80,
+            "herb_total_score": 960,
+            "preparation_desc": "Astragalus membranaceus tinctures have been traditionally used to treat heart pain, also known as angina, due to their cardiotonic and vasodilatory properties. These herbal preparations help to treat heart pain by increasing blood flow to the heart, reducing inflammation, and improving cardiovascular function. The bioactive constituents of Astragalus membranaceus tinctures, including saponins, flavonoids, and polysaccharides, are responsible for their therapeutic effects, which include antioxidant, anti-inflammatory, and immunomodulatory activities. The benefits of using Astragalus membranaceus tinctures to treat heart pain include reduced symptoms, improved quality of life, and a decrease in the risk of cardiovascular complications.",
+            "preparation_study": "According to \"Alternative medicine review : a journal of clinical therapeutic\", Astragalus membranaceus tinctures for heart pain may have therapeutic benefit due to its in vitro antioxidant activity, which is the mechanism by which it affords its cardioprotective benefit.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Paeonia lactiflora",
+            "herb_mentions": 11,
+            "herb_confidence_score": 79,
+            "herb_total_score": 869,
+            "preparation_desc": "Paeonia lactiflora tinctures have been traditionally used to treat heart pain, also known as angina, due to their analgesic and anti-inflammatory properties. The herbal preparation helps to alleviate heart pain by reducing inflammation and improving blood flow to the heart muscle, thereby relieving symptoms of angina. The bioactive constituents of Paeonia lactiflora, including phenolic acids, flavonoids, and glycosides, are responsible for its therapeutic effects, which include vasodilation and antioxidant activity. Regular use of Paeonia lactiflora tinctures may help to reduce the frequency and severity of heart pain episodes, making it a beneficial herbal remedy for individuals suffering from angina.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 10,
+            "herb_confidence_score": 77,
+            "herb_total_score": 770,
+            "preparation_desc": "Silybum marianum tinctures have been used to treat the heart pain ailment known as angina and myocardial infarction due to their anti-inflammatory and cardiotonic properties. The tincture helps to treat this ailment by improving blood circulation, reducing oxidative stress, and modulating cardiac function. The bioactive constituents of Silybum marianum, including flavonoids, silymarin, and polyphenols, contribute to its therapeutic effects by scavenging free radicals, inhibiting platelet aggregation, and enhancing the antioxidant defense system. The benefits of Silybum marianum tinctures in treating heart pain include reduced risk of cardiovascular events, improved cardiac function, and alleviated symptoms of angina and myocardial infarction.",
+            "preparation_study": "According to \"Yao xue xue bao = Acta pharmaceutica Sinica\", Silybum marianum tinctures containing silibinin may help alleviate heart pain by protecting cardiac myocytes from injury through resuming mitochondrial function and regulating the expression of SIRT1 and Bcl-2 family members.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 70,
+            "herb_total_score": 560,
+            "preparation_desc": "Cinchona officinalis tinctures have been traditionally used to treat heart pain ailments, such as angina and myocardial infarction, due to their vasodilatory and anti-inflammatory properties. The tinctures help to treat heart pain by reducing blood pressure and improving blood flow to the heart, thereby alleviating symptoms of ischemia and reducing the risk of cardiac complications. The bioactive constituents of Cinchona officinalis, including quinine and alkaloids, are responsible for these therapeutic effects, which help to stabilize the heart and prevent further damage. The benefits of using Cinchona officinalis tinctures to treat heart pain include reduced risk of cardiac events, improved quality of life, and a natural alternative to conventional medications with fewer side effects.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 11,
+            "herb_confidence_score": 66,
+            "herb_total_score": 726,
+            "preparation_desc": "Glycyrrhiza glabra tinctures have been used to treat heart pain, also known as angina, due to their anti-inflammatory and vasodilatory properties. The bioactive constituents, including glycyrrhizin and flavonoids, help to reduce inflammation and improve blood flow to the heart, thereby alleviating heart pain. By acting as a natural antioxidant and improving cardiovascular function, Glycyrrhiza glabra tinctures help to reduce the frequency and severity of heart pain episodes. The benefits of using these tinctures to treat heart pain include reduced symptoms, improved quality of life, and a natural approach to managing cardiovascular health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 9,
+            "herb_confidence_score": 61,
+            "herb_total_score": 549,
+            "preparation_desc": "Passiflora incarnata tinctures have been traditionally used to treat heart pain ailments, such as anxiety and insomnia, due to their sedative and anti-anxiety properties. The herbal preparation helps to calm the nervous system, reducing feelings of stress and anxiety that can contribute to heart pain. The bioactive constituents, including flavonoids, alkaloids, and glycosides, are responsible for its anxiolytic and sedative effects, which can help to alleviate heart pain symptoms. The benefits of using Passiflora incarnata tinctures for heart pain include reduced anxiety and stress, improved sleep quality, and a decrease in heart rate and blood pressure.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Centella asiatica",
+            "herb_mentions": 9,
+            "herb_confidence_score": 56,
+            "herb_total_score": 504,
+            "preparation_desc": "Centella asiatica tinctures have been traditionally used to treat heart pain, also known as angina, due to their anti-inflammatory and cardiovascular protective properties. The bioactive constituents of Centella asiatica, including triterpenoids and glycosides, help to improve blood flow and reduce inflammation in the heart, thereby alleviating pain and discomfort. The tincture's ability to enhance nitric oxide production and improve endothelial function also contributes to its therapeutic effects, making it a potential natural remedy for heart pain. By using Centella asiatica tinctures, individuals may experience improved cardiovascular health, reduced risk of heart disease, and relief from angina symptoms.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rauvolfia serpentina",
+            "herb_mentions": 6,
+            "herb_confidence_score": 52,
+            "herb_total_score": 312,
+            "preparation_desc": "Rauvolfia serpentina tinctures have been traditionally used to treat heart pain ailments due to their cardiotonic and vasodilatory properties, which help to improve blood flow to the heart and reduce inflammation. The bioactive constituents, including reserpine and serpentine, in this herbal preparation help to reduce the heart rate and blood pressure, thereby alleviating heart pain. The benefits of using Rauvolfia serpentina tinctures to treat heart pain include improved cardiovascular health, reduced risk of heart attacks and strokes, and enhanced overall well-being. Regular use of this herbal preparation can also help to reduce anxiety and stress, which are often associated with heart pain ailments, promoting a more balanced and healthy lifestyle.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 50,
+            "herb_total_score": 350,
+            "preparation_desc": "Hypericum perforatum tinctures, also known as St. John's Wort, have been traditionally used to treat heart pain associated with angina and myocardial infarction. The properties of this herbal preparation that help to treat this ailment include its anti-inflammatory and vasodilatory effects, which help to reduce the workload on the heart and improve blood flow to the cardiac muscle. The bioactive constituents of this herbal preparation, including hyperforin and hypericin, have been shown to exert antioxidant and antiplatelet effects, which help to reduce cardiac stress and prevent thrombosis. The benefits of using Hypericum perforatum tinctures to treat heart pain include reduced frequency and severity of angina attacks, improved overall cardiovascular health, and a decrease in the risk of cardiac complications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 49,
+            "herb_total_score": 392,
+            "preparation_desc": "Schisandra chinensis tinctures have been traditionally used to treat heart pain ailments, such as angina and myocardial infarction. The properties of this herbal preparation that help to treat this ailment include its antioxidant, anti-inflammatory, and cardiovascular-protective properties. Schisandra chinensis tinctures contain bioactive constituents like schisandrins, schisandrin B, and lignans that help to reduce oxidative stress, improve blood flow, and relax blood vessels, thereby alleviating heart pain. The benefits of this herbal preparation to treat heart pain include improved cardiovascular health, reduced risk of cardiac arrhythmias, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 7,
+            "herb_confidence_score": 47,
+            "herb_total_score": 329,
+            "preparation_desc": "Curcuma longa tinctures have been traditionally used to treat heart pain, also known as angina, due to their anti-inflammatory and antioxidant properties. The bioactive constituents of Curcuma longa, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, help to reduce inflammation and improve blood flow to the heart, thereby alleviating heart pain. The benefits of using Curcuma longa tinctures for heart pain include reduced risk of heart attacks and strokes, as well as improved overall cardiovascular health. By incorporating Curcuma longa tinctures into a treatment plan, individuals may experience relief from heart pain and improved quality of life.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Vitex agnus-castus",
+            "herb_mentions": 6,
+            "herb_confidence_score": 40,
+            "herb_total_score": 240,
+            "preparation_desc": "Vitex agnus-castus tinctures have been traditionally used to treat heart pain, also known as angina, due to their adaptogenic and cardiovascular properties. The tinctures help to treat heart pain by reducing inflammation and improving blood flow to the heart, thereby alleviating symptoms such as chest pain and shortness of breath. The bioactive constituents of Vitex agnus-castus, including flavonoids, phenolic acids, and terpenoids, contribute to its cardioprotective effects by scavenging free radicals, reducing oxidative stress, and modulating cardiovascular function. The benefits of using Vitex agnus-castus tinctures to treat heart pain include improved cardiovascular health, reduced risk of heart disease, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Alternative medicine review : a journal of clinical therapeutic\", tinctures for heart pain may be beneficial using botanicals such as Crataegus oxycantha, Terminalia arjuna, Inula racemosa, and Astragalus membranaceus, which have been found to have therapeutic benefits in treating cardiovascular disease and angina, with potential uses as anti-ischemic and lipid-lowering agents."
+}

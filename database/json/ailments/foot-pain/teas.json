@@ -1,0 +1,251 @@
+{
+    "url": "ailments/foot-pain/teas",
+    "ailment_slug": "foot-pain",
+    "ailment_name": "foot pain",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 13,
+    "title": "13 Best Herbal Teas For Foot Pain",
+    "intro": "Herbal teas for foot pain are a natural remedy used to alleviate discomfort and inflammation in the feet, often caused by conditions such as plantar fasciitis, arthritis, and gout. These teas offer a range of benefits, including reducing inflammation, relieving pain, and improving circulation, making them an ideal alternative to pharmaceuticals. Popular herbal teas used to treat foot pain include ginger, turmeric, chamomile, and peppermint, which possess anti-inflammatory properties and soothing effects. Additionally, teas like arnica, cayenne pepper, and eucalyptus are also used due to their analgesic and anti-inflammatory properties, while teas like licorice root and willow bark are valued for their anti-inflammatory and pain-relieving abilities.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 18,
+            "herb_confidence_score": 147,
+            "herb_total_score": 2646,
+            "preparation_desc": "Achillea millefolium teas have been traditionally used to treat foot pain ailments, particularly plantar fasciitis and heel pain, due to their anti-inflammatory and analgesic properties. The bioactive constituents of this herbal preparation, including sesquiterpene lactones, flavonoids, and phenolic acids, help to reduce inflammation and alleviate pain in the affected areas. By inhibiting the production of pro-inflammatory enzymes and promoting the release of anti-inflammatory cytokines, Achillea millefolium teas help to treat foot pain by reducing swelling, redness, and discomfort. The benefits of using Achillea millefolium teas to treat foot pain include reduced pain and inflammation, improved mobility, and enhanced overall well-being.",
+            "preparation_study": "According to the study, Achillea millefolium teas for foot pain are supported by three laboratory studies and one clinical trial, suggesting potential therapeutic properties in wound healing, including foot pain.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Soursop-Leaves-Bags-Teabags/dp/B0C69P5FV9",
+                "affiliate_link": "https://amzn.to/4i1QY0D",
+                "title": "FullChea- Soursop Leaves Tea Bags, 40 Teabags, 1.5g/Bag - Premium Soursop Graviola Leaves Tea - Hojas De Guanabana Tea - Non-GMO - Caffeine-Free - Improve Digestion, Support Healthy Skin & Sleep"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 17,
+            "herb_confidence_score": 147,
+            "herb_total_score": 2499,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger teas, have been traditionally used to treat foot pain, particularly in conditions such as plantar fasciitis. The anti-inflammatory and analgesic properties of ginger teas help to reduce pain and swelling in the affected areas, providing relief from discomfort and promoting relaxation. The bioactive constituents of ginger, including gingerols and shogaols, exhibit potent anti-inflammatory and antioxidant activities that help to reduce inflammation and alleviate pain. Regular consumption of ginger teas has been shown to provide benefits in treating foot pain by reducing pain and inflammation, improving circulation, and promoting relaxation, making it a popular natural remedy for foot health.",
+            "preparation_study": "According to \"Arthritis and rheumatism\", Zingiber officinale teas may be effective in reducing symptoms of knee pain, which could potentially translate to alleviating foot pain, although direct evidence for its use in foot pain is not provided in the study.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 17,
+            "herb_confidence_score": 126,
+            "herb_total_score": 2142,
+            "preparation_desc": "Glycyrrhiza glabra teas have been traditionally used to treat foot pain, particularly for individuals suffering from conditions such as plantar fasciitis. The anti-inflammatory properties of this herbal preparation help to reduce pain and swelling in the affected area. The bioactive constituents of Glycyrrhiza glabra, including glycyrrhizin and flavonoids, exhibit analgesic and anti-inflammatory activities, which contribute to its therapeutic effects. Regular consumption of Glycyrrhiza glabra teas has been found to provide relief from foot pain and improve overall foot health, making it a natural and effective remedy for this common ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 14,
+            "herb_confidence_score": 122,
+            "herb_total_score": 1708,
+            "preparation_desc": "Curcuma longa teas have been traditionally used to treat foot pain ailments, such as plantar fasciitis and heel pain, due to their anti-inflammatory and antioxidant properties. This herbal preparation contains bioactive constituents like curcumin, which has potent anti-inflammatory and analgesic effects, helping to reduce pain and inflammation in the affected area. The curcumin present in Curcuma longa teas also exhibits anti-oxidative properties, which help to reduce oxidative stress and promote healing in the foot tissues. The benefits of using Curcuma longa teas to treat foot pain include reduced pain and inflammation, improved mobility, and faster recovery times, making it a popular natural remedy for foot pain ailments.",
+            "preparation_study": "According to the available scientific information on medicinal plants, Curcuma longa teas have been proven effective in reducing inflammation and oxidative stress, which may help alleviate foot pain associated with chronic joint inflammatory disorders.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 16,
+            "herb_confidence_score": 109,
+            "herb_total_score": 1744,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort, have been traditionally used to treat foot pain caused by conditions such as plantar fasciitis and heel pain. The anti-inflammatory and antinociceptive properties of this herbal preparation help to reduce pain and inflammation in the affected area, making it a potential natural remedy for foot pain relief. The bioactive constituents present in Hypericum perforatum teas, including flavonoids and phenolic acids, have been shown to exhibit analgesic and anti-inflammatory activities, which contribute to its therapeutic effects. The benefits of using Hypericum perforatum teas to treat foot pain include reduced inflammation, pain relief, and improved overall foot health, making it a popular natural remedy among those seeking alternative treatments for this common ailment.",
+            "preparation_study": "According to \"Phytotherapy research : PTR\", Hypericum perforatum teas may help alleviate foot pain due to the demonstrated antiinflammatory activity of its aerial part extracts, particularly in a dose-dependent manner.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 14,
+            "herb_confidence_score": 108,
+            "herb_total_score": 1512,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to treat foot pain ailments due to their anti-inflammatory, analgesic, and antispasmodic properties. The herbal preparation helps to treat foot pain by reducing inflammation and relieving muscle spasms, thereby providing relief from discomfort and pain. Bioactive constituents such as linalool and linalyl acetate in Lavandula angustifolia teas contribute to their analgesic and anti-inflammatory effects, which help to alleviate foot pain. The benefits of using Lavandula angustifolia teas to treat foot pain include reduced inflammation, improved sleep quality, and a decrease in pain intensity, making it a potential natural remedy for this common affliction.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 10,
+            "herb_confidence_score": 87,
+            "herb_total_score": 870,
+            "preparation_desc": "Eucalyptus globulus teas have been traditionally used to treat foot pain due to their anti-inflammatory and analgesic properties, which help to reduce swelling and alleviate pain in the affected area. The herbal preparation contains bioactive constituents such as eucalyptol and flavonoids, which have been shown to exhibit anti-inflammatory and antioxidant activities, contributing to their pain-relieving effects. By reducing inflammation and promoting relaxation, Eucalyptus globulus teas help to treat foot pain, making it an effective natural remedy for individuals suffering from this ailment. The benefits of using this herbal preparation to treat foot pain include reduced pain and inflammation, improved mobility, and a decrease in the risk of chronic pain development.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Herbal-Tea-Caffeine-Relaxer-Non-GMO/dp/B00ECOSODU",
+                "affiliate_link": "https://amzn.to/4caik3b",
+                "title": "Tiesta Tea - Palm Beach Punch | Loose Leaf | Fruit Punch Herbal Tea | Caffeine-Free Tropical Blend with Apple and Orange | Brew Hot or Iced | Resealable Pouch | 25 Cups | 2 Ounce"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 12,
+            "herb_confidence_score": 87,
+            "herb_total_score": 1044,
+            "preparation_desc": "Rosmarinus officinalis teas have been traditionally used to treat foot pain, particularly due to their anti-inflammatory and analgesic properties. The bioactive constituents of this herbal preparation, including carnosic acid and rosmarinic acid, help to reduce inflammation and alleviate pain by inhibiting the production of pro-inflammatory enzymes. By consuming Rosmarinus officinalis teas, individuals can experience relief from foot pain as the herbal preparation helps to relax muscles and improve circulation, ultimately reducing discomfort and promoting overall well-being. The benefits of using Rosmarinus officinalis teas to treat foot pain include reduced reliance on pain medications and improved quality of life.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 10,
+            "herb_confidence_score": 81,
+            "herb_total_score": 810,
+            "preparation_desc": "Urtica dioica teas, also known as nettle tea, have been traditionally used to treat foot pain ailments such as plantar fasciitis and heel spurs due to its anti-inflammatory and analgesic properties. The herbal preparation contains bioactive constituents like flavonoids, alkaloids, and phenolic acids, which help to reduce inflammation and alleviate pain by inhibiting the production of pro-inflammatory enzymes. Drinking Urtica dioica tea can help to treat foot pain by promoting relaxation, reducing muscle tension, and improving blood circulation, which can help to relieve tension and pain in the affected areas. The benefits of using Urtica dioica tea to treat foot pain include reduced inflammation, improved circulation, and enhanced overall well-being, making it a popular natural remedy for this common ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Nettle-Eco-Conscious-Bulgaria-FGO/dp/B07ND3ZT9C",
+                "affiliate_link": "https://amzn.to/3QUwzPU",
+                "title": "FGO Organic Nettle Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 80,
+            "herb_total_score": 880,
+            "preparation_desc": "Cinchona officinalis teas are a natural remedy used to treat foot pain ailments, particularly those caused by rheumatism and arthritis, due to their anti-inflammatory and analgesic properties. The herbal preparation helps to alleviate foot pain by reducing inflammation and relieving muscle spasms, allowing individuals to move freely without discomfort. The bioactive constituents quinine, quinidine, and tannins in Cinchona officinalis teas are responsible for their therapeutic effects, as they exhibit anti-inflammatory, antioxidant, and pain-relieving properties. The benefits of using Cinchona officinalis teas to treat foot pain include reduced inflammation, improved mobility, and a decrease in the reliance on pain medications, making it a popular natural remedy for those seeking alternative solutions.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Cymbopogon citratus",
+            "herb_mentions": 9,
+            "herb_confidence_score": 73,
+            "herb_total_score": 657,
+            "preparation_desc": "Cymbopogon citratus teas, also known as lemongrass tea, have been traditionally used to treat foot pain ailments, such as plantar fasciitis, due to its anti-inflammatory and analgesic properties. The bioactive constituents present in lemongrass tea, including citral, limonene, and geraniol, help to reduce inflammation and alleviate pain in the foot. By consuming Cymbopogon citratus teas, individuals can experience relief from foot pain, improved mobility, and reduced discomfort, making it an effective herbal remedy for this common condition. The benefits of using lemongrass tea to treat foot pain include natural pain relief, reduced inflammation, and improved overall well-being, making it a popular choice among those seeking alternative treatments.",
+            "preparation_study": "According to \"Journal of ethnopharmacology\", Cymbopogon citratus teas may provide relief from foot pain due to the presence of myrcene, a major analgesic component in the essential oil of the lemongrass plant, which was found to have a peripheral site of action and did not cause tolerance on repeated injection.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/4ideKqe",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 9,
+            "herb_confidence_score": 71,
+            "herb_total_score": 639,
+            "preparation_desc": "Mentha x piperita teas, also known as peppermint tea, have been traditionally used to treat foot pain, particularly plantar fasciitis, due to their anti-inflammatory and analgesic properties. The bioactive constituents, including menthol, menthone, and limonene, help to reduce pain and inflammation in the affected area by blocking the production of pain-causing chemicals and promoting relaxation. The benefits of using Mentha x piperita teas to treat foot pain include reduced pain and inflammation, improved mobility, and enhanced overall well-being. By incorporating Mentha x piperita teas into a treatment plan, individuals can experience relief from foot pain and return to their normal activities with greater ease and comfort.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 10,
+            "herb_confidence_score": 64,
+            "herb_total_score": 640,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat foot pain, particularly conditions such as arthritis and plantar fasciitis. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce pain and inflammation in the feet, thereby alleviating discomfort. The bioactive constituents, including flavonoids and terpenoids, in Ginkgo biloba teas contribute to their analgesic and anti-inflammatory effects, which help to soothe and calm the affected areas. The regular consumption of Ginkgo biloba teas may also promote improved blood flow and reduced oxidative stress, leading to faster healing and reduced risk of further injury.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 10,
+            "herb_confidence_score": 64,
+            "herb_total_score": 640,
+            "preparation_desc": "Sambucus nigra teas have been traditionally used to treat foot pain ailments, particularly plantar fasciitis, due to their anti-inflammatory and analgesic properties. The bioactive constituents of Sambucus nigra, including flavonoids and anthocyanins, help to reduce inflammation and alleviate pain in the affected area. These constituents work by inhibiting the production of pro-inflammatory enzymes and blocking the action of pain-sensing nerve fibers, providing relief from foot pain and discomfort. The benefits of using Sambucus nigra teas to treat foot pain include reduced inflammation, improved circulation, and a decrease in pain and discomfort, making it a natural and effective treatment option.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Elderberry-Eco-Conscious-Kraft-FGO/dp/B09HDFQ4JX",
+                "affiliate_link": "https://amzn.to/42aR3ZN",
+                "title": "FGO Organic Elderberry Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealabel Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 63,
+            "herb_total_score": 504,
+            "preparation_desc": "Valeriana officinalis teas have been traditionally used to treat foot pain, a common ailment resulting from conditions such as plantar fasciitis. The anti-inflammatory and analgesic properties of this herbal preparation help to alleviate pain and reduce swelling in the affected area. The bioactive constituents, including isovaleric acid, valerenic acid, and valerenol, contribute to its therapeutic effects by modulating the activity of neurotransmitters and reducing muscle spasms. Regular consumption of Valeriana officinalis teas can provide relief from foot pain, improve sleep quality, and promote relaxation, making it a beneficial herbal remedy for individuals suffering from this condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Artemisia absinthium",
+            "herb_mentions": 9,
+            "herb_confidence_score": 63,
+            "herb_total_score": 567,
+            "preparation_desc": "Artemisia absinthium teas, a traditional herbal remedy, have been used to treat foot pain, particularly in conditions such as plantar fasciitis and ankle sprains. The analgesic and anti-inflammatory properties of this herbal preparation help to reduce pain and swelling in the affected area, providing relief from discomfort and stiffness. The bioactive constituents, including thujone, camphor, and borneol, contribute to the analgesic and anti-inflammatory effects, helping to relax tense muscles and improve circulation. Regular consumption of Artemisia absinthium teas has been found to provide long-term benefits in reducing foot pain and promoting overall foot health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 56,
+            "herb_total_score": 392,
+            "preparation_desc": "Salvia officinalis teas have been traditionally used to treat foot pain ailments due to their anti-inflammatory, analgesic, and antioxidant properties. The bioactive constituents of Salvia officinalis, including rosmarinic acid and carnosic acid, help to reduce inflammation and relieve pain by blocking the production of pro-inflammatory enzymes and inhibiting the activity of pain-sensing neurons. By consuming Salvia officinalis teas, individuals can experience relief from foot pain associated with conditions such as plantar fasciitis and arthritis, as well as reduced inflammation and improved circulation. The benefits of using Salvia officinalis teas for foot pain treatment include reduced reliance on pharmaceutical pain medications, improved overall well-being, and a natural approach to managing chronic pain.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Taylors-Harrogate-Green-Jasmine-Teabags/dp/B000MN69CS",
+                "affiliate_link": "https://amzn.to/4iXf0ei",
+                "title": "Taylors of Harrogate Green Tea with Jasmine, 50 Teabags"
+            }
+        },
+        {
+            "herb_name_scientific": "Origanum vulgare",
+            "herb_mentions": 8,
+            "herb_confidence_score": 56,
+            "herb_total_score": 448,
+            "preparation_desc": "Origanum vulgare teas, also known as oregano tea, have been traditionally used to treat foot pain, particularly for conditions such as plantar fasciitis and heel pain. The anti-inflammatory and antimicrobial properties of oregano tea help to reduce pain and inflammation in the affected area by inhibiting the production of pro-inflammatory enzymes and eliminating bacteria that can cause infection. The bioactive constituents of oregano tea, including carvacrol and thymol, are responsible for its therapeutic effects, with carvacrol exhibiting analgesic and anti-inflammatory properties, and thymol showing antimicrobial activity. Drinking oregano tea may help alleviate foot pain by reducing inflammation, eliminating infection, and providing relief from discomfort, making it a potential natural remedy for this common condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 54,
+            "herb_total_score": 324,
+            "preparation_desc": "Aloe barbadensis teas have been traditionally used to treat foot pain ailments, including plantar fasciitis and heel pain, due to their anti-inflammatory and analgesic properties. The herbal preparation contains bioactive constituents such as aloin, aloe-emodin, and acemannan, which help to reduce inflammation, relieve pain, and promote tissue repair. By consuming aloe barbadensis teas, individuals can benefit from its ability to reduce swelling and pain in the affected areas, leading to improved mobility and reduced discomfort. Regular consumption of aloe barbadensis teas may also promote overall foot health by reducing oxidative stress and promoting the healing of damaged tissues.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Spearmint-Eco-Conscious-Lined-FGO/dp/B07ND418HR",
+                "affiliate_link": "https://amzn.to/42s2qOg",
+                "title": "FGO Organic Spearmint Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Equisetum arvense",
+            "herb_mentions": 6,
+            "herb_confidence_score": 52,
+            "herb_total_score": 312,
+            "preparation_desc": "Equisetum arvense teas, also known as horsetail tea, have been traditionally used to treat foot pain, particularly plantar fasciitis, due to its anti-inflammatory and analgesic properties. The bioactive constituents of Equisetum arvense, such as flavonoids, alkaloids, and silicic acid, help to reduce inflammation and relieve pain by inhibiting the production of pro-inflammatory enzymes and promoting the repair of damaged tissue. Drinking Equisetum arvense tea may help to alleviate foot pain by reducing swelling and promoting the healing of damaged tissues, making it a valuable natural remedy for individuals suffering from this condition. The benefits of using Equisetum arvense teas to treat foot pain include reduced pain and inflammation, improved mobility, and a faster recovery time, making it a popular natural remedy among those seeking alternative treatments.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Current drug discovery technologies\", teas for foot pain may be a safe and often effective treatment due to the antioxidant and anti-inflammatory properties of green tea, which can provide relief from pain through the suppression of inflammation and oxidative stress."
+}

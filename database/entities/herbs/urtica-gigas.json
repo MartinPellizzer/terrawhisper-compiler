@@ -1,0 +1,24 @@
+{
+    "url": "herbs/urtica-gigas",
+    "herb_slug": "urtica-gigas",
+    "herb_name_scientific": "urtica gigas",
+    "lastmod": "2025-5-31",
+    "benefits_num": 7,
+    "benefits_title": "7 Best Health Benefits Of Urtica Gigas",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 5,
+            "confidence_score": 43,
+            "total_score": 215
+        },
+        {
+            "answer": "medicine",
+            "mentions": 5,
+            "confidence_score": 38,
+            "total_score": 190
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 7
+}

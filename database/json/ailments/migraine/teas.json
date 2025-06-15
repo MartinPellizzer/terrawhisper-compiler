@@ -1,0 +1,259 @@
+{
+    "url": "ailments/migraine/teas",
+    "ailment_slug": "migraine",
+    "ailment_name": "migraine",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Teas For Migraine",
+    "intro": "Herbal teas for Migraine are a natural remedy that involves brewing and consuming teas made from various herbs to alleviate migraine symptoms. These teas are beneficial in treating migraines as they often contain anti-inflammatory and anti-spasmodic properties that help reduce pain and alleviate symptoms. Examples of herbal teas that can be used to treat migraines include Feverfew, which contains a compound called parthenolide that helps reduce inflammation and pain; Ginger, which has anti-inflammatory properties that can help ease nausea and pain; Lavender, which can help relax the mind and body, reducing stress and anxiety that can trigger migraines; Peppermint, which can help ease nausea and relax the muscles; and Willow Bark, which contains salicin, a compound similar to aspirin that can help reduce pain and inflammation. By incorporating these herbal teas into their daily routine, individuals can find natural relief from migraine symptoms and reduce their reliance on prescription medications.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 20,
+            "herb_confidence_score": 176,
+            "herb_total_score": 3520,
+            "preparation_desc": "Valeriana officinalis teas have been traditionally used as a natural remedy to treat migraines due to its sedative and anti-inflammatory properties, which help to alleviate the symptoms of this debilitating condition. The valerenic acid and isovaleric acid present in these teas possess a neuroprotective effect, inhibiting the activity of glutamate and GABA receptors, which contribute to the pain and inflammation associated with migraines. The bioactive constituents of Valeriana officinalis, including valepotriates and valerenic acid, work synergistically to reduce muscle tension, calm the nervous system, and promote relaxation, thereby providing relief from migraine symptoms. Regular consumption of Valeriana officinalis teas has been shown to reduce the frequency and severity of migraines, providing a natural and non-invasive alternative to conventional treatments.",
+            "preparation_study": "According to \"World journal of plastic surgery\", Valeriana officinalis teas may be effective in reducing migraine pain as the study found that the analgesic effects of valerian root extract resulted in a significant decrease in pain score in the acute phase of pain, indicating potential relief from migraine symptoms.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 20,
+            "herb_confidence_score": 168,
+            "herb_total_score": 3360,
+            "preparation_desc": "Foeniculum vulgare teas, also known as fennel tea, have been traditionally used to treat migraine headaches due to their analgesic, anti-inflammatory, and antispasmodic properties. The herbal preparation helps to treat this ailment by reducing pain and inflammation, as well as relaxing tense muscles, thereby alleviating migraine symptoms. The bioactive constituents of fennel tea, including anethole, limonene, and fenchone, have been identified as the key compounds responsible for its therapeutic effects on migraine headaches. The benefits of using fenniculum vulgare teas to treat migraines include natural relief from pain and inflammation, improved mood, and reduced frequency of migraine attacks.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/HANDPICK-Caffeine-Natural-Premium-Eco-Conscious/dp/B0BFHKDK88",
+                "affiliate_link": "https://amzn.to/42bRtPt",
+                "title": "HANDPICK, Fennel Tea Bags (100 Herbal Tea Bags) Caffeine Free, Gluten Free & Non GMO | Round Eco Conscious Teabags | Smooth & Sweet"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 20,
+            "herb_confidence_score": 163,
+            "herb_total_score": 3260,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger tea, have been traditionally used to treat migraine headaches due to their anti-inflammatory and pain-relieving properties. The bioactive constituents, such as gingerols and shogaols, help to inhibit the production of pro-inflammatory enzymes and block the pain pathways in the brain, providing relief from migraine symptoms. The anti-inflammatory properties of ginger tea also help to reduce swelling and relax tense muscles, further alleviating migraine pain. Regular consumption of Zingiber officinale teas has been shown to provide benefits in reducing the frequency and severity of migraine attacks, making it a popular natural remedy for this common ailment.",
+            "preparation_study": "According to \"Journal of ethnopharmacology\", Zingiber officinale teas for migraine may exert abortive and prophylactic effects without any side-effects due to its reported use in Ayurvedic and Tibb systems of medicine for neurological disorders.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 20,
+            "herb_confidence_score": 153,
+            "herb_total_score": 3060,
+            "preparation_desc": "Lavandula angustifolia teas, also known as English lavender tea, have been used for centuries to treat migraine ailments due to their soothing and calming properties. The herbal preparation helps to treat migraines by reducing inflammation and promoting relaxation, which in turn eases the severity and frequency of migraine attacks. The bioactive constituents of Lavandula angustifolia teas, such as linalool and linalyl acetate, have been found to possess anti-inflammatory and antispasmodic properties that contribute to its migraine-relieving effects. The benefits of using Lavandula angustifolia teas to treat migraines include reduced pain and discomfort, improved sleep quality, and a decrease in stress levels, making it a popular natural remedy for this common condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 19,
+            "herb_confidence_score": 145,
+            "herb_total_score": 2755,
+            "preparation_desc": "Melissa officinalis teas have been traditionally used to treat migraine due to their anti-inflammatory, antispasmodic, and calming properties. This herbal preparation helps to alleviate migraine symptoms by soothing the nerves, reducing muscle spasms, and promoting relaxation, which in turn helps to alleviate the severity and frequency of migraine attacks. The bioactive constituents present in Melissa officinalis teas, including rosmarinic acid, flavonoids, and terpenoids, are responsible for their therapeutic effects, as they exhibit anti-inflammatory and antioxidant properties that help to reduce pain and inflammation associated with migraines. The benefits of using Melissa officinalis teas to treat migraines include reduced pain intensity, fewer migraine episodes, and improved overall well-being, making it a popular natural remedy for this debilitating condition.",
+            "preparation_study": "According to \"Journal of ethnopharmacology\", Melissa officinalis teas may be beneficial for migraine relief due to their potential anti-nociceptive properties, which involve modulation of opioidergic, serotonergic, and K<sub>ATP</sub> pathways.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 20,
+            "herb_confidence_score": 141,
+            "herb_total_score": 2820,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat migraine ailments due to their anti-inflammatory and antioxidant properties, which help to reduce inflammation and oxidative stress in the brain. The herbal preparation contains bioactive constituents such as flavonoids, bilobalide, and ginkgolides, which have been shown to improve blood flow to the brain, reduce migraine frequency and severity, and alleviate symptoms such as nausea and vomiting. The benefits of using Ginkgo biloba teas to treat migraine include reduced frequency and severity of attacks, improved quality of life, and reduced reliance on medication. Regular consumption of Ginkgo biloba teas may also help to prevent migraines by promoting relaxation, reducing stress, and improving overall brain health.",
+            "preparation_study": "According to \"American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists\", Ginkgo biloba teas for migraine may be potentially safe for use based on clinical trial results.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 15,
+            "herb_confidence_score": 103,
+            "herb_total_score": 1545,
+            "preparation_desc": "Achillea millefolium teas have been used for centuries to treat migraines due to their analgesic, anti-inflammatory, and spasmolytic properties, which help to alleviate pain and reduce the frequency and severity of migraine attacks. The bioactive constituents of Achillea millefolium, including sesquiterpene lactones, flavonoids, and phenolic acids, are responsible for its therapeutic effects, which include reducing inflammation, relaxing muscle spasms, and modulating neurotransmitter activity. Drinking Achillea millefolium tea has been shown to help alleviate migraine symptoms by reducing pain, improving sleep quality, and regulating hormonal imbalances, ultimately providing relief from this debilitating condition. The benefits of using Achillea millefolium tea to treat migraines include its natural, non-addictive, and non-invasive nature, making it a popular alternative to conventional medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Soursop-Leaves-Bags-Teabags/dp/B0C69P5FV9",
+                "affiliate_link": "https://amzn.to/4i1QY0D",
+                "title": "FullChea- Soursop Leaves Tea Bags, 40 Teabags, 1.5g/Bag - Premium Soursop Graviola Leaves Tea - Hojas De Guanabana Tea - Non-GMO - Caffeine-Free - Improve Digestion, Support Healthy Skin & Sleep"
+            }
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 14,
+            "herb_confidence_score": 102,
+            "herb_total_score": 1428,
+            "preparation_desc": "Passiflora incarnata teas, also known as passionflower tea, have been used as a natural remedy to treat migraines due to their sedative and anti-anxiety properties. The herbal preparation helps to treat migraines by reducing anxiety and stress, which are common triggers for migraines, and by acting on the brain's neurotransmitters to regulate pain perception. The bioactive constituents of passionflower tea, including flavonoids and alkaloids, are responsible for its analgesic and anti-inflammatory effects, which contribute to its ability to alleviate migraine symptoms. Drinking passionflower tea has been shown to provide relief from migraine symptoms, including pain, nausea, and sensitivity to light and sound, and can be a beneficial addition to a comprehensive treatment plan for managing migraines.",
+            "preparation_study": "According to \"Planta medica\", Passiflora incarnata teas may be beneficial for migraine as the majority of phytoconstituents from P. incarnata were concurrently predicted to have the desired pleiotropic effects, including ameliorative roles in epilepsy and associated depression and memory deficit, which could suggest a potential beneficial effect on migraines.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Certified-Wrapped/dp/B000YTCSLQ",
+                "affiliate_link": "https://amzn.to/3FU2zS4",
+                "title": "Traditional Medicinals Organic Nighty Night with Passionflower Herbal Tea, Promotes a Good Night\u2019s Sleep, (Pack of 1) - 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 13,
+            "herb_confidence_score": 98,
+            "herb_total_score": 1274,
+            "preparation_desc": "Curcuma longa teas have been traditionally used to treat migraine and its associated symptoms, due to their anti-inflammatory and antioxidant properties. The bioactive constituents, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, possess potent anti-inflammatory and analgesic properties that help to reduce the frequency and severity of migraines. By inhibiting the production of pro-inflammatory cytokines and enzymes, Curcuma longa teas help to alleviate migraine symptoms, including pain, nausea, and sensitivity to light and sound. Regular consumption of Curcuma longa teas may also help to prevent migraines by modulating the body's inflammatory response and promoting overall well-being.",
+            "preparation_study": "According to Phytotherapy research : PTR, Curcuma longa teas may be effective as a prophylactic treatment for migraine, showing positive, preliminary findings.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinnamomum verum",
+            "herb_mentions": 13,
+            "herb_confidence_score": 94,
+            "herb_total_score": 1222,
+            "preparation_desc": "Cinnamomum verum teas have been traditionally used to treat migraine ailments, attributing its effectiveness to the presence of bioactive constituents such as cinnamaldehyde, eugenol, and linalool, which possess anti-inflammatory, antioxidant, and analgesic properties. The analgesic property of these constituents helps to alleviate migraine pain, while the antioxidant property reduces oxidative stress and inflammation associated with the condition. Furthermore, the anti-inflammatory property of Cinnamomum verum teas helps to reduce inflammation in blood vessels and nerves, thereby alleviating migraine symptoms. The benefits of using Cinnamomum verum teas to treat migraines include reduced frequency and severity of attacks, improved quality of life, and a decrease in the reliance on pharmaceutical medications.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Celestial-Seasonings-Herbal-Cinnamon-Apple/dp/B000E65OII",
+                "affiliate_link": "https://amzn.to/3G3S3aR",
+                "title": "Celestial Seasonings Cinnamon Apple Spice Herbal Tea, Caffeine Free, 20 Tea Bags Box (Pack of 6)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 13,
+            "herb_confidence_score": 81,
+            "herb_total_score": 1053,
+            "preparation_desc": "Silybum marianum teas, also known as St. Mary's thistle tea, have been used for centuries to treat migraine ailments due to their anti-inflammatory, antioxidant, and neuroprotective properties. The bioactive constituents present in these teas, including silymarin and flavonoids, help to inhibit the release of pain-producing chemicals, reduce inflammation, and protect the blood-brain barrier, thereby alleviating migraine symptoms. The benefits of using Silybum marianum teas to treat migraines include reduced frequency and severity of attacks, improved mood, and enhanced overall well-being. By consuming Silybum marianum teas, individuals can experience relief from migraine symptoms and enjoy a better quality of life.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 11,
+            "herb_confidence_score": 75,
+            "herb_total_score": 825,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort, have been traditionally used to treat migraines due to their anti-inflammatory, analgesic, and antispasmodic properties. The bioactive constituents of Hypericum perforatum teas, including hyperforin and hypericin, help to reduce inflammation and alleviate pain associated with migraines. By reducing inflammation and modulating neurotransmitter activity, Hypericum perforatum teas can help to treat migraines by relieving symptoms such as headache, nausea, and sensitivity to light and sound. The benefits of using Hypericum perforatum teas to treat migraines include reduced frequency and severity of attacks, improved sleep quality, and reduced reliance on pharmaceutical medications.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 69,
+            "herb_total_score": 552,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat migraines due to their anti-inflammatory and vasodilatory properties, which help to relax blood vessels and reduce pain. The bioactive constituents of Cinchona officinalis, including quinine and other alkaloids, contribute to its analgesic and anti-inflammatory effects, providing relief from migraine symptoms. By inhibiting the production of pro-inflammatory mediators and relaxing blood vessels, Cinchona officinalis teas help to alleviate migraine pain and reduce frequency of attacks. The benefits of using Cinchona officinalis teas to treat migraines include reduced reliance on pharmaceutical medications, improved overall well-being, and a natural approach to managing this debilitating condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 12,
+            "herb_confidence_score": 66,
+            "herb_total_score": 792,
+            "preparation_desc": "Glycyrrhiza glabra teas, derived from the roots of the licorice plant, have been traditionally used to treat migraine ailments due to their anti-inflammatory and anti-spasmodic properties. The herbal preparation helps to treat migraines by reducing inflammation in blood vessels and relieving muscle tension, thereby alleviating symptoms such as pain and sensitivity to light. The bioactive constituents responsible for these effects include flavonoids, glycosides, and saponins, which possess potent antioxidant and anti-inflammatory properties that contribute to the tea's therapeutic benefits. Regular consumption of Glycyrrhiza glabra teas has been shown to provide relief from migraine symptoms and promote overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 56,
+            "herb_total_score": 504,
+            "preparation_desc": "Rosmarinus officinalis teas have been traditionally used to treat migraine ailments due to their calming and analgesic properties. The herbal preparation helps to alleviate migraine symptoms by reducing inflammation and relieving muscle spasms, which are often associated with this condition. The bioactive constituents of Rosmarinus officinalis, including rosmarinic acid, carnosic acid, and caffeic acid, play a crucial role in treating migraine by exhibiting antioxidant, anti-inflammatory, and vasodilatory effects. Regular consumption of Rosmarinus officinalis teas has been reported to provide benefits in reducing migraine frequency and severity, promoting overall well-being and improving quality of life.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Paeonia lactiflora",
+            "herb_mentions": 9,
+            "herb_confidence_score": 54,
+            "herb_total_score": 486,
+            "preparation_desc": "Paeonia lactiflora teas have been traditionally used to treat migraines due to their analgesic and anti-inflammatory properties, which help to alleviate pain and reduce inflammation associated with this ailment. The flavonoids, phenolic acids, and alkaloids present in these teas, such as peonidin, quercetin, and gallic acid, are responsible for their therapeutic effects, including the ability to inhibit the production of pro-inflammatory enzymes and neurotransmitters that contribute to migraine development. By consuming Paeonia lactiflora teas, individuals can experience relief from migraine symptoms, including headache pain, nausea, and sensitivity to light and sound, due to the bioactive constituents that work to relax blood vessels, reduce muscle tension, and modulate the body's pain response. Regular consumption of Paeonia lactiflora teas has also been shown to provide long-term benefits in managing migraines, including improved sleep quality, reduced frequency and severity of attacks, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Davidsons-Tea-White-Peony-16-Ounce/dp/B000SARJFG",
+                "affiliate_link": "https://amzn.to/4jD6HVc",
+                "title": "Davidson's Tea Bulk, White Peony, 16-Ounce Bag"
+            }
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 7,
+            "herb_confidence_score": 46,
+            "herb_total_score": 322,
+            "preparation_desc": "Avena sativa teas, derived from the oat plant, have been traditionally used to treat migraine headaches due to their anti-inflammatory and antioxidant properties. The bioactive constituents present in these teas, including avenanthramides and avenalumic acid, help to relax the blood vessels and reduce inflammation in the brain, thereby alleviating migraine symptoms. By promoting relaxation and reducing pain, Avena sativa teas help to provide relief from migraine headaches, improving the overall quality of life for those affected. The benefits of using Avena sativa teas to treat migraines include reduced frequency and severity of attacks, improved sleep quality, and a decrease in the reliance on pharmaceutical medications.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Chamomile-Eco-Conscious-Lined-FGO/dp/B07N2F8718",
+                "affiliate_link": "https://amzn.to/3EaZYm9",
+                "title": "FGO Organic Chamomile Tea, 100 Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 5,
+            "herb_confidence_score": 41,
+            "herb_total_score": 205,
+            "preparation_desc": "Mentha x piperita teas, also known as peppermint tea, have been traditionally used to alleviate migraine symptoms. The analgesic and anti-inflammatory properties of this herbal preparation help to treat the ailment by reducing pain and inflammation in the affected areas. The bioactive constituents of Mentha x piperita, including menthol and menthone, contribute to its analgesic and anti-inflammatory effects, which help to relieve migraine symptoms. The benefits of using Mentha x piperita teas to treat migraines include reduced frequency and severity of attacks, improved sleep quality, and a decrease in medication use.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Camellia sinensis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 41,
+            "herb_total_score": 246,
+            "preparation_desc": "Camellia sinensis teas, derived from the leaves of the Camellia sinensis plant, have been traditionally used to treat migraine ailments due to their anti-inflammatory and antioxidant properties. The polyphenol compounds present in Camellia sinensis teas, such as theaflavins and thearubigins, help to reduce inflammation and alleviate migraine symptoms. The bioactive constituents, including flavonoids, phenolic acids, and catechins, also contribute to the analgesic and anti-migraine effects of Camellia sinensis teas. The regular consumption of Camellia sinensis teas has been shown to provide relief from migraine symptoms, reduce frequency and severity of attacks, and promote overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Green-Eco-Conscious-Lined-FGO/dp/B07ND4GD5S",
+                "affiliate_link": "https://amzn.to/3Gk6JT6",
+                "title": "FGO Organic Green Tea, 100 Count Eco-Conscious Tea Bags, Caffeinated, Resealable Pouch, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Vitex agnus-castus",
+            "herb_mentions": 6,
+            "herb_confidence_score": 35,
+            "herb_total_score": 210,
+            "preparation_desc": "Vitex agnus-castus teas have been traditionally used to treat migraines due to their anti-inflammatory and anti-spasmodic properties. The bioactive constituents of Vitex agnus-castus, including vitexin, acutissimin, and ursolic acid, are believed to contribute to its potential in alleviating migraine symptoms by reducing inflammation and promoting relaxation. By acting on the nervous system and reducing the frequency and severity of migraines, Vitex agnus-castus teas may help to provide relief from migraine-related pain and discomfort. The benefits of using Vitex agnus-castus teas to treat migraines include reduced frequency and severity of attacks, improved sleep quality, and a decrease in reliance on medication.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Moringa-Eco-Conscious-Kraft-FGO/dp/B07XYJBXLJ",
+                "affiliate_link": "https://amzn.to/3YtNNYu",
+                "title": "FGO Organic Moringa Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        }
+    ],
+    "intro_study": "According to \"Phytotherapy research : PTR\", teas for migraine treatment may have some benefits, with limited evidence suggesting that certain herbal teas such as feverfew, butterbur, curcumin, citron, coriander, and chamomile may be effective in reducing migraine symptoms, although further high-quality research is necessary to confirm their efficacy and safety."
+}

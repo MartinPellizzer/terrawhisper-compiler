@@ -1,0 +1,31 @@
+{
+    "title": "apiales",
+    "lastmod": "2025-2-22",
+    "intro": "The rank Apiales is an order of flowering plants, which is a division of plants based on their evolutionary relationships and shared characteristics. This order is characterized by plants that typically have five-petaled flowers, often with a distinctive arrangement of the stamens and carpels. Apiales includes a diverse range of families, such as the carrot family Apiaceae, the Pittosporaceae and Myodocarpaceae families,  and others. Notable families within this order include Apiaceae, Araliaceae, and Pittosporaceae, and some notable exceptions like the following families not belonging to this order: orchidaceae, euphorbiaceae, and cyperaceae.",
+    "families": [
+        {
+            "family_slug": "apiaceae",
+            "family_desc": "Apiaceae is a family of flowering plants commonly known as the carrot or parsley family, characterized by their umbrella-like inflorescences and often pungent or aromatic foliage."
+        },
+        {
+            "family_slug": "araliaceae",
+            "family_desc": "Araliaceae is a family of flowering plants commonly known as ginsengs, ivies, and angelicas, native to tropical and temperate regions around the world."
+        },
+        {
+            "family_slug": "pittosporaceae",
+            "family_desc": "Pittosporaceae is a family of flowering plants commonly known as the Kohuhu or Toyon family, native to the Southern Hemisphere."
+        },
+        {
+            "family_slug": "thymelaeaceae",
+            "family_desc": "Thymelaeaceae is a family of flowering plants commonly known as the snapdragon or thyme trees, which are native to the temperate and tropical regions of the world."
+        },
+        {
+            "family_slug": "argophyllaceae",
+            "family_desc": "Argophyllaceae is a family of flowering plants in the order Asterales, native to New Zealand and southern South America."
+        },
+        {
+            "family_slug": "griseliniaceae",
+            "family_desc": "Griseliniaceae is a family of flowering plants in the order Aquifoliales, characterized by its small, leathery leaves and often woody habit."
+        }
+    ]
+}

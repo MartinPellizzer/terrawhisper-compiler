@@ -1,0 +1,18 @@
+{
+    "url": "herbs/veratrum-album",
+    "herb_slug": "veratrum-album",
+    "herb_name_scientific": "veratrum album",
+    "lastmod": "2025-5-31",
+    "benefits_num": 7,
+    "benefits_title": "7 Best Health Benefits Of Veratrum Album",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 10,
+            "confidence_score": 96,
+            "total_score": 960
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 7
+}

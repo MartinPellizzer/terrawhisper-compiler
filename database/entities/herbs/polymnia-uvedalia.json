@@ -1,0 +1,24 @@
+{
+    "url": "herbs/polymnia-uvedalia",
+    "herb_slug": "polymnia-uvedalia",
+    "herb_name_scientific": "polymnia uvedalia",
+    "lastmod": "2025-5-31",
+    "benefits_num": 11,
+    "benefits_title": "11 Best Health Benefits Of Polymnia Uvedalia",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "answer": "medicine",
+            "mentions": 5,
+            "confidence_score": 41,
+            "total_score": 205
+        }
+    ],
+    "constituents_num": 13,
+    "side_effects_num": 9
+}

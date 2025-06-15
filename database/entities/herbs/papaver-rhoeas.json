@@ -1,0 +1,24 @@
+{
+    "url": "herbs/papaver-rhoeas",
+    "herb_slug": "papaver-rhoeas",
+    "herb_name_scientific": "papaver rhoeas",
+    "lastmod": "2025-5-31",
+    "benefits_num": 11,
+    "benefits_title": "11 Best Health Benefits Of Papaver Rhoeas",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 9,
+            "confidence_score": 82,
+            "total_score": 738
+        },
+        {
+            "answer": "medicine",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 13
+}

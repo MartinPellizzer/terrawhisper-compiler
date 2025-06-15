@@ -1,0 +1,24 @@
+{
+    "url": "herbs/dionaea-muscipula",
+    "herb_slug": "dionaea-muscipula",
+    "herb_name_scientific": "dionaea muscipula",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Dionaea Muscipula",
+    "medicine_or_poison": [
+        {
+            "answer": "inert",
+            "mentions": 8,
+            "confidence_score": 78,
+            "total_score": 624
+        },
+        {
+            "answer": "poison",
+            "mentions": 2,
+            "confidence_score": 20,
+            "total_score": 40
+        }
+    ],
+    "constituents_num": 11,
+    "side_effects_num": 9
+}

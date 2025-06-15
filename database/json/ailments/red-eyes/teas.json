@@ -1,0 +1,251 @@
+{
+    "url": "ailments/red-eyes/teas",
+    "ailment_slug": "red-eyes",
+    "ailment_name": "red eyes",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Teas For Red Eyes",
+    "intro": "Herbal teas for red eyes are a natural remedy used to soothe and calm irritated eyes due to allergies, dust, or other environmental factors. These teas offer numerous benefits, including reducing inflammation, easing eye strain, and promoting relaxation. Examples of herbal teas that can help alleviate red eyes include chamomile, which has anti-inflammatory properties, and peppermint, which can help cool and calm the eyes. Other teas, such as eyebright, licorice root, and calendula, are also commonly used due to their antihistamine and anti-inflammatory properties, helping to reduce redness and discomfort.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 18,
+            "herb_confidence_score": 141,
+            "herb_total_score": 2538,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to treat red eye or conjunctivitis, an inflammatory condition of the eyes characterized by redness, itching, and discharge. The anti-inflammatory and antimicrobial properties of Echinacea purpurea teas, particularly its alkylamides and caffeic acid derivatives, help to reduce inflammation and combat infection, thus alleviating symptoms of red eye. These bioactive constituents also exhibit immunomodulatory effects, boosting the body's natural defenses against infection and promoting faster recovery. The benefits of using Echinacea purpurea teas to treat red eye include reduced inflammation, accelerated healing, and prevention of future infections, making it a natural and effective remedy for this common ailment.",
+            "preparation_study": "According to \"Molecular nutrition & food research\", Echinacea purpurea teas for red eyes appear to be safe to use, as there is a low potential for drug-herb interactions and no verifiable reports of adverse effects.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Euphrasia officinalis",
+            "herb_mentions": 15,
+            "herb_confidence_score": 140,
+            "herb_total_score": 2100,
+            "preparation_desc": "Euphrasia officinalis teas have been traditionally used to treat red eyes and other ocular disorders due to their anti-inflammatory and antimicrobial properties. The herbal preparation helps to treat red eyes by reducing inflammation and soothing the eyes, making it an effective remedy for conditions such as conjunctivitis and blepharitis. The bioactive constituents of Euphrasia officinalis, including flavonoids, iridoids, and phenolic acids, are responsible for its therapeutic effects, which include reducing swelling and promoting healing. Regular consumption of Euphrasia officinalis teas can provide relief from red eyes and promote overall eye health, making it a popular herbal remedy for ocular disorders.",
+            "preparation_study": "According to \"Journal of the Indian Medical Association\", Euphrasia officinalis teas for red eyes may be beneficial in alleviating symptoms of allergic conjunctivitis, with no short-term or long-term side effects.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 18,
+            "herb_confidence_score": 139,
+            "herb_total_score": 2502,
+            "preparation_desc": "Lavandula angustifolia teas, also known as English lavender tea, have been used to treat red eyes due to their anti-inflammatory and antioxidant properties. The bioactive constituents, including linalool and linalyl acetate, help to reduce inflammation and alleviate symptoms of red eyes by promoting relaxation and soothing the eyes. The herbal preparation's ability to calm and reduce stress also contributes to its effectiveness in treating red eyes, making it a popular natural remedy for this condition. The benefits of using Lavandula angustifolia teas to treat red eyes include a reduction in eye irritation, improved eye health, and a natural approach to alleviating symptoms without harsh chemicals.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 15,
+            "herb_confidence_score": 122,
+            "herb_total_score": 1830,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat the red eyes ailment, also known as conjunctivitis, due to their anti-inflammatory and antimicrobial properties. The bioactive constituents of Cinchona officinalis, including quinine and alkaloids, help to reduce inflammation and combat bacterial infections that cause the redness and irritation of the eyes. By reducing the symptoms of redness, itching, and discharge associated with conjunctivitis, Cinchona officinalis teas provide relief and promote healing of the affected area. The benefits of using Cinchona officinalis teas to treat conjunctivitis include natural and non-invasive treatment, reduced risk of antibiotic resistance, and improved overall eye health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 17,
+            "herb_confidence_score": 120,
+            "herb_total_score": 2040,
+            "preparation_desc": "Calendula officinalis teas have been traditionally used to treat red eyes, a common ailment characterized by inflammation and irritation of the conjunctiva. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce swelling and prevent infection, thereby providing relief from redness and discomfort. The bioactive constituents of Calendula officinalis, including triterpenoids, flavonoids, and carotenoids, contribute to its therapeutic effects by modulating the immune response and scavenging free radicals. Regular consumption of Calendula officinalis teas may also help to soothe and calm the eyes, promoting a sense of relaxation and comfort.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Twinings-Individually-Naturally-Caffeine-Free-Packaging/dp/B09RC41QGJ",
+                "affiliate_link": "https://amzn.to/42mjHYe",
+                "title": "Twinings Lemon & Ginger Herbal Tea Individually Wrapped Bags, 100 Count (Pack of 1), Tangy Lemon, Spicy Ginger, Naturally Caffeine-Free, Enjoy Hot or Iced | Packaging May Vary"
+            }
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 15,
+            "herb_confidence_score": 111,
+            "herb_total_score": 1665,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort, have been used to treat red eyes due to their anti-inflammatory, antiseptic, and antihistamine properties. The herbal preparation helps to treat this ailment by reducing inflammation, soothing the eyes, and preventing the growth of bacteria and other microorganisms that can cause infection. The bioactive constituents of Hypericum perforatum teas, including hyperforin and hypericin, exhibit potent antioxidant and anti-inflammatory effects, which contribute to their therapeutic properties. By using Hypericum perforatum teas to treat red eyes, individuals can experience benefits such as reduced swelling, improved vision, and a faster recovery time due to the preparation's ability to combat the root causes of the condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 14,
+            "herb_confidence_score": 106,
+            "herb_total_score": 1484,
+            "preparation_desc": "Achillea millefolium teas, also known as yarrow tea, are a popular herbal remedy used to treat the red eyes ailment, also known as conjunctivitis. The anti-inflammatory and antiseptic properties of yarrow tea help to reduce swelling and infection in the eyes, promoting a speedy recovery. The bioactive constituents, including flavonoids, sesquiterpenes, and terpenoids, found in yarrow tea have antimicrobial and antioxidant effects that help to combat bacterial and viral infections. By consuming yarrow tea, individuals can experience the benefits of reduced eye redness, itching, and discharge, as well as a reduced risk of complications such as vision loss.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Soursop-Leaves-Bags-Teabags/dp/B0C69P5FV9",
+                "affiliate_link": "https://amzn.to/4i1QY0D",
+                "title": "FullChea- Soursop Leaves Tea Bags, 40 Teabags, 1.5g/Bag - Premium Soursop Graviola Leaves Tea - Hojas De Guanabana Tea - Non-GMO - Caffeine-Free - Improve Digestion, Support Healthy Skin & Sleep"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 16,
+            "herb_confidence_score": 104,
+            "herb_total_score": 1664,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat the red eyes ailment, also known as conjunctivitis, due to its anti-inflammatory and antioxidant properties. The flavonoids and terpenoids present in Ginkgo biloba teas help to reduce inflammation, prevent oxidative stress, and promote healing in the affected area. The bioactive constituents, including quercetin, kaempferol, and isorhapontigenin, have been shown to exhibit antimicrobial and antiviral activity, which helps to combat the underlying causes of conjunctivitis. Overall, Ginkgo biloba teas offer a natural and effective remedy for red eyes, providing relief from symptoms, promoting recovery, and enhancing eye health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 12,
+            "herb_confidence_score": 87,
+            "herb_total_score": 1044,
+            "preparation_desc": "Aloe barbadensis teas are a natural remedy for treating red eyes, a common ailment caused by various factors such as allergies, dryness, or irritation. The anti-inflammatory and soothing properties of this herbal preparation help to calm the eyes, reducing redness and discomfort. The bioactive constituents, including aloin, aloe-emodin, and acemannan, in Aloe barbadensis teas have been shown to possess potent antioxidant and anti-inflammatory effects, which contribute to their therapeutic benefits. Regular consumption of Aloe barbadensis teas can help to alleviate red eyes, promote eye health, and provide relief from the associated discomfort and irritation.",
+            "preparation_study": "According to \"Journal of the Indian Medical Association\", Aloe barbadensis teas for red eyes showed a significant improvement in conditions such as allergic conjunctivitis, and in some cases, cataract, with no reported short-term or long-term side effects.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Spearmint-Eco-Conscious-Lined-FGO/dp/B07ND418HR",
+                "affiliate_link": "https://amzn.to/42s2qOg",
+                "title": "FGO Organic Spearmint Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 16,
+            "herb_confidence_score": 86,
+            "herb_total_score": 1376,
+            "preparation_desc": "Taraxacum officinale teas, also known as dandelion tea, have been traditionally used to treat the red eyes ailment, also known as conjunctivitis. The anti-inflammatory and antimicrobial properties of this herbal preparation help to treat the ailment by reducing swelling and fighting off infections. The bioactive constituents of Taraxacum officinale teas, including flavonoids and terpenoids, have been found to possess antioxidant and anti-inflammatory activities, which contribute to their therapeutic effects. The benefits of using Taraxacum officinale teas to treat red eyes include reduced inflammation, improved vision, and accelerated recovery time.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Roasted-Dandelion-Eco-Conscious-FGO/dp/B07Z7FTFNX",
+                "affiliate_link": "https://amzn.to/4j70AbI",
+                "title": "FGO Organic Roasted Dandelion Root Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 12,
+            "herb_confidence_score": 86,
+            "herb_total_score": 1032,
+            "preparation_desc": "Sambucus nigra teas, also known as elderflower tea, have been traditionally used to treat conjunctivitis, commonly known as red eyes, due to their anti-inflammatory and antiseptic properties. The bioactive constituents present in Sambucus nigra, such as flavonoids and phenolic acids, help to reduce inflammation and combat the infection causing the red eyes. By soothing the eyes and reducing inflammation, Sambucus nigra teas help to alleviate the symptoms of red eyes, making it a popular natural remedy for this ailment. Regular consumption of Sambucus nigra teas has also been shown to promote overall eye health, making it a beneficial herbal preparation for treating red eyes.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Elderberry-Eco-Conscious-Kraft-FGO/dp/B09HDFQ4JX",
+                "affiliate_link": "https://amzn.to/42aR3ZN",
+                "title": "FGO Organic Elderberry Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealabel Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 69,
+            "herb_total_score": 621,
+            "preparation_desc": "Melissa officinalis teas, also known as lemon balm teas, have been traditionally used to treat red eyes due to their soothing and anti-inflammatory properties. The bioactive constituents, including rosmarinic acid and citral, help to reduce inflammation and relax the muscles surrounding the eyes, providing relief from redness and discomfort. By promoting relaxation and reducing stress, Melissa officinalis teas help to alleviate the symptoms of red eyes, making it an effective natural remedy for this ailment. The benefits of using Melissa officinalis teas to treat red eyes include reduced inflammation, improved eye health, and a natural and non-invasive approach to managing this condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 9,
+            "herb_confidence_score": 67,
+            "herb_total_score": 603,
+            "preparation_desc": "Zingiber officinale teas, derived from the rhizomes of the ginger plant, have been traditionally used to treat red eyes ailment. The anti-inflammatory properties of this herbal preparation help to reduce swelling and alleviate discomfort associated with red eyes, making it an effective treatment for this condition. The bioactive constituents, including gingerols and shogaols, possess potent antioxidant and anti-inflammatory activities that contribute to their therapeutic effects. By consuming Zingiber officinale teas, individuals can experience relief from red eyes, along with other benefits such as reduced inflammation and improved overall eye health.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 7,
+            "herb_confidence_score": 61,
+            "herb_total_score": 427,
+            "preparation_desc": "Eucalyptus globulus teas have been traditionally used to treat red eyes, a condition characterized by inflammation and irritation of the conjunctiva and cornea. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce swelling and alleviate discomfort associated with red eyes. The bioactive constituents, including eucalyptol, flavonoids, and phenolic acids, exhibit potent antioxidant and anti-inflammatory activities, which contribute to their therapeutic effects. By reducing inflammation, soothing the eyes, and protecting against oxidative stress, Eucalyptus globulus teas offer a natural and beneficial treatment for red eyes, promoting comfort and reducing the risk of complications associated with prolonged inflammation.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Herbal-Tea-Caffeine-Relaxer-Non-GMO/dp/B00ECOSODU",
+                "affiliate_link": "https://amzn.to/4caik3b",
+                "title": "Tiesta Tea - Palm Beach Punch | Loose Leaf | Fruit Punch Herbal Tea | Caffeine-Free Tropical Blend with Apple and Orange | Brew Hot or Iced | Resealable Pouch | 25 Cups | 2 Ounce"
+            }
+        },
+        {
+            "herb_name_scientific": "Symphytum officinale",
+            "herb_mentions": 9,
+            "herb_confidence_score": 61,
+            "herb_total_score": 549,
+            "preparation_desc": "Symphytum officinale teas have been traditionally used to treat the red eyes ailment, also known as conjunctivitis, due to their anti-inflammatory and antibacterial properties. The flavonoids and phenolic acids present in this herbal preparation help to reduce inflammation and fight off the infection causing the red eyes. These bioactive constituents also possess antioxidant properties, which help to soothe and calm the irritated eyes, promoting healing and reducing the risk of complications. Drinking Symphytum officinale teas may provide relief from the symptoms of red eyes, such as redness, itching, and discharge, and may also help to prevent future occurrences of this condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Dr-Christophers-Comfrey-Ointment-Ounce/dp/B000BNVEKQ",
+                "affiliate_link": "https://amzn.to/43d1kWZ",
+                "title": "Dr. Christopher's Comfrey Ointment, 2 Ounce, contains Organic Comfrey Leaf in a base of Beeswax and Extra Virgin Olive Oil Other Ingredients: No added Fillers or Chemicals"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 8,
+            "herb_confidence_score": 58,
+            "herb_total_score": 464,
+            "preparation_desc": "Glycyrrhiza glabra teas, derived from the roots of the licorice plant, have been traditionally used to treat the red eyes ailment, also known as conjunctivitis or pink eye. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce swelling and soothe the irritated eyes, providing relief from the discomfort and pain associated with this condition. The bioactive constituents, including glycyrrhizin and flavonoids, present in Glycyrrhiza glabra teas have been found to possess antimicrobial and anti-inflammatory effects, which help to combat the underlying infection and alleviate symptoms. By using Glycyrrhiza glabra teas, individuals can benefit from its soothing and protective properties, promoting a faster recovery and minimizing the risk of complications associated with red eyes.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 8,
+            "herb_confidence_score": 57,
+            "herb_total_score": 456,
+            "preparation_desc": "Silybum marianum teas have been traditionally used to treat the red eyes ailment, also known as conjunctivitis, due to their anti-inflammatory and antimicrobial properties. The herbal preparation helps to treat this ailment by reducing inflammation and fighting off the underlying infection that causes the redness and discharge. The bioactive constituents of Silybum marianum teas, including flavonoids and silymarin, have been found to exhibit strong antioxidant and free radical-scavenging activities, which contribute to their therapeutic effects. The benefits of using Silybum marianum teas to treat red eyes include reduced symptoms, faster recovery, and minimal side effects, making it a popular natural remedy for this common condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Vaccinium macrocarpon",
+            "herb_mentions": 9,
+            "herb_confidence_score": 57,
+            "herb_total_score": 513,
+            "preparation_desc": "Vaccinium macrocarpon teas, derived from the cranberry plant, have been traditionally used to treat the red eye ailment. The astringent and anti-inflammatory properties of this herbal preparation help to reduce inflammation and alleviate symptoms associated with this condition. The bioactive constituents present in Vaccinium macrocarpon teas, including anthocyanins and proanthocyanidins, play a crucial role in treating the red eye ailment by exerting anti-oxidant and anti-inflammatory effects. The benefits of using Vaccinium macrocarpon teas to treat the red eye ailment include reduced pain and swelling, improved vision, and a decrease in the risk of complications associated with this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 55,
+            "herb_total_score": 495,
+            "preparation_desc": "Rosmarinus officinalis teas have been traditionally used to treat red eyes, a condition characterized by inflammation and irritation of the conjunctiva, the thin membrane covering the white part of the eyes. The anti-inflammatory and antioxidant properties of this herbal preparation, particularly the presence of carnosic acid and rosmarinic acid, help to reduce inflammation and protect the eyes from oxidative damage. These bioactive constituents also possess antimicrobial properties, which can help to prevent infection and promote healing of the affected area. By consuming Rosmarinus officinalis teas, individuals can potentially alleviate red eye symptoms and enjoy the additional benefits of improved eye health and reduced risk of chronic diseases associated with oxidative stress.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Origanum vulgare",
+            "herb_mentions": 7,
+            "herb_confidence_score": 48,
+            "herb_total_score": 336,
+            "preparation_desc": "Origanum vulgare teas have been traditionally used to treat red eyes, a common symptom of conjunctivitis and other eye infections, due to their anti-inflammatory and antimicrobial properties. The bioactive constituents of this herbal preparation, including carvacrol, thymol, and rosmarinic acid, help to reduce inflammation and combat bacterial and viral infections, thereby alleviating redness and discomfort. By reducing inflammation and killing off the underlying cause of the infection, Origanum vulgare teas can help to soothe and heal the affected area, providing relief from red eyes. The benefits of using this herbal preparation include its natural and non-invasive approach, minimal side effects, and the ability to promote overall eye health and prevent future infections.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Journal of alternative and complementary medicine (New York, N.Y.)\", teas for red eyes using Euphrasia rostkoviana Hayne have been shown to be effective in reducing symptoms of redness, swelling, and burning sensations in the eye, particularly in cases of inflammatory and catarrhal conjunctivitis, with a dosage of one drop three times a day being a commonly prescribed dosage."
+}

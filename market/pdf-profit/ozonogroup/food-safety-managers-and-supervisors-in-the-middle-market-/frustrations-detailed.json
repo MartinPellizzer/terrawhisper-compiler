@@ -1,0 +1,103 @@
+{
+    "data": [
+        {
+            "method": "Spreadsheets and homegrown solutions",
+            "time": "5-15 hours per week",
+            "cost": "$2,000 - $5,000 per year",
+            "challenges": "Technical challenges: spreadsheet limitations, compatibility issues; Time-consuming: data entry, maintenance; Financial: software upgrade costs, personnel",
+            "emotions": "Frustration, anxiety, and stress when dealing with spreadsheet limitations; Fear of data loss and non-compliance",
+            "score": 9,
+            "why": "This method is still time-consuming and prone to errors, making it a significant pain point for Food Safety Managers"
+        },
+        {
+            "method": "Employee training and certification programs",
+            "time": "5-10 hours per week",
+            "cost": "$2,000 - $5,000 per program",
+            "challenges": "Financial: program costs; Time-consuming: implementing and maintaining programs; Technical challenges: software compatibility issues",
+            "emotions": "Frustration, anxiety, and stress when dealing with employee training; Fear of not having the right skills and expertise",
+            "score": 9,
+            "why": "While employee training and certification programs are essential, the financial and time-consuming nature of the process make it a significant pain point for Food Safety Managers"
+        },
+        {
+            "method": "Manual record-keeping and documentation",
+            "time": "10-20 hours per week",
+            "cost": "$5,000 - $10,000 per year",
+            "challenges": "Technical challenges: software incompatibility, data entry errors; Time-consuming: manual data entry, searching for records; Financial: paper-based records, lost or damaged documents",
+            "emotions": "Frustration, anxiety, and stress when dealing with manual record-keeping; Fear of non-compliance and regulatory fines",
+            "score": 8,
+            "why": "This method is time-consuming, costly, and prone to errors, making it a significant pain point for Food Safety Managers"
+        },
+        {
+            "method": "Internal food safety team development",
+            "time": "2-5 hours per week",
+            "cost": "$5,000 - $10,000 per year",
+            "challenges": "Financial: team development costs; Time-consuming: training and development",
+            "emotions": "Frustration, anxiety, and stress when dealing with team development; Fear of not having the right skills and expertise",
+            "score": 8,
+            "why": "While internal food safety team development is essential, the financial and time-consuming nature of the process make it a significant pain point for Food Safety Managers"
+        },
+        {
+            "method": "Food safety management software",
+            "time": "2-5 hours per week",
+            "cost": "$5,000 - $10,000 per year",
+            "challenges": "Technical challenges: software compatibility issues; Time-consuming: data entry, maintenance; Financial: software upgrade costs",
+            "emotions": "Frustration, anxiety, and stress when dealing with software limitations; Fear of data loss and non-compliance",
+            "score": 7,
+            "why": "While food safety management software can streamline processes, the technical challenges and financial costs make it a pain point for Food Safety Managers"
+        },
+        {
+            "method": "Regulatory audits and consultation",
+            "time": "2-5 hours per week",
+            "cost": "$5,000 - $10,000 per audit",
+            "challenges": "Financial: high audit costs; Time-consuming: preparing for audits; Technical challenges: understanding regulatory requirements",
+            "emotions": "Anxiety and stress when dealing with audits; Fear of non-compliance and regulatory fines",
+            "score": 6,
+            "why": "While regulatory audits are necessary, the high costs and time-consuming preparation process make it a pain point for Food Safety Managers"
+        },
+        {
+            "method": "Food safety policy and procedure development",
+            "time": "2-5 hours per week",
+            "cost": "$5,000 - $10,000 per year",
+            "challenges": "Financial: policy and procedure development costs; Time-consuming: development and implementation",
+            "emotions": "Frustration, anxiety, and stress when dealing with policy and procedure development; Fear of non-compliance and regulatory fines",
+            "score": 6,
+            "why": "While food safety policy and procedure development is essential, the financial and time-consuming nature of the process make it a moderate pain point for Food Safety Managers"
+        },
+        {
+            "method": "Self-study and online courses",
+            "time": "5-10 hours per week",
+            "cost": "$1,000 - $3,000 per course",
+            "challenges": "Time-consuming: self-study and online courses; Technical challenges: software compatibility issues",
+            "emotions": "Frustration, anxiety, and stress when dealing with new information; Fear of not keeping up with industry standards",
+            "score": 5,
+            "why": "While self-study and online courses provide flexibility, the time and financial investment required make it a moderate pain point for Food Safety Managers"
+        },
+        {
+            "method": "Industry conferences and workshops",
+            "time": "1-3 hours per week",
+            "cost": "$1,000 - $3,000 per conference",
+            "challenges": "Financial: conference costs; Time-consuming: traveling and attending conferences",
+            "emotions": "Frustration, anxiety, and stress when dealing with new information; Fear of not keeping up with industry standards",
+            "score": 4,
+            "why": "While industry conferences and workshops provide valuable information, the time and financial investment required make it a moderate pain point for Food Safety Managers"
+        },
+        {
+            "method": "Industry benchmarking and best practices",
+            "time": "1-3 hours per week",
+            "cost": "$1,000 - $3,000 per benchmarking study",
+            "challenges": "Financial: benchmarking study costs; Time-consuming: researching and implementing best practices",
+            "emotions": "Frustration, anxiety, and stress when dealing with benchmarking and best practices; Fear of not keeping up with industry standards",
+            "score": 4,
+            "why": "While industry benchmarking and best practices are essential, the financial and time-consuming nature of the process make it a mild pain point for Food Safety Managers"
+        },
+        {
+            "method": "Employee engagement and motivation programs",
+            "time": "1-3 hours per week",
+            "cost": "$1,000 - $3,000 per program",
+            "challenges": "Financial: program costs; Time-consuming: implementing and maintaining programs",
+            "emotions": "Frustration, anxiety, and stress when dealing with employee engagement; Fear of low morale and high turnover",
+            "score": 3,
+            "why": "While employee engagement and motivation programs are essential, the financial and time-consuming nature of the process make it a mild pain point for Food Safety Managers"
+        }
+    ]
+}

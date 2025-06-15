@@ -1,0 +1,24 @@
+{
+    "url": "herbs/arundo-donax",
+    "herb_slug": "arundo-donax",
+    "herb_name_scientific": "arundo donax",
+    "lastmod": "2025-5-31",
+    "benefits_num": 13,
+    "benefits_title": "13 Best Health Benefits Of Arundo Donax",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 8,
+            "confidence_score": 68,
+            "total_score": 544
+        },
+        {
+            "answer": "medicine",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 13
+}

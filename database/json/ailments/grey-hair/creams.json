@@ -1,0 +1,181 @@
+{
+    "url": "ailments/grey-hair/creams",
+    "ailment_slug": "grey-hair",
+    "ailment_name": "grey hair",
+    "preparation_slug": "creams",
+    "preparation_name": "creams",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Creams For Grey Hair",
+    "intro": "Herbal creams for Grey hair are topical products made from natural ingredients and herbs, designed to reverse or cover grey hair by stimulating melanin production in the scalp. These creams have numerous benefits, including being chemical-free, non-invasive, and promoting overall scalp health, making them a popular alternative to hair dye. Examples of herbal creams used to treat grey hair include saw palmetto cream, which blocks the conversion of testosterone to dihydrotestosterone, a hormone that can contribute to hair loss and greying; ginseng cream, which stimulates blood flow to the scalp and promotes hair growth; and ashwagandha cream, which reduces stress and promotes melanin production. Additionally, other herbs such as black pepper, rosemary, and biotin are also used in herbal creams to treat grey hair due to their ability to promote hair growth and reduce graying.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 20,
+            "herb_confidence_score": 156,
+            "herb_total_score": 3120,
+            "preparation_desc": "Curcuma longa creams have gained attention for their potential in treating grey hair, a common symptom of alopecia areata and premature aging. The properties of this herbal preparation help to treat grey hair by promoting melanogenesis, the production of melanin, which is responsible for hair color. Curcuma longa creams are rich in bioactive constituents such as curcumin, demethoxycurcumin, and bisdemethoxycurcumin, which have anti-inflammatory and antioxidant properties that help to protect hair follicles from damage and promote hair growth. The benefits of using Curcuma longa creams to treat grey hair include reducing the appearance of grey hair, promoting healthy hair growth, and improving overall scalp health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 21,
+            "herb_confidence_score": 144,
+            "herb_total_score": 3024,
+            "preparation_desc": "Rosmarinus officinalis creams, derived from the fragrant herb rosemary, have been used to treat the grey hair ailment due to its properties that promote hair growth and improve hair pigmentation. The bioactive constituents, such as carnosic acid and rosmarinic acid, in rosemary essential oil help to stimulate blood circulation to the scalp, which in turn promotes hair growth and reduces grey hair. These creams also have antioxidant properties, which help to protect the hair follicles from damage caused by free radicals, thereby promoting healthy hair growth and reducing the appearance of grey hair. By using Rosmarinus officinalis creams, individuals can benefit from a natural and effective treatment for grey hair, with the added benefits of improved circulation, reduced oxidative stress, and a healthier scalp.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 12,
+            "herb_confidence_score": 104,
+            "herb_total_score": 1248,
+            "preparation_desc": "Aloe barbadensis creams have been used for centuries to treat the grey hair ailment, which is often associated with premature aging and hormonal imbalances. The herbal preparation contains properties such as aloin, aloe-emodin, and anthraquinones, which help to promote hair growth and reduce grey hair by inhibiting the conversion of melanin to eumelanin, the pigment responsible for hair color. The bioactive constituents of Aloe barbadensis creams, including vitamins A, C, and E, as well as minerals like potassium and magnesium, help to nourish the scalp and promote healthy hair growth, reducing the appearance of grey hair. The benefits of using Aloe barbadensis creams to treat grey hair include promoting natural hair color, reducing the risk of hair loss, and improving overall scalp health, making it a popular natural remedy for this common condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 15,
+            "herb_confidence_score": 103,
+            "herb_total_score": 1545,
+            "preparation_desc": "Zingiber officinale creams, derived from the root of the ginger plant, have been traditionally used to treat the grey hair ailment. The bioactive constituents of Zingiber officinale, including gingerols and shogaols, help to stimulate hair growth and reduce the appearance of grey hair. These compounds improve blood circulation to the scalp, promoting healthy hair growth and reducing oxidative stress that can contribute to premature greying. Regular use of Zingiber officinale creams can help to reduce the appearance of grey hair, promoting a more youthful and vibrant appearance.",
+            "preparation_study": "According to \"Die Pharmazie\", Zingiber officinale creams for grey hair may have potential benefits as the compound 7,8-dimethoxycoumarin, present in Zingiber officinale, was found to increase melanin content and stimulate melanin production, which could potentially help in reducing grey hair.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 17,
+            "herb_confidence_score": 100,
+            "herb_total_score": 1700,
+            "preparation_desc": "Ginkgo biloba creams have been traditionally used to treat the grey hair ailment due to their stimulating properties that help to promote melanin production and improve circulation to the hair follicles. This herbal preparation contains bioactive constituents such as flavonoids and terpenoids, which have antioxidant and anti-inflammatory effects that help to protect the hair follicles from damage and promote healthy hair growth. The flavonoids in Ginkgo biloba creams, particularly quercetin and kaempferol, help to increase the activity of the enzyme tyrosinase, which is involved in melanin production, thereby promoting the growth of darker and thicker hair. The benefits of using Ginkgo biloba creams to treat grey hair include improved hair color, increased hair thickness, and enhanced overall hair health.",
+            "preparation_study": "According to \"Drug development and industrial pharmacy\", Ginkgo biloba creams for grey hair may not be directly discussed, however, it can be inferred that Ginkgo biloba creams may provide benefits in rejuvenating the skin and reducing wrinkles, which could potentially improve the appearance of grey hair by promoting a more youthful and healthy-looking complexion.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 13,
+            "herb_confidence_score": 93,
+            "herb_total_score": 1209,
+            "preparation_desc": "Lavandula angustifolia creams have been widely used to treat the grey hair ailment due to their potential to promote hair growth and reduce premature greying. The herbal preparation contains bioactive constituents such as linalool, linalyl acetate, and camphor, which are responsible for its therapeutic properties. These constituents help to stimulate blood flow to the scalp, reduce oxidative stress, and promote the activity of melanocytes, the cells responsible for hair pigmentation. The benefits of using Lavandula angustifolia creams include its natural and non-invasive nature, minimal side effects, and ability to promote overall hair health, making it a popular choice for individuals seeking a holistic approach to treating grey hair.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 11,
+            "herb_confidence_score": 74,
+            "herb_total_score": 814,
+            "preparation_desc": "Panax ginseng creams have been widely used to treat the grey hair ailment due to their rich content of bioactive constituents, including ginsenosides and ginsenol, which possess antioxidant and anti-inflammatory properties. These properties help to stimulate hair growth by improving blood circulation and reducing oxidative stress, thereby promoting a healthy scalp environment. The ginsenosides present in Panax ginseng creams also play a crucial role in regulating hair growth by inhibiting the conversion of testosterone to dihydrotestosterone (DHT), a hormone that contributes to hair loss. Regular use of Panax ginseng creams has been shown to promote hair growth, improve hair density, and reduce the appearance of grey hair, making it a popular herbal remedy for this common issue.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 11,
+            "herb_confidence_score": 73,
+            "herb_total_score": 803,
+            "preparation_desc": "Silybum marianum creams have been traditionally used to treat grey hair ailment due to their ability to promote melanin production and reduce oxidative stress. The herbal preparation's properties help to stimulate the growth of new hair follicles and increase the density of existing hair. Bioactive constituents such as flavonoids, alkaloids, and saponins in Silybum marianum creams help to nourish the scalp, reduce inflammation, and improve blood circulation, ultimately contributing to a reduction in grey hair. The benefits of using Silybum marianum creams to treat grey hair include a potential increase in hair growth, improved hair texture, and a reduced appearance of grey hair.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 11,
+            "herb_confidence_score": 66,
+            "herb_total_score": 726,
+            "preparation_desc": "Urtica dioica creams, derived from the plant also known as stinging nettle, have been used to treat the grey hair ailment due to its rich properties that promote hair growth and improve scalp health. The herbal preparation's ability to stimulate blood flow and reduce inflammation helps to treat this ailment by promoting a healthy scalp environment for hair growth. The bioactive constituents of Urtica dioica creams, including flavonoids and triterpenoids, are responsible for its therapeutic effects, which include antioxidant and anti-inflammatory properties that help to treat the grey hair ailment. The benefits of using Urtica dioica creams to treat grey hair include improved hair growth, reduced graying, and a healthier scalp overall, making it a popular natural remedy for hair loss and graying.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 10,
+            "herb_confidence_score": 61,
+            "herb_total_score": 610,
+            "preparation_desc": "Avena sativa creams have been traditionally used to treat the grey hair ailment, also known as premature graying, due to its rich antioxidant and anti-inflammatory properties that help to promote hair growth and reduce oxidative stress. This herbal preparation helps to treat the ailment by inhibiting the activity of tyrosinase, an enzyme that contributes to the formation of melanin, the pigment responsible for hair color. The bioactive constituents of Avena sativa creams, including avenanthramides and ferulic acid, have been found to exhibit potent antioxidant and anti-inflammatory activities that help to protect the hair follicles and promote healthy hair growth. The benefits of using Avena sativa creams to treat the grey hair ailment include promoting natural hair pigmentation, reducing the appearance of grey hair, and improving overall hair health and appearance.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 9,
+            "herb_confidence_score": 57,
+            "herb_total_score": 513,
+            "preparation_desc": "Mentha x piperita creams, derived from peppermint, have been used to treat grey hair due to their potential to stimulate hair growth and improve pigmentation. The antifungal and antibacterial properties of this herbal preparation help to treat the underlying causes of grey hair, such as scalp infections and inflammation. The bioactive constituents, including menthol and menthone, in Mentha x piperita creams contribute to their therapeutic effects by promoting blood circulation to the scalp and stimulating the hair follicles. The benefits of using Mentha x piperita creams to treat grey hair include reduced appearance of grey hair, improved scalp health, and a natural approach to hair rejuvenation.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melaleuca alternifolia",
+            "herb_mentions": 7,
+            "herb_confidence_score": 56,
+            "herb_total_score": 392,
+            "preparation_desc": "Melaleuca alternifolia creams, derived from the leaves of the tea tree, are popular natural remedies for treating grey hair. The creams contain bioactive constituents such as terpinen-4-ol, cineole, and linalool, which help to nourish and stimulate the scalp, promoting a healthy and natural hair color. These constituents work together to improve blood circulation, reduce oxidative stress, and enhance the production of melanin, the pigment responsible for hair color, thereby helping to treat grey hair. Regular use of Melaleuca alternifolia creams can result in a noticeable reduction in grey hair, promoting a more youthful and vibrant appearance.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ocimum basilicum",
+            "herb_mentions": 8,
+            "herb_confidence_score": 51,
+            "herb_total_score": 408,
+            "preparation_desc": "Ocimum basilicum creams have gained attention for their potential in treating grey hair, a condition often associated with stress, vitamin deficiencies, and hormonal imbalances. The properties of this herbal preparation, including its antioxidant and anti-inflammatory properties, help to promote hair growth and reduce the appearance of grey hair. The bioactive constituents of Ocimum basilicum creams, such as linalool and eugenol, have been shown to stimulate hair follicles and prevent premature graying by reducing oxidative stress and promoting melanin production. Regular use of Ocimum basilicum creams can lead to thicker, healthier-looking hair and a reduction in grey hair, offering a natural and non-invasive solution to this common concern.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cassia auriculata",
+            "herb_mentions": 12,
+            "herb_confidence_score": 49,
+            "herb_total_score": 588,
+            "preparation_desc": "Cassia auriculata creams have been traditionally used to treat the grey hair ailment, known as canities. This herbal preparation is believed to help treat this ailment due to its properties of promoting hair growth, improving melanin production, and reducing oxidative stress. The bioactive constituents of Cassia auriculata creams, including flavonoids and phenolic acids, are thought to contribute to its hair-darkening effects by inhibiting the activity of tyrosinase and promoting the activity of melanin enzymes. Regular use of Cassia auriculata creams has been reported to provide benefits in treating grey hair, including the reversal of hair graying, improvement in hair texture, and promotion of overall hair health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Bacopa monnieri",
+            "herb_mentions": 7,
+            "herb_confidence_score": 48,
+            "herb_total_score": 336,
+            "preparation_desc": "Bacopa monnieri creams have gained popularity as a natural remedy to address the issue of grey hair, and research suggests that this herbal preparation may help to treat this ailment due to its antioxidant and anti-inflammatory properties. The bioactive constituents of Bacopa monnieri, including bacosides and saponins, are believed to stimulate the hair follicles, promoting healthy hair growth and potentially reversing the graying process. By reducing oxidative stress and inflammation, Bacopa monnieri creams may help to slow down or even reverse the progression of grey hair, resulting in a more youthful and vibrant appearance. The benefits of using Bacopa monnieri creams to treat grey hair include a potential reduction in the frequency of hair dyeing, a decrease in the risk of hair-related health problems, and a more natural and sustainable approach to maintaining healthy and youthful-looking hair.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Santalum album",
+            "herb_mentions": 7,
+            "herb_confidence_score": 48,
+            "herb_total_score": 336,
+            "preparation_desc": "Santalum album creams, derived from the sandalwood tree, have been used to treat grey hair due to its unique properties that promote hair growth and reduce greying. The creams contain bioactive constituents such as santalol and santalenes that help to nourish and protect the hair follicles, thereby reducing the appearance of grey hair. By stimulating the hair growth and reducing oxidative stress, Santalum album creams help to treat the grey hair ailment, resulting in a reduction in the greying of hair and an overall improvement in hair health. The benefits of using Santalum album creams to treat grey hair include a natural and chemical-free approach, reduced risk of side effects, and a longer-lasting solution to this common problem.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 47,
+            "herb_total_score": 329,
+            "preparation_desc": "Hypericum perforatum creams, derived from the St. John's Wort plant, have been used to treat grey hair ailments due to their ability to promote hair growth and improve skin health. The bioactive constituents of this herbal preparation, including hyperforin and hypericin, help to treat grey hair by inhibiting the production of melanin-inhibiting hormones and promoting the growth of new hair follicles. By stimulating blood flow and reducing inflammation, Hypericum perforatum creams also help to treat grey hair by promoting a healthy scalp environment. The benefits of using Hypericum perforatum creams to treat grey hair include natural and non-invasive treatment, reduced risk of side effects, and potential long-term hair growth promotion.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Thymus serpyllum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 44,
+            "herb_total_score": 308,
+            "preparation_desc": "Thymus serpyllum creams, derived from the herb thyme, have been traditionally used to treat grey hair by stimulating hair growth and improving scalp health. This herbal preparation is rich in antioxidant and anti-inflammatory properties, which help to reduce oxidative stress and promote hair growth. The bioactive constituents of Thymus serpyllum creams, including thymol and carvacrol, possess hair growth-promoting and scalp-soothing effects, making it an effective treatment for grey hair. The benefits of using Thymus serpyllum creams to treat grey hair include improved hair density, reduced graying, and a healthier scalp, making it a popular natural remedy for hair rejuvenation.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 9,
+            "herb_confidence_score": 42,
+            "herb_total_score": 378,
+            "preparation_desc": "Glycyrrhiza glabra creams have been used as a natural remedy to treat grey hair, leveraging its anti-inflammatory and antioxidant properties to promote hair growth and reduce greying. The bioactive constituents present in these creams, including flavonoids, saponins, and glycyrrhizin, help to nourish the scalp, stimulate hair follicles, and protect against oxidative stress. By stimulating the production of melanin, the herbal preparation helps to restore natural hair pigmentation, resulting in a reduction in grey hair. The benefits of using Glycyrrhiza glabra creams to treat grey hair include a potential increase in hair growth rate, improved hair texture, and a more even hair color distribution.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 7,
+            "herb_confidence_score": 41,
+            "herb_total_score": 287,
+            "preparation_desc": "Foeniculum vulgare creams, derived from the seeds of the fennel plant, are a popular herbal remedy to treat the grey hair ailment. The properties of this herbal preparation, including its antioxidant and anti-inflammatory properties, help to treat this ailment by promoting healthy hair growth and reducing the appearance of grey hair. The bioactive constituents of Foeniculum vulgare, such as anethole and fenchone, help to treat this ailment by stimulating the hair follicles and promoting melanin production, which helps to restore natural hair color. The benefits of using Foeniculum vulgare creams to treat grey hair include a natural and non-invasive approach, minimal side effects, and a potential reduction in the appearance of grey hair.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to the study \"Drug development and industrial pharmacy\", creams for grey hair can be potentially rejuvenated and improved due to the antioxidant and rejuvenating properties of Ginkgo biloba extracts, which can help reduce wrinkles and improve skin texture."
+}

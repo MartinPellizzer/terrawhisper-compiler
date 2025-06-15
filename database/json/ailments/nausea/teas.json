@@ -1,0 +1,243 @@
+{
+    "url": "ailments/nausea/teas",
+    "ailment_slug": "nausea",
+    "ailment_name": "nausea",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 13,
+    "title": "13 Best Herbal Teas For Nausea",
+    "intro": "Herbal teas for nausea are a natural and holistic approach to alleviating symptoms of nausea, characterized by the consumption of plant-based infusions to soothe the digestive system and calm the mind. The benefits of using herbal teas to treat nausea include their ability to reduce inflammation, ease stomach discomfort, and promote relaxation, making them an excellent alternative to traditional medications. Various herbal teas, such as Ginger tea, which is known for its anti-inflammatory properties and ability to settle the stomach, Peppermint tea, which helps to calm the digestive system and reduce nausea, and Fennel tea, which aids in digestion and relieves cramps, have been traditionally used to treat nausea. Additionally, other herbal teas like Chamomile tea, Licorice root tea, and Lemon balm tea, have also been found to be effective in treating nausea due to their calming effects and ability to soothe the stomach.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 19,
+            "herb_confidence_score": 172,
+            "herb_total_score": 3268,
+            "preparation_desc": "Zingiber officinale teas, derived from the ginger root, have been widely used to treat nausea and its associated symptoms due to its anti-inflammatory and anti-emetic properties. The bioactive constituents present in ginger, such as gingerols and shogaols, help to alleviate nausea by inhibiting the activity of neurotransmitters that trigger vomiting. These compounds, particularly 6-gingerol, have been shown to have a positive effect on the gastrointestinal system, reducing inflammation and improving digestion, which in turn helps to alleviate nausea. Regular consumption of Zingiber officinale teas has been found to provide relief from nausea and its associated symptoms, making it a popular herbal remedy for those experiencing morning sickness, motion sickness, and other forms of nausea.",
+            "preparation_study": "According to the British journal of anaesthesia, Zingiber officinale teas for nausea show some evidence to be beneficial, particularly in postoperative nausea and vomiting, with two studies suggesting that ginger is superior to placebo and equally effective as metoclopramide.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 19,
+            "herb_confidence_score": 141,
+            "herb_total_score": 2679,
+            "preparation_desc": "Foeniculum vulgare teas, also known as fennel tea, have been traditionally used to treat nausea and its associated symptoms. The anise-flavored herbal preparation helps to treat nausea by reducing inflammation, relieving digestive discomfort, and promoting relaxation. The bioactive constituents of fennel tea, including anethole, fenchone, and limonene, have been identified as key contributors to its anti-emetic properties, which help to alleviate nausea. The benefits of using fennel tea to treat nausea include its safety profile, ease of preparation, and potential cost-effectiveness, making it a popular natural remedy for managing nausea symptoms.",
+            "preparation_study": "According to \"Oxidative medicine and cellular longevity\", Foeniculum vulgare teas have been found to be effective in treating nausea due to its antispasmodic properties which help in relaxing smooth muscles in the gastrointestinal tract.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/HANDPICK-Caffeine-Natural-Premium-Eco-Conscious/dp/B0BFHKDK88",
+                "affiliate_link": "https://amzn.to/42bRtPt",
+                "title": "HANDPICK, Fennel Tea Bags (100 Herbal Tea Bags) Caffeine Free, Gluten Free & Non GMO | Round Eco Conscious Teabags | Smooth & Sweet"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 18,
+            "herb_confidence_score": 136,
+            "herb_total_score": 2448,
+            "preparation_desc": "Glycyrrhiza glabra teas, derived from the root of the licorice plant, have been traditionally used to treat nausea and other gastrointestinal issues due to their anti-inflammatory and antispasmodic properties. The bioactive constituents, including glycyrrhizin, flavonoids, and saponins, help to calm the stomach, reduce nausea, and alleviate vomiting. By inhibiting the release of gastric acid and relaxing the smooth muscle in the digestive tract, these teas provide relief from nausea and other symptoms associated with gastrointestinal disorders. The benefits of using Glycyrrhiza glabra teas to treat nausea include reduced symptoms, improved digestion, and a decrease in the risk of complications from prolonged nausea.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 18,
+            "herb_confidence_score": 132,
+            "herb_total_score": 2376,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat nausea due to their anti-inflammatory and antioxidant properties. The bioactive constituents, including flavonoids and terpenoids, help to stabilize mast cells and reduce histamine release, thereby alleviating nausea symptoms. Ginkgo biloba teas also exhibit a relaxing effect on the smooth muscle, which can help to soothe digestive issues and alleviate nausea. The benefits of using ginkgo biloba teas to treat nausea include reduced frequency and severity of episodes, improved overall digestive health, and a decreased risk of nausea-related complications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 14,
+            "herb_confidence_score": 108,
+            "herb_total_score": 1512,
+            "preparation_desc": "Mentha x piperita teas, also known as peppermint tea, have been traditionally used to treat nausea due to their anti-inflammatory and carminative properties. The menthol and menthone present in peppermint tea help to relax the muscles in the stomach and reduce nausea by blocking the action of the neurotransmitter serotonin, which is responsible for triggering nausea. The bioactive constituents of peppermint tea, including limonene and linalool, have been shown to have a sedative effect on the stomach and help to alleviate nausea. Drinking peppermint tea can provide relief from nausea and its associated symptoms, making it a popular natural remedy for nausea and indigestion.",
+            "preparation_study": "According to \"Phytotherapy research : PTR\", Mentha x piperita teas for nausea may have potential antiemetic effects due to its 5-HT antagonist activity.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 16,
+            "herb_confidence_score": 107,
+            "herb_total_score": 1712,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat nausea due to their unique properties that help alleviate the symptoms. The alkaloids present in this herbal preparation, particularly quinine, help to reduce nausea by exerting a direct effect on the stomach and intestines, thereby aiding in digestion and alleviating discomfort. The bioactive constituents, including quinine, quinidine, and cinchonine, work together to relax the smooth muscles and reduce inflammation in the digestive tract, providing relief from nausea and vomiting. The benefits of using Cinchona officinalis teas to treat nausea include their natural and non-invasive approach, making them an attractive alternative to pharmaceutical medications for those seeking a holistic solution.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 16,
+            "herb_confidence_score": 100,
+            "herb_total_score": 1600,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to treat nausea due to their anti-inflammatory and sedative properties, which help to soothe the digestive system and promote relaxation. The bioactive constituents present in this herbal preparation, such as linalool and linalyl acetate, possess a calming effect on the nervous system, thereby alleviating nausea and vomiting. The benefits of using Lavandula angustifolia teas to treat nausea include reduced inflammation, improved digestion, and a decrease in anxiety levels. By consuming these teas, individuals can experience relief from nausea and its associated symptoms, making it a natural remedy for those seeking a non-pharmacological approach to managing this common ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 11,
+            "herb_confidence_score": 80,
+            "herb_total_score": 880,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been traditionally used to treat nausea and its associated symptoms. The anti-inflammatory and antioxidant properties of this herbal preparation help to soothe the stomach and alleviate nausea. The bioactive constituents of Silybum marianum, including silymarin and flavonoids, have been shown to have hepatoprotective and anti-inflammatory effects, which contribute to its ability to treat nausea. Regular consumption of Silybum marianum tea has been found to provide relief from nausea, improve digestion, and promote overall well-being, making it a popular natural remedy for this common ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinnamomum verum",
+            "herb_mentions": 10,
+            "herb_confidence_score": 79,
+            "herb_total_score": 790,
+            "preparation_desc": "Cinnamomum verum teas have been traditionally used to alleviate nausea due to their anti-inflammatory and carminative properties. These properties help to reduce inflammation in the stomach, alleviate cramping, and ease digestive discomfort, ultimately providing relief from nausea. The bioactive constituents present in Cinnamomum verum teas, including cinnamaldehyde and eugenol, exhibit analgesic and anti-inflammatory activities that contribute to their nausea-relieving effects. The benefits of using Cinnamomum verum teas to treat nausea include their ability to promote digestion, alleviate stomach discomfort, and provide a natural, non-invasive treatment option for nausea sufferers.",
+            "preparation_study": "According to \"Urologie (Heidelberg, Germany)\", Cinnamomum verum teas may be used to alleviate nausea, with guideline recommendations suggesting its potential effectiveness.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Celestial-Seasonings-Herbal-Cinnamon-Apple/dp/B000E65OII",
+                "affiliate_link": "https://amzn.to/3G3S3aR",
+                "title": "Celestial Seasonings Cinnamon Apple Spice Herbal Tea, Caffeine Free, 20 Tea Bags Box (Pack of 6)"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 12,
+            "herb_confidence_score": 76,
+            "herb_total_score": 912,
+            "preparation_desc": "Rosmarinus officinalis teas have been traditionally used to treat nausea, leveraging their anti-inflammatory and carminative properties to alleviate digestive discomfort. The bioactive constituents present in these teas, including rosmarinic acid and camphor, help to relax the muscles in the stomach, reduce inflammation, and ease nausea. By promoting digestion and soothing the stomach lining, Rosmarinus officinalis teas help to treat nausea, making them a popular herbal remedy for morning sickness, motion sickness, and other digestive issues. The benefits of using Rosmarinus officinalis teas to treat nausea include reduced symptoms, improved digestion, and a natural, non-invasive approach to managing this common ailment.",
+            "preparation_study": "According to the study, Rosmarinus officinalis teas for nausea may have potential benefits due to its phytochemicals, such as flavonoids, which may help alleviate digestive issues and alleviate pain and discomfort in patients.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 76,
+            "herb_total_score": 684,
+            "preparation_desc": "Valeriana officinalis teas have been traditionally used to treat nausea, a common symptom associated with various health conditions. This herbal preparation contains valerenic acid, isovaleric acid, and valepotriates, which contribute to its sedative and anti-inflammatory properties, helping to alleviate nausea. The bioactive constituents in Valeriana officinalis teas, including isovaleric acid, are believed to interact with the body's neurotransmitters, such as GABA, to reduce anxiety and promote relaxation, thus providing relief from nausea. The benefits of Valeriana officinalis teas in treating nausea include promoting a sense of calm, reducing anxiety, and providing natural relief from nausea without the side effects associated with pharmaceutical medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Piper nigrum",
+            "herb_mentions": 9,
+            "herb_confidence_score": 70,
+            "herb_total_score": 630,
+            "preparation_desc": "Piper nigrum teas, derived from the berries of the black pepper plant, have been traditionally used to treat nausea and its associated symptoms. The bioactive constituents, including piperine, limonene, and beta-caryophyllene, in these teas exhibit anti-inflammatory, antioxidant, and antiemetic properties that help alleviate nausea. The analgesic and sedative effects of piperine, a primary compound found in Piper nigrum, contribute to its effectiveness in treating nausea by reducing inflammation and promoting relaxation. The benefits of using Piper nigrum teas to treat nausea include a reduction in symptoms, improved digestion, and a decrease in the risk of complications associated with prolonged nausea.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Citrus reticulata",
+            "herb_mentions": 9,
+            "herb_confidence_score": 69,
+            "herb_total_score": 621,
+            "preparation_desc": "Citrus reticulata teas, derived from the peel of the mandarin orange, have been traditionally used to treat nausea, particularly in cases of motion sickness and morning sickness during pregnancy. The anti-inflammatory and antioxidant properties of this herbal preparation help to alleviate nausea by reducing inflammation in the digestive tract and protecting the body against free radicals. The bioactive constituents, including limonoids and flavonoids, in Citrus reticulata teas may help to treat nausea by modulating the gut-brain axis and reducing the release of nausea-inducing neurotransmitters. Regular consumption of Citrus reticulata teas has been associated with various benefits, including reduced symptoms of nausea, improved digestion, and enhanced overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 9,
+            "herb_confidence_score": 65,
+            "herb_total_score": 585,
+            "preparation_desc": "Passiflora incarnata teas have been traditionally used to treat nausea and its associated symptoms due to their sedative and anti-inflammatory properties. The herbal preparation helps to treat nausea by promoting relaxation and reducing anxiety, which can often be the root cause of nausea. The bioactive constituents present in Passiflora incarnata teas, such as flavonoids and alkaloids, are responsible for its therapeutic effects, including acting as a GABA receptor agonist to calm the nervous system. By consuming Passiflora incarnata teas, individuals can benefit from its natural ability to alleviate nausea and promote a sense of well-being, making it a popular herbal remedy for those experiencing nausea and vomiting.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Certified-Wrapped/dp/B000YTCSLQ",
+                "affiliate_link": "https://amzn.to/3FU2zS4",
+                "title": "Traditional Medicinals Organic Nighty Night with Passionflower Herbal Tea, Promotes a Good Night\u2019s Sleep, (Pack of 1) - 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Matricaria chamomilla",
+            "herb_mentions": 8,
+            "herb_confidence_score": 63,
+            "herb_total_score": 504,
+            "preparation_desc": "Matricaria chamomilla teas have been traditionally used to treat nausea, a common ailment caused by various factors such as motion sickness, morning sickness during pregnancy, and food poisoning. The anti-inflammatory and antispasmodic properties of Matricaria chamomilla teas help to soothe the digestive system and alleviate nausea symptoms by reducing inflammation and relaxing the stomach muscles. The bioactive constituents of Matricaria chamomilla teas, including apigenin, luteolin, and chamazulene, contribute to its therapeutic effects by modulating the gut-brain axis and reducing inflammation, which in turn helps to alleviate nausea. The benefits of using Matricaria chamomilla teas to treat nausea include its gentle and non-habit-forming nature, making it a popular choice for pregnant women and individuals with sensitive stomachs.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cymbopogon citratus",
+            "herb_mentions": 8,
+            "herb_confidence_score": 63,
+            "herb_total_score": 504,
+            "preparation_desc": "Cymbopogon citratus teas, also known as lemongrass tea, have been traditionally used to treat nausea and its associated symptoms. The anti-inflammatory and carminative properties of this herbal preparation help to soothe the stomach and alleviate nausea, making it a popular remedy for digestive issues. The bioactive constituents, including citral and geraniol, present in lemongrass tea have been found to have a calming effect on the stomach, reducing nausea and promoting relaxation. By consuming Cymbopogon citratus teas, individuals can experience relief from nausea and its associated symptoms, making it a natural and effective treatment option.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/4ideKqe",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Artemisia absinthium",
+            "herb_mentions": 11,
+            "herb_confidence_score": 62,
+            "herb_total_score": 682,
+            "preparation_desc": "Artemisia absinthium teas, made from the leaves of the wormwood plant, have been traditionally used to treat nausea. The herbal preparation's calming and anti-inflammatory properties help to ease stomach discomfort and reduce nausea symptoms. The bioactive constituents present in Artemisia absinthium teas, including thujone, camphor, and borneol, contribute to their antiemetic and antispasmodic effects, which help to alleviate nausea and vomiting. The benefits of using Artemisia absinthium teas to treat nausea include their potential to reduce stomach inflammation, soothe digestive issues, and promote relaxation, making them a natural remedy for those experiencing nausea and other stomach-related problems.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 7,
+            "herb_confidence_score": 58,
+            "herb_total_score": 406,
+            "preparation_desc": "Curcuma longa teas have been traditionally used to treat nausea, particularly in cases of morning sickness during pregnancy, motion sickness, and chemotherapy-induced nausea. The anti-inflammatory and antioxidant properties of Curcuma longa teas help to alleviate nausea by reducing inflammation in the stomach and promoting a sense of calm. The bioactive constituents of Curcuma longa teas, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, have been shown to inhibit the production of pro-inflammatory enzymes and neurotransmitters that contribute to nausea. Regular consumption of Curcuma longa teas may provide relief from nausea and its associated symptoms, making it a beneficial herbal remedy for those experiencing this ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 57,
+            "herb_total_score": 456,
+            "preparation_desc": "Melissa officinalis teas have been traditionally used to treat nausea ailments due to their carminative and anti-inflammatory properties. The bioactive constituents such as linalool and linalyl acetate in Melissa officinalis teas help to soothe the digestive system and reduce nausea symptoms. These herbal preparations work by calming the stomach and relieving spasms, which in turn helps to alleviate nausea and vomiting. The benefits of using Melissa officinalis teas to treat nausea include their gentle and non-addictive nature, making them a popular choice for people seeking a natural remedy for this common ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Elettaria cardamomum",
+            "herb_mentions": 8,
+            "herb_confidence_score": 56,
+            "herb_total_score": 448,
+            "preparation_desc": "Elettaria cardamomum teas have been traditionally used to treat nausea ailments due to their carminative and antiemetic properties. The bioactive constituents of Elettaria cardamomum, such as limonene, camphene, and linalool, help to reduce nausea by relaxing the stomach muscles and reducing inflammation. Drinking Elettaria cardamomum teas can provide relief from nausea by promoting digestion, reducing bloating, and calming the nervous system. The benefits of Elettaria cardamomum teas in treating nausea include reduced symptoms of morning sickness, alleviated chemotherapy-induced nausea, and improved overall well-being.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"British journal of anaesthesia\", teas for nausea may be effective in alleviating symptoms, particularly ginger tea which was shown to be superior to placebo or equally effective as metoclopramide in some studies."
+}

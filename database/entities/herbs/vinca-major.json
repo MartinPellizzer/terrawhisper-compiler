@@ -1,0 +1,24 @@
+{
+    "url": "herbs/vinca-major",
+    "herb_slug": "vinca-major",
+    "herb_name_scientific": "vinca major",
+    "lastmod": "2025-5-31",
+    "benefits_num": 13,
+    "benefits_title": "13 Best Health Benefits Of Vinca Major",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 9,
+            "confidence_score": 81,
+            "total_score": 729
+        },
+        {
+            "answer": "medicine",
+            "mentions": 1,
+            "confidence_score": 9,
+            "total_score": 9
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 9
+}

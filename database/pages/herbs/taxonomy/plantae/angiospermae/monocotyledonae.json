@@ -1,0 +1,15 @@
+{
+    "title": "monocotyledonae",
+    "lastmod": "2025-2-22",
+    "intro": "Monocotyledonae is a taxonomical rank that refers to a group of flowering plants that have one cotyledon or seed leaf in their seeds. This characteristic distinguishes them from dicotyledonous plants, which have two cotyledons. The monocotyledonae rank includes various divisions such as Commelinidae, which comprises grasses and their allies, and Rosidae, which includes a wide range of flowering plants, including roses and many types of trees and shrubs. Another example is the division Asteridae, which includes plants such as sunflowers and daisies.",
+    "subclasses": [
+        {
+            "subclass_slug": "commelinidae",
+            "subclass_desc": "Commelinidae is a subclass of monocot flowering plants that includes families such as Commelinaceae and Mayacaceae, commonly known as spiderworts and water hyacinths, among others."
+        },
+        {
+            "subclass_slug": "nymphaeidae",
+            "subclass_desc": "Nymphaeidae is a suborder of flowering plants commonly known as water lilies, characterized by their large, flat leaves and showy flowers."
+        }
+    ]
+}

@@ -1,0 +1,249 @@
+{
+    "url": "ailments/colds/teas",
+    "ailment_slug": "colds",
+    "ailment_name": "colds",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Teas For Colds",
+    "intro": "Herbal teas for Colds are a natural and effective way to alleviate the symptoms of colds and flu, defined as teas made from the leaves, flowers, roots, or fruits of various plants, used to promote recovery and well-being. These teas are beneficial in treating colds as they provide antioxidants, anti-inflammatory properties, and immune-boosting compounds that help to soothe a sore throat, reduce congestion, and ease body aches. Some examples of herbal teas that can be used to treat colds include Peppermint tea, which helps to clear nasal congestion, Echinacea tea, which boosts the immune system, Ginger tea, which reduces inflammation and soothes a sore throat, and Lemon and Honey tea, which provides a soothing and calming effect. Additionally, other herbal teas such as Thyme, Sage, and Slippery Elm can also be used to treat colds, as they possess antimicrobial and anti-inflammatory properties that help to fight off infections and promote healing.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 20,
+            "herb_confidence_score": 178,
+            "herb_total_score": 3560,
+            "preparation_desc": "Eucalyptus globulus teas have been traditionally used to treat colds and respiratory issues, thanks to their decongestant, anti-inflammatory, and expectorant properties. The main bioactive constituents responsible for these effects are eucalyptol, limonene, and alpha-pinene, which help to reduce congestion, ease coughs, and promote the clearance of mucus from the airways. By inhaling the vapors or drinking the tea, the herbal preparation helps to relieve symptoms of colds, such as runny nose, sore throat, and fatigue, allowing the body to recover more quickly. The benefits of using Eucalyptus globulus teas to treat colds include reduced severity and duration of symptoms, improved respiratory function, and a boost to the immune system.",
+            "preparation_study": "According to \"Acta oto-laryngologica\", Eucalyptus globulus teas for colds may provide relief by stimulating cold receptors in the nose, even though they do not decrease nasal resistance to airflow.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Herbal-Tea-Caffeine-Relaxer-Non-GMO/dp/B00ECOSODU",
+                "affiliate_link": "https://amzn.to/4caik3b",
+                "title": "Tiesta Tea - Palm Beach Punch | Loose Leaf | Fruit Punch Herbal Tea | Caffeine-Free Tropical Blend with Apple and Orange | Brew Hot or Iced | Resealable Pouch | 25 Cups | 2 Ounce"
+            }
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 20,
+            "herb_confidence_score": 176,
+            "herb_total_score": 3520,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to treat colds and flu due to their immunomodulatory and anti-inflammatory properties, which help to boost the body's immune system and reduce the severity of symptoms. This herbal preparation works by stimulating the production of white blood cells, which fight off infections, and reducing the production of pro-inflammatory cytokines, which exacerbate the symptoms of a cold. The bioactive constituents of Echinacea purpurea teas, including alkylamides, glycosides, and phenolic acids, contribute to their therapeutic effects, with alkylamides being particularly effective at stimulating the immune system. The benefits of using Echinacea purpurea teas to treat colds and flu include reduced symptom duration, improved immune function, and enhanced overall well-being.",
+            "preparation_study": "According to the scientific study, Echinacea purpurea teas for colds have been shown to be effective in reducing the total number of cold episodes, the number of days with colds, and the number of cold episodes requiring additional medication over a 4-month duration.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 21,
+            "herb_confidence_score": 165,
+            "herb_total_score": 3465,
+            "preparation_desc": "Sambucus nigra teas have been traditionally used to treat colds and flu due to their anti-inflammatory and antimicrobial properties, which help to soothe a sore throat and reduce fever. The herbal preparation contains bioactive constituents such as flavonoids, phenolic acids, and glycosides, which exhibit antiviral and immunomodulatory activities that aid in the treatment of colds and flu. These bioactive constituents help to boost the immune system, reduce inflammation, and combat viral infections, making Sambucus nigra teas a popular natural remedy for colds and flu. The benefits of using Sambucus nigra teas to treat colds and flu include reduced symptoms, faster recovery, and improved overall well-being.",
+            "preparation_study": "According to Phytotherapy Research: PTR, Sambucus nigra teas for colds may offer some protection and alleviation of disease symptoms due to its immunomodulatory, immunostimulatory, and anti-inflammatory effects.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Elderberry-Eco-Conscious-Kraft-FGO/dp/B09HDFQ4JX",
+                "affiliate_link": "https://amzn.to/42aR3ZN",
+                "title": "FGO Organic Elderberry Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealabel Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 19,
+            "herb_confidence_score": 158,
+            "herb_total_score": 3002,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger tea, have been traditionally used to treat colds and alleviate associated symptoms. The properties of this herbal preparation, including its anti-inflammatory and expectorant properties, help to treat this ailment by reducing congestion and relieving coughs. The bioactive constituents of ginger tea, such as gingerols and shogaols, possess antimicrobial and antiviral properties that help to combat the underlying causes of colds. The benefits of consuming ginger tea to treat colds include reduced severity and duration of symptoms, improved respiratory function, and enhanced immune system function.",
+            "preparation_study": "According to \"Journal of agriculture and food research\", Zingiber officinale teas for colds have been found to have excellent antioxidant, anti-inflammatory, and immunostimulatory properties due to bioactive compounds such as gingerol, paradol, shogaol, which can aid in lowering the risk of severe cold symptoms.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 20,
+            "herb_confidence_score": 149,
+            "herb_total_score": 2980,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat the common cold due to their antimicrobial, anti-inflammatory, and antioxidant properties, which help to combat the underlying causes of the illness. The bioactive constituents of Ginkgo biloba, such as flavonoids and bilobalide, have been shown to possess immunomodulatory effects, which aid in enhancing the body's natural defenses against the cold virus. By reducing inflammation and modulating the immune response, Ginkgo biloba teas can help to alleviate symptoms such as congestion, coughing, and sore throats associated with the common cold. The benefits of using Ginkgo biloba teas to treat the cold include reduced duration and severity of symptoms, as well as a lower risk of complications and improved overall health and well-being.",
+            "preparation_study": "According to \"Pharmaceuticals (Basel, Switzerland)\", Ginkgo biloba teas for colds may be used as complementary therapy or self-treatment due to recent scientific advances demonstrating the plant's efficiency in treating the common cold.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_mentions": 17,
+            "herb_confidence_score": 133,
+            "herb_total_score": 2261,
+            "preparation_desc": "Thymus vulgaris teas, also known as thyme tea, have been used to treat the common cold and its symptoms due to their decongestant, antibacterial, and anti-inflammatory properties. The bioactive constituents, including thymol and carvacrol, help to break down mucus and reduce congestion, while also fighting off the underlying infection that causes the cold. Thymus vulgaris teas also contain antioxidants that help to combat free radicals and reduce inflammation in the body, making it easier to recover from the cold. The benefits of using thymus vulgaris teas to treat the common cold include its ability to reduce coughing, relieve sinus pressure, and promote a faster recovery.",
+            "preparation_study": "According to \"Pharmaceuticals (Basel, Switzerland)\", Thymus vulgaris teas for colds have been demonstrated to be an effective treatment option, particularly when used as a complementary self-treatment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Throat-Coat/dp/B000SR62ZC",
+                "affiliate_link": "https://amzn.to/3FRzx5k",
+                "title": "Traditional Medicinals Tea, Organic Throat Coat, Supports Throat Health, 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Echinacea angustifolia",
+            "herb_mentions": 15,
+            "herb_confidence_score": 131,
+            "herb_total_score": 1965,
+            "preparation_desc": "Echinacea angustifolia teas have been traditionally used to treat colds due to their anti-inflammatory and immunomodulatory properties, which help to boost the immune system and alleviate symptoms such as congestion and sore throat. The bioactive constituents present in this herbal preparation, including alkylamides, caffeic acid derivatives, and polysaccharides, work together to stimulate the production of white blood cells and activate immune cells, thereby helping to fight off infections. The benefits of using Echinacea angustifolia teas to treat colds include reduced severity and duration of symptoms, improved immune function, and enhanced overall well-being. By incorporating Echinacea angustifolia teas into one's regimen, individuals can take advantage of its natural remedies to alleviate the discomfort and misery associated with colds.",
+            "preparation_study": "According to \"The Cochrane database of systematic reviews\", Echinacea angustifolia teas for colds may be beneficial as some preparations containing Echinacea were found to be better than placebo, although there is not enough evidence to recommend a specific product.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3RQgECK",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 20,
+            "herb_confidence_score": 131,
+            "herb_total_score": 2620,
+            "preparation_desc": "Lavandula angustifolia teas, also known as English lavender tea, have been traditionally used to treat colds due to their soothing and antiviral properties. The bioactive constituents, including linalool and linalyl acetate, in this herbal preparation help to combat the symptoms of colds by reducing inflammation, fighting viral infections, and promoting relaxation. This herbal preparation helps to treat colds by alleviating congestion, relieving coughs, and supporting the immune system, ultimately leading to a faster recovery. The benefits of using Lavandula angustifolia teas to treat colds include reduced symptoms, improved sleep quality, and a decrease in the duration of illness, making it a popular natural remedy for this common ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 17,
+            "herb_confidence_score": 113,
+            "herb_total_score": 1921,
+            "preparation_desc": "Rosmarinus officinalis teas have been used for centuries as a natural remedy to treat colds, leveraging its antimicrobial and anti-inflammatory properties to help alleviate symptoms. The bioactive constituents, including rosmarinic acid, carnosic acid, and camphor, in this herbal preparation work synergistically to help combat the underlying causes of colds, such as viral infections and inflammation. By consuming Rosmarinus officinalis teas, individuals can experience relief from cold symptoms, including congestion, cough, and fatigue, as well as a reduction in the severity and duration of the illness. The benefits of using Rosmarinus officinalis teas to treat colds include a natural and non-invasive approach, reduced reliance on over-the-counter medications, and a boost to the immune system, promoting overall well-being and health.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 16,
+            "herb_confidence_score": 102,
+            "herb_total_score": 1632,
+            "preparation_desc": "Glycyrrhiza glabra teas, also known as licorice root teas, have been traditionally used to treat colds and flu due to their anti-inflammatory and expectorant properties. The bioactive constituents of Glycyrrhiza glabra, including glycyrrhizin, flavonoids, and saponins, help to thin mucus and relieve congestion, making it easier to expel phlegm and reduce coughing. This herbal preparation also possesses antimicrobial properties, which help to combat infections and speed up the recovery process. The benefits of using Glycyrrhiza glabra teas to treat colds include reducing the severity and duration of symptoms, promoting relaxation and reducing stress, and providing a natural and holistic approach to healing.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 15,
+            "herb_confidence_score": 96,
+            "herb_total_score": 1440,
+            "preparation_desc": "Achillea millefolium teas, also known as yarrow tea, have been traditionally used to treat colds and alleviate associated symptoms due to their anti-inflammatory, antiviral, and antimicrobial properties. The herbal preparation helps to treat this ailment by reducing fever, relieving congestion, and soothing a sore throat. The bioactive constituents of yarrow tea, including flavonoids, phenolic acids, and sesquiterpene lactones, contribute to its therapeutic effects by inhibiting the growth of viral and bacterial pathogens. The benefits of using yarrow tea to treat colds include its ability to boost the immune system, reduce the severity and duration of symptoms, and promote overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Soursop-Leaves-Bags-Teabags/dp/B0C69P5FV9",
+                "affiliate_link": "https://amzn.to/4i1QY0D",
+                "title": "FullChea- Soursop Leaves Tea Bags, 40 Teabags, 1.5g/Bag - Premium Soursop Graviola Leaves Tea - Hojas De Guanabana Tea - Non-GMO - Caffeine-Free - Improve Digestion, Support Healthy Skin & Sleep"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 94,
+            "herb_total_score": 1222,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat the common cold due to their anti-inflammatory and antipyretic properties, which help to reduce fever and alleviate symptoms. The bioactive constituents of Cinchona officinalis, including alkaloids such as quinine and cinchonine, exhibit analgesic and antiplatelet activities that aid in relieving pain and inflammation associated with the cold. These herbal preparations help to treat the cold by promoting sweating, which allows the body to expel the infection, and by reducing the severity of symptoms such as coughing and sore throat. The benefits of Cinchona officinalis teas in treating the cold include rapid relief from symptoms, reduced risk of complications, and a gentle, non-invasive approach that promotes overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 71,
+            "herb_total_score": 710,
+            "preparation_desc": "Melissa officinalis teas have been traditionally used to treat colds due to their antiviral, antimicrobial, and anti-inflammatory properties, which help to alleviate symptoms and support the immune system. These teas contain bioactive constituents such as citral, geranial, and linalool, which exhibit antiviral activity against the rhinovirus, a common cause of colds, thereby helping to reduce the severity and duration of the illness. The consumption of Melissa officinalis teas also promotes relaxation and reduces stress levels, which is beneficial in managing the emotional and physical symptoms associated with colds. Overall, Melissa officinalis teas offer a natural and holistic approach to treating colds, with benefits including reduced inflammation, improved respiratory health, and enhanced immune function.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 66,
+            "herb_total_score": 594,
+            "preparation_desc": "Salvia officinalis teas are a traditional herbal remedy used to treat colds, leveraging its decongestant and anti-inflammatory properties to alleviate symptoms. The herbal preparation helps to treat colds by relieving congestion, reducing fever, and soothing sore throats. The bioactive constituents of Salvia officinalis teas, including rosmarinic acid, carnosic acid, and ursolic acid, possess antioxidant and antimicrobial properties that contribute to its therapeutic effects. The benefits of using Salvia officinalis teas to treat colds include a reduction in the severity and duration of symptoms, as well as a natural and non-invasive approach to managing respiratory issues.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Taylors-Harrogate-Green-Jasmine-Teabags/dp/B000MN69CS",
+                "affiliate_link": "https://amzn.to/4iXf0ei",
+                "title": "Taylors of Harrogate Green Tea with Jasmine, 50 Teabags"
+            }
+        },
+        {
+            "herb_name_scientific": "Hydrastis canadensis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 51,
+            "herb_total_score": 408,
+            "preparation_desc": "Hydrastis canadensis teas, also known as goldenseal, have been used for centuries to treat various health issues, including colds and respiratory infections. The properties of this herbal preparation that help to treat the colds ailment include its antimicrobial, anti-inflammatory, and antiviral properties, which help to combat bacterial and viral infections. The bioactive constituents of goldenseal, such as berberine, hydrastine, and canadine, work together to reduce inflammation, alleviate congestion, and boost the immune system, ultimately helping to alleviate symptoms of the cold. The benefits of using goldenseal teas to treat the colds ailment include reduced duration and severity of symptoms, improved respiratory function, and a lower risk of complications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 11,
+            "herb_confidence_score": 50,
+            "herb_total_score": 550,
+            "preparation_desc": "Taraxacum officinale teas, also known as dandelion tea, have been traditionally used to treat colds and flu due to their antimicrobial and anti-inflammatory properties. The bioactive constituents present in dandelion tea, such as flavonoids, phenolic acids, and terpenoids, help to boost the immune system, reduce congestion, and alleviate symptoms associated with colds. The flavonoids in dandelion tea, in particular, have been shown to possess antioxidant and anti-inflammatory activities, which can help to combat the underlying infection and alleviate symptoms such as cough, sore throat, and fatigue. Drinking dandelion tea can also help to loosen and clear mucus from the respiratory tract, making it an effective natural remedy for treating colds and flu.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Roasted-Dandelion-Eco-Conscious-FGO/dp/B07Z7FTFNX",
+                "affiliate_link": "https://amzn.to/4j70AbI",
+                "title": "FGO Organic Roasted Dandelion Root Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 45,
+            "herb_total_score": 315,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle teas, have been traditionally used to treat colds due to their anti-inflammatory and immunomodulatory properties. These teas help to treat the colds ailment by reducing inflammation and congestion in the respiratory tract, and by boosting the body's immune system to fight off infections. The bioactive constituents of Silybum marianum teas, including flavonoids, silymarin, and silibinin, have been shown to have antiviral and antimicrobial properties, which help to combat the underlying viral and bacterial causes of colds. The benefits of using Silybum marianum teas to treat colds include reduced severity and duration of symptoms, improved respiratory function, and a faster recovery time, making it a popular natural remedy for this common illness.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 5,
+            "herb_confidence_score": 41,
+            "herb_total_score": 205,
+            "preparation_desc": "Mentha x piperita teas, also known as peppermint tea, have been traditionally used to treat colds due to their decongestant, anti-inflammatory, and antiviral properties. The bioactive constituents, including menthol, menthone, and limonene, help to relieve congestion, soothe sore throats, and reduce fever, thereby alleviating the symptoms of colds. By promoting drainage of mucus and reducing inflammation, peppermint tea helps to ease respiratory issues and facilitate the recovery process. The benefits of peppermint tea in treating colds include its ease of preparation, affordability, and the absence of harsh chemicals, making it a popular choice for natural cold relief.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea pallida",
+            "herb_mentions": 4,
+            "herb_confidence_score": 35,
+            "herb_total_score": 140,
+            "preparation_desc": "Echinacea pallida teas have been traditionally used to treat colds due to their immunomodulatory and anti-inflammatory properties. These herbal preparations help to treat colds by stimulating the immune system, reducing inflammation, and combating oxidative stress, thereby alleviating symptoms such as congestion and fatigue. The bioactive constituents of Echinacea pallida teas, including alkylamides, caffeic acid derivatives, and glycoproteins, contribute to their therapeutic effects by activating immune cells and inhibiting the production of pro-inflammatory cytokines. The benefits of using Echinacea pallida teas to treat colds include reduced duration and severity of symptoms, improved immune function, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 5,
+            "herb_confidence_score": 32,
+            "herb_total_score": 160,
+            "preparation_desc": "Foeniculum vulgare teas, also known as fennel tea, have been used to treat colds and alleviate associated symptoms due to their antispasmodic, expectorant, and antimicrobial properties. This herbal preparation helps to treat the colds ailment by relieving congestion, reducing inflammation, and fighting off infections. The bioactive constituents of fennel tea, such as anethole, fenchone, and limonene, possess anti-inflammatory and antioxidant properties that help to soothe a sore throat, ease coughing, and promote overall well-being. Regular consumption of fennel tea may also help to boost the immune system, reduce the severity and duration of colds, and provide relief from respiratory issues.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/HANDPICK-Caffeine-Natural-Premium-Eco-Conscious/dp/B0BFHKDK88",
+                "affiliate_link": "https://amzn.to/42bRtPt",
+                "title": "HANDPICK, Fennel Tea Bags (100 Herbal Tea Bags) Caffeine Free, Gluten Free & Non GMO | Round Eco Conscious Teabags | Smooth & Sweet"
+            }
+        }
+    ],
+    "intro_study": "According to \"Journal of alternative and complementary medicine (New York, N.Y.)\", teas for colds containing an echinacea compound were found to be effective in relieving symptoms and reducing the duration of colds, with a significant difference in relief between the experimental and control groups."
+}

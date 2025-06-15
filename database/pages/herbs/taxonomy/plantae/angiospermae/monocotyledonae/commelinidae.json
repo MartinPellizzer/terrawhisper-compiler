@@ -1,0 +1,51 @@
+{
+    "title": "commelinidae",
+    "lastmod": "2025-2-22",
+    "intro": "The commelinidae rank is a clade or a group of plants that includes various families of flowering plants, commonly known as the Commelinids. This group is characterized by the presence of a distinct type of floral anatomy and is often considered a more advanced group within the monocots. The Commelinidae rank includes a diverse range of plants, such as the grasses and sedges in the order Poales, the water lilies and cattails in the order Alismatales, and the asparagus and orchids in the order Asparagales, as well as the willow and mangrove families in the order Malpighiales is not part of this group but is an example of a group of plants that is not part of Commelinidae.",
+    "orders": [
+        {
+            "order_slug": "asparagales",
+            "order_desc": "Asparagales is an order of flowering plants that includes species such as asparagus, orchids, and hyacinths, and is classified within the monocot clade of the angiosperm division."
+        },
+        {
+            "order_slug": "poales",
+            "order_desc": "Poales is an order of flowering plants that belongs to the clade commelinids within the monocots."
+        },
+        {
+            "order_slug": "zingiberales",
+            "order_desc": "Zingiberales is a monophyletic order of flowering plants in the family Zingiberaceae, consisting of ginger, cardamom, and their relatives."
+        },
+        {
+            "order_slug": "typhales",
+            "order_desc": "Typhales is an order of flowering plants in the family Typhaceae, consisting of species commonly known as cattails or bulrushes."
+        },
+        {
+            "order_slug": "restionales",
+            "order_desc": "Restionales belong to the class Liliopsida, which is a subgroup of the larger group called monocots within the kingdom Plantae."
+        },
+        {
+            "order_slug": "commelinales",
+            "order_desc": "Commelinales is a monotypic order of flowering plants in the clade Lilianae, within the class Liliopsida."
+        },
+        {
+            "order_slug": "iridales",
+            "order_desc": "Iridales is an order of flowering plants in the family classification of taxonomy."
+        },
+        {
+            "order_slug": "pandanales",
+            "order_desc": "Pandanales is an order of flowering plants that belongs to the class Liliopsida, subclass commelinids, and division Magnoliophyta."
+        },
+        {
+            "order_slug": "triuridales",
+            "order_desc": "Triuridales are an order of flowering plants in the subclass Commelinidae, class Liliopsida, division Magnoliophyta, kingdom Plantae."
+        },
+        {
+            "order_slug": "asphodelales",
+            "order_desc": "Asphodelales is an order of flowering plants within the subclass commelinids, class liliopsida, subclass liliopsida, class liliopsida, division magnoliophyta, kingdom plantae."
+        },
+        {
+            "order_slug": "acorales",
+            "order_desc": "Acorales belong to the class Liliopsida, subclass Magnoliidae, superorder Lilianae, and division Magnoliophyta."
+        }
+    ]
+}

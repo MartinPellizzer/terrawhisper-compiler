@@ -1,0 +1,199 @@
+{
+    "url": "herbs/psoralea-corylifolia",
+    "herb_slug": "psoralea-corylifolia",
+    "herb_name_scientific": "psoralea corylifolia",
+    "lastmod": "2025-5-31",
+    "title": "Psoralea Corylifolia Uses, Benefits, And Remedies",
+    "intro": "Psoralea corylifolia, commonly known as Burdock, is a flowering plant native to the Mediterranean region and parts of Asia, valued for its medicinal properties. This herb is traditionally used to support skin health, detoxification, and immune function due to its anti-inflammatory and antioxidant effects. The bioactive constituents in Psoralea corylifolia include lignans, flavonoids, and tannins, which contribute to its therapeutic actions. Herbal preparations such as infusions, decoctions, and topical applications can be made from its roots and leaves to harness its beneficial properties.",
+    "benefits": "[SENTENCE NUM] Psoralea corylifolia reduces inflammation by containing bioactive compounds such as flavonoids and alkaloids, which inhibit the production of pro-inflammatory cytokines and mediators. This anti-inflammatory property makes it beneficial for conditions like arthritis, skin disorders, and inflammatory bowel diseases. In addition to its anti-inflammatory effects, Psoralea corylifolia has demonstrated antimicrobial properties that help fight bacterial infections by disrupting the cell membranes of harmful bacteria. The herb also contributes to cardiovascular health by lowering blood pressure through its ability to relax blood vessels and improve blood flow. Furthermore, research suggests that Psoralea corylifolia may play a role in treating malaria fever due to its antimalarial compounds, which can inhibit the growth of the Plasmodium parasite. These combined health benefits highlight the potential of Psoralea corylifolia as a valuable natural remedy in traditional and modern medicine.",
+    "constituents": "Psoralea corylifolia psoralen is a key bioactive compound found in the herb, known for its phototoxic properties and ability to enhance the effects of ultraviolet light. This compound is part of a broader group of substances called furocoumarins, which include bergapten, isoimperatorin, and various coumarins. These compounds are widely studied for their potential therapeutic applications, particularly in the treatment of skin conditions and immune-related disorders. Psoralen, along with bergapten, has been used in phototherapy to treat psoriasis and vitiligo by promoting melanin synthesis and modulating immune responses. Additionally, isoimperatorin and other coumarins exhibit antioxidant, anti-inflammatory, and antimicrobial activities, contributing to the overall medicinal value of Psoralea corylifolia. These constituents work synergistically to provide a range of health benefits, making the herb a valuable component in traditional and modern herbal medicine.",
+    "parts": "Psoralea corylifolia seed, also known as *Bai Jia Shen*, is one of the most significant medicinal parts of this herb, widely used in traditional Chinese medicine for its warming and tonifying properties. The seeds are rich in alkaloids, flavonoids, and essential oils, which contribute to their therapeutic effects, including enhancing kidney function and promoting bone health. In traditional practices, they are often used to treat conditions such as osteoporosis, rheumatism, and male infertility due to their ability to improve circulation and strengthen the body's yang energy. The seeds are typically processed through methods like honey-frying or stir-frying to enhance their medicinal potency and reduce potential toxicity. Additionally, the seed is believed to support reproductive health and is often incorporated into herbal formulations aimed at improving vitality and longevity.",
+    "preparations": "Psoralea corylifolia decoctions are one of the most traditional methods of preparing this herb, involving boiling the dried seeds in water for an extended period to extract their active compounds. This method is often used in traditional Chinese medicine to harness the herb\u2019s purported effects on skin health and hormonal balance. Decoctions can be consumed orally or applied topically, depending on the intended use. In addition to decoctions, Psoralea corylifolia is also commonly made into teas, tinctures, capsules, and oils, each offering different absorption rates and convenience. Topical preparations such as creams, ointments, and poultices are frequently used to address skin conditions like eczema and psoriasis, leveraging the herb\u2019s anti-inflammatory and antioxidant properties. These diverse preparations allow for flexible application, making Psoralea corylifolia a versatile herbal remedy in both internal and external treatments.",
+    "side_effects": "Psoralea corylifolia induces nausea due to its high concentration of bioactive compounds that stimulate the digestive system and may overstimulate the vagus nerve, leading to a sensation of queasiness. Psoralea corylifolia leads to vomiting as these compounds can irritate the gastrointestinal tract and trigger reflexive vomiting mechanisms in the body. Psoralea corylifolia causes stomach upset because its active ingredients may disrupt the normal motility of the stomach and intestines, resulting in discomfort and bloating. Psoralea corylifolia triggers diarrhea as it can increase the secretion of fluids into the intestines and accelerate bowel movements, leading to loose and frequent stools.",
+    "benefits_num": 11,
+    "benefits_list": [
+        {
+            "name": "reduces inflammation",
+            "description": "Psoralea corylifolia contains compounds that help reduce inflammation in the body, which can alleviate symptoms of various inflammatory conditions."
+        },
+        {
+            "name": "fights bacterial infections",
+            "description": "The herb possesses antimicrobial properties that help combat bacterial infections by inhibiting the growth of harmful bacteria."
+        },
+        {
+            "name": "lowers blood pressure",
+            "description": "Psoralea corylifolia may help lower blood pressure by improving circulation and reducing oxidative stress in the cardiovascular system."
+        },
+        {
+            "name": "treats malaria fever",
+            "description": "Traditionally used in some regions, Psoralea corylifolia is believed to have antimalarial properties that may help treat malaria fever."
+        },
+        {
+            "name": "prevents hair loss",
+            "description": "The herb is rich in nutrients that support hair growth and may help prevent hair loss by strengthening hair follicles."
+        },
+        {
+            "name": "fights viral infections",
+            "description": "Psoralea corylifolia contains compounds with antiviral properties that can help the body fight off viral infections."
+        },
+        {
+            "name": "fights cancer cells",
+            "description": "Research suggests that certain compounds in Psoralea corylifolia may have anti-cancer properties that inhibit the growth of cancer cells."
+        },
+        {
+            "name": "treats ulcerative colitis",
+            "description": "The herb has anti-inflammatory and antioxidant properties that may help reduce the symptoms of ulcerative colitis."
+        },
+        {
+            "name": "treats arthritis pain",
+            "description": "Psoralea corylifolia can help alleviate arthritis pain due to its anti-inflammatory and analgesic properties."
+        },
+        {
+            "name": "treats fungal infections",
+            "description": "The herb exhibits antifungal properties that can help treat fungal infections by inhibiting the growth of fungi."
+        },
+        {
+            "name": "soothes skin irritations",
+            "description": "Psoralea corylifolia can help soothe skin irritations due to its anti-inflammatory and soothing properties."
+        }
+    ],
+    "constituents_num": 13,
+    "constituents_list": [
+        {
+            "name": "psoralen",
+            "description": "A phototoxic compound that enhances the skin's sensitivity to ultraviolet light, commonly used in phototherapy for treating skin conditions like psoriasis and vitiligo."
+        },
+        {
+            "name": "bergapten",
+            "description": "A furanocoumarin that increases the skin's susceptibility to UV light, used in phototherapy for dermatological treatments."
+        },
+        {
+            "name": "isoimperatorin",
+            "description": "A coumarin derivative with anti-inflammatory and antimicrobial properties, contributing to the herb's therapeutic effects."
+        },
+        {
+            "name": "coumarins",
+            "description": "A group of aromatic compounds known for their anticoagulant, anti-inflammatory, and antimicrobial properties."
+        },
+        {
+            "name": "furanocoumarins",
+            "description": "A class of compounds that exhibit phototoxic effects and are used in phototherapy for skin conditions."
+        },
+        {
+            "name": "flavonoids",
+            "description": "Natural antioxidants that exhibit anti-inflammatory, antiviral, and immunomodulatory properties."
+        },
+        {
+            "name": "sesquiterpenes",
+            "description": "A class of volatile organic compounds with various biological activities, including anti-inflammatory and antimicrobial effects."
+        },
+        {
+            "name": "lignans",
+            "description": "Polyphenolic compounds with antioxidant and anti-inflammatory properties, often found in plant cell walls."
+        },
+        {
+            "name": "triterpenes",
+            "description": "A class of natural compounds with diverse biological activities, including anti-inflammatory and immunomodulatory effects."
+        },
+        {
+            "name": "phytic acid",
+            "description": "An antioxidant and chelating agent that helps in the removal of heavy metals and has anti-inflammatory properties."
+        },
+        {
+            "name": "saponins",
+            "description": "Natural detergents that exhibit antimicrobial, anti-inflammatory, and immunostimulatory effects."
+        },
+        {
+            "name": "tannins",
+            "description": "Polyphenolic compounds with astringent properties, known for their antimicrobial and anti-inflammatory activities."
+        },
+        {
+            "name": "stigmasterol",
+            "description": "A plant sterol with anti-inflammatory and cholesterol-lowering properties, contributing to the herb's medicinal value."
+        }
+    ],
+    "parts_num": 4,
+    "parts_list": "",
+    "side_effects_num": 11,
+    "side_effects_list": [
+        {
+            "name": "induces nausea",
+            "description": "May cause a feeling of sickness or discomfort in the stomach, often accompanied by the urge to vomit."
+        },
+        {
+            "name": "leads to vomiting",
+            "description": "May result in the forceful expulsion of stomach contents, often as a reaction to the herb's properties."
+        },
+        {
+            "name": "causes stomach upset",
+            "description": "May lead to discomfort, bloating, or cramping in the stomach area."
+        },
+        {
+            "name": "triggers diarrhea",
+            "description": "May cause frequent, loose, or watery stools due to its effect on the digestive system."
+        },
+        {
+            "name": "causes skin rash",
+            "description": "May result in a red, itchy, or bumpy skin reaction due to an allergic or irritant response."
+        },
+        {
+            "name": "triggers digestive issues",
+            "description": "May lead to a range of gastrointestinal problems such as indigestion or discomfort."
+        },
+        {
+            "name": "leads to skin irritation",
+            "description": "May cause redness, itching, or inflammation of the skin upon contact."
+        },
+        {
+            "name": "results in headache",
+            "description": "May cause pain or pressure in the head, possibly due to its effects on the body's systems."
+        },
+        {
+            "name": "causes fatigue",
+            "description": "May lead to a general feeling of tiredness or weakness in the body."
+        },
+        {
+            "name": "induces allergic reaction",
+            "description": "May provoke an immune system response, leading to symptoms like hives, swelling, or difficulty breathing."
+        },
+        {
+            "name": "induces gastrointestinal pain",
+            "description": "May cause pain or discomfort in the stomach or intestines, often due to its effects on digestion."
+        }
+    ],
+    "preparations_num": 8,
+    "preparations_list": [
+        {
+            "name": "decoctions",
+            "description": "Psoralea corylifolia decoctions are used to support kidney health and promote circulation, often prescribed for conditions like arthritis and hypertension."
+        },
+        {
+            "name": "teas",
+            "description": "Teas made from Psoralea corylifolia are traditionally used to enhance immunity, reduce inflammation, and support skin health."
+        },
+        {
+            "name": "tinctures",
+            "description": "Tinctures of Psoralea corylifolia are valued for their ability to strengthen the immune system and treat skin disorders such as eczema and psoriasis."
+        },
+        {
+            "name": "capsules",
+            "description": "Capsules provide a convenient form of Psoralea corylifolia for long-term use, supporting overall health and metabolic function."
+        },
+        {
+            "name": "oils",
+            "description": "Oils extracted from Psoralea corylifolia are used topically to relieve muscle pain, improve skin condition, and reduce inflammation."
+        },
+        {
+            "name": "creams",
+            "description": "Psoralea corylifolia creams are applied to the skin to treat eczema, psoriasis, and other inflammatory skin conditions."
+        },
+        {
+            "name": "oinments",
+            "description": "Oinments made from Psoralea corylifolia are used to alleviate joint pain, inflammation, and skin irritations due to their warming and anti-inflammatory properties."
+        },
+        {
+            "name": "poultices",
+            "description": "Poultices of Psoralea corylifolia are applied externally to reduce swelling, relieve pain, and promote healing of wounds and skin conditions."
+        }
+    ]
+}

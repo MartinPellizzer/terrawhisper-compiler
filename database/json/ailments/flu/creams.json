@@ -1,0 +1,181 @@
+{
+    "url": "ailments/flu/creams",
+    "ailment_slug": "flu",
+    "ailment_name": "flu",
+    "preparation_slug": "creams",
+    "preparation_name": "creams",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Creams For Flu",
+    "intro": "Herbal creams for flu are topical ointments or balms that combine natural herbs and ingredients to alleviate symptoms of the flu, such as fever, body aches, and congestion. These creams offer several benefits, including providing instant relief from pain and discomfort, boosting the immune system, and promoting relaxation and sleep. Some examples of herbal creams used to treat the flu include Echinacea cream, which has anti-inflammatory properties to reduce swelling and pain; Ginger cream, which has anti-nausea properties to alleviate flu-related stomach issues; Peppermint cream, which has decongestant properties to relieve respiratory congestion; and Eucalyptus cream, which has antimicrobial properties to combat flu-related infections. Additionally, other herbal creams such as Turmeric, Clove, and Rosemary have also been used to treat the flu due to their anti-inflammatory, antiseptic, and expectorant properties, respectively.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 20,
+            "herb_confidence_score": 173,
+            "herb_total_score": 3460,
+            "preparation_desc": "Echinacea purpurea creams, derived from the root of the coneflower plant, have been traditionally used to treat the flu and its associated symptoms. These creams contain anti-inflammatory and antiviral properties, which help to reduce the severity and duration of the flu, making it easier for the body to recover. The bioactive constituents, including alkylamides, glycoproteins, and phenolic acids, have immunomodulatory effects, stimulating the production of white blood cells and enhancing the body's natural defense mechanisms. By using Echinacea purpurea creams, individuals can benefit from a reduced risk of complications, shorter recovery time, and a stronger immune system to fight off future infections.",
+            "preparation_study": "According to the study, Echinacea purpurea creams for flu may have potential for adjuvant symptomatic therapy due to the presence of bioactive compounds with diverse therapeutic applications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 20,
+            "herb_confidence_score": 171,
+            "herb_total_score": 3420,
+            "preparation_desc": "Eucalyptus globulus creams are a popular herbal remedy used to treat the flu ailment, leveraging its decongestant, anti-inflammatory, and antimicrobial properties. The eucalyptus oil in these creams helps to relieve congestion, reduce fever, and alleviate body aches associated with the flu. The bioactive constituents, including eucalyptol, limonene, and alpha-pinene, possess potent antiviral and mucolytic properties that help break down mucus and combat the influenza virus. By incorporating Eucalyptus globulus creams into one's treatment plan, individuals may experience alleviation of symptoms, reduced recovery time, and a boost to their immune system.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 20,
+            "herb_confidence_score": 166,
+            "herb_total_score": 3320,
+            "preparation_desc": "Zingiber officinale creams, derived from the rhizome of the ginger plant, have been used for centuries to alleviate flu symptoms due to their anti-inflammatory and antimicrobial properties. The bioactive constituents of ginger, including gingerol and shogaol, exhibit analgesic and antipyretic effects, helping to reduce fever and alleviate body aches associated with the flu. These creams also contain antioxidants and volatile oils that promote relaxation and ease respiratory congestion, making them a beneficial treatment option for flu patients. The benefits of using Zingiber officinale creams to treat the flu include reduced severity of symptoms, improved immune function, and a faster recovery rate, making them a natural and effective alternative to conventional medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 18,
+            "herb_confidence_score": 127,
+            "herb_total_score": 2286,
+            "preparation_desc": "Sambucus nigra creams, derived from the elder tree, have been traditionally used to treat flu symptoms due to their antiviral and anti-inflammatory properties. These herbal preparations help to reduce fever and alleviate congestion by soothing the respiratory tract and boosting the immune system. The bioactive constituents present in Sambucus nigra creams, including flavonoids, phenolic acids, and essential oils, work synergistically to combat the flu virus and provide relief from symptoms. By using Sambucus nigra creams, individuals can benefit from their natural antiviral and anti-inflammatory properties, which can help to reduce the duration and severity of flu symptoms.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 18,
+            "herb_confidence_score": 122,
+            "herb_total_score": 2196,
+            "preparation_desc": "Glycyrrhiza glabra creams have been used to treat the flu ailment due to their anti-inflammatory and antimicrobial properties, which help to alleviate symptoms such as body aches, fever, and congestion. The bioactive constituents of Glycyrrhiza glabra, including flavonoids, phenolic acids, and saponins, exhibit immunomodulatory and antioxidant activities that aid in the treatment of flu by boosting the immune system and reducing oxidative stress. By using these creams, individuals can experience relief from flu symptoms, such as sore throats, coughs, and body pains, as well as a reduced risk of complications and faster recovery time. The benefits of using Glycyrrhiza glabra creams to treat the flu include reduced medication side effects, improved immune function, and a natural and non-invasive approach to managing symptoms.",
+            "preparation_study": "According to \"Mini reviews in medicinal chemistry\", Glycyrrhiza glabra creams for flu may offer potential benefits due to the plant's pharmacological actions, which include modulating the immune system, inhibiting virus growth, and producing anti-inflammatory activity.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 18,
+            "herb_confidence_score": 118,
+            "herb_total_score": 2124,
+            "preparation_desc": "Rosmarinus officinalis creams, derived from the leaves of the rosemary plant, have been traditionally used to help alleviate flu symptoms due to their anti-inflammatory and antimicrobial properties. The bioactive constituents present in these creams, including carnosic acid, rosmarinic acid, and camphor, help to reduce inflammation, combat infection, and ease congestion. By applying these creams topically, individuals can benefit from their ability to ease respiratory issues, reduce body aches, and promote a sense of relaxation, ultimately aiding in the recovery from flu-related illnesses. The benefits of using Rosmarinus officinalis creams to treat the flu include a reduction in symptoms, improved quality of life, and a shorter duration of illness.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_mentions": 16,
+            "herb_confidence_score": 117,
+            "herb_total_score": 1872,
+            "preparation_desc": "Thymus vulgaris creams, derived from the herb thyme, have been traditionally used to treat the flu ailment due to their antimicrobial and anti-inflammatory properties, which help to combat the underlying infection and reduce the severity of symptoms. The active compounds in Thymus vulgaris creams, including carvacrol and thymol, exhibit potent antiviral and immunomodulatory effects, thereby enhancing the body's immune response and accelerating the recovery process. By applying Thymus vulgaris creams topically, individuals can experience relief from symptoms such as fever, cough, and sore throat, ultimately helping to alleviate the discomfort and duration of the flu. The benefits of using Thymus vulgaris creams to treat the flu include reduced risk of complications, shortened recovery time, and improved overall well-being.",
+            "preparation_study": "According to \"Ceska a Slovenska farmacie : casopis Ceske farmaceuticke spolecnosti a Slovenske farmaceuticke spolecnosti\", Thymus vulgaris creams for flu can be part of an efficient treatment for respiratory tract diseases, such as upper respiratory tract catarrh, due to its non-specific immunomodulation and antibacterial effects.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea angustifolia",
+            "herb_mentions": 13,
+            "herb_confidence_score": 111,
+            "herb_total_score": 1443,
+            "preparation_desc": "Echinacea angustifolia creams have been traditionally used to help alleviate the symptoms of the flu, such as congestion, sore throat, and fatigue. The herbal preparation's immunomodulatory properties help to stimulate the body's immune response, reducing the severity and duration of the illness. The bioactive constituents, including alkylamides, caffeic acid derivatives, and polysaccharides, work together to exhibit anti-inflammatory, antioxidant, and antimicrobial effects, which help to combat the underlying infection. By using Echinacea angustifolia creams, individuals may experience reduced symptoms, improved recovery time, and enhanced overall well-being during the course of the flu.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 16,
+            "herb_confidence_score": 101,
+            "herb_total_score": 1616,
+            "preparation_desc": "Lavandula angustifolia creams have been traditionally used to treat the flu ailment due to their antiviral, anti-inflammatory, and antimicrobial properties, which help to reduce the severity of flu symptoms. These creams contain bioactive constituents such as linalool, linalyl acetate, and camphor, which have been shown to exhibit antiviral activity against influenza viruses. By applying Lavandula angustifolia creams topically, the bioactive constituents can help to soothe sore throats, reduce fever, and alleviate body aches, providing relief from the flu ailment. The benefits of using Lavandula angustifolia creams to treat the flu include reduced risk of secondary infections, faster recovery, and improved quality of life.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 92,
+            "herb_total_score": 1196,
+            "preparation_desc": "Salvia officinalis creams have been traditionally used to treat the flu ailment due to their antimicrobial, anti-inflammatory, and expectorant properties. The creams help to treat the flu by soothing the throat, reducing congestion, and relieving coughs. The bioactive constituents of Salvia officinalis, including rosmarinic acid, ursolic acid, and camphor, contribute to its therapeutic effects by inhibiting the growth of pathogens, reducing inflammation, and easing respiratory symptoms. The benefits of using Salvia officinalis creams to treat the flu include rapid relief from symptoms, improved immune function, and reduced risk of complications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 14,
+            "herb_confidence_score": 82,
+            "herb_total_score": 1148,
+            "preparation_desc": "Ginkgo biloba creams have been traditionally used to treat the flu ailment due to their anti-inflammatory and antiviral properties, which help to reduce the severity of symptoms and promote recovery. The bioactive constituents of Ginkgo biloba, including flavonoids and terpenoids, have been shown to possess antiviral activity, inhibiting the replication of the influenza virus and reducing the production of pro-inflammatory cytokines. The use of Ginkgo biloba creams may help to alleviate symptoms such as fever, cough, and body aches, and may also help to boost the immune system and prevent complications associated with the flu. Overall, Ginkgo biloba creams offer a natural and effective way to treat the flu ailment, providing relief from symptoms and promoting a rapid recovery.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 75,
+            "herb_total_score": 750,
+            "preparation_desc": "Cinchona officinalis creams are a traditional herbal preparation used to treat the flu and its associated symptoms. The properties of this herbal preparation, including its anti-inflammatory and antipyretic properties, help to reduce fever and alleviate body aches. The bioactive constituents, such as quinine and alkaloids, help to treat the flu by modulating the immune system and reducing the severity of symptoms. The benefits of using Cinchona officinalis creams to treat the flu include quick relief from symptoms, reduced risk of complications, and a natural alternative to conventional medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melaleuca alternifolia",
+            "herb_mentions": 8,
+            "herb_confidence_score": 64,
+            "herb_total_score": 512,
+            "preparation_desc": "Melaleuca alternifolia creams, also known as tea tree oil creams, have been traditionally used to treat flu-related ailments such as respiratory infections and fever. The antiviral, antimicrobial, and anti-inflammatory properties of this herbal preparation help to combat the underlying causes of the flu, reducing the severity and duration of the symptoms. The bioactive constituents, including terpinen-4-ol, cineole, and limonene, work synergistically to inhibit the growth of pathogens, reduce inflammation, and modulate the immune response, ultimately helping to alleviate flu-related symptoms. The benefits of using Melaleuca alternifolia creams to treat the flu include reduced risk of complications, faster recovery time, and a natural, non-invasive approach to managing flu-related ailments.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea pallida",
+            "herb_mentions": 7,
+            "herb_confidence_score": 58,
+            "herb_total_score": 406,
+            "preparation_desc": "Echinacea pallida creams have been traditionally used to treat the flu ailment due to their antimicrobial and anti-inflammatory properties, which help to soothe and calm the affected areas. These creams contain bioactive constituents such as alkylamides, glycoproteins, and phenolic acids that work together to boost the immune system and reduce the severity of flu symptoms. By applying Echinacea pallida creams topically, individuals can experience relief from flu-related discomforts, such as congestion, cough, and fever, as well as reduce the duration of the illness. The benefits of using Echinacea pallida creams to treat the flu ailment include reduced recovery time, improved immune function, and a natural alternative to conventional medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 54,
+            "herb_total_score": 432,
+            "preparation_desc": "Melissa officinalis creams have been used to treat the flu ailment due to their anti-inflammatory and antiviral properties. These properties help to reduce the severity of flu symptoms such as fever, headache, and body aches, thereby alleviating the discomfort and pain associated with the illness. The bioactive constituents of Melissa officinalis, including rosmarinic acid and flavonoids, have been found to possess antimicrobial and antioxidant properties that contribute to its therapeutic effects. By using Melissa officinalis creams, individuals can benefit from a natural and soothing treatment that helps to alleviate flu symptoms and promote a speedy recovery.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 8,
+            "herb_confidence_score": 53,
+            "herb_total_score": 424,
+            "preparation_desc": "Achillea millefolium creams, derived from the Yarrow plant, offer a natural remedy to alleviate the symptoms of the flu ailment. The antiviral and anti-inflammatory properties of this herbal preparation help to treat the flu by reducing fever, relieving body aches, and soothing a sore throat. The bioactive constituents, including flavonoids and terpenoids, in Achillea millefolium creams help to modulate the immune system, reducing the severity of flu symptoms. By using Achillea millefolium creams, individuals can benefit from a reduction in flu symptom duration, improved overall well-being, and a lower risk of complications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 8,
+            "herb_confidence_score": 50,
+            "herb_total_score": 400,
+            "preparation_desc": "Silybum marianum creams have been traditionally used to treat the flu ailment due to their anti-inflammatory and immunomodulatory properties, which help to reduce the severity of flu symptoms. This herbal preparation helps to treat the flu by stimulating the body's natural defense mechanisms, reducing the production of pro-inflammatory cytokines, and promoting the clearance of viral particles from the body. The bioactive constituents of Silybum marianum creams, including silymarin and flavonoids, have been shown to exhibit antiviral, antioxidant, and anti-inflammatory activities, which contribute to their therapeutic effects against the flu. The benefits of using Silybum marianum creams to treat the flu include reduced symptom severity, accelerated recovery time, and improved immune function, making it a promising natural remedy for this common illness.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Pelargonium sidoides",
+            "herb_mentions": 6,
+            "herb_confidence_score": 50,
+            "herb_total_score": 300,
+            "preparation_desc": "Pelargonium sidoides creams have been traditionally used to treat the flu ailment due to their anti-inflammatory and antimicrobial properties. The herbal preparation helps to treat the flu by reducing the severity and duration of symptoms, such as fever, cough, and sore throat. The bioactive constituents of Pelargonium sidoides, including flavonoids, phenolic acids, and volatile oils, have been shown to exhibit immunomodulatory and antiviral activities, which contribute to its therapeutic effects. The benefits of using Pelargonium sidoides creams to treat the flu include reduced risk of complications, faster recovery, and improved overall well-being, making it a promising alternative to conventional treatments.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 11,
+            "herb_confidence_score": 49,
+            "herb_total_score": 539,
+            "preparation_desc": "Taraxacum officinale creams, also known as dandelion creams, have been traditionally used to treat the flu ailment due to their anti-inflammatory and antimicrobial properties. The creams help to treat the flu by reducing fever, relieving congestion, and soothing sore throats, making it easier for the body to recover from the illness. The bioactive constituents of Taraxacum officinale creams, including flavonoids, terpenoids, and phenolic acids, have been shown to have antioxidant and immunomodulatory effects, which aid in the recovery process. The benefits of using Taraxacum officinale creams to treat the flu include reduced symptoms, faster recovery, and a lower risk of complications, making it a natural and effective alternative to conventional treatments.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hydrastis canadensis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 46,
+            "herb_total_score": 322,
+            "preparation_desc": "Hydrastis canadensis creams, derived from the herb goldenseal, have been used to treat the flu ailment due to their anti-inflammatory, antimicrobial, and antioxidant properties. These properties help to reduce the severity of flu symptoms, such as fever, cough, and body aches, by soothing the respiratory tract and fighting off underlying infections. The bioactive constituents of goldenseal, including berberine, canadine, and hydrastine, are responsible for its therapeutic effects, which include reducing inflammation, modulating the immune system, and inhibiting the growth of harmful microorganisms. The benefits of using Hydrastis canadensis creams to treat the flu include rapid relief from symptoms, reduced risk of complications, and a shorter duration of illness, making it a popular natural remedy among those seeking alternative treatments.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Wiadomosci lekarskie (Warsaw, Poland : 1960)\", creams for flu using extracts of thyme and primrose, especially in combination with thymol, can provide relief from symptoms such as cough and dyspnea due to their spasmolytic, anti-inflammatory, and antimicrobial properties."
+}

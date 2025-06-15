@@ -1,0 +1,24 @@
+{
+    "url": "herbs/solanum-dulcamara",
+    "herb_slug": "solanum-dulcamara",
+    "herb_name_scientific": "solanum dulcamara",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Solanum Dulcamara",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 8,
+            "confidence_score": 69,
+            "total_score": 552
+        },
+        {
+            "answer": "medicine",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "constituents_num": 11,
+    "side_effects_num": 9
+}

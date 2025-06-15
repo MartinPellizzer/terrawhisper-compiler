@@ -1,0 +1,183 @@
+{
+    "url": "ailments/rheumatoid-arthritis/creams",
+    "ailment_slug": "rheumatoid-arthritis",
+    "ailment_name": "rheumatoid arthritis",
+    "preparation_slug": "creams",
+    "preparation_name": "creams",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Creams For Rheumatoid Arthritis",
+    "intro": "Herbal creams for Rheumatoid arthritis are topical preparations made from natural herbs and plants that have anti-inflammatory and analgesic properties, used to relieve the symptoms of this chronic condition. These creams offer several benefits, including reducing pain and inflammation, improving joint mobility, and promoting relaxation, making them a popular alternative to conventional medications. Examples of herbal creams used to treat rheumatoid arthritis include Arnica oil, which reduces pain and inflammation, Ginger cream, which eases joint stiffness, Turmeric cream, which contains curcumin, a potent anti-inflammatory agent, and Willow bark cream, which contains salicin, a natural pain reliever. Additionally, other herbal creams like Eucalyptus, Peppermint, and Lavender are also used to treat rheumatoid arthritis due to their anti-inflammatory and soothing properties, helping to reduce swelling and promote relaxation.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 18,
+            "herb_confidence_score": 158,
+            "herb_total_score": 2844,
+            "preparation_desc": "Curcuma longa creams have been studied for their potential to alleviate symptoms of rheumatoid arthritis due to their anti-inflammatory and antioxidant properties. The bioactive constituents, such as curcuminoids, possess potent anti-inflammatory and antioxidant activities that help to reduce joint inflammation and alleviate pain associated with rheumatoid arthritis. By suppressing the production of pro-inflammatory enzymes and cytokines, Curcuma longa creams may help to reduce joint damage and improve the overall quality of life for individuals with rheumatoid arthritis. The benefits of using Curcuma longa creams to treat rheumatoid arthritis include reduced pain and inflammation, improved joint function, and a lower risk of long-term joint damage.",
+            "preparation_study": "According to \"Molecular biology reports\", Curcuma longa creams for rheumatoid arthritis have been shown to have benefits such as up-regulating antioxidant potential, inhibiting cartilage degradation, down-regulating inflammatory cytokines, and suppressing oxidative stress.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 18,
+            "herb_confidence_score": 150,
+            "herb_total_score": 2700,
+            "preparation_desc": "Zingiber officinale creams, derived from the rhizome of the ginger plant, have been traditionally used to treat rheumatoid arthritis due to their anti-inflammatory, antioxidant, and analgesic properties. The bioactive constituents of Zingiber officinale creams, including gingerols and shogaols, help to reduce inflammation and pain associated with rheumatoid arthritis by inhibiting the production of pro-inflammatory enzymes and cytokines. These creams work by penetrating deep into the skin and joints to provide targeted relief from pain and stiffness, as well as reducing inflammation and promoting healing. The benefits of using Zingiber officinale creams to treat rheumatoid arthritis include reduced pain and inflammation, improved joint mobility, and enhanced overall quality of life.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 17,
+            "herb_confidence_score": 118,
+            "herb_total_score": 2006,
+            "preparation_desc": "Glycyrrhiza glabra creams, derived from the licorice root, have been traditionally used to treat rheumatoid arthritis due to their anti-inflammatory and antioxidant properties. The bioactive constituents of Glycyrrhiza glabra creams, such as glycyrrhizin and flavonoids, help to reduce joint inflammation and pain, thereby alleviating the symptoms of rheumatoid arthritis. The anti-inflammatory properties of these creams help to reduce swelling and pain in the joints, while their antioxidant properties protect the joints from oxidative damage. The benefits of using Glycyrrhiza glabra creams to treat rheumatoid arthritis include reduced pain and inflammation, improved joint mobility, and a decrease in the risk of joint damage.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 15,
+            "herb_confidence_score": 98,
+            "herb_total_score": 1470,
+            "preparation_desc": "Lavandula angustifolia creams have been studied for their potential in treating rheumatoid arthritis due to their anti-inflammatory and antioxidant properties. The bioactive constituents present in these creams, such as linalool and linalyl acetate, are known to interact with opioid receptors and modulate the immune system, thereby reducing pain and inflammation associated with rheumatoid arthritis. By applying Lavandula angustifolia creams topically, individuals may experience relief from symptoms, including reduced joint pain and swelling. The benefits of using these creams include reduced reliance on pharmaceuticals, improved quality of life, and a natural approach to managing rheumatoid arthritis symptoms.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 16,
+            "herb_confidence_score": 92,
+            "herb_total_score": 1472,
+            "preparation_desc": "Ginkgo biloba creams have been traditionally used to treat rheumatoid arthritis due to their anti-inflammatory and antioxidant properties. These herbal preparations help to reduce joint pain and inflammation by inhibiting the production of pro-inflammatory enzymes, thereby alleviating symptoms associated with rheumatoid arthritis. The bioactive constituents of Ginkgo biloba creams, including flavonoids, terpenoids, and bilobalide, play a crucial role in reducing oxidative stress and modulating the immune response, which contributes to their therapeutic effects. By using Ginkgo biloba creams, individuals with rheumatoid arthritis can experience benefits such as reduced joint pain, improved mobility, and enhanced overall quality of life.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 84,
+            "herb_total_score": 840,
+            "preparation_desc": "Aloe barbadensis creams have been used for centuries to treat various health ailments, including rheumatoid arthritis, due to their anti-inflammatory, antioxidant, and immunomodulatory properties. The bioactive constituents, such as aloin, aloe-emodin, and acemannan, help to reduce inflammation, alleviate pain, and prevent joint damage. By reducing inflammation and promoting healing, aloe barbadensis creams can help to manage the symptoms of rheumatoid arthritis, providing relief from joint pain and stiffness. The benefits of using aloe barbadensis creams to treat rheumatoid arthritis include reduced inflammation, improved joint mobility, and a decrease in the reliance on prescription medications, making it a popular natural remedy for this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Arnica montana",
+            "herb_mentions": 9,
+            "herb_confidence_score": 75,
+            "herb_total_score": 675,
+            "preparation_desc": "Arnica montana creams have been traditionally used to treat rheumatoid arthritis due to their anti-inflammatory, analgesic, and antiseptic properties, which help to reduce joint pain and inflammation. The bioactive constituents of Arnica montana, including sesquiterpene lactones and flavonoids, are responsible for its therapeutic effects by inhibiting the production of pro-inflammatory cytokines and enzymes that contribute to joint damage. These creams help to treat rheumatoid arthritis by reducing pain, swelling, and stiffness, as well as promoting wound healing and tissue repair. The benefits of using Arnica montana creams to treat rheumatoid arthritis include improved joint mobility, reduced reliance on pain medications, and enhanced overall quality of life.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Boswellia serrata",
+            "herb_mentions": 9,
+            "herb_confidence_score": 75,
+            "herb_total_score": 675,
+            "preparation_desc": "Boswellia serrata creams have been traditionally used to treat rheumatoid arthritis due to their anti-inflammatory and analgesic properties. The herbal preparation helps to reduce joint inflammation and pain, thereby improving the quality of life of patients suffering from this ailment. The bioactive constituents of Boswellia serrata, including boswellic acids, acuminatin, and 3-acetyl-11-keto-\u03b2-boswellic acid, exhibit potent anti-inflammatory and antioxidant activities, which contribute to its therapeutic effects. Regular use of Boswellia serrata creams has been shown to provide relief from symptoms of rheumatoid arthritis, including joint pain, stiffness, and swelling, making it a valuable natural remedy for this chronic condition.",
+            "preparation_study": "According to \"Phytotherapy research : PTR\", Boswellia serrata creams for rheumatoid arthritis have been used and patented for their anti-inflammatory properties, derived from the plant's terpenes and other compounds.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Equisetum arvense",
+            "herb_mentions": 10,
+            "herb_confidence_score": 73,
+            "herb_total_score": 730,
+            "preparation_desc": "Equisetum arvense creams, also known as horse tail creams, have been traditionally used to treat rheumatoid arthritis due to their anti-inflammatory and immunomodulatory properties. The creams help to reduce joint pain and swelling by inhibiting the production of pro-inflammatory cytokines and promoting the production of anti-inflammatory cytokines, thereby alleviating the symptoms of rheumatoid arthritis. The bioactive constituents of Equisetum arvense, including flavonoids, phenolic acids, and saponins, contribute to its therapeutic effects by modulating the immune response and reducing oxidative stress. The use of Equisetum arvense creams has been found to provide significant relief from rheumatoid arthritis symptoms, including improved joint function, reduced pain, and enhanced overall quality of life.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 63,
+            "herb_total_score": 504,
+            "preparation_desc": "Cinchona officinalis creams have been traditionally used to treat rheumatoid arthritis due to their anti-inflammatory and antirheumatic properties, which help to reduce joint pain and inflammation. The bioactive constituents present in Cinchona officinalis creams, such as quinine, quinidine, and cinchonine, exhibit analgesic and anti-inflammatory effects that aid in the treatment of rheumatoid arthritis. These creams help to alleviate symptoms of rheumatoid arthritis by reducing joint swelling, pain, and stiffness, making it easier for patients to manage their condition. The benefits of using Cinchona officinalis creams for treating rheumatoid arthritis include reduced reliance on conventional medications, improved joint mobility, and enhanced overall quality of life.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 9,
+            "herb_confidence_score": 61,
+            "herb_total_score": 549,
+            "preparation_desc": "Hypericum perforatum creams, derived from the St. John's Wort plant, have been traditionally used to treat rheumatoid arthritis due to their anti-inflammatory and antioxidant properties. The bioactive constituents, including hyperforin and hypericin, help to reduce inflammation and alleviate pain associated with the condition, making it an effective herbal preparation for managing rheumatoid arthritis symptoms. The creams work by inhibiting the production of pro-inflammatory enzymes and promoting the production of anti-inflammatory compounds, thereby providing relief from joint pain and stiffness. The benefits of using Hypericum perforatum creams to treat rheumatoid arthritis include reduced inflammation, improved joint mobility, and enhanced overall well-being, making it a valuable natural remedy for managing this chronic condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 10,
+            "herb_confidence_score": 59,
+            "herb_total_score": 590,
+            "preparation_desc": "Eucalyptus globulus creams have gained popularity in recent years as a natural remedy for treating rheumatoid arthritis. The anti-inflammatory properties of eucalyptus globulus, particularly its ability to reduce prostaglandins and inhibit the production of pro-inflammatory cytokines, help to alleviate the pain and inflammation associated with this ailment. The bioactive constituents, including eucalyptol and camphor, work together to reduce muscle and joint pain, improve mobility, and promote relaxation, thereby providing relief from the symptoms of rheumatoid arthritis. Regular use of eucalyptus globulus creams can lead to improved quality of life, reduced medication dependence, and a significant reduction in the severity of symptoms, making it an attractive alternative or complementary treatment option for individuals suffering from rheumatoid arthritis.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 9,
+            "herb_confidence_score": 58,
+            "herb_total_score": 522,
+            "preparation_desc": "Urtica dioica creams have gained attention for their potential in treating rheumatoid arthritis due to their anti-inflammatory properties, which help to reduce swelling and pain in the joints. The herbal preparation's ability to inhibit pro-inflammatory cytokines and enzymes, such as COX-2 and LOX, helps to alleviate the symptoms of rheumatoid arthritis. The bioactive constituents of Urtica dioica, including flavonoids, phenolic acids, and saponins, are responsible for its medicinal properties, which contribute to its analgesic and anti-inflammatory effects. Regular use of Urtica dioica creams may provide benefits such as reduced joint pain and inflammation, improved mobility, and a better quality of life for individuals suffering from rheumatoid arthritis.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Camellia sinensis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 52,
+            "herb_total_score": 364,
+            "preparation_desc": "Camellia sinensis creams have gained attention for their potential in treating rheumatoid arthritis due to their anti-inflammatory, antioxidant, and immunomodulatory properties. The bioactive constituents of Camellia sinensis, including theaflavins and thearubigins, help to reduce inflammation and alleviate symptoms associated with rheumatoid arthritis. By modulating the immune response and decreasing oxidative stress, Camellia sinensis creams may help to slow down the progression of the disease and improve overall quality of life. The benefits of using Camellia sinensis creams to treat rheumatoid arthritis include reduced pain and swelling, improved joint function, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 7,
+            "herb_confidence_score": 52,
+            "herb_total_score": 364,
+            "preparation_desc": "Achillea millefolium creams have gained popularity as a natural remedy to treat rheumatoid arthritis due to their anti-inflammatory and pain-relieving properties. The bioactive constituents of Achillea millefolium, such as flavonoids, terpenoids, and saponins, contribute to its therapeutic effects by reducing inflammation and modulating the immune system. By applying Achillea millefolium creams topically, individuals with rheumatoid arthritis may experience relief from joint pain and stiffness, as well as improved mobility and function. The benefits of using Achillea millefolium creams to treat rheumatoid arthritis include reduced reliance on pharmaceutical medications, improved quality of life, and a potential reduction in the progression of the disease.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 52,
+            "herb_total_score": 364,
+            "preparation_desc": "Silybum marianum creams, also known as milk thistle creams, have been used to treat rheumatoid arthritis due to their anti-inflammatory and antioxidant properties. These creams help to reduce inflammation and alleviate joint pain by inhibiting the production of pro-inflammatory enzymes and promoting the production of anti-inflammatory cytokines. The bioactive constituents present in Silybum marianum creams, such as silymarin, flavonoids, and terpenoids, have been shown to have potent anti-inflammatory and antioxidant activities, which contribute to their therapeutic effects in treating rheumatoid arthritis. The benefits of using Silybum marianum creams for rheumatoid arthritis include reduced joint pain and inflammation, improved mobility, and enhanced quality of life, making it a valuable herbal remedy for managing this debilitating condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 51,
+            "herb_total_score": 408,
+            "preparation_desc": "Melissa officinalis creams have been traditionally used to treat rheumatoid arthritis, a chronic inflammatory condition that affects the joints. The anti-inflammatory and antioxidant properties of Melissa officinalis creams help to reduce inflammation and alleviate pain associated with rheumatoid arthritis. The bioactive constituents of Melissa officinalis, including rosmarinic acid, flavonoids, and phenolic acids, contribute to its therapeutic effects by inhibiting the production of pro-inflammatory enzymes and cytokines, thereby reducing joint inflammation and pain. Regular use of Melissa officinalis creams may provide relief from rheumatoid arthritis symptoms, improve joint mobility, and enhance overall quality of life.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Capsicum annuum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 51,
+            "herb_total_score": 357,
+            "preparation_desc": "Capsicum annuum creams, derived from the Capsicum annuum plant, have been used as a traditional herbal preparation to treat rheumatoid arthritis. These creams exhibit anti-inflammatory and analgesic properties, which help to alleviate the pain and swelling associated with this ailment. The bioactive constituents of Capsicum annuum creams, including capsaicin, flavonoids, and carotenoids, are responsible for their therapeutic effects, which help to reduce inflammation, relieve pain, and improve joint mobility. The benefits of using Capsicum annuum creams for rheumatoid arthritis include reduced pain and stiffness, improved joint function, and enhanced overall quality of life.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 8,
+            "herb_confidence_score": 50,
+            "herb_total_score": 400,
+            "preparation_desc": "Echinacea purpurea creams have been traditionally used to treat rheumatoid arthritis due to their anti-inflammatory and immunomodulatory properties. These herbal preparations help to treat the ailment by reducing joint pain and inflammation, thereby improving the quality of life for patients. The bioactive constituents, including alkylamides, glycosides, and phenolic acids, in Echinacea purpurea creams are responsible for their therapeutic effects, which aid in modulating the immune response and reducing oxidative stress. The benefits of using Echinacea purpurea creams to treat rheumatoid arthritis include reduced reliance on conventional medications, improved joint mobility, and a decrease in overall symptoms.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 45,
+            "herb_total_score": 270,
+            "preparation_desc": "Calendula officinalis creams have been utilized in traditional medicine to treat rheumatoid arthritis due to their anti-inflammatory and antioxidant properties, which help to reduce pain and swelling in the joints. The bioactive constituents, such as triterpenoids and flavonoids, present in Calendula officinalis creams, have been found to inhibit the production of pro-inflammatory cytokines, thereby alleviating the symptoms of rheumatoid arthritis. These creams help to treat the ailment by promoting wound healing, reducing inflammation, and enhancing the immune system's response, ultimately leading to improved joint mobility and reduced pain. The benefits of using Calendula officinalis creams to treat rheumatoid arthritis include reduced reliance on conventional medications, improved quality of life, and a lower risk of adverse side effects associated with long-term use of pharmaceuticals.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Fortschritte der Medizin\", creams for rheumatoid arthritis, specifically Enelbin-Rheuma-ointment, showed a statistically significantly better success rate in treating symptoms compared to a reference ointment."
+}

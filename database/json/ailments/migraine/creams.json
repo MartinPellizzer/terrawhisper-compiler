@@ -1,0 +1,185 @@
+{
+    "url": "ailments/migraine/creams",
+    "ailment_slug": "migraine",
+    "ailment_name": "migraine",
+    "preparation_slug": "creams",
+    "preparation_name": "creams",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 11,
+    "title": "11 Best Herbal Creams For Migraine",
+    "intro": "Herbal creams for Migraine are topical preparations that combine natural herbs and essential oils to provide relief from migraine symptoms. These creams benefit sufferers by providing quick and localized relief from pain, inflammation, and sensitivity to light and sound. Examples of herbal creams used to treat migraine include feverfew-based creams, which contain parthenolide to inhibit the release of pain-causing chemicals, and ginger creams, which have anti-inflammatory properties to reduce swelling. Additionally, creams containing lavender oil, peppermint oil, and eucalyptus oil are also used to treat migraines due to their calming, cooling, and decongestant properties, which help to ease tension and reduce pain.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 18,
+            "herb_confidence_score": 144,
+            "herb_total_score": 2592,
+            "preparation_desc": "Valeriana officinalis creams, derived from the root of the valerian plant, have been traditionally used to treat migraine ailments due to their relaxing and calming properties. The herbal preparation helps to treat migraine by promoting a peaceful sleep, reducing stress and anxiety, and alleviating muscle tension, thereby providing relief from migraine symptoms. The bioactive constituents of Valeriana officinalis, including valerenic acid, isovaleric acid, and valepotriates, have been found to have a sedative effect on the nervous system, which aids in the treatment of migraine. The benefits of using Valeriana officinalis creams to treat migraine include reduced frequency and severity of migraine attacks, improved sleep quality, and a decrease in the reliance on conventional pain medications.",
+            "preparation_study": "According to \"American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists\", Valeriana officinalis creams for migraine have been studied in clinical trials, which have shown suggestive efficacy for this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 18,
+            "herb_confidence_score": 143,
+            "herb_total_score": 2574,
+            "preparation_desc": "Melissa officinalis creams have been used to treat the migraine ailment due to their soothing and calming properties, which help to reduce stress and anxiety that often trigger migraines. This herbal preparation contains bioactive constituents such as citral and geraniol, which have been shown to have anti-inflammatory and pain-relieving effects, helping to alleviate migraine symptoms. The benefits of using Melissa officinalis creams to treat migraines include reduced frequency and severity of attacks, improved sleep quality, and a decrease in sensitivity to light and sound. Additionally, Melissa officinalis creams may also help to relax tense muscles and improve mood, further contributing to their effectiveness in managing migraine symptoms.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 16,
+            "herb_confidence_score": 133,
+            "herb_total_score": 2128,
+            "preparation_desc": "Lavandula angustifolia creams have been traditionally used to treat migraine due to their calming and soothing properties, which help to relax the muscles and reduce stress. This herbal preparation's ability to promote relaxation and reduce anxiety helps to alleviate migraine symptoms by lowering cortisol levels and promoting a restful sleep. The bioactive constituents of Lavandula angustifolia, including linalool and linalyl acetate, have been found to have analgesic and anti-inflammatory effects, which contribute to its migraine-relieving properties. The benefits of using Lavandula angustifolia creams to treat migraine include reduced frequency and severity of attacks, improved sleep quality, and a decrease in anxiety and stress levels.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 16,
+            "herb_confidence_score": 121,
+            "herb_total_score": 1936,
+            "preparation_desc": "Achillea millefolium creams, derived from the leaves and flowers of the yarrow plant, have been used to treat migraine ailments due to their anti-inflammatory and analgesic properties. The herbal preparation helps to treat migraine by reducing pain and inflammation, as well as by modulating the body's response to stress and anxiety. The bioactive constituents of Achillea millefolium, including sesquiterpene lactones and flavonoids, contribute to its therapeutic effects by inhibiting the production of pro-inflammatory enzymes and neurotransmitters. The benefits of using Achillea millefolium creams to treat migraine include reduced frequency and severity of attacks, improved quality of life, and a natural alternative to conventional medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 18,
+            "herb_confidence_score": 120,
+            "herb_total_score": 2160,
+            "preparation_desc": "Ginkgo biloba creams have been gaining attention as a potential natural remedy to treat migraines, due to their unique combination of anti-inflammatory, antioxidant, and vasodilatory properties. The flavonoids and terpenoids present in Ginkgo biloba creams, such as quercetin, kaempferol, and bilobalide, help to alleviate migraine symptoms by improving blood flow to the brain, reducing inflammation, and modulating neurotransmitter activity. By using Ginkgo biloba creams, individuals may experience reduced frequency and severity of migraines, as well as improved overall well-being. The benefits of using Ginkgo biloba creams to treat migraines include reduced reliance on pharmaceutical medications, minimal side effects, and a natural approach to managing this debilitating condition.",
+            "preparation_study": "According to \"American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists\", Ginkgo biloba creams for migraine are considered potentially safe based on clinical trials that suggest their efficacy in treating circulatory disturbances.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 16,
+            "herb_confidence_score": 120,
+            "herb_total_score": 1920,
+            "preparation_desc": "Zingiber officinale creams, derived from the rhizomes of the ginger plant, have been traditionally used to treat migraine ailments due to their anti-inflammatory and analgesic properties. These creams help to treat migraines by reducing pain and inflammation in the affected areas, and also by improving blood circulation to promote relaxation and ease tension. The bioactive constituents of Zingiber officinale creams, including gingerols and shogaols, have been shown to exhibit potent anti-inflammatory and pain-relieving effects, which contribute to their therapeutic benefits. The benefits of using Zingiber officinale creams to treat migraines include natural pain relief, reduced inflammation, and improved overall well-being, making them a popular alternative to conventional medications.",
+            "preparation_study": "According to \"Journal of ethnopharmacology\", Zingiber officinale creams for migraine may exert abortive and prophylactic effects without any side-effects.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 16,
+            "herb_confidence_score": 103,
+            "herb_total_score": 1648,
+            "preparation_desc": "Foeniculum vulgare creams have been traditionally used to treat migraine ailments due to their analgesic, anti-inflammatory, and antimicrobial properties. The bioactive constituents of Foeniculum vulgare, such as anethole and limonene, help to alleviate migraine symptoms by reducing pain and inflammation, as well as preventing the growth of bacteria that can exacerbate the condition. The topical application of Foeniculum vulgare creams can help to relieve migraine symptoms by reducing muscle tension, promoting relaxation, and improving blood flow to the affected area. The benefits of using Foeniculum vulgare creams to treat migraine ailments include natural pain relief, reduced inflammation, and improved overall well-being, making it a popular alternative to synthetic medications.",
+            "preparation_study": "According to \"Journal of ethnopharmacology\", Foeniculum vulgare creams, derived from fennel essential oil, have shown potential in reducing the intensity of muscle contractions and may provide relief for migraine symptoms, although the study specifically focuses on its effects on uterine motility and dysmenorrhea.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 13,
+            "herb_confidence_score": 100,
+            "herb_total_score": 1300,
+            "preparation_desc": "Mentha x piperita creams have been traditionally used to treat migraine ailments due to their anti-inflammatory, analgesic, and antimigraine properties. The herbal preparation helps to treat migraine by reducing pain and inflammation, thereby alleviating symptoms and promoting relaxation. The bioactive constituents of Mentha x piperita creams, including menthol, menthone, and limonene, help to inhibit pain pathways and relax blood vessels, thereby providing relief from migraine symptoms. The benefits of using Mentha x piperita creams to treat migraine include natural and non-invasive relief, reduced risk of side effects, and a potential alternative to conventional medications.",
+            "preparation_study": "According to \"Phytotherapy research : PTR\", Mentha x piperita creams for migraine may be considered as a potential option for acute treatment of migraine, based on positive preliminary findings.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 93,
+            "herb_total_score": 1209,
+            "preparation_desc": "Rosmarinus officinalis creams have been explored as a potential treatment for migraines due to their anti-inflammatory and antioxidant properties. These properties help to reduce the frequency and severity of migraine attacks by alleviating pain and inflammation in the brain. The bioactive constituents of Rosmarinus officinalis, including rosmarinic acid and camphor, have been found to exhibit anti-inflammatory and analgesic activities, which contribute to their potential migraine-relieving effects. Regular use of Rosmarinus officinalis creams may provide relief from migraine symptoms and improve overall quality of life for individuals experiencing this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 12,
+            "herb_confidence_score": 87,
+            "herb_total_score": 1044,
+            "preparation_desc": "Passiflora incarnata creams, derived from the passionflower plant, have been used to treat migraine symptoms due to their analgesic and anti-inflammatory properties. The herbal preparation helps to reduce migraine frequency and severity by modulating neurotransmitters and relaxing muscle tension. The bioactive constituents of Passiflora incarnata, including flavonoids, alkaloids, and glycosides, contribute to its therapeutic effects by interacting with GABA receptors and inhibiting pain pathways. Regular use of Passiflora incarnata creams may provide benefits such as improved sleep quality, reduced stress levels, and a decrease in the frequency and severity of migraine attacks.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 11,
+            "herb_confidence_score": 85,
+            "herb_total_score": 935,
+            "preparation_desc": "Hypericum perforatum creams, derived from the St. John's Wort plant, have been traditionally used to treat migraine ailments due to their anti-inflammatory, analgesic, and antispasmodic properties. These properties help to reduce pain and inflammation associated with migraines, making it easier to manage the condition. The bioactive constituents of Hypericum perforatum, including hyperforin and hypericin, have been found to exhibit potent antioxidant and anti-inflammatory activities, which contribute to its effectiveness in treating migraines. The benefits of using Hypericum perforatum creams to treat migraines include reduced frequency and severity of episodes, improved sleep quality, and a decrease in the need for prescription medications.",
+            "preparation_study": "According to the Journal of integrative medicine, Hypericum perforatum creams for migraine may potentially be beneficial due to its gastroprotective and neuroprotective mechanisms, which include reducing Helicobacter pylori growth, gastritis, and improving gastric mucosal resistance, thus possibly alleviating migraine symptoms associated with gastrointestinal disorders.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 10,
+            "herb_confidence_score": 77,
+            "herb_total_score": 770,
+            "preparation_desc": "Curcuma longa creams have gained popularity in recent years as a natural remedy to alleviate migraine symptoms, thanks to their anti-inflammatory and antioxidant properties. The bioactive constituents present in Curcuma longa creams, such as curcumin and demethoxycurcumin, help to reduce inflammation and oxidative stress in the body, which are often associated with migraine attacks. By applying Curcuma longa creams topically, the bioactive constituents are able to penetrate the skin and reach the underlying tissues, where they can exert their therapeutic effects, providing relief from migraine pain and promoting relaxation. The benefits of using Curcuma longa creams to treat migraines include reduced frequency and severity of attacks, improved sleep quality, and a decrease in medication use, making it a valuable natural remedy for those suffering from this debilitating condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Boswellia serrata",
+            "herb_mentions": 8,
+            "herb_confidence_score": 68,
+            "herb_total_score": 544,
+            "preparation_desc": "Boswellia serrata creams have gained attention for their potential in treating migraine ailments due to their anti-inflammatory and analgesic properties. These creams help to treat migraines by reducing inflammation, alleviating pain, and relaxing muscles, ultimately providing relief from migraine symptoms. The bioactive constituents of Boswellia serrata, including boswellic acids, acetyl-11-keto-\u03b2-boswellic acid (AKBA), and 11-keto-\u03b2-boswellic acid (KBA), play a crucial role in inhibiting the production of pro-inflammatory enzymes and cytokines, thus helping to manage migraine attacks. The benefits of using Boswellia serrata creams for treating migraines include reduced frequency and severity of episodes, improved quality of life, and a decrease in the reliance on conventional medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 59,
+            "herb_total_score": 472,
+            "preparation_desc": "Salvia officinalis creams have been used as a natural remedy to treat migraine ailments due to their anti-inflammatory and analgesic properties, which help to reduce pain and alleviate symptoms. This herbal preparation contains bioactive constituents such as rosmarinic acid and flavonoids, which have been shown to exhibit neuroprotective and anti-migraine effects by inhibiting the release of pain-causing neurotransmitters. The benefits of Salvia officinalis creams in treating migraines include reduced frequency and severity of attacks, improved sleep quality, and a decrease in associated symptoms such as nausea and sensitivity to light and sound. By using Salvia officinalis creams, individuals can potentially alleviate their migraine symptoms and enjoy a better quality of life, making it a valuable natural remedy for managing this debilitating condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 45,
+            "herb_total_score": 315,
+            "preparation_desc": "Silybum marianum creams, derived from the milk thistle plant, have been traditionally used to treat migraines due to their anti-inflammatory and antioxidant properties. The silymarin complex, a bioactive constituent of Silybum marianum, helps to reduce oxidative stress and inflammation in the brain, thereby alleviating migraine symptoms. The flavonoids and terpenoids present in Silybum marianum creams also exhibit neuroprotective effects, which can help to prevent the recurrence of migraines. The benefits of using Silybum marianum creams to treat migraines include reduced frequency and severity of attacks, improved quality of life, and a natural alternative to conventional medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinnamomum zeylanicum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 42,
+            "herb_total_score": 252,
+            "preparation_desc": "Cinnamomum zeylanicum creams have been traditionally used to treat migraine due to their anti-inflammatory, antispasmodic, and analgesic properties, which help to alleviate the pain and discomfort associated with this condition. The bioactive constituents of Cinnamomum zeylanicum, including eugenol, cinnamaldehyde, and linalool, have been found to have a significant impact on treating migraines by reducing inflammation, relaxing muscle spasms, and providing relief from pain. The benefits of using Cinnamomum zeylanicum creams to treat migraines include reduced frequency and severity of attacks, improved sleep quality, and a decrease in the use of pain medications. By using Cinnamomum zeylanicum creams, individuals can experience relief from migraine symptoms and improve their overall well-being, making it a popular natural remedy for this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 5,
+            "herb_confidence_score": 38,
+            "herb_total_score": 190,
+            "preparation_desc": "Eucalyptus globulus creams have been traditionally used to treat migraine, a debilitating headache disorder, due to its anti-inflammatory and analgesic properties. The creams help to treat migraine by providing relief from pain and reducing inflammation in the affected areas, thus alleviating the severity of symptoms. The bioactive constituents of Eucalyptus globulus, including eucalyptol and flavonoids, play a crucial role in its therapeutic effects, exhibiting potent antioxidant and anti-inflammatory activities. The benefits of using Eucalyptus globulus creams to treat migraine include rapid pain relief, reduced inflammation, and improved overall well-being, making it a promising natural remedy for managing this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Vitex agnus-castus",
+            "herb_mentions": 6,
+            "herb_confidence_score": 37,
+            "herb_total_score": 222,
+            "preparation_desc": "Vitex agnus-castus creams are a natural herbal preparation that has been traditionally used to treat migraine and other neurological disorders. The properties of this herbal preparation help to regulate hormonal imbalances, reduce inflammation, and promote relaxation, which in turn alleviate migraine symptoms. The bioactive constituents of Vitex agnus-castus creams, such as iridoid glycosides and flavonoids, have been shown to have anti-inflammatory, antioxidant, and neuroprotective effects, which help to reduce migraine frequency and severity. The benefits of using Vitex agnus-castus creams to treat migraine include reduced frequency and severity of attacks, improved sleep quality, and a decrease in the reliance on pharmaceutical medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 6,
+            "herb_confidence_score": 36,
+            "herb_total_score": 216,
+            "preparation_desc": "Avena sativa creams have been traditionally used to treat migraines due to their anti-inflammatory and antioxidant properties, which help to reduce pain and inflammation associated with this ailment. The herbal preparation contains bioactive constituents such as avenacosides and avenalumens, which have been shown to have a calming effect on the nervous system, thereby helping to alleviate migraine symptoms. Avena sativa creams work by promoting relaxation, reducing muscle tension, and improving blood flow to the brain, all of which contribute to the alleviation of migraine symptoms. The benefits of using Avena sativa creams to treat migraines include reduced frequency and severity of attacks, improved sleep quality, and a decrease in the use of medication to manage symptoms.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 7,
+            "herb_confidence_score": 35,
+            "herb_total_score": 245,
+            "preparation_desc": "Echinacea purpurea creams have been traditionally used to treat migraine ailments due to their anti-inflammatory, antioxidant, and immune-modulating properties. These creams help to treat migraines by reducing inflammation and pain, as well as alleviating symptoms such as sensitivity to light and sound. The bioactive constituents of Echinacea purpurea, including alkylamides, caffeic acid derivatives, and polysaccharides, contribute to its therapeutic effects, which include reducing oxidative stress and modulating the immune response. The benefits of using Echinacea purpurea creams to treat migraines include reduced frequency and severity of episodes, improved quality of life, and a natural approach to managing this chronic condition.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Phytotherapy research : PTR\", creams for migraine treatment using ingredients like menthol and peppermint oil have shown positive, preliminary findings as an acute treatment."
+}

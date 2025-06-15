@@ -1,0 +1,24 @@
+{
+    "url": "herbs/sisymbrium-officinale",
+    "herb_slug": "sisymbrium-officinale",
+    "herb_name_scientific": "sisymbrium officinale",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Sisymbrium Officinale",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 8,
+            "confidence_score": 67,
+            "total_score": 536
+        },
+        {
+            "answer": "medicine",
+            "mentions": 2,
+            "confidence_score": 16,
+            "total_score": 32
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 13
+}

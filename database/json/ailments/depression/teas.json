@@ -1,0 +1,251 @@
+{
+    "url": "ailments/depression/teas",
+    "ailment_slug": "depression",
+    "ailment_name": "depression",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 13,
+    "title": "13 Best Herbal Teas For Depression",
+    "intro": "Herbal teas for depression are a type of natural remedy that involves the consumption of teas made from various herbs to alleviate symptoms of depression. These teas have been found to have numerous benefits, including reducing stress and anxiety, improving mood, and enhancing sleep quality. Examples of herbal teas that can help treat depression include St. John's Wort, which contains hyperforin that can help regulate mood, passionflower tea, which helps to calm the nervous system, and lavender tea, which promotes relaxation and reduces anxiety. Additionally, other herbal teas such as chamomile tea, peppermint tea, and ginseng tea have also been shown to have a positive effect on individuals suffering from depression due to their ability to reduce inflammation, improve cognitive function, and enhance overall well-being.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 20,
+            "herb_confidence_score": 175,
+            "herb_total_score": 3500,
+            "preparation_desc": "Valeriana officinalis teas have been traditionally used to treat depression due to their sedative and anxiolytic properties, which help to alleviate symptoms of anxiety and stress that often accompany depression. The bioactive constituents of Valeriana officinalis, including valepotriates and valerenic acid, contribute to its therapeutic effects by modulating the activity of neurotransmitters such as serotonin and GABA. By promoting relaxation and reducing stress, Valeriana officinalis teas help to improve mood and reduce symptoms of depression, providing a natural and non-habit-forming alternative to conventional treatments. Regular consumption of Valeriana officinalis teas has been shown to have numerous benefits, including improved sleep quality, reduced anxiety, and enhanced overall well-being, making it a popular herbal remedy for depression.",
+            "preparation_study": "According to \"Molecules (Basel, Switzerland)\", Valeriana officinalis teas for depression have been shown in clinical trials to relieve mild forms of depression.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 20,
+            "herb_confidence_score": 172,
+            "herb_total_score": 3440,
+            "preparation_desc": "Passiflora incarnata teas, also known as passionflower tea, have been traditionally used to treat depression due to its calming and anti-anxiety properties. The herbal preparation contains bioactive constituents such as flavonoids, alkaloids, and glycosides that help to regulate the neurotransmitters serotonin and dopamine, which are often imbalanced in individuals with depression. By promoting relaxation and reducing stress, passionflower tea helps to alleviate symptoms of depression, such as anxiety, insomnia, and restlessness. The benefits of using passionflower tea to treat depression include improved mood, reduced stress levels, and enhanced sleep quality, making it a popular natural remedy for individuals seeking a non-pharmacological approach to managing their symptoms.",
+            "preparation_study": "According to \"BioMed research international\", Passiflora incarnata teas for depression may be an alternative option for treatment, however, their efficacy and safety need to be supported by clinical studies.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Certified-Wrapped/dp/B000YTCSLQ",
+                "affiliate_link": "https://amzn.to/3FU2zS4",
+                "title": "Traditional Medicinals Organic Nighty Night with Passionflower Herbal Tea, Promotes a Good Night\u2019s Sleep, (Pack of 1) - 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 20,
+            "herb_confidence_score": 170,
+            "herb_total_score": 3400,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort, have been traditionally used to treat mild to moderate depression due to their antidepressant properties. This herbal preparation helps to treat depression by modulating the serotonin and dopamine levels in the brain, thereby improving mood and reducing symptoms of anxiety and stress. The bioactive constituents of Hypericum perforatum, such as hyperforin and hypericin, are responsible for its antidepressant effects, which help to regulate the neurotransmitter balance and promote a sense of well-being. The benefits of using Hypericum perforatum teas to treat depression include a natural and non-addictive approach to managing symptoms, as well as potential improvements in sleep quality and overall mental health.",
+            "preparation_study": "According to \"European neuropsychopharmacology : the journal of the European College of Neuropsychopharmacology\", Hypericum perforatum teas for depression show superiority over placebo in treating mild or moderate depression.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 20,
+            "herb_confidence_score": 156,
+            "herb_total_score": 3120,
+            "preparation_desc": "Lavandula angustifolia teas, derived from the flowers of the lavender plant, have been traditionally used to treat depression due to their calming and mood-enhancing properties. The bioactive constituents, including linalool and linalyl acetate, have been found to have a positive impact on mood regulation and stress response, thereby helping to alleviate symptoms of depression. By promoting relaxation, reducing anxiety, and improving sleep quality, Lavandula angustifolia teas help to treat depression by addressing its underlying causes and promoting overall well-being. Regular consumption of Lavandula angustifolia teas has been shown to offer benefits in managing depression, including reduced symptoms of anxiety and improved mood regulation, making it a natural and effective herbal preparation for treating this ailment.",
+            "preparation_study": "According to \"Molecules (Basel, Switzerland)\", Lavandula angustifolia teas may help alleviate symptoms of depression due to their antidepressant properties.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 20,
+            "herb_confidence_score": 149,
+            "herb_total_score": 2980,
+            "preparation_desc": "Avena sativa teas, also known as oat seed tea, have been traditionally used to treat depression due to its calming and soothing effects. The properties of Avena sativa teas that help to treat depression include its ability to reduce anxiety and stress, improve sleep quality, and promote relaxation. The bioactive constituents of Avena sativa teas, such as avenanthramides and avenacosides, have been shown to have antioxidant and anti-inflammatory properties that help to alleviate symptoms of depression. The benefits of using Avena sativa teas to treat depression include reduced symptoms of anxiety and depression, improved mood, and enhanced overall well-being.",
+            "preparation_study": "According to \"BioMed research international\", Avena sativa teas for depression may be an alternative option for treatment due to the potential disadvantage of conventional therapy such as adverse effects, but the efficacy and safety of these treatments have to be supported by clinical studies.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Chamomile-Eco-Conscious-Lined-FGO/dp/B07N2F8718",
+                "affiliate_link": "https://amzn.to/3EaZYm9",
+                "title": "FGO Organic Chamomile Tea, 100 Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 19,
+            "herb_confidence_score": 142,
+            "herb_total_score": 2698,
+            "preparation_desc": "Melissa officinalis teas, also known as lemon balm teas, have been traditionally used to help alleviate symptoms of depression due to their calming and mood-enhancing properties. The herbal preparation's ability to reduce stress and anxiety levels contributes to its effectiveness in treating depression. The bioactive constituents of Melissa officinalis, including rosmarinic acid, flavonoids, and terpenes, have been shown to have a positive impact on mood regulation and cognitive function. Regular consumption of Melissa officinalis teas may help to reduce symptoms of depression, improve sleep quality, and increase overall sense of well-being.",
+            "preparation_study": "According to \"BMC complementary medicine and therapies\", Melissa officinalis teas for depression may be effective in reducing the severity of depression and anxiety in patients with type 2 diabetes, as a 12-week study found a significant decrease in depression and anxiety scores in patients who consumed the tea extract compared to a control group.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 20,
+            "herb_confidence_score": 135,
+            "herb_total_score": 2700,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to help alleviate symptoms of depression due to their adaptogenic properties, which enable the body to adapt to stress and promote balance in the nervous system. The bioactive constituents present in ginkgo biloba, such as flavonoids and terpenoids, have been found to have a positive effect on the neurotransmitters responsible for regulating mood, including serotonin and dopamine. By promoting the production and release of these neurotransmitters, ginkgo biloba teas may help to improve mood and reduce symptoms of depression. Additionally, ginkgo biloba teas have been shown to have antioxidant properties, which can help to reduce oxidative stress and inflammation in the brain, further contributing to their antidepressant effects.",
+            "preparation_study": "According to \"Pharmacopsychiatry\", Ginkgo biloba teas for depression may improve sleep continuity and enhance Non-REM sleep due to a weakening of tonic CRH-activity, which suggests a potential additional treatment strategy for depression with sleep disturbance.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 18,
+            "herb_confidence_score": 116,
+            "herb_total_score": 2088,
+            "preparation_desc": "Zingiber officinale teas have been traditionally used to treat depression due to their potential anxiolytic and antidepressant properties. The bioactive constituents of Zingiber officinale, such as gingerol and shogaol, possess anti-inflammatory and antioxidant activities that may help alleviate symptoms of depression by reducing inflammation and oxidative stress in the brain. By promoting the release of neurotransmitters like serotonin and dopamine, Zingiber officinale teas may help to improve mood and reduce symptoms of depression. The benefits of using Zingiber officinale teas to treat depression include reduced anxiety, improved sleep quality, and enhanced overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 16,
+            "herb_confidence_score": 104,
+            "herb_total_score": 1664,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle teas, have been traditionally used to treat depression due to their anti-inflammatory and antioxidant properties. The flavonoids, silymarin, and silibinin present in this herbal preparation help to reduce oxidative stress and inflammation in the brain, contributing to the alleviation of depressive symptoms. Studies have shown that silymarin, a bioactive constituent of Silybum marianum, exhibits antidepressant-like effects by modulating the levels of neurotransmitters such as serotonin and dopamine. The benefits of using Silybum marianum teas to treat depression include reduced symptoms of anxiety and depression, improved mood, and enhanced overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Camellia sinensis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 81,
+            "herb_total_score": 1053,
+            "preparation_desc": "Camellia sinensis teas, derived from the leaves of the Camellia sinensis plant, have been traditionally used to treat depression due to their unique properties that help alleviate symptoms of the ailment. The herbal preparation contains bioactive constituents such as theanine, flavonoids, and L-theanine, which have been found to promote relaxation, reduce stress levels, and improve mood. By regulating the body's stress response, Camellia sinensis teas help to treat depression by promoting a sense of calmness and well-being, thereby reducing symptoms of anxiety and promoting a healthy sleep-wake cycle. The benefits of using Camellia sinensis teas to treat depression include improved mood, reduced stress levels, and a decrease in symptoms of anxiety, making it a natural and effective herbal remedy for managing depression.",
+            "preparation_study": "According to \"Current pharmaceutical design\", Camellia sinensis teas for depression have been identified as a potential herbal remedy with favourable safety profiles and possible active ingredients that may help in delivering effective replacements to currently available synthetic antidepressants.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Green-Eco-Conscious-Lined-FGO/dp/B07ND4GD5S",
+                "affiliate_link": "https://amzn.to/3Gk6JT6",
+                "title": "FGO Organic Green Tea, 100 Count Eco-Conscious Tea Bags, Caffeinated, Resealable Pouch, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_mentions": 12,
+            "herb_confidence_score": 77,
+            "herb_total_score": 924,
+            "preparation_desc": "Schisandra chinensis teas, a traditional herbal remedy, have been found to effectively treat depression by promoting relaxation, reducing stress, and improving mood. The antidepressant properties of Schisandra chinensis teas can be attributed to their bioactive constituents, including lignans, schisandrins, and flavonoids, which interact with neurotransmitters to alleviate symptoms of depression. Regular consumption of Schisandra chinensis teas has been shown to help regulate the body's response to stress, leading to a decrease in anxiety and depression symptoms, while also promoting a sense of calm and well-being. The benefits of using Schisandra chinensis teas to treat depression include improved sleep quality, reduced inflammation, and enhanced overall mental health, making it a promising natural remedy for individuals seeking a holistic approach to managing depression.",
+            "preparation_study": "According to \"BioMed research international\", Schisandra chinensis teas for depression may be a potential complementary method that can be used in conjunction with conventional antidepressants due to its therapeutic benefits.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-EveryDay-Detox/dp/B0009F3PHQ",
+                "affiliate_link": "https://amzn.to/4d2gq5d",
+                "title": "Traditional Medicinals Tea, Organic EveryDay Detox Schisandra Berry, Supports Healthy Liver Function, Detox, 96 Tea Bags (6 Pack)"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 10,
+            "herb_confidence_score": 73,
+            "herb_total_score": 730,
+            "preparation_desc": "Curcuma longa teas have been traditionally used to treat depression due to their unique properties that help to alleviate symptoms and promote mental well-being. The antidepressant effects of Curcuma longa teas can be attributed to the presence of bioactive constituents such as curcumin, demethoxycurcumin, and bisdemethoxycurcumin, which have potent anti-inflammatory and antioxidant properties that help to regulate mood and reduce stress. Curcuma longa teas work by inhibiting the production of pro-inflammatory cytokines and increasing the production of neurotransmitters such as serotonin and dopamine, which helps to improve mood and reduce symptoms of depression. The benefits of using Curcuma longa teas to treat depression include reduced symptoms of anxiety and depression, improved mood, and enhanced overall mental well-being.",
+            "preparation_study": "According to \"CNS & neurological disorders drug targets\", Curcuma longa teas for depression have been reported to possess antidepressant-like effects, which could be beneficial for the treatment of this condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 70,
+            "herb_total_score": 700,
+            "preparation_desc": "Cinchona officinalis teas, derived from the bark of the Cinchona tree, have been traditionally used to treat depression due to their adaptogenic and antidepressant properties. The bioactive constituents of Cinchona officinalis teas, including quinine, quinidine, and flavonoids, help to regulate mood and reduce symptoms of depression by inhibiting the reuptake of neurotransmitters such as serotonin and dopamine. The tea's ability to modulate the body's response to stress, coupled with its antioxidant properties, also contributes to its potential therapeutic benefits in treating depression. Overall, Cinchona officinalis teas offer a natural and holistic approach to managing depression, providing relief from symptoms and promoting overall well-being.",
+            "preparation_study": "According to the study published in \"BMJ (Clinical research ed.)\", Cinchona officinalis teas (specifically, the hypericum extract used in the study) were found to be more effective than placebo and at least as effective as 100mg imipramine daily in reducing Hamilton depression scores and improving quality of life in patients with moderate depression.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula latifolia",
+            "herb_mentions": 8,
+            "herb_confidence_score": 56,
+            "herb_total_score": 448,
+            "preparation_desc": "Lavandula latifolia teas have been traditionally used to treat depression due to their calming and soothing properties, which help to alleviate symptoms of anxiety and stress associated with this ailment. The bioactive constituents of Lavandula latifolia, including linalool and linalyl acetate, have been found to have a positive impact on mood and cognitive function, thereby helping to treat depression. These herbal preparations work by promoting relaxation, reducing inflammation, and regulating the body's hormonal balance, ultimately leading to an improvement in mood and overall well-being. The benefits of using Lavandula latifolia teas to treat depression include a reduction in symptoms of anxiety and depression, improved sleep quality, and a sense of calm and relaxation, making it a natural and effective remedy for this common mental health condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 48,
+            "herb_total_score": 336,
+            "preparation_desc": "Rosmarinus officinalis teas have been traditionally used to treat depression due to their adaptogenic and anxiolytic properties, which help to alleviate symptoms of anxiety and stress. The herbal preparation's ability to modulate the hypothalamic-pituitary-adrenal (HPA) axis and promote a balance in neurotransmitter levels contributes to its antidepressant effects. The bioactive constituents of Rosmarinus officinalis, including rosmarinic acid, carnosic acid, and camphor, have been identified as key players in its antidepressant activity, as they possess antioxidant and anti-inflammatory properties that help to protect against oxidative stress and inflammation. By consuming Rosmarinus officinalis teas, individuals can potentially experience benefits such as improved mood, reduced symptoms of depression, and enhanced cognitive function, making it a valuable herbal remedy for managing depressive symptoms.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 6,
+            "herb_confidence_score": 40,
+            "herb_total_score": 240,
+            "preparation_desc": "Mentha x piperita teas, commonly known as peppermint tea, have been traditionally used to treat depression due to their calming and mood-enhancing properties. The herbal preparation helps to treat depression by reducing anxiety and stress, promoting relaxation, and improving sleep quality, which are all essential factors in managing depression. The bioactive constituents of peppermint tea, including menthol, menthone, and limonene, contribute to its antidepressant effects by modulating neurotransmitters and reducing inflammation in the brain. Regular consumption of peppermint tea has been found to have benefits in treating depression by improving mood, reducing symptoms of anxiety and depression, and promoting overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 7,
+            "herb_confidence_score": 39,
+            "herb_total_score": 273,
+            "preparation_desc": "Glycyrrhiza glabra teas have been traditionally used to treat depression due to their antidepressant and anxiolytic properties. The bioactive constituents, such as flavonoids and triterpenoid saponins, help to reduce stress and anxiety levels by modulating the activity of neurotransmitters like serotonin and dopamine. By promoting relaxation and reducing stress, Glycyrrhiza glabra teas help alleviate symptoms of depression, including mood swings and emotional instability. The benefits of using this herbal preparation include improved mood, reduced anxiety, and enhanced overall well-being, making it a potential adjunctive treatment for depression.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 7,
+            "herb_confidence_score": 36,
+            "herb_total_score": 252,
+            "preparation_desc": "Foeniculum vulgare teas have been traditionally used to treat depression due to their calming and mood-enhancing properties. The bioactive constituents of this herbal preparation, including limonene, pinene, and sesquiterpene, help to reduce stress and anxiety, which are often associated with depression. Foeniculum vulgare teas work by modulating the neurotransmitter levels in the brain, such as serotonin and dopamine, which play a crucial role in regulating mood and emotional responses. Regular consumption of Foeniculum vulgare teas has been found to have antidepressant effects, improving overall mental health and well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/HANDPICK-Caffeine-Natural-Premium-Eco-Conscious/dp/B0BFHKDK88",
+                "affiliate_link": "https://amzn.to/42bRtPt",
+                "title": "HANDPICK, Fennel Tea Bags (100 Herbal Tea Bags) Caffeine Free, Gluten Free & Non GMO | Round Eco Conscious Teabags | Smooth & Sweet"
+            }
+        },
+        {
+            "herb_name_scientific": "Bacopa monnieri",
+            "herb_mentions": 5,
+            "herb_confidence_score": 31,
+            "herb_total_score": 155,
+            "preparation_desc": "Bacopa monnieri teas have been traditionally used to treat depression by leveraging their adaptogenic and anti-anxiety properties, which help to reduce stress and promote a sense of calmness. The herbal preparation's ability to enhance memory and cognitive function also plays a crucial role in treating depression by improving mood and reducing symptoms of anxiety. The bioactive constituents, including bacosides A and B, and saponins, are responsible for the medicinal properties of Bacopa monnieri teas, which help to modulate the neurotransmitter system and promote a healthy mood. Regular consumption of Bacopa monnieri teas has been found to provide benefits such as reduced symptoms of depression, improved sleep quality, and increased overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Citrus reticulata",
+            "herb_mentions": 4,
+            "herb_confidence_score": 26,
+            "herb_total_score": 104,
+            "preparation_desc": "Citrus reticulata teas, also known as chinotto teas, have been traditionally used to treat depression due to their calming and antidepressant properties. These teas are rich in flavonoids, limonoids, and other bioactive constituents that help to reduce stress and anxiety, promoting a sense of well-being and relaxation. The flavonoids present in Citrus reticulata teas, such as naringenin and hesperidin, have been shown to exhibit antidepressant activity by modulating the neurotransmitter levels in the brain, thereby helping to alleviate symptoms of depression. The regular consumption of Citrus reticulata teas has been found to be beneficial in treating depression by promoting relaxation, reducing stress, and improving mood, making it a natural and effective herbal remedy for this ailment.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Praxis\", teas for depression may be a useful option, particularly for mild to moderate depression in young patients or those with a reserved attitude toward traditional medications."
+}

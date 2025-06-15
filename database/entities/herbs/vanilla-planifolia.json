@@ -1,0 +1,24 @@
+{
+    "url": "herbs/vanilla-planifolia",
+    "herb_slug": "vanilla-planifolia",
+    "herb_name_scientific": "vanilla planifolia",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Vanilla Planifolia",
+    "medicine_or_poison": [
+        {
+            "answer": "inert",
+            "mentions": 7,
+            "confidence_score": 68,
+            "total_score": 476
+        },
+        {
+            "answer": "medicine",
+            "mentions": 3,
+            "confidence_score": 27,
+            "total_score": 81
+        }
+    ],
+    "constituents_num": 7,
+    "side_effects_num": 9
+}

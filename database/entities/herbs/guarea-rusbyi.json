@@ -1,0 +1,24 @@
+{
+    "url": "herbs/guarea-rusbyi",
+    "herb_slug": "guarea-rusbyi",
+    "herb_name_scientific": "guarea rusbyi",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Guarea Rusbyi",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "answer": "medicine",
+            "mentions": 4,
+            "confidence_score": 30,
+            "total_score": 120
+        }
+    ],
+    "constituents_num": 13,
+    "side_effects_num": 13
+}

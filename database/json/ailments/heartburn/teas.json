@@ -1,0 +1,233 @@
+{
+    "url": "ailments/heartburn/teas",
+    "ailment_slug": "heartburn",
+    "ailment_name": "heartburn",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 11,
+    "title": "11 Best Herbal Teas For Heartburn",
+    "intro": "Herbal teas for Heartburn are natural remedies that have been used for centuries to alleviate the symptoms of heartburn, a condition characterized by a burning sensation in the chest and throat due to the reflux of stomach acid into the esophagus. These teas offer a range of benefits, including soothing the digestive system, reducing inflammation, and promoting relaxation. Some popular herbal teas for heartburn include ginger tea, which has natural anti-inflammatory properties that help to reduce inflammation and alleviate discomfort, peppermint tea, which can help to relax the muscles in the digestive tract and improve digestion, chamomile tea, which has a calming effect and can help to reduce stress and anxiety, licorice root tea, which has anti-inflammatory properties that can help to soothe the digestive system, and slippery elm tea, which can help to protect and soothe the mucous membranes in the digestive tract. Additionally, other herbal teas such as dandelion root tea, fennel tea, and meadowsweet tea are also commonly used to treat heartburn due to their ability to reduce inflammation, improve digestion, and alleviate symptoms.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 20,
+            "herb_confidence_score": 169,
+            "herb_total_score": 3380,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger teas, have been traditionally used to treat heartburn due to their anti-inflammatory and carminative properties. The bioactive constituents, such as gingerols and shogaols, help to reduce inflammation in the esophagus and alleviate symptoms of heartburn. The soothing and calming effects of these compounds aid in relaxing the muscles in the esophagus and reducing the frequency and severity of heartburn episodes. The benefits of using Zingiber officinale teas to treat heartburn include natural and non-invasive relief, reduced symptoms, and improved overall digestive health.",
+            "preparation_study": "According to \"Pakistan journal of pharmaceutical sciences\", Zingiber officinale teas, which contain significant amounts of total phenolic compounds and exhibit high antioxidant activity, may be beneficial for alleviating heartburn due to their potent DPPH (222.30mg/TE/g DW) and FRAP (98.04mg/TE/g DW) values.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 20,
+            "herb_confidence_score": 166,
+            "herb_total_score": 3320,
+            "preparation_desc": "Glycyrrhiza glabra teas, made from the roots of the licorice plant, have been traditionally used to treat heartburn and other gastrointestinal issues due to their anti-inflammatory and antacid properties. These properties help to neutralize stomach acid and soothe the mucous membranes in the digestive tract, reducing inflammation and discomfort associated with heartburn. The bioactive constituents of Glycyrrhiza glabra teas, including glycyrrhizin, flavonoids, and saponins, contribute to their therapeutic effects by inhibiting the production of stomach acid and promoting the healing of the mucous membranes. The benefits of using Glycyrrhiza glabra teas to treat heartburn include natural relief from symptoms, reduced risk of complications, and improved overall digestive health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 19,
+            "herb_confidence_score": 153,
+            "herb_total_score": 2907,
+            "preparation_desc": "Foeniculum vulgare teas, derived from the seeds of the fennel plant, have been traditionally used to treat heartburn due to their soothing and carminative properties. The anti-inflammatory and antioxidant properties of fennel seeds, particularly anethole and trans-anethole, help to reduce inflammation in the esophagus and alleviate symptoms of heartburn. By relaxing the muscles in the lower esophageal sphincter, fennel tea helps to prevent stomach acid from flowing back up into the esophagus, providing relief from heartburn discomfort. The benefits of fennel tea in treating heartburn include rapid symptom relief, reduced risk of esophageal damage, and a soothing digestive experience.",
+            "preparation_study": "According to \"Oxidative medicine and cellular longevity\", Foeniculum vulgare teas for heartburn may provide relief due to the presence of biologically active chemical constituents with antispasmodic activities.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/HANDPICK-Caffeine-Natural-Premium-Eco-Conscious/dp/B0BFHKDK88",
+                "affiliate_link": "https://amzn.to/42bRtPt",
+                "title": "HANDPICK, Fennel Tea Bags (100 Herbal Tea Bags) Caffeine Free, Gluten Free & Non GMO | Round Eco Conscious Teabags | Smooth & Sweet"
+            }
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 12,
+            "herb_confidence_score": 94,
+            "herb_total_score": 1128,
+            "preparation_desc": "Mentha x piperita teas, also known as peppermint teas, have been traditionally used to treat heartburn due to their soothing and calming effects on the digestive system. The carminative properties of peppermint teas help to relax the muscles in the stomach and reduce inflammation, thereby alleviating the symptoms of heartburn. The bioactive constituents of peppermint, including menthol, menthone, and limonene, have been shown to inhibit the growth of bacteria and reduce inflammation in the stomach, thereby helping to treat heartburn. Drinking peppermint teas can provide relief from heartburn symptoms and help to prevent future occurrences, making it a popular herbal remedy for digestive issues.",
+            "preparation_study": "According to \"Current pharmaceutical biotechnology\", Mentha x piperita teas for heartburn may be beneficial as it is listed as one of the most efficient herbal agents for visceral hypersensitivity management in irritable bowel syndrome and dyspepsia, predominantly through modulation of the mRNA expression of transient receptor potential vanilloid type-1 (TRPV1) and suppression of 5-hydroxytryptamine 3 (5-HT3) or the serotonin receptors.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 14,
+            "herb_confidence_score": 90,
+            "herb_total_score": 1260,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to treat heartburn due to their soothing and calming properties, which help to reduce inflammation and alleviate discomfort associated with acid reflux. The herbal preparation contains bioactive constituents such as linalool and linalyl acetate, which exhibit anti-inflammatory and antispasmodic activities, further contributing to its heartburn-relieving effects. By calming the digestive system and reducing inflammation, Lavandula angustifolia teas provide relief from heartburn symptoms, promoting a sense of comfort and well-being. The benefits of using Lavandula angustifolia teas to treat heartburn include a natural and non-invasive approach to managing symptoms, making it a popular alternative remedy for those seeking a chemical-free solution.",
+            "preparation_study": "According to \"Oxidative medicine and cellular longevity\", Lavandula angustifolia teas may be beneficial for heartburn due to the presence of biologically active compounds that exhibit significant spasmolytic effects.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 12,
+            "herb_confidence_score": 86,
+            "herb_total_score": 1032,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been used for centuries to treat heartburn and related digestive issues. This herbal preparation contains flavonoids, particularly silymarin, which helps to reduce inflammation and protect the esophageal lining from acid damage, thereby alleviating heartburn symptoms. The bioactive constituents, including silibinin and silidianin, help to neutralize stomach acid and improve digestion, further contributing to the relief of heartburn. The benefits of Silybum marianum teas in treating heartburn include reduced symptoms, improved digestion, and enhanced overall gut health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 11,
+            "herb_confidence_score": 80,
+            "herb_total_score": 880,
+            "preparation_desc": "Curcuma longa teas, derived from the turmeric plant, have been traditionally used to treat heartburn ailments due to their anti-inflammatory and carminative properties. The bioactive constituents of Curcuma longa, including curcuminoids and polyphenols, help to reduce inflammation in the esophagus and alleviate symptoms of heartburn by inhibiting the production of gastric acid. By soothing the digestive tract and reducing inflammation, Curcuma longa teas provide relief from heartburn and associated discomfort, making them a popular natural remedy for this common condition. The benefits of using Curcuma longa teas to treat heartburn include reduced symptoms, improved digestion, and a decrease in the risk of complications associated with prolonged heartburn.",
+            "preparation_study": "According to the study, Curcuma longa teas for heartburn contain curcumin, a compound that constitutes the main active substance within the plant, which may help alleviate pain and discomfort associated with heartburn.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zanthoxylum bungeanum",
+            "herb_mentions": 11,
+            "herb_confidence_score": 72,
+            "herb_total_score": 792,
+            "preparation_desc": "Zanthoxylum bungeanum teas have been traditionally used to treat heartburn due to their antispasmodic and carminative properties, which help to relax the muscles in the digestive tract and alleviate symptoms of acid reflux. The bioactive constituents of Zanthoxylum bungeanum, including limonoids and flavonoids, have been shown to possess gastroprotective and anti-inflammatory effects, which contribute to its ability to treat heartburn. By reducing inflammation and improving digestion, Zanthoxylum bungeanum teas help to treat heartburn by preventing the acid from flowing back up into the esophagus and causing discomfort. The benefits of using Zanthoxylum bungeanum teas to treat heartburn include reduced frequency and severity of symptoms, improved digestion, and a natural alternative to conventional medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 14,
+            "herb_confidence_score": 70,
+            "herb_total_score": 980,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat heartburn due to their anti-inflammatory and antioxidant properties, which help to soothe the digestive tract and reduce inflammation in the esophagus. The bioactive constituents of Ginkgo biloba, including flavonoids and terpenoids, work together to relax the lower esophageal sphincter and reduce acid production in the stomach, providing relief from heartburn symptoms. These constituents also have a protective effect on the mucous membranes in the digestive tract, helping to prevent further irritation and damage. By using Ginkgo biloba teas, individuals can experience a range of benefits, including reduced heartburn symptoms, improved digestion, and a decrease in the risk of complications associated with chronic heartburn.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 67,
+            "herb_total_score": 536,
+            "preparation_desc": "Aloe barbadensis teas have been traditionally used to treat heartburn, a common gastrointestinal disorder, due to their soothing and anti-inflammatory properties. The bioactive constituents present in Aloe barbadensis teas, including aloin, aloe-emodin, and acemannan, help to reduce inflammation and promote the healing of the mucous membranes in the esophagus, thereby alleviating heartburn symptoms. The gel extracted from the Aloe vera plant in these teas also helps to neutralize stomach acid and promote digestion, further contributing to its heartburn-relieving effects. The benefits of using Aloe barbadensis teas to treat heartburn include reduced symptoms, improved digestion, and a lower risk of complications associated with prolonged heartburn, making it a popular natural remedy for this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Spearmint-Eco-Conscious-Lined-FGO/dp/B07ND418HR",
+                "affiliate_link": "https://amzn.to/42s2qOg",
+                "title": "FGO Organic Spearmint Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 67,
+            "herb_total_score": 737,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat heartburn due to their anti-inflammatory and antacid properties, which help to soothe and protect the mucous membranes in the stomach and esophagus. The alkaloids present in Cinchona officinalis, such as quinine and quinidine, exhibit a buffering effect that helps to neutralize stomach acid and alleviate heartburn symptoms. The bioactive constituents of Cinchona officinalis, including flavonoids and phenolic acids, also contribute to its anti-inflammatory and antioxidant effects, which can help to reduce inflammation and promote healing in the affected areas. Overall, Cinchona officinalis teas can be a beneficial herbal remedy for heartburn, offering a natural and non-invasive approach to managing symptoms and promoting digestive health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 56,
+            "herb_total_score": 504,
+            "preparation_desc": "Rosmarinus officinalis teas have been traditionally used to treat heartburn, a condition characterized by the reflux of stomach acid into the esophagus, causing discomfort and pain. The antispasmodic and carminative properties of this herbal preparation help to relax the muscles in the digestive tract, reducing inflammation and alleviating symptoms of heartburn. The bioactive constituents, including rosmarinic acid and carnosic acid, possess anti-inflammatory and antioxidant properties that help to protect the esophagus and reduce acid production in the stomach, thereby providing relief from heartburn. Regular consumption of Rosmarinus officinalis teas has been found to offer benefits in reducing the frequency and severity of heartburn episodes, making it a valuable natural remedy for individuals suffering from this common ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinnamomum verum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 53,
+            "herb_total_score": 371,
+            "preparation_desc": "Cinnamomum verum teas, derived from the bark of Cinnamomum verum tree, have been traditionally used to treat heartburn due to their carminative and anti-inflammatory properties. The herbal preparation helps to treat heartburn by reducing inflammation in the esophagus and alleviating symptoms such as bloating and discomfort. The bioactive constituents, including cinnamaldehyde and linalool, present in Cinnamomum verum teas, exhibit gastroprotective and antacid effects, which help to neutralize stomach acid and prevent acid reflux. The benefits of using Cinnamomum verum teas to treat heartburn include rapid relief from symptoms, prevention of esophageal damage, and a natural alternative to conventional medications.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Celestial-Seasonings-Herbal-Cinnamon-Apple/dp/B000E65OII",
+                "affiliate_link": "https://amzn.to/3G3S3aR",
+                "title": "Celestial Seasonings Cinnamon Apple Spice Herbal Tea, Caffeine Free, 20 Tea Bags Box (Pack of 6)"
+            }
+        },
+        {
+            "herb_name_scientific": "Matricaria chamomilla",
+            "herb_mentions": 6,
+            "herb_confidence_score": 44,
+            "herb_total_score": 264,
+            "preparation_desc": "Matricaria chamomilla teas have been traditionally used to treat heartburn, a common condition characterized by acid reflux and burning sensation in the chest. The anti-inflammatory and soothing properties of this herbal preparation help to calm the digestive system, reducing inflammation and alleviating symptoms associated with heartburn. The bioactive constituents, including apigenin and luteolin, play a crucial role in treating heartburn by reducing inflammation, relaxing the muscles in the digestive tract, and protecting against oxidative stress. Regular consumption of Matricaria chamomilla teas has been shown to provide relief from heartburn symptoms, promoting digestive health and overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cassia auriculata",
+            "herb_mentions": 6,
+            "herb_confidence_score": 34,
+            "herb_total_score": 204,
+            "preparation_desc": "Cassia auriculata teas are a traditional herbal preparation used to treat heartburn ailments, and they possess anti-inflammatory and carminative properties that help to soothe the digestive system. This herbal preparation helps to treat heartburn by reducing inflammation in the esophagus and stomach, relieving symptoms such as acid reflux and discomfort. The bioactive constituents of Cassia auriculata teas, including flavonoids, saponins, and phenolic acids, have been shown to have antioxidant and anti-inflammatory effects that contribute to its therapeutic benefits. The benefits of using Cassia auriculata teas to treat heartburn include natural relief from symptoms, improved digestion, and a reduced risk of complications associated with prolonged acid reflux.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Thymus serpyllum",
+            "herb_mentions": 5,
+            "herb_confidence_score": 34,
+            "herb_total_score": 170,
+            "preparation_desc": "Thymus serpyllum teas, also known as wild thyme tea, have been used to treat heartburn due to their soothing and carminative properties, which help to calm the digestive system and reduce inflammation in the esophagus. The herbal preparation contains bioactive constituents such as thymol and carvacrol, which have been shown to exhibit anti-inflammatory and antiseptic properties that aid in reducing heartburn symptoms. Thymus serpyllum teas help to treat heartburn by relaxing the lower esophageal sphincter, reducing acid reflux, and promoting a healthy gut microbiome. The benefits of using Thymus serpyllum teas to treat heartburn include natural relief from symptoms, reduced risk of complications, and a decrease in the reliance on over-the-counter medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Gardenia jasminoides",
+            "herb_mentions": 5,
+            "herb_confidence_score": 30,
+            "herb_total_score": 150,
+            "preparation_desc": "Gardenia jasminoides teas have been traditionally used to treat heartburn, a common digestive issue characterized by acid reflux and burning sensations in the chest. The anti-inflammatory and soothing properties of this herbal preparation help to calm the digestive system, reducing inflammation and alleviating symptoms of heartburn. The bioactive constituents of Gardenia jasminoides teas, including gardenoside, geniposide, and genipin, exhibit gastroprotective and anti-ulcerogenic effects, which help to protect the mucous lining of the stomach and prevent acid reflux. Regular consumption of Gardenia jasminoides teas can provide relief from heartburn symptoms, promote digestive health, and reduce the risk of complications associated with acid reflux.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 5,
+            "herb_confidence_score": 30,
+            "herb_total_score": 150,
+            "preparation_desc": "Sambucus nigra teas have been traditionally used to treat heartburn due to their anti-inflammatory and antacid properties, which help to neutralize stomach acid and provide relief from heartburn symptoms. The bioactive constituents of Sambucus nigra, including flavonoids, tannins, and phenolic acids, have been found to have a protective effect on the mucous membranes of the esophagus and stomach, reducing inflammation and healing damage caused by acid reflux. By reducing inflammation and promoting healing, Sambucus nigra teas help to alleviate symptoms of heartburn, such as burning sensations and difficulty swallowing, and can also help to prevent future episodes of heartburn. The benefits of using Sambucus nigra teas to treat heartburn include reduced reliance on antacids and acid reducers, improved digestion, and a lower risk of complications associated with chronic acid reflux.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Elderberry-Eco-Conscious-Kraft-FGO/dp/B09HDFQ4JX",
+                "affiliate_link": "https://amzn.to/42aR3ZN",
+                "title": "FGO Organic Elderberry Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealabel Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Magnolia officinalis",
+            "herb_mentions": 4,
+            "herb_confidence_score": 28,
+            "herb_total_score": 112,
+            "preparation_desc": "Magnolia officinalis teas have been traditionally used to treat heartburn, a common digestive issue, due to their soothing and anti-inflammatory properties. The herbal preparation helps to treat heartburn by reducing inflammation in the esophagus and relaxing the lower esophageal sphincter, thereby preventing acid reflux. The bioactive constituents of Magnolia officinalis teas, including magnolol and honokiol, have been found to have gastroprotective effects and may help to neutralize stomach acid, thereby alleviating heartburn symptoms. The benefits of using Magnolia officinalis teas to treat heartburn include their natural and non-invasive approach, making them a popular alternative to conventional medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Althaea officinalis",
+            "herb_mentions": 4,
+            "herb_confidence_score": 28,
+            "herb_total_score": 112,
+            "preparation_desc": "Althaea officinalis teas are a natural remedy used to treat heartburn, a common digestive issue characterized by a burning sensation in the chest and throat. The mucilages present in this herbal preparation form a protective barrier on the mucous membranes, helping to soothe and calm the digestive tract and alleviate heartburn symptoms. The bioactive constituents of Althaea officinalis, including flavonoids and mucilages, have anti-inflammatory and antioxidant properties that contribute to its therapeutic effects. Regular consumption of Althaea officinalis teas can provide relief from heartburn symptoms, promote digestive health, and offer a safe and natural alternative to conventional treatments.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Journal of alternative and complementary medicine (New York, N.Y.)\", teas for heartburn, such as those made from Myrtus communis and Cydonia oblonga, have shown to alleviate symptoms related to GERD, with some studies even demonstrating a marked reduction in symptoms comparable to the medication omeprazole."
+}

@@ -1,0 +1,18 @@
+{
+    "url": "herbs/senecio-jacobaea",
+    "herb_slug": "senecio-jacobaea",
+    "herb_name_scientific": "senecio jacobaea",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Senecio Jacobaea",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 10,
+            "confidence_score": 93,
+            "total_score": 930
+        }
+    ],
+    "constituents_num": 7,
+    "side_effects_num": 13
+}

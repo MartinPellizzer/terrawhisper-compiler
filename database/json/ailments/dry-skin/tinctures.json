@@ -1,0 +1,181 @@
+{
+    "url": "ailments/dry-skin/tinctures",
+    "ailment_slug": "dry-skin",
+    "ailment_name": "dry skin",
+    "preparation_slug": "tinctures",
+    "preparation_name": "tinctures",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Tinctures For Dry Skin",
+    "intro": "Herbal tinctures for dry skin are concentrated liquid extracts made from herbs and plants that are used to treat and alleviate dry skin conditions. These herbal remedies offer numerous benefits, including soothing and moisturizing the skin, reducing inflammation, and promoting skin elasticity, making them an effective natural alternative to harsh chemical-based products. Some examples of herbal tinctures used to treat dry skin include aloe vera, which has anti-inflammatory properties, chamomile, which calms and soothes irritated skin, calendula, which promotes wound healing and tissue regeneration, tea tree oil, which has antimicrobial properties, and lavender oil, which has antiseptic and moisturizing properties. By incorporating these herbal tinctures into one's skincare routine, individuals can experience relief from dry skin and achieve healthier, more radiant skin.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 20,
+            "herb_confidence_score": 172,
+            "herb_total_score": 3440,
+            "preparation_desc": "Calendula officinalis tinctures have been traditionally used to treat dry skin ailments due to their anti-inflammatory, antimicrobial, and soothing properties. The tinctures help to treat dry skin by reducing redness, itching, and irritation, promoting wound healing and skin regeneration. The bioactive constituents of Calendula officinalis, including triterpenoids, flavonoids, and carotenoids, contribute to its therapeutic effects by inhibiting the production of pro-inflammatory enzymes and cytokines, thus reducing inflammation and promoting tissue repair. The benefits of using Calendula officinalis tinctures to treat dry skin include improved skin hydration, reduced itching and irritation, and accelerated wound healing.",
+            "preparation_study": "According to the provided study, Calendula officinalis tinctures have a dermatologic importance of 57.78, indicating their potential use in treating dry skin.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 20,
+            "herb_confidence_score": 166,
+            "herb_total_score": 3320,
+            "preparation_desc": "Urtica dioica tinctures are a natural herbal preparation used to treat dry skin ailments, such as eczema and psoriasis. The anti-inflammatory and antimicrobial properties of this tincture help to soothe and calm irritated skin, reducing redness and itching. The bioactive constituents of Urtica dioica, including histamine, flavonoids, and triterpenoid saponins, work together to reduce inflammation and promote skin health. The benefits of using Urtica dioica tinctures to treat dry skin ailments include reduced symptoms of eczema and psoriasis, improved skin hydration, and a reduced risk of infection.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 15,
+            "herb_confidence_score": 144,
+            "herb_total_score": 2160,
+            "preparation_desc": "Aloe barbadensis tinctures have been traditionally used to treat dry skin ailments due to their soothing and moisturizing properties. The bioactive constituents present in Aloe barbadensis, such as aloin, aloe-emodin, and aloe-bergenin, help to reduce inflammation and promote skin hydration, making it an effective treatment for dry skin. By forming a protective barrier on the skin's surface and locking in moisture, Aloe barbadensis tinctures help to alleviate dryness, itching, and irritation associated with this condition. The benefits of using Aloe barbadensis tinctures to treat dry skin include improved skin elasticity, reduced inflammation, and enhanced skin hydration, leading to a more comfortable and healthier skin appearance.",
+            "preparation_study": "According to \"Adverse drug reactions and toxicological reviews\", Aloe barbadensis tinctures for dry skin have beneficial effects, especially as Aloe vera is mentioned as being particularly effective in the healing of wounds and burn injuries.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Symphytum officinale",
+            "herb_mentions": 17,
+            "herb_confidence_score": 133,
+            "herb_total_score": 2261,
+            "preparation_desc": "Symphytum officinale tinctures are a traditional herbal remedy used to treat dry skin ailments, such as eczema and dermatitis, due to their anti-inflammatory and soothing properties. The bioactive constituents of Symphytum officinale, including allantoin, mucilage, and glycosides, help to protect and moisturize the skin, reducing redness and irritation. This herbal preparation helps to treat dry skin ailments by forming a protective barrier on the skin's surface, promoting hydration and reducing inflammation. The benefits of using Symphytum officinale tinctures to treat dry skin ailments include reduced symptoms, improved skin hydration, and enhanced overall skin health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 19,
+            "herb_confidence_score": 132,
+            "herb_total_score": 2508,
+            "preparation_desc": "Glycyrrhiza glabra tinctures, derived from the roots of the licorice plant, have been used to treat dry skin ailments due to their moisturizing and anti-inflammatory properties. The tincture helps to treat dry skin by soothing and hydrating the skin, reducing irritation and inflammation, and promoting healthy skin regeneration. The bioactive constituents of Glycyrrhiza glabra tinctures, including glycyrrhizin and flavonoids, help to treat dry skin by inhibiting the production of cortisol, a hormone that can contribute to skin dryness and inflammation. The benefits of using Glycyrrhiza glabra tinctures to treat dry skin include improved skin elasticity, reduced inflammation, and a significant reduction in the appearance of fine lines and wrinkles.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 16,
+            "herb_confidence_score": 114,
+            "herb_total_score": 1824,
+            "preparation_desc": "Melissa officinalis tinctures, also known as lemon balm tinctures, are a herbal preparation used to treat dry skin ailments due to their soothing and anti-inflammatory properties. The bioactive constituents, including rosmarinic acid and flavonoids, in Melissa officinalis tinctures help to reduce inflammation and promote skin hydration, thereby alleviating symptoms of dry skin. By applying topically or taking internally, Melissa officinalis tinctures can help to calm and protect dry skin, reducing discomfort and promoting a healthy skin barrier. The benefits of using Melissa officinalis tinctures to treat dry skin ailments include improved skin hydration, reduced inflammation, and enhanced overall skin health.",
+            "preparation_study": "According to \"Journal of ethnopharmacology\", Melissa officinalis tinctures for dry skin may be beneficial due to the decoction's ability to reestablish skin physiology by decreasing dryness and enhancing skin barrier function, as indicated by its efficacy in treating psoriasis in mice.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 16,
+            "herb_confidence_score": 113,
+            "herb_total_score": 1808,
+            "preparation_desc": "Avena sativa tinctures are a natural herbal preparation used to treat dry skin ailments, including eczema and psoriasis, due to its soothing and moisturizing properties. The tincture helps to treat dry skin by reducing inflammation and promoting hydration, making it an effective remedy for skin irritations. The bioactive constituents of Avena sativa, including avenanthramides and beta-glucans, have been shown to have anti-inflammatory and antioxidant effects, which contribute to its therapeutic benefits. By using Avena sativa tinctures, individuals can experience improved skin health, reduced itchiness, and a smoother, more hydrated complexion, making it a beneficial natural treatment for dry skin ailments.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Saponaria officinalis",
+            "herb_mentions": 16,
+            "herb_confidence_score": 101,
+            "herb_total_score": 1616,
+            "preparation_desc": "Saponaria officinalis tinctures have been traditionally used to treat dry skin ailments due to their soothing and moisturizing properties, which help to calm and hydrate the skin. This herbal preparation's emollient and humectant properties help to lock in moisture and protect the skin from dryness, making it an effective treatment for dry skin conditions. The bioactive constituents of Saponaria officinalis, including saponins and glycosides, possess anti-inflammatory and antioxidant properties that help to soothe and protect the skin, reducing dryness and discomfort. The benefits of using Saponaria officinalis tinctures to treat dry skin include improved skin hydration, reduced inflammation, and enhanced skin elasticity, making it a popular natural remedy for dry skin ailments.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 16,
+            "herb_confidence_score": 92,
+            "herb_total_score": 1472,
+            "preparation_desc": "Echinacea purpurea tinctures have been traditionally used to treat dry skin ailments, such as eczema and dermatitis, due to their anti-inflammatory and antioxidant properties. The tinctures help to soothe and calm irritated skin, reducing redness and promoting a sense of comfort and relief. The bioactive constituents, including alkylamides, caffeic acid, and rosmarinic acid, work together to modulate the immune response and protect the skin from damage caused by free radicals. Regular use of Echinacea purpurea tinctures can provide long-term benefits, including improved skin hydration, reduced inflammation, and enhanced overall skin health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 13,
+            "herb_confidence_score": 87,
+            "herb_total_score": 1131,
+            "preparation_desc": "Lavandula angustifolia tinctures have been traditionally used to treat dry skin ailments, such as eczema and dermatitis, due to their anti-inflammatory and antiseptic properties. These herbal preparations help to soothe and calm irritated skin, reducing inflammation and promoting healthy skin regeneration. The bioactive constituents present in Lavandula angustifolia, including linalool and linalyl acetate, exhibit potent antioxidant and antimicrobial activities that contribute to its therapeutic effects. The benefits of using Lavandula angustifolia tinctures to treat dry skin ailments include reduced redness and itching, improved skin hydration, and a lower risk of infection.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 14,
+            "herb_confidence_score": 86,
+            "herb_total_score": 1204,
+            "preparation_desc": "Hypericum perforatum tinctures have been traditionally used to treat dry skin ailments such as eczema and dermatitis due to their anti-inflammatory and antioxidant properties. The bioactive constituents of Hypericum perforatum, including flavonoids, phenolic acids, and naphthoquinones, help to reduce inflammation, promote wound healing, and protect the skin from oxidative damage. By reducing inflammation and promoting skin regeneration, Hypericum perforatum tinctures can help to soothe and calm dry, itchy skin, reducing the risk of further irritation and infection. The benefits of using Hypericum perforatum tinctures to treat dry skin ailments include improved skin health, reduced inflammation, and enhanced wound healing, making it a popular natural remedy for skin conditions.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Equisetum arvense",
+            "herb_mentions": 11,
+            "herb_confidence_score": 68,
+            "herb_total_score": 748,
+            "preparation_desc": "Equisetum arvense tinctures have been used traditionally to treat dry skin ailments due to their anti-inflammatory and moisturizing properties. The bioactive constituents, such as flavonoids, saponins, and phenolic acids, in this herbal preparation help to soothe and hydrate the skin, reducing dryness and itchiness. By promoting skin health and protecting it from environmental stressors, Equisetum arvense tinctures can effectively alleviate symptoms of dry skin, such as cracking and flakiness. Regular use of this herbal preparation can also help to improve skin elasticity and reduce the appearance of fine lines and wrinkles, leading to a more youthful and radiant complexion.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 13,
+            "herb_confidence_score": 62,
+            "herb_total_score": 806,
+            "preparation_desc": "Taraxacum officinale tinctures are a herbal preparation derived from the dandelion plant, which has been traditionally used to treat dry skin ailments. The anti-inflammatory and antioxidant properties of this tincture help to soothe and calm irritated skin, reducing redness and discomfort. Bioactive constituents such as flavonoids, phenolic acids, and sesquiterpenes in Taraxacum officinale tinctures exhibit potent anti-inflammatory and antioxidant activities, which aid in treating dry skin by promoting skin hydration and reducing oxidative stress. The benefits of using Taraxacum officinale tinctures for dry skin include improved skin elasticity, reduced itchiness, and enhanced skin barrier function, making it a natural and effective remedy for this common skin condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 8,
+            "herb_confidence_score": 57,
+            "herb_total_score": 456,
+            "preparation_desc": "Silybum marianum tinctures, derived from the St. Mary's thistle plant, are a natural remedy often used to treat dry skin ailments such as eczema and dermatitis. The ant-inflammatory and antioxidant properties of this herbal preparation help to soothe and calm irritated skin, reducing redness and inflammation. The bioactive constituents, including flavonoids, silymarin, and fatty acids, work together to promote skin health and hydration, reducing the appearance of dry, scaly skin. By reducing inflammation and promoting skin hydration, Silybum marianum tinctures provide relief from dry skin symptoms and promote overall skin health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Arnica montana",
+            "herb_mentions": 7,
+            "herb_confidence_score": 55,
+            "herb_total_score": 385,
+            "preparation_desc": "Arnica montana tinctures have been traditionally used to treat dry skin ailments due to their anti-inflammatory and moisturizing properties. The tinctures work to soothe and hydrate dry skin by providing a protective barrier that helps lock in moisture, reducing the appearance of dryness and itchiness. The bioactive constituents present in Arnica montana tinctures, such as flavonoids, phenolic acids, and sesquiterpenes, are responsible for their therapeutic effects, including their ability to reduce inflammation and promote wound healing. By using Arnica montana tinctures, individuals can benefit from improved skin hydration, reduced inflammation, and a smoother, more radiant complexion.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Plantago lanceolata",
+            "herb_mentions": 8,
+            "herb_confidence_score": 51,
+            "herb_total_score": 408,
+            "preparation_desc": "Plantago lanceolata tinctures are a natural herbal remedy that has been traditionally used to treat dry skin ailments, such as eczema and dermatitis. The anti-inflammatory and moisturizing properties of this tincture help to soothe and calm irritated skin, reducing redness and itching. The bioactive constituents of Plantago lanceolata, including flavonoids and phenolic acids, have been shown to exhibit antioxidant and anti-inflammatory activities, which contribute to its therapeutic effects in treating dry skin. Regular use of Plantago lanceolata tinctures can provide long-term benefits, including improved skin hydration, reduced inflammation, and enhanced overall skin health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Chamomilla recutita",
+            "herb_mentions": 6,
+            "herb_confidence_score": 48,
+            "herb_total_score": 288,
+            "preparation_desc": "Chamomilla recutita tinctures have been traditionally used to treat dry skin ailments due to their anti-inflammatory, antiseptic, and soothing properties. The herbal preparation helps to treat dry skin by reducing redness, itchiness, and irritation, promoting a smooth and hydrated skin texture. The bioactive constituents of Chamomilla recutita, including apigenin and luteolin, have been found to possess anti-inflammatory and antioxidant properties that contribute to its therapeutic effects on dry skin. By using Chamomilla recutita tinctures, individuals can experience improved skin health, reduced symptoms of dry skin, and a soothing, calming sensation on the skin.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe vera",
+            "herb_mentions": 5,
+            "herb_confidence_score": 47,
+            "herb_total_score": 235,
+            "preparation_desc": "Aloe vera tinctures have been effectively used to treat dry skin ailments due to their moisturizing and soothing properties, which help to hydrate and calm the skin. The bioactive constituents of aloe vera, including glycoproteins, vitamins, and amino acids, work together to reduce inflammation, promote skin regeneration, and lock in moisture, providing relief from dryness and irritation. Aloe vera tinctures help to treat dry skin by forming a protective barrier on the skin's surface, reducing water loss, and promoting a healthy skin pH balance. The benefits of using aloe vera tinctures to treat dry skin ailments include improved skin hydration, reduced inflammation, and a decrease in the risk of skin infections, making it a popular and natural remedy for dry skin conditions.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Vaccinium myrtillus",
+            "herb_mentions": 7,
+            "herb_confidence_score": 47,
+            "herb_total_score": 329,
+            "preparation_desc": "Vaccinium myrtillus tinctures, derived from the bilberry plant, have been traditionally used to treat dry skin ailments due to their moisturizing and anti-inflammatory properties. The tannins and anthocyanins present in these tinctures help to soothe and protect dry skin, promoting a healthy skin barrier and reducing inflammation. The high antioxidant content in Vaccinium myrtillus tinctures also helps to combat oxidative stress and promote skin elasticity, resulting in improved skin hydration and texture. By incorporating Vaccinium myrtillus tinctures into one's skincare routine, individuals can experience relief from dry skin symptoms and enjoy a range of benefits, including improved skin hydration, reduced inflammation, and enhanced skin elasticity.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ruscus aculeatus",
+            "herb_mentions": 6,
+            "herb_confidence_score": 43,
+            "herb_total_score": 258,
+            "preparation_desc": "Ruscus aculeatus tinctures have been traditionally used to treat dry skin ailments due to their emollient and soothing properties. The herbal preparation helps to treat dry skin by moisturizing and calming the skin, reducing inflammation and irritation. The bioactive constituents of Ruscus aculeatus tinctures, including saponins and flavonoids, play a key role in its therapeutic effects, providing antioxidant and anti-inflammatory properties that help to soothe and protect the skin. The benefits of using Ruscus aculeatus tinctures to treat dry skin include improved skin hydration, reduced inflammation, and a decrease in the appearance of fine lines and wrinkles.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Forschende Komplementarmedizin und klassische Naturheilkunde = Research in complementary and natural classical medicine\", tinctures, specifically ethanolic PADMA 28 tinctures, may be beneficial for dry skin as they exhibit antibacterial effects against Gram-positive bacteria, which can help alleviate skin infections and conditions associated with dry skin."
+}

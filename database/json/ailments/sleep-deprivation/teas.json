@@ -1,0 +1,235 @@
+{
+    "url": "ailments/sleep-deprivation/teas",
+    "ailment_slug": "sleep-deprivation",
+    "ailment_name": "sleep deprivation",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Teas For Sleep Deprivation",
+    "intro": "Herbal teas for sleep deprivation are a type of herbal remedy used to treat the inability to fall asleep or stay asleep due to various factors, such as stress, anxiety, or irregular sleep schedules. These teas offer a natural and calming approach to addressing sleep deprivation, providing numerous benefits, including reduced stress levels, improved sleep quality, and enhanced relaxation. Some popular herbal teas used to treat sleep deprivation include chamomile, which promotes relaxation and soothes the mind, lavender, which calms the body and mind, valerian root, which regulates sleep patterns and promotes deep sleep, peppermint, which relaxes the body and reduces anxiety, and passionflower, which reduces anxiety and promotes a restful night's sleep. Additionally, other herbal teas like lemon balm, hops, and ashwagandha have also been found to help alleviate sleep deprivation by reducing stress and anxiety levels, promoting relaxation, and regulating sleep patterns.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 21,
+            "herb_confidence_score": 192,
+            "herb_total_score": 4032,
+            "preparation_desc": "Valeriana officinalis teas have been traditionally used to treat sleep deprivation ailments due to their sedative and calming properties, which help to induce relaxation and reduce stress levels. The herbal preparation's ability to interact with the GABA receptors in the brain and increase the production of neurotransmitters such as serotonin and dopamine also contribute to its sleep-promoting effects. The bioactive constituents of Valeriana officinalis, including valerenic acid, valeranone, and valepotriates, are responsible for its anxiolytic and hypnotic properties, making it an effective remedy for individuals struggling with insomnia and sleep disorders. Regular consumption of Valeriana officinalis teas can help to regulate sleep patterns, improve sleep quality, and alleviate symptoms of sleep deprivation, leading to overall improved physical and mental well-being.",
+            "preparation_study": "According to the study, Valeriana officinalis teas for sleep deprivation may be associated with improvements in some sleep parameters, such as sleep latency and quality of sleep, but further research is needed to confidently recommend their use for primary insomnia.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 21,
+            "herb_confidence_score": 182,
+            "herb_total_score": 3822,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to treat sleep deprivation due to their calming and relaxing properties, which help to soothe the mind and body, preparing it for a restful night's sleep. The bioactive constituents present in these teas, including linalool and linalyl acetate, contribute to their sleep-inducing effects by promoting relaxation and reducing anxiety levels. These herbal preparations help to treat sleep deprivation by reducing stress and promoting a sense of calm, making it easier to fall asleep and stay asleep throughout the night. The benefits of using Lavandula angustifolia teas to treat sleep deprivation include improved sleep quality, reduced anxiety and stress levels, and enhanced overall well-being.",
+            "preparation_study": "According to the Journal of psychopharmacology (Oxford, England), Lavandula angustifolia teas may have some effect on sleep due to its potential in aromatherapy, which has been reported to improve sleep.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 21,
+            "herb_confidence_score": 181,
+            "herb_total_score": 3801,
+            "preparation_desc": "Passiflora incarnata teas have been traditionally used to treat sleep deprivation due to their sedative and anxiolytic properties, which help to calm the mind and body, promoting a restful night's sleep. The bioactive constituents present in Passiflora incarnata, including flavonoids, alkaloids, and lignans, interact with the brain's GABA receptors, enhancing the activity of the neurotransmitter GABA, which regulates sleep and relaxation. By promoting relaxation and reducing anxiety, Passiflora incarnata teas can help alleviate the symptoms of sleep deprivation, allowing individuals to fall asleep faster and stay asleep longer. The benefits of using Passiflora incarnata teas to treat sleep deprivation include improved sleep quality, reduced stress and anxiety, and enhanced overall well-being.",
+            "preparation_study": "According to \"Current neuropharmacology\", Passiflora incarnata teas for sleep deprivation may be beneficial due to the presence of n-butanol fractions that impact benzodiazepine receptors, resulting in hypnotic properties and promoting calmness.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Certified-Wrapped/dp/B000YTCSLQ",
+                "affiliate_link": "https://amzn.to/3FU2zS4",
+                "title": "Traditional Medicinals Organic Nighty Night with Passionflower Herbal Tea, Promotes a Good Night\u2019s Sleep, (Pack of 1) - 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 21,
+            "herb_confidence_score": 160,
+            "herb_total_score": 3360,
+            "preparation_desc": "Melissa officinalis teas, also known as lemon balm tea, have been used to treat sleep deprivation due to its calming and relaxing properties. The herbal preparation helps to treat this ailment by promoting a good night's sleep, reducing stress and anxiety, and inducing a state of calmness. The bioactive constituents of Melissa officinalis teas, including rosmarinic acid, luteolin, and apigenin, contribute to its sedative and sleep-promoting effects, helping to regulate the body's sleep-wake cycle. The benefits of Melissa officinalis teas in treating sleep deprivation include improved sleep quality, reduced fatigue, and enhanced overall well-being, making it a popular natural remedy for individuals struggling with sleep disorders.",
+            "preparation_study": "According to the study, Melissa officinalis teas, which are a component of the combination of medicinal plants in the Novanuit<sup>\u00ae</sup> Triple Action capsules, may be beneficial in mild-to-moderate insomnia, as the administration of this combination resulted in statistically significant improvements in sleep quality and other sleep parameters.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 19,
+            "herb_confidence_score": 153,
+            "herb_total_score": 2907,
+            "preparation_desc": "Avena sativa teas, derived from the oat plant, have been traditionally used to treat sleep deprivation due to their sedative and relaxing properties. The bioactive constituents, including avenacosides, flavonoids, and phenolic acids, help to calm the nervous system and promote a restful night's sleep. By reducing anxiety and stress levels, Avena sativa teas facilitate a deeper and more sustained sleep, which in turn helps to alleviate symptoms of sleep deprivation. The benefits of using Avena sativa teas for sleep deprivation include improved sleep quality, enhanced relaxation, and a reduced risk of related health issues such as fatigue and mood disorders.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Chamomile-Eco-Conscious-Lined-FGO/dp/B07N2F8718",
+                "affiliate_link": "https://amzn.to/3EaZYm9",
+                "title": "FGO Organic Chamomile Tea, 100 Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 20,
+            "herb_confidence_score": 102,
+            "herb_total_score": 2040,
+            "preparation_desc": "Ginkgo biloba teas have been used for centuries to treat sleep deprivation due to their calming and sedative properties. The flavonoids and terpenoids present in ginkgo biloba teas, such as quercetin and bilobalide, help to promote relaxation, reduce stress, and improve sleep quality. These bioactive constituents work by increasing the levels of serotonin and melatonin in the body, which are essential for regulating sleep patterns. By incorporating ginkgo biloba teas into one's daily routine, individuals can experience improved sleep quality, reduced anxiety, and enhanced overall well-being.",
+            "preparation_study": "According to \"Pharmacopsychiatry\", Ginkgo biloba teas for sleep deprivation may improve sleep continuity and enhance Non-REM sleep, particularly slow wave sleep in the first sleep cycle, due to a weakening of tonic CRH-activity, thereby reducing awakenings and increasing sleep efficiency.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 15,
+            "herb_confidence_score": 94,
+            "herb_total_score": 1410,
+            "preparation_desc": "Zingiber officinale teas, derived from the rhizomes of the ginger plant, have been traditionally used to treat sleep deprivation due to their sedative and relaxing properties. The bioactive constituents of Zingiber officinale, including gingerols and shogaols, exhibit anti-inflammatory and analgesic effects, helping to reduce stress and anxiety that can lead to sleep disturbances. By promoting relaxation and reducing inflammation, Zingiber officinale teas can help regulate sleep patterns and improve the quality of sleep, making it an effective herbal remedy for treating sleep deprivation. The benefits of using Zingiber officinale teas for sleep deprivation include improved sleep duration, reduced fatigue, and enhanced overall well-being.",
+            "preparation_study": "According to \"Journal of pharmacobio-dynamics\", Zingiber officinale teas for sleep deprivation have been found to prolong hexobarbital-induced sleeping time, indicating a potential benefit in alleviating sleep deprivation.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Humulus lupulus",
+            "herb_mentions": 11,
+            "herb_confidence_score": 79,
+            "herb_total_score": 869,
+            "preparation_desc": "Humulus lupulus teas, also known as hop teas, have been traditionally used to treat sleep deprivation and promote relaxation. The sedative properties of this herbal preparation help to calm the mind and body, making it easier to fall asleep and stay asleep throughout the night. The bioactive constituents of Humulus lupulus, including alpha acids, flavonoids, and terpenoids, work together to reduce stress and anxiety, promote a sense of calm, and regulate the body's natural sleep-wake cycle. Regular consumption of Humulus lupulus teas has been found to improve sleep quality, increase sleep duration, and reduce symptoms of insomnia, making it a natural and effective remedy for sleep deprivation.",
+            "preparation_study": "According to the study, Humulus lupulus teas, when used in combination with valerian, may be associated with improvements in some sleep parameters, such as sleep latency and quality of sleep, for individuals with primary insomnia.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Scutellaria baicalensis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 72,
+            "herb_total_score": 720,
+            "preparation_desc": "Scutellaria baicalensis teas, also known as Baikal skullcap, have been used for centuries to treat sleep deprivation due to their adaptogenic and sedative properties. The bioactive constituents of this herbal preparation, including baicalin, wogonoside, and wogon, have been shown to help regulate sleep patterns and reduce stress levels, promoting relaxation and improving sleep quality. By inhibiting the activity of stress-related enzymes and reducing inflammation, Scutellaria baicalensis teas can help to alleviate symptoms of sleep deprivation, such as fatigue, anxiety, and difficulty concentrating. The benefits of using Scutellaria baicalensis teas to treat sleep deprivation include improved sleep duration and quality, reduced stress and anxiety levels, and enhanced overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula latifolia",
+            "herb_mentions": 9,
+            "herb_confidence_score": 68,
+            "herb_total_score": 612,
+            "preparation_desc": "Lavandula latifolia teas have been traditionally used to treat sleep deprivation, a condition characterized by excessive daytime sleepiness and fatigue. The calming properties of this herbal preparation help to treat sleep deprivation by promoting relaxation, reducing stress levels, and regulating sleep patterns. The bioactive constituents of Lavandula latifolia teas, including linalool, linalyl acetate, and camphor, contribute to its sedative and anxiolytic effects, making it an effective remedy for improving sleep quality. By consuming Lavandula latifolia teas, individuals can experience improved sleep duration, reduced anxiety levels, and enhanced overall well-being, making it a valuable natural remedy for treating sleep deprivation.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 14,
+            "herb_confidence_score": 66,
+            "herb_total_score": 924,
+            "preparation_desc": "Glycyrrhiza glabra teas, a traditional herbal remedy, have been used to treat sleep deprivation due to their soothing and calming effects. The properties of this herbal preparation, including its adaptogenic and anti-inflammatory properties, help to alleviate stress and anxiety that often contribute to sleep disorders. The bioactive constituents of Glycyrrhiza glabra, such as glycyrrhizin and flavonoids, have been shown to promote relaxation and reduce cortisol levels, making it easier to fall asleep and improve sleep quality. Regular consumption of Glycyrrhiza glabra teas has been reported to provide benefits such as improved sleep duration, reduced symptoms of insomnia, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 12,
+            "herb_confidence_score": 55,
+            "herb_total_score": 660,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been traditionally used to treat sleep deprivation due to its sedative and calming properties. The herbal preparation contains bioactive constituents such as flavonoids, silymarin, and alkaloids that help to regulate sleep patterns and reduce stress levels. By consuming Silybum marianum teas, individuals can experience improved sleep quality, reduced anxiety, and a sense of relaxation, which can help to alleviate sleep deprivation. The benefits of this herbal preparation include its ability to promote a restful night's sleep, reduce fatigue, and improve overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Camellia sinensis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 52,
+            "herb_total_score": 520,
+            "preparation_desc": "Camellia sinensis teas have been traditionally used to treat sleep deprivation due to their calming and soothing properties, which help to reduce stress and anxiety levels. The herbal preparation contains bioactive constituents such as L-theanine, which promotes relaxation and improves sleep quality by regulating the body's sleep-wake cycle. By consuming Camellia sinensis teas, individuals can experience improved sleep duration and reduced symptoms of insomnia, allowing them to feel rested and refreshed. The benefits of this herbal preparation include improved sleep quality, reduced anxiety and stress levels, and a sense of overall well-being, making it a popular natural remedy for addressing sleep deprivation.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Green-Eco-Conscious-Lined-FGO/dp/B07ND4GD5S",
+                "affiliate_link": "https://amzn.to/3Gk6JT6",
+                "title": "FGO Organic Green Tea, 100 Count Eco-Conscious Tea Bags, Caffeinated, Resealable Pouch, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 9,
+            "herb_confidence_score": 44,
+            "herb_total_score": 396,
+            "preparation_desc": "Panax ginseng teas have been used for centuries to treat sleep deprivation due to their adaptogenic properties, which enable the body to cope with stress and fatigue. The ginsenosides, a bioactive constituent of Panax ginseng teas, help to regulate the body's circadian rhythms and promote relaxation, leading to improved sleep quality. Additionally, the teas' antioxidant properties help to reduce oxidative stress and inflammation, further contributing to a restful night's sleep. By using Panax ginseng teas, individuals can benefit from improved sleep quality, reduced fatigue, and enhanced overall well-being, making it a natural and effective remedy for sleep deprivation.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Honey-Ginseng-Eco-Conscious-FGO/dp/B09Z37KVJM",
+                "affiliate_link": "https://amzn.to/43IctzX",
+                "title": "FGO Organic Honey Ginseng Green Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Matricaria chamomilla",
+            "herb_mentions": 6,
+            "herb_confidence_score": 43,
+            "herb_total_score": 258,
+            "preparation_desc": "Matricaria chamomilla teas have been traditionally used as a natural remedy to treat sleep deprivation due to their soothing and calming properties. The apigenin and luteolin present in this herbal preparation help to reduce anxiety and promote relaxation, thereby improving the quality of sleep. By regulating the sleep-wake cycle and inducing a sense of calmness, Matricaria chamomilla teas alleviate symptoms of sleep deprivation, such as fatigue and irritability. The benefits of using Matricaria chamomilla teas to treat sleep deprivation include improved sleep quality, reduced stress levels, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Vitex agnus-castus",
+            "herb_mentions": 8,
+            "herb_confidence_score": 41,
+            "herb_total_score": 328,
+            "preparation_desc": "Vitex agnus-castus teas have been traditionally used to help alleviate sleep deprivation symptoms due to their calming and sedative properties. This herbal preparation helps to treat sleep deprivation by promoting relaxation, reducing anxiety, and regulating the body's circadian rhythms. The bioactive constituents of Vitex agnus-castus teas, including iridoids and flavonoids, are believed to contribute to its sleep-promoting effects by interacting with the body's hormonal system and influencing the production of neurotransmitters such as serotonin and melatonin. The benefits of using Vitex agnus-castus teas to treat sleep deprivation include improved sleep quality, reduced stress and anxiety, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Moringa-Eco-Conscious-Kraft-FGO/dp/B07XYJBXLJ",
+                "affiliate_link": "https://amzn.to/3YtNNYu",
+                "title": "FGO Organic Moringa Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Leonurus cardiaca",
+            "herb_mentions": 5,
+            "herb_confidence_score": 33,
+            "herb_total_score": 165,
+            "preparation_desc": "Leonurus cardiaca teas, also known as motherwort, are herbal preparations used to treat sleep deprivation ailments due to their sedative and calming properties. The bioactive constituents, including iridoid glycosides, such as leonurine and leonuridin, help to promote relaxation, reduce anxiety, and regulate sleep patterns. By consuming Leonurus cardiaca teas, individuals can benefit from improved sleep quality, reduced stress levels, and enhanced overall well-being. Additionally, the herbal preparation's ability to regulate the body's internal clock and promote deeper sleep can help to alleviate the symptoms of sleep deprivation.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Piper methysticum",
+            "herb_mentions": 4,
+            "herb_confidence_score": 33,
+            "herb_total_score": 132,
+            "preparation_desc": "Piper methysticum teas, also known as kava teas, have been traditionally used to treat sleep deprivation due to their sedative and anxiolytic properties. The bioactive constituents present in kava teas, such as kavalactones (kawain, yangonin, and dihydrokawain), help to regulate the sleep-wake cycle and promote relaxation, thereby alleviating symptoms of sleep deprivation. These constituents work by interacting with the body's GABA receptors, which helps to calm the nervous system and induce a state of deep relaxation. Regular consumption of kava teas has been shown to improve sleep quality, reduce anxiety and stress levels, and provide a sense of calmness, making it a beneficial herbal preparation for treating sleep deprivation.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rauvolfia serpentina",
+            "herb_mentions": 8,
+            "herb_confidence_score": 31,
+            "herb_total_score": 248,
+            "preparation_desc": "Rauvolfia serpentina teas have been traditionally used to treat sleep deprivation due to their sedative and anxiolytic properties, which help to calm the mind and promote relaxation. The bioactive constituents of Rauvolfia serpentina, including alkaloids such as reserpine and ajmalicine, play a crucial role in reducing stress and anxiety levels, thereby facilitating better sleep. The herbal preparation helps to treat sleep deprivation by regulating the body's sleep-wake cycle and inducing a state of relaxation, making it easier to fall asleep and stay asleep. Regular consumption of Rauvolfia serpentina teas has been found to provide relief from sleep deprivation and improve overall sleep quality, leading to enhanced mental and physical well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 30,
+            "herb_total_score": 180,
+            "preparation_desc": "Schisandra chinensis teas have been used in traditional Chinese medicine to treat sleep deprivation, a common ailment caused by lack of sleep or disrupted sleep patterns. The properties of this herbal preparation, such as its adaptogenic and sedative effects, help to reduce stress and anxiety, promoting relaxation and improving sleep quality. The bioactive constituents of Schisandra chinensis, including schisandrins, lignans, and polyphenols, play a crucial role in regulating the body's circadian rhythms and inducing a state of calmness, making it easier to fall asleep and stay asleep. By consuming Schisandra chinensis teas, individuals can experience benefits such as improved sleep duration, reduced fatigue, and enhanced mental clarity, making it an effective natural remedy for treating sleep deprivation.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-EveryDay-Detox/dp/B0009F3PHQ",
+                "affiliate_link": "https://amzn.to/4d2gq5d",
+                "title": "Traditional Medicinals Tea, Organic EveryDay Detox Schisandra Berry, Supports Healthy Liver Function, Detox, 96 Tea Bags (6 Pack)"
+            }
+        }
+    ],
+    "intro_study": "According to \"Phytotherapy research : PTR\", teas for sleep deprivation may be beneficial, with certain herbs such as Valeriana officinalis, Melissa officinalis, and others showing promise in improving sleep time, reducing sleep latency, and enhancing sleep quality."
+}

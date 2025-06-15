@@ -1,0 +1,243 @@
+{
+    "url": "ailments/hair-fall/teas",
+    "ailment_slug": "hair-fall",
+    "ailment_name": "hair fall",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Teas For Hair Fall",
+    "intro": "Herbal teas for Hair fall are natural remedies made from various plant extracts, designed to promote hair growth and reduce shedding. These teas are rich in antioxidants, vitamins, and minerals that nourish the scalp and hair follicles, providing a range of benefits including reduced hair fall, improved hair texture, and enhanced hair growth. Some popular examples of herbal teas used to treat hair fall include peppermint tea, which improves circulation to the scalp, and rosemary tea, which stimulates hair growth and reduces dandruff; ginger tea, which reduces inflammation and promotes healthy hair growth; sage tea, which balances the scalp's natural pH and reduces hair loss; and chamomile tea, which soothes the scalp and promotes relaxation, helping to reduce stress-related hair fall. By incorporating these herbal teas into your daily routine, you can naturally promote healthy hair growth and say goodbye to hair fall.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 20,
+            "herb_confidence_score": 168,
+            "herb_total_score": 3360,
+            "preparation_desc": "Rosmarinus officinalis teas, derived from the leaves of the rosemary plant, have been used to treat hair fall ailments due to their rich properties of antioxidant, anti-inflammatory, and antimicrobial activities. The bioactive constituents such as camphor, bornyl acetate, and rosmarinic acid present in these teas help to stimulate hair growth, improve scalp health, and reduce dandruff and itchiness. By promoting blood circulation, reducing stress, and balancing the hormones, Rosmarinus officinalis teas help to treat hair fall by addressing the underlying causes. The benefits of using these teas include reduced hair shedding, improved hair texture, and a healthy scalp, making them a natural and effective remedy for hair fall ailments.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 17,
+            "herb_confidence_score": 144,
+            "herb_total_score": 2448,
+            "preparation_desc": "Curcuma longa teas, also known as turmeric tea, have been traditionally used to treat hair fall ailments due to their anti-inflammatory and antioxidant properties. The bioactive constituents of Curcuma longa, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, help to reduce inflammation and oxidative stress in the scalp, promoting healthy hair growth. These properties also help to improve blood circulation and reduce dandruff, further contributing to the prevention of hair fall. By incorporating Curcuma longa teas into one's hair care routine, individuals can benefit from the potential hair growth promotion and reduction in hair fall, promoting a healthy and balanced scalp.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 19,
+            "herb_confidence_score": 137,
+            "herb_total_score": 2603,
+            "preparation_desc": "Ginkgo biloba teas are a popular herbal preparation used to treat hair fall ailments, attributed to their antioxidant, anti-inflammatory, and vasoactive properties. The bioactive constituents of Ginkgo biloba, including flavonoids and bilobalide, help to improve blood circulation to the scalp, promote hair growth, and reduce oxidative stress associated with hair loss. By enhancing microcirculation and reducing inflammation, Ginkgo biloba teas support the health of hair follicles, leading to a reduction in hair fall and an increase in hair density. The benefits of using Ginkgo biloba teas to treat hair fall include promoting a healthy scalp, reducing dandruff and itchiness, and encouraging the growth of stronger, thicker hair.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 15,
+            "herb_confidence_score": 120,
+            "herb_total_score": 1800,
+            "preparation_desc": "Urtica dioica teas, also known as nettle leaf teas, are a popular herbal remedy to treat hair fall due to their rich content of vitamins, minerals, and antioxidants. The properties of this herbal preparation, including its high levels of vitamin A, C, and E, as well as its rich iron content, help to promote healthy hair growth by strengthening hair follicles and improving scalp circulation. The bioactive constituents of Urtica dioica teas, such as flavonoids and polyphenols, also exhibit anti-inflammatory properties that help to reduce oxidative stress and prevent hair loss. By consuming Urtica dioica teas regularly, individuals can benefit from reduced hair fall, improved hair growth, and a healthier scalp overall.",
+            "preparation_study": "According to \"Current pharmaceutical design\", Urtica dioica teas for hair fall may be effective in reducing hair loss due to their anti-inflammatory and antioxidant properties.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Nettle-Eco-Conscious-Bulgaria-FGO/dp/B07ND3ZT9C",
+                "affiliate_link": "https://amzn.to/3QUwzPU",
+                "title": "FGO Organic Nettle Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 16,
+            "herb_confidence_score": 120,
+            "herb_total_score": 1920,
+            "preparation_desc": "Zingiber officinale teas, derived from the rhizomes of ginger, have been traditionally used to treat hair fall ailments. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce stress and promote a healthy scalp, thereby preventing excessive hair loss. The bioactive constituents of Zingiber officinale teas, including gingerols and shogaols, exhibit their hair growth-promoting effects by increasing blood flow to the scalp and reducing inflammation. Regular consumption of Zingiber officinale teas can help to promote hair growth, reduce dandruff, and improve the overall health of the scalp, making it an effective natural remedy for hair fall.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 14,
+            "herb_confidence_score": 113,
+            "herb_total_score": 1582,
+            "preparation_desc": "Aloe barbadensis teas have been traditionally used as a natural remedy to treat hair fall, owing to their rich properties that promote hair growth and strengthen hair follicles. The bioactive constituents of Aloe barbadensis teas, including aloin, aloemodin, and vitamins A, C, and E, help to nourish and protect the scalp, reducing inflammation and promoting a healthy hair growth cycle. The anti-inflammatory and antioxidant properties of Aloe barbadensis teas also help to reduce dandruff and itchiness, creating an ideal environment for hair growth. By incorporating Aloe barbadensis teas into their hair care routine, individuals can benefit from its ability to promote hair growth, reduce hair fall, and improve overall scalp health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Spearmint-Eco-Conscious-Lined-FGO/dp/B07ND418HR",
+                "affiliate_link": "https://amzn.to/42s2qOg",
+                "title": "FGO Organic Spearmint Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 13,
+            "herb_confidence_score": 108,
+            "herb_total_score": 1404,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been traditionally used to treat hair fall ailments due to its anti-inflammatory and antioxidant properties. The silymarin, a bioactive constituent present in this herbal preparation, helps to treat hair fall by reducing oxidative stress and promoting hair growth. Silybum marianum teas also contain other bioactive constituents such as flavonoids and phenolic acids, which contribute to its hair growth-promoting effects by improving scalp health and reducing hair fall. The benefits of using Silybum marianum teas to treat hair fall include promoting hair growth, reducing hair fall, and improving scalp health, making it a popular natural remedy for this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 13,
+            "herb_confidence_score": 96,
+            "herb_total_score": 1248,
+            "preparation_desc": "Avena sativa teas have been widely used to treat the hair fall ailment, owing to their rich content of bioactive compounds such as flavonoids, phenolic acids, and saponins. The herbal preparation helps to treat this ailment by promoting hair growth, reducing stress and anxiety, and improving scalp health. The bioactive constituents of Avena sativa teas, particularly avenanthramides, have been found to have anti-inflammatory and antioxidant properties, which contribute to their hair growth-promoting effects. The benefits of using Avena sativa teas to treat hair fall include reduced shedding, improved hair texture, and enhanced overall scalp health.",
+            "preparation_study": "According to \"Molecules (Basel, Switzerland)\", Avena sativa teas for hair fall may be beneficial due to its natural ingredients that promote hair growth with minimal to no side effects, which is explained in detail in the present review highlighting the therapeutic properties associated with natural products.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Chamomile-Eco-Conscious-Lined-FGO/dp/B07N2F8718",
+                "affiliate_link": "https://amzn.to/3EaZYm9",
+                "title": "FGO Organic Chamomile Tea, 100 Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 12,
+            "herb_confidence_score": 88,
+            "herb_total_score": 1056,
+            "preparation_desc": "Lavandula angustifolia teas are a natural herbal preparation that has been found to be effective in treating hair fall due to its antifungal and antibacterial properties. This herbal preparation helps to treat hair fall by promoting hair growth, reducing dandruff and itchiness, and preventing hair breakage. The bioactive constituents of Lavandula angustifolia teas, such as linalool and linalyl acetate, have been found to have a positive impact on hair growth by reducing stress and promoting relaxation, which in turn helps to reduce hair fall. The benefits of using Lavandula angustifolia teas to treat hair fall include reduced hair loss, improved hair texture, and a decrease in the risk of scalp irritation.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Equisetum arvense",
+            "herb_mentions": 12,
+            "herb_confidence_score": 83,
+            "herb_total_score": 996,
+            "preparation_desc": "Equisetum arvense teas, also known as horsetail tea, have been traditionally used to treat hair fall ailments due to their rich content of bioactive constituents such as silica, flavonoids, and alkaloids. The silica present in this herbal preparation helps to strengthen hair follicles, improve hair texture, and promote hair growth, thereby reducing hair fall. The flavonoids and alkaloids in Equisetum arvense teas have anti-inflammatory and antioxidant properties, which help to soothe and protect the scalp, reducing stress and promoting a healthy hair growth environment. Regular consumption of Equisetum arvense teas has been found to promote hair growth, improve hair texture, and reduce hair fall, making it a beneficial herbal preparation for treating this ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 10,
+            "herb_confidence_score": 77,
+            "herb_total_score": 770,
+            "preparation_desc": "Panax ginseng teas have been widely used to treat hair fall ailment due to their rich properties, including anti-inflammatory, antioxidant, and adaptogenic properties, which help to promote hair growth and reduce hair loss. This herbal preparation is believed to help treat hair fall by stimulating blood flow to the scalp, reducing stress and anxiety, and promoting the growth of new hair follicles. The bioactive constituents of Panax ginseng teas, such as ginsenosides, panaxynol, and panaxydol, are responsible for their therapeutic effects, including their ability to inhibit 5-alpha-reductase, an enzyme that contributes to hair loss. The benefits of using Panax ginseng teas to treat hair fall include reduced hair shedding, improved hair density, and a decrease in the risk of hair loss, making it a popular natural remedy for this common condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Honey-Ginseng-Eco-Conscious-FGO/dp/B09Z37KVJM",
+                "affiliate_link": "https://amzn.to/43IctzX",
+                "title": "FGO Organic Honey Ginseng Green Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cymbopogon citratus",
+            "herb_mentions": 11,
+            "herb_confidence_score": 76,
+            "herb_total_score": 836,
+            "preparation_desc": "Cymbopogon citratus teas, also known as lemongrass tea, have been traditionally used to treat hair fall due to its anti-inflammatory and antioxidant properties. This herbal preparation helps to treat hair fall by promoting scalp health, reducing stress and anxiety, and stimulating hair growth. The bioactive constituents of lemongrass tea, including citral and geraniol, exhibit anti-inflammatory and antioxidant activities, which contribute to its hair growth-promoting effects. The benefits of Cymbopogon citratus teas in treating hair fall include reduced dandruff, improved scalp circulation, and increased hair density, making it a natural and effective remedy for hair loss.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/4ideKqe",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cassia auriculata",
+            "herb_mentions": 10,
+            "herb_confidence_score": 68,
+            "herb_total_score": 680,
+            "preparation_desc": "Cassia auriculata teas have been used in traditional medicine to treat hair fall ailments due to their properties that promote hair growth and strengthen hair follicles. The herbal preparation helps to treat hair fall by reducing inflammation, promoting blood circulation to the scalp, and preventing oxidative stress that can lead to hair loss. Bioactive constituents such as flavonoids, phenolic acids, and saponins present in Cassia auriculata teas have been shown to inhibit 5-alpha-reductase enzyme, thereby reducing dihydrotestosterone (DHT) levels and promoting hair growth. The benefits of using Cassia auriculata teas to treat hair fall include reduced shedding, improved hair texture, and increased hair density, making it a potential natural remedy for hair loss prevention.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 9,
+            "herb_confidence_score": 63,
+            "herb_total_score": 567,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort, have been used for centuries to treat various health issues, including hair fall. The bioactive constituents of this herbal preparation, including flavonoids, phenolic acids, and terpenoids, help to reduce oxidative stress and inflammation in the scalp, promoting healthy hair growth. The antiseptic and anti-inflammatory properties of Hypericum perforatum teas help to treat hair fall by reducing dandruff, itchiness, and inflammation, creating a conducive environment for hair growth. The benefits of using Hypericum perforatum teas to treat hair fall include reduced hair shedding, improved scalp health, and enhanced hair growth, making it a popular natural remedy for this common condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        },
+        {
+            "herb_name_scientific": "Camellia sinensis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 60,
+            "herb_total_score": 540,
+            "preparation_desc": "Camellia sinensis teas have been traditionally used to treat hair fall due to their anti-inflammatory, antioxidant, and anti-androgenic properties. These properties help to reduce hair loss by regulating the hair growth cycle, soothing the scalp, and preventing damage to the hair follicles. The bioactive constituents present in Camellia sinensis teas, such as catechins, theaflavins, and thearubigins, help to promote hair growth, improve hair texture, and reduce dandruff and itchiness. Regular consumption of Camellia sinensis teas can lead to reduced hair fall, strengthened hair roots, and a healthier scalp, making it a beneficial herbal preparation for treating hair fall ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Green-Eco-Conscious-Lined-FGO/dp/B07ND4GD5S",
+                "affiliate_link": "https://amzn.to/3Gk6JT6",
+                "title": "FGO Organic Green Tea, 100 Count Eco-Conscious Tea Bags, Caffeinated, Resealable Pouch, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Centella asiatica",
+            "herb_mentions": 6,
+            "herb_confidence_score": 52,
+            "herb_total_score": 312,
+            "preparation_desc": "Centella asiatica teas have been traditionally used to treat hair fall ailment due to their anti-inflammatory, antioxidant, and hair growth promoting properties. The herbal preparation helps to treat hair fall by improving blood circulation to the scalp, reducing oxidative stress, and promoting the growth of new hair follicles. The bioactive constituents present in Centella asiatica teas, such as triterpenoids, flavonoids, and alkaloids, help to inhibit 5-alpha-reductase, an enzyme that converts testosterone to dihydrotestosterone, a hormone that contributes to hair loss. The benefits of Centella asiatica teas in treating hair fall include promoting hair growth, reducing hair shedding, and improving the overall health of the scalp.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Vitis vinifera",
+            "herb_mentions": 8,
+            "herb_confidence_score": 50,
+            "herb_total_score": 400,
+            "preparation_desc": "Vitis vinifera teas, also known as grape tea, have been traditionally used to treat hair fall ailments due to their antioxidant and anti-inflammatory properties. The bioactive constituents of Vitis vinifera, including resveratrol and quercetin, help to promote hair growth by reducing oxidative stress and inflammation in the scalp. The tea's ability to improve blood circulation and reduce dandruff also contributes to its effectiveness in treating hair fall. Regular consumption of Vitis vinifera tea can help to strengthen hair follicles, reduce hair loss, and promote a healthy scalp, ultimately leading to a fuller and thicker head of hair.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 7,
+            "herb_confidence_score": 49,
+            "herb_total_score": 343,
+            "preparation_desc": "Foeniculum vulgare teas have been traditionally used to treat hair fall, a common condition characterized by excessive hair shedding. The properties of this herbal preparation that help to treat this ailment include its antioxidant, anti-inflammatory, and antimicrobial properties, which work together to promote a healthy scalp and hair growth. The bioactive constituents of Foeniculum vulgare, such as anethol and fenchone, help to reduce stress and anxiety, which are major contributors to hair fall, and also improve blood circulation to the scalp, promoting hair growth. The benefits of Foeniculum vulgare teas in treating hair fall include reduced hair shedding, improved hair texture, and a healthy, balanced scalp environment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/HANDPICK-Caffeine-Natural-Premium-Eco-Conscious/dp/B0BFHKDK88",
+                "affiliate_link": "https://amzn.to/42bRtPt",
+                "title": "HANDPICK, Fennel Tea Bags (100 Herbal Tea Bags) Caffeine Free, Gluten Free & Non GMO | Round Eco Conscious Teabags | Smooth & Sweet"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 49,
+            "herb_total_score": 343,
+            "preparation_desc": "Melissa officinalis teas, also known as lemon balm tea, have been traditionally used to treat hair fall due to its soothing and calming properties that help to reduce stress and promote overall well-being. The bioactive constituents of Melissa officinalis tea, such as rosmarinic acid, apigenin, and luteolin, possess anti-inflammatory and antioxidant properties that help to promote healthy hair growth by reducing oxidative stress and inflammation in the scalp. Regular consumption of Melissa officinalis tea may help to strengthen hair follicles, reduce hair fall, and promote a healthy scalp environment, ultimately leading to improved hair growth and reduced shedding. By incorporating Melissa officinalis tea into one's hair care routine, individuals can potentially experience a reduction in hair fall and an improvement in the overall health and appearance of their hair.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinnamomum zeylanicum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 41,
+            "herb_total_score": 246,
+            "preparation_desc": "Cinnamomum zeylanicum teas, derived from the bark of the Ceylon cinnamon tree, have been traditionally used to treat hair fall ailments due to their antioxidant, anti-inflammatory, and antifungal properties. The bioactive constituents present in these teas, including cinnamaldehyde, cinnamomin, and linalool, help to promote hair growth by reducing oxidative stress, inflammation, and fungal infections in the scalp. The regular consumption of Cinnamomum zeylanicum teas is believed to help treat hair fall by strengthening hair follicles, improving blood circulation, and enhancing the overall health of the scalp. The benefits of using Cinnamomum zeylanicum teas to treat hair fall include reduced shedding, increased hair density, and a noticeable improvement in hair texture and appearance.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Current pharmaceutical design\", teas for hair fall can be an effective remedy as they contain anti-inflammatory and antioxidant properties from medicinal plants such as <i>Urtica dioica, Humulus lupulus, Serenoa repens, Vitis vinifera, Pygeum africanum, Cucurbita pepo, etc.</i>, which may promote hair growth and prevent alopecia."
+}

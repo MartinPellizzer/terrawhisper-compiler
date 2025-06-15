@@ -1,0 +1,24 @@
+{
+    "url": "herbs/lilium-pumilum",
+    "herb_slug": "lilium-pumilum",
+    "herb_name_scientific": "lilium pumilum",
+    "lastmod": "2025-5-31",
+    "benefits_num": 7,
+    "benefits_title": "7 Best Health Benefits Of Lilium Pumilum",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 9,
+            "confidence_score": 82,
+            "total_score": 738
+        },
+        {
+            "answer": "medicine",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 11
+}

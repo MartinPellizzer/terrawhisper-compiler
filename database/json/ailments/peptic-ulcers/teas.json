@@ -1,0 +1,241 @@
+{
+    "url": "ailments/peptic-ulcers/teas",
+    "ailment_slug": "peptic-ulcers",
+    "ailment_name": "peptic ulcers",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 11,
+    "title": "11 Best Herbal Teas For Peptic Ulcers",
+    "intro": "Herbal teas for Peptic ulcers are a type of natural remedy used to treat and alleviate symptoms of peptic ulcers, which are open sores in the lining of the stomach or the first part of the small intestine. These herbal teas are beneficial in treating peptic ulcers as they help to reduce inflammation, prevent further damage, and promote healing. Examples of herbal teas that have been used to treat peptic ulcers include ginger tea, which has anti-inflammatory properties and helps to reduce nausea and pain; chamomile tea, which soothes the stomach and promotes relaxation; licorice root tea, which protects the stomach lining and reduces inflammation; peppermint tea, which relaxes the muscles in the stomach and reduces symptoms of irritable bowel syndrome; slippery elm tea, which soothes and protects the stomach lining; and marshmallow root tea, which forms a protective barrier over the stomach lining. By incorporating these herbal teas into your diet, you can alleviate symptoms, promote healing, and prevent future occurrences of peptic ulcers.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 19,
+            "herb_confidence_score": 161,
+            "herb_total_score": 3059,
+            "preparation_desc": "Glycyrrhiza glabra teas, a traditional herbal remedy, have been used to treat peptic ulcers due to their anti-inflammatory and protective properties. The licorice root extract in these teas helps to treat peptic ulcers by reducing inflammation, promoting mucosal healing, and inhibiting the production of stomach acid. The bioactive constituents, such as glycyrrhizin and flavonoids, in Glycyrrhiza glabra teas contribute to their therapeutic effects by reducing oxidative stress, modulating the gut microbiome, and exerting antimicrobial activity. The benefits of using Glycyrrhiza glabra teas to treat peptic ulcers include rapid symptom relief, improved quality of life, and reduced reliance on conventional medications, making it a promising complementary therapy for this condition.",
+            "preparation_study": "According to \"Current drug discovery technologies\", Glycyrrhiza glabra teas for peptic ulcers have been identified as having potential anti-ulcer activity, helping to prevent or cure ulcers.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 19,
+            "herb_confidence_score": 157,
+            "herb_total_score": 2983,
+            "preparation_desc": "Zingiber officinale teas, derived from the ginger plant, have been traditionally used to treat peptic ulcers due to their anti-inflammatory and antioxidant properties. The herbal preparation helps to treat this ailment by reducing inflammation in the stomach lining, promoting healing, and alleviating symptoms such as pain and nausea. The bioactive constituents of Zingiber officinale teas, including gingerols and shogaols, possess potent anti-ulcerogenic and anti-inflammatory activities, which contribute to their therapeutic effects. Regular consumption of Zingiber officinale teas has been shown to provide benefits in treating peptic ulcers, including reduced gastric acidity, accelerated healing, and improved overall digestive health.",
+            "preparation_study": "According to \"Journal of ethnopharmacology\", Zingiber officinale teas may have potential benefits for treating peptic ulcers due to the presence of bioactive compounds such as lariciresinol, which has been shown to inhibit efflux pump activity and enhance the antimicrobial potency of berberine, thereby making it effective in killing drug-resistant Salmonella typhimurium at lower concentrations.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 15,
+            "herb_confidence_score": 129,
+            "herb_total_score": 1935,
+            "preparation_desc": "Curcuma longa teas, derived from the rhizome of the Curcuma longa plant, have been traditionally used to treat peptic ulcers, a painful and potentially life-threatening condition affecting the stomach lining. The anti-inflammatory and antioxidant properties of Curcuma longa teas help to treat peptic ulcers by reducing inflammation, preventing oxidative stress, and promoting healing of the gastric mucosa. The bioactive constituents of Curcuma longa teas, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, possess potent anti-inflammatory and antioxidant activities that help to inhibit the growth of Helicobacter pylori, a primary cause of peptic ulcers. By consuming Curcuma longa teas, individuals can benefit from reduced symptoms, accelerated healing, and a lower risk of complications associated with peptic ulcers.",
+            "preparation_study": "According to \"Biological trace element research\", Curcuma longa teas for peptic ulcers may be beneficial due to its high concentration of antioxidants and inhibitory action against most bacterial strains, which can help heal gastrointestinal infections.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 12,
+            "herb_confidence_score": 91,
+            "herb_total_score": 1092,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been traditionally used to treat peptic ulcers due to their anti-inflammatory and antioxidant properties. The bioactive constituents, particularly silymarin and silibinin, in this herbal preparation help to treat peptic ulcers by reducing inflammation and promoting the healing of the gastrointestinal lining. The benefits of Silybum marianum teas in treating peptic ulcers include reduced symptoms of heartburn and acid reflux, and improved overall gut health. By consuming Silybum marianum teas, individuals may experience relief from peptic ulcers and enjoy a healthier digestive system.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 12,
+            "herb_confidence_score": 82,
+            "herb_total_score": 984,
+            "preparation_desc": "Foeniculum vulgare teas, also known as anise tea, have been traditionally used to treat peptic ulcers due to their anti-inflammatory and carminative properties. These properties help to soothe the digestive tract, reduce inflammation, and alleviate symptoms associated with peptic ulcers, such as abdominal pain and bloating. The bioactive constituents of Foeniculum vulgare, including anethole, limonene, and pinene, contribute to its therapeutic effects by inhibiting the growth of Helicobacter pylori bacteria, which is often responsible for peptic ulcers. The benefits of using Foeniculum vulgare teas to treat peptic ulcers include reduced symptoms, accelerated healing, and prevention of complications, making it a natural and effective complementary therapy for this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/HANDPICK-Caffeine-Natural-Premium-Eco-Conscious/dp/B0BFHKDK88",
+                "affiliate_link": "https://amzn.to/42bRtPt",
+                "title": "HANDPICK, Fennel Tea Bags (100 Herbal Tea Bags) Caffeine Free, Gluten Free & Non GMO | Round Eco Conscious Teabags | Smooth & Sweet"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 12,
+            "herb_confidence_score": 78,
+            "herb_total_score": 936,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat peptic ulcers due to their anti-inflammatory and antacid properties, which help to soothe and protect the stomach lining. The bioactive constituents present in Cinchona officinalis, such as quinine and alkaloids, possess astringent and antiseptic properties that aid in reducing inflammation and promoting the healing of peptic ulcers. By reducing inflammation and protecting the stomach lining, Cinchona officinalis teas help to alleviate symptoms of peptic ulcers, including abdominal pain and bleeding. The benefits of using Cinchona officinalis teas to treat peptic ulcers include reduced risk of complications, faster healing rates, and improved overall digestive health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Althaea officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 61,
+            "herb_total_score": 488,
+            "preparation_desc": "Althaea officinalis teas have been traditionally used to treat peptic ulcers due to their anti-inflammatory, antioxidant, and protective mucosal properties. The mucilages present in Althaea officinalis teas form a protective barrier on the mucous membranes, helping to soothe and heal the stomach lining and reduce inflammation, thereby alleviating the symptoms of peptic ulcers. The bioactive constituents of Althaea officinalis, including flavonoids, phenolic acids, and mucilages, contribute to its anti-inflammatory and protective effects, which help to treat peptic ulcers by reducing acid secretion and promoting the healing of the stomach lining. The benefits of Althaea officinalis teas in treating peptic ulcers include reduced pain, inflammation, and bleeding, as well as improved healing and reduced risk of complications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 13,
+            "herb_confidence_score": 58,
+            "herb_total_score": 754,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat peptic ulcers due to their anti-inflammatory and antioxidant properties. The bioactive constituents, including flavonoids and terpenoids, help to reduce inflammation and promote healing in the digestive tract, thereby alleviating symptoms of peptic ulcers. By increasing blood flow and reducing oxidative stress, Ginkgo biloba teas can help to accelerate the healing process and prevent further damage to the stomach lining. The benefits of using Ginkgo biloba teas to treat peptic ulcers include reduced pain and discomfort, improved digestion, and a lower risk of complications and recurrence.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 8,
+            "herb_confidence_score": 55,
+            "herb_total_score": 440,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to treat peptic ulcers, a condition characterized by sores in the stomach lining or duodenum, due to their soothing and anti-inflammatory properties. The bioactive constituents of Lavandula angustifolia, including linalool, linalyl acetate, and camphor, help to reduce inflammation and promote healing of the stomach lining, thereby alleviating symptoms of peptic ulcers. The anti-ulcerogenic properties of Lavandula angustifolia teas also help to protect the stomach lining from acid and enzyme damage, preventing further ulcer formation and promoting a faster recovery. By using Lavandula angustifolia teas, individuals can benefit from a natural and non-invasive treatment option for peptic ulcers, reducing the risk of complications and promoting overall digestive health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 8,
+            "herb_confidence_score": 55,
+            "herb_total_score": 440,
+            "preparation_desc": "Mentha x piperita teas, commonly known as peppermint tea, have been traditionally used to treat peptic ulcers due to their anti-inflammatory and antioxidant properties. The bioactive constituents of peppermint tea, including menthol, menthone, and limonene, help to reduce inflammation and alleviate symptoms associated with peptic ulcers. The gastroprotective effects of peppermint tea are attributed to its ability to relax the muscles in the digestive tract, reducing acid production and allowing the stomach lining to heal. By consuming peppermint tea, individuals can experience relief from peptic ulcer symptoms, such as heartburn, bloating, and abdominal pain, making it a beneficial herbal remedy for this condition.",
+            "preparation_study": "According to \"Evidence-based complementary and alternative medicine : eCAM\", Mentha x piperita teas, which contain menthofuran, have been found to have gastroprotective activity against peptic ulcers in rats, likely due to their antioxidant mechanisms and other protective effects.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 49,
+            "herb_total_score": 343,
+            "preparation_desc": "Rosmarinus officinalis teas, derived from the leaves of the rosemary plant, have been traditionally used to treat peptic ulcers due to their anti-inflammatory and antioxidant properties. The bioactive constituents of rosemary, including carnosic acid and rosmarinic acid, help to reduce inflammation and protect the gastric mucosa, thereby alleviating the symptoms of peptic ulcers. These constituents also exhibit antimicrobial properties, which can help to eliminate the bacteria that can cause peptic ulcers, such as Helicobacter pylori. By reducing inflammation and eliminating bacteria, Rosmarinus officinalis teas can provide relief from peptic ulcers and promote healing of the gastric lining, making it a beneficial herbal remedy for this condition.",
+            "preparation_study": "According to \"Journal of ethnopharmacology\", Rosmarinus officinalis teas for peptic ulcers may be effective due to their ability to increase mucosal nonprotein sulfhydryl groups content, possibly through antioxidant compounds found in the crude hydroalcoholic extract.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 7,
+            "herb_confidence_score": 48,
+            "herb_total_score": 336,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to treat peptic ulcers due to their anti-inflammatory and antioxidant properties, which help to soothe and protect the stomach lining. The bioactive constituents of Echinacea purpurea, including alkylamides and phenolic acids, have been shown to reduce inflammation and promote healing in the stomach, thereby helping to treat peptic ulcers. By reducing inflammation and promoting healing, Echinacea purpurea teas can help to alleviate symptoms of peptic ulcers, such as abdominal pain and nausea, and promote overall digestive health. The benefits of using Echinacea purpurea teas to treat peptic ulcers include reduced risk of complications, improved quality of life, and a natural alternative to conventional medications.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Aloe vera",
+            "herb_mentions": 7,
+            "herb_confidence_score": 47,
+            "herb_total_score": 329,
+            "preparation_desc": "Aloe vera teas have been traditionally used to treat peptic ulcers due to their anti-inflammatory and antioxidant properties. The mucilaginous properties of aloe vera help to soothe and protect the mucous membranes in the stomach and intestines, reducing inflammation and promoting healing of peptic ulcers. Bioactive constituents such as aloin, aloe-emodin, and vitamins A, C, and E in aloe vera teas help to reduce inflammation, promote healing, and protect against oxidative stress, thereby treating peptic ulcers. Regular consumption of aloe vera teas has been shown to provide relief from peptic ulcers symptoms, improve digestion, and promote overall gut health, making it a natural and effective remedy for this ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Twinings-Individually-Naturally-Caffeine-Free-Packaging/dp/B09RC41QGJ",
+                "affiliate_link": "https://amzn.to/42UxuoV",
+                "title": "Twinings Lemon & Ginger Herbal Tea Individually Wrapped Bags, 100 Count (Pack of 1), Tangy Lemon, Spicy Ginger, Naturally Caffeine-Free, Enjoy Hot or Iced | Packaging May Vary"
+            }
+        },
+        {
+            "herb_name_scientific": "Camellia sinensis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 45,
+            "herb_total_score": 315,
+            "preparation_desc": "Camellia sinensis teas, derived from the leaves of the Camellia sinensis plant, have been traditionally used to treat peptic ulcers due to their anti-inflammatory and antioxidant properties. The bioactive constituents present in Camellia sinensis teas, including flavonoids and polyphenols, help to protect the gastric mucosa and reduce inflammation, thereby alleviating the symptoms of peptic ulcers. These constituents also exhibit antimicrobial properties, which can help to eliminate the H. pylori bacteria that often contribute to the development of peptic ulcers. The benefits of using Camellia sinensis teas to treat peptic ulcers include reduced pain, decreased inflammation, and improved digestion, making it a valuable herbal remedy for managing this condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Green-Eco-Conscious-Lined-FGO/dp/B07ND4GD5S",
+                "affiliate_link": "https://amzn.to/3Gk6JT6",
+                "title": "FGO Organic Green Tea, 100 Count Eco-Conscious Tea Bags, Caffeinated, Resealable Pouch, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 8,
+            "herb_confidence_score": 41,
+            "herb_total_score": 328,
+            "preparation_desc": "Taraxacum officinale teas, also known as dandelion teas, have been traditionally used to treat peptic ulcers due to their anti-inflammatory and antioxidant properties. The bioactive constituents of Taraxacum officinale teas, including flavonoids, phenolic acids, and sesquiterpenes, help to reduce inflammation and protect the gastric mucosa, thereby alleviating peptic ulcer symptoms. These constituents also exhibit antimicrobial and cytoprotective effects, which contribute to the healing of peptic ulcers and prevention of further damage. By reducing inflammation and protecting the gastric mucosa, Taraxacum officinale teas can provide relief from peptic ulcer pain, diarrhea, and bleeding, making it a beneficial herbal remedy for this ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Roasted-Dandelion-Eco-Conscious-FGO/dp/B07Z7FTFNX",
+                "affiliate_link": "https://amzn.to/4j70AbI",
+                "title": "FGO Organic Roasted Dandelion Root Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 40,
+            "herb_total_score": 240,
+            "preparation_desc": "Melissa officinalis teas, also known as lemon balm tea, have been traditionally used to treat peptic ulcers due to their anti-inflammatory, antiseptic, and soothing properties. The bioactive constituents of Melissa officinalis, including rosmarinic acid and flavonoids, help to reduce inflammation and protect the mucous membranes of the stomach, thereby treating peptic ulcers. By reducing inflammation and protecting the stomach lining, Melissa officinalis teas help to alleviate symptoms such as abdominal pain and reduce the risk of further complications. The benefits of using Melissa officinalis teas to treat peptic ulcers include reduced inflammation, improved digestion, and a lower risk of developing more severe stomach problems.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zanthoxylum bungeanum",
+            "herb_mentions": 5,
+            "herb_confidence_score": 39,
+            "herb_total_score": 195,
+            "preparation_desc": "Zanthoxylum bungeanum teas have been traditionally used to treat peptic ulcers due to their anti-inflammatory and antioxidant properties, which help to reduce inflammation and protect the stomach lining. The bioactive constituents, including limonoids and flavonoids, in these teas help to inhibit the growth of Helicobacter pylori bacteria, a major cause of peptic ulcers. By reducing inflammation and inhibiting bacterial growth, Zanthoxylum bungeanum teas can help to promote healing and reduce symptoms of peptic ulcers, such as abdominal pain and nausea. The benefits of using Zanthoxylum bungeanum teas to treat peptic ulcers include reduced risk of complications, faster recovery, and improved overall digestive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Trifolium pratense",
+            "herb_mentions": 8,
+            "herb_confidence_score": 37,
+            "herb_total_score": 296,
+            "preparation_desc": "Trifolium pratense teas, also known as red clover tea, have been traditionally used to treat peptic ulcers due to their anti-inflammatory and antioxidant properties. The bioactive constituents, including isoflavones and phenolic acids, help to reduce inflammation and protect the mucous membranes in the stomach, thus alleviating the symptoms of peptic ulcers. By promoting the healing of the gastric lining and reducing the production of stomach acid, Trifolium pratense teas can help to treat peptic ulcers effectively. The benefits of this herbal preparation include reduced pain, inflammation, and bleeding, as well as improved digestion and overall gut health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Matricaria chamomilla",
+            "herb_mentions": 5,
+            "herb_confidence_score": 37,
+            "herb_total_score": 185,
+            "preparation_desc": "Matricaria chamomilla teas have been traditionally used to treat peptic ulcers, a condition characterized by inflammation and erosion of the stomach lining, due to their anti-inflammatory and soothing properties. The bioactive constituents of Matricaria chamomilla, including apigenin, luteolin, and chamazulene, help to reduce inflammation, promote healing, and alleviate symptoms such as pain and discomfort. These constituents work by inhibiting the production of pro-inflammatory enzymes and increasing the production of protective mucus in the stomach, which helps to protect the stomach lining from acid damage. Regular consumption of Matricaria chamomilla teas has been found to be beneficial in treating peptic ulcers by reducing the severity and duration of symptoms and promoting faster healing of the affected area.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cynara scolymus",
+            "herb_mentions": 5,
+            "herb_confidence_score": 37,
+            "herb_total_score": 185,
+            "preparation_desc": "Cynara scolymus teas, also known as artichoke tea, have been traditionally used to treat peptic ulcers due to their anti-inflammatory and antioxidant properties. The bioactive constituents present in this herbal preparation, such as cynarin and inulin, help to reduce inflammation and promote the healing of the gastric lining, thereby alleviating peptic ulcer symptoms. The flavonoids and saponins in Cynara scolymus teas have been shown to inhibit the growth of Helicobacter pylori, a primary cause of peptic ulcers, thereby preventing the occurrence of further ulcers. Regular consumption of Cynara scolymus teas has been found to provide relief from peptic ulcer symptoms, reduce the risk of complications, and promote overall gastrointestinal health.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to the study, teas for peptic ulcers may be beneficial as natural products rich in active metabolites have been described to protect the mucosa, reduce ulcer effects, and inhibit pro-inflammatory factors."
+}

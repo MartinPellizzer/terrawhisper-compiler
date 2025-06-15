@@ -1,0 +1,24 @@
+{
+    "url": "herbs/stillingia-sylvatica",
+    "herb_slug": "stillingia-sylvatica",
+    "herb_name_scientific": "stillingia sylvatica",
+    "lastmod": "2025-5-31",
+    "benefits_num": 13,
+    "benefits_title": "13 Best Health Benefits Of Stillingia Sylvatica",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 8,
+            "confidence_score": 65,
+            "total_score": 520
+        },
+        {
+            "answer": "medicine",
+            "mentions": 2,
+            "confidence_score": 17,
+            "total_score": 34
+        }
+    ],
+    "constituents_num": 13,
+    "side_effects_num": 13
+}

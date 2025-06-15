@@ -1,0 +1,183 @@
+{
+    "url": "ailments/amenorrhea/creams",
+    "ailment_slug": "amenorrhea",
+    "ailment_name": "amenorrhea",
+    "preparation_slug": "creams",
+    "preparation_name": "creams",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Creams For Amenorrhea",
+    "intro": "Herbal creams for Amenorrhea are topical preparations made from plant extracts, used to stimulate menstrual cycles and alleviate symptoms associated with this reproductive disorder. These creams often contain ingredients such as Clary Sage, which helps to regulate hormones, and Ginger, which reduces inflammation and promotes blood flow to the uterus. Other examples of herbal creams used to treat Amenorrhea include Red Clover, which supports hormone balance, and Wild Yam, which helps to regulate the menstrual cycle. By using these herbal creams, individuals can experience benefits such as improved hormonal balance, reduced symptoms of Amenorrhea, and a more regular menstrual cycle.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 17,
+            "herb_confidence_score": 123,
+            "herb_total_score": 2091,
+            "preparation_desc": "Zingiber officinale creams have been traditionally used to treat amenorrhea due to their anti-inflammatory and antioxidant properties, which help to regulate menstrual cycles and alleviate hormonal imbalances. The bioactive constituents of Zingiber officinale, including gingerols and shogaols, have been shown to exhibit anti-androgenic and estrogenic activities, thereby helping to restore normal menstrual function. By reducing inflammation and promoting hormonal balance, Zingiber officinale creams may help to alleviate symptoms of amenorrhea, such as irregular periods and menstrual cramps. Regular use of Zingiber officinale creams may also provide additional benefits, including improved fertility and reduced risk of polycystic ovary syndrome (PCOS).",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 15,
+            "herb_confidence_score": 118,
+            "herb_total_score": 1770,
+            "preparation_desc": "Curcuma longa creams have been gaining attention as a potential natural remedy to treat amenorrhea, a condition characterized by the absence of menstrual periods. The anti-inflammatory and antioxidant properties of Curcuma longa creams, particularly due to the presence of bioactive constituents like curcumin, help to regulate menstrual cycles and alleviate symptoms associated with amenorrhea. Curcumin, a polyphenol compound found in Curcuma longa creams, has been shown to modulate the hypothalamic-pituitary-gonadal axis, thereby promoting menstrual regularity and reducing oxidative stress. The benefits of using Curcuma longa creams to treat amenorrhea include improved menstrual regularity, reduced symptoms of menstrual irregularity, and a natural approach to promoting reproductive health.",
+            "preparation_study": "According to \"Zhongguo Zhong yao za zhi = Zhongguo zhongyao zazhi = China journal of Chinese materia medica\", Curcuma longa creams for amenorrhea contain typical components such as curcumin, demethoxycurcumin, bisdemethoxycurcumin, curdione, germacrone, curcumol, and \u03b2-elemene, which have anti-inflammatory and blood-activating properties that may help to treat amenorrhea.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Paeonia lactiflora",
+            "herb_mentions": 14,
+            "herb_confidence_score": 109,
+            "herb_total_score": 1526,
+            "preparation_desc": "Paeonia lactiflora creams, a traditional Chinese herbal preparation, have been used to treat amenorrhea, a condition characterized by the absence of menstruation. The creams contain bioactive constituents such as flavonoids, alkaloids, and saponins, which have been shown to help regulate menstrual cycles by stimulating uterine contractions and improving blood flow to the reproductive organs. These properties help to treat amenorrhea by promoting hormonal balance and reducing stress and anxiety, which are common underlying causes of the condition. The benefits of using Paeonia lactiflora creams to treat amenorrhea include improved menstrual regularity, reduced symptoms of anxiety and depression, and a lower risk of complications associated with prolonged amenorrhea.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 14,
+            "herb_confidence_score": 98,
+            "herb_total_score": 1372,
+            "preparation_desc": "Glycyrrhiza glabra creams have been traditionally used to treat amenorrhea, a condition characterized by the absence of menstrual periods. The anti-inflammatory and estrogenic properties of this herbal preparation help to regulate menstrual cycles and alleviate symptoms associated with amenorrhea. The bioactive constituents, such as glycyrrhetic acid and flavonoids, present in Glycyrrhiza glabra creams, are responsible for their therapeutic effects, including the modulation of estrogen levels and the regulation of uterine contractions. The benefits of using Glycyrrhiza glabra creams to treat amenorrhea include reduced symptoms, improved menstrual regularity, and enhanced overall reproductive health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 12,
+            "herb_confidence_score": 98,
+            "herb_total_score": 1176,
+            "preparation_desc": "Panax ginseng creams have been traditionally used to treat amenorrhea, a condition characterized by the absence of menstrual periods. The properties of this herbal preparation, including its adaptogenic and anti-inflammatory properties, help to regulate hormonal balance and stimulate menstrual cycles. The bioactive constituents of Panax ginseng, such as ginsenosides and saponins, play a crucial role in treating amenorrhea by modulating the hypothalamic-pituitary-gonadal axis and improving blood circulation to the reproductive organs. By using Panax ginseng creams, individuals with amenorrhea may experience benefits such as improved hormonal balance, increased menstrual regularity, and enhanced overall reproductive health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Astragalus membranaceus",
+            "herb_mentions": 11,
+            "herb_confidence_score": 90,
+            "herb_total_score": 990,
+            "preparation_desc": "Astragalus membranaceus creams have been traditionally used to treat amenorrhea, a condition characterized by the absence of menstruation. This herbal preparation is rich in bioactive constituents, including flavonoids, saponins, and polysaccharides, which possess anti-inflammatory, antioxidant, and immunomodulatory properties that help to regulate menstrual cycles. The saponins present in Astragalus membranaceus creams are particularly beneficial, as they stimulate the release of luteinizing hormone, thereby promoting ovulation and menstrual flow. By regulating hormonal imbalances and modulating immune responses, Astragalus membranaceus creams offer a natural and effective treatment option for amenorrhea, providing relief from symptoms and promoting overall reproductive health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 14,
+            "herb_confidence_score": 82,
+            "herb_total_score": 1148,
+            "preparation_desc": "Ginkgo biloba creams have been traditionally used to treat amenorrhea, a condition characterized by the absence of menstruation. The properties of Ginkgo biloba creams that help to treat this ailment include their ability to improve blood circulation and balance hormone levels, which are essential for menstrual regulation. The bioactive constituents of Ginkgo biloba, such as flavonoids and terpenoids, help to stimulate uterine contractions and regulate the menstrual cycle, ultimately leading to the resumption of menstruation. The benefits of using Ginkgo biloba creams to treat amenorrhea include their natural and non-invasive approach, minimal side effects, and potential improvement in menstrual regularity and fertility.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Vitex agnus-castus",
+            "herb_mentions": 9,
+            "herb_confidence_score": 80,
+            "herb_total_score": 720,
+            "preparation_desc": "Vitex agnus-castus creams are a herbal preparation used to treat amenorrhea, a condition characterized by the absence or irregularity of menstrual periods. The properties of Vitex agnus-castus creams, which include antioxidant, anti-inflammatory, and hormone-regulating properties, help to treat amenorrhea by regulating the menstrual cycle and promoting hormonal balance. The bioactive constituents of Vitex agnus-castus creams, such as ursolic acid, rosmarinic acid, and flavonoids, help to regulate the hypothalamic-pituitary-gonadal axis, leading to the normalization of menstrual cycles. The benefits of using Vitex agnus-castus creams to treat amenorrhea include improved menstrual regularity, reduced symptoms of PMS, and a natural and non-invasive approach to hormonal balance.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Angelica archangelica",
+            "herb_mentions": 10,
+            "herb_confidence_score": 79,
+            "herb_total_score": 790,
+            "preparation_desc": "Angelica archangelica creams have been traditionally used to treat amenorrhea, a condition characterized by the absence of menstruation. The herbal preparation is rich in bioactive constituents such as ferulic acid, coumarins, and flavonoids, which exhibit estrogen-like properties, helping to regulate menstrual cycles and induce menstruation. The creams work by stimulating the hypothalamic-pituitary-ovarian axis, promoting the release of gonadotropin-releasing hormone (GnRH) and luteinizing hormone (LH), which in turn stimulate the ovaries to produce estrogen and progesterone, leading to menstruation. The benefits of using Angelica archangelica creams to treat amenorrhea include promoting menstrual regularity, alleviating symptoms of hormonal imbalance, and supporting overall reproductive health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 11,
+            "herb_confidence_score": 76,
+            "herb_total_score": 836,
+            "preparation_desc": "Lavandula angustifolia creams, derived from the flowers of the lavender plant, have been traditionally used to treat amenorrhea, a condition characterized by the absence of menstruation. The calming and anti-inflammatory properties of this herbal preparation help to regulate hormonal balance and alleviate menstrual cramps, thereby promoting menstrual cycles. The bioactive constituents, including linalool and linalyl acetate, present in Lavandula angustifolia creams, have been shown to exhibit estrogen-like effects and reduce stress, which are beneficial in treating amenorrhea. The benefits of using Lavandula angustifolia creams to treat amenorrhea include reducing menstrual pain, promoting regular menstrual cycles, and improving overall reproductive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Angelica sinensis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 74,
+            "herb_total_score": 666,
+            "preparation_desc": "Angelica sinensis creams, derived from the dried root of the Angelica sinensis plant, are used in traditional Chinese medicine to treat amenorrhea, a condition characterized by the absence of menstruation. The creams contain bioactive constituents such as ferulic acid, ferulic ester, and polysaccharides that help to regulate menstrual cycles and promote uterine contractions, thereby treating amenorrhea. The ferulic acid and ferulic ester in Angelica sinensis creams are believed to have a tonifying effect on the uterus, improving blood flow and promoting hormonal balance, which helps to treat amenorrhea. The benefits of using Angelica sinensis creams to treat amenorrhea include improved menstrual regularity, reduced menstrual cramps, and enhanced overall reproductive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cimicifuga racemosa",
+            "herb_mentions": 8,
+            "herb_confidence_score": 67,
+            "herb_total_score": 536,
+            "preparation_desc": "Cimicifuga racemosa creams have been traditionally used to treat amenorrhea, a condition characterized by the absence of menstruation. The creams are rich in bioactive constituents such as ferulic acid, sesquiterpenes, and phenolic acids, which have been found to have estrogenic and antispasmodic properties. These properties help to regulate menstrual cycles, reduce spasmodic cramps, and promote the release of hormones necessary for menstruation, ultimately helping to alleviate symptoms of amenorrhea. By regulating hormonal imbalances and reducing uterine spasms, Cimicifuga racemosa creams offer a natural and beneficial treatment for amenorrhea, promoting overall menstrual health and well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Pueraria lobata",
+            "herb_mentions": 8,
+            "herb_confidence_score": 61,
+            "herb_total_score": 488,
+            "preparation_desc": "Pueraria lobata creams, derived from the Chinese herb Kudzu, have been traditionally used to treat amenorrhea, a condition characterized by the absence of menstrual periods. The properties of Pueraria lobata creams that help treat this ailment include its estrogenic and anti-estrogenic properties, which help regulate hormonal imbalances and promote menstrual regularity. The bioactive constituents of Pueraria lobata creams, such as isoflavones and flavonoids, play a crucial role in treating amenorrhea by stimulating the growth of endometrial tissue and promoting the release of hormones that regulate the menstrual cycle. The benefits of using Pueraria lobata creams to treat amenorrhea include the potential for increased menstrual regularity, improved hormonal balance, and reduced symptoms of amenorrhea, making it a popular natural remedy among women with this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 53,
+            "herb_total_score": 371,
+            "preparation_desc": "Valeriana officinalis creams have been traditionally used to treat amenorrhea, a condition characterized by the absence of menstruation, due to their calming and regulatory properties on the hormonal balance of the body. The herbal preparation helps to treat this ailment by promoting relaxation, reducing stress and anxiety, and regulating the menstrual cycle. The bioactive constituents of Valeriana officinalis creams, including valerenic acid, valerenol, and isovalerene, contribute to its therapeutic effects by modulating the activity of neurotransmitters and hormones, such as GABA and estrogen, which play a crucial role in regulating menstruation. The benefits of using Valeriana officinalis creams to treat amenorrhea include improved menstrual regularity, reduced stress and anxiety, and a natural approach to regulating the hormonal balance of the body.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 9,
+            "herb_confidence_score": 52,
+            "herb_total_score": 468,
+            "preparation_desc": "Silybum marianum creams, also known as milk thistle creams, have been traditionally used to treat amenorrhea, a condition characterized by the absence of menstrual periods. The anti-inflammatory and antioxidant properties of silymarin, a bioactive constituent of Silybum marianum, help to regulate menstrual cycles and alleviate symptoms of amenorrhea. The cream's ability to stimulate the pituitary gland and promote hormone balance also contributes to its effectiveness in treating this ailment. By using Silybum marianum creams, women with amenorrhea may experience improved menstrual regularity, reduced symptoms, and enhanced overall reproductive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Dioscorea villosa",
+            "herb_mentions": 7,
+            "herb_confidence_score": 51,
+            "herb_total_score": 357,
+            "preparation_desc": "Dioscorea villosa creams, derived from the yam plant, are a traditional herbal remedy used to treat amenorrhea, a condition characterized by the absence of menstruation. These creams contain bioactive constituents such as diosgenin, a plant-based steroid that helps to regulate menstrual cycles and stimulate hormone production, ultimately leading to the resumption of menstruation. The properties of Dioscorea villosa creams aid in treating amenorrhea by promoting hormonal balance, reducing stress and anxiety, and increasing blood flow to the reproductive organs, which helps to stimulate menstrual cycles. The benefits of using Dioscorea villosa creams to treat amenorrhea include a natural and non-invasive approach to hormone regulation, reduced risk of side effects associated with synthetic hormones, and improved overall reproductive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 50,
+            "herb_total_score": 400,
+            "preparation_desc": "Melissa officinalis creams have been traditionally used to treat amenorrhea, a condition characterized by the absence of menstruation, due to their ability to regulate hormonal imbalances and stimulate uterine contractions. The bioactive constituents, including limonene, linalool, and rosmarinic acid, possess anti-inflammatory and antioxidant properties that help to soothe the uterine lining and promote menstrual flow. These creams also help to reduce stress and anxiety, which are often contributing factors to amenorrhea, by exerting a calming effect on the nervous system. The benefits of using Melissa officinalis creams to treat amenorrhea include regulating menstrual cycles, reducing menstrual cramps, and promoting overall reproductive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 7,
+            "herb_confidence_score": 49,
+            "herb_total_score": 343,
+            "preparation_desc": "Avena sativa creams have been traditionally used to treat amenorrhea, a condition characterized by the absence of menstruation. The herbal preparation properties of Avena sativa, including its antioxidant, anti-inflammatory, and hormone-regulating properties, help to treat this ailment by promoting hormonal balance and regulating menstrual cycles. The bioactive constituents of Avena sativa creams, such as avenacoside and avenanthramides, play a crucial role in regulating hormonal secretion and improving menstrual function. The benefits of using Avena sativa creams to treat amenorrhea include promoting regular menstrual cycles, reducing menstrual pain, and improving overall reproductive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rehmannia glutinosa",
+            "herb_mentions": 6,
+            "herb_confidence_score": 49,
+            "herb_total_score": 294,
+            "preparation_desc": "Rehmannia glutinosa creams have been used in traditional Chinese medicine to treat amenorrhea, a condition characterized by the absence of menstruation. The properties of this herbal preparation, including its emmenagogic and estrogenic effects, help to stimulate uterine contractions and regulate menstrual cycles. Bioactive constituents such as rehmanniosides, iridoid glycosides, and polysaccharides in Rehmannia glutinosa creams may help to modulate hormonal balance and promote menstrual regularity. The benefits of using Rehmannia glutinosa creams to treat amenorrhea include improved menstrual frequency, reduced menstrual cramps, and enhanced overall hormonal balance, making it a potential natural remedy for this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Panax quinquefolius",
+            "herb_mentions": 6,
+            "herb_confidence_score": 48,
+            "herb_total_score": 288,
+            "preparation_desc": "Panax quinquefolius creams have been used to treat amenorrhea, a condition characterized by the absence of menstruation, due to their adaptogenic and hormone-regulating properties. The bioactive constituents, including ginsenosides and saponins, help to stimulate ovarian function and regulate hormonal imbalances, thus promoting menstrual cycle regularity. By addressing hormonal disruptions and promoting a balance between estrogen and progesterone levels, Panax quinquefolius creams may help alleviate the symptoms of amenorrhea and restore menstrual cycles. The benefits of using these creams include reduced stress and anxiety, improved hormonal balance, and increased fertility, making them a potential natural remedy for individuals experiencing amenorrhea.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "N/A"
+}

@@ -1,0 +1,18 @@
+{
+    "url": "herbs/aconitum-napellus",
+    "herb_slug": "aconitum-napellus",
+    "herb_name_scientific": "aconitum napellus",
+    "lastmod": "2025-5-31",
+    "benefits_num": 7,
+    "benefits_title": "7 Best Health Benefits Of Aconitum Napellus",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 10,
+            "confidence_score": 99,
+            "total_score": 990
+        }
+    ],
+    "constituents_num": 11,
+    "side_effects_num": 9
+}

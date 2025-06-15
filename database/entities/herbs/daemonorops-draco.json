@@ -1,0 +1,24 @@
+{
+    "url": "herbs/daemonorops-draco",
+    "herb_slug": "daemonorops-draco",
+    "herb_name_scientific": "daemonorops draco",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Daemonorops Draco",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 9,
+            "confidence_score": 81,
+            "total_score": 729
+        },
+        {
+            "answer": "medicine",
+            "mentions": 1,
+            "confidence_score": 8,
+            "total_score": 8
+        }
+    ],
+    "constituents_num": 11,
+    "side_effects_num": 13
+}

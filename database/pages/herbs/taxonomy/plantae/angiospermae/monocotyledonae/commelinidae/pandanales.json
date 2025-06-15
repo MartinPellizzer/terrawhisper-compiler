@@ -1,0 +1,15 @@
+{
+    "title": "pandanales",
+    "lastmod": "2025-2-22",
+    "intro": "The rank of Pandanales is a taxonomic order of flowering plants, characterized by the presence of a unique inflorescence structure known as a spike or a spadix, often accompanied by a modified leaf called a spathe. This order includes a diverse range of plant families, such as Orchidaceae, Euphorbiaceae, and Cyperaceae, which are commonly found in various ecosystems around the world. The Pandanales order is often associated with tropical and subtropical regions, where these plants have adapted to thrive in a wide range of environments. With over 30 families and 2,000 species, the Pandanales order is a significant and ecologically important group of flowering plants.",
+    "families": [
+        {
+            "family_slug": "pandanaceae",
+            "family_desc": "Pandanaceae is a family of flowering plants commonly known as screw pine or pandan plants, native to tropical regions of Asia and the Pacific."
+        },
+        {
+            "family_slug": "cyclanthaceae",
+            "family_desc": "Cyclanthaceae is a family of monocot flowering plants commonly known as clubmasses or palmclub mosses."
+        }
+    ]
+}

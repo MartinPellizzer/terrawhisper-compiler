@@ -1,0 +1,187 @@
+{
+    "url": "herbs/bellis-perennis",
+    "herb_slug": "bellis-perennis",
+    "herb_name_scientific": "bellis perennis",
+    "lastmod": "2025-5-31",
+    "title": "Bellis Perennis Uses, Benefits, And Remedies",
+    "intro": "Bellis perennis, commonly known as the common daisy, is a flowering plant native to Europe and parts of Asia, characterized by its white petals and yellow center. This herb is known for its anti-inflammatory, antimicrobial, and wound-healing properties, making it beneficial for skin conditions and digestive health. The bioactive constituents in Bellis perennis include flavonoids, tannins, and essential oils, which contribute to its therapeutic effects. Herbal preparations such as infusions, tinctures, and salves can be made from the leaves and flowers to harness its medicinal benefits.",
+    "benefits": "Bellis perennis fights bacterial infections by containing natural compounds that inhibit the growth of harmful bacteria, making it a valuable remedy for minor wounds and skin conditions. Its antimicrobial properties also help in combating fungal infections, offering relief from common issues like athlete's foot and ringworm. The herb is particularly effective in curing skin irritations, as its anti-inflammatory compounds soothe redness and discomfort. It can also be used to treat skin rashes by reducing inflammation and promoting faster healing. Overall, Bellis perennis is a versatile herbal remedy that supports skin health and provides natural treatment options for various infections and irritations.",
+    "constituents": "[WRONG START] Bellis perennis, commonly known as the English daisy, contains several medicinal constituents, including fructose, flavonoids, glucose, and tannins, which contribute to its therapeutic properties. Fructose, a natural sugar found in the herb, plays a role in enhancing the bioavailability of other active compounds and may support metabolic functions. Flavonoids, a group of antioxidant compounds, are present in Bellis perennis and are known for their anti-inflammatory and antiviral effects, helping to protect cells from oxidative stress. Glucose, another simple sugar, is also present and may aid in energy production and cellular function. Tannins, which are astringent compounds, are responsible for the herb's ability to reduce inflammation and promote wound healing, making it useful in traditional remedies for skin conditions and digestive ailments. These constituents work synergistically to provide Bellis perennis with its wide range of medicinal benefits, supporting its use in herbal medicine for various health conditions.",
+    "parts": "Bellis perennis flower, commonly known as the \"English daisy,\" has been traditionally used in herbal medicine for its anti-inflammatory and vulnerary properties. The flower contains a variety of bioactive compounds, including flavonoids, tannins, and essential oils, which contribute to its ability to promote wound healing and reduce inflammation. In historical herbal practices, the flower has been applied topically to treat minor cuts, bruises, and skin irritations due to its astringent and soothing effects. It is also believed to have mild sedative properties, making it useful in calming nervous tension. The flower's medicinal use is often complemented by its leaves and roots, which also contain valuable phytochemicals that support overall health and well-being.",
+    "preparations": "Bellis perennis teas are traditionally prepared by steeping dried flowers in hot water, often used to support digestive health and reduce inflammation. These teas are gentle and can be consumed regularly to promote a sense of calm and ease gastrointestinal discomfort. In addition to teas, decoctions of Bellis perennis are made by simmering the root or leaves in water for a longer period, enhancing the extraction of more potent compounds. Mucillages, derived from the plant\u2019s leaves, are used to create soothing gels or pastes that can be applied topically to soothe skin irritations or as a remedy for coughs. Tinctures and poultices made from Bellis perennis also offer therapeutic benefits, with tinctures providing a concentrated dose of the plant\u2019s active components and poultices offering localized relief for wounds or inflammation. Each preparation method highlights the versatility of Bellis perennis in traditional herbal medicine, offering a range of applications for both internal and external use.",
+    "side_effects": "Bellis perennis induces allergic reaction in some individuals, manifesting as symptoms such as runny nose, sneezing, and itchy eyes. It can also cause skin irritation and rash, leading to redness and a burning sensation on the skin's surface. The herb may result in nausea and digestive upset, including stomach cramps and an upset stomach. Additionally, it can induce throat irritation, making swallowing difficult and causing a dry or sore throat. Prolonged or excessive use of Bellis perennis may lead to more severe reactions, such as hives or even systemic allergic responses, emphasizing the need for caution and consultation with a healthcare professional before use.",
+    "benefits_num": 13,
+    "benefits_list": [
+        {
+            "name": "fights bacterial infections",
+            "description": "Bellis perennis contains compounds that exhibit antibacterial properties, helping to combat bacterial infections naturally."
+        },
+        {
+            "name": "fights fungal infections",
+            "description": "The herb possesses antifungal properties that can help in treating various fungal infections."
+        },
+        {
+            "name": "cures skin irritations",
+            "description": "Bellis perennis has soothing properties that can alleviate skin irritations and promote healing."
+        },
+        {
+            "name": "cures skin rashes",
+            "description": "The herb's anti-inflammatory and antiseptic qualities make it effective in treating skin rashes."
+        },
+        {
+            "name": "treats cuts wounds",
+            "description": "Bellis perennis can help in the healing of cuts and wounds due to its antimicrobial and healing properties."
+        },
+        {
+            "name": "reduces inflammation",
+            "description": "The herb is known to reduce inflammation, making it beneficial for various inflammatory conditions."
+        },
+        {
+            "name": "aids respiratory issues",
+            "description": "Bellis perennis may help alleviate respiratory issues by reducing inflammation and clearing airways."
+        },
+        {
+            "name": "aids immune system",
+            "description": "The herb supports the immune system by providing essential nutrients and antioxidants that help the body fight off diseases."
+        },
+        {
+            "name": "reduces fever",
+            "description": "Bellis perennis has properties that can help reduce fever, supporting the body's natural healing process."
+        },
+        {
+            "name": "aids digestive issues",
+            "description": "The herb can aid in digestion and relieve digestive discomfort due to its soothing and anti-inflammatory effects."
+        },
+        {
+            "name": "reduces allergies",
+            "description": "Bellis perennis may help reduce allergic reactions by supporting the immune system and reducing inflammation."
+        },
+        {
+            "name": "cures tooth infections",
+            "description": "The antibacterial properties of Bellis perennis can help treat tooth infections and promote oral health."
+        },
+        {
+            "name": "cures muscle aches",
+            "description": "Bellis perennis can help relieve muscle aches and pains due to its anti-inflammatory and analgesic properties."
+        }
+    ],
+    "constituents_num": 9,
+    "constituents_list": [
+        {
+            "name": "fructose",
+            "description": "A natural sugar that provides energy and may have mild antioxidant properties."
+        },
+        {
+            "name": "flavonoids",
+            "description": "A group of plant compounds known for their antioxidant and anti-inflammatory effects."
+        },
+        {
+            "name": "glucose",
+            "description": "A simple sugar that serves as a primary energy source for the body."
+        },
+        {
+            "name": "tannins",
+            "description": "A type of polyphenol that can have astringent properties and may support digestive health."
+        },
+        {
+            "name": "glycosides",
+            "description": "Compounds composed of a sugar molecule bonded to a non-sugar component, often with medicinal properties."
+        },
+        {
+            "name": "sterols",
+            "description": "Lipid molecules that may have anti-inflammatory and cholesterol-lowering effects."
+        },
+        {
+            "name": "sucrose",
+            "description": "A disaccharide sugar composed of glucose and fructose, commonly used as a sweetener."
+        },
+        {
+            "name": "fatty acids",
+            "description": "Essential components of cell membranes and precursors for hormone production."
+        },
+        {
+            "name": "phenolic acids",
+            "description": "Antioxidant compounds that may help protect cells from damage and reduce inflammation."
+        }
+    ],
+    "parts_num": 3,
+    "parts_list": "",
+    "side_effects_num": 13,
+    "side_effects_list": [
+        {
+            "name": "induces allergic reaction",
+            "description": "Bellis perennis may trigger an allergic response in sensitive individuals, leading to symptoms such as itching, swelling, or difficulty breathing."
+        },
+        {
+            "name": "causes skin irritation",
+            "description": "Contact with the plant may cause skin irritation, redness, or a burning sensation in some people."
+        },
+        {
+            "name": "leads to nausea",
+            "description": "Ingestion of Bellis perennis may result in nausea, a common gastrointestinal side effect."
+        },
+        {
+            "name": "results in skin rash",
+            "description": "The herb may cause a skin rash, characterized by red, itchy patches on the skin."
+        },
+        {
+            "name": "causes irritation",
+            "description": "Bellis perennis can cause general irritation, particularly in the mucous membranes or on the skin."
+        },
+        {
+            "name": "causes runny nose",
+            "description": "Exposure to the herb may lead to a runny nose, often associated with allergic or irritant reactions."
+        },
+        {
+            "name": "results in hives",
+            "description": "The herb may trigger hives, which are raised, itchy welts on the skin."
+        },
+        {
+            "name": "induces irritation",
+            "description": "Bellis perennis may induce irritation, particularly in the respiratory or digestive tracts."
+        },
+        {
+            "name": "leads to digestive upset",
+            "description": "Consuming the herb may lead to digestive upset, including bloating or discomfort."
+        },
+        {
+            "name": "causes eye irritation",
+            "description": "Contact with the eyes may cause irritation, redness, or a burning sensation."
+        },
+        {
+            "name": "induces throat irritation",
+            "description": "Inhaling or ingesting the herb may cause throat irritation, leading to a sore or scratchy feeling."
+        },
+        {
+            "name": "causes stomach cramps",
+            "description": "Bellis perennis may cause stomach cramps, often due to its irritant properties on the gastrointestinal tract."
+        },
+        {
+            "name": "results in redness",
+            "description": "The herb may cause redness, particularly on the skin or mucous membranes, as a reaction to contact or ingestion."
+        }
+    ],
+    "preparations_num": 5,
+    "preparations_list": [
+        {
+            "name": "teas",
+            "description": "Bellis perennis teas are used to support digestive health, reduce inflammation, and promote respiratory wellness due to their mild diuretic and anti-inflammatory properties."
+        },
+        {
+            "name": "decoctions",
+            "description": "Bellis perennis decoctions are employed to address skin conditions, such as eczema and psoriasis, and to support the immune system due to their potent antioxidant and anti-inflammatory effects."
+        },
+        {
+            "name": "mucillages",
+            "description": "Bellis perennis mucillages are used to soothe irritated mucous membranes, aid in digestion, and provide relief for conditions like sore throats and gastrointestinal discomfort."
+        },
+        {
+            "name": "tinctures",
+            "description": "Bellis perennis tinctures are utilized for their ability to reduce inflammation, support wound healing, and alleviate symptoms of respiratory and skin disorders."
+        },
+        {
+            "name": "poultices",
+            "description": "Bellis perennis poultices are applied externally to treat wounds, bruises, and inflammatory skin conditions, leveraging the herb's soothing and healing properties."
+        }
+    ]
+}

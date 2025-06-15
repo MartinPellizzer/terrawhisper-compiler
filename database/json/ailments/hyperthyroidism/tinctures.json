@@ -1,0 +1,183 @@
+{
+    "url": "ailments/hyperthyroidism/tinctures",
+    "ailment_slug": "hyperthyroidism",
+    "ailment_name": "hyperthyroidism",
+    "preparation_slug": "tinctures",
+    "preparation_name": "tinctures",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Tinctures For Hyperthyroidism",
+    "intro": "Herbal tinctures for Hyperthyroidism are concentrated liquid extracts made from herbs that help alleviate symptoms associated with an overactive thyroid gland. The benefits of using herbal tinctures to treat hyperthyroidism include reducing anxiety, promoting relaxation, and regulating thyroid function, making them a popular alternative to conventional medications. Certain herbal tinctures, such as Ashwagandha, Bladderwrack, and Coleus, are known to inhibit thyroid hormone production, while others like Schisandra and Licorice root, help to reduce stress and promote adrenal function. Additionally, herbal tinctures like Bugleweed, and Goldenrod, have been found to help regulate thyroid function and reduce symptoms of hyperthyroidism, such as rapid heartbeat and weight loss.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 16,
+            "herb_confidence_score": 113,
+            "herb_total_score": 1808,
+            "preparation_desc": "Glycyrrhiza glabra tinctures have been traditionally used to treat hyperthyroidism, a condition characterized by an overactive thyroid gland. The antithyroid properties of glycyrrhizin, a bioactive constituent of Glycyrrhiza glabra, help to inhibit the production of thyroid hormones, thereby reducing the symptoms associated with hyperthyroidism. Additionally, the anti-inflammatory and antioxidant properties of glycyrrhizin help to reduce inflammation and oxidative stress in the thyroid gland, further contributing to its therapeutic effects. Regular use of Glycyrrhiza glabra tinctures may help alleviate symptoms such as weight loss, tremors, and anxiety associated with hyperthyroidism, while also promoting overall thyroid health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 16,
+            "herb_confidence_score": 109,
+            "herb_total_score": 1744,
+            "preparation_desc": "Zingiber officinale tinctures, derived from the rhizomes of the ginger plant, have been traditionally used to treat hyperthyroidism due to their anti-inflammatory and antioxidant properties. The bioactive constituents of Zingiber officinale, including gingerols and shogaols, help to regulate thyroid hormone production and alleviate symptoms associated with hyperthyroidism, such as rapid heartbeat and weight loss. By inhibiting the activity of thyroid-stimulating hormone (TSH) and reducing oxidative stress, Zingiber officinale tinctures help to normalize thyroid function and promote overall well-being. The benefits of using Zingiber officinale tinctures to treat hyperthyroidism include reduced symptoms, improved quality of life, and a natural alternative to conventional medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Astragalus membranaceus",
+            "herb_mentions": 13,
+            "herb_confidence_score": 104,
+            "herb_total_score": 1352,
+            "preparation_desc": "Astragalus membranaceus tinctures have been traditionally used to treat hyperthyroidism, an overactive thyroid condition, due to their adaptogenic and immune-modulating properties. This herbal preparation helps to treat hyperthyroidism by reducing thyroid hormone production and alleviating symptoms such as weight loss, anxiety, and rapid heart rate. The bioactive constituents of Astragalus membranaceus tinctures, including flavonoids, phenolic acids, and saponins, play a crucial role in regulating thyroid function and reducing inflammation. The benefits of using Astragalus membranaceus tinctures to treat hyperthyroidism include improved thyroid function, reduced symptoms, and a lower risk of thyroid-related complications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 14,
+            "herb_confidence_score": 103,
+            "herb_total_score": 1442,
+            "preparation_desc": "Panax ginseng tinctures have been explored as a potential herbal remedy to alleviate symptoms of hyperthyroidism due to their adaptogenic and antioxidant properties. The bioactive constituents of Panax ginseng tinctures, including ginsenosides and polyphenols, may help to regulate thyroid function and reduce oxidative stress associated with hyperthyroidism. By modulating the hypothalamic-pituitary-thyroid axis and inhibiting the production of thyroid-stimulating hormone, Panax ginseng tinctures may help to treat hyperthyroidism and its related symptoms. The benefits of using Panax ginseng tinctures to treat hyperthyroidism include reduced risk of medication side effects and improved overall well-being, although further research is needed to confirm their efficacy.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 13,
+            "herb_confidence_score": 96,
+            "herb_total_score": 1248,
+            "preparation_desc": "Curcuma longa tinctures have been traditionally used to treat hyperthyroidism due to their antithyroid and anti-inflammatory properties. The bioactive constituents present in Curcuma longa, such as curcuminoids and turmerones, help to inhibit the production of thyroid hormones and reduce inflammation, which can alleviate symptoms of hyperthyroidism. By reducing the production of thyroid hormones and inflammation, Curcuma longa tinctures help to normalize thyroid function and alleviate symptoms associated with hyperthyroidism, such as weight loss, tremors, and palpitations. The benefits of using Curcuma longa tinctures to treat hyperthyroidism include a natural and non-invasive approach, reduced risk of side effects, and improved overall thyroid health.",
+            "preparation_study": "According to \"Current medicinal chemistry\", Curcuma longa tinctures may have therapeutic potential for hyperthyroidism due to curcumin's effects on anti-inflammatory, antioxidant, anti-proliferative, apoptosis, angiogenesis, cell cycle, and metastasis pathways in the thyroid gland.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 88,
+            "herb_total_score": 1144,
+            "preparation_desc": "Schisandra chinensis tinctures have been traditionally used to treat hyperthyroidism due to their adaptogenic and anti-inflammatory properties, which help to balance thyroid function and alleviate symptoms such as anxiety and tremors. The bioactive constituents of Schisandra chinensis, including schisandrins and lignans, have been shown to modulate the immune system and regulate thyroid hormone production, contributing to its therapeutic effects. By reducing inflammation and oxidative stress, Schisandra chinensis tinctures help to mitigate the damage caused by hyperthyroidism and promote overall well-being. The benefits of using Schisandra chinensis tinctures to treat hyperthyroidism include reduced symptoms, improved thyroid function, and enhanced quality of life.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 12,
+            "herb_confidence_score": 85,
+            "herb_total_score": 1020,
+            "preparation_desc": "Cinchona officinalis tinctures have been used in traditional medicine to treat hyperthyroidism due to their alkaloid properties, specifically quinoline and quinazoline compounds, which possess anti-inflammatory and antithyroidal activities. The tannins and flavonoids present in Cinchona officinalis tinctures help to regulate thyroid hormone production, thereby alleviating symptoms associated with hyperthyroidism such as rapid heartbeat and weight loss. The bioactive constituents of Cinchona officinalis tinctures, including quinine and quinidine, work synergistically to reduce thyroid gland activity and normalize thyroid hormone levels, providing relief from the symptoms of hyperthyroidism. The use of Cinchona officinalis tinctures to treat hyperthyroidism offers several benefits, including reduced side effects compared to conventional medications and a potential long-term solution to manage the condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 14,
+            "herb_confidence_score": 81,
+            "herb_total_score": 1134,
+            "preparation_desc": "Ginkgo biloba tinctures have been studied for their potential in treating hyperthyroidism, an overactive thyroid condition, due to their unique properties. The flavonoids and terpenoids present in Ginkgo biloba tinctures, specifically quercetin and bilobalide, may help alleviate symptoms of hyperthyroidism by modulating thyroid function and reducing oxidative stress. These bioactive constituents may also contribute to the regulation of thyroid hormones and improve overall thyroid health, making Ginkgo biloba tinctures a potentially beneficial herbal preparation for treating hyperthyroidism. The benefits of using Ginkgo biloba tinctures for hyperthyroidism include reduced anxiety and tremors, improved sleep quality, and a decrease in thyroid hormone levels, all of which can contribute to a better quality of life for individuals suffering from this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 11,
+            "herb_confidence_score": 75,
+            "herb_total_score": 825,
+            "preparation_desc": "Silybum marianum tinctures have been traditionally used to treat hyperthyroidism, a condition characterized by an overactive thyroid gland, due to their anti-inflammatory and antioxidant properties. The tincture helps to alleviate symptoms such as weight loss, tremors, and anxiety associated with hyperthyroidism by modulating the immune system and reducing oxidative stress. The bioactive constituents, including silymarin and flavonoids, in Silybum marianum tinctures have been found to have a hepatoprotective effect, which can help to reduce the severity of hyperthyroidism by protecting the liver from damage. The benefits of using Silybum marianum tinctures to treat hyperthyroidism include reduced symptoms, improved quality of life, and a more natural approach to managing the condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Withania somnifera",
+            "herb_mentions": 10,
+            "herb_confidence_score": 74,
+            "herb_total_score": 740,
+            "preparation_desc": "Withania somnifera tinctures have been traditionally used to treat hyperthyroidism due to their adaptogenic properties that help to regulate the body's response to stress. The herbal preparation of Withania somnifera contains bioactive constituents like withanolides, which have been shown to possess anti-thyroidal activities and help to reduce the levels of thyroid hormones in the body. The tinctures have been found to help alleviate symptoms of hyperthyroidism such as weight loss, tremors, and anxiety by modulating the hypothalamic-pituitary-thyroid axis and promoting relaxation. The benefits of using Withania somnifera tinctures to treat hyperthyroidism include reduced symptoms, improved quality of life, and a natural alternative to pharmaceutical treatments.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Angelica sinensis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 59,
+            "herb_total_score": 531,
+            "preparation_desc": "Angelica sinensis tinctures have been traditionally used to treat hyperthyroidism due to their adaptogenic and anti-inflammatory properties, which help to regulate the thyroid gland's function and alleviate symptoms such as anxiety and weight loss. The bioactive constituents of Angelica sinensis, including ferulic acid and polysaccharides, help to modulate the immune system and reduce oxidative stress, thereby mitigating the hyperthyroid condition. By regulating the thyroid hormones and promoting a balanced endocrine system, Angelica sinensis tinctures can help to alleviate symptoms of hyperthyroidism and promote overall well-being. The benefits of using Angelica sinensis tinctures to treat hyperthyroidism include a reduction in thyroid hormone levels, alleviation of symptoms, and a decrease in the risk of complications associated with the condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 55,
+            "herb_total_score": 440,
+            "preparation_desc": "Valeriana officinalis tinctures have been used as a natural remedy to treat hyperthyroidism, a condition characterized by an overactive thyroid gland. The tinctures possess sedative, anxiolytic, and antispasmodic properties, which help to alleviate symptoms such as anxiety, insomnia, and tremors commonly associated with hyperthyroidism. The bioactive constituents present in Valeriana officinalis, including valerenic acid, isovaleric acid, and valepotriates, are believed to contribute to its therapeutic effects by modulating the body's stress response and regulating thyroid function. By using Valeriana officinalis tinctures, individuals with hyperthyroidism may experience reduced symptoms, improved sleep quality, and a more balanced thyroid function, ultimately leading to improved overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 9,
+            "herb_confidence_score": 54,
+            "herb_total_score": 486,
+            "preparation_desc": "Avena sativa tinctures have been traditionally used to treat hyperthyroidism due to their adaptogenic properties, which help to balance the body's response to stress and regulate hormonal imbalances. The herbal preparation's ability to reduce stress and anxiety also contributes to its effectiveness in alleviating symptoms associated with hyperthyroidism, such as rapid heartbeat and tremors. The bioactive constituents of Avena sativa, including avenacosides and avenanthramides, are responsible for its medicinal properties and have been shown to inhibit the production of thyroid hormones, thereby helping to treat hyperthyroidism. Regular use of Avena sativa tinctures has been reported to provide relief from hyperthyroidism symptoms and promote overall well-being, making it a popular natural remedy for this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 10,
+            "herb_confidence_score": 50,
+            "herb_total_score": 500,
+            "preparation_desc": "Lavandula angustifolia tinctures have been studied for their potential benefits in treating hyperthyroidism due to their antithyroidal and sedative properties, which may help to calm the nervous system and regulate thyroid function. The bioactive constituents of Lavandula angustifolia, including linalool, linalyl acetate, and camphor, may contribute to its antithyroidal effects by inhibiting the release of thyroid hormones and reducing oxidative stress. By reducing stress and promoting relaxation, Lavandula angustifolia tinctures may help to alleviate symptoms of hyperthyroidism, such as anxiety and insomnia. Additionally, the anti-inflammatory and antioxidant properties of this herbal preparation may also help to reduce inflammation and oxidative damage associated with hyperthyroidism.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 9,
+            "herb_confidence_score": 41,
+            "herb_total_score": 369,
+            "preparation_desc": "Taraxacum officinale tinctures, derived from the dandelion plant, have been traditionally used to treat hyperthyroidism due to their anti-inflammatory and antioxidant properties. The bioactive constituents present in these tinctures, including flavonoids, alkaloids, and saponins, help to regulate thyroid hormone production and reduce oxidative stress, thereby alleviating symptoms associated with hyperthyroidism. By modulating the thyroid axis and reducing inflammation, Taraxacum officinale tinctures have been found to be beneficial in treating hyperthyroidism, leading to a reduction in symptoms such as weight loss, tremors, and anxiety. The benefits of using Taraxacum officinale tinctures to treat hyperthyroidism include a natural and non-invasive approach to managing the condition, with minimal side effects and no risk of long-term dependency on pharmaceutical medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cynara scolymus",
+            "herb_mentions": 7,
+            "herb_confidence_score": 41,
+            "herb_total_score": 287,
+            "preparation_desc": "Cynara scolymus tinctures are a herbal preparation derived from the artichoke plant, used to treat hyperthyroidism due to its ability to regulate thyroid function and alleviate symptoms associated with this condition. The properties of Cynara scolymus tinctures that help to treat hyperthyroidism include its antioxidant and anti-inflammatory effects, which help to balance thyroid hormone production and reduce oxidative stress. The bioactive constituents of Cynara scolymus, including cynarin and silymarin, have been shown to inhibit the conversion of thyroxine (T4) to triiodothyronine (T3), thus reducing the overall thyroid hormone activity and alleviating symptoms of hyperthyroidism. The benefits of using Cynara scolymus tinctures to treat hyperthyroidism include reduced anxiety and tremors, improved sleep quality, and a decrease in the risk of cardiovascular complications associated with this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Scutellaria baicalensis",
+            "herb_mentions": 5,
+            "herb_confidence_score": 38,
+            "herb_total_score": 190,
+            "preparation_desc": "Scutellaria baicalensis tinctures have been traditionally used to treat hyperthyroidism due to their adaptogenic and anti-inflammatory properties, which help to regulate thyroid function and alleviate symptoms such as anxiety, tremors, and weight loss. The bioactive constituents of Scutellaria baicalensis, including baicalein and baicalin, have been shown to inhibit the activity of thyroid-stimulating hormone (TSH) and reduce the production of thyroid hormones, thereby helping to treat hyperthyroidism. The benefits of using Scutellaria baicalensis tinctures to treat hyperthyroidism include improved thyroid function, reduced anxiety and stress, and enhanced overall well-being. Regular use of Scutellaria baicalensis tinctures may also help to prevent the progression of hyperthyroidism to more severe conditions, such as thyrotoxic crisis.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 6,
+            "herb_confidence_score": 38,
+            "herb_total_score": 228,
+            "preparation_desc": "Echinacea purpurea tinctures have been traditionally used to alleviate symptoms associated with hyperthyroidism due to their anti-inflammatory and immunomodulatory properties. These properties help to regulate thyroid function, reduce inflammation, and promote a healthy immune response, thereby alleviating symptoms such as anxiety, tremors, and weight loss. The bioactive constituents of Echinacea purpurea, including alkylamides, caffeic acid derivatives, and polysaccharides, have been shown to exhibit thyroid-regulating and antioxidant activities, which contribute to its therapeutic effects. Regular use of Echinacea purpurea tinctures may help to reduce symptoms of hyperthyroidism, promote overall well-being, and support the body's natural ability to regulate thyroid function.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 5,
+            "herb_confidence_score": 34,
+            "herb_total_score": 170,
+            "preparation_desc": "Urtica dioica tinctures, made from the leaves of the stinging nettle plant, have been used to help alleviate symptoms of hyperthyroidism due to their anti-inflammatory and antioxidant properties. These tinctures can help to reduce thyroid hormone production, alleviate anxiety and tremors, and promote relaxation, which are all common symptoms associated with hyperthyroidism. The bioactive constituents of Urtica dioica, such as flavonoids, phenolic acids, and saponins, are believed to contribute to its therapeutic effects in treating hyperthyroidism. The benefits of using Urtica dioica tinctures to treat hyperthyroidism include reduced thyroid hormone levels, improved sleep quality, and a decrease in symptoms such as anxiety and tremors.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 5,
+            "herb_confidence_score": 32,
+            "herb_total_score": 160,
+            "preparation_desc": "Passiflora incarnata tinctures have been traditionally used to treat hyperthyroidism, a condition characterized by an overactive thyroid gland. The properties of this herbal preparation, including its sedative and anxiolytic effects, help to alleviate symptoms associated with hyperthyroidism, such as anxiety and insomnia. The bioactive constituents of Passiflora incarnata, including flavonoids and alkaloids, are believed to contribute to its therapeutic effects by modulating the activity of neurotransmitters and influencing the hypothalamic-pituitary-thyroid axis. By reducing stress and anxiety, Passiflora incarnata tinctures can help to alleviate the symptoms of hyperthyroidism, promoting a sense of calm and well-being while supporting the body's natural healing processes.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Food science & nutrition\", tinctures for hyperthyroidism made from the seeds of Descurainia sophia may be useful as adjunctive therapy due to their ability to suppress plasma levels of FT3 and FT4."
+}

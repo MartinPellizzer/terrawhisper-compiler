@@ -1,0 +1,179 @@
+{
+    "url": "herbs/salvia-officinalis",
+    "herb_slug": "salvia-officinalis",
+    "herb_name_scientific": "salvia officinalis",
+    "lastmod": "2025-5-31",
+    "title": "Salvia Officinalis Uses, Benefits, And Remedies",
+    "intro": "Salvia officinalis, commonly known as sage, is a perennial herb native to the Mediterranean region, valued for its aromatic leaves and medicinal properties. It is widely used in traditional medicine for its anti-inflammatory, antimicrobial, and cognitive-enhancing effects. The herb contains bioactive constituents such as flavonoids, phenolic acids, and volatile oils, which contribute to its therapeutic actions. Sage can be prepared as an infusion, tincture, or essential oil, making it versatile for both culinary and herbal applications.",
+    "benefits": "[SENTENCE NUM] Salvia officinalis reduces anxiety by interacting with the body's neurotransmitter systems, particularly by increasing levels of gamma-aminobutyric acid (GABA), which has a calming effect on the nervous system. This herb has been traditionally used for its calming properties, and modern research supports its efficacy in alleviating symptoms of stress and anxiety. In addition to reducing anxiety, Salvia officinalis may improve sleep quality by promoting relaxation and reducing restlessness, making it a natural remedy for insomnia. The herb also possesses anti-inflammatory properties, which can help in managing chronic inflammation associated with conditions like arthritis or digestive disorders. Furthermore, studies suggest that Salvia officinalis may enhance cognitive function by protecting brain cells from oxidative stress and supporting memory and concentration. These combined health benefits make Salvia officinalis a valuable herbal supplement for overall well-being.",
+    "constituents": "[WRONG START] Salvia officinalis, commonly known as sage, contains several bioactive compounds, including rosmarinic acid, which is a key phenolic compound known for its potent antioxidant and anti-inflammatory properties. Rosmarinic acid has been shown to inhibit the production of pro-inflammatory cytokines and protect cells from oxidative stress, making it beneficial in the treatment of conditions such as arthritis and neurodegenerative diseases. Alongside rosmarinic acid, salvianolic acid A is another important constituent of sage, exhibiting similar antioxidant effects and contributing to the herb's therapeutic potential in cardiovascular and neurological health. Ursolic acid, a triterpene found in sage, has demonstrated anti-cancer, anti-inflammatory, and antimicrobial activities, supporting its use in various traditional and modern medicinal applications. Additionally, the presence of various phenolic acids in Salvia officinalis contributes to its overall health benefits, including antimicrobial, antiviral, and hepatoprotective effects, making it a valuable herb in both traditional and contemporary medicine.",
+    "parts": "Salvia officinalis leaf is a key medicinal part of the plant, widely used in traditional medicine for its therapeutic properties. The leaves contain a variety of bioactive compounds, including flavonoids, phenolic acids, and terpenes, which contribute to its anti-inflammatory, antioxidant, and antimicrobial effects. In herbal remedies, salvia officinalis leaf is often used to soothe digestive issues, such as indigestion and irritable bowel syndrome, due to its carminative and antispasmodic properties. Additionally, the leaves are known to support respiratory health by reducing inflammation in the airways and alleviating symptoms of coughs and bronchitis. The essential oils extracted from the leaves also have a calming effect, making them useful in aromatherapy for stress relief and promoting relaxation. These properties make salvia officinalis leaf a versatile and valuable component in both traditional and modern herbal medicine.",
+    "preparations": "Salvia officinalis teas are one of the most popular and accessible ways to consume this versatile herb, often prepared by steeping dried leaves in hot water to extract its beneficial compounds such as rosmarinic acid and flavonoids. These teas are commonly used to soothe digestive discomfort, reduce inflammation, and promote mental clarity due to their calming and antispasmodic properties. In addition to teas, Salvia officinalis can be made into decoctions by boiling the leaves for a longer period, which enhances the extraction of its more robust compounds. Tinctures, another common preparation, involve soaking the herb in alcohol to create a concentrated liquid that can be taken orally for its potent therapeutic effects. This herb also finds its way into various other forms such as lozenges, creams, and oils, each offering unique benefits for ailments ranging from sore throats to skin conditions, showcasing its wide-ranging applications in traditional and modern herbal medicine.",
+    "side_effects": "Salvia officinalis causes digestive upset because it can irritate the gastrointestinal tract and increase stomach acid production. Salvia officinalis causes dry mouth because it has mild diuretic properties and can reduce saliva production. Salvia officinalis leads to nausea due to its potential to stimulate the release of digestive enzymes and affect the stomach's motility. Salvia officinalis induces drowsiness because it contains compounds that may interact with the central nervous system, promoting relaxation and sedation.",
+    "benefits_num": 7,
+    "benefits_list": [
+        {
+            "name": "reduces anxiety",
+            "description": "Salvia officinalis contains compounds that may help reduce anxiety by promoting relaxation and calming the nervous system."
+        },
+        {
+            "name": "improves sleep",
+            "description": "The herb is believed to enhance sleep quality by reducing stress and promoting a sense of calm, aiding in better rest."
+        },
+        {
+            "name": "reduces inflammation",
+            "description": "Salvia officinalis contains anti-inflammatory compounds that may help reduce inflammation in the body, supporting overall health."
+        },
+        {
+            "name": "improves cognitive",
+            "description": "It may support cognitive function by improving memory and mental clarity due to its antioxidant and neuroprotective properties."
+        },
+        {
+            "name": "supports immune system",
+            "description": "The herb is rich in antioxidants and phytochemicals that may help strengthen the immune system and protect against infections."
+        },
+        {
+            "name": "boosts digestion",
+            "description": "Salvia officinalis can stimulate digestive enzymes and ease digestion, helping to relieve bloating and indigestion."
+        },
+        {
+            "name": "lowers blood pressure",
+            "description": "Some studies suggest that Salvia officinalis may help lower blood pressure by promoting relaxation of blood vessels and improving circulation."
+        }
+    ],
+    "constituents_num": 7,
+    "constituents_list": [
+        {
+            "name": "rosmarinic acid",
+            "description": "A polyphenolic compound known for its antioxidant, anti-inflammatory, and antimicrobial properties."
+        },
+        {
+            "name": "salvianolic acid a",
+            "description": "A hydroxybenzoic acid derivative with antioxidant and anti-inflammatory effects."
+        },
+        {
+            "name": "ursolic acid",
+            "description": "A triterpenoid that exhibits anti-inflammatory, antimicrobial, and antitumor properties."
+        },
+        {
+            "name": "phenolic acids",
+            "description": "A group of organic compounds with antioxidant properties that help protect cells from damage."
+        },
+        {
+            "name": "triterpenoid saponins",
+            "description": "Compounds that have anti-inflammatory, antiviral, and immunomodulatory effects."
+        },
+        {
+            "name": "quercetin",
+            "description": "A flavonoid with strong antioxidant and anti-inflammatory properties, and potential anticancer effects."
+        },
+        {
+            "name": "luteolin",
+            "description": "A flavonoid with antioxidant, anti-inflammatory, and neuroprotective properties."
+        }
+    ],
+    "parts_num": 2,
+    "parts_list": "",
+    "side_effects_num": 9,
+    "side_effects_list": [
+        {
+            "name": "causes digestive upset",
+            "description": "Salvia officinalis may irritate the digestive system, leading to discomfort, bloating, or cramping in some individuals."
+        },
+        {
+            "name": "causes dry mouth",
+            "description": "The herb can reduce saliva production, resulting in a dry, uncomfortable feeling in the mouth."
+        },
+        {
+            "name": "leads to nausea",
+            "description": "Salvia officinalis may stimulate the stomach, causing feelings of nausea in sensitive individuals."
+        },
+        {
+            "name": "induces drowsiness",
+            "description": "The herb contains compounds that may affect the central nervous system, leading to drowsiness or sedation."
+        },
+        {
+            "name": "causes throat irritation",
+            "description": "Consuming Salvia officinalis in large amounts may irritate the throat, causing a sore or scratchy sensation."
+        },
+        {
+            "name": "causes stomach pain",
+            "description": "The herb may cause inflammation or irritation in the stomach lining, leading to pain or discomfort."
+        },
+        {
+            "name": "triggers heartburn",
+            "description": "Salvia officinalis may relax the lower esophageal sphincter, allowing stomach acid to flow back into the esophagus, causing heartburn."
+        },
+        {
+            "name": "leads to headaches",
+            "description": "The herb's compounds may cause headaches in some people, possibly due to its effect on blood vessels or neurotransmitters."
+        },
+        {
+            "name": "induces dizziness",
+            "description": "Salvia officinalis may affect blood pressure or circulation, leading to feelings of lightheadedness or dizziness in some individuals."
+        }
+    ],
+    "preparations_num": 15,
+    "preparations_list": [
+        {
+            "name": "teas",
+            "description": "Salvia officinalis teas are used to soothe the digestive system, relieve stress, and promote mental clarity due to their calming and antioxidant properties."
+        },
+        {
+            "name": "decoctions",
+            "description": "Salvia officinalis decoctions are used to support digestion, reduce inflammation, and enhance immune function due to their concentrated herbal properties."
+        },
+        {
+            "name": "tinctures",
+            "description": "Salvia officinalis tinctures are used to support respiratory health, reduce anxiety, and improve cognitive function due to their potent and concentrated herbal extracts."
+        },
+        {
+            "name": "lozenges",
+            "description": "Salvia officinalis lozenges are used to soothe sore throats, reduce coughing, and promote oral health due to their antimicrobial and anti-inflammatory properties."
+        },
+        {
+            "name": "creams",
+            "description": "Salvia officinalis creams are used to alleviate skin irritation, reduce inflammation, and promote skin healing due to their soothing and regenerative properties."
+        },
+        {
+            "name": "syrups",
+            "description": "Salvia officinalis syrups are used to relieve coughs, ease sore throats, and support respiratory health due to their expectorant and soothing effects."
+        },
+        {
+            "name": "mucillages",
+            "description": "Salvia officinalis mucillages are used to soothe the digestive tract, promote hydration, and aid in the healing of ulcers and inflammation."
+        },
+        {
+            "name": "capsules",
+            "description": "Salvia officinalis capsules are used to support digestive health, reduce stress, and enhance mental clarity due to their standardized herbal extracts."
+        },
+        {
+            "name": "oinments",
+            "description": "Salvia officinalis ointments are used to treat skin conditions, reduce inflammation, and promote wound healing due to their emollient and antiseptic properties."
+        },
+        {
+            "name": "gargles",
+            "description": "Salvia officinalis gargles are used to relieve sore throats, reduce bacteria, and promote oral hygiene due to their antimicrobial and anti-inflammatory effects."
+        },
+        {
+            "name": "oils",
+            "description": "Salvia officinalis oils are used to relieve muscle pain, improve circulation, and support skin health due to their soothing and anti-inflammatory properties."
+        },
+        {
+            "name": "essential olis",
+            "description": "Salvia officinalis essential oils are used to reduce stress, improve mood, and support respiratory health due to their aromatic and calming properties."
+        },
+        {
+            "name": "linctuses",
+            "description": "Salvia officinalis linctuses are used to relieve coughs, soothe the throat, and ease respiratory discomfort due to their expectorant and anti-inflammatory effects."
+        },
+        {
+            "name": "liniments",
+            "description": "Salvia officinalis liniments are used to relieve muscle and joint pain, reduce inflammation, and promote circulation due to their analgesic and anti-inflammatory properties."
+        },
+        {
+            "name": "poultices",
+            "description": "Salvia officinalis poultices are used to reduce inflammation, soothe skin irritations, and promote healing of wounds and infections due to their cooling and antimicrobial properties."
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "url": "herbs/alkanna-tinctoria",
+    "herb_slug": "alkanna-tinctoria",
+    "herb_name_scientific": "alkanna tinctoria",
+    "lastmod": "2025-5-31",
+    "benefits_num": 7,
+    "benefits_title": "7 Best Health Benefits Of Alkanna Tinctoria",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 10,
+            "confidence_score": 87,
+            "total_score": 870
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 9
+}

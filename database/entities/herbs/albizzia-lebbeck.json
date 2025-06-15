@@ -1,0 +1,24 @@
+{
+    "url": "herbs/albizzia-lebbeck",
+    "herb_slug": "albizzia-lebbeck",
+    "herb_name_scientific": "albizzia lebbeck",
+    "lastmod": "2025-5-31",
+    "benefits_num": 13,
+    "benefits_title": "13 Best Health Benefits Of Albizzia Lebbeck",
+    "medicine_or_poison": [
+        {
+            "answer": "medicine",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        },
+        {
+            "answer": "poison",
+            "mentions": 5,
+            "confidence_score": 42,
+            "total_score": 210
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 13
+}

@@ -1,0 +1,76 @@
+body_part_id\body_part_slug\body_part_name
+0\skeleton\skeleton
+1\joints\joints
+2\ligaments\ligaments
+3\muscles\muscles
+4\tendons\tendons
+5\mouth\mouth
+6\salivary glands\salivary glands
+7\pharynx\pharynx
+8\esophagus\esophagus
+9\stomach\stomach
+10\small intestine\small intestine
+11\large intestine\large intestine
+12\rectum\rectum
+13\liver\liver
+14\gallbladder\gallbladder
+15\mesentery\mesentery
+16\pancreas\pancreas
+17\anal canal\anal canal
+18\nasal cavity\nasal cavity
+19\pharynx\pharynx
+20\larynx\larynx
+21\trachea\trachea
+22\bronchi\bronchi
+23\bronchioles\bronchioles
+24\lungs\lungs
+25\breathing muscles\breathing muscles
+26\kidneys\kidneys
+27\ureter\ureter
+28\bladder\bladder
+29\urethra\urethra
+30\ovaries\ovaries
+31\fallopian tubes\fallopian tubes
+32\uterus\uterus
+33\cervix\cervix
+34\placenta\placenta
+35\vulva\vulva
+36\vagina\vagina
+37\testicles\testicles
+38\epididymides\epididymides
+39\vasa deferentia\vasa deferentia
+40\seminal vesicles\seminal vesicles
+41\prostate\prostate
+42\bulbourethral glands\bulbourethral glands
+43\penis\penis
+44\scrotum\scrotum
+45\pituitary gland\pituitary gland
+46\pineal gland\pineal gland
+47\thyroid gland\thyroid gland
+48\parathyroid glands\parathyroid glands
+49\adrenal glands\adrenal glands
+50\pancreas\pancreas
+51\heart\heart
+52\arteries\arteries
+53\veins\veins
+54\capillaries\capillaries
+55\lymphatic vessel\lymphatic vessel
+56\lymph node\lymph node
+57\bone marrow\bone marrow
+58\thymus\thymus
+59\spleen\spleen
+60\tonsils\tonsils
+61\interstitium\interstitium
+62\brain\brain
+63\spinal cord\spinal cord
+64\choroid plexus\choroid plexus
+65\Nerves\Nerves
+66\eye\eye
+67\ear\ear
+68\olfactory epithelium\olfactory epithelium
+69\tongue\tongue
+70\mammary glands\mammary glands
+71\skin\skin
+72\subcutaneous tissue\subcutaneous tissue
+73\hair\hair
+74\diaphragm\diaphragm

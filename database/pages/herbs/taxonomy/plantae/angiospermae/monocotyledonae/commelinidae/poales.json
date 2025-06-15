@@ -1,0 +1,51 @@
+{
+    "title": "poales",
+    "lastmod": "2025-2-22",
+    "intro": "The Poales rank is an order of flowering plants that includes various families of grasses, sedges, and lilies. This order is characterized by its unique flower structure, often with three petals and a distinctive arrangement of stamens and carpels. The Poales order includes families such as Orchidaceae, which comprises orchids, Euphorbiaceae, which includes spurge and poinsettia, and Cyperaceae, which includes sedges and rushes. These families are found in diverse habitats worldwide, from tropical rainforests to arctic tundras.",
+    "families": [
+        {
+            "family_slug": "cyperaceae",
+            "family_desc": "Cyperaceae, commonly known as the sedge family, comprises a diverse group of monocotyledonous flowering plants."
+        },
+        {
+            "family_slug": "juncaceae",
+            "family_desc": "Juncaceae is a family of flowering plants commonly known as rush families, consisting of around 500 species of herbaceous plants with narrow, grass-like leaves and small, inconspicuous flowers."
+        },
+        {
+            "family_slug": "poaceae",
+            "family_desc": "Poaceae, commonly known as grasses, is a large and diverse family of monocotyledonous flowering plants that includes various types of grasses."
+        },
+        {
+            "family_slug": "bromeliaceae",
+            "family_desc": "Bromeliaceae is a family of flowering plants commonly known as pineapple or air plant family."
+        },
+        {
+            "family_slug": "clusiaceae",
+            "family_desc": "Clusiaceae is a family of flowering plants commonly known as the stewartries or Clusia family, which includes approximately 40-50 genera and 1,000 species."
+        },
+        {
+            "family_slug": "cardiopteridaceae",
+            "family_desc": "Cardiopteridaceae is a family of flowering plants in the order Aquifoliales, commonly known as the staff vine family."
+        },
+        {
+            "family_slug": "flagellariaceae",
+            "family_desc": "Flagellariaceae is a family of flowering plants in the order Poales, commonly known as the flagellum or wire-grass family."
+        },
+        {
+            "family_slug": "thurniaceae",
+            "family_desc": "Thurniaceae is a small family of monocotyledonous plants, commonly known as the Thurnia family or spike-rush family."
+        },
+        {
+            "family_slug": "rapateaceae",
+            "family_desc": "Rapateaceae is a family of flowering plants, commonly known as the rice grass family, native to the tropical regions of Central and South America."
+        },
+        {
+            "family_slug": "misodendraceae",
+            "family_desc": "Misodendraceae is a small family of flowering plants that are native to the temperate regions of South America."
+        },
+        {
+            "family_slug": "guamatelaceae",
+            "family_desc": "Guamatelaceae is a family of flowering plants in the order Asterales, commonly found in the tropical regions of Central and South America."
+        }
+    ]
+}

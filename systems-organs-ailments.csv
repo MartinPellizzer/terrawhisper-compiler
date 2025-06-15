@@ -1,0 +1,303 @@
+system_slug\organ_slug\ailment_slug\ailment_name
+integumentary\scalp\dry-hair\dry hair
+integumentary\scalp\frizzy-hair\frizzy hair
+integumentary\scalp\grey-hair\grey hair
+integumentary\scalp\hair-fall\hair fall
+integumentary\scalp\oily-hair\oily hair
+integumentary\scalp\dandruff\dandruff
+integumentary\scalp\baldness\baldness
+integumentary\scalp\dry-scalp\dry scalp
+integumentary\scalp\itchy-scalp\itchy scalp
+integumentary\scalp\lice\lice
+integumentary\skin\oily-skin\oily skin
+integumentary\skin\oily-face\oily face
+integumentary\skin\dry-skin\dry skin
+integumentary\skin\glowing-skin\glowing skin
+integumentary\skin\open-pores\open pores
+integumentary\skin\ingrown-hair\ingrown hair
+integumentary\skin\acne\acne
+integumentary\skin\pimples\pimples
+integumentary\skin\chickenpox\chickenpox
+integumentary\skin\boils\boils
+integumentary\skin\sunburn\sunburn
+integumentary\skin\burns\burns
+integumentary\skin\hyperpigmentation\hyperpigmentation
+integumentary\skin\bruises\bruises
+integumentary\skin\open-wounds\open wounds
+integumentary\skin\insect-bites\insect bites
+integumentary\skin\bee-sting\bee sting
+integumentary\skin\jellyfish-sting\jellyfish sting
+integumentary\skin\itchy-skin\itchy skin
+integumentary\skin\rashes\rashes
+integumentary\skin\eczema\eczema
+integumentary\skin\psoriasis\psoriasis
+integumentary\skin\dermatitis\dermatitis
+integumentary\skin\fungal-skin-infection\fungal skin infection
+integumentary\skin\ringworm\ringworm
+integumentary\skin\shingles\shingles
+integumentary\eye\dark-circles\dark circles
+integumentary\eye\eye-bags\eye bags
+integumentary\eye\puffy-eyes\puffy eyes
+integumentary\eye\dry-eyes\dry eyes
+integumentary\eye\itchy-eyes\itchy eyes
+integumentary\eye\red-eyes\red eyes
+integumentary\eye\eye-infection\eye infection
+integumentary\eye\eye-irritation\eye irritation
+integumentary\eye\eye-swelling\eye swelling
+integumentary\eye\stye\stye
+integumentary\ear\itchy-ears\itchy ears
+integumentary\nose\nose-bleeding\nose bleeding
+integumentary\mouth\chapped-lips\chapped lips
+integumentary\mouth\dry-lips\dry lips
+integumentary\mouth\dark-lips\dark lips
+integumentary\mouth\lip-fever-blister\fever blister on lip
+integumentary\mouth\mouth-reddened-corners\reddened corners in mouth
+integumentary\mouth\bad-breath\bad breath
+integumentary\mouth\inflamed-mouth\inflamed mouth
+integumentary\mouth\month-white-patches\white patches in month
+integumentary\mouth\mouth-bleeding-spots\bleeding spots in mouth
+integumentary\mouth\mouth-ulcers\mouth ulcers
+integumentary\mouth\oral-thrush\oral thrush
+integumentary\mouth\cold-sore\cold sore
+integumentary\mouth\white-tongue\white tongue
+integumentary\mouth\swollen-gums\swollen gums
+integumentary\mouth\bleeding-gums\bleeding gums
+integumentary\mouth\gum-pain\gum pain
+integumentary\mouth\gum-swelling\gum swelling
+integumentary\mouth\periodontal-disease\periodontal disease
+integumentary\mouth\dental-plaque\dental plaque
+integumentary\mouth\tooth-decay\tooth decay
+integumentary\mouth\toothache\toothache
+integumentary\armpit\body-odor\body odor
+integumentary\hand\excessive-sweating\excessive sweating
+integumentary\nail\nail-fungus\nail fungus
+integumentary\groin\jock-itch\jock itch
+integumentary\foot\burning-feet\burning feet
+integumentary\foot\athlete-foot\athlete's foot
+integumentary\foot\foot-odor\foot odor
+integumentary\heel\cracked-heels\cracked heels
+integumentary\toe\ingrown-toenail\ingrown toenail
+
+nervous\brain\headache\headaches
+nervous\brain\one-side-headache\one side headache
+nervous\brain\migraine\migraine
+nervous\brain\sleep-deprivation\sleep deprivation
+nervous\brain\jet-lag\jet lag
+nervous\brain\anxiety\anxiety
+nervous\brain\stress\stress
+nervous\brain\insomnia\insomnia
+nervous\brain\depression\depression
+nervous\brain\brain-fog\brain fog
+nervous\brain\fatigue\fatigue
+nervous\brain\hangover\hangover
+nervous\brain\grief\grief
+nervous\brain\loss-female-libido\loss of female libido
+nervous\brain\alzheimer-disease\alzheimer’s disease
+nervous\brain\speech-difficulty\speech difficulty
+nervous\brain\nausea\nausea
+nervous\brain\motion-sickness\motion sickness
+nervous\brain\postoperative-recovery\postoperative recovery
+nervous\eye\eye-twitching\eye twitching
+nervous\eye\eye-pain\eye pain
+nervous\eye\eye-strain\eye strain
+nervous\eye\sore-eyes\sore eyes
+nervous\eye\eye-floaters\eye floaters
+nervous\ear\dizziness\dizziness
+nervous\ear\tinnitus\tinnitus
+nervous\ear\earache\earache
+nervous\ear\ear-infection\ear infection
+nervous\nose\sinus-headache\sinus headache
+nervous\mouth\dry-mouth\dry mouth
+nervous\mouth\bad-taste\bad taste
+nervous\mouth\taste-changes\taste changes
+nervous\mouth\taste-loss\taste loss
+nervous\throat\lost-voice\lost voice
+nervous\throat\difficult-speaking\difficult speaking
+nervous\diaphragm\hiccups\hiccups
+nervous\back\nerve-pain\nerve pain
+nervous\hand\hands-numbness\numbness in hands
+nervous\leg\restless-leg-syndrome\restless leg syndrome
+nervous\nerve\neuritis\neuritis
+nervous\nerve\chills\chills
+
+digestive\mouth\mouth-sour-taste\sour taste in mouth
+digestive\mouth\mouth-bitter-taste\bitter taste in mouth
+digestive\mouth\cavities\cavities
+digestive\esophagus\throat-pain\throat pain
+digestive\esophagus\difficulty-swallowing\difficulty swallowing
+digestive\esophagus\painful-swallowing\painful swallowing
+digestive\esophagus\difficulty-eating\difficulty eating
+digestive\esophagus\heartburn\heartburn
+digestive\esophagus\acid-reflux\acid reflux
+digestive\esophagus\gerd\gerd
+digestive\stomach\overeating\overeating
+digestive\stomach\indigestion\indigestion
+digestive\stomach\morning-sickness\morning sickness
+digestive\stomach\vomiting\vomiting
+digestive\stomach\appetite-loss\loss of appetite
+digestive\stomach\stomach-discomfort\stomach discomfort
+digestive\stomach\stomach-growling\stomach growling
+digestive\stomach\mucus-stomach\mucus in stomach
+digestive\stomach\queasy-stomach\queasy stomach
+digestive\stomach\upset-stomach\upset stomach
+digestive\stomach\stomach-cramps\stomach cramps
+digestive\stomach\gas-stomach\gas in stomach
+digestive\stomach\bloating\bloating
+digestive\stomach\burping\burping
+digestive\stomach\upper-abdominal-pain\upper abdominal pain
+digestive\stomach\stomach-pain\stomach pain
+digestive\stomach\hyperacidity\hyperacidity
+digestive\stomach\gastritis\gastritis
+digestive\stomach\gastroparesis\gastroparesis
+digestive\stomach\peptic-ulcers\peptic ulcers
+digestive\stomach\hiatus-hernia\hiatus hernia
+digestive\liver\jaundice\jaundice
+digestive\liver\chronic-hepatitis\chronic hepatitis
+digestive\liver\viral-hepatitis\viral hepatitis
+digestive\liver\cirrhosis\cirrhosis
+digestive\gallbladder\gallstones\gallstones
+digestive\gallbladder\cholecystitis\cholecystitis
+digestive\intestine\abdominal-pain\abdominal pain
+digestive\intestine\inflammatory-bowel-disease\inflammatory bowel disease
+digestive\intestine\irritable-bowel-syndrome\irritable bowel syndrome
+digestive\intestine\constipation\constipation
+digestive\intestine\diarrhea\diarrhea
+digestive\intestine\flatulence\flatulence
+digestive\intestine\diverticulitis\diverticulitis
+digestive\intestine\gastroenteritis\gastroenteritis
+digestive\intestine\ulcerative-colitis\ulcerative colitis
+digestive\rectum\hemorrhoids\hemorrhoids
+
+cardiovascular\mouth\gum-infection\gum infection
+cardiovascular\heart\heart-pain\heart pain
+cardiovascular\heart\palpitation\palpitation
+cardiovascular\heart\angina\angina
+cardiovascular\heart\congestive-heart-failure\congestive heart failure
+cardiovascular\arteries\low-blood-pressure\low blood pressure
+cardiovascular\arteries\high-blood-pressure\high blood pressure
+cardiovascular\arteries\arteriosclerosis\arteriosclerosis
+cardiovascular\arteries\peripheral-arterial-occlusive-disease\peripheral arterial occlusive disease
+cardiovascular\veins\varicose-veins\varicose veins
+cardiovascular\veins\hypertension\hypertension
+
+respiratory\eyes\hay-fever\hay fever
+respiratory\ears\ear-blockage\ear blockage
+respiratory\ears\altitude-sickness\altitude sickness
+respiratory\nose\colds\colds
+respiratory\nose\blocked-nose\blocked nose
+respiratory\nose\nasal-congestion\nasal congestion
+respiratory\nose\runny-nose\runny nose
+respiratory\nose\dry-nose\dry nose
+respiratory\nose\sinusitis\sinusitis
+respiratory\nose\snoring\snoring
+respiratory\nose\fungal-infection\fungal infection
+respiratory\throat\cough\cough
+respiratory\throat\dry-cough\dry cough
+respiratory\throat\sore-throat\sore throat
+respiratory\throat\dry-throat\dry throat
+respiratory\throat\throat-congestion\throat congestion
+respiratory\throat\throat-redness\throat redness
+respiratory\throat\throat-irritation\throat irritation
+respiratory\throat\tickling-throat\tickling throat
+respiratory\throat\post-nasal-drip\post nasal drip
+respiratory\throat\mucus\mucus in throat
+respiratory\throat\laryngitis\laryngitis
+respiratory\throat\hoarse-voice\hoarse voice
+respiratory\throat\phlegm\phlegm
+respiratory\lungs\coughing-fits\coughing fits
+respiratory\lungs\wheezing\wheezing
+respiratory\lungs\breath-shortness\shortness of breath
+respiratory\lungs\chest-congestion\chest congestion
+respiratory\lungs\asthma\asthma
+respiratory\lungs\bronchitis\bronchitis
+respiratory\lungs\acute-bronchitis\acute bronchitis
+respiratory\lungs\chronic-bronchitis\chronic bronchitis
+respiratory\lungs\pertussis\pertussis
+respiratory\lungs\emphysema\emphysema
+
+immune\brain\fever\fever
+immune\brain\feverish-feeling\feverish feeling
+immune\eyes\pink-eye\pink eye
+immune\eyes\allergies\allergies
+immune\nose\flu\flu
+immune\mouth\inflamed-gums\inflamed gums
+immune\throat\strep-throat\strep throat
+immune\throat\tonsillitis\tonsillitis
+immune\liver\infection\infection
+immune\spleen\enlarged-spleen\enlarged spleen
+immune\joints\inflammation\inflammation
+
+musculoskeletal\jaw\difficulty-chewing\difficulty chewing
+musculoskeletal\jaw\jaw-pain\jaw pain
+musculoskeletal\jaw\jaw-lock\jaw lock
+musculoskeletal\jaw\jaw-clenching\jaw clenching
+musculoskeletal\neck\stiff-neck\stiff neck
+musculoskeletal\shoulder\frozen-shoulder\frozen shoulder
+musculoskeletal\spine\lower-back-pain\lower back pain
+musculoskeletal\spine\back-pain\back pain
+musculoskeletal\spine\neck-pain\neck pain
+musculoskeletal\spine\akylosing-spondylitis\ankylosing spondylitis
+musculoskeletal\joints\joint-pain\joint pain
+musculoskeletal\joints\joint-stiffness\joint stiffness
+musculoskeletal\joints\arthritis\arthritis
+musculoskeletal\joints\osteoarthritis\osteoarthritis
+musculoskeletal\joints\rheumatoid-arthritis\rheumatoid arthritis
+musculoskeletal\joints\gout\gout
+musculoskeletal\joints\bursitis\bursitis
+musculoskeletal\tendons\tendinitis\tendinitis
+musculoskeletal\fingers\jammed-finger\jammed finger
+musculoskeletal\legs\leg-pain\leg pain
+musculoskeletal\legs\knee-pain\knee pain
+musculoskeletal\legs\knee-swelling\knee swelling
+musculoskeletal\feet\foot-pain\foot pain
+musculoskeletal\feet\plantar-fasciitis\plantar fasciitis
+musculoskeletal\feet\bunion\bunion
+musculoskeletal\bones\bone-health\bone health
+musculoskeletal\bones\osteoporosis\osteoporosis
+musculoskeletal\muscles\cramps\cramps
+musculoskeletal\muscles\muscle-pain\muscle pain
+musculoskeletal\muscles\leg-cramps\leg cramps
+
+urinary\body\dehydration\dehydration
+urinary\body\fluid-retention\fluid retention
+urinary\kidneys\urinary-calculus\urinary calculus
+urinary\kidneys\hematuria\hematuria
+urinary\bladder\bladder-pain\bladder pain
+urinary\bladder\overactive-bladder\overactive bladder
+urinary\bladder\bladder-infection\bladder infection
+urinary\bladder\dysuria\dysuria
+urinary\bladder\cystitis\cystitis
+urinary\prostate\prostate-inflammation\prostate inflammation
+urinary\prostate\prostatitis\prostatitis
+urinary\prostate\benign-prostatic-hypertrophy\benign prostatic hypertrophy
+
+endocrine\brain\hot-flashes\hot flashes
+endocrine\thyroid\hypothyroidism\hypothyroidism
+endocrine\thyroid\hyperthyroidism\hyperthyroidism
+endocrine\adrenal glands\adrenal-fatigue\adrenal fatigue
+endocrine\ovaries\hormonal-imbalance\hormonal imbalance
+endocrine\arteries\high-cholesterol\high cholesterol
+endocrine\skin\aging\aging
+
+lymphatic\neck\lymph-node-swelling\lymph node swelling
+lymphatic\limbs\edema\edema
+lymphatic\feet\swollen-feet\swollen feet
+
+reproductive\brain\premenstrual-syndrome\premenstrual syndrome
+reproductive\breasts\breastfeeding-breast-pain\breastfeeding breast pain
+reproductive\breasts\breastfeeding-nipple-pain\nipple pain during breastfeeding
+reproductive\breasts\fibrocystic-breast-disease\fibrocystic breast disease
+reproductive\pelvis\endometriosis-pain\endometriosis pain
+reproductive\vagina\vaginitis\vaginitis
+reproductive\uterus\menstrual-cramps\menstrual cramps
+reproductive\uterus\periods-over-bleeding\over bleeding during periods
+reproductive\uterus\period-cramps\period cramps
+reproductive\uterus\uterine-fibroids\uterine fibroids
+reproductive\uterus\endometriosis\endometriosis
+reproductive\ovaries\ovulation-pain\ovulation pain
+reproductive\ovaries\amenorrhea\amenorrhea
+reproductive\ovaries\menopause\menopause
+reproductive\penis\erectile-disfunction\erectile dysfunction
+reproductive\penis\premature-ejaculation\premature ejaculation
+reproductive\testes\low-sperm-count\low sperm count
+

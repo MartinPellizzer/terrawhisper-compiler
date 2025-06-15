@@ -1,0 +1,183 @@
+{
+    "url": "ailments/cramps/tinctures",
+    "ailment_slug": "cramps",
+    "ailment_name": "cramps",
+    "preparation_slug": "tinctures",
+    "preparation_name": "tinctures",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Tinctures For Cramps",
+    "intro": "Herbal tinctures for cramps are concentrated liquid extracts made from plants, often used to alleviate menstrual cramps, muscle spasms, and other types of cramping. The benefits of using herbal tinctures to treat cramps include natural pain relief, reduced inflammation, and improved overall well-being. Examples of herbal tinctures used to treat cramps include Willow Bark (containing salicin, a natural pain reliever), Ginger (known for its anti-inflammatory properties), and Cramp Bark (specifically used to ease menstrual cramps). Other herbal tinctures such as Red Clover, Peppermint, and Chamomile are also effective in treating cramps due to their ability to relax muscles, reduce stress, and promote a sense of calm.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 18,
+            "herb_confidence_score": 151,
+            "herb_total_score": 2718,
+            "preparation_desc": "Valeriana officinalis tinctures have been traditionally used to treat menstrual cramps due to their analgesic and anti-inflammatory properties, which help to alleviate pain and discomfort. The herbal preparation's sedative effects also contribute to its ability to calm the uterus and reduce cramping. Valeriana officinalis tinctures contain bioactive constituents such as valerenic acid, isovaleric acid, and valepotriates, which are responsible for its therapeutic effects. The benefits of using Valeriana officinalis tinctures to treat menstrual cramps include natural relief from pain, reduced risk of side effects, and a non-habit-forming solution for managing discomfort.",
+            "preparation_study": "According to \"American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists\", Valeriana officinalis tinctures for cramps are considered a potentially safe herbal therapy.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Vitex agnus-castus",
+            "herb_mentions": 17,
+            "herb_confidence_score": 134,
+            "herb_total_score": 2278,
+            "preparation_desc": "Vitex agnus-castus tinctures have been traditionally used to treat menstrual cramps, particularly those associated with premenstrual syndrome (PMS) and dysmenorrhea. The anti-inflammatory and antispasmodic properties of this herbal preparation help to soothe and relax the uterine muscles, reducing the severity of cramps. The bioactive constituents, including flavonoids, phenolic acids, and iridoid glycosides, particularly aucubin and agnuside, contribute to its therapeutic effects by modulating prostaglandin levels and improving hormonal balance. Regular use of Vitex agnus-castus tinctures has been associated with reduced frequency and severity of menstrual cramps, improved menstrual regularity, and enhanced overall well-being.",
+            "preparation_study": "According to the \"Archives of gynecology and obstetrics\", Vitex agnus-castus tinctures for cramps were found to be effective in reducing PMS-related symptoms, with a significant score reduction of 42.5% in the Moos' menstrual distress questionnaire (MMDQ) as the main effect parameter.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 17,
+            "herb_confidence_score": 130,
+            "herb_total_score": 2210,
+            "preparation_desc": "Zingiber officinale tinctures have been used traditionally to treat menstrual cramps, which are characterized by severe abdominal pain and discomfort. The anti-inflammatory properties of Zingiber officinale tinctures help to reduce prostaglandins, hormone-like substances that cause the uterine muscles to contract, thereby alleviating the cramping sensation. The bioactive constituents, including gingerols and shogaols, possess analgesic and anti-inflammatory properties that contribute to their therapeutic effects. By reducing inflammation and relaxing the uterine muscles, Zingiber officinale tinctures offer a natural and effective remedy for menstrual cramps, providing relief from pain and discomfort.",
+            "preparation_study": "According to \"Arthritis and rheumatism\", Zingiber officinale tinctures for cramps have shown a statistically significant effect on reducing symptoms of osteoarthritis of the knee, with a moderate effect and a good safety profile, though gastrointestinal adverse events were more common in the ginger extract group.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 18,
+            "herb_confidence_score": 128,
+            "herb_total_score": 2304,
+            "preparation_desc": "Ginkgo biloba tinctures have been traditionally used to treat menstrual cramps due to their anti-inflammatory and antispasmodic properties, which help to relax the uterine muscles and reduce pain. The flavonoids and terpenoids present in Ginkgo biloba, such as quercetin and bilobalide, have been shown to inhibit the production of prostaglandins, which cause cramping and discomfort. By reducing inflammation and modulating the body's response to hormonal fluctuations, Ginkgo biloba tinctures can provide relief from menstrual cramps and improve overall menstrual health. The benefits of using Ginkgo biloba tinctures to treat menstrual cramps include natural pain relief, reduced inflammation, and improved menstrual regularity.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Paeonia lactiflora",
+            "herb_mentions": 16,
+            "herb_confidence_score": 124,
+            "herb_total_score": 1984,
+            "preparation_desc": "Paeonia lactiflora tinctures have been traditionally used to treat menstrual cramps due to their analgesic, anti-inflammatory, and antispasmodic properties. The bioactive constituents, including peonidin, paeonol, and benzylisoquinoline alkaloids, work together to relax uterine muscles, reduce prostaglandin production, and mitigate pain, thereby providing relief from cramps. The benefits of using Paeonia lactiflora tinctures include reduced severity and frequency of menstrual cramps, improved sleep quality, and reduced reliance on pharmaceutical pain medications. By harnessing the natural properties of Paeonia lactiflora, individuals can effectively manage menstrual cramps and maintain their overall well-being.",
+            "preparation_study": "According to \"Journal of ethnopharmacology\", Paeonia lactiflora tinctures have been traditionally used for the treatment of dysmenorrhea, which is a condition characterized by painful menstrual cramps.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 15,
+            "herb_confidence_score": 107,
+            "herb_total_score": 1605,
+            "preparation_desc": "Glycyrrhiza glabra tinctures have been traditionally used to treat cramp-related ailments due to their anti-inflammatory, antispasmodic, and antacid properties. The bioactive constituents, including glycyrrhizin and flavonoids, help to relax muscle spasms and reduce pain by inhibiting the release of acetylcholine, a neurotransmitter involved in muscle contraction. By soothing the muscles and reducing inflammation, Glycyrrhiza glabra tinctures provide relief from cramps, making it a beneficial herbal preparation for individuals experiencing this condition. The benefits of using Glycyrrhiza glabra tinctures to treat cramps include reduced muscle spasms, decreased pain, and improved overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Angelica archangelica",
+            "herb_mentions": 13,
+            "herb_confidence_score": 106,
+            "herb_total_score": 1378,
+            "preparation_desc": "Angelica archangelica tinctures have been traditionally used to treat menstrual cramps due to their analgesic and anti-inflammatory properties, which help to reduce pain and discomfort associated with this ailment. The herbal preparation is believed to work by inhibiting the production of prostaglandins, bioactive lipids that cause muscle contractions and pain, thus providing relief from cramps. The bioactive constituents of Angelica archangelica, including ferulic acid and ligustilide, are thought to be responsible for its therapeutic effects, which include reducing inflammation and modulating the body's pain response. By using Angelica archangelica tinctures, individuals can benefit from natural and effective relief from menstrual cramps, reducing their reliance on pharmaceutical medications and promoting overall well-being.",
+            "preparation_study": "According to \"Journal of alternative and complementary medicine (New York, N.Y)\", Angelica archangelica tinctures, in the form of Duhuo (Radix Angelicae Pubescentis), were found to significantly attenuate CFA-induced hyperalgesia and inflammation, suggesting a potential use in treating cramps.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cimicifuga racemosa",
+            "herb_mentions": 13,
+            "herb_confidence_score": 105,
+            "herb_total_score": 1365,
+            "preparation_desc": "Cimicifuga racemosa tinctures have been traditionally used to treat menstrual cramps, and their properties of anti-inflammatory and antispasmodic actions help to alleviate symptoms. The antispasmodic effect of these tinctures helps to relax the uterine muscles, reducing cramping and spasms, while the anti-inflammatory action reduces prostaglandin production, which contributes to the severity of cramps. The bioactive constituents of Cimicifuga racemosa, including actinidine and sesquiterpenes, are responsible for its therapeutic effects, as they have been shown to have a positive impact on the body's response to menstrual cramps. The benefits of using Cimicifuga racemosa tinctures to treat menstrual cramps include reduced frequency and severity of cramps, improved overall comfort, and a natural approach to managing menstrual symptoms.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 12,
+            "herb_confidence_score": 89,
+            "herb_total_score": 1068,
+            "preparation_desc": "Lavandula angustifolia tinctures have been traditionally used to treat menstrual cramps due to their analgesic and anti-inflammatory properties. The herbal preparation helps to treat this ailment by relaxing the uterine muscles, reducing spasms, and alleviating pain associated with menstrual cramps. The bioactive constituents of Lavandula angustifolia tinctures, including linalool and linalyl acetate, have been identified as the primary compounds responsible for its therapeutic effects. The benefits of using Lavandula angustifolia tinctures to treat menstrual cramps include reduced severity of symptoms, improved sleep quality, and a decrease in the need for pharmaceutical pain relief medications.",
+            "preparation_study": "According to \"Oxidative medicine and cellular longevity\", Lavandula angustifolia tinctures may be beneficial for cramps due to their significant spasmolytic effect.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 13,
+            "herb_confidence_score": 85,
+            "herb_total_score": 1105,
+            "preparation_desc": "Foeniculum vulgare tinctures have been traditionally used to treat menstrual cramps due to their spasmolytic and anti-inflammatory properties. The anethole and limonene present in Foeniculum vulgare tinctures help to relax the uterine muscles, reducing spasms and pain associated with menstrual cramps. By inhibiting the release of prostaglandins, Foeniculum vulgare tinctures also help to reduce inflammation and alleviate discomfort. The benefits of using Foeniculum vulgare tinctures to treat menstrual cramps include reduced pain, improved mood, and increased comfort during menstruation.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 11,
+            "herb_confidence_score": 70,
+            "herb_total_score": 770,
+            "preparation_desc": "Silybum marianum tinctures, also known as milk thistle tinctures, have been traditionally used to treat menstrual cramps due to their anti-inflammatory and antispasmodic properties. The tinctures help to treat cramps by relaxing the uterine muscles and reducing prostaglandins, which are hormone-like substances that cause contractions. The bioactive constituents of Silybum marianum, such as silymarin and flavonoids, have been found to possess anti-inflammatory and antioxidant properties, which contribute to their therapeutic effects. The benefits of using Silybum marianum tinctures to treat menstrual cramps include reduced pain and discomfort, improved menstrual cycle regulation, and a decrease in the severity and frequency of cramps.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Artemisia absinthium",
+            "herb_mentions": 11,
+            "herb_confidence_score": 68,
+            "herb_total_score": 748,
+            "preparation_desc": "Artemisia absinthium tinctures, derived from the leaves of the wormwood plant, have been traditionally used to treat menstrual cramps. The antispasmodic and anti-inflammatory properties of this herbal preparation help to relax the uterine muscles and reduce pain. The bioactive constituents, including thujone, sesquiterpenes, and flavonoids, work together to alleviate cramping and discomfort. The benefits of using Artemisia absinthium tinctures for menstrual cramps include natural relief, reduced reliance on pharmaceuticals, and minimal side effects.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Angelica sinensis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 65,
+            "herb_total_score": 520,
+            "preparation_desc": "Angelica sinensis tinctures have been traditionally used to treat menstrual cramps due to their uterotonic and anti-inflammatory properties. The bioactive constituents, including ferulic acid and ligustilide, help to relax the uterine muscles, reduce prostaglandins, and alleviate cramping. By using Angelica sinensis tinctures, women may experience relief from menstrual cramp symptoms, improved mood, and reduced discomfort during their periods. Regular use of Angelica sinensis tinctures may also help to regulate menstrual cycles, promoting overall reproductive health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 57,
+            "herb_total_score": 456,
+            "preparation_desc": "Melissa officinalis tinctures have been traditionally used to treat menstrual cramps due to their anti-inflammatory, antispasmodic, and analgesic properties, which help to relax the uterine muscles and reduce pain. The bioactive constituents of Melissa officinalis tinctures, including rosmarinic acid, ursolic acid, and borneol, contribute to its therapeutic effects by inhibiting the release of pain-causing chemicals and reducing inflammation. By using Melissa officinalis tinctures, women can experience relief from menstrual cramps and other associated symptoms, such as bloating and mood swings, allowing them to resume their daily activities with ease. The benefits of Melissa officinalis tinctures for treating menstrual cramps include reduced pain intensity, improved mood, and increased overall well-being, making it a popular natural remedy for this common issue.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cnidium monnieri",
+            "herb_mentions": 7,
+            "herb_confidence_score": 54,
+            "herb_total_score": 378,
+            "preparation_desc": "Cnidium monnieri tinctures have been traditionally used to treat menstrual cramps, a common and debilitating symptom experienced by many women. The tinctures exhibit anti-inflammatory, antispasmodic, and analgesic properties, which help to alleviate the pain and discomfort associated with menstrual cramps. The bioactive constituents of Cnidium monnieri, including volatile oils, alkaloids, and flavonoids, play a crucial role in reducing muscle spasms and relieving pain. By using Cnidium monnieri tinctures, women can experience significant relief from menstrual cramps, improved menstrual regularity, and a reduction in overall symptoms associated with PMS.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 7,
+            "herb_confidence_score": 51,
+            "herb_total_score": 357,
+            "preparation_desc": "Curcuma longa tinctures have been traditionally used to treat menstrual cramps due to their analgesic and anti-inflammatory properties, which help to relieve pain and reduce discomfort. The bioactive constituents, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, in these tinctures possess potent anti-inflammatory and antioxidant properties that help to inhibit the production of pro-inflammatory enzymes and cytokines, thereby alleviating menstrual cramps. By reducing inflammation and modulating the body's pain response, Curcuma longa tinctures provide relief from menstrual cramps, allowing individuals to manage their symptoms more effectively. The benefits of using Curcuma longa tinctures to treat menstrual cramps include reduced pain, improved quality of life, and a natural, non-pharmacological approach to managing this common condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 7,
+            "herb_confidence_score": 50,
+            "herb_total_score": 350,
+            "preparation_desc": "Avena sativa tinctures have been traditionally used to treat menstrual cramps, a common ailment affecting many women. The herbal preparation's soothing properties help to ease discomfort and pain associated with cramps, promoting relaxation and reducing muscle spasms. The bioactive constituents, including avenanthramides and avenacosides, have been found to have anti-inflammatory and antispasmodic effects, contributing to their therapeutic benefits. By using Avena sativa tinctures, individuals can experience relief from menstrual cramps, improved mood, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Dioscorea villosa",
+            "herb_mentions": 6,
+            "herb_confidence_score": 49,
+            "herb_total_score": 294,
+            "preparation_desc": "Dioscorea villosa tinctures, derived from the root of the wild yam plant, have been traditionally used to treat menstrual cramps and other symptoms associated with premenstrual syndrome (PMS). The herbal preparation contains bioactive constituents such as diosgenin, a steroid saponin that has anti-inflammatory and antispasmodic properties, helping to relax the uterine muscles and alleviate cramps. By reducing inflammation and promoting muscle relaxation, Dioscorea villosa tinctures can provide relief from severe menstrual cramps, enabling women to manage their symptoms and maintain their daily activities. The benefits of using Dioscorea villosa tinctures to treat menstrual cramps include natural relief from pain, reduced reliance on pharmaceutical medications, and improved overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Panax quinquefolius",
+            "herb_mentions": 6,
+            "herb_confidence_score": 48,
+            "herb_total_score": 288,
+            "preparation_desc": "Panax quinquefolius tinctures, derived from the roots of the American ginseng plant, have been traditionally used to treat menstrual cramps and other gynecological issues. The properties of this herbal preparation, including its anti-inflammatory and antispasmodic effects, help to relax the uterine muscles and reduce cramping. The bioactive constituents, such as ginsenosides, panaxosides, and polyacetylenes, play a crucial role in exerting these effects, helping to alleviate the pain and discomfort associated with menstrual cramps. By using Panax quinquefolius tinctures, women can experience benefits such as reduced frequency and severity of menstrual cramps, improved mood, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 7,
+            "herb_confidence_score": 47,
+            "herb_total_score": 329,
+            "preparation_desc": "Mentha x piperita tinctures have been traditionally used to treat menstrual cramps due to their analgesic and anti-inflammatory properties, which help to reduce pain and discomfort. The bioactive constituents of peppermint oil, including menthol and menthone, play a crucial role in alleviating cramps by relaxing the uterine muscles and reducing prostaglandin levels. By using Mentha x piperita tinctures, individuals can experience relief from menstrual cramps, improved mood, and reduced bloating, making it a beneficial herbal preparation for this common ailment. The benefits of using Mentha x piperita tinctures for menstrual cramps include reduced pain intensity, improved sleep quality, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to the study, tinctures made from various medicinal plants may show evidence of efficacy in relieving menstrual pain in at least one randomised controlled trial, although further research is needed to confirm these results."
+}

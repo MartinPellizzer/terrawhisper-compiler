@@ -1,0 +1,18 @@
+{
+    "url": "herbs/cicuta-virosa",
+    "herb_slug": "cicuta-virosa",
+    "herb_name_scientific": "cicuta virosa",
+    "lastmod": "2025-5-31",
+    "benefits_num": 13,
+    "benefits_title": "13 Best Health Benefits Of Cicuta Virosa",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 10,
+            "confidence_score": 99,
+            "total_score": 990
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 11
+}

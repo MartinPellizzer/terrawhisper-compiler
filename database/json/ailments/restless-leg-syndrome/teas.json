@@ -1,0 +1,251 @@
+{
+    "url": "ailments/restless-leg-syndrome/teas",
+    "ailment_slug": "restless-leg-syndrome",
+    "ailment_name": "restless leg syndrome",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 13,
+    "title": "13 Best Herbal Teas For Restless Leg Syndrome",
+    "intro": "Herbal teas for Restless Leg Syndrome (RLS) are a natural remedy that involves drinking teas made from various herbs to alleviate the uncomfortable and often debilitating symptoms of RLS. The benefits of using herbal teas to treat RLS include reducing anxiety and stress, improving sleep quality, and relaxing the muscles, which can help to calm the nerves and alleviate the urge to move. Some examples of herbal teas that have been traditionally used to treat RLS include passionflower tea, which has a calming effect on the nervous system; valerian root tea, which is known for its sedative properties and ability to promote relaxation; chamomile tea, which has anti-inflammatory properties and can help to soothe the muscles; and lavender tea, which has a calming effect on the mind and body. Additionally, other herbal teas such as lemon balm tea, peppermint tea, and ginger tea have also been used to treat RLS due to their ability to relax the muscles, reduce anxiety, and promote a sense of calmness.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 20,
+            "herb_confidence_score": 176,
+            "herb_total_score": 3520,
+            "preparation_desc": "Valeriana officinalis teas have been traditionally used to treat restless leg syndrome (RLS) due to their soothing and calming properties, which help to reduce symptoms of anxiety and stress that often exacerbate RLS. The valerenic acid and isovaltrate present in Valeriana officinalis teas have been found to have a sedative effect, thereby promoting relaxation and reducing muscle cramps and spasms associated with RLS. By reducing stress and anxiety, Valeriana officinalis teas can help to calm the nervous system and alleviate the sensations of restlessness and discomfort that are characteristic of RLS. Overall, the benefits of Valeriana officinalis teas in treating RLS include improved sleep quality, reduced symptoms of anxiety and stress, and a decrease in muscle cramps and spasms, making it a valuable natural remedy for managing this condition.",
+            "preparation_study": "According to \"Planta medica\", Valeriana officinalis teas for restless leg syndrome is not directly mentioned in the study, however, as Valeriana officinalis, along with passionflower and ashwagandha, is identified as one of the three plants with the most potential for treating anxiety and insomnia, it may have some benefits in alleviating the symptoms of restless leg syndrome, which can be associated with anxiety and insomnia.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 20,
+            "herb_confidence_score": 163,
+            "herb_total_score": 3260,
+            "preparation_desc": "Passiflora incarnata teas have been used to treat restless leg syndrome, a condition characterized by an uncontrollable urge to move the legs. The herbal preparation's sedative and anxiolytic properties help to alleviate symptoms by reducing anxiety and promoting relaxation, thereby reducing the urge to move the legs. The bioactive constituents, including flavonoids, alkaloids, and glycosides, contribute to its therapeutic effects by modulating neurotransmitters and reducing inflammation. The benefits of Passiflora incarnata teas in treating restless leg syndrome include improved sleep quality, reduced anxiety and stress levels, and a decrease in the frequency and severity of leg movements.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Certified-Wrapped/dp/B000YTCSLQ",
+                "affiliate_link": "https://amzn.to/3FU2zS4",
+                "title": "Traditional Medicinals Organic Nighty Night with Passionflower Herbal Tea, Promotes a Good Night\u2019s Sleep, (Pack of 1) - 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 20,
+            "herb_confidence_score": 135,
+            "herb_total_score": 2700,
+            "preparation_desc": "Lavandula angustifolia teas, derived from the Lavender plant, have been found to offer potential relief from restless leg syndrome (RLS) symptoms due to their calming and soothing properties. The herbal preparation's ability to promote relaxation, reduce anxiety, and improve sleep quality helps alleviate RLS symptoms. The bioactive constituents, including linalool and linalyl acetate, contribute to the tea's therapeutic effects by modulating the nervous system and reducing muscle tension. By incorporating Lavandula angustifolia teas into a treatment plan, individuals may experience reduced RLS symptoms, improved sleep, and enhanced overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 18,
+            "herb_confidence_score": 122,
+            "herb_total_score": 2196,
+            "preparation_desc": "Avena sativa teas have been traditionally used to treat restless leg syndrome, a condition characterized by an uncontrollable urge to move the legs. The sedative properties of Avena sativa teas help to calm the nervous system and reduce the symptoms of restless leg syndrome. The bioactive constituents of Avena sativa, including avenanthramides and ferulic acid, have been found to have anti-inflammatory and antioxidant effects that contribute to their therapeutic benefits in treating restless leg syndrome. By promoting relaxation and reducing inflammation, Avena sativa teas offer a natural and effective solution for individuals suffering from restless leg syndrome, providing relief from the discomfort and distress associated with this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Chamomile-Eco-Conscious-Lined-FGO/dp/B07N2F8718",
+                "affiliate_link": "https://amzn.to/3EaZYm9",
+                "title": "FGO Organic Chamomile Tea, 100 Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 17,
+            "herb_confidence_score": 107,
+            "herb_total_score": 1819,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger tea, have been traditionally used to treat restless leg syndrome due to their analgesic, anti-inflammatory, and antispasmodic properties. The bioactive constituents of ginger tea, such as gingerols and shogaols, help to relax the muscles and reduce inflammation in the legs, thereby alleviating the symptoms of restless leg syndrome. By consuming ginger tea, individuals with restless leg syndrome may experience relief from the discomfort and pain associated with this condition. Regular consumption of ginger tea has been shown to provide significant benefits in treating restless leg syndrome, including improved sleep quality and reduced severity of symptoms.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 18,
+            "herb_confidence_score": 104,
+            "herb_total_score": 1872,
+            "preparation_desc": "Melissa officinalis teas have been traditionally used to treat Restless Leg Syndrome (RLS) due to their calming and relaxing properties, which help to soothe the nervous system and reduce symptoms of RLS. This herbal preparation is believed to help treat RLS by promoting relaxation, reducing anxiety, and improving sleep quality, ultimately leading to a decrease in symptoms of RLS. The bioactive constituents of Melissa officinalis, including rosmarinic acid, ursolic acid, and melissic acid, are responsible for its therapeutic effects on RLS, as they have anti-inflammatory and antioxidant properties that help to reduce muscle cramps and spasms. The benefits of using Melissa officinalis teas to treat RLS include reduced symptoms, improved sleep quality, and a decrease in anxiety and stress levels, making it a potential natural remedy for individuals suffering from this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 18,
+            "herb_confidence_score": 96,
+            "herb_total_score": 1728,
+            "preparation_desc": "Ginkgo biloba teas have been explored as a potential natural remedy for restless leg syndrome, a condition characterized by uncomfortable sensations in the legs. The bioactive constituents of Ginkgo biloba, including flavonoids and bilobalide, have been found to possess anti-inflammatory and antioxidant properties that may help alleviate symptoms of restless leg syndrome. By promoting blood flow and reducing inflammation in the affected areas, Ginkgo biloba teas may help to calm the restless sensations and provide relief. The benefits of using Ginkgo biloba teas for restless leg syndrome include reduced symptoms, improved sleep quality, and a potential reduction in the need for pharmaceutical treatments.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 18,
+            "herb_confidence_score": 71,
+            "herb_total_score": 1278,
+            "preparation_desc": "Glycyrrhiza glabra teas, also known as licorice root tea, have been traditionally used to treat restless leg syndrome due to their anti-inflammatory and neuroprotective properties. The bioactive constituents of licorice root, such as glycyrrhizin, flavonoids, and saponins, help to reduce inflammation and oxidative stress in the nervous system, which can contribute to the development of restless leg syndrome. By promoting relaxation and reducing muscle tension, Glycyrrhiza glabra teas can help to alleviate the uncomfortable sensations and restlessness associated with this condition. The benefits of using licorice root tea to treat restless leg syndrome include improved sleep quality, reduced anxiety and stress, and enhanced overall well-being, making it a popular natural remedy for those seeking alternative treatments.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Vitex agnus-castus",
+            "herb_mentions": 13,
+            "herb_confidence_score": 65,
+            "herb_total_score": 845,
+            "preparation_desc": "Vitex agnus-castus teas have been traditionally used to treat restless leg syndrome due to their calming properties, which help to soothe the nervous system and reduce symptoms of the condition. The bioactive constituents of Vitex agnus-castus, including flavonoids, phenolic acids, and essential oils, play a key role in its therapeutic effects. These compounds help to regulate the body's neurotransmitters and hormones, which can become imbalanced and contribute to restless leg syndrome. By promoting relaxation and reducing anxiety, Vitex agnus-castus teas can provide relief from the discomfort and restlessness associated with this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Moringa-Eco-Conscious-Kraft-FGO/dp/B07XYJBXLJ",
+                "affiliate_link": "https://amzn.to/3YtNNYu",
+                "title": "FGO Organic Moringa Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula latifolia",
+            "herb_mentions": 10,
+            "herb_confidence_score": 54,
+            "herb_total_score": 540,
+            "preparation_desc": "Lavandula latifolia teas have been traditionally used to treat restless leg syndrome, a condition characterized by an uncontrollable urge to move the legs. The sedative and calming properties of Lavandula latifolia teas help to reduce anxiety and promote relaxation, which can alleviate the symptoms of restless leg syndrome. The bioactive constituents of Lavandula latifolia teas, including linalool and linalyl acetate, contribute to its therapeutic effects by acting as a muscle relaxant and reducing inflammation. By promoting relaxation and reducing muscle tension, Lavandula latifolia teas can provide relief from the discomfort and pain associated with restless leg syndrome.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 9,
+            "herb_confidence_score": 53,
+            "herb_total_score": 477,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort, have been traditionally used to treat various health issues, including restless leg syndrome. The antispasmodic properties of this herbal preparation help to calm muscle spasms and reduce restlessness, providing relief from the symptoms of the ailment. The bioactive constituents, including hypericin and hyperforin, contribute to its therapeutic effects by modulating neurotransmitter activity and reducing inflammation, which helps to alleviate restlessness and discomfort. Regular consumption of Hypericum perforatum teas has been found to be beneficial in treating restless leg syndrome due to its ability to promote relaxation, reduce anxiety, and improve sleep quality.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 12,
+            "herb_confidence_score": 52,
+            "herb_total_score": 624,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been traditionally used to treat restless leg syndrome due to their anti-inflammatory and antioxidant properties. The flavonoids and silymarin present in this herbal preparation have been found to help alleviate the symptoms of restless leg syndrome, including muscle cramps and spasms, by reducing oxidative stress and inflammation in the affected areas. The bioactive constituents of Silybum marianum, such as silybin, isosilybin, and isosilydianin, have been shown to have a neuroprotective effect, which can help to calm the nervous system and reduce the urge to move the legs. The benefits of using Silybum marianum teas to treat restless leg syndrome include reduced symptoms, improved sleep quality, and a decrease in the risk of complications associated with the condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 48,
+            "herb_total_score": 432,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat restless leg syndrome, a condition characterized by an uncontrollable urge to move the legs. The herbal preparation's properties, including its anti-inflammatory and antioxidant effects, help to alleviate symptoms of the ailment by reducing inflammation and oxidative stress in the legs. The bioactive constituents of Cinchona officinalis, such as quinine and alkaloids, are believed to contribute to its therapeutic effects by modulating nerve function and reducing muscle cramps. The benefits of using Cinchona officinalis teas to treat restless leg syndrome include relief from painful leg movements, improved sleep quality, and a reduction in the frequency and severity of symptoms.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 6,
+            "herb_confidence_score": 37,
+            "herb_total_score": 222,
+            "preparation_desc": "Sambucus nigra teas have been traditionally used to treat restless leg syndrome, a condition characterized by an uncontrollable urge to move the legs. The properties of this herbal preparation, including its antioxidant and anti-inflammatory properties, help to alleviate symptoms of restless leg syndrome by reducing muscle tension and improving circulation. The bioactive constituents of Sambucus nigra, such as flavonoids and phenolic acids, have been shown to have a sedative effect on the nervous system, which can help to calm restless leg syndrome symptoms. The benefits of Sambucus nigra teas in treating restless leg syndrome include reduced symptoms of discomfort, pain, and anxiety, as well as improved sleep quality and overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Elderberry-Eco-Conscious-Kraft-FGO/dp/B09HDFQ4JX",
+                "affiliate_link": "https://amzn.to/42aR3ZN",
+                "title": "FGO Organic Elderberry Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealabel Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 6,
+            "herb_confidence_score": 32,
+            "herb_total_score": 192,
+            "preparation_desc": "Curcuma longa teas have been traditionally used to treat restless leg syndrome, a disorder characterized by an uncontrollable urge to move the legs. The anti-inflammatory and antioxidant properties of this herbal preparation help to alleviate symptoms by reducing inflammation and oxidative stress in the nervous system. The bioactive constituents, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, in Curcuma longa teas have been found to modulate the activity of dopamine and other neurotransmitters, helping to regulate movement and reduce discomfort. The benefits of using Curcuma longa teas to treat restless leg syndrome include improved sleep quality, reduced symptoms, and a decrease in the frequency and severity of episodes.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Artemisia absinthium",
+            "herb_mentions": 8,
+            "herb_confidence_score": 31,
+            "herb_total_score": 248,
+            "preparation_desc": "Artemisia absinthium teas have been traditionally used to treat restless leg syndrome due to their sedative and antispasmodic properties. The herbal preparation helps to treat this ailment by reducing muscle tension and spasms, promoting relaxation, and improving sleep quality. The bioactive constituents of Artemisia absinthium, such as thujone, borneol, and camphor, contribute to its therapeutic effects by modulating the nervous system and reducing inflammation. The benefits of using Artemisia absinthium teas to treat restless leg syndrome include improved sleep patterns, reduced muscle cramps, and a decrease in overall symptoms, providing relief and promoting overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 6,
+            "herb_confidence_score": 30,
+            "herb_total_score": 180,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used as a natural remedy to alleviate symptoms of restless leg syndrome (RLS), a neurological disorder characterized by an uncontrollable urge to move the legs. The anti-inflammatory and antioxidant properties of Echinacea purpurea teas help to reduce muscle cramping and spasms associated with RLS. The bioactive constituents of this herbal preparation, including alkylamides, caffeic acid derivatives, and polysaccharides, are believed to contribute to its therapeutic effects by modulating the body's response to stress and promoting relaxation. By consuming Echinacea purpurea teas, individuals with RLS may experience reduced symptoms and improved sleep quality due to its calming and soothing effects.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Centella asiatica",
+            "herb_mentions": 5,
+            "herb_confidence_score": 29,
+            "herb_total_score": 145,
+            "preparation_desc": "Centella asiatica teas have been traditionally used to treat restless leg syndrome, a condition characterized by an uncontrollable urge to move the legs. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce muscle spasms and alleviate symptoms of the ailment. The bioactive constituents, including triterpenoids and flavonoids, in Centella asiatica teas may help to relax muscles and improve circulation, thereby reducing the urge to move the legs. By consuming Centella asiatica teas, individuals with restless leg syndrome may experience relief from symptoms and improved overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 6,
+            "herb_confidence_score": 28,
+            "herb_total_score": 168,
+            "preparation_desc": "Mentha x piperita teas, also known as peppermint teas, have been traditionally used to treat restless leg syndrome due to their calming and relaxing properties. The tea's ability to soothe the nervous system and reduce muscle tension helps to alleviate the symptoms of restless leg syndrome, promoting a sense of calm and relaxation. The bioactive constituents of Mentha x piperita, including menthol and menthone, contribute to its therapeutic effects, as they have a calming effect on the muscles and nervous system. Drinking Mentha x piperita teas can provide relief from restless leg syndrome symptoms, offering a natural and non-invasive way to manage this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 5,
+            "herb_confidence_score": 28,
+            "herb_total_score": 140,
+            "preparation_desc": "Rosmarinus officinalis teas, derived from the fragrant herb rosemary, have been traditionally used to treat restless leg syndrome (RLS) due to their calming and sedative properties. The bioactive constituents of rosemary, including rosmarinic acid, carnosic acid, and ursolic acid, possess antioxidant and anti-inflammatory properties that help to reduce muscle cramps and spasms associated with RLS. By promoting relaxation and reducing anxiety, rosemary teas can help to alleviate the symptoms of RLS, allowing individuals to enjoy a restful and uninterrupted sleep. The benefits of using rosemary teas to treat RLS include improved sleep quality, reduced muscle tension, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        }
+    ],
+    "intro_study": "N/A"
+}

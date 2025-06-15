@@ -1,0 +1,43 @@
+{
+    "title": "myrtales",
+    "lastmod": "2025-2-22",
+    "intro": "The rank myrtales refers to a taxonomic order of flowering plants, characterized by the presence of showy flowers and often, fragrant scents. It is a diverse order that comprises around 16,000 species, spanning over 160 families. Myrtales includes families such as the Myrtaceae, which includes eucalyptus and myrtle, as well as the Thymelaeaceae, the Lythraceae, and the Oliniaceae. Other examples of families within the myrtales order include the Onagraceae, the Penaeaceae, and the Melastomataceae, as well as the Clusiaceae, the Melianthaceae, the Penaeaceae, and the Rhizophoraceae.",
+    "families": [
+        {
+            "family_slug": "onagraceae",
+            "family_desc": "Onagraceae is a family of flowering plants commonly known as the evening primroses, willowherbs, or willow bells."
+        },
+        {
+            "family_slug": "melastomataceae",
+            "family_desc": "Melastomataceae is a family of flowering plants commonly known as the melastome or loganioid family, native to tropical regions around the world."
+        },
+        {
+            "family_slug": "myrtaceae",
+            "family_desc": "Myrtaceae is a family of flowering plants commonly known as the myrtle family, which includes species such as eucalyptus, guava, and clove trees."
+        },
+        {
+            "family_slug": "symplocaceae",
+            "family_desc": "Symplocaceae is a family of flowering plants commonly known as the laurel family, which includes approximately 50 species of trees and shrubs native to tropical and subtropical regions."
+        },
+        {
+            "family_slug": "combretaceae",
+            "family_desc": "Combretaceae is a family of flowering plants commonly known as the ruddlewood family, which includes approximately 600 species of trees and shrubs."
+        },
+        {
+            "family_slug": "crypteroniaceae",
+            "family_desc": "Crypteroniaceae is a family of flowering plants in the order Myrtales, native to tropical Asia and Australia."
+        },
+        {
+            "family_slug": "fouquieriaceae",
+            "family_desc": "Fouquieriaceae is a family of flowering plants in the order Ericales, commonly known as the ocotillo or torchwoods."
+        },
+        {
+            "family_slug": "neuradaceae",
+            "family_desc": "Neuradaceae is a family of flowering plants commonly known as the stoneseed family, characterized by their small, delicate flowers and distinctive seed pods."
+        },
+        {
+            "family_slug": "muntingiaceae",
+            "family_desc": "Muntingiaceae is a family of flowering plants in the order Brassicales, native to South America, with some species also found in Africa and the Pacific Islands."
+        }
+    ]
+}

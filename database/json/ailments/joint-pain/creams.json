@@ -1,0 +1,185 @@
+{
+    "url": "ailments/joint-pain/creams",
+    "ailment_slug": "joint-pain",
+    "ailment_name": "joint pain",
+    "preparation_slug": "creams",
+    "preparation_name": "creams",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 11,
+    "title": "11 Best Herbal Creams For Joint Pain",
+    "intro": "Herbal creams for joint pain are topical creams or ointments made from plant extracts that are used to relieve pain and inflammation in the joints. These creams work by reducing inflammation, relieving pain, and improving joint mobility, providing natural and effective relief from conditions such as arthritis, fibromyalgia, and gout. Examples of herbal creams that can be used to treat joint pain include arnica cream, which reduces inflammation and relieves pain, capsaicin cream, which blocks the production of a chemical that transmits pain signals, and willow bark cream, which contains salicin, a compound similar to aspirin. Other herbal creams that can be used to treat joint pain include ginger cream, which reduces inflammation and relieves pain, turmeric cream, which contains curcumin, a compound with potent anti-inflammatory properties, and rosemary cream, which improves circulation and reduces pain.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 19,
+            "herb_confidence_score": 176,
+            "herb_total_score": 3344,
+            "preparation_desc": "Curcuma longa creams have gained popularity as a natural remedy to treat joint pain due to their anti-inflammatory and antioxidant properties. The bioactive constituents, such as curcumin, demethoxycurcumin, and bisdemethoxycurcumin, in these creams help to reduce joint inflammation and pain by inhibiting the production of pro-inflammatory enzymes and cytokines. The application of Curcuma longa creams to the affected joints helps to alleviate pain, stiffness, and swelling by promoting the healing process and reducing oxidative stress. The benefits of using these creams to treat joint pain include improved mobility, reduced reliance on pain medications, and enhanced overall quality of life.",
+            "preparation_study": "According to \"Current rheumatology reviews\", Curcuma longa creams for joint pain have been scientifically demonstrated to exhibit medicinal benefits for osteoarthritis, suppressing inflammation and slowing the progression of the ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Capsicum annuum",
+            "herb_mentions": 19,
+            "herb_confidence_score": 157,
+            "herb_total_score": 2983,
+            "preparation_desc": "Capsicum annuum creams are a traditional herbal preparation used to treat joint pain, a common ailment affecting millions worldwide. The properties of Capsicum annuum creams that help to treat this ailment include their anti-inflammatory and analgesic properties, which reduce swelling and ease pain in the joints. The bioactive constituents of Capsicum annuum creams, such as capsaicin, help to treat joint pain by inhibiting the production of a chemical called substance P, which transmits pain signals to the brain. The benefits of using Capsicum annuum creams to treat joint pain include reduced pain and inflammation, improved mobility, and a decrease in the need for pain-relieving medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Arnica montana",
+            "herb_mentions": 16,
+            "herb_confidence_score": 136,
+            "herb_total_score": 2176,
+            "preparation_desc": "Arnica montana creams have been widely used to treat joint pain, a common ailment that affects millions of people worldwide. The anti-inflammatory and analgesic properties of these creams, derived from the plant's bioactive constituents such as flavonoids, sesquiterpene lactones, and triterpene acids, help to reduce swelling and ease pain in the affected joints. These bioactive constituents work together to inhibit the production of pro-inflammatory enzymes, leading to a reduction in pain and inflammation. The benefits of using Arnica montana creams to treat joint pain include reduced discomfort, improved mobility, and a faster recovery rate, making them a popular natural remedy among those seeking alternative pain management options.",
+            "preparation_study": "According to \"Nutrients\", Arnica montana creams for joint pain may be effective due to the plant's potential to reduce inflammation and oxidative stress, which are common factors in chronic joint inflammatory disorders such as osteoarthritis and rheumatoid arthritis.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 19,
+            "herb_confidence_score": 136,
+            "herb_total_score": 2584,
+            "preparation_desc": "Glycyrrhiza glabra creams have been traditionally used to treat joint pain, a common ailment characterized by inflammation and stiffness in the joints. The anti-inflammatory properties of these creams help to reduce pain and swelling, while their soothing effects calm irritated tissues. The bioactive constituents of Glycyrrhiza glabra, including flavonoids, saponins, and triterpenoids, contribute to its analgesic and anti-inflammatory effects, making it a valuable herbal remedy for joint pain relief. The benefits of using Glycyrrhiza glabra creams include reduced pain and inflammation, improved joint mobility, and enhanced overall well-being, making it a popular natural treatment option for individuals suffering from joint pain.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 17,
+            "herb_confidence_score": 136,
+            "herb_total_score": 2312,
+            "preparation_desc": "Zingiber officinale creams, derived from the rhizomes of the ginger plant, offer a natural and effective treatment for joint pain. The anti-inflammatory and analgesic properties of this herbal preparation help to reduce pain and inflammation in the joints, providing relief from conditions such as arthritis. The bioactive constituents of Zingiber officinale creams, including gingerols and shogaols, work together to inhibit the production of pro-inflammatory enzymes and cytokines, thereby reducing joint pain and swelling. The benefits of using Zingiber officinale creams to treat joint pain include reduced reliance on pharmaceutical medications and a lower risk of adverse side effects, making it a popular natural remedy for individuals seeking alternative pain management options.",
+            "preparation_study": "According to \"Arthritis and rheumatism\", Zingiber officinale creams for joint pain, also known as ginger extract, were found to have a statistically significant effect on reducing symptoms of osteoarthritis of the knee, particularly in reducing knee pain on standing, with a moderate effect and a good safety profile, although mild gastrointestinal adverse events were more common in the ginger extract group.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 12,
+            "herb_confidence_score": 103,
+            "herb_total_score": 1236,
+            "preparation_desc": "Aloe barbadensis creams have been widely used to treat joint pain due to their anti-inflammatory and analgesic properties, which help to reduce pain and inflammation in the affected joints. These creams contain bioactive constituents such as aloin, aloe-emodin, and acemannan, which have potent anti-inflammatory and antioxidant effects that help to alleviate joint pain. By applying Aloe barbadensis creams topically, the bioactive constituents can penetrate deep into the skin and joints, reducing inflammation, pain, and swelling, thereby providing relief from joint pain. The benefits of using Aloe barbadensis creams to treat joint pain include reduced pain and inflammation, improved joint mobility, and enhanced overall well-being, making it a natural and effective alternative to traditional pain relief medications.",
+            "preparation_study": "According to \"Journal of the American Podiatric Medical Association\", Aloe barbadensis creams for joint pain may provide some relief due to their ability to inhibit inflammation, with a 47.1% inhibition of inflammation obtained by 5% decolorized irradiated Aloe.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 13,
+            "herb_confidence_score": 90,
+            "herb_total_score": 1170,
+            "preparation_desc": "Echinacea purpurea creams are a herbal preparation used to treat joint pain ailments, leveraging its anti-inflammatory and analgesic properties to provide relief. The bioactive constituents present in Echinacea purpurea, such as alkylamides and caffeic acid derivatives, help to reduce inflammation and alleviate pain in the joints. By inhibiting the production of pro-inflammatory cytokines and enzymes, these creams aid in soothing joint pain, making it an effective treatment option. The benefits of using Echinacea purpurea creams include reduced pain and inflammation, improved joint mobility, and a natural approach to managing joint health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 11,
+            "herb_confidence_score": 78,
+            "herb_total_score": 858,
+            "preparation_desc": "Eucalyptus globulus creams have been widely used to treat joint pain, a common ailment that affects millions of people worldwide. These creams contain anti-inflammatory and analgesic properties, which help to reduce pain and inflammation in the affected joints. The bioactive constituents of Eucalyptus globulus, including eucalyptol, cineole, and camphor, have been found to possess potent anti-inflammatory and antioxidant properties, which help to alleviate joint pain and promote healing. By using Eucalyptus globulus creams, individuals can experience significant relief from joint pain, reduced inflammation, and improved mobility, making it an effective and natural remedy for managing this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 10,
+            "herb_confidence_score": 77,
+            "herb_total_score": 770,
+            "preparation_desc": "Achillea millefolium creams, derived from the flowering plant yarrow, have been traditionally used to treat joint pain, a common symptom of various conditions such as arthritis. The anti-inflammatory and analgesic properties of yarrow help to reduce swelling and ease pain in the affected joints. The bioactive constituents of Achillea millefolium, including flavonoids, phenolic acids, and terpenoids, are responsible for its therapeutic effects, which include the inhibition of pro-inflammatory enzymes and the modulation of pain perception. By applying Achillea millefolium creams topically, individuals can experience relief from joint pain and inflammation, making it a valuable natural remedy for managing this ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Boswellia serrata",
+            "herb_mentions": 9,
+            "herb_confidence_score": 73,
+            "herb_total_score": 657,
+            "preparation_desc": "Boswellia serrata creams have been widely used to treat joint pain ailments due to their anti-inflammatory and analgesic properties, which help to reduce pain and inflammation in the joints. The bioactive constituents of Boswellia serrata, including boswellic acids, acetyl-11-keto-\u03b2-boswellic acid, and 11-keto-\u03b2-boswellic acid, have been shown to inhibit the production of pro-inflammatory enzymes and mediators, thereby providing relief from joint pain. By inhibiting the COX-2 enzyme and reducing the production of pro-inflammatory eicosanoids, Boswellia serrata creams help to alleviate joint pain and improve joint mobility. The benefits of using Boswellia serrata creams to treat joint pain include reduced inflammation, decreased pain, improved joint mobility, and enhanced overall quality of life.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 14,
+            "herb_confidence_score": 71,
+            "herb_total_score": 994,
+            "preparation_desc": "Ginkgo biloba creams, rich in flavonoids and terpenoids, have been traditionally used to alleviate joint pain by reducing inflammation and improving blood circulation to the affected areas. The bioactive constituents of ginkgo biloba, such as bilobalide and ginkgolides, have anti-inflammatory and antioxidant properties that help to soothe and protect the joints. These creams work by inhibiting the production of pro-inflammatory mediators, thereby reducing pain and stiffness associated with joint conditions like arthritis. The benefits of using ginkgo biloba creams to treat joint pain include reduced inflammation, improved mobility, and a decrease in the need for pain medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 9,
+            "herb_confidence_score": 63,
+            "herb_total_score": 567,
+            "preparation_desc": "Hypericum perforatum creams, derived from the Saint John's Wort plant, have been used to treat joint pain due to their anti-inflammatory and analgesic properties. The bioactive constituents, including hyperforin and hypericin, help to reduce inflammation and alleviate pain in the joints by inhibiting the production of pro-inflammatory enzymes. This herbal preparation also exhibits antioxidant activity, which helps to protect the joints from oxidative stress and promote overall health. The benefits of using Hypericum perforatum creams to treat joint pain include reduced inflammation, alleviated pain, and improved mobility, making it a natural and effective alternative to conventional treatments.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Salix alba",
+            "herb_mentions": 8,
+            "herb_confidence_score": 60,
+            "herb_total_score": 480,
+            "preparation_desc": "Salix alba creams have been traditionally used to treat joint pain ailments, such as arthritis, due to their anti-inflammatory and analgesic properties. The salicylic acid present in these creams is responsible for its therapeutic effects, as it helps to reduce inflammation and relieve pain by inhibiting the production of pro-inflammatory enzymes. Additionally, the bioactive constituents of Salix alba creams, including salicin and phenolic acids, contribute to their analgesic and anti-inflammatory properties, providing relief from joint pain and stiffness. The benefits of using Salix alba creams to treat joint pain ailments include reduced inflammation, improved joint mobility, and a decrease in pain levels, making them a popular natural remedy for managing arthritis symptoms.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melaleuca alternifolia",
+            "herb_mentions": 6,
+            "herb_confidence_score": 47,
+            "herb_total_score": 282,
+            "preparation_desc": "Melaleuca alternifolia creams have been used to treat joint pain due to their anti-inflammatory and antiseptic properties, which help to reduce swelling and prevent infection in the affected joints. The bioactive constituents of Melaleuca alternifolia, including cineole and limonene, have been shown to exhibit potent anti-inflammatory and antioxidant activities, which contribute to their effectiveness in treating joint pain. By reducing inflammation and promoting healing, Melaleuca alternifolia creams can help to alleviate pain and stiffness in the joints, improving mobility and quality of life. The benefits of using Melaleuca alternifolia creams to treat joint pain include reduced reliance on pain medications, improved joint health, and a natural approach to managing chronic pain.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 6,
+            "herb_confidence_score": 46,
+            "herb_total_score": 276,
+            "preparation_desc": "Mentha x piperita creams, also known as peppermint creams, have been traditionally used to treat joint pain due to their anti-inflammatory and analgesic properties. The bioactive constituents of peppermint, including menthol and menthone, help to reduce pain and inflammation by blocking the production of pain-causing chemicals and reducing muscle spasms. By applying peppermint creams topically, individuals can experience relief from joint pain, stiffness, and swelling, as well as improved range of motion and reduced discomfort. The benefits of using peppermint creams to treat joint pain include natural and non-addictive relief, reduced reliance on pharmaceuticals, and a soothing, cooling sensation that can provide long-lasting relief.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cannabis sativa",
+            "herb_mentions": 7,
+            "herb_confidence_score": 46,
+            "herb_total_score": 322,
+            "preparation_desc": "Cannabis sativa creams have been widely used to treat joint pain due to their anti-inflammatory and analgesic properties, which help to reduce pain and swelling in the affected joints. The creams work by interacting with the body's endocannabinoid system, thereby helping to alleviate joint pain and discomfort. The bioactive constituents of Cannabis sativa creams, including cannabidiol (CBD) and tetrahydrocannabinol (THC), play a crucial role in providing relief from joint pain by interacting with cannabinoid receptors in the body. The benefits of using Cannabis sativa creams to treat joint pain include reduced inflammation, improved mobility, and a decrease in the need for pain medication, making it a popular natural remedy for this common ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 6,
+            "herb_confidence_score": 43,
+            "herb_total_score": 258,
+            "preparation_desc": "Panax ginseng creams have been used as a natural remedy to treat joint pain, a common ailment affecting millions worldwide. The anti-inflammatory and antioxidant properties of Panax ginseng creams help to reduce joint pain and inflammation by inhibiting the production of pro-inflammatory enzymes and free radicals, thereby alleviating discomfort and promoting overall well-being. The bioactive constituents of Panax ginseng creams, including ginsenosides, panaxans, and polysaccharides, play a crucial role in treating joint pain by modulating immune responses, reducing oxidative stress, and improving joint function. Regular use of Panax ginseng creams has been shown to provide relief from joint pain, improve mobility, and enhance quality of life, making it a popular natural remedy for those seeking alternative treatments.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Sesamum indicum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 42,
+            "herb_total_score": 294,
+            "preparation_desc": "Sesamum indicum creams, derived from the seeds of the sesame plant, have been traditionally used to treat joint pain ailments. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce swelling and alleviate pain in the affected joints. The bioactive constituents, including sesamin and sesamolin, in Sesamum indicum creams have been found to have analgesic and anti-inflammatory effects, making it an effective treatment for joint pain. By using Sesamum indicum creams, individuals can experience relief from joint pain and inflammation, improving their overall quality of life and mobility.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ruscus aculeatus",
+            "herb_mentions": 7,
+            "herb_confidence_score": 41,
+            "herb_total_score": 287,
+            "preparation_desc": "Ruscus aculeatus creams are a natural herbal preparation used to treat joint pain, a common ailment affecting millions worldwide. The anti-inflammatory and analgesic properties of this herbal preparation help to reduce pain and swelling in the joints, providing relief from discomfort and stiffness. The bioactive constituents, including flavonoids and saponins, in Ruscus aculeatus creams work together to inhibit the production of pro-inflammatory enzymes, thereby alleviating joint pain and inflammation. By using Ruscus aculeatus creams, individuals can benefit from reduced joint pain, improved mobility, and enhanced overall quality of life.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 41,
+            "herb_total_score": 246,
+            "preparation_desc": "Rosmarinus officinalis creams have been widely used to treat joint pain due to their anti-inflammatory and analgesic properties. These properties help to reduce pain and inflammation in the joints, thereby providing relief from joint pain. The bioactive constituents of Rosmarinus officinalis creams, such as carnosic acid and rosmarinic acid, have been shown to have potent anti-inflammatory and antioxidant activities that contribute to their therapeutic effects. The benefits of using Rosmarinus officinalis creams to treat joint pain include reduced pain and inflammation, improved joint mobility, and enhanced overall quality of life.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Postgraduate medicine\", creams for joint pain such as those containing diclofenac or ketoprofen can alleviate pain, although some controversy exists on their efficacy, with current management guidelines advising them as an option for knee OA treatment, particularly among elderly patients."
+}

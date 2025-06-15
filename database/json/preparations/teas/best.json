@@ -1,0 +1,1415 @@
+{
+    "lastmod": "2025-6-11",
+    "url": "preparations/teas/best",
+    "entity_slug": "teas",
+    "entity_name_singular": "tea",
+    "entity_name_plural": "teas",
+    "title": "100 best teas for medicinal use",
+    "intro": "Teas are a traditional herbal preparation made by steeping plant materials such as leaves, flowers, roots, or berries in hot water. This method extracts the active compounds from the herbs, creating a soothing and easily consumable form of medicine. In herbalism, teas are used to support various health conditions, including digestive issues, stress relief, and immune support. They are often customized based on the individual's needs and the properties of the herbs used. Teas remain a popular and accessible way to incorporate herbal remedies into daily wellness practices.",
+    "list": [
+        {
+            "herb_slug": "calendula-officinalis"
+        },
+        {
+            "herb_slug": "echinacea-purpurea"
+        },
+        {
+            "herb_slug": "aloe-barbadensis"
+        },
+        {
+            "herb_slug": "achillea-millefolium"
+        },
+        {
+            "herb_slug": "urtica-dioica"
+        },
+        {
+            "herb_slug": "lavandula-angustifolia"
+        },
+        {
+            "herb_slug": "hypericum-perforatum"
+        },
+        {
+            "herb_slug": "silybum-marianum"
+        },
+        {
+            "herb_slug": "eucalyptus-globulus"
+        },
+        {
+            "herb_slug": "taraxacum-officinale"
+        },
+        {
+            "herb_slug": "zingiber-officinale"
+        },
+        {
+            "herb_slug": "melaleuca-alternifolia"
+        },
+        {
+            "herb_slug": "salvia-officinalis"
+        },
+        {
+            "herb_slug": "melissa-officinalis"
+        },
+        {
+            "herb_slug": "glycyrrhiza-glabra"
+        },
+        {
+            "herb_slug": "rosmarinus-officinalis"
+        },
+        {
+            "herb_slug": "ginkgo-biloba"
+        },
+        {
+            "herb_slug": "sambucus-nigra"
+        },
+        {
+            "herb_slug": "cinchona-officinalis"
+        },
+        {
+            "herb_slug": "plantago-lanceolata"
+        },
+        {
+            "herb_slug": "curcuma-longa"
+        },
+        {
+            "herb_slug": "piper-nigrum"
+        },
+        {
+            "herb_slug": "cinnamomum-verum"
+        },
+        {
+            "herb_slug": "cassia-auriculata"
+        },
+        {
+            "herb_slug": "panax-ginseng"
+        },
+        {
+            "herb_slug": "astragalus-membranaceus"
+        },
+        {
+            "herb_slug": "camellia-sinensis"
+        },
+        {
+            "herb_slug": "foeniculum-vulgare"
+        },
+        {
+            "herb_slug": "terminalia-chebula"
+        },
+        {
+            "herb_slug": "salvia-miltiorrhiza"
+        },
+        {
+            "herb_slug": "allium-sativum"
+        },
+        {
+            "herb_slug": "cynara-scolymus"
+        },
+        {
+            "herb_slug": "gymnema-sylvestre"
+        },
+        {
+            "herb_slug": "mentha-x-piperita"
+        },
+        {
+            "herb_slug": "symphytum-officinale"
+        },
+        {
+            "herb_slug": "matricaria-chamomilla"
+        },
+        {
+            "herb_slug": "citrus-reticulata"
+        },
+        {
+            "herb_slug": "valeriana-officinalis"
+        },
+        {
+            "herb_slug": "angelica-archangelica"
+        },
+        {
+            "herb_slug": "cymbopogon-citratus"
+        },
+        {
+            "herb_slug": "paeonia-lactiflora"
+        },
+        {
+            "herb_slug": "avena-sativa"
+        },
+        {
+            "herb_slug": "ruta-graveolens"
+        },
+        {
+            "herb_slug": "elettaria-cardamomum"
+        },
+        {
+            "herb_slug": "angelica-sinensis"
+        },
+        {
+            "herb_slug": "vitex-agnus-castus"
+        },
+        {
+            "herb_slug": "cimicifuga-racemosa"
+        },
+        {
+            "herb_slug": "rheum-officinale"
+        },
+        {
+            "herb_slug": "ligusticum-wallichii"
+        },
+        {
+            "herb_slug": "passiflora-incarnata"
+        },
+        {
+            "herb_slug": "thymus-vulgaris"
+        },
+        {
+            "herb_slug": "aloe-vera"
+        },
+        {
+            "herb_slug": "hibiscus-sabdariffa"
+        },
+        {
+            "herb_slug": "origanum-vulgare"
+        },
+        {
+            "herb_slug": "ocimum-basilicum"
+        },
+        {
+            "herb_slug": "humulus-lupulus"
+        },
+        {
+            "herb_slug": "scutellaria-baicalensis"
+        },
+        {
+            "herb_slug": "lavandula-latifolia"
+        },
+        {
+            "herb_slug": "leonurus-cardiaca"
+        },
+        {
+            "herb_slug": "piper-methysticum"
+        },
+        {
+            "herb_slug": "rauvolfia-serpentina"
+        },
+        {
+            "herb_slug": "schisandra-chinensis"
+        },
+        {
+            "herb_slug": "withania-somnifera"
+        },
+        {
+            "herb_slug": "bacopa-monnieri"
+        },
+        {
+            "herb_slug": "artemisia-absinthium"
+        },
+        {
+            "herb_slug": "chamomilla-recutita"
+        },
+        {
+            "herb_slug": "saponaria-officinalis"
+        },
+        {
+            "herb_slug": "equisetum-arvense"
+        },
+        {
+            "herb_slug": "thymus-serpyllum"
+        },
+        {
+            "herb_slug": "verbascum-thapsus"
+        },
+        {
+            "herb_slug": "ephedra-sinica"
+        },
+        {
+            "herb_slug": "echinacea-angustifolia"
+        },
+        {
+            "herb_slug": "centella-asiatica"
+        },
+        {
+            "herb_slug": "cannabis-sativa"
+        },
+        {
+            "herb_slug": "trifolium-pratense"
+        },
+        {
+            "herb_slug": "hydrastis-canadensis"
+        },
+        {
+            "herb_slug": "commiphora-molmol"
+        },
+        {
+            "herb_slug": "ulmus-rubra"
+        },
+        {
+            "herb_slug": "corydalis-yanhusuo"
+        },
+        {
+            "herb_slug": "zanthoxylum-bungeanum"
+        },
+        {
+            "herb_slug": "cuminum-cyminum"
+        },
+        {
+            "herb_slug": "coriandrum-sativum"
+        },
+        {
+            "herb_slug": "zingiber-zerumbet"
+        },
+        {
+            "herb_slug": "althaea-officinalis"
+        },
+        {
+            "herb_slug": "vaccinium-myrtillus"
+        },
+        {
+            "herb_slug": "cinnamomum-zeylanicum"
+        },
+        {
+            "herb_slug": "ziziphus-jujuba"
+        },
+        {
+            "herb_slug": "vitis-vinifera"
+        },
+        {
+            "herb_slug": "ruscus-aculeatus"
+        },
+        {
+            "herb_slug": "hyptis-suaveolens"
+        },
+        {
+            "herb_slug": "rheum-palmatum"
+        },
+        {
+            "herb_slug": "gardenia-jasminoides"
+        },
+        {
+            "herb_slug": "magnolia-officinalis"
+        },
+        {
+            "herb_slug": "syzygium-aromaticum"
+        },
+        {
+            "herb_slug": "serenoa-repens"
+        },
+        {
+            "herb_slug": "arnica-montana"
+        },
+        {
+            "herb_slug": "plantago-major"
+        },
+        {
+            "herb_slug": "hamamelis-virginiana"
+        },
+        {
+            "herb_slug": "boswellia-serrata"
+        },
+        {
+            "herb_slug": "salix-alba"
+        }
+    ],
+    "preapration_list": [
+        {
+            "herb_slug": "calendula-officinalis",
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_total_score": 110233
+        },
+        {
+            "herb_slug": "echinacea-purpurea",
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_total_score": 405100
+        },
+        {
+            "herb_slug": "aloe-barbadensis",
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_total_score": 104577
+        },
+        {
+            "herb_slug": "achillea-millefolium",
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_total_score": 165717
+        },
+        {
+            "herb_slug": "urtica-dioica",
+            "herb_name_scientific": "Urtica dioica",
+            "herb_total_score": 122617
+        },
+        {
+            "herb_slug": "lavandula-angustifolia",
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_total_score": 460812
+        },
+        {
+            "herb_slug": "hypericum-perforatum",
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_total_score": 118901
+        },
+        {
+            "herb_slug": "silybum-marianum",
+            "herb_name_scientific": "Silybum marianum",
+            "herb_total_score": 230920
+        },
+        {
+            "herb_slug": "eucalyptus-globulus",
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_total_score": 231206
+        },
+        {
+            "herb_slug": "taraxacum-officinale",
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_total_score": 131105
+        },
+        {
+            "herb_slug": "zingiber-officinale",
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_total_score": 622460
+        },
+        {
+            "herb_slug": "melaleuca-alternifolia",
+            "herb_name_scientific": "Melaleuca alternifolia",
+            "herb_total_score": 41621
+        },
+        {
+            "herb_slug": "salvia-officinalis",
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_total_score": 84849
+        },
+        {
+            "herb_slug": "melissa-officinalis",
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_total_score": 221785
+        },
+        {
+            "herb_slug": "glycyrrhiza-glabra",
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_total_score": 552256
+        },
+        {
+            "herb_slug": "rosmarinus-officinalis",
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_total_score": 293168
+        },
+        {
+            "herb_slug": "ginkgo-biloba",
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_total_score": 477308
+        },
+        {
+            "herb_slug": "sambucus-nigra",
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_total_score": 144053
+        },
+        {
+            "herb_slug": "cinchona-officinalis",
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_total_score": 207883
+        },
+        {
+            "herb_slug": "plantago-lanceolata",
+            "herb_name_scientific": "Plantago lanceolata",
+            "herb_total_score": 13499
+        },
+        {
+            "herb_slug": "curcuma-longa",
+            "herb_name_scientific": "Curcuma longa",
+            "herb_total_score": 296923
+        },
+        {
+            "herb_slug": "piper-nigrum",
+            "herb_name_scientific": "Piper nigrum",
+            "herb_total_score": 18072
+        },
+        {
+            "herb_slug": "cinnamomum-verum",
+            "herb_name_scientific": "Cinnamomum verum",
+            "herb_total_score": 53050
+        },
+        {
+            "herb_slug": "cassia-auriculata",
+            "herb_name_scientific": "Cassia auriculata",
+            "herb_total_score": 19585
+        },
+        {
+            "herb_slug": "panax-ginseng",
+            "herb_name_scientific": "Panax ginseng",
+            "herb_total_score": 78073
+        },
+        {
+            "herb_slug": "astragalus-membranaceus",
+            "herb_name_scientific": "Astragalus membranaceus",
+            "herb_total_score": 58965
+        },
+        {
+            "herb_slug": "camellia-sinensis",
+            "herb_name_scientific": "Camellia sinensis",
+            "herb_total_score": 37411
+        },
+        {
+            "herb_slug": "foeniculum-vulgare",
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_total_score": 123557
+        },
+        {
+            "herb_slug": "terminalia-chebula",
+            "herb_name_scientific": "Terminalia chebula",
+            "herb_total_score": 2051
+        },
+        {
+            "herb_slug": "salvia-miltiorrhiza",
+            "herb_name_scientific": "Salvia miltiorrhiza",
+            "herb_total_score": 4488
+        },
+        {
+            "herb_slug": "allium-sativum",
+            "herb_name_scientific": "Allium sativum",
+            "herb_total_score": 1273
+        },
+        {
+            "herb_slug": "cynara-scolymus",
+            "herb_name_scientific": "Cynara scolymus",
+            "herb_total_score": 10505
+        },
+        {
+            "herb_slug": "gymnema-sylvestre",
+            "herb_name_scientific": "Gymnema sylvestre",
+            "herb_total_score": 2750
+        },
+        {
+            "herb_slug": "mentha-x-piperita",
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_total_score": 116225
+        },
+        {
+            "herb_slug": "symphytum-officinale",
+            "herb_name_scientific": "Symphytum officinale",
+            "herb_total_score": 16552
+        },
+        {
+            "herb_slug": "matricaria-chamomilla",
+            "herb_name_scientific": "Matricaria chamomilla",
+            "herb_total_score": 11603
+        },
+        {
+            "herb_slug": "citrus-reticulata",
+            "herb_name_scientific": "Citrus reticulata",
+            "herb_total_score": 2344
+        },
+        {
+            "herb_slug": "valeriana-officinalis",
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_total_score": 160294
+        },
+        {
+            "herb_slug": "angelica-archangelica",
+            "herb_name_scientific": "Angelica archangelica",
+            "herb_total_score": 8929
+        },
+        {
+            "herb_slug": "cymbopogon-citratus",
+            "herb_name_scientific": "Cymbopogon citratus",
+            "herb_total_score": 38202
+        },
+        {
+            "herb_slug": "paeonia-lactiflora",
+            "herb_name_scientific": "Paeonia lactiflora",
+            "herb_total_score": 35760
+        },
+        {
+            "herb_slug": "avena-sativa",
+            "herb_name_scientific": "Avena sativa",
+            "herb_total_score": 74860
+        },
+        {
+            "herb_slug": "ruta-graveolens",
+            "herb_name_scientific": "Ruta graveolens",
+            "herb_total_score": 272
+        },
+        {
+            "herb_slug": "elettaria-cardamomum",
+            "herb_name_scientific": "Elettaria cardamomum",
+            "herb_total_score": 2754
+        },
+        {
+            "herb_slug": "angelica-sinensis",
+            "herb_name_scientific": "Angelica sinensis",
+            "herb_total_score": 32326
+        },
+        {
+            "herb_slug": "vitex-agnus-castus",
+            "herb_name_scientific": "Vitex agnus-castus",
+            "herb_total_score": 26254
+        },
+        {
+            "herb_slug": "cimicifuga-racemosa",
+            "herb_name_scientific": "Cimicifuga racemosa",
+            "herb_total_score": 13838
+        },
+        {
+            "herb_slug": "rheum-officinale",
+            "herb_name_scientific": "Rheum officinale",
+            "herb_total_score": 5798
+        },
+        {
+            "herb_slug": "ligusticum-wallichii",
+            "herb_name_scientific": "Ligusticum wallichii",
+            "herb_total_score": 1929
+        },
+        {
+            "herb_slug": "passiflora-incarnata",
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_total_score": 74007
+        },
+        {
+            "herb_slug": "thymus-vulgaris",
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_total_score": 113963
+        },
+        {
+            "herb_slug": "aloe-vera",
+            "herb_name_scientific": "Aloe vera",
+            "herb_total_score": 23463
+        },
+        {
+            "herb_slug": "hibiscus-sabdariffa",
+            "herb_name_scientific": "Hibiscus sabdariffa",
+            "herb_total_score": 907
+        },
+        {
+            "herb_slug": "origanum-vulgare",
+            "herb_name_scientific": "Origanum vulgare",
+            "herb_total_score": 23468
+        },
+        {
+            "herb_slug": "ocimum-basilicum",
+            "herb_name_scientific": "Ocimum basilicum",
+            "herb_total_score": 2045
+        },
+        {
+            "herb_slug": "humulus-lupulus",
+            "herb_name_scientific": "Humulus lupulus",
+            "herb_total_score": 2041
+        },
+        {
+            "herb_slug": "scutellaria-baicalensis",
+            "herb_name_scientific": "Scutellaria baicalensis",
+            "herb_total_score": 5035
+        },
+        {
+            "herb_slug": "lavandula-latifolia",
+            "herb_name_scientific": "Lavandula latifolia",
+            "herb_total_score": 4295
+        },
+        {
+            "herb_slug": "leonurus-cardiaca",
+            "herb_name_scientific": "Leonurus cardiaca",
+            "herb_total_score": 350
+        },
+        {
+            "herb_slug": "piper-methysticum",
+            "herb_name_scientific": "Piper methysticum",
+            "herb_total_score": 357
+        },
+        {
+            "herb_slug": "rauvolfia-serpentina",
+            "herb_name_scientific": "Rauvolfia serpentina",
+            "herb_total_score": 4644
+        },
+        {
+            "herb_slug": "schisandra-chinensis",
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_total_score": 26935
+        },
+        {
+            "herb_slug": "withania-somnifera",
+            "herb_name_scientific": "Withania somnifera",
+            "herb_total_score": 19668
+        },
+        {
+            "herb_slug": "bacopa-monnieri",
+            "herb_name_scientific": "Bacopa monnieri",
+            "herb_total_score": 9209
+        },
+        {
+            "herb_slug": "artemisia-absinthium",
+            "herb_name_scientific": "Artemisia absinthium",
+            "herb_total_score": 35938
+        },
+        {
+            "herb_slug": "chamomilla-recutita",
+            "herb_name_scientific": "Chamomilla recutita",
+            "herb_total_score": 2381
+        },
+        {
+            "herb_slug": "saponaria-officinalis",
+            "herb_name_scientific": "Saponaria officinalis",
+            "herb_total_score": 7308
+        },
+        {
+            "herb_slug": "equisetum-arvense",
+            "herb_name_scientific": "Equisetum arvense",
+            "herb_total_score": 41044
+        },
+        {
+            "herb_slug": "thymus-serpyllum",
+            "herb_name_scientific": "Thymus serpyllum",
+            "herb_total_score": 13645
+        },
+        {
+            "herb_slug": "verbascum-thapsus",
+            "herb_name_scientific": "Verbascum thapsus",
+            "herb_total_score": 10235
+        },
+        {
+            "herb_slug": "ephedra-sinica",
+            "herb_name_scientific": "Ephedra sinica",
+            "herb_total_score": 2011
+        },
+        {
+            "herb_slug": "echinacea-angustifolia",
+            "herb_name_scientific": "Echinacea angustifolia",
+            "herb_total_score": 23269
+        },
+        {
+            "herb_slug": "centella-asiatica",
+            "herb_name_scientific": "Centella asiatica",
+            "herb_total_score": 13107
+        },
+        {
+            "herb_slug": "cannabis-sativa",
+            "herb_name_scientific": "Cannabis sativa",
+            "herb_total_score": 969
+        },
+        {
+            "herb_slug": "trifolium-pratense",
+            "herb_name_scientific": "Trifolium pratense",
+            "herb_total_score": 7507
+        },
+        {
+            "herb_slug": "hydrastis-canadensis",
+            "herb_name_scientific": "Hydrastis canadensis",
+            "herb_total_score": 12144
+        },
+        {
+            "herb_slug": "commiphora-molmol",
+            "herb_name_scientific": "Commiphora molmol",
+            "herb_total_score": 364
+        },
+        {
+            "herb_slug": "ulmus-rubra",
+            "herb_name_scientific": "Ulmus rubra",
+            "herb_total_score": 1995
+        },
+        {
+            "herb_slug": "corydalis-yanhusuo",
+            "herb_name_scientific": "Corydalis yanhusuo",
+            "herb_total_score": 734
+        },
+        {
+            "herb_slug": "zanthoxylum-bungeanum",
+            "herb_name_scientific": "Zanthoxylum bungeanum",
+            "herb_total_score": 6509
+        },
+        {
+            "herb_slug": "cuminum-cyminum",
+            "herb_name_scientific": "Cuminum cyminum",
+            "herb_total_score": 6772
+        },
+        {
+            "herb_slug": "coriandrum-sativum",
+            "herb_name_scientific": "Coriandrum sativum",
+            "herb_total_score": 3636
+        },
+        {
+            "herb_slug": "zingiber-zerumbet",
+            "herb_name_scientific": "Zingiber zerumbet",
+            "herb_total_score": 1256
+        },
+        {
+            "herb_slug": "althaea-officinalis",
+            "herb_name_scientific": "Althaea officinalis",
+            "herb_total_score": 6976
+        },
+        {
+            "herb_slug": "vaccinium-myrtillus",
+            "herb_name_scientific": "Vaccinium myrtillus",
+            "herb_total_score": 8171
+        },
+        {
+            "herb_slug": "cinnamomum-zeylanicum",
+            "herb_name_scientific": "Cinnamomum zeylanicum",
+            "herb_total_score": 1714
+        },
+        {
+            "herb_slug": "ziziphus-jujuba",
+            "herb_name_scientific": "Ziziphus jujuba",
+            "herb_total_score": 155
+        },
+        {
+            "herb_slug": "vitis-vinifera",
+            "herb_name_scientific": "Vitis vinifera",
+            "herb_total_score": 4669
+        },
+        {
+            "herb_slug": "ruscus-aculeatus",
+            "herb_name_scientific": "Ruscus aculeatus",
+            "herb_total_score": 7292
+        },
+        {
+            "herb_slug": "hyptis-suaveolens",
+            "herb_name_scientific": "Hyptis suaveolens",
+            "herb_total_score": 1839
+        },
+        {
+            "herb_slug": "rheum-palmatum",
+            "herb_name_scientific": "Rheum palmatum",
+            "herb_total_score": 6813
+        },
+        {
+            "herb_slug": "gardenia-jasminoides",
+            "herb_name_scientific": "Gardenia jasminoides",
+            "herb_total_score": 609
+        },
+        {
+            "herb_slug": "magnolia-officinalis",
+            "herb_name_scientific": "Magnolia officinalis",
+            "herb_total_score": 240
+        },
+        {
+            "herb_slug": "syzygium-aromaticum",
+            "herb_name_scientific": "Syzygium aromaticum",
+            "herb_total_score": 644
+        },
+        {
+            "herb_slug": "serenoa-repens",
+            "herb_name_scientific": "Serenoa repens",
+            "herb_total_score": 6065
+        },
+        {
+            "herb_slug": "arnica-montana",
+            "herb_name_scientific": "Arnica montana",
+            "herb_total_score": 15320
+        },
+        {
+            "herb_slug": "plantago-major",
+            "herb_name_scientific": "Plantago major",
+            "herb_total_score": 1587
+        },
+        {
+            "herb_slug": "hamamelis-virginiana",
+            "herb_name_scientific": "Hamamelis virginiana",
+            "herb_total_score": 7094
+        },
+        {
+            "herb_slug": "boswellia-serrata",
+            "herb_name_scientific": "Boswellia serrata",
+            "herb_total_score": 5483
+        },
+        {
+            "herb_slug": "salix-alba",
+            "herb_name_scientific": "Salix alba",
+            "herb_total_score": 1227
+        }
+    ],
+    "preparation_list": [
+        {
+            "herb_slug": "zingiber-officinale",
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_total_score": 622460,
+            "desc": "Zingiber officinale teas are used to treat digestive issues, nausea, and inflammation. They are commonly consumed for their ability to alleviate symptoms of indigestion, motion sickness, and menstrual cramps. The most important bioactive constituents in Zingiber officinale include gingerol, shogaol, and zingerone, which have potent anti-inflammatory and antioxidant properties. These compounds contribute to the tea's effectiveness in reducing pain and promoting gastrointestinal health. Additionally, ginger tea is often used to relieve headaches and muscle pain."
+        },
+        {
+            "herb_slug": "glycyrrhiza-glabra",
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_total_score": 552256,
+            "desc": "Glycyrrhiza glabra teas are used to treat respiratory conditions such as coughs, bronchitis, and sore throats, as well as digestive issues like indigestion and ulcers. They are also commonly used for skin inflammation and to support the immune system. The most important bioactive constituents include glycyrrhizin, which has anti-inflammatory and antiviral properties, and flavonoids, which contribute to its antioxidant effects. Additionally, saponins and minerals like potassium and magnesium are present and contribute to its therapeutic value. These compounds work together to provide the medicinal benefits associated with licorice root tea."
+        },
+        {
+            "herb_slug": "ginkgo-biloba",
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_total_score": 477308,
+            "desc": "Ginkgo biloba teas are used to improve cognitive function, enhance memory, and support circulation, particularly in conditions like dementia and peripheral vascular disease. They are also commonly used to alleviate symptoms of anxiety, depression, and tinnitus. The most important bioactive constituents in Ginkgo biloba include flavonoids and terpenoids, which are believed to contribute to its antioxidant, anti-inflammatory, and neuroprotective effects. These compounds help to dilate blood vessels and improve blood flow, supporting overall brain and cardiovascular health. Additionally, they may help reduce oxidative stress, which is linked to various chronic diseases."
+        },
+        {
+            "herb_slug": "lavandula-angustifolia",
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_total_score": 460812,
+            "desc": "Lavandula angustifolia teas are used to relieve symptoms of anxiety, insomnia, and mild skin irritations. They are commonly used to treat stress-related conditions, promote relaxation, and improve sleep quality. The most important bioactive constituents include lavandins, which are a group of linalool and linalyl acetate, along with other terpenes and flavonoids. These compounds contribute to the herb's calming and anti-inflammatory properties. Additionally, the tea is sometimes used for digestive support and to alleviate headaches."
+        },
+        {
+            "herb_slug": "echinacea-purpurea",
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_total_score": 405100,
+            "desc": "Echinacea purpurea teas are used to support the immune system and alleviate symptoms of colds, flu, and respiratory infections. They are commonly used for treating mild to moderate viral infections, particularly in the upper respiratory tract. The most important bioactive constituents include alkamides, caffeic acid derivatives, and polysaccharides, which are believed to enhance immune response and have anti-inflammatory properties. These compounds contribute to the herb's reputation as a natural remedy for boosting immunity. However, their effectiveness may vary, and they should not replace professional medical advice for serious illnesses."
+        },
+        {
+            "herb_slug": "curcuma-longa",
+            "herb_name_scientific": "Curcuma longa",
+            "herb_total_score": 296923,
+            "desc": "Curcuma longa teas are used to alleviate inflammation, digestive issues, and skin conditions. They are commonly employed to treat arthritis, irritable bowel syndrome, and acne. The most important bioactive constituents in Curcuma longa are curcuminoids, particularly curcumin, which possess strong anti-inflammatory and antioxidant properties. These compounds help reduce oxidative stress and modulate immune responses. Additionally, they may support liver function and improve cognitive health."
+        },
+        {
+            "herb_slug": "rosmarinus-officinalis",
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_total_score": 293168,
+            "desc": "Rosmarinus officinalis teas are used to treat digestive issues, improve memory, and alleviate symptoms of depression and anxiety. They are commonly used for their calming effects on the nervous system and to support cognitive function. The most important bioactive constituents in this herbal preparation include rosmarinic acid, flavonoids, and essential oils such as cineole and camphor. These compounds contribute to its anti-inflammatory, antioxidant, and neuroprotective properties. Rosmarinus officinalis teas are also believed to promote circulation and support respiratory health."
+        },
+        {
+            "herb_slug": "eucalyptus-globulus",
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_total_score": 231206,
+            "desc": "Eucalyptus globulus teas are used to relieve respiratory symptoms such as congestion, coughing, and inflammation. They are commonly used to treat ailments like colds, bronchitis, and sinusitis due to their decongestant and anti-inflammatory properties. The most important bioactive constituents include eucalyptol (also known as cineole), which has antimicrobial and expectorant effects, as well as other compounds like flavonoids and terpenes. These components contribute to its ability to soothe the respiratory tract and reduce mucus buildup. Eucalyptus globulus teas are also sometimes used for their calming and aromatic effects to help with stress and mental clarity."
+        },
+        {
+            "herb_slug": "silybum-marianum",
+            "herb_name_scientific": "Silybum marianum",
+            "herb_total_score": 230920,
+            "desc": "Silybum marianum teas are used to support liver health, reduce inflammation, and aid in the treatment of digestive disorders. They are commonly used for ailments such as hepatitis, cirrhosis, and other liver-related conditions. The most important bioactive constituents include silymarin, a group of flavonoids known for their antioxidant and anti-inflammatory properties. Silymarin helps protect liver cells from damage caused by toxins and free radicals. This herbal preparation is also sometimes used to promote overall detoxification and improve skin health."
+        },
+        {
+            "herb_slug": "melissa-officinalis",
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_total_score": 221785,
+            "desc": "Melissa officinalis teas are used to alleviate symptoms of anxiety, stress, and insomnia due to their calming effects on the nervous system. They are also commonly used to support digestive health and reduce symptoms of nausea and bloating. The most important bioactive constituents in Melissa officinalis teas include volatile oils, such as citral and geraniol, as well as flavonoids like apigenin and luteolin, which contribute to their medicinal properties. These compounds are known for their antioxidant, anti-inflammatory, and anxiolytic effects. Additionally, Melissa officinalis teas may help in reducing symptoms of mild depression and improving overall mood."
+        },
+        {
+            "herb_slug": "cinchona-officinalis",
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_total_score": 207883,
+            "desc": "Cinchona officinalis teas are used to treat fever, malaria, and digestive issues. This herbal preparation contains quinine, which is the most important bioactive constituent responsible for its medicinal properties. Quinine works by interfering with the life cycle of the Plasmodium parasite, making it effective against malaria. It also has antipyretic and anti-inflammatory effects that help reduce fever and soothe digestive discomfort. Additionally, it may support immune function and has been traditionally used for its tonic effects on the body."
+        },
+        {
+            "herb_slug": "achillea-millefolium",
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_total_score": 165717,
+            "desc": "Achillea millefolium teas are used to treat digestive issues, menstrual cramps, and skin conditions such as eczema and wounds. They are also commonly used for their calming effects to reduce anxiety and promote relaxation. The most important bioactive constituents in Achillea millefolium include volatile oils, such as chamazulene and alpha-pinene, as well as flavonoids like apigenin and luteolin, which contribute to its anti-inflammatory, antispasmodic, and antioxidant properties. These compounds help explain its traditional use in supporting the digestive and reproductive systems. Additionally, its ability to promote wound healing is attributed to its rich content of sesquiterpene lactones."
+        },
+        {
+            "herb_slug": "valeriana-officinalis",
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_total_score": 160294,
+            "desc": "Valeriana officinalis teas are used to treat anxiety, insomnia, and nervous tension. They are commonly consumed to promote relaxation and improve sleep quality. The primary bioactive constituents include valerenic acid, which has sedative and anxiolytic properties, and flavonoids, which contribute to its calming effects. These compounds work by modulating the central nervous system and enhancing GABA activity. This herbal preparation is also sometimes used for digestive issues and muscle spasms."
+        },
+        {
+            "herb_slug": "sambucus-nigra",
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_total_score": 144053,
+            "desc": "Sambucus nigra teas are used to treat respiratory infections, colds, flu, and fever due to their antiviral and immune-stimulating properties. They are also commonly used to alleviate symptoms of arthritis and inflammation because of their anti-inflammatory effects. The most important bioactive constituents in Sambucus nigra include flavonoids, such as rutin and quercetin, which have antioxidant and anti-inflammatory properties. Additionally, the tea contains mucilage, which can soothe irritated mucous membranes. These compounds contribute to its traditional use in supporting immune health and reducing inflammatory conditions."
+        },
+        {
+            "herb_slug": "taraxacum-officinale",
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_total_score": 131105,
+            "desc": "Taraxacum officinale teas are used to support digestive health, alleviate mild inflammation, and promote detoxification. They are commonly used to treat ailments such as indigestion, constipation, and liver disorders. The most important bioactive constituents include inulin, chicoric acid, and various flavonoids, which contribute to their medicinal properties. These compounds help reduce inflammation, support gut health, and enhance the body's natural detoxification processes. Additionally, the tea is believed to have mild diuretic and antioxidant effects."
+        },
+        {
+            "herb_slug": "foeniculum-vulgare",
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_total_score": 123557,
+            "desc": "Foeniculum vulgare teas are used to aid digestion, relieve bloating, and support respiratory health. They are commonly used to treat indigestion, gas, and mild coughs. The most important bioactive constituents include volatile oils, such as anethole, and flavonoids, which have antispasmodic and anti-inflammatory properties. These compounds contribute to the tea's ability to soothe the digestive tract and reduce inflammation. Foeniculum vulgare teas are also sometimes used to support lactation in nursing mothers."
+        },
+        {
+            "herb_slug": "urtica-dioica",
+            "herb_name_scientific": "Urtica dioica",
+            "herb_total_score": 122617,
+            "desc": "Urtica dioica teas are used to treat ailments such as skin irritations, inflammation, and digestive issues. They are commonly employed for their anti-inflammatory and diuretic properties. The most important bioactive constituents include polyphenols, flavonoids, and minerals like potassium and magnesium. These compounds contribute to the tea\u2019s ability to soothe inflammation and support urinary tract health. Additionally, Urtica dioica is believed to aid in detoxification and may help with respiratory conditions."
+        },
+        {
+            "herb_slug": "hypericum-perforatum",
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_total_score": 118901,
+            "desc": "Hypericum perforatum teas are used to treat mild depression, anxiety, and sleep disorders. They are also commonly used for nerve pain, such as that associated with shingles or neuropathy. The most important bioactive constituents in Hypericum perforatum include hypericin, hyperforin, and flavonoids, which are believed to contribute to its antidepressant and anti-inflammatory effects. These compounds may influence neurotransmitter levels in the brain, such as serotonin, dopamine, and norepinephrine. However, they should be used with caution, as they may interact with certain medications."
+        },
+        {
+            "herb_slug": "mentha-x-piperita",
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_total_score": 116225,
+            "desc": "Mentha x piperita teas are used to relieve digestive issues, headaches, and respiratory congestion. They are commonly used to treat ailments such as indigestion, nausea, and sore throat. The most important bioactive constituents in this herbal preparation include menthol, menthone, and pulegone, which contribute to its medicinal properties. These compounds have antispasmodic, analgesic, and decongestant effects. Additionally, the tea may help alleviate stress and promote relaxation due to its calming aroma."
+        },
+        {
+            "herb_slug": "thymus-vulgaris",
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_total_score": 113963,
+            "desc": "Thymus vulgaris teas are used to treat respiratory infections, coughs, and bronchitis due to their expectorant and antimicrobial properties. They are also commonly used for digestive issues such as bloating and indigestion. The most important bioactive constituents in Thymus vulgaris include thymol, carvacrol, and terpenoids, which contribute to its anti-inflammatory, antioxidant, and antimicrobial effects. These compounds help support immune function and may alleviate symptoms of colds and sore throats. Additionally, thyme tea is sometimes used to relieve muscle pain and improve mental clarity."
+        },
+        {
+            "herb_slug": "calendula-officinalis",
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_total_score": 110233,
+            "desc": "Calendula officinalis teas are used to treat digestive issues, skin irritations, and inflammation. They are commonly used for ailments such as gastritis, ulcers, and eczema due to their soothing and anti-inflammatory properties. The most important bioactive constituents include flavonoids, triterpenes, and carotenoids, which contribute to their medicinal effects. These compounds help reduce oxidative stress and promote wound healing. Calendula teas are also known to support immune function and may aid in reducing symptoms of respiratory conditions."
+        },
+        {
+            "herb_slug": "aloe-barbadensis",
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_total_score": 104577,
+            "desc": "Aloe barbadensis teas are used to soothe digestive issues, reduce inflammation, and promote skin healing. They are commonly used to treat ailments such as constipation, irritable bowel syndrome, and inflammatory skin conditions like eczema. The most important bioactive constituents in aloe barbadensis include polysaccharides, anthraquinones, and enzymes, which contribute to its medicinal properties. These compounds help regulate bowel movements, reduce oxidative stress, and support immune function. Additionally, aloe tea may aid in detoxification and provide mild antimicrobial benefits."
+        },
+        {
+            "herb_slug": "salvia-officinalis",
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_total_score": 84849,
+            "desc": "Salvia officinalis teas are used to alleviate digestive issues, reduce anxiety, and promote respiratory health. They are commonly used to treat ailments such as indigestion, bloating, stress, and coughs. The most important bioactive constituents in Salvia officinalis include rosmarinic acid, flavonoids, and essential oils like carnosic acid and camphor. These compounds contribute to its anti-inflammatory, antioxidant, and calming properties. This herbal preparation is also valued for its potential to enhance memory and support overall well-being."
+        },
+        {
+            "herb_slug": "panax-ginseng",
+            "herb_name_scientific": "Panax ginseng",
+            "herb_total_score": 78073,
+            "desc": "Panax ginseng teas are used to enhance energy, reduce stress, and improve cognitive function. They are commonly used to treat fatigue, anxiety, and mild depression. The most important bioactive constituents in Panax ginseng include ginsenosides, which are believed to have adaptogenic and neuroprotective properties. These compounds help the body resist stress and support immune function. Additionally, they may aid in improving sexual function and regulating blood sugar levels."
+        },
+        {
+            "herb_slug": "avena-sativa",
+            "herb_name_scientific": "Avena sativa",
+            "herb_total_score": 74860,
+            "desc": "Avena sativa teas are used to alleviate symptoms of anxiety, insomnia, and digestive issues. They are commonly consumed to promote relaxation, improve sleep quality, and soothe gastrointestinal discomfort. The most important bioactive constituents in Avena sativa include saponins, polyphenols, and mucilage, which contribute to its calming and digestive benefits. These compounds help reduce stress and support the nervous system. Additionally, the tea may aid in reducing inflammation and supporting overall digestive health."
+        },
+        {
+            "herb_slug": "passiflora-incarnata",
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_total_score": 74007,
+            "desc": "Passiflora incarnata teas are used to promote relaxation, reduce anxiety, and improve sleep quality. They are commonly used to treat insomnia, nervousness, and restlessness due to their calming effects on the nervous system. The most important bioactive constituents include flavonoids, alkaloids, and phenolic compounds, which contribute to its sedative and anxiolytic properties. These compounds work synergistically to enhance the tea\u2019s therapeutic effects. Passiflora incarnata is also sometimes used to support digestive health and alleviate mild menstrual discomfort."
+        },
+        {
+            "herb_slug": "astragalus-membranaceus",
+            "herb_name_scientific": "Astragalus membranaceus",
+            "herb_total_score": 58965,
+            "desc": "Astragalus membranaceus teas are used to support immune function, enhance vitality, and promote respiratory health. They are commonly used to treat conditions such as fatigue, colds, flu, and chronic respiratory infections. The most important bioactive constituents include polysaccharides, saponins, and flavonoids, which are known for their immune-modulating and anti-inflammatory properties. These compounds help strengthen the body's defenses and may reduce the severity of illnesses. Astragalus membranaceus teas are also believed to aid in kidney health and improve overall energy levels."
+        },
+        {
+            "herb_slug": "cinnamomum-verum",
+            "herb_name_scientific": "Cinnamomum verum",
+            "herb_total_score": 53050,
+            "desc": "Cinnamomum verum teas are used to treat ailments such as digestive issues, respiratory infections, and inflammation. They are commonly consumed to alleviate symptoms of colds, coughs, and sore throats due to their warming properties. The most important bioactive constituents include cinnamaldehyde, which has antimicrobial and anti-inflammatory effects, and essential oils that contribute to its therapeutic properties. Additionally, they contain polyphenols that support cardiovascular health and may help regulate blood sugar levels. These teas are also valued for their ability to promote circulation and ease menstrual discomfort."
+        },
+        {
+            "herb_slug": "melaleuca-alternifolia",
+            "herb_name_scientific": "Melaleuca alternifolia",
+            "herb_total_score": 41621,
+            "desc": "Melaleuca alternifolia teas are used to treat respiratory infections, skin conditions, and minor wounds due to their antimicrobial and anti-inflammatory properties. They are commonly used for alleviating symptoms of colds, coughs, and sore throats. The most important bioactive constituents in Melaleuca alternifolia teas are terpenoids, particularly cineole and flavonoids, which contribute to their medicinal effects. These compounds help reduce inflammation and inhibit the growth of bacteria and fungi. Additionally, the tea is sometimes used for its soothing effects on the digestive system."
+        },
+        {
+            "herb_slug": "equisetum-arvense",
+            "herb_name_scientific": "Equisetum arvense",
+            "herb_total_score": 41044,
+            "desc": "Equisetum arvense teas are used to support kidney function, reduce inflammation, and aid in the treatment of urinary tract infections and bladder disorders. They are commonly used for conditions such as kidney stones, edema, and prostate issues. The most important bioactive constituents include silicic acid, which supports connective tissue and bone health, and flavonoids, which have antioxidant and anti-inflammatory properties. Additionally, the plant contains volatile oils and alkaloids that contribute to its medicinal effects. Equisetum arvense is also believed to help detoxify the body and improve circulation."
+        },
+        {
+            "herb_slug": "cymbopogon-citratus",
+            "herb_name_scientific": "Cymbopogon citratus",
+            "herb_total_score": 38202,
+            "desc": "Cymbopogon citratus teas are used to treat ailments such as digestive issues, stress, and insomnia. They are commonly consumed to alleviate symptoms of anxiety, nausea, and headaches. The most important bioactive constituents in this herbal preparation include citral, myrcene, and limonene, which contribute to its calming and antispasmodic effects. These compounds also possess antimicrobial and anti-inflammatory properties. Overall, Cymbopogon citratus teas are valued for their soothing and therapeutic benefits in traditional and modern herbal medicine."
+        },
+        {
+            "herb_slug": "camellia-sinensis",
+            "herb_name_scientific": "Camellia sinensis",
+            "herb_total_score": 37411,
+            "desc": "Camellia sinensis teas are used to promote relaxation, enhance mental alertness, and support digestive health. They are commonly used to treat ailments such as stress, insomnia, and gastrointestinal issues like indigestion and constipation. The most important bioactive constituents include caffeine, catechins, and polyphenols, which contribute to their medicinal properties. These compounds have antioxidant, anti-inflammatory, and neuroprotective effects. Additionally, they may aid in weight management and improve cardiovascular health."
+        },
+        {
+            "herb_slug": "artemisia-absinthium",
+            "herb_name_scientific": "Artemisia absinthium",
+            "herb_total_score": 35938,
+            "desc": "Artemisia absinthium teas are used to treat digestive issues, including indigestion, bloating, and nausea. They are also commonly used for their antiparasitic properties to help expel intestinal worms. Additionally, they may support liver function and are sometimes used to manage symptoms of malaria. The most important bioactive constituents include thujone, which has antiparasitic and antifungal effects, and flavonoids, which contribute to its antioxidant and anti-inflammatory properties. However, due to the presence of thujone, these teas should be used with caution and under professional guidance."
+        },
+        {
+            "herb_slug": "paeonia-lactiflora",
+            "herb_name_scientific": "Paeonia lactiflora",
+            "herb_total_score": 35760,
+            "desc": "Paeonia lactiflora teas are used to relieve symptoms of menopause, such as hot flashes and mood swings, and to support digestive health by alleviating bloating and indigestion. They are also commonly used to reduce inflammation and pain associated with conditions like arthritis. The most important bioactive constituents in Paeonia lactiflora include paeoniflorin, which has analgesic and anti-inflammatory properties, and other alkaloids and flavonoids that contribute to its medicinal effects. These compounds work synergistically to modulate the nervous system and reduce oxidative stress. Overall, Paeonia lactiflora teas are valued for their calming and therapeutic benefits in traditional and modern herbal medicine."
+        },
+        {
+            "herb_slug": "angelica-sinensis",
+            "herb_name_scientific": "Angelica sinensis",
+            "herb_total_score": 32326,
+            "desc": "Angelica sinensis teas are used to support women's health, particularly in managing menstrual disorders, menopause symptoms, and fertility issues. They are commonly used to treat conditions such as dysmenorrhea (painful menstruation), anemia, and hormonal imbalances. The most important bioactive constituents include ferulic acid, ligustilide, and adenosine, which contribute to their medicinal properties. These compounds help improve blood circulation, reduce inflammation, and support hormonal balance. Angelica sinensis teas are also valued for their ability to enhance vitality and promote overall wellness."
+        },
+        {
+            "herb_slug": "schisandra-chinensis",
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_total_score": 26935,
+            "desc": "Schisandra chinensis teas are used to support liver function, reduce stress, enhance mental clarity, and aid in respiratory health. They are commonly used to treat ailments such as fatigue, insomnia, anxiety, and digestive issues. The most important bioactive constituents include lignans, which have antioxidant and anti-inflammatory properties, as well as vitamin C and essential oils that contribute to its medicinal effects. These compounds help protect the liver, improve mood, and boost overall vitality. Schisandra chinensis is also valued for its adaptogenic qualities, helping the body resist stress and maintain balance."
+        },
+        {
+            "herb_slug": "vitex-agnus-castus",
+            "herb_name_scientific": "Vitex agnus-castus",
+            "herb_total_score": 26254,
+            "desc": "Vitex agnus-castus teas are used to support hormonal balance, particularly in women, by addressing conditions such as irregular menstrual cycles, premenstrual syndrome (PMS), and menopausal symptoms. They are also commonly used to alleviate symptoms of infertility and to regulate menstrual flow. The most important bioactive constituents include flavonoids, iridoids, and essential oils, which contribute to their medicinal properties. These compounds are believed to influence the pituitary gland and regulate hormone production. Additionally, Vitex agnus-castus may help reduce anxiety and improve mood, making it a popular choice for women's health support."
+        },
+        {
+            "herb_slug": "origanum-vulgare",
+            "herb_name_scientific": "Origanum vulgare",
+            "herb_total_score": 23468,
+            "desc": "Origanum vulgare teas are used to treat digestive issues, respiratory infections, and stress-related ailments. Common uses include alleviating symptoms of indigestion, nausea, and bloating, as well as easing coughs and sore throats. They are also used to support immune function and reduce inflammation. The most important bioactive constituents include carvacrol, thymol, and flavonoids, which have antimicrobial, antispasmodic, and antioxidant properties. These compounds contribute to the tea's therapeutic effects in traditional and modern medicine."
+        },
+        {
+            "herb_slug": "aloe-vera",
+            "herb_name_scientific": "Aloe vera",
+            "herb_total_score": 23463,
+            "desc": "Aloe vera teas are used to soothe digestive issues, reduce inflammation, and support skin health. They are commonly used to treat ailments such as indigestion, constipation, and inflammatory conditions like arthritis. The most important bioactive constituents in aloe vera include polysaccharides, which have immune-boosting properties, and anthraquinones, which have laxative and anti-inflammatory effects. Additionally, enzymes like amylase and lipase aid in digestion. These components work together to provide the therapeutic benefits associated with aloe vera teas."
+        },
+        {
+            "herb_slug": "echinacea-angustifolia",
+            "herb_name_scientific": "Echinacea angustifolia",
+            "herb_total_score": 23269,
+            "desc": "Echinacea angustifolia teas are used to support immune function and alleviate symptoms of colds, flu, and respiratory infections. They are commonly used for treating upper respiratory tract infections, such as sore throats and bronchitis, as well as for reducing the duration and severity of viral infections. The most important bioactive constituents in Echinacea angustifolia include alkamides, caffeic acid derivatives, and polysaccharides, which are believed to contribute to its immune-stimulating properties. These compounds may enhance the body's defense mechanisms and reduce inflammation. Additionally, some studies suggest that Echinacea may have antimicrobial effects against certain bacteria and viruses."
+        },
+        {
+            "herb_slug": "withania-somnifera",
+            "herb_name_scientific": "Withania somnifera",
+            "herb_total_score": 19668,
+            "desc": "Withania somnifera teas are used to support overall health, particularly for stress, anxiety, and fatigue. They are commonly used to treat conditions such as insomnia, depression, and chronic fatigue syndrome. The most important bioactive constituents in Withania somnifera include alkaloids, steroidal lactones, and withanolides, which are believed to contribute to its adaptogenic and neuroprotective properties. These compounds help regulate the body\u2019s stress response and promote balance. This herbal preparation is also used in traditional medicine to enhance vitality and support immune function."
+        },
+        {
+            "herb_slug": "cassia-auriculata",
+            "herb_name_scientific": "Cassia auriculata",
+            "herb_total_score": 19585,
+            "desc": "Cassia auriculata teas are used to treat various ailments such as digestive issues, inflammation, and skin conditions. They are commonly used for their antimicrobial and anti-inflammatory properties. The most important bioactive constituents include flavonoids, tannins, and saponins, which contribute to their medicinal effects. These compounds help in reducing gastrointestinal discomfort and promoting skin health. Additionally, the tea is believed to support liver function and aid in detoxification."
+        },
+        {
+            "herb_slug": "piper-nigrum",
+            "herb_name_scientific": "Piper nigrum",
+            "herb_total_score": 18072,
+            "desc": "Piper nigrum teas are used to treat digestive issues, respiratory conditions, and skin disorders. They are commonly consumed for their ability to alleviate symptoms of indigestion, nausea, and inflammation. The most important bioactive constituents in Piper nigrum include piperine, which enhances nutrient absorption and has anti-inflammatory properties, and various alkaloids that contribute to its medicinal effects. Additionally, the tea contains volatile oils and phenolic compounds that support its therapeutic benefits. These components work together to provide a range of health benefits, making Piper nigrum a valuable herbal remedy."
+        },
+        {
+            "herb_slug": "symphytum-officinale",
+            "herb_name_scientific": "Symphytum officinale",
+            "herb_total_score": 16552,
+            "desc": "Symphytum officinale teas are used to treat ailments such as muscle pain, joint inflammation, and wounds due to their healing properties. This herbal preparation is commonly used for conditions like bruises, sprains, and skin irritations. The most important bioactive constituents include allantoin, which promotes cell proliferation and tissue repair, and mucilage, which has soothing and anti-inflammatory effects. It also contains alkaloids and saponins that contribute to its medicinal properties. However, it should be used with caution due to potential toxicity from its pyrrolizidine alkaloids."
+        },
+        {
+            "herb_slug": "arnica-montana",
+            "herb_name_scientific": "Arnica montana",
+            "herb_total_score": 15320,
+            "desc": "Arnica montana teas are used to treat a variety of ailments including pain, inflammation, and bruising. They are commonly used for muscle aches, joint pain, and to reduce swelling associated with injuries. The most important bioactive constituents in Arnica montana include sesquiterpene lactones, such as helenalin, and flavonoids, which are believed to contribute to its anti-inflammatory and analgesic properties. These compounds help reduce oxidative stress and inhibit inflammatory responses in the body. However, it is important to note that Arnica montana should not be used internally by pregnant women or on open wounds due to its potential toxicity."
+        },
+        {
+            "herb_slug": "cimicifuga-racemosa",
+            "herb_name_scientific": "Cimicifuga racemosa",
+            "herb_total_score": 13838,
+            "desc": "Cimicifuga racemosa teas are used to alleviate symptoms of menopause, such as hot flashes, night sweats, and mood swings. They are also commonly used to support women's health during hormonal imbalances and to relieve joint pain and muscle aches. The most important bioactive constituents in Cimicifuga racemosa include triterpene glycosides, such as cimicifugosides, and isoflavones, which contribute to its medicinal properties. These compounds are believed to modulate hormonal activity and have anti-inflammatory effects. This herbal preparation is often considered a natural alternative to hormone replacement therapy for managing menopausal symptoms."
+        },
+        {
+            "herb_slug": "thymus-serpyllum",
+            "herb_name_scientific": "Thymus serpyllum",
+            "herb_total_score": 13645,
+            "desc": "Thymus serpyllum teas are used to treat respiratory infections, coughs, and digestive issues such as indigestion and bloating. They are also commonly used for their calming effects to reduce anxiety and promote relaxation. The most important bioactive constituents in Thymus serpyllum include thymol, carvacrol, and essential oils, which have antimicrobial, antifungal, and anti-inflammatory properties. These compounds contribute to its effectiveness in supporting immune function and alleviating symptoms of colds and sore throats. Additionally, the tea may aid in improving appetite and digestion due to its stimulating and soothing effects on the gastrointestinal tract."
+        },
+        {
+            "herb_slug": "plantago-lanceolata",
+            "herb_name_scientific": "Plantago lanceolata",
+            "herb_total_score": 13499,
+            "desc": "Plantago lanceolata teas are used to treat respiratory conditions, digestive issues, and skin irritations. They are commonly used for alleviating symptoms of coughs, bronchitis, and asthma due to their expectorant properties. The tea is also beneficial for reducing inflammation and soothing gastrointestinal discomfort. The most important bioactive constituents include mucilage, flavonoids, and alkaloids, which contribute to its anti-inflammatory, demulcent, and antimicrobial effects. These components help in protecting mucous membranes and promoting healing in various ailments."
+        },
+        {
+            "herb_slug": "centella-asiatica",
+            "herb_name_scientific": "Centella asiatica",
+            "herb_total_score": 13107,
+            "desc": "Centella asiatica teas are used to support skin health, enhance cognitive function, and promote wound healing. They are commonly used to treat conditions such as eczema, psoriasis, and varicose veins, as well as to improve memory and reduce anxiety. The most important bioactive constituents in Centella asiatica include asiatic acid, madecassic acid, and centellin, which have been shown to possess anti-inflammatory, antioxidant, and skin-regenerating properties. These compounds contribute to the herb's traditional and modern medicinal applications. Additionally, the tea is believed to aid in improving circulation and reducing stress."
+        },
+        {
+            "herb_slug": "euphrasia-officinalis",
+            "herb_name_scientific": "Euphrasia officinalis",
+            "herb_total_score": 12834,
+            "desc": "Euphrasia officinalis teas are used to treat eye conditions, respiratory infections, and skin irritations. They are commonly employed for alleviating symptoms such as redness, itching, and inflammation of the eyes, as well as for easing coughs and sore throats. The most important bioactive constituents in Euphrasia officinalis include flavonoids, iridoids, and tannins, which contribute to its anti-inflammatory, antimicrobial, and astringent properties. These compounds help reduce swelling and irritation, making the herb effective for both internal and external applications. It is also sometimes used to support immune function and soothe minor skin ailments."
+        },
+        {
+            "herb_slug": "hydrastis-canadensis",
+            "herb_name_scientific": "Hydrastis canadensis",
+            "herb_total_score": 12144,
+            "desc": "Hydrastis canadensis teas are used to treat digestive issues, skin conditions, and respiratory infections. They are commonly employed for ailments such as indigestion, acne, and coughs. The most important bioactive constituents include berberine, hydrastine, and canadine, which have antimicrobial, anti-inflammatory, and detoxifying properties. These compounds contribute to the tea's ability to support gut health and combat infections. It is also believed to aid in weight management and improve overall vitality."
+        },
+        {
+            "herb_slug": "matricaria-chamomilla",
+            "herb_name_scientific": "Matricaria chamomilla",
+            "herb_total_score": 11603,
+            "desc": "Matricaria chamomilla teas are used to relieve symptoms of digestive issues, anxiety, and insomnia. They are commonly used to treat ailments such as indigestion, bloating, and gastrointestinal discomfort. This herbal preparation is also known for its calming effects, making it useful for stress-related conditions. The most important bioactive constituents include apigenin, a flavonoid with anti-inflammatory and sedative properties, and essential oils like bisabolol and chamazulene, which contribute to its anti-inflammatory and antispasmodic effects. These compounds work together to provide the therapeutic benefits associated with chamomilla tea."
+        },
+        {
+            "herb_slug": "cynara-scolymus",
+            "herb_name_scientific": "Cynara scolymus",
+            "herb_total_score": 10505,
+            "desc": "Cynara scolymus teas are used to support digestive health, alleviate symptoms of indigestion, and promote liver function. They are commonly used to treat ailments such as bloating, constipation, and gallbladder issues. The most important bioactive constituents in Cynara scolymus include sesquiterpene lactones, flavonoids, and polyphenols, which contribute to its anti-inflammatory and antioxidant properties. These compounds help reduce inflammation in the gastrointestinal tract and support detoxification processes in the liver. Additionally, the tea may help lower cholesterol levels and improve overall metabolic function."
+        },
+        {
+            "herb_slug": "verbascum-thapsus",
+            "herb_name_scientific": "Verbascum thapsus",
+            "herb_total_score": 10235,
+            "desc": "Verbascum thapsus teas are used to alleviate symptoms of respiratory conditions such as coughs, bronchitis, and asthma, as well as to support digestive health by reducing inflammation and promoting bowel movement. They are also commonly used for skin conditions like eczema and psoriasis due to their anti-inflammatory properties. The most important bioactive constituents in Verbascum thapsus include mucilage, which soothes mucous membranes, and flavonoids, which have antioxidant and anti-inflammatory effects. Additionally, the plant contains tannins and saponins that contribute to its therapeutic properties. These compounds work together to provide a range of health benefits, making Verbascum thapsus a valued herbal remedy in traditional medicine."
+        },
+        {
+            "herb_slug": "bacopa-monnieri",
+            "herb_name_scientific": "Bacopa monnieri",
+            "herb_total_score": 9209,
+            "desc": "Bacopa monnieri teas are used to enhance cognitive function, reduce anxiety, and improve memory, particularly in conditions like Alzheimer\u2019s disease and age-related cognitive decline. They are also commonly used to support mental clarity and reduce stress. The most important bioactive constituents include bacosides, which are known for their neuroprotective and cognitive-enhancing properties, as well as alkaloids and sterols that contribute to the herb\u2019s medicinal effects. These compounds help in improving nerve impulse transmission and protecting brain cells from oxidative stress. Bacopa monnieri teas are traditionally used in Ayurvedic medicine for their calming and nootropic effects."
+        },
+        {
+            "herb_slug": "angelica-archangelica",
+            "herb_name_scientific": "Angelica archangelica",
+            "herb_total_score": 8929,
+            "desc": "Angelica archangelica teas are used to treat digestive issues, respiratory conditions, and menstrual discomfort. They are commonly used for ailments such as indigestion, nausea, coughs, and menstrual cramps. The most important bioactive constituents include volatile oils, such as limonene and phellandrene, as well as compounds like angelica acid and coumarin. These components contribute to its carminative, antispasmodic, and anti-inflammatory properties. It is also believed to support circulation and immune function."
+        },
+        {
+            "herb_slug": "juniperus-communis",
+            "herb_name_scientific": "Juniperus communis",
+            "herb_total_score": 8893,
+            "desc": "Juniperus communis teas are used to treat urinary tract infections, kidney stones, and digestive issues such as bloating and indigestion. They are also commonly used to support detoxification and alleviate symptoms of arthritis and rheumatism. The most important bioactive constituents in Juniperus communis teas include terpenes, flavonoids, and essential oils, which contribute to their diuretic, anti-inflammatory, and antioxidant properties. These compounds help promote urinary flow, reduce inflammation, and protect cellular health. Additionally, the tea may have mild antiseptic and analgesic effects, making it a traditional remedy for various inflammatory and metabolic conditions."
+        },
+        {
+            "herb_slug": "vaccinium-myrtillus",
+            "herb_name_scientific": "Vaccinium myrtillus",
+            "herb_total_score": 8171,
+            "desc": "Vaccinium myrtillus teas are used to support respiratory health, alleviate digestive issues, and reduce inflammation. They are commonly used to treat colds, coughs, and sore throats due to their antimicrobial properties. The tea is also employed to address mild gastrointestinal discomfort and as a general tonic for immune support. The most important bioactive constituents include flavonoids, tannins, and anthocyanins, which contribute to its antioxidant and anti-inflammatory effects. Additionally, it contains proanthocyanidins that may help strengthen blood vessels and improve circulation."
+        },
+        {
+            "herb_slug": "trifolium-pratense",
+            "herb_name_scientific": "Trifolium pratense",
+            "herb_total_score": 7507,
+            "desc": "Trifolium pratense teas are used to alleviate symptoms of menopause, reduce anxiety, and support cardiovascular health. They are commonly used to treat menstrual disorders, including irregular periods and heavy bleeding. The most important bioactive constituents in Trifolium pratense include flavonoids, such as quercetin and kaempferol, which have antioxidant and anti-inflammatory properties. These compounds contribute to the herb\u2019s ability to regulate hormones and improve blood vessel function. Additionally, the tea may help lower cholesterol and blood pressure, making it beneficial for overall heart health."
+        },
+        {
+            "herb_slug": "saponaria-officinalis",
+            "herb_name_scientific": "Saponaria officinalis",
+            "herb_total_score": 7308,
+            "desc": "Saponaria officinalis teas are used to treat digestive issues, respiratory conditions, and skin disorders. They are commonly employed for ailments such as indigestion, coughs, and eczema. The most important bioactive constituents in Saponaria officinalis include saponins, flavonoids, and tannins, which contribute to its medicinal properties. These compounds have expectorant, anti-inflammatory, and astringent effects. This herbal preparation is also believed to support liver function and promote detoxification."
+        },
+        {
+            "herb_slug": "ruscus-aculeatus",
+            "herb_name_scientific": "Ruscus aculeatus",
+            "herb_total_score": 7292,
+            "desc": "Ruscus aculeatus teas are used to treat conditions such as menstrual disorders, menopause symptoms, and cardiovascular issues like hypertension and arrhythmia. They are commonly used to alleviate symptoms of irregular menstruation, cramps, and premenstrual tension. The most important bioactive constituents in Ruscus aculeatus include saponins, flavonoids, and mucilage, which contribute to its medicinal properties. These compounds are believed to have vasodilatory, antispasmodic, and anti-inflammatory effects. This herbal preparation is also sometimes used to support kidney function and reduce swelling."
+        },
+        {
+            "herb_slug": "hamamelis-virginiana",
+            "herb_name_scientific": "Hamamelis virginiana",
+            "herb_total_score": 7094,
+            "desc": "Hamamelis virginiana teas are used to treat conditions such as hemorrhoids, varicose veins, and skin irritations due to their astringent and anti-inflammatory properties. They are also commonly used for urinary tract infections and to reduce bleeding from wounds or menstrual flow. The most important bioactive constituents in Hamamelis virginiana include tannins, particularly gallic acid and ellagitannins, which contribute to its medicinal effects. These compounds help to constrict blood vessels and reduce inflammation. Additionally, flavonoids and mucilage may support its healing and soothing properties."
+        },
+        {
+            "herb_slug": "althaea-officinalis",
+            "herb_name_scientific": "Althaea officinalis",
+            "herb_total_score": 6976,
+            "desc": "Althaea officinalis teas are used to soothe respiratory and digestive tract irritations, often employed for coughs, sore throats, and gastrointestinal discomfort. They are commonly used to treat conditions such as bronchitis, asthma, and inflammatory bowel issues due to their mild anti-inflammatory properties. The most important bioactive constituents include mucilage, which forms a protective layer over mucous membranes, and flavonoids, which have antioxidant and anti-inflammatory effects. Additionally, Althaea officinalis contains polysaccharides that contribute to its demulcent properties, helping to reduce irritation and promote healing. These components work together to provide relief for various inflammatory and respiratory conditions."
+        },
+        {
+            "herb_slug": "rheum-palmatum",
+            "herb_name_scientific": "Rheum palmatum",
+            "herb_total_score": 6813,
+            "desc": "Rheum palmatum teas are used to treat digestive issues, constipation, and inflammatory conditions such as arthritis. They are also commonly used for their detoxifying properties and to support liver health. The most important bioactive constituents in Rheum palmatum include anthraquinones, which have laxative and anti-inflammatory effects, as well as tannins and alkaloids that contribute to its medicinal properties. These compounds help reduce inflammation and promote bowel movements. Additionally, Rheum palmatum is sometimes used in traditional medicine to address skin conditions and respiratory ailments."
+        },
+        {
+            "herb_slug": "cuminum-cyminum",
+            "herb_name_scientific": "Cuminum cyminum",
+            "herb_total_score": 6772,
+            "desc": "Cuminum cyminum teas are used to aid digestion, relieve bloating, and support respiratory health. They are commonly used to treat indigestion, flatulence, and coughs. The most important bioactive constituents include essential oils such as limonene and pinene, as well as compounds like cumin aldehyde and cuminaldehyde, which contribute to their medicinal properties. These components have carminative, antispasmodic, and expectorant effects. Additionally, they may help in reducing inflammation and supporting overall gastrointestinal function."
+        },
+        {
+            "herb_slug": "crataegus-monogyna",
+            "herb_name_scientific": "Crataegus monogyna",
+            "herb_total_score": 6558,
+            "desc": "Crataegus monogyna teas are used to treat cardiovascular conditions, anxiety, and mild insomnia. They are commonly employed for their calming effects on the nervous system and to support heart health. The most important bioactive constituents include flavonoids, proanthocyanidins, and ursolic acid, which contribute to their medicinal properties. These compounds help improve circulation, reduce inflammation, and have antioxidant effects. Additionally, the tea may aid in lowering blood pressure and easing symptoms of stress-related disorders."
+        },
+        {
+            "herb_slug": "zanthoxylum-bungeanum",
+            "herb_name_scientific": "Zanthoxylum bungeanum",
+            "herb_total_score": 6509,
+            "desc": "Zanthoxylum bungeanum teas are used to treat digestive issues, headaches, and skin conditions. They are commonly used for alleviating nausea, indigestion, and gastrointestinal discomfort. This herbal preparation also helps in reducing inflammation and pain. The key bioactive constituents include alkaloids, flavonoids, and essential oils, which contribute to its medicinal properties. These compounds are believed to have antimicrobial, analgesic, and anti-inflammatory effects."
+        },
+        {
+            "herb_slug": "berberis-vulgaris",
+            "herb_name_scientific": "Berberis vulgaris",
+            "herb_total_score": 6412,
+            "desc": "Berberis vulgaris teas are used to treat digestive issues, infections, and inflammation. They are commonly used for conditions such as diarrhea, urinary tract infections, and skin disorders. The most important bioactive constituents in Berberis vulgaris teas are berberine, which has antimicrobial and anti-inflammatory properties. Additionally, the tea contains alkaloids and phytochemicals that contribute to its medicinal effects. It is often recommended for its ability to support gut health and immune function."
+        },
+        {
+            "herb_slug": "tribulus-terrestris",
+            "herb_name_scientific": "Tribulus terrestris",
+            "herb_total_score": 6409,
+            "desc": "Tribulus terrestris teas are used to support sexual health, enhance athletic performance, and promote overall vitality. They are commonly used to treat conditions such as low libido, erectile dysfunction, and fatigue. The most important bioactive constituents include saponins, particularly protodioscin, which are believed to contribute to its medicinal properties. Additionally, the tea contains flavonoids, alkaloids, and amino acids that may support hormonal balance and energy levels. It is often incorporated into traditional medicine systems for its purported adaptogenic and aphrodisiac effects."
+        },
+        {
+            "herb_slug": "serenoa-repens",
+            "herb_name_scientific": "Serenoa repens",
+            "herb_total_score": 6065,
+            "desc": "Serenoa repens teas are used to support urinary and prostate health, particularly in the management of benign prostatic hyperplasia (BPH) and symptoms of urinary tract infections. They are also commonly used to alleviate symptoms of inflammation and oxidative stress. The most important bioactive constituents include sterols, fatty acids, and phytosterols, which have anti-inflammatory and antioxidant properties. These compounds contribute to the tea's ability to reduce swelling and improve urinary flow. Additionally, Serenoa repens teas may help in reducing cholesterol levels and supporting overall cardiovascular health."
+        },
+        {
+            "herb_slug": "rheum-officinale",
+            "herb_name_scientific": "Rheum officinale",
+            "herb_total_score": 5798,
+            "desc": "Rheum officinale teas are used to treat digestive issues, constipation, and inflammatory conditions such as colitis. They are also commonly used for skin conditions like eczema and psoriasis due to their anti-inflammatory properties. The most important bioactive constituents in Rheum officinale include anthraquinones, which have laxative and anti-inflammatory effects, as well as tannins and alkaloids that contribute to its medicinal properties. These compounds help soothe the gastrointestinal tract and reduce inflammation. This herbal preparation is valued for its ability to support gut health and manage chronic inflammatory disorders."
+        },
+        {
+            "herb_slug": "boswellia-serrata",
+            "herb_name_scientific": "Boswellia serrata",
+            "herb_total_score": 5483,
+            "desc": "Boswellia serrata teas are used to alleviate inflammatory conditions such as arthritis, asthma, and digestive disorders. The most common uses of this herbal preparation include reducing joint pain, improving respiratory function, and supporting gut health. Key bioactive constituents include boswellic acids, which have potent anti-inflammatory properties. These compounds inhibit the production of inflammatory enzymes like 5-lipoxygenase. Additionally, the tea may help with stress-related conditions due to its adaptogenic effects."
+        },
+        {
+            "herb_slug": "arctium-lappa",
+            "herb_name_scientific": "Arctium lappa",
+            "herb_total_score": 5397,
+            "desc": "Arctium lappa teas are used to treat digestive issues, skin conditions, and respiratory ailments such as coughs and bronchitis. They are commonly used for indigestion, bloating, and inflammation of the gastrointestinal tract. The most important bioactive constituents in Arctium lappa include compounds like lappa acid, arctiin, and various flavonoids, which contribute to its anti-inflammatory and antimicrobial properties. These components help reduce inflammation and support the body's natural healing processes. Additionally, the tea may aid in detoxification and promote overall digestive health."
+        },
+        {
+            "herb_slug": "scutellaria-baicalensis",
+            "herb_name_scientific": "Scutellaria baicalensis",
+            "herb_total_score": 5035,
+            "desc": "Scutellaria baicalensis teas are used to treat a variety of ailments including inflammation, infections, and digestive issues. They are commonly employed for their antimicrobial and anti-inflammatory properties, making them useful in managing conditions like sore throat, bronchitis, and gastrointestinal disorders. The most important bioactive constituents in Scutellaria baicalensis are flavonoids such as baicalin and wogonin, which contribute to its therapeutic effects. These compounds exhibit antioxidant, antiviral, and immunomodulatory activities. Additionally, the tea may support liver health and reduce fever."
+        },
+        {
+            "herb_slug": "vitis-vinifera",
+            "herb_name_scientific": "Vitis vinifera",
+            "herb_total_score": 4669,
+            "desc": "Vitis vinifera teas are used to support cardiovascular health, reduce oxidative stress, and manage symptoms of anxiety and insomnia. They are commonly used to treat conditions such as high blood pressure, cholesterol imbalance, and inflammatory disorders. The most important bioactive constituents in Vitis vinifera teas include resveratrol, quercetin, and procyanidins, which have antioxidant, anti-inflammatory, and cardioprotective properties. These compounds contribute to the tea's ability to improve circulation and protect cells from damage. Additionally, Vitis vinifera teas may aid in liver detoxification and support overall metabolic function."
+        },
+        {
+            "herb_slug": "panax-quinquefolius",
+            "herb_name_scientific": "Panax quinquefolius",
+            "herb_total_score": 4661,
+            "desc": "Panax quinquefolius teas are used to support immune function, reduce stress, and alleviate symptoms of anxiety and fatigue. They are commonly used to treat conditions such as insomnia, digestive issues, and mild inflammation. The most important bioactive constituents include ginsenosides, which are triterpene saponins known for their adaptogenic and anti-inflammatory properties. Additionally, panax quinquefolius contains polyphenols and flavonoids that contribute to its antioxidant effects. These compounds work together to promote overall wellness and balance in the body."
+        },
+        {
+            "herb_slug": "rauvolfia-serpentina",
+            "herb_name_scientific": "Rauvolfia serpentina",
+            "herb_total_score": 4644,
+            "desc": "Rauvolfia serpentina teas are used to treat hypertension, anxiety, and insomnia due to their calming and blood pressure-lowering effects. The most common uses include managing high blood pressure, reducing nervous tension, and promoting relaxation. The key bioactive constituents are reserpine and alkaloids such as serpentine and tetrahydroalstonine, which have sedative and antihypertensive properties. These compounds work by affecting the central nervous system and reducing the release of neurotransmitters like norepinephrine. Rauvolfia serpentina has been traditionally used in Ayurvedic medicine for its therapeutic benefits."
+        },
+        {
+            "herb_slug": "salvia-miltiorrhiza",
+            "herb_name_scientific": "Salvia miltiorrhiza",
+            "herb_total_score": 4488,
+            "desc": "Salvia miltiorrhiza teas are used to treat a variety of ailments, including cardiovascular issues, inflammation, and blood disorders. They are commonly used to improve circulation, reduce cholesterol levels, and support liver function. The most important bioactive constituents in Salvia miltiorrhiza include tanshinones, which have potent antioxidant and anti-inflammatory properties, as well as salvianolic acids, which contribute to its cardiovascular benefits. These compounds help in preventing oxidative stress and promoting overall cardiovascular health. This herbal preparation is also used in traditional medicine to address conditions like diabetes and neurodegenerative diseases."
+        },
+        {
+            "herb_slug": "lavandula-latifolia",
+            "herb_name_scientific": "Lavandula latifolia",
+            "herb_total_score": 4295,
+            "desc": "Lavandula latifolia teas are used to relieve symptoms of anxiety, insomnia, and skin irritations. They are commonly used to treat stress-related conditions, promote relaxation, and alleviate mild depression. The most important bioactive constituents in Lavandula latifolia include linalool, linalyl acetate, and camphor, which contribute to its calming and anti-inflammatory properties. These compounds help reduce nervous tension and have mild antiseptic effects. This herbal preparation is also valued for its soothing aroma, which can aid in improving sleep quality and reducing emotional distress."
+        },
+        {
+            "herb_slug": "vaccinium-macrocarpon",
+            "herb_name_scientific": "Vaccinium macrocarpon",
+            "herb_total_score": 3900,
+            "desc": "Vaccinium macrocarpon teas are used to support digestive health, alleviate symptoms of colds and flu, and promote urinary tract wellness. They are commonly used to treat indigestion, nausea, and urinary tract infections due to their antimicrobial and anti-inflammatory properties. The most important bioactive constituents include anthocyanins, which have antioxidant effects, and proanthocyanidins, known for their ability to support vascular health and reduce inflammation. Additionally, the tea contains tannins that contribute to its astringent properties and may aid in reducing excess mucus. These compounds work together to provide a range of therapeutic benefits."
+        },
+        {
+            "herb_slug": "coriandrum-sativum",
+            "herb_name_scientific": "Coriandrum sativum",
+            "herb_total_score": 3636,
+            "desc": "Coriandrum sativum teas are used to relieve digestive issues, reduce inflammation, and support respiratory health. Common ailments treated include bloating, gas, nausea, and indigestion. They are also used for their calming effects to ease anxiety and promote sleep. The most important bioactive constituents include flavonoids, terpenes, and essential oils, which contribute to their anti-inflammatory and antioxidant properties. Additionally, compounds like linalool and borneol are known for their soothing and antimicrobial effects."
+        },
+        {
+            "herb_slug": "pimpinella-anisum",
+            "herb_name_scientific": "Pimpinella anisum",
+            "herb_total_score": 3403,
+            "desc": "Pimpinella anisum teas are used to relieve digestive issues such as bloating, gas, and indigestion. They are also commonly used to ease respiratory conditions like coughs and bronchitis due to their soothing properties. The most important bioactive constituents in anise tea include anethol, which has antispasmodic and carminative effects, and essential oils that contribute to its medicinal properties. Additionally, anise contains flavonoids and phytoestrogens that may support overall health. This herbal preparation is valued for its ability to promote comfort in the gastrointestinal and respiratory systems."
+        },
+        {
+            "herb_slug": "peumus-boldus",
+            "herb_name_scientific": "Peumus boldus",
+            "herb_total_score": 3363,
+            "desc": "Peumus boldus teas are used to treat respiratory conditions such as bronchitis, coughs, and asthma, as well as digestive issues like indigestion and bloating. They are also commonly used for their anti-inflammatory and antimicrobial properties. The most important bioactive constituents in Peumus boldus include flavonoids, such as quercetin and kaempferol, which contribute to its medicinal effects. These compounds help reduce inflammation and support immune function. Additionally, the tea contains essential oils and tannins that enhance its therapeutic benefits."
+        },
+        {
+            "herb_slug": "elettaria-cardamomum",
+            "herb_name_scientific": "Elettaria cardamomum",
+            "herb_total_score": 2754,
+            "desc": "Elettaria cardamomum teas are used to aid digestion, relieve nausea, and reduce bloating. They are commonly consumed to treat gastrointestinal issues such as indigestion and flatulence. The most important bioactive constituents in cardamom include terpenes, alkaloids, and essential oils, which contribute to its medicinal properties. These compounds have antimicrobial, anti-inflammatory, and antioxidant effects. Cardamom tea is also believed to help with respiratory conditions like coughs and bronchitis."
+        },
+        {
+            "herb_slug": "gymnema-sylvestre",
+            "herb_name_scientific": "Gymnema sylvestre",
+            "herb_total_score": 2750,
+            "desc": "Gymnema sylvestre teas are used to support blood sugar regulation and manage symptoms of diabetes by enhancing insulin sensitivity and reducing glucose absorption in the intestines. They are commonly used to treat conditions such as type 2 diabetes, metabolic syndrome, and hyperglycemia. The most important bioactive constituents in Gymnema sylvestre include gymnemic acids, which inhibit sugar absorption, and steroidal saponins, which contribute to its hypoglycemic effects. Additionally, the tea may aid in weight management and reduce cravings for sweet foods. It is also believed to have anti-inflammatory and antioxidant properties that support overall metabolic health."
+        },
+        {
+            "herb_slug": "chamomilla-recutita",
+            "herb_name_scientific": "Chamomilla recutita",
+            "herb_total_score": 2381,
+            "desc": "Chamomilla recutita teas are used to relieve digestive issues, anxiety, insomnia, and inflammatory conditions such as skin irritations and menstrual cramps. They are commonly used to treat ailments like indigestion, stomach cramps, and stress-related disorders. The most important bioactive constituents include flavonoids, such as apigenin, and essential oils like bisabolol and chamazulene, which contribute to their anti-inflammatory, antispasmodic, and calming effects. These compounds help reduce inflammation, soothe the nervous system, and promote relaxation. Chamomilla recutita teas are also valued for their mild sedative properties that aid in improving sleep quality."
+        },
+        {
+            "herb_slug": "citrus-reticulata",
+            "herb_name_scientific": "Citrus reticulata",
+            "herb_total_score": 2344,
+            "desc": "Citrus reticulata teas are used to alleviate digestive issues, reduce stress, and support respiratory health. They are commonly used to treat ailments such as indigestion, nausea, anxiety, and coughs. The most important bioactive constituents in Citrus reticulata teas include flavonoids, limonoids, and vitamin C, which contribute to their medicinal properties. These compounds have antioxidant, anti-inflammatory, and immunomodulatory effects. Overall, Citrus reticulata teas are valued for their gentle yet effective therapeutic benefits."
+        },
+        {
+            "herb_slug": "cassia-angustifolia",
+            "herb_name_scientific": "Cassia angustifolia",
+            "herb_total_score": 2150,
+            "desc": "Cassia angustifolia teas are used to treat digestive issues, constipation, and inflammation. They are commonly used for their laxative effects and to support gastrointestinal health. The most important bioactive constituents include catechins, tannins, and flavonoids, which contribute to their medicinal properties. These compounds help reduce inflammation and promote bowel movements. Additionally, the tea may support skin health and help manage conditions like eczema."
+        },
+        {
+            "herb_slug": "cichorium-intybus",
+            "herb_name_scientific": "Cichorium intybus",
+            "herb_total_score": 2126,
+            "desc": "Cichorium intybus teas are used to support digestive health, alleviate symptoms of indigestion, and reduce inflammation in the gastrointestinal tract. They are commonly used to treat conditions such as constipation, bloating, and irritable bowel syndrome. The most important bioactive constituents in Cichorium intybus teas include inulin, chicoric acid, and sesquiterpene lactones, which contribute to their medicinal properties. These compounds help promote gut health, reduce oxidative stress, and possess antimicrobial and anti-inflammatory effects. Overall, this herbal preparation is valued for its potential to support overall digestive wellness."
+        },
+        {
+            "herb_slug": "terminalia-chebula",
+            "herb_name_scientific": "Terminalia chebula",
+            "herb_total_score": 2051,
+            "desc": "Terminalia chebula teas are used to treat digestive issues, respiratory infections, and skin conditions. They are commonly employed for ailments such as indigestion, coughs, and acne. The most important bioactive constituents include tannins, gallic acid, and chebulinic acid, which have antimicrobial, astringent, and anti-inflammatory properties. These compounds contribute to its effectiveness in reducing inflammation and supporting gut health. Additionally, it is used in traditional medicine for its antioxidant and immune-boosting benefits."
+        },
+        {
+            "herb_slug": "ocimum-basilicum",
+            "herb_name_scientific": "Ocimum basilicum",
+            "herb_total_score": 2045,
+            "desc": "Ocimum basilicum teas are used to relieve digestive issues, reduce stress, and alleviate symptoms of colds and flu. They are commonly used to treat ailments such as indigestion, nausea, headaches, and respiratory infections. The most important bioactive constituents in this herbal preparation include essential oils like eugenol, rosmarinic acid, and flavonoids, which contribute to its medicinal properties. These compounds have antioxidant, anti-inflammatory, and antimicrobial effects. Ocimum basilicum teas are also believed to support cardiovascular health and improve mental clarity."
+        },
+        {
+            "herb_slug": "humulus-lupulus",
+            "herb_name_scientific": "Humulus lupulus",
+            "herb_total_score": 2041,
+            "desc": "Humulus lupulus teas are used to relieve symptoms of insomnia, anxiety, and digestive discomfort. They are commonly employed to treat insomnia due to their calming effects on the nervous system. The most important bioactive constituents include humulone, lupuline, and various flavonoids, which contribute to their sedative and anti-inflammatory properties. These compounds help reduce stress and promote relaxation. Additionally, they may support gastrointestinal health by soothing inflammation in the digestive tract."
+        },
+        {
+            "herb_slug": "anethum-graveolens",
+            "herb_name_scientific": "Anethum graveolens",
+            "herb_total_score": 2015,
+            "desc": "Anethum graveolens teas are used to relieve digestive issues, reduce nausea, and alleviate symptoms of gastrointestinal disorders such as bloating and gas. They are also commonly used to ease menstrual cramps and promote relaxation. The most important bioactive constituents in Anethum graveolens include volatile oils, particularly limonene and anethol, which have anti-inflammatory and carminative properties. Additionally, flavonoids and essential oils contribute to its medicinal effects. This herbal preparation is valued for its soothing and therapeutic benefits in traditional and modern herbal medicine."
+        },
+        {
+            "herb_slug": "ephedra-sinica",
+            "herb_name_scientific": "Ephedra sinica",
+            "herb_total_score": 2011,
+            "desc": "Ephedra sinica teas are used to treat respiratory conditions such as asthma, bronchitis, and nasal congestion by promoting bronchodilation and reducing inflammation. They are also commonly used for alleviating symptoms of the common cold and allergic reactions. The most important bioactive constituents in Ephedra sinica include ephedrine, pseudoephedrine, and methylephedrine, which are alkaloids with stimulant and decongestant properties. These compounds work by stimulating the central nervous system and increasing the release of neurotransmitters like norepinephrine. However, due to their potential for abuse and serious side effects, their use is highly regulated in many countries."
+        },
+        {
+            "herb_slug": "rhodiola-rosea",
+            "herb_name_scientific": "Rhodiola rosea",
+            "herb_total_score": 2009,
+            "desc": "Rhodiola rosea teas are used to enhance energy, reduce fatigue, and support mental clarity, particularly in individuals experiencing stress or burnout. They are commonly used to treat symptoms of depression, anxiety, and cognitive decline. The most important bioactive constituents in Rhodiola rosea include rosavins and salidrosides, which are known for their adaptogenic and antioxidant properties. These compounds help the body resist stress and improve overall resilience. Additionally, they may support immune function and promote a sense of well-being."
+        },
+        {
+            "herb_slug": "ulmus-rubra",
+            "herb_name_scientific": "Ulmus rubra",
+            "herb_total_score": 1995,
+            "desc": "Ulmus rubra teas are used to treat respiratory infections, digestive issues, and skin conditions. They are commonly employed for alleviating symptoms of colds, coughs, and bronchitis due to their expectorant properties. The tea is also used to soothe gastrointestinal discomfort such as indigestion and inflammation. The most important bioactive constituents include tannins, flavonoids, and mucilage, which contribute to its anti-inflammatory, antimicrobial, and soothing effects. These compounds help reduce mucus production and support the healing of irritated tissues."
+        },
+        {
+            "herb_slug": "ligusticum-wallichii",
+            "herb_name_scientific": "Ligusticum wallichii",
+            "herb_total_score": 1929,
+            "desc": "Ligusticum wallichii teas are used to treat ailments such as headaches, migraines, rheumatic pains, and digestive issues. This herbal preparation is commonly employed for its anti-inflammatory and analgesic properties. The most important bioactive constituents include ligustilide, butylidenephthalide, and other essential oils that contribute to its medicinal effects. These compounds help reduce inflammation and improve circulation. It is also believed to support liver function and alleviate symptoms of colds and respiratory infections."
+        },
+        {
+            "herb_slug": "eurycoma-longifolia",
+            "herb_name_scientific": "Eurycoma longifolia",
+            "herb_total_score": 1862,
+            "desc": "Eurycoma longifolia teas are used to enhance energy, improve sexual health, and support immune function. They are commonly used to treat fatigue, low libido, and mild respiratory infections. The most important bioactive constituents include quassinoids, alkaloids, and flavonoids, which contribute to their medicinal properties. These compounds are believed to have anti-inflammatory, antioxidant, and immunomodulatory effects. Eurycoma longifolia teas are also traditionally used to aid in recovery from illness and to boost overall vitality."
+        },
+        {
+            "herb_slug": "digitalis-purpurea",
+            "herb_name_scientific": "Digitalis purpurea",
+            "herb_total_score": 1860,
+            "desc": "Digitalis purpurea teas are used to treat cardiovascular conditions such as heart failure and arrhythmias. They are also commonly used to manage symptoms of chronic heart disease. The most important bioactive constituents in Digitalis purpurea teas are cardiac glycosides, particularly digoxin and digitoxin, which help strengthen heart contractions and regulate heart rhythm. These compounds work by inhibiting the sodium-potassium ATPase enzyme, increasing intracellular calcium levels, and enhancing myocardial contractility. However, due to their potent effects, these teas should be used under medical supervision to avoid toxicity."
+        },
+        {
+            "herb_slug": "hyptis-suaveolens",
+            "herb_name_scientific": "Hyptis suaveolens",
+            "herb_total_score": 1839,
+            "desc": "Hyptis suaveolens teas are used to treat respiratory conditions, digestive issues, and skin infections. They are commonly employed for alleviating symptoms of colds, coughs, and bronchitis due to their anti-inflammatory and antiviral properties. The tea is also used to soothe gastrointestinal discomfort such as indigestion and bloating. The most important bioactive constituents include flavonoids, terpenes, and phenolic compounds, which contribute to its antimicrobial, antioxidant, and anti-inflammatory effects. These components make Hyptis suaveolens a valuable herbal remedy in traditional medicine."
+        }
+    ]
+}

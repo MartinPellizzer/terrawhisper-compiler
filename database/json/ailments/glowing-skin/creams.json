@@ -1,0 +1,183 @@
+{
+    "url": "ailments/glowing-skin/creams",
+    "ailment_slug": "glowing-skin",
+    "ailment_name": "glowing skin",
+    "preparation_slug": "creams",
+    "preparation_name": "creams",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Creams For Glowing Skin",
+    "intro": "Herbal creams for Glowing skin are topical treatments derived from plants and herbs, designed to improve the appearance and health of the skin by reducing inflammation, promoting collagen production, and enhancing skin elasticity. These creams have numerous benefits, including reducing the appearance of fine lines and wrinkles, evening out skin tone, and providing protection against environmental stressors. Examples of herbal creams used to treat glowing skin ailments include Aloe vera gel for soothing and hydrating the skin, Green tea extract for its antioxidant and anti-inflammatory properties, Turmeric cream for its anti-inflammatory and brightening effects, Ginseng cream for its ability to stimulate collagen production and improve skin texture, and Licorice root cream for its soothing and anti-inflammatory properties. By incorporating these herbal creams into a skincare routine, individuals can achieve a radiant and healthy-looking glow.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 19,
+            "herb_confidence_score": 171,
+            "herb_total_score": 3249,
+            "preparation_desc": "Calendula officinalis creams have been used to treat various skin ailments, including conditions characterized by glowing skin, such as hyperpigmentation. The anti-inflammatory and antimicrobial properties of this herbal preparation help to soothe and calm the skin, reducing redness and irritation. The bioactive constituents of Calendula officinalis creams, including triterpenoids, flavonoids, and carotenoids, have been shown to inhibit the production of melanin, thereby reducing the appearance of hyperpigmentation. The benefits of using Calendula officinalis creams include improved skin tone, reduced inflammation, and enhanced skin hydration, making it a popular natural remedy for glowing skin ailments.",
+            "preparation_study": "According to \"Life (Basel, Switzerland)\", Calendula officinalis creams for glowing skin are beneficial due to the presence of natural phytomedicines in Calendula officinalis, which possess considerable pharmacological properties and have been widely and effectively employed for wound treatment and infection prevention, supporting overall skin health and appearance.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 14,
+            "herb_confidence_score": 135,
+            "herb_total_score": 1890,
+            "preparation_desc": "Aloe barbadensis creams are known to be an effective remedy for treating glowing skin ailments, particularly hyperpigmentation and sun damage. The properties of this herbal preparation, such as its anti-inflammatory and antioxidant properties, help to soothe and calm the skin, reducing redness and irritation. The bioactive constituents, including aloin and aloe-emodin, have been found to inhibit the production of melanin, thereby reducing the appearance of dark spots and hyperpigmentation. The benefits of using Aloe barbadensis creams include improved skin texture, reduced inflammation, and a natural, even-toned complexion, making it a popular choice for those seeking to treat glowing skin ailments.",
+            "preparation_study": "According to \"Phytotherapy research : PTR\", Aloe barbadensis creams for glowing skin are likely effective due to the presence of various plant extracts and oils, such as aloe itself, which have been tested clinically for their skin benefits.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 18,
+            "herb_confidence_score": 123,
+            "herb_total_score": 2214,
+            "preparation_desc": "Lavandula angustifolia creams have gained popularity as a natural remedy to treat the glowing skin ailment known as hyperpigmentation. This herbal preparation contains bioactive constituents such as linalool, linalyl acetate, and camphor, which exhibit anti-inflammatory, antioxidant, and skin-soothing properties that help to reduce the appearance of dark spots and promote even skin tone. The creams help to treat this ailment by reducing oxidative stress, inhibiting the production of melanin, and promoting cell turnover, ultimately leading to a brighter and more radiant complexion. The benefits of using Lavandula angustifolia creams to treat hyperpigmentation include their gentle and non-irritating nature, making them suitable for sensitive skin, and their ability to provide long-term results with consistent use.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 16,
+            "herb_confidence_score": 106,
+            "herb_total_score": 1696,
+            "preparation_desc": "Echinacea purpurea creams have been used to treat various skin ailments, including the glowing skin condition, due to their anti-inflammatory, antiviral, and antioxidant properties. The bioactive constituents present in this herbal preparation, including alkylamides, glycoproteins, and phenolic acids, help to soothe and calm the skin, reducing redness and inflammation associated with this condition. By promoting collagen production and improving skin elasticity, Echinacea purpurea creams can help to even out skin tone and reduce the appearance of glowing skin. The benefits of using Echinacea purpurea creams to treat this ailment include improved skin health, reduced risk of infection, and enhanced overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 15,
+            "herb_confidence_score": 98,
+            "herb_total_score": 1470,
+            "preparation_desc": "Glycyrrhiza glabra creams have been traditionally used to treat conditions associated with glowing skin, such as hyperpigmentation and melasma. The anti-inflammatory and antioxidant properties of this herbal preparation help to soothe and calm the skin, reducing redness and inflammation. The bioactive constituents of Glycyrrhiza glabra creams, including glycyrrhizin, flavonoids, and phenolic acids, play a crucial role in inhibiting the production of melanin and promoting skin brightening. Regular use of Glycyrrhiza glabra creams can lead to a reduction in skin discoloration, resulting in a more even and radiant complexion.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 14,
+            "herb_confidence_score": 96,
+            "herb_total_score": 1344,
+            "preparation_desc": "Hypericum perforatum creams, also known as St. John's Wort creams, have been used to treat the glowing skin ailment, also known as hyperpigmentation. The properties of this herbal preparation help to treat this ailment by reducing inflammation, promoting collagen synthesis, and inhibiting the activity of tyrosinase, an enzyme responsible for melanin production. The bioactive constituents of Hypericum perforatum, including hyperforin, hypericin, and flavonoids, play a crucial role in treating this ailment by scavenging free radicals, reducing oxidative stress, and modulating the immune response. The benefits of using Hypericum perforatum creams to treat this ailment include improved skin texture, reduced appearance of hyperpigmentation, and enhanced overall skin health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 13,
+            "herb_confidence_score": 93,
+            "herb_total_score": 1209,
+            "preparation_desc": "Silybum marianum creams, derived from the milk thistle plant, are a herbal preparation that has been used to treat the glowing skin ailment, also known as melasma. The anti-inflammatory and antioxidant properties of Silybum marianum creams help to reduce the appearance of hyperpigmentation and promote even skin tone. The bioactive constituents of this herbal preparation, including silymarin and flavonoids, help to protect the skin from free radical damage and inhibit the production of melanin, thereby treating the glowing skin ailment. The benefits of using Silybum marianum creams to treat this ailment include reduced appearance of dark spots, improved skin texture, and enhanced skin radiance.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 90,
+            "herb_total_score": 1170,
+            "preparation_desc": "Melissa officinalis creams have been used to treat glowing skin ailments, such as excessive shine and oiliness, due to their astringent and antiseptic properties that help to balance the skin's pH and reduce sebum production. These herbal preparations contain bioactive constituents like rosmarinic acid, melissic acid, and borneol, which possess anti-inflammatory and antimicrobial properties that help to soothe and calm the skin, reducing the appearance of glowing skin. By reducing inflammation and preventing bacterial growth, Melissa officinalis creams help to treat glowing skin ailments, resulting in a more balanced and healthy-looking complexion. The benefits of using Melissa officinalis creams to treat glowing skin ailments include a reduction in oiliness, a decrease in the appearance of pores, and an overall improvement in skin tone and texture.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 12,
+            "herb_confidence_score": 76,
+            "herb_total_score": 912,
+            "preparation_desc": "Ginkgo biloba creams have been used to treat erythema, a condition characterized by glowing or inflamed skin. The anti-inflammatory and antioxidant properties of Ginkgo biloba help to reduce redness and alleviate discomfort associated with erythema. The bioactive constituents of Ginkgo biloba creams, including flavonoids and terpenoids, work together to inhibit the production of pro-inflammatory cytokines and promote wound healing. By using Ginkgo biloba creams, individuals with erythema may experience reduced inflammation, improved skin tone, and accelerated recovery.",
+            "preparation_study": "According to \"Drug development and industrial pharmacy\", Ginkgo biloba creams for glowing skin can be used to rejuvenate the skin, making it more spirited, tauter, reducing wrinkles, and providing visually observable anti-wrinkle effects with visible improvements in skin's shape and texture.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 11,
+            "herb_confidence_score": 69,
+            "herb_total_score": 759,
+            "preparation_desc": "Zingiber officinale creams have been traditionally used to treat glowing skin ailments due to their anti-inflammatory and antioxidant properties, which help to soothe and calm irritated skin. The bioactive constituents of Zingiber officinale, including gingerols and shogaols, possess potent anti-inflammatory and antimicrobial activities that aid in reducing redness and preventing further infection. By applying Zingiber officinale creams to affected areas, individuals can experience a reduction in skin inflammation, improved skin tone, and a decrease in the severity of glowing skin ailments. The benefits of using Zingiber officinale creams include reduced risk of scarring, improved wound healing, and enhanced overall skin health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hamamelis virginiana",
+            "herb_mentions": 8,
+            "herb_confidence_score": 68,
+            "herb_total_score": 544,
+            "preparation_desc": "Hamamelis virginiana creams, derived from the Hamamelis virginiana plant, are a popular herbal preparation used to treat eczema and other skin conditions characterized by a glowing or inflamed appearance. The anti-inflammatory, antimicrobial, and antioxidant properties of this herbal preparation help to soothe and calm the skin, reducing redness and itching associated with this ailment. The bioactive constituents of Hamamelis virginiana creams, including tannins, flavonoids, and phenolic acids, contribute to its therapeutic effects, helping to reduce inflammation and promote wound healing. The benefits of using Hamamelis virginiana creams to treat this ailment include reduced inflammation, improved skin barrier function, and enhanced overall skin health, making it a valuable natural remedy for managing skin conditions.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 9,
+            "herb_confidence_score": 67,
+            "herb_total_score": 603,
+            "preparation_desc": "Curcuma longa creams, derived from the rhizomes of the turmeric plant, have been traditionally used to treat the glowing skin ailment, also known as hyperpigmentation, due to their potent antioxidant and anti-inflammatory properties. The bioactive constituents of Curcuma longa, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, help to reduce melanin production, prevent melanocyte activation, and inhibit the enzyme tyrosinase, thereby treating hyperpigmentation. The application of Curcuma longa creams to the affected skin helps to fade dark spots, even out skin tone, and restore a healthy, radiant complexion. The benefits of using Curcuma longa creams to treat hyperpigmentation include their non-invasive nature, ease of use, and effectiveness in providing long-lasting results, making them a popular choice for individuals seeking to achieve glowing and even-toned skin.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Symphytum officinale",
+            "herb_mentions": 9,
+            "herb_confidence_score": 62,
+            "herb_total_score": 558,
+            "preparation_desc": "Symphytum officinale creams have been traditionally used to treat skin ailments, specifically those related to hyperpigmentation and skin discoloration, also known as glowing skin. This herbal preparation contains anti-inflammatory and antioxidant properties that help to soothe and calm the skin, reducing the appearance of hyperpigmentation. The bioactive constituents, including allantoin and mucilages, help to protect and regenerate the skin, promoting even skin tone and reducing inflammation. The benefits of using Symphytum officinale creams include improved skin texture, reduced appearance of hyperpigmentation, and enhanced overall skin health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Saponaria officinalis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 61,
+            "herb_total_score": 610,
+            "preparation_desc": "Saponaria officinalis creams have been traditionally used to treat the glowing skin ailment, also known as hyperpigmentation, which is characterized by an excessive production of melanin. The properties of this herbal preparation that help to treat this ailment include its antioxidant, anti-inflammatory, and soothing effects, which can calm and brighten the skin. The bioactive constituents of Saponaria officinalis creams that contribute to its effectiveness in treating this condition include saponins, flavonoids, and phenolic acids, which can inhibit melanin production and promote even skin tone. The benefits of using Saponaria officinalis creams to treat hyperpigmentation include reduced skin discoloration, improved skin texture, and a more even-toned complexion, making it a popular natural remedy for glowing skin.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melaleuca alternifolia",
+            "herb_mentions": 7,
+            "herb_confidence_score": 59,
+            "herb_total_score": 413,
+            "preparation_desc": "Melaleuca alternifolia creams, also known as tea tree oils, have been used to treat skin conditions like acne and eczema due to their antimicrobial and anti-inflammatory properties. The bioactive constituents of these creams, including terpinen-4-ol and cineole, help to reduce inflammation and combat bacterial and fungal infections that can cause glowing skin ailments. By applying these creams topically, individuals can benefit from their soothing and calming effects, which can help to reduce redness and promote a healthy, glowing complexion. The benefits of using Melaleuca alternifolia creams include reduced risk of infection, faster healing times, and improved overall skin health, making them a popular choice for treating various skin conditions.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Chamomilla recutita",
+            "herb_mentions": 8,
+            "herb_confidence_score": 58,
+            "herb_total_score": 464,
+            "preparation_desc": "Chamomilla recutita creams are a popular herbal preparation used to treat glowing skin ailments such as hyperpigmentation and rosacea, due to their anti-inflammatory and soothing properties. The bioactive constituents of Chamomilla recutita, including apigenin and luteolin, help to reduce redness and inflammation in the skin, promoting a more even skin tone. These creams work by calming the skin, reducing the appearance of dark spots and hyperpigmentation, and providing long-lasting hydration. The benefits of using Chamomilla recutita creams include improved skin tone, reduced inflammation, and a more even, radiant complexion.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe vera",
+            "herb_mentions": 6,
+            "herb_confidence_score": 58,
+            "herb_total_score": 348,
+            "preparation_desc": "Aloe vera creams have been used for centuries to treat skin ailments, and one of the most effective is for glowing skin. The properties of this herbal preparation include its anti-inflammatory and antioxidant properties, which help to soothe and calm the skin, reducing redness and irritation. The bioactive constituents of aloe vera, such as vitamins A, C, and E, as well as aloin and aloe-emodin, help to hydrate and protect the skin, promoting a healthy and radiant glow. The benefits of using aloe vera creams for glowing skin include improved skin elasticity, reduced appearance of fine lines and wrinkles, and a natural, long-lasting glow.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 11,
+            "herb_confidence_score": 57,
+            "herb_total_score": 627,
+            "preparation_desc": "Taraxacum officinale creams, derived from the dandelion plant, have been traditionally used to treat various skin conditions, including glowing skin ailments. The anti-inflammatory and antioxidant properties of this herbal preparation help to soothe and calm the skin, reducing redness and promoting a healthy glow. The bioactive constituents, such as flavonoids and phenolic acids, possess potent antioxidant and anti-inflammatory activities, which contribute to its therapeutic effects in treating glowing skin ailments. By using Taraxacum officinale creams, individuals can benefit from improved skin texture, reduced inflammation, and a more even skin tone, ultimately leading to a healthier and more radiant complexion.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 56,
+            "herb_total_score": 560,
+            "preparation_desc": "Cinchona officinalis creams have been traditionally used to treat erythema, a skin condition characterized by redness and inflammation of the skin. The antiseptic and anti-inflammatory properties of this herbal preparation help to soothe and calm the affected skin, reducing redness and discomfort. The bioactive constituents, including quinine and alkaloids, in Cinchona officinalis creams have been found to exhibit potent antioxidant and anti-inflammatory activities, which contribute to their efficacy in treating erythema. Regular use of Cinchona officinalis creams has been reported to provide relief from erythema symptoms, promote skin healing, and improve overall skin health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 8,
+            "herb_confidence_score": 55,
+            "herb_total_score": 440,
+            "preparation_desc": "Urtica dioica creams have been used as a natural remedy to treat the skin condition known as urticaria or hives, which is characterized by itchy, red, and swollen patches on the skin. The anti-inflammatory and antihistamine properties of Urtica dioica creams help to reduce itching and swelling, while also soothing and calming the skin. The bioactive constituents of Urtica dioica creams, such as isothiocyanates, flavonoids, and phenolic acids, play a crucial role in their therapeutic effects, helping to inhibit the release of histamine and other chemical mediators that contribute to the development of hives. By using Urtica dioica creams, individuals can experience relief from the discomfort and distress associated with urticaria, as well as enjoy the additional benefits of reduced inflammation and improved skin health.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Dermatologic therapy\", creams for glowing skin using the extract of Ziziphus jujuba Mill. (jujube) can be an effective treatment for hyperpigmentation, as jujube syrup has been shown to reduce the number of pigments and pigmented area on the face."
+}

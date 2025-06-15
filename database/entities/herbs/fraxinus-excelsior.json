@@ -1,0 +1,24 @@
+{
+    "url": "herbs/fraxinus-excelsior",
+    "herb_slug": "fraxinus-excelsior",
+    "herb_name_scientific": "fraxinus excelsior",
+    "lastmod": "2025-5-31",
+    "benefits_num": 11,
+    "benefits_title": "11 Best Health Benefits Of Fraxinus Excelsior",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 6,
+            "confidence_score": 55,
+            "total_score": 330
+        },
+        {
+            "answer": "medicine",
+            "mentions": 4,
+            "confidence_score": 35,
+            "total_score": 140
+        }
+    ],
+    "constituents_num": 7,
+    "side_effects_num": 7
+}

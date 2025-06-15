@@ -1,0 +1,187 @@
+{
+    "url": "herbs/panax-notoginseng",
+    "herb_slug": "panax-notoginseng",
+    "herb_name_scientific": "panax notoginseng",
+    "lastmod": "2025-5-31",
+    "title": "Panax Notoginseng Uses, Benefits, And Remedies",
+    "intro": "Panax notoginseng, commonly known as tian qi or Chinese ginseng, is a root used in traditional Chinese medicine for its various health benefits. This herb is known for its ability to improve circulation, reduce inflammation, and enhance physical and mental performance. The bioactive constituents in Panax notoginseng include saponins, alkaloids, and polyphenols, which contribute to its therapeutic actions. Herbal preparations such as infusions, tinctures, and powders can be made from this herb to harness its medicinal properties.",
+    "benefits": "Panax notoginseng improves blood circulation by promoting the dilation of blood vessels and enhancing the flow of oxygen and nutrients throughout the body. This herb is known to support cardiovascular health by strengthening the heart muscle and reducing the risk of hypertension and other heart-related conditions. Additionally, it helps lower cholesterol levels by inhibiting the synthesis of low-density lipoprotein (LDL), often referred to as \"bad\" cholesterol, while increasing high-density lipoprotein (HDL), the \"good\" cholesterol. Its natural anti-inflammatory properties make it effective in reducing chronic inflammation, which is linked to various diseases such as arthritis and cardiovascular disorders. By addressing multiple aspects of health, Panax notoginseng offers a holistic approach to improving overall well-being and maintaining a healthy lifestyle.",
+    "constituents": "Panax notoginseng notoginsenoside rb1 is a key bioactive compound known for its potent anti-inflammatory and anti-platelet aggregation properties, which contribute to its traditional use in promoting cardiovascular health. Alongside rb1, notoginsenoside rg1 is another major constituent that exhibits similar effects, particularly in enhancing blood circulation and reducing swelling, making it valuable in treating conditions like bruises and inflammation. Saponins, a group of phytochemicals found in Panax notoginseng, play a crucial role in modulating immune responses and have demonstrated potential in reducing oxidative stress and improving overall metabolic function. Notoginsenoside r1, another important compound, is recognized for its neuroprotective and cardioprotective effects, supporting its use in traditional Chinese medicine for ailments ranging from trauma to neurodegenerative disorders. Together, these constituents highlight the herb\u2019s multifaceted therapeutic potential, underscoring its significance in both traditional and modern pharmacological research.",
+    "parts": "Panax notoginseng root, also known as tian qi or notoginseng, is a highly valued component of the Panax notoginseng herb, widely used in traditional Chinese medicine for its purported health benefits. The root is the primary medicinal part of the plant, containing a variety of bioactive compounds such as saponins, alkaloids, and flavonoids, which are believed to contribute to its therapeutic properties. In traditional medicine, it is often used to promote blood circulation, reduce inflammation, and aid in the healing of wounds and injuries. The root is typically processed through drying, grinding, or slicing to enhance its potency and facilitate its use in herbal formulations. Due to its reputation for enhancing recovery and supporting cardiovascular health, Panax notoginseng root has gained increasing attention in both traditional and modern medical practices.",
+    "preparations": "Panax notoginseng decoctions are one of the most traditional and widely used forms of this herb, where the dried roots are boiled in water to extract their active compounds, such as saponins and flavonoids, which are believed to have anti-inflammatory and hemostatic properties. These decoctions are often used in Chinese medicine to promote blood circulation, reduce swelling, and aid in wound healing. Tinctures, another popular preparation, involve soaking the herb in alcohol to create a concentrated liquid that can be taken orally or applied topically for its healing effects. Capsules and teas offer more convenient and standardized dosing, making them popular in modern herbal supplements and wellness products. Additionally, Panax notoginseng is used in creams, ointments, and liniments to treat bruises, sprains, and skin conditions, leveraging its ability to enhance circulation and reduce pain. Each preparation method preserves the herb\u2019s therapeutic properties while adapting it to different therapeutic needs and consumer preferences.",
+    "side_effects": "Panax notoginseng may cause bleeding because it contains compounds that act as anticoagulants, which can interfere with blood clotting and increase the risk of hemorrhage, especially when combined with other blood-thinning medications. Panax notoginseng causes stomach upset due to its potential to irritate the gastrointestinal tract, leading to symptoms such as indigestion or discomfort. Panax notoginseng induces nausea because it may affect the digestive system and stimulate the vomiting center in the brain, particularly in higher doses. Panax notoginseng induces vomiting as a result of its pharmacological properties that can trigger the body's natural response to expel harmful substances, though this effect is less commonly reported compared to other side effects.",
+    "benefits_num": 11,
+    "benefits_list": [
+        {
+            "name": "improves blood circulation",
+            "description": "Panax notoginseng promotes better blood flow by dilating blood vessels and enhancing the delivery of oxygen and nutrients to tissues."
+        },
+        {
+            "name": "boosts cardiovascular health",
+            "description": "It helps maintain a healthy heart by reducing oxidative stress and supporting the proper functioning of the cardiovascular system."
+        },
+        {
+            "name": "lowers cholesterol levels",
+            "description": "Panax notoginseng may help reduce low-density lipoprotein (LDL) cholesterol, thus lowering the risk of heart disease."
+        },
+        {
+            "name": "reduces inflammation naturally",
+            "description": "It contains compounds that act as natural anti-inflammatory agents, helping to reduce swelling and pain in the body."
+        },
+        {
+            "name": "supports immune system",
+            "description": "This herb strengthens the body's defense mechanisms by stimulating the production of immune cells and enhancing resistance to infections."
+        },
+        {
+            "name": "boosts energy levels",
+            "description": "Panax notoginseng is known to enhance vitality and energy by improving metabolic processes and reducing fatigue."
+        },
+        {
+            "name": "reduces blood pressure",
+            "description": "It helps regulate blood pressure by relaxing blood vessels and improving overall circulation."
+        },
+        {
+            "name": "relieves arthritis pain",
+            "description": "The anti-inflammatory and analgesic properties of Panax notoginseng can help alleviate joint pain and stiffness associated with arthritis."
+        },
+        {
+            "name": "improves digestive health",
+            "description": "It aids in digestion by stimulating the production of digestive enzymes and reducing gastrointestinal discomfort."
+        },
+        {
+            "name": "improves skin health",
+            "description": "Panax notoginseng promotes skin health by reducing oxidative stress and enhancing the skin's natural healing processes."
+        },
+        {
+            "name": "reduces fatigue symptoms",
+            "description": "It helps combat fatigue by improving cellular energy production and enhancing overall physical endurance."
+        }
+    ],
+    "constituents_num": 9,
+    "constituents_list": [
+        {
+            "name": "notoginsenoside rb1",
+            "description": "A type of saponin known for its anti-inflammatory and anticoagulant properties, contributing to the herb's traditional use in promoting blood circulation and reducing swelling."
+        },
+        {
+            "name": "notoginsenoside rg1",
+            "description": "Another important saponin compound associated with enhancing blood circulation, reducing inflammation, and supporting cardiovascular health."
+        },
+        {
+            "name": "saponins",
+            "description": "A class of natural compounds known for their ability to reduce inflammation, improve blood circulation, and exhibit antithrombotic effects."
+        },
+        {
+            "name": "notoginsenoside r1",
+            "description": "A saponin compound that plays a role in regulating blood flow, reducing inflammation, and supporting heart health."
+        },
+        {
+            "name": "polysaccharides",
+            "description": "Complex carbohydrates that have immunomodulatory effects, enhancing the body's immune response and promoting overall health."
+        },
+        {
+            "name": "acids",
+            "description": "Various organic acids present in the herb that contribute to its anti-inflammatory and antioxidant properties."
+        },
+        {
+            "name": "glycosides",
+            "description": "Compounds formed from sugar and non-sugar components, known for their pharmacological effects including anti-inflammatory and cardiovascular benefits."
+        },
+        {
+            "name": "terpenoids",
+            "description": "A diverse group of organic compounds with antioxidant and anti-inflammatory properties, contributing to the herb's therapeutic effects."
+        },
+        {
+            "name": "phenolic acids",
+            "description": "Antioxidant compounds that help neutralize free radicals, reduce oxidative stress, and support overall cellular health."
+        }
+    ],
+    "parts_num": 1,
+    "parts_list": "",
+    "side_effects_num": 7,
+    "side_effects_list": [
+        {
+            "name": "may cause bleeding",
+            "description": "Panax notoginseng may interfere with blood clotting, increasing the risk of bleeding, especially when taken with anticoagulant medications."
+        },
+        {
+            "name": "causes stomach upset",
+            "description": "The herb can irritate the gastrointestinal tract, leading to symptoms such as stomach pain, bloating, or discomfort."
+        },
+        {
+            "name": "induces nausea",
+            "description": "Panax notoginseng may stimulate the digestive system, causing feelings of nausea or an upset stomach in some individuals."
+        },
+        {
+            "name": "induces vomiting",
+            "description": "In some cases, the herb may trigger vomiting, particularly at higher doses or in individuals with sensitive digestive systems."
+        },
+        {
+            "name": "leads to dizziness",
+            "description": "The herb may affect blood pressure or circulation, potentially causing dizziness or lightheadedness in certain individuals."
+        },
+        {
+            "name": "results in insomnia",
+            "description": "Panax notoginseng has stimulant properties that may interfere with sleep patterns, leading to difficulty falling asleep or staying asleep."
+        },
+        {
+            "name": "provokes headaches",
+            "description": "The herb may cause headaches, possibly due to its effect on blood pressure or neurotransmitter activity in the brain."
+        }
+    ],
+    "preparations_num": 13,
+    "preparations_list": [
+        {
+            "name": "decoctions",
+            "description": "Panax notoginseng decoctions are used to promote blood circulation, reduce inflammation, and aid in wound healing by extracting active compounds through boiling."
+        },
+        {
+            "name": "tinctures",
+            "description": "Tinctures of Panax notoginseng are used to support cardiovascular health, reduce bleeding, and enhance physical endurance due to their concentrated active ingredients."
+        },
+        {
+            "name": "teas",
+            "description": "Panax notoginseng teas are traditionally used to improve circulation, reduce stress, and support heart health by consuming the dried herb in hot water."
+        },
+        {
+            "name": "capsules",
+            "description": "Capsules containing Panax notoginseng are used to support cardiovascular function, reduce bleeding, and enhance recovery from injuries due to their standardized extracts."
+        },
+        {
+            "name": "creams",
+            "description": "Panax notoginseng creams are applied topically to reduce inflammation, promote skin healing, and alleviate pain from injuries or skin conditions."
+        },
+        {
+            "name": "syrups",
+            "description": "Syrups made from Panax notoginseng are used to support respiratory health, reduce coughing, and promote circulation in the body."
+        },
+        {
+            "name": "lozenges",
+            "description": "Panax notoginseng lozenges are used to soothe sore throats, reduce inflammation, and support respiratory health when chewed or dissolved."
+        },
+        {
+            "name": "oinments",
+            "description": "Oinments made from Panax notoginseng are used to treat external wounds, reduce inflammation, and promote healing of skin injuries."
+        },
+        {
+            "name": "liniments",
+            "description": "Panax notoginseng liniments are applied externally to reduce pain, improve circulation, and alleviate muscle or joint inflammation."
+        },
+        {
+            "name": "oils",
+            "description": "Panax notoginseng oils are used to promote circulation, reduce inflammation, and support wound healing when applied topically."
+        },
+        {
+            "name": "poultices",
+            "description": "Poultices made from Panax notoginseng are used to treat wounds, reduce swelling, and promote healing by applying a paste directly to the skin."
+        },
+        {
+            "name": "linctuses",
+            "description": "Panax notoginseng linctuses are used to soothe coughs, reduce inflammation in the respiratory tract, and support healing of throat conditions."
+        },
+        {
+            "name": "gargles",
+            "description": "Panax notoginseng gargles are used to relieve sore throats, reduce inflammation, and improve oral health by rinsing the mouth with a prepared solution."
+        }
+    ]
+}

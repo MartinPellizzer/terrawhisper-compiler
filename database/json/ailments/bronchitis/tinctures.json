@@ -1,0 +1,181 @@
+{
+    "url": "ailments/bronchitis/tinctures",
+    "ailment_slug": "bronchitis",
+    "ailment_name": "bronchitis",
+    "preparation_slug": "tinctures",
+    "preparation_name": "tinctures",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Tinctures For Bronchitis",
+    "intro": "Herbal tinctures for Bronchitis are concentrated liquid extracts made from various herbs and plants that have been traditionally used to alleviate the symptoms of bronchitis, a respiratory condition characterized by inflammation and congestion in the lungs. These tinctures offer numerous benefits in treating bronchitis, including reducing inflammation, soothing a sore throat, and loosening mucus, allowing for easier breathing. Some examples of herbal tinctures used to treat bronchitis include Echinacea, which boosts the immune system and fights off infections, Thyme, which has antimicrobial properties to combat bacterial overgrowth, and Ginger, which helps to reduce inflammation and soothe a sore throat. Additionally, other herbs such as Slippery Elm, Licorice Root, and Wild Indigo are also used to treat bronchitis due to their anti-inflammatory, expectorant, and antimicrobial properties, making them a popular natural remedy for this condition.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 20,
+            "herb_confidence_score": 188,
+            "herb_total_score": 3760,
+            "preparation_desc": "Eucalyptus globulus tinctures have been traditionally used to treat bronchitis due to their decongestant, anti-inflammatory, and expectorant properties. These properties help to alleviate symptoms of bronchitis by reducing congestion, inflammation, and cough, making it easier to breathe and recover from the illness. The bioactive constituents of Eucalyptus globulus tinctures, including eucalyptol, cineole, and limonene, contribute to its therapeutic effects by inhibiting the growth of bacteria and viruses, reducing inflammation, and loosening mucus. The benefits of using Eucalyptus globulus tinctures to treat bronchitis include rapid relief from symptoms, reduced risk of complications, and a natural and non-invasive approach to managing the condition.",
+            "preparation_study": "According to \"Zhongguo Zhong yao za zhi = Zhongguo zhongyao zazhi = China journal of Chinese materia medica\", Eucalyptus globulus tinctures for bronchitis may be effective in reducing inflammation and mucin hypersecretion, as a study on rats showed significant decreases in mucin content and MUC5ac expression after administration of E. globulus oil.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 20,
+            "herb_confidence_score": 177,
+            "herb_total_score": 3540,
+            "preparation_desc": "Echinacea purpurea tinctures have been traditionally used to treat bronchitis, a common respiratory condition characterized by inflammation and congestion. The anti-inflammatory and immunomodulatory properties of this herbal preparation help to reduce inflammation in the airways and boost the body's natural defenses against infection. The bioactive constituents, including alkylamides, flavonoids, and phenolic acids, in Echinacea purpurea tinctures work together to inhibit the production of pro-inflammatory cytokines and enhance the production of antioxidants, which in turn helps to alleviate symptoms of bronchitis. By using Echinacea purpurea tinctures, individuals may experience benefits such as reduced coughing, improved lung function, and faster recovery times, making it a popular natural remedy for bronchitis treatment.",
+            "preparation_study": "According to \"Biologia\", Echinacea purpurea tinctures may provide some relief for bronchitis as they have been found to exhibit immunobiological activity, including immunostimulation of inflammatory cytokines and anti-inflammatory interleukins, which may help alleviate symptoms associated with the condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 20,
+            "herb_confidence_score": 161,
+            "herb_total_score": 3220,
+            "preparation_desc": "Glycyrrhiza glabra tinctures have been traditionally used to treat bronchitis due to their anti-inflammatory and expectorant properties. The active compounds present in Glycyrrhiza glabra, such as glycyrrhizin, flavonoids, and phenolic acids, help to soothe the bronchial passages and reduce inflammation, making it easier to expel mucus and promote healing. The tincture's expectorant properties help to loosen and clear mucus from the lungs, while its anti-inflammatory properties reduce congestion and coughing. The benefits of using Glycyrrhiza glabra tinctures to treat bronchitis include rapid relief from symptoms, improved lung function, and a reduced risk of complications such as pneumonia.",
+            "preparation_study": "According to \"Mini reviews in medicinal chemistry\", Glycyrrhiza glabra tinctures for bronchitis may be effective in managing the condition due to their ability to modulate the immune system, inhibit virus growth, produce anti-inflammatory activity, and inactivate viruses, however, human research on its effectiveness in respiratory infections is limited and more research is needed.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 17,
+            "herb_confidence_score": 130,
+            "herb_total_score": 2210,
+            "preparation_desc": "Sambucus nigra tinctures, derived from the elderberry plant, have been traditionally used to treat bronchitis due to their anti-inflammatory and antiviral properties. The bioactive constituents, including flavonoids, phenolic acids, and sambucol, help to reduce inflammation and combat viral infections that contribute to bronchitis. By inhibiting the replication of the virus and modulating the immune response, Sambucus nigra tinctures alleviate symptoms such as cough, congestion, and difficulty breathing associated with bronchitis. The benefits of using this herbal preparation include rapid relief from symptoms, reduced risk of complications, and improved overall respiratory health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 16,
+            "herb_confidence_score": 123,
+            "herb_total_score": 1968,
+            "preparation_desc": "Zingiber officinale tinctures have been traditionally used to treat bronchitis due to their anti-inflammatory and expectorant properties. The bioactive constituents of Zingiber officinale, including gingerols and shogaols, help to reduce inflammation in the airways and facilitate the removal of mucus, thereby relieving symptoms of bronchitis. By modulating the body's immune response and reducing oxidative stress, Zingiber officinale tinctures help to alleviate cough and congestion associated with bronchitis. The benefits of using Zingiber officinale tinctures to treat bronchitis include improved respiratory function, reduced risk of complications, and a natural alternative to conventional medications.",
+            "preparation_study": "According to the study, Zingiber officinale tinctures have potential for adjuvant symptomatic therapy in respiratory conditions, such as bronchitis.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 15,
+            "herb_confidence_score": 119,
+            "herb_total_score": 1785,
+            "preparation_desc": "Cinchona officinalis tinctures have been traditionally used to treat bronchitis due to their anti-inflammatory and expectorant properties, which help to reduce congestion and ease coughing. The bioactive constituents, including quinine and alkaloids, help to thin mucus and promote its expulsion from the respiratory tract, providing relief from bronchitis symptoms. The tincture's ability to relax bronchial muscles and reduce inflammation also helps to alleviate the discomfort associated with bronchitis, making it easier to breathe and recover. By using Cinchona officinalis tinctures, individuals can benefit from a natural and effective treatment for bronchitis, reducing the risk of complications and promoting a speedy recovery.",
+            "preparation_study": "According to \"The Korean journal of internal medicine\", Cinchona officinalis tinctures were not specifically evaluated for the treatment of acute bronchitis in this study, but the combined product HL301, which may include Cinchona officinalis, was found to be effective and safe for symptomatic treatment of acute bronchitis.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 18,
+            "herb_confidence_score": 111,
+            "herb_total_score": 1998,
+            "preparation_desc": "Lavandula angustifolia tinctures, derived from the leaves of the lavender plant, have been traditionally used to treat bronchitis due to their anti-inflammatory, antispasmodic, and expectorant properties. The bioactive constituents of lavender, including linalool and linalyl acetate, help to relax the airways, reduce inflammation, and increase mucus production, making it easier to cough up and expel mucus from the lungs. By promoting relaxation and reducing coughing fits, lavender tinctures can help alleviate the discomfort and pain associated with bronchitis, making it easier to manage the symptoms and recover from the illness. The benefits of using lavender tinctures to treat bronchitis include reduced inflammation, improved breathing, and a decrease in the severity and duration of symptoms, making it a popular natural remedy for respiratory issues.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Verbascum thapsus",
+            "herb_mentions": 14,
+            "herb_confidence_score": 99,
+            "herb_total_score": 1386,
+            "preparation_desc": "Verbascum thapsus tinctures have been traditionally used to treat bronchitis due to their expectorant properties, which help to loosen and clear mucus from the airways, relieving congestion and coughing. The tinctures contain bioactive constituents such as flavonoids, saponins, and iridoids, which exhibit anti-inflammatory and antiviral activities that help to reduce inflammation and combat the underlying infection causing bronchitis. By promoting the clearance of mucus and reducing inflammation, Verbascum thapsus tinctures help to alleviate the symptoms of bronchitis, including coughing, wheezing, and shortness of breath. The benefits of using Verbascum thapsus tinctures to treat bronchitis include reduced medication dependence, fewer side effects, and improved overall respiratory health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 14,
+            "herb_confidence_score": 98,
+            "herb_total_score": 1372,
+            "preparation_desc": "Ginkgo biloba tinctures have been traditionally used to treat bronchitis, an inflammatory condition affecting the airways, due to their anti-inflammatory and antioxidant properties. The bioactive constituents of Ginkgo biloba, including flavonoids and terpenoids, help to reduce inflammation and alleviate symptoms such as coughing and shortness of breath. By inhibiting the production of pro-inflammatory enzymes and scavenging free radicals, Ginkgo biloba tinctures can help to soothe and protect the bronchial mucosa, promoting healing and reducing the risk of complications. The benefits of using Ginkgo biloba tinctures to treat bronchitis include improved lung function, reduced symptoms, and enhanced overall respiratory health, making it a popular natural remedy for this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_mentions": 11,
+            "herb_confidence_score": 93,
+            "herb_total_score": 1023,
+            "preparation_desc": "Thymus vulgaris tinctures have been used to treat bronchitis, a respiratory infection characterized by inflammation and congestion in the lungs and airways. The antiseptic and expectorant properties of this herbal preparation help to treat bronchitis by reducing inflammation and promoting the clearance of mucus from the airways, thereby alleviating symptoms such as coughing and difficulty breathing. The bioactive constituents of Thymus vulgaris tinctures, including thymol and carvacrol, possess antimicrobial and anti-inflammatory properties that aid in the treatment of bronchitis. The benefits of using Thymus vulgaris tinctures to treat bronchitis include reduced symptoms, improved respiratory function, and a shorter duration of illness, making it a popular natural remedy for this common respiratory condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 89,
+            "herb_total_score": 1157,
+            "preparation_desc": "Rosmarinus officinalis tinctures have been traditionally used to treat bronchitis due to their expectorant and anti-inflammatory properties, which help to relieve congestion and soothe the respiratory tract. The bioactive constituents of this herbal preparation, including rosmarinic acid and camphor, contribute to its therapeutic effects by reducing inflammation and opening airways. By facilitating the removal of mucus and promoting a healthy respiratory environment, Rosmarinus officinalis tinctures help to alleviate symptoms of bronchitis, such as coughing and shortness of breath. The benefits of using this herbal preparation to treat bronchitis include a reduction in the severity and duration of symptoms, as well as a decrease in the risk of complications and the need for pharmaceutical medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Astragalus membranaceus",
+            "herb_mentions": 9,
+            "herb_confidence_score": 73,
+            "herb_total_score": 657,
+            "preparation_desc": "Astragalus membranaceus tinctures have been traditionally used to treat bronchitis by exhibiting anti-inflammatory, antiviral, and immunomodulatory properties, which help to alleviate symptoms such as coughing and congestion. The bioactive constituents of Astragalus membranaceus, including flavonoids, saponins, and polysaccharides, are responsible for its therapeutic effects, which include reducing inflammation, suppressing viral replication, and enhancing the body's immune response. By using Astragalus membranaceus tinctures, patients with bronchitis may experience improved respiratory function, reduced coughing, and a shorter duration of illness. The benefits of using Astragalus membranaceus tinctures to treat bronchitis include reduced reliance on pharmaceutical medications, fewer side effects, and a more natural approach to managing this common respiratory ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ephedra sinica",
+            "herb_mentions": 10,
+            "herb_confidence_score": 68,
+            "herb_total_score": 680,
+            "preparation_desc": "Ephedra sinica tinctures are a traditional herbal preparation used to treat bronchitis, a common respiratory ailment characterized by inflammation and congestion in the lungs and airways. The properties of Ephedra sinica tinctures help to treat bronchitis by acting as a bronchodilator, relieving airway constriction and promoting easier breathing. The bioactive constituents of Ephedra sinica tinctures, including ephedrine and pseudoephedrine, help to treat bronchitis by increasing circulation, reducing inflammation, and thinning mucus, making it easier to expel. The benefits of Ephedra sinica tinctures in treating bronchitis include rapid relief of respiratory symptoms, improved lung function, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 9,
+            "herb_confidence_score": 68,
+            "herb_total_score": 612,
+            "preparation_desc": "Mentha x piperita tinctures, derived from the peppermint plant, have been traditionally used to treat bronchitis due to their expectorant and anti-inflammatory properties. This herbal preparation helps to treat bronchitis by loosening and thinning mucus, making it easier to cough up and relieving congestion in the airways. The bioactive constituents of mentha x piperita tinctures, including menthol, menthone, and limonene, contribute to its therapeutic effects by reducing inflammation and opening up the airways. The benefits of using mentha x piperita tinctures to treat bronchitis include rapid relief from symptoms, improved respiratory function, and a reduction in the risk of complications associated with this ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea angustifolia",
+            "herb_mentions": 7,
+            "herb_confidence_score": 61,
+            "herb_total_score": 427,
+            "preparation_desc": "Echinacea angustifolia tinctures have been traditionally used to treat bronchitis due to their immunomodulatory and anti-inflammatory properties. The tincture helps to treat bronchitis by stimulating the immune system and reducing inflammation in the airways, thereby alleviating symptoms such as coughing and congestion. The bioactive constituents of Echinacea angustifolia, including alkylamides, glycoproteins, and polysaccharides, are responsible for its therapeutic effects, which help to enhance the body's natural defenses against infections. By utilizing Echinacea angustifolia tinctures, individuals suffering from bronchitis may experience benefits such as improved respiratory function, reduced frequency and severity of coughing, and a shorter recovery time.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 8,
+            "herb_confidence_score": 60,
+            "herb_total_score": 480,
+            "preparation_desc": "Achillea millefolium tinctures, also known as yarrow tinctures, have been traditionally used to treat bronchitis due to their anti-inflammatory, antispasmodic, and expectorant properties. These properties help to reduce inflammation in the airways, ease congestion, and promote the release of mucus, thereby alleviating the symptoms of bronchitis. The bioactive constituents of Achillea millefolium tinctures, including flavonoids, sesquiterpenes, and terpenoids, contribute to their therapeutic effects by inhibiting the production of pro-inflammatory cytokines and enhancing the clearance of mucus from the airways. The benefits of using Achillea millefolium tinctures to treat bronchitis include reduced severity of symptoms, improved lung function, and enhanced overall respiratory health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hydrastis canadensis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 57,
+            "herb_total_score": 399,
+            "preparation_desc": "Hydrastis canadensis tinctures, also known as goldenseal, have been traditionally used to treat bronchitis due to their anti-inflammatory and antimicrobial properties. The berberine content in goldenseal tinctures helps to reduce inflammation in the airways, soothe irritated tissues, and combat bacterial infections that can exacerbate bronchitis. The bioactive constituents of goldenseal, including berberine, hydrastine, and hydrastinine, contribute to its therapeutic effects by modulating the immune system and reducing oxidative stress. By using goldenseal tinctures, individuals with bronchitis may experience relief from symptoms such as coughing, wheezing, and shortness of breath, making it a valuable herbal remedy for managing this respiratory condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 10,
+            "herb_confidence_score": 50,
+            "herb_total_score": 500,
+            "preparation_desc": "Taraxacum officinale tinctures have been traditionally used to treat bronchitis due to their anti-inflammatory and expectorant properties, which help to soothe the irritated airways and promote the removal of mucus. The bioactive constituents present in this herbal preparation, such as flavonoids, terpenoids, and saponins, work synergistically to reduce inflammation, relax bronchial muscles, and thin mucus, making it easier to cough up. By using Taraxacum officinale tinctures, individuals can experience relief from the symptoms of bronchitis, including coughing, wheezing, and shortness of breath. The benefits of this herbal preparation include reduced inflammation, improved lung function, and a faster recovery time, making it a popular natural remedy for treating bronchitis.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 50,
+            "herb_total_score": 300,
+            "preparation_desc": "Silybum marianum tinctures, derived from the milk thistle plant, have been traditionally used to treat bronchitis due to their anti-inflammatory and expectorant properties. The herbal preparation helps to treat bronchitis by reducing inflammation in the airways and promoting the clearance of mucus, making it easier to breathe. The bioactive constituents of Silybum marianum tinctures, such as flavonoids and silymarin, have been shown to have antioxidant and anti-inflammatory effects, which contribute to their therapeutic benefits. The use of Silybum marianum tinctures to treat bronchitis offers benefits such as reduced coughing, improved respiratory function, and a lower risk of complications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinophora sibthorpiana",
+            "herb_mentions": 8,
+            "herb_confidence_score": 40,
+            "herb_total_score": 320,
+            "preparation_desc": "Echinophora sibthorpiana tinctures have been traditionally used to treat bronchitis due to their expectorant and anti-inflammatory properties, which help to relieve congestion and reduce inflammation in the airways. The tinctures are rich in bioactive constituents such as flavonoids, phenolic acids, and terpenoids, which work together to alleviate bronchial spasms and promote the removal of mucus. By treating bronchitis, Echinophora sibthorpiana tinctures help to improve respiratory function, reduce coughing, and alleviate symptoms such as wheezing and shortness of breath. The benefits of using Echinophora sibthorpiana tinctures to treat bronchitis include natural relief from symptoms, reduced risk of complications, and a gentle, non-pharmacological approach to managing the condition.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"The Korean journal of internal medicine\", tinctures for bronchitis, such as HL301, have been shown to be effective and safe for symptomatic treatment of acute bronchitis, with significant improvements in bronchitis severity score and other efficacy variables."
+}

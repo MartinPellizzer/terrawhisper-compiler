@@ -1,0 +1,251 @@
+{
+    "url": "ailments/sore-throat/teas",
+    "ailment_slug": "sore-throat",
+    "ailment_name": "sore throat",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 13,
+    "title": "13 Best Herbal Teas For Sore Throat",
+    "intro": "Herbal teas for Sore throat are a type of natural remedy made from various herbs and plants, used to soothe and calm the irritated mucous membranes in the throat, providing relief from discomfort and pain. The benefits of using herbal teas to treat sore throat include their anti-inflammatory properties, ability to boost the immune system, and their non-irritating and gentle nature, making them an excellent alternative to over-the-counter medications. Some popular examples of herbal teas used to treat sore throat include Throat Coat Tea, made from a blend of slippery elm, licorice root, and marshmallow root, which provides a protective coating to the throat; Ginger tea, which has anti-inflammatory properties and helps to reduce swelling; Echinacea tea, which boosts the immune system and helps to fight off infections; Peppermint tea, which helps to reduce congestion and eases coughing; and Licorice root tea, which has anti-inflammatory properties and helps to soothe the throat. Additionally, other herbal teas like Sage, Chamomile, and Lemon balm can also be used to treat sore throat due to their calming and anti-inflammatory properties.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 19,
+            "herb_confidence_score": 168,
+            "herb_total_score": 3192,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to treat sore throat ailments, thanks to their anti-inflammatory and antimicrobial properties that help to reduce swelling and combat bacterial and viral infections. The bioactive constituents of Echinacea purpurea, such as alkylamides, glycosides, and phenolic acids, work together to stimulate the immune system and increase the production of white blood cells, ultimately helping to alleviate sore throat symptoms. By consuming Echinacea purpurea teas, individuals can benefit from reduced inflammation, improved immune function, and a faster recovery from sore throat infections. The benefits of using Echinacea purpurea teas to treat sore throat ailments include natural pain relief, reduced risk of complications, and a more effective treatment option compared to conventional medications.",
+            "preparation_study": "According to the study, Echinacea purpurea teas may offer potential as an adjuvant symptomatic therapy in the treatment of sore throat, as it is one of the medicinal plants that exhibit therapeutic applications in respiratory conditions.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 19,
+            "herb_confidence_score": 162,
+            "herb_total_score": 3078,
+            "preparation_desc": "Glycyrrhiza glabra teas, made from the root of the licorice plant, have been used for centuries to treat sore throats due to their anti-inflammatory and soothing properties. The bioactive constituents of Glycyrrhiza glabra, including glycyrrhizin and flavonoids, help to reduce inflammation and pain in the throat, making it an effective remedy for this ailment. These properties help to treat sore throats by reducing swelling, killing bacteria, and promoting healing, ultimately providing quick relief from discomfort and pain. The benefits of using Glycyrrhiza glabra teas to treat sore throats include reduced inflammation, improved healing, and a soothing effect that provides long-lasting relief.",
+            "preparation_study": "According to \"Journal of the Medical Association of Thailand = Chotmaihet thangphaet\", Glycyrrhiza glabra teas for sore throat showed strong antimicrobial activity against Streptococcus pyogenes, the most common cause of acute pharyngitis, with a minimal inhibitory concentration (MIC) value of 39 \u03bcg/ml.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 19,
+            "herb_confidence_score": 153,
+            "herb_total_score": 2907,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger tea, have been traditionally used to treat sore throat ailments due to their anti-inflammatory, antibacterial, and antiviral properties. The bioactive constituents of ginger tea, such as gingerols and shogaols, help to reduce inflammation, kill bacteria, and combat viral infections, thereby alleviating sore throat symptoms. Drinking ginger tea can help to soothe the throat, reduce pain and discomfort, and promote a speedy recovery from sore throat ailments. The benefits of using ginger tea to treat sore throat include its natural and non-addictive nature, making it a popular herbal remedy for this common health issue.",
+            "preparation_study": "According to \"Journal of alternative and complementary medicine (New York, N.Y.)\", Zingiber officinale teas (part of Throat Coat) were found to provide a rapid, temporary relief of sore throat pain in patients with pharyngitis, with significant reductions in pain intensity and improvements in total pain relief compared to a placebo.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 17,
+            "herb_confidence_score": 135,
+            "herb_total_score": 2295,
+            "preparation_desc": "Eucalyptus globulus teas have been traditionally used to treat sore throats due to their decongestant, anti-inflammatory, and antimicrobial properties. These properties help to reduce swelling and inflammation in the throat, alleviate congestion, and combat bacterial and viral infections that can cause a sore throat. The bioactive constituents present in Eucalyptus globulus teas, including eucalyptol, limonene, and alpha-pinene, work together to provide relief from sore throat symptoms by reducing inflammation and killing bacteria that cause infection. The benefits of Eucalyptus globulus teas in treating sore throats include rapid relief from pain and discomfort, reduced risk of complications, and a natural and non-invasive treatment option that can be used in conjunction with other remedies.",
+            "preparation_study": "According to \"Evidence-based complementary and alternative medicine : eCAM\", Eucalyptus globulus teas for sore throat may be beneficial due to the fact that Eucalyptus globulus was among the top-cited plant species used in the treatment of respiratory tract infections, which include sore throat.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Herbal-Tea-Caffeine-Relaxer-Non-GMO/dp/B00ECOSODU",
+                "affiliate_link": "https://amzn.to/4caik3b",
+                "title": "Tiesta Tea - Palm Beach Punch | Loose Leaf | Fruit Punch Herbal Tea | Caffeine-Free Tropical Blend with Apple and Orange | Brew Hot or Iced | Resealable Pouch | 25 Cups | 2 Ounce"
+            }
+        },
+        {
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_mentions": 16,
+            "herb_confidence_score": 130,
+            "herb_total_score": 2080,
+            "preparation_desc": "Thymus vulgaris teas, made from the leaves of the thyme plant, have been traditionally used to treat sore throat ailments due to their anti-inflammatory and antimicrobial properties. The bioactive constituents of thyme, including thymol and carvacrol, help to reduce inflammation and combat bacterial infections that can cause a sore throat, thereby providing relief from the symptoms. Thymus vulgaris teas work by soothing the throat and reducing the production of mucus, making it easier to swallow and speak. The benefits of using thymus vulgaris teas to treat sore throat ailments include their natural and non-addictive properties, making them a safe and effective alternative to conventional medications.",
+            "preparation_study": "According to \"Ceska a Slovenska farmacie : casopis Ceske farmaceuticke spolecnosti a Slovenske farmaceuticke spolecnosti\", Thymus vulgaris teas for sore throat can be an efficient help in treatment, shortening the duration of the disease and reducing the need of antibiotic therapy when used in combination with other medicinal plants.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Throat-Coat/dp/B000SR62ZC",
+                "affiliate_link": "https://amzn.to/3FRzx5k",
+                "title": "Traditional Medicinals Tea, Organic Throat Coat, Supports Throat Health, 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 21,
+            "herb_confidence_score": 125,
+            "herb_total_score": 2625,
+            "preparation_desc": "Achillea millefolium teas, also known as yarrow tea, have been traditionally used to treat sore throat ailments due to their anti-inflammatory and antimicrobial properties. The herbal preparation helps to soothe and calm the throat by reducing inflammation and killing bacteria that can cause infection. The bioactive constituents of yarrow tea, including flavonoids and terpenoids, are responsible for its therapeutic effects, which include reducing pain and discomfort associated with a sore throat. By consuming yarrow tea, individuals can experience a range of benefits, including rapid relief from symptoms, reduced risk of complications, and improved overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Soursop-Leaves-Bags-Teabags/dp/B0C69P5FV9",
+                "affiliate_link": "https://amzn.to/4i1QY0D",
+                "title": "FullChea- Soursop Leaves Tea Bags, 40 Teabags, 1.5g/Bag - Premium Soursop Graviola Leaves Tea - Hojas De Guanabana Tea - Non-GMO - Caffeine-Free - Improve Digestion, Support Healthy Skin & Sleep"
+            }
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 17,
+            "herb_confidence_score": 112,
+            "herb_total_score": 1904,
+            "preparation_desc": "Sambucus nigra teas have been traditionally used to treat sore throats due to their anti-inflammatory and antimicrobial properties, which help to soothe and calm the irritated mucous membranes. The bioactive constituents, including flavonoids, phenolic acids, and essential oils, work together to reduce swelling, fight off infections, and promote healing. By reducing inflammation and fighting off infections, Sambucus nigra teas provide quick relief from sore throats, making it an effective natural remedy for this common ailment. The benefits of using Sambucus nigra teas to treat sore throats include reduced pain and discomfort, accelerated healing, and a return to normal vocal function.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Elderberry-Eco-Conscious-Kraft-FGO/dp/B09HDFQ4JX",
+                "affiliate_link": "https://amzn.to/42aR3ZN",
+                "title": "FGO Organic Elderberry Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealabel Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 93,
+            "herb_total_score": 1209,
+            "preparation_desc": "Salvia officinalis teas, derived from the leaves of the sage plant, have been traditionally used to treat sore throat ailments due to their anti-inflammatory and antimicrobial properties. The bioactive constituents of Salvia officinalis teas, including flavonoids, phenolic acids, and triterpenoids, help to reduce inflammation and combat bacterial and viral infections that cause sore throat. By consuming Salvia officinalis teas, individuals can experience relief from sore throat symptoms, such as pain and discomfort, as the herbal preparation helps to soothe and calm the throat mucosa. The benefits of using Salvia officinalis teas to treat sore throat include reduced risk of complications, faster recovery, and a natural alternative to pharmaceutical medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Taylors-Harrogate-Green-Jasmine-Teabags/dp/B000MN69CS",
+                "affiliate_link": "https://amzn.to/4iXf0ei",
+                "title": "Taylors of Harrogate Green Tea with Jasmine, 50 Teabags"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 13,
+            "herb_confidence_score": 84,
+            "herb_total_score": 1092,
+            "preparation_desc": "Lavandula angustifolia teas, also known as English lavender tea, have been used for centuries to treat sore throats due to their anti-inflammatory, antibacterial, and antiviral properties. The bioactive constituents of Lavandula angustifolia, including linalool and linalyl acetate, help to reduce inflammation and combat bacterial and viral infections that can cause sore throats. Drinking Lavandula angustifolia tea can help to soothe a sore throat, reduce swelling and pain, and promote healing. The benefits of using Lavandula angustifolia tea to treat sore throats include its natural and non-invasive approach, ease of preparation, and potential to reduce the duration and severity of symptoms.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Echinacea angustifolia",
+            "herb_mentions": 10,
+            "herb_confidence_score": 84,
+            "herb_total_score": 840,
+            "preparation_desc": "Echinacea angustifolia teas have been used for centuries as a natural remedy to treat sore throat ailments, primarily due to their anti-inflammatory and antimicrobial properties. This herbal preparation helps to treat sore throat by reducing swelling, relieving pain, and preventing the growth of harmful microorganisms that can cause infections. The bioactive constituents of Echinacea angustifolia teas, such as alkylamides and caffeic acid derivatives, have been shown to possess immunomodulatory and antioxidant properties that help to boost the immune system and reduce oxidative stress. By incorporating Echinacea angustifolia teas into one's daily routine, individuals can enjoy the benefits of a reduced risk of illness, faster recovery times, and a strengthened immune system to combat sore throat ailments.",
+            "preparation_study": "According to \"The Cochrane database of systematic reviews\", Echinacea angustifolia teas for sore throat may be beneficial as some preparations containing Echinacea extracts may be better than placebo, but there is not enough evidence to recommend a specific Echinacea product or preparation for the treatment of sore throat.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3RQgECK",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Ulmus rubra",
+            "herb_mentions": 9,
+            "herb_confidence_score": 75,
+            "herb_total_score": 675,
+            "preparation_desc": "Ulmus rubra teas have been traditionally used to treat sore throats due to their anti-inflammatory and antioxidant properties. The bioactive constituents present in these teas, including flavonoids and phenolic acids, help to reduce inflammation and soothe the mucous membranes, providing relief from the discomfort and pain associated with a sore throat. The antioxidant properties of Ulmus rubra teas also help to protect the body from oxidative stress and promote healing. Regular consumption of Ulmus rubra teas has been shown to be beneficial in treating sore throats by reducing the severity and duration of symptoms, and promoting a speedy recovery.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 13,
+            "herb_confidence_score": 75,
+            "herb_total_score": 975,
+            "preparation_desc": "Ginkgo biloba teas have been used to treat sore throat ailments due to their anti-inflammatory and antibacterial properties, which help to soothe and calm the throat. The flavonoids and terpenoids present in ginkgo biloba, such as quercetin and bilobalide, have been found to have anti-inflammatory effects that reduce swelling and pain in the throat. By reducing inflammation and killing bacteria, ginkgo biloba teas help to alleviate symptoms of sore throat, including discomfort, pain, and difficulty swallowing. The benefits of using ginkgo biloba teas to treat sore throat include reduced inflammation, faster recovery, and a decrease in the risk of complications such as tonsillitis and pharyngitis.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 73,
+            "herb_total_score": 803,
+            "preparation_desc": "Rosmarinus officinalis teas, also known as rosemary tea, have been used for centuries to treat sore throats due to their anti-inflammatory and antibacterial properties. The bioactive constituents, including carnosic acid and rosmarinic acid, help to reduce inflammation, kill bacteria that cause infections, and promote a soothing effect on the throat. By consuming rosemary tea, individuals can experience relief from sore throats, as it helps to reduce pain and discomfort, and promotes a healthy recovery. The benefits of using rosemary tea to treat sore throats include its natural and non-addictive properties, making it a popular alternative to over-the-counter medications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 72,
+            "herb_total_score": 792,
+            "preparation_desc": "Melissa officinalis teas, also known as lemon balm teas, have been traditionally used to treat sore throat ailments due to their anti-inflammatory and soothing properties. The bioactive constituents, including rosmarinic acid, melissic acid, and citral, help to reduce inflammation, calm the throat, and alleviate pain. These herbal teas work by coating the mucous membranes with a soothing layer, reducing irritation and discomfort, and promoting a peaceful environment for the throat to heal. The benefits of using Melissa officinalis teas to treat sore throat ailments include rapid relief from pain and inflammation, reduced risk of complications, and a natural, non-addictive alternative to conventional medications.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 8,
+            "herb_confidence_score": 64,
+            "herb_total_score": 512,
+            "preparation_desc": "Mentha x piperita teas have been traditionally used to treat sore throat due to their anti-inflammatory, antimicrobial, and antioxidant properties, which help to reduce throat irritation and inflammation. The bioactive constituents, including menthone, limonene, and rosmarinic acid, work together to soothe the throat and alleviate pain, making it easier to swallow and speak. These properties also help to combat bacterial and viral infections that can cause sore throat, promoting a faster recovery and reducing the risk of complications. The benefits of using Mentha x piperita teas to treat sore throat include natural pain relief, reduced inflammation, and improved immune function, making it a popular and effective herbal remedy for this common ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Althaea officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 61,
+            "herb_total_score": 427,
+            "preparation_desc": "Althaea officinalis teas have been traditionally used to treat sore throats due to their anti-inflammatory and soothing properties, which help to reduce swelling and discomfort in the throat. The mucilages present in this herbal preparation form a protective barrier on the mucous membranes, preventing further irritation and promoting healing. The bioactive constituents, including flavonoids, phenolic acids, and mucilages, contribute to its therapeutic effects by reducing inflammation and fighting off infections. Regular consumption of Althaea officinalis teas can provide relief from sore throats by reducing pain, inflammation, and discomfort, making it a popular natural remedy for this common ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 8,
+            "herb_confidence_score": 58,
+            "herb_total_score": 464,
+            "preparation_desc": "Curcuma longa teas have been traditionally used to treat sore throat ailments due to their anti-inflammatory and antimicrobial properties, which help to reduce swelling and combat infection in the throat. The bioactive constituents present in Curcuma longa teas, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, have potent antioxidant and anti-inflammatory effects that aid in soothing and healing the sore throat. These bioactive compounds help to reduce the severity of symptoms such as pain, redness, and swelling, allowing the body to recover from the infection more efficiently. By consuming Curcuma longa teas, individuals can benefit from its soothing and healing properties, leading to faster recovery and reduced risk of complications associated with sore throat ailments.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 10,
+            "herb_confidence_score": 51,
+            "herb_total_score": 510,
+            "preparation_desc": "Taraxacum officinale teas, also known as dandelion root tea, have been used to treat sore throat ailments due to their anti-inflammatory and antimicrobial properties. The bioactive constituents, including flavonoids and phenolic acids, help to soothe and reduce inflammation in the throat, alleviating pain and discomfort. The tea's ability to stimulate mucus production and promote expectoration also aids in clearing out mucus and debris from the throat, providing relief from coughing and congestion. The benefits of Taraxacum officinale teas for treating sore throat include reduced inflammation, improved immune function, and a soothing, calming effect on the throat, making it a popular natural remedy for this common ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Roasted-Dandelion-Eco-Conscious-FGO/dp/B07Z7FTFNX",
+                "affiliate_link": "https://amzn.to/4j70AbI",
+                "title": "FGO Organic Roasted Dandelion Root Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 44,
+            "herb_total_score": 308,
+            "preparation_desc": "Cinchona officinalis teas have been used for centuries to treat sore throats due to their anti-inflammatory and antimicrobial properties. The alkaloids present in Cinchona officinalis, such as quinine and quinidine, help to reduce inflammation and fight off bacterial and viral infections that cause sore throats. These bioactive constituents work together to relieve pain, reduce swelling, and promote healing in the throat, providing quick relief from discomfort and discomfort associated with sore throats. By using Cinchona officinalis teas, individuals can benefit from a natural, non-invasive treatment for sore throats that is free from harsh chemicals and side effects.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Origanum vulgare",
+            "herb_mentions": 6,
+            "herb_confidence_score": 39,
+            "herb_total_score": 234,
+            "preparation_desc": "Origanum vulgare teas, also known as wild marjoram or oregano tea, are a popular herbal preparation used to treat sore throat ailments. This herbal preparation helps to treat sore throat by reducing inflammation and relieving pain due to its analgesic and anti-inflammatory properties. The bioactive constituents of Origanum vulgare, including carvacrol and thymol, exhibit antimicrobial and antiseptic properties that help to combat infections and promote healing in the throat. The benefits of using Origanum vulgare teas to treat sore throat include reduced inflammation, pain relief, and a shorter recovery time, making it a natural and effective remedy for this common ailment.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Journal of alternative and complementary medicine (New York, N.Y.)\", teas for sore throat, specifically Throat Coat, a traditional demulcent herbal tea, have been found to be significantly effective in reducing the intensity of throat pain when swallowing and providing rapid, temporary relief of sore throat pain in patients with pharyngitis."
+}

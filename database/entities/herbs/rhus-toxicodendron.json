@@ -1,0 +1,18 @@
+{
+    "url": "herbs/rhus-toxicodendron",
+    "herb_slug": "rhus-toxicodendron",
+    "herb_name_scientific": "rhus toxicodendron",
+    "lastmod": "2025-5-31",
+    "benefits_num": 13,
+    "benefits_title": "13 Best Health Benefits Of Rhus Toxicodendron",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 10,
+            "confidence_score": 100,
+            "total_score": 1000
+        }
+    ],
+    "constituents_num": 7,
+    "side_effects_num": 11
+}

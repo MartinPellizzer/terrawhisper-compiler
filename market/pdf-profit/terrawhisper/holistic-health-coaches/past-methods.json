@@ -1,0 +1,84 @@
+{
+    "data": [
+        {
+            "method": "Purchasing a proprietary herbal formula library",
+            "time": "2-5 hours",
+            "cost": "$2,000 - $10,000",
+            "outcome": "May get some effective formulas and can save time and money in the long run",
+            "score": 10,
+            "why": "This method can provide a comprehensive solution to the complexities of herbalism and save time and money in the long run."
+        },
+        {
+            "method": "Using a pre-verified library of high-quality suppliers and pre-formulated herbal products",
+            "time": "2-5 hours",
+            "cost": "$1,000 - $5,000 (one-time)",
+            "outcome": "May get some effective formulas and can save time and money in the long run",
+            "score": 9,
+            "why": "This method can provide a comprehensive solution to the complexities of herbalism and save time and money in the long run."
+        },
+        {
+            "method": "Attending herbalism conferences and workshops",
+            "time": "5-10 days",
+            "cost": "$1,000 - $5,000",
+            "outcome": "May gain some knowledge and network with other professionals",
+            "score": 8,
+            "why": "Attending conferences and workshops can be a great way to learn from experts and network with other professionals, but can be expensive and time-consuming."
+        },
+        {
+            "method": "Developing and marketing their own unique herbal product line",
+            "time": "20-40 hours",
+            "cost": "$2,000 - $10,000",
+            "outcome": "May get some effective formulas, but can be time-consuming and may not meet changing regulations",
+            "score": 7,
+            "why": "This method can be time-consuming and may not provide a long-term solution to the changing regulatory landscape."
+        },
+        {
+            "method": "Hiring a herbalist to create custom formulas",
+            "time": "5-10 hours",
+            "cost": "$500 - $2,000",
+            "outcome": "May get some effective formulas, but can be expensive and may not meet changing regulations",
+            "score": 6,
+            "why": "This method can be costly and may not provide a long-term solution to the changing regulatory landscape."
+        },
+        {
+            "method": "Creating their own herbal products using pre-verified suppliers",
+            "time": "10-20 hours",
+            "cost": "$1,000 - $5,000",
+            "outcome": "May get some effective formulas, but can be time-consuming and may not meet changing regulations",
+            "score": 6,
+            "why": "This method can be time-consuming and may not provide a long-term solution to the changing regulatory landscape."
+        },
+        {
+            "method": "Using pre-made herbal supplement blends",
+            "time": "5-10 hours",
+            "cost": "$500 - $2,000",
+            "outcome": "May get some effective formulas, but may not be custom to their clients' needs",
+            "score": 5,
+            "why": "Pre-made blends can be convenient, but may not meet the specific needs of their clients and may not be compliant with changing regulations."
+        },
+        {
+            "method": "Creating their own herbal formulas from scratch",
+            "time": "20-40 hours",
+            "cost": "$0 - $1,000",
+            "outcome": "Some formulas may be effective, but many may not be and can be costly to develop",
+            "score": 4,
+            "why": "This method is time-consuming and requires a deep understanding of herbalism, but even then, there's no guarantee of success."
+        },
+        {
+            "method": "Partnering with a herbal supplement company",
+            "time": "5-10 hours",
+            "cost": "$0 - $1,000",
+            "outcome": "May get some effective formulas, but may not be custom to their clients' needs and may not be compliant with changing regulations",
+            "score": 4,
+            "why": "Partnering with a company can be convenient, but may not provide the level of customization and compliance needed to meet changing regulations."
+        },
+        {
+            "method": "Using online resources and webinars",
+            "time": "10-20 hours",
+            "cost": "$0 - $500",
+            "outcome": "May gain some knowledge, but may not be comprehensive or up-to-date",
+            "score": 3,
+            "why": "Online resources can be limited in their scope and may not provide the depth of knowledge needed to navigate the complexities of herbalism."
+        }
+    ]
+}

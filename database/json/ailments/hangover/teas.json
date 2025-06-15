@@ -1,0 +1,253 @@
+{
+    "url": "ailments/hangover/teas",
+    "ailment_slug": "hangover",
+    "ailment_name": "hangover",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 11,
+    "title": "11 Best Herbal Teas For Hangover",
+    "intro": "Herbal teas for hangover are a type of medicinal tea made from various herbs and plants that are traditionally used to alleviate the symptoms of a hangover, such as headaches, fatigue, and nausea. These teas are beneficial in treating hangover ailments due to their antioxidant, anti-inflammatory, and soothing properties. Examples of herbal teas used to treat hangovers include peppermint tea, which helps to ease stomach upset and calm digestive issues, ginger tea, which reduces nausea and inflammation, and chamomile tea, which promotes relaxation and reduces anxiety. Additionally, other herbs like dandelion root tea, licorice root tea, and feverfew tea are also used to treat hangovers due to their ability to replenish electrolytes, soothe stomach issues, and reduce hangover symptoms.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 19,
+            "herb_confidence_score": 166,
+            "herb_total_score": 3154,
+            "preparation_desc": "Zingiber officinale teas, commonly known as ginger tea, have been used for centuries to alleviate hangover symptoms. This herbal preparation helps to treat hangover ailments by reducing nausea and vomiting, relieving stomach discomfort, and replenishing lost electrolytes. The bioactive constituents of ginger, including gingerols and shogaols, possess anti-inflammatory and antioxidant properties that aid in the treatment of hangover symptoms. The benefits of ginger tea in treating hangovers include rapid relief from nausea and headaches, improved digestion, and increased energy levels.",
+            "preparation_study": "According to \"Alternative therapies in health and medicine\", Zingiber officinale teas for hangover may be useful in relieving nausea and vomiting associated with hangovers, based on its efficacy in reducing symptoms of nausea and vomiting in pregnant women.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 19,
+            "herb_confidence_score": 150,
+            "herb_total_score": 2850,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to alleviate hangover symptoms due to their antioxidant, anti-inflammatory, and vasodilatory properties. The flavonoids and terpenoids present in Ginkgo biloba help to counteract the negative effects of excessive alcohol consumption, such as headaches and dizziness, by improving blood flow and reducing oxidative stress. The bioactive constituents, including quercetin and bilobalide, contribute to the anti-inflammatory and neuroprotective effects of Ginkgo biloba teas, which may help to alleviate hangover symptoms. The benefits of using Ginkgo biloba teas to treat hangovers include improved cognitive function, reduced nausea and vomiting, and a faster recovery time, making it a popular natural remedy among those who enjoy social drinking.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 16,
+            "herb_confidence_score": 130,
+            "herb_total_score": 2080,
+            "preparation_desc": "Curcuma longa teas have been used for centuries to alleviate hangover symptoms due to their anti-inflammatory and antioxidant properties. The bioactive constituents, such as curcumin and turmerone, help to reduce oxidative stress, inflammation, and nausea associated with hangovers. By consuming Curcuma longa teas, individuals can experience relief from hangover symptoms, including headaches, fatigue, and stomach issues, as the herbal preparation helps to stabilize blood sugar levels and alleviate oxidative stress. The benefits of using Curcuma longa teas to treat hangovers include reduced severity and duration of symptoms, improved digestive health, and enhanced overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 17,
+            "herb_confidence_score": 127,
+            "herb_total_score": 2159,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle teas, have been traditionally used to treat hangover symptoms due to their anti-inflammatory and antioxidant properties. The flavonoids and silymarin present in this herbal preparation help to treat hangover by reducing liver damage, mitigating oxidative stress, and promoting liver cell regeneration. The bioactive constituents of silymarin, particularly silibinin, silidianin, and silicristin, are responsible for its hepatoprotective effects, which aid in alleviating hangover symptoms such as nausea, fatigue, and headaches. The benefits of silybum marianum teas in treating hangover include rapid recovery, reduced severity of symptoms, and improved overall well-being, making it a popular natural remedy among individuals seeking to alleviate hangover discomfort.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 18,
+            "herb_confidence_score": 123,
+            "herb_total_score": 2214,
+            "preparation_desc": "Glycyrrhiza glabra teas, also known as licorice root tea, have been traditionally used to alleviate the symptoms of hangovers due to their anti-inflammatory and antioxidant properties. The bioactive constituents, such as glycyrrhizin and flavonoids, help to soothe digestive issues, reduce nausea, and replenish essential electrolytes that may be lost during excessive alcohol consumption. By consuming Glycyrrhiza glabra teas, individuals can experience relief from hangover symptoms, including headaches, fatigue, and stomach discomfort, as the herbal preparation helps to balance the body's natural pH levels and promote relaxation. The benefits of using Glycyrrhiza glabra teas to treat hangovers include reduced risk of dehydration, improved gut health, and a faster recovery time, making it a popular natural remedy among those seeking a holistic approach to hangover relief.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 16,
+            "herb_confidence_score": 120,
+            "herb_total_score": 1920,
+            "preparation_desc": "Panax ginseng teas are increasingly being used as a natural remedy to alleviate hangover symptoms due to their adaptogenic and anti-inflammatory properties. These teas help to treat hangover by reducing oxidative stress, improving mental clarity, and restoring energy levels, thereby mitigating the negative effects of excessive alcohol consumption. The bioactive constituents of Panax ginseng, including ginsenosides and panaxynol, play a crucial role in modulating the body's response to stress and inflammation, ultimately leading to a faster recovery from hangover. The benefits of Panax ginseng teas in treating hangover include reduced symptoms of nausea, headache, and fatigue, as well as improved overall well-being and reduced likelihood of future hangovers.",
+            "preparation_study": "According to \"Clinical and experimental pharmacology & physiology\", Panax ginseng teas for hangover may be beneficial as research suggests that Panax ginseng extract can enhance blood alcohol clearance in humans, potentially reducing hangover symptoms.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Honey-Ginseng-Eco-Conscious-FGO/dp/B09Z37KVJM",
+                "affiliate_link": "https://amzn.to/43IctzX",
+                "title": "FGO Organic Honey Ginseng Green Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 12,
+            "herb_confidence_score": 98,
+            "herb_total_score": 1176,
+            "preparation_desc": "Valeriana officinalis teas have been used for centuries to treat hangover ailments due to their calming and anti-inflammatory properties. This herbal preparation helps to treat hangover symptoms by soothing the stomach, reducing nausea, and alleviating headaches, making it an effective remedy to alleviate hangover discomfort. The bioactive constituents of Valeriana officinalis, including valerenic acid, valerenol, and sesquiterpenes, contribute to its therapeutic effects, which help to reduce anxiety, promote relaxation, and regulate sleep patterns. The benefits of Valeriana officinalis teas for hangover treatment include rapid relief from symptoms, improved sleep quality, and reduced risk of dehydration, making it a popular choice among those seeking a natural remedy.",
+            "preparation_study": "According to \"Praxis\", Valeriana officinalis teas for hangover effects on the following morning do not need to be a cause for concern.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 16,
+            "herb_confidence_score": 98,
+            "herb_total_score": 1568,
+            "preparation_desc": "Rosmarinus officinalis teas, derived from the leaves of the rosemary plant, have been used to treat hangover symptoms due to their anti-inflammatory and antioxidant properties. The herbal preparation helps to alleviate hangover symptoms by reducing inflammation, improving digestion, and relieving headaches. Rosmarinus officinalis teas contain bioactive constituents such as carnosic acid, ursolic acid, and rosmarinic acid, which help to scavenge free radicals, reduce oxidative stress, and inhibit pro-inflammatory enzymes. The benefits of using Rosmarinus officinalis teas to treat hangover symptoms include rapid relief from nausea, vomiting, and fatigue, as well as improved cognitive function and reduced risk of dehydration.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 14,
+            "herb_confidence_score": 92,
+            "herb_total_score": 1288,
+            "preparation_desc": "Lavandula angustifolia teas, also known as English lavender tea, have been used to alleviate the symptoms of a hangover due to their soothing and calming properties. This herbal preparation helps to treat hangover ailments by reducing inflammation, promoting relaxation, and alleviating nausea, making it easier for individuals to recover from excessive drinking. The bioactive constituents of Lavandula angustifolia, including linalool and linalyl acetate, have been shown to possess anti-inflammatory and anxiolytic effects, which contribute to its hangover-relieving properties. The benefits of using Lavandula angustifolia teas to treat hangovers include improved sleep quality, reduced anxiety and stress, and faster recovery times, making it a natural and holistic approach to managing hangover symptoms.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 87,
+            "herb_total_score": 957,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat hangover symptoms due to their ability to counteract nausea and alleviate headaches. This herbal preparation contains bioactive constituents such as quinine and alkaloids that help to treat hangover symptoms by reducing inflammation, fever, and pain. The benefits of Cinchona officinalis teas in treating hangovers include their ability to replenish lost electrolytes, hydrate the body, and provide anti-inflammatory properties. Additionally, the caffeine content in Cinchona officinalis teas can also help to alleviate fatigue and increase alertness, making it a popular remedy for hangover relief.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 11,
+            "herb_confidence_score": 72,
+            "herb_total_score": 792,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to help alleviate the symptoms of hangovers due to their anti-inflammatory, antioxidant, and immune-boosting properties. The bioactive constituents such as alkylamides, caffeic acid derivatives, and phenolic acids in Echinacea purpurea teas may help to reduce inflammation, quench free radicals, and promote the body's natural defenses to counteract the effects of excessive alcohol consumption. By consuming Echinacea purpurea teas, individuals may experience relief from hangover symptoms such as headaches, fatigue, and nausea, and may also benefit from improved digestion and reduced oxidative stress. The benefits of using Echinacea purpurea teas to treat hangovers include a potential reduction in hangover severity, accelerated recovery, and a natural, non-addictive approach to mitigating the negative effects of excessive alcohol consumption.",
+            "preparation_study": "According to \"Molecular nutrition & food research\", Echinacea purpurea teas for hangover appear to have a low potential risk as there are no verifiable reports of drug-herb interactions and only a small estimated risk of adverse events (1 in 100,000).",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 11,
+            "herb_confidence_score": 64,
+            "herb_total_score": 704,
+            "preparation_desc": "Taraxacum officinale teas, also known as dandelion root tea, have been used for centuries to alleviate hangover symptoms. The diuretic and anti-inflammatory properties of this herbal preparation help to treat hangover ailments by reducing bloating, nausea, and headaches. The bioactive constituents, including flavonoids, sesquiterpenes, and phenolic acids, have antioxidant and anti-inflammatory effects that aid in the recovery process. By reducing water retention and alleviating digestive discomfort, Taraxacum officinale teas offer a natural and effective way to treat hangover symptoms and promote overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Roasted-Dandelion-Eco-Conscious-FGO/dp/B07Z7FTFNX",
+                "affiliate_link": "https://amzn.to/4j70AbI",
+                "title": "FGO Organic Roasted Dandelion Root Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 7,
+            "herb_confidence_score": 55,
+            "herb_total_score": 385,
+            "preparation_desc": "Mentha x piperita teas, commonly known as peppermint tea, have been used for centuries to alleviate hangover symptoms. The analgesic and anti-inflammatory properties of this herbal preparation help to treat the ailment by reducing headaches, nausea, and stomach discomfort. The bioactive constituents, including menthol, menthone, and limonene, have been found to ease digestive issues, reduce inflammation, and provide a calming effect on the nervous system. As a natural and non-invasive remedy, peppermint tea offers benefits such as improved digestion, reduced nausea, and a refreshing and invigorating effect that can help individuals recover from hangovers more efficiently.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 9,
+            "herb_confidence_score": 54,
+            "herb_total_score": 486,
+            "preparation_desc": "Foeniculum vulgare teas, also known as fennel tea, have been traditionally used to alleviate hangover symptoms due to their carminative and anti-inflammatory properties. The bioactive constituents of fennel tea, including anethole, limonene, and fenchone, help to ease nausea, reduce headaches, and alleviate stomach discomfort, making it an effective remedy for hangover relief. These bioactive compounds in fennel tea also have antioxidant and antispasmodic effects, which contribute to its ability to soothe hangover symptoms. By consuming fennel tea, individuals can experience a range of benefits, including rapid relief from hangover symptoms, improved digestion, and a boost in overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/HANDPICK-Caffeine-Natural-Premium-Eco-Conscious/dp/B0BFHKDK88",
+                "affiliate_link": "https://amzn.to/42bRtPt",
+                "title": "HANDPICK, Fennel Tea Bags (100 Herbal Tea Bags) Caffeine Free, Gluten Free & Non GMO | Round Eco Conscious Teabags | Smooth & Sweet"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 52,
+            "herb_total_score": 364,
+            "preparation_desc": "Melissa officinalis teas have been used for centuries to alleviate the symptoms of hangovers, and their properties make them an effective herbal remedy for this ailment. The soothing and calming effects of Melissa officinalis teas help to treat hangovers by reducing anxiety, stress, and inflammation, making it easier to recover from excessive drinking. The bioactive constituents of Melissa officinalis, including rosmarinic acid, melissic acid, and linalool, contribute to its hangover-relieving properties by exhibiting antioxidant, anti-inflammatory, and antispasmodic effects. Regular consumption of Melissa officinalis teas can provide long-term benefits in reducing the frequency and severity of hangovers, promoting overall well-being and improving liver function.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Artemisia absinthium",
+            "herb_mentions": 11,
+            "herb_confidence_score": 50,
+            "herb_total_score": 550,
+            "preparation_desc": "Artemisia absinthium teas, also known as wormwood tea, have been traditionally used to treat hangover ailments due to their anti-inflammatory and antioxidant properties. The bioactive constituents present in wormwood tea, including sesquiterpenoids and flavonoids, help to alleviate hangover symptoms by reducing inflammation and promoting the removal of toxins from the body. By drinking wormwood tea, individuals can experience relief from hangover symptoms such as headaches, nausea, and fatigue, ultimately providing a natural and effective way to recover from excessive alcohol consumption. The benefits of using wormwood tea to treat hangovers include its ability to reduce inflammation, promote digestive health, and provide antioxidant protection, making it a popular herbal remedy among those seeking a natural hangover cure.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 7,
+            "herb_confidence_score": 49,
+            "herb_total_score": 343,
+            "preparation_desc": "Passiflora incarnata teas have been traditionally used to treat hangover ailments, particularly due to their anti-inflammatory and antioxidant properties that help to alleviate symptoms such as headaches and nausea. The herbal preparation works by reducing inflammation and oxidative stress, which are often the underlying causes of hangover symptoms. Bioactive constituents such as flavonoids, alkaloids, and glycosides present in Passiflora incarnata teas contribute to its hangover-relieving effects by promoting relaxation, reducing anxiety, and stabilizing the nervous system. By consuming Passiflora incarnata teas, individuals can experience relief from hangover symptoms and enjoy the benefits of improved mood, reduced inflammation, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Certified-Wrapped/dp/B000YTCSLQ",
+                "affiliate_link": "https://amzn.to/3FU2zS4",
+                "title": "Traditional Medicinals Organic Nighty Night with Passionflower Herbal Tea, Promotes a Good Night\u2019s Sleep, (Pack of 1) - 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_mentions": 7,
+            "herb_confidence_score": 44,
+            "herb_total_score": 308,
+            "preparation_desc": "Thymus vulgaris teas, also known as thyme tea, have been traditionally used to help alleviate symptoms of hangovers due to its anti-inflammatory, antispasmodic, and antioxidant properties. The herbal preparation contains bioactive constituents such as thymol, carvacrol, and rosmarinic acid, which help to reduce inflammation, calm the stomach, and protect the body from oxidative stress caused by excessive alcohol consumption. Thymus vulgaris teas are believed to help treat hangover symptoms by replenishing lost fluids, soothing digestive issues, and reducing headaches and fatigue. The benefits of using thymus vulgaris teas to treat hangovers include reduced severity of symptoms, faster recovery time, and a natural and non-invasive approach to managing hangover-related discomfort.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Throat-Coat/dp/B000SR62ZC",
+                "affiliate_link": "https://amzn.to/3FRzx5k",
+                "title": "Traditional Medicinals Tea, Organic Throat Coat, Supports Throat Health, 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Matricaria chamomilla",
+            "herb_mentions": 5,
+            "herb_confidence_score": 39,
+            "herb_total_score": 195,
+            "preparation_desc": "Matricaria chamomilla teas have been traditionally used to treat hangover ailments due to their soothing and anti-inflammatory properties. The apigenin and luteolin present in these teas help to reduce inflammation and alleviate symptoms such as headaches and nausea associated with hangovers. The bioactive constituents, including flavonoids and terpenoids, contribute to the anti-inflammatory and antioxidant effects that aid in the recovery from hangover symptoms. Regular consumption of Matricaria chamomilla teas has been found to provide relief from hangover symptoms, promoting a faster recovery and reducing the risk of dehydration.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_mentions": 5,
+            "herb_confidence_score": 36,
+            "herb_total_score": 180,
+            "preparation_desc": "Salvia officinalis teas have been traditionally used to treat hangover ailments due to their soothing and anti-inflammatory properties. This herbal preparation helps to treat hangover symptoms by reducing nausea and stomach discomfort, thus alleviating the overall feeling of unease associated with a hangover. The bioactive constituents of Salvia officinalis teas, including rosmarinic acid, salvianolic acid, and ursolic acid, have been found to possess antioxidant and anti-inflammatory properties that contribute to their hangover-relieving effects. The benefits of using Salvia officinalis teas to treat hangovers include reduced severity of symptoms, improved digestion, and a faster recovery time, making it a popular natural remedy among those seeking a more holistic approach to hangover relief.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Taylors-Harrogate-Green-Jasmine-Teabags/dp/B000MN69CS",
+                "affiliate_link": "https://amzn.to/4iXf0ei",
+                "title": "Taylors of Harrogate Green Tea with Jasmine, 50 Teabags"
+            }
+        }
+    ],
+    "intro_study": "N/A"
+}

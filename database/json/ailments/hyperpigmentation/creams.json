@@ -1,0 +1,183 @@
+{
+    "url": "ailments/hyperpigmentation/creams",
+    "ailment_slug": "hyperpigmentation",
+    "ailment_name": "hyperpigmentation",
+    "preparation_slug": "creams",
+    "preparation_name": "creams",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Creams For Hyperpigmentation",
+    "intro": "Herbal creams for Hyperpigmentation are topical treatments made from plant extracts that help to reduce the appearance of dark spots and uneven skin tone. These creams are beneficial in treating hyperpigmentation as they are rich in antioxidants and have anti-inflammatory properties, which help to soothe and calm the skin, reducing the appearance of hyperpigmentation. Examples of herbal creams used to treat hyperpigmentation include turmeric cream, which contains curcumin that has potent antioxidant and anti-inflammatory properties, licorice root cream, which has anti-inflammatory and skin-whitening properties, and aloe vera cream, which has soothing and moisturizing properties that help to calm and hydrate the skin. Additionally, other herbal creams such as chamomile, lavender, and green tea creams are also used to treat hyperpigmentation due to their anti-inflammatory and antioxidant properties that help to reduce the appearance of dark spots and promote even skin tone.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 19,
+            "herb_confidence_score": 174,
+            "herb_total_score": 3306,
+            "preparation_desc": "Aloe barbadensis creams have been widely used to treat hyperpigmentation due to their soothing, anti-inflammatory, and antioxidant properties. The aloin and aloe-emodin present in these creams help to inhibit the activity of tyrosinase, an enzyme responsible for the production of melanin, thereby reducing the appearance of hyperpigmented skin. The bioactive constituents, including vitamins A, C, and E, as well as beta-carotene, also contribute to the reduction of hyperpigmentation by protecting the skin from oxidative stress and promoting collagen synthesis. The use of Aloe barbadensis creams has been found to be beneficial in treating hyperpigmentation, as they help to even out skin tone, reduce the appearance of dark spots, and promote a more radiant and youthful complexion.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 17,
+            "herb_confidence_score": 159,
+            "herb_total_score": 2703,
+            "preparation_desc": "Curcuma longa creams have gained popularity as a natural remedy to treat hyperpigmentation due to their rich anti-inflammatory and antioxidant properties. The bioactive constituents, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, have been found to inhibit the production of melanin, thereby reducing the appearance of hyperpigmentation. The creams work by inhibiting the activity of tyrosinase, an enzyme responsible for melanin production, and promoting the breakdown of existing melanin, leading to a more even skin tone. Regular use of Curcuma longa creams has been found to provide numerous benefits, including improved skin texture, reduced appearance of fine lines and wrinkles, and enhanced skin elasticity.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 18,
+            "herb_confidence_score": 127,
+            "herb_total_score": 2286,
+            "preparation_desc": "Glycyrrhiza glabra creams have been traditionally used to treat hyperpigmentation due to their anti-inflammatory and antioxidant properties, which help to reduce the appearance of dark spots and skin discoloration. The bioactive constituents present in Glycyrrhiza glabra creams, such as flavonoids and glycosides, have been shown to inhibit the production of melanin, the pigment responsible for skin darkening. By reducing melanin production and promoting skin cell turnover, Glycyrrhiza glabra creams help to treat hyperpigmentation by restoring a more even skin tone and texture. The benefits of using Glycyrrhiza glabra creams for hyperpigmentation include improved skin brightness, reduced inflammation, and enhanced skin elasticity, making them a popular natural remedy for skin discoloration.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Vitis vinifera",
+            "herb_mentions": 16,
+            "herb_confidence_score": 117,
+            "herb_total_score": 1872,
+            "preparation_desc": "Vitis vinifera creams, derived from the grapevine plant, have been traditionally used to treat hyperpigmentation due to their high content of bioactive constituents such as resveratrol, quercetin, and ferulic acid. These compounds possess potent antioxidant and anti-inflammatory properties that help to inhibit the production of melanin, thereby reducing the appearance of hyperpigmented skin. The anti-inflammatory properties of Vitis vinifera creams also help to soothe and calm irritated skin, promoting a healthy and even-toned complexion. Regular use of Vitis vinifera creams can lead to a significant reduction in hyperpigmentation, resulting in smoother, brighter, and more radiant-looking skin.",
+            "preparation_study": "According to \"Current pharmaceutical biotechnology\", Vitis vinifera creams for hyperpigmentation contain bioactive compounds such as phenols, flavonoids, and stilbenes that have been experimentally verified as potent natural tyrosinase inhibitors, helping to reduce excessive melanin production and treat hyperpigmentation.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 16,
+            "herb_confidence_score": 110,
+            "herb_total_score": 1760,
+            "preparation_desc": "Silybum marianum creams have been found to be effective in treating hyperpigmentation due to their antioxidant, anti-inflammatory, and skin-whitening properties. These creams help to treat hyperpigmentation by inhibiting the activity of tyrosinase, an enzyme responsible for melanin production, thus reducing the appearance of dark spots and hyperpigmented areas. The bioactive constituents of Silybum marianum creams, including flavonoids, saponins, and sesquiterpenes, contribute to their therapeutic effects, which help to soothe and brighten the skin. The benefits of using Silybum marianum creams for hyperpigmentation include reduced melanin production, improved skin texture, and a more even skin tone, making them a promising natural remedy for this common skin condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melaleuca alternifolia",
+            "herb_mentions": 11,
+            "herb_confidence_score": 89,
+            "herb_total_score": 979,
+            "preparation_desc": "Melaleuca alternifolia creams, derived from the leaves of the tea tree plant, have been traditionally used to treat hyperpigmentation due to their anti-inflammatory, antimicrobial, and antioxidant properties. The herbal preparation helps to treat hyperpigmentation by inhibiting the production of melanin, reducing inflammation, and promoting skin regeneration, ultimately leading to a more even skin tone. The bioactive constituents, including cymene, alpha-pinene, and terpinen-4-ol, play a crucial role in reducing oxidative stress and modulating the enzyme responsible for melanin production. The benefits of using Melaleuca alternifolia creams to treat hyperpigmentation include reduced appearance of dark spots, improved skin texture, and a more radiant complexion.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 16,
+            "herb_confidence_score": 85,
+            "herb_total_score": 1360,
+            "preparation_desc": "Ginkgo biloba creams have been gaining popularity as a natural remedy to treat hyperpigmentation, a common skin condition characterized by uneven skin tone and dark spots. This herbal preparation contains flavonoids and terpenoids, which possess antioxidant and anti-inflammatory properties that help to reduce melanin production and promote even skin tone. The bioactive constituents, including quercetin and bilobalide, work synergistically to inhibit the activity of tyrosinase, an enzyme responsible for melanin production, thereby reducing the appearance of hyperpigmentation. The benefits of using Ginkgo biloba creams to treat hyperpigmentation include improved skin texture, reduced appearance of dark spots, and a more even skin tone, making it a viable alternative to conventional treatments.",
+            "preparation_study": "According to the study in \"Drug development and industrial pharmacy\", Ginkgo biloba creams for hyperpigmentation may help reduce wrinkles and improve skin texture, providing a rejuvenated appearance and renewed vigor.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 11,
+            "herb_confidence_score": 85,
+            "herb_total_score": 935,
+            "preparation_desc": "Hypericum perforatum creams, derived from the St. John's Wort plant, have been used to treat hyperpigmentation due to their antioxidant, anti-inflammatory, and skin-lightening properties. The bioactive constituents such as hyperforin, hypericin, and flavonoids present in these creams help to reduce the production of melanin, thereby lightening the skin and treating hyperpigmentation. The anti-inflammatory properties of Hypericum perforatum creams also help to soothe and calm the skin, reducing redness and irritation associated with hyperpigmentation. The benefits of using Hypericum perforatum creams to treat hyperpigmentation include improved skin texture, reduced appearance of dark spots, and enhanced overall skin appearance.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 11,
+            "herb_confidence_score": 79,
+            "herb_total_score": 869,
+            "preparation_desc": "Lavandula angustifolia creams have been traditionally used to treat hyperpigmentation, a common skin condition characterized by the darkening of skin patches due to excessive melanin production. The antiseptic and anti-inflammatory properties of these creams help to soothe and calm the skin, reducing the appearance of hyperpigmentation. Bioactive constituents such as linalool and linalyl acetate, which are responsible for the calming and antiseptic effects of Lavandula angustifolia, help to inhibit the production of melanin and promote even skin tone. The benefits of using Lavandula angustifolia creams to treat hyperpigmentation include reduced skin inflammation, improved skin texture, and a more even skin tone, making them a popular natural remedy for this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Centella asiatica",
+            "herb_mentions": 10,
+            "herb_confidence_score": 74,
+            "herb_total_score": 740,
+            "preparation_desc": "Centella asiatica creams have gained popularity as a natural remedy to treat hyperpigmentation, a common skin condition characterized by uneven skin tone and dark spots. The properties of this herbal preparation, including its anti-inflammatory and antioxidant properties, help to soothe and protect the skin, thereby reducing the appearance of hyperpigmentation. The bioactive constituents of Centella asiatica, such as asiatic acid and madecassic acid, have been found to inhibit the production of melanin, the pigment responsible for skin darkening, and promote even skin tone. Regular use of Centella asiatica creams can help to reduce the appearance of hyperpigmentation, leaving the skin looking smoother, brighter, and more even-toned.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 9,
+            "herb_confidence_score": 74,
+            "herb_total_score": 666,
+            "preparation_desc": "Zingiber officinale creams, derived from the rhizomes of the ginger plant, possess potent anti-inflammatory and antioxidant properties that help to treat hyperpigmentation. These creams contain bioactive constituents such as gingerol and shogaol, which inhibit the activity of tyrosinase, an enzyme responsible for melanin production, thereby reducing the appearance of hyperpigmentation. The application of Zingiber officinale creams helps to even out skin tone, reduce oxidative stress, and promote collagen production, ultimately leading to a more radiant and even-toned complexion. The benefits of using Zingiber officinale creams to treat hyperpigmentation include improved skin texture, reduced inflammation, and enhanced overall skin health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 63,
+            "herb_total_score": 567,
+            "preparation_desc": "Rosmarinus officinalis creams, derived from the fragrant herb rosemary, have been found to be effective in treating hyperpigmentation due to their antioxidant, anti-inflammatory, and skin-whitening properties. The bioactive constituents present in these creams, such as ursolic acid, carnosic acid, and caffeic acid, help to inhibit the production of melanin, reduce oxidative stress, and promote skin cell regeneration, ultimately leading to a reduction in hyperpigmentation. The use of Rosmarinus officinalis creams has been reported to improve skin tone and texture, reduce the appearance of dark spots and freckles, and promote overall skin health. The benefits of using these creams to treat hyperpigmentation include improved skin appearance, reduced risk of skin cancer, and a natural, non-toxic approach to skin care.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Camellia sinensis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 61,
+            "herb_total_score": 549,
+            "preparation_desc": "Camellia sinensis creams, derived from the leaves of the Camellia sinensis plant, offer a natural remedy to treat hyperpigmentation, a common skin condition characterized by uneven skin tone and dark spots. The anti-inflammatory and antioxidant properties of these creams help to soothe and calm the skin, reducing the appearance of hyperpigmentation. The bioactive constituents, including theaflavins, thearubigins, and epigallocatechin gallate (EGCG), in Camellia sinensis creams have been shown to inhibit the production of melanin, the pigment responsible for hyperpigmentation. By using Camellia sinensis creams, individuals can benefit from improved skin tone, reduced appearance of dark spots, and a more even skin texture, ultimately achieving a more radiant and youthful complexion.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 58,
+            "herb_total_score": 522,
+            "preparation_desc": "Cinchona officinalis creams, derived from the Cinchona tree, have been used to treat hyperpigmentation due to their potent anti-inflammatory and antioxidant properties. The bioactive constituents, including quinine, quinidine, and alkaloids, help to inhibit the production of melanin, thereby reducing the appearance of dark spots and hyperpigmentation. By inhibiting the activity of tyrosinase, the enzyme responsible for melanin production, Cinchona officinalis creams help to reduce the severity of hyperpigmentation and promote even skin tone. The use of Cinchona officinalis creams has been found to be beneficial in treating hyperpigmentation due to its ability to reduce inflammation, improve skin texture, and promote a more even skin tone.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 55,
+            "herb_total_score": 385,
+            "preparation_desc": "Calendula officinalis creams have been traditionally used to treat hyperpigmentation due to their anti-inflammatory and antioxidant properties, which help to soothe and calm the skin. The bioactive constituents present in Calendula officinalis, including flavonoids, triterpenoids, and carotenoids, work together to inhibit the production of melanin, thereby reducing the appearance of hyperpigmentation. This herbal preparation helps to treat hyperpigmentation by promoting collagen synthesis, improving skin elasticity, and reducing the formation of dark spots. The benefits of using Calendula officinalis creams to treat hyperpigmentation include improved skin texture, reduced appearance of fine lines and wrinkles, and a more even skin tone.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 8,
+            "herb_confidence_score": 55,
+            "herb_total_score": 440,
+            "preparation_desc": "Urtica dioica creams, derived from the leaves of the stinging nettle plant, have been traditionally used to treat hyperpigmentation, a condition characterized by the appearance of dark spots on the skin. The anti-inflammatory and antioxidant properties of these creams help to soothe and calm the skin, reducing inflammation and promoting even skin tone. The bioactive constituents, including flavonoids, phenolic acids, and saponins, in Urtica dioica creams have been found to inhibit the activity of tyrosinase, an enzyme responsible for the production of melanin, thereby reducing hyperpigmentation. The benefits of using Urtica dioica creams for hyperpigmentation include reduced appearance of dark spots, improved skin texture, and enhanced skin radiance, making them a popular natural remedy for this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosa rubiginosa",
+            "herb_mentions": 7,
+            "herb_confidence_score": 44,
+            "herb_total_score": 308,
+            "preparation_desc": "Rosa rubiginosa creams, derived from the Rosa rubiginosa plant, have been traditionally used to treat hyperpigmentation, a common skin condition characterized by uneven skin tone and dark spots. The herbal preparation's properties, including its antioxidant and anti-inflammatory properties, help to reduce skin inflammation and protect the skin from further damage. The bioactive constituents of Rosa rubiginosa creams, such as flavonoids and phenolic acids, inhibit the production of melanin, thereby reducing the appearance of hyperpigmentation. Regular use of Rosa rubiginosa creams can provide numerous benefits, including improved skin tone, reduced appearance of dark spots, and enhanced overall skin health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Equisetum arvense",
+            "herb_mentions": 10,
+            "herb_confidence_score": 44,
+            "herb_total_score": 440,
+            "preparation_desc": "Equisetum arvense creams have been used to treat hyperpigmentation due to their anti-inflammatory and antioxidant properties. These herbal preparations contain bioactive constituents such as ferulic acid, caffeic acid, and sinapic acid that help to inhibit the activity of tyrosinase, an enzyme responsible for melanin production, thereby reducing the appearance of hyperpigmentation. The creams also contain flavonoids and phenolic compounds that have been shown to have anti-tyrosinase activity, helping to lighten and even out skin tone. Regular application of Equisetum arvense creams has been found to provide benefits such as improved skin texture, reduced melanin deposits, and a more even skin tone.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 9,
+            "herb_confidence_score": 44,
+            "herb_total_score": 396,
+            "preparation_desc": "Taraxacum officinale creams, derived from the dandelion plant, have been used to treat hyperpigmentation due to their unique properties that help to reduce the appearance of dark spots and patches on the skin. The creams contain bioactive constituents such as flavonoids, sesquiterpenes, and phenolic acids, which have potent antioxidant and anti-inflammatory effects that help to inhibit the production of melanin and reduce skin discoloration. By inhibiting the activity of tyrosinase, an enzyme responsible for melanin production, Taraxacum officinale creams help to prevent the formation of new dark spots and patches, promoting a more even skin tone and reducing the appearance of hyperpigmentation. The benefits of using Taraxacum officinale creams to treat hyperpigmentation include improved skin appearance, reduced risk of skin cancer, and enhanced overall skin health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 8,
+            "herb_confidence_score": 44,
+            "herb_total_score": 352,
+            "preparation_desc": "Avena sativa creams are a natural herbal preparation that have been found to effectively treat the hyperpigmentation ailment. The properties of Avena sativa, such as its anti-inflammatory and antioxidant properties, help to reduce inflammation and oxidative stress, which are major contributors to hyperpigmentation. The bioactive constituents of Avena sativa creams, including avenanthramides and ferulic acid, help to inhibit the production of melanin, the pigment responsible for skin discoloration. Regular use of Avena sativa creams can lead to a noticeable reduction in hyperpigmentation, resulting in an even-toned and radiant complexion.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to the study, creams for hyperpigmentation containing jujube syrup, a complex of herbal extracts including Z. jujuba, may be effective in reducing the number and area of pigmentation on the face, as the jujube syrup group showed a significant reduction in pigment counts, pigmented area, and percentages compared to the placebo group."
+}

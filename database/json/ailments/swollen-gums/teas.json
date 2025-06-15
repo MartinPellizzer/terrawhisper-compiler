@@ -1,0 +1,255 @@
+{
+    "url": "ailments/swollen-gums/teas",
+    "ailment_slug": "swollen-gums",
+    "ailment_name": "swollen gums",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 13,
+    "title": "13 Best Herbal Teas For Swollen Gums",
+    "intro": "Herbal teas for swollen gums are a natural remedy that involves drinking specific teas made from herbs to alleviate the symptoms of swollen gums, which is characterized by redness, inflammation, and pain in the gums. These herbal teas offer numerous benefits, including reducing inflammation, fighting off infections, and providing relief from pain and discomfort. Examples of herbal teas used to treat swollen gums include peppermint tea, which has antibacterial properties that help combat infections; chamomile tea, which has anti-inflammatory properties that soothe the gums; eucalyptus tea, which has decongestant properties that help reduce swelling; ginger tea, which has anti-inflammatory properties that reduce pain and inflammation; and calendula tea, which has antimicrobial properties that promote healing. Additionally, other herbal teas such as sage tea, clove tea, and licorice root tea are also used to treat swollen gums due to their anti-inflammatory, antibacterial, and soothing properties that help reduce swelling and promote healing.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 20,
+            "herb_confidence_score": 180,
+            "herb_total_score": 3600,
+            "preparation_desc": "Echinacea purpurea teas are a popular herbal remedy used to treat swollen gums, also known as gingivitis, due to their anti-inflammatory and antimicrobial properties. The bioactive constituents, such as alkylamides, glycosides, and phenolic acids, help to reduce inflammation and prevent bacterial growth, making it easier to manage swollen gums. By consuming Echinacea purpurea teas, individuals can experience reduced swelling, pain, and bleeding, as well as improved overall oral health. The benefits of using Echinacea purpurea teas to treat swollen gums include a natural and non-invasive approach to managing the condition, with minimal side effects and no risk of antibiotic resistance.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 18,
+            "herb_confidence_score": 151,
+            "herb_total_score": 2718,
+            "preparation_desc": "Eucalyptus globulus teas have been traditionally used to treat swollen gums, a common condition characterized by inflammation and pain in the gums. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce swelling and combat bacterial infections, thereby alleviating the symptoms of the ailment. The bioactive constituents of eucalyptus globulus teas, including flavonoids, phenolic acids, and terpenes, contribute to its therapeutic effects by inhibiting the growth of bacteria and reducing inflammation. By incorporating eucalyptus globulus teas into one's oral hygiene routine, individuals can enjoy the benefits of reduced swelling, pain relief, and a healthier oral environment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Herbal-Tea-Caffeine-Relaxer-Non-GMO/dp/B00ECOSODU",
+                "affiliate_link": "https://amzn.to/4caik3b",
+                "title": "Tiesta Tea - Palm Beach Punch | Loose Leaf | Fruit Punch Herbal Tea | Caffeine-Free Tropical Blend with Apple and Orange | Brew Hot or Iced | Resealable Pouch | 25 Cups | 2 Ounce"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 19,
+            "herb_confidence_score": 137,
+            "herb_total_score": 2603,
+            "preparation_desc": "Glycyrrhiza glabra teas have been traditionally used to treat swollen gums due to their anti-inflammatory and antimicrobial properties, which help to reduce inflammation and combat bacterial infections. The bioactive constituents of Glycyrrhiza glabra, including glycyrrhizin and flavonoids, possess potent antioxidant and anti-inflammatory activities that contribute to its therapeutic effects. By reducing inflammation and preventing the growth of bacteria, Glycyrrhiza glabra teas help to alleviate symptoms of swollen gums, such as pain and swelling. The benefits of using Glycyrrhiza glabra teas to treat swollen gums include reduced inflammation, improved oral health, and a natural, non-invasive approach to managing this common ailment.",
+            "preparation_study": "According to \"Journal of International Society of Preventive & Community Dentistry\", Glycyrrhiza glabra teas for swollen gums may be effective in treating periodontal diseases due to their anti-inflammatory, antioxidant, antibacterial, and astringent properties.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_mentions": 18,
+            "herb_confidence_score": 136,
+            "herb_total_score": 2448,
+            "preparation_desc": "Salvia officinalis teas have been traditionally used to treat swollen gums, a common ailment characterized by inflammation and discomfort in the gums. The herbal preparation's anti-inflammatory and antimicrobial properties help to reduce swelling and combat infection, promoting healthy gum tissue. The bioactive constituents of Salvia officinalis, including rosmarinic acid and camphor, contribute to its therapeutic effects by inhibiting the production of inflammatory mediators and exhibiting antimicrobial activity against bacteria and fungi. The benefits of using Salvia officinalis teas for swollen gums include reduced pain and discomfort, improved gum health, and a lower risk of complications such as tooth loss and infection.",
+            "preparation_study": "According to \"Ceskoslovenska farmacie\", Salvia officinalis teas for swollen gums may be beneficial due to its properties as an antiphlogistic agent, which can help reduce inflammation in the oral cavity and treat gingivitis.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Taylors-Harrogate-Green-Jasmine-Teabags/dp/B000MN69CS",
+                "affiliate_link": "https://amzn.to/4iXf0ei",
+                "title": "Taylors of Harrogate Green Tea with Jasmine, 50 Teabags"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 16,
+            "herb_confidence_score": 131,
+            "herb_total_score": 2096,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger teas, have been used for centuries to treat swollen gums, a common ailment caused by inflammation. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce swelling and alleviate pain, making it an effective treatment for swollen gums. The bioactive constituents, including gingerols and shogaols, possess potent anti-inflammatory and antioxidant properties that help to combat the underlying causes of swollen gums. The benefits of using Zingiber officinale teas to treat swollen gums include reduced inflammation, pain relief, and improved oral health, making it a popular natural remedy for this common ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 17,
+            "herb_confidence_score": 122,
+            "herb_total_score": 2074,
+            "preparation_desc": "Achillea millefolium teas, also known as yarrow tea, have been traditionally used to treat swollen gums due to their anti-inflammatory and antiseptic properties. The bioactive constituents, including flavonoids, sesquiterpenes, and phenolic acids, help to reduce swelling and combat bacterial infections that can cause inflammation. By consuming yarrow tea, individuals can experience relief from swollen gums as the tea helps to reduce pain, inflammation, and bleeding, ultimately promoting healthy gum tissue. The benefits of using Achillea millefolium teas to treat swollen gums include a reduction in the risk of further complications and a promotion of overall oral health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Soursop-Leaves-Bags-Teabags/dp/B0C69P5FV9",
+                "affiliate_link": "https://amzn.to/4i1QY0D",
+                "title": "FullChea- Soursop Leaves Tea Bags, 40 Teabags, 1.5g/Bag - Premium Soursop Graviola Leaves Tea - Hojas De Guanabana Tea - Non-GMO - Caffeine-Free - Improve Digestion, Support Healthy Skin & Sleep"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 15,
+            "herb_confidence_score": 109,
+            "herb_total_score": 1635,
+            "preparation_desc": "Cinchona officinalis teas have been traditionally used to treat swollen gums, a common symptom of various infections and conditions. The anti-inflammatory and antimicrobial properties of Cinchona officinalis teas help to reduce swelling, fight off infection, and promote healing. The bioactive constituents, including alkaloids such as quinine and cinchonine, contribute to the teas' therapeutic effects by reducing inflammation, modulating immune response, and inhibiting the growth of bacteria and other pathogens. Regular consumption of Cinchona officinalis teas can help alleviate swollen gums, promoting overall oral health and well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 108,
+            "herb_total_score": 1404,
+            "preparation_desc": "Melissa officinalis teas have been traditionally used to treat swollen gums, a common ailment characterized by inflammation and discomfort. The anti-inflammatory properties of Melissa officinalis teas, which are attributed to its bioactive constituents such as linalool and linalyl acetate, help to reduce swelling and alleviate pain. These constituents work by inhibiting the production of pro-inflammatory cytokines, thereby reducing inflammation and promoting healing. By consuming Melissa officinalis teas, individuals can benefit from its anti-inflammatory and antimicrobial properties, which help to treat swollen gums and promote overall oral health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 15,
+            "herb_confidence_score": 102,
+            "herb_total_score": 1530,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to treat swollen gums, a common oral health issue, due to their anti-inflammatory and antimicrobial properties. The bioactive constituents present in these teas, including linalool and linalyl acetate, help to reduce swelling and combat bacterial infections that often cause gum inflammation. By consuming Lavandula angustifolia teas, individuals can alleviate symptoms of swollen gums, such as pain and redness, and promote overall oral health. The benefits of using these teas to treat swollen gums include reduced inflammation, faster healing times, and a lower risk of complications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 14,
+            "herb_confidence_score": 99,
+            "herb_total_score": 1386,
+            "preparation_desc": "Sambucus nigra teas have been traditionally used to treat swollen gums, a common symptom of gingivitis and gum inflammation. The anti-inflammatory and antimicrobial properties of Sambucus nigra teas help to reduce swelling and prevent infection in the gums, promoting a healthy oral environment. The bioactive constituents of Sambucus nigra, including flavonoids, tannins, and essential oils, contribute to its therapeutic effects, inhibiting the growth of bacteria and reducing inflammation. By consuming Sambucus nigra teas, individuals can benefit from its anti-inflammatory and antimicrobial properties, helping to alleviate swollen gums and promote oral health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Elderberry-Eco-Conscious-Kraft-FGO/dp/B09HDFQ4JX",
+                "affiliate_link": "https://amzn.to/42aR3ZN",
+                "title": "FGO Organic Elderberry Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealabel Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 14,
+            "herb_confidence_score": 92,
+            "herb_total_score": 1288,
+            "preparation_desc": "Rosmarinus officinalis teas, derived from the fragrant herb rosemary, have been traditionally used to treat swollen gums. The anti-inflammatory properties of rosemary, particularly the bioactive constituents including carnosic acid and rosmarinic acid, help to reduce swelling and alleviate pain in the gums. These compounds inhibit the production of pro-inflammatory enzymes and cytokines, thus providing relief from the discomfort and inflammation associated with swollen gums. Regular consumption of Rosmarinus officinalis teas has been shown to promote gum health, reduce inflammation, and prevent further complications, making it a beneficial herbal remedy for this ailment.",
+            "preparation_study": "According to \"PloS one\", Rosmarinus officinalis teas for swollen gums may be beneficial as the methanol extract of Rosmarinus officinalis showed moderate to high antibiofilm activity against S. mutans.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 86,
+            "herb_total_score": 1118,
+            "preparation_desc": "Calendula officinalis teas have been traditionally used to treat swollen gums, an ailment often caused by gum inflammation and infection. The anti-inflammatory and antimicrobial properties of Calendula officinalis teas help to reduce swelling and combat bacterial growth, thereby alleviating the symptoms of swollen gums. The bioactive constituents of Calendula officinalis teas, including triterpenoids, flavonoids, and carotenoids, contribute to its therapeutic effects by modulating the immune response and promoting wound healing. Regular consumption of Calendula officinalis teas has been found to provide relief from swollen gums, reduce pain and inflammation, and promote overall oral health.",
+            "preparation_study": "According to \"Roumanian archives of microbiology and immunology\", Calendula officinalis teas may be beneficial for swollen gums due to its strong reactive oxygen species scavenging property, which could help reduce inflammation and swelling.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Twinings-Individually-Naturally-Caffeine-Free-Packaging/dp/B09RC41QGJ",
+                "affiliate_link": "https://amzn.to/42mjHYe",
+                "title": "Twinings Lemon & Ginger Herbal Tea Individually Wrapped Bags, 100 Count (Pack of 1), Tangy Lemon, Spicy Ginger, Naturally Caffeine-Free, Enjoy Hot or Iced | Packaging May Vary"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 13,
+            "herb_confidence_score": 81,
+            "herb_total_score": 1053,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat swollen gums, a condition characterized by inflammation and pain in the gums. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce swelling and alleviate pain. Ginkgo biloba teas contain bioactive constituents such as flavonoids and terpenoids, which have been shown to inhibit the production of inflammatory mediators and promote healing. The benefits of using Ginkgo biloba teas to treat swollen gums include reduced swelling, pain relief, and improved oral health, making it a potential natural remedy for this common ailment.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Hydrastis canadensis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 74,
+            "herb_total_score": 740,
+            "preparation_desc": "Hydrastis canadensis teas, also known as goldenseal teas, have been traditionally used to treat swollen gums ailment due to their anti-inflammatory and antimicrobial properties. The bioactive constituents of goldenseal, including berberine, hydrastine, and canadine, help to reduce swelling and combat bacterial infections that can cause gum inflammation. By reducing inflammation and fighting off infections, goldenseal teas help to alleviate swollen gums, promoting a healthy and pain-free oral environment. The benefits of using goldenseal teas to treat swollen gums include rapid relief from pain and swelling, reduced risk of infection, and a natural alternative to conventional treatments.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_mentions": 10,
+            "herb_confidence_score": 73,
+            "herb_total_score": 730,
+            "preparation_desc": "Thymus vulgaris teas, also known as thyme tea, have been used to treat swollen gums due to their anti-inflammatory and antimicrobial properties. The herbal preparation helps to treat this ailment by reducing swelling, pain, and inflammation in the gums, while also combating the underlying bacterial or viral infection causing the condition. The bioactive constituents of thyme tea, including thymol and carvacrol, exhibit antibacterial and antifungal activities, which contribute to its effectiveness in treating swollen gums. Regular consumption of thymus vulgaris teas has been shown to provide relief from swollen gums and promote overall oral health, making it a beneficial herbal remedy for this common condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Throat-Coat/dp/B000SR62ZC",
+                "affiliate_link": "https://amzn.to/3FRzx5k",
+                "title": "Traditional Medicinals Tea, Organic Throat Coat, Supports Throat Health, 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 13,
+            "herb_confidence_score": 70,
+            "herb_total_score": 910,
+            "preparation_desc": "Taraxacum officinale teas have been traditionally used to treat swollen gums, a condition often associated with inflammation and infection. The anti-inflammatory properties of this herbal preparation, specifically its ability to reduce swelling and ease pain, make it an effective remedy for this ailment. Taraxacum officinale teas contain bioactive constituents such as sesquiterpenes and flavonoids, which have been found to possess antimicrobial and antioxidant properties that help to combat the underlying causes of swollen gums. By reducing inflammation and fighting off infection, Taraxacum officinale teas can provide relief from swollen gums and promote overall oral health.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Roasted-Dandelion-Eco-Conscious-FGO/dp/B07Z7FTFNX",
+                "affiliate_link": "https://amzn.to/4j70AbI",
+                "title": "FGO Organic Roasted Dandelion Root Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 9,
+            "herb_confidence_score": 69,
+            "herb_total_score": 621,
+            "preparation_desc": "Curcuma longa teas, derived from the rhizomes of the turmeric plant, have been traditionally used to treat swollen gums, also known as gingivitis. The anti-inflammatory and antimicrobial properties of Curcuma longa teas help to reduce swelling and combat bacterial infections that cause the ailment. The bioactive constituents, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, exhibit potent antioxidant and anti-inflammatory activities, which aid in reducing inflammation and promoting healing in the affected gums. Regular consumption of Curcuma longa teas may help to alleviate symptoms of swollen gums, reduce the risk of gum disease, and promote overall oral health.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Origanum vulgare",
+            "herb_mentions": 10,
+            "herb_confidence_score": 65,
+            "herb_total_score": 650,
+            "preparation_desc": "Origanum vulgare teas, also known as wild marjoram or oregano tea, have been traditionally used to treat swollen gums due to its anti-inflammatory and antimicrobial properties. The herbal preparation helps to treat this ailment by reducing inflammation, killing bacteria, and preventing infection, thereby promoting healing and relieving pain. The bioactive constituents of Origanum vulgare teas, including carvacrol and thymol, possess potent antimicrobial activity that helps to combat the underlying infection causing swollen gums. The benefits of using Origanum vulgare teas to treat swollen gums include its natural and non-invasive approach, ease of preparation, and affordability, making it a popular alternative remedy for oral health issues.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 8,
+            "herb_confidence_score": 62,
+            "herb_total_score": 496,
+            "preparation_desc": "Mentha x piperita teas, also known as peppermint tea, have been traditionally used to treat swollen gums, a common symptom of various dental issues. The anti-inflammatory and antibacterial properties of this herbal preparation help to reduce swelling and combat infection, thereby alleviating the discomfort associated with swollen gums. The bioactive constituents of peppermint tea, including menthol and menthone, contribute to its therapeutic effects by inhibiting the growth of bacteria and reducing inflammation. Regular consumption of Mentha x piperita teas can provide relief from swollen gums by reducing pain and promoting a healthy oral environment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 8,
+            "herb_confidence_score": 60,
+            "herb_total_score": 480,
+            "preparation_desc": "Aloe barbadensis teas have been traditionally used to treat swollen gums, a common issue associated with periodontal diseases, due to its anti-inflammatory and antimicrobial properties. The bioactive constituents of Aloe barbadensis, such as aloin and aloe-emodin, help to reduce inflammation and prevent the growth of bacteria that cause gum infections. These herbal preparations help to treat swollen gums by reducing swelling, pain, and inflammation, thereby promoting healing and preventing further complications. The benefits of Aloe barbadensis teas in treating swollen gums include reduced risk of infection, faster healing, and a decrease in the severity of symptoms, making it a popular natural remedy for oral health issues.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Spearmint-Eco-Conscious-Lined-FGO/dp/B07ND418HR",
+                "affiliate_link": "https://amzn.to/42s2qOg",
+                "title": "FGO Organic Spearmint Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        }
+    ],
+    "intro_study": "According to \"Iranian journal of basic medical sciences\", teas for swollen gums may be effective, specifically green tea, which has a large body of evidence supporting its effectiveness in reducing gingival inflammation and bleeding."
+}

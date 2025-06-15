@@ -1,0 +1,15 @@
+{
+    "title": "marchantiidae",
+    "lastmod": "2025-2-22",
+    "intro": "The rank of Marchantiidae is a superorder of plants that belong to the class Marchantiopsida. It is a taxonomic group that includes liverworts and is characterized by having a thallose (flat) gametophyte generation. The Marchantiidae superorder comprises several orders, including Marchantiales, Jungermanniales, and Pelliales, as well as the example orders Asparagales, which contains plants like asparagus, Malpighiales, which includes families like Clusiaceae and Salicaceae, and Poales, which includes grasses and bromeliads. This superorder is a crucial part of the classification system for liverworts, helping to group similar species together based on their shared characteristics.",
+    "orders": [
+        {
+            "order_slug": "hymenophyllales",
+            "order_desc": "Hymenophyllales is an order of ferns within the class Polypodiopsida, division Pteridophyta, kingdom Plantae."
+        },
+        {
+            "order_slug": "dumortieriales",
+            "order_desc": "Dumortieriales is an order of liverworts, belonging to the subclass Jungermanniidae, class Jungermanniopsida, division Marchantiophyta, and kingdom Plantae."
+        }
+    ]
+}

@@ -1,0 +1,237 @@
+{
+    "url": "ailments/gout/teas",
+    "ailment_slug": "gout",
+    "ailment_name": "gout",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Teas For Gout",
+    "intro": "Herbal teas for Gout are natural remedies made from various herbs and plants that help alleviate the symptoms and reduce the severity of gout attacks. These teas are beneficial in treating gout as they contain anti-inflammatory properties, antioxidants, and other compounds that help reduce uric acid levels in the blood and alleviate pain and swelling. Examples of herbal teas used to treat gout include dandelion root tea, which helps to flush out uric acid, turmeric tea, which reduces inflammation and pain, ginger tea, which has anti-inflammatory properties, and devil's claw tea, which helps to reduce pain and inflammation. Additionally, other herbal teas such as rosehip tea, celery seed tea, and juniper berry tea are also used to treat gout due to their ability to reduce uric acid levels, alleviate pain, and improve overall kidney function.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 19,
+            "herb_confidence_score": 169,
+            "herb_total_score": 3211,
+            "preparation_desc": "Curcuma longa teas, derived from the rhizomes of the turmeric plant, have been traditionally used to treat the gout ailment due to their potent anti-inflammatory and antioxidant properties. The bioactive constituents of Curcuma longa teas, including curcuminoids, flavonoids, and phenolic acids, help to reduce inflammation and oxidative stress, which are key factors in the development of gout. These compounds inhibit the production of pro-inflammatory cytokines and enzymes, thereby reducing the severity of gout attacks and improving symptoms such as pain, swelling, and joint stiffness. The benefits of using Curcuma longa teas to treat gout include reduced frequency and severity of attacks, improved joint function, and enhanced overall well-being, making it a promising natural remedy for managing this chronic condition.",
+            "preparation_study": "According to \"Inflammation research : official journal of the European Histamine Research Society ... [et al.]\", Curcuma longa teas for gout may be beneficial due to the isolated compounds curcumin, demethoxycurcumin, and bis(4-hydroxy-cinnamoyl)methane from Curcuma longa exhibiting potent anti-inflammatory activity, with estimated Ki values of 4.26-6.26 \u00b5M, 6.66-8.97 \u00b5M, and 10.24-14.57 \u00b5M, respectively.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 19,
+            "herb_confidence_score": 141,
+            "herb_total_score": 2679,
+            "preparation_desc": "Glycyrrhiza glabra teas, a traditional herbal preparation, have been used to treat gout due to their anti-inflammatory and anti-arthritic properties. The bioactive constituents present in these teas, such as glycyrrhizin, flavonoids, and phenolic acids, help to reduce uric acid levels and alleviate symptoms associated with gout. By inhibiting the production of pro-inflammatory cytokines and promoting the excretion of uric acid, Glycyrrhiza glabra teas assist in alleviating the pain and swelling associated with gout. The benefits of using these teas to treat gout include reduced inflammation, improved joint mobility, and a decrease in the frequency of gout attacks.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 15,
+            "herb_confidence_score": 127,
+            "herb_total_score": 1905,
+            "preparation_desc": "Cinchona officinalis teas, derived from the bark of the Cinchona tree, have been used for centuries to treat the gout ailment. This herbal preparation contains quinine, a bioactive constituent that helps to reduce inflammation and alleviate pain associated with gout. Quinine also has antipyretic and analgesic properties, which contribute to its effectiveness in treating gout by reducing uric acid levels in the blood and alleviating joint pain and swelling. The benefits of using Cinchona officinalis teas to treat gout include reduced symptoms and improved quality of life for those suffering from this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Berberis vulgaris",
+            "herb_mentions": 14,
+            "herb_confidence_score": 113,
+            "herb_total_score": 1582,
+            "preparation_desc": "Berberis vulgaris teas have been used for centuries to treat gout due to their anti-inflammatory and diuretic properties, which help to reduce uric acid levels in the body and alleviate the associated pain and swelling. The bioactive constituents of this herbal preparation, including berberine and isoquinoline alkaloids, contribute to its therapeutic effects by inhibiting the production of uric acid and improving renal function. By reducing uric acid levels and promoting urine production, Berberis vulgaris teas help to treat gout by preventing the formation of urate crystals in the joints and reducing the severity of gout attacks. The benefits of using Berberis vulgaris teas to treat gout include reduced pain and inflammation, improved kidney function, and a lower risk of recurrent gout attacks, making it a popular natural remedy for this condition.",
+            "preparation_study": "According to \"Molecules (Basel, Switzerland)\", Berberis vulgaris teas for gout may be beneficial due to its high antioxidant power, as extracts of wild B. vulgaris L. had the highest ferric reducing antioxidant power (FRAP) and 1,1-diphenyl-2-picrylhydrazyl radical (DPPH) values.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 13,
+            "herb_confidence_score": 106,
+            "herb_total_score": 1378,
+            "preparation_desc": "Urtica dioica teas, also known as nettle root tea, have been used to treat gout symptoms due to their anti-inflammatory and diuretic properties. The herbal preparation helps to reduce the severity and frequency of gout attacks by reducing uric acid levels and alleviating joint pain. The bioactive constituents of Urtica dioica, including flavonoids, alkaloids, and saponins, contribute to its therapeutic effects by inhibiting xanthine oxidase, an enzyme that produces uric acid, and by reducing inflammation. Regular consumption of Urtica dioica teas may provide relief from gout symptoms and reduce the risk of complications associated with this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Nettle-Eco-Conscious-Bulgaria-FGO/dp/B07ND3ZT9C",
+                "affiliate_link": "https://amzn.to/3QUwzPU",
+                "title": "FGO Organic Nettle Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Rheum palmatum",
+            "herb_mentions": 12,
+            "herb_confidence_score": 103,
+            "herb_total_score": 1236,
+            "preparation_desc": "Rheum palmatum teas, also known as Chinese rhubarb tea, have been traditionally used to treat gout due to their anti-inflammatory and analgesic properties. The herbal preparation helps to treat gout by reducing the production of uric acid in the body, thereby alleviating symptoms such as pain and swelling in the joints. Bioactive constituents like rhein, emodin, and anthraquinones present in Rheum palmatum teas are responsible for their therapeutic effects, as they have been shown to inhibit the activity of xanthine oxidase, an enzyme involved in uric acid production. Regular consumption of Rheum palmatum teas may help to prevent gout attacks and provide relief from chronic pain, making it a valuable natural remedy for individuals suffering from this condition.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 13,
+            "herb_confidence_score": 102,
+            "herb_total_score": 1326,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger tea, have been used for centuries to treat gout due to its anti-inflammatory and analgesic properties, which help to reduce pain and swelling associated with the ailment. The bioactive constituents of ginger, including gingerols and shogaols, have been shown to inhibit the production of pro-inflammatory cytokines and enzymes that contribute to gout symptoms. By consuming ginger tea, individuals can experience relief from gout symptoms, including reduced joint pain and inflammation, and improved overall well-being. The benefits of using ginger tea to treat gout include its natural and non-invasive approach, making it a popular alternative to pharmaceutical treatments for those seeking a more holistic approach to managing their symptoms.",
+            "preparation_study": "According to \"Medical hypotheses\", Zingiber officinale teas for gout may be beneficial as they could potentially inhibit the cyclooxygenase pathway, thereby reducing the production of prostaglandins such as PGE2, which are associated with inflammation.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Equisetum arvense",
+            "herb_mentions": 15,
+            "herb_confidence_score": 102,
+            "herb_total_score": 1530,
+            "preparation_desc": "Equisetum arvense teas, also known as Horsetail tea, have been traditionally used to treat gout, a type of arthritis characterized by sudden and severe joint pain. The diuretic and anti-inflammatory properties of this herbal preparation help to treat gout by reducing uric acid levels in the body and alleviating joint pain and swelling. The bioactive constituents of Equisetum arvense teas, including flavonoids, alkaloids, and saponins, contribute to its therapeutic effects by inhibiting the production of uric acid and reducing inflammation. Regular consumption of Horsetail tea has been shown to provide relief from gout symptoms and also help to prevent future episodes.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 12,
+            "herb_confidence_score": 98,
+            "herb_total_score": 1176,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been traditionally used to treat the gout ailment due to their anti-inflammatory and antioxidant properties. The silymarin present in this herbal preparation helps to reduce the uric acid levels in the body, which is a major contributor to gout symptoms. The bioactive constituents, including flavonoids and polyphenols, help to inhibit the production of uric acid and reduce the inflammation associated with gout. By consuming Silybum marianum teas, individuals can benefit from reduced gout symptoms, improved kidney function, and enhanced overall health due to its antioxidant properties.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Juniperus communis",
+            "herb_mentions": 12,
+            "herb_confidence_score": 91,
+            "herb_total_score": 1092,
+            "preparation_desc": "Juniperus communis teas have been traditionally used to treat gout due to their anti-inflammatory and diuretic properties. The herbal preparation helps to treat gout by reducing uric acid levels in the blood, which contributes to the formation of painful urate crystals in the joints. Bioactive constituents such as terpenoids, flavonoids, and essential oils in Juniperus communis teas, particularly alpha-pinene and beta-pinene, are responsible for its therapeutic effects. The benefits of using Juniperus communis teas to treat gout include reduced joint pain and inflammation, improved kidney function, and a decrease in the frequency and severity of gout attacks.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Arctium lappa",
+            "herb_mentions": 12,
+            "herb_confidence_score": 89,
+            "herb_total_score": 1068,
+            "preparation_desc": "Arctium lappa teas have been traditionally used to treat gout, a painful condition characterized by inflammation and swelling in the joints. The herbal preparation's anti-inflammatory properties, which are attributed to its bioactive constituents such as sesquiterpene lactones and flavonoids, help to reduce inflammation and alleviate pain in the affected joints. The tea's diuretic properties also contribute to its effectiveness in treating gout by promoting the removal of excess uric acid from the body, which is a major contributor to the development of gout. By drinking Arctium lappa teas regularly, individuals may experience benefits such as reduced inflammation, improved joint mobility, and a decrease in the frequency and severity of gout attacks.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 79,
+            "herb_total_score": 869,
+            "preparation_desc": "Aloe barbadensis teas have been traditionally used to treat gout, an inflammatory joint condition characterized by sudden, severe attacks of pain, swelling, and redness. The anti-inflammatory and analgesic properties of this herbal preparation help to alleviate the symptoms of gout by reducing inflammation and pain in the affected joints. The bioactive constituents, such as aloin and aloe-emodin, present in Aloe barbadensis teas, have been found to possess potent anti-inflammatory and antioxidant activities, which contribute to their gout-relieving effects. By consuming Aloe barbadensis teas, individuals with gout may experience reduced frequency and severity of attacks, improved joint mobility, and enhanced overall quality of life.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Spearmint-Eco-Conscious-Lined-FGO/dp/B07ND418HR",
+                "affiliate_link": "https://amzn.to/42s2qOg",
+                "title": "FGO Organic Spearmint Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 15,
+            "herb_confidence_score": 78,
+            "herb_total_score": 1170,
+            "preparation_desc": "Taraxacum officinale teas, derived from the dandelion plant, have been traditionally used to treat gout symptoms due to their anti-inflammatory and diuretic properties. These teas help to alleviate gout symptoms by reducing uric acid levels in the blood, which in turn reduces the severity of joint pain and inflammation. The bioactive constituents, including flavonoids, phenolic acids, and terpenoids, present in Taraxacum officinale teas, contribute to their therapeutic effects by inhibiting the production of uric acid and promoting its excretion. Regular consumption of Taraxacum officinale teas has been associated with several benefits, including reduced joint pain, improved kidney function, and a decrease in the frequency of gout attacks.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Roasted-Dandelion-Eco-Conscious-FGO/dp/B07Z7FTFNX",
+                "affiliate_link": "https://amzn.to/4j70AbI",
+                "title": "FGO Organic Roasted Dandelion Root Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 11,
+            "herb_confidence_score": 64,
+            "herb_total_score": 704,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to alleviate symptoms of gout, a chronic inflammatory condition characterized by painful joint inflammation and swelling. The anti-inflammatory and analgesic properties of this herbal preparation help to reduce pain and inflammation, making it easier for individuals to manage their symptoms. The bioactive constituents, including linalool and linalyl acetate, possess potent anti-inflammatory and antioxidant properties, which contribute to their therapeutic effects. By consuming Lavandula angustifolia teas, individuals may experience relief from gout symptoms, including reduced pain and inflammation, improved sleep quality, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 10,
+            "herb_confidence_score": 63,
+            "herb_total_score": 630,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat gout, a form of inflammatory arthritis characterized by severe joint pain and swelling. The anti-inflammatory properties of ginkgo biloba teas help to reduce inflammation and alleviate pain associated with gout. The bioactive constituents, including flavonoids and terpenoids, in ginkgo biloba teas are believed to inhibit the production of pro-inflammatory compounds, which contribute to the development of gout. Regular consumption of ginkgo biloba teas may help to reduce the frequency and severity of gout attacks, making it a potential natural remedy for managing this condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 7,
+            "herb_confidence_score": 52,
+            "herb_total_score": 364,
+            "preparation_desc": "Achillea millefolium teas have been traditionally used to treat gout due to their anti-inflammatory and analgesic properties. The herbal preparation helps to reduce the severity of gout symptoms by inhibiting the production of uric acid in the body, thereby alleviating pain and inflammation in the joints. The bioactive constituents of Achillea millefolium, including sesquiterpene lactones and flavonoids, are responsible for its therapeutic effects in treating gout. Drinking Achillea millefolium teas may help to reduce the frequency and severity of gout attacks, providing relief from the debilitating symptoms associated with this condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Soursop-Leaves-Bags-Teabags/dp/B0C69P5FV9",
+                "affiliate_link": "https://amzn.to/4i1QY0D",
+                "title": "FullChea- Soursop Leaves Tea Bags, 40 Teabags, 1.5g/Bag - Premium Soursop Graviola Leaves Tea - Hojas De Guanabana Tea - Non-GMO - Caffeine-Free - Improve Digestion, Support Healthy Skin & Sleep"
+            }
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 47,
+            "herb_total_score": 329,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort, have been traditionally used to treat gout due to their anti-inflammatory and antioxidant properties. The bioactive constituents present in this herbal preparation, including hyperforin and hypericin, help to reduce inflammation and oxidative stress, which are key factors in the development of gout. By inhibiting the production of pro-inflammatory cytokines and scavenging free radicals, Hypericum perforatum teas may help to alleviate the symptoms of gout, such as pain and swelling. The benefits of using Hypericum perforatum teas to treat gout include reduced pain and inflammation, improved joint function, and a decrease in the frequency and severity of gout attacks.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 43,
+            "herb_total_score": 258,
+            "preparation_desc": "Melissa officinalis teas have been traditionally used to treat gout, a form of inflammatory arthritis characterized by sudden, severe attacks of pain, swelling, and redness in the joints. The anti-inflammatory and antioxidant properties of Melissa officinalis teas help to reduce inflammation and alleviate pain associated with gout. The bioactive constituents, including rosmarinic acid, linalool, and ursolic acid, found in Melissa officinalis teas have been shown to inhibit the production of pro-inflammatory enzymes and cytokines, thus helping to treat gout. The benefits of using Melissa officinalis teas to treat gout include reduced pain and inflammation, improved joint mobility, and a lower risk of complications associated with this debilitating condition.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Vitis vinifera",
+            "herb_mentions": 8,
+            "herb_confidence_score": 41,
+            "herb_total_score": 328,
+            "preparation_desc": "Vitis vinifera teas have been traditionally used to treat gout, a painful condition characterized by inflammation and joint pain. The anti-inflammatory and antioxidant properties of Vitis vinifera teas, specifically flavonoids and phenolic acids, help to reduce inflammation and alleviate pain. The bioactive constituents, including resveratrol and quercetin, have been shown to inhibit the production of uric acid, a major contributor to gout, and also exhibit anti-inflammatory and antioxidant activities. Regular consumption of Vitis vinifera teas may help to reduce the frequency and severity of gout attacks, providing relief from debilitating pain and improving overall quality of life.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Sambucus nigra",
+            "herb_mentions": 7,
+            "herb_confidence_score": 40,
+            "herb_total_score": 280,
+            "preparation_desc": "Sambucus nigra teas have been used as a natural remedy to alleviate the symptoms of gout, a type of arthritis characterized by painful joint inflammation. The anti-inflammatory and antioxidant properties of Sambucus nigra teas help to reduce inflammation and alleviate pain associated with gout, making it easier to manage the condition. The bioactive constituents of Sambucus nigra teas, including flavonoids, anthocyanins, and polyphenols, have been shown to have potent anti-inflammatory and antioxidant effects, which contribute to its therapeutic benefits in treating gout. By consuming Sambucus nigra teas, individuals can potentially reduce the frequency and severity of gout attacks, improve joint function, and enhance overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Elderberry-Eco-Conscious-Kraft-FGO/dp/B09HDFQ4JX",
+                "affiliate_link": "https://amzn.to/42aR3ZN",
+                "title": "FGO Organic Elderberry Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealabel Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        }
+    ],
+    "intro_study": "According to the study, teas for gout may be a safe and effective alternative for treatment of pain and symptoms of acute gouty arthritis, as external use herbal medicines, including teas, showed significantly better treatment effects in reducing pain, inflammation, and uric acid levels compared to western medicine controls."
+}

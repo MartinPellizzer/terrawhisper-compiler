@@ -1,0 +1,247 @@
+{
+    "url": "ailments/abdominal-pain/teas",
+    "ailment_slug": "abdominal-pain",
+    "ailment_name": "abdominal pain",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Teas For Abdominal Pain",
+    "intro": "Herbal teas for abdominal pain are natural remedies made from various plant extracts that help alleviate discomfort and inflammation in the abdominal region. These teas offer numerous benefits, including reducing inflammation, soothing digestive issues, and promoting relaxation, making them a popular alternative to conventional medication. Examples of herbal teas used to treat abdominal pain include peppermint tea, which eases indigestion and nausea; ginger tea, which reduces inflammation and nausea; chamomile tea, which calms the digestive system and promotes relaxation; dandelion root tea, which supports liver function and reduces bloating; and licorice root tea, which soothes the stomach lining and reduces inflammation. By incorporating these herbal teas into their regimen, individuals can find relief from abdominal pain and promote overall digestive health.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 19,
+            "herb_confidence_score": 171,
+            "herb_total_score": 3249,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger teas, have been used for centuries to treat abdominal pain, particularly due to their anti-inflammatory and carminative properties. The bioactive constituents of ginger, such as gingerols and shogaols, help to reduce inflammation and spasms in the digestive tract, thereby alleviating abdominal pain. The benefits of ginger teas in treating abdominal pain include their ability to relax the muscles in the digestive tract, reduce nausea and vomiting, and improve digestion. Regular consumption of ginger teas can provide relief from abdominal pain and discomfort, making it a popular natural remedy for this common ailment.",
+            "preparation_study": "According to \"BioFactors (Oxford, England)\", Zingiber officinale teas for abdominal pain may be beneficial due to the anti-inflammatory properties of ginger, specifically its inhibition of pathways such as NF-\u03baB, STATs, and MAPKs, which are involved in inflammation and oxidative stress.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 20,
+            "herb_confidence_score": 168,
+            "herb_total_score": 3360,
+            "preparation_desc": "Glycyrrhiza glabra teas have been traditionally used to treat abdominal pain due to their anti-inflammatory and soothing properties. The bioactive constituents, such as glycyrrhizin and flavonoids, help to reduce inflammation and relax the smooth muscle, providing relief from abdominal pain. By inhibiting the production of prostaglandins and other inflammatory mediators, glycyrrhiza glabra teas can help to alleviate cramping and discomfort associated with various gastrointestinal disorders. Regular consumption of these teas may also provide long-term benefits by promoting gut health and reducing the frequency and severity of abdominal pain episodes.",
+            "preparation_study": "According to \"Current pharmaceutical biotechnology\", Glycyrrhiza glabra teas for abdominal pain may be effective in managing visceral hypersensitivity through its anti-inflammatory and antioxidant properties, specifically by modulating the mRNA expression of TRPV1 and suppressing the 5-HT3 serotonin receptors.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 15,
+            "herb_confidence_score": 117,
+            "herb_total_score": 1755,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been traditionally used to treat abdominal pain caused by liver and gallbladder issues. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce inflammation and protect the liver and gallbladder from damage, thereby alleviating abdominal pain. The bioactive constituents of Silybum marianum teas, such as silymarin, flavonoids, and ascorbic acid, work synergistically to enhance liver function, improve bile production, and reduce oxidative stress, ultimately leading to a reduction in abdominal pain. The benefits of using Silybum marianum teas to treat abdominal pain include improved liver function, reduced risk of liver damage, and alleviation of symptoms associated with liver and gallbladder issues.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 15,
+            "herb_confidence_score": 117,
+            "herb_total_score": 1755,
+            "preparation_desc": "Cinchona officinalis teas are a traditional herbal remedy used to treat abdominal pain, particularly related to malaria and other fever-induced conditions. The analgesic and anti-inflammatory properties of this herbal preparation help to reduce pain and inflammation in the abdominal region, providing relief from discomfort and promoting a sense of well-being. The bioactive constituents of Cinchona officinalis, including quinine and alkaloids, contribute to its therapeutic effects by acting as antimalarial agents and modulating the body's pain response. Regular consumption of Cinchona officinalis teas has been associated with several benefits, including reduced abdominal pain, improved digestive health, and a lower risk of malaria and other fever-related complications.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Red-Rose-Temptations-Blueberry-Muffin/dp/B07RNMG687",
+                "affiliate_link": "https://amzn.to/3DP5R8w",
+                "title": "Red Rose Sweet Temptations Dessert Tea Blueberry Muffin, Zero Carbs, Zero Sugar Bursting with Flavor Caffeine-Free Delicious Beverage Herbal Tea, 18 Count Pack of 6 Fruit Naturally Flavored Herbal Tea"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 14,
+            "herb_confidence_score": 107,
+            "herb_total_score": 1498,
+            "preparation_desc": "Curcuma longa teas, derived from the rhizome of the Curcuma longa plant, have been traditionally used to treat abdominal pain due to their anti-inflammatory and analgesic properties. The bioactive constituents of Curcuma longa teas, including curcumin, demethoxycurcumin, and bisdemethoxycurcumin, help to reduce inflammation and alleviate pain by inhibiting the production of pro-inflammatory enzymes and cytokines. By consuming Curcuma longa teas, individuals can experience relief from abdominal pain and discomfort, as well as improved digestion and reduced risk of chronic diseases such as irritable bowel syndrome. The benefits of using Curcuma longa teas to treat abdominal pain include reduced symptoms, improved quality of life, and a natural, non-invasive treatment option that can be safely used for long-term management.",
+            "preparation_study": "According to \"Journal of gastrointestinal and liver diseases : JGLD\", Curcuma longa teas for abdominal pain, specifically when combined with fennel essential oil, have been shown to significantly reduce abdominal pain and overall Irritable Bowel Syndrome (IBS) symptoms in patients, resulting in a 50.05% relative decrease in IBS symptoms severity score.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 14,
+            "herb_confidence_score": 104,
+            "herb_total_score": 1456,
+            "preparation_desc": "Foeniculum vulgare teas, also known as anise tea, have been traditionally used to treat abdominal pain, particularly in cases of irritable bowel syndrome (IBS) and bloating. The herbal preparation contains bioactive constituents such as anethole, limonene, and fenchone, which have been shown to have anti-inflammatory and carminative properties that help to ease abdominal discomfort and reduce spasms. The anethole in anise tea is particularly effective in relaxing the smooth muscle of the digestive tract, thereby reducing cramps and spasms that cause abdominal pain. Regular consumption of Foeniculum vulgare teas has been found to provide relief from abdominal pain, improve digestion, and promote overall gut health, making it a popular natural remedy for this ailment.",
+            "preparation_study": "According to \"International journal of gynaecology and obstetrics: the official organ of the International Federation of Gynaecology and Obstetrics\", Foeniculum vulgare teas for abdominal pain associated with primary dysmenorrhea can be an effective herbal remedy, with a mean duration of initiation of action of 75 +/- 48.9 minutes, although it may have a lower potency than mefenamic acid in the dosages used for this study.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/HANDPICK-Caffeine-Natural-Premium-Eco-Conscious/dp/B0BFHKDK88",
+                "affiliate_link": "https://amzn.to/42bRtPt",
+                "title": "HANDPICK, Fennel Tea Bags (100 Herbal Tea Bags) Caffeine Free, Gluten Free & Non GMO | Round Eco Conscious Teabags | Smooth & Sweet"
+            }
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 11,
+            "herb_confidence_score": 85,
+            "herb_total_score": 935,
+            "preparation_desc": "Mentha x piperita teas have been used to treat abdominal pain due to their anti-inflammatory, antispasmodic, and carminative properties. These properties help to soothe the digestive system, reduce muscle spasms, and alleviate symptoms of indigestion and bloating, thereby providing relief from abdominal pain. The bioactive constituents of Mentha x piperita teas, including menthol, menthone, and limonene, contribute to its therapeutic effects by reducing inflammation, relaxing smooth muscle, and promoting digestion. Regular consumption of Mentha x piperita teas can help to alleviate symptoms of abdominal pain, promote a sense of well-being, and support overall digestive health.",
+            "preparation_study": "According to \"Current pharmaceutical biotechnology\", Mentha x piperita teas may be beneficial for abdominal pain as part of the herbal agents that have shown efficacy in managing visceral hypersensitivity, particularly in irritable bowel syndrome (IBS), through mechanisms including modulation of the mRNA expression of transient receptor potential vanilloid type-1 (TRPV1) and suppression of 5-hydroxytryptamine 3 (5-HT3) or the serotonin receptors.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 84,
+            "herb_total_score": 924,
+            "preparation_desc": "Valeriana officinalis teas have been traditionally used to treat abdominal pain due to their sedative, antispasmodic, and anti-inflammatory properties. The bioactive constituents of Valeriana officinalis, including valerenic acid, valeranone, and valeranone-oxide, help to reduce muscle spasms, relieve pain, and calm the nervous system, thereby alleviating abdominal discomfort. By promoting relaxation and reducing anxiety, Valeriana officinalis teas can help to treat abdominal pain by addressing its underlying causes. The benefits of using Valeriana officinalis teas for abdominal pain relief include reduced inflammation, improved digestion, and enhanced overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 15,
+            "herb_confidence_score": 82,
+            "herb_total_score": 1230,
+            "preparation_desc": "Taraxacum officinale teas have been traditionally used to treat abdominal pain, a common ailment that affects millions of people worldwide. The properties of this herbal preparation, including its anti-inflammatory and analgesic properties, help to treat abdominal pain by reducing inflammation and relieving pain in the abdominal region. The bioactive constituents of Taraxacum officinale teas, such as flavonoids, phenolic acids, and saponins, contribute to its therapeutic effects by modulating the body's response to pain and inflammation. The benefits of using Taraxacum officinale teas to treat abdominal pain include its gentle and non-invasive nature, making it a popular alternative to pharmaceutical treatments.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Roasted-Dandelion-Eco-Conscious-FGO/dp/B07Z7FTFNX",
+                "affiliate_link": "https://amzn.to/4j70AbI",
+                "title": "FGO Organic Roasted Dandelion Root Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 11,
+            "herb_confidence_score": 74,
+            "herb_total_score": 814,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to treat abdominal pain, a common symptom of various gastrointestinal issues. The anti-inflammatory properties of this herbal preparation help to alleviate abdominal pain by reducing inflammation and swelling in the digestive tract. Echinacea purpurea teas contain bioactive constituents such as alkylamides, caffeic acid, and rosmarinic acid, which have been shown to possess antioxidant and anti-inflammatory properties that contribute to their pain-relieving effects. By consuming Echinacea purpurea teas, individuals can benefit from their analgesic and anti-inflammatory properties, which can help to soothe and calm the digestive system, providing relief from abdominal pain.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 69,
+            "herb_total_score": 621,
+            "preparation_desc": "Aloe barbadensis teas are a popular herbal remedy used to treat abdominal pain due to their anti-inflammatory, antioxidant, and soothing properties. The gel of the Aloe barbadensis plant contains bioactive constituents such as aloin, aloe-emodin, and acemannan, which help to reduce inflammation and alleviate pain in the abdominal region. By consuming Aloe barbadensis teas, individuals can benefit from the ability of these bioactive compounds to calm digestive issues, reduce spasms, and promote healthy gut function, ultimately providing relief from abdominal pain. The benefits of Aloe barbadensis teas in treating abdominal pain include their non-invasive nature, minimal side effects, and ability to provide rapid relief, making them a sought-after natural remedy for digestive issues.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Spearmint-Eco-Conscious-Lined-FGO/dp/B07ND418HR",
+                "affiliate_link": "https://amzn.to/42s2qOg",
+                "title": "FGO Organic Spearmint Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 67,
+            "herb_total_score": 670,
+            "preparation_desc": "Rosmarinus officinalis teas, a herbal preparation derived from the leaves of the rosemary plant, have been traditionally used to treat abdominal pain due to their carminative and antispasmodic properties. The bioactive constituents, including rosmarinic acid and carnosic acid, help to relax the smooth muscles in the digestive tract, reducing spasms and alleviating pain. The anti-inflammatory properties of Rosmarinus officinalis teas also help to reduce inflammation in the digestive tract, which can contribute to abdominal pain. By consuming Rosmarinus officinalis teas, individuals can benefit from a natural and non-invasive approach to managing abdominal pain, promoting digestive comfort and overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Artemisia absinthium",
+            "herb_mentions": 11,
+            "herb_confidence_score": 66,
+            "herb_total_score": 726,
+            "preparation_desc": "Artemisia absinthium teas, derived from the wormwood plant, have been traditionally used to treat abdominal pain due to their antispasmodic and anti-inflammatory properties. The antispasmodic properties of this herbal preparation help to ease muscle spasms and cramps in the abdominal region, providing relief from pain and discomfort. The bioactive constituents, including thujone, camphor, and borneol, in Artemisia absinthium teas have been found to contribute to their therapeutic effects, as they possess analgesic, anti-inflammatory, and antimicrobial properties. The benefits of using Artemisia absinthium teas to treat abdominal pain include their potential to reduce pain and inflammation, promote relaxation, and provide a natural alternative to conventional medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 11,
+            "herb_confidence_score": 65,
+            "herb_total_score": 715,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat abdominal pain due to their anti-inflammatory, antioxidant, and analgesic properties. The bioactive constituents, such as flavonoids and terpenoids, help to reduce inflammation and alleviate pain by inhibiting the production of pro-inflammatory enzymes and mediators. This herbal preparation helps to treat abdominal pain by relaxing the smooth muscles in the digestive tract, reducing spasms, and improving blood flow to the affected area, thereby relieving discomfort and promoting healing. The benefits of Ginkgo biloba teas in treating abdominal pain include reduced frequency and severity of episodes, improved overall digestion, and enhanced quality of life.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Matricaria chamomilla",
+            "herb_mentions": 7,
+            "herb_confidence_score": 57,
+            "herb_total_score": 399,
+            "preparation_desc": "Matricaria chamomilla teas have been used to treat abdominal pain due to their anti-inflammatory and soothing properties, which help to calm the digestive system and reduce discomfort. The apigenin and luteolin present in Matricaria chamomilla teas possess antioxidant and anti-inflammatory activities that contribute to their analgesic effects, thereby alleviating abdominal pain. The bioactive constituents, including flavonoids and terpenoids, in Matricaria chamomilla teas have been shown to inhibit the production of pro-inflammatory enzymes, leading to a reduction in pain and discomfort. The use of Matricaria chamomilla teas to treat abdominal pain has been associated with several benefits, including improved digestion, reduced inflammation, and a decrease in the severity and frequency of abdominal pain episodes.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 9,
+            "herb_confidence_score": 54,
+            "herb_total_score": 486,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to alleviate abdominal pain due to their calming and anti-inflammatory properties, which help to soothe the digestive system. The bioactive constituents of this herbal preparation, such as linalool and linalyl acetate, possess analgesic and anti-inflammatory effects that contribute to its pain-relieving properties. By reducing inflammation and promoting relaxation, Lavandula angustifolia teas can help to alleviate abdominal pain and discomfort associated with conditions such as irritable bowel syndrome (IBS). The benefits of using Lavandula angustifolia teas to treat abdominal pain include reduced pain and discomfort, improved digestion, and a sense of calm and well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 7,
+            "herb_confidence_score": 52,
+            "herb_total_score": 364,
+            "preparation_desc": "Urtica dioica teas, also known as nettle leaf teas, have been traditionally used to treat abdominal pain due to their anti-inflammatory and antioxidant properties. The herbal preparation helps to alleviate this ailment by reducing inflammation and pain in the digestive system, as well as promoting relaxation and reducing muscle spasms. The bioactive constituents of nettle leaf teas, such as flavonoids, alkaloids, and phenolic acids, contribute to their therapeutic effects, including their ability to inhibit the production of pro-inflammatory enzymes and cytokines. The benefits of using nettle leaf teas to treat abdominal pain include reduced symptoms, improved digestion, and a decrease in the need for pharmaceutical medications, making them a popular natural remedy for this common ailment.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Nettle-Eco-Conscious-Bulgaria-FGO/dp/B07ND3ZT9C",
+                "affiliate_link": "https://amzn.to/3QUwzPU",
+                "title": "FGO Organic Nettle Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cinnamomum verum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 44,
+            "herb_total_score": 264,
+            "preparation_desc": "Cinnamomum verum teas, also known as Ceylon cinnamon, have been traditionally used to treat abdominal pain due to its anti-inflammatory and antispasmodic properties. These properties help to alleviate pain and reduce inflammation in the abdominal region, thereby providing relief from discomfort and cramping. The bioactive constituents present in Cinnamomum verum teas, including cinnamaldehyde and linalool, have been found to contribute to its therapeutic effects by inhibiting the release of pain-causing chemicals and reducing muscle spasms. The benefits of using Cinnamomum verum teas to treat abdominal pain include reduced frequency and severity of episodes, improved digestion, and a decrease in the use of conventional pain medications.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Celestial-Seasonings-Herbal-Cinnamon-Apple/dp/B000E65OII",
+                "affiliate_link": "https://amzn.to/3G3S3aR",
+                "title": "Celestial Seasonings Cinnamon Apple Spice Herbal Tea, Caffeine Free, 20 Tea Bags Box (Pack of 6)"
+            }
+        },
+        {
+            "herb_name_scientific": "Berberis vulgaris",
+            "herb_mentions": 5,
+            "herb_confidence_score": 37,
+            "herb_total_score": 185,
+            "preparation_desc": "Berberis vulgaris teas have been traditionally used to treat abdominal pain due to their anti-inflammatory and antispasmodic properties, which help to soothe and calm the digestive system. The bioactive constituents of Berberis vulgaris, including berberine, palmitic acid, and beta-sitosterol, work together to reduce inflammation, relax the muscles, and alleviate symptoms of abdominal pain. By reducing inflammation and relaxing the muscles, Berberis vulgaris teas help to treat abdominal pain by providing relief from cramps, spasms, and discomfort. The benefits of using Berberis vulgaris teas to treat abdominal pain include natural relief from symptoms, reduced risk of complications, and a lower risk of side effects compared to conventional medications.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 5,
+            "herb_confidence_score": 36,
+            "herb_total_score": 180,
+            "preparation_desc": "Achillea millefolium teas, also known as yarrow teas, have been traditionally used to treat abdominal pain, including conditions such as cramps, bloating, and gastritis. The anti-inflammatory and antispasmodic properties of this herbal preparation help to soothe the digestive system and reduce inflammation, thereby alleviating abdominal pain. The bioactive constituents present in Achillea millefolium teas, including flavonoids, terpenoids, and sesquiterpenes, contribute to its therapeutic effects by inhibiting prostaglandin synthesis and modulating gut motility. The benefits of using Achillea millefolium teas to treat abdominal pain include their ability to promote digestive comfort, reduce nausea and vomiting, and provide a natural alternative to conventional medications.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Soursop-Leaves-Bags-Teabags/dp/B0C69P5FV9",
+                "affiliate_link": "https://amzn.to/4i1QY0D",
+                "title": "FullChea- Soursop Leaves Tea Bags, 40 Teabags, 1.5g/Bag - Premium Soursop Graviola Leaves Tea - Hojas De Guanabana Tea - Non-GMO - Caffeine-Free - Improve Digestion, Support Healthy Skin & Sleep"
+            }
+        }
+    ],
+    "intro_study": "According to \"Current drug discovery technologies\", teas for abdominal pain may be an effective option due to the antioxidant and anti-inflammatory properties of green tea, particularly its major phytochemical component, Epigallocatechin-3-gallate (EGCG)."
+}

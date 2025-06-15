@@ -1,0 +1,245 @@
+{
+    "url": "ailments/stress/teas",
+    "ailment_slug": "stress",
+    "ailment_name": "stress",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 11,
+    "title": "11 Best Herbal Teas For Stress",
+    "intro": "Herbal teas for stress are a type of herbal remedy that uses the medicinal properties of plants to help alleviate symptoms of anxiety, tension, and emotional distress. These teas have been shown to have numerous benefits, including reducing cortisol levels, promoting relaxation, and improving sleep quality. Some popular examples of herbal teas used to treat stress include chamomile, which calms the mind and soothes the nervous system; lavender, which promotes a sense of calm and tranquility; peppermint, which helps to reduce anxiety and improve focus; passionflower, which has a sedative effect; valerian root, which promotes deep relaxation; ginseng, which helps to balance the body's energy; and lemon balm, which has a calming effect on the nervous system. By incorporating these teas into one's daily routine, individuals can find natural relief from stress and promote overall well-being.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 20,
+            "herb_confidence_score": 192,
+            "herb_total_score": 3840,
+            "preparation_desc": "Valeriana officinalis teas have been traditionally used to treat stress-related ailments due to their sedative and calming properties. The herbal preparation helps to treat stress by promoting relaxation, reducing anxiety levels, and improving sleep quality. This is attributed to the presence of bioactive constituents such as valerenic acid, isovaleric acid, and valepotriates, which interact with the brain's GABA receptors to exert a calming effect. Regular consumption of Valeriana officinalis teas offers several benefits, including reduced stress levels, improved mood, and enhanced overall well-being.",
+            "preparation_study": "According to the study on the pharmacological effects of Valeriana officinalis, Valeriana officinalis teas have been traditionally used to promote relaxation and relieve stress due to its sedative, anxiolytic, and antidepressant effects, which may help reduce anxiety and promote a calm mind.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 21,
+            "herb_confidence_score": 187,
+            "herb_total_score": 3927,
+            "preparation_desc": "Lavandula angustifolia teas, a popular herbal remedy, have been used for centuries to treat stress-related ailments due to their calming and soothing properties. The bioactive constituents present in these teas, including linalool and linalyl acetate, help to reduce anxiety and promote relaxation by interacting with the brain's neurotransmitters, such as GABA. By drinking Lavandula angustifolia teas, individuals can experience a decrease in stress levels and an improvement in sleep quality, leading to overall well-being and a sense of calmness. The benefits of this herbal preparation include reduced symptoms of anxiety and depression, improved mood, and enhanced relaxation, making it an effective natural remedy for stress relief.",
+            "preparation_study": "According to \"Molecules (Basel, Switzerland)\", Lavandula angustifolia teas have been shown to relieve symptoms of mental stress internally.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 21,
+            "herb_confidence_score": 180,
+            "herb_total_score": 3780,
+            "preparation_desc": "Melissa officinalis teas have been traditionally used to treat stress-related ailments due to their calming properties, which help to alleviate feelings of anxiety and promote relaxation. The bioactive constituents of Melissa officinalis, including rosmarinic acid, apigenin, and luteolin, possess anti-inflammatory and antioxidant properties that contribute to its stress-relieving effects. By reducing cortisol levels and promoting a sense of calm, Melissa officinalis teas help to mitigate the negative impacts of stress on both physical and mental health. Regular consumption of Melissa officinalis teas has been shown to provide numerous benefits, including improved sleep quality, reduced anxiety and depression, and enhanced overall well-being.",
+            "preparation_study": "According to \"BMC complementary medicine and therapies\", Melissa officinalis teas may be beneficial for reducing stress and anxiety in patients with type 2 diabetes, as the 12-week study showed a significant decrease in depression and anxiety severity in the group receiving the M. officinalis extract.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 20,
+            "herb_confidence_score": 177,
+            "herb_total_score": 3540,
+            "preparation_desc": "Passiflora incarnata teas have been traditionally used to treat stress and anxiety-related ailments due to their adaptogenic and sedative properties. The herbal preparation helps to treat stress by promoting relaxation, reducing anxiety and restlessness, and improving sleep quality, ultimately leading to a sense of calmness and well-being. The bioactive constituents of Passiflora incarnata teas, including flavonoids, alkaloids, and glycosides, contribute to their therapeutic effects by modulating the activity of neurotransmitters and reducing inflammation in the brain. The benefits of using Passiflora incarnata teas to treat stress include improved mood, enhanced cognitive function, and reduced symptoms of depression and anxiety.",
+            "preparation_study": "According to the study, Passiflora incarnata teas for stress relief may have similar anxiolytic-like effects to Passiflora sidaefolia, as both reduced anxious-like behavior in the Holeboard test, although further investigations are needed to confirm this.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Certified-Wrapped/dp/B000YTCSLQ",
+                "affiliate_link": "https://amzn.to/3FU2zS4",
+                "title": "Traditional Medicinals Organic Nighty Night with Passionflower Herbal Tea, Promotes a Good Night\u2019s Sleep, (Pack of 1) - 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 19,
+            "herb_confidence_score": 145,
+            "herb_total_score": 2755,
+            "preparation_desc": "Avena sativa teas, also known as oat straw tea, have been traditionally used to treat stress and anxiety due to their calming and sedative properties. The herbal preparation helps to reduce stress by promoting relaxation, improving sleep quality, and regulating the nervous system. The bioactive constituents of Avena sativa, including avenanthramides and avenacosides, are responsible for its therapeutic effects, which include anti-inflammatory and antioxidant activities that help to alleviate stress-related symptoms. The benefits of using Avena sativa teas to treat stress include reduced anxiety levels, improved mood, and enhanced overall well-being, making it a popular natural remedy for individuals seeking to manage stress and promote relaxation.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Chamomile-Eco-Conscious-Lined-FGO/dp/B07N2F8718",
+                "affiliate_link": "https://amzn.to/3EaZYm9",
+                "title": "FGO Organic Chamomile Tea, 100 Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 18,
+            "herb_confidence_score": 116,
+            "herb_total_score": 2088,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger teas, have been traditionally used to treat stress-related ailments due to their calming and soothing properties. The bioactive constituents of ginger tea, including gingerols and shogaols, have been found to have anti-inflammatory and antioxidant effects, which help to reduce stress and promote relaxation. By reducing inflammation and oxidative stress, ginger tea helps to alleviate symptoms of anxiety and fatigue associated with stress. The benefits of using ginger tea to treat stress include improved mood, reduced anxiety levels, and enhanced overall well-being.",
+            "preparation_study": "According to \"Pakistan journal of pharmaceutical sciences\", Zingiber officinale teas may be beneficial for stress due to its high antioxidant activity, particularly with DPPH (222.30mg/TE/g DW) and FRAP (98.04mg/TE/g DW) values, indicating its potential to reduce oxidative stress.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 16,
+            "herb_confidence_score": 104,
+            "herb_total_score": 1664,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat stress and anxiety due to their adaptogenic and antioxidant properties. The bioactive constituents of Ginkgo biloba, including flavonoids and terpenoids, help to modulate the body's response to stress by reducing inflammation and promoting relaxation. This herbal preparation helps to treat stress by regulating cortisol levels, improving sleep quality, and enhancing mood stability. The benefits of Ginkgo biloba teas in treating stress include reduced symptoms of anxiety and depression, improved cognitive function, and a sense of calm and well-being.",
+            "preparation_study": "According to the study, Ginkgo biloba teas for stress may help reduce anxiety under pathological conditions, although more advanced clinical research is needed to confirm their efficacy.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 16,
+            "herb_confidence_score": 84,
+            "herb_total_score": 1344,
+            "preparation_desc": "Glycyrrhiza glabra teas have been traditionally used to treat stress-related ailments due to their adaptogenic and anti-stress properties, which help to regulate the body's response to stress and promote a sense of calmness. The bioactive constituents of Glycyrrhiza glabra, including glycyrrhizin and flavonoids, have been found to have a sedative effect on the nervous system, reducing anxiety and promoting relaxation. These teas also contain antioxidants and anti-inflammatory compounds that help to protect the body from oxidative stress and inflammation, further contributing to their stress-relieving effects. Regular consumption of Glycyrrhiza glabra teas has been found to have numerous benefits, including reduced cortisol levels, improved mood, and enhanced overall well-being, making it a popular natural remedy for stress relief.",
+            "preparation_study": "According to \"Heliyon\", Glycyrrhiza glabra teas for stress may have anti-inflammatory and antispasmodic properties, which can help alleviate stress and anxiety.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 62,
+            "herb_total_score": 620,
+            "preparation_desc": "Schisandra chinensis teas have been traditionally used to treat stress and its associated ailments due to their adaptogenic properties, which enable the body to cope with stress by promoting balance in physiological functions. This herbal preparation helps to treat stress by modulating the hypothalamic-pituitary-adrenal (HPA) axis, thereby regulating cortisol levels and reducing anxiety. The bioactive constituents of Schisandra chinensis teas, including schisandrins, lignans, and polysaccharides, contribute to its therapeutic effects by scavenging free radicals, improving sleep quality, and enhancing mood. Regular consumption of Schisandra chinensis teas has been associated with reduced stress levels, improved cognitive function, and enhanced overall well-being, making it a popular natural remedy for stress relief.",
+            "preparation_study": "According to \"Ceska a Slovenska farmacie : casopis Ceske farmaceuticke spolecnosti a Slovenske farmaceuticke spolecnosti\", Schisandra chinensis teas for stress may be beneficial due to their adaptogenic properties, which can help the body adapt to stress and promote overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-EveryDay-Detox/dp/B0009F3PHQ",
+                "affiliate_link": "https://amzn.to/4d2gq5d",
+                "title": "Traditional Medicinals Tea, Organic EveryDay Detox Schisandra Berry, Supports Healthy Liver Function, Detox, 96 Tea Bags (6 Pack)"
+            }
+        },
+        {
+            "herb_name_scientific": "Camellia sinensis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 61,
+            "herb_total_score": 610,
+            "preparation_desc": "Camellia sinensis teas, derived from the leaves of the Camellia sinensis plant, have been used for centuries to treat stress and anxiety-related ailments due to their adaptogenic properties. The bioactive constituents present in these teas, including theaflavins, thearubigins, and L-theanine, help to promote relaxation and reduce stress levels by regulating the body's cortisol response and promoting a sense of calm. By consuming Camellia sinensis teas, individuals can experience a range of benefits, including improved sleep quality, reduced anxiety and depression symptoms, and enhanced overall well-being. Regular consumption of Camellia sinensis teas can also lead to increased focus, improved mood, and a more balanced emotional state, making it an effective herbal preparation for stress management.",
+            "preparation_study": "According to \"Current pharmaceutical biotechnology\", Camellia sinensis teas for stress have shown promising effects on anxiety in animal models.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Green-Eco-Conscious-Lined-FGO/dp/B07ND4GD5S",
+                "affiliate_link": "https://amzn.to/3Gk6JT6",
+                "title": "FGO Organic Green Tea, 100 Count Eco-Conscious Tea Bags, Caffeinated, Resealable Pouch, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 12,
+            "herb_confidence_score": 56,
+            "herb_total_score": 672,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been traditionally used to treat stress and anxiety due to its adaptogenic properties. This herbal preparation helps to treat stress by modulating the body's response to stress, promoting balance and reducing inflammation. The bioactive constituents of Silybum marianum, including silymarin and flavonoids, have antioxidant and anti-inflammatory effects that contribute to its stress-relieving properties. The benefits of Silybum marianum teas in treating stress include reduced symptoms of anxiety and depression, improved mood, and enhanced overall well-being.",
+            "preparation_study": "According to \"Journal de pharmacie de Belgique\", Silybum marianum teas, also known as St. Mary's Thistle or Legalon, have shown potential in reducing stress and improving liver function due to the presence of silymarine, a mixture of flavonolignanes with antioxidant properties.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 8,
+            "herb_confidence_score": 56,
+            "herb_total_score": 448,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort, have been traditionally used to treat stress and anxiety-related ailments due to their adaptogenic and sedative properties. The herbal preparation helps to calm the mind and body, reducing feelings of anxiety and stress by modulating neurotransmitter activity and promoting relaxation. The bioactive constituents of Hypericum perforatum teas, including flavonoids, phenolic acids, and terpenoids, contribute to their therapeutic effects by interacting with neurotransmitters such as serotonin and dopamine, thereby regulating mood and emotional response. The benefits of using Hypericum perforatum teas to treat stress and anxiety include improved sleep quality, reduced irritability, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 9,
+            "herb_confidence_score": 54,
+            "herb_total_score": 486,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to help alleviate stress and anxiety due to their adaptogenic properties, which enable the body to cope with stress and promote balance in the nervous system. The bioactive constituents of this herbal preparation, including alkylamides, glycosides, and caffeic acid derivatives, help to reduce inflammation and promote relaxation, thereby reducing stress and anxiety. Regular consumption of Echinacea purpurea teas can also help to improve sleep quality, boost mood, and enhance overall well-being, making it an effective natural remedy for managing stress. The benefits of using Echinacea purpurea teas to treat stress include reduced symptoms of anxiety and depression, improved mental clarity, and a strengthened immune system.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Matricaria chamomilla",
+            "herb_mentions": 7,
+            "herb_confidence_score": 49,
+            "herb_total_score": 343,
+            "preparation_desc": "Matricaria chamomilla teas have been traditionally used to treat stress and anxiety due to their calming and soothing properties. The herbal preparation contains apigenin and luteolin, bioactive constituents that have been shown to possess anxiolytic and sedative effects, which help to reduce stress and promote relaxation. By acting on the nervous system, Matricaria chamomilla teas help to regulate emotional responses, leading to a sense of calm and balance. The benefits of using Matricaria chamomilla teas to treat stress include improved sleep quality, reduced anxiety levels, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Vitex agnus-castus",
+            "herb_mentions": 8,
+            "herb_confidence_score": 49,
+            "herb_total_score": 392,
+            "preparation_desc": "Vitex agnus-castus teas have been traditionally used to treat stress and anxiety due to their adaptogenic and anxiolytic properties, which help to regulate the body's response to stress. The bioactive constituents of Vitex agnus-castus, including iridoid glycosides, flavonoids, and phenolic acids, are believed to contribute to its therapeutic effects. These constituents are thought to interact with the body's hormonal system, particularly the hypothalamic-pituitary-adrenal axis, to help alleviate stress and anxiety. Regular consumption of Vitex agnus-castus teas may provide benefits such as improved mood, reduced stress levels, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Moringa-Eco-Conscious-Kraft-FGO/dp/B07XYJBXLJ",
+                "affiliate_link": "https://amzn.to/3YtNNYu",
+                "title": "FGO Organic Moringa Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Citrus reticulata",
+            "herb_mentions": 8,
+            "herb_confidence_score": 45,
+            "herb_total_score": 360,
+            "preparation_desc": "Citrus reticulata teas, derived from the peel of the mandarin orange, have been used to treat stress and anxiety due to their calming and sedative properties. The flavonoids and limonoids present in Citrus reticulata teas help to reduce stress by acting as natural adaptogens, regulating the body's response to stress and promoting relaxation. The bioactive constituents, including naringenin and hesperidin, have been shown to have a positive impact on the nervous system, reducing symptoms of anxiety and stress. Regular consumption of Citrus reticulata teas has been found to have numerous benefits, including improved sleep quality, reduced anxiety levels, and enhanced mood, making it a popular natural remedy for stress relief.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cynara scolymus",
+            "herb_mentions": 7,
+            "herb_confidence_score": 44,
+            "herb_total_score": 308,
+            "preparation_desc": "Cynara scolymus teas, also known as artichoke tea, have been traditionally used to treat stress and its associated symptoms. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce stress by calming the nervous system and promoting relaxation. The bioactive constituents of artichoke tea, including cynarin and silymarin, have been found to have a sedative effect, reducing anxiety and stress levels. By consuming Cynara scolymus teas, individuals can benefit from reduced stress, improved sleep quality, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 41,
+            "herb_total_score": 246,
+            "preparation_desc": "Rosmarinus officinalis teas, also known as rosemary tea, have been traditionally used to treat stress and anxiety due to their adaptogenic and calming properties. The herbal preparation helps to alleviate stress by promoting relaxation, reducing inflammation, and improving sleep quality, thereby providing a natural remedy for stress-related ailments. The bioactive constituents of Rosmarinus officinalis, including rosmarinic acid, camphor, and bornyl acetate, contribute to its therapeutic effects by modulating the activity of neurotransmitters and exerting antioxidant and anti-inflammatory actions. Regular consumption of Rosmarinus officinalis teas has been associated with numerous benefits, including reduced stress levels, improved mood, and enhanced cognitive function, making it a valuable herbal remedy for managing stress and promoting overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Humulus lupulus",
+            "herb_mentions": 5,
+            "herb_confidence_score": 40,
+            "herb_total_score": 200,
+            "preparation_desc": "Humulus lupulus teas, also known as hop teas, have been traditionally used to treat stress and anxiety due to their calming and sedative properties. The herbal preparation helps to reduce stress and anxiety by promoting relaxation and improving sleep quality, ultimately leading to a sense of calm and well-being. The bioactive constituents of Humulus lupulus teas, including alpha-acid, beta-acid, and essential oils, contribute to its anxiolytic and sedative effects by interacting with the brain's GABA receptors and modulating the body's stress response. Regular consumption of Humulus lupulus teas has been found to provide numerous benefits, including reduced symptoms of anxiety and depression, improved sleep quality, and enhanced overall mental well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cannabis sativa",
+            "herb_mentions": 5,
+            "herb_confidence_score": 36,
+            "herb_total_score": 180,
+            "preparation_desc": "Cannabis sativa teas have been used for centuries to treat stress and anxiety-related ailments due to their calming and balancing properties. This herbal preparation helps to treat stress by promoting relaxation, reducing muscle tension, and regulating sleep patterns. The bioactive constituents of Cannabis sativa, including cannabinoids such as CBD and THC, help to interact with the body's endocannabinoid system, thereby reducing stress and promoting a sense of well-being. The benefits of Cannabis sativa teas in treating stress include reduced anxiety, improved mood, and enhanced overall quality of life, making them a popular natural remedy for stress relief.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Gigiena i sanitariia\", teas for stress may help reduce the magnitude of sympathoadrenal system tension and exert an optimizing effect on the mechanisms responsible for regulation of the cardiovascular system."
+}

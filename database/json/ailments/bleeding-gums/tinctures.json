@@ -1,0 +1,181 @@
+{
+    "url": "ailments/bleeding-gums/tinctures",
+    "ailment_slug": "bleeding-gums",
+    "ailment_name": "bleeding gums",
+    "preparation_slug": "tinctures",
+    "preparation_name": "tinctures",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 7,
+    "title": "7 Best Herbal Tinctures For Bleeding Gums",
+    "intro": "Herbal tinctures for Bleeding gums are liquid extracts made from various herbs that are used to treat and prevent gum inflammation and bleeding. These tinctures offer numerous benefits, including reducing inflammation, promoting wound healing, and preventing further bleeding. Effective herbal tinctures for treating bleeding gums include aloe vera, which soothes and calms the gums; peppermint, which reduces inflammation and freshens breath; tea tree oil, which has antibacterial properties; chamomile, which reduces stress and promotes relaxation; echinacea, which boosts the immune system; and licorice root, which has anti-inflammatory properties and soothes the gums. By incorporating these herbal tinctures into one's oral care routine, individuals can help alleviate bleeding gums and maintain good oral health.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 19,
+            "herb_confidence_score": 157,
+            "herb_total_score": 2983,
+            "preparation_desc": "Echinacea purpurea tinctures have been traditionally used to treat bleeding gums, a condition often caused by poor oral hygiene, vitamin deficiencies, or underlying health issues. The anti-inflammatory and antimicrobial properties of Echinacea purpurea tinctures help to reduce inflammation and combat infection, promoting healing and tissue repair in the gums. The bioactive constituents of Echinacea purpurea tinctures, including alkylamides, caffeic acid, and rosmarinic acid, contribute to its therapeutic effects by modulating the immune response, reducing oxidative stress, and inhibiting the growth of pathogenic microorganisms. The benefits of using Echinacea purpurea tinctures to treat bleeding gums include accelerated recovery, reduced pain and discomfort, and improved overall oral health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Salvia officinalis",
+            "herb_mentions": 18,
+            "herb_confidence_score": 142,
+            "herb_total_score": 2556,
+            "preparation_desc": "Salvia officinalis tinctures, a herbal preparation derived from the leaves of the sage plant, have been traditionally used to treat bleeding gums due to their anti-inflammatory and antimicrobial properties. The bioactive constituents, including rosmarinic acid and ursolic acid, in this herbal preparation help to reduce inflammation and prevent bacterial growth, thereby promoting healing and preventing further bleeding. By reducing inflammation and preventing infection, Salvia officinalis tinctures help to treat bleeding gums by promoting a healthy environment for gum tissue to heal. The benefits of using Salvia officinalis tinctures to treat bleeding gums include reduced pain and discomfort, improved gum health, and a lower risk of developing more severe gum diseases.",
+            "preparation_study": "According to \"Avicenna journal of phytomedicine\", Salvia officinalis tinctures may help prevent bleeding gums due to their antibacterial properties that inhibit the formation of oral bacteria biofilm, as shown in the study where the essential oils of Salvia officinalis were able to remove biofilms created by studied bacteria.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 19,
+            "herb_confidence_score": 122,
+            "herb_total_score": 2318,
+            "preparation_desc": "Ginkgo biloba tinctures have been used to treat bleeding gums ailment due to their anti-inflammatory and antioxidant properties, which help to reduce inflammation and prevent further damage to the gums. The flavonoids and terpenoids present in Ginkgo biloba tinctures, such as quercetin and bilobalide, possess bioactive constituents that help to improve blood circulation and prevent bacterial growth in the gums, thereby promoting healthy gum tissue. By reducing inflammation and improving blood circulation, Ginkgo biloba tinctures can help to treat bleeding gums by promoting healing and preventing further bleeding. The benefits of using Ginkgo biloba tinctures to treat bleeding gums include improved gum health, reduced inflammation, and prevention of further complications such as tooth loss or infection.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 17,
+            "herb_confidence_score": 121,
+            "herb_total_score": 2057,
+            "preparation_desc": "Eucalyptus globulus tinctures have been traditionally used to treat bleeding gums, a condition often caused by poor oral hygiene, nutritional deficiencies, or underlying health issues. The herbal preparation's anti-inflammatory and antimicrobial properties help to soothe and heal the affected gums, reducing inflammation and promoting a healthy environment for tissue repair. The bioactive constituents, including eucalyptol, globulin, and flavonoids, play a crucial role in treating bleeding gums by reducing bacterial growth, improving blood clotting, and promoting collagen synthesis, ultimately leading to faster healing. The benefits of using Eucalyptus globulus tinctures to treat bleeding gums include reduced pain and discomfort, improved oral health, and a lower risk of developing more severe conditions such as periodontitis.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 17,
+            "herb_confidence_score": 121,
+            "herb_total_score": 2057,
+            "preparation_desc": "Glycyrrhiza glabra tinctures are a herbal remedy used to treat bleeding gums, a condition characterized by inflammation and bleeding of the gums. The tinctures possess anti-inflammatory and antimicrobial properties, which help to reduce inflammation and prevent infection, thereby promoting healing and stopping the bleeding. The bioactive constituents of Glycyrrhiza glabra, such as glycyrrhizin and flavonoids, contribute to its therapeutic effects by inhibiting the production of pro-inflammatory cytokines and enhancing the antioxidant defenses. Regular use of Glycyrrhiza glabra tinctures can help to alleviate bleeding gums by reducing inflammation, preventing infection, and promoting healing, ultimately leading to a faster recovery and improved oral health.",
+            "preparation_study": "According to \"Journal of International Society of Preventive & Community Dentistry\", Glycyrrhiza glabra tinctures for bleeding gums show anti-inflammatory and antioxidant properties, which can help in managing and reducing gingival diseases.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 14,
+            "herb_confidence_score": 107,
+            "herb_total_score": 1498,
+            "preparation_desc": "Melissa officinalis tinctures have been traditionally used to treat bleeding gums ailment, primarily due to their anti-inflammatory and antimicrobial properties. This herbal preparation helps to treat the ailment by reducing inflammation and promoting healing in the gums, thereby preventing further bleeding. The bioactive constituents of Melissa officinalis tinctures, including citral, geranial, and linalool, contribute to its therapeutic effects by exhibiting antioxidant and antimicrobial activities. The benefits of using Melissa officinalis tinctures to treat bleeding gums include reduced inflammation, improved gum health, and a decrease in the risk of developing periodontal diseases.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 103,
+            "herb_total_score": 1339,
+            "preparation_desc": "Cinchona officinalis tinctures, derived from the bark of the Cinchona tree, have been traditionally used to treat bleeding gums due to their anti-inflammatory and astringent properties. The bioactive constituents, including quinine and alkaloids, help to constrict blood vessels and reduce bleeding, while also exhibiting antimicrobial properties that combat the underlying infection causing the bleeding. By reducing inflammation and promoting hemostasis, Cinchona officinalis tinctures help to alleviate symptoms and promote healing of the affected area. The benefits of using Cinchona officinalis tinctures to treat bleeding gums include a reduction in bleeding episodes, improved gum health, and a decrease in the risk of complications such as infections and tooth loss.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 13,
+            "herb_confidence_score": 92,
+            "herb_total_score": 1196,
+            "preparation_desc": "Zingiber officinale tinctures, derived from the rhizome of the ginger plant, have been traditionally used to treat bleeding gums due to their anti-inflammatory and antimicrobial properties. The bioactive constituents of Zingiber officinale tinctures, such as gingerols and shogaols, help to reduce inflammation and combat the bacterial and fungal infections that can lead to bleeding gums. By reducing inflammation and preventing infection, Zingiber officinale tinctures help to promote healing and reduce bleeding in the gums, making them a beneficial natural remedy for this ailment. The benefits of using Zingiber officinale tinctures to treat bleeding gums include reduced pain and discomfort, improved oral health, and a lower risk of complications such as tooth loss or infection.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 86,
+            "herb_total_score": 1118,
+            "preparation_desc": "Calendula officinalis tinctures have been traditionally used to treat bleeding gums due to their anti-inflammatory, antimicrobial, and antioxidant properties. The bioactive constituents present in Calendula officinalis, such as triterpenoids, flavonoids, and phenolic acids, help to reduce inflammation, prevent infection, and promote wound healing, ultimately contributing to the treatment of bleeding gums. By using Calendula officinalis tinctures, individuals can benefit from its ability to stimulate collagen synthesis, enhance tissue repair, and reduce bleeding, thereby alleviating the symptoms of bleeding gums. The use of Calendula officinalis tinctures as a natural remedy for bleeding gums offers a safe and effective alternative to conventional treatments, providing relief from discomfort and promoting overall oral health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 10,
+            "herb_confidence_score": 78,
+            "herb_total_score": 780,
+            "preparation_desc": "Aloe barbadensis tinctures have been traditionally used to treat bleeding gums, an ailment often caused by gum inflammation, gum recession, or gum disease. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce inflammation, prevent infection, and promote healing of the gums. The bioactive constituents, such as aloin, aloe-emodin, and acemannan, in Aloe barbadensis tinctures have been shown to exhibit anti-inflammatory, antioxidant, and immunomodulatory effects, which help to treat bleeding gums by reducing gum inflammation and promoting tissue repair. The benefits of using Aloe barbadensis tinctures to treat bleeding gums include reduced inflammation, faster healing, and prevention of further gum damage, making it a popular natural remedy for this common oral health issue.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 9,
+            "herb_confidence_score": 72,
+            "herb_total_score": 648,
+            "preparation_desc": "Hypericum perforatum tinctures have been traditionally used to treat bleeding gums ailment due to their anti-inflammatory, antiseptic, and astringent properties. The bioactive constituents of Hypericum perforatum, including hyperforin and hypericin, help to reduce inflammation and prevent bacterial growth, thereby promoting gum healing and preventing further bleeding. The astringent properties of these tinctures also help to constrict blood vessels and reduce bleeding, while their antiseptic properties prevent infection and promote a clean environment for healing. By using Hypericum perforatum tinctures, individuals can benefit from a natural and effective treatment for bleeding gums, reducing the risk of infection and promoting a healthy gum environment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 9,
+            "herb_confidence_score": 69,
+            "herb_total_score": 621,
+            "preparation_desc": "Achillea millefolium tinctures, derived from the flowers and leaves of the Yarrow plant, possess anti-inflammatory, antimicrobial, and astringent properties that make them an effective remedy for treating bleeding gums. The bioactive constituents responsible for these properties include flavonoids, phenolic acids, and sesquiterpenes, which help to reduce inflammation, prevent bacterial growth, and promote tissue repair. By applying Achillea millefolium tinctures topically to the affected area, one can help to stop bleeding, reduce swelling, and alleviate pain associated with bleeding gums. Regular use of this herbal preparation can lead to the healing of gums, prevention of further bleeding, and promotion of overall oral health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 62,
+            "herb_total_score": 558,
+            "preparation_desc": "Rosmarinus officinalis tinctures have been traditionally used to treat bleeding gums due to their antimicrobial and anti-inflammatory properties, which help to combat the underlying infection and reduce inflammation in the gums. The bioactive constituents of Rosmarinus officinalis tinctures, including carnosic acid and rosmarinic acid, contribute to their therapeutic effects by exhibiting potent antioxidant and anti-inflammatory activities. These constituents help to reduce inflammation and oxidative stress in the gums, thereby promoting wound healing and preventing further bleeding. The benefits of using Rosmarinus officinalis tinctures to treat bleeding gums include reduced inflammation, improved wound healing, and a decrease in the risk of complications associated with gum disease.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 8,
+            "herb_confidence_score": 58,
+            "herb_total_score": 464,
+            "preparation_desc": "Curcuma longa tinctures, a herbal preparation derived from the Curcuma longa plant, have been traditionally used to treat bleeding gums, a common oral health issue. The bioactive constituents, including curcumin and turmerones, possess potent anti-inflammatory and antioxidant properties that help to reduce inflammation and promote healing in the gums. By inhibiting the production of pro-inflammatory enzymes and cytokines, Curcuma longa tinctures help to treat bleeding gums by reducing swelling and promoting tissue repair. The benefits of using Curcuma longa tinctures to treat bleeding gums include improved gum health, reduced pain and discomfort, and a lower risk of gum disease progression.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 9,
+            "herb_confidence_score": 54,
+            "herb_total_score": 486,
+            "preparation_desc": "Lavandula angustifolia tinctures have been traditionally used to treat bleeding gums due to their anti-inflammatory and antiseptic properties, which help to reduce swelling and prevent infection in the affected area. The bioactive constituents, such as linalool and linalyl acetate, present in the tincture have antimicrobial and antioxidant effects, contributing to the treatment of bleeding gums by preventing the growth of bacteria and promoting tissue repair. By reducing inflammation and promoting healing, Lavandula angustifolia tinctures help to alleviate symptoms associated with bleeding gums, such as pain and discomfort, and prevent further complications. Regular use of Lavandula angustifolia tinctures can lead to improved oral health, reduced risk of infection, and a faster recovery from bleeding gums.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_mentions": 8,
+            "herb_confidence_score": 52,
+            "herb_total_score": 416,
+            "preparation_desc": "Thymus vulgaris tinctures have been traditionally used to treat bleeding gums, a condition often caused by inflammation and poor oral health. The antiseptic and anti-inflammatory properties of thymus vulgaris tinctures help to reduce swelling and prevent infection, promoting healthy gum tissue and stopping bleeding. The bioactive constituents, including thymol and carvacrol, exhibit antimicrobial and antioxidant activities that contribute to the tincture's therapeutic effects. By using Thymus vulgaris tinctures, individuals can benefit from a natural and effective remedy to alleviate bleeding gums, promoting overall oral health and well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 7,
+            "herb_confidence_score": 51,
+            "herb_total_score": 357,
+            "preparation_desc": "Silybum marianum tinctures are a herbal preparation derived from the plant's seeds, which contain bioactive constituents such as flavonoids, alkaloids, and terpenoids. These constituents help to treat bleeding gums by reducing inflammation, preventing platelet aggregation, and improving blood circulation, thereby promoting healthy gum tissue and reducing bleeding. The flavonoids in Silybum marianum tinctures, particularly silymarin, have antioxidant and anti-inflammatory properties that contribute to their therapeutic effects in treating bleeding gums. Regular use of Silybum marianum tinctures may help to alleviate symptoms of bleeding gums, such as pain and discomfort, and promote overall oral health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 8,
+            "herb_confidence_score": 48,
+            "herb_total_score": 384,
+            "preparation_desc": "Mentha x piperita tinctures, derived from the peppermint plant, have been traditionally used to treat bleeding gums due to their anti-inflammatory and antiseptic properties. The bioactive constituents, including menthol and menthone, help to reduce inflammation and combat bacterial infections in the gums, thereby promoting healing and preventing further bleeding. The tincture's cooling and soothing effects also provide relief from pain and discomfort associated with bleeding gums, making it an effective remedy for this ailment. Regular use of Mentha x piperita tinctures has been shown to prevent recurrences of bleeding gums and promote overall oral health, making it a beneficial treatment option for those suffering from this condition.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 10,
+            "herb_confidence_score": 44,
+            "herb_total_score": 440,
+            "preparation_desc": "Taraxacum officinale tinctures, derived from the dandelion plant, have been traditionally used to treat bleeding gums due to their anti-inflammatory and antimicrobial properties. The bioactive constituents present in Taraxacum officinale tinctures, such as flavonoids and sesquiterpenes, help to reduce inflammation and prevent bacterial growth in the gums, thereby alleviating bleeding. By inhibiting the production of pro-inflammatory enzymes and promoting wound healing, Taraxacum officinale tinctures effectively treat bleeding gums, reducing pain and discomfort. The benefits of using Taraxacum officinale tinctures for bleeding gums include reduced risk of infection, accelerated healing, and improved overall oral health.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melaleuca alternifolia",
+            "herb_mentions": 5,
+            "herb_confidence_score": 42,
+            "herb_total_score": 210,
+            "preparation_desc": "Melaleuca alternifolia tinctures, derived from the leaves of the tea tree, have been traditionally used to treat bleeding gums due to their antimicrobial and anti-inflammatory properties. The bioactive constituents, such as cymene and terpinen-4-ol, present in these tinctures, help to inhibit the growth of bacteria and reduce inflammation in the gums. This herbal preparation helps to treat bleeding gums by promoting healthy gum tissue, reducing plaque and gingivitis, and preventing further inflammation. The benefits of using Melaleuca alternifolia tinctures to treat bleeding gums include reduced bleeding, improved gum health, and a decreased risk of developing periodontal disease.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Antioxidants (Basel, Switzerland)\", tinctures for bleeding gums may be beneficial using complex extracts of <i>Ligularia stenocephala</i> Matsum. & Koidz. and <i>Secale cereale</i> L. sprout (TEES-10<sup>\u00ae</sup)) as it has shown anti-inflammatory potential in reducing gingivitis and bleeding on probing (BOP) in a clinical trial."
+}

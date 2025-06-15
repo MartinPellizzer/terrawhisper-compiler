@@ -1,0 +1,249 @@
+{
+    "url": "ailments/open-wounds/teas",
+    "ailment_slug": "open-wounds",
+    "ailment_name": "open wounds",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 11,
+    "title": "11 Best Herbal Teas For Open Wounds",
+    "intro": "Herbal teas for open wounds are a type of natural remedy used to aid in the healing process of wounds by promoting tissue repair, reducing inflammation, and preventing infection. The benefits of using herbal teas to treat open wounds include reduced risk of infection, accelerated healing time, and minimal scarring. Examples of herbal teas used to treat open wounds include peppermint tea, which helps reduce inflammation and promote tissue repair, chamomile tea, which soothes and calms the skin, and echinacea tea, which boosts the immune system to fight off infection. Other herbal teas used to treat open wounds include calendula tea, which promotes collagen production and tissue repair, aloe vera tea, which reduces inflammation and promotes healing, and lavender tea, which has antimicrobial properties to prevent infection.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Calendula officinalis",
+            "herb_mentions": 20,
+            "herb_confidence_score": 174,
+            "herb_total_score": 3480,
+            "preparation_desc": "Calendula officinalis teas have been traditionally used to treat open wounds due to their antimicrobial, anti-inflammatory, and antiseptic properties. The bioactive constituents of Calendula officinalis, including triterpenoids, flavonoids, and carotenoids, help to promote wound healing by reducing inflammation, preventing infection, and promoting tissue regeneration. The antiseptic properties of Calendula officinalis teas help to clean and protect the wound from further infection, while the anti-inflammatory properties reduce redness and swelling, promoting a faster recovery. The benefits of using Calendula officinalis teas to treat open wounds include reduced risk of infection, faster healing times, and minimal scarring, making it a popular natural remedy for wound care.",
+            "preparation_study": "According to \"Life (Basel, Switzerland)\", Calendula officinalis teas for open wounds may be beneficial due to its pharmacological properties that have been widely and effectively employed for wound treatment and infection prevention, which is consistent with the use of natural phytomedicines that have been used in phytotherapy for centuries to efficiently treat cutaneous wounds, reduce the onset of infections, and minimize the usage of antibiotics.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Twinings-Individually-Naturally-Caffeine-Free-Packaging/dp/B09RC41QGJ",
+                "affiliate_link": "https://amzn.to/42mjHYe",
+                "title": "Twinings Lemon & Ginger Herbal Tea Individually Wrapped Bags, 100 Count (Pack of 1), Tangy Lemon, Spicy Ginger, Naturally Caffeine-Free, Enjoy Hot or Iced | Packaging May Vary"
+            }
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 19,
+            "herb_confidence_score": 157,
+            "herb_total_score": 2983,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort, have been used for centuries to treat open wounds and promote healing. The antiseptic and anti-inflammatory properties of this herbal preparation help to treat this ailment by reducing the risk of infection and soothing irritated skin. The bioactive constituents of Hypericum perforatum, including flavonoids, phenolic acids, and terpenoids, contribute to its therapeutic effects by enhancing collagen synthesis, improving tissue repair, and reducing oxidative stress. The benefits of using Hypericum perforatum teas to treat open wounds include accelerated healing, reduced scarring, and improved tissue strength, making it a valuable natural remedy for wound care.",
+            "preparation_study": "According to the study, Hypericum perforatum teas for open wounds have been supported by 5 laboratory studies and 3 clinical trials, which have confirmed their beneficial effects.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 20,
+            "herb_confidence_score": 132,
+            "herb_total_score": 2640,
+            "preparation_desc": "Echinacea purpurea teas have been traditionally used to treat open wounds due to their remarkable healing properties. The anti-inflammatory and antimicrobial properties of this herbal preparation help to reduce the risk of infection and promote wound healing by stimulating collagen synthesis and tissue repair. The bioactive constituents of Echinacea purpurea, including alkylamides, caffeic acid, and chicoric acid, are responsible for its wound-healing effects by inhibiting the growth of pathogens and enhancing the production of growth factors. The benefits of using Echinacea purpurea teas to treat open wounds include reduced risk of infection, faster wound healing, and improved tissue regeneration, making it a popular herbal remedy in traditional medicine.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Echinacea-Spearmint-Promotes/dp/B01KKUGIL4",
+                "affiliate_link": "https://amzn.to/3DZlEBt",
+                "title": "Traditional Medicinals Organic Echinacea Plus with Spearmint Herbal Tea, Promotes Immune Function, (Pack of 2) - 32 Tea Bags Total"
+            }
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 18,
+            "herb_confidence_score": 132,
+            "herb_total_score": 2376,
+            "preparation_desc": "Urtica dioica teas, also known as nettle tea, have been traditionally used to treat open wounds due to their anti-inflammatory and antimicrobial properties. The bioactive constituents, such as flavonoids and phenolic acids, help to reduce inflammation and prevent infection by inhibiting the growth of bacteria and other pathogens. This herbal preparation promotes wound healing by stimulating the production of growth factors, enhancing tissue repair, and improving blood circulation, ultimately leading to faster recovery and reduced scarring. The benefits of using Urtica dioica teas to treat open wounds include reduced risk of infection, accelerated healing time, and improved tissue regeneration, making it a valuable natural remedy for wound care.",
+            "preparation_study": "According to \"Molecules (Basel, Switzerland)\", Urtica dioica teas for open wounds may promote faster healing, as the study found that an extract from Urtica dioica increased cell proliferation, migration, and reduced inflammation in wounds, leading to faster healing in treated wounds compared to untreated wounds.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Nettle-Eco-Conscious-Bulgaria-FGO/dp/B07ND3ZT9C",
+                "affiliate_link": "https://amzn.to/3QUwzPU",
+                "title": "FGO Organic Nettle Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 102,
+            "herb_total_score": 1122,
+            "preparation_desc": "Aloe barbadensis teas have been traditionally used to treat open wounds due to their anti-inflammatory, antibacterial, and antiseptic properties. The bioactive constituents present in this herbal preparation, such as aloin, aloe-emodin, and anthraquinones, help to reduce inflammation, prevent infection, and promote wound healing. Aloe barbadensis teas aid in the treatment of open wounds by stimulating tissue repair, promoting collagen synthesis, and enhancing blood flow to the affected area, ultimately leading to faster wound closure. The benefits of using Aloe barbadensis teas to treat open wounds include reduced risk of infection, accelerated healing time, and minimal scarring, making it a popular natural remedy for wound care.",
+            "preparation_study": "According to \"Brazilian journal of biology = Revista brasleira de biologia\", Aloe barbadensis teas for open wounds have been shown to accelerate healing through cell migration and proliferation of human skin fibroblasts and keratinocytes, as well as possessing antioxidant effects that protect against oxidative stress and promote faster wound healing.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Spearmint-Eco-Conscious-Lined-FGO/dp/B07ND418HR",
+                "affiliate_link": "https://amzn.to/42s2qOg",
+                "title": "FGO Organic Spearmint Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Symphytum officinale",
+            "herb_mentions": 13,
+            "herb_confidence_score": 102,
+            "herb_total_score": 1326,
+            "preparation_desc": "Symphytum officinale teas have been traditionally used to treat open wounds and promote wound healing due to their anti-inflammatory, antimicrobial, and mucilaginous properties. The mucilages present in Symphytum officinale teas help to soothe and protect the wound, while the flavonoids and phenolic acids exhibit antimicrobial activity, inhibiting the growth of bacteria and other pathogens that can impede the healing process. The bioactive constituents of Symphytum officinale teas, including allantoin, rosmarinic acid, and ursolic acid, also contribute to its wound-healing properties by promoting tissue repair and reducing inflammation. Regular consumption of Symphytum officinale teas may help to accelerate wound healing, reduce the risk of infection, and promote faster recovery from open wounds.",
+            "preparation_study": "According to \"Chemistry & biodiversity\", Symphytum officinale teas for open wounds have been documented to have wound-healing properties, making it one of the most cited plants for this purpose in southern Brazil.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Dr-Christophers-Comfrey-Ointment-Ounce/dp/B000BNVEKQ",
+                "affiliate_link": "https://amzn.to/43d1kWZ",
+                "title": "Dr. Christopher's Comfrey Ointment, 2 Ounce, contains Organic Comfrey Leaf in a base of Beeswax and Extra Virgin Olive Oil Other Ingredients: No added Fillers or Chemicals"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 18,
+            "herb_confidence_score": 100,
+            "herb_total_score": 1800,
+            "preparation_desc": "Glycyrrhiza glabra teas, also known as licorice root tea, have been used for centuries to treat open wounds due to their antimicrobial, anti-inflammatory, and antioxidant properties. The bioactive constituents of licorice root tea, including glycyrrhizin and flavonoids, help to promote wound healing by reducing inflammation, preventing infection, and enhancing tissue regeneration. The anti-inflammatory properties of licorice root tea help to reduce swelling and promote blood flow to the affected area, while its antimicrobial properties prevent the growth of bacteria and other microorganisms that can delay healing. As a result, licorice root tea has been found to be an effective natural remedy for promoting wound healing and reducing the risk of infection.",
+            "preparation_study": "According to \"Evidence-based complementary and alternative medicine : eCAM\", Glycyrrhiza glabra teas for open wounds may be beneficial as the ethanolic extracts of Glycyrrhiza glabra L. could promote cell proliferation and accelerate wound recovery, with the rate of wound closure being 2.12 \u00b1 0.03% per hour.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 12,
+            "herb_confidence_score": 91,
+            "herb_total_score": 1092,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been traditionally used to treat open wounds due to its anti-inflammatory and antimicrobial properties. The bioactive constituents, such as silymarin and flavonoids, in this herbal preparation help to promote wound healing by reducing inflammation and preventing infection. These compounds also exhibit antioxidant properties, which can help protect the wound from oxidative stress and promote tissue repair. The benefits of using Silybum marianum teas to treat open wounds include reduced risk of infection, accelerated healing time, and improved wound closure.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Plantago lanceolata",
+            "herb_mentions": 14,
+            "herb_confidence_score": 90,
+            "herb_total_score": 1260,
+            "preparation_desc": "Plantago lanceolata teas have been traditionally used to treat open wounds due to their antimicrobial and anti-inflammatory properties, which help to prevent infection and promote wound healing. The bioactive constituents present in these teas, including flavonoids, phenolic acids, and saponins, exhibit potent antioxidant and anti-inflammatory activities that aid in the treatment of open wounds. By reducing inflammation and promoting tissue repair, Plantago lanceolata teas help to accelerate the healing process and prevent complications such as infection and scarring. Regular consumption of these teas may also help to improve wound closure rates and reduce the risk of chronic wound formation, making them a valuable herbal preparation for treating open wounds.",
+            "preparation_study": "According to the study, Plantago lanceolata teas for open wounds have been proven to be beneficial, with two laboratory studies confirming its pharmacological characteristics in wound healing.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Arnica montana",
+            "herb_mentions": 11,
+            "herb_confidence_score": 84,
+            "herb_total_score": 924,
+            "preparation_desc": "Arnica montana teas have been traditionally used to treat open wounds, utilizing their anti-inflammatory, antimicrobial, and wound-healing properties to promote the recovery process. The bioactive constituents of this herbal preparation, including flavonoids, sesquiterpene lactones, and phenolic acids, help to reduce swelling, prevent infection, and stimulate tissue repair, ultimately facilitating the healing of open wounds. By accelerating the wound-healing process and minimizing the risk of complications, Arnica montana teas offer a beneficial treatment option for individuals suffering from open wounds. The benefits of using Arnica montana teas to treat open wounds include reduced pain, faster recovery time, and a lower risk of scarring, making it a valuable herbal remedy for wound care.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Boiron-Arnicare-Ounce-Topical-Relief/dp/B00HCQEYCK",
+                "affiliate_link": "https://amzn.to/43d5nme",
+                "title": "Boiron Arnicare Gel for Soothing Relief of Joint Pain, Muscle Pain, Muscle Soreness, and Swelling from Bruises or Injury - Non-greasy and Fragrance-Free - 2.6 oz"
+            }
+        },
+        {
+            "herb_name_scientific": "Taraxacum officinale",
+            "herb_mentions": 17,
+            "herb_confidence_score": 82,
+            "herb_total_score": 1394,
+            "preparation_desc": "Taraxacum officinale teas, also known as dandelion root tea, have been traditionally used to treat open wounds due to their antimicrobial, anti-inflammatory, and antioxidant properties. The bioactive constituents present in this herbal preparation, such as flavonoids and phenolic acids, help to promote wound healing by reducing bacterial growth, inflammation, and oxidative stress. The tea's anti-inflammatory properties, particularly due to the presence of sesquiterpenes and sesquiterpene lactones, aid in reducing swelling and promoting tissue repair, ultimately facilitating faster wound closure. By using Taraxacum officinale teas to treat open wounds, individuals can benefit from reduced risk of infection, faster healing times, and improved overall wound management.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Roasted-Dandelion-Eco-Conscious-FGO/dp/B07Z7FTFNX",
+                "affiliate_link": "https://amzn.to/4j70AbI",
+                "title": "FGO Organic Roasted Dandelion Root Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Aloe vera",
+            "herb_mentions": 9,
+            "herb_confidence_score": 80,
+            "herb_total_score": 720,
+            "preparation_desc": "Aloe vera teas have been traditionally used to treat open wounds by leveraging its antimicrobial, anti-inflammatory, and antiseptic properties, which help to accelerate the healing process and prevent infection. The gel extracted from the aloe vera plant contains bioactive constituents such as aloin, aloe-emodin, and vitamins A, C, and E, which work together to promote tissue repair, reduce pain and swelling, and prevent bacterial growth. By consuming aloe vera teas, individuals with open wounds can benefit from its wound-healing properties, which can help to reduce the risk of complications and promote faster recovery. The benefits of using aloe vera teas to treat open wounds include reduced scarring, improved tissue regeneration, and enhanced overall wound healing, making it a natural and effective alternative to traditional treatments.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Twinings-Individually-Naturally-Caffeine-Free-Packaging/dp/B09RC41QGJ",
+                "affiliate_link": "https://amzn.to/42UxuoV",
+                "title": "Twinings Lemon & Ginger Herbal Tea Individually Wrapped Bags, 100 Count (Pack of 1), Tangy Lemon, Spicy Ginger, Naturally Caffeine-Free, Enjoy Hot or Iced | Packaging May Vary"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 14,
+            "herb_confidence_score": 76,
+            "herb_total_score": 1064,
+            "preparation_desc": "Melissa officinalis teas, also known as lemon balm teas, have been used traditionally to treat open wounds due to their antimicrobial and anti-inflammatory properties. The bioactive constituents of Melissa officinalis, such as rosmarinic acid and linalool, help to reduce inflammation, prevent infection, and promote wound healing. By inhibiting the growth of bacteria and fungi, Melissa officinalis teas create an environment conducive to the natural healing process of wounds. The benefits of using Melissa officinalis teas to treat open wounds include reduced risk of infection, improved wound closure, and enhanced tissue repair.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 13,
+            "herb_confidence_score": 67,
+            "herb_total_score": 871,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to treat open wounds due to their antimicrobial and anti-inflammatory properties, which help to prevent infection and promote healing. The bioactive constituents of Lavandula angustifolia, including linalool and linalyl acetate, exhibit antimicrobial activity against a range of bacteria, fungi, and viruses, thereby reducing the risk of infection and promoting wound healing. The anti-inflammatory properties of Lavandula angustifolia teas also help to reduce swelling and promote the formation of granulation tissue, which is essential for wound healing. The benefits of using Lavandula angustifolia teas to treat open wounds include reduced risk of infection, accelerated wound healing, and a lower risk of scarring.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Achillea millefolium",
+            "herb_mentions": 9,
+            "herb_confidence_score": 56,
+            "herb_total_score": 504,
+            "preparation_desc": "Achillea millefolium teas, also known as yarrow tea, have been traditionally used to treat open wounds due to their anti-inflammatory, antimicrobial, and antiseptic properties. This herbal preparation helps to treat open wounds by promoting the healing process, reducing the risk of infection, and minimizing the risk of scarring. The bioactive constituents of Achillea millefolium teas, including sesquiterpenes, flavonoids, and phenolic acids, contribute to their therapeutic effects by inhibiting the growth of bacteria and other microorganisms, as well as reducing inflammation and promoting tissue repair. The benefits of using Achillea millefolium teas to treat open wounds include reduced healing time, minimized scarring, and a lower risk of infection, making it a valuable herbal remedy for wound care.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Soursop-Leaves-Bags-Teabags/dp/B0C69P5FV9",
+                "affiliate_link": "https://amzn.to/4i1QY0D",
+                "title": "FullChea- Soursop Leaves Tea Bags, 40 Teabags, 1.5g/Bag - Premium Soursop Graviola Leaves Tea - Hojas De Guanabana Tea - Non-GMO - Caffeine-Free - Improve Digestion, Support Healthy Skin & Sleep"
+            }
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 9,
+            "herb_confidence_score": 46,
+            "herb_total_score": 414,
+            "preparation_desc": "Rosmarinus officinalis teas, also known as rosemary tea, have been traditionally used to treat open wounds due to their antimicrobial, antifungal, and anti-inflammatory properties. The bioactive constituents of rosemary tea, including carnosic acid and rosmarinic acid, help to reduce inflammation, prevent bacterial growth, and promote wound healing. By applying rosemary tea to open wounds, it helps to accelerate the healing process by increasing collagen synthesis, improving tissue repair, and reducing the risk of infection. The benefits of using rosemary tea to treat open wounds include reduced healing time, improved tissue regeneration, and a lower risk of complications, making it a potential natural remedy for wound care.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Vaccinium myrtillus",
+            "herb_mentions": 9,
+            "herb_confidence_score": 46,
+            "herb_total_score": 414,
+            "preparation_desc": "Vaccinium myrtillus teas, also known as blueberry leaf tea, have been traditionally used to treat open wounds due to its antimicrobial and anti-inflammatory properties. The bioactive constituents of Vaccinium myrtillus teas, including anthocyanins, flavonoids, and phenolic acids, help to accelerate wound healing by reducing oxidative stress and promoting tissue repair. The tea's astringent and antiseptic properties also prevent infection and promote a clean environment for wound healing, thereby reducing the risk of complications and promoting faster recovery. The benefits of using Vaccinium myrtillus teas to treat open wounds include reduced risk of infection, improved wound healing, and reduced scarring, making it a valuable natural remedy for this common ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 10,
+            "herb_confidence_score": 45,
+            "herb_total_score": 450,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to treat open wounds due to their anti-inflammatory, antioxidant, and antibacterial properties. The flavonoids, terpenoids, and bilobalide present in Ginkgo biloba teas help to promote wound healing by enhancing blood flow, reducing inflammation, and preventing bacterial growth. The bioactive constituents, such as quercetin and kaempferol, also contribute to the antimicrobial properties of the tea, preventing infection and promoting a healthy wound environment. Regular consumption of Ginkgo biloba tea may lead to improved wound healing, reduced scarring, and enhanced overall tissue regeneration.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Centella asiatica",
+            "herb_mentions": 5,
+            "herb_confidence_score": 43,
+            "herb_total_score": 215,
+            "preparation_desc": "Centella asiatica teas have been traditionally used to treat open wounds, utilizing their potent anti-inflammatory and antimicrobial properties to promote healing. The bioactive constituents, including asiatic acid and madecassic acid, work together to enhance collagen synthesis, improve tissue regeneration, and reduce oxidative stress, facilitating the wound healing process. These constituents also exhibit antimicrobial activity, which helps to prevent infections and promote a clean environment for healing. The benefits of using Centella asiatica teas to treat open wounds include accelerated wound closure, reduced scarring, and improved overall tissue health, making it a valuable herbal preparation for wound management.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Plantago major",
+            "herb_mentions": 6,
+            "herb_confidence_score": 42,
+            "herb_total_score": 252,
+            "preparation_desc": "Plantago major teas have been traditionally used to treat open wounds due to their antiseptic, anti-inflammatory, and antimicrobial properties. The herbal preparation helps to treat open wounds by promoting wound healing, reducing inflammation, and preventing infection. The bioactive constituents of Plantago major teas, including flavonoids, phenolic acids, and mucilages, contribute to its wound-healing properties by stimulating collagen synthesis, enhancing tissue repair, and protecting against oxidative stress. The benefits of using Plantago major teas to treat open wounds include reduced risk of infection, accelerated wound healing, and minimized scarring, making it a valuable natural remedy for promoting overall wound care.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Wound repair and regeneration : official publication of the Wound Healing Society [and] the European Tissue Repair Society\", teas for open wounds may be beneficial as some medicinal plants used in herbal therapy have been found to promote wound healing and prevent infection without severe side effects."
+}

@@ -1,0 +1,112 @@
+{
+    "data": [
+        {
+            "method": "Using online databases and software",
+            "time": "Several hours spent searching and comparing different databases",
+            "cost": "$100-$500 per year for subscription fees",
+            "challenges": "Inaccurate or outdated information, limited search functionality, and lack of integration with other tools",
+            "emotions": "Frustration, anxiety, and feeling overwhelmed by the sheer volume of information",
+            "score": 9,
+            "why": "This method is time-consuming and expensive, and the results are often unreliable, which can lead to feelings of frustration and anxiety."
+        },
+        {
+            "method": "Seeking guidance from experienced herbalists",
+            "time": "Several hours or days spent seeking advice, with some herbalists requiring payment for consultations",
+            "cost": "Free, but some herbalists may charge for consultations or require payment for guidance",
+            "challenges": "Difficulty in finding experienced herbalists, lack of standardization in guidance, and potential biases or misinformation",
+            "emotions": "Appreciation, gratitude, and feeling supported by the guidance of experienced herbalists",
+            "score": 9,
+            "why": "Seeking guidance from experienced herbalists can be highly effective, but it may require significant time and effort to find a qualified guide, and there is a risk of biases or misinformation."
+        },
+        {
+            "method": "Conducting clinical trials and research studies",
+            "time": "Several months or years spent designing and conducting studies",
+            "cost": "$10,000-$100,000 per study, with some requiring ongoing funding",
+            "challenges": "Difficulty in designing and conducting studies, lack of standardization in methods, and potential biases or contamination",
+            "emotions": "Appreciation, gratitude, and feeling supported by the results of the studies",
+            "score": 9,
+            "why": "Conducting clinical trials and research studies can be highly effective, but it may require significant time and effort, and there is a risk of biases or contamination, leading to feelings of appreciation and gratitude."
+        },
+        {
+            "method": "Conducting manual literature reviews",
+            "time": "Several days or weeks spent reading and analyzing research papers",
+            "cost": "Free, but requires significant time and effort",
+            "challenges": "Difficulty in finding relevant studies, lack of standardization in research methods, and limited access to data",
+            "emotions": "Exhaustion, burnout, and feeling isolated due to the time-consuming nature of manual literature reviews",
+            "score": 8,
+            "why": "While manual literature reviews can be thorough, they require a significant investment of time and effort, which can lead to feelings of exhaustion and burnout."
+        },
+        {
+            "method": "Attending conferences and workshops",
+            "time": "Several days or weeks spent attending events",
+            "cost": "$100-$1,000 per event, with some requiring ongoing registration fees",
+            "challenges": "Difficulty in finding relevant events, lack of standardization in content, and potential biases or misinformation",
+            "emotions": "Appreciation, gratitude, and feeling supported by the guidance of experienced herbalists",
+            "score": 8,
+            "why": "Attending conferences and workshops can be highly effective, but it may require significant time and effort to find relevant events, and there is a risk of biases or misinformation."
+        },
+        {
+            "method": "Joining online forums and discussion groups",
+            "time": "Several hours spent reading and contributing to online discussions",
+            "cost": "Free, but may require ongoing registration fees or subscriptions",
+            "challenges": "Difficulty in finding relevant discussions, lack of standardization in content, and potential biases or misinformation",
+            "emotions": "Appreciation, gratitude, and feeling supported by the community",
+            "score": 7,
+            "why": "Joining online forums and discussion groups can be highly effective, but it may require significant time and effort to find relevant discussions, and there is a risk of biases or misinformation."
+        },
+        {
+            "method": "Using herbal medicine textbooks and reference books",
+            "time": "Several hours spent reading and comparing different texts",
+            "cost": "$50-$100 per book, with some texts being outdated or incomplete",
+            "challenges": "Limited information on specific herbs or topics, lack of updates on new research, and difficulty in applying theoretical knowledge to practical situations",
+            "emotions": "Confusion, doubt, and feeling uncertain about the accuracy of the information",
+            "score": 6,
+            "why": "While textbooks and reference books can provide a good starting point, they often lack specific information on herbs or topics, leading to feelings of confusion and doubt."
+        },
+        {
+            "method": "Using herbal medicine business templates and courses",
+            "time": "Several hours or days spent completing courses or using templates",
+            "cost": "$100-$1,000 per course or template, with some requiring ongoing subscription fees",
+            "challenges": "Limited information on specific herbs or topics, lack of updates on new research, and difficulty in applying theoretical knowledge to practical situations",
+            "emotions": "Frustration, anxiety, and feeling uncertain about the accuracy of the information",
+            "score": 5,
+            "why": "While business templates and courses can provide a good starting point, they often lack specific information on herbs or topics, leading to feelings of frustration and anxiety."
+        },
+        {
+            "method": "Creating content using social media and blogs",
+            "time": "Several hours spent creating and publishing content",
+            "cost": "Free, but may require ongoing registration fees or subscriptions",
+            "challenges": "Difficulty in creating engaging and informative content, lack of standardization in style, and potential biases or misinformation",
+            "emotions": "Frustration, anxiety, and feeling uncertain about the quality of the content",
+            "score": 5,
+            "why": "Creating content using social media and blogs can be challenging, and there is a risk of biases or misinformation, leading to feelings of frustration and anxiety."
+        },
+        {
+            "method": "Using herbal medicine business templates and courses",
+            "time": "Several hours or days spent completing courses or using templates",
+            "cost": "$100-$1,000 per course or template, with some requiring ongoing subscription fees",
+            "challenges": "Limited information on specific herbs or topics, lack of updates on new research, and difficulty in applying theoretical knowledge to practical situations",
+            "emotions": "Frustration, anxiety, and feeling uncertain about the accuracy of the information",
+            "score": 5,
+            "why": "While business templates and courses can provide a good starting point, they often lack specific information on herbs or topics, leading to feelings of frustration and anxiety."
+        },
+        {
+            "method": "Sourcing herbs from local farmers and markets",
+            "time": "Several hours spent sourcing and purchasing herbs",
+            "cost": "$50-$100 per batch of herbs, with some requiring ongoing subscription fees",
+            "challenges": "Difficulty in finding high-quality herbs, lack of standardization in sourcing, and potential contamination or adulteration",
+            "emotions": "Frustration, anxiety, and feeling uncertain about the quality of the herbs",
+            "score": 4,
+            "why": "Sourcing herbs from local farmers and markets can be challenging, and there is a risk of contamination or adulteration, leading to feelings of frustration and anxiety."
+        },
+        {
+            "method": "Sourcing herbs from online retailers",
+            "time": "Several hours spent searching and comparing different retailers",
+            "cost": "$50-$100 per batch of herbs, with some requiring ongoing subscription fees",
+            "challenges": "Difficulty in finding high-quality herbs, lack of standardization in sourcing, and potential contamination or adulteration",
+            "emotions": "Frustration, anxiety, and feeling uncertain about the quality of the herbs",
+            "score": 3,
+            "why": "Sourcing herbs from online retailers can be challenging, and there is a risk of contamination or adulteration, leading to feelings of frustration and anxiety."
+        }
+    ]
+}

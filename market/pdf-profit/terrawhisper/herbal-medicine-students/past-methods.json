@@ -1,0 +1,84 @@
+{
+    "data": [
+        {
+            "method": "Conducting clinical trials and research studies",
+            "time": "40-60 hours per month",
+            "cost": "$10,000-$50,000 per study",
+            "outcome": "Improved understanding of herbal medicine safety protocols, and increased confidence in creating effective formulations and dosages",
+            "score": 10,
+            "why": "This method provides comprehensive and accurate information, but may not be feasible for all students."
+        },
+        {
+            "method": "Seeking guidance from experienced herbalists",
+            "time": "10-30 minutes per week",
+            "cost": "$50-$100 per hour",
+            "outcome": "Improved understanding of herbal medicine safety protocols, and increased confidence in creating effective formulations and dosages",
+            "score": 9,
+            "why": "This method provides personalized guidance and support, but may not be feasible for all students."
+        },
+        {
+            "method": "Using herbal medicine textbooks and reference books",
+            "time": "10-30 hours per month",
+            "cost": "$20-$100 per book",
+            "outcome": "Limited understanding of herbal medicine safety protocols, and difficulty in creating effective formulations and dosages",
+            "score": 8,
+            "why": "This method provides comprehensive information, but may not be up-to-date or easily accessible."
+        },
+        {
+            "method": "Using herbal medicine business templates and courses",
+            "time": "10-30 hours per month",
+            "cost": "$20-$100 per month",
+            "outcome": "Improved understanding of herbal medicine business practices, and increased confidence in creating effective formulations and dosages",
+            "score": 8,
+            "why": "This method provides comprehensive information, but may not be up-to-date or easily accessible."
+        },
+        {
+            "method": "Using online databases and software",
+            "time": "10-30 minutes per day",
+            "cost": "$10-$50 per month",
+            "outcome": "Improved understanding of herb-drug interactions, and increased efficiency in creating herbal formulations",
+            "score": 7,
+            "why": "This method can be time-consuming, and the information may not be comprehensive or accurate."
+        },
+        {
+            "method": "Attending conferences and workshops",
+            "time": "2-4 days per year",
+            "cost": "$500-$2,000 per event",
+            "outcome": "Limited understanding of herbal medicine safety protocols, and difficulty in accessing experienced mentors and instructors",
+            "score": 6,
+            "why": "This method provides opportunities for networking and learning, but may not be feasible for all students."
+        },
+        {
+            "method": "Sourcing herbs from local farmers and markets",
+            "time": "10-30 hours per month",
+            "cost": "$20-$100 per month",
+            "outcome": "Difficulty in sourcing high-quality herbs, and limited understanding of herbal medicine business practices",
+            "score": 6,
+            "why": "This method can be time-consuming, and the quality of the herbs may not be consistent."
+        },
+        {
+            "method": "Joining online forums and discussion groups",
+            "time": "10-30 minutes per day",
+            "cost": "$0",
+            "outcome": "Limited understanding of herbal medicine business practices, and difficulty in finding reliable and trustworthy resources",
+            "score": 5,
+            "why": "This method can be time-consuming, and the information may not be accurate or relevant."
+        },
+        {
+            "method": "Conducting manual literature reviews",
+            "time": "40-60 hours per month",
+            "cost": "$0",
+            "outcome": "Limited understanding of herb-drug interactions, and difficulty in staying up-to-date with changing regulations",
+            "score": 4,
+            "why": "This method is time-consuming, and the information may not be comprehensive or up-to-date."
+        },
+        {
+            "method": "Creating content using social media and blogs",
+            "time": "10-30 hours per week",
+            "cost": "$0",
+            "outcome": "Difficulty in creating engaging and informative content, and limited understanding of herbal medicine business practices",
+            "score": 4,
+            "why": "This method can be time-consuming, and the information may not be accurate or relevant."
+        }
+    ]
+}

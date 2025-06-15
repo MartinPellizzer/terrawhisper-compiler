@@ -1,0 +1,18 @@
+{
+    "url": "herbs/dictamnus-albus",
+    "herb_slug": "dictamnus-albus",
+    "herb_name_scientific": "dictamnus albus",
+    "lastmod": "2025-5-31",
+    "benefits_num": 7,
+    "benefits_title": "7 Best Health Benefits Of Dictamnus Albus",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 10,
+            "confidence_score": 87,
+            "total_score": 870
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 13
+}

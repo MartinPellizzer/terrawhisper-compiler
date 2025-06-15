@@ -1,0 +1,183 @@
+{
+    "url": "ailments/fatigue/essential-oils",
+    "ailment_slug": "fatigue",
+    "ailment_name": "fatigue",
+    "preparation_slug": "essential-oils",
+    "preparation_name": "essential oils",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 9,
+    "title": "9 Best Herbal Essential Oils For Fatigue",
+    "intro": "Herbal essential oils for fatigue are plant-based extracts that have been traditionally used to alleviate and manage the symptoms of chronic fatigue syndrome, a condition characterized by persistent and profound tiredness. These oils are highly beneficial in treating fatigue due to their ability to promote relaxation, reduce stress and anxiety, and improve sleep quality. Some of the most effective herbal essential oils for fatigue include lavender oil, which helps regulate sleep patterns, frankincense oil, which reduces inflammation and promotes relaxation, and peppermint oil, which boosts energy and mental clarity. Additionally, other beneficial oils for fatigue include bergamot oil, which reduces stress and anxiety, chamomile oil, which promotes relaxation and calms the mind, and rosemary oil, which improves mental focus and memory.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 19,
+            "herb_confidence_score": 165,
+            "herb_total_score": 3135,
+            "preparation_desc": "Valeriana officinalis essential oils, derived from the roots of the valerian plant, have been traditionally used to treat fatigue due to their sedative, antidepressant, and anxiolytic properties. The herbal preparation helps to treat fatigue by promoting relaxation, reducing stress and anxiety, and improving sleep quality, which are essential for physical and mental rejuvenation. The bioactive constituents of Valeriana officinalis essential oils, including valerenic acid, isovalerenic acid, and valepotriates, work synergistically to enhance the body's natural sleep-wake cycle and reduce fatigue. The benefits of using Valeriana officinalis essential oils to treat fatigue include improved sleep quality, enhanced mood, and increased energy levels, making it a popular natural remedy for individuals suffering from fatigue.",
+            "preparation_study": "According to \"Pharmacopsychiatry\", Valeriana officinalis essential oils for fatigue, specifically after multiple-dose treatment, showed an increase in sleep efficiency, a reduction in slow-wave sleep latency, and an increase in slow-wave sleep percentage of time in bed, indicating potential benefits in improving sleep quality.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 20,
+            "herb_confidence_score": 163,
+            "herb_total_score": 3260,
+            "preparation_desc": "Ginkgo biloba essential oils have been traditionally used to treat fatigue, a common ailment characterized by physical, mental, and emotional exhaustion. The properties of this herbal preparation, including its antioxidant and anti-inflammatory properties, help to treat fatigue by improving blood circulation and oxygenation to the brain, thus enhancing cognitive function and reducing mental fatigue. The bioactive constituents of Ginkgo biloba essential oils, such as flavonoids, terpenoids, and bilobalide, work together to improve the body's energy levels, reduce oxidative stress, and enhance the overall quality of life. Regular use of Ginkgo biloba essential oils has been shown to provide benefits in treating fatigue, including improved mental clarity, increased energy levels, and enhanced overall well-being.",
+            "preparation_study": "According to \"Pharmacopsychiatry\", Ginkgo biloba essential oils for fatigue may help improve sleep continuity and reduce awakenings, potentially leading to better overall sleep quality.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 20,
+            "herb_confidence_score": 160,
+            "herb_total_score": 3200,
+            "preparation_desc": "Lavandula angustifolia essential oils, derived from the flowers of the lavender plant, possess properties that make them an effective treatment for fatigue. The calming and sedative effects of this herbal preparation help to treat fatigue by reducing stress and anxiety, promoting relaxation, and improving sleep quality. The bioactive constituents of lavender essential oils, including linalool and linalyl acetate, work synergistically to regulate the body's physiological response to stress, thereby alleviating fatigue. Regular use of lavender essential oils has been shown to provide numerous benefits, including reduced fatigue, improved mood, and enhanced overall well-being.",
+            "preparation_study": "According to \"Complementary therapies in clinical practice\", Lavandula angustifolia essential oils for fatigue may be effective in decreasing the level of fatigue in patients undergoing hemodialysis when used as an aromatherapy treatment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 19,
+            "herb_confidence_score": 152,
+            "herb_total_score": 2888,
+            "preparation_desc": "Rosmarinus officinalis essential oils have been traditionally used to alleviate fatigue due to their stimulating and invigorating properties, which help to boost mental clarity and physical energy. The herb's bioactive constituents, including carnosic acid, rosmarinic acid, and borneol, contribute to its fatigue-reducing effects by promoting antioxidant activity, improving circulation, and enhancing cognitive function. By using Rosmarinus officinalis essential oils, individuals can experience a range of benefits, including reduced mental fogginess, improved mood, and increased motivation, ultimately helping to overcome the debilitating effects of fatigue. Regular use of this herbal preparation can also lead to improved sleep quality, reduced stress levels, and enhanced overall well-being.",
+            "preparation_study": "According to \"Journal of evidence-based complementary & alternative medicine\", Rosmarinus officinalis essential oils for fatigue may have an anxiolytic effect, as the study found that the hydroalcoholic extract of Rosmarinus officinalis L. dose-dependently reduced anxiety in mice by increasing their time and entries in the plus maze open arms.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 19,
+            "herb_confidence_score": 133,
+            "herb_total_score": 2527,
+            "preparation_desc": "Zingiber officinale essential oils, derived from the rhizomes of the ginger plant, have been traditionally used to treat fatigue due to their adaptogenic and anti-inflammatory properties. The bioactive constituents of ginger essential oil, including gingerol and shogaol, have been found to help alleviate fatigue by reducing oxidative stress and inflammation in the body. By promoting relaxation and reducing muscle tension, ginger essential oil can help to improve energy levels and reduce fatigue. The benefits of using ginger essential oil to treat fatigue include improved physical and mental performance, reduced muscle soreness, and enhanced overall well-being.",
+            "preparation_study": "According to the \"Pakistan journal of pharmaceutical sciences\", Zingiber officinale essential oils have the highest antioxidant activity among the Zingiberaceae species, which may help alleviate fatigue due to its potent antioxidant properties.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 18,
+            "herb_confidence_score": 132,
+            "herb_total_score": 2376,
+            "preparation_desc": "Melissa officinalis essential oils have been traditionally used to treat fatigue due to their adaptogenic and antioxidant properties, which help to reduce stress and promote overall well-being. This herbal preparation works by stimulating the body's natural response to fatigue, improving mental clarity and focus, and enhancing the body's energy levels. The bioactive constituents of Melissa officinalis, including linalool and citral, have been shown to have a positive impact on fatigue by reducing inflammation and promoting relaxation. The benefits of using Melissa officinalis essential oils to treat fatigue include improved mood, enhanced physical energy, and a reduced risk of burnout.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 16,
+            "herb_confidence_score": 132,
+            "herb_total_score": 2112,
+            "preparation_desc": "Panax ginseng essential oils have been traditionally used to treat fatigue, a common ailment characterized by physical, mental, and emotional exhaustion. The adaptogenic properties of Panax ginseng essential oils help to reduce stress and anxiety, promoting a sense of well-being and vitality. The bioactive constituents, including ginsenosides, panaxans, and polyacetylenes, play a crucial role in stimulating the body's natural energy production and improving cognitive function, thereby alleviating fatigue. By using Panax ginseng essential oils, individuals can experience improved physical and mental performance, enhanced mood, and increased overall well-being, making it a valuable natural remedy for managing fatigue.",
+            "preparation_study": "According to \"Nihon yakurigaku zasshi. Folia pharmacologica Japonica\", Panax ginseng essential oils for fatigue were found to facilitate recovery from muscular fatigue after administration.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_mentions": 15,
+            "herb_confidence_score": 102,
+            "herb_total_score": 1530,
+            "preparation_desc": "Schisandra chinensis essential oils, derived from the Schisandra chinensis plant, have been used in traditional medicine to alleviate fatigue and promote overall well-being. This herbal preparation contains properties such as antioxidant, anti-inflammatory, and adaptogenic properties that help to reduce fatigue and improve energy levels. The bioactive constituents of Schisandra chinensis, including schisandrins, schisantherin A, and schisanhenol, contribute to its therapeutic effects by modulating the body's response to stress and improving mental clarity. The benefits of Schisandra chinensis essential oils include enhanced physical and mental performance, improved mood, and reduced fatigue, making it a valuable natural remedy for individuals seeking to alleviate fatigue and promote overall health and vitality.",
+            "preparation_study": "According to \"Phytomedicine : international journal of phytotherapy and phytopharmacology\", Schisandra chinensis essential oils for fatigue may play a role in increasing endurance and tolerance to stress by stimulating the production and release of Hsp72, a mediator of stress response involved in reparation of proteins during physical load.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 12,
+            "herb_confidence_score": 93,
+            "herb_total_score": 1116,
+            "preparation_desc": "Curcuma longa essential oils have been traditionally used to treat fatigue due to its adaptogenic properties, which help the body to adapt to stress and promote balance. The bioactive constituents of Curcuma longa essential oils, including curcumin, turmerone, and atlantone, have potent antioxidant and anti-inflammatory effects that help to reduce oxidative stress and inflammation associated with fatigue. By reducing inflammation and promoting antioxidant activity, Curcuma longa essential oils help to improve energy levels and reduce fatigue, leading to improved overall well-being. The benefits of using Curcuma longa essential oils to treat fatigue include improved physical and mental performance, enhanced mood, and increased energy levels, making it a natural and holistic approach to managing fatigue.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 10,
+            "herb_confidence_score": 76,
+            "herb_total_score": 760,
+            "preparation_desc": "Avena sativa essential oils, extracted from the oat plant, have been traditionally used to treat fatigue and promote relaxation. The properties of Avena sativa essential oils, such as its soothing and calming effects, help to alleviate stress and anxiety that often contribute to fatigue. The bioactive constituents, including avenacosides, flavonoids, and phenolic acids, in Avena sativa essential oils have been found to have a sedative effect, promoting a restful night's sleep and reducing fatigue. By reducing stress and promoting relaxation, Avena sativa essential oils can help to alleviate fatigue and improve overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Withania somnifera",
+            "herb_mentions": 8,
+            "herb_confidence_score": 60,
+            "herb_total_score": 480,
+            "preparation_desc": "Withania somnifera essential oils have been traditionally used to treat fatigue by leveraging its adaptogenic properties, which help to balance the body's response to stress and promote overall well-being. The bioactive constituents, including withanolides and withaferin A, in Withania somnifera essential oils help to reduce fatigue by enhancing the body's energy production and improving sleep quality. This herbal preparation has been shown to increase the levels of ATP (adenosine triphosphate), the primary energy currency of the body, thereby reducing fatigue and improving physical performance. The benefits of using Withania somnifera essential oils to treat fatigue include enhanced energy levels, improved sleep quality, and increased mental clarity, making it a popular natural remedy for this common ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Echinacea purpurea",
+            "herb_mentions": 10,
+            "herb_confidence_score": 58,
+            "herb_total_score": 580,
+            "preparation_desc": "Echinacea purpurea essential oils have been traditionally used to treat fatigue, a common ailment affecting millions worldwide. The antiviral, anti-inflammatory, and antioxidant properties of Echinacea purpurea essential oils help to combat fatigue by boosting the immune system and reducing oxidative stress. The bioactive constituents of this herbal preparation, including alkylamides, caffeic acid, and rosmarinic acid, have been shown to have immunomodulatory effects, which aid in fighting off infections and promoting overall well-being. By using Echinacea purpurea essential oils, individuals can benefit from improved energy levels, enhanced mental clarity, and a reduced risk of fatigue-related illnesses.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 11,
+            "herb_confidence_score": 58,
+            "herb_total_score": 638,
+            "preparation_desc": "Silybum marianum essential oils, also known as Milk Thistle essential oils, have been traditionally used to treat fatigue, a common condition characterized by persistent tiredness and lack of energy. The anti-inflammatory, antioxidant, and adaptogenic properties of Silybum marianum essential oils help to alleviate fatigue by reducing oxidative stress, improving energy production, and enhancing the body's ability to adapt to stress. The bioactive constituents of Silybum marianum essential oils, including silymarin, flavonoids, and terpenoids, work together to protect liver cells, improve mitochondrial function, and increase the production of ATP, thereby helping to treat fatigue. The benefits of using Silybum marianum essential oils to treat fatigue include improved energy levels, reduced oxidative stress, and enhanced overall well-being, making it a popular natural remedy for this common ailment.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 11,
+            "herb_confidence_score": 57,
+            "herb_total_score": 627,
+            "preparation_desc": "Glycyrrhiza glabra essential oils have been traditionally used to treat fatigue, leveraging its adaptogenic and anti-inflammatory properties to provide relief from physical and mental exhaustion. The herbal preparation helps to treat fatigue by balancing the body's cortisol levels, reducing oxidative stress, and enhancing energy production. The bioactive constituents of Glycyrrhiza glabra, including glycyrrhizin and flavonoids, contribute to its therapeutic effects by modulating the body's response to stress and promoting relaxation. The benefits of using Glycyrrhiza glabra essential oils for fatigue treatment include improved mood, reduced fatigue, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 8,
+            "herb_confidence_score": 55,
+            "herb_total_score": 440,
+            "preparation_desc": "Passiflora incarnata essential oils have been traditionally used to treat fatigue, a common ailment characterized by physical and mental exhaustion. The herbal preparation's sedative and anxiolytic properties help to reduce stress and anxiety, leading to improved sleep quality and overall well-being. The bioactive constituents of Passiflora incarnata essential oils, including flavonoids, alkaloids, and glycosides, contribute to its therapeutic effects, promoting relaxation and reducing fatigue. Regular use of Passiflora incarnata essential oils can provide benefits such as improved mood, enhanced sleep quality, and increased energy levels, making it a natural remedy for managing fatigue.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Bacopa monnieri",
+            "herb_mentions": 6,
+            "herb_confidence_score": 42,
+            "herb_total_score": 252,
+            "preparation_desc": "Bacopa monnieri essential oils have been traditionally used to treat fatigue, a common ailment characterized by physical and mental exhaustion. The herbal preparation's properties, such as its adaptogenic and antioxidant effects, help to enhance mental clarity, improve memory, and boost energy levels. The bioactive constituents of Bacopa monnieri, including bacosides, saponins, and alkaloids, are responsible for its therapeutic benefits, which include increasing the production of neurotransmitters and reducing oxidative stress. By using Bacopa monnieri essential oils, individuals can experience improved cognitive function, enhanced mood, and reduced fatigue, making it a potential natural remedy for this common health issue.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Centella asiatica",
+            "herb_mentions": 6,
+            "herb_confidence_score": 42,
+            "herb_total_score": 252,
+            "preparation_desc": "Centella asiatica essential oils, also known as gotu kola, have been traditionally used to treat fatigue and its associated symptoms. The properties of this herbal preparation, including anti-inflammatory and antioxidant properties, help to reduce fatigue and improve overall well-being by promoting relaxation and reducing stress levels. The bioactive constituents of Centella asiatica essential oils, such as asiatic acid and madecassic acid, have been shown to have a positive effect on the body's energy production and to improve mental clarity and focus. By using Centella asiatica essential oils, individuals can experience the benefits of reduced fatigue, improved mood, and enhanced overall physical and mental well-being.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Cinchona officinalis",
+            "herb_mentions": 6,
+            "herb_confidence_score": 40,
+            "herb_total_score": 240,
+            "preparation_desc": "Cinchona officinalis essential oils are known for their properties in treating fatigue ailments due to their ability to increase oxygen delivery to the body's cells, improve circulation, and reduce inflammation. This herbal preparation helps to treat fatigue by stimulating the mind and body, reducing the feeling of tiredness and exhaustion, and enhancing overall physical and mental well-being. The bioactive constituents of Cinchona officinalis, including quinine and alkaloids, play a crucial role in treating fatigue by acting as a natural stimulant and increasing energy levels. The benefits of using Cinchona officinalis essential oils to treat fatigue include improved mood, increased energy, and enhanced mental clarity, making it a popular natural remedy for individuals suffering from fatigue and exhaustion.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Coffea arabica",
+            "herb_mentions": 5,
+            "herb_confidence_score": 38,
+            "herb_total_score": 190,
+            "preparation_desc": "Coffea arabica essential oils have been traditionally used to treat fatigue, a common ailment characterized by physical and mental exhaustion. The herbal preparation exhibits adaptogenic, antioxidant, and anti-inflammatory properties that help to alleviate fatigue by promoting relaxation, reducing oxidative stress, and modulating the body's stress response. The bioactive constituents of Coffea arabica essential oils, including caffeine, chlorogenic acid, and other polyphenols, contribute to its therapeutic effects by increasing alertness, improving mood, and enhancing cognitive function. Regular use of Coffea arabica essential oils can provide benefits such as improved sleep quality, increased energy levels, and enhanced mental clarity, making it a popular natural remedy for managing fatigue.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 5,
+            "herb_confidence_score": 37,
+            "herb_total_score": 185,
+            "preparation_desc": "Eucalyptus globulus essential oils have been traditionally used to treat fatigue, thanks to its decongestant and anti-inflammatory properties that help to reduce fatigue and promote relaxation. The herbal preparation helps to treat fatigue by improving blood circulation, reducing oxidative stress, and promoting a sense of calmness. The bioactive constituents, including eucalyptol and \u03b1-pinene, play a crucial role in reducing fatigue by acting as a natural stimulant and anti-depressant. The benefits of Eucalyptus globulus essential oils in treating fatigue include improved mood, increased energy levels, and enhanced overall well-being.",
+            "preparation_amazon": ""
+        }
+    ],
+    "intro_study": "According to \"Complementary therapies in clinical practice\", essential oils for fatigue can be effective, as aromatherapy with lavender essential oil was found to decrease the level of fatigue in patients undergoing hemodialysis compared to Benson relaxation techniques."
+}

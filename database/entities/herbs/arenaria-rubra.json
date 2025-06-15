@@ -1,0 +1,30 @@
+{
+    "url": "herbs/arenaria-rubra",
+    "herb_slug": "arenaria-rubra",
+    "herb_name_scientific": "arenaria rubra",
+    "lastmod": "2025-5-31",
+    "benefits_num": 7,
+    "benefits_title": "7 Best Health Benefits Of Arenaria Rubra",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 6,
+            "confidence_score": 45,
+            "total_score": 270
+        },
+        {
+            "answer": "medicine",
+            "mentions": 3,
+            "confidence_score": 17,
+            "total_score": 51
+        },
+        {
+            "answer": "inert",
+            "mentions": 1,
+            "confidence_score": 10,
+            "total_score": 10
+        }
+    ],
+    "constituents_num": 7,
+    "side_effects_num": 11
+}

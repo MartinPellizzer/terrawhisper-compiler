@@ -1,0 +1,259 @@
+{
+    "url": "ailments/menopause/teas",
+    "ailment_slug": "menopause",
+    "ailment_name": "menopause",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 13,
+    "title": "13 Best Herbal Teas For Menopause",
+    "intro": "Herbal teas for Menopause are a natural remedy that involves the consumption of tea made from various herbs, flowers, and roots to alleviate the symptoms associated with menopause. These herbal teas offer numerous benefits, including reducing hot flashes, improving sleep quality, and alleviating mood swings. Examples of herbal teas used to treat menopause symptoms include Black Cohosh, which helps to balance hormonal levels; Red Clover, which may help to alleviate hot flashes and night sweats; Ginger, which has anti-inflammatory properties and can help to reduce nausea; Peppermint, which can help to calm the digestive system and reduce anxiety; and Maca root, which can help to balance hormonal levels and improve mood. By incorporating these herbal teas into one's daily routine, individuals can find natural relief from the symptoms of menopause.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Cimicifuga racemosa",
+            "herb_mentions": 20,
+            "herb_confidence_score": 170,
+            "herb_total_score": 3400,
+            "preparation_desc": "Cimicifuga racemosa teas, also known as black cohosh, have been traditionally used to alleviate menopausal symptoms due to their properties of acting as a phytoestrogen and having anti-inflammatory and antioxidant effects. This herbal preparation helps to treat menopausal symptoms by reducing hot flashes, night sweats, and mood swings, providing relief to women during this transitional phase. The bioactive constituents of Cimicifuga racemosa, including triterpene glycosides, flavonoids, and phenolic acids, are responsible for its therapeutic effects, which help to balance hormone levels and reduce inflammation. The benefits of using Cimicifuga racemosa teas to treat menopausal symptoms include reduced incidence of hot flashes, improved sleep quality, and enhanced overall well-being.",
+            "preparation_study": "According to \"Advances in therapy\", Cimicifuga racemosa teas for menopause have been shown to have good therapeutic efficacy and tolerability profiles in treating climacteric symptoms such as hot flashes and sleep disturbances.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Valeriana officinalis",
+            "herb_mentions": 19,
+            "herb_confidence_score": 168,
+            "herb_total_score": 3192,
+            "preparation_desc": "Valeriana officinalis teas have been traditionally used to treat menopause-related symptoms due to their sedative, anxiolytic, and spasmolytic properties. The bioactive constituents, including valerenic acid, valeranone, and isovaleric acid, help to reduce hot flashes, night sweats, and anxiety associated with menopause. By acting on the GABA receptor and modulating the hypothalamic-pituitary-adrenal axis, Valeriana officinalis teas help to alleviate insomnia, restlessness, and mood swings commonly experienced during menopause. Regular consumption of this herbal preparation has been shown to provide relief from menopause symptoms, improve sleep quality, and reduce the risk of associated anxiety disorders.",
+            "preparation_study": "According to \"Electronic physician\", Valeriana officinalis teas for menopause have been found to be effective in the treatment of acute menopausal syndrome, specifically in reducing hot flashes and other symptoms associated with menopause.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Nighty-Night-Valerian/dp/B07D7HSZ2W",
+                "affiliate_link": "https://amzn.to/4jd4Zt1",
+                "title": "Traditional Medicinals Organic Nighty Night Valerian Relaxation Tea, 16 Tea Bags (Pack of 3)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 19,
+            "herb_confidence_score": 146,
+            "herb_total_score": 2774,
+            "preparation_desc": "Ginkgo biloba teas have been traditionally used to alleviate menopause symptoms such as hot flashes, mood swings, and sleep disturbances. The bioactive constituents, including flavonoids, bilobalide, and ginkgolides, exhibit antioxidant, anti-inflammatory, and neuroprotective properties that help to balance hormonal changes and reduce menopause-related discomfort. By modulating the body's response to hormonal fluctuations and promoting relaxation, Ginkgo biloba teas can help to alleviate symptoms associated with menopause. The benefits of using Ginkgo biloba teas to treat menopause symptoms include reduced frequency and severity of hot flashes, improved mood, and enhanced overall quality of life.",
+            "preparation_study": "According to \"International journal of clinical pharmacology research\", Ginkgo biloba teas for menopause showed a tendency for slightly better overall symptomatic relief, especially in subsets such as depression, well-being, and health subscales, but had no significant effects on vasomotor symptoms like hot flushes.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 20,
+            "herb_confidence_score": 143,
+            "herb_total_score": 2860,
+            "preparation_desc": "Avena sativa teas, also known as oat seed tea, have been traditionally used to help alleviate symptoms associated with menopause. The soothing and calming properties of this herbal preparation help to reduce hot flashes, night sweats, and anxiety, providing relief from these distressing symptoms. The bioactive constituents, including avenacoside and avenanthramides, in Avena sativa teas have been found to have anti-inflammatory and antioxidant properties, which contribute to its therapeutic effects. Drinking Avena sativa teas is beneficial for women experiencing menopause as it helps to regulate hormonal imbalances, promote relaxation, and improve overall well-being.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Chamomile-Eco-Conscious-Lined-FGO/dp/B07N2F8718",
+                "affiliate_link": "https://amzn.to/3EaZYm9",
+                "title": "FGO Organic Chamomile Tea, 100 Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 18,
+            "herb_confidence_score": 141,
+            "herb_total_score": 2538,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to treat menopause symptoms, particularly hot flashes and night sweats, due to their calming and soothing properties. The bioactive constituents of Lavandula angustifolia, such as linalool and linalyl acetate, have been found to have estrogenic and anti-inflammatory effects, which help to alleviate menopause symptoms. These constituents work by modulating the body's hormonal balance and reducing inflammation, thereby providing relief from hot flashes and other menopause-related issues. The benefits of using Lavandula angustifolia teas to treat menopause symptoms include improved sleep quality, reduced anxiety and stress levels, and a decrease in the frequency and severity of hot flashes.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Vitex agnus-castus",
+            "herb_mentions": 15,
+            "herb_confidence_score": 132,
+            "herb_total_score": 1980,
+            "preparation_desc": "Vitex agnus-castus teas have been traditionally used to treat menopause-related symptoms, particularly hot flashes and mood swings, due to their ability to regulate hormonal imbalances. The bioactive constituents of Vitex agnus-castus, including iridoid glycosides and flavonoids, help to stimulate the pituitary gland, leading to an increase in progesterone production and a subsequent reduction in hot flashes and other symptoms associated with menopause. By regulating hormonal imbalances and promoting a healthier balance between estrogen and progesterone, Vitex agnus-castus teas can help alleviate symptoms of menopause, such as night sweats and anxiety, and improve overall quality of life. The benefits of using Vitex agnus-castus teas to treat menopause symptoms include reduced frequency and severity of hot flashes, improved mood and sleep, and a decrease in the risk of osteoporosis and other menopause-related health issues.",
+            "preparation_study": "According to \"Molecules (Basel, Switzerland)\", Vitex agnus-castus teas for menopause have shown effectiveness in alleviating premenstrual syndrome and premenstrual dysphoric disorder.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Moringa-Eco-Conscious-Kraft-FGO/dp/B07XYJBXLJ",
+                "affiliate_link": "https://amzn.to/3YtNNYu",
+                "title": "FGO Organic Moringa Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 16,
+            "herb_confidence_score": 120,
+            "herb_total_score": 1920,
+            "preparation_desc": "Zingiber officinale teas, derived from the rhizome of the ginger plant, have been used to alleviate menopause symptoms due to their anti-inflammatory, antioxidant, and anti-stress properties. The bioactive constituents of Zingiber officinale, such as gingerol and shogaol, help to regulate hormones, reduce hot flashes and night sweats, and alleviate mood swings. These constituents also possess analgesic and anti-inflammatory properties, which help to soothe menstrual cramps and other symptoms associated with menopause. The benefits of Zingiber officinale teas in treating menopause symptoms include improved sleep quality, reduced stress and anxiety, and enhanced overall well-being, making it a popular herbal remedy among menopausal women.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 16,
+            "herb_confidence_score": 110,
+            "herb_total_score": 1760,
+            "preparation_desc": "Glycyrrhiza glabra teas have been traditionally used to treat menopause-related symptoms, particularly hot flashes and night sweats, due to their ability to regulate hormonal balance and reduce oxidative stress. The bioactive constituents present in these teas, including glycyrrhetic acid and flavonoids, help to modulate the hypothalamic-pituitary-adrenal axis, leading to a decrease in cortisol levels and alleviation of menopausal symptoms. By regulating cortisol levels and reducing inflammation, Glycyrrhiza glabra teas provide relief from hot flashes, night sweats, and other menopause-related discomforts. The benefits of using Glycyrrhiza glabra teas to treat menopause symptoms include reduced symptoms severity, improved sleep quality, and enhanced overall well-being.",
+            "preparation_study": "According to \"Electronic physician\", Glycyrrhiza glabra teas for menopause have been found to be effective in the treatment of acute menopausal syndrome, particularly in alleviating hot flashes.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Passiflora incarnata",
+            "herb_mentions": 14,
+            "herb_confidence_score": 106,
+            "herb_total_score": 1484,
+            "preparation_desc": "Passiflora incarnata teas have been traditionally used to treat menopause-related symptoms, such as hot flashes and anxiety, due to their anxiolytic and sedative properties. The herbal preparation helps to alleviate these symptoms by promoting relaxation and reducing stress levels, making it a natural and non-habit-forming alternative to conventional medications. The bioactive constituents of Passiflora incarnata teas, including flavonoids, alkaloids, and glycosides, contribute to their therapeutic effects, specifically flavonoids like kaempferol and quercetin, which have been shown to possess antioxidant and anti-inflammatory properties. Regular consumption of Passiflora incarnata teas has been reported to provide relief from menopause symptoms, improve sleep quality, and enhance overall well-being in women undergoing menopause.",
+            "preparation_study": "According to \"Electronic physician\", Passiflora incarnata teas for menopause may be effective in treating acute menopausal syndrome, including hot flashes, as a result of its different mechanisms of action.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Certified-Wrapped/dp/B000YTCSLQ",
+                "affiliate_link": "https://amzn.to/3FU2zS4",
+                "title": "Traditional Medicinals Organic Nighty Night with Passionflower Herbal Tea, Promotes a Good Night\u2019s Sleep, (Pack of 1) - 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Hypericum perforatum",
+            "herb_mentions": 14,
+            "herb_confidence_score": 97,
+            "herb_total_score": 1358,
+            "preparation_desc": "Hypericum perforatum teas, also known as St. John's Wort tea, have been traditionally used to help alleviate symptoms of menopause, such as hot flashes and mood swings. The bioactive constituents of this herbal preparation, including hyperforin and hypericin, have been found to have anti-inflammatory and antioxidant properties, which can help to reduce the severity of hot flashes and improve overall hormonal balance. The flavonoids and phenolic acids present in St. John's Wort tea also have a calming effect on the nervous system, which can help to reduce anxiety and promote relaxation. By consuming Hypericum perforatum teas, women experiencing menopause symptoms may experience a reduction in symptoms, improved mood, and enhanced overall well-being.",
+            "preparation_study": "According to \"Electronic physician\", Hypericum perforatum teas for menopause may be effective in the treatment of acute menopausal syndrome, particularly hot flashes, due to its various mechanisms of action.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natures-Bounty-Supplement-Promotes-Positive/dp/B00J2LC81C",
+                "affiliate_link": "https://amzn.to/3R8KIcp",
+                "title": "Nature's Bounty St. John\u2019s Wort 300mg Capsules, Herbal Health Supplement, Promotes a Positive Mood, 100 Capsules"
+            }
+        },
+        {
+            "herb_name_scientific": "Paeonia lactiflora",
+            "herb_mentions": 13,
+            "herb_confidence_score": 96,
+            "herb_total_score": 1248,
+            "preparation_desc": "Paeonia lactiflora teas have been traditionally used to treat menopausal symptoms, particularly hot flashes and night sweats. The anti-inflammatory and antioxidant properties of this herbal preparation help to reduce the severity of these symptoms by modulating the body's hormonal balance and promoting relaxation. The bioactive constituents, including flavonoids and phenolic acids, in Paeonia lactiflora teas work synergistically to alleviate menopausal symptoms by exerting a sedative effect on the nervous system and regulating the body's thermal regulation. The benefits of using Paeonia lactiflora teas to treat menopause include reduced hot flashes, improved sleep quality, and enhanced overall well-being, making it a popular natural remedy for menopausal women.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Davidsons-Tea-White-Peony-16-Ounce/dp/B000SARJFG",
+                "affiliate_link": "https://amzn.to/4jD6HVc",
+                "title": "Davidson's Tea Bulk, White Peony, 16-Ounce Bag"
+            }
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 13,
+            "herb_confidence_score": 96,
+            "herb_total_score": 1248,
+            "preparation_desc": "Curcuma longa teas, derived from the turmeric plant, have been widely used to alleviate menopause symptoms due to their anti-inflammatory, antioxidant, and estrogen-modulating properties. These properties help to reduce hot flashes, night sweats, and mood swings associated with menopause, promoting a sense of well-being and comfort. The bioactive constituents, including curcumin and demethoxycurcumin, exhibit potent anti-inflammatory and antioxidant activities, which contribute to the herbal preparation's therapeutic effects. By consuming Curcuma longa teas, women experiencing menopause symptoms may benefit from reduced symptoms, improved sleep quality, and enhanced overall quality of life.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Angelica sinensis",
+            "herb_mentions": 13,
+            "herb_confidence_score": 94,
+            "herb_total_score": 1222,
+            "preparation_desc": "Angelica sinensis teas, also known as dong quai, have been traditionally used to treat menopause-related symptoms such as hot flashes and night sweats. The herbal preparation has anti-inflammatory and antioxidant properties that help to alleviate these symptoms by reducing inflammation and oxidative stress in the body. The bioactive constituents of dong quai, including ferulic acid, ligustilide, and butylphthalide, work together to regulate hormonal imbalances and improve sleep quality, thereby reducing the severity of menopause symptoms. Regular consumption of Angelica sinensis teas has been shown to provide numerous benefits, including improved mood, reduced anxiety, and increased energy levels, making it a popular natural remedy for menopause relief.",
+            "preparation_study": "According to \"The journal of sexual medicine\", Angelica sinensis teas for menopause may be suggested for arousal disorder and may be useful as a possible alternative and/or complementary approach for studies aimed at the treatment of female sexual dysfunction.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Natural-Menopause-Supplements-Women-120CT/dp/B0B7Y5F6DP",
+                "affiliate_link": "https://amzn.to/4jFdWw3",
+                "title": "Complete Herbal Menopause Supplement for Women - Female Hormone Balance Capsules for Night Sweats, Hot Flashes & Mood Swings with Dong Quai, Chaste Berry & Black Cohosh Root - 120 Count Pack"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 12,
+            "herb_confidence_score": 86,
+            "herb_total_score": 1032,
+            "preparation_desc": "Melissa officinalis teas, also known as lemon balm, have been traditionally used to treat menopause symptoms, particularly anxiety and insomnia. The calming properties of Melissa officinalis teas help to soothe the nervous system, reducing stress and promoting relaxation. The bioactive constituents, including rosmarinic acid and linalool, contribute to its anxiolytic and sedative effects, making it an effective remedy for hot flashes and night sweats. The benefits of using Melissa officinalis teas to treat menopause symptoms include improved sleep quality, reduced anxiety, and a sense of well-being, making it a popular natural remedy for women experiencing menopause.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 10,
+            "herb_confidence_score": 69,
+            "herb_total_score": 690,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle tea, have been used to treat menopause-related symptoms due to their anti-inflammatory and antioxidant properties. This herbal preparation helps to treat menopause-related hot flashes and night sweats by reducing the levels of estrogen in the body and regulating hormonal balance. The bioactive constituents of silybum marianum, including silymarin and silibinin, have been shown to have estrogenic activity and anti-inflammatory effects, which contribute to its therapeutic benefits. The benefits of silybum marianum teas in treating menopause-related symptoms include reduced frequency and severity of hot flashes, improved sleep quality, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 8,
+            "herb_confidence_score": 57,
+            "herb_total_score": 456,
+            "preparation_desc": "Urtica dioica teas, also known as nettle tea, have been traditionally used to alleviate menopause symptoms. The properties of this herbal preparation, including its anti-inflammatory and antioxidant effects, help to treat menopause-related ailments by reducing hot flashes, night sweats, and mood swings. The bioactive constituents of Urtica dioica tea, such as flavonoids and lignans, are believed to contribute to its therapeutic effects by promoting hormone balance and reducing oxidative stress. Regular consumption of Urtica dioica tea has been associated with several benefits, including improved sleep quality, reduced anxiety, and enhanced overall well-being during menopause.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Nettle-Eco-Conscious-Bulgaria-FGO/dp/B07ND3ZT9C",
+                "affiliate_link": "https://amzn.to/3QUwzPU",
+                "title": "FGO Organic Nettle Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Schisandra chinensis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 55,
+            "herb_total_score": 385,
+            "preparation_desc": "Schisandra chinensis teas have been traditionally used to alleviate symptoms associated with menopause, such as hot flashes and night sweats, due to their adaptogenic and anti-inflammatory properties. The bioactive constituents of Schisandra chinensis, including schisandrins, lignans, and polyphenols, help to regulate hormonal imbalances and reduce oxidative stress. By promoting hormonal balance and reducing inflammation, Schisandra chinensis teas can help to alleviate menopause symptoms, improving overall quality of life for women undergoing this transition. The benefits of Schisandra chinensis teas in treating menopause symptoms include reduced frequency and severity of hot flashes, improved sleep quality, and enhanced mood stability.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-EveryDay-Detox/dp/B0009F3PHQ",
+                "affiliate_link": "https://amzn.to/4d2gq5d",
+                "title": "Traditional Medicinals Tea, Organic EveryDay Detox Schisandra Berry, Supports Healthy Liver Function, Detox, 96 Tea Bags (6 Pack)"
+            }
+        },
+        {
+            "herb_name_scientific": "Panax ginseng",
+            "herb_mentions": 6,
+            "herb_confidence_score": 46,
+            "herb_total_score": 276,
+            "preparation_desc": "Panax ginseng teas, a traditional herbal remedy, have been widely used to alleviate menopause symptoms. The bioactive constituents of Panax ginseng, including ginsenosides, ginsenol, and panaxans, possess adaptogenic and antioxidant properties that help to balance hormonal fluctuations and mitigate hot flashes. By enhancing the body's stress response and promoting relaxation, Panax ginseng teas can effectively reduce anxiety, insomnia, and mood swings associated with menopause. The benefits of using Panax ginseng teas to treat menopause symptoms include improved sleep quality, reduced frequency and severity of hot flashes, and enhanced overall well-being.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Honey-Ginseng-Eco-Conscious-FGO/dp/B09Z37KVJM",
+                "affiliate_link": "https://amzn.to/43IctzX",
+                "title": "FGO Organic Honey Ginseng Green Tea, 100 Count, Eco-Conscious Tea Bags, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Angelica archangelica",
+            "herb_mentions": 6,
+            "herb_confidence_score": 44,
+            "herb_total_score": 264,
+            "preparation_desc": "Angelica archangelica teas, also known as garden angelica, have been traditionally used to treat menopause-related ailments, including hot flashes and night sweats. The anti-inflammatory and antispasmodic properties of this herbal preparation help to soothe and calm the body, reducing the frequency and severity of hot flashes. The bioactive constituents of Angelica archangelica, including ferulic acid and bergapten, have been shown to have estrogenic and anti-estrogenic properties, which may help to alleviate menopause symptoms. Drinking Angelica archangelica teas has been reported to provide benefits such as reduced hot flashes, improved sleep quality, and a sense of calm and well-being for women experiencing menopause.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 7,
+            "herb_confidence_score": 43,
+            "herb_total_score": 301,
+            "preparation_desc": "Rosmarinus officinalis teas have been traditionally used to alleviate menopausal symptoms due to their calming and anti-inflammatory properties, which help to reduce hot flashes and night sweats. The rosmarinic acid present in this herbal preparation has been shown to possess antioxidant and anti-catabolic activities, which aid in reducing the severity of menopausal symptoms. By promoting relaxation and reducing stress, Rosmarinus officinalis teas help to regulate hormonal imbalances and improve overall well-being during menopause. The benefits of using Rosmarinus officinalis teas for menopausal symptoms include reduced symptoms, improved sleep quality, and a decrease in anxiety and mood swings.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        }
+    ],
+    "intro_study": "According to the study, teas for menopause may be a viable option, particularly black cohosh tea, which has been shown to be safe and effective for reducing menopausal symptoms, primarily hot flashes."
+}

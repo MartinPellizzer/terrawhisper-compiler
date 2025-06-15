@@ -1,0 +1,18 @@
+{
+    "url": "herbs/strychnos-nux-vomica",
+    "herb_slug": "strychnos-nux-vomica",
+    "herb_name_scientific": "strychnos nux-vomica",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Strychnos Nux-Vomica",
+    "medicine_or_poison": [
+        {
+            "answer": "poison",
+            "mentions": 10,
+            "confidence_score": 100,
+            "total_score": 1000
+        }
+    ],
+    "constituents_num": 9,
+    "side_effects_num": 9
+}

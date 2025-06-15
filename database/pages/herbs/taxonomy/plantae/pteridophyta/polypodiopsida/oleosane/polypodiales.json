@@ -1,0 +1,39 @@
+{
+    "title": "polypodiales",
+    "lastmod": "2025-2-22",
+    "intro": "The Polypodiales rank is an order of ferns, a group of vascular plants characterized by their vascular tissue being surrounded by a thick layer of cells called the \"ground tissue\" and having an unbranched stem with a central vascular bundle. This order comprises approximately 8,500 species, including many commonly known ferns such as the Polypodium and Blechnum genera. The Polypodiales order includes various families, such as the Dryopteridaceae, Aspleniaceae, and Onocleaceae, in addition to some families not traditionally classified here like the Thelypteridaceae, but also others such as: the orchidaceae which is known for their flowers and are one of the most diverse plant families in the world, the euphorbiaceae which includes the poinsettia and the rubber tree, and the cyperaceae which comprises plants known for their sedge-like appearance. The Polypodiales order is a significant and ecologically diverse group of plants, playing vital roles in many different ecosystems.",
+    "families": [
+        {
+            "family_slug": "pteridaceae",
+            "family_desc": "Pteridaceae is a family of vascular plants commonly known as the maidenhair ferns, which includes approximately 80 genera and over 3,000 species."
+        },
+        {
+            "family_slug": "polypodiaceae",
+            "family_desc": "Polypodiaceae is a family of ferns that belongs to the division Pteridophyta and includes over 1,000 species of vascular plants."
+        },
+        {
+            "family_slug": "aspleniaceae",
+            "family_desc": "Aspleniaceae is a family of ferns commonly known as spleenworts, characterized by their often delicate and intricately divided fronds."
+        },
+        {
+            "family_slug": "dennstaedtiaceae",
+            "family_desc": "Dennstaedtiaceae is a family of ferns in the order Polypodiales."
+        },
+        {
+            "family_slug": "lindsaeaceae",
+            "family_desc": "Lindsaeaceae is a family of ferns, commonly known as cleft-leaf or cleft ferns, that are native to tropical and subtropical regions."
+        },
+        {
+            "family_slug": "marattiaceae",
+            "family_desc": "Marattiaceae is a family of ferns characterized by their large, leathery fronds and often solitary, terrestrial habit."
+        },
+        {
+            "family_slug": "lonchitidaceae",
+            "family_desc": "Lonchitidaceae is a family of flowering plants in the order Lamiales."
+        },
+        {
+            "family_slug": "adiantaceae",
+            "family_desc": "Adiantaceae is a family of flowering plants commonly known as the maidenhair ferns, characterized by their delicate and lacy fronds."
+        }
+    ]
+}

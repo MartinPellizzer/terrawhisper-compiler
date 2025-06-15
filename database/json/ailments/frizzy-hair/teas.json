@@ -1,0 +1,245 @@
+{
+    "url": "ailments/frizzy-hair/teas",
+    "ailment_slug": "frizzy-hair",
+    "ailment_name": "frizzy hair",
+    "preparation_slug": "teas",
+    "preparation_name": "teas",
+    "lastmod": "2025-4-19",
+    "main_lst_num": 11,
+    "title": "11 Best Herbal Teas For Frizzy Hair",
+    "intro": "Herbal teas for Frizzy hair are a natural remedy that refers to the consumption of teas made from specific herbs, which help to improve the texture and manageability of hair. These teas are beneficial for frizzy hair as they provide essential nutrients, antioxidants, and anti-inflammatory properties that nourish the scalp and promote healthy hair growth. Some examples of herbal teas that can help to treat frizzy hair include peppermint tea, which helps to reduce frizz and add shine, rosemary tea, which improves circulation and stimulates hair growth, chamomile tea, which soothes and calms the scalp, green tea, which provides antioxidants and protects the hair from damage, and lavender tea, which reduces frizz and adds a soft, silky texture to the hair. By incorporating these herbal teas into your daily routine, you can enjoy a range of benefits, including a reduction in frizz, an improvement in hair texture, and a boost in overall hair health.",
+    "preparations": [
+        {
+            "herb_name_scientific": "Rosmarinus officinalis",
+            "herb_mentions": 22,
+            "herb_confidence_score": 177,
+            "herb_total_score": 3894,
+            "preparation_desc": "Rosmarinus officinalis teas have been traditionally used to treat frizzy hair due to their ability to provide moisture and control oil production, resulting in smoother and more manageable hair. The herbal preparation contains bioactive constituents such as camphor, bornyl acetate, and alpha-pinene, which help to soothe and calm the scalp, reducing frizz and adding shine to the hair. The properties of Rosmarinus officinalis teas, including their antioxidant and anti-inflammatory effects, help to protect the hair from damage and promote healthy hair growth. By incorporating Rosmarinus officinalis teas into one's hair care routine, individuals can benefit from reduced frizz, improved hair texture, and a more radiant and healthy appearance.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Rosemary-Cultivated-Caffeine-free-Digestion/dp/B0CCDB5JWR",
+                "affiliate_link": "https://amzn.to/3RxvkpT",
+                "title": "FullChea - Rosemary Tea Bags, 36 Teabags, 1.5g/bag - Premium Dried Rosemary Leaves - Cultivated From Egypt - Non-GMO - Caffeine-free - Distinct Flavor & Support Digestion"
+            }
+        },
+        {
+            "herb_name_scientific": "Lavandula angustifolia",
+            "herb_mentions": 19,
+            "herb_confidence_score": 147,
+            "herb_total_score": 2793,
+            "preparation_desc": "Lavandula angustifolia teas have been traditionally used to treat frizzy hair ailments, and their properties make them an effective natural remedy. This herbal preparation helps to treat frizzy hair by calming the scalp, reducing inflammation, and promoting a healthy hair growth cycle. The bioactive constituents of Lavandula angustifolia teas, including linalool and linalyl acetate, contribute to its hair-smoothing properties by reducing frizz and adding shine to the hair. Regular consumption of Lavandula angustifolia teas can provide benefits such as improved hair texture, reduced frizz, and a more manageable and healthy-looking hair.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lavender-Flowers-Extra-Grade/dp/B01BTNMGXU",
+                "affiliate_link": "https://amzn.to/4j529WZ",
+                "title": "FGO Organic Dried Lavender Flowers, Extra Grade Dried Buds, Imported From France for Culinary or Sachet Bags, 4oz, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Cymbopogon citratus",
+            "herb_mentions": 16,
+            "herb_confidence_score": 121,
+            "herb_total_score": 1936,
+            "preparation_desc": "Cymbopogon citratus teas, also known as lemongrass tea, have been traditionally used to treat frizzy hair due to its anti-inflammatory and antioxidant properties. The citral content in lemongrass tea helps to smooth and tame frizzy hair by reducing moisture loss and providing a protective layer on the hair cuticle. The bioactive constituents present in lemongrass tea, including citral, geraniol, and linalool, help to lock in moisture and reduce the appearance of frizz, leaving hair looking smoother and more manageable. Regular consumption of lemongrass tea has been shown to improve hair texture and reduce frizz, making it a beneficial herbal preparation for those struggling with frizzy hair.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/4ideKqe",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Aloe barbadensis",
+            "herb_mentions": 15,
+            "herb_confidence_score": 118,
+            "herb_total_score": 1770,
+            "preparation_desc": "Aloe barbadensis teas have been traditionally used to treat frizzy hair, a common problem caused by dryness and damage to the hair shaft. The anti-inflammatory and moisturizing properties of aloe vera help to soothe and hydrate the hair, reducing frizz and adding shine. The bioactive constituents of aloe vera, including vitamins A, C, and E, as well as minerals such as calcium and potassium, help to nourish and protect the hair, promoting healthy growth and reducing frizz. The benefits of using aloe barbadensis teas to treat frizzy hair include a reduction in frizz and flyaways, increased hair elasticity, and improved overall hair health.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Spearmint-Eco-Conscious-Lined-FGO/dp/B07ND418HR",
+                "affiliate_link": "https://amzn.to/42s2qOg",
+                "title": "FGO Organic Spearmint Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Melissa officinalis",
+            "herb_mentions": 15,
+            "herb_confidence_score": 113,
+            "herb_total_score": 1695,
+            "preparation_desc": "Melissa officinalis teas have been traditionally used to treat the frizzy hair ailment due to their soothing and calming properties. The herbal preparation helps to treat this condition by smoothing the hair cuticles, reducing frizz and flyaways, and adding a healthy shine to the hair. The bioactive constituents of Melissa officinalis teas, including linalool, linalyl acetate, and 1,8-cineole, help to achieve this effect by acting as an antifungal agent, reducing inflammation, and promoting hair growth. By incorporating Melissa officinalis teas into your hair care routine, you can experience the benefits of reduced frizz, improved hair texture, and a more manageable hairstyle.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Lemon-Eco-Conscious-Kraft-FGO/dp/B088QRYDGX",
+                "affiliate_link": "https://amzn.to/42aO6Zc",
+                "title": "FGO Organic Lemon Balm Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Mentha x piperita",
+            "herb_mentions": 12,
+            "herb_confidence_score": 94,
+            "herb_total_score": 1128,
+            "preparation_desc": "Mentha x piperita teas, also known as peppermint tea, have been traditionally used to help alleviate frizzy hair, a common issue caused by dryness, humidity, and damage to the hair shaft. The antifungal and antibacterial properties of peppermint tea help to balance the scalp's natural pH, reducing irritation and inflammation that can contribute to frizz. Bioactive constituents like menthol, menthone, and limonene in peppermint tea help to improve blood circulation to the scalp, promoting healthy hair growth and reducing frizz. By using Mentha x piperita teas as a hair rinse or adding it to your shampoo, you can benefit from its ability to calm and soothe the scalp, leading to smoother, more manageable hair.",
+            "preparation_study": "N/A",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Urtica dioica",
+            "herb_mentions": 13,
+            "herb_confidence_score": 92,
+            "herb_total_score": 1196,
+            "preparation_desc": "Urtica dioica teas, also known as nettle leaf tea, have been traditionally used to treat frizzy hair due to their rich content of bioactive constituents such as flavonoids, phenolic acids, and saponins. These compounds help to soothe and calm the scalp, reducing inflammation and irritation that can contribute to frizz and unmanageability. The anti-inflammatory properties of Urtica dioica teas also help to protect the hair follicles from damage, promoting healthy hair growth and reducing the appearance of frizz. Regular consumption of Urtica dioica teas has been found to benefit frizzy hair by improving its texture, reducing frizz, and leaving it looking smoother and more manageable.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Nettle-Eco-Conscious-Bulgaria-FGO/dp/B07ND3ZT9C",
+                "affiliate_link": "https://amzn.to/3QUwzPU",
+                "title": "FGO Organic Nettle Leaf Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Avena sativa",
+            "herb_mentions": 11,
+            "herb_confidence_score": 81,
+            "herb_total_score": 891,
+            "preparation_desc": "Avena sativa teas have been traditionally used to treat the frizzy hair ailment, also known as dry and brittle hair. The properties of this herbal preparation, including its antifungal and anti-inflammatory properties, help to treat this ailment by soothing and calming the scalp, reducing irritation and promoting healthy hair growth. The bioactive constituents of Avena sativa teas, such as avenanthramides and fatty acids, help to nourish and moisturize the hair, reducing frizz and adding shine. Regular consumption of Avena sativa teas is beneficial in treating frizzy hair as it helps to strengthen hair follicles, improve hair texture, and promote a healthy scalp.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Chamomile-Eco-Conscious-Lined-FGO/dp/B07N2F8718",
+                "affiliate_link": "https://amzn.to/3EaZYm9",
+                "title": "FGO Organic Chamomile Tea, 100 Eco-Conscious Tea Bags, Caffeine Free, Resealable Bag, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ginkgo biloba",
+            "herb_mentions": 15,
+            "herb_confidence_score": 79,
+            "herb_total_score": 1185,
+            "preparation_desc": "Ginkgo biloba teas have been gaining attention for their potential to treat frizzy hair, a common issue characterized by unmanageable and unruly locks. The properties of this herbal preparation that help to treat this ailment include its ability to balance moisture levels in the hair and scalp, while also promoting a healthy scalp environment. The bioactive constituents of Ginkgo biloba teas, such as bilobalide and ginkgolides, help to reduce frizz by improving the hair's elasticity and reducing inflammation, leading to a smoother and more manageable texture. The benefits of using Ginkgo biloba teas to treat frizzy hair include a reduction in frizz, improved hair texture, and a more manageable hairstyle, making it a popular natural remedy for those seeking a chemical-free solution.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/FullChea-Teabags-Premium-Non-GMO-Caffeine-free/dp/B0D2VMYBH3",
+                "affiliate_link": "https://amzn.to/3E0dskq",
+                "title": "FullChea - Ginkgo Biloba Tea Bags, 36 Teabags - Premium Dried Ginkgo Biloba Leaves - Non-GMO - Caffeine-free - Support Memory & Focus"
+            }
+        },
+        {
+            "herb_name_scientific": "Silybum marianum",
+            "herb_mentions": 11,
+            "herb_confidence_score": 65,
+            "herb_total_score": 715,
+            "preparation_desc": "Silybum marianum teas, also known as milk thistle teas, have been traditionally used to treat the frizzy hair ailment, often referred to as unmanageable or unruly hair. The anti-inflammatory and antioxidant properties of this herbal preparation help to treat this ailment by soothing and calming the scalp, reducing irritation and promoting healthy hair growth. The bioactive constituents of Silybum marianum teas, including silymarin and flavonoids, play a crucial role in treating frizzy hair by protecting the hair follicles from damage and promoting a balanced scalp environment. The benefits of using Silybum marianum teas to treat frizzy hair include reduced hair frizz, improved manageability, and a healthier scalp, making it a natural and effective solution for those seeking to achieve smooth and silky hair.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Thistle-Eco-Conscious-Kraft-FGO/dp/B088QT4YCS",
+                "affiliate_link": "https://amzn.to/3G49ZSs",
+                "title": "FGO Organic Milk Thistle Tea, 100 Count, Eco-Conscious Herbal Tea Bags, Resealable Bag, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Thymus vulgaris",
+            "herb_mentions": 9,
+            "herb_confidence_score": 63,
+            "herb_total_score": 567,
+            "preparation_desc": "Thymus vulgaris teas, also known as thyme tea, have been used to treat frizzy hair due to its unique properties that help to tame and smooth hair. The herbal preparation contains bioactive constituents such as thymol, carvacrol, and rosmarinic acid, which possess antioxidant and anti-inflammatory properties that help to soothe and calm the scalp, reducing frizz and flyaways. Thymus vulgaris teas help to treat frizzy hair by balancing the scalp's pH, reducing oil production, and improving hair texture, resulting in smoother and more manageable hair. The benefits of using thymus vulgaris teas to treat frizzy hair include improved hair elasticity, reduced breakage, and a healthy-looking shine, making it a natural and effective solution for those struggling with frizzy locks.",
+            "preparation_study": "N/A",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Traditional-Medicinals-Organic-Throat-Coat/dp/B000SR62ZC",
+                "affiliate_link": "https://amzn.to/3FRzx5k",
+                "title": "Traditional Medicinals Tea, Organic Throat Coat, Supports Throat Health, 16 Tea Bags"
+            }
+        },
+        {
+            "herb_name_scientific": "Zingiber officinale",
+            "herb_mentions": 10,
+            "herb_confidence_score": 58,
+            "herb_total_score": 580,
+            "preparation_desc": "Zingiber officinale teas, also known as ginger teas, have been traditionally used to treat frizzy hair and promote hair health. The anti-inflammatory and antioxidant properties of ginger help to soothe and calm the scalp, reducing frizz and promoting smooth, manageable hair. The bioactive constituents of ginger, including gingerols and shogaols, have been shown to inhibit the production of inflammatory enzymes, which can contribute to frizzy hair. Drinking ginger tea regularly can help to reduce frizz and add shine to hair, making it a popular natural remedy for promoting healthy, silky hair.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Ginger-Bagss-Eco-Conscious-FGO/dp/B07SQX3853",
+                "affiliate_link": "https://amzn.to/4kdcLV7",
+                "title": "FGO Organic Ginger Tea, 100 Count, Eco-Conscious Tea Bags, Caffeine Free, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Eucalyptus globulus",
+            "herb_mentions": 8,
+            "herb_confidence_score": 55,
+            "herb_total_score": 440,
+            "preparation_desc": "Eucalyptus globulus teas have been traditionally used to treat frizzy hair, and its properties, including its high antioxidant content, help to smooth and calm the hair cuticle. The tea's ability to balance the scalp's pH levels and reduce inflammation also contributes to its effectiveness in treating frizzy hair. The bioactive constituents, such as flavonoids and terpenoids, in Eucalyptus globulus teas help to nourish and protect the hair follicles, reducing frizz and flyaways. Regular consumption of Eucalyptus globulus teas can help to promote healthy hair growth, improve hair texture, and reduce frizz, leaving the hair looking smooth and manageable.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Herbal-Tea-Caffeine-Relaxer-Non-GMO/dp/B00ECOSODU",
+                "affiliate_link": "https://amzn.to/4caik3b",
+                "title": "Tiesta Tea - Palm Beach Punch | Loose Leaf | Fruit Punch Herbal Tea | Caffeine-Free Tropical Blend with Apple and Orange | Brew Hot or Iced | Resealable Pouch | 25 Cups | 2 Ounce"
+            }
+        },
+        {
+            "herb_name_scientific": "Saponaria officinalis",
+            "herb_mentions": 11,
+            "herb_confidence_score": 52,
+            "herb_total_score": 572,
+            "preparation_desc": "Saponaria officinalis teas have been traditionally used to treat frizzy hair due to its moisturizing and smoothing properties, which help to tame unruly locks and add shine to the hair. The herbal preparation contains bioactive constituents such as saponins, which have been found to have a soothing effect on the scalp and hair follicles, reducing frizz and flyaways. By using Saponaria officinalis teas, individuals can benefit from its ability to lock in moisture, reduce inflammation, and promote healthy hair growth, resulting in smoother, more manageable hair. Regular use of Saponaria officinalis teas can also help to improve hair elasticity, reduce breakage, and add a healthy shine to the hair.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Curcuma longa",
+            "herb_mentions": 7,
+            "herb_confidence_score": 48,
+            "herb_total_score": 336,
+            "preparation_desc": "Curcuma longa teas have been gaining popularity as a natural remedy for frizzy hair, and its properties make it an effective treatment option. The tea's anti-inflammatory and antioxidant properties help to soothe and calm the scalp, reducing frizz and adding shine to the hair. The bioactive constituents of Curcuma longa, including curcumin, turmerone, and demethoxycurcumin, have been shown to improve hair texture and reduce frizz by regulating hair follicle growth and preventing protein degradation. Regular consumption of Curcuma longa tea has been found to provide numerous benefits, including reduced frizz, improved hair elasticity, and enhanced hair growth.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Organic-Turmeric-Ginger-Eco-Conscious-FGO/dp/B0871LZFB1",
+                "affiliate_link": "https://amzn.to/44ao3DY",
+                "title": "FGO Organic Turmeric Ginger Tea, Eco-Conscious Tea Bags, 100 Count, Packaging May Vary (Pack of 1)"
+            }
+        },
+        {
+            "herb_name_scientific": "Ocimum basilicum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 47,
+            "herb_total_score": 282,
+            "preparation_desc": "Ocimum basilicum teas have been traditionally used to treat frizzy hair, a common issue caused by dryness and damage to the hair follicles. The herbal preparation's anti-inflammatory properties help to soothe and calm the scalp, reducing irritation and promoting healthy hair growth. The bioactive constituents, including eugenol and rosmarinic acid, have antioxidant and anti-inflammatory effects that help to protect the hair follicles from damage and promote a healthy scalp environment. Regular consumption of Ocimum basilicum teas has been shown to benefit frizzy hair by reducing dryness, improving hair texture, and promoting a healthy and shiny appearance.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Lavandula latifolia",
+            "herb_mentions": 6,
+            "herb_confidence_score": 44,
+            "herb_total_score": 264,
+            "preparation_desc": "Lavandula latifolia teas are a natural remedy that helps to treat the frizzy hair ailment by reducing frizz and adding shine to the hair. This herbal preparation is beneficial due to its properties that help to balance the scalp's pH, reduce inflammation, and promote healthy hair growth. The bioactive constituents of Lavandula latifolia teas, including linalool and linalyl acetate, have anti-inflammatory and antiseptic properties that help to soothe and calm the scalp, leading to smooth and manageable hair. Regular consumption of Lavandula latifolia teas can help to promote healthy hair by reducing frizz, adding shine, and improving overall hair texture.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Glycyrrhiza glabra",
+            "herb_mentions": 7,
+            "herb_confidence_score": 44,
+            "herb_total_score": 308,
+            "preparation_desc": "Glycyrrhiza glabra teas, also known as licorice root tea, have been traditionally used to treat frizzy hair by providing relief from dryness and brittleness. This herbal preparation helps to treat frizzy hair by acting as a natural humectant, locking in moisture and reducing frizz. The bioactive constituents of Glycyrrhiza glabra, including glycyrrhizin and saponins, help to treat frizzy hair by soothing the scalp and promoting healthy hair growth. The benefits of using Glycyrrhiza glabra teas to treat frizzy hair include reducing frizz and flyaways, improving hair elasticity, and adding shine and luster to the hair.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/Stash-Tea-Individually-packaging-Naturally/dp/B000CQIDHE",
+                "affiliate_link": "https://amzn.to/4leOVcq",
+                "title": "Stash Tea Licorice Spice Herbal Tea, 6 Boxes With 20 Tea Bags Each (120 Tea Bags Total)"
+            }
+        },
+        {
+            "herb_name_scientific": "Thymus serpyllum",
+            "herb_mentions": 6,
+            "herb_confidence_score": 43,
+            "herb_total_score": 258,
+            "preparation_desc": "Thymus serpyllum teas have been traditionally used to treat frizzy hair due to their antifungal and antibacterial properties, which help to soothe and calm the scalp, reducing the occurrence of frizz. The bioactive constituents of this herbal preparation, including thymol and carvacrol, help to protect the hair from damage and promote healthy hair growth, resulting in smoother and more manageable locks. Thymus serpyllum teas also possess antioxidant properties, which help to shield the hair from environmental stressors and prevent damage caused by free radicals. By regular consumption of Thymus serpyllum teas, individuals can experience the benefits of a healthy, frizz-free scalp and luscious, shiny hair.",
+            "preparation_amazon": ""
+        },
+        {
+            "herb_name_scientific": "Foeniculum vulgare",
+            "herb_mentions": 6,
+            "herb_confidence_score": 41,
+            "herb_total_score": 246,
+            "preparation_desc": "Foeniculum vulgare teas, also known as anise or fennel tea, have been traditionally used to treat frizzy hair by reducing frizz and adding shine to the hair. This herbal preparation helps to treat frizzy hair by its antifungal and antibacterial properties, which control the growth of scalp fungi and bacteria that can cause frizz and dandruff. The bioactive constituents of Foeniculum vulgare teas, including anethole, fenchone, and limonene, help to treat frizzy hair by reducing inflammation and promoting healthy hair growth. The benefits of Foeniculum vulgare teas in treating frizzy hair include a reduction in frizz and flyaways, improved hair texture, and a healthy scalp.",
+            "preparation_amazon": {
+                "url": "https://www.amazon.com/HANDPICK-Caffeine-Natural-Premium-Eco-Conscious/dp/B0BFHKDK88",
+                "affiliate_link": "https://amzn.to/42bRtPt",
+                "title": "HANDPICK, Fennel Tea Bags (100 Herbal Tea Bags) Caffeine Free, Gluten Free & Non GMO | Round Eco Conscious Teabags | Smooth & Sweet"
+            }
+        }
+    ],
+    "intro_study": "N/A"
+}

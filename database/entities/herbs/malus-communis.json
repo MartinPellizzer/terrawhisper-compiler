@@ -1,0 +1,30 @@
+{
+    "url": "herbs/malus-communis",
+    "herb_slug": "malus-communis",
+    "herb_name_scientific": "malus communis",
+    "lastmod": "2025-5-31",
+    "benefits_num": 9,
+    "benefits_title": "9 Best Health Benefits Of Malus Communis",
+    "medicine_or_poison": [
+        {
+            "answer": "inert",
+            "mentions": 5,
+            "confidence_score": 48,
+            "total_score": 240
+        },
+        {
+            "answer": "poison",
+            "mentions": 4,
+            "confidence_score": 37,
+            "total_score": 148
+        },
+        {
+            "answer": "medicine",
+            "mentions": 1,
+            "confidence_score": 1,
+            "total_score": 1
+        }
+    ],
+    "constituents_num": 11,
+    "side_effects_num": 9
+}

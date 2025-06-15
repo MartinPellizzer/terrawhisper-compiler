@@ -1,0 +1,15 @@
+{
+    "title": "acorales",
+    "lastmod": "2025-2-22",
+    "intro": "The acorales rank, also known as the Acorales order, is a taxonomic grouping of flowering plants characterized by its distinctive features, including the presence of highly modified leaves and a specialized inflorescence structure. The Acorales order includes a limited number of families, such as the Acoraceae family, which comprises plants like the golden-club (Acorus calamus). Other examples of families within the Acorales order include the unique, carnivorous plants of the Droseraceae family, and the aquatic plants of the Alismataceae family. The Acorales order is distinct from other plant orders due to its unique characteristics, such as the often highly modified leaves and stems of its members.",
+    "families": [
+        {
+            "family_slug": "hanguanaceae",
+            "family_desc": "Hanguanaceae is a family of flowering plants in the order Proteales, native to the tropical regions of northern Australia and New Guinea."
+        },
+        {
+            "family_slug": "acoraceae",
+            "family_desc": "Acoraceae is a family of flowering plants commonly known as the sweetflag or calamus family."
+        }
+    ]
+}
