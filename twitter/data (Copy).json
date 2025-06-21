@@ -1,0 +1,1468 @@
+{
+    "month_list": [
+        {
+            "month_name": "january",
+            "month_ailments": [
+                {
+                    "answer": "Common cold",
+                    "score": "10"
+                },
+                {
+                    "answer": "Flu",
+                    "score": "9"
+                },
+                {
+                    "answer": "Sinusitis",
+                    "score": "8"
+                },
+                {
+                    "answer": "Cough",
+                    "score": "7"
+                },
+                {
+                    "answer": "Headache",
+                    "score": "7"
+                },
+                {
+                    "answer": "Allergies",
+                    "score": "6"
+                },
+                {
+                    "answer": "Fatigue",
+                    "score": "6"
+                },
+                {
+                    "answer": "Back pain",
+                    "score": "5"
+                },
+                {
+                    "answer": "Stomach flu",
+                    "score": "5"
+                },
+                {
+                    "answer": "Depression",
+                    "score": "5"
+                },
+                {
+                    "answer": "Anxiety",
+                    "score": "5"
+                },
+                {
+                    "answer": "Insomnia",
+                    "score": "4"
+                },
+                {
+                    "answer": "Migraine",
+                    "score": "4"
+                },
+                {
+                    "answer": "Skin infections",
+                    "score": "3"
+                },
+                {
+                    "answer": "Chronic fatigue",
+                    "score": "3"
+                },
+                {
+                    "answer": "Hypothermia",
+                    "score": "3"
+                },
+                {
+                    "answer": "Joint pain",
+                    "score": "3"
+                },
+                {
+                    "answer": "Viral infections",
+                    "score": "3"
+                },
+                {
+                    "answer": "Seasonal affective disorder",
+                    "score": "2"
+                },
+                {
+                    "answer": "Pneumonia",
+                    "score": "2"
+                },
+                {
+                    "answer": "Respiratory infections",
+                    "score": "2"
+                },
+                {
+                    "answer": "Rheumatism",
+                    "score": "2"
+                },
+                {
+                    "answer": "Eczema",
+                    "score": "2"
+                },
+                {
+                    "answer": "Tinnitus",
+                    "score": "2"
+                },
+                {
+                    "answer": "Gastroenteritis",
+                    "score": "2"
+                },
+                {
+                    "answer": "Osteoarthritis",
+                    "score": "2"
+                },
+                {
+                    "answer": "Hypertension",
+                    "score": "2"
+                },
+                {
+                    "answer": "Gout",
+                    "score": "1"
+                },
+                {
+                    "answer": "Chronic bronchitis",
+                    "score": "1"
+                }
+            ]
+        },
+        {
+            "month_name": "february",
+            "month_ailments": [
+                {
+                    "answer": "Cold",
+                    "score": "10"
+                },
+                {
+                    "answer": "Flu",
+                    "score": "9"
+                },
+                {
+                    "answer": "Sinus infection",
+                    "score": "8"
+                },
+                {
+                    "answer": "Allergies",
+                    "score": "7"
+                },
+                {
+                    "answer": "Bronchitis",
+                    "score": "7"
+                },
+                {
+                    "answer": "Chest congestion",
+                    "score": "6"
+                },
+                {
+                    "answer": "Headache",
+                    "score": "6"
+                },
+                {
+                    "answer": "Fatigue",
+                    "score": "5"
+                },
+                {
+                    "answer": "Migraine",
+                    "score": "5"
+                },
+                {
+                    "answer": "Nasal congestion",
+                    "score": "5"
+                },
+                {
+                    "answer": "Stomach flu",
+                    "score": "5"
+                },
+                {
+                    "answer": "Rheumatism",
+                    "score": "4"
+                },
+                {
+                    "answer": "Chronic cough",
+                    "score": "4"
+                },
+                {
+                    "answer": "Skin rashes",
+                    "score": "3"
+                },
+                {
+                    "answer": "Viral infections",
+                    "score": "3"
+                },
+                {
+                    "answer": "Muscle pain",
+                    "score": "3"
+                },
+                {
+                    "answer": "Respiratory infections",
+                    "score": "3"
+                },
+                {
+                    "answer": "Chills",
+                    "score": "2"
+                },
+                {
+                    "answer": "Fever",
+                    "score": "2"
+                },
+                {
+                    "answer": "Anxiety",
+                    "score": "2"
+                },
+                {
+                    "answer": "Insomnia",
+                    "score": "2"
+                },
+                {
+                    "answer": "Depression",
+                    "score": "1"
+                },
+                {
+                    "answer": "Hypothermia",
+                    "score": "1"
+                },
+                {
+                    "answer": "Hyperventilation",
+                    "score": "1"
+                },
+                {
+                    "answer": "Joint pain",
+                    "score": "1"
+                },
+                {
+                    "answer": "Tinnitus",
+                    "score": "1"
+                },
+                {
+                    "answer": "Dizziness",
+                    "score": "1"
+                },
+                {
+                    "answer": "Nausea",
+                    "score": "1"
+                },
+                {
+                    "answer": "Diarrhea",
+                    "score": "1"
+                },
+                {
+                    "answer": "Vomiting",
+                    "score": "1"
+                }
+            ]
+        },
+        {
+            "month_name": "march",
+            "month_ailments": [
+                {
+                    "answer": "Common cold",
+                    "score": "10"
+                },
+                {
+                    "answer": "Allergies",
+                    "score": "9"
+                },
+                {
+                    "answer": "Flu",
+                    "score": "8"
+                },
+                {
+                    "answer": "Sinus infection",
+                    "score": "7"
+                },
+                {
+                    "answer": "Hay fever",
+                    "score": "7"
+                },
+                {
+                    "answer": "Headache",
+                    "score": "6"
+                },
+                {
+                    "answer": "Fatigue",
+                    "score": "6"
+                },
+                {
+                    "answer": "Cough",
+                    "score": "6"
+                },
+                {
+                    "answer": "Rash",
+                    "score": "5"
+                },
+                {
+                    "answer": "Diarrhea",
+                    "score": "5"
+                },
+                {
+                    "answer": "Viral infection",
+                    "score": "5"
+                },
+                {
+                    "answer": "Sore throat",
+                    "score": "5"
+                },
+                {
+                    "answer": "Nausea",
+                    "score": "4"
+                },
+                {
+                    "answer": "Stomach flu",
+                    "score": "4"
+                },
+                {
+                    "answer": "Migraine",
+                    "score": "4"
+                },
+                {
+                    "answer": "Respiratory infection",
+                    "score": "4"
+                },
+                {
+                    "answer": "Skin irritation",
+                    "score": "3"
+                },
+                {
+                    "answer": "Insomnia",
+                    "score": "3"
+                },
+                {
+                    "answer": "Anxiety",
+                    "score": "3"
+                },
+                {
+                    "answer": "Depression",
+                    "score": "3"
+                },
+                {
+                    "answer": "Back pain",
+                    "score": "3"
+                },
+                {
+                    "answer": "Joint pain",
+                    "score": "3"
+                },
+                {
+                    "answer": "Eye infection",
+                    "score": "2"
+                },
+                {
+                    "answer": "Ear infection",
+                    "score": "2"
+                },
+                {
+                    "answer": "Dental issues",
+                    "score": "2"
+                },
+                {
+                    "answer": "Chronic fatigue",
+                    "score": "2"
+                },
+                {
+                    "answer": "Sleep apnea",
+                    "score": "2"
+                },
+                {
+                    "answer": "Stress-related issues",
+                    "score": "2"
+                },
+                {
+                    "answer": "Mental health issues",
+                    "score": "1"
+                }
+            ]
+        },
+        {
+            "month_name": "april",
+            "month_ailments": [
+                {
+                    "answer": "Hay fever",
+                    "score": "10"
+                },
+                {
+                    "answer": "Cold",
+                    "score": "9"
+                },
+                {
+                    "answer": "Flu",
+                    "score": "8"
+                },
+                {
+                    "answer": "Allergies",
+                    "score": "7"
+                },
+                {
+                    "answer": "Sinus infection",
+                    "score": "7"
+                },
+                {
+                    "answer": "Skin rashes",
+                    "score": "6"
+                },
+                {
+                    "answer": "Headache",
+                    "score": "6"
+                },
+                {
+                    "answer": "Fatigue",
+                    "score": "5"
+                },
+                {
+                    "answer": "Migraine",
+                    "score": "5"
+                },
+                {
+                    "answer": "Stomach flu",
+                    "score": "5"
+                },
+                {
+                    "answer": "Bronchitis",
+                    "score": "4"
+                },
+                {
+                    "answer": "Cough",
+                    "score": "4"
+                },
+                {
+                    "answer": "Nausea",
+                    "score": "4"
+                },
+                {
+                    "answer": "Back pain",
+                    "score": "3"
+                },
+                {
+                    "answer": "Anxiety",
+                    "score": "3"
+                },
+                {
+                    "answer": "Depression",
+                    "score": "3"
+                },
+                {
+                    "answer": "Insomnia",
+                    "score": "3"
+                },
+                {
+                    "answer": "Diarrhea",
+                    "score": "2"
+                },
+                {
+                    "answer": "Vomiting",
+                    "score": "2"
+                },
+                {
+                    "answer": "Ear infection",
+                    "score": "2"
+                },
+                {
+                    "answer": "Rheumatism",
+                    "score": "2"
+                },
+                {
+                    "answer": "Chronic fatigue",
+                    "score": "1"
+                },
+                {
+                    "answer": "Dental issues",
+                    "score": "1"
+                },
+                {
+                    "answer": "Eye infections",
+                    "score": "1"
+                },
+                {
+                    "answer": "Hair loss",
+                    "score": "1"
+                },
+                {
+                    "answer": "Wrinkles",
+                    "score": "1"
+                },
+                {
+                    "answer": "Dermatitis",
+                    "score": "1"
+                },
+                {
+                    "answer": "Joint pain",
+                    "score": "1"
+                },
+                {
+                    "answer": "Tinnitus",
+                    "score": "1"
+                }
+            ]
+        },
+        {
+            "month_name": "may",
+            "month_ailments": [
+                {
+                    "answer": "Allergies",
+                    "score": "10"
+                },
+                {
+                    "answer": "Cold",
+                    "score": "9"
+                },
+                {
+                    "answer": "Flu",
+                    "score": "8"
+                },
+                {
+                    "answer": "Hay fever",
+                    "score": "7"
+                },
+                {
+                    "answer": "Skin rashes",
+                    "score": "6"
+                },
+                {
+                    "answer": "Headache",
+                    "score": "5"
+                },
+                {
+                    "answer": "Migraine",
+                    "score": "4"
+                },
+                {
+                    "answer": "Fatigue",
+                    "score": "3"
+                },
+                {
+                    "answer": "Insomnia",
+                    "score": "2"
+                },
+                {
+                    "answer": "Stress",
+                    "score": "1"
+                },
+                {
+                    "answer": "Back pain",
+                    "score": "10"
+                },
+                {
+                    "answer": "Joint pain",
+                    "score": "9"
+                },
+                {
+                    "answer": "Digestive issues",
+                    "score": "8"
+                },
+                {
+                    "answer": "Diarrhea",
+                    "score": "7"
+                },
+                {
+                    "answer": "Nausea",
+                    "score": "6"
+                },
+                {
+                    "answer": "Vomiting",
+                    "score": "5"
+                },
+                {
+                    "answer": "Dehydration",
+                    "score": "4"
+                },
+                {
+                    "answer": "Sunburn",
+                    "score": "3"
+                },
+                {
+                    "answer": "Heat exhaustion",
+                    "score": "2"
+                },
+                {
+                    "answer": "Heat stroke",
+                    "score": "1"
+                },
+                {
+                    "answer": "Insect bites",
+                    "score": "10"
+                },
+                {
+                    "answer": "Mosquito bites",
+                    "score": "9"
+                },
+                {
+                    "answer": "Tick bites",
+                    "score": "8"
+                },
+                {
+                    "answer": "Bee stings",
+                    "score": "7"
+                },
+                {
+                    "answer": "Lyme disease",
+                    "score": "6"
+                },
+                {
+                    "answer": "Food poisoning",
+                    "score": "5"
+                },
+                {
+                    "answer": "Food allergy",
+                    "score": "4"
+                },
+                {
+                    "answer": "Asthma",
+                    "score": "3"
+                },
+                {
+                    "answer": "Respiratory infections",
+                    "score": "2"
+                }
+            ]
+        },
+        {
+            "month_name": "june",
+            "month_ailments": [
+                {
+                    "answer": "Heat exhaustion",
+                    "score": "10"
+                },
+                {
+                    "answer": "Sunburn",
+                    "score": "10"
+                },
+                {
+                    "answer": "Dehydration",
+                    "score": "9"
+                },
+                {
+                    "answer": "Allergies",
+                    "score": "8"
+                },
+                {
+                    "answer": "Mosquito bites",
+                    "score": "7"
+                },
+                {
+                    "answer": "Food poisoning",
+                    "score": "6"
+                },
+                {
+                    "answer": "Strep throat",
+                    "score": "5"
+                },
+                {
+                    "answer": "Heat stroke",
+                    "score": "4"
+                },
+                {
+                    "answer": "Skin infections",
+                    "score": "3"
+                },
+                {
+                    "answer": "Migraines",
+                    "score": "2"
+                },
+                {
+                    "answer": "Hives",
+                    "score": "10"
+                },
+                {
+                    "answer": "Wasp stings",
+                    "score": "8"
+                },
+                {
+                    "answer": "Lyme disease",
+                    "score": "7"
+                },
+                {
+                    "answer": "Blister",
+                    "score": "6"
+                },
+                {
+                    "answer": "Insect bites",
+                    "score": "5"
+                },
+                {
+                    "answer": "Tinea",
+                    "score": "4"
+                },
+                {
+                    "answer": "Rash",
+                    "score": "3"
+                },
+                {
+                    "answer": "Sunlight sensitivity",
+                    "score": "2"
+                },
+                {
+                    "answer": "Heat cramps",
+                    "score": "1"
+                },
+                {
+                    "answer": "Cough",
+                    "score": "10"
+                },
+                {
+                    "answer": "Sore throat",
+                    "score": "9"
+                },
+                {
+                    "answer": "Cold",
+                    "score": "8"
+                },
+                {
+                    "answer": "Nausea",
+                    "score": "7"
+                },
+                {
+                    "answer": "Vomiting",
+                    "score": "6"
+                },
+                {
+                    "answer": "Diarrhea",
+                    "score": "5"
+                },
+                {
+                    "answer": "Headache",
+                    "score": "4"
+                },
+                {
+                    "answer": "Fatigue",
+                    "score": "3"
+                },
+                {
+                    "answer": "Dizziness",
+                    "score": "2"
+                },
+                {
+                    "answer": "Allergic rhinitis",
+                    "score": "1"
+                }
+            ]
+        },
+        {
+            "month_name": "july",
+            "month_ailments": [
+                {
+                    "answer": "Heat exhaustion",
+                    "score": "10"
+                },
+                {
+                    "answer": "Dehydration",
+                    "score": "10"
+                },
+                {
+                    "answer": "Sunburn",
+                    "score": "9"
+                },
+                {
+                    "answer": "Mosquito bites",
+                    "score": "8"
+                },
+                {
+                    "answer": "Allergic reactions",
+                    "score": "7"
+                },
+                {
+                    "answer": "Food poisoning",
+                    "score": "6"
+                },
+                {
+                    "answer": "Heat stroke",
+                    "score": "10"
+                },
+                {
+                    "answer": "Skin infections",
+                    "score": "5"
+                },
+                {
+                    "answer": "Insect stings",
+                    "score": "7"
+                },
+                {
+                    "answer": "Viral infections",
+                    "score": "6"
+                },
+                {
+                    "answer": "Malaria",
+                    "score": "3"
+                },
+                {
+                    "answer": "Hepatitis A",
+                    "score": "4"
+                },
+                {
+                    "answer": "Travel sickness",
+                    "score": "5"
+                },
+                {
+                    "answer": "Diarrhea",
+                    "score": "7"
+                },
+                {
+                    "answer": "Stomach flu",
+                    "score": "8"
+                },
+                {
+                    "answer": "Allergies",
+                    "score": "6"
+                },
+                {
+                    "answer": "Migraines",
+                    "score": "5"
+                },
+                {
+                    "answer": "Eye infections",
+                    "score": "4"
+                },
+                {
+                    "answer": "Ear infections",
+                    "score": "3"
+                },
+                {
+                    "answer": "Skin rashes",
+                    "score": "6"
+                },
+                {
+                    "answer": "Cold symptoms",
+                    "score": "7"
+                },
+                {
+                    "answer": "Respiratory infections",
+                    "score": "5"
+                },
+                {
+                    "answer": "Joint pain",
+                    "score": "6"
+                },
+                {
+                    "answer": "Muscle strains",
+                    "score": "5"
+                },
+                {
+                    "answer": "Fatigue",
+                    "score": "4"
+                },
+                {
+                    "answer": "Headaches",
+                    "score": "7"
+                },
+                {
+                    "answer": "Nausea",
+                    "score": "6"
+                },
+                {
+                    "answer": "Vomiting",
+                    "score": "5"
+                },
+                {
+                    "answer": "Dizziness",
+                    "score": "4"
+                },
+                {
+                    "answer": "Fatigue",
+                    "score": "5"
+                }
+            ]
+        },
+        {
+            "month_name": "august",
+            "month_ailments": [
+                {
+                    "answer": "Heat exhaustion",
+                    "score": "10"
+                },
+                {
+                    "answer": "Dehydration",
+                    "score": "10"
+                },
+                {
+                    "answer": "Sunburn",
+                    "score": "9"
+                },
+                {
+                    "answer": "Allergies",
+                    "score": "8"
+                },
+                {
+                    "answer": "Mosquito bites",
+                    "score": "7"
+                },
+                {
+                    "answer": "Heat stroke",
+                    "score": "7"
+                },
+                {
+                    "answer": "Skin infections",
+                    "score": "6"
+                },
+                {
+                    "answer": "Flu-like symptoms",
+                    "score": "6"
+                },
+                {
+                    "answer": "Food poisoning",
+                    "score": "5"
+                },
+                {
+                    "answer": "Malaria",
+                    "score": "5"
+                },
+                {
+                    "answer": "Tick bites",
+                    "score": "5"
+                },
+                {
+                    "answer": "Stomach flu",
+                    "score": "5"
+                },
+                {
+                    "answer": "Heat rash",
+                    "score": "5"
+                },
+                {
+                    "answer": "Hives",
+                    "score": "4"
+                },
+                {
+                    "answer": "Eye infections",
+                    "score": "4"
+                },
+                {
+                    "answer": "Cold sores",
+                    "score": "4"
+                },
+                {
+                    "answer": "Viral infections",
+                    "score": "4"
+                },
+                {
+                    "answer": "Swimmer's ear",
+                    "score": "3"
+                },
+                {
+                    "answer": "Lyme disease",
+                    "score": "3"
+                },
+                {
+                    "answer": "Rash",
+                    "score": "3"
+                },
+                {
+                    "answer": "Migraines",
+                    "score": "3"
+                },
+                {
+                    "answer": "Back pain",
+                    "score": "3"
+                },
+                {
+                    "answer": "Diarrhea",
+                    "score": "3"
+                },
+                {
+                    "answer": "Viral fever",
+                    "score": "2"
+                },
+                {
+                    "answer": "Eczema flare-ups",
+                    "score": "2"
+                },
+                {
+                    "answer": "Athlete's foot",
+                    "score": "2"
+                },
+                {
+                    "answer": "Colds",
+                    "score": "2"
+                },
+                {
+                    "answer": "Fatigue",
+                    "score": "2"
+                },
+                {
+                    "answer": "Stress-related ailments",
+                    "score": "1"
+                }
+            ]
+        },
+        {
+            "month_name": "september",
+            "month_ailments": [
+                {
+                    "answer": "Seasonal allergies",
+                    "score": "10"
+                },
+                {
+                    "answer": "Cold symptoms",
+                    "score": "9"
+                },
+                {
+                    "answer": "Flu symptoms",
+                    "score": "8"
+                },
+                {
+                    "answer": "Sinus infections",
+                    "score": "7"
+                },
+                {
+                    "answer": "Skin rashes",
+                    "score": "6"
+                },
+                {
+                    "answer": "Headaches",
+                    "score": "5"
+                },
+                {
+                    "answer": "Migraines",
+                    "score": "4"
+                },
+                {
+                    "answer": "Fatigue",
+                    "score": "3"
+                },
+                {
+                    "answer": "Depression",
+                    "score": "2"
+                },
+                {
+                    "answer": "Anxiety",
+                    "score": "1"
+                },
+                {
+                    "answer": "Insomnia",
+                    "score": "10"
+                },
+                {
+                    "answer": "Digestive issues",
+                    "score": "8"
+                },
+                {
+                    "answer": "Diarrhea",
+                    "score": "7"
+                },
+                {
+                    "answer": "Vomiting",
+                    "score": "6"
+                },
+                {
+                    "answer": "Nausea",
+                    "score": "5"
+                },
+                {
+                    "answer": "Stomach flu",
+                    "score": "4"
+                },
+                {
+                    "answer": "Food poisoning",
+                    "score": "3"
+                },
+                {
+                    "answer": "Allergic reactions",
+                    "score": "2"
+                },
+                {
+                    "answer": "Respiratory infections",
+                    "score": "1"
+                },
+                {
+                    "answer": "Bronchitis",
+                    "score": "10"
+                },
+                {
+                    "answer": "Asthma flare-ups",
+                    "score": "9"
+                },
+                {
+                    "answer": "Coughing",
+                    "score": "8"
+                },
+                {
+                    "answer": "Sore throat",
+                    "score": "7"
+                },
+                {
+                    "answer": "Ear infections",
+                    "score": "6"
+                },
+                {
+                    "answer": "Tonsillitis",
+                    "score": "5"
+                },
+                {
+                    "answer": "Common cold",
+                    "score": "4"
+                },
+                {
+                    "answer": "Hay fever",
+                    "score": "3"
+                },
+                {
+                    "answer": "Allergic rhinitis",
+                    "score": "2"
+                },
+                {
+                    "answer": "Skin infections",
+                    "score": "1"
+                }
+            ]
+        },
+        {
+            "month_name": "october",
+            "month_ailments": [
+                {
+                    "answer": "Common cold",
+                    "score": "10"
+                },
+                {
+                    "answer": "Seasonal allergies",
+                    "score": "9"
+                },
+                {
+                    "answer": "Flu",
+                    "score": "8"
+                },
+                {
+                    "answer": "Bronchitis",
+                    "score": "7"
+                },
+                {
+                    "answer": "Sinusitis",
+                    "score": "7"
+                },
+                {
+                    "answer": "Headache",
+                    "score": "6"
+                },
+                {
+                    "answer": "Fatigue",
+                    "score": "6"
+                },
+                {
+                    "answer": "Diarrhea",
+                    "score": "5"
+                },
+                {
+                    "answer": "Nausea",
+                    "score": "5"
+                },
+                {
+                    "answer": "Rash",
+                    "score": "5"
+                },
+                {
+                    "answer": "Back pain",
+                    "score": "5"
+                },
+                {
+                    "answer": "Stomach flu",
+                    "score": "5"
+                },
+                {
+                    "answer": "Hypothermia",
+                    "score": "4"
+                },
+                {
+                    "answer": "Migraine",
+                    "score": "4"
+                },
+                {
+                    "answer": "Anxiety",
+                    "score": "4"
+                },
+                {
+                    "answer": "Depression",
+                    "score": "4"
+                },
+                {
+                    "answer": "Viral infection",
+                    "score": "3"
+                },
+                {
+                    "answer": "Dental issues",
+                    "score": "3"
+                },
+                {
+                    "answer": "Skin infections",
+                    "score": "3"
+                },
+                {
+                    "answer": "Eye infections",
+                    "score": "3"
+                },
+                {
+                    "answer": "Respiratory infections",
+                    "score": "3"
+                },
+                {
+                    "answer": "Ear infections",
+                    "score": "3"
+                },
+                {
+                    "answer": "Gastroenteritis",
+                    "score": "2"
+                },
+                {
+                    "answer": "Chronic fatigue",
+                    "score": "2"
+                },
+                {
+                    "answer": "Sleep disorders",
+                    "score": "2"
+                },
+                {
+                    "answer": "Muscle pain",
+                    "score": "2"
+                },
+                {
+                    "answer": "Chills",
+                    "score": "2"
+                },
+                {
+                    "answer": "Fever",
+                    "score": "2"
+                },
+                {
+                    "answer": "Vitamin deficiency",
+                    "score": "1"
+                }
+            ]
+        },
+        {
+            "month_name": "november",
+            "month_ailments": [
+                {
+                    "answer": "Cold",
+                    "score": "10"
+                },
+                {
+                    "answer": "Flu",
+                    "score": "9"
+                },
+                {
+                    "answer": "Allergies",
+                    "score": "8"
+                },
+                {
+                    "answer": "Cough",
+                    "score": "7"
+                },
+                {
+                    "answer": "Sore throat",
+                    "score": "7"
+                },
+                {
+                    "answer": "Sinus infection",
+                    "score": "6"
+                },
+                {
+                    "answer": "Bronchitis",
+                    "score": "6"
+                },
+                {
+                    "answer": "Headache",
+                    "score": "5"
+                },
+                {
+                    "answer": "Fatigue",
+                    "score": "5"
+                },
+                {
+                    "answer": "Nausea",
+                    "score": "4"
+                },
+                {
+                    "answer": "Diarrhea",
+                    "score": "4"
+                },
+                {
+                    "answer": "Stomach flu",
+                    "score": "4"
+                },
+                {
+                    "answer": "Rheumatism",
+                    "score": "3"
+                },
+                {
+                    "answer": "Migraine",
+                    "score": "3"
+                },
+                {
+                    "answer": "Insomnia",
+                    "score": "3"
+                },
+                {
+                    "answer": "Depression",
+                    "score": "2"
+                },
+                {
+                    "answer": "Anxiety",
+                    "score": "2"
+                },
+                {
+                    "answer": "Skin rashes",
+                    "score": "2"
+                },
+                {
+                    "answer": "Hypothermia",
+                    "score": "1"
+                },
+                {
+                    "answer": "Frostbite",
+                    "score": "1"
+                },
+                {
+                    "answer": "Chills",
+                    "score": "10"
+                },
+                {
+                    "answer": "Hypoglycemia",
+                    "score": "8"
+                },
+                {
+                    "answer": "Vitamin deficiency",
+                    "score": "7"
+                },
+                {
+                    "answer": "Weight gain",
+                    "score": "6"
+                },
+                {
+                    "answer": "Mood swings",
+                    "score": "5"
+                },
+                {
+                    "answer": "Constipation",
+                    "score": "5"
+                },
+                {
+                    "answer": "Dental issues",
+                    "score": "4"
+                },
+                {
+                    "answer": "Hair loss",
+                    "score": "3"
+                },
+                {
+                    "answer": "Eye strain",
+                    "score": "3"
+                },
+                {
+                    "answer": "Back pain",
+                    "score": "2"
+                }
+            ]
+        },
+        {
+            "month_name": "december",
+            "month_ailments": [
+                {
+                    "answer": "Cold",
+                    "score": "10"
+                },
+                {
+                    "answer": "Flu",
+                    "score": "10"
+                },
+                {
+                    "answer": "Cough",
+                    "score": "9"
+                },
+                {
+                    "answer": "Sore throat",
+                    "score": "8"
+                },
+                {
+                    "answer": "Runny nose",
+                    "score": "8"
+                },
+                {
+                    "answer": "Headache",
+                    "score": "7"
+                },
+                {
+                    "answer": "Fatigue",
+                    "score": "7"
+                },
+                {
+                    "answer": "Allergies",
+                    "score": "6"
+                },
+                {
+                    "answer": "Sinus infection",
+                    "score": "6"
+                },
+                {
+                    "answer": "Diarrhea",
+                    "score": "5"
+                },
+                {
+                    "answer": "Viral infection",
+                    "score": "5"
+                },
+                {
+                    "answer": "Migraine",
+                    "score": "5"
+                },
+                {
+                    "answer": "Nausea",
+                    "score": "4"
+                },
+                {
+                    "answer": "Skin rash",
+                    "score": "4"
+                },
+                {
+                    "answer": "Stomach flu",
+                    "score": "4"
+                },
+                {
+                    "answer": "Hypothermia",
+                    "score": "3"
+                },
+                {
+                    "answer": "Wheezing",
+                    "score": "3"
+                },
+                {
+                    "answer": "Joint pain",
+                    "score": "3"
+                },
+                {
+                    "answer": "Anxiety",
+                    "score": "2"
+                },
+                {
+                    "answer": "Depression",
+                    "score": "2"
+                },
+                {
+                    "answer": "Insomnia",
+                    "score": "2"
+                },
+                {
+                    "answer": "Dizziness",
+                    "score": "1"
+                },
+                {
+                    "answer": "Tinnitus",
+                    "score": "1"
+                },
+                {
+                    "answer": "Chronic fatigue",
+                    "score": "1"
+                },
+                {
+                    "answer": "Eye strain",
+                    "score": "1"
+                },
+                {
+                    "answer": "Nasal congestion",
+                    "score": "1"
+                },
+                {
+                    "answer": "Chills",
+                    "score": "1"
+                },
+                {
+                    "answer": "Fever",
+                    "score": "1"
+                },
+                {
+                    "answer": "Body aches",
+                    "score": "1"
+                }
+            ]
+        }
+    ]
+}

@@ -5,7 +5,7 @@ from lib import g
 shutil.copy2('style.css', f'{g.WEBSITE_FOLDERPATH}/style.css')
 
 # herbs
-if 1:
+if 0:
     if 1:
         from lib import art_herbs_preparations
         art_herbs_preparations.gen()
@@ -32,17 +32,17 @@ if 0:
         cat_ailments.gen()
 
 # preparations
-if 0:
-    if 1:
+if 1:
+    if 0:
         from lib import art_preparations_herbs
         art_preparations_herbs.gen()
-    if 1:
+    if 0:
         from lib import art_preparations_best
         art_preparations_best.gen()
-    if 0:
+    if 1:
         from lib import art_preparations
         art_preparations.gen()
-    if 0:
+    if 1:
         from lib import cat_preparations
         cat_preparations.gen()
 

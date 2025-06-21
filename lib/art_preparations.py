@@ -50,6 +50,62 @@ def ai_intro(entity, json_article_filepath, regen=False, clear=False):
         model_filepath = model_filepath,
     )
 
+def ai_what(entity, json_article_filepath, regen=False, clear=False):
+    entity_slug = entity['entity_slug']
+    entity_name_singular = entity['entity_name_singular']
+    entity_name_plural = entity['entity_name_plural']
+    ###
+    json_article = io.json_read(json_article_filepath)
+    reply_start = f'{entity_name_plural.capitalize()} are '
+    llm.paragraph_ai(
+        key = 'what',
+        filepath = json_article_filepath, 
+        data = json_article, 
+        obj = json_article, 
+        prompt = f'''
+            Write a short 5-sentence paragraph about the following herbal preparation: {entity_name_plural}.
+            Start by giving a simple and clear definition of what this herbal preparation is.
+            Then compare with other herbal preparations, explaining how is it different.
+            End by giving a quick overview of it's benefits compared to other preparations.
+            If you can't answer, reply with only "I can't reply".
+            Start with the following words: {reply_start} .
+            /no_think
+        ''',
+        reply_start = reply_start,
+        regen = regen,
+        clear = clear,
+        print_prompt = True,
+        model_filepath = model_filepath,
+    )
+
+def ai_how_it_works(entity, json_article_filepath, regen=False, clear=False):
+    entity_slug = entity['entity_slug']
+    entity_name_singular = entity['entity_name_singular']
+    entity_name_plural = entity['entity_name_plural']
+    ###
+    json_article = io.json_read(json_article_filepath)
+    reply_start = f'{entity_name_plural.capitalize()} work by '
+    llm.paragraph_ai(
+        key = 'how_it_works',
+        filepath = json_article_filepath, 
+        data = json_article, 
+        obj = json_article, 
+        prompt = f'''
+            Write a short 5-sentence paragraph about the following herbal preparation for medicinal purposes: {entity_name_plural}.
+            Start by explaining how this preparation works, the science behind it (solubility, extraction, infusion, heat, alcohol, etc.)
+            Then explain the active constituents typically extracted.
+            End by explaining how it interacts with the body (asorption, delivery, potency).
+            If you can't answer, reply with only "I can't reply".
+            Start with the following words: {reply_start} .
+            /no_think
+        ''',
+        reply_start = reply_start,
+        regen = regen,
+        clear = clear,
+        print_prompt = True,
+        model_filepath = model_filepath,
+    )
+
 def ai_best(entity, json_article_filepath, regen=False, clear=False):
     entity_slug = entity['entity_slug']
     entity_name_singular = entity['entity_name_singular']
@@ -96,6 +152,8 @@ def json_gen(entity, url_relative):
     io.json_write(json_article_filepath, json_article)
     ###
     ai_intro(entity, json_article_filepath, regen=False, clear=False)
+    ai_what(entity, json_article_filepath, regen=False, clear=False)
+    ai_how_it_works(entity, json_article_filepath, regen=False, clear=False)
     ai_best(entity, json_article_filepath, regen=False, clear=False)
 
 def imgs_preparations_gen(entity, quality):
@@ -203,6 +261,16 @@ def html_gen(entity, url_relative):
         if json_article[key][0] != '[':
             html_article += f'''{utils.text_format_1N1_html(json_article[key])}\n'''
     html_article += f'[html_intro_toc]\n'
+    key = 'what'
+    if key in json_article:
+        if json_article[key][0] != '[':
+            html_article += f'<h2>What is a {entity_name_singular}?</h2>\n'
+            html_article += f'''{utils.text_format_1N1_html(json_article[key])}\n'''
+    key = 'how_it_works'
+    if key in json_article:
+        if json_article[key][0] != '[':
+            html_article += f'<h2>How {entity_name_singular} works?</h2>\n'
+            html_article += f'''{utils.text_format_1N1_html(json_article[key])}\n'''
     key = 'best'
     if key in json_article:
         if json_article[key][0] != '[':
@@ -247,7 +315,7 @@ def gen():
         url_relative = f'{category_slug}/{entity_slug}'
         ###
         json_gen(entity, url_relative)
-        imgs_gen(entity, url_relative)
+        # imgs_gen(entity, url_relative)
         html_gen(entity, url_relative)
         # quit()
 

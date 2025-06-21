@@ -279,6 +279,6 @@ def gen():
         url_relative = f'{category_slug}/{entity_slug}/best'
         ###
         json_gen(entity, url_relative)
-        imgs_gen(entity, url_relative)
+        # imgs_gen(entity, url_relative)
         html_gen(entity, url_relative)
         # quit()

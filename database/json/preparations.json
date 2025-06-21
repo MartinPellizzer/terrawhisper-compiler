@@ -33,6 +33,12 @@
             "entity_name_singular": "cream",
             "entity_name_plural": "creams",
             "desc": "Creams are topical herbal preparations made by combining plant-based ingredients with a base of oil, water, or both, often emulsified to create a smooth, spreadable texture. In herbalism, creams are used to deliver medicinal properties directly to the skin, providing relief for conditions like inflammation, eczema, or muscle pain. They may contain herbs such as aloe vera, calendula, or lavender, each offering specific therapeutic benefits. These preparations are commonly applied to affected areas for localized treatment. Creams are valued for their ability to soothe, heal, and protect the skin while leveraging the potency of natural botanicals."
+        },
+        {
+            "entity_slug": "syrups",
+            "entity_name_singular": "syrup",
+            "entity_name_plural": "syrups",
+            "desc": "Syrups are concentrated herbal preparations made by extracting active compounds from plants using heat and sugar or honey. They are commonly used in herbalism to deliver potent medicinal properties in a palatable form. Syrups are often employed to treat respiratory conditions, soothe coughs, and alleviate sore throats due to their expectorant and antimicrobial qualities. They can also be used to support digestive health and provide a steady release of herbal constituents. Syrups are valued for their ease of use, especially for children and elderly individuals who may have difficulty swallowing tablets or capsules."
         }
     ]
 }
